@@ -560,13 +560,26 @@ function checkInput() {
     if (character && character.romaji.toUpperCase() == inputValue) {
         correct += 1;
         totoal += 1;
+        say(character.hiragana);
         next();
     }
 }
 
+function say(m) {
+    var msg = new SpeechSynthesisUtterance();
+    var voices = window.speechSynthesis.getVoices();
+    //msg.voice = voices[10];
+    msg.voiceURI = "native";
+    msg.volume = 0.33;
+    //msg.rate = 1;
+    //msg.pitch = 0.8;
+    msg.text = m;
+    msg.lang = 'ja-JP';
+    window.speechSynthesis.speak(msg);
+}
+
 function next() {
     let rnd = Math.floor(Math.random() * characters.length);
-
     character = characters[rnd];
 
     let characterPreview = document.getElementById("character-preview");
@@ -601,6 +614,8 @@ var x = setInterval(function () {
         romajiInput.value = character.romaji;
         romajiInput.className = "romaji-input input-error";
         romajiInput.disabled = true;
+
+        say(character.hiragana);
 
         setTimeout(function () {
             next();
