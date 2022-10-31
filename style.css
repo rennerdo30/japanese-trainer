@@ -1,0 +1,27 @@
+.container {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-flow: column wrap;
+  }
+  
+  .character-preview {
+    margin: auto;
+    text-align: center;
+    font-size: 20em;
+  }
+  
+  .romaji-input {
+    width: 3em;
+    font-size: 10em;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .stats {
+    font-size: 2em;
+  }
+
+  .input-error {
+    color: red;
+  }

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" class="notranslate" translate="no">
+
+<head>
+    <script src="learn_alphabet.js"></script>
+    <script src="https://unpkg.com/wanakana@5.0.2/wanakana.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="google" content="notranslate" />
+    <meta charset="UTF-8">
+    <META http-equiv="Content-Type" contentType="text/html; charset=EUC-JP" >
+</head>
+
+<body onload="next()">
+    <div class="container">
+        <div class="character-preview" id="character-preview"></div>
+        <input class="romaji-input" type="text" id="romaji-input" name="romaji-input" onkeyup="checkInput()" />
+        <p class="stats" id="stats">
+            {correct} / {total}
+        </p>
+        <p class="stats" id="countdown">
+            
+        </p>
+    </div>
+
+</body>
+
+</html>
