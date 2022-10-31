@@ -8,18 +8,23 @@
 
     <meta name="google" content="notranslate" />
     <meta charset="UTF-8">
-    <META http-equiv="Content-Type" contentType="text/html; charset=EUC-JP" >
+    <META http-equiv="Content-Type" contentType="text/html; charset=EUC-JP">
 </head>
 
 <body onload="next()">
     <div class="container">
+        <div class="character-options">
+            <label>Gojūon<input type="checkbox" id="gojuon" checked></label>
+            <label>Yōon<input type="checkbox" id="yoon"></label>
+            <label>Dakuten / Handakuten<input type="checkbox" id="dakuten"></label>
+        </div>
         <div class="character-preview" id="character-preview"></div>
         <input class="romaji-input" type="text" id="romaji-input" name="romaji-input" onkeyup="checkInput()" />
         <p class="stats" id="stats">
             {correct} / {total}
         </p>
         <p class="stats" id="countdown">
-            
+
         </p>
     </div>
 
