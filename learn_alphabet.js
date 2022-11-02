@@ -693,6 +693,8 @@ function next() {
     let yoon = document.getElementById("yoon");
     let dakuten = document.getElementById("dakuten");
 
+    let hiragana = document.getElementById("hiragana");
+
     var availableCharacters = characters.filter(function (el) {
         if (!el.type)
         {
@@ -713,7 +715,7 @@ function next() {
     character = availableCharacters[rnd];
 
     let characterPreview = document.getElementById("character-preview");
-    characterPreview.innerText = character.hiragana;
+    characterPreview.innerText = hiragana.checked ? character.hiragana : wanakana.toKatakana(character.hiragana);
 
     let stats = document.getElementById("stats");
     stats.innerText = correct + " / " + totoal;
@@ -745,7 +747,8 @@ var x = setInterval(function () {
         romajiInput.className = "romaji-input input-error";
         romajiInput.disabled = true;
 
-        say(character.hiragana);
+        let hiragana = document.getElementById("hiragana");
+        say(hiragana.checked ? character.hiragana : wanakana.toKatakana(character.hiragana));
 
         setTimeout(function () {
             next();
