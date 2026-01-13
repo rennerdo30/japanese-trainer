@@ -350,6 +350,62 @@ body::before {
   color: var(--text-muted);
 }
 
+/* Multiple Choice Container */
+.multiple-choice-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  width: min(90vw, 400px);
+  margin-bottom: 0.5rem;
+}
+
+.choice-button {
+  padding: 1.25rem 1.5rem;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  color: var(--text-primary);
+  background: var(--bg-card);
+  border: 2px solid var(--border-subtle);
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.choice-button:active {
+  transform: scale(0.98);
+}
+
+.choice-button:not(.choice-disabled):hover {
+  border-color: var(--accent-gold);
+  box-shadow: 0 0 0 4px var(--accent-gold-dim);
+}
+
+.choice-button.choice-success {
+  border-color: var(--success);
+  background: rgba(74, 157, 124, 0.15);
+  box-shadow: 0 0 0 4px var(--success-glow);
+  color: var(--success);
+}
+
+.choice-button.choice-correct {
+  border-color: var(--success);
+  background: rgba(74, 157, 124, 0.15);
+  color: var(--success);
+}
+
+.choice-button.choice-disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
 /* Stats Display */
 .stats-container {
   display: flex;
@@ -530,6 +586,17 @@ body::before {
   .romaji-input {
     font-size: 2rem;
     padding: 0.75rem 1rem;
+  }
+
+  .multiple-choice-container {
+    width: 85vw;
+    gap: 0.75rem;
+  }
+
+  .choice-button {
+    font-size: 1.25rem;
+    padding: 1rem 1.25rem;
+    min-height: 55px;
   }
 
   .stats-container {

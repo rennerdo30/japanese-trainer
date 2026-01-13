@@ -123,14 +123,52 @@ let character = null;
 let countdown = 0;
 let timerInterval = null;
 let isProcessing = false;
+let isMobile = false;
+let multipleChoiceOptions = [];
 
 // DOM Elements (cached after load)
 let elements = {};
+
+// Mobile detection
+function isMobileDevice() {
+    // Check user agent for mobile patterns
+    const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+    const mobileRegex = /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i;
+    const isUserAgentMobile = mobileRegex.test(userAgent.toLowerCase());
+    
+    // Check for touch capability
+    const hasTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+    
+    // Check screen width (mobile typically < 768px)
+    const isSmallScreen = window.innerWidth < 768;
+    
+    // Consider it mobile if at least 2 out of 3 conditions are true
+    const conditions = [isUserAgentMobile, hasTouch, isSmallScreen];
+    const trueCount = conditions.filter(Boolean).length;
+    
+    // Debug logging (remove in production or wrap in DEBUG flag)
+    if (window.DEBUG_MOBILE) {
+        console.log('Mobile Detection:', {
+            userAgent: userAgent,
+            isUserAgentMobile,
+            hasTouch,
+            isSmallScreen,
+            screenWidth: window.innerWidth,
+            trueCount,
+            isMobile: trueCount >= 2
+        });
+    }
+    
+    return trueCount >= 2;
+}
 
 // Initialize when DOM is ready
 document.addEventListener('DOMContentLoaded', init);
 
 function init() {
+    // Detect mobile device
+    isMobile = isMobileDevice();
+    
     // Cache DOM elements
     elements = {
         characterPreview: document.getElementById('character-preview'),
@@ -145,10 +183,32 @@ function init() {
         yoon: document.getElementById('yoon'),
         dakuten: document.getElementById('dakuten'),
         hiragana: document.getElementById('hiragana'),
+        inputSection: document.querySelector('.input-section'),
+        multipleChoiceContainer: document.getElementById('multiple-choice-container'),
+        multipleChoiceButtons: document.querySelectorAll('.choice-button'),
     };
 
-    // Set up input listener
-    elements.romajiInput.addEventListener('input', checkInput);
+    // Debug logging
+    if (window.DEBUG_MOBILE) {
+        console.log('Initialization:', {
+            isMobile,
+            hasInput: !!elements.romajiInput,
+            hasMultipleChoice: !!elements.multipleChoiceContainer,
+            buttonCount: elements.multipleChoiceButtons?.length || 0
+        });
+    }
+
+    // Set up UI based on device type
+    if (isMobile) {
+        setupMultipleChoice();
+    } else {
+        // Set up text input listener
+        elements.romajiInput.addEventListener('input', checkInput);
+        elements.romajiInput.style.display = 'block';
+        if (elements.multipleChoiceContainer) {
+            elements.multipleChoiceContainer.style.display = 'none';
+        }
+    }
 
     // Start the game
     next();
@@ -183,6 +243,56 @@ function checkInput() {
     }
 }
 
+function checkMultipleChoice(selectedRomaji) {
+    if (isProcessing || !character) return;
+
+    if (window.DEBUG_MOBILE) {
+        console.log('Multiple choice selected:', {
+            selected: selectedRomaji,
+            correct: character.romaji,
+            isCorrect: selectedRomaji === character.romaji
+        });
+    }
+
+    if (selectedRomaji === character.romaji) {
+        handleCorrectAnswer();
+    } else {
+        handleIncorrectAnswer();
+    }
+}
+
+function handleIncorrectAnswer() {
+    isProcessing = true;
+    total++;
+    streak = 0;
+
+    // Update display
+    updateStats();
+    updateStreak();
+
+    // Find and highlight the correct button
+    const buttons = elements.multipleChoiceContainer.querySelectorAll('.choice-button');
+    buttons.forEach(button => {
+        if (button.dataset.romaji === character.romaji) {
+            button.classList.add('choice-correct');
+        } else {
+            button.classList.add('choice-disabled');
+        }
+    });
+
+    // Speak the character
+    speak(getDisplayCharacter(character));
+
+    // Wait then move to next
+    setTimeout(() => {
+        buttons.forEach(button => {
+            button.classList.remove('choice-correct', 'choice-disabled');
+        });
+        next();
+        isProcessing = false;
+    }, 2000);
+}
+
 function handleCorrectAnswer() {
     isProcessing = true;
     correct++;
@@ -194,7 +304,17 @@ function handleCorrectAnswer() {
     updateStreak();
 
     // Visual feedback
-    elements.romajiInput.classList.add('input-success');
+    if (isMobile) {
+        const buttons = elements.multipleChoiceContainer.querySelectorAll('.choice-button');
+        buttons.forEach(button => {
+            if (button.dataset.romaji === character.romaji) {
+                button.classList.add('choice-success');
+            }
+            button.classList.add('choice-disabled');
+        });
+    } else {
+        elements.romajiInput.classList.add('input-success');
+    }
     elements.characterPreview.classList.add('correct');
 
     // Speak the character
@@ -202,7 +322,14 @@ function handleCorrectAnswer() {
 
     // Quick transition to next
     setTimeout(() => {
-        elements.romajiInput.classList.remove('input-success');
+        if (isMobile) {
+            const buttons = elements.multipleChoiceContainer.querySelectorAll('.choice-button');
+            buttons.forEach(button => {
+                button.classList.remove('choice-success', 'choice-disabled');
+            });
+        } else {
+            elements.romajiInput.classList.remove('input-success');
+        }
         elements.characterPreview.classList.remove('correct');
         next();
         isProcessing = false;
@@ -221,20 +348,89 @@ function handleTimeout() {
     updateStreak();
 
     // Show correct answer
-    elements.romajiInput.value = character.romaji;
-    elements.romajiInput.classList.add('input-error');
-    elements.romajiInput.disabled = true;
+    if (isMobile) {
+        const buttons = elements.multipleChoiceContainer.querySelectorAll('.choice-button');
+        buttons.forEach(button => {
+            if (button.dataset.romaji === character.romaji) {
+                button.classList.add('choice-correct');
+            }
+            button.classList.add('choice-disabled');
+        });
+    } else {
+        elements.romajiInput.value = character.romaji;
+        elements.romajiInput.classList.add('input-error');
+        elements.romajiInput.disabled = true;
+    }
 
     // Speak the character
     speak(getDisplayCharacter(character));
 
     // Wait then move to next
     setTimeout(() => {
-        elements.romajiInput.classList.remove('input-error');
-        elements.romajiInput.disabled = false;
+        if (isMobile) {
+            const buttons = elements.multipleChoiceContainer.querySelectorAll('.choice-button');
+            buttons.forEach(button => {
+                button.classList.remove('choice-correct', 'choice-disabled');
+            });
+        } else {
+            elements.romajiInput.classList.remove('input-error');
+            elements.romajiInput.disabled = false;
+        }
         next();
         isProcessing = false;
     }, 2000);
+}
+
+function generateMultipleChoiceOptions(correctChar) {
+    const availableCharacters = getAvailableCharacters();
+    
+    if (availableCharacters.length === 0) {
+        return [];
+    }
+
+    // Create a set of incorrect options (exclude the correct answer)
+    const incorrectOptions = availableCharacters.filter(char => char.romaji !== correctChar.romaji);
+    
+    // Shuffle and take 3 random incorrect options
+    const shuffled = incorrectOptions.sort(() => Math.random() - 0.5);
+    const selectedIncorrect = shuffled.slice(0, 3);
+    
+    // Combine correct answer with incorrect options
+    const options = [correctChar, ...selectedIncorrect];
+    
+    // Shuffle the final array to randomize position
+    const finalOptions = options.sort(() => Math.random() - 0.5);
+    
+    // Debug logging
+    if (window.DEBUG_MOBILE) {
+        console.log('Generated options:', {
+            correct: correctChar.romaji,
+            options: finalOptions.map(o => o.romaji),
+            availableCount: availableCharacters.length
+        });
+    }
+    
+    return finalOptions;
+}
+
+function setupMultipleChoice() {
+    if (!elements.multipleChoiceContainer) return;
+    
+    // Hide text input
+    elements.romajiInput.style.display = 'none';
+    
+    // Show multiple choice container
+    elements.multipleChoiceContainer.style.display = 'grid';
+    
+    // Set up button click handlers
+    const buttons = elements.multipleChoiceContainer.querySelectorAll('.choice-button');
+    buttons.forEach(button => {
+        button.addEventListener('click', function() {
+            if (isProcessing || this.classList.contains('choice-disabled')) return;
+            const selectedRomaji = this.dataset.romaji;
+            checkMultipleChoice(selectedRomaji);
+        });
+    });
 }
 
 function next() {
@@ -260,9 +456,22 @@ function next() {
     void elements.characterPreview.offsetWidth; // Force reflow
     elements.characterPreview.classList.add('character-entering');
 
-    // Reset input
-    elements.romajiInput.value = '';
-    elements.romajiInput.focus();
+    // Generate and display multiple choice options if on mobile
+    if (isMobile && elements.multipleChoiceContainer) {
+        multipleChoiceOptions = generateMultipleChoiceOptions(character);
+        const buttons = elements.multipleChoiceContainer.querySelectorAll('.choice-button');
+        buttons.forEach((button, index) => {
+            if (multipleChoiceOptions[index]) {
+                button.textContent = multipleChoiceOptions[index].romaji;
+                button.dataset.romaji = multipleChoiceOptions[index].romaji;
+                button.classList.remove('choice-disabled', 'choice-success', 'choice-correct');
+            }
+        });
+    } else {
+        // Reset text input
+        elements.romajiInput.value = '';
+        elements.romajiInput.focus();
+    }
 
     // Reset timer
     countdown = TIME_PER_CHARACTER;

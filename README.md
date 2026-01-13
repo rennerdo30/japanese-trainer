@@ -12,7 +12,10 @@ A lightweight, browser-based Japanese alphabet learning application. Practice re
   - **Yōon** (拗音) - Palatalized combinations (きゃ, しゅ, ちょ)
   - **Dakuten** (濁音) - Voiced consonants (が, ざ, だ)
   - **Handakuten** (半濁音) - Semi-voiced sounds (ぱ, ぴ, ぷ)
-- **Interactive Quiz**: Type Romaji to match displayed characters
+- **Adaptive Input Methods**:
+  - **Desktop**: Type Romaji to match displayed characters
+  - **Mobile**: Multiple choice buttons (4 options) for touch-friendly interaction
+- **Smart Mobile Detection**: Automatically switches to multiple choice on mobile devices
 - **Timer System**: 5-second countdown per character for timed practice
 - **Text-to-Speech**: Automatic pronunciation using Web Speech API
 - **Progress Tracking**: Real-time score display (correct/total)
@@ -56,6 +59,7 @@ japanese-trainer/
 ├── learn_alphabet.js       # Core application logic (character database + quiz logic)
 ├── style.css               # Styling
 ├── CNAME                   # GitHub Pages domain configuration
+├── DEBUGGING.md            # Debugging guide for mobile features
 └── README.md               # This file
 ```
 
