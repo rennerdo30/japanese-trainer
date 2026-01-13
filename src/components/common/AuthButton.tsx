@@ -8,6 +8,12 @@ import LoginDialog from './LoginDialog';
 import styles from './AuthButton.module.css';
 
 export default function AuthButton() {
+    const convexUrl = process.env.NEXT_PUBLIC_CONVEX_URL;
+
+    if (!convexUrl) {
+        return null;
+    }
+
     const currentUser = useQuery(api.auth.getCurrentUser);
     const { signOut } = useAuthActions();
     const [showLoginDialog, setShowLoginDialog] = useState(false);
