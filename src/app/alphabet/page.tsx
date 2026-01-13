@@ -25,7 +25,8 @@ export default function AlphabetPage() {
     const { updateModuleStats: updateStats } = useProgressContext();
     const { t } = useLanguage();
     const isMobile = useMobile();
-    const { speak } = useTTS();
+    const { speakAndWait, preloadAudio } = useTTS();
+    const preloadedAudioRef = useRef<HTMLAudioElement | null>(null);
     const [currentChar, setCurrentChar] = useState<Character | null>(null);
     const [correct, setCorrect] = useState(0);
     const [total, setTotal] = useState(0);
@@ -110,22 +111,20 @@ export default function AlphabetPage() {
         });
     }, [getAvailableCharacters, currentChar, isMobile, generateMultipleChoice]);
 
-    const handleTimeout = useCallback(() => {
+    const handleTimeout = useCallback(async () => {
         if (isProcessing || !currentChar) return;
         setIsProcessing(true);
         setInputState('error');
         setTotal(prev => prev + 1);
         setStreak(0);
-        speak(getDisplayCharacter(currentChar), { audioUrl: currentChar.audioUrl });
-        setTimeout(() => {
-            nextCharacter();
-            setIsProcessing(false);
-        }, 2000);
-    }, [isProcessing, currentChar, speak, getDisplayCharacter, nextCharacter]);
+        await speakAndWait(getDisplayCharacter(currentChar), { audioUrl: currentChar.audioUrl });
+        nextCharacter();
+        setIsProcessing(false);
+    }, [isProcessing, currentChar, speakAndWait, getDisplayCharacter, nextCharacter]);
 
     const { timeLeft, start, reset } = useTimer(TIME_PER_CHARACTER, handleTimeout);
 
-    const handleCorrect = useCallback(() => {
+    const handleCorrect = useCallback(async () => {
         if (!currentChar) return;
         setIsProcessing(true);
         setIsCorrect(true);
@@ -133,31 +132,27 @@ export default function AlphabetPage() {
         setCorrect(prev => prev + 1);
         setTotal(prev => prev + 1);
         setStreak(prev => prev + 1);
-        speak(getDisplayCharacter(currentChar), { audioUrl: currentChar.audioUrl });
+        await speakAndWait(getDisplayCharacter(currentChar), { audioUrl: currentChar.audioUrl });
         updateStats('alphabet', { correct: correct + 1, total: total + 1, streak: streak + 1 });
-        setTimeout(() => {
-            nextCharacter();
-            reset();
-            start();
-            setIsProcessing(false);
-        }, 500);
-    }, [currentChar, correct, total, streak, speak, getDisplayCharacter, updateStats, nextCharacter, reset, start]);
+        nextCharacter();
+        reset();
+        start();
+        setIsProcessing(false);
+    }, [currentChar, correct, total, streak, speakAndWait, getDisplayCharacter, updateStats, nextCharacter, reset, start]);
 
-    const handleIncorrect = useCallback(() => {
+    const handleIncorrect = useCallback(async () => {
         if (!currentChar) return;
         setIsProcessing(true);
         setInputState('error');
         setTotal(prev => prev + 1);
         setStreak(0);
-        speak(getDisplayCharacter(currentChar), { audioUrl: currentChar.audioUrl });
+        await speakAndWait(getDisplayCharacter(currentChar), { audioUrl: currentChar.audioUrl });
         updateStats('alphabet', { correct, total: total + 1, streak: 0 });
-        setTimeout(() => {
-            nextCharacter();
-            reset();
-            start();
-            setIsProcessing(false);
-        }, 2000);
-    }, [currentChar, correct, total, speak, getDisplayCharacter, updateStats, nextCharacter, reset, start]);
+        nextCharacter();
+        reset();
+        start();
+        setIsProcessing(false);
+    }, [currentChar, correct, total, speakAndWait, getDisplayCharacter, updateStats, nextCharacter, reset, start]);
 
     const checkInput = useCallback((value: string) => {
         if (isProcessing || !currentChar) return;
@@ -210,6 +205,17 @@ export default function AlphabetPage() {
             return () => clearTimeout(timeoutId);
         }
     }, [currentChar, isMobile, isProcessing]);
+
+    useEffect(() => {
+        if (currentChar?.audioUrl) {
+            preloadedAudioRef.current = preloadAudio(currentChar.audioUrl);
+        }
+        return () => {
+            if (preloadedAudioRef.current) {
+                preloadedAudioRef.current = null;
+            }
+        };
+    }, [currentChar?.audioUrl, preloadAudio]);
 
     const handleFilterChange = useCallback((id: string, checked: boolean) => {
         setFilters(prev => ({ ...prev, [id]: { ...prev[id], checked } }));

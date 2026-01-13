@@ -14,6 +14,21 @@ export function useTTS() {
     const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
     const audioRef = useRef<HTMLAudioElement | null>(null);
 
+    const preloadAudio = useCallback((audioUrl: string): HTMLAudioElement | null => {
+        if (typeof window === 'undefined') {
+            return null;
+        }
+        try {
+            const audio = new Audio(audioUrl);
+            audio.preload = 'auto';
+            audio.load();
+            return audio;
+        } catch (error) {
+            console.warn('Failed to preload audio:', error);
+            return null;
+        }
+    }, []);
+
     const speak = useCallback((text: string, options: TTSOptions = {}): SpeechSynthesisUtterance | HTMLAudioElement | undefined => {
         if (typeof window === 'undefined') {
             return;
@@ -34,18 +49,18 @@ export function useTTS() {
                 const audio = new Audio(options.audioUrl);
                 audio.volume = options.volume ?? 0.8;
                 audio.playbackRate = options.rate ?? 1.0;
-                
+
                 audio.onerror = () => {
                     // Fallback to Web Speech API if audio fails to load
                     fallbackToWebSpeech(text, options);
                 };
-                
+
                 audioRef.current = audio;
                 audio.play().catch(() => {
                     // If play fails, fallback to Web Speech API
                     fallbackToWebSpeech(text, options);
                 });
-                
+
                 return audio;
             } catch (error) {
                 // If audio creation fails, fallback to Web Speech API
@@ -55,6 +70,66 @@ export function useTTS() {
 
         // Fallback to Web Speech API
         return fallbackToWebSpeech(text, options);
+    }, []);
+
+    const speakAndWait = useCallback(async (text: string, options: TTSOptions = {}): Promise<void> => {
+        if (typeof window === 'undefined') {
+            return;
+        }
+
+        // Cancel any ongoing speech
+        if (window.speechSynthesis) {
+            window.speechSynthesis.cancel();
+        }
+        if (audioRef.current) {
+            audioRef.current.pause();
+        }
+
+        // Try ElevenLabs audio first if audioUrl is provided
+        if (options.audioUrl) {
+            try {
+                const audio = new Audio(options.audioUrl);
+                audio.volume = options.volume ?? 0.8;
+                audio.playbackRate = options.rate ?? 1.0;
+
+                return new Promise<void>((resolve, reject) => {
+                    audio.onerror = () => {
+                        fallbackToWebSpeech(text, options);
+                        resolve();
+                    };
+
+                    audio.onended = () => {
+                        audioRef.current = null;
+                        resolve();
+                    };
+
+                    audioRef.current = audio;
+                    audio.play().catch(() => {
+                        fallbackToWebSpeech(text, options);
+                        resolve();
+                    });
+                });
+            } catch (error) {
+                console.warn('Failed to play ElevenLabs audio, falling back to Web Speech API:', error);
+            }
+        }
+
+        // Fallback to Web Speech API
+        return new Promise<void>((resolve) => {
+            const utterance = new SpeechSynthesisUtterance(text);
+            utterance.lang = options.lang || 'ja-JP';
+            utterance.volume = options.volume ?? 0.5;
+            utterance.rate = options.rate ?? 0.9;
+            utterance.pitch = options.pitch ?? 1;
+
+            utterance.onend = () => {
+                utteranceRef.current = null;
+                resolve();
+            };
+
+            utteranceRef.current = utterance;
+            window.speechSynthesis.speak(utterance);
+        });
     }, []);
 
     const fallbackToWebSpeech = (text: string, options: TTSOptions): SpeechSynthesisUtterance | undefined => {
@@ -86,5 +161,5 @@ export function useTTS() {
         }
     }, []);
 
-    return { speak, cancel };
+    return { speak, speakAndWait, preloadAudio, cancel };
 }
