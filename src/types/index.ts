@@ -72,6 +72,7 @@ export interface ReadingItem {
   titleTranslations?: Record<string, string>; // Language code -> title translation
   text: string;
   level: string;
+  audioUrl?: string;
   vocabulary?: Array<{
     word: string;
     reading: string;

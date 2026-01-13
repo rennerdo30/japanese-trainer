@@ -15,7 +15,7 @@ export interface AudioGenerationTask {
   text: string;
   outputPath: string;
   audioUrl?: string;
-  type: 'character' | 'vocabulary' | 'grammar' | 'kanji';
+  type: 'character' | 'vocabulary' | 'grammar' | 'kanji' | 'reading' | 'listening';
   metadata?: Record<string, any>;
 }
 
@@ -34,4 +34,4 @@ export interface GenerationStats {
   duration: number;
 }
 
-export type DataType = 'characters' | 'vocabulary' | 'grammar' | 'kanji' | 'all';
+export type DataType = 'characters' | 'vocabulary' | 'grammar' | 'kanji' | 'reading' | 'listening' | 'all';

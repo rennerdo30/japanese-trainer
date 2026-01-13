@@ -60,7 +60,7 @@ const program = new Command();
 program
   .name('tts-generator')
   .description('Generate ElevenLabs TTS audio files for Japanese learning data')
-  .option('-t, --type <type>', 'Data type to generate: characters|vocabulary|grammar|kanji|all', 'all')
+  .option('-t, --type <type>', 'Data type to generate: characters|vocabulary|grammar|kanji|reading|listening|all', 'all')
   .option('-o, --output <path>', 'Output directory', DEFAULT_CONFIG.DEFAULT_OUTPUT_DIR)
   .option('-k, --api-key <key>', 'ElevenLabs API key (or use ELEVENLABS_API_KEY env var)')
   .option('-v, --voice-id <id>', 'ElevenLabs voice ID (or use ELEVENLABS_VOICE_ID env var)')
@@ -520,6 +520,32 @@ async function generateTasks(
     }
   }
 
+  if (dataType === 'reading' || dataType === 'all') {
+    const readings = await loadReading();
+    for (const item of readings) {
+      tasks.push({
+        id: item.id,
+        text: item.text,
+        type: 'reading',
+        outputPath: '',
+        metadata: { title: item.title, level: item.level },
+      });
+    }
+  }
+
+  if (dataType === 'listening' || dataType === 'all') {
+    const listening = await loadListening();
+    for (const item of listening) {
+      tasks.push({
+        id: item.id,
+        text: item.text,
+        type: 'listening',
+        outputPath: '',
+        metadata: { title: item.title, level: item.level },
+      });
+    }
+  }
+
   return tasks;
 }
 
@@ -570,6 +596,16 @@ async function loadGrammar(): Promise<any[]> {
 
 async function loadKanji(): Promise<any[]> {
   const filePath = path.join(process.cwd(), 'src/data/kanji.json');
+  return await fs.readJson(filePath);
+}
+
+async function loadReading(): Promise<any[]> {
+  const filePath = path.join(process.cwd(), 'src/data/readings.json');
+  return await fs.readJson(filePath);
+}
+
+async function loadListening(): Promise<any[]> {
+  const filePath = path.join(process.cwd(), 'public/listening.json');
   return await fs.readJson(filePath);
 }
 
@@ -651,6 +687,42 @@ async function updateJsonFiles(
     await fs.writeJson(
       path.join(process.cwd(), 'src/data/kanji.json'),
       kanji,
+      { spaces: 2 }
+    );
+  }
+
+  if (dataType === 'reading' || dataType === 'all') {
+    const readings = await loadReading();
+    const taskMap = new Map(tasks.filter(t => t.type === 'reading').map(t => [t.id, t]));
+
+    for (const item of readings) {
+      const task = taskMap.get(item.id);
+      if (task?.audioUrl) {
+        item.audioUrl = task.audioUrl;
+      }
+    }
+
+    await fs.writeJson(
+      path.join(process.cwd(), 'src/data/readings.json'),
+      readings,
+      { spaces: 2 }
+    );
+  }
+
+  if (dataType === 'listening' || dataType === 'all') {
+    const listening = await loadListening();
+    const taskMap = new Map(tasks.filter(t => t.type === 'listening').map(t => [t.id, t]));
+
+    for (const item of listening) {
+      const task = taskMap.get(item.id);
+      if (task?.audioUrl) {
+        item.audioUrl = task.audioUrl;
+      }
+    }
+
+    await fs.writeJson(
+      path.join(process.cwd(), 'public/listening.json'),
+      listening,
       { spaces: 2 }
     );
   }

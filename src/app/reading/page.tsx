@@ -67,7 +67,7 @@ export default function ReadingPage() {
 
     const handlePlayReading = useCallback(() => {
         if (!currentReading) return;
-        speak(currentReading.text);
+        speak(currentReading.text, { audioUrl: currentReading.audioUrl });
     }, [currentReading, speak]);
 
     const handleCheckAnswers = useCallback(() => {

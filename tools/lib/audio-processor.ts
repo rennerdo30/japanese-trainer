@@ -38,6 +38,8 @@ export class AudioProcessor {
       vocabulary: DEFAULT_CONFIG.VOCABULARY_DIR,
       grammar: DEFAULT_CONFIG.GRAMMAR_DIR,
       kanji: DEFAULT_CONFIG.KANJI_DIR,
+      reading: DEFAULT_CONFIG.READING_DIR,
+      listening: DEFAULT_CONFIG.LISTENING_DIR,
     };
 
     return path.join(this.outputDir, dirMap[type]);
@@ -123,6 +125,8 @@ export class AudioProcessor {
       path.join(this.outputDir, DEFAULT_CONFIG.VOCABULARY_DIR),
       path.join(this.outputDir, DEFAULT_CONFIG.GRAMMAR_DIR),
       path.join(this.outputDir, DEFAULT_CONFIG.KANJI_DIR),
+      path.join(this.outputDir, DEFAULT_CONFIG.READING_DIR),
+      path.join(this.outputDir, DEFAULT_CONFIG.LISTENING_DIR),
     ];
 
     for (const dir of dirs) {
@@ -141,6 +145,8 @@ export class AudioProcessor {
       { type: 'vocabulary', dir: DEFAULT_CONFIG.VOCABULARY_DIR },
       { type: 'grammar', dir: DEFAULT_CONFIG.GRAMMAR_DIR },
       { type: 'kanji', dir: DEFAULT_CONFIG.KANJI_DIR },
+      { type: 'reading', dir: DEFAULT_CONFIG.READING_DIR },
+      { type: 'listening', dir: DEFAULT_CONFIG.LISTENING_DIR },
     ];
 
     for (const { type, dir } of dirs) {

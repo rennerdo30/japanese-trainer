@@ -39,6 +39,8 @@ export const DEFAULT_CONFIG = {
   VOCABULARY_DIR: 'vocabulary',
   GRAMMAR_DIR: 'grammar',
   KANJI_DIR: 'kanji',
+  READING_DIR: 'reading',
+  LISTENING_DIR: 'listening',
 
   // Piper TTS settings
   PIPER_DEFAULT_MODEL: 'ja_JP-shinji-medium', // Default Japanese model name
