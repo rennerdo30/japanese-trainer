@@ -1,758 +1,330 @@
+// Character database
 const characters = [
-    {
-        romaji: "a",
-        hiragana: "あ",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "i",
-        hiragana: "い",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "u",
-        hiragana: "う",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "e",
-        hiragana: "え",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "o",
-        hiragana: "お",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "ka",
-        hiragana: "か",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "ki",
-        hiragana: "き",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "ku",
-        hiragana: "く",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "ke",
-        hiragana: "け",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "ko",
-        hiragana: "こ",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "kya",
-        hiragana: "きゃ",
-        katakana: "",
-        type: "yoon"
-    },
-    {
-        romaji: "kyu",
-        hiragana: "きゅ",
-        katakana: "",
-        type: "yoon"
-    },
-    {
-        romaji: "kyo",
-        hiragana: "きょ",
-        katakana: "",
-        type: "yoon"
-    },
-    {
-        romaji: "sa",
-        hiragana: "さ",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "shi",
-        hiragana: "し",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "su",
-        hiragana: "す",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "se",
-        hiragana: "せ",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "so",
-        hiragana: "そ",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "sha",
-        hiragana: "しゃ",
-        katakana: "",
-        type: "yoon"
-    },
-    {
-        romaji: "shu",
-        hiragana: "しゅ",
-        katakana: "",
-        type: "yoon"
-    },
-    {
-        romaji: "sho",
-        hiragana: "しょ",
-        katakana: "",
-        type: "yoon"
-    },
-    {
-        romaji: "sho",
-        hiragana: "しょ",
-        katakana: "",
-        type: "yoon"
-    },
-    {
-        romaji: "ta",
-        hiragana: "た",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "chi",
-        hiragana: "ち",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "tsu",
-        hiragana: "つ",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "te",
-        hiragana: "て",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "to",
-        hiragana: "と",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "cha",
-        hiragana: "ちゃ",
-        katakana: "",
-        type: "yoon"
-    },
-    {
-        romaji: "chu",
-        hiragana: "ちゅ",
-        katakana: "",
-        type: "yoon"
-    },
-    {
-        romaji: "cho",
-        hiragana: "ちょ",
-        katakana: "",
-        type: "yoon"
-    },
-    {
-        romaji: "na",
-        hiragana: "な",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "ni",
-        hiragana: "に",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "nu",
-        hiragana: "ぬ",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "ne",
-        hiragana: "ね",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "no",
-        hiragana: "の",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "nya",
-        hiragana: "にゃ",
-        katakana: "",
-        type: "yoon"
-    },
-    {
-        romaji: "nyu",
-        hiragana: "にゅ",
-        katakana: "",
-        type: "yoon"
-    },
-    {
-        romaji: "nyo",
-        hiragana: "にょ",
-        katakana: "",
-        type: "yoon"
-    },
-    {
-        romaji: "ha",
-        hiragana: "は",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "hi",
-        hiragana: "ひ",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "fu",
-        hiragana: "ふ",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "he",
-        hiragana: "へ",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "ho",
-        hiragana: "ほ",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "hya",
-        hiragana: "ひゃ",
-        katakana: "",
-        type: "yoon"
-    },
-    {
-        romaji: "hyu",
-        hiragana: "ひゅ",
-        katakana: "",
-        type: "yoon"
-    },
-    {
-        romaji: "hyo",
-        hiragana: "ひょ",
-        katakana: "",
-        type: "yoon"
-    },
-    {
-        romaji: "ma",
-        hiragana: "ま",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "mi",
-        hiragana: "み",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "mu",
-        hiragana: "む",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "me",
-        hiragana: "め",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "mo",
-        hiragana: "も",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "mya",
-        hiragana: "みゃ",
-        katakana: "",
-        type: "yoon"
-    },
-    {
-        romaji: "myu",
-        hiragana: "みゅ",
-        katakana: "",
-        type: "yoon"
-    },
-    {
-        romaji: "myo",
-        hiragana: "みょ",
-        katakana: "",
-        type: "yoon"
-    },
-    {
-        romaji: "ya",
-        hiragana: "や",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "yu",
-        hiragana: "ゆ",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "yo",
-        hiragana: "よ",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "ra",
-        hiragana: "ら",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "ri",
-        hiragana: "り",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "ru",
-        hiragana: "る",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "re",
-        hiragana: "れ",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "ro",
-        hiragana: "ろ",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "rya",
-        hiragana: "りゃ",
-        katakana: "",
-        type: "yoon"
-    },
-    {
-        romaji: "ryu",
-        hiragana: "りゅ",
-        katakana: "",
-        type: "yoon"
-    },
-    {
-        romaji: "ryo",
-        hiragana: "りょ",
-        katakana: "",
-        type: "yoon"
-    },
-    {
-        romaji: "wa",
-        hiragana: "わ",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "wi",
-        hiragana: "ゐ",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "we",
-        hiragana: "ゑ",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "o",
-        hiragana: "を",
-        katakana: "",
-        type: "gojuon"
-    },
-    {
-        romaji: "ga",
-        hiragana: "が",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "gi",
-        hiragana: "ぎ",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "gu",
-        hiragana: "ぐ",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "ge",
-        hiragana: "げ",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "go",
-        hiragana: "ご",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "gya",
-        hiragana: "ぎゃ",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "gyu",
-        hiragana: "ぎゅ",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "gyo",
-        hiragana: "ぎょ",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "za",
-        hiragana: "ざ",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "ji",
-        hiragana: "じ",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "zu",
-        hiragana: "ず",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "ze",
-        hiragana: "ぜ",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "zo",
-        hiragana: "ぞ",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "ja",
-        hiragana: "じゃ",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "ju",
-        hiragana: "じゅ",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "jo",
-        hiragana: "じょ",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "da",
-        hiragana: "だ",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "ji",
-        hiragana: "ぢ",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "zu",
-        hiragana: "づ",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "de",
-        hiragana: "で",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "do",
-        hiragana: "ど",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "ja",
-        hiragana: "ぢゃ",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "ju",
-        hiragana: "ぢゅ",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "jo",
-        hiragana: "ぢょ",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "ba",
-        hiragana: "ば",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "bi",
-        hiragana: "び",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "bu",
-        hiragana: "ぶ",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "be",
-        hiragana: "べ",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "bo",
-        hiragana: "ぼ",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "bya",
-        hiragana: "びゃ",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "byu",
-        hiragana: "びゅ",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "byo",
-        hiragana: "びょ",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "pa",
-        hiragana: "ぱ",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "pi",
-        hiragana: "ぴ",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "pu",
-        hiragana: "ぷ",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "pe",
-        hiragana: "ぺ",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "po",
-        hiragana: "ぽ",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "pya",
-        hiragana: "ぴゃ",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "pyu",
-        hiragana: "ぴゅ",
-        katakana: "",
-        type: "dakuten"
-    },
-    {
-        romaji: "pyo",
-        hiragana: "ぴょ",
-        katakana: "",
-        type: "dakuten"
-    },
+    // Gojuon - Basic syllables
+    { romaji: "a", hiragana: "あ", type: "gojuon" },
+    { romaji: "i", hiragana: "い", type: "gojuon" },
+    { romaji: "u", hiragana: "う", type: "gojuon" },
+    { romaji: "e", hiragana: "え", type: "gojuon" },
+    { romaji: "o", hiragana: "お", type: "gojuon" },
+    { romaji: "ka", hiragana: "か", type: "gojuon" },
+    { romaji: "ki", hiragana: "き", type: "gojuon" },
+    { romaji: "ku", hiragana: "く", type: "gojuon" },
+    { romaji: "ke", hiragana: "け", type: "gojuon" },
+    { romaji: "ko", hiragana: "こ", type: "gojuon" },
+    { romaji: "sa", hiragana: "さ", type: "gojuon" },
+    { romaji: "shi", hiragana: "し", type: "gojuon" },
+    { romaji: "su", hiragana: "す", type: "gojuon" },
+    { romaji: "se", hiragana: "せ", type: "gojuon" },
+    { romaji: "so", hiragana: "そ", type: "gojuon" },
+    { romaji: "ta", hiragana: "た", type: "gojuon" },
+    { romaji: "chi", hiragana: "ち", type: "gojuon" },
+    { romaji: "tsu", hiragana: "つ", type: "gojuon" },
+    { romaji: "te", hiragana: "て", type: "gojuon" },
+    { romaji: "to", hiragana: "と", type: "gojuon" },
+    { romaji: "na", hiragana: "な", type: "gojuon" },
+    { romaji: "ni", hiragana: "に", type: "gojuon" },
+    { romaji: "nu", hiragana: "ぬ", type: "gojuon" },
+    { romaji: "ne", hiragana: "ね", type: "gojuon" },
+    { romaji: "no", hiragana: "の", type: "gojuon" },
+    { romaji: "ha", hiragana: "は", type: "gojuon" },
+    { romaji: "hi", hiragana: "ひ", type: "gojuon" },
+    { romaji: "fu", hiragana: "ふ", type: "gojuon" },
+    { romaji: "he", hiragana: "へ", type: "gojuon" },
+    { romaji: "ho", hiragana: "ほ", type: "gojuon" },
+    { romaji: "ma", hiragana: "ま", type: "gojuon" },
+    { romaji: "mi", hiragana: "み", type: "gojuon" },
+    { romaji: "mu", hiragana: "む", type: "gojuon" },
+    { romaji: "me", hiragana: "め", type: "gojuon" },
+    { romaji: "mo", hiragana: "も", type: "gojuon" },
+    { romaji: "ya", hiragana: "や", type: "gojuon" },
+    { romaji: "yu", hiragana: "ゆ", type: "gojuon" },
+    { romaji: "yo", hiragana: "よ", type: "gojuon" },
+    { romaji: "ra", hiragana: "ら", type: "gojuon" },
+    { romaji: "ri", hiragana: "り", type: "gojuon" },
+    { romaji: "ru", hiragana: "る", type: "gojuon" },
+    { romaji: "re", hiragana: "れ", type: "gojuon" },
+    { romaji: "ro", hiragana: "ろ", type: "gojuon" },
+    { romaji: "wa", hiragana: "わ", type: "gojuon" },
+    { romaji: "wo", hiragana: "を", type: "gojuon" },
+    { romaji: "n", hiragana: "ん", type: "gojuon" },
+
+    // Yoon - Palatalized sounds
+    { romaji: "kya", hiragana: "きゃ", type: "yoon" },
+    { romaji: "kyu", hiragana: "きゅ", type: "yoon" },
+    { romaji: "kyo", hiragana: "きょ", type: "yoon" },
+    { romaji: "sha", hiragana: "しゃ", type: "yoon" },
+    { romaji: "shu", hiragana: "しゅ", type: "yoon" },
+    { romaji: "sho", hiragana: "しょ", type: "yoon" },
+    { romaji: "cha", hiragana: "ちゃ", type: "yoon" },
+    { romaji: "chu", hiragana: "ちゅ", type: "yoon" },
+    { romaji: "cho", hiragana: "ちょ", type: "yoon" },
+    { romaji: "nya", hiragana: "にゃ", type: "yoon" },
+    { romaji: "nyu", hiragana: "にゅ", type: "yoon" },
+    { romaji: "nyo", hiragana: "にょ", type: "yoon" },
+    { romaji: "hya", hiragana: "ひゃ", type: "yoon" },
+    { romaji: "hyu", hiragana: "ひゅ", type: "yoon" },
+    { romaji: "hyo", hiragana: "ひょ", type: "yoon" },
+    { romaji: "mya", hiragana: "みゃ", type: "yoon" },
+    { romaji: "myu", hiragana: "みゅ", type: "yoon" },
+    { romaji: "myo", hiragana: "みょ", type: "yoon" },
+    { romaji: "rya", hiragana: "りゃ", type: "yoon" },
+    { romaji: "ryu", hiragana: "りゅ", type: "yoon" },
+    { romaji: "ryo", hiragana: "りょ", type: "yoon" },
+
+    // Dakuten - Voiced consonants
+    { romaji: "ga", hiragana: "が", type: "dakuten" },
+    { romaji: "gi", hiragana: "ぎ", type: "dakuten" },
+    { romaji: "gu", hiragana: "ぐ", type: "dakuten" },
+    { romaji: "ge", hiragana: "げ", type: "dakuten" },
+    { romaji: "go", hiragana: "ご", type: "dakuten" },
+    { romaji: "za", hiragana: "ざ", type: "dakuten" },
+    { romaji: "ji", hiragana: "じ", type: "dakuten" },
+    { romaji: "zu", hiragana: "ず", type: "dakuten" },
+    { romaji: "ze", hiragana: "ぜ", type: "dakuten" },
+    { romaji: "zo", hiragana: "ぞ", type: "dakuten" },
+    { romaji: "da", hiragana: "だ", type: "dakuten" },
+    { romaji: "de", hiragana: "で", type: "dakuten" },
+    { romaji: "do", hiragana: "ど", type: "dakuten" },
+    { romaji: "ba", hiragana: "ば", type: "dakuten" },
+    { romaji: "bi", hiragana: "び", type: "dakuten" },
+    { romaji: "bu", hiragana: "ぶ", type: "dakuten" },
+    { romaji: "be", hiragana: "べ", type: "dakuten" },
+    { romaji: "bo", hiragana: "ぼ", type: "dakuten" },
+    { romaji: "pa", hiragana: "ぱ", type: "dakuten" },
+    { romaji: "pi", hiragana: "ぴ", type: "dakuten" },
+    { romaji: "pu", hiragana: "ぷ", type: "dakuten" },
+    { romaji: "pe", hiragana: "ぺ", type: "dakuten" },
+    { romaji: "po", hiragana: "ぽ", type: "dakuten" },
+
+    // Dakuten Yoon combinations
+    { romaji: "gya", hiragana: "ぎゃ", type: "dakuten" },
+    { romaji: "gyu", hiragana: "ぎゅ", type: "dakuten" },
+    { romaji: "gyo", hiragana: "ぎょ", type: "dakuten" },
+    { romaji: "ja", hiragana: "じゃ", type: "dakuten" },
+    { romaji: "ju", hiragana: "じゅ", type: "dakuten" },
+    { romaji: "jo", hiragana: "じょ", type: "dakuten" },
+    { romaji: "bya", hiragana: "びゃ", type: "dakuten" },
+    { romaji: "byu", hiragana: "びゅ", type: "dakuten" },
+    { romaji: "byo", hiragana: "びょ", type: "dakuten" },
+    { romaji: "pya", hiragana: "ぴゃ", type: "dakuten" },
+    { romaji: "pyu", hiragana: "ぴゅ", type: "dakuten" },
+    { romaji: "pyo", hiragana: "ぴょ", type: "dakuten" },
 ];
 
-const timePerCharakter = 5;
+// Configuration
+const TIME_PER_CHARACTER = 5;
+const TIMER_CIRCUMFERENCE = 2 * Math.PI * 22; // r=22 from SVG
 
+// State
 let correct = 0;
-let totoal = 0;
+let total = 0;
+let streak = 0;
 let character = null;
 let countdown = 0;
+let timerInterval = null;
+let isProcessing = false;
+
+// DOM Elements (cached after load)
+let elements = {};
+
+// Initialize when DOM is ready
+document.addEventListener('DOMContentLoaded', init);
+
+function init() {
+    // Cache DOM elements
+    elements = {
+        characterPreview: document.getElementById('character-preview'),
+        romajiInput: document.getElementById('romaji-input'),
+        correctCount: document.getElementById('correct-count'),
+        totalCount: document.getElementById('total-count'),
+        timerText: document.getElementById('timer-text'),
+        timerProgress: document.getElementById('timer-progress'),
+        streakBadge: document.getElementById('streak-badge'),
+        streakCount: document.getElementById('streak-count'),
+        gojuon: document.getElementById('gojuon'),
+        yoon: document.getElementById('yoon'),
+        dakuten: document.getElementById('dakuten'),
+        hiragana: document.getElementById('hiragana'),
+    };
+
+    // Set up input listener
+    elements.romajiInput.addEventListener('input', checkInput);
+
+    // Start the game
+    next();
+    startTimer();
+}
+
+function getAvailableCharacters() {
+    return characters.filter(char => {
+        if (!char.type) {
+            console.warn('Missing type for:', char.romaji);
+            return false;
+        }
+        if (elements.gojuon.checked && char.type === 'gojuon') return true;
+        if (elements.yoon.checked && char.type === 'yoon') return true;
+        if (elements.dakuten.checked && char.type === 'dakuten') return true;
+        return false;
+    });
+}
+
+function getDisplayCharacter(char) {
+    const useHiragana = elements.hiragana.checked;
+    return useHiragana ? char.hiragana : wanakana.toKatakana(char.hiragana);
+}
 
 function checkInput() {
-    var inputField = document.getElementById("romaji-input");
-    let inputValue = inputField.value.toUpperCase();
+    if (isProcessing || !character) return;
 
-    if (character && character.romaji.toUpperCase() == inputValue) {
-        correct += 1;
-        totoal += 1;
-        say(character.hiragana);
-        next();
+    const inputValue = elements.romajiInput.value.toLowerCase().trim();
+
+    if (inputValue === character.romaji) {
+        handleCorrectAnswer();
     }
 }
 
-function say(m) {
-    var msg = new SpeechSynthesisUtterance();
-    var voices = window.speechSynthesis.getVoices();
-    //msg.voice = voices[10];
-    msg.voiceURI = "native";
-    msg.volume = 0.33;
-    //msg.rate = 1;
-    //msg.pitch = 0.8;
-    msg.text = m;
-    msg.lang = 'ja-JP';
-    window.speechSynthesis.speak(msg);
+function handleCorrectAnswer() {
+    isProcessing = true;
+    correct++;
+    total++;
+    streak++;
+
+    // Update display
+    updateStats();
+    updateStreak();
+
+    // Visual feedback
+    elements.romajiInput.classList.add('input-success');
+    elements.characterPreview.classList.add('correct');
+
+    // Speak the character
+    speak(getDisplayCharacter(character));
+
+    // Quick transition to next
+    setTimeout(() => {
+        elements.romajiInput.classList.remove('input-success');
+        elements.characterPreview.classList.remove('correct');
+        next();
+        isProcessing = false;
+    }, 300);
+}
+
+function handleTimeout() {
+    if (isProcessing) return;
+    isProcessing = true;
+
+    total++;
+    streak = 0;
+
+    // Update display
+    updateStats();
+    updateStreak();
+
+    // Show correct answer
+    elements.romajiInput.value = character.romaji;
+    elements.romajiInput.classList.add('input-error');
+    elements.romajiInput.disabled = true;
+
+    // Speak the character
+    speak(getDisplayCharacter(character));
+
+    // Wait then move to next
+    setTimeout(() => {
+        elements.romajiInput.classList.remove('input-error');
+        elements.romajiInput.disabled = false;
+        next();
+        isProcessing = false;
+    }, 2000);
 }
 
 function next() {
+    const availableCharacters = getAvailableCharacters();
 
-    let gojuon = document.getElementById("gojuon");
-    let yoon = document.getElementById("yoon");
-    let dakuten = document.getElementById("dakuten");
+    if (availableCharacters.length === 0) {
+        elements.characterPreview.textContent = '?';
+        return;
+    }
 
-    let hiragana = document.getElementById("hiragana");
+    // Pick random character (avoid repeating)
+    let newChar;
+    do {
+        const index = Math.floor(Math.random() * availableCharacters.length);
+        newChar = availableCharacters[index];
+    } while (availableCharacters.length > 1 && newChar === character);
 
-    var availableCharacters = characters.filter(function (el) {
-        if (!el.type)
-        {
-            console.debug("missing type for: " + el.romaji);
-        }
-        if (gojuon.checked && el.type == "gojuon") {
-            return true;
-        }
-        if (yoon.checked && el.type == "yoon") {
-            return true;
-        }
-        if (dakuten.checked && el.type == "dakuten") {
-            return true;
-        }
-        return false;
-    });
-    let rnd = Math.floor(Math.random() * availableCharacters.length);
-    character = availableCharacters[rnd];
+    character = newChar;
 
-    let characterPreview = document.getElementById("character-preview");
-    characterPreview.innerText = hiragana.checked ? character.hiragana : wanakana.toKatakana(character.hiragana);
+    // Update character display with animation
+    elements.characterPreview.textContent = getDisplayCharacter(character);
+    elements.characterPreview.classList.remove('character-entering');
+    void elements.characterPreview.offsetWidth; // Force reflow
+    elements.characterPreview.classList.add('character-entering');
 
-    let stats = document.getElementById("stats");
-    stats.innerText = correct + " / " + totoal;
+    // Reset input
+    elements.romajiInput.value = '';
+    elements.romajiInput.focus();
 
-    let romajiInput = document.getElementById("romaji-input");
-    romajiInput.className = "romaji-input";
-    romajiInput.value = "";
-    romajiInput.disabled = false;
-    romajiInput.focus();
-
-    countdown = timePerCharakter;
+    // Reset timer
+    countdown = TIME_PER_CHARACTER;
+    updateTimerDisplay();
 }
 
-var x = setInterval(function () {
+function startTimer() {
+    timerInterval = setInterval(() => {
+        if (isProcessing) return;
 
-    let countdownText = document.getElementById("countdown");
+        if (countdown > 0) {
+            countdown--;
+            updateTimerDisplay();
+        }
 
-    if (countdown > 0) {
-        countdown -= 1;
-        countdownText.innerText = countdown + " seconds left";
+        if (countdown === 0) {
+            handleTimeout();
+        }
+    }, 1000);
+}
+
+function updateTimerDisplay() {
+    // Update text
+    elements.timerText.textContent = countdown;
+
+    // Update circular progress
+    const progress = countdown / TIME_PER_CHARACTER;
+    const offset = TIMER_CIRCUMFERENCE * (1 - progress);
+    elements.timerProgress.style.strokeDashoffset = offset;
+
+    // Warning color when low
+    if (countdown <= 2) {
+        elements.timerProgress.classList.add('warning');
+    } else {
+        elements.timerProgress.classList.remove('warning');
     }
+}
 
-    if (countdown == 0) {
-        countdown -= 1;
-        totoal += 1;
+function updateStats() {
+    elements.correctCount.textContent = correct;
+    elements.totalCount.textContent = total;
+}
 
-        let romajiInput = document.getElementById("romaji-input");
-        romajiInput.value = character.romaji;
-        romajiInput.className = "romaji-input input-error";
-        romajiInput.disabled = true;
-
-        let hiragana = document.getElementById("hiragana");
-        say(hiragana.checked ? character.hiragana : wanakana.toKatakana(character.hiragana));
-
-        setTimeout(function () {
-            next();
-        }, 2500);
+function updateStreak() {
+    elements.streakCount.textContent = streak;
+    if (streak >= 3) {
+        elements.streakBadge.classList.add('visible');
+    } else {
+        elements.streakBadge.classList.remove('visible');
     }
+}
 
-}, 1000);
+function speak(text) {
+    if (!('speechSynthesis' in window)) return;
+
+    // Cancel any ongoing speech
+    window.speechSynthesis.cancel();
+
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = 'ja-JP';
+    utterance.volume = 0.5;
+    utterance.rate = 0.9;
+
+    window.speechSynthesis.speak(utterance);
+}
