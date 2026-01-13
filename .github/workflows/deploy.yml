@@ -38,15 +38,19 @@ jobs:
       - name: Install dependencies
         run: npm ci
       
-      # 4. Deploy to Convex FIRST (generates _generated files)
+      # 4. Deploy to Convex FIRST (generates _generated files and captures URL)
       - name: Deploy to Convex
+        id: deploy-convex
         env:
           CONVEX_DEPLOY_KEY: ${{ secrets.CONVEX_DEPLOY_KEY }}
         run: |
-          npx convex deploy --cmd-url-env-var-name NEXT_PUBLIC_CONVEX_URL
+          npx convex deploy --cmd-url-env-var-name NEXT_PUBLIC_CONVEX_URL | tee convex-url.txt
+          echo "convex_url=$(grep -oP '(?<=NEXT_PUBLIC_CONVEX_URL=)[^\s]+' convex-url.txt || cat convex-url.txt)" >> $GITHUB_OUTPUT
       
-      # 5. Build frontend AFTER Convex deployment
+      # 5. Build frontend AFTER Convex deployment (with URL baked into static bundle)
       - name: Build Next.js site
+        env:
+          NEXT_PUBLIC_CONVEX_URL: ${{ steps.deploy-convex.outputs.convex_url }}
         run: npm run build
       
       # 6. Upload build artifacts to GitHub Pages
