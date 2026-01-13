@@ -1,3 +1,5 @@
+'use client'; 
+
 // Convex-based storage adapter
 // Replaces localStorage with Convex backend
 // Uses authenticated userId from Convex Auth
