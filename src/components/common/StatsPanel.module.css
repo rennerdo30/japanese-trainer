@@ -1,0 +1,87 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 1.5rem 2.5rem;
+  background: var(--bg-glass);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid var(--glass-border);
+  border-radius: 100px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  margin-top: 1rem;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.value {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--accent-gold);
+}
+
+.divider {
+  font-size: 1.5rem;
+  color: var(--border-subtle);
+  opacity: 0.5;
+}
+
+.label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.streakBadge {
+  display: none;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(135deg, var(--accent-red), #8e152a);
+  border: none;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: white;
+  box-shadow: 0 4px 15px var(--accent-red-glow);
+  animation: fadeInScale 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.streakBadge.visible {
+  display: flex;
+}
+
+.streakBadge::before {
+  content: '🔥';
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.9) translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    gap: 1.5rem;
+    padding: 1rem 2rem;
+  }
+
+  .value {
+    font-size: 1.5rem;
+  }
+}
+

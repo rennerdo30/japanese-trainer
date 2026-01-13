@@ -1,0 +1,104 @@
+{
+  "common": {
+    "start": "ابدأ",
+    "next": "التالي",
+    "previous": "السابق",
+    "back": "رجوع",
+    "dashboard": "لوحة التحكم",
+    "check": "تحقق",
+    "submit": "إرسال",
+    "play": "تشغيل",
+    "loading": "جاري التحميل...",
+    "correct": "صحيح",
+    "incorrect": "خطأ",
+    "total": "الإجمالي",
+    "streak": "سلسلة"
+  },
+  "modules": {
+    "alphabet": {
+      "title": "الأبجدية",
+      "description": "أتقن الهيراغانا والكاتاكانا"
+    },
+    "vocabulary": {
+      "title": "المفردات",
+      "description": "تعلم الكلمات اليابانية"
+    },
+    "kanji": {
+      "title": "الكانجي",
+      "description": "أتقن الأحرف الصينية"
+    },
+    "grammar": {
+      "title": "القواعد",
+      "description": "تعلم أنماط الجمل"
+    },
+    "reading": {
+      "title": "القراءة",
+      "description": "مارس الفهم"
+    },
+    "listening": {
+      "title": "الاستماع",
+      "description": "حسّن مهارات الاستماع"
+    }
+  },
+  "alphabet": {
+    "hiragana": "الهيراغانا",
+    "katakana": "الكاتاكانا",
+    "filters": {
+      "gojuon": "غوجيون",
+      "yoon": "يون",
+      "dakuten": "داكوتين"
+    },
+    "noCharacters": "لا توجد أحرف متاحة مع المرشحات الحالية."
+  },
+  "vocabulary": {
+    "practiceMode": "وضع الممارسة",
+    "typeMeaning": "اكتب المعنى أو الروماجي...",
+    "typeWord": "اكتب الكلمة اليابانية...",
+    "noWords": "لا توجد كلمات متاحة."
+  },
+  "kanji": {
+    "practiceMeaning": "المعنى",
+    "practiceReading": "القراءة",
+    "typeMeaningOrReading": "اكتب المعنى أو القراءة...",
+    "noKanji": "لا توجد كانجي متاحة.",
+    "onyomi": "音読み",
+    "kunyomi": "訓読み"
+  },
+  "grammar": {
+    "checkAnswer": "تحقق من الإجابة",
+    "practice": "ممارسة",
+    "noGrammar": "لا توجد قواعد متاحة.",
+    "noExercises": "لا توجد تمارين متاحة لهذه النقطة النحوية."
+  },
+  "reading": {
+    "showFurigana": "إظهار الفوريغانا",
+    "showQuestions": "إظهار الأسئلة",
+    "checkAnswers": "تحقق من الإجابات",
+    "vocabulary": "المفردات",
+    "comprehensionQuestions": "أسئلة الفهم",
+    "textsRead": "النصوص المقروءة",
+    "noReadings": "لا توجد نصوص متاحة."
+  },
+  "listening": {
+    "playAudio": "تشغيل الصوت",
+    "typeWhatYouHear": "اكتب ما تسمع:",
+    "typeJapaneseText": "اكتب النص الياباني هنا...",
+    "checkAnswer": "تحقق من الإجابة",
+    "showTranscript": "إظهار النص",
+    "hideTranscript": "إخفاء النص",
+    "noExercises": "لا توجد تمارين متاحة."
+  },
+  "dashboard": {
+    "title": "مدرب اليابانية",
+    "subtitle": "学ぶ - تعلم اليابانية",
+    "dayStreak": "سلسلة الأيام",
+    "wordsLearned": "الكلمات المتعلمة",
+    "kanjiMastered": "الكانجي المتقنة",
+    "studyTime": "وقت الدراسة (دقيقة)"
+  },
+  "stats": {
+    "correct": "صحيح",
+    "total": "الإجمالي",
+    "streak": "سلسلة"
+  }
+}

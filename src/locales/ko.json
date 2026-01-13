@@ -1,0 +1,104 @@
+{
+  "common": {
+    "start": "시작",
+    "next": "다음",
+    "previous": "이전",
+    "back": "뒤로",
+    "dashboard": "대시보드",
+    "check": "확인",
+    "submit": "제출",
+    "play": "재생",
+    "loading": "로딩 중...",
+    "correct": "정답",
+    "incorrect": "오답",
+    "total": "총",
+    "streak": "연속"
+  },
+  "modules": {
+    "alphabet": {
+      "title": "알파벳",
+      "description": "히라가나와 가타카나 마스터"
+    },
+    "vocabulary": {
+      "title": "어휘",
+      "description": "일본어 단어 배우기"
+    },
+    "kanji": {
+      "title": "한자",
+      "description": "한자 마스터"
+    },
+    "grammar": {
+      "title": "문법",
+      "description": "문장 패턴 배우기"
+    },
+    "reading": {
+      "title": "읽기",
+      "description": "이해력 연습"
+    },
+    "listening": {
+      "title": "듣기",
+      "description": "청해력 향상"
+    }
+  },
+  "alphabet": {
+    "hiragana": "히라가나",
+    "katakana": "가타카나",
+    "filters": {
+      "gojuon": "고주온",
+      "yoon": "요온",
+      "dakuten": "탁음"
+    },
+    "noCharacters": "현재 필터로 사용 가능한 문자가 없습니다."
+  },
+  "vocabulary": {
+    "practiceMode": "연습 모드",
+    "typeMeaning": "의미 또는 로마자 입력...",
+    "typeWord": "일본어 단어 입력...",
+    "noWords": "사용 가능한 단어가 없습니다."
+  },
+  "kanji": {
+    "practiceMeaning": "의미",
+    "practiceReading": "읽기",
+    "typeMeaningOrReading": "의미 또는 읽기 입력...",
+    "noKanji": "사용 가능한 한자가 없습니다.",
+    "onyomi": "音読み",
+    "kunyomi": "訓読み"
+  },
+  "grammar": {
+    "checkAnswer": "답 확인",
+    "practice": "연습",
+    "noGrammar": "사용 가능한 문법이 없습니다.",
+    "noExercises": "이 문법 포인트에 사용 가능한 연습이 없습니다."
+  },
+  "reading": {
+    "showFurigana": "후리가나 표시",
+    "showQuestions": "문제 표시",
+    "checkAnswers": "답 확인",
+    "vocabulary": "어휘",
+    "comprehensionQuestions": "이해 문제",
+    "textsRead": "읽은 텍스트",
+    "noReadings": "사용 가능한 읽기 자료가 없습니다."
+  },
+  "listening": {
+    "playAudio": "오디오 재생",
+    "typeWhatYouHear": "들리는 내용 입력:",
+    "typeJapaneseText": "여기에 일본어 텍스트 입력...",
+    "checkAnswer": "답 확인",
+    "showTranscript": "전사 표시",
+    "hideTranscript": "전사 숨기기",
+    "noExercises": "사용 가능한 연습이 없습니다."
+  },
+  "dashboard": {
+    "title": "일본어 트레이너",
+    "subtitle": "学ぶ - 일본어 배우기",
+    "dayStreak": "연속 일수",
+    "wordsLearned": "학습한 단어",
+    "kanjiMastered": "마스터한 한자",
+    "studyTime": "학습 시간 (분)"
+  },
+  "stats": {
+    "correct": "정답",
+    "total": "총",
+    "streak": "연속"
+  }
+}

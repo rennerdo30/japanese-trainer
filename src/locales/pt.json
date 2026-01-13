@@ -1,0 +1,104 @@
+{
+  "common": {
+    "start": "Começar",
+    "next": "Próximo",
+    "previous": "Anterior",
+    "back": "Voltar",
+    "dashboard": "Painel",
+    "check": "Verificar",
+    "submit": "Enviar",
+    "play": "Reproduzir",
+    "loading": "Carregando...",
+    "correct": "Correto",
+    "incorrect": "Incorreto",
+    "total": "Total",
+    "streak": "Sequência"
+  },
+  "modules": {
+    "alphabet": {
+      "title": "Alfabeto",
+      "description": "Domine Hiragana e Katakana"
+    },
+    "vocabulary": {
+      "title": "Vocabulário",
+      "description": "Aprenda palavras japonesas"
+    },
+    "kanji": {
+      "title": "Kanji",
+      "description": "Domine caracteres chineses"
+    },
+    "grammar": {
+      "title": "Gramática",
+      "description": "Aprenda padrões de frases"
+    },
+    "reading": {
+      "title": "Leitura",
+      "description": "Pratique compreensão"
+    },
+    "listening": {
+      "title": "Audição",
+      "description": "Melhore sua compreensão auditiva"
+    }
+  },
+  "alphabet": {
+    "hiragana": "Hiragana",
+    "katakana": "Katakana",
+    "filters": {
+      "gojuon": "Gojūon",
+      "yoon": "Yōon",
+      "dakuten": "Dakuten"
+    },
+    "noCharacters": "Nenhum caractere disponível com os filtros atuais."
+  },
+  "vocabulary": {
+    "practiceMode": "Modo Prática",
+    "typeMeaning": "Digite o significado ou romaji...",
+    "typeWord": "Digite a palavra japonesa...",
+    "noWords": "Nenhuma palavra disponível."
+  },
+  "kanji": {
+    "practiceMeaning": "Significado",
+    "practiceReading": "Leitura",
+    "typeMeaningOrReading": "Digite significado ou leitura...",
+    "noKanji": "Nenhum kanji disponível.",
+    "onyomi": "音読み",
+    "kunyomi": "訓読み"
+  },
+  "grammar": {
+    "checkAnswer": "Verificar Resposta",
+    "practice": "Praticar",
+    "noGrammar": "Nenhuma gramática disponível.",
+    "noExercises": "Nenhum exercício disponível para este ponto gramatical."
+  },
+  "reading": {
+    "showFurigana": "Mostrar Furigana",
+    "showQuestions": "Mostrar Perguntas",
+    "checkAnswers": "Verificar Respostas",
+    "vocabulary": "Vocabulário",
+    "comprehensionQuestions": "Perguntas de Compreensão",
+    "textsRead": "Textos Lidos",
+    "noReadings": "Nenhuma leitura disponível."
+  },
+  "listening": {
+    "playAudio": "Reproduzir Áudio",
+    "typeWhatYouHear": "Digite o que você ouve:",
+    "typeJapaneseText": "Digite o texto em japonês aqui...",
+    "checkAnswer": "Verificar Resposta",
+    "showTranscript": "Mostrar Transcrição",
+    "hideTranscript": "Ocultar Transcrição",
+    "noExercises": "Nenhum exercício disponível."
+  },
+  "dashboard": {
+    "title": "Treinador de Japonês",
+    "subtitle": "学ぶ - Aprenda Japonês",
+    "dayStreak": "Sequência Diária",
+    "wordsLearned": "Palavras Aprendidas",
+    "kanjiMastered": "Kanji Dominados",
+    "studyTime": "Tempo de Estudo (min)"
+  },
+  "stats": {
+    "correct": "Correto",
+    "total": "Total",
+    "streak": "sequência"
+  }
+}

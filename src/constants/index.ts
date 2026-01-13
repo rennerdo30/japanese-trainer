@@ -1,0 +1,2 @@
+export const BURNING_THRESHOLD = 50;
+export const MAX_BURNING_INTENSITY_STREAK = 100;

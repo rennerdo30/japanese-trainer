@@ -1,0 +1,104 @@
+{
+  "common": {
+    "start": "शुरू करें",
+    "next": "अगला",
+    "previous": "पिछला",
+    "back": "वापस",
+    "dashboard": "डैशबोर्ड",
+    "check": "जांचें",
+    "submit": "सबमिट करें",
+    "play": "चलाएं",
+    "loading": "लोड हो रहा है...",
+    "correct": "सही",
+    "incorrect": "गलत",
+    "total": "कुल",
+    "streak": "श्रृंखला"
+  },
+  "modules": {
+    "alphabet": {
+      "title": "वर्णमाला",
+      "description": "हिरागाना और काटाकाना में महारत हासिल करें"
+    },
+    "vocabulary": {
+      "title": "शब्दावली",
+      "description": "जापानी शब्द सीखें"
+    },
+    "kanji": {
+      "title": "कांजी",
+      "description": "चीनी वर्णों में महारत हासिल करें"
+    },
+    "grammar": {
+      "title": "व्याकरण",
+      "description": "वाक्य पैटर्न सीखें"
+    },
+    "reading": {
+      "title": "पढ़ना",
+      "description": "समझ का अभ्यास करें"
+    },
+    "listening": {
+      "title": "सुनना",
+      "description": "अपनी सुनने की क्षमता में सुधार करें"
+    }
+  },
+  "alphabet": {
+    "hiragana": "हिरागाना",
+    "katakana": "काटाकाना",
+    "filters": {
+      "gojuon": "गोज्यूओन",
+      "yoon": "यूओन",
+      "dakuten": "डाकुटेन"
+    },
+    "noCharacters": "वर्तमान फ़िल्टर के साथ कोई वर्ण उपलब्ध नहीं है।"
+  },
+  "vocabulary": {
+    "practiceMode": "अभ्यास मोड",
+    "typeMeaning": "अर्थ या रोमाजी टाइप करें...",
+    "typeWord": "जापानी शब्द टाइप करें...",
+    "noWords": "कोई शब्द उपलब्ध नहीं है।"
+  },
+  "kanji": {
+    "practiceMeaning": "अर्थ",
+    "practiceReading": "पढ़ना",
+    "typeMeaningOrReading": "अर्थ या पढ़ना टाइप करें...",
+    "noKanji": "कोई कांजी उपलब्ध नहीं है।",
+    "onyomi": "音読み",
+    "kunyomi": "訓読み"
+  },
+  "grammar": {
+    "checkAnswer": "उत्तर जांचें",
+    "practice": "अभ्यास",
+    "noGrammar": "कोई व्याकरण उपलब्ध नहीं है।",
+    "noExercises": "इस व्याकरण बिंदु के लिए कोई अभ्यास उपलब्ध नहीं है।"
+  },
+  "reading": {
+    "showFurigana": "फुरिगाना दिखाएं",
+    "showQuestions": "प्रश्न दिखाएं",
+    "checkAnswers": "उत्तर जांचें",
+    "vocabulary": "शब्दावली",
+    "comprehensionQuestions": "समझ के प्रश्न",
+    "textsRead": "पढ़े गए पाठ",
+    "noReadings": "कोई पाठ उपलब्ध नहीं है।"
+  },
+  "listening": {
+    "playAudio": "ऑडियो चलाएं",
+    "typeWhatYouHear": "आप जो सुनते हैं वह टाइप करें:",
+    "typeJapaneseText": "जापानी पाठ यहाँ टाइप करें...",
+    "checkAnswer": "उत्तर जांचें",
+    "showTranscript": "ट्रांसक्रिप्ट दिखाएं",
+    "hideTranscript": "ट्रांसक्रिप्ट छुपाएं",
+    "noExercises": "कोई अभ्यास उपलब्ध नहीं है।"
+  },
+  "dashboard": {
+    "title": "जापानी ट्रेनर",
+    "subtitle": "学ぶ - जापानी सीखें",
+    "dayStreak": "दैनिक श्रृंखला",
+    "wordsLearned": "सीखे गए शब्द",
+    "kanjiMastered": "महारत हासिल कांजी",
+    "studyTime": "अध्ययन समय (मिनट)"
+  },
+  "stats": {
+    "correct": "सही",
+    "total": "कुल",
+    "streak": "श्रृंखला"
+  }
+}

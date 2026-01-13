@@ -1,0 +1,7109 @@
+[
+  {
+    "id": "vocab-1",
+    "word": "する",
+    "reading": "する",
+    "romaji": "する",
+    "meaning": "to do, to make",
+    "meanings": {
+      "en": "to do, to make",
+      "ja": "する"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "するを使う例",
+        "english": "Example of to do, to make"
+      }
+    ],
+    "tags": [
+      "n5",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-2",
+    "word": "いる",
+    "reading": "いる",
+    "romaji": "いる",
+    "meaning": "to be (animate)",
+    "meanings": {
+      "en": "to be (animate)",
+      "ja": "いる"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "いるを使う例",
+        "english": "Example of to be (animate)"
+      }
+    ],
+    "tags": [
+      "n5",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-3",
+    "word": "ある",
+    "reading": "ある",
+    "romaji": "ある",
+    "meaning": "to exist, to have",
+    "meanings": {
+      "en": "to exist, to have",
+      "ja": "ある"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "あるを使う例",
+        "english": "Example of to exist, to have"
+      }
+    ],
+    "tags": [
+      "n5",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-4",
+    "word": "なる",
+    "reading": "なる",
+    "romaji": "なる",
+    "meaning": "to become",
+    "meanings": {
+      "en": "to become",
+      "ja": "なる"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "なるを使う例",
+        "english": "Example of to become"
+      }
+    ],
+    "tags": [
+      "n5",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-5",
+    "word": "いく",
+    "reading": "いく",
+    "romaji": "いく",
+    "meaning": "to go",
+    "meanings": {
+      "en": "to go",
+      "ja": "いく"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "いくを使う例",
+        "english": "Example of to go"
+      }
+    ],
+    "tags": [
+      "n5",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-6",
+    "word": "くる",
+    "reading": "くる",
+    "romaji": "くる",
+    "meaning": "to come",
+    "meanings": {
+      "en": "to come",
+      "ja": "くる"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "くるを使う例",
+        "english": "Example of to come"
+      }
+    ],
+    "tags": [
+      "n5",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-7",
+    "word": "みる",
+    "reading": "みる",
+    "romaji": "みる",
+    "meaning": "to see, to watch",
+    "meanings": {
+      "en": "to see, to watch",
+      "ja": "みる"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "みるを使う例",
+        "english": "Example of to see, to watch"
+      }
+    ],
+    "tags": [
+      "n5",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-8",
+    "word": "きく",
+    "reading": "きく",
+    "romaji": "きく",
+    "meaning": "to listen, to hear",
+    "meanings": {
+      "en": "to listen, to hear",
+      "ja": "きく"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "きくを使う例",
+        "english": "Example of to listen, to hear"
+      }
+    ],
+    "tags": [
+      "n5",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-9",
+    "word": "たべる",
+    "reading": "たべる",
+    "romaji": "たべる",
+    "meaning": "to eat",
+    "meanings": {
+      "en": "to eat",
+      "ja": "たべる"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "たべるを使う例",
+        "english": "Example of to eat"
+      }
+    ],
+    "tags": [
+      "n5",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-10",
+    "word": "のむ",
+    "reading": "のむ",
+    "romaji": "のむ",
+    "meaning": "to drink",
+    "meanings": {
+      "en": "to drink",
+      "ja": "のむ"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "のむを使う例",
+        "english": "Example of to drink"
+      }
+    ],
+    "tags": [
+      "n5",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-11",
+    "word": "かく",
+    "reading": "かく",
+    "romaji": "かく",
+    "meaning": "to write",
+    "meanings": {
+      "en": "to write",
+      "ja": "かく"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "かくを使う例",
+        "english": "Example of to write"
+      }
+    ],
+    "tags": [
+      "n5",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-12",
+    "word": "よむ",
+    "reading": "よむ",
+    "romaji": "よむ",
+    "meaning": "to read",
+    "meanings": {
+      "en": "to read",
+      "ja": "よむ"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "よむを使う例",
+        "english": "Example of to read"
+      }
+    ],
+    "tags": [
+      "n5",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-13",
+    "word": "はいる",
+    "reading": "はいる",
+    "romaji": "はいる",
+    "meaning": "to enter",
+    "meanings": {
+      "en": "to enter",
+      "ja": "はいる"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "はいるを使う例",
+        "english": "Example of to enter"
+      }
+    ],
+    "tags": [
+      "n5",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-14",
+    "word": "でる",
+    "reading": "でる",
+    "romaji": "でる",
+    "meaning": "to exit, to go out",
+    "meanings": {
+      "en": "to exit, to go out",
+      "ja": "でる"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "でるを使う例",
+        "english": "Example of to exit, to go out"
+      }
+    ],
+    "tags": [
+      "n5",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-15",
+    "word": "あるく",
+    "reading": "あるく",
+    "romaji": "あるく",
+    "meaning": "to walk",
+    "meanings": {
+      "en": "to walk",
+      "ja": "あるく"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "あるくを使う例",
+        "english": "Example of to walk"
+      }
+    ],
+    "tags": [
+      "n5",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-16",
+    "word": "はしる",
+    "reading": "はしる",
+    "romaji": "はしる",
+    "meaning": "to run",
+    "meanings": {
+      "en": "to run",
+      "ja": "はしる"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "はしるを使う例",
+        "english": "Example of to run"
+      }
+    ],
+    "tags": [
+      "n5",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-17",
+    "word": "たつ",
+    "reading": "たつ",
+    "romaji": "たつ",
+    "meaning": "to stand",
+    "meanings": {
+      "en": "to stand",
+      "ja": "たつ"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "たつを使う例",
+        "english": "Example of to stand"
+      }
+    ],
+    "tags": [
+      "n5",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-18",
+    "word": "すわる",
+    "reading": "すわる",
+    "romaji": "すわる",
+    "meaning": "to sit",
+    "meanings": {
+      "en": "to sit",
+      "ja": "すわる"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "すわるを使う例",
+        "english": "Example of to sit"
+      }
+    ],
+    "tags": [
+      "n5",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-19",
+    "word": "ねる",
+    "reading": "ねる",
+    "romaji": "ねる",
+    "meaning": "to sleep",
+    "meanings": {
+      "en": "to sleep",
+      "ja": "ねる"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "ねるを使う例",
+        "english": "Example of to sleep"
+      }
+    ],
+    "tags": [
+      "n5",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-20",
+    "word": "おきる",
+    "reading": "おきる",
+    "romaji": "おきる",
+    "meaning": "to wake up",
+    "meanings": {
+      "en": "to wake up",
+      "ja": "おきる"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "おきるを使う例",
+        "english": "Example of to wake up"
+      }
+    ],
+    "tags": [
+      "n5",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-21",
+    "word": "かえる",
+    "reading": "かえる",
+    "romaji": "かえる",
+    "meaning": "to return",
+    "meanings": {
+      "en": "to return",
+      "ja": "かえる"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "かえるを使う例",
+        "english": "Example of to return"
+      }
+    ],
+    "tags": [
+      "n5",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-22",
+    "word": "おわる",
+    "reading": "おわる",
+    "romaji": "おわる",
+    "meaning": "to finish",
+    "meanings": {
+      "en": "to finish",
+      "ja": "おわる"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "おわるを使う例",
+        "english": "Example of to finish"
+      }
+    ],
+    "tags": [
+      "n5",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-23",
+    "word": "はじまる",
+    "reading": "はじまる",
+    "romaji": "はじまる",
+    "meaning": "to start",
+    "meanings": {
+      "en": "to start",
+      "ja": "はじまる"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "はじまるを使う例",
+        "english": "Example of to start"
+      }
+    ],
+    "tags": [
+      "n5",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-24",
+    "word": "つづく",
+    "reading": "つづく",
+    "romaji": "つづく",
+    "meaning": "to continue",
+    "meanings": {
+      "en": "to continue",
+      "ja": "つづく"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "つづくを使う例",
+        "english": "Example of to continue"
+      }
+    ],
+    "tags": [
+      "n5",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-25",
+    "word": "やる",
+    "reading": "やる",
+    "romaji": "やる",
+    "meaning": "to do",
+    "meanings": {
+      "en": "to do",
+      "ja": "やる"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "やるを使う例",
+        "english": "Example of to do"
+      }
+    ],
+    "tags": [
+      "n5",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-26",
+    "word": "あげる",
+    "reading": "あげる",
+    "romaji": "あげる",
+    "meaning": "to give",
+    "meanings": {
+      "en": "to give",
+      "ja": "あげる"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "あげるを使う例",
+        "english": "Example of to give"
+      }
+    ],
+    "tags": [
+      "n5",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-27",
+    "word": "もらう",
+    "reading": "もらう",
+    "romaji": "もらう",
+    "meaning": "to receive",
+    "meanings": {
+      "en": "to receive",
+      "ja": "もらう"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "もらうを使う例",
+        "english": "Example of to receive"
+      }
+    ],
+    "tags": [
+      "n5",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-28",
+    "word": "かる",
+    "reading": "かる",
+    "romaji": "かる",
+    "meaning": "to borrow",
+    "meanings": {
+      "en": "to borrow",
+      "ja": "かる"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "かるを使う例",
+        "english": "Example of to borrow"
+      }
+    ],
+    "tags": [
+      "n5",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-29",
+    "word": "ぐ",
+    "reading": "ぐ",
+    "romaji": "ぐ",
+    "meaning": "to be able to",
+    "meanings": {
+      "en": "to be able to",
+      "ja": "ぐ"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "ぐを使う例",
+        "english": "Example of to be able to"
+      }
+    ],
+    "tags": [
+      "n5",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-30",
+    "word": "できる",
+    "reading": "できる",
+    "romaji": "できる",
+    "meaning": "to be able to do",
+    "meanings": {
+      "en": "to be able to do",
+      "ja": "できる"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "できるを使う例",
+        "english": "Example of to be able to do"
+      }
+    ],
+    "tags": [
+      "n5",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-31",
+    "word": "大きい",
+    "reading": "おおきい",
+    "romaji": "おおきい",
+    "meaning": "big, large",
+    "meanings": {
+      "en": "big, large",
+      "ja": "大きい"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "大きいを使う例",
+        "english": "Example of big, large"
+      }
+    ],
+    "tags": [
+      "n5",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-32",
+    "word": "小さい",
+    "reading": "ちいさい",
+    "romaji": "ちいさい",
+    "meaning": "small",
+    "meanings": {
+      "en": "small",
+      "ja": "小さい"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "小さいを使う例",
+        "english": "Example of small"
+      }
+    ],
+    "tags": [
+      "n5",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-33",
+    "word": "新しい",
+    "reading": "あたらしい",
+    "romaji": "あたらしい",
+    "meaning": "new",
+    "meanings": {
+      "en": "new",
+      "ja": "新しい"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "新しいを使う例",
+        "english": "Example of new"
+      }
+    ],
+    "tags": [
+      "n5",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-34",
+    "word": "古い",
+    "reading": "ふるい",
+    "romaji": "ふるい",
+    "meaning": "old",
+    "meanings": {
+      "en": "old",
+      "ja": "古い"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "古いを使う例",
+        "english": "Example of old"
+      }
+    ],
+    "tags": [
+      "n5",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-35",
+    "word": "高い",
+    "reading": "たかい",
+    "romaji": "たかい",
+    "meaning": "high, tall",
+    "meanings": {
+      "en": "high, tall",
+      "ja": "高い"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "高いを使う例",
+        "english": "Example of high, tall"
+      }
+    ],
+    "tags": [
+      "n5",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-36",
+    "word": "低い",
+    "reading": "ひくい",
+    "romaji": "ひくい",
+    "meaning": "low",
+    "meanings": {
+      "en": "low",
+      "ja": "低い"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "低いを使う例",
+        "english": "Example of low"
+      }
+    ],
+    "tags": [
+      "n5",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-37",
+    "word": "長い",
+    "reading": "ながい",
+    "romaji": "ながい",
+    "meaning": "long",
+    "meanings": {
+      "en": "long",
+      "ja": "長い"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "長いを使う例",
+        "english": "Example of long"
+      }
+    ],
+    "tags": [
+      "n5",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-38",
+    "word": "短い",
+    "reading": "みじかい",
+    "romaji": "みじかい",
+    "meaning": "short",
+    "meanings": {
+      "en": "short",
+      "ja": "短い"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "短いを使う例",
+        "english": "Example of short"
+      }
+    ],
+    "tags": [
+      "n5",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-39",
+    "word": "良い",
+    "reading": "よい",
+    "romaji": "よい",
+    "meaning": "good",
+    "meanings": {
+      "en": "good",
+      "ja": "良い"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "良いを使う例",
+        "english": "Example of good"
+      }
+    ],
+    "tags": [
+      "n5",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-40",
+    "word": "悪い",
+    "reading": "わるい",
+    "romaji": "わるい",
+    "meaning": "bad",
+    "meanings": {
+      "en": "bad",
+      "ja": "悪い"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "悪いを使う例",
+        "english": "Example of bad"
+      }
+    ],
+    "tags": [
+      "n5",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-41",
+    "word": "暑い",
+    "reading": "ホットい",
+    "romaji": "ホットい",
+    "meaning": "hot",
+    "meanings": {
+      "en": "hot",
+      "ja": "暑い"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "暑いを使う例",
+        "english": "Example of hot"
+      }
+    ],
+    "tags": [
+      "n5",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-42",
+    "word": "寒い",
+    "reading": "さむい",
+    "romaji": "さむい",
+    "meaning": "cold",
+    "meanings": {
+      "en": "cold",
+      "ja": "寒い"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "寒いを使う例",
+        "english": "Example of cold"
+      }
+    ],
+    "tags": [
+      "n5",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-43",
+    "word": "熱い",
+    "reading": "あつい",
+    "romaji": "あつい",
+    "meaning": "hot (object)",
+    "meanings": {
+      "en": "hot (object)",
+      "ja": "熱い"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "熱いを使う例",
+        "english": "Example of hot (object)"
+      }
+    ],
+    "tags": [
+      "n5",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-44",
+    "word": "冷たい",
+    "reading": "つめたい",
+    "romaji": "つめたい",
+    "meaning": "cold (object)",
+    "meanings": {
+      "en": "cold (object)",
+      "ja": "冷たい"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "冷たいを使う例",
+        "english": "Example of cold (object)"
+      }
+    ],
+    "tags": [
+      "n5",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-45",
+    "word": "強い",
+    "reading": "つよい",
+    "romaji": "つよい",
+    "meaning": "strong",
+    "meanings": {
+      "en": "strong",
+      "ja": "強い"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "強いを使う例",
+        "english": "Example of strong"
+      }
+    ],
+    "tags": [
+      "n5",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-46",
+    "word": "弱い",
+    "reading": "よわい",
+    "romaji": "よわい",
+    "meaning": "weak",
+    "meanings": {
+      "en": "weak",
+      "ja": "弱い"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "弱いを使う例",
+        "english": "Example of weak"
+      }
+    ],
+    "tags": [
+      "n5",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-47",
+    "word": "赤い",
+    "reading": "あかい",
+    "romaji": "あかい",
+    "meaning": "red",
+    "meanings": {
+      "en": "red",
+      "ja": "赤い"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "赤いを使う例",
+        "english": "Example of red"
+      }
+    ],
+    "tags": [
+      "n5",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-48",
+    "word": "青い",
+    "reading": "あおい",
+    "romaji": "あおい",
+    "meaning": "blue",
+    "meanings": {
+      "en": "blue",
+      "ja": "青い"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "青いを使う例",
+        "english": "Example of blue"
+      }
+    ],
+    "tags": [
+      "n5",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-49",
+    "word": "白い",
+    "reading": "しろい",
+    "romaji": "しろい",
+    "meaning": "white",
+    "meanings": {
+      "en": "white",
+      "ja": "白い"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "白いを使う例",
+        "english": "Example of white"
+      }
+    ],
+    "tags": [
+      "n5",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-50",
+    "word": "黒い",
+    "reading": "くろい",
+    "romaji": "くろい",
+    "meaning": "black",
+    "meanings": {
+      "en": "black",
+      "ja": "黒い"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "黒いを使う例",
+        "english": "Example of black"
+      }
+    ],
+    "tags": [
+      "n5",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-51",
+    "word": "人",
+    "reading": "ひと",
+    "romaji": "ひと",
+    "meaning": "person",
+    "meanings": {
+      "en": "person",
+      "ja": "人"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "人を使う例",
+        "english": "Example of person"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-52",
+    "word": "女",
+    "reading": "おんな",
+    "romaji": "おんな",
+    "meaning": "woman",
+    "meanings": {
+      "en": "woman",
+      "ja": "女"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "女を使う例",
+        "english": "Example of woman"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-53",
+    "word": "男",
+    "reading": "おとこ",
+    "romaji": "おとこ",
+    "meaning": "man",
+    "meanings": {
+      "en": "man",
+      "ja": "男"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "男を使う例",
+        "english": "Example of man"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-54",
+    "word": "子供",
+    "reading": "こども",
+    "romaji": "こども",
+    "meaning": "child",
+    "meanings": {
+      "en": "child",
+      "ja": "子供"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "子供を使う例",
+        "english": "Example of child"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-55",
+    "word": "頭",
+    "reading": "あたまい",
+    "romaji": "あたまい",
+    "meaning": "head",
+    "meanings": {
+      "en": "head",
+      "ja": "頭"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "頭を使う例",
+        "english": "Example of head"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-56",
+    "word": "目",
+    "reading": "め",
+    "romaji": "め",
+    "meaning": "eye",
+    "meanings": {
+      "en": "eye",
+      "ja": "目"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "目を使う例",
+        "english": "Example of eye"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-57",
+    "word": "耳",
+    "reading": "みみ",
+    "romaji": "みみ",
+    "meaning": "ear",
+    "meanings": {
+      "en": "ear",
+      "ja": "耳"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "耳を使う例",
+        "english": "Example of ear"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-58",
+    "word": "鼻",
+    "reading": "はな",
+    "romaji": "はな",
+    "meaning": "nose",
+    "meanings": {
+      "en": "nose",
+      "ja": "鼻"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "鼻を使う例",
+        "english": "Example of nose"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-59",
+    "word": "口",
+    "reading": "くち",
+    "romaji": "くち",
+    "meaning": "mouth",
+    "meanings": {
+      "en": "mouth",
+      "ja": "口"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "口を使う例",
+        "english": "Example of mouth"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-60",
+    "word": "歯",
+    "reading": "は",
+    "romaji": "は",
+    "meaning": "tooth",
+    "meanings": {
+      "en": "tooth",
+      "ja": "歯"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "歯を使う例",
+        "english": "Example of tooth"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-61",
+    "word": "舌",
+    "reading": "して",
+    "romaji": "して",
+    "meaning": "tongue",
+    "meanings": {
+      "en": "tongue",
+      "ja": "舌"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "舌を使う例",
+        "english": "Example of tongue"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-62",
+    "word": "手",
+    "reading": "て",
+    "romaji": "て",
+    "meaning": "hand",
+    "meanings": {
+      "en": "hand",
+      "ja": "手"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "手を使う例",
+        "english": "Example of hand"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-63",
+    "word": "指",
+    "reading": "ゆび",
+    "romaji": "ゆび",
+    "meaning": "finger",
+    "meanings": {
+      "en": "finger",
+      "ja": "指"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "指を使う例",
+        "english": "Example of finger"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-64",
+    "word": "足",
+    "reading": "あし",
+    "romaji": "あし",
+    "meaning": "leg, foot",
+    "meanings": {
+      "en": "leg, foot",
+      "ja": "足"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "足を使う例",
+        "english": "Example of leg, foot"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-65",
+    "word": "体",
+    "reading": "からだ",
+    "romaji": "からだ",
+    "meaning": "body",
+    "meanings": {
+      "en": "body",
+      "ja": "体"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "体を使う例",
+        "english": "Example of body"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-66",
+    "word": "先生",
+    "reading": "せんせい",
+    "romaji": "せんせい",
+    "meaning": "teacher",
+    "meanings": {
+      "en": "teacher",
+      "ja": "先生"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "先生を使う例",
+        "english": "Example of teacher"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-67",
+    "word": "学生",
+    "reading": "がくせい",
+    "romaji": "がくせい",
+    "meaning": "student",
+    "meanings": {
+      "en": "student",
+      "ja": "学生"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "学生を使う例",
+        "english": "Example of student"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-68",
+    "word": "先輩",
+    "reading": "せんぱい",
+    "romaji": "せんぱい",
+    "meaning": "senior",
+    "meanings": {
+      "en": "senior",
+      "ja": "先輩"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "先輩を使う例",
+        "english": "Example of senior"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-69",
+    "word": "後輩",
+    "reading": "こうはい",
+    "romaji": "こうはい",
+    "meaning": "junior",
+    "meanings": {
+      "en": "junior",
+      "ja": "後輩"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "後輩を使う例",
+        "english": "Example of junior"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-70",
+    "word": "友達",
+    "reading": "ともだち",
+    "romaji": "ともだち",
+    "meaning": "friend",
+    "meanings": {
+      "en": "friend",
+      "ja": "友達"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "友達を使う例",
+        "english": "Example of friend"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-71",
+    "word": "家族",
+    "reading": "かぞく",
+    "romaji": "かぞく",
+    "meaning": "family",
+    "meanings": {
+      "en": "family",
+      "ja": "家族"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "家族を使う例",
+        "english": "Example of family"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-72",
+    "word": "父",
+    "reading": "ちち",
+    "romaji": "ちち",
+    "meaning": "father",
+    "meanings": {
+      "en": "father",
+      "ja": "父"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "父を使う例",
+        "english": "Example of father"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-73",
+    "word": "母",
+    "reading": "はは",
+    "romaji": "はは",
+    "meaning": "mother",
+    "meanings": {
+      "en": "mother",
+      "ja": "母"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "母を使う例",
+        "english": "Example of mother"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-74",
+    "word": "兄さん",
+    "reading": "にいさん",
+    "romaji": "にいさん",
+    "meaning": "older brother",
+    "meanings": {
+      "en": "older brother",
+      "ja": "兄さん"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "兄さんを使う例",
+        "english": "Example of older brother"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-75",
+    "word": "弟",
+    "reading": "おとうと",
+    "romaji": "おとうと",
+    "meaning": "younger brother",
+    "meanings": {
+      "en": "younger brother",
+      "ja": "弟"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "弟を使う例",
+        "english": "Example of younger brother"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-76",
+    "word": "姉さん",
+    "reading": "ねえさん",
+    "romaji": "ねえさん",
+    "meaning": "older sister",
+    "meanings": {
+      "en": "older sister",
+      "ja": "姉さん"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "姉さんを使う例",
+        "english": "Example of older sister"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-77",
+    "word": "妹",
+    "reading": "いもうと",
+    "romaji": "いもうと",
+    "meaning": "younger sister",
+    "meanings": {
+      "en": "younger sister",
+      "ja": "妹"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "妹を使う例",
+        "english": "Example of younger sister"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-78",
+    "word": "家",
+    "reading": "いえ",
+    "romaji": "いえ",
+    "meaning": "house, home",
+    "meanings": {
+      "en": "house, home",
+      "ja": "家"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "家を使う例",
+        "english": "Example of house, home"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-79",
+    "word": "部屋",
+    "reading": "へや",
+    "romaji": "へや",
+    "meaning": "room",
+    "meanings": {
+      "en": "room",
+      "ja": "部屋"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "部屋を使う例",
+        "english": "Example of room"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-80",
+    "word": "扉",
+    "reading": "どあ",
+    "romaji": "どあ",
+    "meaning": "door",
+    "meanings": {
+      "en": "door",
+      "ja": "扉"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "扉を使う例",
+        "english": "Example of door"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-81",
+    "word": "窓",
+    "reading": "まど",
+    "romaji": "まど",
+    "meaning": "window",
+    "meanings": {
+      "en": "window",
+      "ja": "窓"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "窓を使う例",
+        "english": "Example of window"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-82",
+    "word": "机",
+    "reading": "つくえ",
+    "romaji": "つくえ",
+    "meaning": "desk",
+    "meanings": {
+      "en": "desk",
+      "ja": "机"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "机を使う例",
+        "english": "Example of desk"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-83",
+    "word": "椅子",
+    "reading": "いす",
+    "romaji": "いす",
+    "meaning": "chair",
+    "meanings": {
+      "en": "chair",
+      "ja": "椅子"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "椅子を使う例",
+        "english": "Example of chair"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-84",
+    "word": "ベッド",
+    "reading": "ベッド",
+    "romaji": "ベッド",
+    "meaning": "bed",
+    "meanings": {
+      "en": "bed",
+      "ja": "ベッド"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "ベッドを使う例",
+        "english": "Example of bed"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-85",
+    "word": "洗濯",
+    "reading": "せんか",
+    "romaji": "せんか",
+    "meaning": "washing",
+    "meanings": {
+      "en": "washing",
+      "ja": "洗濯"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "洗濯を使う例",
+        "english": "Example of washing"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-86",
+    "word": "猫",
+    "reading": "ねこ",
+    "romaji": "ねこ",
+    "meaning": "cat",
+    "meanings": {
+      "en": "cat",
+      "ja": "猫"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "猫を使う例",
+        "english": "Example of cat"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-87",
+    "word": "犬",
+    "reading": "いぬ",
+    "romaji": "いぬ",
+    "meaning": "dog",
+    "meanings": {
+      "en": "dog",
+      "ja": "犬"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "犬を使う例",
+        "english": "Example of dog"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-88",
+    "word": "鳥",
+    "reading": "とり",
+    "romaji": "とり",
+    "meaning": "bird",
+    "meanings": {
+      "en": "bird",
+      "ja": "鳥"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "鳥を使う例",
+        "english": "Example of bird"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-89",
+    "word": "魚",
+    "reading": "さかな",
+    "romaji": "さかな",
+    "meaning": "fish",
+    "meanings": {
+      "en": "fish",
+      "ja": "魚"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "魚を使う例",
+        "english": "Example of fish"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-90",
+    "word": "食事",
+    "reading": "しょくじ",
+    "romaji": "しょくじ",
+    "meaning": "meal",
+    "meanings": {
+      "en": "meal",
+      "ja": "食事"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "食事を使う例",
+        "english": "Example of meal"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-91",
+    "word": "朝ご飯",
+    "reading": "あさごはん",
+    "romaji": "あさごはん",
+    "meaning": "breakfast",
+    "meanings": {
+      "en": "breakfast",
+      "ja": "朝ご飯"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "朝ご飯を使う例",
+        "english": "Example of breakfast"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-92",
+    "word": "昼ご飯",
+    "reading": "ひるごはん",
+    "romaji": "ひるごはん",
+    "meaning": "lunch",
+    "meanings": {
+      "en": "lunch",
+      "ja": "昼ご飯"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "昼ご飯を使う例",
+        "english": "Example of lunch"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-93",
+    "word": "晩ご飯",
+    "reading": "ばんごはん",
+    "romaji": "ばんごはん",
+    "meaning": "dinner",
+    "meanings": {
+      "en": "dinner",
+      "ja": "晩ご飯"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "晩ご飯を使う例",
+        "english": "Example of dinner"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-94",
+    "word": "飲み物",
+    "reading": "のみもの",
+    "romaji": "のみもの",
+    "meaning": "drink",
+    "meanings": {
+      "en": "drink",
+      "ja": "飲み物"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "飲み物を使う例",
+        "english": "Example of drink"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-95",
+    "word": "水",
+    "reading": "みず",
+    "romaji": "みず",
+    "meaning": "water",
+    "meanings": {
+      "en": "water",
+      "ja": "水"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "水を使う例",
+        "english": "Example of water"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-96",
+    "word": "茶",
+    "reading": "ちゃ",
+    "romaji": "ちゃ",
+    "meaning": "tea",
+    "meanings": {
+      "en": "tea",
+      "ja": "茶"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "茶を使う例",
+        "english": "Example of tea"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-97",
+    "word": "コーヒー",
+    "reading": "コーヒー",
+    "romaji": "コーヒー",
+    "meaning": "coffee",
+    "meanings": {
+      "en": "coffee",
+      "ja": "コーヒー"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "コーヒーを使う例",
+        "english": "Example of coffee"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-98",
+    "word": "熊",
+    "reading": "くまい",
+    "romaji": "くまい",
+    "meaning": "bear",
+    "meanings": {
+      "en": "bear",
+      "ja": "熊"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "熊を使う例",
+        "english": "Example of bear"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-99",
+    "word": "トカゲ",
+    "reading": "とかげ",
+    "romaji": "とかげ",
+    "meaning": "lizard",
+    "meanings": {
+      "en": "lizard",
+      "ja": "トカゲ"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "トカゲを使う例",
+        "english": "Example of lizard"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-100",
+    "word": "ヘビ",
+    "reading": "ヘビ",
+    "romaji": "ヘビ",
+    "meaning": "snake",
+    "meanings": {
+      "en": "snake",
+      "ja": "ヘビ"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "ヘビを使う例",
+        "english": "Example of snake"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-101",
+    "word": "天気",
+    "reading": "てんき",
+    "romaji": "てんき",
+    "meaning": "weather",
+    "meanings": {
+      "en": "weather",
+      "ja": "天気"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "天気を使う例",
+        "english": "Example of weather"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-102",
+    "word": "雨",
+    "reading": "あめ",
+    "romaji": "あめ",
+    "meaning": "rain",
+    "meanings": {
+      "en": "rain",
+      "ja": "雨"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "雨を使う例",
+        "english": "Example of rain"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-103",
+    "word": "雪",
+    "reading": "ゆき",
+    "romaji": "ゆき",
+    "meaning": "snow",
+    "meanings": {
+      "en": "snow",
+      "ja": "雪"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "雪を使う例",
+        "english": "Example of snow"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-104",
+    "word": "風",
+    "reading": "かぜ",
+    "romaji": "かぜ",
+    "meaning": "wind",
+    "meanings": {
+      "en": "wind",
+      "ja": "風"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "風を使う例",
+        "english": "Example of wind"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-105",
+    "word": "曇り",
+    "reading": "くもり",
+    "romaji": "くもり",
+    "meaning": "cloud",
+    "meanings": {
+      "en": "cloud",
+      "ja": "曇り"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "曇りを使う例",
+        "english": "Example of cloud"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-106",
+    "word": "日",
+    "reading": "ひ",
+    "romaji": "ひ",
+    "meaning": "day, sun",
+    "meanings": {
+      "en": "day, sun",
+      "ja": "日"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "日を使う例",
+        "english": "Example of day, sun"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-107",
+    "word": "月",
+    "reading": "つき",
+    "romaji": "つき",
+    "meaning": "month, moon",
+    "meanings": {
+      "en": "month, moon",
+      "ja": "月"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "月を使う例",
+        "english": "Example of month, moon"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-108",
+    "word": "星",
+    "reading": "ほし",
+    "romaji": "ほし",
+    "meaning": "star",
+    "meanings": {
+      "en": "star",
+      "ja": "星"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "星を使う例",
+        "english": "Example of star"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-109",
+    "word": "時",
+    "reading": "とき",
+    "romaji": "とき",
+    "meaning": "time",
+    "meanings": {
+      "en": "time",
+      "ja": "時"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "時を使う例",
+        "english": "Example of time"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-110",
+    "word": "時間",
+    "reading": "じかん",
+    "romaji": "じかん",
+    "meaning": "hour",
+    "meanings": {
+      "en": "hour",
+      "ja": "時間"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "時間を使う例",
+        "english": "Example of hour"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-111",
+    "word": "分",
+    "reading": "ぶん",
+    "romaji": "ぶん",
+    "meaning": "minute",
+    "meanings": {
+      "en": "minute",
+      "ja": "分"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "分を使う例",
+        "english": "Example of minute"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-112",
+    "word": "秒",
+    "reading": "びょう",
+    "romaji": "びょう",
+    "meaning": "second",
+    "meanings": {
+      "en": "second",
+      "ja": "秒"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "秒を使う例",
+        "english": "Example of second"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-113",
+    "word": "年",
+    "reading": "ねん",
+    "romaji": "ねん",
+    "meaning": "year",
+    "meanings": {
+      "en": "year",
+      "ja": "年"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "年を使う例",
+        "english": "Example of year"
+      }
+    ],
+    "tags": [
+      "n5",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-114",
+    "word": "一",
+    "reading": "いち",
+    "romaji": "いち",
+    "meaning": "one",
+    "meanings": {
+      "en": "one",
+      "ja": "一"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "number",
+    "examples": [
+      {
+        "japanese": "一を使う例",
+        "english": "Example of one"
+      }
+    ],
+    "tags": [
+      "n5",
+      "number"
+    ]
+  },
+  {
+    "id": "vocab-115",
+    "word": "二",
+    "reading": "に",
+    "romaji": "に",
+    "meaning": "two",
+    "meanings": {
+      "en": "two",
+      "ja": "二"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "number",
+    "examples": [
+      {
+        "japanese": "二を使う例",
+        "english": "Example of two"
+      }
+    ],
+    "tags": [
+      "n5",
+      "number"
+    ]
+  },
+  {
+    "id": "vocab-116",
+    "word": "三",
+    "reading": "さん",
+    "romaji": "さん",
+    "meaning": "three",
+    "meanings": {
+      "en": "three",
+      "ja": "三"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "number",
+    "examples": [
+      {
+        "japanese": "三を使う例",
+        "english": "Example of three"
+      }
+    ],
+    "tags": [
+      "n5",
+      "number"
+    ]
+  },
+  {
+    "id": "vocab-117",
+    "word": "四",
+    "reading": "し",
+    "romaji": "し",
+    "meaning": "four",
+    "meanings": {
+      "en": "four",
+      "ja": "四"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "number",
+    "examples": [
+      {
+        "japanese": "四を使う例",
+        "english": "Example of four"
+      }
+    ],
+    "tags": [
+      "n5",
+      "number"
+    ]
+  },
+  {
+    "id": "vocab-118",
+    "word": "五",
+    "reading": "ご",
+    "romaji": "ご",
+    "meaning": "five",
+    "meanings": {
+      "en": "five",
+      "ja": "五"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "number",
+    "examples": [
+      {
+        "japanese": "五を使う例",
+        "english": "Example of five"
+      }
+    ],
+    "tags": [
+      "n5",
+      "number"
+    ]
+  },
+  {
+    "id": "vocab-119",
+    "word": "六",
+    "reading": "ろく",
+    "romaji": "ろく",
+    "meaning": "six",
+    "meanings": {
+      "en": "six",
+      "ja": "六"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "number",
+    "examples": [
+      {
+        "japanese": "六を使う例",
+        "english": "Example of six"
+      }
+    ],
+    "tags": [
+      "n5",
+      "number"
+    ]
+  },
+  {
+    "id": "vocab-120",
+    "word": "七",
+    "reading": "しち",
+    "romaji": "しち",
+    "meaning": "seven",
+    "meanings": {
+      "en": "seven",
+      "ja": "七"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "number",
+    "examples": [
+      {
+        "japanese": "七を使う例",
+        "english": "Example of seven"
+      }
+    ],
+    "tags": [
+      "n5",
+      "number"
+    ]
+  },
+  {
+    "id": "vocab-121",
+    "word": "八",
+    "reading": "はち",
+    "romaji": "はち",
+    "meaning": "eight",
+    "meanings": {
+      "en": "eight",
+      "ja": "八"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "number",
+    "examples": [
+      {
+        "japanese": "八を使う例",
+        "english": "Example of eight"
+      }
+    ],
+    "tags": [
+      "n5",
+      "number"
+    ]
+  },
+  {
+    "id": "vocab-122",
+    "word": "九",
+    "reading": "きゅう",
+    "romaji": "きゅう",
+    "meaning": "nine",
+    "meanings": {
+      "en": "nine",
+      "ja": "九"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "number",
+    "examples": [
+      {
+        "japanese": "九を使う例",
+        "english": "Example of nine"
+      }
+    ],
+    "tags": [
+      "n5",
+      "number"
+    ]
+  },
+  {
+    "id": "vocab-123",
+    "word": "十",
+    "reading": "じゅう",
+    "romaji": "じゅう",
+    "meaning": "ten",
+    "meanings": {
+      "en": "ten",
+      "ja": "十"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "number",
+    "examples": [
+      {
+        "japanese": "十を使う例",
+        "english": "Example of ten"
+      }
+    ],
+    "tags": [
+      "n5",
+      "number"
+    ]
+  },
+  {
+    "id": "vocab-124",
+    "word": "百",
+    "reading": "きるろく",
+    "romaji": "きるろく",
+    "meaning": "hundred",
+    "meanings": {
+      "en": "hundred",
+      "ja": "百"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "number",
+    "examples": [
+      {
+        "japanese": "百を使う例",
+        "english": "Example of hundred"
+      }
+    ],
+    "tags": [
+      "n5",
+      "number"
+    ]
+  },
+  {
+    "id": "vocab-125",
+    "word": "千",
+    "reading": "せん",
+    "romaji": "せん",
+    "meaning": "thousand",
+    "meanings": {
+      "en": "thousand",
+      "ja": "千"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "number",
+    "examples": [
+      {
+        "japanese": "千を使う例",
+        "english": "Example of thousand"
+      }
+    ],
+    "tags": [
+      "n5",
+      "number"
+    ]
+  },
+  {
+    "id": "vocab-126",
+    "word": "万",
+    "reading": "まん",
+    "romaji": "まん",
+    "meaning": "ten thousand",
+    "meanings": {
+      "en": "ten thousand",
+      "ja": "万"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "number",
+    "examples": [
+      {
+        "japanese": "万を使う例",
+        "english": "Example of ten thousand"
+      }
+    ],
+    "tags": [
+      "n5",
+      "number"
+    ]
+  },
+  {
+    "id": "vocab-127",
+    "word": "味わう",
+    "reading": "あじわう",
+    "romaji": "あじわう",
+    "meaning": "to taste",
+    "meanings": {
+      "en": "to taste",
+      "ja": "味わう"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "味わうを使う例",
+        "english": "Example of to taste"
+      }
+    ],
+    "tags": [
+      "n4",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-128",
+    "word": "頂く",
+    "reading": "いただく",
+    "romaji": "いただく",
+    "meaning": "to receive (food)",
+    "meanings": {
+      "en": "to receive (food)",
+      "ja": "頂く"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "頂くを使う例",
+        "english": "Example of to receive (food)"
+      }
+    ],
+    "tags": [
+      "n4",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-129",
+    "word": "作る",
+    "reading": "つくる",
+    "romaji": "つくる",
+    "meaning": "to make, to create",
+    "meanings": {
+      "en": "to make, to create",
+      "ja": "作る"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "作るを使う例",
+        "english": "Example of to make, to create"
+      }
+    ],
+    "tags": [
+      "n4",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-130",
+    "word": "洗う",
+    "reading": "あらう",
+    "romaji": "あらう",
+    "meaning": "to wash",
+    "meanings": {
+      "en": "to wash",
+      "ja": "洗う"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "洗うを使う例",
+        "english": "Example of to wash"
+      }
+    ],
+    "tags": [
+      "n4",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-131",
+    "word": "掃除する",
+    "reading": "そうじする",
+    "romaji": "そうじする",
+    "meaning": "to clean",
+    "meanings": {
+      "en": "to clean",
+      "ja": "掃除する"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "掃除するを使う例",
+        "english": "Example of to clean"
+      }
+    ],
+    "tags": [
+      "n4",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-132",
+    "word": "片付ける",
+    "reading": "かたづける",
+    "romaji": "かたづける",
+    "meaning": "to tidy up",
+    "meanings": {
+      "en": "to tidy up",
+      "ja": "片付ける"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "片付けるを使う例",
+        "english": "Example of to tidy up"
+      }
+    ],
+    "tags": [
+      "n4",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-133",
+    "word": "買い物",
+    "reading": "かいもの",
+    "romaji": "かいもの",
+    "meaning": "shopping",
+    "meanings": {
+      "en": "shopping",
+      "ja": "買い物"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "買い物を使う例",
+        "english": "Example of shopping"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-134",
+    "word": "マーケット",
+    "reading": "マーケット",
+    "romaji": "マーケット",
+    "meaning": "market",
+    "meanings": {
+      "en": "market",
+      "ja": "マーケット"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "マーケットを使う例",
+        "english": "Example of market"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-135",
+    "word": "電車",
+    "reading": "でんしゃ",
+    "romaji": "でんしゃ",
+    "meaning": "train",
+    "meanings": {
+      "en": "train",
+      "ja": "電車"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "電車を使う例",
+        "english": "Example of train"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-136",
+    "word": "バス",
+    "reading": "バス",
+    "romaji": "バス",
+    "meaning": "bus",
+    "meanings": {
+      "en": "bus",
+      "ja": "バス"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "バスを使う例",
+        "english": "Example of bus"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-137",
+    "word": "タクシー",
+    "reading": "たくしー",
+    "romaji": "たくしー",
+    "meaning": "taxi",
+    "meanings": {
+      "en": "taxi",
+      "ja": "タクシー"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "タクシーを使う例",
+        "english": "Example of taxi"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-138",
+    "word": "飛行機",
+    "reading": "ひこうき",
+    "romaji": "ひこうき",
+    "meaning": "airplane",
+    "meanings": {
+      "en": "airplane",
+      "ja": "飛行機"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "飛行機を使う例",
+        "english": "Example of airplane"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-139",
+    "word": "船",
+    "reading": "ふね",
+    "romaji": "ふね",
+    "meaning": "ship, boat",
+    "meanings": {
+      "en": "ship, boat",
+      "ja": "船"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "船を使う例",
+        "english": "Example of ship, boat"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-140",
+    "word": "自転車",
+    "reading": "じてんしゃ",
+    "romaji": "じてんしゃ",
+    "meaning": "bicycle",
+    "meanings": {
+      "en": "bicycle",
+      "ja": "自転車"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "自転車を使う例",
+        "english": "Example of bicycle"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-141",
+    "word": "車",
+    "reading": "くるま",
+    "romaji": "くるま",
+    "meaning": "car",
+    "meanings": {
+      "en": "car",
+      "ja": "車"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "車を使う例",
+        "english": "Example of car"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-142",
+    "word": "ガソリンスタンド",
+    "reading": "ガソリンスタンド",
+    "romaji": "ガソリンスタンド",
+    "meaning": "gas station",
+    "meanings": {
+      "en": "gas station",
+      "ja": "ガソリンスタンド"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "ガソリンスタンドを使う例",
+        "english": "Example of gas station"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-143",
+    "word": "会議",
+    "reading": "かいぎ",
+    "romaji": "かいぎ",
+    "meaning": "meeting",
+    "meanings": {
+      "en": "meeting",
+      "ja": "会議"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "会議を使う例",
+        "english": "Example of meeting"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-144",
+    "word": "将来",
+    "reading": "しょうらい",
+    "romaji": "しょうらい",
+    "meaning": "future",
+    "meanings": {
+      "en": "future",
+      "ja": "将来"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "将来を使う例",
+        "english": "Example of future"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-145",
+    "word": "経験",
+    "reading": "けいけん",
+    "romaji": "けいけん",
+    "meaning": "experience",
+    "meanings": {
+      "en": "experience",
+      "ja": "経験"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "経験を使う例",
+        "english": "Example of experience"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-146",
+    "word": "成功",
+    "reading": "せいこう",
+    "romaji": "せいこう",
+    "meaning": "success",
+    "meanings": {
+      "en": "success",
+      "ja": "成功"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "成功を使う例",
+        "english": "Example of success"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-147",
+    "word": "失敗",
+    "reading": "しっぱい",
+    "romaji": "しっぱい",
+    "meaning": "failure",
+    "meanings": {
+      "en": "failure",
+      "ja": "失敗"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "失敗を使う例",
+        "english": "Example of failure"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-148",
+    "word": "結果",
+    "reading": "けっか",
+    "romaji": "けっか",
+    "meaning": "result",
+    "meanings": {
+      "en": "result",
+      "ja": "結果"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "結果を使う例",
+        "english": "Example of result"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-149",
+    "word": "問題",
+    "reading": "もんだい",
+    "romaji": "もんだい",
+    "meaning": "problem",
+    "meanings": {
+      "en": "problem",
+      "ja": "問題"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "問題を使う例",
+        "english": "Example of problem"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-150",
+    "word": "原因",
+    "reading": "げんいん",
+    "romaji": "げんいん",
+    "meaning": "cause",
+    "meanings": {
+      "en": "cause",
+      "ja": "原因"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "原因を使う例",
+        "english": "Example of cause"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-151",
+    "word": "解決",
+    "reading": "かいけつ",
+    "romaji": "かいけつ",
+    "meaning": "solution",
+    "meanings": {
+      "en": "solution",
+      "ja": "解決"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "解決を使う例",
+        "english": "Example of solution"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-152",
+    "word": "研究",
+    "reading": "けんけん",
+    "romaji": "けんけん",
+    "meaning": "research",
+    "meanings": {
+      "en": "research",
+      "ja": "研究"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "研究を使う例",
+        "english": "Example of research"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-153",
+    "word": "本屋",
+    "reading": "ほんや",
+    "romaji": "ほんや",
+    "meaning": "bookstore",
+    "meanings": {
+      "en": "bookstore",
+      "ja": "本屋"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "本屋を使う例",
+        "english": "Example of bookstore"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-154",
+    "word": "病院",
+    "reading": "びょういん",
+    "romaji": "びょういん",
+    "meaning": "hospital",
+    "meanings": {
+      "en": "hospital",
+      "ja": "病院"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "病院を使う例",
+        "english": "Example of hospital"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-155",
+    "word": "救急車",
+    "reading": "きゅうきゅうしゃ",
+    "romaji": "きゅうきゅうしゃ",
+    "meaning": "ambulance",
+    "meanings": {
+      "en": "ambulance",
+      "ja": "救急車"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "救急車を使う例",
+        "english": "Example of ambulance"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-156",
+    "word": "警察",
+    "reading": "けいさつ",
+    "romaji": "けいさつ",
+    "meaning": "police",
+    "meanings": {
+      "en": "police",
+      "ja": "警察"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "警察を使う例",
+        "english": "Example of police"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-157",
+    "word": "銀行",
+    "reading": "ぎんこう",
+    "romaji": "ぎんこう",
+    "meaning": "bank",
+    "meanings": {
+      "en": "bank",
+      "ja": "銀行"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "銀行を使う例",
+        "english": "Example of bank"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-158",
+    "word": "郵便局",
+    "reading": "ゆうびんきょく",
+    "romaji": "ゆうびんきょく",
+    "meaning": "post office",
+    "meanings": {
+      "en": "post office",
+      "ja": "郵便局"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "郵便局を使う例",
+        "english": "Example of post office"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-159",
+    "word": "駅",
+    "reading": "えき",
+    "romaji": "えき",
+    "meaning": "station",
+    "meanings": {
+      "en": "station",
+      "ja": "駅"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "駅を使う例",
+        "english": "Example of station"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-160",
+    "word": "老店舗",
+    "reading": "ろてんせい",
+    "romaji": "ろてんせい",
+    "meaning": "old shop",
+    "meanings": {
+      "en": "old shop",
+      "ja": "老店舗"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "老店舗を使う例",
+        "english": "Example of old shop"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-161",
+    "word": "計画",
+    "reading": "けいかく",
+    "romaji": "けいかく",
+    "meaning": "plan",
+    "meanings": {
+      "en": "plan",
+      "ja": "計画"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "計画を使う例",
+        "english": "Example of plan"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-162",
+    "word": "欲席",
+    "reading": "よくせき",
+    "romaji": "よくせき",
+    "meaning": "desire",
+    "meanings": {
+      "en": "desire",
+      "ja": "欲席"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "欲席を使う例",
+        "english": "Example of desire"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-163",
+    "word": "力持ち",
+    "reading": "ちからもち",
+    "romaji": "ちからもち",
+    "meaning": "strong person",
+    "meanings": {
+      "en": "strong person",
+      "ja": "力持ち"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "力持ちを使う例",
+        "english": "Example of strong person"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-164",
+    "word": "人生",
+    "reading": "じんせい",
+    "romaji": "じんせい",
+    "meaning": "life",
+    "meanings": {
+      "en": "life",
+      "ja": "人生"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "人生を使う例",
+        "english": "Example of life"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-165",
+    "word": "政権",
+    "reading": "せいけん",
+    "romaji": "せいけん",
+    "meaning": "administration",
+    "meanings": {
+      "en": "administration",
+      "ja": "政権"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "政権を使う例",
+        "english": "Example of administration"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-166",
+    "word": "経営",
+    "reading": "けいえい",
+    "romaji": "けいえい",
+    "meaning": "management",
+    "meanings": {
+      "en": "management",
+      "ja": "経営"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "経営を使う例",
+        "english": "Example of management"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-167",
+    "word": "引力",
+    "reading": "ひきりょく",
+    "romaji": "ひきりょく",
+    "meaning": "attraction",
+    "meanings": {
+      "en": "attraction",
+      "ja": "引力"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "引力を使う例",
+        "english": "Example of attraction"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-168",
+    "word": "注意力",
+    "reading": "ちゅういりょく",
+    "romaji": "ちゅういりょく",
+    "meaning": "attention",
+    "meanings": {
+      "en": "attention",
+      "ja": "注意力"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "注意力を使う例",
+        "english": "Example of attention"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-169",
+    "word": "野いやい",
+    "reading": "やいやい",
+    "romaji": "やいやい",
+    "meaning": "wild field",
+    "meanings": {
+      "en": "wild field",
+      "ja": "野いやい"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "野いやいを使う例",
+        "english": "Example of wild field"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-170",
+    "word": "奇跡勝利",
+    "reading": "きせきしょうり",
+    "romaji": "きせきしょうり",
+    "meaning": "miraculous victory",
+    "meanings": {
+      "en": "miraculous victory",
+      "ja": "奇跡勝利"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "奇跡勝利を使う例",
+        "english": "Example of miraculous victory"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-171",
+    "word": "責任",
+    "reading": "せきにん",
+    "romaji": "せきにん",
+    "meaning": "responsibility",
+    "meanings": {
+      "en": "responsibility",
+      "ja": "責任"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "責任を使う例",
+        "english": "Example of responsibility"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-172",
+    "word": "義務",
+    "reading": "ぎむ",
+    "romaji": "ぎむ",
+    "meaning": "obligation",
+    "meanings": {
+      "en": "obligation",
+      "ja": "義務"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "義務を使う例",
+        "english": "Example of obligation"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-173",
+    "word": "権利",
+    "reading": "けんり",
+    "romaji": "けんり",
+    "meaning": "right",
+    "meanings": {
+      "en": "right",
+      "ja": "権利"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "権利を使う例",
+        "english": "Example of right"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-174",
+    "word": "治癒力",
+    "reading": "ちゆりょく",
+    "romaji": "ちゆりょく",
+    "meaning": "healing power",
+    "meanings": {
+      "en": "healing power",
+      "ja": "治癒力"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "治癒力を使う例",
+        "english": "Example of healing power"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-175",
+    "word": "力",
+    "reading": "りょく",
+    "romaji": "りょく",
+    "meaning": "power, force",
+    "meanings": {
+      "en": "power, force",
+      "ja": "力"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "力を使う例",
+        "english": "Example of power, force"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-176",
+    "word": "技力",
+    "reading": "ぎりょく",
+    "romaji": "ぎりょく",
+    "meaning": "skill",
+    "meanings": {
+      "en": "skill",
+      "ja": "技力"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "技力を使う例",
+        "english": "Example of skill"
+      }
+    ],
+    "tags": [
+      "n4",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-177",
+    "word": "水湖",
+    "reading": "みずうみ",
+    "romaji": "みずうみ",
+    "meaning": "lake",
+    "meanings": {
+      "en": "lake",
+      "ja": "水湖"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "水湖を使う例",
+        "english": "Example of lake"
+      }
+    ],
+    "tags": [
+      "n3",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-178",
+    "word": "山",
+    "reading": "やま",
+    "romaji": "やま",
+    "meaning": "mountain",
+    "meanings": {
+      "en": "mountain",
+      "ja": "山"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "山を使う例",
+        "english": "Example of mountain"
+      }
+    ],
+    "tags": [
+      "n3",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-179",
+    "word": "川",
+    "reading": "かわ",
+    "romaji": "かわ",
+    "meaning": "river",
+    "meanings": {
+      "en": "river",
+      "ja": "川"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "川を使う例",
+        "english": "Example of river"
+      }
+    ],
+    "tags": [
+      "n3",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-180",
+    "word": "砂漠",
+    "reading": "さばく",
+    "romaji": "さばく",
+    "meaning": "desert",
+    "meanings": {
+      "en": "desert",
+      "ja": "砂漠"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "砂漠を使う例",
+        "english": "Example of desert"
+      }
+    ],
+    "tags": [
+      "n3",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-181",
+    "word": "砂利板",
+    "reading": "じゃりばん",
+    "romaji": "じゃりばん",
+    "meaning": "gravel",
+    "meanings": {
+      "en": "gravel",
+      "ja": "砂利板"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "砂利板を使う例",
+        "english": "Example of gravel"
+      }
+    ],
+    "tags": [
+      "n3",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-182",
+    "word": "深海",
+    "reading": "しんかい",
+    "romaji": "しんかい",
+    "meaning": "deep sea",
+    "meanings": {
+      "en": "deep sea",
+      "ja": "深海"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "深海を使う例",
+        "english": "Example of deep sea"
+      }
+    ],
+    "tags": [
+      "n3",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-183",
+    "word": "海",
+    "reading": "うみ",
+    "romaji": "うみ",
+    "meaning": "sea, ocean",
+    "meanings": {
+      "en": "sea, ocean",
+      "ja": "海"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "海を使う例",
+        "english": "Example of sea, ocean"
+      }
+    ],
+    "tags": [
+      "n3",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-184",
+    "word": "遊び",
+    "reading": "あそび",
+    "romaji": "あそび",
+    "meaning": "play",
+    "meanings": {
+      "en": "play",
+      "ja": "遊び"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "遊びを使う例",
+        "english": "Example of play"
+      }
+    ],
+    "tags": [
+      "n3",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-185",
+    "word": "スポーツ",
+    "reading": "スポーツ",
+    "romaji": "スポーツ",
+    "meaning": "sports",
+    "meanings": {
+      "en": "sports",
+      "ja": "スポーツ"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "スポーツを使う例",
+        "english": "Example of sports"
+      }
+    ],
+    "tags": [
+      "n3",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-186",
+    "word": "野球",
+    "reading": "やきゅう",
+    "romaji": "やきゅう",
+    "meaning": "baseball",
+    "meanings": {
+      "en": "baseball",
+      "ja": "野球"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "野球を使う例",
+        "english": "Example of baseball"
+      }
+    ],
+    "tags": [
+      "n3",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-187",
+    "word": "サッカー",
+    "reading": "サッカー",
+    "romaji": "サッカー",
+    "meaning": "soccer",
+    "meanings": {
+      "en": "soccer",
+      "ja": "サッカー"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "サッカーを使う例",
+        "english": "Example of soccer"
+      }
+    ],
+    "tags": [
+      "n3",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-188",
+    "word": "テニス",
+    "reading": "テニス",
+    "romaji": "テニス",
+    "meaning": "tennis",
+    "meanings": {
+      "en": "tennis",
+      "ja": "テニス"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "テニスを使う例",
+        "english": "Example of tennis"
+      }
+    ],
+    "tags": [
+      "n3",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-189",
+    "word": "水泳",
+    "reading": "すいえい",
+    "romaji": "すいえい",
+    "meaning": "swimming",
+    "meanings": {
+      "en": "swimming",
+      "ja": "水泳"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "水泳を使う例",
+        "english": "Example of swimming"
+      }
+    ],
+    "tags": [
+      "n3",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-190",
+    "word": "方法",
+    "reading": "ほうほう",
+    "romaji": "ほうほう",
+    "meaning": "method",
+    "meanings": {
+      "en": "method",
+      "ja": "方法"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "方法を使う例",
+        "english": "Example of method"
+      }
+    ],
+    "tags": [
+      "n3",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-191",
+    "word": "習慣的",
+    "reading": "しゅうかんてき",
+    "romaji": "しゅうかんてき",
+    "meaning": "habitual",
+    "meanings": {
+      "en": "habitual",
+      "ja": "習慣的"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "習慣的を使う例",
+        "english": "Example of habitual"
+      }
+    ],
+    "tags": [
+      "n3",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-192",
+    "word": "適格",
+    "reading": "てきかく",
+    "romaji": "てきかく",
+    "meaning": "qualified",
+    "meanings": {
+      "en": "qualified",
+      "ja": "適格"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "適格を使う例",
+        "english": "Example of qualified"
+      }
+    ],
+    "tags": [
+      "n3",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-193",
+    "word": "興味深い",
+    "reading": "きょうみぶかい",
+    "romaji": "きょうみぶかい",
+    "meaning": "interesting",
+    "meanings": {
+      "en": "interesting",
+      "ja": "興味深い"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "興味深いを使う例",
+        "english": "Example of interesting"
+      }
+    ],
+    "tags": [
+      "n3",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-194",
+    "word": "不満足",
+    "reading": "ふまんぞく",
+    "romaji": "ふまんぞく",
+    "meaning": "dissatisfied",
+    "meanings": {
+      "en": "dissatisfied",
+      "ja": "不満足"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "不満足を使う例",
+        "english": "Example of dissatisfied"
+      }
+    ],
+    "tags": [
+      "n3",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-195",
+    "word": "注意深い",
+    "reading": "ちゅういぶかい",
+    "romaji": "ちゅういぶかい",
+    "meaning": "careful",
+    "meanings": {
+      "en": "careful",
+      "ja": "注意深い"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "注意深いを使う例",
+        "english": "Example of careful"
+      }
+    ],
+    "tags": [
+      "n3",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-196",
+    "word": "慎重",
+    "reading": "ちゅういぶかい",
+    "romaji": "ちゅういぶかい",
+    "meaning": "cautious",
+    "meanings": {
+      "en": "cautious",
+      "ja": "慎重"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "慎重を使う例",
+        "english": "Example of cautious"
+      }
+    ],
+    "tags": [
+      "n3",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-197",
+    "word": "不注意",
+    "reading": "ちゅういぶかくない",
+    "romaji": "ちゅういぶかくない",
+    "meaning": "careless",
+    "meanings": {
+      "en": "careless",
+      "ja": "不注意"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "不注意を使う例",
+        "english": "Example of careless"
+      }
+    ],
+    "tags": [
+      "n3",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-198",
+    "word": "困惑",
+    "reading": "こんじゅん",
+    "romaji": "こんじゅん",
+    "meaning": "confusion",
+    "meanings": {
+      "en": "confusion",
+      "ja": "困惑"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "困惑を使う例",
+        "english": "Example of confusion"
+      }
+    ],
+    "tags": [
+      "n3",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-199",
+    "word": "混乱",
+    "reading": "こんらん",
+    "romaji": "こんらん",
+    "meaning": "chaos",
+    "meanings": {
+      "en": "chaos",
+      "ja": "混乱"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "混乱を使う例",
+        "english": "Example of chaos"
+      }
+    ],
+    "tags": [
+      "n3",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-200",
+    "word": "困窮",
+    "reading": "こんようぎ",
+    "romaji": "こんようぎ",
+    "meaning": "distress",
+    "meanings": {
+      "en": "distress",
+      "ja": "困窮"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "困窮を使う例",
+        "english": "Example of distress"
+      }
+    ],
+    "tags": [
+      "n3",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-201",
+    "word": "困量",
+    "reading": "こんりょう",
+    "romaji": "こんりょう",
+    "meaning": "difficulty",
+    "meanings": {
+      "en": "difficulty",
+      "ja": "困量"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "困量を使う例",
+        "english": "Example of difficulty"
+      }
+    ],
+    "tags": [
+      "n3",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-202",
+    "word": "悩み",
+    "reading": "なやみ",
+    "romaji": "なやみ",
+    "meaning": "trouble",
+    "meanings": {
+      "en": "trouble",
+      "ja": "悩み"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "悩みを使う例",
+        "english": "Example of trouble"
+      }
+    ],
+    "tags": [
+      "n3",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-203",
+    "word": "苦しみ",
+    "reading": "くるしみ",
+    "romaji": "くるしみ",
+    "meaning": "suffering",
+    "meanings": {
+      "en": "suffering",
+      "ja": "苦しみ"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "苦しみを使う例",
+        "english": "Example of suffering"
+      }
+    ],
+    "tags": [
+      "n3",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-204",
+    "word": "喜ぶ",
+    "reading": "よろこぶ",
+    "romaji": "よろこぶ",
+    "meaning": "to be happy",
+    "meanings": {
+      "en": "to be happy",
+      "ja": "喜ぶ"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "喜ぶを使う例",
+        "english": "Example of to be happy"
+      }
+    ],
+    "tags": [
+      "n3",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-205",
+    "word": "楽しむ",
+    "reading": "たのしむ",
+    "romaji": "たのしむ",
+    "meaning": "to enjoy",
+    "meanings": {
+      "en": "to enjoy",
+      "ja": "楽しむ"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "楽しむを使う例",
+        "english": "Example of to enjoy"
+      }
+    ],
+    "tags": [
+      "n3",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-206",
+    "word": "微笑む",
+    "reading": "ほほえむ",
+    "romaji": "ほほえむ",
+    "meaning": "to smile",
+    "meanings": {
+      "en": "to smile",
+      "ja": "微笑む"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "微笑むを使う例",
+        "english": "Example of to smile"
+      }
+    ],
+    "tags": [
+      "n3",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-207",
+    "word": "笑う",
+    "reading": "わらう",
+    "romaji": "わらう",
+    "meaning": "to laugh",
+    "meanings": {
+      "en": "to laugh",
+      "ja": "笑う"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "笑うを使う例",
+        "english": "Example of to laugh"
+      }
+    ],
+    "tags": [
+      "n3",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-208",
+    "word": "泣く",
+    "reading": "なく",
+    "romaji": "なく",
+    "meaning": "to cry",
+    "meanings": {
+      "en": "to cry",
+      "ja": "泣く"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "泣くを使う例",
+        "english": "Example of to cry"
+      }
+    ],
+    "tags": [
+      "n3",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-209",
+    "word": "怒る",
+    "reading": "おこる",
+    "romaji": "おこる",
+    "meaning": "to get angry",
+    "meanings": {
+      "en": "to get angry",
+      "ja": "怒る"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "怒るを使う例",
+        "english": "Example of to get angry"
+      }
+    ],
+    "tags": [
+      "n3",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-210",
+    "word": "困る",
+    "reading": "こまる",
+    "romaji": "こまる",
+    "meaning": "to be troubled",
+    "meanings": {
+      "en": "to be troubled",
+      "ja": "困る"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "困るを使う例",
+        "english": "Example of to be troubled"
+      }
+    ],
+    "tags": [
+      "n3",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-211",
+    "word": "見事な",
+    "reading": "みごとな",
+    "romaji": "みごとな",
+    "meaning": "magnificent",
+    "meanings": {
+      "en": "magnificent",
+      "ja": "見事な"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "見事なを使う例",
+        "english": "Example of magnificent"
+      }
+    ],
+    "tags": [
+      "n3",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-212",
+    "word": "印象的",
+    "reading": "いんしょうてき",
+    "romaji": "いんしょうてき",
+    "meaning": "impressive",
+    "meanings": {
+      "en": "impressive",
+      "ja": "印象的"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "印象的を使う例",
+        "english": "Example of impressive"
+      }
+    ],
+    "tags": [
+      "n3",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-213",
+    "word": "感動的",
+    "reading": "かんこくな",
+    "romaji": "かんこくな",
+    "meaning": "moving",
+    "meanings": {
+      "en": "moving",
+      "ja": "感動的"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "感動的を使う例",
+        "english": "Example of moving"
+      }
+    ],
+    "tags": [
+      "n3",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-214",
+    "word": "安心できる",
+    "reading": "あんしんできる",
+    "romaji": "あんしんできる",
+    "meaning": "reassuring",
+    "meanings": {
+      "en": "reassuring",
+      "ja": "安心できる"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "安心できるを使う例",
+        "english": "Example of reassuring"
+      }
+    ],
+    "tags": [
+      "n3",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-215",
+    "word": "良いよろしい",
+    "reading": "よろしい",
+    "romaji": "よろしい",
+    "meaning": "alright",
+    "meanings": {
+      "en": "alright",
+      "ja": "良いよろしい"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "良いよろしいを使う例",
+        "english": "Example of alright"
+      }
+    ],
+    "tags": [
+      "n3",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-216",
+    "word": "削法計判",
+    "reading": "けずほうけいはん",
+    "romaji": "けずほうけいはん",
+    "meaning": "irregular",
+    "meanings": {
+      "en": "irregular",
+      "ja": "削法計判"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "削法計判を使う例",
+        "english": "Example of irregular"
+      }
+    ],
+    "tags": [
+      "n3",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-217",
+    "word": "吉記",
+    "reading": "きっき",
+    "romaji": "きっき",
+    "meaning": "good fortune",
+    "meanings": {
+      "en": "good fortune",
+      "ja": "吉記"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "吉記を使う例",
+        "english": "Example of good fortune"
+      }
+    ],
+    "tags": [
+      "n3",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-218",
+    "word": "不慶",
+    "reading": "ふぎょく",
+    "romaji": "ふぎょく",
+    "meaning": "misfortune",
+    "meanings": {
+      "en": "misfortune",
+      "ja": "不慶"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "不慶を使う例",
+        "english": "Example of misfortune"
+      }
+    ],
+    "tags": [
+      "n3",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-219",
+    "word": "幸せ",
+    "reading": "しあわせ",
+    "romaji": "しあわせ",
+    "meaning": "happiness",
+    "meanings": {
+      "en": "happiness",
+      "ja": "幸せ"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "幸せを使う例",
+        "english": "Example of happiness"
+      }
+    ],
+    "tags": [
+      "n3",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-220",
+    "word": "不幸",
+    "reading": "ふこうか",
+    "romaji": "ふこうか",
+    "meaning": "unhappiness",
+    "meanings": {
+      "en": "unhappiness",
+      "ja": "不幸"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "不幸を使う例",
+        "english": "Example of unhappiness"
+      }
+    ],
+    "tags": [
+      "n3",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-221",
+    "word": "和やか",
+    "reading": "なごやか",
+    "romaji": "なごやか",
+    "meaning": "peaceful",
+    "meanings": {
+      "en": "peaceful",
+      "ja": "和やか"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "和やかを使う例",
+        "english": "Example of peaceful"
+      }
+    ],
+    "tags": [
+      "n3",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-222",
+    "word": "拙い",
+    "reading": "つたない",
+    "romaji": "つたない",
+    "meaning": "unskilled",
+    "meanings": {
+      "en": "unskilled",
+      "ja": "拙い"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "拙いを使う例",
+        "english": "Example of unskilled"
+      }
+    ],
+    "tags": [
+      "n3",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-223",
+    "word": "優れた",
+    "reading": "すぐれた",
+    "romaji": "すぐれた",
+    "meaning": "excellent",
+    "meanings": {
+      "en": "excellent",
+      "ja": "優れた"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "優れたを使う例",
+        "english": "Example of excellent"
+      }
+    ],
+    "tags": [
+      "n3",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-224",
+    "word": "ずば抜けた",
+    "reading": "ずば抜けた",
+    "romaji": "ずば抜けた",
+    "meaning": "outstanding",
+    "meanings": {
+      "en": "outstanding",
+      "ja": "ずば抜けた"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "ずば抜けたを使う例",
+        "english": "Example of outstanding"
+      }
+    ],
+    "tags": [
+      "n3",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-225",
+    "word": "薄い",
+    "reading": "うすい",
+    "romaji": "うすい",
+    "meaning": "thin",
+    "meanings": {
+      "en": "thin",
+      "ja": "薄い"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "薄いを使う例",
+        "english": "Example of thin"
+      }
+    ],
+    "tags": [
+      "n3",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-226",
+    "word": "厚い",
+    "reading": "あつい",
+    "romaji": "あつい",
+    "meaning": "thick",
+    "meanings": {
+      "en": "thick",
+      "ja": "厚い"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "厚いを使う例",
+        "english": "Example of thick"
+      }
+    ],
+    "tags": [
+      "n3",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-227",
+    "word": "最近",
+    "reading": "さいきん",
+    "romaji": "さいきん",
+    "meaning": "recently",
+    "meanings": {
+      "en": "recently",
+      "ja": "最近"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "最近を使う例",
+        "english": "Example of recently"
+      }
+    ],
+    "tags": [
+      "n2",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-228",
+    "word": "以前",
+    "reading": "いぜん",
+    "romaji": "いぜん",
+    "meaning": "before",
+    "meanings": {
+      "en": "before",
+      "ja": "以前"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "以前を使う例",
+        "english": "Example of before"
+      }
+    ],
+    "tags": [
+      "n2",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-229",
+    "word": "後",
+    "reading": "のち",
+    "romaji": "のち",
+    "meaning": "after",
+    "meanings": {
+      "en": "after",
+      "ja": "後"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "後を使う例",
+        "english": "Example of after"
+      }
+    ],
+    "tags": [
+      "n2",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-230",
+    "word": "或いは",
+    "reading": "あるいは",
+    "romaji": "あるいは",
+    "meaning": "or",
+    "meanings": {
+      "en": "or",
+      "ja": "或いは"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "conjunction",
+    "examples": [
+      {
+        "japanese": "或いはを使う例",
+        "english": "Example of or"
+      }
+    ],
+    "tags": [
+      "n2",
+      "conjunction"
+    ]
+  },
+  {
+    "id": "vocab-231",
+    "word": "但し",
+    "reading": "ただし",
+    "romaji": "ただし",
+    "meaning": "however",
+    "meanings": {
+      "en": "however",
+      "ja": "但し"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "conjunction",
+    "examples": [
+      {
+        "japanese": "但しを使う例",
+        "english": "Example of however"
+      }
+    ],
+    "tags": [
+      "n2",
+      "conjunction"
+    ]
+  },
+  {
+    "id": "vocab-232",
+    "word": "故に",
+    "reading": "ゆえに",
+    "romaji": "ゆえに",
+    "meaning": "therefore",
+    "meanings": {
+      "en": "therefore",
+      "ja": "故に"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "conjunction",
+    "examples": [
+      {
+        "japanese": "故にを使う例",
+        "english": "Example of therefore"
+      }
+    ],
+    "tags": [
+      "n2",
+      "conjunction"
+    ]
+  },
+  {
+    "id": "vocab-233",
+    "word": "しかし",
+    "reading": "しかし",
+    "romaji": "しかし",
+    "meaning": "but",
+    "meanings": {
+      "en": "but",
+      "ja": "しかし"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "conjunction",
+    "examples": [
+      {
+        "japanese": "しかしを使う例",
+        "english": "Example of but"
+      }
+    ],
+    "tags": [
+      "n2",
+      "conjunction"
+    ]
+  },
+  {
+    "id": "vocab-234",
+    "word": "或は",
+    "reading": "または",
+    "romaji": "または",
+    "meaning": "or",
+    "meanings": {
+      "en": "or",
+      "ja": "或は"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "conjunction",
+    "examples": [
+      {
+        "japanese": "或はを使う例",
+        "english": "Example of or"
+      }
+    ],
+    "tags": [
+      "n2",
+      "conjunction"
+    ]
+  },
+  {
+    "id": "vocab-235",
+    "word": "及び",
+    "reading": "および",
+    "romaji": "および",
+    "meaning": "and",
+    "meanings": {
+      "en": "and",
+      "ja": "及び"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "conjunction",
+    "examples": [
+      {
+        "japanese": "及びを使う例",
+        "english": "Example of and"
+      }
+    ],
+    "tags": [
+      "n2",
+      "conjunction"
+    ]
+  },
+  {
+    "id": "vocab-236",
+    "word": "且つ",
+    "reading": "かつ",
+    "romaji": "かつ",
+    "meaning": "and",
+    "meanings": {
+      "en": "and",
+      "ja": "且つ"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "conjunction",
+    "examples": [
+      {
+        "japanese": "且つを使う例",
+        "english": "Example of and"
+      }
+    ],
+    "tags": [
+      "n2",
+      "conjunction"
+    ]
+  },
+  {
+    "id": "vocab-237",
+    "word": "もし",
+    "reading": "もし",
+    "romaji": "もし",
+    "meaning": "if",
+    "meanings": {
+      "en": "if",
+      "ja": "もし"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "conjunction",
+    "examples": [
+      {
+        "japanese": "もしを使う例",
+        "english": "Example of if"
+      }
+    ],
+    "tags": [
+      "n2",
+      "conjunction"
+    ]
+  },
+  {
+    "id": "vocab-238",
+    "word": "例え",
+    "reading": "たとえ",
+    "romaji": "たとえ",
+    "meaning": "even if",
+    "meanings": {
+      "en": "even if",
+      "ja": "例え"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "conjunction",
+    "examples": [
+      {
+        "japanese": "例えを使う例",
+        "english": "Example of even if"
+      }
+    ],
+    "tags": [
+      "n2",
+      "conjunction"
+    ]
+  },
+  {
+    "id": "vocab-239",
+    "word": "渋々",
+    "reading": "しぶしぶ",
+    "romaji": "しぶしぶ",
+    "meaning": "reluctantly",
+    "meanings": {
+      "en": "reluctantly",
+      "ja": "渋々"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "渋々を使う例",
+        "english": "Example of reluctantly"
+      }
+    ],
+    "tags": [
+      "n2",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-240",
+    "word": "止むなく",
+    "reading": "やむなく",
+    "romaji": "やむなく",
+    "meaning": "reluctantly",
+    "meanings": {
+      "en": "reluctantly",
+      "ja": "止むなく"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "止むなくを使う例",
+        "english": "Example of reluctantly"
+      }
+    ],
+    "tags": [
+      "n2",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-241",
+    "word": "矢張り",
+    "reading": "やはり",
+    "romaji": "やはり",
+    "meaning": "after all",
+    "meanings": {
+      "en": "after all",
+      "ja": "矢張り"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "矢張りを使う例",
+        "english": "Example of after all"
+      }
+    ],
+    "tags": [
+      "n2",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-242",
+    "word": "寧ろ",
+    "reading": "むしろ",
+    "romaji": "むしろ",
+    "meaning": "rather",
+    "meanings": {
+      "en": "rather",
+      "ja": "寧ろ"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "寧ろを使う例",
+        "english": "Example of rather"
+      }
+    ],
+    "tags": [
+      "n2",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-243",
+    "word": "到頭",
+    "reading": "とうとう",
+    "romaji": "とうとう",
+    "meaning": "finally",
+    "meanings": {
+      "en": "finally",
+      "ja": "到頭"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "到頭を使う例",
+        "english": "Example of finally"
+      }
+    ],
+    "tags": [
+      "n2",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-244",
+    "word": "漸く",
+    "reading": "ようやく",
+    "romaji": "ようやく",
+    "meaning": "finally",
+    "meanings": {
+      "en": "finally",
+      "ja": "漸く"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "漸くを使う例",
+        "english": "Example of finally"
+      }
+    ],
+    "tags": [
+      "n2",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-245",
+    "word": "さっぱり",
+    "reading": "さっぱり",
+    "romaji": "さっぱり",
+    "meaning": "completely",
+    "meanings": {
+      "en": "completely",
+      "ja": "さっぱり"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "さっぱりを使う例",
+        "english": "Example of completely"
+      }
+    ],
+    "tags": [
+      "n2",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-246",
+    "word": "ばったり",
+    "reading": "ばったり",
+    "romaji": "ばったり",
+    "meaning": "suddenly",
+    "meanings": {
+      "en": "suddenly",
+      "ja": "ばったり"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "ばったりを使う例",
+        "english": "Example of suddenly"
+      }
+    ],
+    "tags": [
+      "n2",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-247",
+    "word": "そろそろ",
+    "reading": "そろそろ",
+    "romaji": "そろそろ",
+    "meaning": "soon",
+    "meanings": {
+      "en": "soon",
+      "ja": "そろそろ"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "そろそろを使う例",
+        "english": "Example of soon"
+      }
+    ],
+    "tags": [
+      "n2",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-248",
+    "word": "ぞくぞく",
+    "reading": "ぞくぞく",
+    "romaji": "ぞくぞく",
+    "meaning": "one after another",
+    "meanings": {
+      "en": "one after another",
+      "ja": "ぞくぞく"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "ぞくぞくを使う例",
+        "english": "Example of one after another"
+      }
+    ],
+    "tags": [
+      "n2",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-249",
+    "word": "頻りに",
+    "reading": "しきりに",
+    "romaji": "しきりに",
+    "meaning": "repeatedly",
+    "meanings": {
+      "en": "repeatedly",
+      "ja": "頻りに"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "頻りにを使う例",
+        "english": "Example of repeatedly"
+      }
+    ],
+    "tags": [
+      "n2",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-250",
+    "word": "ひょっと",
+    "reading": "ひょっと",
+    "romaji": "ひょっと",
+    "meaning": "perhaps",
+    "meanings": {
+      "en": "perhaps",
+      "ja": "ひょっと"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "ひょっとを使う例",
+        "english": "Example of perhaps"
+      }
+    ],
+    "tags": [
+      "n2",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-251",
+    "word": "繁く",
+    "reading": "しきりに",
+    "romaji": "しきりに",
+    "meaning": "frequently",
+    "meanings": {
+      "en": "frequently",
+      "ja": "繁く"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "繁くを使う例",
+        "english": "Example of frequently"
+      }
+    ],
+    "tags": [
+      "n2",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-252",
+    "word": "きっと",
+    "reading": "きっと",
+    "romaji": "きっと",
+    "meaning": "surely",
+    "meanings": {
+      "en": "surely",
+      "ja": "きっと"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "きっとを使う例",
+        "english": "Example of surely"
+      }
+    ],
+    "tags": [
+      "n2",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-253",
+    "word": "多分",
+    "reading": "たぶん",
+    "romaji": "たぶん",
+    "meaning": "probably",
+    "meanings": {
+      "en": "probably",
+      "ja": "多分"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "多分を使う例",
+        "english": "Example of probably"
+      }
+    ],
+    "tags": [
+      "n2",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-254",
+    "word": "ひょっとして",
+    "reading": "ひょっとして",
+    "romaji": "ひょっとして",
+    "meaning": "perhaps",
+    "meanings": {
+      "en": "perhaps",
+      "ja": "ひょっとして"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "ひょっとしてを使う例",
+        "english": "Example of perhaps"
+      }
+    ],
+    "tags": [
+      "n2",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-255",
+    "word": "もしかして",
+    "reading": "もしかして",
+    "romaji": "もしかして",
+    "meaning": "perhaps",
+    "meanings": {
+      "en": "perhaps",
+      "ja": "もしかして"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "もしかしてを使う例",
+        "english": "Example of perhaps"
+      }
+    ],
+    "tags": [
+      "n2",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-256",
+    "word": "或いは",
+    "reading": "あるいは",
+    "romaji": "あるいは",
+    "meaning": "or",
+    "meanings": {
+      "en": "or",
+      "ja": "或いは"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "或いはを使う例",
+        "english": "Example of or"
+      }
+    ],
+    "tags": [
+      "n2",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-257",
+    "word": "勿論",
+    "reading": "もちろん",
+    "romaji": "もちろん",
+    "meaning": "of course",
+    "meanings": {
+      "en": "of course",
+      "ja": "勿論"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "勿論を使う例",
+        "english": "Example of of course"
+      }
+    ],
+    "tags": [
+      "n2",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-258",
+    "word": "一体",
+    "reading": "いったい",
+    "romaji": "いったい",
+    "meaning": "exactly",
+    "meanings": {
+      "en": "exactly",
+      "ja": "一体"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "一体を使う例",
+        "english": "Example of exactly"
+      }
+    ],
+    "tags": [
+      "n2",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-259",
+    "word": "そもそも",
+    "reading": "そもそも",
+    "romaji": "そもそも",
+    "meaning": "originally",
+    "meanings": {
+      "en": "originally",
+      "ja": "そもそも"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "そもそもを使う例",
+        "english": "Example of originally"
+      }
+    ],
+    "tags": [
+      "n2",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-260",
+    "word": "ぐらい",
+    "reading": "ぐらい",
+    "romaji": "ぐらい",
+    "meaning": "about",
+    "meanings": {
+      "en": "about",
+      "ja": "ぐらい"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "ぐらいを使う例",
+        "english": "Example of about"
+      }
+    ],
+    "tags": [
+      "n2",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-261",
+    "word": "程",
+    "reading": "ほど",
+    "romaji": "ほど",
+    "meaning": "degree",
+    "meanings": {
+      "en": "degree",
+      "ja": "程"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "程を使う例",
+        "english": "Example of degree"
+      }
+    ],
+    "tags": [
+      "n2",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-262",
+    "word": "可なり",
+    "reading": "かなり",
+    "romaji": "かなり",
+    "meaning": "quite",
+    "meanings": {
+      "en": "quite",
+      "ja": "可なり"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "可なりを使う例",
+        "english": "Example of quite"
+      }
+    ],
+    "tags": [
+      "n2",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-263",
+    "word": "相当",
+    "reading": "かなり",
+    "romaji": "かなり",
+    "meaning": "considerably",
+    "meanings": {
+      "en": "considerably",
+      "ja": "相当"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "相当を使う例",
+        "english": "Example of considerably"
+      }
+    ],
+    "tags": [
+      "n2",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-264",
+    "word": "すこぶる",
+    "reading": "すこぶる",
+    "romaji": "すこぶる",
+    "meaning": "greatly",
+    "meanings": {
+      "en": "greatly",
+      "ja": "すこぶる"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "すこぶるを使う例",
+        "english": "Example of greatly"
+      }
+    ],
+    "tags": [
+      "n2",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-265",
+    "word": "中々",
+    "reading": "なかなか",
+    "romaji": "なかなか",
+    "meaning": "quite",
+    "meanings": {
+      "en": "quite",
+      "ja": "中々"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "中々を使う例",
+        "english": "Example of quite"
+      }
+    ],
+    "tags": [
+      "n2",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-266",
+    "word": "ばかり",
+    "reading": "ばかり",
+    "romaji": "ばかり",
+    "meaning": "only",
+    "meanings": {
+      "en": "only",
+      "ja": "ばかり"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "ばかりを使う例",
+        "english": "Example of only"
+      }
+    ],
+    "tags": [
+      "n2",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-267",
+    "word": "つまり",
+    "reading": "つまり",
+    "romaji": "つまり",
+    "meaning": "in short",
+    "meanings": {
+      "en": "in short",
+      "ja": "つまり"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "つまりを使う例",
+        "english": "Example of in short"
+      }
+    ],
+    "tags": [
+      "n2",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-268",
+    "word": "と事",
+    "reading": "とこと",
+    "romaji": "とこと",
+    "meaning": "the fact that",
+    "meanings": {
+      "en": "the fact that",
+      "ja": "と事"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "と事を使う例",
+        "english": "Example of the fact that"
+      }
+    ],
+    "tags": [
+      "n2",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-269",
+    "word": "殊更",
+    "reading": "ことさら",
+    "romaji": "ことさら",
+    "meaning": "especially",
+    "meanings": {
+      "en": "especially",
+      "ja": "殊更"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "殊更を使う例",
+        "english": "Example of especially"
+      }
+    ],
+    "tags": [
+      "n2",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-270",
+    "word": "改めて",
+    "reading": "あらためて",
+    "romaji": "あらためて",
+    "meaning": "anew",
+    "meanings": {
+      "en": "anew",
+      "ja": "改めて"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "改めてを使う例",
+        "english": "Example of anew"
+      }
+    ],
+    "tags": [
+      "n2",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-271",
+    "word": "尚も",
+    "reading": "なおも",
+    "romaji": "なおも",
+    "meaning": "still",
+    "meanings": {
+      "en": "still",
+      "ja": "尚も"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "尚もを使う例",
+        "english": "Example of still"
+      }
+    ],
+    "tags": [
+      "n2",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-272",
+    "word": "如何にも",
+    "reading": "いかにも",
+    "romaji": "いかにも",
+    "meaning": "indeed",
+    "meanings": {
+      "en": "indeed",
+      "ja": "如何にも"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "如何にもを使う例",
+        "english": "Example of indeed"
+      }
+    ],
+    "tags": [
+      "n2",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-273",
+    "word": "ノクテン",
+    "reading": "のくてん",
+    "romaji": "のくてん",
+    "meaning": "nocturnal",
+    "meanings": {
+      "en": "nocturnal",
+      "ja": "ノクテン"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "ノクテンを使う例",
+        "english": "Example of nocturnal"
+      }
+    ],
+    "tags": [
+      "n1",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-274",
+    "word": "接触",
+    "reading": "せっしょく",
+    "romaji": "せっしょく",
+    "meaning": "contact",
+    "meanings": {
+      "en": "contact",
+      "ja": "接触"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "接触を使う例",
+        "english": "Example of contact"
+      }
+    ],
+    "tags": [
+      "n1",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-275",
+    "word": "亡住",
+    "reading": "ぼくじゅう",
+    "romaji": "ぼくじゅう",
+    "meaning": "missing",
+    "meanings": {
+      "en": "missing",
+      "ja": "亡住"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "亡住を使う例",
+        "english": "Example of missing"
+      }
+    ],
+    "tags": [
+      "n1",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-276",
+    "word": "困倒質",
+    "reading": "こんごうしつ",
+    "romaji": "こんごうしつ",
+    "meaning": "difficult",
+    "meanings": {
+      "en": "difficult",
+      "ja": "困倒質"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "困倒質を使う例",
+        "english": "Example of difficult"
+      }
+    ],
+    "tags": [
+      "n1",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-277",
+    "word": "困撃力",
+    "reading": "こんけきりぎ",
+    "romaji": "こんけきりぎ",
+    "meaning": "distressed",
+    "meanings": {
+      "en": "distressed",
+      "ja": "困撃力"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "困撃力を使う例",
+        "english": "Example of distressed"
+      }
+    ],
+    "tags": [
+      "n1",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-278",
+    "word": "困詞言",
+    "reading": "こんせんりんぎ",
+    "romaji": "こんせんりんぎ",
+    "meaning": "perplexed",
+    "meanings": {
+      "en": "perplexed",
+      "ja": "困詞言"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "困詞言を使う例",
+        "english": "Example of perplexed"
+      }
+    ],
+    "tags": [
+      "n1",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-279",
+    "word": "切り黄色",
+    "reading": "きりぎみ",
+    "romaji": "きりぎみ",
+    "meaning": "sharp",
+    "meanings": {
+      "en": "sharp",
+      "ja": "切り黄色"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "切り黄色を使う例",
+        "english": "Example of sharp"
+      }
+    ],
+    "tags": [
+      "n1",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-280",
+    "word": "切りりと",
+    "reading": "きりりと",
+    "romaji": "きりりと",
+    "meaning": "smartly",
+    "meanings": {
+      "en": "smartly",
+      "ja": "切りりと"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "切りりとを使う例",
+        "english": "Example of smartly"
+      }
+    ],
+    "tags": [
+      "n1",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-281",
+    "word": "古典的切",
+    "reading": "こてこてきりき",
+    "romaji": "こてこてきりき",
+    "meaning": "classical",
+    "meanings": {
+      "en": "classical",
+      "ja": "古典的切"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "古典的切を使う例",
+        "english": "Example of classical"
+      }
+    ],
+    "tags": [
+      "n1",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-282",
+    "word": "古典的",
+    "reading": "こてこてし",
+    "romaji": "こてこてし",
+    "meaning": "classical",
+    "meanings": {
+      "en": "classical",
+      "ja": "古典的"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "古典的を使う例",
+        "english": "Example of classical"
+      }
+    ],
+    "tags": [
+      "n1",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-283",
+    "word": "昆治",
+    "reading": "こんじき",
+    "romaji": "こんじき",
+    "meaning": "shades",
+    "meanings": {
+      "en": "shades",
+      "ja": "昆治"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "昆治を使う例",
+        "english": "Example of shades"
+      }
+    ],
+    "tags": [
+      "n1",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-284",
+    "word": "昆畳",
+    "reading": "こんじょう",
+    "romaji": "こんじょう",
+    "meaning": "shades",
+    "meanings": {
+      "en": "shades",
+      "ja": "昆畳"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "昆畳を使う例",
+        "english": "Example of shades"
+      }
+    ],
+    "tags": [
+      "n1",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-285",
+    "word": "昆切",
+    "reading": "こんぎり",
+    "romaji": "こんぎり",
+    "meaning": "shades",
+    "meanings": {
+      "en": "shades",
+      "ja": "昆切"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "昆切を使う例",
+        "english": "Example of shades"
+      }
+    ],
+    "tags": [
+      "n1",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-286",
+    "word": "紙切",
+    "reading": "かみぎり",
+    "romaji": "かみぎり",
+    "meaning": "paper cut",
+    "meanings": {
+      "en": "paper cut",
+      "ja": "紙切"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "紙切を使う例",
+        "english": "Example of paper cut"
+      }
+    ],
+    "tags": [
+      "n1",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-287",
+    "word": "紙瑠",
+    "reading": "かみるり",
+    "romaji": "かみるり",
+    "meaning": "paper",
+    "meanings": {
+      "en": "paper",
+      "ja": "紙瑠"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "紙瑠を使う例",
+        "english": "Example of paper"
+      }
+    ],
+    "tags": [
+      "n1",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-288",
+    "word": "紙分け",
+    "reading": "かみわけ",
+    "romaji": "かみわけ",
+    "meaning": "paper division",
+    "meanings": {
+      "en": "paper division",
+      "ja": "紙分け"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "紙分けを使う例",
+        "english": "Example of paper division"
+      }
+    ],
+    "tags": [
+      "n1",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-289",
+    "word": "ずりりげ",
+    "reading": "ずりりげ",
+    "romaji": "ずりりげ",
+    "meaning": "rough edge",
+    "meanings": {
+      "en": "rough edge",
+      "ja": "ずりりげ"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "ずりりげを使う例",
+        "english": "Example of rough edge"
+      }
+    ],
+    "tags": [
+      "n1",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-290",
+    "word": "ずり京",
+    "reading": "ずりきょう",
+    "romaji": "ずりきょう",
+    "meaning": "rough",
+    "meanings": {
+      "en": "rough",
+      "ja": "ずり京"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "ずり京を使う例",
+        "english": "Example of rough"
+      }
+    ],
+    "tags": [
+      "n1",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-291",
+    "word": "ずり京京",
+    "reading": "ずりきょうきょう",
+    "romaji": "ずりきょうきょう",
+    "meaning": "very rough",
+    "meanings": {
+      "en": "very rough",
+      "ja": "ずり京京"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "ずり京京を使う例",
+        "english": "Example of very rough"
+      }
+    ],
+    "tags": [
+      "n1",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-292",
+    "word": "ずり京し",
+    "reading": "ずりきょうし",
+    "romaji": "ずりきょうし",
+    "meaning": "roughly",
+    "meanings": {
+      "en": "roughly",
+      "ja": "ずり京し"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "adverb",
+    "examples": [
+      {
+        "japanese": "ずり京しを使う例",
+        "english": "Example of roughly"
+      }
+    ],
+    "tags": [
+      "n1",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-293",
+    "word": "ずり京式",
+    "reading": "ずりきょうしき",
+    "romaji": "ずりきょうしき",
+    "meaning": "rough style",
+    "meanings": {
+      "en": "rough style",
+      "ja": "ずり京式"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "ずり京式を使う例",
+        "english": "Example of rough style"
+      }
+    ],
+    "tags": [
+      "n1",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-294",
+    "word": "ずり京式げ",
+    "reading": "ずりきょうしきげ",
+    "romaji": "ずりきょうしきげ",
+    "meaning": "rough style",
+    "meanings": {
+      "en": "rough style",
+      "ja": "ずり京式げ"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "ずり京式げを使う例",
+        "english": "Example of rough style"
+      }
+    ],
+    "tags": [
+      "n1",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-295",
+    "word": "ずり京式社",
+    "reading": "ずりきょうしきしゃ",
+    "romaji": "ずりきょうしきしゃ",
+    "meaning": "rough society",
+    "meanings": {
+      "en": "rough society",
+      "ja": "ずり京式社"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "ずり京式社を使う例",
+        "english": "Example of rough society"
+      }
+    ],
+    "tags": [
+      "n1",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-296",
+    "word": "ずり京式京",
+    "reading": "ずりきょうしききょう",
+    "romaji": "ずりきょうしききょう",
+    "meaning": "rough region",
+    "meanings": {
+      "en": "rough region",
+      "ja": "ずり京式京"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "ずり京式京を使う例",
+        "english": "Example of rough region"
+      }
+    ],
+    "tags": [
+      "n1",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-297",
+    "word": "ずり京式り",
+    "reading": "ずりきょうしきり",
+    "romaji": "ずりきょうしきり",
+    "meaning": "rough",
+    "meanings": {
+      "en": "rough",
+      "ja": "ずり京式り"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "ずり京式りを使う例",
+        "english": "Example of rough"
+      }
+    ],
+    "tags": [
+      "n1",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-298",
+    "word": "ずり京式り京",
+    "reading": "ずりきょうしきりきょう",
+    "romaji": "ずりきょうしきりきょう",
+    "meaning": "roughly done",
+    "meanings": {
+      "en": "roughly done",
+      "ja": "ずり京式り京"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "ずり京式り京を使う例",
+        "english": "Example of roughly done"
+      }
+    ],
+    "tags": [
+      "n1",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-299",
+    "word": "ずり京式り京し",
+    "reading": "ずりきょうしきりきょうし",
+    "romaji": "ずりきょうしきりきょうし",
+    "meaning": "rough manner",
+    "meanings": {
+      "en": "rough manner",
+      "ja": "ずり京式り京し"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "ずり京式り京しを使う例",
+        "english": "Example of rough manner"
+      }
+    ],
+    "tags": [
+      "n1",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-300",
+    "word": "ずり京式り京式",
+    "reading": "ずりきょうしきりきょうしき",
+    "romaji": "ずりきょうしきりきょうしき",
+    "meaning": "rough style",
+    "meanings": {
+      "en": "rough style",
+      "ja": "ずり京式り京式"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "ずり京式り京式を使う例",
+        "english": "Example of rough style"
+      }
+    ],
+    "tags": [
+      "n1",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-301",
+    "word": "ずり京式り京式げ",
+    "reading": "ずりきょうしきりきょうしきげ",
+    "romaji": "ずりきょうしきりきょうしきげ",
+    "meaning": "rough area",
+    "meanings": {
+      "en": "rough area",
+      "ja": "ずり京式り京式げ"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "ずり京式り京式げを使う例",
+        "english": "Example of rough area"
+      }
+    ],
+    "tags": [
+      "n1",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-302",
+    "word": "ずり京式り京式京",
+    "reading": "ずりきょうしきりきょうしききょう",
+    "romaji": "ずりきょうしきりきょうしききょう",
+    "meaning": "rough region",
+    "meanings": {
+      "en": "rough region",
+      "ja": "ずり京式り京式京"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "ずり京式り京式京を使う例",
+        "english": "Example of rough region"
+      }
+    ],
+    "tags": [
+      "n1",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-303",
+    "word": "ずり京式り京式り",
+    "reading": "ずりきょうしきりきょうしきり",
+    "romaji": "ずりきょうしきりきょうしきり",
+    "meaning": "rough",
+    "meanings": {
+      "en": "rough",
+      "ja": "ずり京式り京式り"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "ずり京式り京式りを使う例",
+        "english": "Example of rough"
+      }
+    ],
+    "tags": [
+      "n1",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-304",
+    "word": "ずり京式り京式り京",
+    "reading": "ずりきょうしきりきょうしきりきょう",
+    "romaji": "ずりきょうしきりきょうしきりきょう",
+    "meaning": "rough place",
+    "meanings": {
+      "en": "rough place",
+      "ja": "ずり京式り京式り京"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "ずり京式り京式り京を使う例",
+        "english": "Example of rough place"
+      }
+    ],
+    "tags": [
+      "n1",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-305",
+    "word": "ずり京式り京式り京し",
+    "reading": "ずりきょうしきりきょうしきりきょうし",
+    "romaji": "ずりきょうしきりきょうしきりきょうし",
+    "meaning": "rough manner",
+    "meanings": {
+      "en": "rough manner",
+      "ja": "ずり京式り京式り京し"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "ずり京式り京式り京しを使う例",
+        "english": "Example of rough manner"
+      }
+    ],
+    "tags": [
+      "n1",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-306",
+    "word": "ずり京式り京式り京式",
+    "reading": "ずりきょうしきりきょうしきりきょうしき",
+    "romaji": "ずりきょうしきりきょうしきりきょうしき",
+    "meaning": "rough style",
+    "meanings": {
+      "en": "rough style",
+      "ja": "ずり京式り京式り京式"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "ずり京式り京式り京式を使う例",
+        "english": "Example of rough style"
+      }
+    ],
+    "tags": [
+      "n1",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-307",
+    "word": "ずり京式り京式り京式げ",
+    "reading": "ずりきょうしきりきょうしきりきょうしきげ",
+    "romaji": "ずりきょうしきりきょうしきりきょうしきげ",
+    "meaning": "rough edge",
+    "meanings": {
+      "en": "rough edge",
+      "ja": "ずり京式り京式り京式げ"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "ずり京式り京式り京式げを使う例",
+        "english": "Example of rough edge"
+      }
+    ],
+    "tags": [
+      "n1",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-308",
+    "word": "ずり京式り京式り京式京",
+    "reading": "ずりきょうしきりきょうしきりきょうしききょう",
+    "romaji": "ずりきょうしきりきょうしきりきょうしききょう",
+    "meaning": "rough region",
+    "meanings": {
+      "en": "rough region",
+      "ja": "ずり京式り京式り京式京"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "ずり京式り京式り京式京を使う例",
+        "english": "Example of rough region"
+      }
+    ],
+    "tags": [
+      "n1",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-309",
+    "word": "ずり京式り京式り京式り",
+    "reading": "ずりきょうしきりきょうしきりきょうしきり",
+    "romaji": "ずりきょうしきりきょうしきりきょうしきり",
+    "meaning": "very rough",
+    "meanings": {
+      "en": "very rough",
+      "ja": "ずり京式り京式り京式り"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "ずり京式り京式り京式りを使う例",
+        "english": "Example of very rough"
+      }
+    ],
+    "tags": [
+      "n1",
+      "adjective"
+    ]
+  }
+]

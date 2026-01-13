@@ -1,0 +1,99 @@
+.grammarCard {
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+    animation: fadeInUp 0.6s ease-out both;
+}
+
+.grammarTitle {
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.02em;
+}
+
+.explanationSection {
+    margin-bottom: 2.5rem;
+}
+
+.explanationText {
+    font-size: 1.15rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+}
+
+.examplesList {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.exampleItem {
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
+    border: 1px solid var(--border-subtle);
+    transition: all 0.3s ease;
+}
+
+.exampleItem:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: var(--accent-gold-dim);
+    transform: translateX(4px);
+}
+
+.exampleJa {
+    font-size: 1.4rem;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.exampleEn {
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+.exerciseSection {
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+    animation: fadeInUp 0.6s ease-out both;
+    animation-delay: 0.2s;
+}
+
+.exerciseQuestion {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+.optionsGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.optionButton {
+    justify-content: flex-start;
+    padding: 1.25rem 1.5rem;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.exerciseFeedback {
+    margin-top: 2rem;
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.02);
+}
+
+@media (max-width: 640px) {
+
+    .grammarCard,
+    .exerciseSection {
+        padding: 1.5rem;
+    }
+
+    .exampleJa {
+        font-size: 1.2rem;
+    }
+}
+

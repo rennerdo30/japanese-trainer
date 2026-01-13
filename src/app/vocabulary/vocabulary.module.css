@@ -1,0 +1,13 @@
+.wordDisplay {
+  font-size: clamp(4rem, 15vw, 8rem);
+  margin-bottom: 1rem;
+}
+
+.wordReading {
+  font-size: clamp(2rem, 8vw, 4rem);
+  margin-bottom: 0.5rem;
+}
+
+.wordMeaning {
+  font-size: clamp(2rem, 8vw, 4rem);
+}

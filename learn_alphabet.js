@@ -166,6 +166,15 @@ function isMobileDevice() {
 document.addEventListener('DOMContentLoaded', init);
 
 function init() {
+    // Load storage utilities if available
+    if (typeof getModuleData !== 'undefined') {
+        const moduleData = getModuleData('alphabet');
+        correct = moduleData.stats?.correct || 0;
+        total = moduleData.stats?.total || 0;
+        streak = moduleData.stats?.streak || 0;
+        updateStats();
+        updateStreak();
+    }
     // Detect mobile device
     isMobile = isMobileDevice();
     
@@ -302,6 +311,12 @@ function handleCorrectAnswer() {
     // Update display
     updateStats();
     updateStreak();
+    
+    // Update global streak if progress utilities are available
+    if (typeof updateStreak !== 'undefined' && typeof updateGlobalStats !== 'undefined') {
+        // updateStreak from progress.js updates the global streak
+        const newStreak = updateStreak();
+    }
 
     // Visual feedback
     if (isMobile) {
@@ -513,6 +528,10 @@ function updateTimerDisplay() {
 function updateStats() {
     elements.correctCount.textContent = correct;
     elements.totalCount.textContent = total;
+    // Update progress tracking if available
+    if (typeof updateModuleStats !== 'undefined') {
+        updateModuleStats('alphabet', { correct, total, streak });
+    }
 }
 
 function updateStreak() {

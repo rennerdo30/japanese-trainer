@@ -1,0 +1,101 @@
+.listeningCard {
+    padding: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    animation: fadeInUp 0.6s ease-out both;
+}
+
+.listeningTitle {
+    font-size: 2.2rem;
+    color: var(--accent-gold);
+    margin-bottom: 2.5rem;
+    font-weight: 700;
+}
+
+.audioControls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.playButton {
+    min-width: 200px;
+    font-size: 1.2rem;
+}
+
+.transcriptText {
+    margin-top: 1.5rem;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 16px;
+    border: 1px solid var(--border-subtle);
+    color: var(--text-secondary);
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+.dictationSection {
+    padding: 3rem;
+    margin-bottom: 2rem;
+    animation: fadeInUp 0.6s ease-out both;
+    animation-delay: 0.1s;
+}
+
+.dictationLabel {
+    display: block;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.85rem;
+}
+
+.dictationInput {
+    width: 100%;
+    padding: 1.25rem;
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid var(--border-subtle);
+    border-radius: 12px;
+    color: var(--text-primary);
+    font-size: 1.2rem;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    margin-bottom: 2rem;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    resize: vertical;
+    min-height: 120px;
+}
+
+.dictationInput:focus {
+    border-color: var(--accent-gold);
+    outline: none;
+    box-shadow: 0 0 0 4px var(--accent-gold-dim);
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.dictationFeedback {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border-radius: 12px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.02);
+}
+
+@media (max-width: 640px) {
+
+    .listeningCard,
+    .dictationSection {
+        padding: 1.5rem;
+    }
+
+    .listeningTitle {
+        font-size: 1.8rem;
+    }
+
+    .dictationInput {
+        font-size: 1.1rem;
+    }
+}
+

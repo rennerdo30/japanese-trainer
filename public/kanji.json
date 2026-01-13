@@ -1,0 +1,10187 @@
+[
+  {
+    "id": "kanji-1",
+    "kanji": "一",
+    "meaning": "one",
+    "onyomi": [
+      "いち"
+    ],
+    "kunyomi": [
+      "ひ"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "一"
+    ],
+    "examples": [
+      {
+        "word": "一",
+        "reading": "いち",
+        "meaning": "one"
+      }
+    ]
+  },
+  {
+    "id": "kanji-2",
+    "kanji": "二",
+    "meaning": "two",
+    "onyomi": [
+      "に"
+    ],
+    "kunyomi": [
+      "ふた"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "二"
+    ],
+    "examples": [
+      {
+        "word": "二",
+        "reading": "に",
+        "meaning": "two"
+      }
+    ]
+  },
+  {
+    "id": "kanji-3",
+    "kanji": "三",
+    "meaning": "three",
+    "onyomi": [
+      "さん"
+    ],
+    "kunyomi": [
+      "み"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "三"
+    ],
+    "examples": [
+      {
+        "word": "三",
+        "reading": "さん",
+        "meaning": "three"
+      }
+    ]
+  },
+  {
+    "id": "kanji-4",
+    "kanji": "四",
+    "meaning": "four",
+    "onyomi": [
+      "し"
+    ],
+    "kunyomi": [
+      "よ"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "四"
+    ],
+    "examples": [
+      {
+        "word": "四",
+        "reading": "し",
+        "meaning": "four"
+      }
+    ]
+  },
+  {
+    "id": "kanji-5",
+    "kanji": "五",
+    "meaning": "five",
+    "onyomi": [
+      "ご"
+    ],
+    "kunyomi": [
+      "いつ"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "五"
+    ],
+    "examples": [
+      {
+        "word": "五",
+        "reading": "ご",
+        "meaning": "five"
+      }
+    ]
+  },
+  {
+    "id": "kanji-6",
+    "kanji": "六",
+    "meaning": "six",
+    "onyomi": [
+      "ろく"
+    ],
+    "kunyomi": [
+      "む"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "六"
+    ],
+    "examples": [
+      {
+        "word": "六",
+        "reading": "ろく",
+        "meaning": "six"
+      }
+    ]
+  },
+  {
+    "id": "kanji-7",
+    "kanji": "七",
+    "meaning": "seven",
+    "onyomi": [
+      "しち"
+    ],
+    "kunyomi": [
+      "なな"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "七"
+    ],
+    "examples": [
+      {
+        "word": "七",
+        "reading": "しち",
+        "meaning": "seven"
+      }
+    ]
+  },
+  {
+    "id": "kanji-8",
+    "kanji": "八",
+    "meaning": "eight",
+    "onyomi": [
+      "はち"
+    ],
+    "kunyomi": [
+      "や"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "八"
+    ],
+    "examples": [
+      {
+        "word": "八",
+        "reading": "はち",
+        "meaning": "eight"
+      }
+    ]
+  },
+  {
+    "id": "kanji-9",
+    "kanji": "九",
+    "meaning": "nine",
+    "onyomi": [
+      "きゅう"
+    ],
+    "kunyomi": [
+      "ここ"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "九"
+    ],
+    "examples": [
+      {
+        "word": "九",
+        "reading": "きゅう",
+        "meaning": "nine"
+      }
+    ]
+  },
+  {
+    "id": "kanji-10",
+    "kanji": "十",
+    "meaning": "ten",
+    "onyomi": [
+      "じゅう"
+    ],
+    "kunyomi": [
+      "と"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "十"
+    ],
+    "examples": [
+      {
+        "word": "十",
+        "reading": "じゅう",
+        "meaning": "ten"
+      }
+    ]
+  },
+  {
+    "id": "kanji-11",
+    "kanji": "百",
+    "meaning": "hundred",
+    "onyomi": [
+      "ひゃく"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "百"
+    ],
+    "examples": [
+      {
+        "word": "百",
+        "reading": "ひゃく",
+        "meaning": "hundred"
+      }
+    ]
+  },
+  {
+    "id": "kanji-12",
+    "kanji": "千",
+    "meaning": "thousand",
+    "onyomi": [
+      "せん"
+    ],
+    "kunyomi": [
+      "ち"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "千"
+    ],
+    "examples": [
+      {
+        "word": "千",
+        "reading": "せん",
+        "meaning": "thousand"
+      }
+    ]
+  },
+  {
+    "id": "kanji-13",
+    "kanji": "万",
+    "meaning": "ten thousand",
+    "onyomi": [
+      "まん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "万"
+    ],
+    "examples": [
+      {
+        "word": "万",
+        "reading": "まん",
+        "meaning": "ten thousand"
+      }
+    ]
+  },
+  {
+    "id": "kanji-14",
+    "kanji": "日",
+    "meaning": "day, sun",
+    "onyomi": [
+      "にち"
+    ],
+    "kunyomi": [
+      "ひ"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "日"
+    ],
+    "examples": [
+      {
+        "word": "日",
+        "reading": "にち",
+        "meaning": "day, sun"
+      }
+    ]
+  },
+  {
+    "id": "kanji-15",
+    "kanji": "月",
+    "meaning": "month, moon",
+    "onyomi": [
+      "げつ"
+    ],
+    "kunyomi": [
+      "つき"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "月"
+    ],
+    "examples": [
+      {
+        "word": "月",
+        "reading": "げつ",
+        "meaning": "month, moon"
+      }
+    ]
+  },
+  {
+    "id": "kanji-16",
+    "kanji": "火",
+    "meaning": "fire",
+    "onyomi": [
+      "か"
+    ],
+    "kunyomi": [
+      "ひ"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "火"
+    ],
+    "examples": [
+      {
+        "word": "火",
+        "reading": "か",
+        "meaning": "fire"
+      }
+    ]
+  },
+  {
+    "id": "kanji-17",
+    "kanji": "水",
+    "meaning": "water",
+    "onyomi": [
+      "すい"
+    ],
+    "kunyomi": [
+      "みず"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "水"
+    ],
+    "examples": [
+      {
+        "word": "水",
+        "reading": "すい",
+        "meaning": "water"
+      }
+    ]
+  },
+  {
+    "id": "kanji-18",
+    "kanji": "木",
+    "meaning": "tree, wood",
+    "onyomi": [
+      "もく"
+    ],
+    "kunyomi": [
+      "き"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "木"
+    ],
+    "examples": [
+      {
+        "word": "木",
+        "reading": "もく",
+        "meaning": "tree, wood"
+      }
+    ]
+  },
+  {
+    "id": "kanji-19",
+    "kanji": "金",
+    "meaning": "gold, metal",
+    "onyomi": [
+      "きん"
+    ],
+    "kunyomi": [
+      "かね"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "金"
+    ],
+    "examples": [
+      {
+        "word": "金",
+        "reading": "きん",
+        "meaning": "gold, metal"
+      }
+    ]
+  },
+  {
+    "id": "kanji-20",
+    "kanji": "土",
+    "meaning": "earth, soil",
+    "onyomi": [
+      "と"
+    ],
+    "kunyomi": [
+      "つち"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "土"
+    ],
+    "examples": [
+      {
+        "word": "土",
+        "reading": "と",
+        "meaning": "earth, soil"
+      }
+    ]
+  },
+  {
+    "id": "kanji-21",
+    "kanji": "人",
+    "meaning": "person",
+    "onyomi": [
+      "じん"
+    ],
+    "kunyomi": [
+      "ひと"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "人"
+    ],
+    "examples": [
+      {
+        "word": "人",
+        "reading": "じん",
+        "meaning": "person"
+      }
+    ]
+  },
+  {
+    "id": "kanji-22",
+    "kanji": "大",
+    "meaning": "big, large",
+    "onyomi": [
+      "だい"
+    ],
+    "kunyomi": [
+      "おお"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "大"
+    ],
+    "examples": [
+      {
+        "word": "大",
+        "reading": "だい",
+        "meaning": "big, large"
+      }
+    ]
+  },
+  {
+    "id": "kanji-23",
+    "kanji": "小",
+    "meaning": "small",
+    "onyomi": [
+      "しょう"
+    ],
+    "kunyomi": [
+      "ちい"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "小"
+    ],
+    "examples": [
+      {
+        "word": "小",
+        "reading": "しょう",
+        "meaning": "small"
+      }
+    ]
+  },
+  {
+    "id": "kanji-24",
+    "kanji": "中",
+    "meaning": "middle",
+    "onyomi": [
+      "ちゅう"
+    ],
+    "kunyomi": [
+      "なか"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "中"
+    ],
+    "examples": [
+      {
+        "word": "中",
+        "reading": "ちゅう",
+        "meaning": "middle"
+      }
+    ]
+  },
+  {
+    "id": "kanji-25",
+    "kanji": "上",
+    "meaning": "up, above",
+    "onyomi": [
+      "じょう"
+    ],
+    "kunyomi": [
+      "うえ"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "上"
+    ],
+    "examples": [
+      {
+        "word": "上",
+        "reading": "じょう",
+        "meaning": "up, above"
+      }
+    ]
+  },
+  {
+    "id": "kanji-26",
+    "kanji": "下",
+    "meaning": "down, below",
+    "onyomi": [
+      "か"
+    ],
+    "kunyomi": [
+      "した"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "下"
+    ],
+    "examples": [
+      {
+        "word": "下",
+        "reading": "か",
+        "meaning": "down, below"
+      }
+    ]
+  },
+  {
+    "id": "kanji-27",
+    "kanji": "左",
+    "meaning": "left",
+    "onyomi": [
+      "さ"
+    ],
+    "kunyomi": [
+      "ひだり"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "左"
+    ],
+    "examples": [
+      {
+        "word": "左",
+        "reading": "さ",
+        "meaning": "left"
+      }
+    ]
+  },
+  {
+    "id": "kanji-28",
+    "kanji": "右",
+    "meaning": "right",
+    "onyomi": [
+      "う"
+    ],
+    "kunyomi": [
+      "みぎ"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "右"
+    ],
+    "examples": [
+      {
+        "word": "右",
+        "reading": "う",
+        "meaning": "right"
+      }
+    ]
+  },
+  {
+    "id": "kanji-29",
+    "kanji": "前",
+    "meaning": "front, before",
+    "onyomi": [
+      "ぜん"
+    ],
+    "kunyomi": [
+      "まえ"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "前"
+    ],
+    "examples": [
+      {
+        "word": "前",
+        "reading": "ぜん",
+        "meaning": "front, before"
+      }
+    ]
+  },
+  {
+    "id": "kanji-30",
+    "kanji": "後",
+    "meaning": "back, after",
+    "onyomi": [
+      "こう"
+    ],
+    "kunyomi": [
+      "うしろ"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "後"
+    ],
+    "examples": [
+      {
+        "word": "後",
+        "reading": "こう",
+        "meaning": "back, after"
+      }
+    ]
+  },
+  {
+    "id": "kanji-31",
+    "kanji": "外",
+    "meaning": "outside",
+    "onyomi": [
+      "がい"
+    ],
+    "kunyomi": [
+      "そと"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "外"
+    ],
+    "examples": [
+      {
+        "word": "外",
+        "reading": "がい",
+        "meaning": "outside"
+      }
+    ]
+  },
+  {
+    "id": "kanji-32",
+    "kanji": "内",
+    "meaning": "inside",
+    "onyomi": [
+      "ない"
+    ],
+    "kunyomi": [
+      "うち"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "内"
+    ],
+    "examples": [
+      {
+        "word": "内",
+        "reading": "ない",
+        "meaning": "inside"
+      }
+    ]
+  },
+  {
+    "id": "kanji-33",
+    "kanji": "今",
+    "meaning": "now",
+    "onyomi": [
+      "こん"
+    ],
+    "kunyomi": [
+      "いま"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "今"
+    ],
+    "examples": [
+      {
+        "word": "今",
+        "reading": "こん",
+        "meaning": "now"
+      }
+    ]
+  },
+  {
+    "id": "kanji-34",
+    "kanji": "新",
+    "meaning": "new",
+    "onyomi": [
+      "しん"
+    ],
+    "kunyomi": [
+      "あたら"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "新"
+    ],
+    "examples": [
+      {
+        "word": "新",
+        "reading": "しん",
+        "meaning": "new"
+      }
+    ]
+  },
+  {
+    "id": "kanji-35",
+    "kanji": "古",
+    "meaning": "old",
+    "onyomi": [
+      "こ"
+    ],
+    "kunyomi": [
+      "ふる"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "古"
+    ],
+    "examples": [
+      {
+        "word": "古",
+        "reading": "こ",
+        "meaning": "old"
+      }
+    ]
+  },
+  {
+    "id": "kanji-36",
+    "kanji": "多",
+    "meaning": "many, much",
+    "onyomi": [
+      "た"
+    ],
+    "kunyomi": [
+      "おお"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "多"
+    ],
+    "examples": [
+      {
+        "word": "多",
+        "reading": "た",
+        "meaning": "many, much"
+      }
+    ]
+  },
+  {
+    "id": "kanji-37",
+    "kanji": "少",
+    "meaning": "few, little",
+    "onyomi": [
+      "しょう"
+    ],
+    "kunyomi": [
+      "すく"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "少"
+    ],
+    "examples": [
+      {
+        "word": "少",
+        "reading": "しょう",
+        "meaning": "few, little"
+      }
+    ]
+  },
+  {
+    "id": "kanji-38",
+    "kanji": "高",
+    "meaning": "high, tall",
+    "onyomi": [
+      "こう"
+    ],
+    "kunyomi": [
+      "たか"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "高"
+    ],
+    "examples": [
+      {
+        "word": "高",
+        "reading": "こう",
+        "meaning": "high, tall"
+      }
+    ]
+  },
+  {
+    "id": "kanji-39",
+    "kanji": "低",
+    "meaning": "low",
+    "onyomi": [
+      "てい"
+    ],
+    "kunyomi": [
+      "ひく"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "低"
+    ],
+    "examples": [
+      {
+        "word": "低",
+        "reading": "てい",
+        "meaning": "low"
+      }
+    ]
+  },
+  {
+    "id": "kanji-40",
+    "kanji": "長",
+    "meaning": "long",
+    "onyomi": [
+      "ちょう"
+    ],
+    "kunyomi": [
+      "なが"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "長"
+    ],
+    "examples": [
+      {
+        "word": "長",
+        "reading": "ちょう",
+        "meaning": "long"
+      }
+    ]
+  },
+  {
+    "id": "kanji-41",
+    "kanji": "短",
+    "meaning": "short",
+    "onyomi": [
+      "たん"
+    ],
+    "kunyomi": [
+      "みじか"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "短"
+    ],
+    "examples": [
+      {
+        "word": "短",
+        "reading": "たん",
+        "meaning": "short"
+      }
+    ]
+  },
+  {
+    "id": "kanji-42",
+    "kanji": "白",
+    "meaning": "white",
+    "onyomi": [
+      "はく"
+    ],
+    "kunyomi": [
+      "しろ"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "白"
+    ],
+    "examples": [
+      {
+        "word": "白",
+        "reading": "はく",
+        "meaning": "white"
+      }
+    ]
+  },
+  {
+    "id": "kanji-43",
+    "kanji": "黒",
+    "meaning": "black",
+    "onyomi": [
+      "こく"
+    ],
+    "kunyomi": [
+      "くろ"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "黒"
+    ],
+    "examples": [
+      {
+        "word": "黒",
+        "reading": "こく",
+        "meaning": "black"
+      }
+    ]
+  },
+  {
+    "id": "kanji-44",
+    "kanji": "赤",
+    "meaning": "red",
+    "onyomi": [
+      "せき"
+    ],
+    "kunyomi": [
+      "あか"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "赤"
+    ],
+    "examples": [
+      {
+        "word": "赤",
+        "reading": "せき",
+        "meaning": "red"
+      }
+    ]
+  },
+  {
+    "id": "kanji-45",
+    "kanji": "青",
+    "meaning": "blue",
+    "onyomi": [
+      "せい"
+    ],
+    "kunyomi": [
+      "あお"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "青"
+    ],
+    "examples": [
+      {
+        "word": "青",
+        "reading": "せい",
+        "meaning": "blue"
+      }
+    ]
+  },
+  {
+    "id": "kanji-46",
+    "kanji": "学",
+    "meaning": "study",
+    "onyomi": [
+      "がく"
+    ],
+    "kunyomi": [
+      "まな"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "学"
+    ],
+    "examples": [
+      {
+        "word": "学",
+        "reading": "がく",
+        "meaning": "study"
+      }
+    ]
+  },
+  {
+    "id": "kanji-47",
+    "kanji": "校",
+    "meaning": "school",
+    "onyomi": [
+      "こう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "校"
+    ],
+    "examples": [
+      {
+        "word": "校",
+        "reading": "こう",
+        "meaning": "school"
+      }
+    ]
+  },
+  {
+    "id": "kanji-48",
+    "kanji": "生",
+    "meaning": "life, student",
+    "onyomi": [
+      "せい"
+    ],
+    "kunyomi": [
+      "い"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "生"
+    ],
+    "examples": [
+      {
+        "word": "生",
+        "reading": "せい",
+        "meaning": "life, student"
+      }
+    ]
+  },
+  {
+    "id": "kanji-49",
+    "kanji": "先",
+    "meaning": "before",
+    "onyomi": [
+      "せん"
+    ],
+    "kunyomi": [
+      "さき"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "先"
+    ],
+    "examples": [
+      {
+        "word": "先",
+        "reading": "せん",
+        "meaning": "before"
+      }
+    ]
+  },
+  {
+    "id": "kanji-50",
+    "kanji": "父",
+    "meaning": "father",
+    "onyomi": [
+      "ふ"
+    ],
+    "kunyomi": [
+      "ちち"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "父"
+    ],
+    "examples": [
+      {
+        "word": "父",
+        "reading": "ふ",
+        "meaning": "father"
+      }
+    ]
+  },
+  {
+    "id": "kanji-51",
+    "kanji": "母",
+    "meaning": "mother",
+    "onyomi": [
+      "ぼ"
+    ],
+    "kunyomi": [
+      "はは"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "母"
+    ],
+    "examples": [
+      {
+        "word": "母",
+        "reading": "ぼ",
+        "meaning": "mother"
+      }
+    ]
+  },
+  {
+    "id": "kanji-52",
+    "kanji": "兄",
+    "meaning": "older brother",
+    "onyomi": [
+      "けい"
+    ],
+    "kunyomi": [
+      "あに"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "兄"
+    ],
+    "examples": [
+      {
+        "word": "兄",
+        "reading": "けい",
+        "meaning": "older brother"
+      }
+    ]
+  },
+  {
+    "id": "kanji-53",
+    "kanji": "弟",
+    "meaning": "younger brother",
+    "onyomi": [
+      "てい"
+    ],
+    "kunyomi": [
+      "おとうと"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "弟"
+    ],
+    "examples": [
+      {
+        "word": "弟",
+        "reading": "てい",
+        "meaning": "younger brother"
+      }
+    ]
+  },
+  {
+    "id": "kanji-54",
+    "kanji": "姉",
+    "meaning": "older sister",
+    "onyomi": [
+      "し"
+    ],
+    "kunyomi": [
+      "あね"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "姉"
+    ],
+    "examples": [
+      {
+        "word": "姉",
+        "reading": "し",
+        "meaning": "older sister"
+      }
+    ]
+  },
+  {
+    "id": "kanji-55",
+    "kanji": "妹",
+    "meaning": "younger sister",
+    "onyomi": [
+      "まい"
+    ],
+    "kunyomi": [
+      "いもうと"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "妹"
+    ],
+    "examples": [
+      {
+        "word": "妹",
+        "reading": "まい",
+        "meaning": "younger sister"
+      }
+    ]
+  },
+  {
+    "id": "kanji-56",
+    "kanji": "子",
+    "meaning": "child",
+    "onyomi": [
+      "し"
+    ],
+    "kunyomi": [
+      "こ"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "子"
+    ],
+    "examples": [
+      {
+        "word": "子",
+        "reading": "し",
+        "meaning": "child"
+      }
+    ]
+  },
+  {
+    "id": "kanji-57",
+    "kanji": "女",
+    "meaning": "woman",
+    "onyomi": [
+      "じょ"
+    ],
+    "kunyomi": [
+      "おんな"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "女"
+    ],
+    "examples": [
+      {
+        "word": "女",
+        "reading": "じょ",
+        "meaning": "woman"
+      }
+    ]
+  },
+  {
+    "id": "kanji-58",
+    "kanji": "男",
+    "meaning": "man",
+    "onyomi": [
+      "だん"
+    ],
+    "kunyomi": [
+      "おとこ"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "男"
+    ],
+    "examples": [
+      {
+        "word": "男",
+        "reading": "だん",
+        "meaning": "man"
+      }
+    ]
+  },
+  {
+    "id": "kanji-59",
+    "kanji": "本",
+    "meaning": "book",
+    "onyomi": [
+      "ほん"
+    ],
+    "kunyomi": [
+      "もと"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "本"
+    ],
+    "examples": [
+      {
+        "word": "本",
+        "reading": "ほん",
+        "meaning": "book"
+      }
+    ]
+  },
+  {
+    "id": "kanji-60",
+    "kanji": "食",
+    "meaning": "eat, food",
+    "onyomi": [
+      "しょく"
+    ],
+    "kunyomi": [
+      "たべ"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "食"
+    ],
+    "examples": [
+      {
+        "word": "食",
+        "reading": "しょく",
+        "meaning": "eat, food"
+      }
+    ]
+  },
+  {
+    "id": "kanji-61",
+    "kanji": "飲",
+    "meaning": "drink",
+    "onyomi": [
+      "いん"
+    ],
+    "kunyomi": [
+      "のむ"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "飲"
+    ],
+    "examples": [
+      {
+        "word": "飲",
+        "reading": "いん",
+        "meaning": "drink"
+      }
+    ]
+  },
+  {
+    "id": "kanji-62",
+    "kanji": "酒",
+    "meaning": "alcohol",
+    "onyomi": [
+      "しゅ"
+    ],
+    "kunyomi": [
+      "さけ"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "酒"
+    ],
+    "examples": [
+      {
+        "word": "酒",
+        "reading": "しゅ",
+        "meaning": "alcohol"
+      }
+    ]
+  },
+  {
+    "id": "kanji-63",
+    "kanji": "米",
+    "meaning": "rice",
+    "onyomi": [
+      "べい"
+    ],
+    "kunyomi": [
+      "こめ"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "米"
+    ],
+    "examples": [
+      {
+        "word": "米",
+        "reading": "べい",
+        "meaning": "rice"
+      }
+    ]
+  },
+  {
+    "id": "kanji-64",
+    "kanji": "肉",
+    "meaning": "meat",
+    "onyomi": [
+      "にく"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "肉"
+    ],
+    "examples": [
+      {
+        "word": "肉",
+        "reading": "にく",
+        "meaning": "meat"
+      }
+    ]
+  },
+  {
+    "id": "kanji-65",
+    "kanji": "魚",
+    "meaning": "fish",
+    "onyomi": [
+      "ぎょ"
+    ],
+    "kunyomi": [
+      "さかな"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "魚"
+    ],
+    "examples": [
+      {
+        "word": "魚",
+        "reading": "ぎょ",
+        "meaning": "fish"
+      }
+    ]
+  },
+  {
+    "id": "kanji-66",
+    "kanji": "野",
+    "meaning": "field",
+    "onyomi": [
+      "や"
+    ],
+    "kunyomi": [
+      "の"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "野"
+    ],
+    "examples": [
+      {
+        "word": "野",
+        "reading": "や",
+        "meaning": "field"
+      }
+    ]
+  },
+  {
+    "id": "kanji-67",
+    "kanji": "菜",
+    "meaning": "vegetable",
+    "onyomi": [
+      "さい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "菜"
+    ],
+    "examples": [
+      {
+        "word": "菜",
+        "reading": "さい",
+        "meaning": "vegetable"
+      }
+    ]
+  },
+  {
+    "id": "kanji-68",
+    "kanji": "果",
+    "meaning": "fruit",
+    "onyomi": [
+      "か"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "果"
+    ],
+    "examples": [
+      {
+        "word": "果",
+        "reading": "か",
+        "meaning": "fruit"
+      }
+    ]
+  },
+  {
+    "id": "kanji-69",
+    "kanji": "物",
+    "meaning": "thing",
+    "onyomi": [
+      "ぶつ"
+    ],
+    "kunyomi": [
+      "もの"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "物"
+    ],
+    "examples": [
+      {
+        "word": "物",
+        "reading": "ぶつ",
+        "meaning": "thing"
+      }
+    ]
+  },
+  {
+    "id": "kanji-70",
+    "kanji": "衣",
+    "meaning": "clothes",
+    "onyomi": [
+      "い"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "衣"
+    ],
+    "examples": [
+      {
+        "word": "衣",
+        "reading": "い",
+        "meaning": "clothes"
+      }
+    ]
+  },
+  {
+    "id": "kanji-71",
+    "kanji": "服",
+    "meaning": "clothes",
+    "onyomi": [
+      "ふく"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "服"
+    ],
+    "examples": [
+      {
+        "word": "服",
+        "reading": "ふく",
+        "meaning": "clothes"
+      }
+    ]
+  },
+  {
+    "id": "kanji-72",
+    "kanji": "靴",
+    "meaning": "shoe",
+    "onyomi": [
+      "か"
+    ],
+    "kunyomi": [
+      "くつ"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "靴"
+    ],
+    "examples": [
+      {
+        "word": "靴",
+        "reading": "か",
+        "meaning": "shoe"
+      }
+    ]
+  },
+  {
+    "id": "kanji-73",
+    "kanji": "帽",
+    "meaning": "hat",
+    "onyomi": [
+      "ぼう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "帽"
+    ],
+    "examples": [
+      {
+        "word": "帽",
+        "reading": "ぼう",
+        "meaning": "hat"
+      }
+    ]
+  },
+  {
+    "id": "kanji-74",
+    "kanji": "傘",
+    "meaning": "umbrella",
+    "onyomi": [
+      "さん"
+    ],
+    "kunyomi": [
+      "かさ"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "傘"
+    ],
+    "examples": [
+      {
+        "word": "傘",
+        "reading": "さん",
+        "meaning": "umbrella"
+      }
+    ]
+  },
+  {
+    "id": "kanji-75",
+    "kanji": "家",
+    "meaning": "house",
+    "onyomi": [
+      "か"
+    ],
+    "kunyomi": [
+      "いえ"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "家"
+    ],
+    "examples": [
+      {
+        "word": "家",
+        "reading": "か",
+        "meaning": "house"
+      }
+    ]
+  },
+  {
+    "id": "kanji-76",
+    "kanji": "部",
+    "meaning": "section",
+    "onyomi": [
+      "ぶ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "部"
+    ],
+    "examples": [
+      {
+        "word": "部",
+        "reading": "ぶ",
+        "meaning": "section"
+      }
+    ]
+  },
+  {
+    "id": "kanji-77",
+    "kanji": "屋",
+    "meaning": "house",
+    "onyomi": [
+      "や"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "屋"
+    ],
+    "examples": [
+      {
+        "word": "屋",
+        "reading": "や",
+        "meaning": "house"
+      }
+    ]
+  },
+  {
+    "id": "kanji-78",
+    "kanji": "室",
+    "meaning": "room",
+    "onyomi": [
+      "しつ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "室"
+    ],
+    "examples": [
+      {
+        "word": "室",
+        "reading": "しつ",
+        "meaning": "room"
+      }
+    ]
+  },
+  {
+    "id": "kanji-79",
+    "kanji": "戸",
+    "meaning": "door",
+    "onyomi": [
+      "こ"
+    ],
+    "kunyomi": [
+      "と"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "戸"
+    ],
+    "examples": [
+      {
+        "word": "戸",
+        "reading": "こ",
+        "meaning": "door"
+      }
+    ]
+  },
+  {
+    "id": "kanji-80",
+    "kanji": "机",
+    "meaning": "desk",
+    "onyomi": [
+      "き"
+    ],
+    "kunyomi": [
+      "つくえ"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "机"
+    ],
+    "examples": [
+      {
+        "word": "机",
+        "reading": "き",
+        "meaning": "desk"
+      }
+    ]
+  },
+  {
+    "id": "kanji-81",
+    "kanji": "椅",
+    "meaning": "chair",
+    "onyomi": [
+      "い"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "椅"
+    ],
+    "examples": [
+      {
+        "word": "椅",
+        "reading": "い",
+        "meaning": "chair"
+      }
+    ]
+  },
+  {
+    "id": "kanji-82",
+    "kanji": "床",
+    "meaning": "floor",
+    "onyomi": [
+      "ゆか"
+    ],
+    "kunyomi": [
+      "ゆか"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "床"
+    ],
+    "examples": [
+      {
+        "word": "床",
+        "reading": "ゆか",
+        "meaning": "floor"
+      }
+    ]
+  },
+  {
+    "id": "kanji-83",
+    "kanji": "壁",
+    "meaning": "wall",
+    "onyomi": [
+      "へき"
+    ],
+    "kunyomi": [
+      "かべ"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "壁"
+    ],
+    "examples": [
+      {
+        "word": "壁",
+        "reading": "へき",
+        "meaning": "wall"
+      }
+    ]
+  },
+  {
+    "id": "kanji-84",
+    "kanji": "窓",
+    "meaning": "window",
+    "onyomi": [
+      "そう"
+    ],
+    "kunyomi": [
+      "まど"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "窓"
+    ],
+    "examples": [
+      {
+        "word": "窓",
+        "reading": "そう",
+        "meaning": "window"
+      }
+    ]
+  },
+  {
+    "id": "kanji-85",
+    "kanji": "門",
+    "meaning": "gate",
+    "onyomi": [
+      "もん"
+    ],
+    "kunyomi": [
+      "かど"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "門"
+    ],
+    "examples": [
+      {
+        "word": "門",
+        "reading": "もん",
+        "meaning": "gate"
+      }
+    ]
+  },
+  {
+    "id": "kanji-86",
+    "kanji": "道",
+    "meaning": "way, path",
+    "onyomi": [
+      "どう"
+    ],
+    "kunyomi": [
+      "みち"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "道"
+    ],
+    "examples": [
+      {
+        "word": "道",
+        "reading": "どう",
+        "meaning": "way, path"
+      }
+    ]
+  },
+  {
+    "id": "kanji-87",
+    "kanji": "車",
+    "meaning": "car",
+    "onyomi": [
+      "しゃ"
+    ],
+    "kunyomi": [
+      "くるま"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "車"
+    ],
+    "examples": [
+      {
+        "word": "車",
+        "reading": "しゃ",
+        "meaning": "car"
+      }
+    ]
+  },
+  {
+    "id": "kanji-88",
+    "kanji": "電",
+    "meaning": "electricity",
+    "onyomi": [
+      "でん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "電"
+    ],
+    "examples": [
+      {
+        "word": "電",
+        "reading": "でん",
+        "meaning": "electricity"
+      }
+    ]
+  },
+  {
+    "id": "kanji-89",
+    "kanji": "話",
+    "meaning": "talk",
+    "onyomi": [
+      "わ"
+    ],
+    "kunyomi": [
+      "はなし"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "話"
+    ],
+    "examples": [
+      {
+        "word": "話",
+        "reading": "わ",
+        "meaning": "talk"
+      }
+    ]
+  },
+  {
+    "id": "kanji-90",
+    "kanji": "書",
+    "meaning": "write",
+    "onyomi": [
+      "しょ"
+    ],
+    "kunyomi": [
+      "かき"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "書"
+    ],
+    "examples": [
+      {
+        "word": "書",
+        "reading": "しょ",
+        "meaning": "write"
+      }
+    ]
+  },
+  {
+    "id": "kanji-91",
+    "kanji": "字",
+    "meaning": "character",
+    "onyomi": [
+      "じ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "字"
+    ],
+    "examples": [
+      {
+        "word": "字",
+        "reading": "じ",
+        "meaning": "character"
+      }
+    ]
+  },
+  {
+    "id": "kanji-92",
+    "kanji": "読",
+    "meaning": "read",
+    "onyomi": [
+      "どく"
+    ],
+    "kunyomi": [
+      "よむ"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "読"
+    ],
+    "examples": [
+      {
+        "word": "読",
+        "reading": "どく",
+        "meaning": "read"
+      }
+    ]
+  },
+  {
+    "id": "kanji-93",
+    "kanji": "聞",
+    "meaning": "hear, listen",
+    "onyomi": [
+      "ぶん"
+    ],
+    "kunyomi": [
+      "きく"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "聞"
+    ],
+    "examples": [
+      {
+        "word": "聞",
+        "reading": "ぶん",
+        "meaning": "hear, listen"
+      }
+    ]
+  },
+  {
+    "id": "kanji-94",
+    "kanji": "見",
+    "meaning": "see, look",
+    "onyomi": [
+      "けん"
+    ],
+    "kunyomi": [
+      "みる"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "見"
+    ],
+    "examples": [
+      {
+        "word": "見",
+        "reading": "けん",
+        "meaning": "see, look"
+      }
+    ]
+  },
+  {
+    "id": "kanji-95",
+    "kanji": "考",
+    "meaning": "think",
+    "onyomi": [
+      "こう"
+    ],
+    "kunyomi": [
+      "かんが"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "考"
+    ],
+    "examples": [
+      {
+        "word": "考",
+        "reading": "こう",
+        "meaning": "think"
+      }
+    ]
+  },
+  {
+    "id": "kanji-96",
+    "kanji": "知",
+    "meaning": "know",
+    "onyomi": [
+      "ち"
+    ],
+    "kunyomi": [
+      "しる"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "知"
+    ],
+    "examples": [
+      {
+        "word": "知",
+        "reading": "ち",
+        "meaning": "know"
+      }
+    ]
+  },
+  {
+    "id": "kanji-97",
+    "kanji": "思",
+    "meaning": "think",
+    "onyomi": [
+      "し"
+    ],
+    "kunyomi": [
+      "おもう"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "思"
+    ],
+    "examples": [
+      {
+        "word": "思",
+        "reading": "し",
+        "meaning": "think"
+      }
+    ]
+  },
+  {
+    "id": "kanji-98",
+    "kanji": "行",
+    "meaning": "go",
+    "onyomi": [
+      "こう"
+    ],
+    "kunyomi": [
+      "いく"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "行"
+    ],
+    "examples": [
+      {
+        "word": "行",
+        "reading": "こう",
+        "meaning": "go"
+      }
+    ]
+  },
+  {
+    "id": "kanji-99",
+    "kanji": "来",
+    "meaning": "come",
+    "onyomi": [
+      "らい"
+    ],
+    "kunyomi": [
+      "くる"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "来"
+    ],
+    "examples": [
+      {
+        "word": "来",
+        "reading": "らい",
+        "meaning": "come"
+      }
+    ]
+  },
+  {
+    "id": "kanji-100",
+    "kanji": "帰",
+    "meaning": "return",
+    "onyomi": [
+      "き"
+    ],
+    "kunyomi": [
+      "かえる"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "帰"
+    ],
+    "examples": [
+      {
+        "word": "帰",
+        "reading": "き",
+        "meaning": "return"
+      }
+    ]
+  },
+  {
+    "id": "kanji-101",
+    "kanji": "出",
+    "meaning": "exit",
+    "onyomi": [
+      "しゅつ"
+    ],
+    "kunyomi": [
+      "でる"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "出"
+    ],
+    "examples": [
+      {
+        "word": "出",
+        "reading": "しゅつ",
+        "meaning": "exit"
+      }
+    ]
+  },
+  {
+    "id": "kanji-102",
+    "kanji": "入",
+    "meaning": "enter",
+    "onyomi": [
+      "にゅう"
+    ],
+    "kunyomi": [
+      "はいる"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "入"
+    ],
+    "examples": [
+      {
+        "word": "入",
+        "reading": "にゅう",
+        "meaning": "enter"
+      }
+    ]
+  },
+  {
+    "id": "kanji-103",
+    "kanji": "立",
+    "meaning": "stand",
+    "onyomi": [
+      "りつ"
+    ],
+    "kunyomi": [
+      "たつ"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "立"
+    ],
+    "examples": [
+      {
+        "word": "立",
+        "reading": "りつ",
+        "meaning": "stand"
+      }
+    ]
+  },
+  {
+    "id": "kanji-104",
+    "kanji": "座",
+    "meaning": "sit",
+    "onyomi": [
+      "ざ"
+    ],
+    "kunyomi": [
+      "すわる"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "座"
+    ],
+    "examples": [
+      {
+        "word": "座",
+        "reading": "ざ",
+        "meaning": "sit"
+      }
+    ]
+  },
+  {
+    "id": "kanji-105",
+    "kanji": "走",
+    "meaning": "run",
+    "onyomi": [
+      "そう"
+    ],
+    "kunyomi": [
+      "はしる"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "走"
+    ],
+    "examples": [
+      {
+        "word": "走",
+        "reading": "そう",
+        "meaning": "run"
+      }
+    ]
+  },
+  {
+    "id": "kanji-106",
+    "kanji": "歩",
+    "meaning": "walk",
+    "onyomi": [
+      "ほ"
+    ],
+    "kunyomi": [
+      "あるく"
+    ],
+    "strokes": 4,
+    "jlpt": "N5",
+    "radicals": [
+      "歩"
+    ],
+    "examples": [
+      {
+        "word": "歩",
+        "reading": "ほ",
+        "meaning": "walk"
+      }
+    ]
+  },
+  {
+    "id": "kanji-107",
+    "kanji": "医",
+    "meaning": "medicine",
+    "onyomi": [
+      "い"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "医"
+    ],
+    "examples": [
+      {
+        "word": "医",
+        "reading": "い",
+        "meaning": "medicine"
+      }
+    ]
+  },
+  {
+    "id": "kanji-108",
+    "kanji": "技",
+    "meaning": "technique",
+    "onyomi": [
+      "ぎ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "技"
+    ],
+    "examples": [
+      {
+        "word": "技",
+        "reading": "ぎ",
+        "meaning": "technique"
+      }
+    ]
+  },
+  {
+    "id": "kanji-109",
+    "kanji": "工",
+    "meaning": "craft",
+    "onyomi": [
+      "こう"
+    ],
+    "kunyomi": [
+      "たくみ"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "工"
+    ],
+    "examples": [
+      {
+        "word": "工",
+        "reading": "こう",
+        "meaning": "craft"
+      }
+    ]
+  },
+  {
+    "id": "kanji-110",
+    "kanji": "事",
+    "meaning": "thing, matter",
+    "onyomi": [
+      "じ"
+    ],
+    "kunyomi": [
+      "こと"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "事"
+    ],
+    "examples": [
+      {
+        "word": "事",
+        "reading": "じ",
+        "meaning": "thing, matter"
+      }
+    ]
+  },
+  {
+    "id": "kanji-111",
+    "kanji": "企",
+    "meaning": "plan",
+    "onyomi": [
+      "き"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "企"
+    ],
+    "examples": [
+      {
+        "word": "企",
+        "reading": "き",
+        "meaning": "plan"
+      }
+    ]
+  },
+  {
+    "id": "kanji-112",
+    "kanji": "能",
+    "meaning": "ability",
+    "onyomi": [
+      "のう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "能"
+    ],
+    "examples": [
+      {
+        "word": "能",
+        "reading": "のう",
+        "meaning": "ability"
+      }
+    ]
+  },
+  {
+    "id": "kanji-113",
+    "kanji": "的",
+    "meaning": "target",
+    "onyomi": [
+      "てき"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "的"
+    ],
+    "examples": [
+      {
+        "word": "的",
+        "reading": "てき",
+        "meaning": "target"
+      }
+    ]
+  },
+  {
+    "id": "kanji-114",
+    "kanji": "質",
+    "meaning": "quality",
+    "onyomi": [
+      "しつ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "質"
+    ],
+    "examples": [
+      {
+        "word": "質",
+        "reading": "しつ",
+        "meaning": "quality"
+      }
+    ]
+  },
+  {
+    "id": "kanji-115",
+    "kanji": "実",
+    "meaning": "truth",
+    "onyomi": [
+      "じつ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "実"
+    ],
+    "examples": [
+      {
+        "word": "実",
+        "reading": "じつ",
+        "meaning": "truth"
+      }
+    ]
+  },
+  {
+    "id": "kanji-116",
+    "kanji": "権",
+    "meaning": "right",
+    "onyomi": [
+      "けん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "権"
+    ],
+    "examples": [
+      {
+        "word": "権",
+        "reading": "けん",
+        "meaning": "right"
+      }
+    ]
+  },
+  {
+    "id": "kanji-117",
+    "kanji": "政",
+    "meaning": "government",
+    "onyomi": [
+      "せい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "政"
+    ],
+    "examples": [
+      {
+        "word": "政",
+        "reading": "せい",
+        "meaning": "government"
+      }
+    ]
+  },
+  {
+    "id": "kanji-118",
+    "kanji": "法",
+    "meaning": "law",
+    "onyomi": [
+      "ほう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "法"
+    ],
+    "examples": [
+      {
+        "word": "法",
+        "reading": "ほう",
+        "meaning": "law"
+      }
+    ]
+  },
+  {
+    "id": "kanji-119",
+    "kanji": "率",
+    "meaning": "rate",
+    "onyomi": [
+      "りつ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "率"
+    ],
+    "examples": [
+      {
+        "word": "率",
+        "reading": "りつ",
+        "meaning": "rate"
+      }
+    ]
+  },
+  {
+    "id": "kanji-120",
+    "kanji": "制",
+    "meaning": "system",
+    "onyomi": [
+      "せい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "制"
+    ],
+    "examples": [
+      {
+        "word": "制",
+        "reading": "せい",
+        "meaning": "system"
+      }
+    ]
+  },
+  {
+    "id": "kanji-121",
+    "kanji": "規",
+    "meaning": "rule",
+    "onyomi": [
+      "き"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "規"
+    ],
+    "examples": [
+      {
+        "word": "規",
+        "reading": "き",
+        "meaning": "rule"
+      }
+    ]
+  },
+  {
+    "id": "kanji-122",
+    "kanji": "度",
+    "meaning": "degree",
+    "onyomi": [
+      "ど"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "度"
+    ],
+    "examples": [
+      {
+        "word": "度",
+        "reading": "ど",
+        "meaning": "degree"
+      }
+    ]
+  },
+  {
+    "id": "kanji-123",
+    "kanji": "機",
+    "meaning": "machine",
+    "onyomi": [
+      "き"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "機"
+    ],
+    "examples": [
+      {
+        "word": "機",
+        "reading": "き",
+        "meaning": "machine"
+      }
+    ]
+  },
+  {
+    "id": "kanji-124",
+    "kanji": "械",
+    "meaning": "machine",
+    "onyomi": [
+      "かい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "械"
+    ],
+    "examples": [
+      {
+        "word": "械",
+        "reading": "かい",
+        "meaning": "machine"
+      }
+    ]
+  },
+  {
+    "id": "kanji-125",
+    "kanji": "材",
+    "meaning": "material",
+    "onyomi": [
+      "ざい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "材"
+    ],
+    "examples": [
+      {
+        "word": "材",
+        "reading": "ざい",
+        "meaning": "material"
+      }
+    ]
+  },
+  {
+    "id": "kanji-126",
+    "kanji": "線",
+    "meaning": "line",
+    "onyomi": [
+      "せん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "線"
+    ],
+    "examples": [
+      {
+        "word": "線",
+        "reading": "せん",
+        "meaning": "line"
+      }
+    ]
+  },
+  {
+    "id": "kanji-127",
+    "kanji": "産",
+    "meaning": "produce",
+    "onyomi": [
+      "さん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "産"
+    ],
+    "examples": [
+      {
+        "word": "産",
+        "reading": "さん",
+        "meaning": "produce"
+      }
+    ]
+  },
+  {
+    "id": "kanji-128",
+    "kanji": "農",
+    "meaning": "agriculture",
+    "onyomi": [
+      "のう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "農"
+    ],
+    "examples": [
+      {
+        "word": "農",
+        "reading": "のう",
+        "meaning": "agriculture"
+      }
+    ]
+  },
+  {
+    "id": "kanji-129",
+    "kanji": "業",
+    "meaning": "business",
+    "onyomi": [
+      "ぎょう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "業"
+    ],
+    "examples": [
+      {
+        "word": "業",
+        "reading": "ぎょう",
+        "meaning": "business"
+      }
+    ]
+  },
+  {
+    "id": "kanji-130",
+    "kanji": "商",
+    "meaning": "commerce",
+    "onyomi": [
+      "しょう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "商"
+    ],
+    "examples": [
+      {
+        "word": "商",
+        "reading": "しょう",
+        "meaning": "commerce"
+      }
+    ]
+  },
+  {
+    "id": "kanji-131",
+    "kanji": "社",
+    "meaning": "company",
+    "onyomi": [
+      "しゃ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "社"
+    ],
+    "examples": [
+      {
+        "word": "社",
+        "reading": "しゃ",
+        "meaning": "company"
+      }
+    ]
+  },
+  {
+    "id": "kanji-132",
+    "kanji": "合",
+    "meaning": "combine",
+    "onyomi": [
+      "ごう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "合"
+    ],
+    "examples": [
+      {
+        "word": "合",
+        "reading": "ごう",
+        "meaning": "combine"
+      }
+    ]
+  },
+  {
+    "id": "kanji-133",
+    "kanji": "同",
+    "meaning": "same",
+    "onyomi": [
+      "どう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "同"
+    ],
+    "examples": [
+      {
+        "word": "同",
+        "reading": "どう",
+        "meaning": "same"
+      }
+    ]
+  },
+  {
+    "id": "kanji-134",
+    "kanji": "等",
+    "meaning": "equal",
+    "onyomi": [
+      "とう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "等"
+    ],
+    "examples": [
+      {
+        "word": "等",
+        "reading": "とう",
+        "meaning": "equal"
+      }
+    ]
+  },
+  {
+    "id": "kanji-135",
+    "kanji": "全",
+    "meaning": "all",
+    "onyomi": [
+      "ぜん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "全"
+    ],
+    "examples": [
+      {
+        "word": "全",
+        "reading": "ぜん",
+        "meaning": "all"
+      }
+    ]
+  },
+  {
+    "id": "kanji-136",
+    "kanji": "各",
+    "meaning": "each",
+    "onyomi": [
+      "かく"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "各"
+    ],
+    "examples": [
+      {
+        "word": "各",
+        "reading": "かく",
+        "meaning": "each"
+      }
+    ]
+  },
+  {
+    "id": "kanji-137",
+    "kanji": "別",
+    "meaning": "different",
+    "onyomi": [
+      "べつ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "別"
+    ],
+    "examples": [
+      {
+        "word": "別",
+        "reading": "べつ",
+        "meaning": "different"
+      }
+    ]
+  },
+  {
+    "id": "kanji-138",
+    "kanji": "他",
+    "meaning": "other",
+    "onyomi": [
+      "た"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "他"
+    ],
+    "examples": [
+      {
+        "word": "他",
+        "reading": "た",
+        "meaning": "other"
+      }
+    ]
+  },
+  {
+    "id": "kanji-139",
+    "kanji": "以",
+    "meaning": "by, with",
+    "onyomi": [
+      "い"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "以"
+    ],
+    "examples": [
+      {
+        "word": "以",
+        "reading": "い",
+        "meaning": "by, with"
+      }
+    ]
+  },
+  {
+    "id": "kanji-140",
+    "kanji": "通",
+    "meaning": "pass through",
+    "onyomi": [
+      "つう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "通"
+    ],
+    "examples": [
+      {
+        "word": "通",
+        "reading": "つう",
+        "meaning": "pass through"
+      }
+    ]
+  },
+  {
+    "id": "kanji-141",
+    "kanji": "有",
+    "meaning": "have",
+    "onyomi": [
+      "ゆう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "有"
+    ],
+    "examples": [
+      {
+        "word": "有",
+        "reading": "ゆう",
+        "meaning": "have"
+      }
+    ]
+  },
+  {
+    "id": "kanji-142",
+    "kanji": "無",
+    "meaning": "not have",
+    "onyomi": [
+      "む"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "無"
+    ],
+    "examples": [
+      {
+        "word": "無",
+        "reading": "む",
+        "meaning": "not have"
+      }
+    ]
+  },
+  {
+    "id": "kanji-143",
+    "kanji": "正",
+    "meaning": "correct",
+    "onyomi": [
+      "せい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "正"
+    ],
+    "examples": [
+      {
+        "word": "正",
+        "reading": "せい",
+        "meaning": "correct"
+      }
+    ]
+  },
+  {
+    "id": "kanji-144",
+    "kanji": "非",
+    "meaning": "non",
+    "onyomi": [
+      "ひ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "非"
+    ],
+    "examples": [
+      {
+        "word": "非",
+        "reading": "ひ",
+        "meaning": "non"
+      }
+    ]
+  },
+  {
+    "id": "kanji-145",
+    "kanji": "然",
+    "meaning": "like that",
+    "onyomi": [
+      "ぜん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "然"
+    ],
+    "examples": [
+      {
+        "word": "然",
+        "reading": "ぜん",
+        "meaning": "like that"
+      }
+    ]
+  },
+  {
+    "id": "kanji-146",
+    "kanji": "好",
+    "meaning": "good, like",
+    "onyomi": [
+      "こう"
+    ],
+    "kunyomi": [
+      "すき"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "好"
+    ],
+    "examples": [
+      {
+        "word": "好",
+        "reading": "こう",
+        "meaning": "good, like"
+      }
+    ]
+  },
+  {
+    "id": "kanji-147",
+    "kanji": "悪",
+    "meaning": "bad",
+    "onyomi": [
+      "あく"
+    ],
+    "kunyomi": [
+      "わる"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "悪"
+    ],
+    "examples": [
+      {
+        "word": "悪",
+        "reading": "あく",
+        "meaning": "bad"
+      }
+    ]
+  },
+  {
+    "id": "kanji-148",
+    "kanji": "美",
+    "meaning": "beautiful",
+    "onyomi": [
+      "び"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "美"
+    ],
+    "examples": [
+      {
+        "word": "美",
+        "reading": "び",
+        "meaning": "beautiful"
+      }
+    ]
+  },
+  {
+    "id": "kanji-149",
+    "kanji": "醜",
+    "meaning": "ugly",
+    "onyomi": [
+      "しゅう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "醜"
+    ],
+    "examples": [
+      {
+        "word": "醜",
+        "reading": "しゅう",
+        "meaning": "ugly"
+      }
+    ]
+  },
+  {
+    "id": "kanji-150",
+    "kanji": "強",
+    "meaning": "strong",
+    "onyomi": [
+      "きょう"
+    ],
+    "kunyomi": [
+      "つよ"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "強"
+    ],
+    "examples": [
+      {
+        "word": "強",
+        "reading": "きょう",
+        "meaning": "strong"
+      }
+    ]
+  },
+  {
+    "id": "kanji-151",
+    "kanji": "弱",
+    "meaning": "weak",
+    "onyomi": [
+      "じゃく"
+    ],
+    "kunyomi": [
+      "よわ"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "弱"
+    ],
+    "examples": [
+      {
+        "word": "弱",
+        "reading": "じゃく",
+        "meaning": "weak"
+      }
+    ]
+  },
+  {
+    "id": "kanji-152",
+    "kanji": "温",
+    "meaning": "warm",
+    "onyomi": [
+      "おん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "温"
+    ],
+    "examples": [
+      {
+        "word": "温",
+        "reading": "おん",
+        "meaning": "warm"
+      }
+    ]
+  },
+  {
+    "id": "kanji-153",
+    "kanji": "涼",
+    "meaning": "cool",
+    "onyomi": [
+      "りょう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "涼"
+    ],
+    "examples": [
+      {
+        "word": "涼",
+        "reading": "りょう",
+        "meaning": "cool"
+      }
+    ]
+  },
+  {
+    "id": "kanji-154",
+    "kanji": "冷",
+    "meaning": "cold",
+    "onyomi": [
+      "れい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "冷"
+    ],
+    "examples": [
+      {
+        "word": "冷",
+        "reading": "れい",
+        "meaning": "cold"
+      }
+    ]
+  },
+  {
+    "id": "kanji-155",
+    "kanji": "熱",
+    "meaning": "heat",
+    "onyomi": [
+      "ねつ"
+    ],
+    "kunyomi": [
+      "あつ"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "熱"
+    ],
+    "examples": [
+      {
+        "word": "熱",
+        "reading": "ねつ",
+        "meaning": "heat"
+      }
+    ]
+  },
+  {
+    "id": "kanji-156",
+    "kanji": "厚",
+    "meaning": "thick",
+    "onyomi": [
+      "こう"
+    ],
+    "kunyomi": [
+      "あつ"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "厚"
+    ],
+    "examples": [
+      {
+        "word": "厚",
+        "reading": "こう",
+        "meaning": "thick"
+      }
+    ]
+  },
+  {
+    "id": "kanji-157",
+    "kanji": "薄",
+    "meaning": "thin",
+    "onyomi": [
+      "はく"
+    ],
+    "kunyomi": [
+      "うす"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "薄"
+    ],
+    "examples": [
+      {
+        "word": "薄",
+        "reading": "はく",
+        "meaning": "thin"
+      }
+    ]
+  },
+  {
+    "id": "kanji-158",
+    "kanji": "固",
+    "meaning": "hard",
+    "onyomi": [
+      "こ"
+    ],
+    "kunyomi": [
+      "かたい"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "固"
+    ],
+    "examples": [
+      {
+        "word": "固",
+        "reading": "こ",
+        "meaning": "hard"
+      }
+    ]
+  },
+  {
+    "id": "kanji-159",
+    "kanji": "軟",
+    "meaning": "soft",
+    "onyomi": [
+      "なん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "軟"
+    ],
+    "examples": [
+      {
+        "word": "軟",
+        "reading": "なん",
+        "meaning": "soft"
+      }
+    ]
+  },
+  {
+    "id": "kanji-160",
+    "kanji": "滑",
+    "meaning": "slippery",
+    "onyomi": [
+      "かつ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "滑"
+    ],
+    "examples": [
+      {
+        "word": "滑",
+        "reading": "かつ",
+        "meaning": "slippery"
+      }
+    ]
+  },
+  {
+    "id": "kanji-161",
+    "kanji": "粗",
+    "meaning": "rough",
+    "onyomi": [
+      "そ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "粗"
+    ],
+    "examples": [
+      {
+        "word": "粗",
+        "reading": "そ",
+        "meaning": "rough"
+      }
+    ]
+  },
+  {
+    "id": "kanji-162",
+    "kanji": "明",
+    "meaning": "bright",
+    "onyomi": [
+      "めい"
+    ],
+    "kunyomi": [
+      "あきら"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "明"
+    ],
+    "examples": [
+      {
+        "word": "明",
+        "reading": "めい",
+        "meaning": "bright"
+      }
+    ]
+  },
+  {
+    "id": "kanji-163",
+    "kanji": "暗",
+    "meaning": "dark",
+    "onyomi": [
+      "あん"
+    ],
+    "kunyomi": [
+      "くら"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "暗"
+    ],
+    "examples": [
+      {
+        "word": "暗",
+        "reading": "あん",
+        "meaning": "dark"
+      }
+    ]
+  },
+  {
+    "id": "kanji-164",
+    "kanji": "清",
+    "meaning": "clean",
+    "onyomi": [
+      "せい"
+    ],
+    "kunyomi": [
+      "きよ"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "清"
+    ],
+    "examples": [
+      {
+        "word": "清",
+        "reading": "せい",
+        "meaning": "clean"
+      }
+    ]
+  },
+  {
+    "id": "kanji-165",
+    "kanji": "濁",
+    "meaning": "turbid",
+    "onyomi": [
+      "だく"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "濁"
+    ],
+    "examples": [
+      {
+        "word": "濁",
+        "reading": "だく",
+        "meaning": "turbid"
+      }
+    ]
+  },
+  {
+    "id": "kanji-166",
+    "kanji": "甘",
+    "meaning": "sweet",
+    "onyomi": [
+      "かん"
+    ],
+    "kunyomi": [
+      "あま"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "甘"
+    ],
+    "examples": [
+      {
+        "word": "甘",
+        "reading": "かん",
+        "meaning": "sweet"
+      }
+    ]
+  },
+  {
+    "id": "kanji-167",
+    "kanji": "辛",
+    "meaning": "spicy",
+    "onyomi": [
+      "しん"
+    ],
+    "kunyomi": [
+      "から"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "辛"
+    ],
+    "examples": [
+      {
+        "word": "辛",
+        "reading": "しん",
+        "meaning": "spicy"
+      }
+    ]
+  },
+  {
+    "id": "kanji-168",
+    "kanji": "酸",
+    "meaning": "sour",
+    "onyomi": [
+      "さん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "酸"
+    ],
+    "examples": [
+      {
+        "word": "酸",
+        "reading": "さん",
+        "meaning": "sour"
+      }
+    ]
+  },
+  {
+    "id": "kanji-169",
+    "kanji": "苦",
+    "meaning": "bitter",
+    "onyomi": [
+      "く"
+    ],
+    "kunyomi": [
+      "にが"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "苦"
+    ],
+    "examples": [
+      {
+        "word": "苦",
+        "reading": "く",
+        "meaning": "bitter"
+      }
+    ]
+  },
+  {
+    "id": "kanji-170",
+    "kanji": "成",
+    "meaning": "become",
+    "onyomi": [
+      "せい"
+    ],
+    "kunyomi": [
+      "なり"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "成"
+    ],
+    "examples": [
+      {
+        "word": "成",
+        "reading": "せい",
+        "meaning": "become"
+      }
+    ]
+  },
+  {
+    "id": "kanji-171",
+    "kanji": "造",
+    "meaning": "make",
+    "onyomi": [
+      "ぞう"
+    ],
+    "kunyomi": [
+      "つくり"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "造"
+    ],
+    "examples": [
+      {
+        "word": "造",
+        "reading": "ぞう",
+        "meaning": "make"
+      }
+    ]
+  },
+  {
+    "id": "kanji-172",
+    "kanji": "化",
+    "meaning": "change",
+    "onyomi": [
+      "か"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "化"
+    ],
+    "examples": [
+      {
+        "word": "化",
+        "reading": "か",
+        "meaning": "change"
+      }
+    ]
+  },
+  {
+    "id": "kanji-173",
+    "kanji": "変",
+    "meaning": "change",
+    "onyomi": [
+      "へん"
+    ],
+    "kunyomi": [
+      "かわり"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "変"
+    ],
+    "examples": [
+      {
+        "word": "変",
+        "reading": "へん",
+        "meaning": "change"
+      }
+    ]
+  },
+  {
+    "id": "kanji-174",
+    "kanji": "移",
+    "meaning": "move",
+    "onyomi": [
+      "い"
+    ],
+    "kunyomi": [
+      "うつ"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "移"
+    ],
+    "examples": [
+      {
+        "word": "移",
+        "reading": "い",
+        "meaning": "move"
+      }
+    ]
+  },
+  {
+    "id": "kanji-175",
+    "kanji": "転",
+    "meaning": "turn",
+    "onyomi": [
+      "てん"
+    ],
+    "kunyomi": [
+      "ころ"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "転"
+    ],
+    "examples": [
+      {
+        "word": "転",
+        "reading": "てん",
+        "meaning": "turn"
+      }
+    ]
+  },
+  {
+    "id": "kanji-176",
+    "kanji": "回",
+    "meaning": "turn",
+    "onyomi": [
+      "かい"
+    ],
+    "kunyomi": [
+      "まわ"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "回"
+    ],
+    "examples": [
+      {
+        "word": "回",
+        "reading": "かい",
+        "meaning": "turn"
+      }
+    ]
+  },
+  {
+    "id": "kanji-177",
+    "kanji": "反",
+    "meaning": "opposite",
+    "onyomi": [
+      "はん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "反"
+    ],
+    "examples": [
+      {
+        "word": "反",
+        "reading": "はん",
+        "meaning": "opposite"
+      }
+    ]
+  },
+  {
+    "id": "kanji-178",
+    "kanji": "復",
+    "meaning": "again",
+    "onyomi": [
+      "ふく"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "復"
+    ],
+    "examples": [
+      {
+        "word": "復",
+        "reading": "ふく",
+        "meaning": "again"
+      }
+    ]
+  },
+  {
+    "id": "kanji-179",
+    "kanji": "進",
+    "meaning": "advance",
+    "onyomi": [
+      "しん"
+    ],
+    "kunyomi": [
+      "すすむ"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "進"
+    ],
+    "examples": [
+      {
+        "word": "進",
+        "reading": "しん",
+        "meaning": "advance"
+      }
+    ]
+  },
+  {
+    "id": "kanji-180",
+    "kanji": "退",
+    "meaning": "retreat",
+    "onyomi": [
+      "たい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "退"
+    ],
+    "examples": [
+      {
+        "word": "退",
+        "reading": "たい",
+        "meaning": "retreat"
+      }
+    ]
+  },
+  {
+    "id": "kanji-181",
+    "kanji": "始",
+    "meaning": "begin",
+    "onyomi": [
+      "し"
+    ],
+    "kunyomi": [
+      "はじ"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "始"
+    ],
+    "examples": [
+      {
+        "word": "始",
+        "reading": "し",
+        "meaning": "begin"
+      }
+    ]
+  },
+  {
+    "id": "kanji-182",
+    "kanji": "終",
+    "meaning": "end",
+    "onyomi": [
+      "しゅう"
+    ],
+    "kunyomi": [
+      "おわ"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "終"
+    ],
+    "examples": [
+      {
+        "word": "終",
+        "reading": "しゅう",
+        "meaning": "end"
+      }
+    ]
+  },
+  {
+    "id": "kanji-183",
+    "kanji": "続",
+    "meaning": "continue",
+    "onyomi": [
+      "ぞく"
+    ],
+    "kunyomi": [
+      "つづ"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "続"
+    ],
+    "examples": [
+      {
+        "word": "続",
+        "reading": "ぞく",
+        "meaning": "continue"
+      }
+    ]
+  },
+  {
+    "id": "kanji-184",
+    "kanji": "空",
+    "meaning": "empty, sky",
+    "onyomi": [
+      "くう"
+    ],
+    "kunyomi": [
+      "そら"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "空"
+    ],
+    "examples": [
+      {
+        "word": "空",
+        "reading": "くう",
+        "meaning": "empty, sky"
+      }
+    ]
+  },
+  {
+    "id": "kanji-185",
+    "kanji": "積",
+    "meaning": "accumulate",
+    "onyomi": [
+      "せき"
+    ],
+    "kunyomi": [
+      "つみ"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "積"
+    ],
+    "examples": [
+      {
+        "word": "積",
+        "reading": "せき",
+        "meaning": "accumulate"
+      }
+    ]
+  },
+  {
+    "id": "kanji-186",
+    "kanji": "重",
+    "meaning": "heavy",
+    "onyomi": [
+      "じゅう"
+    ],
+    "kunyomi": [
+      "おも"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "重"
+    ],
+    "examples": [
+      {
+        "word": "重",
+        "reading": "じゅう",
+        "meaning": "heavy"
+      }
+    ]
+  },
+  {
+    "id": "kanji-187",
+    "kanji": "軽",
+    "meaning": "light",
+    "onyomi": [
+      "けい"
+    ],
+    "kunyomi": [
+      "かる"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "軽"
+    ],
+    "examples": [
+      {
+        "word": "軽",
+        "reading": "けい",
+        "meaning": "light"
+      }
+    ]
+  },
+  {
+    "id": "kanji-188",
+    "kanji": "昇",
+    "meaning": "rise",
+    "onyomi": [
+      "しょう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "昇"
+    ],
+    "examples": [
+      {
+        "word": "昇",
+        "reading": "しょう",
+        "meaning": "rise"
+      }
+    ]
+  },
+  {
+    "id": "kanji-189",
+    "kanji": "降",
+    "meaning": "fall",
+    "onyomi": [
+      "こう"
+    ],
+    "kunyomi": [
+      "ふる"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "降"
+    ],
+    "examples": [
+      {
+        "word": "降",
+        "reading": "こう",
+        "meaning": "fall"
+      }
+    ]
+  },
+  {
+    "id": "kanji-190",
+    "kanji": "落",
+    "meaning": "fall",
+    "onyomi": [
+      "らく"
+    ],
+    "kunyomi": [
+      "おち"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "落"
+    ],
+    "examples": [
+      {
+        "word": "落",
+        "reading": "らく",
+        "meaning": "fall"
+      }
+    ]
+  },
+  {
+    "id": "kanji-191",
+    "kanji": "吹",
+    "meaning": "blow",
+    "onyomi": [
+      "すい"
+    ],
+    "kunyomi": [
+      "ふく"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "吹"
+    ],
+    "examples": [
+      {
+        "word": "吹",
+        "reading": "すい",
+        "meaning": "blow"
+      }
+    ]
+  },
+  {
+    "id": "kanji-192",
+    "kanji": "引",
+    "meaning": "pull",
+    "onyomi": [
+      "いん"
+    ],
+    "kunyomi": [
+      "ひき"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "引"
+    ],
+    "examples": [
+      {
+        "word": "引",
+        "reading": "いん",
+        "meaning": "pull"
+      }
+    ]
+  },
+  {
+    "id": "kanji-193",
+    "kanji": "押",
+    "meaning": "push",
+    "onyomi": [
+      "おう"
+    ],
+    "kunyomi": [
+      "おし"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "押"
+    ],
+    "examples": [
+      {
+        "word": "押",
+        "reading": "おう",
+        "meaning": "push"
+      }
+    ]
+  },
+  {
+    "id": "kanji-194",
+    "kanji": "狙",
+    "meaning": "aim",
+    "onyomi": [
+      "そ"
+    ],
+    "kunyomi": [
+      "ねら"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "狙"
+    ],
+    "examples": [
+      {
+        "word": "狙",
+        "reading": "そ",
+        "meaning": "aim"
+      }
+    ]
+  },
+  {
+    "id": "kanji-195",
+    "kanji": "打",
+    "meaning": "hit",
+    "onyomi": [
+      "だ"
+    ],
+    "kunyomi": [
+      "うち"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "打"
+    ],
+    "examples": [
+      {
+        "word": "打",
+        "reading": "だ",
+        "meaning": "hit"
+      }
+    ]
+  },
+  {
+    "id": "kanji-196",
+    "kanji": "切",
+    "meaning": "cut",
+    "onyomi": [
+      "せつ"
+    ],
+    "kunyomi": [
+      "きり"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "切"
+    ],
+    "examples": [
+      {
+        "word": "切",
+        "reading": "せつ",
+        "meaning": "cut"
+      }
+    ]
+  },
+  {
+    "id": "kanji-197",
+    "kanji": "折",
+    "meaning": "bend",
+    "onyomi": [
+      "せつ"
+    ],
+    "kunyomi": [
+      "おり"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "折"
+    ],
+    "examples": [
+      {
+        "word": "折",
+        "reading": "せつ",
+        "meaning": "bend"
+      }
+    ]
+  },
+  {
+    "id": "kanji-198",
+    "kanji": "曲",
+    "meaning": "bend",
+    "onyomi": [
+      "きょく"
+    ],
+    "kunyomi": [
+      "ま"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "曲"
+    ],
+    "examples": [
+      {
+        "word": "曲",
+        "reading": "きょく",
+        "meaning": "bend"
+      }
+    ]
+  },
+  {
+    "id": "kanji-199",
+    "kanji": "掴",
+    "meaning": "grasp",
+    "onyomi": [
+      "そく"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "掴"
+    ],
+    "examples": [
+      {
+        "word": "掴",
+        "reading": "そく",
+        "meaning": "grasp"
+      }
+    ]
+  },
+  {
+    "id": "kanji-200",
+    "kanji": "握",
+    "meaning": "grip",
+    "onyomi": [
+      "あく"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "握"
+    ],
+    "examples": [
+      {
+        "word": "握",
+        "reading": "あく",
+        "meaning": "grip"
+      }
+    ]
+  },
+  {
+    "id": "kanji-201",
+    "kanji": "抱",
+    "meaning": "embrace",
+    "onyomi": [
+      "ほう"
+    ],
+    "kunyomi": [
+      "かか"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "抱"
+    ],
+    "examples": [
+      {
+        "word": "抱",
+        "reading": "ほう",
+        "meaning": "embrace"
+      }
+    ]
+  },
+  {
+    "id": "kanji-202",
+    "kanji": "担",
+    "meaning": "carry",
+    "onyomi": [
+      "たん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "担"
+    ],
+    "examples": [
+      {
+        "word": "担",
+        "reading": "たん",
+        "meaning": "carry"
+      }
+    ]
+  },
+  {
+    "id": "kanji-203",
+    "kanji": "提",
+    "meaning": "carry",
+    "onyomi": [
+      "てい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "提"
+    ],
+    "examples": [
+      {
+        "word": "提",
+        "reading": "てい",
+        "meaning": "carry"
+      }
+    ]
+  },
+  {
+    "id": "kanji-204",
+    "kanji": "持",
+    "meaning": "hold",
+    "onyomi": [
+      "じ"
+    ],
+    "kunyomi": [
+      "もち"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "持"
+    ],
+    "examples": [
+      {
+        "word": "持",
+        "reading": "じ",
+        "meaning": "hold"
+      }
+    ]
+  },
+  {
+    "id": "kanji-205",
+    "kanji": "拾",
+    "meaning": "pick up",
+    "onyomi": [
+      "しゅう"
+    ],
+    "kunyomi": [
+      "ひろ"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "拾"
+    ],
+    "examples": [
+      {
+        "word": "拾",
+        "reading": "しゅう",
+        "meaning": "pick up"
+      }
+    ]
+  },
+  {
+    "id": "kanji-206",
+    "kanji": "捨",
+    "meaning": "throw away",
+    "onyomi": [
+      "しゃ"
+    ],
+    "kunyomi": [
+      "すて"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "捨"
+    ],
+    "examples": [
+      {
+        "word": "捨",
+        "reading": "しゃ",
+        "meaning": "throw away"
+      }
+    ]
+  },
+  {
+    "id": "kanji-207",
+    "kanji": "投",
+    "meaning": "throw",
+    "onyomi": [
+      "とう"
+    ],
+    "kunyomi": [
+      "なげ"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "投"
+    ],
+    "examples": [
+      {
+        "word": "投",
+        "reading": "とう",
+        "meaning": "throw"
+      }
+    ]
+  },
+  {
+    "id": "kanji-208",
+    "kanji": "急",
+    "meaning": "hurry",
+    "onyomi": [
+      "きゅう"
+    ],
+    "kunyomi": [
+      "いそ"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "急"
+    ],
+    "examples": [
+      {
+        "word": "急",
+        "reading": "きゅう",
+        "meaning": "hurry"
+      }
+    ]
+  },
+  {
+    "id": "kanji-209",
+    "kanji": "速",
+    "meaning": "fast",
+    "onyomi": [
+      "そく"
+    ],
+    "kunyomi": [
+      "はや"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "速"
+    ],
+    "examples": [
+      {
+        "word": "速",
+        "reading": "そく",
+        "meaning": "fast"
+      }
+    ]
+  },
+  {
+    "id": "kanji-210",
+    "kanji": "遅",
+    "meaning": "late",
+    "onyomi": [
+      "ち"
+    ],
+    "kunyomi": [
+      "おそ"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "遅"
+    ],
+    "examples": [
+      {
+        "word": "遅",
+        "reading": "ち",
+        "meaning": "late"
+      }
+    ]
+  },
+  {
+    "id": "kanji-211",
+    "kanji": "逃",
+    "meaning": "escape",
+    "onyomi": [
+      "とう"
+    ],
+    "kunyomi": [
+      "にげ"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "逃"
+    ],
+    "examples": [
+      {
+        "word": "逃",
+        "reading": "とう",
+        "meaning": "escape"
+      }
+    ]
+  },
+  {
+    "id": "kanji-212",
+    "kanji": "追",
+    "meaning": "chase",
+    "onyomi": [
+      "つい"
+    ],
+    "kunyomi": [
+      "おう"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "追"
+    ],
+    "examples": [
+      {
+        "word": "追",
+        "reading": "つい",
+        "meaning": "chase"
+      }
+    ]
+  },
+  {
+    "id": "kanji-213",
+    "kanji": "越",
+    "meaning": "exceed",
+    "onyomi": [
+      "えつ"
+    ],
+    "kunyomi": [
+      "こ"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "越"
+    ],
+    "examples": [
+      {
+        "word": "越",
+        "reading": "えつ",
+        "meaning": "exceed"
+      }
+    ]
+  },
+  {
+    "id": "kanji-214",
+    "kanji": "向",
+    "meaning": "face",
+    "onyomi": [
+      "こう"
+    ],
+    "kunyomi": [
+      "むき"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "向"
+    ],
+    "examples": [
+      {
+        "word": "向",
+        "reading": "こう",
+        "meaning": "face"
+      }
+    ]
+  },
+  {
+    "id": "kanji-215",
+    "kanji": "背",
+    "meaning": "back",
+    "onyomi": [
+      "はい"
+    ],
+    "kunyomi": [
+      "せ"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "背"
+    ],
+    "examples": [
+      {
+        "word": "背",
+        "reading": "はい",
+        "meaning": "back"
+      }
+    ]
+  },
+  {
+    "id": "kanji-216",
+    "kanji": "頭",
+    "meaning": "head",
+    "onyomi": [
+      "とう"
+    ],
+    "kunyomi": [
+      "あたま"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "頭"
+    ],
+    "examples": [
+      {
+        "word": "頭",
+        "reading": "とう",
+        "meaning": "head"
+      }
+    ]
+  },
+  {
+    "id": "kanji-217",
+    "kanji": "顔",
+    "meaning": "face",
+    "onyomi": [
+      "がん"
+    ],
+    "kunyomi": [
+      "かお"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "顔"
+    ],
+    "examples": [
+      {
+        "word": "顔",
+        "reading": "がん",
+        "meaning": "face"
+      }
+    ]
+  },
+  {
+    "id": "kanji-218",
+    "kanji": "目",
+    "meaning": "eye",
+    "onyomi": [
+      "もく"
+    ],
+    "kunyomi": [
+      "め"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "目"
+    ],
+    "examples": [
+      {
+        "word": "目",
+        "reading": "もく",
+        "meaning": "eye"
+      }
+    ]
+  },
+  {
+    "id": "kanji-219",
+    "kanji": "耳",
+    "meaning": "ear",
+    "onyomi": [
+      "じ"
+    ],
+    "kunyomi": [
+      "みみ"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "耳"
+    ],
+    "examples": [
+      {
+        "word": "耳",
+        "reading": "じ",
+        "meaning": "ear"
+      }
+    ]
+  },
+  {
+    "id": "kanji-220",
+    "kanji": "鼻",
+    "meaning": "nose",
+    "onyomi": [
+      "び"
+    ],
+    "kunyomi": [
+      "はな"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "鼻"
+    ],
+    "examples": [
+      {
+        "word": "鼻",
+        "reading": "び",
+        "meaning": "nose"
+      }
+    ]
+  },
+  {
+    "id": "kanji-221",
+    "kanji": "口",
+    "meaning": "mouth",
+    "onyomi": [
+      "こう"
+    ],
+    "kunyomi": [
+      "くち"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "口"
+    ],
+    "examples": [
+      {
+        "word": "口",
+        "reading": "こう",
+        "meaning": "mouth"
+      }
+    ]
+  },
+  {
+    "id": "kanji-222",
+    "kanji": "舌",
+    "meaning": "tongue",
+    "onyomi": [
+      "ぜつ"
+    ],
+    "kunyomi": [
+      "した"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "舌"
+    ],
+    "examples": [
+      {
+        "word": "舌",
+        "reading": "ぜつ",
+        "meaning": "tongue"
+      }
+    ]
+  },
+  {
+    "id": "kanji-223",
+    "kanji": "歯",
+    "meaning": "tooth",
+    "onyomi": [
+      "し"
+    ],
+    "kunyomi": [
+      "は"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "歯"
+    ],
+    "examples": [
+      {
+        "word": "歯",
+        "reading": "し",
+        "meaning": "tooth"
+      }
+    ]
+  },
+  {
+    "id": "kanji-224",
+    "kanji": "喉",
+    "meaning": "throat",
+    "onyomi": [
+      "こう"
+    ],
+    "kunyomi": [
+      "のど"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "喉"
+    ],
+    "examples": [
+      {
+        "word": "喉",
+        "reading": "こう",
+        "meaning": "throat"
+      }
+    ]
+  },
+  {
+    "id": "kanji-225",
+    "kanji": "首",
+    "meaning": "neck",
+    "onyomi": [
+      "しゅ"
+    ],
+    "kunyomi": [
+      "くび"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "首"
+    ],
+    "examples": [
+      {
+        "word": "首",
+        "reading": "しゅ",
+        "meaning": "neck"
+      }
+    ]
+  },
+  {
+    "id": "kanji-226",
+    "kanji": "肩",
+    "meaning": "shoulder",
+    "onyomi": [
+      "けん"
+    ],
+    "kunyomi": [
+      "かた"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "肩"
+    ],
+    "examples": [
+      {
+        "word": "肩",
+        "reading": "けん",
+        "meaning": "shoulder"
+      }
+    ]
+  },
+  {
+    "id": "kanji-227",
+    "kanji": "腕",
+    "meaning": "arm",
+    "onyomi": [
+      "わん"
+    ],
+    "kunyomi": [
+      "うで"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "腕"
+    ],
+    "examples": [
+      {
+        "word": "腕",
+        "reading": "わん",
+        "meaning": "arm"
+      }
+    ]
+  },
+  {
+    "id": "kanji-228",
+    "kanji": "指",
+    "meaning": "finger",
+    "onyomi": [
+      "し"
+    ],
+    "kunyomi": [
+      "ゆび"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "指"
+    ],
+    "examples": [
+      {
+        "word": "指",
+        "reading": "し",
+        "meaning": "finger"
+      }
+    ]
+  },
+  {
+    "id": "kanji-229",
+    "kanji": "手",
+    "meaning": "hand",
+    "onyomi": [
+      "しゅ"
+    ],
+    "kunyomi": [
+      "て"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "手"
+    ],
+    "examples": [
+      {
+        "word": "手",
+        "reading": "しゅ",
+        "meaning": "hand"
+      }
+    ]
+  },
+  {
+    "id": "kanji-230",
+    "kanji": "脚",
+    "meaning": "leg",
+    "onyomi": [
+      "きゃく"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "脚"
+    ],
+    "examples": [
+      {
+        "word": "脚",
+        "reading": "きゃく",
+        "meaning": "leg"
+      }
+    ]
+  },
+  {
+    "id": "kanji-231",
+    "kanji": "足",
+    "meaning": "foot",
+    "onyomi": [
+      "そく"
+    ],
+    "kunyomi": [
+      "あし"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "足"
+    ],
+    "examples": [
+      {
+        "word": "足",
+        "reading": "そく",
+        "meaning": "foot"
+      }
+    ]
+  },
+  {
+    "id": "kanji-232",
+    "kanji": "爪",
+    "meaning": "nail",
+    "onyomi": [
+      "そう"
+    ],
+    "kunyomi": [
+      "つめ"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "爪"
+    ],
+    "examples": [
+      {
+        "word": "爪",
+        "reading": "そう",
+        "meaning": "nail"
+      }
+    ]
+  },
+  {
+    "id": "kanji-233",
+    "kanji": "血",
+    "meaning": "blood",
+    "onyomi": [
+      "けつ"
+    ],
+    "kunyomi": [
+      "ち"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "血"
+    ],
+    "examples": [
+      {
+        "word": "血",
+        "reading": "けつ",
+        "meaning": "blood"
+      }
+    ]
+  },
+  {
+    "id": "kanji-234",
+    "kanji": "肉",
+    "meaning": "meat",
+    "onyomi": [
+      "にく"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "肉"
+    ],
+    "examples": [
+      {
+        "word": "肉",
+        "reading": "にく",
+        "meaning": "meat"
+      }
+    ]
+  },
+  {
+    "id": "kanji-235",
+    "kanji": "骨",
+    "meaning": "bone",
+    "onyomi": [
+      "こつ"
+    ],
+    "kunyomi": [
+      "ほね"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "骨"
+    ],
+    "examples": [
+      {
+        "word": "骨",
+        "reading": "こつ",
+        "meaning": "bone"
+      }
+    ]
+  },
+  {
+    "id": "kanji-236",
+    "kanji": "皮",
+    "meaning": "skin",
+    "onyomi": [
+      "ひ"
+    ],
+    "kunyomi": [
+      "かわ"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "皮"
+    ],
+    "examples": [
+      {
+        "word": "皮",
+        "reading": "ひ",
+        "meaning": "skin"
+      }
+    ]
+  },
+  {
+    "id": "kanji-237",
+    "kanji": "毛",
+    "meaning": "hair",
+    "onyomi": [
+      "もう"
+    ],
+    "kunyomi": [
+      "け"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "毛"
+    ],
+    "examples": [
+      {
+        "word": "毛",
+        "reading": "もう",
+        "meaning": "hair"
+      }
+    ]
+  },
+  {
+    "id": "kanji-238",
+    "kanji": "間",
+    "meaning": "space, between",
+    "onyomi": [
+      "かん"
+    ],
+    "kunyomi": [
+      "あいだ"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "間"
+    ],
+    "examples": [
+      {
+        "word": "間",
+        "reading": "かん",
+        "meaning": "space, between"
+      }
+    ]
+  },
+  {
+    "id": "kanji-239",
+    "kanji": "関",
+    "meaning": "relate",
+    "onyomi": [
+      "かん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "関"
+    ],
+    "examples": [
+      {
+        "word": "関",
+        "reading": "かん",
+        "meaning": "relate"
+      }
+    ]
+  },
+  {
+    "id": "kanji-240",
+    "kanji": "係",
+    "meaning": "connection",
+    "onyomi": [
+      "かかり"
+    ],
+    "kunyomi": [
+      "かかり"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "係"
+    ],
+    "examples": [
+      {
+        "word": "係",
+        "reading": "かかり",
+        "meaning": "connection"
+      }
+    ]
+  },
+  {
+    "id": "kanji-241",
+    "kanji": "段",
+    "meaning": "step",
+    "onyomi": [
+      "だん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "段"
+    ],
+    "examples": [
+      {
+        "word": "段",
+        "reading": "だん",
+        "meaning": "step"
+      }
+    ]
+  },
+  {
+    "id": "kanji-242",
+    "kanji": "階",
+    "meaning": "floor",
+    "onyomi": [
+      "かい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "階"
+    ],
+    "examples": [
+      {
+        "word": "階",
+        "reading": "かい",
+        "meaning": "floor"
+      }
+    ]
+  },
+  {
+    "id": "kanji-243",
+    "kanji": "層",
+    "meaning": "layer",
+    "onyomi": [
+      "そう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "層"
+    ],
+    "examples": [
+      {
+        "word": "層",
+        "reading": "そう",
+        "meaning": "layer"
+      }
+    ]
+  },
+  {
+    "id": "kanji-244",
+    "kanji": "群",
+    "meaning": "group",
+    "onyomi": [
+      "ぐん"
+    ],
+    "kunyomi": [
+      "むれ"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "群"
+    ],
+    "examples": [
+      {
+        "word": "群",
+        "reading": "ぐん",
+        "meaning": "group"
+      }
+    ]
+  },
+  {
+    "id": "kanji-245",
+    "kanji": "団",
+    "meaning": "group",
+    "onyomi": [
+      "だん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "団"
+    ],
+    "examples": [
+      {
+        "word": "団",
+        "reading": "だん",
+        "meaning": "group"
+      }
+    ]
+  },
+  {
+    "id": "kanji-246",
+    "kanji": "集",
+    "meaning": "gather",
+    "onyomi": [
+      "しゅう"
+    ],
+    "kunyomi": [
+      "あつ"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "集"
+    ],
+    "examples": [
+      {
+        "word": "集",
+        "reading": "しゅう",
+        "meaning": "gather"
+      }
+    ]
+  },
+  {
+    "id": "kanji-247",
+    "kanji": "族",
+    "meaning": "tribe",
+    "onyomi": [
+      "ぞく"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "族"
+    ],
+    "examples": [
+      {
+        "word": "族",
+        "reading": "ぞく",
+        "meaning": "tribe"
+      }
+    ]
+  },
+  {
+    "id": "kanji-248",
+    "kanji": "派",
+    "meaning": "faction",
+    "onyomi": [
+      "は"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "派"
+    ],
+    "examples": [
+      {
+        "word": "派",
+        "reading": "は",
+        "meaning": "faction"
+      }
+    ]
+  },
+  {
+    "id": "kanji-249",
+    "kanji": "流",
+    "meaning": "flow",
+    "onyomi": [
+      "りゅう"
+    ],
+    "kunyomi": [
+      "なが"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "流"
+    ],
+    "examples": [
+      {
+        "word": "流",
+        "reading": "りゅう",
+        "meaning": "flow"
+      }
+    ]
+  },
+  {
+    "id": "kanji-250",
+    "kanji": "系",
+    "meaning": "system",
+    "onyomi": [
+      "けい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "系"
+    ],
+    "examples": [
+      {
+        "word": "系",
+        "reading": "けい",
+        "meaning": "system"
+      }
+    ]
+  },
+  {
+    "id": "kanji-251",
+    "kanji": "種",
+    "meaning": "type",
+    "onyomi": [
+      "しゅ"
+    ],
+    "kunyomi": [
+      "たね"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "種"
+    ],
+    "examples": [
+      {
+        "word": "種",
+        "reading": "しゅ",
+        "meaning": "type"
+      }
+    ]
+  },
+  {
+    "id": "kanji-252",
+    "kanji": "類",
+    "meaning": "type",
+    "onyomi": [
+      "るい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "類"
+    ],
+    "examples": [
+      {
+        "word": "類",
+        "reading": "るい",
+        "meaning": "type"
+      }
+    ]
+  },
+  {
+    "id": "kanji-253",
+    "kanji": "品",
+    "meaning": "goods",
+    "onyomi": [
+      "ひん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "品"
+    ],
+    "examples": [
+      {
+        "word": "品",
+        "reading": "ひん",
+        "meaning": "goods"
+      }
+    ]
+  },
+  {
+    "id": "kanji-254",
+    "kanji": "格",
+    "meaning": "status",
+    "onyomi": [
+      "かく"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "格"
+    ],
+    "examples": [
+      {
+        "word": "格",
+        "reading": "かく",
+        "meaning": "status"
+      }
+    ]
+  },
+  {
+    "id": "kanji-255",
+    "kanji": "級",
+    "meaning": "grade",
+    "onyomi": [
+      "きゅう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "級"
+    ],
+    "examples": [
+      {
+        "word": "級",
+        "reading": "きゅう",
+        "meaning": "grade"
+      }
+    ]
+  },
+  {
+    "id": "kanji-256",
+    "kanji": "順",
+    "meaning": "order",
+    "onyomi": [
+      "じゅん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "順"
+    ],
+    "examples": [
+      {
+        "word": "順",
+        "reading": "じゅん",
+        "meaning": "order"
+      }
+    ]
+  },
+  {
+    "id": "kanji-257",
+    "kanji": "序",
+    "meaning": "order",
+    "onyomi": [
+      "じょ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "序"
+    ],
+    "examples": [
+      {
+        "word": "序",
+        "reading": "じょ",
+        "meaning": "order"
+      }
+    ]
+  },
+  {
+    "id": "kanji-258",
+    "kanji": "位",
+    "meaning": "rank",
+    "onyomi": [
+      "い"
+    ],
+    "kunyomi": [
+      "くらい"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "位"
+    ],
+    "examples": [
+      {
+        "word": "位",
+        "reading": "い",
+        "meaning": "rank"
+      }
+    ]
+  },
+  {
+    "id": "kanji-259",
+    "kanji": "置",
+    "meaning": "place",
+    "onyomi": [
+      "ち"
+    ],
+    "kunyomi": [
+      "おき"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "置"
+    ],
+    "examples": [
+      {
+        "word": "置",
+        "reading": "ち",
+        "meaning": "place"
+      }
+    ]
+  },
+  {
+    "id": "kanji-260",
+    "kanji": "形",
+    "meaning": "shape",
+    "onyomi": [
+      "けい"
+    ],
+    "kunyomi": [
+      "かたち"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "形"
+    ],
+    "examples": [
+      {
+        "word": "形",
+        "reading": "けい",
+        "meaning": "shape"
+      }
+    ]
+  },
+  {
+    "id": "kanji-261",
+    "kanji": "態",
+    "meaning": "state",
+    "onyomi": [
+      "たい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "態"
+    ],
+    "examples": [
+      {
+        "word": "態",
+        "reading": "たい",
+        "meaning": "state"
+      }
+    ]
+  },
+  {
+    "id": "kanji-262",
+    "kanji": "様",
+    "meaning": "manner",
+    "onyomi": [
+      "よう"
+    ],
+    "kunyomi": [
+      "さま"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "様"
+    ],
+    "examples": [
+      {
+        "word": "様",
+        "reading": "よう",
+        "meaning": "manner"
+      }
+    ]
+  },
+  {
+    "id": "kanji-263",
+    "kanji": "方",
+    "meaning": "direction",
+    "onyomi": [
+      "ほう"
+    ],
+    "kunyomi": [
+      "かた"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "方"
+    ],
+    "examples": [
+      {
+        "word": "方",
+        "reading": "ほう",
+        "meaning": "direction"
+      }
+    ]
+  },
+  {
+    "id": "kanji-264",
+    "kanji": "式",
+    "meaning": "type",
+    "onyomi": [
+      "しき"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "式"
+    ],
+    "examples": [
+      {
+        "word": "式",
+        "reading": "しき",
+        "meaning": "type"
+      }
+    ]
+  },
+  {
+    "id": "kanji-265",
+    "kanji": "例",
+    "meaning": "example",
+    "onyomi": [
+      "れい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "例"
+    ],
+    "examples": [
+      {
+        "word": "例",
+        "reading": "れい",
+        "meaning": "example"
+      }
+    ]
+  },
+  {
+    "id": "kanji-266",
+    "kanji": "表",
+    "meaning": "surface",
+    "onyomi": [
+      "ひょう"
+    ],
+    "kunyomi": [
+      "おもて"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "表"
+    ],
+    "examples": [
+      {
+        "word": "表",
+        "reading": "ひょう",
+        "meaning": "surface"
+      }
+    ]
+  },
+  {
+    "id": "kanji-267",
+    "kanji": "図",
+    "meaning": "figure",
+    "onyomi": [
+      "ず"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "図"
+    ],
+    "examples": [
+      {
+        "word": "図",
+        "reading": "ず",
+        "meaning": "figure"
+      }
+    ]
+  },
+  {
+    "id": "kanji-268",
+    "kanji": "案",
+    "meaning": "idea",
+    "onyomi": [
+      "あん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "案"
+    ],
+    "examples": [
+      {
+        "word": "案",
+        "reading": "あん",
+        "meaning": "idea"
+      }
+    ]
+  },
+  {
+    "id": "kanji-269",
+    "kanji": "想",
+    "meaning": "think",
+    "onyomi": [
+      "そう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "想"
+    ],
+    "examples": [
+      {
+        "word": "想",
+        "reading": "そう",
+        "meaning": "think"
+      }
+    ]
+  },
+  {
+    "id": "kanji-270",
+    "kanji": "論",
+    "meaning": "theory",
+    "onyomi": [
+      "ろん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "論"
+    ],
+    "examples": [
+      {
+        "word": "論",
+        "reading": "ろん",
+        "meaning": "theory"
+      }
+    ]
+  },
+  {
+    "id": "kanji-271",
+    "kanji": "説",
+    "meaning": "theory",
+    "onyomi": [
+      "せつ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "説"
+    ],
+    "examples": [
+      {
+        "word": "説",
+        "reading": "せつ",
+        "meaning": "theory"
+      }
+    ]
+  },
+  {
+    "id": "kanji-272",
+    "kanji": "証",
+    "meaning": "proof",
+    "onyomi": [
+      "しょう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "証"
+    ],
+    "examples": [
+      {
+        "word": "証",
+        "reading": "しょう",
+        "meaning": "proof"
+      }
+    ]
+  },
+  {
+    "id": "kanji-273",
+    "kanji": "拠",
+    "meaning": "basis",
+    "onyomi": [
+      "きょ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "拠"
+    ],
+    "examples": [
+      {
+        "word": "拠",
+        "reading": "きょ",
+        "meaning": "basis"
+      }
+    ]
+  },
+  {
+    "id": "kanji-274",
+    "kanji": "根",
+    "meaning": "root",
+    "onyomi": [
+      "こん"
+    ],
+    "kunyomi": [
+      "ね"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "根"
+    ],
+    "examples": [
+      {
+        "word": "根",
+        "reading": "こん",
+        "meaning": "root"
+      }
+    ]
+  },
+  {
+    "id": "kanji-275",
+    "kanji": "元",
+    "meaning": "origin",
+    "onyomi": [
+      "げん"
+    ],
+    "kunyomi": [
+      "もと"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "元"
+    ],
+    "examples": [
+      {
+        "word": "元",
+        "reading": "げん",
+        "meaning": "origin"
+      }
+    ]
+  },
+  {
+    "id": "kanji-276",
+    "kanji": "源",
+    "meaning": "source",
+    "onyomi": [
+      "げん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "源"
+    ],
+    "examples": [
+      {
+        "word": "源",
+        "reading": "げん",
+        "meaning": "source"
+      }
+    ]
+  },
+  {
+    "id": "kanji-277",
+    "kanji": "初",
+    "meaning": "beginning",
+    "onyomi": [
+      "しょ"
+    ],
+    "kunyomi": [
+      "はじ"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "初"
+    ],
+    "examples": [
+      {
+        "word": "初",
+        "reading": "しょ",
+        "meaning": "beginning"
+      }
+    ]
+  },
+  {
+    "id": "kanji-278",
+    "kanji": "早",
+    "meaning": "early",
+    "onyomi": [
+      "そう"
+    ],
+    "kunyomi": [
+      "はやい"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "早"
+    ],
+    "examples": [
+      {
+        "word": "早",
+        "reading": "そう",
+        "meaning": "early"
+      }
+    ]
+  },
+  {
+    "id": "kanji-279",
+    "kanji": "際",
+    "meaning": "occasion",
+    "onyomi": [
+      "さい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "際"
+    ],
+    "examples": [
+      {
+        "word": "際",
+        "reading": "さい",
+        "meaning": "occasion"
+      }
+    ]
+  },
+  {
+    "id": "kanji-280",
+    "kanji": "継",
+    "meaning": "succeed",
+    "onyomi": [
+      "けい"
+    ],
+    "kunyomi": [
+      "つぎ"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "継"
+    ],
+    "examples": [
+      {
+        "word": "継",
+        "reading": "けい",
+        "meaning": "succeed"
+      }
+    ]
+  },
+  {
+    "id": "kanji-281",
+    "kanji": "嗣",
+    "meaning": "heir",
+    "onyomi": [
+      "し"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "嗣"
+    ],
+    "examples": [
+      {
+        "word": "嗣",
+        "reading": "し",
+        "meaning": "heir"
+      }
+    ]
+  },
+  {
+    "id": "kanji-282",
+    "kanji": "余",
+    "meaning": "extra",
+    "onyomi": [
+      "よ"
+    ],
+    "kunyomi": [
+      "あまり"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "余"
+    ],
+    "examples": [
+      {
+        "word": "余",
+        "reading": "よ",
+        "meaning": "extra"
+      }
+    ]
+  },
+  {
+    "id": "kanji-283",
+    "kanji": "剰",
+    "meaning": "surplus",
+    "onyomi": [
+      "じょう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "剰"
+    ],
+    "examples": [
+      {
+        "word": "剰",
+        "reading": "じょう",
+        "meaning": "surplus"
+      }
+    ]
+  },
+  {
+    "id": "kanji-284",
+    "kanji": "越",
+    "meaning": "exceed",
+    "onyomi": [
+      "えつ"
+    ],
+    "kunyomi": [
+      "こ"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "越"
+    ],
+    "examples": [
+      {
+        "word": "越",
+        "reading": "えつ",
+        "meaning": "exceed"
+      }
+    ]
+  },
+  {
+    "id": "kanji-285",
+    "kanji": "過",
+    "meaning": "excess",
+    "onyomi": [
+      "か"
+    ],
+    "kunyomi": [
+      "すぎ"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "過"
+    ],
+    "examples": [
+      {
+        "word": "過",
+        "reading": "か",
+        "meaning": "excess"
+      }
+    ]
+  },
+  {
+    "id": "kanji-286",
+    "kanji": "超",
+    "meaning": "surpass",
+    "onyomi": [
+      "ちょう"
+    ],
+    "kunyomi": [
+      "こえ"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "超"
+    ],
+    "examples": [
+      {
+        "word": "超",
+        "reading": "ちょう",
+        "meaning": "surpass"
+      }
+    ]
+  },
+  {
+    "id": "kanji-287",
+    "kanji": "限",
+    "meaning": "limit",
+    "onyomi": [
+      "げん"
+    ],
+    "kunyomi": [
+      "かぎ"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "限"
+    ],
+    "examples": [
+      {
+        "word": "限",
+        "reading": "げん",
+        "meaning": "limit"
+      }
+    ]
+  },
+  {
+    "id": "kanji-288",
+    "kanji": "迄",
+    "meaning": "until",
+    "onyomi": [
+      "まで"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "迄"
+    ],
+    "examples": [
+      {
+        "word": "迄",
+        "reading": "まで",
+        "meaning": "until"
+      }
+    ]
+  },
+  {
+    "id": "kanji-289",
+    "kanji": "迫",
+    "meaning": "approach",
+    "onyomi": [
+      "はく"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "迫"
+    ],
+    "examples": [
+      {
+        "word": "迫",
+        "reading": "はく",
+        "meaning": "approach"
+      }
+    ]
+  },
+  {
+    "id": "kanji-290",
+    "kanji": "据",
+    "meaning": "place",
+    "onyomi": [
+      "すえ"
+    ],
+    "kunyomi": [
+      "すえ"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "据"
+    ],
+    "examples": [
+      {
+        "word": "据",
+        "reading": "すえ",
+        "meaning": "place"
+      }
+    ]
+  },
+  {
+    "id": "kanji-291",
+    "kanji": "距",
+    "meaning": "distance",
+    "onyomi": [
+      "きょ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "距"
+    ],
+    "examples": [
+      {
+        "word": "距",
+        "reading": "きょ",
+        "meaning": "distance"
+      }
+    ]
+  },
+  {
+    "id": "kanji-292",
+    "kanji": "遠",
+    "meaning": "far",
+    "onyomi": [
+      "えん"
+    ],
+    "kunyomi": [
+      "とお"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "遠"
+    ],
+    "examples": [
+      {
+        "word": "遠",
+        "reading": "えん",
+        "meaning": "far"
+      }
+    ]
+  },
+  {
+    "id": "kanji-293",
+    "kanji": "近",
+    "meaning": "near",
+    "onyomi": [
+      "きん"
+    ],
+    "kunyomi": [
+      "ちかい"
+    ],
+    "strokes": 4,
+    "jlpt": "N4",
+    "radicals": [
+      "近"
+    ],
+    "examples": [
+      {
+        "word": "近",
+        "reading": "きん",
+        "meaning": "near"
+      }
+    ]
+  },
+  {
+    "id": "kanji-294",
+    "kanji": "詞",
+    "meaning": "word",
+    "onyomi": [
+      "し"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "詞"
+    ],
+    "examples": [
+      {
+        "word": "詞",
+        "reading": "し",
+        "meaning": "word"
+      }
+    ]
+  },
+  {
+    "id": "kanji-295",
+    "kanji": "義",
+    "meaning": "meaning",
+    "onyomi": [
+      "ぎ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "義"
+    ],
+    "examples": [
+      {
+        "word": "義",
+        "reading": "ぎ",
+        "meaning": "meaning"
+      }
+    ]
+  },
+  {
+    "id": "kanji-296",
+    "kanji": "関",
+    "meaning": "relation",
+    "onyomi": [
+      "かん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "関"
+    ],
+    "examples": [
+      {
+        "word": "関",
+        "reading": "かん",
+        "meaning": "relation"
+      }
+    ]
+  },
+  {
+    "id": "kanji-297",
+    "kanji": "係",
+    "meaning": "connection",
+    "onyomi": [
+      "けい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "係"
+    ],
+    "examples": [
+      {
+        "word": "係",
+        "reading": "けい",
+        "meaning": "connection"
+      }
+    ]
+  },
+  {
+    "id": "kanji-298",
+    "kanji": "段",
+    "meaning": "step",
+    "onyomi": [
+      "だん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "段"
+    ],
+    "examples": [
+      {
+        "word": "段",
+        "reading": "だん",
+        "meaning": "step"
+      }
+    ]
+  },
+  {
+    "id": "kanji-299",
+    "kanji": "階",
+    "meaning": "floor",
+    "onyomi": [
+      "かい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "階"
+    ],
+    "examples": [
+      {
+        "word": "階",
+        "reading": "かい",
+        "meaning": "floor"
+      }
+    ]
+  },
+  {
+    "id": "kanji-300",
+    "kanji": "層",
+    "meaning": "layer",
+    "onyomi": [
+      "そう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "層"
+    ],
+    "examples": [
+      {
+        "word": "層",
+        "reading": "そう",
+        "meaning": "layer"
+      }
+    ]
+  },
+  {
+    "id": "kanji-301",
+    "kanji": "群",
+    "meaning": "group",
+    "onyomi": [
+      "ぐん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "群"
+    ],
+    "examples": [
+      {
+        "word": "群",
+        "reading": "ぐん",
+        "meaning": "group"
+      }
+    ]
+  },
+  {
+    "id": "kanji-302",
+    "kanji": "団",
+    "meaning": "group",
+    "onyomi": [
+      "だん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "団"
+    ],
+    "examples": [
+      {
+        "word": "団",
+        "reading": "だん",
+        "meaning": "group"
+      }
+    ]
+  },
+  {
+    "id": "kanji-303",
+    "kanji": "集",
+    "meaning": "gather",
+    "onyomi": [
+      "しゅう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "集"
+    ],
+    "examples": [
+      {
+        "word": "集",
+        "reading": "しゅう",
+        "meaning": "gather"
+      }
+    ]
+  },
+  {
+    "id": "kanji-304",
+    "kanji": "族",
+    "meaning": "tribe",
+    "onyomi": [
+      "ぞく"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "族"
+    ],
+    "examples": [
+      {
+        "word": "族",
+        "reading": "ぞく",
+        "meaning": "tribe"
+      }
+    ]
+  },
+  {
+    "id": "kanji-305",
+    "kanji": "派",
+    "meaning": "faction",
+    "onyomi": [
+      "は"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "派"
+    ],
+    "examples": [
+      {
+        "word": "派",
+        "reading": "は",
+        "meaning": "faction"
+      }
+    ]
+  },
+  {
+    "id": "kanji-306",
+    "kanji": "流",
+    "meaning": "flow",
+    "onyomi": [
+      "りゅう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "流"
+    ],
+    "examples": [
+      {
+        "word": "流",
+        "reading": "りゅう",
+        "meaning": "flow"
+      }
+    ]
+  },
+  {
+    "id": "kanji-307",
+    "kanji": "系",
+    "meaning": "system",
+    "onyomi": [
+      "けい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "系"
+    ],
+    "examples": [
+      {
+        "word": "系",
+        "reading": "けい",
+        "meaning": "system"
+      }
+    ]
+  },
+  {
+    "id": "kanji-308",
+    "kanji": "種",
+    "meaning": "type",
+    "onyomi": [
+      "しゅ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "種"
+    ],
+    "examples": [
+      {
+        "word": "種",
+        "reading": "しゅ",
+        "meaning": "type"
+      }
+    ]
+  },
+  {
+    "id": "kanji-309",
+    "kanji": "類",
+    "meaning": "type",
+    "onyomi": [
+      "るい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "類"
+    ],
+    "examples": [
+      {
+        "word": "類",
+        "reading": "るい",
+        "meaning": "type"
+      }
+    ]
+  },
+  {
+    "id": "kanji-310",
+    "kanji": "品",
+    "meaning": "goods",
+    "onyomi": [
+      "ひん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "品"
+    ],
+    "examples": [
+      {
+        "word": "品",
+        "reading": "ひん",
+        "meaning": "goods"
+      }
+    ]
+  },
+  {
+    "id": "kanji-311",
+    "kanji": "格",
+    "meaning": "status",
+    "onyomi": [
+      "かく"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "格"
+    ],
+    "examples": [
+      {
+        "word": "格",
+        "reading": "かく",
+        "meaning": "status"
+      }
+    ]
+  },
+  {
+    "id": "kanji-312",
+    "kanji": "級",
+    "meaning": "grade",
+    "onyomi": [
+      "きゅう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "級"
+    ],
+    "examples": [
+      {
+        "word": "級",
+        "reading": "きゅう",
+        "meaning": "grade"
+      }
+    ]
+  },
+  {
+    "id": "kanji-313",
+    "kanji": "等",
+    "meaning": "grade",
+    "onyomi": [
+      "とう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "等"
+    ],
+    "examples": [
+      {
+        "word": "等",
+        "reading": "とう",
+        "meaning": "grade"
+      }
+    ]
+  },
+  {
+    "id": "kanji-314",
+    "kanji": "順",
+    "meaning": "order",
+    "onyomi": [
+      "じゅん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "順"
+    ],
+    "examples": [
+      {
+        "word": "順",
+        "reading": "じゅん",
+        "meaning": "order"
+      }
+    ]
+  },
+  {
+    "id": "kanji-315",
+    "kanji": "序",
+    "meaning": "order",
+    "onyomi": [
+      "じょ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "序"
+    ],
+    "examples": [
+      {
+        "word": "序",
+        "reading": "じょ",
+        "meaning": "order"
+      }
+    ]
+  },
+  {
+    "id": "kanji-316",
+    "kanji": "位",
+    "meaning": "rank",
+    "onyomi": [
+      "い"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "位"
+    ],
+    "examples": [
+      {
+        "word": "位",
+        "reading": "い",
+        "meaning": "rank"
+      }
+    ]
+  },
+  {
+    "id": "kanji-317",
+    "kanji": "置",
+    "meaning": "place",
+    "onyomi": [
+      "ち"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "置"
+    ],
+    "examples": [
+      {
+        "word": "置",
+        "reading": "ち",
+        "meaning": "place"
+      }
+    ]
+  },
+  {
+    "id": "kanji-318",
+    "kanji": "成",
+    "meaning": "become",
+    "onyomi": [
+      "せい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "成"
+    ],
+    "examples": [
+      {
+        "word": "成",
+        "reading": "せい",
+        "meaning": "become"
+      }
+    ]
+  },
+  {
+    "id": "kanji-319",
+    "kanji": "形",
+    "meaning": "shape",
+    "onyomi": [
+      "けい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "形"
+    ],
+    "examples": [
+      {
+        "word": "形",
+        "reading": "けい",
+        "meaning": "shape"
+      }
+    ]
+  },
+  {
+    "id": "kanji-320",
+    "kanji": "態",
+    "meaning": "state",
+    "onyomi": [
+      "たい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "態"
+    ],
+    "examples": [
+      {
+        "word": "態",
+        "reading": "たい",
+        "meaning": "state"
+      }
+    ]
+  },
+  {
+    "id": "kanji-321",
+    "kanji": "様",
+    "meaning": "manner",
+    "onyomi": [
+      "よう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "様"
+    ],
+    "examples": [
+      {
+        "word": "様",
+        "reading": "よう",
+        "meaning": "manner"
+      }
+    ]
+  },
+  {
+    "id": "kanji-322",
+    "kanji": "方",
+    "meaning": "direction",
+    "onyomi": [
+      "ほう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "方"
+    ],
+    "examples": [
+      {
+        "word": "方",
+        "reading": "ほう",
+        "meaning": "direction"
+      }
+    ]
+  },
+  {
+    "id": "kanji-323",
+    "kanji": "式",
+    "meaning": "type",
+    "onyomi": [
+      "しき"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "式"
+    ],
+    "examples": [
+      {
+        "word": "式",
+        "reading": "しき",
+        "meaning": "type"
+      }
+    ]
+  },
+  {
+    "id": "kanji-324",
+    "kanji": "様",
+    "meaning": "pattern",
+    "onyomi": [
+      "よう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "様"
+    ],
+    "examples": [
+      {
+        "word": "様",
+        "reading": "よう",
+        "meaning": "pattern"
+      }
+    ]
+  },
+  {
+    "id": "kanji-325",
+    "kanji": "例",
+    "meaning": "example",
+    "onyomi": [
+      "れい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "例"
+    ],
+    "examples": [
+      {
+        "word": "例",
+        "reading": "れい",
+        "meaning": "example"
+      }
+    ]
+  },
+  {
+    "id": "kanji-326",
+    "kanji": "表",
+    "meaning": "table",
+    "onyomi": [
+      "ひょう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "表"
+    ],
+    "examples": [
+      {
+        "word": "表",
+        "reading": "ひょう",
+        "meaning": "table"
+      }
+    ]
+  },
+  {
+    "id": "kanji-327",
+    "kanji": "図",
+    "meaning": "figure",
+    "onyomi": [
+      "ず"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "図"
+    ],
+    "examples": [
+      {
+        "word": "図",
+        "reading": "ず",
+        "meaning": "figure"
+      }
+    ]
+  },
+  {
+    "id": "kanji-328",
+    "kanji": "案",
+    "meaning": "idea",
+    "onyomi": [
+      "あん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "案"
+    ],
+    "examples": [
+      {
+        "word": "案",
+        "reading": "あん",
+        "meaning": "idea"
+      }
+    ]
+  },
+  {
+    "id": "kanji-329",
+    "kanji": "想",
+    "meaning": "think",
+    "onyomi": [
+      "そう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "想"
+    ],
+    "examples": [
+      {
+        "word": "想",
+        "reading": "そう",
+        "meaning": "think"
+      }
+    ]
+  },
+  {
+    "id": "kanji-330",
+    "kanji": "論",
+    "meaning": "theory",
+    "onyomi": [
+      "ろん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "論"
+    ],
+    "examples": [
+      {
+        "word": "論",
+        "reading": "ろん",
+        "meaning": "theory"
+      }
+    ]
+  },
+  {
+    "id": "kanji-331",
+    "kanji": "説",
+    "meaning": "theory",
+    "onyomi": [
+      "せつ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "説"
+    ],
+    "examples": [
+      {
+        "word": "説",
+        "reading": "せつ",
+        "meaning": "theory"
+      }
+    ]
+  },
+  {
+    "id": "kanji-332",
+    "kanji": "証",
+    "meaning": "proof",
+    "onyomi": [
+      "しょう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "証"
+    ],
+    "examples": [
+      {
+        "word": "証",
+        "reading": "しょう",
+        "meaning": "proof"
+      }
+    ]
+  },
+  {
+    "id": "kanji-333",
+    "kanji": "拠",
+    "meaning": "basis",
+    "onyomi": [
+      "きょ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "拠"
+    ],
+    "examples": [
+      {
+        "word": "拠",
+        "reading": "きょ",
+        "meaning": "basis"
+      }
+    ]
+  },
+  {
+    "id": "kanji-334",
+    "kanji": "根",
+    "meaning": "root",
+    "onyomi": [
+      "こん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "根"
+    ],
+    "examples": [
+      {
+        "word": "根",
+        "reading": "こん",
+        "meaning": "root"
+      }
+    ]
+  },
+  {
+    "id": "kanji-335",
+    "kanji": "本",
+    "meaning": "origin",
+    "onyomi": [
+      "ほん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "本"
+    ],
+    "examples": [
+      {
+        "word": "本",
+        "reading": "ほん",
+        "meaning": "origin"
+      }
+    ]
+  },
+  {
+    "id": "kanji-336",
+    "kanji": "元",
+    "meaning": "origin",
+    "onyomi": [
+      "げん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "元"
+    ],
+    "examples": [
+      {
+        "word": "元",
+        "reading": "げん",
+        "meaning": "origin"
+      }
+    ]
+  },
+  {
+    "id": "kanji-337",
+    "kanji": "源",
+    "meaning": "source",
+    "onyomi": [
+      "げん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "源"
+    ],
+    "examples": [
+      {
+        "word": "源",
+        "reading": "げん",
+        "meaning": "source"
+      }
+    ]
+  },
+  {
+    "id": "kanji-338",
+    "kanji": "初",
+    "meaning": "beginning",
+    "onyomi": [
+      "しょ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "初"
+    ],
+    "examples": [
+      {
+        "word": "初",
+        "reading": "しょ",
+        "meaning": "beginning"
+      }
+    ]
+  },
+  {
+    "id": "kanji-339",
+    "kanji": "早",
+    "meaning": "early",
+    "onyomi": [
+      "そう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "早"
+    ],
+    "examples": [
+      {
+        "word": "早",
+        "reading": "そう",
+        "meaning": "early"
+      }
+    ]
+  },
+  {
+    "id": "kanji-340",
+    "kanji": "先",
+    "meaning": "ahead",
+    "onyomi": [
+      "せん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "先"
+    ],
+    "examples": [
+      {
+        "word": "先",
+        "reading": "せん",
+        "meaning": "ahead"
+      }
+    ]
+  },
+  {
+    "id": "kanji-341",
+    "kanji": "際",
+    "meaning": "occasion",
+    "onyomi": [
+      "さい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "際"
+    ],
+    "examples": [
+      {
+        "word": "際",
+        "reading": "さい",
+        "meaning": "occasion"
+      }
+    ]
+  },
+  {
+    "id": "kanji-342",
+    "kanji": "後",
+    "meaning": "behind",
+    "onyomi": [
+      "こう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "後"
+    ],
+    "examples": [
+      {
+        "word": "後",
+        "reading": "こう",
+        "meaning": "behind"
+      }
+    ]
+  },
+  {
+    "id": "kanji-343",
+    "kanji": "継",
+    "meaning": "succeed",
+    "onyomi": [
+      "けい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "継"
+    ],
+    "examples": [
+      {
+        "word": "継",
+        "reading": "けい",
+        "meaning": "succeed"
+      }
+    ]
+  },
+  {
+    "id": "kanji-344",
+    "kanji": "嗣",
+    "meaning": "heir",
+    "onyomi": [
+      "し"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "嗣"
+    ],
+    "examples": [
+      {
+        "word": "嗣",
+        "reading": "し",
+        "meaning": "heir"
+      }
+    ]
+  },
+  {
+    "id": "kanji-345",
+    "kanji": "余",
+    "meaning": "extra",
+    "onyomi": [
+      "よ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "余"
+    ],
+    "examples": [
+      {
+        "word": "余",
+        "reading": "よ",
+        "meaning": "extra"
+      }
+    ]
+  },
+  {
+    "id": "kanji-346",
+    "kanji": "剰",
+    "meaning": "surplus",
+    "onyomi": [
+      "じょう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "剰"
+    ],
+    "examples": [
+      {
+        "word": "剰",
+        "reading": "じょう",
+        "meaning": "surplus"
+      }
+    ]
+  },
+  {
+    "id": "kanji-347",
+    "kanji": "越",
+    "meaning": "exceed",
+    "onyomi": [
+      "えつ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "越"
+    ],
+    "examples": [
+      {
+        "word": "越",
+        "reading": "えつ",
+        "meaning": "exceed"
+      }
+    ]
+  },
+  {
+    "id": "kanji-348",
+    "kanji": "過",
+    "meaning": "excess",
+    "onyomi": [
+      "か"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "過"
+    ],
+    "examples": [
+      {
+        "word": "過",
+        "reading": "か",
+        "meaning": "excess"
+      }
+    ]
+  },
+  {
+    "id": "kanji-349",
+    "kanji": "超",
+    "meaning": "surpass",
+    "onyomi": [
+      "ちょう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "超"
+    ],
+    "examples": [
+      {
+        "word": "超",
+        "reading": "ちょう",
+        "meaning": "surpass"
+      }
+    ]
+  },
+  {
+    "id": "kanji-350",
+    "kanji": "限",
+    "meaning": "limit",
+    "onyomi": [
+      "げん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "限"
+    ],
+    "examples": [
+      {
+        "word": "限",
+        "reading": "げん",
+        "meaning": "limit"
+      }
+    ]
+  },
+  {
+    "id": "kanji-351",
+    "kanji": "際",
+    "meaning": "edge",
+    "onyomi": [
+      "さい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "際"
+    ],
+    "examples": [
+      {
+        "word": "際",
+        "reading": "さい",
+        "meaning": "edge"
+      }
+    ]
+  },
+  {
+    "id": "kanji-352",
+    "kanji": "迄",
+    "meaning": "until",
+    "onyomi": [
+      "まで"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "迄"
+    ],
+    "examples": [
+      {
+        "word": "迄",
+        "reading": "まで",
+        "meaning": "until"
+      }
+    ]
+  },
+  {
+    "id": "kanji-353",
+    "kanji": "迫",
+    "meaning": "approach",
+    "onyomi": [
+      "はく"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "迫"
+    ],
+    "examples": [
+      {
+        "word": "迫",
+        "reading": "はく",
+        "meaning": "approach"
+      }
+    ]
+  },
+  {
+    "id": "kanji-354",
+    "kanji": "据",
+    "meaning": "place",
+    "onyomi": [
+      "すえ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "据"
+    ],
+    "examples": [
+      {
+        "word": "据",
+        "reading": "すえ",
+        "meaning": "place"
+      }
+    ]
+  },
+  {
+    "id": "kanji-355",
+    "kanji": "距",
+    "meaning": "distance",
+    "onyomi": [
+      "きょ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "距"
+    ],
+    "examples": [
+      {
+        "word": "距",
+        "reading": "きょ",
+        "meaning": "distance"
+      }
+    ]
+  },
+  {
+    "id": "kanji-356",
+    "kanji": "遠",
+    "meaning": "far",
+    "onyomi": [
+      "えん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "遠"
+    ],
+    "examples": [
+      {
+        "word": "遠",
+        "reading": "えん",
+        "meaning": "far"
+      }
+    ]
+  },
+  {
+    "id": "kanji-357",
+    "kanji": "近",
+    "meaning": "near",
+    "onyomi": [
+      "きん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "近"
+    ],
+    "examples": [
+      {
+        "word": "近",
+        "reading": "きん",
+        "meaning": "near"
+      }
+    ]
+  },
+  {
+    "id": "kanji-358",
+    "kanji": "側",
+    "meaning": "side",
+    "onyomi": [
+      "そく"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "側"
+    ],
+    "examples": [
+      {
+        "word": "側",
+        "reading": "そく",
+        "meaning": "side"
+      }
+    ]
+  },
+  {
+    "id": "kanji-359",
+    "kanji": "面",
+    "meaning": "face",
+    "onyomi": [
+      "めん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "面"
+    ],
+    "examples": [
+      {
+        "word": "面",
+        "reading": "めん",
+        "meaning": "face"
+      }
+    ]
+  },
+  {
+    "id": "kanji-360",
+    "kanji": "方",
+    "meaning": "person",
+    "onyomi": [
+      "ほう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "方"
+    ],
+    "examples": [
+      {
+        "word": "方",
+        "reading": "ほう",
+        "meaning": "person"
+      }
+    ]
+  },
+  {
+    "id": "kanji-361",
+    "kanji": "隣",
+    "meaning": "neighbor",
+    "onyomi": [
+      "りん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "隣"
+    ],
+    "examples": [
+      {
+        "word": "隣",
+        "reading": "りん",
+        "meaning": "neighbor"
+      }
+    ]
+  },
+  {
+    "id": "kanji-362",
+    "kanji": "周",
+    "meaning": "around",
+    "onyomi": [
+      "しゅう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "周"
+    ],
+    "examples": [
+      {
+        "word": "周",
+        "reading": "しゅう",
+        "meaning": "around"
+      }
+    ]
+  },
+  {
+    "id": "kanji-363",
+    "kanji": "囲",
+    "meaning": "surround",
+    "onyomi": [
+      "い"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "囲"
+    ],
+    "examples": [
+      {
+        "word": "囲",
+        "reading": "い",
+        "meaning": "surround"
+      }
+    ]
+  },
+  {
+    "id": "kanji-364",
+    "kanji": "環",
+    "meaning": "ring",
+    "onyomi": [
+      "かん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "環"
+    ],
+    "examples": [
+      {
+        "word": "環",
+        "reading": "かん",
+        "meaning": "ring"
+      }
+    ]
+  },
+  {
+    "id": "kanji-365",
+    "kanji": "巻",
+    "meaning": "volume",
+    "onyomi": [
+      "かん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "巻"
+    ],
+    "examples": [
+      {
+        "word": "巻",
+        "reading": "かん",
+        "meaning": "volume"
+      }
+    ]
+  },
+  {
+    "id": "kanji-366",
+    "kanji": "帯",
+    "meaning": "zone",
+    "onyomi": [
+      "たい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "帯"
+    ],
+    "examples": [
+      {
+        "word": "帯",
+        "reading": "たい",
+        "meaning": "zone"
+      }
+    ]
+  },
+  {
+    "id": "kanji-367",
+    "kanji": "扱",
+    "meaning": "handle",
+    "onyomi": [
+      "あつかい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "扱"
+    ],
+    "examples": [
+      {
+        "word": "扱",
+        "reading": "あつかい",
+        "meaning": "handle"
+      }
+    ]
+  },
+  {
+    "id": "kanji-368",
+    "kanji": "処",
+    "meaning": "place",
+    "onyomi": [
+      "しょ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "処"
+    ],
+    "examples": [
+      {
+        "word": "処",
+        "reading": "しょ",
+        "meaning": "place"
+      }
+    ]
+  },
+  {
+    "id": "kanji-369",
+    "kanji": "置",
+    "meaning": "put",
+    "onyomi": [
+      "ち"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "置"
+    ],
+    "examples": [
+      {
+        "word": "置",
+        "reading": "ち",
+        "meaning": "put"
+      }
+    ]
+  },
+  {
+    "id": "kanji-370",
+    "kanji": "任",
+    "meaning": "assign",
+    "onyomi": [
+      "にん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "任"
+    ],
+    "examples": [
+      {
+        "word": "任",
+        "reading": "にん",
+        "meaning": "assign"
+      }
+    ]
+  },
+  {
+    "id": "kanji-371",
+    "kanji": "役",
+    "meaning": "duty",
+    "onyomi": [
+      "やく"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "役"
+    ],
+    "examples": [
+      {
+        "word": "役",
+        "reading": "やく",
+        "meaning": "duty"
+      }
+    ]
+  },
+  {
+    "id": "kanji-372",
+    "kanji": "職",
+    "meaning": "occupation",
+    "onyomi": [
+      "しょく"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "職"
+    ],
+    "examples": [
+      {
+        "word": "職",
+        "reading": "しょく",
+        "meaning": "occupation"
+      }
+    ]
+  },
+  {
+    "id": "kanji-373",
+    "kanji": "務",
+    "meaning": "duty",
+    "onyomi": [
+      "む"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "務"
+    ],
+    "examples": [
+      {
+        "word": "務",
+        "reading": "む",
+        "meaning": "duty"
+      }
+    ]
+  },
+  {
+    "id": "kanji-374",
+    "kanji": "令",
+    "meaning": "order",
+    "onyomi": [
+      "れい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "令"
+    ],
+    "examples": [
+      {
+        "word": "令",
+        "reading": "れい",
+        "meaning": "order"
+      }
+    ]
+  },
+  {
+    "id": "kanji-375",
+    "kanji": "指",
+    "meaning": "finger",
+    "onyomi": [
+      "し"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "指"
+    ],
+    "examples": [
+      {
+        "word": "指",
+        "reading": "し",
+        "meaning": "finger"
+      }
+    ]
+  },
+  {
+    "id": "kanji-376",
+    "kanji": "示",
+    "meaning": "show",
+    "onyomi": [
+      "し"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "示"
+    ],
+    "examples": [
+      {
+        "word": "示",
+        "reading": "し",
+        "meaning": "show"
+      }
+    ]
+  },
+  {
+    "id": "kanji-377",
+    "kanji": "唆",
+    "meaning": "instigate",
+    "onyomi": [
+      "さ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "唆"
+    ],
+    "examples": [
+      {
+        "word": "唆",
+        "reading": "さ",
+        "meaning": "instigate"
+      }
+    ]
+  },
+  {
+    "id": "kanji-378",
+    "kanji": "導",
+    "meaning": "guide",
+    "onyomi": [
+      "どう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "導"
+    ],
+    "examples": [
+      {
+        "word": "導",
+        "reading": "どう",
+        "meaning": "guide"
+      }
+    ]
+  },
+  {
+    "id": "kanji-379",
+    "kanji": "促",
+    "meaning": "urge",
+    "onyomi": [
+      "そく"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "促"
+    ],
+    "examples": [
+      {
+        "word": "促",
+        "reading": "そく",
+        "meaning": "urge"
+      }
+    ]
+  },
+  {
+    "id": "kanji-380",
+    "kanji": "請",
+    "meaning": "request",
+    "onyomi": [
+      "せい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "請"
+    ],
+    "examples": [
+      {
+        "word": "請",
+        "reading": "せい",
+        "meaning": "request"
+      }
+    ]
+  },
+  {
+    "id": "kanji-381",
+    "kanji": "願",
+    "meaning": "wish",
+    "onyomi": [
+      "がん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "願"
+    ],
+    "examples": [
+      {
+        "word": "願",
+        "reading": "がん",
+        "meaning": "wish"
+      }
+    ]
+  },
+  {
+    "id": "kanji-382",
+    "kanji": "祈",
+    "meaning": "pray",
+    "onyomi": [
+      "き"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "祈"
+    ],
+    "examples": [
+      {
+        "word": "祈",
+        "reading": "き",
+        "meaning": "pray"
+      }
+    ]
+  },
+  {
+    "id": "kanji-383",
+    "kanji": "祷",
+    "meaning": "pray",
+    "onyomi": [
+      "とう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "祷"
+    ],
+    "examples": [
+      {
+        "word": "祷",
+        "reading": "とう",
+        "meaning": "pray"
+      }
+    ]
+  },
+  {
+    "id": "kanji-384",
+    "kanji": "呼",
+    "meaning": "call",
+    "onyomi": [
+      "こ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "呼"
+    ],
+    "examples": [
+      {
+        "word": "呼",
+        "reading": "こ",
+        "meaning": "call"
+      }
+    ]
+  },
+  {
+    "id": "kanji-385",
+    "kanji": "名",
+    "meaning": "name",
+    "onyomi": [
+      "めい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "名"
+    ],
+    "examples": [
+      {
+        "word": "名",
+        "reading": "めい",
+        "meaning": "name"
+      }
+    ]
+  },
+  {
+    "id": "kanji-386",
+    "kanji": "称",
+    "meaning": "name",
+    "onyomi": [
+      "しょう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "称"
+    ],
+    "examples": [
+      {
+        "word": "称",
+        "reading": "しょう",
+        "meaning": "name"
+      }
+    ]
+  },
+  {
+    "id": "kanji-387",
+    "kanji": "号",
+    "meaning": "number",
+    "onyomi": [
+      "ごう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "号"
+    ],
+    "examples": [
+      {
+        "word": "号",
+        "reading": "ごう",
+        "meaning": "number"
+      }
+    ]
+  },
+  {
+    "id": "kanji-388",
+    "kanji": "題",
+    "meaning": "title",
+    "onyomi": [
+      "だい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "題"
+    ],
+    "examples": [
+      {
+        "word": "題",
+        "reading": "だい",
+        "meaning": "title"
+      }
+    ]
+  },
+  {
+    "id": "kanji-389",
+    "kanji": "目",
+    "meaning": "title",
+    "onyomi": [
+      "もく"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "目"
+    ],
+    "examples": [
+      {
+        "word": "目",
+        "reading": "もく",
+        "meaning": "title"
+      }
+    ]
+  },
+  {
+    "id": "kanji-390",
+    "kanji": "項",
+    "meaning": "item",
+    "onyomi": [
+      "こう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "項"
+    ],
+    "examples": [
+      {
+        "word": "項",
+        "reading": "こう",
+        "meaning": "item"
+      }
+    ]
+  },
+  {
+    "id": "kanji-391",
+    "kanji": "款",
+    "meaning": "clause",
+    "onyomi": [
+      "かん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "款"
+    ],
+    "examples": [
+      {
+        "word": "款",
+        "reading": "かん",
+        "meaning": "clause"
+      }
+    ]
+  },
+  {
+    "id": "kanji-392",
+    "kanji": "条",
+    "meaning": "article",
+    "onyomi": [
+      "じょう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "条"
+    ],
+    "examples": [
+      {
+        "word": "条",
+        "reading": "じょう",
+        "meaning": "article"
+      }
+    ]
+  },
+  {
+    "id": "kanji-393",
+    "kanji": "約",
+    "meaning": "promise",
+    "onyomi": [
+      "やく"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "約"
+    ],
+    "examples": [
+      {
+        "word": "約",
+        "reading": "やく",
+        "meaning": "promise"
+      }
+    ]
+  },
+  {
+    "id": "kanji-394",
+    "kanji": "定",
+    "meaning": "fix",
+    "onyomi": [
+      "てい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "定"
+    ],
+    "examples": [
+      {
+        "word": "定",
+        "reading": "てい",
+        "meaning": "fix"
+      }
+    ]
+  },
+  {
+    "id": "kanji-395",
+    "kanji": "決",
+    "meaning": "decide",
+    "onyomi": [
+      "けつ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "決"
+    ],
+    "examples": [
+      {
+        "word": "決",
+        "reading": "けつ",
+        "meaning": "decide"
+      }
+    ]
+  },
+  {
+    "id": "kanji-396",
+    "kanji": "解",
+    "meaning": "open",
+    "onyomi": [
+      "かい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "解"
+    ],
+    "examples": [
+      {
+        "word": "解",
+        "reading": "かい",
+        "meaning": "open"
+      }
+    ]
+  },
+  {
+    "id": "kanji-397",
+    "kanji": "抉",
+    "meaning": "scrape",
+    "onyomi": [
+      "けつ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "抉"
+    ],
+    "examples": [
+      {
+        "word": "抉",
+        "reading": "けつ",
+        "meaning": "scrape"
+      }
+    ]
+  },
+  {
+    "id": "kanji-398",
+    "kanji": "却",
+    "meaning": "abandon",
+    "onyomi": [
+      "きゃく"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "却"
+    ],
+    "examples": [
+      {
+        "word": "却",
+        "reading": "きゃく",
+        "meaning": "abandon"
+      }
+    ]
+  },
+  {
+    "id": "kanji-399",
+    "kanji": "斥",
+    "meaning": "reject",
+    "onyomi": [
+      "せき"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "斥"
+    ],
+    "examples": [
+      {
+        "word": "斥",
+        "reading": "せき",
+        "meaning": "reject"
+      }
+    ]
+  },
+  {
+    "id": "kanji-400",
+    "kanji": "排",
+    "meaning": "exclude",
+    "onyomi": [
+      "はい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "排"
+    ],
+    "examples": [
+      {
+        "word": "排",
+        "reading": "はい",
+        "meaning": "exclude"
+      }
+    ]
+  },
+  {
+    "id": "kanji-401",
+    "kanji": "除",
+    "meaning": "remove",
+    "onyomi": [
+      "じょ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "除"
+    ],
+    "examples": [
+      {
+        "word": "除",
+        "reading": "じょ",
+        "meaning": "remove"
+      }
+    ]
+  },
+  {
+    "id": "kanji-402",
+    "kanji": "廃",
+    "meaning": "abolish",
+    "onyomi": [
+      "はい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "廃"
+    ],
+    "examples": [
+      {
+        "word": "廃",
+        "reading": "はい",
+        "meaning": "abolish"
+      }
+    ]
+  },
+  {
+    "id": "kanji-403",
+    "kanji": "止",
+    "meaning": "stop",
+    "onyomi": [
+      "し"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "止"
+    ],
+    "examples": [
+      {
+        "word": "止",
+        "reading": "し",
+        "meaning": "stop"
+      }
+    ]
+  },
+  {
+    "id": "kanji-404",
+    "kanji": "禁",
+    "meaning": "prohibit",
+    "onyomi": [
+      "きん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "禁"
+    ],
+    "examples": [
+      {
+        "word": "禁",
+        "reading": "きん",
+        "meaning": "prohibit"
+      }
+    ]
+  },
+  {
+    "id": "kanji-405",
+    "kanji": "罷",
+    "meaning": "suspend",
+    "onyomi": [
+      "ひ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "罷"
+    ],
+    "examples": [
+      {
+        "word": "罷",
+        "reading": "ひ",
+        "meaning": "suspend"
+      }
+    ]
+  },
+  {
+    "id": "kanji-406",
+    "kanji": "辞",
+    "meaning": "resign",
+    "onyomi": [
+      "じ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "辞"
+    ],
+    "examples": [
+      {
+        "word": "辞",
+        "reading": "じ",
+        "meaning": "resign"
+      }
+    ]
+  },
+  {
+    "id": "kanji-407",
+    "kanji": "譲",
+    "meaning": "yield",
+    "onyomi": [
+      "じょう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N3",
+    "radicals": [
+      "譲"
+    ],
+    "examples": [
+      {
+        "word": "譲",
+        "reading": "じょう",
+        "meaning": "yield"
+      }
+    ]
+  },
+  {
+    "id": "kanji-408",
+    "kanji": "侍",
+    "meaning": "samurai",
+    "onyomi": [
+      "し"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N2",
+    "radicals": [
+      "侍"
+    ],
+    "examples": [
+      {
+        "word": "侍",
+        "reading": "し",
+        "meaning": "samurai"
+      }
+    ]
+  },
+  {
+    "id": "kanji-409",
+    "kanji": "俳",
+    "meaning": "haiku",
+    "onyomi": [
+      "はい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N2",
+    "radicals": [
+      "俳"
+    ],
+    "examples": [
+      {
+        "word": "俳",
+        "reading": "はい",
+        "meaning": "haiku"
+      }
+    ]
+  },
+  {
+    "id": "kanji-410",
+    "kanji": "倫",
+    "meaning": "ethics",
+    "onyomi": [
+      "りん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N2",
+    "radicals": [
+      "倫"
+    ],
+    "examples": [
+      {
+        "word": "倫",
+        "reading": "りん",
+        "meaning": "ethics"
+      }
+    ]
+  },
+  {
+    "id": "kanji-411",
+    "kanji": "儀",
+    "meaning": "ceremony",
+    "onyomi": [
+      "ぎ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N2",
+    "radicals": [
+      "儀"
+    ],
+    "examples": [
+      {
+        "word": "儀",
+        "reading": "ぎ",
+        "meaning": "ceremony"
+      }
+    ]
+  },
+  {
+    "id": "kanji-412",
+    "kanji": "允",
+    "meaning": "allow",
+    "onyomi": [
+      "いん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N2",
+    "radicals": [
+      "允"
+    ],
+    "examples": [
+      {
+        "word": "允",
+        "reading": "いん",
+        "meaning": "allow"
+      }
+    ]
+  },
+  {
+    "id": "kanji-413",
+    "kanji": "忙",
+    "meaning": "busy",
+    "onyomi": [
+      "ぼう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N2",
+    "radicals": [
+      "忙"
+    ],
+    "examples": [
+      {
+        "word": "忙",
+        "reading": "ぼう",
+        "meaning": "busy"
+      }
+    ]
+  },
+  {
+    "id": "kanji-414",
+    "kanji": "忽",
+    "meaning": "overlook",
+    "onyomi": [
+      "こつ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N2",
+    "radicals": [
+      "忽"
+    ],
+    "examples": [
+      {
+        "word": "忽",
+        "reading": "こつ",
+        "meaning": "overlook"
+      }
+    ]
+  },
+  {
+    "id": "kanji-415",
+    "kanji": "怖",
+    "meaning": "fear",
+    "onyomi": [
+      "ふ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N2",
+    "radicals": [
+      "怖"
+    ],
+    "examples": [
+      {
+        "word": "怖",
+        "reading": "ふ",
+        "meaning": "fear"
+      }
+    ]
+  },
+  {
+    "id": "kanji-416",
+    "kanji": "怪",
+    "meaning": "strange",
+    "onyomi": [
+      "かい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N2",
+    "radicals": [
+      "怪"
+    ],
+    "examples": [
+      {
+        "word": "怪",
+        "reading": "かい",
+        "meaning": "strange"
+      }
+    ]
+  },
+  {
+    "id": "kanji-417",
+    "kanji": "恥",
+    "meaning": "shame",
+    "onyomi": [
+      "ち"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N2",
+    "radicals": [
+      "恥"
+    ],
+    "examples": [
+      {
+        "word": "恥",
+        "reading": "ち",
+        "meaning": "shame"
+      }
+    ]
+  },
+  {
+    "id": "kanji-418",
+    "kanji": "恨",
+    "meaning": "grudge",
+    "onyomi": [
+      "こん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N2",
+    "radicals": [
+      "恨"
+    ],
+    "examples": [
+      {
+        "word": "恨",
+        "reading": "こん",
+        "meaning": "grudge"
+      }
+    ]
+  },
+  {
+    "id": "kanji-419",
+    "kanji": "悔",
+    "meaning": "regret",
+    "onyomi": [
+      "かい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N2",
+    "radicals": [
+      "悔"
+    ],
+    "examples": [
+      {
+        "word": "悔",
+        "reading": "かい",
+        "meaning": "regret"
+      }
+    ]
+  },
+  {
+    "id": "kanji-420",
+    "kanji": "惰",
+    "meaning": "lazy",
+    "onyomi": [
+      "だ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N2",
+    "radicals": [
+      "惰"
+    ],
+    "examples": [
+      {
+        "word": "惰",
+        "reading": "だ",
+        "meaning": "lazy"
+      }
+    ]
+  },
+  {
+    "id": "kanji-421",
+    "kanji": "慮",
+    "meaning": "consider",
+    "onyomi": [
+      "りょ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N2",
+    "radicals": [
+      "慮"
+    ],
+    "examples": [
+      {
+        "word": "慮",
+        "reading": "りょ",
+        "meaning": "consider"
+      }
+    ]
+  },
+  {
+    "id": "kanji-422",
+    "kanji": "懐",
+    "meaning": "bosom",
+    "onyomi": [
+      "かい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N2",
+    "radicals": [
+      "懐"
+    ],
+    "examples": [
+      {
+        "word": "懐",
+        "reading": "かい",
+        "meaning": "bosom"
+      }
+    ]
+  },
+  {
+    "id": "kanji-423",
+    "kanji": "懲",
+    "meaning": "punish",
+    "onyomi": [
+      "ちょう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N2",
+    "radicals": [
+      "懲"
+    ],
+    "examples": [
+      {
+        "word": "懲",
+        "reading": "ちょう",
+        "meaning": "punish"
+      }
+    ]
+  },
+  {
+    "id": "kanji-424",
+    "kanji": "戒",
+    "meaning": "caution",
+    "onyomi": [
+      "かい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N2",
+    "radicals": [
+      "戒"
+    ],
+    "examples": [
+      {
+        "word": "戒",
+        "reading": "かい",
+        "meaning": "caution"
+      }
+    ]
+  },
+  {
+    "id": "kanji-425",
+    "kanji": "戟",
+    "meaning": "halberd",
+    "onyomi": [
+      "げき"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N2",
+    "radicals": [
+      "戟"
+    ],
+    "examples": [
+      {
+        "word": "戟",
+        "reading": "げき",
+        "meaning": "halberd"
+      }
+    ]
+  },
+  {
+    "id": "kanji-426",
+    "kanji": "撃",
+    "meaning": "hit",
+    "onyomi": [
+      "げき"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N2",
+    "radicals": [
+      "撃"
+    ],
+    "examples": [
+      {
+        "word": "撃",
+        "reading": "げき",
+        "meaning": "hit"
+      }
+    ]
+  },
+  {
+    "id": "kanji-427",
+    "kanji": "撤",
+    "meaning": "withdraw",
+    "onyomi": [
+      "てつ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N2",
+    "radicals": [
+      "撤"
+    ],
+    "examples": [
+      {
+        "word": "撤",
+        "reading": "てつ",
+        "meaning": "withdraw"
+      }
+    ]
+  },
+  {
+    "id": "kanji-428",
+    "kanji": "撞",
+    "meaning": "clash",
+    "onyomi": [
+      "どう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N2",
+    "radicals": [
+      "撞"
+    ],
+    "examples": [
+      {
+        "word": "撞",
+        "reading": "どう",
+        "meaning": "clash"
+      }
+    ]
+  },
+  {
+    "id": "kanji-429",
+    "kanji": "撹",
+    "meaning": "disturb",
+    "onyomi": [
+      "こう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N2",
+    "radicals": [
+      "撹"
+    ],
+    "examples": [
+      {
+        "word": "撹",
+        "reading": "こう",
+        "meaning": "disturb"
+      }
+    ]
+  },
+  {
+    "id": "kanji-430",
+    "kanji": "攫",
+    "meaning": "seize",
+    "onyomi": [
+      "かく"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N2",
+    "radicals": [
+      "攫"
+    ],
+    "examples": [
+      {
+        "word": "攫",
+        "reading": "かく",
+        "meaning": "seize"
+      }
+    ]
+  },
+  {
+    "id": "kanji-431",
+    "kanji": "攻",
+    "meaning": "attack",
+    "onyomi": [
+      "こう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N2",
+    "radicals": [
+      "攻"
+    ],
+    "examples": [
+      {
+        "word": "攻",
+        "reading": "こう",
+        "meaning": "attack"
+      }
+    ]
+  },
+  {
+    "id": "kanji-432",
+    "kanji": "攘",
+    "meaning": "repel",
+    "onyomi": [
+      "じょう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N2",
+    "radicals": [
+      "攘"
+    ],
+    "examples": [
+      {
+        "word": "攘",
+        "reading": "じょう",
+        "meaning": "repel"
+      }
+    ]
+  },
+  {
+    "id": "kanji-433",
+    "kanji": "敏",
+    "meaning": "quick",
+    "onyomi": [
+      "びん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N2",
+    "radicals": [
+      "敏"
+    ],
+    "examples": [
+      {
+        "word": "敏",
+        "reading": "びん",
+        "meaning": "quick"
+      }
+    ]
+  },
+  {
+    "id": "kanji-434",
+    "kanji": "敦",
+    "meaning": "kind",
+    "onyomi": [
+      "とん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N2",
+    "radicals": [
+      "敦"
+    ],
+    "examples": [
+      {
+        "word": "敦",
+        "reading": "とん",
+        "meaning": "kind"
+      }
+    ]
+  },
+  {
+    "id": "kanji-435",
+    "kanji": "敵",
+    "meaning": "enemy",
+    "onyomi": [
+      "てき"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N2",
+    "radicals": [
+      "敵"
+    ],
+    "examples": [
+      {
+        "word": "敵",
+        "reading": "てき",
+        "meaning": "enemy"
+      }
+    ]
+  },
+  {
+    "id": "kanji-436",
+    "kanji": "敷",
+    "meaning": "spread",
+    "onyomi": [
+      "ふ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N2",
+    "radicals": [
+      "敷"
+    ],
+    "examples": [
+      {
+        "word": "敷",
+        "reading": "ふ",
+        "meaning": "spread"
+      }
+    ]
+  },
+  {
+    "id": "kanji-437",
+    "kanji": "斎",
+    "meaning": "purify",
+    "onyomi": [
+      "さい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N2",
+    "radicals": [
+      "斎"
+    ],
+    "examples": [
+      {
+        "word": "斎",
+        "reading": "さい",
+        "meaning": "purify"
+      }
+    ]
+  },
+  {
+    "id": "kanji-438",
+    "kanji": "殮",
+    "meaning": "to lay in coffin",
+    "onyomi": [
+      "れん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N1",
+    "radicals": [
+      "殮"
+    ],
+    "examples": [
+      {
+        "word": "殮",
+        "reading": "れん",
+        "meaning": "to lay in coffin"
+      }
+    ]
+  },
+  {
+    "id": "kanji-439",
+    "kanji": "殯",
+    "meaning": "wake",
+    "onyomi": [
+      "ひん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N1",
+    "radicals": [
+      "殯"
+    ],
+    "examples": [
+      {
+        "word": "殯",
+        "reading": "ひん",
+        "meaning": "wake"
+      }
+    ]
+  },
+  {
+    "id": "kanji-440",
+    "kanji": "殰",
+    "meaning": "corpse",
+    "onyomi": [
+      "し"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N1",
+    "radicals": [
+      "殰"
+    ],
+    "examples": [
+      {
+        "word": "殰",
+        "reading": "し",
+        "meaning": "corpse"
+      }
+    ]
+  },
+  {
+    "id": "kanji-441",
+    "kanji": "殱",
+    "meaning": "annihilate",
+    "onyomi": [
+      "せん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N1",
+    "radicals": [
+      "殱"
+    ],
+    "examples": [
+      {
+        "word": "殱",
+        "reading": "せん",
+        "meaning": "annihilate"
+      }
+    ]
+  },
+  {
+    "id": "kanji-442",
+    "kanji": "殲",
+    "meaning": "eliminate",
+    "onyomi": [
+      "せん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N1",
+    "radicals": [
+      "殲"
+    ],
+    "examples": [
+      {
+        "word": "殲",
+        "reading": "せん",
+        "meaning": "eliminate"
+      }
+    ]
+  },
+  {
+    "id": "kanji-443",
+    "kanji": "殳",
+    "meaning": "pestle",
+    "onyomi": [
+      "しゅつ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N1",
+    "radicals": [
+      "殳"
+    ],
+    "examples": [
+      {
+        "word": "殳",
+        "reading": "しゅつ",
+        "meaning": "pestle"
+      }
+    ]
+  },
+  {
+    "id": "kanji-444",
+    "kanji": "殴",
+    "meaning": "beat",
+    "onyomi": [
+      "おう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N1",
+    "radicals": [
+      "殴"
+    ],
+    "examples": [
+      {
+        "word": "殴",
+        "reading": "おう",
+        "meaning": "beat"
+      }
+    ]
+  },
+  {
+    "id": "kanji-445",
+    "kanji": "段",
+    "meaning": "step",
+    "onyomi": [
+      "だん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N1",
+    "radicals": [
+      "段"
+    ],
+    "examples": [
+      {
+        "word": "段",
+        "reading": "だん",
+        "meaning": "step"
+      }
+    ]
+  },
+  {
+    "id": "kanji-446",
+    "kanji": "殷",
+    "meaning": "earnest",
+    "onyomi": [
+      "いん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N1",
+    "radicals": [
+      "殷"
+    ],
+    "examples": [
+      {
+        "word": "殷",
+        "reading": "いん",
+        "meaning": "earnest"
+      }
+    ]
+  },
+  {
+    "id": "kanji-447",
+    "kanji": "殸",
+    "meaning": "shell",
+    "onyomi": [
+      "こう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N1",
+    "radicals": [
+      "殸"
+    ],
+    "examples": [
+      {
+        "word": "殸",
+        "reading": "こう",
+        "meaning": "shell"
+      }
+    ]
+  },
+  {
+    "id": "kanji-448",
+    "kanji": "殹",
+    "meaning": "wail",
+    "onyomi": [
+      "あい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N1",
+    "radicals": [
+      "殹"
+    ],
+    "examples": [
+      {
+        "word": "殹",
+        "reading": "あい",
+        "meaning": "wail"
+      }
+    ]
+  },
+  {
+    "id": "kanji-449",
+    "kanji": "殺",
+    "meaning": "kill",
+    "onyomi": [
+      "さつ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N1",
+    "radicals": [
+      "殺"
+    ],
+    "examples": [
+      {
+        "word": "殺",
+        "reading": "さつ",
+        "meaning": "kill"
+      }
+    ]
+  },
+  {
+    "id": "kanji-450",
+    "kanji": "殻",
+    "meaning": "shell",
+    "onyomi": [
+      "から"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N1",
+    "radicals": [
+      "殻"
+    ],
+    "examples": [
+      {
+        "word": "殻",
+        "reading": "から",
+        "meaning": "shell"
+      }
+    ]
+  },
+  {
+    "id": "kanji-451",
+    "kanji": "殼",
+    "meaning": "shell",
+    "onyomi": [
+      "から"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N1",
+    "radicals": [
+      "殼"
+    ],
+    "examples": [
+      {
+        "word": "殼",
+        "reading": "から",
+        "meaning": "shell"
+      }
+    ]
+  },
+  {
+    "id": "kanji-452",
+    "kanji": "殾",
+    "meaning": "grow",
+    "onyomi": [
+      "えい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N1",
+    "radicals": [
+      "殾"
+    ],
+    "examples": [
+      {
+        "word": "殾",
+        "reading": "えい",
+        "meaning": "grow"
+      }
+    ]
+  },
+  {
+    "id": "kanji-453",
+    "kanji": "殿",
+    "meaning": "palace",
+    "onyomi": [
+      "でん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N1",
+    "radicals": [
+      "殿"
+    ],
+    "examples": [
+      {
+        "word": "殿",
+        "reading": "でん",
+        "meaning": "palace"
+      }
+    ]
+  },
+  {
+    "id": "kanji-454",
+    "kanji": "毀",
+    "meaning": "destroy",
+    "onyomi": [
+      "き"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N1",
+    "radicals": [
+      "毀"
+    ],
+    "examples": [
+      {
+        "word": "毀",
+        "reading": "き",
+        "meaning": "destroy"
+      }
+    ]
+  },
+  {
+    "id": "kanji-455",
+    "kanji": "毁",
+    "meaning": "destroy",
+    "onyomi": [
+      "き"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N1",
+    "radicals": [
+      "毁"
+    ],
+    "examples": [
+      {
+        "word": "毁",
+        "reading": "き",
+        "meaning": "destroy"
+      }
+    ]
+  },
+  {
+    "id": "kanji-456",
+    "kanji": "毂",
+    "meaning": "hub",
+    "onyomi": [
+      "こく"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N1",
+    "radicals": [
+      "毂"
+    ],
+    "examples": [
+      {
+        "word": "毂",
+        "reading": "こく",
+        "meaning": "hub"
+      }
+    ]
+  },
+  {
+    "id": "kanji-457",
+    "kanji": "毃",
+    "meaning": "beard",
+    "onyomi": [
+      "あご"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N1",
+    "radicals": [
+      "毃"
+    ],
+    "examples": [
+      {
+        "word": "毃",
+        "reading": "あご",
+        "meaning": "beard"
+      }
+    ]
+  },
+  {
+    "id": "kanji-458",
+    "kanji": "毄",
+    "meaning": "pluck",
+    "onyomi": [
+      "そう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N1",
+    "radicals": [
+      "毄"
+    ],
+    "examples": [
+      {
+        "word": "毄",
+        "reading": "そう",
+        "meaning": "pluck"
+      }
+    ]
+  },
+  {
+    "id": "kanji-459",
+    "kanji": "毅",
+    "meaning": "courageous",
+    "onyomi": [
+      "き"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N1",
+    "radicals": [
+      "毅"
+    ],
+    "examples": [
+      {
+        "word": "毅",
+        "reading": "き",
+        "meaning": "courageous"
+      }
+    ]
+  },
+  {
+    "id": "kanji-460",
+    "kanji": "毆",
+    "meaning": "beat",
+    "onyomi": [
+      "おう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N1",
+    "radicals": [
+      "毆"
+    ],
+    "examples": [
+      {
+        "word": "毆",
+        "reading": "おう",
+        "meaning": "beat"
+      }
+    ]
+  },
+  {
+    "id": "kanji-461",
+    "kanji": "毈",
+    "meaning": "hair",
+    "onyomi": [
+      "もう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N1",
+    "radicals": [
+      "毈"
+    ],
+    "examples": [
+      {
+        "word": "毈",
+        "reading": "もう",
+        "meaning": "hair"
+      }
+    ]
+  },
+  {
+    "id": "kanji-462",
+    "kanji": "毉",
+    "meaning": "doctor",
+    "onyomi": [
+      "い"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N1",
+    "radicals": [
+      "毉"
+    ],
+    "examples": [
+      {
+        "word": "毉",
+        "reading": "い",
+        "meaning": "doctor"
+      }
+    ]
+  },
+  {
+    "id": "kanji-463",
+    "kanji": "毊",
+    "meaning": "rough",
+    "onyomi": [
+      "ぞく"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N1",
+    "radicals": [
+      "毊"
+    ],
+    "examples": [
+      {
+        "word": "毊",
+        "reading": "ぞく",
+        "meaning": "rough"
+      }
+    ]
+  },
+  {
+    "id": "kanji-464",
+    "kanji": "毋",
+    "meaning": "mother",
+    "onyomi": [
+      "ぼ"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N1",
+    "radicals": [
+      "毋"
+    ],
+    "examples": [
+      {
+        "word": "毋",
+        "reading": "ぼ",
+        "meaning": "mother"
+      }
+    ]
+  },
+  {
+    "id": "kanji-465",
+    "kanji": "毌",
+    "meaning": "connect",
+    "onyomi": [
+      "かん"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N1",
+    "radicals": [
+      "毌"
+    ],
+    "examples": [
+      {
+        "word": "毌",
+        "reading": "かん",
+        "meaning": "connect"
+      }
+    ]
+  },
+  {
+    "id": "kanji-466",
+    "kanji": "母",
+    "meaning": "hair",
+    "onyomi": [
+      "もう"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N1",
+    "radicals": [
+      "母"
+    ],
+    "examples": [
+      {
+        "word": "母",
+        "reading": "もう",
+        "meaning": "hair"
+      }
+    ]
+  },
+  {
+    "id": "kanji-467",
+    "kanji": "毎",
+    "meaning": "every",
+    "onyomi": [
+      "まい"
+    ],
+    "kunyomi": [],
+    "strokes": 4,
+    "jlpt": "N1",
+    "radicals": [
+      "毎"
+    ],
+    "examples": [
+      {
+        "word": "毎",
+        "reading": "まい",
+        "meaning": "every"
+      }
+    ]
+  }
+]

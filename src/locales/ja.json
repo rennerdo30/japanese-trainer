@@ -1,0 +1,106 @@
+{
+  "common": {
+    "start": "開始",
+    "next": "次へ",
+    "previous": "前へ",
+    "back": "戻る",
+    "dashboard": "ダッシュボード",
+    "check": "確認",
+    "submit": "送信",
+    "play": "再生",
+    "loading": "読み込み中...",
+    "correct": "正解",
+    "incorrect": "不正解",
+    "total": "合計",
+    "streak": "連続"
+  },
+  "modules": {
+    "alphabet": {
+      "title": "アルファベット",
+      "description": "ひらがなとカタカナをマスター"
+    },
+    "vocabulary": {
+      "title": "語彙",
+      "description": "日本語の単語を学ぶ"
+    },
+    "kanji": {
+      "title": "漢字",
+      "description": "漢字をマスター"
+    },
+    "grammar": {
+      "title": "文法",
+      "description": "文型を学ぶ"
+    },
+    "reading": {
+      "title": "読解",
+      "description": "理解力を練習"
+    },
+    "listening": {
+      "title": "リスニング",
+      "description": "リスニング力を向上"
+    }
+  },
+  "alphabet": {
+    "hiragana": "ひらがな",
+    "katakana": "カタカナ",
+    "filters": {
+      "gojuon": "五十音",
+      "yoon": "拗音",
+      "dakuten": "濁音"
+    },
+    "noCharacters": "現在のフィルターで利用可能な文字がありません。"
+  },
+  "vocabulary": {
+    "practiceMode": "練習モード",
+    "typeMeaning": "意味またはローマ字を入力...",
+    "noWords": "利用可能な単語がありません。",
+    "typeWord": "日本語の単語を入力..."
+  },
+  "kanji": {
+    "practiceMeaning": "意味",
+    "practiceReading": "読み",
+    "typeMeaningOrReading": "意味または読みを入力...",
+    "noKanji": "利用可能な漢字がありません。",
+    "onyomi": "音読み",
+    "kunyomi": "訓読み"
+  },
+  "grammar": {
+    "checkAnswer": "答えを確認",
+    "practice": "練習",
+    "noGrammar": "利用可能な文法がありません。",
+    "noExercises": "この文法ポイントには利用可能な練習がありません。"
+  },
+  "reading": {
+    "showFurigana": "ふりがな",
+    "show": "表示",
+    "hide": "非表示",
+    "showQuestions": "質問を表示",
+    "checkAnswers": "答えを確認",
+    "vocabulary": "語彙",
+    "comprehensionQuestions": "理解問題",
+    "textsRead": "読んだテキスト",
+    "noReadings": "利用可能な読解がありません。"
+  },
+  "listening": {
+    "playAudio": "音声を再生",
+    "typeWhatYouHear": "聞いた内容を入力：",
+    "typeJapaneseText": "ここに日本語のテキストを入力...",
+    "checkAnswer": "答えを確認",
+    "showTranscript": "転写を表示",
+    "hideTranscript": "転写を非表示",
+    "noExercises": "利用可能な練習がありません。"
+  },
+  "dashboard": {
+    "title": "日本語トレーナー",
+    "subtitle": "学ぶ - 日本語を学ぶ",
+    "dayStreak": "連続日数",
+    "wordsLearned": "学習した単語",
+    "kanjiMastered": "マスターした漢字",
+    "studyTime": "学習時間（分）"
+  },
+  "stats": {
+    "correct": "正解",
+    "total": "合計",
+    "streak": "連続"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "common": {
+    "start": "Start",
+    "next": "Next",
+    "previous": "Previous",
+    "back": "Back",
+    "dashboard": "Dashboard",
+    "check": "Check",
+    "submit": "Submit",
+    "play": "Play",
+    "loading": "Loading...",
+    "correct": "Correct",
+    "incorrect": "Incorrect",
+    "total": "Total",
+    "streak": "Streak"
+  },
+  "modules": {
+    "alphabet": {
+      "title": "Alphabet",
+      "description": "Master Hiragana & Katakana"
+    },
+    "vocabulary": {
+      "title": "Vocabulary",
+      "description": "Learn Japanese words"
+    },
+    "kanji": {
+      "title": "Kanji",
+      "description": "Master Chinese characters"
+    },
+    "grammar": {
+      "title": "Grammar",
+      "description": "Learn sentence patterns"
+    },
+    "reading": {
+      "title": "Reading",
+      "description": "Practice comprehension"
+    },
+    "listening": {
+      "title": "Listening",
+      "description": "Improve your listening"
+    }
+  },
+  "alphabet": {
+    "hiragana": "Hiragana",
+    "katakana": "Katakana",
+    "filters": {
+      "gojuon": "Gojūon",
+      "yoon": "Yōon",
+      "dakuten": "Dakuten"
+    },
+    "noCharacters": "No characters available with current filters."
+  },
+  "vocabulary": {
+    "practiceMode": "Practice Mode",
+    "typeMeaning": "Type meaning or romaji...",
+    "typeWord": "Type the Japanese word...",
+    "noWords": "No words available."
+  },
+  "kanji": {
+    "practiceMeaning": "Meaning",
+    "practiceReading": "Reading",
+    "typeMeaningOrReading": "Type meaning or reading...",
+    "noKanji": "No kanji available.",
+    "onyomi": "音読み",
+    "kunyomi": "訓読み"
+  },
+  "grammar": {
+    "checkAnswer": "Check Answer",
+    "practice": "Practice",
+    "noGrammar": "No grammar available.",
+    "noExercises": "No exercises available for this grammar point."
+  },
+  "reading": {
+    "showFurigana": "Furigana",
+    "show": "Show",
+    "hide": "Hide",
+    "showQuestions": "Show Questions",
+    "checkAnswers": "Check Answers",
+    "vocabulary": "Vocabulary",
+    "comprehensionQuestions": "Comprehension Questions",
+    "textsRead": "Texts Read",
+    "noReadings": "No readings available."
+  },
+  "listening": {
+    "playAudio": "Play Audio",
+    "typeWhatYouHear": "Type what you hear:",
+    "typeJapaneseText": "Type the Japanese text here...",
+    "checkAnswer": "Check Answer",
+    "showTranscript": "Show Transcript",
+    "hideTranscript": "Hide Transcript",
+    "noExercises": "No exercises available."
+  },
+  "dashboard": {
+    "title": "Japanese Trainer",
+    "subtitle": "学ぶ - Learn Japanese",
+    "dayStreak": "Day Streak",
+    "wordsLearned": "Words Learned",
+    "kanjiMastered": "Kanji Mastered",
+    "studyTime": "Study Time (min)"
+  },
+  "stats": {
+    "correct": "Correct",
+    "total": "Total",
+    "streak": "streak"
+  }
+}

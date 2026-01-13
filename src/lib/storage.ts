@@ -1,0 +1,252 @@
+// localStorage wrapper for progress tracking
+// Designed for easy migration to backend API
+
+import { ModuleData, ModuleStats } from '@/types';
+
+const STORAGE_KEY = 'japanese_trainer_data';
+const USER_ID_KEY = 'japanese_trainer_user_id';
+
+export interface StorageData {
+    userId: string;
+    modules: Record<string, ModuleData>;
+    globalStats: {
+        streak: number;
+        bestStreak: number;
+        totalStudyTime: number;
+        lastActive: number | null;
+        createdAt: number;
+    };
+}
+
+// Migrate old profile-based data format
+function migrateOldData(): void {
+    if (typeof window === 'undefined') return;
+    
+    // Check for old profile-based keys and migrate to single key
+    const oldProfileKey = localStorage.getItem('japanese_trainer_current_profile');
+    if (oldProfileKey) {
+        const oldProfileDataKey = `japanese_trainer_data_${oldProfileKey}`;
+        const oldProfileUserIdKey = `japanese_trainer_user_id_${oldProfileKey}`;
+        
+        const oldData = localStorage.getItem(oldProfileDataKey);
+        if (oldData && !localStorage.getItem(STORAGE_KEY)) {
+            localStorage.setItem(STORAGE_KEY, oldData);
+        }
+        
+        const oldUserId = localStorage.getItem(oldProfileUserIdKey);
+        if (oldUserId && !localStorage.getItem(USER_ID_KEY)) {
+            localStorage.setItem(USER_ID_KEY, oldUserId);
+        }
+        
+        // Clean up old keys
+        localStorage.removeItem(oldProfileDataKey);
+        localStorage.removeItem(oldProfileUserIdKey);
+        localStorage.removeItem('japanese_trainer_current_profile');
+    }
+}
+
+// Generate or retrieve user ID
+export function getUserId(): string {
+    if (typeof window === 'undefined') return 'server-user';
+    
+    // Migrate old data on first access
+    migrateOldData();
+    
+    let userId = localStorage.getItem(USER_ID_KEY);
+    if (!userId) {
+        userId = 'local-user-' + Date.now();
+        localStorage.setItem(USER_ID_KEY, userId);
+    }
+    return userId;
+}
+
+// Get default data structure
+function getDefaultData(): StorageData {
+    return {
+        userId: getUserId(),
+        modules: {
+            alphabet: {
+                learned: [],
+                reviews: {},
+                stats: {
+                    correct: 0,
+                    total: 0,
+                    streak: 0,
+                    bestStreak: 0
+                }
+            },
+            vocabulary: {
+                learned: [],
+                reviews: {},
+                stats: {
+                    correct: 0,
+                    total: 0,
+                    streak: 0,
+                    bestStreak: 0,
+                    wordsMastered: 0
+                }
+            },
+            kanji: {
+                learned: [],
+                reviews: {},
+                stats: {
+                    correct: 0,
+                    total: 0,
+                    streak: 0,
+                    bestStreak: 0,
+                    kanjiMastered: 0
+                }
+            },
+            grammar: {
+                learned: [],
+                reviews: {},
+                stats: {
+                    correct: 0,
+                    total: 0,
+                    streak: 0,
+                    bestStreak: 0,
+                    pointsMastered: 0
+                }
+            },
+            reading: {
+                stats: {
+                    correct: 0,
+                    total: 0,
+                    streak: 0,
+                    textsRead: 0,
+                    comprehensionScore: 0,
+                    totalAttempts: 0
+                },
+                completed: []
+            },
+            listening: {
+                stats: {
+                    correct: 0,
+                    total: 0,
+                    streak: 0,
+                    exercisesCompleted: 0,
+                    accuracy: 0
+                },
+                completed: []
+            }
+        },
+        globalStats: {
+            streak: 0,
+            bestStreak: 0,
+            totalStudyTime: 0,
+            lastActive: null,
+            createdAt: Date.now()
+        }
+    };
+}
+
+// Get all stored data
+export function getAllData(): StorageData {
+    if (typeof window === 'undefined') return getDefaultData();
+    
+    // Migrate old data on first access
+    migrateOldData();
+    
+    try {
+        const data = localStorage.getItem(STORAGE_KEY);
+        return data ? JSON.parse(data) : getDefaultData();
+    } catch (e) {
+        console.error('Error reading storage:', e);
+        return getDefaultData();
+    }
+}
+
+// Save all data
+export function saveAllData(data: StorageData): boolean {
+    if (typeof window === 'undefined') return false;
+    try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+        return true;
+    } catch (e) {
+        console.error('Error saving storage:', e);
+        return false;
+    }
+}
+
+// Get module data
+export function getModuleData(moduleName: string): ModuleData {
+    const data = getAllData();
+    if (!data.modules[moduleName]) {
+        const defaultData = getDefaultData();
+        data.modules[moduleName] = defaultData.modules[moduleName] || {
+            learned: [],
+            reviews: {},
+            stats: {
+                correct: 0,
+                total: 0,
+                streak: 0
+            }
+        };
+        saveAllData(data);
+    }
+    return data.modules[moduleName];
+}
+
+// Save module data
+export function saveModuleData(moduleName: string, moduleData: ModuleData): boolean {
+    const data = getAllData();
+    data.modules[moduleName] = moduleData;
+    return saveAllData(data);
+}
+
+// Get global stats
+export function getGlobalStats(): StorageData['globalStats'] {
+    const data = getAllData();
+    return data.globalStats;
+}
+
+// Update global stats
+export function updateGlobalStats(updates: Partial<StorageData['globalStats']>): boolean {
+    const data = getAllData();
+    data.globalStats = { ...data.globalStats, ...updates };
+    data.globalStats.lastActive = Date.now();
+    return saveAllData(data);
+}
+
+// Update module stats
+export function updateModuleStats(moduleName: string, statUpdates: Partial<ModuleStats>): boolean {
+    const moduleData = getModuleData(moduleName);
+    moduleData.stats = { ...moduleData.stats, ...statUpdates };
+    return saveModuleData(moduleName, moduleData);
+}
+
+// Mark item as learned
+export function markLearned(moduleName: string, itemId: string): boolean {
+    const moduleData = getModuleData(moduleName);
+    if (!moduleData.learned.includes(itemId)) {
+        moduleData.learned.push(itemId);
+        return saveModuleData(moduleName, moduleData);
+    }
+    return true;
+}
+
+// Check if item is learned
+export function isLearned(moduleName: string, itemId: string): boolean {
+    const moduleData = getModuleData(moduleName);
+    return moduleData.learned.includes(itemId);
+}
+
+// Get review data for an item
+export function getReviewData(moduleName: string, itemId: string): any {
+    const moduleData = getModuleData(moduleName);
+    return moduleData.reviews[itemId] || null;
+}
+
+// Save review data for an item
+export function saveReviewData(moduleName: string, itemId: string, reviewData: any): boolean {
+    const moduleData = getModuleData(moduleName);
+    moduleData.reviews[itemId] = reviewData;
+    return saveModuleData(moduleName, moduleData);
+}
+
+// Clear all data (for testing/reset)
+export function clearAllData(): void {
+    if (typeof window === 'undefined') return;
+    localStorage.removeItem(STORAGE_KEY);
+    localStorage.removeItem(USER_ID_KEY);
+}

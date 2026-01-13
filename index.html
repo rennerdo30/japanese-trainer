@@ -3,18 +3,196 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Japanese Trainer - Learn Hiragana & Katakana</title>
-    <meta name="description" content="Master Japanese Hiragana and Katakana through interactive practice. A beautiful, distraction-free learning experience.">
+    <title>Japanese Trainer - Dashboard</title>
+    <meta name="description" content="Comprehensive Japanese learning platform. Master Hiragana, Katakana, Vocabulary, Kanji, Grammar, Reading, and Listening.">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="landing">
-        <span class="landing-kanji">学</span>
+    <div class="dashboard-container">
+        <header class="dashboard-header">
+            <h1 class="dashboard-title">Japanese Trainer</h1>
+            <p class="dashboard-subtitle">学ぶ - Learn Japanese</p>
+        </header>
 
-        <h1 class="landing-title">Japanese Trainer</h1>
-        <p class="landing-subtitle">Master the Kana</p>
+        <div class="stats-overview" id="stats-overview">
+            <div class="stat-card">
+                <div class="stat-icon">🔥</div>
+                <div class="stat-value" id="streak-value">0</div>
+                <div class="stat-label">Day Streak</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">📚</div>
+                <div class="stat-value" id="words-value">0</div>
+                <div class="stat-label">Words Learned</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">字</div>
+                <div class="stat-value" id="kanji-value">0</div>
+                <div class="stat-label">Kanji Mastered</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">⏱️</div>
+                <div class="stat-value" id="time-value">0</div>
+                <div class="stat-label">Study Time (min)</div>
+            </div>
+        </div>
 
-        <a href="learn_alphabet.html" class="start-button">Begin Practice</a>
+        <div class="modules-grid">
+            <a href="learn_alphabet.html" class="module-card">
+                <div class="module-icon">あ</div>
+                <h2 class="module-title">Alphabet</h2>
+                <p class="module-description">Master Hiragana & Katakana</p>
+                <div class="module-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="alphabet-progress" style="width: 0%"></div>
+                    </div>
+                    <span class="progress-text" id="alphabet-progress-text">0%</span>
+                </div>
+            </a>
+
+            <a href="vocabulary.html" class="module-card">
+                <div class="module-icon">📖</div>
+                <h2 class="module-title">Vocabulary</h2>
+                <p class="module-description">Learn Japanese words</p>
+                <div class="module-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="vocabulary-progress" style="width: 0%"></div>
+                    </div>
+                    <span class="progress-text" id="vocabulary-progress-text">0%</span>
+                </div>
+            </a>
+
+            <a href="kanji.html" class="module-card">
+                <div class="module-icon">字</div>
+                <h2 class="module-title">Kanji</h2>
+                <p class="module-description">Master Chinese characters</p>
+                <div class="module-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="kanji-progress" style="width: 0%"></div>
+                    </div>
+                    <span class="progress-text" id="kanji-progress-text">0%</span>
+                </div>
+            </a>
+
+            <a href="grammar.html" class="module-card">
+                <div class="module-icon">📝</div>
+                <h2 class="module-title">Grammar</h2>
+                <p class="module-description">Learn sentence patterns</p>
+                <div class="module-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="grammar-progress" style="width: 0%"></div>
+                    </div>
+                    <span class="progress-text" id="grammar-progress-text">0%</span>
+                </div>
+            </a>
+
+            <a href="reading.html" class="module-card">
+                <div class="module-icon">📄</div>
+                <h2 class="module-title">Reading</h2>
+                <p class="module-description">Practice comprehension</p>
+                <div class="module-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="reading-progress" style="width: 0%"></div>
+                    </div>
+                    <span class="progress-text" id="reading-progress-text">0%</span>
+                </div>
+            </a>
+
+            <a href="listening.html" class="module-card">
+                <div class="module-icon">🎧</div>
+                <h2 class="module-title">Listening</h2>
+                <p class="module-description">Improve your listening</p>
+                <div class="module-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="listening-progress" style="width: 0%"></div>
+                    </div>
+                    <span class="progress-text" id="listening-progress-text">0%</span>
+                </div>
+            </a>
+        </div>
     </div>
+
+    <script src="utils/storage.js"></script>
+    <script src="utils/progress.js"></script>
+    <script>
+        // Load and display progress
+        function loadProgress() {
+            // Update streak
+            const streak = updateStreak();
+            document.getElementById('streak-value').textContent = streak;
+
+            // Get progress summary
+            const summary = getProgressSummary();
+            document.getElementById('words-value').textContent = summary.totalWords;
+            document.getElementById('kanji-value').textContent = summary.totalKanji;
+            document.getElementById('time-value').textContent = Math.round(summary.totalStudyTime / 60);
+
+            // Update module progress bars
+            // Alphabet: based on characters learned (assuming ~112 total)
+            const alphabetProgress = getModuleProgress('alphabet', 112);
+            document.getElementById('alphabet-progress').style.width = alphabetProgress + '%';
+            document.getElementById('alphabet-progress-text').textContent = alphabetProgress + '%';
+
+            // Vocabulary: load from JSON to get total count
+            fetch('vocabulary.json')
+                .then(res => res.json())
+                .then(data => {
+                    const vocabProgress = getModuleProgress('vocabulary', data.length);
+                    document.getElementById('vocabulary-progress').style.width = vocabProgress + '%';
+                    document.getElementById('vocabulary-progress-text').textContent = vocabProgress + '%';
+                })
+                .catch(() => {
+                    document.getElementById('vocabulary-progress').style.width = '0%';
+                });
+
+            // Kanji: load from JSON
+            fetch('kanji.json')
+                .then(res => res.json())
+                .then(data => {
+                    const kanjiProgress = getModuleProgress('kanji', data.length);
+                    document.getElementById('kanji-progress').style.width = kanjiProgress + '%';
+                    document.getElementById('kanji-progress-text').textContent = kanjiProgress + '%';
+                })
+                .catch(() => {
+                    document.getElementById('kanji-progress').style.width = '0%';
+                });
+
+            // Grammar: load from JSON
+            fetch('grammar.json')
+                .then(res => res.json())
+                .then(data => {
+                    const grammarProgress = getModuleProgress('grammar', data.length);
+                    document.getElementById('grammar-progress').style.width = grammarProgress + '%';
+                    document.getElementById('grammar-progress-text').textContent = grammarProgress + '%';
+                })
+                .catch(() => {
+                    document.getElementById('grammar-progress').style.width = '0%';
+                });
+
+            // Reading: based on completed texts
+            const readingData = getModuleData('reading');
+            fetch('readings.json')
+                .then(res => res.json())
+                .then(data => {
+                    const completed = readingData.completed?.length || 0;
+                    const readingProgress = data.length > 0 ? Math.round((completed / data.length) * 100) : 0;
+                    document.getElementById('reading-progress').style.width = readingProgress + '%';
+                    document.getElementById('reading-progress-text').textContent = readingProgress + '%';
+                })
+                .catch(() => {
+                    document.getElementById('reading-progress').style.width = '0%';
+                });
+
+            // Listening: based on completed exercises
+            const listeningData = getModuleData('listening');
+            const listeningCompleted = listeningData.completed?.length || 0;
+            const listeningProgress = listeningCompleted > 0 ? Math.min(100, listeningCompleted * 10) : 0;
+            document.getElementById('listening-progress').style.width = listeningProgress + '%';
+            document.getElementById('listening-progress-text').textContent = listeningProgress + '%';
+        }
+
+        // Initialize on load
+        document.addEventListener('DOMContentLoaded', loadProgress);
+    </script>
 </body>
 </html>

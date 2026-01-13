@@ -17,29 +17,41 @@ A lightweight, browser-based Japanese alphabet learning application. Practice re
   - **Mobile**: Multiple choice buttons (4 options) for touch-friendly interaction
 - **Smart Mobile Detection**: Automatically switches to multiple choice on mobile devices
 - **Timer System**: 5-second countdown per character for timed practice
-- **Text-to-Speech**: Automatic pronunciation using Web Speech API
-- **Progress Tracking**: Real-time score display (correct/total)
+- **Text-to-Speech**: High-quality pronunciation using ElevenLabs (Cloud) and Kokoro (Local)
+- **Primary**: ElevenLabs with `eleven_v3` for native Japanese accuracy
+- **Optimized Local**: Kokoro TTS with native Japanese voices and silence optimization
+- **Progress Tracking**: Real-time score display and Convex-backed persistent stats
 - **Streak Counter**: Track consecutive correct answers
-- **No Build Process**: Pure vanilla JavaScript - just open and learn!
 
 ## Tech Stack
 
-- **Vanilla HTML/CSS/JavaScript** - No frameworks or build tools
+- **Next.js** (v16.1.1) - React framework (App Router)
+- **TypeScript** - Type-safe development
 - **Wanakana.js** (v5.0.2) - Hiragana/Katakana conversion library
-- **Web Speech API** - Browser-native text-to-speech
+- **ElevenLabs/Kokoro TTS** - High-quality Japanese text-to-speech
+- **Convex** - Backend for progress and user data
 - **GitHub Pages** - Static hosting
 
 ## Getting Started
 
 ### Local Development
 
-1. Clone the repository:
+1. Clone the repository and install dependencies:
 ```bash
 git clone https://github.com/rennerdo30/japanese-trainer.git
 cd japanese-trainer
+npm install
 ```
 
-2. Open `index.html` in your browser - that's it! No build process required.
+2. Start the development server:
+```bash
+npm run dev
+```
+
+3. Generate audio files (requires ElevenLabs API key or local Kokoro setup):
+```bash
+npm run generate-audio -- --type all --update-json
+```
 
 ### Usage
 

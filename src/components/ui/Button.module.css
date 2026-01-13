@@ -1,0 +1,100 @@
+.button {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.button:focus-visible {
+  outline: 2px solid var(--accent-gold);
+  outline-offset: 2px;
+}
+
+/* Variants */
+.primary {
+  background: linear-gradient(135deg, var(--accent-red) 0%, #a01830 100%);
+  color: var(--text-primary);
+  box-shadow: 0 4px 20px var(--accent-red-glow);
+}
+
+.primary:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px var(--accent-red-glow);
+}
+
+.secondary {
+  background: var(--bg-card);
+  color: var(--text-primary);
+  border: 1px solid var(--border-subtle);
+}
+
+.secondary:hover:not(:disabled) {
+  border-color: var(--accent-gold);
+  transform: translateY(-2px);
+}
+
+.success {
+  background: var(--success);
+  color: var(--text-primary);
+  box-shadow: 0 4px 20px var(--success-glow);
+}
+
+.success:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px var(--success-glow);
+}
+
+.danger {
+  background: var(--accent-red);
+  color: var(--text-primary);
+}
+
+.danger:hover:not(:disabled) {
+  background: #a01830;
+  transform: translateY(-2px);
+}
+
+.ghost {
+  background: transparent;
+  color: var(--text-secondary);
+  border: 1px solid transparent;
+}
+
+.ghost:hover:not(:disabled) {
+  background: var(--bg-card);
+  border-color: var(--border-subtle);
+  color: var(--text-primary);
+}
+
+/* Sizes */
+.sm {
+  padding: 0.5rem 1rem;
+  font-size: 0.85rem;
+}
+
+.md {
+  padding: 0.75rem 1.5rem;
+  font-size: 0.9rem;
+}
+
+.lg {
+  padding: 1.25rem 3rem;
+  font-size: 1.125rem;
+}
+
+.fullWidth {
+  width: 100%;
+}

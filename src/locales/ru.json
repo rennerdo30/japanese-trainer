@@ -1,0 +1,104 @@
+{
+  "common": {
+    "start": "Начать",
+    "next": "Следующий",
+    "previous": "Предыдущий",
+    "back": "Назад",
+    "dashboard": "Панель",
+    "check": "Проверить",
+    "submit": "Отправить",
+    "play": "Воспроизвести",
+    "loading": "Загрузка...",
+    "correct": "Правильно",
+    "incorrect": "Неправильно",
+    "total": "Всего",
+    "streak": "Серия"
+  },
+  "modules": {
+    "alphabet": {
+      "title": "Алфавит",
+      "description": "Освойте Хирагану и Катакану"
+    },
+    "vocabulary": {
+      "title": "Словарь",
+      "description": "Изучайте японские слова"
+    },
+    "kanji": {
+      "title": "Кандзи",
+      "description": "Освойте китайские иероглифы"
+    },
+    "grammar": {
+      "title": "Грамматика",
+      "description": "Изучайте структуры предложений"
+    },
+    "reading": {
+      "title": "Чтение",
+      "description": "Практикуйте понимание"
+    },
+    "listening": {
+      "title": "Аудирование",
+      "description": "Улучшите понимание на слух"
+    }
+  },
+  "alphabet": {
+    "hiragana": "Хирагана",
+    "katakana": "Катакана",
+    "filters": {
+      "gojuon": "Годзюон",
+      "yoon": "Ёон",
+      "dakuten": "Дакутэн"
+    },
+    "noCharacters": "Нет доступных символов с текущими фильтрами."
+  },
+  "vocabulary": {
+    "practiceMode": "Режим Практики",
+    "typeMeaning": "Введите значение или ромадзи...",
+    "typeWord": "Введите японское слово...",
+    "noWords": "Нет доступных слов."
+  },
+  "kanji": {
+    "practiceMeaning": "Значение",
+    "practiceReading": "Чтение",
+    "typeMeaningOrReading": "Введите значение или чтение...",
+    "noKanji": "Нет доступных кандзи.",
+    "onyomi": "音読み",
+    "kunyomi": "訓読み"
+  },
+  "grammar": {
+    "checkAnswer": "Проверить Ответ",
+    "practice": "Практиковать",
+    "noGrammar": "Нет доступной грамматики.",
+    "noExercises": "Нет доступных упражнений для этого грамматического пункта."
+  },
+  "reading": {
+    "showFurigana": "Показать Фуригану",
+    "showQuestions": "Показать Вопросы",
+    "checkAnswers": "Проверить Ответы",
+    "vocabulary": "Словарь",
+    "comprehensionQuestions": "Вопросы на Понимание",
+    "textsRead": "Прочитанные Тексты",
+    "noReadings": "Нет доступных текстов."
+  },
+  "listening": {
+    "playAudio": "Воспроизвести Аудио",
+    "typeWhatYouHear": "Введите то, что вы слышите:",
+    "typeJapaneseText": "Введите японский текст здесь...",
+    "checkAnswer": "Проверить Ответ",
+    "showTranscript": "Показать Транскрипт",
+    "hideTranscript": "Скрыть Транскрипт",
+    "noExercises": "Нет доступных упражнений."
+  },
+  "dashboard": {
+    "title": "Тренер Японского",
+    "subtitle": "学ぶ - Изучайте Японский",
+    "dayStreak": "Ежедневная Серия",
+    "wordsLearned": "Изученные Слова",
+    "kanjiMastered": "Освоенные Кандзи",
+    "studyTime": "Время Обучения (мин)"
+  },
+  "stats": {
+    "correct": "Правильно",
+    "total": "Всего",
+    "streak": "серия"
+  }
+}

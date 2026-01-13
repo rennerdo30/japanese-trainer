@@ -1,0 +1,49 @@
+.navBack {
+  position: fixed;
+  top: 2rem;
+  left: 2rem;
+  padding: 0.75rem 1.75rem;
+  background: var(--bg-glass);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border);
+  border-radius: 50px;
+  color: var(--text-primary);
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.navBack:hover {
+  border-color: var(--accent-gold);
+  transform: translateX(-4px);
+  box-shadow: 0 8px 25px rgba(212, 165, 116, 0.15);
+  color: var(--accent-gold);
+}
+
+.navBack::before {
+  content: '←';
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.navBack:hover::before {
+  transform: translateX(-2px);
+}
+
+@media (max-width: 640px) {
+  .navBack {
+    top: 1.25rem;
+    left: 1.25rem;
+    padding: 0.6rem 1.25rem;
+    font-size: 0.85rem;
+  }
+}
+

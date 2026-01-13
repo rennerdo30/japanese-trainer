@@ -1,0 +1,104 @@
+{
+  "common": {
+    "start": "Inizia",
+    "next": "Successivo",
+    "previous": "Precedente",
+    "back": "Indietro",
+    "dashboard": "Dashboard",
+    "check": "Verifica",
+    "submit": "Invia",
+    "play": "Riproduci",
+    "loading": "Caricamento...",
+    "correct": "Corretto",
+    "incorrect": "Incorretto",
+    "total": "Totale",
+    "streak": "Serie"
+  },
+  "modules": {
+    "alphabet": {
+      "title": "Alfabeto",
+      "description": "Padroneggia Hiragana e Katakana"
+    },
+    "vocabulary": {
+      "title": "Vocabolario",
+      "description": "Impara parole giapponesi"
+    },
+    "kanji": {
+      "title": "Kanji",
+      "description": "Padroneggia i caratteri cinesi"
+    },
+    "grammar": {
+      "title": "Grammatica",
+      "description": "Impara modelli di frasi"
+    },
+    "reading": {
+      "title": "Lettura",
+      "description": "Pratica comprensione"
+    },
+    "listening": {
+      "title": "Ascolto",
+      "description": "Migliora la tua comprensione orale"
+    }
+  },
+  "alphabet": {
+    "hiragana": "Hiragana",
+    "katakana": "Katakana",
+    "filters": {
+      "gojuon": "Gojūon",
+      "yoon": "Yōon",
+      "dakuten": "Dakuten"
+    },
+    "noCharacters": "Nessun carattere disponibile con i filtri attuali."
+  },
+  "vocabulary": {
+    "practiceMode": "Modalità Pratica",
+    "typeMeaning": "Digita il significato o romaji...",
+    "typeWord": "Digita la parola giapponese...",
+    "noWords": "Nessuna parola disponibile."
+  },
+  "kanji": {
+    "practiceMeaning": "Significato",
+    "practiceReading": "Lettura",
+    "typeMeaningOrReading": "Digita significato o lettura...",
+    "noKanji": "Nessun kanji disponibile.",
+    "onyomi": "音読み",
+    "kunyomi": "訓読み"
+  },
+  "grammar": {
+    "checkAnswer": "Verifica Risposta",
+    "practice": "Pratica",
+    "noGrammar": "Nessuna grammatica disponibile.",
+    "noExercises": "Nessun esercizio disponibile per questo punto grammaticale."
+  },
+  "reading": {
+    "showFurigana": "Mostra Furigana",
+    "showQuestions": "Mostra Domande",
+    "checkAnswers": "Verifica Risposte",
+    "vocabulary": "Vocabolario",
+    "comprehensionQuestions": "Domande di Comprensione",
+    "textsRead": "Testi Letti",
+    "noReadings": "Nessuna lettura disponibile."
+  },
+  "listening": {
+    "playAudio": "Riproduci Audio",
+    "typeWhatYouHear": "Digita quello che senti:",
+    "typeJapaneseText": "Digita il testo giapponese qui...",
+    "checkAnswer": "Verifica Risposta",
+    "showTranscript": "Mostra Trascrizione",
+    "hideTranscript": "Nascondi Trascrizione",
+    "noExercises": "Nessun esercizio disponibile."
+  },
+  "dashboard": {
+    "title": "Allenatore di Giapponese",
+    "subtitle": "学ぶ - Impara Giapponese",
+    "dayStreak": "Serie Giornaliera",
+    "wordsLearned": "Parole Apprese",
+    "kanjiMastered": "Kanji Padroneggiati",
+    "studyTime": "Tempo di Studio (min)"
+  },
+  "stats": {
+    "correct": "Corretto",
+    "total": "Totale",
+    "streak": "serie"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "common": {
+    "start": "开始",
+    "next": "下一个",
+    "previous": "上一个",
+    "back": "返回",
+    "dashboard": "仪表板",
+    "check": "检查",
+    "submit": "提交",
+    "play": "播放",
+    "loading": "加载中...",
+    "correct": "正确",
+    "incorrect": "错误",
+    "total": "总计",
+    "streak": "连胜"
+  },
+  "modules": {
+    "alphabet": {
+      "title": "字母表",
+      "description": "掌握平假名和片假名"
+    },
+    "vocabulary": {
+      "title": "词汇",
+      "description": "学习日语单词"
+    },
+    "kanji": {
+      "title": "汉字",
+      "description": "掌握汉字"
+    },
+    "grammar": {
+      "title": "语法",
+      "description": "学习句型"
+    },
+    "reading": {
+      "title": "阅读",
+      "description": "练习理解"
+    },
+    "listening": {
+      "title": "听力",
+      "description": "提高听力"
+    }
+  },
+  "alphabet": {
+    "hiragana": "平假名",
+    "katakana": "片假名",
+    "filters": {
+      "gojuon": "五十音",
+      "yoon": "拗音",
+      "dakuten": "浊音"
+    },
+    "noCharacters": "当前筛选条件下没有可用字符。"
+  },
+  "vocabulary": {
+    "practiceMode": "练习模式",
+    "typeMeaning": "输入意思或罗马音...",
+    "typeWord": "输入日语单词...",
+    "noWords": "没有可用单词。"
+  },
+  "kanji": {
+    "practiceMeaning": "意思",
+    "practiceReading": "读音",
+    "typeMeaningOrReading": "输入意思或读音...",
+    "noKanji": "没有可用汉字。",
+    "onyomi": "音読み",
+    "kunyomi": "訓読み"
+  },
+  "grammar": {
+    "checkAnswer": "检查答案",
+    "practice": "练习",
+    "noGrammar": "没有可用语法。",
+    "noExercises": "此语法点没有可用练习。"
+  },
+  "reading": {
+    "showFurigana": "显示假名",
+    "showQuestions": "显示问题",
+    "checkAnswers": "检查答案",
+    "vocabulary": "词汇",
+    "comprehensionQuestions": "理解问题",
+    "textsRead": "已读文本",
+    "noReadings": "没有可用阅读材料。"
+  },
+  "listening": {
+    "playAudio": "播放音频",
+    "typeWhatYouHear": "输入你听到的内容：",
+    "typeJapaneseText": "在此输入日语文本...",
+    "checkAnswer": "检查答案",
+    "showTranscript": "显示转录",
+    "hideTranscript": "隐藏转录",
+    "noExercises": "没有可用练习。"
+  },
+  "dashboard": {
+    "title": "日语训练器",
+    "subtitle": "学ぶ - 学习日语",
+    "dayStreak": "连续天数",
+    "wordsLearned": "已学单词",
+    "kanjiMastered": "已掌握汉字",
+    "studyTime": "学习时间（分钟）"
+  },
+  "stats": {
+    "correct": "正确",
+    "total": "总计",
+    "streak": "连胜"
+  }
+}

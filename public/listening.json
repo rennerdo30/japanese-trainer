@@ -1,0 +1,26 @@
+[
+    {
+        "id": "listen-1",
+        "title": "Greetings",
+        "level": "N5",
+        "text": "こんにちは。元気ですか？",
+        "transcript": "こんにちは。元気ですか？",
+        "audioUrl": "/audio/listening/listen-1.mp3"
+    },
+    {
+        "id": "listen-2",
+        "title": "Self Introduction",
+        "level": "N5",
+        "text": "私は学生です。日本語を勉強しています。",
+        "transcript": "私は学生です。日本語を勉強しています。",
+        "audioUrl": "/audio/listening/listen-2.mp3"
+    },
+    {
+        "id": "listen-3",
+        "title": "Daily Routine",
+        "level": "N5",
+        "text": "毎朝七時に起きます。朝ごはんを食べて、学校に行きます。",
+        "transcript": "毎朝七時に起きます。朝ごはんを食べて、学校に行きます。",
+        "audioUrl": "/audio/listening/listen-3.mp3"
+    }
+]

@@ -1,0 +1,2268 @@
+[
+  {
+    "id": "vocab-1",
+    "word": "食べる",
+    "reading": "たべる",
+    "romaji": "taberu",
+    "meaning": "to eat",
+    "meanings": {
+      "en": "to eat",
+      "es": "comer",
+      "zh-CN": "吃",
+      "pt": "comer",
+      "fr": "manger",
+      "de": "essen",
+      "ru": "есть",
+      "ja": "食べる",
+      "ko": "먹다",
+      "it": "mangiare",
+      "ar": "يأكل",
+      "hi": "खाना"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "りんごを食べる",
+        "english": "to eat an apple"
+      }
+    ],
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/18ec1250.mp3"
+  },
+  {
+    "id": "vocab-2",
+    "word": "飲む",
+    "reading": "のむ",
+    "romaji": "nomu",
+    "meaning": "to drink",
+    "meanings": {
+      "en": "to drink",
+      "es": "beber",
+      "zh-CN": "喝",
+      "pt": "beber",
+      "fr": "boire",
+      "de": "trinken",
+      "ru": "пить",
+      "ja": "飲む",
+      "ko": "마시다",
+      "it": "bere",
+      "ar": "يشرب",
+      "hi": "पीना"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "水を飲む",
+        "english": "to drink water"
+      }
+    ],
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/f2ce3363.mp3"
+  },
+  {
+    "id": "vocab-3",
+    "word": "行く",
+    "reading": "いく",
+    "romaji": "iku",
+    "meaning": "to go",
+    "meanings": {
+      "en": "to go",
+      "es": "ir",
+      "zh-CN": "去",
+      "pt": "ir",
+      "fr": "aller",
+      "de": "gehen",
+      "ru": "идти",
+      "ja": "行く",
+      "ko": "가다",
+      "it": "andare",
+      "ar": "يذهب",
+      "hi": "जाना"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "学校に行く",
+        "english": "to go to school"
+      }
+    ],
+    "tags": [
+      "movement",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/18ec1fbe.mp3"
+  },
+  {
+    "id": "vocab-4",
+    "word": "来る",
+    "reading": "くる",
+    "romaji": "kuru",
+    "meaning": "to come",
+    "meanings": {
+      "en": "to come",
+      "es": "venir",
+      "zh-CN": "来",
+      "pt": "vir",
+      "fr": "venir",
+      "de": "kommen",
+      "ru": "приходить",
+      "ja": "来る",
+      "ko": "오다",
+      "it": "venire",
+      "ar": "يأتي",
+      "hi": "आना"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "日本に来る",
+        "english": "to come to Japan"
+      }
+    ],
+    "tags": [
+      "movement",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/42cccde0.mp3"
+  },
+  {
+    "id": "vocab-5",
+    "word": "見る",
+    "reading": "みる",
+    "romaji": "miru",
+    "meaning": "to see, to watch",
+    "meanings": {
+      "en": "to see, to watch",
+      "es": "ver, mirar",
+      "zh-CN": "看",
+      "pt": "ver, assistir",
+      "fr": "voir, regarder",
+      "de": "sehen, schauen",
+      "ru": "видеть, смотреть",
+      "ja": "見る",
+      "ko": "보다",
+      "it": "vedere, guardare",
+      "ar": "يرى، يشاهد",
+      "hi": "देखना"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "テレビを見る",
+        "english": "to watch TV"
+      }
+    ],
+    "tags": [
+      "action",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/d51c72f5.mp3"
+  },
+  {
+    "id": "vocab-6",
+    "word": "聞く",
+    "reading": "きく",
+    "romaji": "kiku",
+    "meaning": "to hear, to listen, to ask",
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "音楽を聞く",
+        "english": "to listen to music"
+      }
+    ],
+    "tags": [
+      "action",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/63b57110.mp3"
+  },
+  {
+    "id": "vocab-7",
+    "word": "読む",
+    "reading": "よむ",
+    "romaji": "yomu",
+    "meaning": "to read",
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "本を読む",
+        "english": "to read a book"
+      }
+    ],
+    "tags": [
+      "action",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/92ac1728.mp3"
+  },
+  {
+    "id": "vocab-8",
+    "word": "書く",
+    "reading": "かく",
+    "romaji": "kaku",
+    "meaning": "to write",
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "手紙を書く",
+        "english": "to write a letter"
+      }
+    ],
+    "tags": [
+      "action",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/52377d0b.mp3"
+  },
+  {
+    "id": "vocab-9",
+    "word": "話す",
+    "reading": "はなす",
+    "romaji": "hanasu",
+    "meaning": "to speak, to talk",
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "日本語を話す",
+        "english": "to speak Japanese"
+      }
+    ],
+    "tags": [
+      "communication",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/5096c44a.mp3"
+  },
+  {
+    "id": "vocab-10",
+    "word": "勉強する",
+    "reading": "べんきょうする",
+    "romaji": "benkyou suru",
+    "meaning": "to study",
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "日本語を勉強する",
+        "english": "to study Japanese"
+      }
+    ],
+    "tags": [
+      "education",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/e7ec615b.mp3"
+  },
+  {
+    "id": "vocab-11",
+    "word": "学生",
+    "reading": "がくせい",
+    "romaji": "gakusei",
+    "meaning": "student",
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "私は学生です",
+        "english": "I am a student"
+      }
+    ],
+    "tags": [
+      "education",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/1a41e9c7.mp3"
+  },
+  {
+    "id": "vocab-12",
+    "word": "先生",
+    "reading": "せんせい",
+    "romaji": "sensei",
+    "meaning": "teacher",
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "日本語の先生",
+        "english": "Japanese teacher"
+      }
+    ],
+    "tags": [
+      "education",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/a2208fb1.mp3"
+  },
+  {
+    "id": "vocab-13",
+    "word": "学校",
+    "reading": "がっこう",
+    "romaji": "gakkou",
+    "meaning": "school",
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "学校に行く",
+        "english": "to go to school"
+      }
+    ],
+    "tags": [
+      "education",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/4e0a8b3c.mp3"
+  },
+  {
+    "id": "vocab-14",
+    "word": "本",
+    "reading": "ほん",
+    "romaji": "hon",
+    "meaning": "book",
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "本を読む",
+        "english": "to read a book"
+      }
+    ],
+    "tags": [
+      "object",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/472f991e.mp3"
+  },
+  {
+    "id": "vocab-15",
+    "word": "水",
+    "reading": "みず",
+    "romaji": "mizu",
+    "meaning": "water",
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "水を飲む",
+        "english": "to drink water"
+      }
+    ],
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/48ffe753.mp3"
+  },
+  {
+    "id": "vocab-16",
+    "word": "今日",
+    "reading": "きょう",
+    "romaji": "kyou",
+    "meaning": "today",
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "今日は月曜日です",
+        "english": "Today is Monday"
+      }
+    ],
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/6616d55f.mp3"
+  },
+  {
+    "id": "vocab-17",
+    "word": "明日",
+    "reading": "あした",
+    "romaji": "ashita",
+    "meaning": "tomorrow",
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "明日学校に行く",
+        "english": "I will go to school tomorrow"
+      }
+    ],
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/235f8f0d.mp3"
+  },
+  {
+    "id": "vocab-18",
+    "word": "昨日",
+    "reading": "きのう",
+    "romaji": "kinou",
+    "meaning": "yesterday",
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "昨日本を読んだ",
+        "english": "I read a book yesterday"
+      }
+    ],
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/bfd44602.mp3"
+  },
+  {
+    "id": "vocab-19",
+    "word": "大きい",
+    "reading": "おおきい",
+    "romaji": "ookii",
+    "meaning": "big, large",
+    "jlpt": "N5",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "大きい家",
+        "english": "big house"
+      }
+    ],
+    "tags": [
+      "description",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/05130a7f.mp3"
+  },
+  {
+    "id": "vocab-20",
+    "word": "小さい",
+    "reading": "ちいさい",
+    "romaji": "chiisai",
+    "meaning": "small, little",
+    "jlpt": "N5",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "小さい犬",
+        "english": "small dog"
+      }
+    ],
+    "tags": [
+      "description",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/f6b66e15.mp3"
+  },
+  {
+    "id": "vocab-21",
+    "word": "新しい",
+    "reading": "あたらしい",
+    "romaji": "atarashii",
+    "meaning": "new",
+    "jlpt": "N5",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "新しい車",
+        "english": "new car"
+      }
+    ],
+    "tags": [
+      "description",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/b8f01e2d.mp3"
+  },
+  {
+    "id": "vocab-22",
+    "word": "古い",
+    "reading": "ふるい",
+    "romaji": "furui",
+    "meaning": "old",
+    "jlpt": "N5",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "古い建物",
+        "english": "old building"
+      }
+    ],
+    "tags": [
+      "description",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/34693085.mp3"
+  },
+  {
+    "id": "vocab-23",
+    "word": "良い",
+    "reading": "よい",
+    "romaji": "yoi",
+    "meaning": "good",
+    "jlpt": "N5",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "良い天気",
+        "english": "good weather"
+      }
+    ],
+    "tags": [
+      "description",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/005847dd.mp3"
+  },
+  {
+    "id": "vocab-24",
+    "word": "悪い",
+    "reading": "わるい",
+    "romaji": "warui",
+    "meaning": "bad",
+    "jlpt": "N5",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "悪い天気",
+        "english": "bad weather"
+      }
+    ],
+    "tags": [
+      "description",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/12f4a7b8.mp3"
+  },
+  {
+    "id": "vocab-25",
+    "word": "私",
+    "reading": "わたし",
+    "romaji": "watashi",
+    "meaning": "I, me",
+    "jlpt": "N5",
+    "partOfSpeech": "pronoun",
+    "examples": [
+      {
+        "japanese": "私は学生です",
+        "english": "I am a student"
+      }
+    ],
+    "tags": [
+      "pronoun",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/03fa80b7.mp3"
+  },
+  {
+    "id": "vocab-26",
+    "word": "あなた",
+    "reading": "あなた",
+    "romaji": "anata",
+    "meaning": "you",
+    "jlpt": "N5",
+    "partOfSpeech": "pronoun",
+    "examples": [
+      {
+        "japanese": "あなたは学生ですか",
+        "english": "Are you a student?"
+      }
+    ],
+    "tags": [
+      "pronoun",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/390ce496.mp3"
+  },
+  {
+    "id": "vocab-27",
+    "word": "人",
+    "reading": "ひと",
+    "romaji": "hito",
+    "meaning": "person, people",
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "良い人",
+        "english": "good person"
+      }
+    ],
+    "tags": [
+      "people",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/89863048.mp3"
+  },
+  {
+    "id": "vocab-28",
+    "word": "友達",
+    "reading": "ともだち",
+    "romaji": "tomodachi",
+    "meaning": "friend",
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "友達と話す",
+        "english": "to talk with a friend"
+      }
+    ],
+    "tags": [
+      "people",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/02684727.mp3"
+  },
+  {
+    "id": "vocab-29",
+    "word": "家",
+    "reading": "いえ",
+    "romaji": "ie",
+    "meaning": "house, home",
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "家に帰る",
+        "english": "to go home"
+      }
+    ],
+    "tags": [
+      "place",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/e7614f26.mp3"
+  },
+  {
+    "id": "vocab-30",
+    "word": "車",
+    "reading": "くるま",
+    "romaji": "kuruma",
+    "meaning": "car",
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "車で行く",
+        "english": "to go by car"
+      }
+    ],
+    "tags": [
+      "transport",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/3440620f.mp3"
+  },
+  {
+    "id": "vocab-31",
+    "word": "準備する",
+    "reading": "じゅんびする",
+    "romaji": "junbi suru",
+    "meaning": "to prepare",
+    "jlpt": "N4",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "試験の準備をする",
+        "english": "to prepare for an exam"
+      }
+    ],
+    "tags": [
+      "action"
+    ],
+    "audioUrl": "/audio/vocabulary/1873df00.mp3"
+  },
+  {
+    "id": "vocab-32",
+    "word": "経験",
+    "reading": "けいけん",
+    "romaji": "keiken",
+    "meaning": "experience",
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "良い経験",
+        "english": "good experience"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ],
+    "audioUrl": "/audio/vocabulary/b7070614.mp3"
+  },
+  {
+    "id": "vocab-33",
+    "word": "説明する",
+    "reading": "せつめいする",
+    "romaji": "setsumei suru",
+    "meaning": "to explain",
+    "jlpt": "N4",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "問題を説明する",
+        "english": "to explain a problem"
+      }
+    ],
+    "tags": [
+      "communication"
+    ],
+    "audioUrl": "/audio/vocabulary/7e441500.mp3"
+  },
+  {
+    "id": "vocab-34",
+    "word": "環境",
+    "reading": "かんきょう",
+    "romaji": "kankyou",
+    "meaning": "environment",
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "自然環境",
+        "english": "natural environment"
+      }
+    ],
+    "tags": [
+      "nature"
+    ],
+    "audioUrl": "/audio/vocabulary/9a8ae332.mp3"
+  },
+  {
+    "id": "vocab-35",
+    "word": "影響",
+    "reading": "えいきょう",
+    "romaji": "eikyou",
+    "meaning": "influence, effect",
+    "jlpt": "N3",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "環境への影響",
+        "english": "impact on the environment"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ],
+    "audioUrl": "/audio/vocabulary/240d01ea.mp3"
+  },
+  {
+    "id": "vocab-36",
+    "word": "実現する",
+    "reading": "じつげんする",
+    "romaji": "jitsugen suru",
+    "meaning": "to realize, to achieve",
+    "jlpt": "N3",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "夢を実現する",
+        "english": "to realize a dream"
+      }
+    ],
+    "tags": [
+      "action"
+    ],
+    "audioUrl": "/audio/vocabulary/bf678f61.mp3"
+  },
+  {
+    "id": "vocab-37",
+    "word": "改善する",
+    "reading": "かいぜんする",
+    "romaji": "kaizen suru",
+    "meaning": "to improve",
+    "jlpt": "N3",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "サービスを改善する",
+        "english": "to improve service"
+      }
+    ],
+    "tags": [
+      "action"
+    ],
+    "audioUrl": "/audio/vocabulary/ddae6532.mp3"
+  },
+  {
+    "id": "vocab-38",
+    "word": "対応する",
+    "reading": "たいおうする",
+    "romaji": "taiou suru",
+    "meaning": "to respond, to deal with",
+    "jlpt": "N3",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "問題に対応する",
+        "english": "to deal with a problem"
+      }
+    ],
+    "tags": [
+      "action"
+    ],
+    "audioUrl": "/audio/vocabulary/65fe95bb.mp3"
+  },
+  {
+    "id": "vocab-39",
+    "word": "実施する",
+    "reading": "じっしする",
+    "romaji": "jisshi suru",
+    "meaning": "to implement, to carry out",
+    "jlpt": "N2",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "計画を実施する",
+        "english": "to implement a plan"
+      }
+    ],
+    "tags": [
+      "action"
+    ],
+    "audioUrl": "/audio/vocabulary/48744029.mp3"
+  },
+  {
+    "id": "vocab-40",
+    "word": "促進する",
+    "reading": "そくしんする",
+    "romaji": "sokushin suru",
+    "meaning": "to promote, to facilitate",
+    "jlpt": "N2",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "経済成長を促進する",
+        "english": "to promote economic growth"
+      }
+    ],
+    "tags": [
+      "action"
+    ],
+    "audioUrl": "/audio/vocabulary/ed0ea5ea.mp3"
+  },
+  {
+    "id": "vocab-41",
+    "word": "維持する",
+    "reading": "いじする",
+    "romaji": "iji suru",
+    "meaning": "to maintain, to preserve",
+    "jlpt": "N2",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "関係を維持する",
+        "english": "to maintain a relationship"
+      }
+    ],
+    "tags": [
+      "action"
+    ],
+    "audioUrl": "/audio/vocabulary/3354bf43.mp3"
+  },
+  {
+    "id": "vocab-42",
+    "word": "確立する",
+    "reading": "かくりつする",
+    "romaji": "kakuritsu suru",
+    "meaning": "to establish",
+    "jlpt": "N2",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "制度を確立する",
+        "english": "to establish a system"
+      }
+    ],
+    "tags": [
+      "action"
+    ],
+    "audioUrl": "/audio/vocabulary/b5625bc5.mp3"
+  },
+  {
+    "id": "vocab-43",
+    "word": "加速する",
+    "reading": "かそくする",
+    "romaji": "kasoku suru",
+    "meaning": "to accelerate, to speed up",
+    "jlpt": "N1",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "改革を加速する",
+        "english": "to accelerate reform"
+      }
+    ],
+    "tags": [
+      "action"
+    ],
+    "audioUrl": "/audio/vocabulary/aa5e4ad6.mp3"
+  },
+  {
+    "id": "vocab-44",
+    "word": "統合する",
+    "reading": "とうごうする",
+    "romaji": "tougou suru",
+    "meaning": "to integrate, to merge",
+    "jlpt": "N1",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "システムを統合する",
+        "english": "to integrate systems"
+      }
+    ],
+    "tags": [
+      "action"
+    ],
+    "audioUrl": "/audio/vocabulary/55640eb7.mp3"
+  },
+  {
+    "id": "vocab-45",
+    "word": "検証する",
+    "reading": "けんしょうする",
+    "romaji": "kenshou suru",
+    "meaning": "to verify, to validate",
+    "jlpt": "N1",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "仮説を検証する",
+        "english": "to verify a hypothesis"
+      }
+    ],
+    "tags": [
+      "action"
+    ],
+    "audioUrl": "/audio/vocabulary/cdb35a1e.mp3"
+  },
+  {
+    "id": "vocab-46",
+    "word": "最適化する",
+    "reading": "さいてきかする",
+    "romaji": "saitekika suru",
+    "meaning": "to optimize",
+    "meanings": {
+      "en": "to optimize",
+      "es": "optimizar",
+      "zh-CN": "优化",
+      "pt": "otimizar",
+      "fr": "optimiser",
+      "de": "optimieren",
+      "ru": "оптимизировать",
+      "ja": "最適化する",
+      "ko": "최적화하다",
+      "it": "ottimizzare",
+      "ar": "تحسين",
+      "hi": "अनुकूलित करना"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "プロセスを最適化する",
+        "english": "to optimize a process"
+      }
+    ],
+    "tags": [
+      "action"
+    ],
+    "audioUrl": "/audio/vocabulary/be0e0e71.mp3"
+  },
+  {
+    "id": "vocab-47",
+    "word": "読む",
+    "reading": "よむ",
+    "romaji": "yomu",
+    "meaning": "to read",
+    "meanings": {
+      "en": "to read",
+      "es": "leer",
+      "zh-CN": "读",
+      "pt": "ler",
+      "fr": "lire",
+      "de": "lesen",
+      "ru": "читать",
+      "ja": "読む",
+      "ko": "읽다",
+      "it": "leggere",
+      "ar": "يقرأ",
+      "hi": "पढ़ना"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "本を読む",
+        "english": "to read a book"
+      }
+    ],
+    "tags": [
+      "action",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/272484a9.mp3"
+  },
+  {
+    "id": "vocab-48",
+    "word": "書く",
+    "reading": "かく",
+    "romaji": "kaku",
+    "meaning": "to write",
+    "meanings": {
+      "en": "to write",
+      "es": "escribir",
+      "zh-CN": "写",
+      "pt": "escrever",
+      "fr": "écrire",
+      "de": "schreiben",
+      "ru": "писать",
+      "ja": "書く",
+      "ko": "쓰다",
+      "it": "scrivere",
+      "ar": "يكتب",
+      "hi": "लिखना"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "手紙を書く",
+        "english": "to write a letter"
+      }
+    ],
+    "tags": [
+      "action",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/04409d09.mp3"
+  },
+  {
+    "id": "vocab-49",
+    "word": "話す",
+    "reading": "はなす",
+    "romaji": "hanasu",
+    "meaning": "to speak, to talk",
+    "meanings": {
+      "en": "to speak, to talk",
+      "es": "hablar",
+      "zh-CN": "说",
+      "pt": "falar",
+      "fr": "parler",
+      "de": "sprechen",
+      "ru": "говорить",
+      "ja": "話す",
+      "ko": "말하다",
+      "it": "parlare",
+      "ar": "يتحدث",
+      "hi": "बोलना"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "日本語を話す",
+        "english": "to speak Japanese"
+      }
+    ],
+    "tags": [
+      "communication",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/a8fd5124.mp3"
+  },
+  {
+    "id": "vocab-50",
+    "word": "勉強する",
+    "reading": "べんきょうする",
+    "romaji": "benkyou suru",
+    "meaning": "to study",
+    "meanings": {
+      "en": "to study",
+      "es": "estudiar",
+      "zh-CN": "学习",
+      "pt": "estudar",
+      "fr": "étudier",
+      "de": "studieren",
+      "ru": "учиться",
+      "ja": "勉強する",
+      "ko": "공부하다",
+      "it": "studiare",
+      "ar": "يدرس",
+      "hi": "पढ़ाई करना"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "日本語を勉強する",
+        "english": "to study Japanese"
+      }
+    ],
+    "tags": [
+      "education",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/55369bcb.mp3"
+  },
+  {
+    "id": "vocab-51",
+    "word": "学生",
+    "reading": "がくせい",
+    "romaji": "gakusei",
+    "meaning": "student",
+    "meanings": {
+      "en": "student",
+      "es": "estudiante",
+      "zh-CN": "学生",
+      "pt": "estudante",
+      "fr": "étudiant",
+      "de": "Student",
+      "ru": "студент",
+      "ja": "学生",
+      "ko": "학생",
+      "it": "studente",
+      "ar": "طالب",
+      "hi": "छात्र"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "私は学生です",
+        "english": "I am a student"
+      }
+    ],
+    "tags": [
+      "education",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/f6717bfd.mp3"
+  },
+  {
+    "id": "vocab-52",
+    "word": "先生",
+    "reading": "せんせい",
+    "romaji": "sensei",
+    "meaning": "teacher",
+    "meanings": {
+      "en": "teacher",
+      "es": "maestro",
+      "zh-CN": "老师",
+      "pt": "professor",
+      "fr": "enseignant",
+      "de": "Lehrer",
+      "ru": "учитель",
+      "ja": "先生",
+      "ko": "선생님",
+      "it": "insegnante",
+      "ar": "معلم",
+      "hi": "शिक्षक"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "日本語の先生",
+        "english": "Japanese teacher"
+      }
+    ],
+    "tags": [
+      "education",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/35eee352.mp3"
+  },
+  {
+    "id": "vocab-53",
+    "word": "学校",
+    "reading": "がっこう",
+    "romaji": "gakkou",
+    "meaning": "school",
+    "meanings": {
+      "en": "school",
+      "es": "escuela",
+      "zh-CN": "学校",
+      "pt": "escola",
+      "fr": "école",
+      "de": "Schule",
+      "ru": "школа",
+      "ja": "学校",
+      "ko": "학교",
+      "it": "scuola",
+      "ar": "مدرسة",
+      "hi": "स्कूल"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "学校に行く",
+        "english": "to go to school"
+      }
+    ],
+    "tags": [
+      "education",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/611b9ba2.mp3"
+  },
+  {
+    "id": "vocab-54",
+    "word": "本",
+    "reading": "ほん",
+    "romaji": "hon",
+    "meaning": "book",
+    "meanings": {
+      "en": "book",
+      "es": "libro",
+      "zh-CN": "书",
+      "pt": "livro",
+      "fr": "livre",
+      "de": "Buch",
+      "ru": "книга",
+      "ja": "本",
+      "ko": "책",
+      "it": "libro",
+      "ar": "كتاب",
+      "hi": "किताब"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "本を読む",
+        "english": "to read a book"
+      }
+    ],
+    "tags": [
+      "object",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/946bf7ab.mp3"
+  },
+  {
+    "id": "vocab-55",
+    "word": "水",
+    "reading": "みず",
+    "romaji": "mizu",
+    "meaning": "water",
+    "meanings": {
+      "en": "water",
+      "es": "agua",
+      "zh-CN": "水",
+      "pt": "água",
+      "fr": "eau",
+      "de": "Wasser",
+      "ru": "вода",
+      "ja": "水",
+      "ko": "물",
+      "it": "acqua",
+      "ar": "ماء",
+      "hi": "पानी"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "水を飲む",
+        "english": "to drink water"
+      }
+    ],
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/8273c39f.mp3"
+  },
+  {
+    "id": "vocab-56",
+    "word": "今日",
+    "reading": "きょう",
+    "romaji": "kyou",
+    "meaning": "today",
+    "meanings": {
+      "en": "today",
+      "es": "hoy",
+      "zh-CN": "今天",
+      "pt": "hoje",
+      "fr": "aujourd'hui",
+      "de": "heute",
+      "ru": "сегодня",
+      "ja": "今日",
+      "ko": "오늘",
+      "it": "oggi",
+      "ar": "اليوم",
+      "hi": "आज"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "今日は月曜日です",
+        "english": "Today is Monday"
+      }
+    ],
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/1289cc43.mp3"
+  },
+  {
+    "id": "vocab-57",
+    "word": "明日",
+    "reading": "あした",
+    "romaji": "ashita",
+    "meaning": "tomorrow",
+    "meanings": {
+      "en": "tomorrow",
+      "es": "mañana",
+      "zh-CN": "明天",
+      "pt": "amanhã",
+      "fr": "demain",
+      "de": "morgen",
+      "ru": "завтра",
+      "ja": "明日",
+      "ko": "내일",
+      "it": "domani",
+      "ar": "غداً",
+      "hi": "कल"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "明日学校に行く",
+        "english": "I will go to school tomorrow"
+      }
+    ],
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/4d2ce11b.mp3"
+  },
+  {
+    "id": "vocab-58",
+    "word": "昨日",
+    "reading": "きのう",
+    "romaji": "kinou",
+    "meaning": "yesterday",
+    "meanings": {
+      "en": "yesterday",
+      "es": "ayer",
+      "zh-CN": "昨天",
+      "pt": "ontem",
+      "fr": "hier",
+      "de": "gestern",
+      "ru": "вчера",
+      "ja": "昨日",
+      "ko": "어제",
+      "it": "ieri",
+      "ar": "أمس",
+      "hi": "कल"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "昨日本を読んだ",
+        "english": "I read a book yesterday"
+      }
+    ],
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/945e026d.mp3"
+  },
+  {
+    "id": "vocab-59",
+    "word": "大きい",
+    "reading": "おおきい",
+    "romaji": "ookii",
+    "meaning": "big, large",
+    "meanings": {
+      "en": "big, large",
+      "es": "grande",
+      "zh-CN": "大",
+      "pt": "grande",
+      "fr": "grand",
+      "de": "groß",
+      "ru": "большой",
+      "ja": "大きい",
+      "ko": "크다",
+      "it": "grande",
+      "ar": "كبير",
+      "hi": "बड़ा"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "大きい家",
+        "english": "big house"
+      }
+    ],
+    "tags": [
+      "description",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/449553ee.mp3"
+  },
+  {
+    "id": "vocab-60",
+    "word": "小さい",
+    "reading": "ちいさい",
+    "romaji": "chiisai",
+    "meaning": "small, little",
+    "meanings": {
+      "en": "small, little",
+      "es": "pequeño",
+      "zh-CN": "小",
+      "pt": "pequeno",
+      "fr": "petit",
+      "de": "klein",
+      "ru": "маленький",
+      "ja": "小さい",
+      "ko": "작다",
+      "it": "piccolo",
+      "ar": "صغير",
+      "hi": "छोटा"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "小さい犬",
+        "english": "small dog"
+      }
+    ],
+    "tags": [
+      "description",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/d2b7e5aa.mp3"
+  },
+  {
+    "id": "vocab-61",
+    "word": "新しい",
+    "reading": "あたらしい",
+    "romaji": "atarashii",
+    "meaning": "new",
+    "meanings": {
+      "en": "new",
+      "es": "nuevo",
+      "zh-CN": "新",
+      "pt": "novo",
+      "fr": "nouveau",
+      "de": "neu",
+      "ru": "новый",
+      "ja": "新しい",
+      "ko": "새로운",
+      "it": "nuovo",
+      "ar": "جديد",
+      "hi": "नया"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "新しい車",
+        "english": "new car"
+      }
+    ],
+    "tags": [
+      "description",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/180681b1.mp3"
+  },
+  {
+    "id": "vocab-62",
+    "word": "古い",
+    "reading": "ふるい",
+    "romaji": "furui",
+    "meaning": "old",
+    "meanings": {
+      "en": "old",
+      "es": "viejo",
+      "zh-CN": "旧",
+      "pt": "velho",
+      "fr": "vieux",
+      "de": "alt",
+      "ru": "старый",
+      "ja": "古い",
+      "ko": "오래된",
+      "it": "vecchio",
+      "ar": "قديم",
+      "hi": "पुराना"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "古い建物",
+        "english": "old building"
+      }
+    ],
+    "tags": [
+      "description",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/1138ee42.mp3"
+  },
+  {
+    "id": "vocab-63",
+    "word": "良い",
+    "reading": "よい",
+    "romaji": "yoi",
+    "meaning": "good",
+    "meanings": {
+      "en": "good",
+      "es": "bueno",
+      "zh-CN": "好",
+      "pt": "bom",
+      "fr": "bon",
+      "de": "gut",
+      "ru": "хороший",
+      "ja": "良い",
+      "ko": "좋은",
+      "it": "buono",
+      "ar": "جيد",
+      "hi": "अच्छा"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "良い天気",
+        "english": "good weather"
+      }
+    ],
+    "tags": [
+      "description",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/df09e553.mp3"
+  },
+  {
+    "id": "vocab-64",
+    "word": "悪い",
+    "reading": "わるい",
+    "romaji": "warui",
+    "meaning": "bad",
+    "meanings": {
+      "en": "bad",
+      "es": "malo",
+      "zh-CN": "坏",
+      "pt": "ruim",
+      "fr": "mauvais",
+      "de": "schlecht",
+      "ru": "плохой",
+      "ja": "悪い",
+      "ko": "나쁜",
+      "it": "cattivo",
+      "ar": "سيء",
+      "hi": "बुरा"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "adjective",
+    "examples": [
+      {
+        "japanese": "悪い天気",
+        "english": "bad weather"
+      }
+    ],
+    "tags": [
+      "description",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/879991d5.mp3"
+  },
+  {
+    "id": "vocab-65",
+    "word": "私",
+    "reading": "わたし",
+    "romaji": "watashi",
+    "meaning": "I, me",
+    "meanings": {
+      "en": "I, me",
+      "es": "yo",
+      "zh-CN": "我",
+      "pt": "eu",
+      "fr": "je, moi",
+      "de": "ich",
+      "ru": "я",
+      "ja": "私",
+      "ko": "나",
+      "it": "io",
+      "ar": "أنا",
+      "hi": "मैं"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "pronoun",
+    "examples": [
+      {
+        "japanese": "私は学生です",
+        "english": "I am a student"
+      }
+    ],
+    "tags": [
+      "pronoun",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/e975946c.mp3"
+  },
+  {
+    "id": "vocab-66",
+    "word": "あなた",
+    "reading": "あなた",
+    "romaji": "anata",
+    "meaning": "you",
+    "meanings": {
+      "en": "you",
+      "es": "tú, usted",
+      "zh-CN": "你",
+      "pt": "você",
+      "fr": "tu, vous",
+      "de": "du, Sie",
+      "ru": "ты, вы",
+      "ja": "あなた",
+      "ko": "당신",
+      "it": "tu",
+      "ar": "أنت",
+      "hi": "तुम"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "pronoun",
+    "examples": [
+      {
+        "japanese": "あなたは学生ですか",
+        "english": "Are you a student?"
+      }
+    ],
+    "tags": [
+      "pronoun",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/57ecc70a.mp3"
+  },
+  {
+    "id": "vocab-67",
+    "word": "人",
+    "reading": "ひと",
+    "romaji": "hito",
+    "meaning": "person, people",
+    "meanings": {
+      "en": "person, people",
+      "es": "persona, gente",
+      "zh-CN": "人",
+      "pt": "pessoa, pessoas",
+      "fr": "personne, gens",
+      "de": "Person, Leute",
+      "ru": "человек, люди",
+      "ja": "人",
+      "ko": "사람",
+      "it": "persona, persone",
+      "ar": "شخص، ناس",
+      "hi": "व्यक्ति, लोग"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "良い人",
+        "english": "good person"
+      }
+    ],
+    "tags": [
+      "people",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/1a1ef5a9.mp3"
+  },
+  {
+    "id": "vocab-68",
+    "word": "友達",
+    "reading": "ともだち",
+    "romaji": "tomodachi",
+    "meaning": "friend",
+    "meanings": {
+      "en": "friend",
+      "es": "amigo",
+      "zh-CN": "朋友",
+      "pt": "amigo",
+      "fr": "ami",
+      "de": "Freund",
+      "ru": "друг",
+      "ja": "友達",
+      "ko": "친구",
+      "it": "amico",
+      "ar": "صديق",
+      "hi": "दोस्त"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "友達と話す",
+        "english": "to talk with a friend"
+      }
+    ],
+    "tags": [
+      "people",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/d308e5c2.mp3"
+  },
+  {
+    "id": "vocab-69",
+    "word": "家",
+    "reading": "いえ",
+    "romaji": "ie",
+    "meaning": "house, home",
+    "meanings": {
+      "en": "house, home",
+      "es": "casa, hogar",
+      "zh-CN": "家",
+      "pt": "casa",
+      "fr": "maison",
+      "de": "Haus",
+      "ru": "дом",
+      "ja": "家",
+      "ko": "집",
+      "it": "casa",
+      "ar": "منزل",
+      "hi": "घर"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "家に帰る",
+        "english": "to go home"
+      }
+    ],
+    "tags": [
+      "place",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/227598ef.mp3"
+  },
+  {
+    "id": "vocab-70",
+    "word": "車",
+    "reading": "くるま",
+    "romaji": "kuruma",
+    "meaning": "car",
+    "meanings": {
+      "en": "car",
+      "es": "coche, auto",
+      "zh-CN": "车",
+      "pt": "carro",
+      "fr": "voiture",
+      "de": "Auto",
+      "ru": "машина",
+      "ja": "車",
+      "ko": "자동차",
+      "it": "macchina",
+      "ar": "سيارة",
+      "hi": "कार"
+    },
+    "jlpt": "N5",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "車で行く",
+        "english": "to go by car"
+      }
+    ],
+    "tags": [
+      "transport",
+      "basic"
+    ],
+    "audioUrl": "/audio/vocabulary/6b31245e.mp3"
+  },
+  {
+    "id": "vocab-71",
+    "word": "準備する",
+    "reading": "じゅんびする",
+    "romaji": "junbi suru",
+    "meaning": "to prepare",
+    "meanings": {
+      "en": "to prepare",
+      "es": "preparar",
+      "zh-CN": "准备",
+      "pt": "preparar",
+      "fr": "préparer",
+      "de": "vorbereiten",
+      "ru": "готовить",
+      "ja": "準備する",
+      "ko": "준비하다",
+      "it": "preparare",
+      "ar": "يستعد",
+      "hi": "तैयार करना"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "試験の準備をする",
+        "english": "to prepare for an exam"
+      }
+    ],
+    "tags": [
+      "action"
+    ],
+    "audioUrl": "/audio/vocabulary/f1507730.mp3"
+  },
+  {
+    "id": "vocab-72",
+    "word": "経験",
+    "reading": "けいけん",
+    "romaji": "keiken",
+    "meaning": "experience",
+    "meanings": {
+      "en": "experience",
+      "es": "experiencia",
+      "zh-CN": "经验",
+      "pt": "experiência",
+      "fr": "expérience",
+      "de": "Erfahrung",
+      "ru": "опыт",
+      "ja": "経験",
+      "ko": "경험",
+      "it": "esperienza",
+      "ar": "تجربة",
+      "hi": "अनुभव"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "良い経験",
+        "english": "good experience"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ],
+    "audioUrl": "/audio/vocabulary/b32b9d6f.mp3"
+  },
+  {
+    "id": "vocab-73",
+    "word": "説明する",
+    "reading": "せつめいする",
+    "romaji": "setsumei suru",
+    "meaning": "to explain",
+    "meanings": {
+      "en": "to explain",
+      "es": "explicar",
+      "zh-CN": "说明",
+      "pt": "explicar",
+      "fr": "expliquer",
+      "de": "erklären",
+      "ru": "объяснять",
+      "ja": "説明する",
+      "ko": "설명하다",
+      "it": "spiegare",
+      "ar": "يشرح",
+      "hi": "समझाना"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "問題を説明する",
+        "english": "to explain a problem"
+      }
+    ],
+    "tags": [
+      "communication"
+    ],
+    "audioUrl": "/audio/vocabulary/5c9d4208.mp3"
+  },
+  {
+    "id": "vocab-74",
+    "word": "環境",
+    "reading": "かんきょう",
+    "romaji": "kankyou",
+    "meaning": "environment",
+    "meanings": {
+      "en": "environment",
+      "es": "medio ambiente",
+      "zh-CN": "环境",
+      "pt": "ambiente",
+      "fr": "environnement",
+      "de": "Umgebung",
+      "ru": "окружающая среда",
+      "ja": "環境",
+      "ko": "환경",
+      "it": "ambiente",
+      "ar": "بيئة",
+      "hi": "पर्यावरण"
+    },
+    "jlpt": "N4",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "自然環境",
+        "english": "natural environment"
+      }
+    ],
+    "tags": [
+      "nature"
+    ],
+    "audioUrl": "/audio/vocabulary/302dbb45.mp3"
+  },
+  {
+    "id": "vocab-75",
+    "word": "影響",
+    "reading": "えいきょう",
+    "romaji": "eikyou",
+    "meaning": "influence, effect",
+    "meanings": {
+      "en": "influence, effect",
+      "es": "influencia, efecto",
+      "zh-CN": "影响",
+      "pt": "influência, efeito",
+      "fr": "influence, effet",
+      "de": "Einfluss, Wirkung",
+      "ru": "влияние, эффект",
+      "ja": "影響",
+      "ko": "영향",
+      "it": "influenza, effetto",
+      "ar": "تأثير",
+      "hi": "प्रभाव"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "noun",
+    "examples": [
+      {
+        "japanese": "環境への影響",
+        "english": "impact on the environment"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ],
+    "audioUrl": "/audio/vocabulary/2c6d6c5c.mp3"
+  },
+  {
+    "id": "vocab-76",
+    "word": "実現する",
+    "reading": "じつげんする",
+    "romaji": "jitsugen suru",
+    "meaning": "to realize, to achieve",
+    "meanings": {
+      "en": "to realize, to achieve",
+      "es": "realizar, lograr",
+      "zh-CN": "实现",
+      "pt": "realizar, alcançar",
+      "fr": "réaliser, atteindre",
+      "de": "verwirklichen, erreichen",
+      "ru": "реализовать, достичь",
+      "ja": "実現する",
+      "ko": "실현하다",
+      "it": "realizzare, raggiungere",
+      "ar": "يحقق",
+      "hi": "हासिल करना"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "夢を実現する",
+        "english": "to realize a dream"
+      }
+    ],
+    "tags": [
+      "action"
+    ],
+    "audioUrl": "/audio/vocabulary/4015edc6.mp3"
+  },
+  {
+    "id": "vocab-77",
+    "word": "改善する",
+    "reading": "かいぜんする",
+    "romaji": "kaizen suru",
+    "meaning": "to improve",
+    "meanings": {
+      "en": "to improve",
+      "es": "mejorar",
+      "zh-CN": "改善",
+      "pt": "melhorar",
+      "fr": "améliorer",
+      "de": "verbessern",
+      "ru": "улучшать",
+      "ja": "改善する",
+      "ko": "개선하다",
+      "it": "migliorare",
+      "ar": "يحسن",
+      "hi": "सुधारना"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "サービスを改善する",
+        "english": "to improve service"
+      }
+    ],
+    "tags": [
+      "action"
+    ],
+    "audioUrl": "/audio/vocabulary/35e975ff.mp3"
+  },
+  {
+    "id": "vocab-78",
+    "word": "対応する",
+    "reading": "たいおうする",
+    "romaji": "taiou suru",
+    "meaning": "to respond, to deal with",
+    "meanings": {
+      "en": "to respond, to deal with",
+      "es": "responder, lidiar con",
+      "zh-CN": "应对",
+      "pt": "responder, lidar com",
+      "fr": "répondre, faire face à",
+      "de": "reagieren, sich befassen mit",
+      "ru": "отвечать, иметь дело с",
+      "ja": "対応する",
+      "ko": "대응하다",
+      "it": "rispondere, affrontare",
+      "ar": "يستجيب، يتعامل مع",
+      "hi": "जवाब देना, निपटना"
+    },
+    "jlpt": "N3",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "問題に対応する",
+        "english": "to deal with a problem"
+      }
+    ],
+    "tags": [
+      "action"
+    ],
+    "audioUrl": "/audio/vocabulary/436e5916.mp3"
+  },
+  {
+    "id": "vocab-79",
+    "word": "実施する",
+    "reading": "じっしする",
+    "romaji": "jisshi suru",
+    "meaning": "to implement, to carry out",
+    "meanings": {
+      "en": "to implement, to carry out",
+      "es": "implementar, llevar a cabo",
+      "zh-CN": "实施",
+      "pt": "implementar, realizar",
+      "fr": "mettre en œuvre, exécuter",
+      "de": "umsetzen, durchführen",
+      "ru": "осуществлять, выполнять",
+      "ja": "実施する",
+      "ko": "실시하다",
+      "it": "implementare, eseguire",
+      "ar": "ينفذ",
+      "hi": "लागू करना"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "計画を実施する",
+        "english": "to implement a plan"
+      }
+    ],
+    "tags": [
+      "action"
+    ],
+    "audioUrl": "/audio/vocabulary/9cee33aa.mp3"
+  },
+  {
+    "id": "vocab-80",
+    "word": "促進する",
+    "reading": "そくしんする",
+    "romaji": "sokushin suru",
+    "meaning": "to promote, to facilitate",
+    "meanings": {
+      "en": "to promote, to facilitate",
+      "es": "promover, facilitar",
+      "zh-CN": "促进",
+      "pt": "promover, facilitar",
+      "fr": "promouvoir, faciliter",
+      "de": "fördern, erleichtern",
+      "ru": "способствовать, облегчать",
+      "ja": "促進する",
+      "ko": "촉진하다",
+      "it": "promuovere, facilitare",
+      "ar": "يعزز، يسهل",
+      "hi": "बढ़ावा देना"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "経済成長を促進する",
+        "english": "to promote economic growth"
+      }
+    ],
+    "tags": [
+      "action"
+    ],
+    "audioUrl": "/audio/vocabulary/23e8c6c4.mp3"
+  },
+  {
+    "id": "vocab-81",
+    "word": "維持する",
+    "reading": "いじする",
+    "romaji": "iji suru",
+    "meaning": "to maintain, to preserve",
+    "meanings": {
+      "en": "to maintain, to preserve",
+      "es": "mantener, preservar",
+      "zh-CN": "维持",
+      "pt": "manter, preservar",
+      "fr": "maintenir, préserver",
+      "de": "erhalten, bewahren",
+      "ru": "поддерживать, сохранять",
+      "ja": "維持する",
+      "ko": "유지하다",
+      "it": "mantenere, preservare",
+      "ar": "يحافظ",
+      "hi": "बनाए रखना"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "関係を維持する",
+        "english": "to maintain a relationship"
+      }
+    ],
+    "tags": [
+      "action"
+    ],
+    "audioUrl": "/audio/vocabulary/82b415f5.mp3"
+  },
+  {
+    "id": "vocab-82",
+    "word": "確立する",
+    "reading": "かくりつする",
+    "romaji": "kakuritsu suru",
+    "meaning": "to establish",
+    "meanings": {
+      "en": "to establish",
+      "es": "establecer",
+      "zh-CN": "确立",
+      "pt": "estabelecer",
+      "fr": "établir",
+      "de": "etablieren",
+      "ru": "устанавливать",
+      "ja": "確立する",
+      "ko": "확립하다",
+      "it": "stabilire",
+      "ar": "يؤسس",
+      "hi": "स्थापित करना"
+    },
+    "jlpt": "N2",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "制度を確立する",
+        "english": "to establish a system"
+      }
+    ],
+    "tags": [
+      "action"
+    ],
+    "audioUrl": "/audio/vocabulary/25be7042.mp3"
+  },
+  {
+    "id": "vocab-83",
+    "word": "統合する",
+    "reading": "とうごうする",
+    "romaji": "tougou suru",
+    "meaning": "to integrate, to merge",
+    "meanings": {
+      "en": "to integrate, to merge",
+      "es": "integrar, fusionar",
+      "zh-CN": "整合",
+      "pt": "integrar, fundir",
+      "fr": "intégrer, fusionner",
+      "de": "integrieren, zusammenführen",
+      "ru": "интегрировать, объединять",
+      "ja": "統合する",
+      "ko": "통합하다",
+      "it": "integrare, fondere",
+      "ar": "يدمج",
+      "hi": "एकीकृत करना"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "システムを統合する",
+        "english": "to integrate systems"
+      }
+    ],
+    "tags": [
+      "action"
+    ],
+    "audioUrl": "/audio/vocabulary/35afbc81.mp3"
+  },
+  {
+    "id": "vocab-84",
+    "word": "検証する",
+    "reading": "けんしょうする",
+    "romaji": "kenshou suru",
+    "meaning": "to verify, to validate",
+    "meanings": {
+      "en": "to verify, to validate",
+      "es": "verificar, validar",
+      "zh-CN": "验证",
+      "pt": "verificar, validar",
+      "fr": "vérifier, valider",
+      "de": "verifizieren, validieren",
+      "ru": "проверять, валидировать",
+      "ja": "検証する",
+      "ko": "검증하다",
+      "it": "verificare, validare",
+      "ar": "يتحقق",
+      "hi": "सत्यापित करना"
+    },
+    "jlpt": "N1",
+    "partOfSpeech": "verb",
+    "examples": [
+      {
+        "japanese": "仮説を検証する",
+        "english": "to verify a hypothesis"
+      }
+    ],
+    "tags": [
+      "action"
+    ],
+    "audioUrl": "/audio/vocabulary/15591440.mp3"
+  }
+]

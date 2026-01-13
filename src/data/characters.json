@@ -1,0 +1,614 @@
+[
+  {
+    "romaji": "a",
+    "hiragana": "あ",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/5a394b9f.mp3"
+  },
+  {
+    "romaji": "i",
+    "hiragana": "い",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/3921066f.mp3"
+  },
+  {
+    "romaji": "u",
+    "hiragana": "う",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/88c1e102.mp3"
+  },
+  {
+    "romaji": "e",
+    "hiragana": "え",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/fa96ec68.mp3"
+  },
+  {
+    "romaji": "o",
+    "hiragana": "お",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/579eb036.mp3"
+  },
+  {
+    "romaji": "ka",
+    "hiragana": "か",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/586e6299.mp3"
+  },
+  {
+    "romaji": "ki",
+    "hiragana": "き",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/29eecd47.mp3"
+  },
+  {
+    "romaji": "ku",
+    "hiragana": "く",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/2ad6548d.mp3"
+  },
+  {
+    "romaji": "ke",
+    "hiragana": "け",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/8e33c209.mp3"
+  },
+  {
+    "romaji": "ko",
+    "hiragana": "こ",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/68ce5763.mp3"
+  },
+  {
+    "romaji": "sa",
+    "hiragana": "さ",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/9d67d836.mp3"
+  },
+  {
+    "romaji": "shi",
+    "hiragana": "し",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/47400e8d.mp3"
+  },
+  {
+    "romaji": "su",
+    "hiragana": "す",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/b7304822.mp3"
+  },
+  {
+    "romaji": "se",
+    "hiragana": "せ",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/500e7d68.mp3"
+  },
+  {
+    "romaji": "so",
+    "hiragana": "そ",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/e9cb65a1.mp3"
+  },
+  {
+    "romaji": "ta",
+    "hiragana": "た",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/5aa958f3.mp3"
+  },
+  {
+    "romaji": "chi",
+    "hiragana": "ち",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/b1fac908.mp3"
+  },
+  {
+    "romaji": "tsu",
+    "hiragana": "つ",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/0aa51c6a.mp3"
+  },
+  {
+    "romaji": "te",
+    "hiragana": "て",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/4471d880.mp3"
+  },
+  {
+    "romaji": "to",
+    "hiragana": "と",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/d6c5ed73.mp3"
+  },
+  {
+    "romaji": "na",
+    "hiragana": "な",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/f72af453.mp3"
+  },
+  {
+    "romaji": "ni",
+    "hiragana": "に",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/bb55e2c5.mp3"
+  },
+  {
+    "romaji": "nu",
+    "hiragana": "ぬ",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/21c73476.mp3"
+  },
+  {
+    "romaji": "ne",
+    "hiragana": "ね",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/c602d8ae.mp3"
+  },
+  {
+    "romaji": "no",
+    "hiragana": "の",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/a4b12c0d.mp3"
+  },
+  {
+    "romaji": "ha",
+    "hiragana": "は",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/fe9fd860.mp3"
+  },
+  {
+    "romaji": "hi",
+    "hiragana": "ひ",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/0af87d27.mp3"
+  },
+  {
+    "romaji": "fu",
+    "hiragana": "ふ",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/2c62839b.mp3"
+  },
+  {
+    "romaji": "he",
+    "hiragana": "へ",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/2ac5253b.mp3"
+  },
+  {
+    "romaji": "ho",
+    "hiragana": "ほ",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/325ce662.mp3"
+  },
+  {
+    "romaji": "ma",
+    "hiragana": "ま",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/e794e77b.mp3"
+  },
+  {
+    "romaji": "mi",
+    "hiragana": "み",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/b5d5de0b.mp3"
+  },
+  {
+    "romaji": "mu",
+    "hiragana": "む",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/3ed873a8.mp3"
+  },
+  {
+    "romaji": "me",
+    "hiragana": "め",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/abc38867.mp3"
+  },
+  {
+    "romaji": "mo",
+    "hiragana": "も",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/df297c3d.mp3"
+  },
+  {
+    "romaji": "ya",
+    "hiragana": "や",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/af1b72af.mp3"
+  },
+  {
+    "romaji": "yu",
+    "hiragana": "ゆ",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/fb471993.mp3"
+  },
+  {
+    "romaji": "yo",
+    "hiragana": "よ",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/73c2cfda.mp3"
+  },
+  {
+    "romaji": "ra",
+    "hiragana": "ら",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/d7a1b0f4.mp3"
+  },
+  {
+    "romaji": "ri",
+    "hiragana": "り",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/dc34da0d.mp3"
+  },
+  {
+    "romaji": "ru",
+    "hiragana": "る",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/06ebb14c.mp3"
+  },
+  {
+    "romaji": "re",
+    "hiragana": "れ",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/a506cbdb.mp3"
+  },
+  {
+    "romaji": "ro",
+    "hiragana": "ろ",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/dda74d76.mp3"
+  },
+  {
+    "romaji": "wa",
+    "hiragana": "わ",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/b79f1ac4.mp3"
+  },
+  {
+    "romaji": "wo",
+    "hiragana": "を",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/9b2a68c0.mp3"
+  },
+  {
+    "romaji": "n",
+    "hiragana": "ん",
+    "type": "gojuon",
+    "audioUrl": "/audio/characters/fb540b58.mp3"
+  },
+  {
+    "romaji": "kya",
+    "hiragana": "きゃ",
+    "type": "yoon",
+    "audioUrl": "/audio/characters/529daf6c.mp3"
+  },
+  {
+    "romaji": "kyu",
+    "hiragana": "きゅ",
+    "type": "yoon",
+    "audioUrl": "/audio/characters/55eac240.mp3"
+  },
+  {
+    "romaji": "kyo",
+    "hiragana": "きょ",
+    "type": "yoon",
+    "audioUrl": "/audio/characters/5b13c6f7.mp3"
+  },
+  {
+    "romaji": "sha",
+    "hiragana": "しゃ",
+    "type": "yoon",
+    "audioUrl": "/audio/characters/d9306456.mp3"
+  },
+  {
+    "romaji": "shu",
+    "hiragana": "しゅ",
+    "type": "yoon",
+    "audioUrl": "/audio/characters/f98cc23f.mp3"
+  },
+  {
+    "romaji": "sho",
+    "hiragana": "しょ",
+    "type": "yoon",
+    "audioUrl": "/audio/characters/4e7c3cf7.mp3"
+  },
+  {
+    "romaji": "cha",
+    "hiragana": "ちゃ",
+    "type": "yoon",
+    "audioUrl": "/audio/characters/9c7ad2aa.mp3"
+  },
+  {
+    "romaji": "chu",
+    "hiragana": "ちゅ",
+    "type": "yoon",
+    "audioUrl": "/audio/characters/8890add6.mp3"
+  },
+  {
+    "romaji": "cho",
+    "hiragana": "ちょ",
+    "type": "yoon",
+    "audioUrl": "/audio/characters/c7ea5a87.mp3"
+  },
+  {
+    "romaji": "nya",
+    "hiragana": "にゃ",
+    "type": "yoon",
+    "audioUrl": "/audio/characters/4d08b972.mp3"
+  },
+  {
+    "romaji": "nyu",
+    "hiragana": "にゅ",
+    "type": "yoon",
+    "audioUrl": "/audio/characters/c5800e13.mp3"
+  },
+  {
+    "romaji": "nyo",
+    "hiragana": "にょ",
+    "type": "yoon",
+    "audioUrl": "/audio/characters/557ba700.mp3"
+  },
+  {
+    "romaji": "hya",
+    "hiragana": "ひゃ",
+    "type": "yoon",
+    "audioUrl": "/audio/characters/868a2b4b.mp3"
+  },
+  {
+    "romaji": "hyu",
+    "hiragana": "ひゅ",
+    "type": "yoon",
+    "audioUrl": "/audio/characters/036a0fcb.mp3"
+  },
+  {
+    "romaji": "hyo",
+    "hiragana": "ひょ",
+    "type": "yoon",
+    "audioUrl": "/audio/characters/384fd069.mp3"
+  },
+  {
+    "romaji": "mya",
+    "hiragana": "みゃ",
+    "type": "yoon",
+    "audioUrl": "/audio/characters/d65dfb62.mp3"
+  },
+  {
+    "romaji": "myu",
+    "hiragana": "みゅ",
+    "type": "yoon",
+    "audioUrl": "/audio/characters/177148e8.mp3"
+  },
+  {
+    "romaji": "myo",
+    "hiragana": "みょ",
+    "type": "yoon",
+    "audioUrl": "/audio/characters/2f0c5382.mp3"
+  },
+  {
+    "romaji": "rya",
+    "hiragana": "りゃ",
+    "type": "yoon",
+    "audioUrl": "/audio/characters/450ebcdf.mp3"
+  },
+  {
+    "romaji": "ryu",
+    "hiragana": "りゅ",
+    "type": "yoon",
+    "audioUrl": "/audio/characters/8aa5b206.mp3"
+  },
+  {
+    "romaji": "ryo",
+    "hiragana": "りょ",
+    "type": "yoon",
+    "audioUrl": "/audio/characters/2f2fe020.mp3"
+  },
+  {
+    "romaji": "ga",
+    "hiragana": "が",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/be0b4ef2.mp3"
+  },
+  {
+    "romaji": "gi",
+    "hiragana": "ぎ",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/49cf5a92.mp3"
+  },
+  {
+    "romaji": "gu",
+    "hiragana": "ぐ",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/6bc15612.mp3"
+  },
+  {
+    "romaji": "ge",
+    "hiragana": "げ",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/0fd4d146.mp3"
+  },
+  {
+    "romaji": "go",
+    "hiragana": "ご",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/a4a9eb01.mp3"
+  },
+  {
+    "romaji": "za",
+    "hiragana": "ざ",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/15030890.mp3"
+  },
+  {
+    "romaji": "ji",
+    "hiragana": "じ",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/b9ecf9b9.mp3"
+  },
+  {
+    "romaji": "zu",
+    "hiragana": "ず",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/10280971.mp3"
+  },
+  {
+    "romaji": "ze",
+    "hiragana": "ぜ",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/a1fe445d.mp3"
+  },
+  {
+    "romaji": "zo",
+    "hiragana": "ぞ",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/9bd92f68.mp3"
+  },
+  {
+    "romaji": "da",
+    "hiragana": "だ",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/8f0764c1.mp3"
+  },
+  {
+    "romaji": "de",
+    "hiragana": "で",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/ab0e7366.mp3"
+  },
+  {
+    "romaji": "do",
+    "hiragana": "ど",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/c5021d94.mp3"
+  },
+  {
+    "romaji": "ba",
+    "hiragana": "ば",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/9ede47a1.mp3"
+  },
+  {
+    "romaji": "bi",
+    "hiragana": "び",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/443713f9.mp3"
+  },
+  {
+    "romaji": "bu",
+    "hiragana": "ぶ",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/062437a4.mp3"
+  },
+  {
+    "romaji": "be",
+    "hiragana": "べ",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/02a2fc66.mp3"
+  },
+  {
+    "romaji": "bo",
+    "hiragana": "ぼ",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/1854b8a1.mp3"
+  },
+  {
+    "romaji": "pa",
+    "hiragana": "ぱ",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/c276682e.mp3"
+  },
+  {
+    "romaji": "pi",
+    "hiragana": "ぴ",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/e185dd37.mp3"
+  },
+  {
+    "romaji": "pu",
+    "hiragana": "ぷ",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/5ef4a61b.mp3"
+  },
+  {
+    "romaji": "pe",
+    "hiragana": "ぺ",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/eb193a50.mp3"
+  },
+  {
+    "romaji": "po",
+    "hiragana": "ぽ",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/0b5174e4.mp3"
+  },
+  {
+    "romaji": "gya",
+    "hiragana": "ぎゃ",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/fbf14362.mp3"
+  },
+  {
+    "romaji": "gyu",
+    "hiragana": "ぎゅ",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/346a6f77.mp3"
+  },
+  {
+    "romaji": "gyo",
+    "hiragana": "ぎょ",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/8d614f94.mp3"
+  },
+  {
+    "romaji": "ja",
+    "hiragana": "じゃ",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/e76e9f92.mp3"
+  },
+  {
+    "romaji": "ju",
+    "hiragana": "じゅ",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/1e97c1e0.mp3"
+  },
+  {
+    "romaji": "jo",
+    "hiragana": "じょ",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/3e45f517.mp3"
+  },
+  {
+    "romaji": "bya",
+    "hiragana": "びゃ",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/1b3b6a63.mp3"
+  },
+  {
+    "romaji": "byu",
+    "hiragana": "びゅ",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/37af83ac.mp3"
+  },
+  {
+    "romaji": "byo",
+    "hiragana": "びょ",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/25d11cb5.mp3"
+  },
+  {
+    "romaji": "pya",
+    "hiragana": "ぴゃ",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/8647ca86.mp3"
+  },
+  {
+    "romaji": "pyu",
+    "hiragana": "ぴゅ",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/67dfbc17.mp3"
+  },
+  {
+    "romaji": "pyo",
+    "hiragana": "ぴょ",
+    "type": "dakuten",
+    "audioUrl": "/audio/characters/a8dad33c.mp3"
+  }
+]
