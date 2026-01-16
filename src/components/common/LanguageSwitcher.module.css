@@ -95,14 +95,35 @@
     font-weight: 700;
 }
 
-@media (max-width: 640px) {
+/* Very small phones */
+@media (max-width: 375px) {
+    .button {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.8rem;
+    }
+
+    .dropdown {
+        min-width: calc(100vw - 2rem);
+        max-width: calc(100vw - 2rem);
+        max-height: 250px;
+        right: -0.5rem;
+    }
+
+    .option {
+        padding: 0.625rem 0.875rem;
+        font-size: 0.85rem;
+    }
+}
+
+/* Small to medium phones */
+@media (min-width: 376px) and (max-width: 640px) {
     .button {
         padding: 0.5rem 1rem;
         font-size: 0.85rem;
     }
 
     .dropdown {
-        min-width: 180px;
+        min-width: 160px;
         max-height: 300px;
     }
 }

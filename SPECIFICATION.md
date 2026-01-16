@@ -199,12 +199,75 @@ Multi-factor detection requiring 2 of 3 criteria:
 2. Touch capability detected (`ontouchstart`, `maxTouchPoints`)
 3. Screen width < 768px
 
+#### Responsive Breakpoints Strategy
+
+**Mobile-First Approach** with 4 primary breakpoints:
+
+1. **Ultra-Small Phones** (`max-width: 375px`)
+   - iPhone SE, older Android devices (320px-375px)
+   - Base font: 15px
+   - Reduced padding/spacing
+   - Full-width layouts
+   - Dropdown menus span viewport width
+
+2. **Small Phones** (`max-width: 480px`)
+   - Most modern phones (376px-480px)
+   - Touch targets: minimum 44px height
+   - Grid: Single column for modules, 2 columns for stats
+   - Font scaling: h1 → 1.75rem, h2 → 1.5rem
+   - Button padding optimized for touch
+
+3. **Medium Phones & Small Tablets** (`481px-640px`)
+   - Standard mobile layout
+   - Grid: Single column modules, flexible stats
+   - Standard mobile padding
+   - Optimized button sizes
+
+4. **Tablets & Desktop** (`> 640px`)
+   - Full desktop layout
+   - Multi-column grids
+   - Hover effects enabled
+   - Maximum content widths
+
 #### Mobile UI Adaptations
-- **Input**: Multiple choice (4 options) replaces text input
-- **Layout**: Single-column responsive grids
-- **Typography**: Reduced font sizes (80-90% of desktop)
-- **Touch Targets**: Minimum 44px × 44px
-- **Buttons**: Larger padding, optimized spacing
+
+**Touch Targets**:
+- All interactive elements: **minimum 44px × 44px**
+- Buttons small: 44px height with 0.625rem padding
+- Buttons medium: 48px height
+- Buttons large: 56px height (reduced to 48px on small phones)
+- Multiple choice options: 55px height minimum
+
+**Typography**:
+- Ultra-small phones: Base font 15px
+- Small phones: h1 max 1.75rem, h2 max 1.5rem
+- Prevent text overflow: `word-wrap: break-word`, `overflow-wrap: break-word`
+- Line height optimized for readability
+
+**Layout**:
+- Grid minimum widths reduced: 260px (modules), 140px (stats)
+- Single-column layouts on phones
+- Reduced gaps and padding on small screens
+- Dialog: Full-width minus margins on mobile (calc(100% - 1.5rem) on ultra-small)
+
+**Input**:
+- Multiple choice (4 options grid) replaces text input on touch devices
+- Large touch-friendly buttons in 2×2 grid
+- Proper spacing to prevent accidental taps (0.75rem gap)
+
+**Viewport Configuration**:
+```typescript
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,  // Allow zoom for accessibility
+}
+```
+
+**Special Cases**:
+- Landscape phones (`max-height: 500px`): Reduced vertical spacing
+- Language switcher on ultra-small: Full-width dropdown
+- Login dialog: Responsive padding and border-radius
 
 ### 5. Internationalization (i18n)
 

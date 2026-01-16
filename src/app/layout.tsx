@@ -10,6 +10,12 @@ export const metadata = {
   description: 'Comprehensive Japanese learning platform. Master Hiragana, Katakana, Vocabulary, Kanji, Grammar, Reading, and Listening.',
 }
 
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+}
+
 interface RootLayoutProps {
   children: ReactNode
 }

@@ -326,6 +326,58 @@ Edit `src/styles/globals.css` - uses CSS custom properties for theming:
 - **Option Generation**: Creates 4 options (1 correct + 3 random incorrect)
 - **Debug Mode**: Set `window.DEBUG_MOBILE = true` for detailed console logging
 
+### Adding Mobile-Responsive Components
+
+**Critical Guidelines for Mobile UX**:
+
+1. **Always add viewport export to layout.tsx**:
+   ```typescript
+   export const viewport = {
+     width: 'device-width',
+     initialScale: 1,
+     maximumScale: 5,
+   }
+   ```
+
+2. **Ensure touch targets are ≥ 44px**:
+   ```css
+   .button {
+     min-height: 44px;
+     padding: 0.625rem 1rem;
+   }
+   ```
+
+3. **Add responsive breakpoints**:
+   - Ultra-small: `@media (max-width: 375px)`
+   - Small: `@media (max-width: 480px)`
+   - Medium: `@media (min-width: 481px) and (max-width: 640px)`
+
+4. **Prevent text overflow**:
+   ```css
+   word-wrap: break-word;
+   overflow-wrap: break-word;
+   ```
+
+5. **Use flexible grid minmax**:
+   ```css
+   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+   /* Not 280px - too wide for small phones */
+   ```
+
+6. **Test at multiple widths**:
+   - 320px (iPhone SE, oldest devices)
+   - 375px (iPhone standard)
+   - 480px (large phones)
+   - 640px (tablet portrait)
+
+**Common Mobile Pitfalls to Avoid**:
+- ❌ Hardcoded `min-width` > 400px on dialogs
+- ❌ Touch targets < 44px height
+- ❌ Grid `minmax()` values > 280px
+- ❌ Only testing at 640px breakpoint
+- ❌ Forgetting viewport meta configuration
+- ❌ Using `!important` for responsive overrides (use specificity instead)
+
 ### Internationalization (i18n)
 The app supports 12 languages. Translation files are in `locales/`:
 - `en.json` - English (default)
@@ -403,12 +455,63 @@ Use `src/lib/convexStorage.ts` for common operations:
 - **pulseSuccess** - Success feedback (0.5s ease-out)
 
 ### Responsive Design
-- **Desktop**: Full layout with all features
-- **Mobile** (< 640px):
-  - Single column layouts
-  - Multiple choice replaces text input
-  - Reduced font sizes
-  - Touch-optimized buttons (min 44px)
+
+**Mobile-First Philosophy**: The app is designed mobile-first with progressive enhancement for desktop.
+
+#### Breakpoint Strategy
+1. **Ultra-Small (≤ 375px)**: iPhone SE, older Android (320px-375px)
+2. **Small (≤ 480px)**: Most modern phones
+3. **Medium (481px-640px)**: Large phones, small tablets
+4. **Desktop (> 640px)**: Tablets and desktop
+
+#### Critical Mobile Requirements
+
+**Touch Targets**:
+- **MINIMUM 44px × 44px** for all interactive elements (Apple/Android HIG standard)
+- Buttons:
+  - Small: 44px height minimum
+  - Medium: 48px height
+  - Large: 56px height (48px on ultra-small phones)
+- Adequate spacing between touch targets (0.75rem minimum gap)
+
+**Typography**:
+- Base font: 15px on ultra-small, 16px elsewhere
+- Headings scale down on small screens:
+  - h1: max 1.75rem on phones
+  - h2: max 1.5rem on phones
+- Text overflow prevention:
+  ```css
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  ```
+
+**Layout**:
+- Grid minimum widths optimized for narrow screens:
+  - Module cards: 260px min (down from 280px)
+  - Stats cards: 140px min (down from 150px)
+- Single-column on phones, multi-column on desktop
+- Responsive padding: Less padding on smaller screens
+- Full-width dialogs on ultra-small phones
+
+**Viewport**:
+```typescript
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,  // Allow zoom for accessibility
+}
+```
+
+**Input Methods**:
+- Desktop: Text input with keyboard
+- Mobile: Multiple choice (4 options in 2×2 grid)
+- Touch-friendly button sizes (55px height minimum)
+
+**Testing Mobile**:
+- Chrome DevTools: Test at 320px, 375px, 480px, 640px
+- Physical devices: iPhone SE (small), iPhone 14 (medium), iPad (tablet)
+- Enable debug mode: `window.DEBUG_MOBILE = true`
+- Check landscape orientation on phones (< 500px height)
 
 ## Deployment
 

@@ -251,7 +251,27 @@
     }
 }
 
-@media (max-width: 640px) {
+/* Mobile-first responsive breakpoints */
+@media (max-width: 480px) {
+    .dialog {
+        min-width: auto;
+        width: calc(100% - 1.5rem);
+        margin: 0.75rem;
+        padding: 1.25rem;
+        border-radius: 16px;
+    }
+
+    .title {
+        font-size: 1.4rem;
+    }
+
+    .spinner {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 640px) {
     .dialog {
         min-width: auto;
         width: calc(100% - 2rem);

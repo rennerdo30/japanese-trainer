@@ -40,7 +40,7 @@
 
 .statsOverview {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   gap: 1.5rem;
   margin-bottom: 3rem;
   animation: fadeInUp 0.6s ease-out 0.1s both;
@@ -66,7 +66,7 @@
 
 .modulesGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 2rem;
   animation: fadeInUp 0.6s ease-out 0.2s both;
 }
@@ -130,7 +130,49 @@
   }
 }
 
-@media (max-width: 640px) {
+/* Small phones (320px-480px) */
+@media (max-width: 480px) {
+  .statsOverview {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+  }
+
+  .statCard {
+    padding: 0.875rem;
+  }
+
+  .statValue {
+    font-size: 1.4rem;
+  }
+
+  .statLabel {
+    font-size: 0.75rem;
+  }
+
+  .modulesGrid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .moduleCard {
+    padding: 1.25rem;
+  }
+
+  .moduleIcon {
+    font-size: 2.5rem;
+  }
+
+  .moduleTitle {
+    font-size: 1.25rem;
+  }
+
+  .moduleDescription {
+    font-size: 0.85rem;
+  }
+}
+
+/* Medium phones and small tablets (481px-640px) */
+@media (min-width: 481px) and (max-width: 640px) {
   .statsOverview {
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
