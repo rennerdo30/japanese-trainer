@@ -44,14 +44,39 @@ jobs:
         env:
           CONVEX_DEPLOY_KEY: ${{ secrets.CONVEX_DEPLOY_KEY }}
         run: |
-          npx convex deploy --cmd-url-env-var-name NEXT_PUBLIC_CONVEX_URL | tee convex-url.txt
-          echo "convex_url=$(grep -oP '(?<=NEXT_PUBLIC_CONVEX_URL=)[^\s]+' convex-url.txt || cat convex-url.txt)" >> $GITHUB_OUTPUT
-      
+          # Deploy and capture the full output
+          OUTPUT=$(npx convex deploy 2>&1) || true
+          echo "$OUTPUT"
+
+          # Extract URL - Convex outputs the deployment URL in various formats
+          CONVEX_URL=$(echo "$OUTPUT" | grep -oE 'https://[a-zA-Z0-9-]+\.convex\.cloud' | head -1)
+
+          # Fallback: check if URL is in the standard format
+          if [ -z "$CONVEX_URL" ]; then
+            CONVEX_URL=$(echo "$OUTPUT" | grep -oE 'https://[^ ]+convex\.cloud[^ ]*' | head -1)
+          fi
+
+          if [ -z "$CONVEX_URL" ]; then
+            echo "ERROR: Could not extract Convex URL from deployment output"
+            echo "Full output was:"
+            echo "$OUTPUT"
+            exit 1
+          fi
+
+          echo "Extracted Convex URL: $CONVEX_URL"
+          echo "convex_url=$CONVEX_URL" >> $GITHUB_OUTPUT
+
       # 5. Build frontend AFTER Convex deployment (with URL baked into static bundle)
       - name: Build Next.js site
         env:
           NEXT_PUBLIC_CONVEX_URL: ${{ steps.deploy-convex.outputs.convex_url }}
-        run: npm run build
+        run: |
+          echo "Building with NEXT_PUBLIC_CONVEX_URL=$NEXT_PUBLIC_CONVEX_URL"
+          if [ -z "$NEXT_PUBLIC_CONVEX_URL" ]; then
+            echo "ERROR: NEXT_PUBLIC_CONVEX_URL is empty!"
+            exit 1
+          fi
+          npm run build
       
       # 6. Upload build artifacts to GitHub Pages
       - name: Upload artifact
