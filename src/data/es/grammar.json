@@ -1,0 +1,984 @@
+[
+  {
+    "id": "es_grammar_1",
+    "title": "Ser vs Estar",
+    "explanation": "Two verbs for 'to be'",
+    "explanations": {
+      "en": "Spanish has two verbs that mean 'to be'. Use 'ser' for permanent characteristics, identity, origin, profession, and time. Use 'estar' for temporary states, emotions, locations, and conditions.",
+      "es": "El español tiene dos verbos que significan 'to be'. Usa 'ser' para características permanentes, identidad, origen, profesión y tiempo. Usa 'estar' para estados temporales, emociones, ubicaciones y condiciones."
+    },
+    "examples": [
+      { "spanish": "Soy estudiante", "english": "I am a student" },
+      { "spanish": "Soy de México", "english": "I am from Mexico" },
+      { "spanish": "Estoy cansado", "english": "I am tired" },
+      { "spanish": "Estoy en casa", "english": "I am at home" },
+      { "spanish": "Ella es alta", "english": "She is tall" },
+      { "spanish": "Él está enfermo", "english": "He is sick" }
+    ],
+    "level": "a1",
+    "exercises": [
+      {
+        "question": "Complete: Yo ___ de España.",
+        "options": ["soy", "estoy", "tengo", "voy"],
+        "correct": 0
+      },
+      {
+        "question": "Complete: Ella ___ muy feliz hoy.",
+        "options": ["es", "está", "tiene", "va"],
+        "correct": 1
+      },
+      {
+        "question": "Complete: Nosotros ___ profesores.",
+        "options": ["estamos", "somos", "tenemos", "vamos"],
+        "correct": 1
+      },
+      {
+        "question": "Complete: El libro ___ en la mesa.",
+        "options": ["es", "está", "tiene", "hay"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "es_grammar_2",
+    "title": "Gender and Number Agreement",
+    "explanation": "Nouns and adjectives must agree",
+    "explanations": {
+      "en": "In Spanish, nouns have gender (masculine/feminine) and number (singular/plural). Adjectives must agree with the noun they describe. Masculine nouns often end in -o, feminine in -a. Add -s for plurals ending in vowels, -es for consonants.",
+      "es": "En español, los sustantivos tienen género (masculino/femenino) y número (singular/plural). Los adjetivos deben concordar con el sustantivo que describen. Los sustantivos masculinos suelen terminar en -o, los femeninos en -a. Añade -s para plurales que terminan en vocal, -es para consonantes."
+    },
+    "examples": [
+      { "spanish": "El gato negro", "english": "The black cat (masculine)" },
+      { "spanish": "La casa blanca", "english": "The white house (feminine)" },
+      { "spanish": "Los niños pequeños", "english": "The small children (masculine plural)" },
+      { "spanish": "Las flores rojas", "english": "The red flowers (feminine plural)" },
+      { "spanish": "Un libro interesante", "english": "An interesting book" },
+      { "spanish": "Una mujer inteligente", "english": "An intelligent woman" }
+    ],
+    "level": "a1",
+    "exercises": [
+      {
+        "question": "Complete: La chica es muy ___.",
+        "options": ["alto", "alta", "altos", "altas"],
+        "correct": 1
+      },
+      {
+        "question": "Complete: Los perros son ___.",
+        "options": ["grande", "grandes", "granda", "grandas"],
+        "correct": 1
+      },
+      {
+        "question": "Complete: ___ manzana roja.",
+        "options": ["El", "La", "Los", "Las"],
+        "correct": 1
+      },
+      {
+        "question": "Complete: Tengo dos hermanas ___.",
+        "options": ["mayor", "mayores", "mayora", "mayoras"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "es_grammar_3",
+    "title": "Present Tense - Regular Verbs",
+    "explanation": "Conjugating -ar, -er, -ir verbs",
+    "explanations": {
+      "en": "Spanish regular verbs are conjugated by removing the infinitive ending (-ar, -er, -ir) and adding personal endings. For -ar verbs: -o, -as, -a, -amos, -áis, -an. For -er verbs: -o, -es, -e, -emos, -éis, -en. For -ir verbs: -o, -es, -e, -imos, -ís, -en.",
+      "es": "Los verbos regulares en español se conjugan quitando la terminación del infinitivo (-ar, -er, -ir) y añadiendo las terminaciones personales. Para verbos -ar: -o, -as, -a, -amos, -áis, -an. Para verbos -er: -o, -es, -e, -emos, -éis, -en. Para verbos -ir: -o, -es, -e, -imos, -ís, -en."
+    },
+    "examples": [
+      { "spanish": "Yo hablo español", "english": "I speak Spanish" },
+      { "spanish": "Tú comes pizza", "english": "You eat pizza" },
+      { "spanish": "Él vive en Madrid", "english": "He lives in Madrid" },
+      { "spanish": "Nosotros trabajamos mucho", "english": "We work a lot" },
+      { "spanish": "Ellos beben agua", "english": "They drink water" },
+      { "spanish": "Ella escribe cartas", "english": "She writes letters" }
+    ],
+    "level": "a1",
+    "exercises": [
+      {
+        "question": "Complete: Yo ___ música. (escuchar)",
+        "options": ["escucho", "escuchas", "escucha", "escuchan"],
+        "correct": 0
+      },
+      {
+        "question": "Complete: Tú ___ en el parque. (correr)",
+        "options": ["corro", "corres", "corre", "corren"],
+        "correct": 1
+      },
+      {
+        "question": "Complete: Nosotros ___ libros. (leer)",
+        "options": ["leo", "lees", "lee", "leemos"],
+        "correct": 3
+      },
+      {
+        "question": "Complete: Ellos ___ la puerta. (abrir)",
+        "options": ["abro", "abres", "abre", "abren"],
+        "correct": 3
+      }
+    ]
+  },
+  {
+    "id": "es_grammar_4",
+    "title": "Definite and Indefinite Articles",
+    "explanation": "El, la, los, las / un, una, unos, unas",
+    "explanations": {
+      "en": "Definite articles (the) in Spanish: el (masculine singular), la (feminine singular), los (masculine plural), las (feminine plural). Indefinite articles (a/an/some): un (masculine singular), una (feminine singular), unos (masculine plural), unas (feminine plural).",
+      "es": "Artículos definidos (el/la/los/las) se usan para cosas específicas o conocidas. Artículos indefinidos (un/una/unos/unas) se usan para cosas no específicas o mencionadas por primera vez."
+    },
+    "examples": [
+      { "spanish": "El libro está aquí", "english": "The book is here" },
+      { "spanish": "La mesa es grande", "english": "The table is big" },
+      { "spanish": "Los estudiantes estudian", "english": "The students study" },
+      { "spanish": "Tengo un coche", "english": "I have a car" },
+      { "spanish": "Necesito una silla", "english": "I need a chair" },
+      { "spanish": "Hay unos libros en la mesa", "english": "There are some books on the table" }
+    ],
+    "level": "a1",
+    "exercises": [
+      {
+        "question": "Complete: ___ profesor es simpático.",
+        "options": ["El", "La", "Un", "Una"],
+        "correct": 0
+      },
+      {
+        "question": "Complete: Quiero ___ café, por favor.",
+        "options": ["el", "la", "un", "una"],
+        "correct": 2
+      },
+      {
+        "question": "Complete: ___ ventanas están abiertas.",
+        "options": ["El", "La", "Los", "Las"],
+        "correct": 3
+      },
+      {
+        "question": "Complete: Hay ___ flores en el jardín.",
+        "options": ["un", "una", "unos", "unas"],
+        "correct": 3
+      }
+    ]
+  },
+  {
+    "id": "es_grammar_5",
+    "title": "Common Irregular Verbs - Tener, Ir, Hacer",
+    "explanation": "Essential irregular verbs in present tense",
+    "explanations": {
+      "en": "Some of the most common Spanish verbs are irregular. 'Tener' (to have): tengo, tienes, tiene, tenemos, tenéis, tienen. 'Ir' (to go): voy, vas, va, vamos, vais, van. 'Hacer' (to do/make): hago, haces, hace, hacemos, hacéis, hacen.",
+      "es": "Algunos de los verbos más comunes en español son irregulares. 'Tener': tengo, tienes, tiene, tenemos, tenéis, tienen. 'Ir': voy, vas, va, vamos, vais, van. 'Hacer': hago, haces, hace, hacemos, hacéis, hacen."
+    },
+    "examples": [
+      { "spanish": "Tengo dos hermanos", "english": "I have two siblings" },
+      { "spanish": "Voy al supermercado", "english": "I go to the supermarket" },
+      { "spanish": "Hago mi tarea", "english": "I do my homework" },
+      { "spanish": "¿Tienes tiempo?", "english": "Do you have time?" },
+      { "spanish": "Vamos a la playa", "english": "We go to the beach" },
+      { "spanish": "¿Qué haces?", "english": "What are you doing?" }
+    ],
+    "level": "a1",
+    "exercises": [
+      {
+        "question": "Complete: Yo ___ veinte años.",
+        "options": ["tengo", "tienes", "tiene", "tienen"],
+        "correct": 0
+      },
+      {
+        "question": "Complete: Nosotros ___ al cine.",
+        "options": ["voy", "vas", "va", "vamos"],
+        "correct": 3
+      },
+      {
+        "question": "Complete: Ella ___ ejercicio todos los días.",
+        "options": ["hago", "haces", "hace", "hacen"],
+        "correct": 2
+      },
+      {
+        "question": "Complete: ¿Tú ___ a la fiesta?",
+        "options": ["voy", "vas", "va", "vamos"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "es_grammar_6",
+    "title": "Question Words",
+    "explanation": "Asking questions with interrogatives",
+    "explanations": {
+      "en": "Spanish question words (interrogatives) always have an accent mark: ¿Qué? (What?), ¿Quién? (Who?), ¿Dónde? (Where?), ¿Cuándo? (When?), ¿Por qué? (Why?), ¿Cómo? (How?), ¿Cuánto/a? (How much?), ¿Cuántos/as? (How many?), ¿Cuál? (Which?).",
+      "es": "Las palabras interrogativas en español siempre llevan tilde: ¿Qué?, ¿Quién?, ¿Dónde?, ¿Cuándo?, ¿Por qué?, ¿Cómo?, ¿Cuánto/a?, ¿Cuántos/as?, ¿Cuál?. Las preguntas se escriben con signos de interrogación al principio y al final."
+    },
+    "examples": [
+      { "spanish": "¿Qué quieres?", "english": "What do you want?" },
+      { "spanish": "¿Quién es ella?", "english": "Who is she?" },
+      { "spanish": "¿Dónde vives?", "english": "Where do you live?" },
+      { "spanish": "¿Cuándo llegas?", "english": "When do you arrive?" },
+      { "spanish": "¿Por qué estudias español?", "english": "Why do you study Spanish?" },
+      { "spanish": "¿Cómo te llamas?", "english": "What is your name?" }
+    ],
+    "level": "a1",
+    "exercises": [
+      {
+        "question": "Complete: ¿___ está el baño?",
+        "options": ["Qué", "Quién", "Dónde", "Cuándo"],
+        "correct": 2
+      },
+      {
+        "question": "Complete: ¿___ cuesta esto?",
+        "options": ["Qué", "Cuánto", "Cómo", "Cuál"],
+        "correct": 1
+      },
+      {
+        "question": "Complete: ¿___ es tu cumpleaños?",
+        "options": ["Qué", "Quién", "Dónde", "Cuándo"],
+        "correct": 3
+      },
+      {
+        "question": "Complete: ¿___ no viniste ayer?",
+        "options": ["Qué", "Por qué", "Cómo", "Cuál"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "es_grammar_7",
+    "title": "Possessive Adjectives",
+    "explanation": "Expressing ownership: my, your, his, her, etc.",
+    "explanations": {
+      "en": "Spanish possessive adjectives agree in number with the noun they modify. Before nouns: mi/mis (my), tu/tus (your informal), su/sus (his/her/your formal/their), nuestro/a/os/as (our), vuestro/a/os/as (your plural informal).",
+      "es": "Los adjetivos posesivos en español concuerdan en número con el sustantivo. Antes del sustantivo: mi/mis, tu/tus, su/sus, nuestro/a/os/as, vuestro/a/os/as. 'Nuestro' y 'vuestro' también concuerdan en género."
+    },
+    "examples": [
+      { "spanish": "Mi casa es pequeña", "english": "My house is small" },
+      { "spanish": "Tus libros están aquí", "english": "Your books are here" },
+      { "spanish": "Su perro es grande", "english": "His/Her/Your dog is big" },
+      { "spanish": "Nuestra familia es grande", "english": "Our family is big" },
+      { "spanish": "Mis amigos son simpáticos", "english": "My friends are nice" },
+      { "spanish": "¿Dónde están sus llaves?", "english": "Where are your/their keys?" }
+    ],
+    "level": "a1",
+    "exercises": [
+      {
+        "question": "Complete: ___ madre es profesora.",
+        "options": ["Mi", "Mis", "Tu", "Tus"],
+        "correct": 0
+      },
+      {
+        "question": "Complete: ¿Dónde están ___ zapatos?",
+        "options": ["mi", "mis", "tu", "su"],
+        "correct": 1
+      },
+      {
+        "question": "Complete: ___ padres viven en España.",
+        "options": ["Nuestro", "Nuestra", "Nuestros", "Nuestras"],
+        "correct": 2
+      },
+      {
+        "question": "Complete: Ella perdió ___ teléfono.",
+        "options": ["mi", "tu", "su", "sus"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "es_grammar_8",
+    "title": "Gustar and Similar Verbs",
+    "explanation": "Expressing likes and preferences",
+    "explanations": {
+      "en": "The verb 'gustar' works differently than 'to like' in English. It literally means 'to be pleasing to'. Use 'gusta' with singular nouns/infinitives, 'gustan' with plural nouns. Indirect object pronouns (me, te, le, nos, os, les) indicate who likes something.",
+      "es": "El verbo 'gustar' funciona diferente al inglés. Literalmente significa 'ser agradable a alguien'. Usa 'gusta' con sustantivos singulares/infinitivos, 'gustan' con sustantivos plurales. Los pronombres de objeto indirecto (me, te, le, nos, os, les) indican a quién le gusta algo."
+    },
+    "examples": [
+      { "spanish": "Me gusta el chocolate", "english": "I like chocolate" },
+      { "spanish": "Te gustan los libros", "english": "You like books" },
+      { "spanish": "Le gusta bailar", "english": "He/She likes to dance" },
+      { "spanish": "Nos gusta viajar", "english": "We like to travel" },
+      { "spanish": "¿Te gusta la música?", "english": "Do you like music?" },
+      { "spanish": "No me gustan las verduras", "english": "I don't like vegetables" }
+    ],
+    "level": "a2",
+    "exercises": [
+      {
+        "question": "Complete: Me ___ el café.",
+        "options": ["gusto", "gusta", "gustan", "gustas"],
+        "correct": 1
+      },
+      {
+        "question": "Complete: A ella le ___ los gatos.",
+        "options": ["gusta", "gustan", "gusto", "gustas"],
+        "correct": 1
+      },
+      {
+        "question": "Complete: ¿Te ___ cocinar?",
+        "options": ["gusta", "gustan", "gusto", "gustamos"],
+        "correct": 0
+      },
+      {
+        "question": "Complete: No ___ gusta el frío.",
+        "options": ["me", "te", "nos", "les"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "es_grammar_9",
+    "title": "Negation",
+    "explanation": "Making sentences negative",
+    "explanations": {
+      "en": "To make a sentence negative in Spanish, simply place 'no' before the verb. For double negatives, use 'no' with negative words like 'nada' (nothing), 'nadie' (nobody), 'nunca' (never), 'ninguno' (none).",
+      "es": "Para hacer una oración negativa en español, simplemente coloca 'no' antes del verbo. Para dobles negativos, usa 'no' con palabras negativas como 'nada', 'nadie', 'nunca', 'ninguno'."
+    },
+    "examples": [
+      { "spanish": "No hablo francés", "english": "I don't speak French" },
+      { "spanish": "No tengo tiempo", "english": "I don't have time" },
+      { "spanish": "Ella no come carne", "english": "She doesn't eat meat" },
+      { "spanish": "No hay nada aquí", "english": "There's nothing here" },
+      { "spanish": "No viene nadie", "english": "Nobody is coming" },
+      { "spanish": "Nunca como pescado", "english": "I never eat fish" }
+    ],
+    "level": "a1",
+    "exercises": [
+      {
+        "question": "Complete: Yo ___ hablo italiano.",
+        "options": ["no", "nada", "nunca", "nadie"],
+        "correct": 0
+      },
+      {
+        "question": "Complete: No hay ___ en la nevera.",
+        "options": ["no", "nada", "nunca", "nadie"],
+        "correct": 1
+      },
+      {
+        "question": "Complete: ___ voy al gimnasio.",
+        "options": ["No", "Nada", "Nunca", "Nadie"],
+        "correct": 2
+      },
+      {
+        "question": "Complete: No conozco a ___ aquí.",
+        "options": ["no", "nada", "nunca", "nadie"],
+        "correct": 3
+      }
+    ]
+  },
+  {
+    "id": "es_grammar_10",
+    "title": "Direct Object Pronouns",
+    "explanation": "Lo, la, los, las - replacing direct objects",
+    "explanations": {
+      "en": "Direct object pronouns replace nouns that receive the action of the verb. Singular: lo (him/it masculine), la (her/it feminine). Plural: los (them masculine), las (them feminine). They are placed before the conjugated verb.",
+      "es": "Los pronombres de objeto directo reemplazan sustantivos que reciben la acción del verbo. Singular: lo (él/eso masculino), la (ella/eso femenino). Plural: los (ellos), las (ellas). Se colocan antes del verbo conjugado."
+    },
+    "examples": [
+      { "spanish": "Veo el libro. Lo veo.", "english": "I see the book. I see it." },
+      { "spanish": "Compro la fruta. La compro.", "english": "I buy the fruit. I buy it." },
+      { "spanish": "Conozco a María. La conozco.", "english": "I know María. I know her." },
+      { "spanish": "Tengo los zapatos. Los tengo.", "english": "I have the shoes. I have them." },
+      { "spanish": "Como las manzanas. Las como.", "english": "I eat the apples. I eat them." }
+    ],
+    "level": "a2",
+    "exercises": [
+      {
+        "question": "Replace 'el libro': Yo leo ___.",
+        "options": ["lo", "la", "los", "las"],
+        "correct": 0
+      },
+      {
+        "question": "Replace 'las flores': María ___ compra.",
+        "options": ["lo", "la", "los", "las"],
+        "correct": 3
+      },
+      {
+        "question": "Replace 'a Juan': Yo ___ veo todos los días.",
+        "options": ["lo", "la", "los", "las"],
+        "correct": 0
+      },
+      {
+        "question": "Replace 'la película': Nosotros ___ vemos esta noche.",
+        "options": ["lo", "la", "los", "las"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "es_grammar_11",
+    "title": "Present Subjunctive - Wishes and Desires",
+    "explanation": "Using subjunctive to express wishes, hopes, and desires",
+    "explanations": {
+      "en": "The subjunctive mood is used after verbs expressing wishes, desires, or hopes (querer que, esperar que, desear que). The subjunctive is formed by taking the 'yo' form of the present indicative, dropping the -o, and adding opposite endings: -ar verbs take -e endings, -er/-ir verbs take -a endings.",
+      "es": "El modo subjuntivo se usa después de verbos que expresan deseos o esperanzas (querer que, esperar que, desear que). Se forma tomando la forma 'yo' del presente indicativo, quitando la -o, y añadiendo terminaciones opuestas: verbos -ar toman terminaciones en -e, verbos -er/-ir toman terminaciones en -a."
+    },
+    "examples": [
+      { "spanish": "Quiero que vengas a la fiesta", "english": "I want you to come to the party" },
+      { "spanish": "Espero que estés bien", "english": "I hope you are well" },
+      { "spanish": "Deseo que tengas éxito", "english": "I wish you success" },
+      { "spanish": "Mi madre quiere que estudie más", "english": "My mother wants me to study more" },
+      { "spanish": "Esperamos que llueva pronto", "english": "We hope it rains soon" }
+    ],
+    "level": "b1",
+    "exercises": [
+      {
+        "question": "Complete: Quiero que tú ___ temprano. (llegar)",
+        "options": ["llegas", "llegues", "llega", "llegue"],
+        "correct": 1
+      },
+      {
+        "question": "Complete: Espero que ella ___ la verdad. (decir)",
+        "options": ["dice", "diga", "dices", "digas"],
+        "correct": 1
+      },
+      {
+        "question": "Complete: Desean que nosotros ___ con ellos. (ir)",
+        "options": ["vamos", "vayamos", "iremos", "fuimos"],
+        "correct": 1
+      },
+      {
+        "question": "Complete: Mi jefe quiere que yo ___ el informe. (escribir)",
+        "options": ["escribo", "escriba", "escribes", "escribas"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "es_grammar_12",
+    "title": "Conditional Tense",
+    "explanation": "Expressing hypothetical situations and polite requests",
+    "explanations": {
+      "en": "The conditional tense expresses what would happen or what someone would do. It's formed by adding endings (-ía, -ías, -ía, -íamos, -íais, -ían) to the infinitive. It's also used for polite requests and to express probability in the past.",
+      "es": "El condicional expresa lo que pasaría o lo que alguien haría. Se forma añadiendo terminaciones (-ía, -ías, -ía, -íamos, -íais, -ían) al infinitivo. También se usa para peticiones corteses y para expresar probabilidad en el pasado."
+    },
+    "examples": [
+      { "spanish": "Me gustaría un café", "english": "I would like a coffee" },
+      { "spanish": "Iría contigo, pero estoy ocupado", "english": "I would go with you, but I'm busy" },
+      { "spanish": "¿Podrías ayudarme?", "english": "Could you help me?" },
+      { "spanish": "Serían las tres cuando llegó", "english": "It was probably three when he arrived" },
+      { "spanish": "Dijeron que vendrían", "english": "They said they would come" }
+    ],
+    "level": "b1",
+    "exercises": [
+      {
+        "question": "Complete: Yo ___ ir al cine, pero no tengo tiempo. (querer)",
+        "options": ["quiero", "querría", "quería", "quisiera"],
+        "correct": 1
+      },
+      {
+        "question": "Complete: ¿___ cerrar la ventana? (poder, tú)",
+        "options": ["Puedes", "Podrías", "Pudiste", "Podías"],
+        "correct": 1
+      },
+      {
+        "question": "Complete: Ellos ___ a las ocho. (llegar)",
+        "options": ["llegan", "llegarán", "llegarían", "llegaron"],
+        "correct": 2
+      },
+      {
+        "question": "Complete: Nosotros ___ mucho dinero si ganáramos la lotería. (tener)",
+        "options": ["tenemos", "tendríamos", "teníamos", "tuvimos"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "es_grammar_13",
+    "title": "Relative Pronouns",
+    "explanation": "Que, quien, el cual, cuyo - connecting clauses",
+    "explanations": {
+      "en": "Relative pronouns connect clauses and refer back to a noun. 'Que' is the most common (that, which, who). 'Quien(es)' refers to people (who, whom). 'El/la cual, los/las cuales' are more formal alternatives. 'Cuyo/a/os/as' means 'whose' and agrees with the possessed noun.",
+      "es": "Los pronombres relativos conectan oraciones y se refieren a un sustantivo anterior. 'Que' es el más común. 'Quien(es)' se refiere a personas. 'El/la cual, los/las cuales' son alternativas más formales. 'Cuyo/a/os/as' significa 'whose' y concuerda con el sustantivo poseído."
+    },
+    "examples": [
+      { "spanish": "El libro que compré es interesante", "english": "The book that I bought is interesting" },
+      { "spanish": "La mujer con quien hablé es doctora", "english": "The woman with whom I spoke is a doctor" },
+      { "spanish": "El coche, el cual es rojo, es mío", "english": "The car, which is red, is mine" },
+      { "spanish": "El profesor cuya clase tomé es famoso", "english": "The professor whose class I took is famous" },
+      { "spanish": "Las personas a quienes invité no vinieron", "english": "The people whom I invited didn't come" }
+    ],
+    "level": "b1",
+    "exercises": [
+      {
+        "question": "Complete: El restaurante ___ visitamos era excelente.",
+        "options": ["que", "quien", "cual", "cuyo"],
+        "correct": 0
+      },
+      {
+        "question": "Complete: La persona con ___ trabajo es muy amable.",
+        "options": ["que", "quien", "cual", "cuyo"],
+        "correct": 1
+      },
+      {
+        "question": "Complete: El artista ___ obra admiro es español.",
+        "options": ["que", "quien", "cual", "cuya"],
+        "correct": 3
+      },
+      {
+        "question": "Complete: Los estudiantes ___ aprobaron celebraron.",
+        "options": ["que", "quien", "cuales", "cuyos"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "es_grammar_14",
+    "title": "Passive Voice with Ser",
+    "explanation": "La voz pasiva - emphasizing the action",
+    "explanations": {
+      "en": "The passive voice with 'ser' is formed: ser + past participle (agreeing with subject). It emphasizes the action rather than the doer. The agent can be introduced with 'por'. In Spanish, passive 'se' constructions are often preferred in everyday speech.",
+      "es": "La voz pasiva con 'ser' se forma: ser + participio pasado (concordando con el sujeto). Enfatiza la acción en vez del agente. El agente se introduce con 'por'. En español, las construcciones con 'se' pasivo suelen preferirse en el habla cotidiana."
+    },
+    "examples": [
+      { "spanish": "El libro fue escrito por Cervantes", "english": "The book was written by Cervantes" },
+      { "spanish": "Las cartas son enviadas cada día", "english": "The letters are sent every day" },
+      { "spanish": "La casa será construida el próximo año", "english": "The house will be built next year" },
+      { "spanish": "Los resultados fueron anunciados ayer", "english": "The results were announced yesterday" },
+      { "spanish": "La decisión ha sido tomada", "english": "The decision has been made" }
+    ],
+    "level": "b1",
+    "exercises": [
+      {
+        "question": "Complete: La carta ___ por mi hermano. (escribir, pasado)",
+        "options": ["escribió", "fue escrita", "está escrita", "ha escrito"],
+        "correct": 1
+      },
+      {
+        "question": "Complete: Los premios ___ mañana. (entregar, futuro)",
+        "options": ["entregarán", "serán entregados", "son entregados", "fueron entregados"],
+        "correct": 1
+      },
+      {
+        "question": "Complete: El cuadro ___ por Picasso. (pintar, pasado)",
+        "options": ["pintó", "fue pintado", "es pintado", "será pintado"],
+        "correct": 1
+      },
+      {
+        "question": "Complete: Las noticias ___ en la radio cada hora. (transmitir)",
+        "options": ["transmiten", "son transmitidas", "fueron transmitidas", "serán transmitidas"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "es_grammar_15",
+    "title": "Imperfect Subjunctive",
+    "explanation": "Past subjunctive for hypotheticals and past wishes",
+    "explanations": {
+      "en": "The imperfect subjunctive is used for past wishes, hypothetical situations, and in 'if' clauses with the conditional. It has two forms (-ra and -se), both equally correct. It's formed from the third person plural preterite, dropping -ron and adding -ra/-se endings.",
+      "es": "El imperfecto de subjuntivo se usa para deseos pasados, situaciones hipotéticas y en oraciones con 'si' con el condicional. Tiene dos formas (-ra y -se), ambas correctas. Se forma de la tercera persona plural del pretérito, quitando -ron y añadiendo terminaciones -ra/-se."
+    },
+    "examples": [
+      { "spanish": "Si tuviera dinero, viajaría", "english": "If I had money, I would travel" },
+      { "spanish": "Quería que vinieras", "english": "I wanted you to come" },
+      { "spanish": "Si pudiese, te ayudaría", "english": "If I could, I would help you" },
+      { "spanish": "Ojalá estuvieras aquí", "english": "I wish you were here" },
+      { "spanish": "Me pidió que le escribiera", "english": "He asked me to write to him" }
+    ],
+    "level": "b2",
+    "exercises": [
+      {
+        "question": "Complete: Si yo ___ más tiempo, estudiaría español. (tener)",
+        "options": ["tengo", "tendré", "tuviera", "tenía"],
+        "correct": 2
+      },
+      {
+        "question": "Complete: Quería que tú ___ a mi fiesta. (venir)",
+        "options": ["vienes", "vengas", "vinieras", "vendrías"],
+        "correct": 2
+      },
+      {
+        "question": "Complete: Si ella ___ aquí, estaría feliz. (estar)",
+        "options": ["está", "estuviera", "esté", "estaría"],
+        "correct": 1
+      },
+      {
+        "question": "Complete: Me gustaría que ellos ___ la verdad. (saber)",
+        "options": ["saben", "sepan", "supieran", "sabrían"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "es_grammar_16",
+    "title": "Conditional Perfect",
+    "explanation": "What would have happened - condicional compuesto",
+    "explanations": {
+      "en": "The conditional perfect expresses what would have happened. It's formed with the conditional of 'haber' (habría, habrías, habría, habríamos, habríais, habrían) + past participle. Often used with pluperfect subjunctive in 'if' clauses for contrary-to-fact past situations.",
+      "es": "El condicional compuesto expresa lo que habría pasado. Se forma con el condicional de 'haber' (habría, habrías, etc.) + participio pasado. Se usa frecuentemente con el pluscuamperfecto de subjuntivo en oraciones con 'si' para situaciones contrarias a la realidad en el pasado."
+    },
+    "examples": [
+      { "spanish": "Habría venido si me hubieras invitado", "english": "I would have come if you had invited me" },
+      { "spanish": "Ellos habrían llegado tarde", "english": "They would have arrived late" },
+      { "spanish": "¿Habrías aceptado la oferta?", "english": "Would you have accepted the offer?" },
+      { "spanish": "No lo habríamos hecho sin tu ayuda", "english": "We wouldn't have done it without your help" },
+      { "spanish": "Yo habría preferido quedarse en casa", "english": "I would have preferred to stay home" }
+    ],
+    "level": "b2",
+    "exercises": [
+      {
+        "question": "Complete: Yo ___ ir, pero estaba enfermo. (preferir)",
+        "options": ["preferiría", "habría preferido", "había preferido", "preferí"],
+        "correct": 1
+      },
+      {
+        "question": "Complete: Si hubieras estudiado, ___ el examen. (aprobar)",
+        "options": ["aprobarás", "aprobarías", "habrías aprobado", "aprobaste"],
+        "correct": 2
+      },
+      {
+        "question": "Complete: Ellos ___ más tiempo si hubieran salido antes. (tener)",
+        "options": ["tendrían", "habrían tenido", "hubieran tenido", "tuvieron"],
+        "correct": 1
+      },
+      {
+        "question": "Complete: ¿___ tú lo mismo en mi lugar? (hacer)",
+        "options": ["Harías", "Habrías hecho", "Hiciste", "Hacías"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "es_grammar_17",
+    "title": "Advanced Conjunctions",
+    "explanation": "Complex connectors for sophisticated speech",
+    "explanations": {
+      "en": "Advanced conjunctions connect ideas with nuance. Concessive: aunque (although), a pesar de que (despite), si bien (although). Causal: dado que, puesto que, ya que (since). Conditional: a menos que, con tal de que, siempre que (unless, provided that). Purpose: para que, a fin de que (so that).",
+      "es": "Las conjunciones avanzadas conectan ideas con matices. Concesivas: aunque, a pesar de que, si bien. Causales: dado que, puesto que, ya que. Condicionales: a menos que, con tal de que, siempre que. Finales: para que, a fin de que."
+    },
+    "examples": [
+      { "spanish": "A pesar de que llovía, salimos a pasear", "english": "Despite the rain, we went for a walk" },
+      { "spanish": "Dado que no tenemos tiempo, empecemos", "english": "Since we don't have time, let's begin" },
+      { "spanish": "Te presto el libro con tal de que lo cuides", "english": "I'll lend you the book provided you take care of it" },
+      { "spanish": "Estudia más para que apruebes", "english": "Study more so that you pass" },
+      { "spanish": "Si bien es difícil, no es imposible", "english": "Although it's difficult, it's not impossible" }
+    ],
+    "level": "b2",
+    "exercises": [
+      {
+        "question": "Complete: ___ llueva, iremos al parque.",
+        "options": ["Porque", "Aunque", "Cuando", "Si"],
+        "correct": 1
+      },
+      {
+        "question": "Complete: ___ no hay más preguntas, podemos terminar.",
+        "options": ["Aunque", "Porque", "Dado que", "Para que"],
+        "correct": 2
+      },
+      {
+        "question": "Complete: Te ayudo ___ me prometas estudiar.",
+        "options": ["porque", "aunque", "con tal de que", "dado que"],
+        "correct": 2
+      },
+      {
+        "question": "Complete: Habla más alto ___ todos te oigan.",
+        "options": ["porque", "aunque", "dado que", "para que"],
+        "correct": 3
+      }
+    ]
+  },
+  {
+    "id": "es_grammar_18",
+    "title": "Pluperfect Subjunctive",
+    "explanation": "Expressing what would have been - hubiera/hubiese + participio",
+    "explanations": {
+      "en": "The pluperfect subjunctive expresses hypothetical situations in the past or regrets about what didn't happen. Formed with imperfect subjunctive of 'haber' (hubiera/hubiese) + past participle. Used in 'if' clauses for contrary-to-fact past conditions.",
+      "es": "El pluscuamperfecto de subjuntivo expresa situaciones hipotéticas en el pasado o arrepentimiento por lo que no pasó. Se forma con el imperfecto de subjuntivo de 'haber' (hubiera/hubiese) + participio pasado. Se usa en oraciones con 'si' para condiciones contrarias a la realidad en el pasado."
+    },
+    "examples": [
+      { "spanish": "Si hubiera sabido, te habría llamado", "english": "If I had known, I would have called you" },
+      { "spanish": "Ojalá hubiéramos llegado antes", "english": "I wish we had arrived earlier" },
+      { "spanish": "Si hubieses estudiado, habrías aprobado", "english": "If you had studied, you would have passed" },
+      { "spanish": "Me habría gustado que hubiera venido", "english": "I would have liked him to have come" },
+      { "spanish": "Si no hubieran perdido el tren...", "english": "If they hadn't missed the train..." }
+    ],
+    "level": "b2",
+    "exercises": [
+      {
+        "question": "Complete: Si yo lo ___, te lo habría dicho. (saber)",
+        "options": ["sabía", "supiera", "hubiera sabido", "habría sabido"],
+        "correct": 2
+      },
+      {
+        "question": "Complete: Ojalá ___ más cuidado. (tener, nosotros)",
+        "options": ["tuviéramos", "hubiéramos tenido", "tendríamos", "habríamos tenido"],
+        "correct": 1
+      },
+      {
+        "question": "Complete: Si ella ___ antes, todo sería diferente. (llegar)",
+        "options": ["llegara", "hubiera llegado", "habría llegado", "llegó"],
+        "correct": 1
+      },
+      {
+        "question": "Complete: Me alegro de que ___ tiempo de vernos. (haber)",
+        "options": ["haya", "hubiera habido", "habría", "hubo"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "es_grammar_19",
+    "title": "Literary Future Subjunctive",
+    "explanation": "The archaic future subjunctive in legal and literary texts",
+    "explanations": {
+      "en": "The future subjunctive (fuere, tuviere, hiciere) is archaic in modern Spanish but appears in legal texts, proverbs, and literature. Formed similarly to imperfect subjunctive but with -re endings. It refers to potential future events in subordinate clauses. In modern Spanish, it's usually replaced by present subjunctive or indicative.",
+      "es": "El futuro de subjuntivo (fuere, tuviere, hiciere) es arcaico en español moderno pero aparece en textos legales, refranes y literatura. Se forma similar al imperfecto de subjuntivo pero con terminaciones -re. Se refiere a eventos futuros potenciales. En español moderno, se reemplaza por presente de subjuntivo o indicativo."
+    },
+    "examples": [
+      { "spanish": "Sea lo que fuere", "english": "Whatever it may be (archaic)" },
+      { "spanish": "Donde fueres, haz lo que vieres", "english": "When in Rome, do as the Romans do" },
+      { "spanish": "Si así lo hiciere, que Dios me lo premie", "english": "If I do so, may God reward me (oath)" },
+      { "spanish": "El que matare a otro será castigado", "english": "He who kills another shall be punished (legal)" },
+      { "spanish": "Si el acusado no compareciere...", "english": "If the accused does not appear... (legal)" }
+    ],
+    "level": "c1",
+    "exercises": [
+      {
+        "question": "The future subjunctive is most commonly found in:",
+        "options": ["Everyday conversation", "Legal and literary texts", "Informal writing", "Children's books"],
+        "correct": 1
+      },
+      {
+        "question": "Complete the proverb: Donde ___, haz lo que vieres.",
+        "options": ["vas", "fueras", "fueres", "irás"],
+        "correct": 2
+      },
+      {
+        "question": "The future subjunctive 'tuviere' comes from which verb?",
+        "options": ["Tener", "Estar", "Ser", "Ir"],
+        "correct": 0
+      },
+      {
+        "question": "In modern Spanish, the future subjunctive is usually replaced by:",
+        "options": ["Future indicative only", "Present subjunctive or indicative", "Imperfect subjunctive only", "Conditional"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "es_grammar_20",
+    "title": "Complex Subordinate Clauses",
+    "explanation": "Nested clauses and advanced sentence structure",
+    "explanations": {
+      "en": "Complex sentences combine multiple subordinate clauses (noun, adjective, adverb). They can be nested within each other. Key structures include: noun clauses as subjects/objects (que + subjunctive), relative clauses (que, quien, cuyo), and adverbial clauses (temporal, causal, conditional, concessive). Understanding the hierarchy is crucial for academic writing.",
+      "es": "Las oraciones complejas combinan múltiples cláusulas subordinadas (sustantivas, adjetivas, adverbiales). Pueden anidarse unas dentro de otras. Estructuras clave incluyen: cláusulas sustantivas como sujeto/objeto (que + subjuntivo), cláusulas relativas (que, quien, cuyo), y cláusulas adverbiales (temporales, causales, condicionales, concesivas)."
+    },
+    "examples": [
+      { "spanish": "Es probable que quien llegue primero reciba el premio que prometieron", "english": "It's likely that whoever arrives first will receive the prize they promised" },
+      { "spanish": "Aunque sabía que no debía, hizo lo que le pidieron que hiciera", "english": "Although he knew he shouldn't, he did what they asked him to do" },
+      { "spanish": "El informe que presentó el experto cuya reputación es incuestionable...", "english": "The report presented by the expert whose reputation is unquestionable..." },
+      { "spanish": "Dado que creen que es importante que participemos, asistiremos", "english": "Since they believe it's important for us to participate, we will attend" }
+    ],
+    "level": "c1",
+    "exercises": [
+      {
+        "question": "Identify the type of clause: 'Es necesario que vengas'",
+        "options": ["Adverbial", "Noun clause (subject)", "Relative", "Conditional"],
+        "correct": 1
+      },
+      {
+        "question": "Complete: Es posible que ___ que no ___ tiempo.",
+        "options": ["digan / tienen", "digan / tengan", "dicen / tienen", "dicen / tengan"],
+        "correct": 1
+      },
+      {
+        "question": "In complex sentences, subordinate clauses can:",
+        "options": ["Only be at the end", "Never contain subjunctive", "Be nested within each other", "Never modify nouns"],
+        "correct": 2
+      },
+      {
+        "question": "Complete: El libro ___ autor ___ obra ganó el premio...",
+        "options": ["que / cuyo", "cuyo / cuya", "quien / que", "que / que"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "es_grammar_21",
+    "title": "Discourse Markers and Connectors",
+    "explanation": "Organizing sophisticated academic and formal discourse",
+    "explanations": {
+      "en": "Discourse markers structure text and speech at a higher level. Addition: además, asimismo, por añadidura. Contrast: no obstante, sin embargo, ahora bien. Sequence: en primer lugar, a continuación, por último. Conclusion: en definitiva, en resumen, a fin de cuentas. Reformulation: es decir, o sea, dicho de otro modo.",
+      "es": "Los marcadores discursivos estructuran el texto y el habla a un nivel superior. Adición: además, asimismo, por añadidura. Contraste: no obstante, sin embargo, ahora bien. Secuencia: en primer lugar, a continuación, por último. Conclusión: en definitiva, en resumen, a fin de cuentas. Reformulación: es decir, o sea, dicho de otro modo."
+    },
+    "examples": [
+      { "spanish": "En primer lugar, debemos considerar los hechos", "english": "First of all, we must consider the facts" },
+      { "spanish": "No obstante, hay quienes discrepan", "english": "Nevertheless, there are those who disagree" },
+      { "spanish": "Es decir, no podemos ignorar la evidencia", "english": "That is to say, we cannot ignore the evidence" },
+      { "spanish": "A fin de cuentas, lo importante es el resultado", "english": "After all, what matters is the result" },
+      { "spanish": "Asimismo, cabe mencionar otros factores", "english": "Likewise, other factors should be mentioned" }
+    ],
+    "level": "c1",
+    "exercises": [
+      {
+        "question": "Choose the connector for contrast: '___, algunos expertos opinan diferente.'",
+        "options": ["Además", "No obstante", "Es decir", "En primer lugar"],
+        "correct": 1
+      },
+      {
+        "question": "Choose the connector for conclusion: '___, todos los argumentos apoyan la teoría.'",
+        "options": ["Sin embargo", "Asimismo", "En definitiva", "Por añadidura"],
+        "correct": 2
+      },
+      {
+        "question": "Choose the connector for reformulation: 'El proyecto fracasó, ___, no alcanzó sus objetivos.'",
+        "options": ["no obstante", "es decir", "además", "por último"],
+        "correct": 1
+      },
+      {
+        "question": "Choose the connector for addition: '___, debemos considerar el impacto ambiental.'",
+        "options": ["Sin embargo", "En resumen", "Asimismo", "Ahora bien"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "es_grammar_22",
+    "title": "Stylistic Register Variation",
+    "explanation": "Adapting language for formal, informal, and literary contexts",
+    "explanations": {
+      "en": "Spanish varies significantly by register. Formal: usted, passive voice, technical vocabulary, subjunctive. Informal: tú/vos, colloquialisms, simplified syntax. Literary: metaphor, archaic forms, inverted syntax, elaborate subordination. Academic: impersonal constructions, hedging (parece que, podría ser), citations. Knowing when to use each register is crucial for native-like competence.",
+      "es": "El español varía significativamente según el registro. Formal: usted, voz pasiva, vocabulario técnico, subjuntivo. Informal: tú/vos, coloquialismos, sintaxis simplificada. Literario: metáfora, formas arcaicas, sintaxis invertida. Académico: construcciones impersonales, atenuación (parece que, podría ser), citas."
+    },
+    "examples": [
+      { "spanish": "Formal: ¿Podría indicarme dónde se encuentra la estación?", "english": "Could you indicate to me where the station is located?" },
+      { "spanish": "Informal: ¿Me dices dónde está la estación?", "english": "Can you tell me where the station is?" },
+      { "spanish": "Literary: Cual ave fénix, de sus cenizas resurgió", "english": "Like a phoenix, it rose from its ashes" },
+      { "spanish": "Academic: Se podría argumentar que los datos sugieren...", "english": "It could be argued that the data suggests..." }
+    ],
+    "level": "c1",
+    "exercises": [
+      {
+        "question": "Which register uses 'usted' and passive voice?",
+        "options": ["Informal", "Formal", "Colloquial", "Slang"],
+        "correct": 1
+      },
+      {
+        "question": "Which sentence is in formal register?",
+        "options": ["¿Qué onda, güey?", "Le ruego me disculpe", "¡Mola mucho!", "¿Qué tal?"],
+        "correct": 1
+      },
+      {
+        "question": "Academic register often uses:",
+        "options": ["Slang and colloquialisms", "Impersonal constructions and hedging", "Only simple sentences", "Informal pronouns"],
+        "correct": 1
+      },
+      {
+        "question": "Which is a literary stylistic device?",
+        "options": ["Using 'tú'", "Inverted syntax and metaphor", "Simple vocabulary", "Short sentences only"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "es_grammar_23",
+    "title": "Archaic and Literary Verb Forms",
+    "explanation": "Historical forms found in literature and formal contexts",
+    "explanations": {
+      "en": "Spanish literature preserves archaic forms rarely used today. Vosotros imperative with enclitic pronouns (decidme, dadnos). Archaic second person: vos with unique conjugations (vos tenéis > vos tenés in Rioplatense). Future subjunctive (fuere, tuviere). Literary imperfect in -ía vs -aba variations. Preterite forms like 'hubo' used literarily. Understanding these unlocks classical texts.",
+      "es": "La literatura española preserva formas arcaicas raramente usadas hoy. Imperativo de vosotros con pronombres enclíticos (decidme, dadnos). Segunda persona arcaica: vos con conjugaciones únicas. Futuro de subjuntivo (fuere, tuviere). Variaciones literarias del imperfecto. Formas del pretérito como 'hubo' usadas literariamente."
+    },
+    "examples": [
+      { "spanish": "¡Decidme la verdad! (archaic imperative)", "english": "Tell me the truth!" },
+      { "spanish": "Si así lo quisiéredes (archaic)", "english": "If you so wished" },
+      { "spanish": "Vos sois muy gentil (archaic vos)", "english": "You are very kind (archaic form)" },
+      { "spanish": "Hubo una vez un rey... (literary)", "english": "Once upon a time there was a king..." },
+      { "spanish": "Pluguiera a Dios (archaic optative)", "english": "Would to God / May it please God" }
+    ],
+    "level": "c2",
+    "exercises": [
+      {
+        "question": "'Decidme' is an archaic form of:",
+        "options": ["Decimos", "Decidnos", "Decidme (vosotros imperative + me)", "Dígame"],
+        "correct": 2
+      },
+      {
+        "question": "The archaic 'vos' pronoun used unique conjugations. True or false?",
+        "options": ["True", "False", "Only in writing", "Only in speech"],
+        "correct": 0
+      },
+      {
+        "question": "'Pluguiera' is an archaic form of which verb?",
+        "options": ["Plegar", "Placer", "Lugar", "Llegar"],
+        "correct": 1
+      },
+      {
+        "question": "These archaic forms are most commonly found in:",
+        "options": ["Text messages", "News reports", "Classical literature and legal texts", "Children's cartoons"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "es_grammar_24",
+    "title": "Regional Variations and Dialectal Forms",
+    "explanation": "Understanding voseo, leísmo, and regional grammar",
+    "explanations": {
+      "en": "Spanish grammar varies by region. Voseo (Argentina, Central America): vos cantás, vos tenés. Leísmo (Central Spain): 'le' as direct object for masculine persons. Laísmo/loísmo (some regions): non-standard pronoun usage. Ustedes for vosotros (Latin America, Canary Islands, Andalusia). Understanding these helps comprehend authentic regional speech and literature.",
+      "es": "La gramática del español varía por región. Voseo (Argentina, Centroamérica): vos cantás, vos tenés. Leísmo (centro de España): 'le' como objeto directo para personas masculinas. Laísmo/loísmo (algunas regiones): uso no estándar de pronombres. Ustedes por vosotros (Latinoamérica, Canarias, Andalucía)."
+    },
+    "examples": [
+      { "spanish": "Voseo: ¿Vos querés venir? (Argentina)", "english": "Do you want to come?" },
+      { "spanish": "Leísmo: A Juan le vi ayer (Central Spain)", "english": "I saw Juan yesterday" },
+      { "spanish": "Ustedes for vosotros: ¿Ustedes vienen? (Latin America)", "english": "Are you (all) coming?" },
+      { "spanish": "Diminutives vary: -ito (Spain), -ico (Colombia), -illo (Andalusia)", "english": "Small/cute (regional suffix variations)" },
+      { "spanish": "Pretérito perfecto use: He comido (Spain) vs Comí (Latin America)", "english": "I have eaten / I ate (regional preference)" }
+    ],
+    "level": "c2",
+    "exercises": [
+      {
+        "question": "Voseo is primarily used in:",
+        "options": ["Spain only", "Argentina and Central America", "Portugal", "France"],
+        "correct": 1
+      },
+      {
+        "question": "'Le vi ayer' (referring to a man) is an example of:",
+        "options": ["Standard usage", "Leísmo", "Laísmo", "Loísmo"],
+        "correct": 1
+      },
+      {
+        "question": "In most of Latin America, 'vosotros' is replaced by:",
+        "options": ["Tú", "Vos", "Ustedes", "Ellos"],
+        "correct": 2
+      },
+      {
+        "question": "The present perfect is used differently in Spain vs Latin America. True or false?",
+        "options": ["True", "False", "Only in formal contexts", "Only in informal contexts"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "es_grammar_25",
+    "title": "Nuanced Modal Expressions",
+    "explanation": "Expressing degrees of certainty, obligation, and possibility",
+    "explanations": {
+      "en": "Advanced modal expressions convey subtle degrees of meaning. Obligation: deber (strong), haber de (literary), tener que (necessity). Possibility: poder, deber de (probability), puede que + subjunctive. Certainty: es seguro que + indicative, es probable que + subjunctive. Hedging: podría ser que, cabría pensar que, no se descarta que. These nuances are essential for academic and professional Spanish.",
+      "es": "Las expresiones modales avanzadas transmiten grados sutiles de significado. Obligación: deber (fuerte), haber de (literario), tener que (necesidad). Posibilidad: poder, deber de (probabilidad), puede que + subjuntivo. Certeza: es seguro que + indicativo, es probable que + subjuntivo. Atenuación: podría ser que, cabría pensar que, no se descarta que."
+    },
+    "examples": [
+      { "spanish": "Debe de estar en casa (probability)", "english": "He must be at home (probably is)" },
+      { "spanish": "Ha de saber la verdad (literary obligation)", "english": "He must know the truth" },
+      { "spanish": "Puede que venga mañana", "english": "He might come tomorrow" },
+      { "spanish": "Cabría preguntarse si...", "english": "One might ask whether..." },
+      { "spanish": "No se descarta que haya errores", "english": "It cannot be ruled out that there are errors" }
+    ],
+    "level": "c2",
+    "exercises": [
+      {
+        "question": "'Debe de estar en casa' expresses:",
+        "options": ["Strong obligation", "Probability/conjecture", "Command", "Past action"],
+        "correct": 1
+      },
+      {
+        "question": "'Cabría pensar que...' is used for:",
+        "options": ["Direct statement", "Academic hedging", "Informal speech", "Commands"],
+        "correct": 1
+      },
+      {
+        "question": "Which expresses higher certainty?",
+        "options": ["Es probable que venga", "Puede que venga", "Es seguro que viene", "Tal vez venga"],
+        "correct": 2
+      },
+      {
+        "question": "'Haber de' + infinitive is:",
+        "options": ["Colloquial", "Literary/formal obligation", "Incorrect", "Only for questions"],
+        "correct": 1
+      }
+    ]
+  }
+]

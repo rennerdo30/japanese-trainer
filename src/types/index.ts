@@ -1,9 +1,16 @@
 // Shared type definitions
 
+// Japanese character types
+export type JapaneseCharacterType = 'gojuon' | 'yoon' | 'dakuten' | 'handakuten';
+// Korean character types
+export type KoreanCharacterType = 'consonant' | 'vowel' | 'double_consonant' | 'compound_vowel';
+// Combined character type for multi-language support
+export type CharacterType = JapaneseCharacterType | KoreanCharacterType;
+
 export interface Character {
   romaji: string;
   hiragana: string;
-  type: 'gojuon' | 'yoon' | 'dakuten' | 'handakuten';
+  type: CharacterType;
   audioUrl?: string;
 }
 
@@ -20,10 +27,12 @@ export interface VocabularyItem {
   word: string;
   reading: string;
   meaning: string; // Legacy: kept for backward compatibility, use meanings instead
-  meanings?: Record<string, string>; // Language code -> meaning translation
+  meanings?: Record<string, string | string[]>; // Language code -> meaning translation (string or array)
   romaji: string;
   jlpt?: string;
+  level?: string; // Generic level field for non-Japanese languages (CEFR, TOPIK, HSK, etc.)
   audioUrl?: string;
+  [key: string]: unknown; // Allow additional properties for type checking
 }
 
 export interface KanjiItem {
@@ -33,7 +42,9 @@ export interface KanjiItem {
   meanings?: Record<string, string>; // Language code -> meaning translation
   onyomi: string[];
   kunyomi: string[];
+  strokes?: number;
   jlpt?: string;
+  radicals?: string[];
   audioUrl?: string;
   examples?: Array<{
     word: string;

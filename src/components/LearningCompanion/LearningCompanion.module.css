@@ -1,0 +1,444 @@
+/* Learning Companion - Sidebar and Bottom Sheet styles */
+
+.companion {
+  background: var(--bg-card, #16162a);
+  border: 1px solid var(--border, #333);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Sidebar position (desktop) */
+.companion.sidebar {
+  position: fixed;
+  top: 5rem;
+  right: 1.5rem;
+  width: 280px;
+  max-height: calc(100vh - 7rem);
+  z-index: 50;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* Bottom position (mobile) */
+.companion.bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-height: 70vh;
+  border-radius: 1.5rem 1.5rem 0 0;
+  border-bottom: none;
+  z-index: 50;
+  box-shadow: 0 -8px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid var(--border, #333);
+  background: var(--bg-secondary, #1a1a2e);
+}
+
+.headerTitle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.headerTitle h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.compassIcon {
+  font-size: 1.25rem;
+  color: var(--accent-gold, #d4a574);
+}
+
+.headerActions {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.toggleButton,
+.closeButton {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary, #888);
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.toggleButton:hover,
+.closeButton:hover {
+  background: var(--bg-hover, rgba(255, 255, 255, 0.05));
+  color: var(--text-primary, #f5f0e8);
+}
+
+/* Minimized Button */
+.minimizedButton {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--accent-gold, #d4a574);
+  color: var(--bg-primary, #0f0f1a);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  box-shadow: 0 4px 16px rgba(212, 165, 116, 0.3);
+  z-index: 50;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.minimizedButton:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 24px rgba(212, 165, 116, 0.4);
+}
+
+.reviewBadge {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  background: var(--accent-red, #c41e3a);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.125rem 0.5rem;
+  border-radius: 1rem;
+  min-width: 20px;
+  text-align: center;
+}
+
+/* Progress Ring */
+.progressRing {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin: 1rem auto;
+}
+
+.ringSvg {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+
+.ringBackground {
+  fill: none;
+  stroke: var(--bg-secondary, #1a1a2e);
+  stroke-width: 8;
+}
+
+.ringProgress {
+  fill: none;
+  stroke: var(--accent-gold, #d4a574);
+  stroke-width: 8;
+  stroke-linecap: round;
+  transition: stroke-dasharray 0.5s ease;
+}
+
+.ringContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.ringContent h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+/* Quick Stats */
+.quickStats {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--border, #333);
+}
+
+.quickStat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.125rem;
+}
+
+.quickStatIcon {
+  font-size: 1.25rem;
+}
+
+.quickStatValue {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-primary, #f5f0e8);
+}
+
+.quickStatLabel {
+  font-size: 0.7rem;
+  color: var(--text-muted, #666);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Review Alert */
+.reviewAlert {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: rgba(196, 30, 58, 0.1);
+  border-bottom: 1px solid var(--border, #333);
+  text-decoration: none;
+  color: var(--text-primary, #f5f0e8);
+  transition: background-color 0.2s ease;
+}
+
+.reviewAlert:hover {
+  background: rgba(196, 30, 58, 0.2);
+}
+
+.reviewAlertIcon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+.reviewAlertContent {
+  flex: 1;
+  min-width: 0;
+}
+
+.reviewAlertTitle {
+  font-weight: 600;
+}
+
+.reviewAlertPlay {
+  font-size: 1.25rem;
+  color: var(--text-muted, #666);
+}
+
+/* Sections */
+.section {
+  padding: 1rem;
+  border-bottom: 1px solid var(--border, #333);
+}
+
+.section:last-of-type {
+  border-bottom: none;
+}
+
+.sectionTitle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Recommendation Card */
+.recommendationCard {
+  display: flex;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  background: var(--bg-secondary, #1a1a2e);
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: var(--text-primary, #f5f0e8);
+  transition: background-color 0.2s ease;
+}
+
+.recommendationCard:hover {
+  background: var(--bg-hover, rgba(255, 255, 255, 0.05));
+}
+
+.recommendationIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 0.5rem;
+  background: var(--accent-gold, #d4a574);
+  color: var(--bg-primary, #0f0f1a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  flex-shrink: 0;
+}
+
+.recommendationContent {
+  flex: 1;
+  min-width: 0;
+}
+
+.recommendationTitle {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+/* Suggestions List */
+.suggestionsList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.suggestionItem {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: var(--text-primary, #f5f0e8);
+  transition: background-color 0.2s ease;
+}
+
+.suggestionItem:hover {
+  background: var(--bg-hover, rgba(255, 255, 255, 0.05));
+}
+
+.suggestionIcon {
+  font-size: 1rem;
+  color: var(--accent-gold, #d4a574);
+}
+
+.suggestionText {
+  font-size: 0.875rem;
+}
+
+/* Milestone Card */
+.milestoneCard {
+  padding: 0.75rem;
+  background: var(--bg-secondary, #1a1a2e);
+  border-radius: 0.5rem;
+}
+
+.milestoneProgress {
+  height: 4px;
+  background: var(--bg-primary, #0f0f1a);
+  border-radius: 2px;
+  margin: 0.5rem 0;
+  overflow: hidden;
+}
+
+.milestoneProgressBar {
+  height: 100%;
+  background: var(--accent-gold, #d4a574);
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+/* Insight Card */
+.insightCard {
+  padding: 0.75rem !important;
+  font-style: italic;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.75rem 1rem;
+  border-top: 1px solid var(--border, #333);
+  background: var(--bg-secondary, #1a1a2e);
+}
+
+.footerLink {
+  font-size: 0.875rem;
+  color: var(--accent-gold, #d4a574);
+  text-decoration: none;
+  padding: 0.5rem;
+  transition: opacity 0.2s ease;
+}
+
+.footerLink:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+/* Responsive - Hide sidebar on mobile, show as bottom sheet */
+@media (max-width: 1023px) {
+  .companion.sidebar {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .companion.bottom {
+    display: none;
+  }
+
+  .minimizedButton {
+    display: none;
+  }
+}
+
+/* Mobile optimizations */
+@media (max-width: 480px) {
+  .companion.bottom {
+    max-height: 80vh;
+  }
+
+  .progressRing {
+    width: 100px;
+    height: 100px;
+  }
+
+  .ringContent h2 {
+    font-size: 1.25rem;
+  }
+
+  .quickStats {
+    padding: 0.5rem;
+  }
+
+  .quickStatValue {
+    font-size: 1rem;
+  }
+
+  .section {
+    padding: 0.75rem;
+  }
+}
+
+/* Animation for expanded content */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.section {
+  animation: slideUp 0.3s ease-out;
+}

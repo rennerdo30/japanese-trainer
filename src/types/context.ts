@@ -55,6 +55,7 @@ export interface ProgressContextValue {
     getModuleData: (moduleName: string) => ModuleData;
     updateModuleStats: (moduleName: string, stats: Partial<ModuleStats>) => void;
     updateData: (data: any) => void;
+    updateModuleReview: (moduleName: string, itemId: string, reviewData: any) => void;
 }
 
 export interface ContextProviderProps {

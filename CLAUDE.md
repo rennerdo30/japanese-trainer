@@ -2,6 +2,280 @@
 
 This file provides guidance for AI assistants working on the Japanese Trainer codebase.
 
+## ⚠️ CRITICAL: Follow SPECIFICATION.md
+
+**Always refer to `SPECIFICATION.md` for detailed technical and design specifications.**
+
+Key sections to follow:
+- **Multi-Language Theme System** - Each language MUST have its own distinct visual theme
+- **Design System** - Color palettes, typography, animations
+- **Mobile Responsiveness** - Touch targets, breakpoints, responsive patterns
+
+### Language-Specific Themes (REQUIRED)
+
+When implementing features or making UI changes, ensure each language has its own culturally-inspired design:
+
+| Language | Theme Name | Key Colors | Background Decoration |
+|----------|------------|------------|----------------------|
+| Japanese | "Zen Garden" | Vermillion + Gold | 学 (kanji) |
+| Spanish | "Sol y Sombra" | Red + Orange + Yellow | Ñ |
+| German | "Schwarzwald" | Prussian Gold + Forest Green | ß |
+| English | "Oxford Library" | Royal Gold + Navy Blue | Crown/Æ |
+| Italian | "Rinascimento" | Ferrari Red + Tuscan Gold | Flourish |
+| Korean | "Hanok" | K-pop Pink + Cyan | 한 |
+| Chinese | "Silk Road" | Imperial Red + Gold | 学/祥云 |
+
+**DO NOT** show Japanese-specific elements (like floating kanji 学) when learning other languages.
+**DO** switch the entire theme (colors, fonts, decorations) when the target language changes.
+
+## Multi-Language Architecture
+
+### Data Structure
+Data is organized by language code in `src/data/{lang}/`:
+```
+src/data/
+├── ja/                    # Japanese
+│   ├── characters.json    # Hiragana/Katakana (112 chars)
+│   ├── vocabulary.json
+│   ├── kanji.json
+│   ├── grammar.json
+│   ├── readings.json
+│   └── prerequisites.json
+├── ko/                    # Korean
+│   └── characters.json    # Hangul (40 chars)
+├── zh/                    # Chinese
+│   └── hanzi.json         # Chinese characters (10 HSK1 chars)
+├── es/                    # Spanish (vocabulary, grammar, readings)
+└── language-configs.json  # Master config for all languages
+```
+
+### Language Configuration (`src/data/language-configs.json`)
+Defines which modules each language supports:
+
+| Language | Code | Alphabet | Vocabulary | Kanji/Hanzi | Grammar | Reading | Listening |
+|----------|------|----------|------------|-------------|---------|---------|-----------|
+| Japanese | ja   | Hiragana/Katakana | Yes | Kanji | Yes | Yes | Yes |
+| Korean   | ko   | **Hangul** | Yes* | - | Yes* | Yes* | Yes* |
+| Chinese  | zh   | - | Yes* | **Hanzi** | Yes* | Yes* | Yes* |
+| Spanish  | es   | - | Yes* | - | Yes* | Yes* | Yes* |
+| German   | de   | - | Yes* | - | Yes* | Yes* | Yes* |
+| English  | en   | - | Yes* | - | Yes* | Yes* | Yes* |
+| Italian  | it   | - | Yes* | - | Yes* | Yes* | Yes* |
+
+\* = Module enabled but shows "Coming Soon" (data not yet available)
+
+### Key Components
+
+**`LanguageContentGuard`** (`src/components/common/LanguageContentGuard.tsx`)
+- Guards module pages, showing "Coming Soon" if no data exists
+- `MODULE_DATA_AVAILABILITY` defines which languages have actual data
+
+**`useTargetLanguage`** (`src/hooks/useTargetLanguage.ts`)
+- Manages target language state
+- Persists to localStorage
+- Applies theme via `data-theme` attribute
+
+**Dashboard Module Filtering** (`src/components/layout/Dashboard.tsx`)
+- `isModuleEnabled()` filters modules based on language config
+- `getModuleName()` returns language-specific module titles
+- `getStatLabel()` returns language-specific stat labels
+
+### Language-Specific Module Names
+
+| Module ID | Japanese | Korean | Chinese | Others |
+|-----------|----------|--------|---------|--------|
+| alphabet  | "Alphabet" (Hiragana/Katakana) | "Hangul" | - | - |
+| kanji     | "Kanji" | - | "Hanzi" | - |
+
+### Theme System
+CSS themes in `src/styles/themes/{lang}.css`:
+- Use `html[data-theme="{lang}"]` selector for specificity
+- Override `:root` CSS variables
+- Applied automatically by `ClientLayout` when language changes
+
+### Supported Proficiency Levels
+
+**CRITICAL: Full proficiency range support from beginner to mastery!**
+
+The app supports COMPLETE level ranges for all languages. Content MUST be created for ALL levels:
+
+| Language | Framework | Full Range |
+|----------|-----------|------------|
+| Japanese | JLPT | N5 → N4 → N3 → N2 → N1 |
+| Korean | TOPIK | TOPIK1 → TOPIK2 → TOPIK3 → TOPIK4 → TOPIK5 → TOPIK6 |
+| Chinese | HSK | HSK1 → HSK2 → HSK3 → HSK4 → HSK5 → HSK6 |
+| European (ES/DE/IT/EN) | CEFR | A1 → A2 → B1 → B2 → C1 → C2 |
+
+**DO NOT** create only beginner content. Every module needs content from start to finish!
+
+See `SPECIFICATION.md` for detailed level descriptions.
+
+---
+
+### Modular Data Loading Architecture
+
+**CRITICAL: Keep it modular! Languages should be addable without code changes.**
+
+The app uses a registry-based data loading system that allows adding new languages with minimal code changes:
+
+#### Key Files
+
+1. **`src/data/language-configs.json`** - Master config for all languages
+   - Defines which modules each language supports
+   - Contains level configurations (JLPT for Japanese, CEFR for European, HSK for Chinese, TOPIK for Korean)
+   - **Adding a new language starts here**
+
+2. **`src/lib/dataLoader.ts`** - Centralized data loader with registry pattern
+   ```typescript
+   // Import vocabulary data for all languages
+   import jaVocabJson from '@/data/ja/vocabulary.json';
+   import koVocabJson from '@/data/ko/vocabulary.json';
+   // ...
+
+   const DATA_REGISTRY: DataRegistry = {
+     vocabulary: {
+       ja: jaVocabJson,
+       ko: koVocabJson,
+       // Add new languages here
+     },
+   };
+
+   export function getVocabularyData(lang: string): VocabularyItem[];
+   export function getItemLevel(item: VocabularyItem): string;  // Handles jlpt/level fields
+   ```
+
+3. **`src/hooks/useTargetLanguage.ts`** - Language context hook
+   - Provides `targetLanguage`, `levels`, `getDataUrl(filename)`
+   - `levels` comes from `language-configs.json` - use this for filters!
+   - `getDataUrl('grammar.json')` returns `/data/{lang}/grammar.json`
+
+#### Module Page Pattern
+
+All module pages (vocabulary, grammar, reading, listening) follow this pattern:
+
+```typescript
+import { useTargetLanguage } from '@/hooks/useTargetLanguage';
+import { getVocabularyData, getItemLevel } from '@/lib/dataLoader';
+
+export default function ModulePage() {
+  const { targetLanguage, levels, getDataUrl } = useTargetLanguage();
+
+  // Get first 2 levels from language config for filters
+  const displayLevels = useMemo(() => levels.slice(0, 2), [levels]);
+
+  // For vocabulary (static import via registry)
+  const vocabulary = useMemo(() => getVocabularyData(targetLanguage), [targetLanguage]);
+
+  // For grammar/reading/listening (dynamic fetch)
+  useEffect(() => {
+    fetch(getDataUrl('grammar.json'))
+      .then(res => res.json())
+      .then(data => setData(data));
+  }, [targetLanguage, getDataUrl]);
+
+  // Language-aware filters - NEVER hardcode JLPT/CEFR/HSK!
+  useEffect(() => {
+    const newFilters: Record<string, Filter> = {};
+    displayLevels.forEach((level) => {
+      newFilters[level.id] = {
+        id: level.id,
+        label: level.name,  // From language-configs.json
+        checked: true,
+        type: 'checkbox'
+      };
+    });
+    setFilters(newFilters);
+  }, [targetLanguage, displayLevels]);
+}
+```
+
+#### Adding a New Language
+
+1. **Add language config** to `src/data/language-configs.json`:
+   ```json
+   {
+     "code": "fr",
+     "name": "French",
+     "nativeName": "Français",
+     "levels": [
+       { "id": "a1", "name": "CEFR A1", "framework": "CEFR" },
+       { "id": "a2", "name": "CEFR A2", "framework": "CEFR" }
+     ],
+     "modules": {
+       "vocabulary": true,
+       "grammar": true,
+       "reading": true,
+       "listening": true
+     }
+   }
+   ```
+
+2. **Create data files** in `src/data/fr/`:
+   - `vocabulary.json` - with `level` field matching level IDs (a1, a2)
+   - `grammar.json`
+   - `readings.json`
+   - `listening.json`
+
+3. **Add to dataLoader.ts** (for vocabulary only):
+   ```typescript
+   import frVocabJson from '@/data/fr/vocabulary.json';
+
+   const DATA_REGISTRY = {
+     vocabulary: {
+       // ...existing languages
+       fr: frVocabJson as VocabularyItem[],
+     },
+   };
+   ```
+
+4. **No changes needed** for grammar, reading, listening pages - they use dynamic fetch!
+
+#### Level Field Handling
+
+Different languages use different level systems:
+- Japanese: `jlpt` field (n5, n4, n3, n2, n1)
+- European: `level` field (a1, a2, b1, b2, c1, c2)
+- Chinese: `level` field (hsk1, hsk2, hsk3, etc.)
+- Korean: `level` field (topik1, topik2)
+
+The `getItemLevel()` function in dataLoader.ts handles this:
+```typescript
+export function getItemLevel(item: VocabularyItem): string {
+  const record = item as Record<string, unknown>;
+  return (record.jlpt as string) || (record.level as string) || '';
+}
+```
+
+### ⚠️ Known Issues / TODO
+
+**Module Pages Needing Further Work:**
+1. **`src/app/alphabet/page.tsx`**:
+   - Hardcodes `@/data/ja/characters.json` (line 11)
+   - Japanese-specific: Hiragana/Katakana toggle, gojuon/yoon/dakuten filters
+   - Korean needs: consonant/vowel/double_consonant/compound_vowel filters
+   - Should dynamically load data based on target language
+
+2. **`src/app/kanji/page.tsx`**:
+   - Hardcodes `@/data/ja/kanji.json` (line 13)
+   - Japanese-specific: JLPT levels (N5, N4), onyomi/kunyomi readings
+   - Chinese needs: HSK levels, pinyin instead of readings
+   - Should dynamically load data based on target language
+
+3. **Translations** (`src/locales/*.json`):
+   - Module descriptions are Japanese-specific (e.g., "Master Hiragana & Katakana")
+   - Should have language-aware descriptions
+
+**Data Needed:**
+- Korean: vocabulary, grammar, reading, listening
+- Chinese: vocabulary, grammar, reading, listening (more Hanzi)
+- All other languages: complete data sets
+
+**ALREADY FIXED:**
+- ✅ Vocabulary page - uses `dataLoader.ts` and `useTargetLanguage().levels`
+- ✅ Grammar page - uses `getDataUrl()` and language-aware filters
+- ✅ Reading page - uses `getDataUrl()`, conditional furigana (Japanese only)
+- ✅ Listening page - uses `getDataUrl()` and language-aware filters
+
 ## ⚠️ IMPORTANT: Deployment Architecture
 
 This project uses a **client-server architecture** with:
@@ -181,6 +455,26 @@ npm run build         # Build static site to out/ directory
 ```bash
 npm run deploy        # Deploy Convex backend + build Next.js
 ```
+
+### Python Virtual Environment
+
+**IMPORTANT: Always use the project's virtual environment for Python commands!**
+
+The project uses a Python venv for data generation scripts. Never install packages globally.
+
+```bash
+# Activate venv before running Python commands
+source .venv/bin/activate
+
+# Install new packages (always in venv)
+source .venv/bin/activate && pip install <package>
+
+# Run Python scripts
+source .venv/bin/activate && python tools/generate-kanji-data.py
+```
+
+**Installed packages:**
+- `kotobase` - Japanese kanji/vocabulary database with JLPT level support
 
 ### Environment Variables
 Create a `.env.local` file with:
@@ -512,6 +806,91 @@ export const viewport = {
 - Physical devices: iPhone SE (small), iPhone 14 (medium), iPad (tablet)
 - Enable debug mode: `window.DEBUG_MOBILE = true`
 - Check landscape orientation on phones (< 500px height)
+
+### Icon Usage Guidelines
+
+**NEVER use emojis as icons.** Always use proper icon components from the `react-icons` library.
+
+#### Why Not Emojis?
+- **Inconsistent rendering**: Emojis look different across browsers, operating systems, and devices
+- **Poor accessibility**: Screen readers handle emojis poorly
+- **Limited styling**: Can't control size, color, or alignment reliably
+- **Unprofessional**: Emojis create an inconsistent, unprofessional appearance
+
+#### Correct Approach: react-icons
+
+Install the library:
+```bash
+npm install react-icons
+```
+
+Import and use icon components:
+```typescript
+import { IoFlame, IoBook, IoSchool, IoTime } from 'react-icons/io5';
+import { IoVolumeHigh, IoHeadset, IoDocumentText } from 'react-icons/io5';
+import { PiExam } from 'react-icons/pi';
+
+// Use as React components
+<div className={styles.icon}><IoFlame /></div>
+<Button><IoVolumeHigh /> Play Audio</Button>
+```
+
+#### Recommended Icon Libraries
+- **Ionicons 5** (`react-icons/io5`): Primary choice, modern and consistent
+- **Phosphor** (`react-icons/pi`): Good alternative with unique icons
+- **Material Design** (`react-icons/md`): For Material UI style
+- **Lucide** (`react-icons/lu`): Minimal, clean icons
+
+#### Icon Mapping Guide
+Replace emojis with appropriate react-icons:
+
+| Emoji | Icon Component | Import |
+|-------|---------------|--------|
+| 🔥 (fire) | `IoFlame` | `react-icons/io5` |
+| 📚 (books) | `IoBook` | `react-icons/io5` |
+| 字 (kanji) | `IoSchool` | `react-icons/io5` |
+| ⏱️ (timer) | `IoTime` | `react-icons/io5` |
+| 📖 (book) | `IoBook` | `react-icons/io5` |
+| 📝 (writing) | `PiExam` | `react-icons/pi` |
+| 📄 (document) | `IoDocumentText` | `react-icons/io5` |
+| 🎧 (headphones) | `IoHeadset` | `react-icons/io5` |
+| 🔊 (speaker) | `IoVolumeHigh` | `react-icons/io5` |
+
+#### Japanese Characters as Icons
+When using Japanese characters (あ, 字, etc.) as icons, wrap them in a styled span:
+
+```typescript
+interface Module {
+    id: string;
+    icon: React.ReactNode;  // NOT string!
+    href: string;
+}
+
+const MODULES = [
+    { id: 'alphabet', icon: <span className={styles.japaneseIcon}>あ</span>, href: '/alphabet' },
+    { id: 'kanji', icon: <span className={styles.japaneseIcon}>字</span>, href: '/kanji' },
+];
+```
+
+```css
+.japaneseIcon {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  font-weight: 700;
+  /* Ensures Japanese characters render properly as icons */
+}
+```
+
+#### Styling Icons
+Icons inherit color and size from parent by default:
+
+```css
+.moduleIcon {
+  font-size: 4rem;          /* Icon scales to this size */
+  color: var(--accent-gold); /* Icon takes this color */
+}
+```
+
+**Common Pitfall**: Don't use emojis even for "quick prototyping" - they'll end up in production. Always use proper icons from the start.
 
 ## Deployment
 

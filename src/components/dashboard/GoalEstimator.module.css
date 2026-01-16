@@ -1,0 +1,272 @@
+/* Goal Estimator Widget */
+
+.estimator {
+  padding: 1.5rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.headerIcon {
+  font-size: 1.5rem;
+  color: var(--accent-gold, #d4a574);
+}
+
+.header h3 {
+  margin: 0;
+}
+
+/* Goal Selector */
+.goalSelector {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  overflow-x: auto;
+  padding-bottom: 0.25rem;
+}
+
+.goalButton {
+  padding: 0.5rem 1rem;
+  background: var(--bg-secondary, #1a1a2e);
+  border: 1px solid var(--border, #333);
+  border-radius: 0.5rem;
+  color: var(--text-secondary, #888);
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  min-height: 44px;
+}
+
+.goalButton:hover {
+  background: var(--bg-hover, rgba(255, 255, 255, 0.05));
+  color: var(--text-primary, #f5f0e8);
+}
+
+.goalButton.active {
+  background: var(--accent-gold, #d4a574);
+  color: var(--bg-primary, #0f0f1a);
+  border-color: var(--accent-gold, #d4a574);
+}
+
+/* Progress Ring */
+.progressContainer {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  margin: 0 auto 1.5rem;
+}
+
+.progressRing {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+
+.ringBackground {
+  fill: none;
+  stroke: var(--bg-secondary, #1a1a2e);
+  stroke-width: 8;
+}
+
+.ringProgress {
+  fill: none;
+  stroke: var(--accent-gold, #d4a574);
+  stroke-width: 8;
+  stroke-linecap: round;
+  transition: stroke-dasharray 0.5s ease;
+}
+
+.progressContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.progressContent h2 {
+  margin: 0;
+  font-size: 1.75rem;
+  line-height: 1;
+}
+
+/* Stats Grid */
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  text-align: center;
+}
+
+.statIcon {
+  font-size: 1.25rem;
+  color: var(--accent-gold, #d4a574);
+  margin-bottom: 0.25rem;
+}
+
+.statContent h3 {
+  margin: 0;
+  line-height: 1.2;
+}
+
+/* Completion */
+.completion {
+  text-align: center;
+  padding: 1rem;
+  background: var(--bg-secondary, #1a1a2e);
+  border-radius: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.completion h3 {
+  margin: 0.5rem 0;
+}
+
+/* Milestones */
+.milestones {
+  margin-bottom: 1.5rem;
+}
+
+.milestonesLabel {
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.milestoneList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.milestone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.milestoneIcon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--bg-secondary, #1a1a2e);
+  border: 2px solid var(--border, #333);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  color: var(--text-muted, #666);
+}
+
+.milestone.reached .milestoneIcon {
+  background: var(--success, #4a9d7c);
+  border-color: var(--success, #4a9d7c);
+  color: white;
+  font-size: 1rem;
+}
+
+.milestoneName {
+  font-size: 0.65rem;
+  color: var(--text-muted, #666);
+}
+
+.milestone.reached .milestoneName {
+  color: var(--success, #4a9d7c);
+}
+
+/* Items Progress */
+.itemsProgress {
+  text-align: center;
+}
+
+.itemsBar {
+  height: 6px;
+  background: var(--bg-secondary, #1a1a2e);
+  border-radius: 3px;
+  margin-bottom: 0.5rem;
+  overflow: hidden;
+}
+
+.itemsBarFill {
+  height: 100%;
+  background: var(--accent-gold, #d4a574);
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+  .estimator {
+    padding: 1rem;
+  }
+
+  .goalButton {
+    padding: 0.375rem 0.75rem;
+    font-size: 0.8rem;
+  }
+
+  .progressContainer {
+    width: 120px;
+    height: 120px;
+  }
+
+  .progressContent h2 {
+    font-size: 1.5rem;
+  }
+
+  .statsGrid {
+    gap: 0.5rem;
+  }
+
+  .stat h3 {
+    font-size: 1rem;
+  }
+
+  .milestoneIcon {
+    width: 28px;
+    height: 28px;
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .goalSelector {
+    justify-content: flex-start;
+  }
+
+  .goalButton {
+    padding: 0.375rem 0.5rem;
+    font-size: 0.75rem;
+  }
+
+  .statsGrid {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .stat {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem;
+    background: var(--bg-secondary, #1a1a2e);
+    border-radius: 0.5rem;
+  }
+
+  .stat .statIcon {
+    order: 1;
+    margin: 0;
+  }
+}

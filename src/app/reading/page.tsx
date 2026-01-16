@@ -1,20 +1,23 @@
 'use client'
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useMemo } from 'react';
 import Navigation from '@/components/common/Navigation';
 import StatsPanel from '@/components/common/StatsPanel';
+import LanguageContentGuard from '@/components/common/LanguageContentGuard';
 import { Container, Card, Text, Button, Chip, Toggle, OptionsPanel, Animated } from '@/components/ui';
 import optionsStyles from '@/components/ui/OptionsPanel.module.css';
 import { useProgressContext } from '@/context/ProgressProvider';
 import { useLanguage } from '@/context/LanguageProvider';
+import { useTargetLanguage } from '@/hooks/useTargetLanguage';
 import { useTTS } from '@/hooks/useTTS';
-import { getModuleData, saveModuleData, updateModuleStats } from '@/lib/storage';
 import { ReadingItem, Filter } from '@/types';
+import { IoVolumeHigh, IoCheckmark, IoClose } from 'react-icons/io5';
 import styles from './reading.module.css';
 
 export default function ReadingPage() {
     const { getModuleData: getModule, updateModuleStats: updateStats } = useProgressContext();
     const { t } = useLanguage();
+    const { targetLanguage, levels, getDataUrl } = useTargetLanguage();
     const { speak } = useTTS();
     const [readings, setReadings] = useState<ReadingItem[]>([]);
     const [currentReading, setCurrentReading] = useState<ReadingItem | null>(null);
@@ -25,27 +28,49 @@ export default function ReadingPage() {
     const [showCorrectness, setShowCorrectness] = useState(false);
     const [stats, setStats] = useState({ correct: 0, total: 0, streak: 0 });
 
-    const [filters, setFilters] = useState<Record<string, Filter>>({
-        n5: { id: 'n5', label: 'JLPT N5', checked: true, type: 'checkbox' },
-        n4: { id: 'n4', label: 'JLPT N4', checked: true, type: 'checkbox' },
-        furigana: { id: 'furigana', label: t('reading.showFurigana'), checked: true, type: 'checkbox' }
-    });
+    // Get first 2 levels from language config for filters
+    const displayLevels = useMemo(() => levels.slice(0, 2), [levels]);
 
+    // Furigana is only relevant for Japanese
+    const showFuriganaOption = targetLanguage === 'ja';
+
+    const [filters, setFilters] = useState<Record<string, Filter>>({});
+
+    // Update filters when language changes
+    useEffect(() => {
+        const newFilters: Record<string, Filter> = {};
+        displayLevels.forEach((level) => {
+            newFilters[level.id] = {
+                id: level.id,
+                label: level.name,
+                checked: true, // Both levels checked by default for reading
+                type: 'checkbox'
+            };
+        });
+        setFilters(newFilters);
+    }, [targetLanguage, displayLevels]);
+
+    // Load reading data when language changes
     useEffect(() => {
         const loadData = async () => {
             try {
-                const response = await fetch('/readings.json');
+                const response = await fetch(getDataUrl('readings.json'));
                 const data = await response.json();
                 setReadings(data);
+                setCurrentIndex(0);
                 if (data.length > 0) {
                     setCurrentReading(data[0]);
+                } else {
+                    setCurrentReading(null);
                 }
             } catch (error) {
                 console.error('Failed to load readings:', error);
+                setReadings([]);
+                setCurrentReading(null);
             }
         };
         loadData();
-    }, []);
+    }, [targetLanguage, getDataUrl]);
 
     useEffect(() => {
         const moduleData = getModule('reading');
@@ -59,9 +84,6 @@ export default function ReadingPage() {
     }, [getModule]);
 
     const handleFilterChange = useCallback((id: string, checked: boolean) => {
-        if (id === 'furigana') {
-            setShowFurigana(checked);
-        }
         setFilters(prev => ({ ...prev, [id]: { ...prev[id], checked } }));
     }, []);
 
@@ -106,46 +128,46 @@ export default function ReadingPage() {
 
     if (!currentReading) {
         return (
-            <Container variant="centered">
-                <Navigation />
-                <Text>{t('reading.noReadings') || 'No readings available.'}</Text>
-            </Container>
+            <LanguageContentGuard moduleName="reading">
+                <Container variant="centered">
+                    <Navigation />
+                    <Text>{t('reading.noReadings') || 'No readings available.'}</Text>
+                </Container>
+            </LanguageContentGuard>
         );
     }
 
     return (
-        <Container variant="centered" streak={stats.streak}>
-            <Navigation />
+        <LanguageContentGuard moduleName="reading">
+            <Container variant="centered" streak={stats.streak}>
+                <Navigation />
 
             <OptionsPanel>
-                <div className={optionsStyles.toggleContainer}>
-                    <Text variant="label" color="muted">{t('reading.showFurigana')}</Text>
-                    <Toggle
-                        options={[
-                            { id: 'show', label: t('reading.show') },
-                            { id: 'hide', label: t('reading.hide') }
-                        ]}
-                        value={showFurigana ? 'show' : 'hide'}
-                        onChange={(val) => {
-                            const checked = val === 'show';
-                            setShowFurigana(checked);
-                            setFilters(prev => ({ ...prev, furigana: { ...prev.furigana, checked } }));
-                        }}
-                        name="reading-furigana"
-                    />
-                </div>
+                {showFuriganaOption && (
+                    <div className={optionsStyles.toggleContainer}>
+                        <Text variant="label" color="muted">{t('reading.showFurigana')}</Text>
+                        <Toggle
+                            options={[
+                                { id: 'show', label: t('reading.show') },
+                                { id: 'hide', label: t('reading.hide') }
+                            ]}
+                            value={showFurigana ? 'show' : 'hide'}
+                            onChange={(val) => setShowFurigana(val === 'show')}
+                            name="reading-furigana"
+                        />
+                    </div>
+                )}
                 <div className={optionsStyles.group}>
-                    {Object.values(filters)
-                        .filter(f => f.id !== 'furigana')
-                        .map((filter) => (
-                            <Chip
-                                key={filter.id}
-                                id={filter.id}
-                                label={filter.label}
-                                checked={filter.checked}
-                                onChange={(checked) => handleFilterChange(filter.id, checked)}
-                            />
-                        ))}
+                    <Text variant="label" color="muted">Level</Text>
+                    {Object.values(filters).map((filter) => (
+                        <Chip
+                            key={filter.id}
+                            id={filter.id}
+                            label={filter.label}
+                            checked={filter.checked}
+                            onChange={(checked) => handleFilterChange(filter.id, checked)}
+                        />
+                    ))}
                 </div>
             </OptionsPanel>
 
@@ -160,7 +182,7 @@ export default function ReadingPage() {
 
                 <div className="mt-8 flex justify-center gap-4">
                     <Button onClick={handlePlayReading} variant="secondary">
-                        🔊 {t('common.playAudio') || 'Play'}
+                        <IoVolumeHigh style={{ marginRight: '0.5rem' }} /> {t('common.playAudio') || 'Play'}
                     </Button>
                     {currentReading.questions && (
                         <Button onClick={() => setShowQuestions(!showQuestions)} variant="primary">
@@ -189,8 +211,8 @@ export default function ReadingPage() {
                                             disabled={showCorrectness}
                                         >
                                             {opt}
-                                            {showCorrectness && optIndex === q.correct && ' ✓'}
-                                            {showCorrectness && questionAnswers[index] === optIndex && optIndex !== q.correct && ' ✗'}
+                                            {showCorrectness && optIndex === q.correct && <IoCheckmark style={{ marginLeft: '0.5rem', color: 'var(--success)' }} />}
+                                            {showCorrectness && questionAnswers[index] === optIndex && optIndex !== q.correct && <IoClose style={{ marginLeft: '0.5rem', color: 'var(--error)' }} />}
                                         </Button>
                                     ))}
                                 </div>
@@ -210,7 +232,8 @@ export default function ReadingPage() {
             )}
 
             <StatsPanel correct={stats.correct} total={stats.total} streak={stats.streak} />
-        </Container>
+            </Container>
+        </LanguageContentGuard>
     );
 }
 

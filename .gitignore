@@ -42,3 +42,5 @@ convex/_generated/
 # Kokoro TTS virtual environment
 .kokoro-venv/
 .temp-audio
+.claude/ralph-loop.local.md
+.venv

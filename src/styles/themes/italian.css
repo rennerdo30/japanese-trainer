@@ -1,0 +1,39 @@
+/* Italian Theme - "Rinascimento" */
+/* Renaissance elegance - Carrara marble, Sistine fresco, Tuscan vineyards */
+
+html[data-theme="it"] {
+  /* Colors - Marble veins, fresco blues, terracotta, vineyard purples */
+  --bg-primary: #18141a;
+  --bg-secondary: #241e28;
+  --bg-card: #2e2634;
+  --bg-glass: rgba(46, 38, 52, 0.85);
+  --text-primary: #f8f4f0;
+  --text-secondary: #c8b8c8;
+  --text-muted: #887888;
+  --accent-primary: #7b4b94;
+  --accent-secondary: #d4a35a;
+  --accent-red: #9e2a2b;
+  --accent-red-glow: rgba(158, 42, 43, 0.4);
+  --accent-red-light: #d45d5d;
+  --accent-gold: #d4a35a;
+  --accent-gold-dim: rgba(212, 163, 90, 0.18);
+  --success: #4a8c6f;
+  --success-glow: rgba(74, 140, 111, 0.3);
+  --border-subtle: rgba(123, 75, 148, 0.12);
+  --glass-border: rgba(212, 163, 90, 0.15);
+  --shadow-deep: 0 25px 50px -12px rgba(24, 20, 26, 0.7);
+
+  /* Typography - Classical Italian elegance */
+  --font-primary: 'Cormorant Garamond', 'Palatino', serif;
+  --font-secondary: 'Lato', sans-serif;
+
+  /* Atmospheric gradient - Twilight over Florence, fresco ceiling glow */
+  --gradient-atmosphere:
+    radial-gradient(ellipse 90% 50% at 50% -20%, rgba(123, 75, 148, 0.15), transparent),
+    radial-gradient(ellipse 50% 40% at 10% 90%, rgba(212, 163, 90, 0.1), transparent),
+    radial-gradient(ellipse 60% 45% at 95% 60%, rgba(158, 42, 43, 0.08), transparent);
+}
+
+html[data-theme="it"] body {
+  font-family: var(--font-primary);
+}

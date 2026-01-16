@@ -1,0 +1,850 @@
+[
+  {
+    "id": "it-grammar-1",
+    "title": "Present Tense (Presente)",
+    "level": "A1",
+    "explanation": "Italian verbs are divided into three conjugations based on their infinitive endings: -are, -ere, -ire. Each has its own pattern.",
+    "examples": [
+      {
+        "italian": "Io parlo italiano",
+        "english": "I speak Italian"
+      },
+      {
+        "italian": "Lei mangia la pizza",
+        "english": "She eats pizza"
+      },
+      {
+        "italian": "Noi viviamo a Roma",
+        "english": "We live in Rome"
+      }
+    ],
+    "patterns": [
+      "-ARE: parlo, parli, parla, parliamo, parlate, parlano",
+      "-ERE: scrivo, scrivi, scrive, scriviamo, scrivete, scrivono",
+      "-IRE: dormo, dormi, dorme, dormiamo, dormite, dormono"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Io ___ italiano. (parlare)",
+        "options": ["parlo", "parli", "parla"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "it-grammar-2",
+    "title": "Definite Articles (il, la, lo, l', i, le, gli)",
+    "level": "A1",
+    "explanation": "Italian has several definite articles that change based on gender, number, and the first letter of the noun.",
+    "examples": [
+      {
+        "italian": "il libro",
+        "english": "the book (masculine)"
+      },
+      {
+        "italian": "la casa",
+        "english": "the house (feminine)"
+      },
+      {
+        "italian": "l'amico",
+        "english": "the friend (before vowel)"
+      }
+    ],
+    "patterns": [
+      "il + masculine singular (il ragazzo)",
+      "lo + masc. sing. before z, s+cons, gn, ps (lo studente)",
+      "la + feminine singular (la ragazza)",
+      "l' + before vowel (l'amica, l'uomo)",
+      "i + masculine plural (i ragazzi)",
+      "gli + masc. plural before z, s+cons, vowel (gli studenti)",
+      "le + feminine plural (le ragazze)"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "___ studente è bravo.",
+        "options": ["Il", "Lo", "La"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "it-grammar-3",
+    "title": "Indefinite Articles (un, una, uno, un')",
+    "level": "A1",
+    "explanation": "Indefinite articles also change based on gender and the first letter of the noun.",
+    "examples": [
+      {
+        "italian": "un gatto",
+        "english": "a cat (masculine)"
+      },
+      {
+        "italian": "una casa",
+        "english": "a house (feminine)"
+      },
+      {
+        "italian": "un'amica",
+        "english": "a friend (feminine, before vowel)"
+      }
+    ],
+    "patterns": [
+      "un + masculine (un libro, un amico)",
+      "uno + before z, s+cons (uno studente, uno zaino)",
+      "una + feminine (una donna)",
+      "un' + feminine before vowel (un'amica)"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Ho ___ idea!",
+        "options": ["un", "una", "un'"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "it-grammar-4",
+    "title": "Gender of Nouns",
+    "level": "A1",
+    "explanation": "Italian nouns are either masculine or feminine. Generally, nouns ending in -o are masculine and nouns ending in -a are feminine.",
+    "examples": [
+      {
+        "italian": "il ragazzo",
+        "english": "the boy (masculine -o)"
+      },
+      {
+        "italian": "la ragazza",
+        "english": "the girl (feminine -a)"
+      },
+      {
+        "italian": "il problema",
+        "english": "the problem (masculine exception)"
+      }
+    ],
+    "patterns": [
+      "-o = usually masculine (libro, ragazzo)",
+      "-a = usually feminine (casa, donna)",
+      "-e = can be either (il ristorante, la notte)",
+      "Exceptions: la mano (f), il problema (m), il tema (m)"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "___ macchina è rossa.",
+        "options": ["Il", "La", "Lo"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "it-grammar-5",
+    "title": "Plural of Nouns",
+    "level": "A1",
+    "explanation": "Italian nouns change their endings to form plurals: -o→-i, -a→-e, -e→-i.",
+    "examples": [
+      {
+        "italian": "il libro → i libri",
+        "english": "the book → the books"
+      },
+      {
+        "italian": "la casa → le case",
+        "english": "the house → the houses"
+      },
+      {
+        "italian": "il ristorante → i ristoranti",
+        "english": "the restaurant → the restaurants"
+      }
+    ],
+    "patterns": [
+      "masculine -o → -i (ragazzo → ragazzi)",
+      "feminine -a → -e (donna → donne)",
+      "both genders -e → -i (studente → studenti)"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "I ___ sono buoni. (libro)",
+        "options": ["libro", "libri", "libre"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "it-grammar-6",
+    "title": "Essere (to be)",
+    "level": "A1",
+    "explanation": "Essere is an irregular verb meaning 'to be'. It's used for descriptions, nationalities, professions, and locations.",
+    "examples": [
+      {
+        "italian": "Io sono italiano",
+        "english": "I am Italian"
+      },
+      {
+        "italian": "Lei è bella",
+        "english": "She is beautiful"
+      },
+      {
+        "italian": "Siamo a Roma",
+        "english": "We are in Rome"
+      }
+    ],
+    "patterns": [
+      "io sono",
+      "tu sei",
+      "lui/lei è",
+      "noi siamo",
+      "voi siete",
+      "loro sono"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Tu ___ simpatico.",
+        "options": ["è", "sei", "sono"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "it-grammar-7",
+    "title": "Avere (to have)",
+    "level": "A1",
+    "explanation": "Avere is an irregular verb meaning 'to have'. It's also used in many expressions and to form compound tenses.",
+    "examples": [
+      {
+        "italian": "Io ho un cane",
+        "english": "I have a dog"
+      },
+      {
+        "italian": "Hai fame?",
+        "english": "Are you hungry? (lit: Do you have hunger?)"
+      },
+      {
+        "italian": "Abbiamo tempo",
+        "english": "We have time"
+      }
+    ],
+    "patterns": [
+      "io ho",
+      "tu hai",
+      "lui/lei ha",
+      "noi abbiamo",
+      "voi avete",
+      "loro hanno"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Noi ___ due gatti.",
+        "options": ["ha", "ho", "abbiamo"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "it-grammar-8",
+    "title": "Negation with 'non'",
+    "level": "A1",
+    "explanation": "'Non' is placed before the verb to make negative sentences.",
+    "examples": [
+      {
+        "italian": "Non parlo francese",
+        "english": "I don't speak French"
+      },
+      {
+        "italian": "Lei non mangia carne",
+        "english": "She doesn't eat meat"
+      },
+      {
+        "italian": "Non ho tempo",
+        "english": "I don't have time"
+      }
+    ],
+    "patterns": [
+      "Subject + non + verb + rest"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Io ___ capisco.",
+        "options": ["no", "non", "niente"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "it-grammar-9",
+    "title": "Questions",
+    "level": "A1",
+    "explanation": "In Italian, questions can be formed simply by changing intonation (raising voice at end) or by inverting subject-verb order.",
+    "examples": [
+      {
+        "italian": "Parli italiano?",
+        "english": "Do you speak Italian?"
+      },
+      {
+        "italian": "Dove vai?",
+        "english": "Where are you going?"
+      },
+      {
+        "italian": "Come ti chiami?",
+        "english": "What is your name?"
+      }
+    ],
+    "patterns": [
+      "Statement with rising intonation = yes/no question",
+      "Question word + verb + subject (optional)",
+      "Question words: dove (where), come (how), quando (when), perché (why), cosa/che (what)"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "___ abiti?",
+        "options": ["Dove", "Come", "Quando"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "it-grammar-10",
+    "title": "Prepositions: di, a, da, in, su",
+    "level": "A1",
+    "explanation": "These basic prepositions are essential for expressing relationships, locations, and other concepts.",
+    "examples": [
+      {
+        "italian": "Sono di Roma",
+        "english": "I am from Rome"
+      },
+      {
+        "italian": "Vado a scuola",
+        "english": "I go to school"
+      },
+      {
+        "italian": "Vengo da casa",
+        "english": "I come from home"
+      }
+    ],
+    "patterns": [
+      "di = of, from (possession, origin)",
+      "a = to, at (direction, location)",
+      "da = from, by, at (someone's place)",
+      "in = in, to (countries, large areas)",
+      "su = on, about (surface, topic)"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Il libro è ___ tavolo.",
+        "options": ["di", "a", "sul"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "it-grammar-11",
+    "title": "Congiuntivo Presente (Present Subjunctive)",
+    "level": "B1",
+    "explanation": "The subjunctive mood is used to express doubt, wish, possibility, necessity, or emotions. It's often triggered by certain verbs and expressions.",
+    "examples": [
+      {
+        "italian": "Penso che lui sia intelligente",
+        "english": "I think (that) he is intelligent"
+      },
+      {
+        "italian": "Voglio che tu venga con me",
+        "english": "I want you to come with me"
+      },
+      {
+        "italian": "È importante che studiamo ogni giorno",
+        "english": "It's important that we study every day"
+      }
+    ],
+    "patterns": [
+      "-ARE: parli, parli, parli, parliamo, parliate, parlino",
+      "-ERE: scriva, scriva, scriva, scriviamo, scriviate, scrivano",
+      "-IRE: dorma, dorma, dorma, dormiamo, dormiate, dormano",
+      "Triggers: pensare che, credere che, volere che, sperare che, è necessario che"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Penso che Maria ___ molto brava. (essere)",
+        "options": ["è", "sia", "sono"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "it-grammar-12",
+    "title": "Condizionale Presente (Present Conditional)",
+    "level": "B1",
+    "explanation": "The conditional is used to express wishes, polite requests, hypothetical situations, and what would happen under certain conditions.",
+    "examples": [
+      {
+        "italian": "Vorrei un caffè, per favore",
+        "english": "I would like a coffee, please"
+      },
+      {
+        "italian": "Potresti aiutarmi?",
+        "english": "Could you help me?"
+      },
+      {
+        "italian": "Sarebbe bello andare in Italia",
+        "english": "It would be nice to go to Italy"
+      }
+    ],
+    "patterns": [
+      "-ARE: parlerei, parleresti, parlerebbe, parleremmo, parlereste, parlerebbero",
+      "-ERE: scriverei, scriveresti, scriverebbe, scriveremmo, scrivereste, scriverebbero",
+      "-IRE: dormirei, dormiresti, dormirebbe, dormiremmo, dormireste, dormirebbero"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "___ venire con noi domani? (potere, tu)",
+        "options": ["Puoi", "Potresti", "Potevi"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "it-grammar-13",
+    "title": "Pronomi Relativi (Relative Pronouns)",
+    "level": "B1",
+    "explanation": "Relative pronouns connect clauses and refer back to a noun. 'Che' is the most common, while 'cui' is used after prepositions.",
+    "examples": [
+      {
+        "italian": "Il libro che ho letto era interessante",
+        "english": "The book that I read was interesting"
+      },
+      {
+        "italian": "La persona di cui ti ho parlato",
+        "english": "The person about whom I spoke to you"
+      },
+      {
+        "italian": "La ragione per cui sono qui",
+        "english": "The reason why I am here"
+      }
+    ],
+    "patterns": [
+      "che = who, which, that (subject or direct object)",
+      "cui = whom, which (after prepositions: di cui, a cui, con cui, per cui)",
+      "il quale/la quale = who, which (more formal, agrees in gender/number)"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "La casa ___ ho comprato è grande.",
+        "options": ["che", "cui", "quale"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "it-grammar-14",
+    "title": "Forma Passiva (Passive Voice)",
+    "level": "B1",
+    "explanation": "The passive voice is formed with 'essere' + past participle. The agent (doer) can be introduced with 'da'.",
+    "examples": [
+      {
+        "italian": "La pizza è mangiata dai bambini",
+        "english": "The pizza is eaten by the children"
+      },
+      {
+        "italian": "Il libro fu scritto da Dante",
+        "english": "The book was written by Dante"
+      },
+      {
+        "italian": "La casa sarà venduta presto",
+        "english": "The house will be sold soon"
+      }
+    ],
+    "patterns": [
+      "Present passive: essere (present) + past participle",
+      "Past passive: essere (past) + past participle",
+      "Future passive: essere (future) + past participle",
+      "Agent introduced by 'da'"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Il quadro ___ dipinto da Michelangelo.",
+        "options": ["è", "ha", "sta"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "it-grammar-15",
+    "title": "Congiuntivo Imperfetto (Imperfect Subjunctive)",
+    "level": "B2",
+    "explanation": "Used for hypothetical situations, wishes about the past, and in subordinate clauses when the main verb is in a past tense.",
+    "examples": [
+      {
+        "italian": "Se avessi tempo, viaggerei di più",
+        "english": "If I had time, I would travel more"
+      },
+      {
+        "italian": "Pensavo che lui fosse più alto",
+        "english": "I thought he was taller"
+      },
+      {
+        "italian": "Vorrei che tu mi aiutassi",
+        "english": "I wish you would help me"
+      }
+    ],
+    "patterns": [
+      "-ARE: parlassi, parlassi, parlasse, parlassimo, parlaste, parlassero",
+      "-ERE: scrivessi, scrivessi, scrivesse, scrivessimo, scriveste, scrivessero",
+      "-IRE: dormissi, dormissi, dormisse, dormissimo, dormiste, dormissero"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Se io ___ ricco, comprerei una villa. (essere)",
+        "options": ["sono", "fossi", "sarò"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "it-grammar-16",
+    "title": "Condizionale Passato (Past Conditional)",
+    "level": "B2",
+    "explanation": "Used to express what would have happened in the past, often in hypothetical situations with 'se' + congiuntivo trapassato.",
+    "examples": [
+      {
+        "italian": "Avrei comprato quella casa",
+        "english": "I would have bought that house"
+      },
+      {
+        "italian": "Se fossi venuto, ti avrei visto",
+        "english": "If you had come, I would have seen you"
+      },
+      {
+        "italian": "Sarebbe stato meglio partire prima",
+        "english": "It would have been better to leave earlier"
+      }
+    ],
+    "patterns": [
+      "avere (conditional) + past participle for most verbs",
+      "essere (conditional) + past participle for movement/state verbs",
+      "Often paired with: se + congiuntivo trapassato"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Se avessi studiato, ___ l'esame. (superare)",
+        "options": ["supero", "avrei superato", "superavo"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "it-grammar-17",
+    "title": "Congiunzioni Avanzate (Advanced Conjunctions)",
+    "level": "B2",
+    "explanation": "Complex conjunctions that require the subjunctive mood and express purpose, condition, concession, or time relationships.",
+    "examples": [
+      {
+        "italian": "Te lo dico affinché tu sappia la verità",
+        "english": "I'm telling you so that you know the truth"
+      },
+      {
+        "italian": "Benché sia stanco, continuerò a lavorare",
+        "english": "Although I am tired, I will continue working"
+      },
+      {
+        "italian": "Prima che tu parta, devo dirti qualcosa",
+        "english": "Before you leave, I must tell you something"
+      }
+    ],
+    "patterns": [
+      "affinché/perché + congiuntivo = so that",
+      "benché/sebbene/nonostante + congiuntivo = although",
+      "prima che + congiuntivo = before",
+      "a meno che (non) + congiuntivo = unless",
+      "purché + congiuntivo = provided that"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "___ piova, andremo al parco.",
+        "options": ["Benché", "Perché", "Quando"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "it-grammar-18",
+    "title": "Discorso Indiretto (Reported Speech)",
+    "level": "B2",
+    "explanation": "When reporting what someone said, tense shifts occur. Present becomes imperfect, passato prossimo becomes trapassato prossimo.",
+    "examples": [
+      {
+        "italian": "Ha detto: 'Sono stanco' → Ha detto che era stanco",
+        "english": "He said: 'I am tired' → He said that he was tired"
+      },
+      {
+        "italian": "Mi ha chiesto se volevo venire",
+        "english": "He asked me if I wanted to come"
+      },
+      {
+        "italian": "Ha detto che sarebbe venuto",
+        "english": "He said he would come"
+      }
+    ],
+    "patterns": [
+      "Present → Imperfect: 'sono' → 'era'",
+      "Passato prossimo → Trapassato prossimo: 'ho mangiato' → 'aveva mangiato'",
+      "Future → Conditional: 'verrò' → 'sarebbe venuto'",
+      "Questions use 'se' for yes/no and question words stay"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Marco ha detto che ___ molto stanco. (essere)",
+        "options": ["è", "era", "sarà"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "it-grammar-19",
+    "title": "Passato Remoto (Remote Past)",
+    "level": "C1",
+    "explanation": "Used in literature and formal writing to describe completed actions in the distant past. Common in Southern Italy in everyday speech.",
+    "examples": [
+      {
+        "italian": "Dante nacque a Firenze nel 1265",
+        "english": "Dante was born in Florence in 1265"
+      },
+      {
+        "italian": "I Romani conquistarono molti territori",
+        "english": "The Romans conquered many territories"
+      },
+      {
+        "italian": "Visse in quella casa per vent'anni",
+        "english": "He lived in that house for twenty years"
+      }
+    ],
+    "patterns": [
+      "-ARE: parlai, parlasti, parlò, parlammo, parlaste, parlarono",
+      "-ERE: scrissi, scrivesti, scrisse, scrivemmo, scriveste, scrissero",
+      "-IRE: dormii, dormisti, dormì, dormimmo, dormiste, dormirono",
+      "Many irregular forms: fui, ebbi, dissi, feci, venne"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Michelangelo ___ la Cappella Sistina. (dipingere)",
+        "options": ["dipinse", "ha dipinto", "dipingeva"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "it-grammar-20",
+    "title": "Periodo Ipotetico di III Tipo (Third Conditional)",
+    "level": "C1",
+    "explanation": "Expresses impossible conditions in the past - what would have happened if something else had happened.",
+    "examples": [
+      {
+        "italian": "Se fossi stato più attento, non avrei fatto quell'errore",
+        "english": "If I had been more careful, I wouldn't have made that mistake"
+      },
+      {
+        "italian": "Se avessimo preso il treno, saremmo arrivati in tempo",
+        "english": "If we had taken the train, we would have arrived on time"
+      },
+      {
+        "italian": "Non sarebbe successo se tu me lo avessi detto",
+        "english": "It wouldn't have happened if you had told me"
+      }
+    ],
+    "patterns": [
+      "Se + congiuntivo trapassato, condizionale passato",
+      "Se avessi/fossi + participio passato, avrei/sarei + participio passato",
+      "Refers to unreal past situations"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Se ___ prima, avrei finito il lavoro. (svegliarsi)",
+        "options": ["mi sveglio", "mi fossi svegliato", "mi svegliavo"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "it-grammar-21",
+    "title": "Subordinate Complesse (Complex Subordinate Clauses)",
+    "level": "C1",
+    "explanation": "Italian uses various types of subordinate clauses: relative, temporal, causal, final, consecutive, and concessive.",
+    "examples": [
+      {
+        "italian": "Essendo arrivato tardi, ho perso l'inizio",
+        "english": "Having arrived late, I missed the beginning"
+      },
+      {
+        "italian": "Per quanto mi sforzi, non ci riesco",
+        "english": "No matter how hard I try, I can't do it"
+      },
+      {
+        "italian": "Il libro, la cui trama è avvincente, è un bestseller",
+        "english": "The book, whose plot is gripping, is a bestseller"
+      }
+    ],
+    "patterns": [
+      "Gerund clauses: Essendo + participio (Having been)",
+      "Concessive: Per quanto + congiuntivo (No matter how much)",
+      "Relative with possession: il/la cui (whose)",
+      "Consecutive: così...che, tanto...che (so...that)"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "___ molto stanco, decise di continuare.",
+        "options": ["Pur essendo", "Quando era", "Perché era"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "it-grammar-22",
+    "title": "Uso dei Tempi Letterari (Literary Tenses)",
+    "level": "C1",
+    "explanation": "Literary Italian uses tenses rarely found in everyday speech, including trapassato remoto and special uses of the imperfect subjunctive.",
+    "examples": [
+      {
+        "italian": "Dopo che ebbe finito di parlare, se ne andò",
+        "english": "After he had finished speaking, he left"
+      },
+      {
+        "italian": "Fosse anche vero, non cambierebbe nulla",
+        "english": "Even if it were true, it wouldn't change anything"
+      },
+      {
+        "italian": "Pensasse pure quel che voleva",
+        "english": "Let him think whatever he wanted"
+      }
+    ],
+    "patterns": [
+      "Trapassato remoto: ebbi/fui + participio (after che, quando, appena)",
+      "Imperfect subjunctive for wishes: 'Potessi essere lì!'",
+      "Imperfect subjunctive for hypothetical concessions"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Appena ___ mangiato, uscì. (avere, passato remoto)",
+        "options": ["aveva", "ebbe", "ha"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "it-grammar-23",
+    "title": "Variazioni Stilistiche Formali (Formal Style Variations)",
+    "level": "C2",
+    "explanation": "Formal and bureaucratic Italian uses distinctive constructions, including impersonal 'si', passive constructions, and nominalized verbs.",
+    "examples": [
+      {
+        "italian": "Si prega di non fumare",
+        "english": "You are kindly requested not to smoke"
+      },
+      {
+        "italian": "È fatto divieto di sosta",
+        "english": "Parking is prohibited"
+      },
+      {
+        "italian": "All'uopo si provvederà",
+        "english": "Appropriate measures will be taken"
+      }
+    ],
+    "patterns": [
+      "Impersonal si: 'Si richiede che...' (It is required that...)",
+      "Nominalization: 'il verificarsi di' (the occurrence of)",
+      "Inverted subjects: 'Segue allegato...' (Enclosed follows...)",
+      "Archaic prepositions: all'uopo, di cui sopra, in calce"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "___ di compilare il modulo in ogni sua parte.",
+        "options": ["Si prega", "Preghiamo", "Prego"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "it-grammar-24",
+    "title": "Italiano Letterario e Poetico (Literary and Poetic Italian)",
+    "level": "C2",
+    "explanation": "Literary Italian features archaic pronouns, inverted word order, truncated forms, and poetic licenses found in classical texts.",
+    "examples": [
+      {
+        "italian": "Nel mezzo del cammin di nostra vita",
+        "english": "In the middle of the journey of our life"
+      },
+      {
+        "italian": "Ché la diritta via era smarrita",
+        "english": "For the straight path was lost"
+      },
+      {
+        "italian": "Ei fu",
+        "english": "He was (He has died)"
+      }
+    ],
+    "patterns": [
+      "Truncation (troncamento): amor(e), siam(o), fer(e)",
+      "Archaic pronouns: ei, ella, egli for lui/lei",
+      "Inverted syntax: 'Tanto gentile e tanto onesta pare'",
+      "Poetic ché = perché",
+      "Literary metaphor and allegory"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "'___ fu' is the famous opening of Manzoni's poem about Napoleon.",
+        "options": ["Lui", "Ei", "Egli"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "it-grammar-25",
+    "title": "Costrutti Anacoluti e Dislocazioni (Anacoluthon and Dislocations)",
+    "level": "C2",
+    "explanation": "Spoken and literary Italian often uses left/right dislocation and anacoluthon for emphasis and topic-focus structure.",
+    "examples": [
+      {
+        "italian": "Il libro, l'ho già letto",
+        "english": "The book, I've already read it"
+      },
+      {
+        "italian": "L'ho vista ieri, Maria",
+        "english": "I saw her yesterday, Maria"
+      },
+      {
+        "italian": "A me, queste cose non piacciono",
+        "english": "As for me, I don't like these things"
+      }
+    ],
+    "patterns": [
+      "Left dislocation: Topic + clitic pronoun + verb",
+      "Right dislocation: Clitic + verb + topic",
+      "Hanging topic: 'Quanto a X, ...'",
+      "Anacoluthon: intentional grammatical discontinuity for effect"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "La pizza, ___ mangiata tutta.",
+        "options": ["ho", "l'ho", "è"],
+        "correct": 1
+      }
+    ]
+  }
+]

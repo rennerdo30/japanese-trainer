@@ -1,0 +1,414 @@
+/* Path Detail Page Styles */
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.pathIcon {
+  width: 80px;
+  height: 80px;
+  border-radius: 1.25rem;
+  background: var(--accent-gold, #d4a574);
+  color: var(--bg-primary, #0f0f1a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  flex-shrink: 0;
+}
+
+.headerContent {
+  flex: 1;
+}
+
+.pathTitle {
+  margin-bottom: 0.5rem;
+}
+
+.pathDescription {
+  font-size: 1rem;
+}
+
+/* Stats Bar */
+.statsBar {
+  display: flex;
+  justify-content: space-around;
+  padding: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.statIcon {
+  font-size: 1.5rem;
+  color: var(--accent-gold, #d4a574);
+}
+
+.statContent {
+  text-align: left;
+}
+
+.statContent h3 {
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+
+/* Actions */
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.prereqWarning {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.prereqIcon {
+  font-size: 1.5rem;
+  color: var(--accent-red, #c41e3a);
+}
+
+.enrolledActions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Sections */
+.section {
+  margin-bottom: 2.5rem;
+}
+
+.sectionHeader {
+  margin-bottom: 1.5rem;
+}
+
+.sectionHeader h2 {
+  margin-bottom: 0.25rem;
+}
+
+/* Milestone List */
+.milestoneList {
+  display: flex;
+  flex-direction: column;
+}
+
+.milestone {
+  display: flex;
+  gap: 1.5rem;
+  position: relative;
+}
+
+.milestoneConnector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40px;
+  flex-shrink: 0;
+}
+
+.milestoneDot {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--bg-secondary, #1a1a2e);
+  border: 2px solid var(--border, #333);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: var(--text-muted, #666);
+  z-index: 1;
+}
+
+.milestone.completed .milestoneDot {
+  background: var(--success, #4a9d7c);
+  border-color: var(--success, #4a9d7c);
+  color: white;
+}
+
+.milestone.current .milestoneDot {
+  background: var(--accent-gold, #d4a574);
+  border-color: var(--accent-gold, #d4a574);
+  color: var(--bg-primary, #0f0f1a);
+}
+
+.milestoneLine {
+  width: 2px;
+  flex: 1;
+  background: var(--border, #333);
+  min-height: 20px;
+}
+
+.milestone.completed .milestoneLine {
+  background: var(--success, #4a9d7c);
+}
+
+.milestoneCard {
+  flex: 1;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.milestone.locked .milestoneCard {
+  opacity: 0.6;
+}
+
+.milestoneHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+}
+
+.milestoneIcon {
+  width: 48px;
+  height: 48px;
+  border-radius: 0.75rem;
+  background: var(--bg-secondary, #1a1a2e);
+  color: var(--accent-gold, #d4a574);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.milestoneMeta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.25rem;
+}
+
+.milestoneLevel {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent-gold, #d4a574);
+  text-transform: uppercase;
+}
+
+.milestoneTime {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.75rem;
+  color: var(--text-muted, #666);
+}
+
+.milestoneName {
+  margin-bottom: 0.5rem;
+}
+
+.milestoneDescription {
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+.milestoneProgress {
+  height: 6px;
+  background: var(--bg-primary, #0f0f1a);
+  border-radius: 3px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.milestoneProgressBar {
+  height: 100%;
+  background: var(--accent-gold, #d4a574);
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.milestoneActions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.completedBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.25rem 0.75rem;
+  background: var(--success, #4a9d7c);
+  color: white;
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+/* Item Breakdown (Topic Tracks) */
+.itemBreakdown {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.itemCategory {
+  text-decoration: none;
+}
+
+.categoryCard {
+  padding: 1.25rem;
+  text-align: center;
+}
+
+.categoryIcon {
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 0.75rem;
+  border-radius: 50%;
+  background: var(--bg-secondary, #1a1a2e);
+  color: var(--accent-gold, #d4a574);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.categoryContent h3 {
+  margin-bottom: 0;
+  color: var(--accent-gold, #d4a574);
+}
+
+/* Tags */
+.tags {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.tagList {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.tag {
+  padding: 0.25rem 0.75rem;
+  background: var(--bg-secondary, #1a1a2e);
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  color: var(--text-secondary, #888);
+}
+
+/* Japanese Icon */
+.japaneseIcon {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  font-weight: 700;
+}
+
+/* Not Found */
+.notFound {
+  padding: 3rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Back Link */
+.backLink {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* Mobile Responsive */
+@media (max-width: 640px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .pathIcon {
+    width: 64px;
+    height: 64px;
+    font-size: 2rem;
+  }
+
+  .statsBar {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .stat {
+    justify-content: center;
+  }
+
+  .milestone {
+    gap: 1rem;
+  }
+
+  .milestoneConnector {
+    width: 32px;
+  }
+
+  .milestoneDot {
+    width: 32px;
+    height: 32px;
+    font-size: 0.875rem;
+  }
+
+  .milestoneHeader {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .milestoneMeta {
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .itemBreakdown {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .enrolledActions {
+    flex-direction: column;
+  }
+
+  .enrolledActions button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 375px) {
+  .pathTitle {
+    font-size: 1.5rem;
+  }
+
+  .pathIcon {
+    width: 56px;
+    height: 56px;
+    font-size: 1.75rem;
+  }
+
+  .categoryCard {
+    padding: 1rem;
+  }
+
+  .categoryIcon {
+    width: 40px;
+    height: 40px;
+    font-size: 1.25rem;
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "rules": {
+    "vocabulary": {
+      "requires-alphabet": {
+        "description": "Vocabulary items require Hiragana knowledge",
+        "prerequisiteModule": "alphabet",
+        "prerequisiteMastery": "learning",
+        "applies": "all"
+      },
+      "vocab-taberu": {
+        "prerequisites": [
+          { "module": "kanji", "itemId": "kanji-shoku", "mastery": "learning" }
+        ]
+      },
+      "vocab-nomu": {
+        "prerequisites": [
+          { "module": "alphabet", "itemId": "all", "mastery": "learning" }
+        ]
+      },
+      "vocab-miru": {
+        "prerequisites": [
+          { "module": "kanji", "itemId": "kanji-mi", "mastery": "learning" }
+        ]
+      },
+      "vocab-kiku": {
+        "prerequisites": [
+          { "module": "kanji", "itemId": "kanji-kiku", "mastery": "learning" }
+        ]
+      },
+      "vocab-hanasu": {
+        "prerequisites": [
+          { "module": "kanji", "itemId": "kanji-hanasu", "mastery": "learning" }
+        ]
+      },
+      "vocab-yomu": {
+        "prerequisites": [
+          { "module": "kanji", "itemId": "kanji-yomu", "mastery": "learning" }
+        ]
+      },
+      "vocab-kaku": {
+        "prerequisites": [
+          { "module": "kanji", "itemId": "kanji-kaku", "mastery": "learning" }
+        ]
+      }
+    },
+    "kanji": {
+      "requires-alphabet": {
+        "description": "Kanji items require Hiragana knowledge for readings",
+        "prerequisiteModule": "alphabet",
+        "prerequisiteMastery": "advanced",
+        "applies": "all"
+      }
+    },
+    "grammar": {
+      "grammar-te-form": {
+        "prerequisites": [
+          { "module": "vocabulary", "level": "N5", "masteryPercentage": 50 }
+        ]
+      },
+      "grammar-te-iru": {
+        "prerequisites": [
+          { "module": "grammar", "itemId": "grammar-te-form", "mastery": "learning" }
+        ]
+      },
+      "grammar-te-kudasai": {
+        "prerequisites": [
+          { "module": "grammar", "itemId": "grammar-te-form", "mastery": "learning" }
+        ]
+      },
+      "grammar-tai": {
+        "prerequisites": [
+          { "module": "grammar", "itemId": "grammar-masu", "mastery": "learning" }
+        ]
+      },
+      "grammar-keigo-masu": {
+        "prerequisites": [
+          { "module": "vocabulary", "level": "N4", "masteryPercentage": 70 },
+          { "module": "grammar", "level": "N4", "masteryPercentage": 50 }
+        ]
+      }
+    },
+    "reading": {
+      "reading-restaurant-menu": {
+        "prerequisites": [
+          { "module": "vocabulary", "tags": ["food"], "masteryPercentage": 60 }
+        ]
+      },
+      "reading-daily-life": {
+        "prerequisites": [
+          { "module": "vocabulary", "level": "N5", "masteryPercentage": 50 },
+          { "module": "grammar", "level": "N5", "masteryPercentage": 40 }
+        ]
+      },
+      "reading-business-email": {
+        "prerequisites": [
+          { "module": "grammar", "itemId": "grammar-keigo-masu", "mastery": "learning" }
+        ]
+      }
+    },
+    "listening": {
+      "requires-vocabulary": {
+        "description": "Listening exercises require vocabulary knowledge",
+        "prerequisiteModule": "vocabulary",
+        "prerequisiteMastery": "learning",
+        "prerequisitePercentage": 30,
+        "applies": "all"
+      }
+    }
+  },
+  "difficultyScores": {
+    "vocabulary": {
+      "N5": 1,
+      "N4": 2,
+      "N3": 4,
+      "N2": 6,
+      "N1": 8
+    },
+    "kanji": {
+      "N5": 2,
+      "N4": 3,
+      "N3": 5,
+      "N2": 7,
+      "N1": 9
+    },
+    "grammar": {
+      "N5": 2,
+      "N4": 4,
+      "N3": 6,
+      "N2": 8,
+      "N1": 10
+    }
+  },
+  "masteryLevels": {
+    "new": { "minReps": 0, "minInterval": 0 },
+    "learning": { "minReps": 1, "minInterval": 0 },
+    "advanced": { "minReps": 3, "minInterval": 7 },
+    "mastered": { "minReps": 5, "minInterval": 30 }
+  }
+}

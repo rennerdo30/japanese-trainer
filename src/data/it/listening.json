@@ -1,0 +1,407 @@
+[
+  {
+    "id": "it-listening-1",
+    "title": "Saluti e presentazioni",
+    "text": "Buongiorno! Mi chiamo Lucia. Piacere di conoscerla. Sono italiana, di Firenze. E Lei, come si chiama? Di dove è?",
+    "transcript": "Buongiorno! Mi chiamo Lucia. Piacere di conoscerla. Sono italiana, di Firenze. E Lei, come si chiama? Di dove è?",
+    "level": "a1",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "What is the speaker's name?",
+        "options": ["Maria", "Lucia", "Sofia", "Anna"],
+        "correct": 1
+      },
+      {
+        "question": "Where is the speaker from?",
+        "options": ["Rome", "Milan", "Florence", "Naples"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "it-listening-2",
+    "title": "Al bar",
+    "text": "Buongiorno, cosa desidera? Vorrei un caffè espresso e un cornetto alla crema, per favore. Sono tre euro e cinquanta. Ecco a Lei, grazie mille!",
+    "transcript": "Buongiorno, cosa desidera? Vorrei un caffè espresso e un cornetto alla crema, per favore. Sono tre euro e cinquanta. Ecco a Lei, grazie mille!",
+    "level": "a1",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "What does the customer order?",
+        "options": ["Tea and cake", "Espresso and cream croissant", "Cappuccino and sandwich", "Water and pizza"],
+        "correct": 1
+      },
+      {
+        "question": "How much is the total?",
+        "options": ["2.50 euros", "3.00 euros", "3.50 euros", "4.00 euros"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "it-listening-3",
+    "title": "Chiedere indicazioni",
+    "text": "Scusi, sa dov'è la stazione? Sì, certo! Vada sempre dritto per questa strada, poi giri a sinistra al semaforo. La stazione è sulla destra, dopo la piazza. Ci vogliono circa dieci minuti a piedi.",
+    "transcript": "Scusi, sa dov'è la stazione? Sì, certo! Vada sempre dritto per questa strada, poi giri a sinistra al semaforo. La stazione è sulla destra, dopo la piazza. Ci vogliono circa dieci minuti a piedi.",
+    "level": "a1",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "What is the person looking for?",
+        "options": ["A restaurant", "A hotel", "The train station", "A museum"],
+        "correct": 2
+      },
+      {
+        "question": "What should they do at the traffic light?",
+        "options": ["Turn right", "Turn left", "Go straight", "Stop"],
+        "correct": 1
+      },
+      {
+        "question": "How long does it take to walk there?",
+        "options": ["5 minutes", "10 minutes", "15 minutes", "20 minutes"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "it-listening-4",
+    "title": "Prenotare un tavolo",
+    "text": "Pronto, ristorante Bella Italia, come posso aiutarla? Buonasera, vorrei prenotare un tavolo per sabato sera. Per quante persone? Siamo in quattro. A che ora? Alle otto e mezza. Perfetto, a che nome? Rossi. Benissimo, signor Rossi. A sabato!",
+    "transcript": "Pronto, ristorante Bella Italia, come posso aiutarla? Buonasera, vorrei prenotare un tavolo per sabato sera. Per quante persone? Siamo in quattro. A che ora? Alle otto e mezza. Perfetto, a che nome? Rossi. Benissimo, signor Rossi. A sabato!",
+    "level": "a2",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "What is the name of the restaurant?",
+        "options": ["Bella Roma", "Bella Italia", "Bella Napoli", "Bella Vista"],
+        "correct": 1
+      },
+      {
+        "question": "For how many people is the reservation?",
+        "options": ["2", "3", "4", "5"],
+        "correct": 2
+      },
+      {
+        "question": "What time is the reservation?",
+        "options": ["7:30", "8:00", "8:30", "9:00"],
+        "correct": 2
+      },
+      {
+        "question": "What day is the reservation for?",
+        "options": ["Friday", "Saturday", "Sunday", "Monday"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "it-listening-5",
+    "title": "Il tempo",
+    "text": "Ecco le previsioni del tempo per domani. Al nord ci sarà pioggia con temperature intorno ai quindici gradi. Al centro il tempo sarà nuvoloso ma senza pioggia. Al sud invece splenderà il sole con temperature fino a venticinque gradi. Buona giornata a tutti!",
+    "transcript": "Ecco le previsioni del tempo per domani. Al nord ci sarà pioggia con temperature intorno ai quindici gradi. Al centro il tempo sarà nuvoloso ma senza pioggia. Al sud invece splenderà il sole con temperature fino a venticinque gradi. Buona giornata a tutti!",
+    "level": "a2",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "What will the weather be like in the north?",
+        "options": ["Sunny", "Cloudy", "Rainy", "Snowy"],
+        "correct": 2
+      },
+      {
+        "question": "What temperature is expected in the north?",
+        "options": ["10 degrees", "15 degrees", "20 degrees", "25 degrees"],
+        "correct": 1
+      },
+      {
+        "question": "What will the weather be like in the south?",
+        "options": ["Rainy", "Cloudy", "Sunny", "Windy"],
+        "correct": 2
+      },
+      {
+        "question": "What is the maximum temperature in the south?",
+        "options": ["15 degrees", "20 degrees", "25 degrees", "30 degrees"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "it-listening-6",
+    "title": "Intervista a uno chef",
+    "text": "Buongiorno chef Rossi, grazie per essere qui con noi oggi. Come ha iniziato la sua carriera nella ristorazione? Ho cominciato a lavorare nella cucina di mia nonna quando avevo dodici anni. Lei mi ha insegnato tutto sui piatti tradizionali toscani. Dopo il liceo, ho frequentato una scuola di cucina a Parma e poi ho lavorato in diversi ristoranti in Italia e all'estero. Cinque anni fa ho aperto il mio ristorante qui a Firenze, dove propongo una cucina che unisce la tradizione con tecniche moderne. Qual è il segreto del suo successo? Sicuramente la qualità degli ingredienti. Utilizzo solo prodotti locali e di stagione. E poi la passione: senza passione non si può fare questo lavoro.",
+    "transcript": "Buongiorno chef Rossi, grazie per essere qui con noi oggi. Come ha iniziato la sua carriera nella ristorazione? Ho cominciato a lavorare nella cucina di mia nonna quando avevo dodici anni. Lei mi ha insegnato tutto sui piatti tradizionali toscani. Dopo il liceo, ho frequentato una scuola di cucina a Parma e poi ho lavorato in diversi ristoranti in Italia e all'estero. Cinque anni fa ho aperto il mio ristorante qui a Firenze, dove propongo una cucina che unisce la tradizione con tecniche moderne. Qual è il segreto del suo successo? Sicuramente la qualità degli ingredienti. Utilizzo solo prodotti locali e di stagione. E poi la passione: senza passione non si può fare questo lavoro.",
+    "level": "b1",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "How old was the chef when he started cooking?",
+        "options": ["10 years old", "12 years old", "15 years old", "18 years old"],
+        "correct": 1
+      },
+      {
+        "question": "Who taught him traditional cooking?",
+        "options": ["His mother", "His grandmother", "A professional chef", "His father"],
+        "correct": 1
+      },
+      {
+        "question": "Where did he study cooking?",
+        "options": ["Florence", "Rome", "Parma", "Milan"],
+        "correct": 2
+      },
+      {
+        "question": "How long ago did he open his restaurant?",
+        "options": ["Two years ago", "Three years ago", "Five years ago", "Ten years ago"],
+        "correct": 2
+      },
+      {
+        "question": "What does he consider the secret to his success?",
+        "options": ["Low prices", "Quality ingredients and passion", "Location", "Advertising"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "it-listening-7",
+    "title": "Annuncio alla stazione",
+    "text": "Attenzione ai viaggiatori in attesa sulla banchina numero tre. Il treno Frecciarossa 9632 diretto a Roma Termini, con fermate intermedie a Bologna Centrale, Firenze Santa Maria Novella e Roma Tiburtina, è in arrivo con un ritardo di circa quindici minuti. Ci scusiamo per il disagio. Si invitano i passeggeri a non oltrepassare la linea gialla. La carrozza ristorante si trova al centro del convoglio, tra la vettura sei e la vettura sette. Si ricorda che è vietato fumare a bordo del treno.",
+    "transcript": "Attenzione ai viaggiatori in attesa sulla banchina numero tre. Il treno Frecciarossa 9632 diretto a Roma Termini, con fermate intermedie a Bologna Centrale, Firenze Santa Maria Novella e Roma Tiburtina, è in arrivo con un ritardo di circa quindici minuti. Ci scusiamo per il disagio. Si invitano i passeggeri a non oltrepassare la linea gialla. La carrozza ristorante si trova al centro del convoglio, tra la vettura sei e la vettura sette. Si ricorda che è vietato fumare a bordo del treno.",
+    "level": "b1",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "Which platform is the train arriving at?",
+        "options": ["Platform 1", "Platform 2", "Platform 3", "Platform 4"],
+        "correct": 2
+      },
+      {
+        "question": "What is the final destination of the train?",
+        "options": ["Bologna", "Florence", "Roma Tiburtina", "Roma Termini"],
+        "correct": 3
+      },
+      {
+        "question": "How much delay does the train have?",
+        "options": ["5 minutes", "10 minutes", "15 minutes", "20 minutes"],
+        "correct": 2
+      },
+      {
+        "question": "Where is the restaurant car located?",
+        "options": ["At the front", "At the back", "Between cars 6 and 7", "Between cars 3 and 4"],
+        "correct": 2
+      },
+      {
+        "question": "What is prohibited on the train?",
+        "options": ["Eating", "Using phones", "Smoking", "Sleeping"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "it-listening-8",
+    "title": "Dibattito sul lavoro da remoto",
+    "text": "Moderatore: Buonasera e benvenuti al nostro dibattito sul tema del lavoro da remoto. Con noi questa sera due esperti con opinioni diverse. Dottoressa Bianchi, qual è la sua posizione? Bianchi: Ritengo che il lavoro da remoto rappresenti una grande opportunità. Aumenta la produttività, riduce lo stress legato agli spostamenti e permette un migliore equilibrio tra vita privata e lavoro. Le aziende risparmiano sui costi degli uffici e possono attingere a talenti da tutto il paese. Moderatore: Dottor Verdi, lei non è d'accordo? Verdi: Non completamente. Ci sono vantaggi innegabili, ma anche rischi significativi. L'isolamento sociale può danneggiare la salute mentale dei lavoratori. La collaborazione spontanea che avviene in ufficio si perde. E non dimentichiamo che non tutti hanno a casa uno spazio adeguato per lavorare. Credo che la soluzione ideale sia un modello ibrido, con alcuni giorni in ufficio e altri da remoto.",
+    "transcript": "Moderatore: Buonasera e benvenuti al nostro dibattito sul tema del lavoro da remoto. Con noi questa sera due esperti con opinioni diverse. Dottoressa Bianchi, qual è la sua posizione? Bianchi: Ritengo che il lavoro da remoto rappresenti una grande opportunità. Aumenta la produttività, riduce lo stress legato agli spostamenti e permette un migliore equilibrio tra vita privata e lavoro. Le aziende risparmiano sui costi degli uffici e possono attingere a talenti da tutto il paese. Moderatore: Dottor Verdi, lei non è d'accordo? Verdi: Non completamente. Ci sono vantaggi innegabili, ma anche rischi significativi. L'isolamento sociale può danneggiare la salute mentale dei lavoratori. La collaborazione spontanea che avviene in ufficio si perde. E non dimentichiamo che non tutti hanno a casa uno spazio adeguato per lavorare. Credo che la soluzione ideale sia un modello ibrido, con alcuni giorni in ufficio e altri da remoto.",
+    "level": "b2",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "What is the topic of the debate?",
+        "options": ["Unemployment", "Remote work", "Office design", "Salary increases"],
+        "correct": 1
+      },
+      {
+        "question": "According to Dr. Bianchi, what does remote work increase?",
+        "options": ["Costs", "Stress", "Productivity", "Commuting time"],
+        "correct": 2
+      },
+      {
+        "question": "What risk does Dr. Verdi mention?",
+        "options": ["Higher costs", "Social isolation", "Less vacation time", "More meetings"],
+        "correct": 1
+      },
+      {
+        "question": "What does Dr. Verdi say about home workspaces?",
+        "options": ["Everyone has a good one", "Not everyone has adequate space", "They are better than offices", "They are not important"],
+        "correct": 1
+      },
+      {
+        "question": "What solution does Dr. Verdi propose?",
+        "options": ["Full remote work", "Full office work", "A hybrid model", "Shorter work hours"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "it-listening-9",
+    "title": "Conferenza sulla storia dell'arte",
+    "text": "Buongiorno a tutti e grazie per essere venuti a questa conferenza sul Rinascimento italiano. Oggi parleremo di come questo straordinario periodo abbia trasformato non solo l'arte, ma l'intera concezione del mondo. Il Rinascimento nacque a Firenze nei primi decenni del Quattrocento, grazie al patrocinio di famiglie come i Medici e alla presenza di geni come Brunelleschi, Donatello e Masaccio. Questi artisti riscoprirono i principi dell'arte classica, introducendo la prospettiva lineare e una rappresentazione più naturalistica del corpo umano. L'uomo divenne la misura di tutte le cose, e l'arte iniziò a celebrare la bellezza terrena oltre a quella divina. Nel corso del Cinquecento, il Rinascimento raggiunse il suo apogeo con figure come Leonardo da Vinci, Michelangelo e Raffaello, che portarono la tecnica pittorica e scultorea a livelli mai raggiunti prima.",
+    "transcript": "Buongiorno a tutti e grazie per essere venuti a questa conferenza sul Rinascimento italiano. Oggi parleremo di come questo straordinario periodo abbia trasformato non solo l'arte, ma l'intera concezione del mondo. Il Rinascimento nacque a Firenze nei primi decenni del Quattrocento, grazie al patrocinio di famiglie come i Medici e alla presenza di geni come Brunelleschi, Donatello e Masaccio. Questi artisti riscoprirono i principi dell'arte classica, introducendo la prospettiva lineare e una rappresentazione più naturalistica del corpo umano. L'uomo divenne la misura di tutte le cose, e l'arte iniziò a celebrare la bellezza terrena oltre a quella divina. Nel corso del Cinquecento, il Rinascimento raggiunse il suo apogeo con figure come Leonardo da Vinci, Michelangelo e Raffaello, che portarono la tecnica pittorica e scultorea a livelli mai raggiunti prima.",
+    "level": "b2",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "Where did the Renaissance originate?",
+        "options": ["Rome", "Venice", "Florence", "Milan"],
+        "correct": 2
+      },
+      {
+        "question": "Which family is mentioned as patrons of the arts?",
+        "options": ["The Borgia", "The Medici", "The Sforza", "The Gonzaga"],
+        "correct": 1
+      },
+      {
+        "question": "What technique did Renaissance artists introduce?",
+        "options": ["Abstract art", "Linear perspective", "Impressionism", "Cubism"],
+        "correct": 1
+      },
+      {
+        "question": "What became 'the measure of all things'?",
+        "options": ["God", "Nature", "Man", "Art"],
+        "correct": 2
+      },
+      {
+        "question": "Which artists are mentioned as representing the height of the Renaissance?",
+        "options": ["Caravaggio and Bernini", "Leonardo, Michelangelo, and Raphael", "Botticelli and Giotto", "Titian and Tintoretto"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "it-listening-10",
+    "title": "Discussione rapida tra colleghi",
+    "text": "Marco: Ciao Giulia, hai un attimo? Devo chiederti una cosa. Giulia: Dimmi pure, ma fai in fretta che devo correre alla riunione delle tre. Marco: Senti, hai visto l'email di Rossini sui nuovi obiettivi trimestrali? Giulia: Sì, l'ho vista. Una follia totale secondo me. Come pretendono che aumentiamo le vendite del venti per cento in tre mesi? Marco: Appunto! E con metà del team in ferie ad agosto... Giulia: Guarda, secondo me dobbiamo parlarne col direttore. Non è realistico e rischiamo di bruciarci tutti. Marco: Sono d'accordo. Propongo di mandargli una mail insieme, che ne dici? Giulia: Meglio se ne parliamo di persona, le mail si fraintendono facilmente. Senti, organizzo io un incontro per domani mattina, ti va bene? Marco: Perfetto, fammi sapere l'orario. Giulia: Ok, scappo. A dopo!",
+    "transcript": "Marco: Ciao Giulia, hai un attimo? Devo chiederti una cosa. Giulia: Dimmi pure, ma fai in fretta che devo correre alla riunione delle tre. Marco: Senti, hai visto l'email di Rossini sui nuovi obiettivi trimestrali? Giulia: Sì, l'ho vista. Una follia totale secondo me. Come pretendono che aumentiamo le vendite del venti per cento in tre mesi? Marco: Appunto! E con metà del team in ferie ad agosto... Giulia: Guarda, secondo me dobbiamo parlarne col direttore. Non è realistico e rischiamo di bruciarci tutti. Marco: Sono d'accordo. Propongo di mandargli una mail insieme, che ne dici? Giulia: Meglio se ne parliamo di persona, le mail si fraintendono facilmente. Senti, organizzo io un incontro per domani mattina, ti va bene? Marco: Perfetto, fammi sapere l'orario. Giulia: Ok, scappo. A dopo!",
+    "level": "c1",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "Why is Giulia in a hurry?",
+        "options": ["She has a phone call", "She has a meeting at 3", "She needs to leave early", "She has lunch plans"],
+        "correct": 1
+      },
+      {
+        "question": "What sales increase is being demanded?",
+        "options": ["10%", "15%", "20%", "25%"],
+        "correct": 2
+      },
+      {
+        "question": "What complicates the situation according to Marco?",
+        "options": ["Budget cuts", "Half the team on vacation in August", "New competition", "Technical problems"],
+        "correct": 1
+      },
+      {
+        "question": "Why does Giulia prefer a face-to-face meeting over email?",
+        "options": ["It's faster", "Emails are easily misunderstood", "The director doesn't read emails", "She prefers talking"],
+        "correct": 1
+      },
+      {
+        "question": "What does Giulia offer to do?",
+        "options": ["Write the email", "Talk to the director alone", "Organize a meeting for tomorrow morning", "Cancel the objectives"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "it-listening-11",
+    "title": "Accento regionale: dialogo napoletano",
+    "text": "Signora: Buongiorno, mi scusi, potrebbe dirmi dov'è la fermata della metropolitana? Passante: Certamente signora! Allora, deve andare sempre dritto per questa via, poi quando arriva alla piazzetta con la fontanella, gira a sinistra. Dopo un centinaio di metri vedrà le scale della metro. Ma guardi che a quest'ora c'è un sacco di gente, forse le conviene prendere il bus. La fermata è proprio qua dietro l'angolo. Signora: Ah, e quale autobus devo prendere? Passante: Il R2, quello rosso, la porta direttamente in centro. Passa ogni dieci minuti circa. Signora: La ringrazio tanto, è stato molto gentile! Passante: Di niente, signora! Arrivederci e buona giornata!",
+    "transcript": "Signora: Buongiorno, mi scusi, potrebbe dirmi dov'è la fermata della metropolitana? Passante: Certamente signora! Allora, deve andare sempre dritto per questa via, poi quando arriva alla piazzetta con la fontanella, gira a sinistra. Dopo un centinaio di metri vedrà le scale della metro. Ma guardi che a quest'ora c'è un sacco di gente, forse le conviene prendere il bus. La fermata è proprio qua dietro l'angolo. Signora: Ah, e quale autobus devo prendere? Passante: Il R2, quello rosso, la porta direttamente in centro. Passa ogni dieci minuti circa. Signora: La ringrazio tanto, è stato molto gentile! Passante: Di niente, signora! Arrivederci e buona giornata!",
+    "level": "c1",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "What is the woman looking for?",
+        "options": ["A bus stop", "A metro station", "A taxi stand", "A train station"],
+        "correct": 1
+      },
+      {
+        "question": "What landmark should she look for?",
+        "options": ["A church", "A small square with a fountain", "A statue", "A market"],
+        "correct": 1
+      },
+      {
+        "question": "Why does the passerby suggest taking the bus instead?",
+        "options": ["It's cheaper", "The metro is closed", "The metro is very crowded at this hour", "The bus is faster"],
+        "correct": 2
+      },
+      {
+        "question": "Which bus should she take?",
+        "options": ["R1", "R2", "R3", "B2"],
+        "correct": 1
+      },
+      {
+        "question": "How often does the bus come?",
+        "options": ["Every 5 minutes", "Every 10 minutes", "Every 15 minutes", "Every 20 minutes"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "it-listening-12",
+    "title": "Lezione universitaria di filosofia",
+    "text": "Oggi concluderemo il nostro ciclo di lezioni su Machiavelli analizzando alcuni concetti chiave del Principe. Come sapete, Machiavelli scrive quest'opera nel 1513, in un momento di grande instabilità politica italiana. Il suo obiettivo è fornire una guida pratica per il governo, liberata dalle considerazioni morali tradizionali. Il concetto di virtù machiavelliana non ha nulla a che vedere con la virtù cristiana: indica piuttosto la capacità del principe di adattarsi alle circostanze, di essere 'volpe e leone' secondo le necessità. Altrettanto importante è il concetto di fortuna, intesa come l'insieme delle circostanze esterne che il principe non può controllare, ma che deve saper cavalcare. Machiavelli è stato accusato di cinismo, ma la sua analisi inaugura la scienza politica moderna, separando lo studio del potere dalla morale religiosa.",
+    "transcript": "Oggi concluderemo il nostro ciclo di lezioni su Machiavelli analizzando alcuni concetti chiave del Principe. Come sapete, Machiavelli scrive quest'opera nel 1513, in un momento di grande instabilità politica italiana. Il suo obiettivo è fornire una guida pratica per il governo, liberata dalle considerazioni morali tradizionali. Il concetto di virtù machiavelliana non ha nulla a che vedere con la virtù cristiana: indica piuttosto la capacità del principe di adattarsi alle circostanze, di essere 'volpe e leone' secondo le necessità. Altrettanto importante è il concetto di fortuna, intesa come l'insieme delle circostanze esterne che il principe non può controllare, ma che deve saper cavalcare. Machiavelli è stato accusato di cinismo, ma la sua analisi inaugura la scienza politica moderna, separando lo studio del potere dalla morale religiosa.",
+    "level": "c2",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "When was The Prince written?",
+        "options": ["1413", "1513", "1613", "1713"],
+        "correct": 1
+      },
+      {
+        "question": "What was Italy experiencing when Machiavelli wrote?",
+        "options": ["Economic prosperity", "Political instability", "Religious reform", "Cultural decline"],
+        "correct": 1
+      },
+      {
+        "question": "What does Machiavellian 'virtù' refer to?",
+        "options": ["Christian virtue", "Moral goodness", "Adaptability to circumstances", "Military strength"],
+        "correct": 2
+      },
+      {
+        "question": "What animals does Machiavelli use as metaphors for the prince?",
+        "options": ["Eagle and bear", "Fox and lion", "Wolf and lamb", "Snake and dove"],
+        "correct": 1
+      },
+      {
+        "question": "What does Machiavelli's work inaugurate according to the lecture?",
+        "options": ["Religious philosophy", "Modern political science", "Military strategy", "Economic theory"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "it-listening-13",
+    "title": "Lettura poetica: Dante",
+    "text": "Nel mezzo del cammin di nostra vita mi ritrovai per una selva oscura, ché la diritta via era smarrita. Ahi quanto a dir qual era è cosa dura esta selva selvaggia e aspra e forte che nel pensier rinova la paura! Tant'è amara che poco è più morte; ma per trattar del ben ch'i' vi trovai, dirò de l'altre cose ch'i' v'ho scorte. Io non so ben ridir com'i' v'intrai, tant'era pien di sonno a quel punto che la verace via abbandonai.",
+    "transcript": "Nel mezzo del cammin di nostra vita mi ritrovai per una selva oscura, ché la diritta via era smarrita. Ahi quanto a dir qual era è cosa dura esta selva selvaggia e aspra e forte che nel pensier rinova la paura! Tant'è amara che poco è più morte; ma per trattar del ben ch'i' vi trovai, dirò de l'altre cose ch'i' v'ho scorte. Io non so ben ridir com'i' v'intrai, tant'era pien di sonno a quel punto che la verace via abbandonai.",
+    "level": "c2",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "This is the opening of which famous work?",
+        "options": ["Orlando Furioso", "The Decameron", "The Divine Comedy", "The Prince"],
+        "correct": 2
+      },
+      {
+        "question": "Where does the narrator find himself?",
+        "options": ["In a city", "In a dark forest", "On a mountain", "By the sea"],
+        "correct": 1
+      },
+      {
+        "question": "What had happened to 'la diritta via' (the straight path)?",
+        "options": ["It was blocked", "It was lost", "It was destroyed", "It was hidden"],
+        "correct": 1
+      },
+      {
+        "question": "How does the narrator describe the forest?",
+        "options": ["Beautiful and peaceful", "Wild, harsh, and strong", "Small and pleasant", "Bright and welcoming"],
+        "correct": 1
+      },
+      {
+        "question": "What state was the narrator in when he entered the forest?",
+        "options": ["Wide awake", "Angry", "Full of sleep/drowsy", "Happy"],
+        "correct": 2
+      }
+    ]
+  }
+]

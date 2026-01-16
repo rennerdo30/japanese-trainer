@@ -1,0 +1,81 @@
+.progressContainer {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto 1.5rem;
+  padding: 0 1rem;
+}
+
+.progressBar {
+  height: 8px;
+  background: var(--bg-secondary, #1a1a2e);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 0.75rem;
+}
+
+.progressFill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent-gold, #d4a574), var(--accent-red, #c41e3a));
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.progressInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.progressCount {
+  font-size: 0.875rem;
+  color: var(--text-secondary, #888);
+}
+
+.statsRow {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.statItem {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.875rem;
+  color: var(--text-secondary, #888);
+}
+
+.correctIcon {
+  color: var(--success, #22c55e);
+  font-size: 1.25rem;
+}
+
+.incorrectIcon {
+  color: var(--accent-red, #dc2626);
+  font-size: 1.25rem;
+}
+
+.accuracyLabel {
+  margin-left: 0.5rem;
+}
+
+.accuracyValue {
+  font-weight: 600;
+  color: var(--text-primary, #f5f0e8);
+}
+
+/* Mobile responsive */
+@media (max-width: 480px) {
+  .progressContainer {
+    padding: 0 0.5rem;
+  }
+
+  .progressInfo {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .statsRow {
+    gap: 0.75rem;
+  }
+}

@@ -1,0 +1,39 @@
+/* Korean Theme - "Hanok" */
+/* Traditional elegance meets K-modern - celadon, hanbok silk, Dancheong palaces */
+
+html[data-theme="ko"] {
+  /* Colors - Celadon jade, hanbok magenta, palace blue, soft moon-white */
+  --bg-primary: #0f1215;
+  --bg-secondary: #171c21;
+  --bg-card: #1e252c;
+  --bg-glass: rgba(30, 37, 44, 0.88);
+  --text-primary: #f0f4f8;
+  --text-secondary: #a8b8c8;
+  --text-muted: #607080;
+  --accent-primary: #e84a7e;
+  --accent-secondary: #5fb3a1;
+  --accent-red: #e84a7e;
+  --accent-red-glow: rgba(232, 74, 126, 0.35);
+  --accent-red-light: #ff8ab0;
+  --accent-gold: #d4b896;
+  --accent-gold-dim: rgba(212, 184, 150, 0.15);
+  --success: #5fb3a1;
+  --success-glow: rgba(95, 179, 161, 0.3);
+  --border-subtle: rgba(95, 179, 161, 0.1);
+  --glass-border: rgba(232, 74, 126, 0.15);
+  --shadow-deep: 0 25px 50px -12px rgba(15, 18, 21, 0.7);
+
+  /* Typography - Clean modern Korean */
+  --font-primary: 'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif;
+  --font-secondary: 'Nanum Myeongjo', serif;
+
+  /* Atmospheric gradient - Moonlit hanok courtyard, celadon glow */
+  --gradient-atmosphere:
+    radial-gradient(ellipse 70% 45% at 80% 0%, rgba(232, 74, 126, 0.12), transparent),
+    radial-gradient(ellipse 60% 50% at 10% 100%, rgba(95, 179, 161, 0.1), transparent),
+    radial-gradient(circle at 50% 50%, rgba(212, 184, 150, 0.03), transparent);
+}
+
+html[data-theme="ko"] body {
+  font-family: var(--font-primary);
+}

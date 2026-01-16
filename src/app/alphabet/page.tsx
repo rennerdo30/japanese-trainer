@@ -1,17 +1,16 @@
 'use client'
 
-import { useState, useEffect, useCallback, useRef } from 'react';
+import { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 import Navigation from '@/components/common/Navigation';
 import StatsPanel from '@/components/common/StatsPanel';
 import Timer from '@/components/common/Timer';
 import MultipleChoice from '@/components/common/MultipleChoice';
+import LanguageContentGuard from '@/components/common/LanguageContentGuard';
 import { Container, Input, CharacterCard, CharacterDisplay, OptionsPanel, InputSection, Toggle, Chip, Text } from '@/components/ui';
 import optionsStyles from '@/components/ui/OptionsPanel.module.css';
-import charactersJson from '@/data/characters.json';
-const characters = charactersJson as Character[];
-const TIME_PER_CHARACTER = 5;
 import { useProgressContext } from '@/context/ProgressProvider';
 import { useLanguage } from '@/context/LanguageProvider';
+import { useTargetLanguage } from '@/hooks/useTargetLanguage';
 import { useMobile } from '@/hooks/useMobile';
 import { useTTS } from '@/hooks/useTTS';
 import { useTimer } from '@/hooks/useTimer';
@@ -19,11 +18,86 @@ import { Character, Filter } from '@/types';
 import { toKatakana } from 'wanakana';
 import styles from './alphabet.module.css';
 
+// Import character data for each language
+import jaCharactersJson from '@/data/ja/characters.json';
+import koCharactersJson from '@/data/ko/characters.json';
+
+const TIME_PER_CHARACTER = 5;
+
+// Define extended character type for Korean
+interface KoreanCharacter {
+    romaji: string;
+    character: string;
+    type: 'consonant' | 'vowel' | 'double_consonant' | 'compound_vowel';
+    name: string;
+}
+
+// Normalize Korean characters to match the Character interface
+const normalizeKoreanCharacter = (char: KoreanCharacter): Character => ({
+    romaji: char.romaji,
+    hiragana: char.character, // Use 'hiragana' field for the character display
+    type: char.type,
+    audioUrl: undefined, // No audio yet for Korean
+});
+
+// Get characters based on target language
+const getCharacterData = (lang: string): Character[] => {
+    switch (lang) {
+        case 'ko':
+            return (koCharactersJson as KoreanCharacter[]).map(normalizeKoreanCharacter);
+        case 'ja':
+        default:
+            return jaCharactersJson as Character[];
+    }
+};
+
+// Filter configurations per language
+interface FilterConfig {
+    id: string;
+    labelKey: string;
+    types: string[];
+}
+
+const FILTER_CONFIGS: Record<string, FilterConfig[]> = {
+    ja: [
+        { id: 'gojuon', labelKey: 'alphabet.filters.gojuon', types: ['gojuon'] },
+        { id: 'yoon', labelKey: 'alphabet.filters.yoon', types: ['yoon'] },
+        { id: 'dakuten', labelKey: 'alphabet.filters.dakuten', types: ['dakuten', 'handakuten'] },
+    ],
+    ko: [
+        { id: 'consonant', labelKey: 'alphabet.filters.consonant', types: ['consonant'] },
+        { id: 'vowel', labelKey: 'alphabet.filters.vowel', types: ['vowel'] },
+        { id: 'double_consonant', labelKey: 'alphabet.filters.doubleConsonant', types: ['double_consonant'] },
+        { id: 'compound_vowel', labelKey: 'alphabet.filters.compoundVowel', types: ['compound_vowel'] },
+    ],
+};
+
+// Toggle configurations per language
+interface ToggleConfig {
+    enabled: boolean;
+    options: { id: string; labelKey: string }[];
+}
+
+const TOGGLE_CONFIGS: Record<string, ToggleConfig> = {
+    ja: {
+        enabled: true,
+        options: [
+            { id: 'hiragana', labelKey: 'alphabet.hiragana' },
+            { id: 'katakana', labelKey: 'alphabet.katakana' },
+        ],
+    },
+    ko: {
+        enabled: false, // Korean Hangul doesn't have a hiragana/katakana equivalent
+        options: [],
+    },
+};
+
 type InputState = '' | 'error' | 'success';
 
 export default function AlphabetPage() {
     const { updateModuleStats: updateStats } = useProgressContext();
     const { t } = useLanguage();
+    const { targetLanguage } = useTargetLanguage();
     const isMobile = useMobile();
     const { speakAndWait, preloadAudio } = useTTS();
     const preloadedAudioRef = useRef<HTMLAudioElement | null>(null);
@@ -41,16 +115,36 @@ export default function AlphabetPage() {
     const [showMultipleChoiceFeedback, setShowMultipleChoiceFeedback] = useState(false);
     const [selectedMultipleChoiceIndex, setSelectedMultipleChoiceIndex] = useState<number | null>(null);
     const inputRef = useRef<HTMLInputElement>(null);
-    const [filters, setFilters] = useState<Record<string, Filter>>({
-        gojuon: { id: 'gojuon', label: t('alphabet.filters.gojuon'), checked: true, type: 'checkbox' },
-        yoon: { id: 'yoon', label: t('alphabet.filters.yoon'), checked: false, type: 'checkbox' },
-        dakuten: { id: 'dakuten', label: t('alphabet.filters.dakuten'), checked: false, type: 'checkbox' },
+
+    // Get characters and filter configuration for current language
+    const characters = useMemo(() => getCharacterData(targetLanguage), [targetLanguage]);
+    const filterConfig = useMemo(() => FILTER_CONFIGS[targetLanguage] || FILTER_CONFIGS.ja, [targetLanguage]);
+    const toggleConfig = useMemo(() => TOGGLE_CONFIGS[targetLanguage] || TOGGLE_CONFIGS.ja, [targetLanguage]);
+
+    // Initialize filters based on language
+    const [filters, setFilters] = useState<Record<string, Filter>>(() => {
+        const config = FILTER_CONFIGS[targetLanguage] || FILTER_CONFIGS.ja;
+        const initialFilters: Record<string, Filter> = {};
+        config.forEach((fc, index) => {
+            initialFilters[fc.id] = {
+                id: fc.id,
+                label: t(fc.labelKey) || fc.id,
+                checked: index === 0, // First filter is checked by default
+                type: 'checkbox',
+            };
+        });
+        return initialFilters;
     });
 
     const getDisplayCharacter = useCallback((char: Character | null): string => {
         if (!char) return '';
-        return useHiragana ? char.hiragana : toKatakana(char.hiragana);
-    }, [useHiragana]);
+        // Only apply hiragana/katakana conversion for Japanese
+        if (targetLanguage === 'ja') {
+            return useHiragana ? char.hiragana : toKatakana(char.hiragana);
+        }
+        // For other languages, just return the character as-is
+        return char.hiragana;
+    }, [useHiragana, targetLanguage]);
 
     const generateMultipleChoice = useCallback((correctChar: Character, available: Character[]) => {
         const incorrect = available
@@ -67,12 +161,15 @@ export default function AlphabetPage() {
 
     const getAvailableCharacters = useCallback((): Character[] => {
         return characters.filter(char => {
-            if (filters.gojuon.checked && char.type === 'gojuon') return true;
-            if (filters.yoon.checked && char.type === 'yoon') return true;
-            if (filters.dakuten.checked && char.type === 'dakuten') return true;
+            // Check each filter configuration for the current language
+            for (const fc of filterConfig) {
+                if (filters[fc.id]?.checked && fc.types.includes(char.type)) {
+                    return true;
+                }
+            }
             return false;
         });
-    }, [filters]);
+    }, [filters, filterConfig, characters]);
 
     const nextCharacter = useCallback(() => {
         const available = getAvailableCharacters();
@@ -175,13 +272,32 @@ export default function AlphabetPage() {
 
     const { getModuleData } = useProgressContext();
 
+    // Update filter labels when translation changes
     useEffect(() => {
-        setFilters(prev => ({
-            gojuon: { ...prev.gojuon, label: t('alphabet.filters.gojuon') },
-            yoon: { ...prev.yoon, label: t('alphabet.filters.yoon') },
-            dakuten: { ...prev.dakuten, label: t('alphabet.filters.dakuten') },
-        }));
-    }, [t]);
+        setFilters(prev => {
+            const updated: Record<string, Filter> = {};
+            for (const fc of filterConfig) {
+                if (prev[fc.id]) {
+                    updated[fc.id] = { ...prev[fc.id], label: t(fc.labelKey) || fc.id };
+                }
+            }
+            return updated;
+        });
+    }, [t, filterConfig]);
+
+    // Reset filters when language changes
+    useEffect(() => {
+        const newFilters: Record<string, Filter> = {};
+        filterConfig.forEach((fc, index) => {
+            newFilters[fc.id] = {
+                id: fc.id,
+                label: t(fc.labelKey) || fc.id,
+                checked: index === 0,
+                type: 'checkbox',
+            };
+        });
+        setFilters(newFilters);
+    }, [targetLanguage, filterConfig, t]);
 
     useEffect(() => {
         const moduleData = getModuleData('alphabet');
@@ -190,12 +306,18 @@ export default function AlphabetPage() {
         setStreak(moduleData?.stats?.streak || 0);
     }, [getModuleData]);
 
+    // Create a stable string of filter states for dependency tracking
+    const filterStates = useMemo(() => {
+        return Object.entries(filters).map(([id, f]) => `${id}:${f.checked}`).join(',');
+    }, [filters]);
+
     useEffect(() => {
         if (characters.length > 0) {
             nextCharacter();
             start();
         }
-    }, [filters.gojuon.checked, filters.yoon.checked, filters.dakuten.checked, useHiragana]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [filterStates, useHiragana, targetLanguage]);
 
     useEffect(() => {
         if (!isMobile && currentChar && inputRef.current && !isProcessing) {
@@ -223,30 +345,35 @@ export default function AlphabetPage() {
 
     if (!currentChar) {
         return (
-            <Container variant="centered">
-                <Navigation />
-                <div>{t('alphabet.noCharacters')}</div>
-            </Container>
+            <LanguageContentGuard moduleName="alphabet">
+                <Container variant="centered">
+                    <Navigation />
+                    <div>{t('alphabet.noCharacters')}</div>
+                </Container>
+            </LanguageContentGuard>
         );
     }
 
     return (
-        <Container variant="centered" streak={streak}>
-            <Navigation />
+        <LanguageContentGuard moduleName="alphabet">
+            <Container variant="centered" streak={streak}>
+                <Navigation />
 
             <OptionsPanel>
-                <div className={optionsStyles.toggleContainer}>
-                    <Text variant="label" color="muted">{t('alphabet.title')}</Text>
-                    <Toggle
-                        options={[
-                            { id: 'hiragana', label: t('alphabet.hiragana') },
-                            { id: 'katakana', label: t('alphabet.katakana') }
-                        ]}
-                        value={useHiragana ? 'hiragana' : 'katakana'}
-                        onChange={(val) => setUseHiragana(val === 'hiragana')}
-                        name="alphabet-type"
-                    />
-                </div>
+                {toggleConfig.enabled && (
+                    <div className={optionsStyles.toggleContainer}>
+                        <Text variant="label" color="muted">{t('alphabet.title')}</Text>
+                        <Toggle
+                            options={toggleConfig.options.map(opt => ({
+                                id: opt.id,
+                                label: t(opt.labelKey)
+                            })) as [{ id: string; label: string }, { id: string; label: string }]}
+                            value={useHiragana ? 'hiragana' : 'katakana'}
+                            onChange={(val) => setUseHiragana(val === 'hiragana')}
+                            name="alphabet-type"
+                        />
+                    </div>
+                )}
                 <div className={optionsStyles.group}>
                     {Object.values(filters).map((filter) => (
                         <Chip
@@ -300,6 +427,7 @@ export default function AlphabetPage() {
                 )}
                 <StatsPanel correct={correct} total={total} streak={streak} />
             </InputSection>
-        </Container>
+            </Container>
+        </LanguageContentGuard>
     );
 }

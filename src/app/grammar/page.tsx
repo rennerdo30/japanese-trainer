@@ -1,18 +1,32 @@
 'use client'
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useMemo } from 'react';
 import Navigation from '@/components/common/Navigation';
 import StatsPanel from '@/components/common/StatsPanel';
+import LanguageContentGuard from '@/components/common/LanguageContentGuard';
 import { Container, Card, Text, Button, Chip, Animated, OptionsPanel } from '@/components/ui';
 import optionsStyles from '@/components/ui/OptionsPanel.module.css';
 import { useProgressContext } from '@/context/ProgressProvider';
 import { useLanguage } from '@/context/LanguageProvider';
+import { useTargetLanguage } from '@/hooks/useTargetLanguage';
 import { GrammarItem, Filter } from '@/types';
+import { IoCheckmark } from 'react-icons/io5';
 import styles from './grammar.module.css';
+
+// Helper to get example text - handles different language data structures
+function getExampleText(example: Record<string, unknown>): { primary: string; secondary: string } {
+    // Try language-specific fields first, then fall back to generic
+    const primary = (example.japanese || example.korean || example.chinese ||
+                    example.spanish || example.german || example.italian ||
+                    example.english || '') as string;
+    const secondary = (example.english || example.translation || '') as string;
+    return { primary, secondary };
+}
 
 export default function GrammarPage() {
     const { getModuleData: getModule, updateModuleStats: updateStats } = useProgressContext();
     const { t } = useLanguage();
+    const { targetLanguage, levels, getDataUrl } = useTargetLanguage();
     const [grammarPoints, setGrammarPoints] = useState<GrammarItem[]>([]);
     const [currentGrammar, setCurrentGrammar] = useState<GrammarItem | null>(null);
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -22,26 +36,46 @@ export default function GrammarPage() {
     const [total, setTotal] = useState(0);
     const [streak, setStreak] = useState(0);
 
-    const [filters, setFilters] = useState<Record<string, Filter>>({
-        n5: { id: 'n5', label: 'JLPT N5', checked: true, type: 'checkbox' },
-        n4: { id: 'n4', label: 'JLPT N4', checked: true, type: 'checkbox' }
-    });
+    // Get first 2 levels from language config for filters
+    const displayLevels = useMemo(() => levels.slice(0, 2), [levels]);
 
+    const [filters, setFilters] = useState<Record<string, Filter>>({});
+
+    // Update filters when language changes
+    useEffect(() => {
+        const newFilters: Record<string, Filter> = {};
+        displayLevels.forEach((level, index) => {
+            newFilters[level.id] = {
+                id: level.id,
+                label: level.name,
+                checked: true, // Both levels checked by default for grammar
+                type: 'checkbox'
+            };
+        });
+        setFilters(newFilters);
+    }, [targetLanguage, displayLevels]);
+
+    // Load grammar data when language changes
     useEffect(() => {
         const loadData = async () => {
             try {
-                const response = await fetch('/grammar.json');
+                const response = await fetch(getDataUrl('grammar.json'));
                 const data = await response.json();
                 setGrammarPoints(data);
+                setCurrentIndex(0);
                 if (data.length > 0) {
                     setCurrentGrammar(data[0]);
+                } else {
+                    setCurrentGrammar(null);
                 }
             } catch (error) {
                 console.error('Failed to load grammar points:', error);
+                setGrammarPoints([]);
+                setCurrentGrammar(null);
             }
         };
         loadData();
-    }, []);
+    }, [targetLanguage, getDataUrl]);
 
     useEffect(() => {
         const moduleData = getModule('grammar');
@@ -83,18 +117,21 @@ export default function GrammarPage() {
 
     if (!currentGrammar) {
         return (
-            <Container variant="centered">
-                <Navigation />
-                <Text>{t('grammar.noGrammar')}</Text>
-            </Container>
+            <LanguageContentGuard moduleName="grammar">
+                <Container variant="centered">
+                    <Navigation />
+                    <Text>{t('grammar.noGrammar')}</Text>
+                </Container>
+            </LanguageContentGuard>
         );
     }
 
     const exercise = currentGrammar.exercises?.[0];
 
     return (
-        <Container variant="centered" streak={streak}>
-            <Navigation />
+        <LanguageContentGuard moduleName="grammar">
+            <Container variant="centered" streak={streak}>
+                <Navigation />
 
             <OptionsPanel>
                 <div className={optionsStyles.toggleContainer}>
@@ -124,12 +161,15 @@ export default function GrammarPage() {
                 </div>
 
                 <div className={styles.examplesList}>
-                    {currentGrammar.examples.slice(0, 2).map((example, i) => (
-                        <div key={i} className={styles.exampleItem}>
-                            <Text color="primary" className={styles.exampleJa}>{example.japanese}</Text>
-                            <Text color="secondary" className={styles.exampleEn}>{example.translations?.en || example.english}</Text>
-                        </div>
-                    ))}
+                    {currentGrammar.examples.slice(0, 2).map((example, i) => {
+                        const { primary, secondary } = getExampleText(example as Record<string, unknown>);
+                        return (
+                            <div key={i} className={styles.exampleItem}>
+                                <Text color="primary" className={styles.exampleJa}>{primary}</Text>
+                                <Text color="secondary" className={styles.exampleEn}>{secondary}</Text>
+                            </div>
+                        );
+                    })}
                 </div>
             </Card>
 
@@ -159,7 +199,7 @@ export default function GrammarPage() {
                                 className={styles.exerciseFeedback}
                             >
                                 {selectedAnswer === exercise.correct
-                                    ? `${t('common.correct')}! ✓`
+                                    ? <>{t('common.correct')}! <IoCheckmark style={{ display: 'inline-block', verticalAlign: 'middle' }} /></>
                                     : `${t('common.incorrect')}. ${t('common.correct')}: ${exercise.options[exercise.correct]}`}
                             </Text>
                             <Button onClick={nextGrammar} className="mt-4" fullWidth>
@@ -171,6 +211,7 @@ export default function GrammarPage() {
             )}
 
             <StatsPanel correct={correct} total={total} streak={streak} />
-        </Container>
+            </Container>
+        </LanguageContentGuard>
     );
 }

@@ -1,23 +1,107 @@
 'use client'
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useMemo } from 'react';
 import Navigation from '@/components/common/Navigation';
 import StatsPanel from '@/components/common/StatsPanel';
 import MultipleChoice from '@/components/common/MultipleChoice';
+import LanguageContentGuard from '@/components/common/LanguageContentGuard';
 import { Container, CharacterCard, InputSection, Input, OptionsPanel, Text, Toggle, Chip, CharacterDisplay, Animated, Button } from '@/components/ui';
 import optionsStyles from '@/components/ui/OptionsPanel.module.css';
 import { useProgressContext } from '@/context/ProgressProvider';
 import { useLanguage } from '@/context/LanguageProvider';
+import { useTargetLanguage } from '@/hooks/useTargetLanguage';
 import { useTTS } from '@/hooks/useTTS';
-import kanjiJson from '@/data/kanji.json';
 import { KanjiItem, Filter } from '@/types';
+import { IoVolumeHigh } from 'react-icons/io5';
 import styles from './kanji.module.css';
 
-const kanjiData = kanjiJson as KanjiItem[];
+// Import kanji/hanzi data for each language
+import jaKanjiJson from '@/data/ja/kanji.json';
+import zhHanziJson from '@/data/zh/hanzi.json';
+
+// Extended type for Chinese Hanzi
+interface HanziItem {
+    id: string;
+    hanzi: string;
+    meaning: string;
+    pinyin: string;
+    strokes: number;
+    hsk: string;
+    radicals: string[];
+    examples: Array<{
+        word: string;
+        pinyin: string;
+        meaning: string;
+        audioUrl?: string;
+    }>;
+    audioUrl?: string;
+}
+
+// Normalize Hanzi to KanjiItem for unified handling
+const normalizeHanzi = (hanzi: HanziItem): KanjiItem => ({
+    id: hanzi.id,
+    kanji: hanzi.hanzi,
+    meaning: hanzi.meaning,
+    onyomi: [hanzi.pinyin], // Use pinyin as the primary reading
+    kunyomi: [],
+    strokes: hanzi.strokes,
+    jlpt: hanzi.hsk, // Use HSK level in place of JLPT
+    radicals: hanzi.radicals,
+    examples: hanzi.examples.map(ex => ({
+        word: ex.word,
+        reading: ex.pinyin,
+        meaning: ex.meaning,
+        audioUrl: ex.audioUrl,
+    })),
+    audioUrl: hanzi.audioUrl,
+});
+
+// Get character data based on target language
+const getCharacterData = (lang: string): KanjiItem[] => {
+    switch (lang) {
+        case 'zh':
+            return (zhHanziJson as HanziItem[]).map(normalizeHanzi);
+        case 'ja':
+        default:
+            return jaKanjiJson as KanjiItem[];
+    }
+};
+
+// Level filter configurations per language
+interface LevelFilterConfig {
+    id: string;
+    label: string;
+    value: string;
+}
+
+const LEVEL_FILTERS: Record<string, LevelFilterConfig[]> = {
+    ja: [
+        { id: 'n5', label: 'JLPT N5', value: 'N5' },
+        { id: 'n4', label: 'JLPT N4', value: 'N4' },
+        { id: 'n3', label: 'JLPT N3', value: 'N3' },
+        { id: 'n2', label: 'JLPT N2', value: 'N2' },
+        { id: 'n1', label: 'JLPT N1', value: 'N1' },
+    ],
+    zh: [
+        { id: 'hsk1', label: 'HSK 1', value: 'HSK1' },
+        { id: 'hsk2', label: 'HSK 2', value: 'HSK2' },
+        { id: 'hsk3', label: 'HSK 3', value: 'HSK3' },
+        { id: 'hsk4', label: 'HSK 4', value: 'HSK4' },
+        { id: 'hsk5', label: 'HSK 5', value: 'HSK5' },
+        { id: 'hsk6', label: 'HSK 6', value: 'HSK6' },
+    ],
+};
+
+// Reading labels per language
+const READING_LABELS: Record<string, { primary: string; secondary?: string }> = {
+    ja: { primary: 'kanji.onyomi', secondary: 'kanji.kunyomi' },
+    zh: { primary: 'kanji.pinyin' },
+};
 
 export default function KanjiPage() {
     const { updateModuleStats: updateStats } = useProgressContext();
     const { t } = useLanguage();
+    const { targetLanguage } = useTargetLanguage();
     const { speak } = useTTS();
     const [currentKanji, setCurrentKanji] = useState<KanjiItem | null>(null);
     const [correct, setCorrect] = useState(0);
@@ -31,20 +115,39 @@ export default function KanjiPage() {
     const [inputState, setInputState] = useState<'default' | 'success' | 'error'>('default');
     const [showInfo, setShowInfo] = useState(false);
 
-    const [filters, setFilters] = useState<Record<string, Filter>>({
-        n5: { id: 'n5', label: 'JLPT N5', checked: true, type: 'checkbox' },
-        n4: { id: 'n4', label: 'JLPT N4', checked: false, type: 'checkbox' },
-        practiceMeaning: { id: 'practice-meaning', label: t('kanji.practiceMeaning'), checked: true, type: 'radio', name: 'kanji-mode' },
-        practiceReading: { id: 'practice-reading', label: t('kanji.practiceReading'), checked: false, type: 'radio', name: 'kanji-mode' }
+    // Get data and configurations for current language
+    const kanjiData = useMemo(() => getCharacterData(targetLanguage), [targetLanguage]);
+    const levelFilters = useMemo(() => LEVEL_FILTERS[targetLanguage] || LEVEL_FILTERS.ja, [targetLanguage]);
+    const readingLabels = useMemo(() => READING_LABELS[targetLanguage] || READING_LABELS.ja, [targetLanguage]);
+
+    // Initialize level filters based on language
+    const [filters, setFilters] = useState<Record<string, Filter>>(() => {
+        const levelConfig = LEVEL_FILTERS[targetLanguage] || LEVEL_FILTERS.ja;
+        const initialFilters: Record<string, Filter> = {};
+        levelConfig.forEach((lf, index) => {
+            initialFilters[lf.id] = {
+                id: lf.id,
+                label: lf.label,
+                checked: index === 0, // First level checked by default
+                type: 'checkbox',
+            };
+        });
+        initialFilters.practiceMeaning = { id: 'practice-meaning', label: t('kanji.practiceMeaning'), checked: true, type: 'radio', name: 'kanji-mode' };
+        initialFilters.practiceReading = { id: 'practice-reading', label: t('kanji.practiceReading'), checked: false, type: 'radio', name: 'kanji-mode' };
+        return initialFilters;
     });
 
     const getAvailableKanji = useCallback(() => {
         return kanjiData.filter(item => {
-            if (filters.n5.checked && item.jlpt === 'N5') return true;
-            if (filters.n4.checked && item.jlpt === 'N4') return true;
+            // Check each level filter for the current language
+            for (const lf of levelFilters) {
+                if (filters[lf.id]?.checked && item.jlpt === lf.value) {
+                    return true;
+                }
+            }
             return false;
         });
-    }, [filters]);
+    }, [filters, levelFilters, kanjiData]);
 
     const nextKanji = useCallback(() => {
         const available = getAvailableKanji();
@@ -126,11 +229,20 @@ export default function KanjiPage() {
         setStreak(moduleData?.stats?.streak || 0);
     }, [getModuleData]);
 
+    // Create a stable string of filter states for dependency tracking
+    const filterStates = useMemo(() => {
+        return Object.entries(filters)
+            .filter(([id]) => id !== 'practiceMeaning' && id !== 'practiceReading')
+            .map(([id, f]) => `${id}:${f.checked}`)
+            .join(',');
+    }, [filters]);
+
     useEffect(() => {
         if (kanjiData.length > 0) {
             nextKanji();
         }
-    }, [filters.n5.checked, filters.n4.checked, practiceType]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [filterStates, practiceType, targetLanguage]);
 
     const handleFilterChange = useCallback((id: string, checked: boolean) => {
         if (id === 'practice-meaning' || id === 'practice-reading') {
@@ -145,6 +257,7 @@ export default function KanjiPage() {
         }
     }, []);
 
+    // Update labels when translation changes
     useEffect(() => {
         setFilters(prev => ({
             ...prev,
@@ -153,18 +266,38 @@ export default function KanjiPage() {
         }));
     }, [t]);
 
+    // Reset filters when language changes
+    useEffect(() => {
+        const newFilters: Record<string, Filter> = {};
+        levelFilters.forEach((lf, index) => {
+            newFilters[lf.id] = {
+                id: lf.id,
+                label: lf.label,
+                checked: index === 0,
+                type: 'checkbox',
+            };
+        });
+        newFilters.practiceMeaning = { id: 'practice-meaning', label: t('kanji.practiceMeaning'), checked: true, type: 'radio', name: 'kanji-mode' };
+        newFilters.practiceReading = { id: 'practice-reading', label: t('kanji.practiceReading'), checked: false, type: 'radio', name: 'kanji-mode' };
+        setFilters(newFilters);
+        setPracticeType('meaning');
+    }, [targetLanguage, levelFilters, t]);
+
     if (!currentKanji) {
         return (
-            <Container variant="centered">
-                <Navigation />
-                <div>{t('kanji.noKanji')}</div>
-            </Container>
+            <LanguageContentGuard moduleName="kanji">
+                <Container variant="centered">
+                    <Navigation />
+                    <div>{t('kanji.noKanji')}</div>
+                </Container>
+            </LanguageContentGuard>
         );
     }
 
     return (
-        <Container variant="centered" streak={streak}>
-            <Navigation />
+        <LanguageContentGuard moduleName="kanji">
+            <Container variant="centered" streak={streak}>
+                <Navigation />
 
             <OptionsPanel>
                 <div className={optionsStyles.toggleContainer}>
@@ -213,7 +346,7 @@ export default function KanjiPage() {
                     onClick={() => speak(currentKanji.kanji, { audioUrl: currentKanji.audioUrl })}
                     className={styles.audioButton}
                 >
-                    🔊
+                    <IoVolumeHigh />
                 </Button>
             </CharacterCard>
 
@@ -222,16 +355,19 @@ export default function KanjiPage() {
                     {showInfo ? (
                         <div className="text-center">
                             <Text variant="h2" color="gold">{currentKanji.meaning}</Text>
+                            {/* Show language-specific reading labels */}
                             <Text color="muted" className="mt-2">
-                                {t('kanji.onyomi')}: {currentKanji.onyomi.join(', ')}
+                                {t(readingLabels.primary)}: {currentKanji.onyomi.join(', ')}
                             </Text>
-                            <Text color="muted">
-                                {t('kanji.kunyomi')}: {currentKanji.kunyomi.join(', ')}
-                            </Text>
+                            {readingLabels.secondary && currentKanji.kunyomi.length > 0 && (
+                                <Text color="muted">
+                                    {t(readingLabels.secondary)}: {currentKanji.kunyomi.join(', ')}
+                                </Text>
+                            )}
                         </div>
                     ) : (
                         <Button variant="ghost" onClick={() => setShowInfo(true)}>
-                            {t('common.showInfo') || 'Show Info'}
+                            {t('kanji.showInfo')}
                         </Button>
                     )}
                 </Animated>
@@ -245,7 +381,7 @@ export default function KanjiPage() {
                         setInputValue(e.target.value);
                         checkInput(e.target.value);
                     }}
-                    placeholder={practiceType === 'meaning' ? t('kanji.typeMeaningOrReading') : '読みを入力...'}
+                    placeholder={practiceType === 'meaning' ? t('kanji.typeMeaningOrReading') : t('kanji.typeReading')}
                     autoComplete="off"
                     disabled={isProcessing}
                     variant={inputState}
@@ -254,7 +390,8 @@ export default function KanjiPage() {
                 />
                 <StatsPanel correct={correct} total={total} streak={streak} />
             </InputSection>
-        </Container>
+            </Container>
+        </LanguageContentGuard>
     );
 }
 

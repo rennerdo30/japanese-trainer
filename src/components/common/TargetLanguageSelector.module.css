@@ -1,0 +1,147 @@
+/* Target Language Selector */
+
+.selector {
+  position: relative;
+}
+
+.trigger {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  background: var(--bg-card, #16162a);
+  border: 1px solid var(--border, #333);
+  border-radius: 0.5rem;
+  color: var(--text-primary, #f5f0e8);
+  cursor: pointer;
+  font-size: 0.875rem;
+  transition: all 0.2s ease;
+  min-height: 44px;
+}
+
+.trigger:hover {
+  background: var(--bg-hover, rgba(255, 255, 255, 0.05));
+  border-color: var(--accent-gold, #d4a574);
+}
+
+.icon {
+  font-size: 1.25rem;
+  color: var(--accent-gold, #d4a574);
+}
+
+.languageName {
+  font-weight: 500;
+}
+
+.chevron {
+  font-size: 1rem;
+  color: var(--text-muted, #666);
+  transition: transform 0.2s ease;
+}
+
+.chevron.open {
+  transform: rotate(180deg);
+}
+
+/* Dropdown */
+.dropdown {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  right: 0;
+  min-width: 200px;
+  background: var(--bg-card, #16162a);
+  border: 1px solid var(--border, #333);
+  border-radius: 0.75rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  overflow: hidden;
+  animation: slideDown 0.2s ease;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.dropdownTitle {
+  display: block;
+  padding: 0.75rem 1rem 0.5rem;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  background: transparent;
+  border: none;
+  color: var(--text-primary, #f5f0e8);
+  cursor: pointer;
+  text-align: left;
+  transition: background-color 0.2s ease;
+  min-height: 48px;
+}
+
+.option:hover {
+  background: var(--bg-hover, rgba(255, 255, 255, 0.05));
+}
+
+.option.selected {
+  background: rgba(212, 165, 116, 0.1);
+}
+
+.optionContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+}
+
+.optionNative {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.optionName {
+  font-size: 0.75rem;
+  color: var(--text-muted, #666);
+}
+
+.checkmark {
+  font-size: 1.25rem;
+  color: var(--accent-gold, #d4a574);
+}
+
+.dropdownFooter {
+  padding: 0.5rem 1rem 0.75rem;
+  border-top: 1px solid var(--border, #333);
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .trigger {
+    padding: 0.5rem;
+  }
+
+  .languageName {
+    display: none;
+  }
+
+  .dropdown {
+    right: -1rem;
+    min-width: 180px;
+  }
+}

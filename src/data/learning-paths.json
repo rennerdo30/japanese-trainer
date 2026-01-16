@@ -1,0 +1,224 @@
+{
+  "paths": {
+    "jlpt-mastery": {
+      "id": "jlpt-mastery",
+      "type": "linear",
+      "name": "JLPT Mastery Path",
+      "description": "Complete structured progression from N5 to N1. Master Japanese systematically through all JLPT levels.",
+      "icon": "graduation",
+      "language": "ja",
+      "estimatedHours": 400,
+      "difficulty": "beginner-to-advanced",
+      "milestones": [
+        {
+          "id": "n5-alphabet",
+          "level": "N5",
+          "name": "Master the Japanese Alphabets",
+          "description": "Learn all Hiragana and Katakana characters",
+          "module": "alphabet",
+          "requirement": { "type": "complete-all" },
+          "estimatedHours": 10
+        },
+        {
+          "id": "n5-vocabulary",
+          "level": "N5",
+          "name": "N5 Vocabulary Foundation",
+          "description": "Learn essential N5 vocabulary (800 words)",
+          "module": "vocabulary",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 20
+        },
+        {
+          "id": "n5-kanji",
+          "level": "N5",
+          "name": "N5 Kanji Basics",
+          "description": "Master 100 essential kanji characters",
+          "module": "kanji",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 15
+        },
+        {
+          "id": "n5-grammar",
+          "level": "N5",
+          "name": "N5 Grammar Patterns",
+          "description": "Learn fundamental grammar structures",
+          "module": "grammar",
+          "requirement": { "type": "complete-all" },
+          "estimatedHours": 15
+        },
+        {
+          "id": "n5-reading",
+          "level": "N5",
+          "name": "N5 Reading Comprehension",
+          "description": "Practice reading simple texts",
+          "module": "reading",
+          "requirement": { "type": "complete-all" },
+          "estimatedHours": 10
+        },
+        {
+          "id": "n4-vocabulary",
+          "level": "N4",
+          "name": "N4 Vocabulary Expansion",
+          "description": "Expand vocabulary to N4 level (1500 words total)",
+          "module": "vocabulary",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 30
+        },
+        {
+          "id": "n4-kanji",
+          "level": "N4",
+          "name": "N4 Kanji Mastery",
+          "description": "Learn 300 kanji characters",
+          "module": "kanji",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 25
+        },
+        {
+          "id": "n4-grammar",
+          "level": "N4",
+          "name": "N4 Grammar Structures",
+          "description": "Master intermediate grammar patterns",
+          "module": "grammar",
+          "requirement": { "type": "complete-all" },
+          "estimatedHours": 20
+        },
+        {
+          "id": "n3-vocabulary",
+          "level": "N3",
+          "name": "N3 Vocabulary Building",
+          "description": "Build vocabulary to N3 level (3500 words)",
+          "module": "vocabulary",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 40
+        },
+        {
+          "id": "n3-kanji",
+          "level": "N3",
+          "name": "N3 Kanji Proficiency",
+          "description": "Master 650 kanji characters",
+          "module": "kanji",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 40
+        },
+        {
+          "id": "n2-vocabulary",
+          "level": "N2",
+          "name": "N2 Advanced Vocabulary",
+          "description": "Master 6000 words for N2 proficiency",
+          "module": "vocabulary",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 60
+        },
+        {
+          "id": "n2-kanji",
+          "level": "N2",
+          "name": "N2 Kanji Excellence",
+          "description": "Master 1000 kanji characters",
+          "module": "kanji",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 50
+        },
+        {
+          "id": "n1-vocabulary",
+          "level": "N1",
+          "name": "N1 Complete Vocabulary",
+          "description": "Master 10000 words for native-level comprehension",
+          "module": "vocabulary",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 80
+        },
+        {
+          "id": "n1-kanji",
+          "level": "N1",
+          "name": "N1 Kanji Mastery",
+          "description": "Master 2000+ kanji characters",
+          "module": "kanji",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 70
+        }
+      ]
+    },
+    "restaurant-japanese": {
+      "id": "restaurant-japanese",
+      "type": "topic",
+      "name": "Restaurant Japanese",
+      "description": "Learn essential vocabulary and phrases for dining out in Japan. Perfect for travelers and food lovers.",
+      "icon": "restaurant",
+      "language": "ja",
+      "estimatedHours": 4,
+      "difficulty": "beginner",
+      "tags": ["food", "travel", "practical"],
+      "items": {
+        "vocabulary": ["vocab-taberu", "vocab-nomu", "vocab-oishii", "vocab-mizu", "vocab-gohan", "vocab-pan", "vocab-niku", "vocab-sakana", "vocab-yasai", "vocab-kudamono", "vocab-ramen", "vocab-sushi", "vocab-tempura", "vocab-udon", "vocab-soba", "vocab-onegaishimasu", "vocab-sumimasen", "vocab-arigatou", "vocab-okaikei", "vocab-menu", "vocab-nomimono", "vocab-dezato", "vocab-osusume", "vocab-kore", "vocab-sore", "vocab-are", "vocab-ikura", "vocab-ocha", "vocab-biiru", "vocab-osake"],
+        "grammar": ["grammar-desu", "grammar-masu", "grammar-kudasai", "grammar-tai", "grammar-ga-arimasu"],
+        "reading": ["reading-restaurant-menu"]
+      }
+    },
+    "travel-essentials": {
+      "id": "travel-essentials",
+      "type": "topic",
+      "name": "Travel Essentials",
+      "description": "Essential phrases for navigating Japan. Covers transportation, directions, hotels, and emergency situations.",
+      "icon": "airplane",
+      "language": "ja",
+      "estimatedHours": 6,
+      "difficulty": "beginner",
+      "tags": ["travel", "practical", "transportation"],
+      "items": {
+        "vocabulary": ["vocab-eki", "vocab-densha", "vocab-basu", "vocab-takushi", "vocab-hikouki", "vocab-kippu", "vocab-migi", "vocab-hidari", "vocab-massugu", "vocab-hoteru", "vocab-heya", "vocab-yoyaku", "vocab-pasupoto", "vocab-nimotsu", "vocab-kuukou", "vocab-annai", "vocab-deguchi", "vocab-iriguchi", "vocab-toire", "vocab-byouin", "vocab-keisatsu", "vocab-tasuketekudasai", "vocab-wakarimasen", "vocab-nihongo", "vocab-eigo", "vocab-chizu", "vocab-denwa", "vocab-jikan", "vocab-ima", "vocab-ashita", "vocab-kinou", "vocab-doko", "vocab-itsu", "vocab-ikura", "vocab-nan", "vocab-dare", "vocab-naze", "vocab-douyatte"],
+        "grammar": ["grammar-wa-desu", "grammar-doko-desu-ka", "grammar-ikitai", "grammar-te-kudasai", "grammar-te-mo-ii-desu-ka", "grammar-nakereba-narimasen", "grammar-kara-made", "grammar-de-ikimasu"],
+        "reading": ["reading-train-announcement", "reading-hotel-info"]
+      }
+    },
+    "business-japanese": {
+      "id": "business-japanese",
+      "type": "topic",
+      "name": "Business Japanese",
+      "description": "Professional Japanese for the workplace. Learn keigo (polite language), business vocabulary, and email etiquette.",
+      "icon": "briefcase",
+      "language": "ja",
+      "estimatedHours": 12,
+      "difficulty": "intermediate",
+      "tags": ["business", "professional", "keigo"],
+      "prerequisites": ["n4-grammar"],
+      "items": {
+        "vocabulary": ["vocab-kaisha", "vocab-shigoto", "vocab-kaigi", "vocab-shiryo", "vocab-meishi", "vocab-denwa", "vocab-meeru", "vocab-yakusoku", "vocab-keiyaku", "vocab-torihiki", "vocab-kyuuryou", "vocab-kyuuka", "vocab-zangyou", "vocab-shucchou", "vocab-buchoo", "vocab-kachoo", "vocab-shachoo", "vocab-douryou", "vocab-joushi", "vocab-buka", "vocab-okyakusama", "vocab-soudan", "vocab-houkoku", "vocab-teian", "vocab-shinkou", "vocab-kettei", "vocab-junbi", "vocab-kakunin", "vocab-taiou", "vocab-renraku", "vocab-henji", "vocab-goyouki", "vocab-otsukaresama", "vocab-yoroshiku", "vocab-shitsurei", "vocab-osewani", "vocab-moushiwake", "vocab-kashikomarimashita", "vocab-shouchi", "vocab-ukagai", "vocab-haiken"],
+        "grammar": ["grammar-keigo-masu", "grammar-keigo-desu", "grammar-humble-itasu", "grammar-honorific-nasaru", "grammar-te-itadakemasu-ka", "grammar-sasete-itadakimasu", "grammar-to-moushimasu", "grammar-gozaimasu", "grammar-de-gozaimasu", "grammar-irasshaimasu"],
+        "reading": ["reading-business-email", "reading-meeting-minutes"]
+      }
+    },
+    "daily-conversation": {
+      "id": "daily-conversation",
+      "type": "topic",
+      "name": "Daily Conversation",
+      "description": "Everyday Japanese for casual conversations. Learn to introduce yourself, talk about hobbies, and make friends.",
+      "icon": "chat",
+      "language": "ja",
+      "estimatedHours": 8,
+      "difficulty": "beginner",
+      "tags": ["conversation", "casual", "social"],
+      "items": {
+        "vocabulary": ["vocab-watashi", "vocab-anata", "vocab-namae", "vocab-shumi", "vocab-suki", "vocab-kirai", "vocab-tomodachi", "vocab-kazoku", "vocab-uchi", "vocab-gakkou", "vocab-daigaku", "vocab-sensei", "vocab-gakusei", "vocab-shigoto", "vocab-tanoshii", "vocab-omoshiroi", "vocab-tsumaranai", "vocab-muzukashii", "vocab-kantan", "vocab-isogashii", "vocab-hima", "vocab-genki", "vocab-byouki", "vocab-tsukareru", "vocab-neru", "vocab-okiru", "vocab-taberu", "vocab-nomu", "vocab-iku", "vocab-kuru", "vocab-kaeru", "vocab-miru", "vocab-kiku", "vocab-hanasu", "vocab-yomu", "vocab-kaku", "vocab-benkyou", "vocab-undou", "vocab-ryokou", "vocab-eiga", "vocab-ongaku", "vocab-hon", "vocab-geemu", "vocab-supotsu", "vocab-ryouri", "vocab-kaimono", "vocab-sanpo", "vocab-tenki", "vocab-atsui", "vocab-samui", "vocab-ame", "vocab-hare", "vocab-kyou", "vocab-ashita", "vocab-kinou", "vocab-mainichi", "vocab-maishuu", "vocab-maitsuki"],
+        "grammar": ["grammar-desu", "grammar-masu", "grammar-tai", "grammar-suki-desu", "grammar-ga-dekiru", "grammar-koto-ga-aru", "grammar-toki", "grammar-kara", "grammar-node", "grammar-ga", "grammar-demo", "grammar-kedo", "grammar-shi", "grammar-te-form", "grammar-te-iru"],
+        "reading": ["reading-self-introduction", "reading-daily-life"]
+      }
+    },
+    "anime-manga": {
+      "id": "anime-manga",
+      "type": "topic",
+      "name": "Anime & Manga Japanese",
+      "description": "Learn the Japanese commonly used in anime and manga. Includes casual speech, expressions, and character archetypes.",
+      "icon": "tv",
+      "language": "ja",
+      "estimatedHours": 10,
+      "difficulty": "intermediate",
+      "tags": ["entertainment", "casual", "pop-culture"],
+      "items": {
+        "vocabulary": ["vocab-sugoi", "vocab-kawaii", "vocab-kakkoii", "vocab-yabai", "vocab-maji", "vocab-chou", "vocab-meccha", "vocab-uso", "vocab-hontou", "vocab-yatta", "vocab-nani", "vocab-baka", "vocab-urusai", "vocab-daijoubu", "vocab-ganbatte", "vocab-yuuki", "vocab-chikara", "vocab-mahou", "vocab-tatakai", "vocab-shouri", "vocab-haiboku", "vocab-nakama", "vocab-teki", "vocab-sekai", "vocab-unmei", "vocab-yume", "vocab-kibou", "vocab-ai", "vocab-seigi", "vocab-akuma", "vocab-tenshi", "vocab-yuusha", "vocab-maou", "vocab-hime", "vocab-ouji", "vocab-senshi", "vocab-ninja", "vocab-samurai", "vocab-ronin", "vocab-kiseki", "vocab-densetsu", "vocab-himitsu", "vocab-yakusoku", "vocab-kizuna", "vocab-omoi", "vocab-kokoro", "vocab-tamashii", "vocab-inochi", "vocab-shi", "vocab-ikiru", "vocab-tatakau", "vocab-mamoru", "vocab-tasukeru", "vocab-shiinjau", "vocab-akirameru", "vocab-shinjiru", "vocab-norikoeru", "vocab-kawaiku", "vocab-tsuyoku", "vocab-hayaku", "vocab-motto", "vocab-zettai", "vocab-kesshite", "vocab-kitto", "vocab-tabun", "vocab-ore", "vocab-boku", "vocab-kimi", "vocab-omae", "vocab-aitsu", "vocab-koitsu"],
+        "grammar": ["grammar-casual-da", "grammar-jan", "grammar-tte", "grammar-nda", "grammar-no-ka", "grammar-zo", "grammar-ze", "grammar-wa-feminine", "grammar-kashira", "grammar-deshou", "grammar-darou", "grammar-mitai"],
+        "reading": ["reading-manga-dialogue", "reading-anime-synopsis"]
+      }
+    }
+  },
+  "pathOrder": ["jlpt-mastery", "restaurant-japanese", "travel-essentials", "business-japanese", "daily-conversation", "anime-manga"]
+}

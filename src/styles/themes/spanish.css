@@ -1,0 +1,39 @@
+/* Spanish Theme - "Sol y Sombra" */
+/* Vibrant Mediterranean energy - sun-baked terracotta, flamenco passion, Gaudi mosaics */
+
+html[data-theme="es"] {
+  /* Colors - Warm sunset over Barcelona, Andalusian tiles */
+  --bg-primary: #1f0f05;
+  --bg-secondary: #2d1a0a;
+  --bg-card: #3a2010;
+  --bg-glass: rgba(58, 32, 16, 0.85);
+  --text-primary: #fff4e0;
+  --text-secondary: #e8c9a0;
+  --text-muted: #a08060;
+  --accent-primary: #ff6b35;
+  --accent-secondary: #ffd23f;
+  --accent-red: #dc2f02;
+  --accent-red-glow: rgba(220, 47, 2, 0.4);
+  --accent-red-light: #ff8c61;
+  --accent-gold: #ffd23f;
+  --accent-gold-dim: rgba(255, 210, 63, 0.2);
+  --success: #06d6a0;
+  --success-glow: rgba(6, 214, 160, 0.3);
+  --border-subtle: rgba(255, 210, 63, 0.12);
+  --glass-border: rgba(255, 107, 53, 0.2);
+  --shadow-deep: 0 25px 50px -12px rgba(31, 15, 5, 0.7);
+
+  /* Typography - Bold, expressive */
+  --font-primary: 'Playfair Display', Georgia, serif;
+  --font-secondary: 'Source Sans Pro', sans-serif;
+
+  /* Atmospheric gradient - Sunset over Mediterranean */
+  --gradient-atmosphere:
+    radial-gradient(ellipse 100% 60% at 30% -10%, rgba(255, 107, 53, 0.2), transparent),
+    radial-gradient(ellipse 80% 50% at 90% 110%, rgba(255, 210, 63, 0.15), transparent),
+    radial-gradient(circle at 50% 50%, rgba(220, 47, 2, 0.05), transparent);
+}
+
+html[data-theme="es"] body {
+  font-family: var(--font-primary);
+}

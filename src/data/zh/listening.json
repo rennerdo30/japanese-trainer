@@ -1,0 +1,393 @@
+[
+  {
+    "id": "zh_listening_1",
+    "title": "打招呼 - Greetings",
+    "text": "你好！很高兴认识你。我叫王明。你叫什么名字？",
+    "pinyin": "Nǐ hǎo! Hěn gāoxìng rènshi nǐ. Wǒ jiào Wáng Míng. Nǐ jiào shénme míngzi?",
+    "translation": "Hello! Nice to meet you. My name is Wang Ming. What is your name?",
+    "transcript": "你好！很高兴认识你。我叫王明。你叫什么名字？",
+    "level": "hsk1",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "What is the speaker's name?",
+        "options": ["李明", "王明", "张明", "刘明"],
+        "correct": 1
+      },
+      {
+        "question": "What is the speaker asking?",
+        "options": ["How are you?", "Where are you from?", "What is your name?", "How old are you?"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "zh_listening_2",
+    "title": "问路 - Asking for Directions",
+    "text": "请问，图书馆在哪儿？一直走，然后左转。图书馆在银行旁边。谢谢！不客气。",
+    "pinyin": "Qǐngwèn, túshūguǎn zài nǎr? Yìzhí zǒu, ránhòu zuǒ zhuǎn. Túshūguǎn zài yínháng pángbiān. Xièxie! Bú kèqi.",
+    "translation": "Excuse me, where is the library? Go straight, then turn left. The library is next to the bank. Thank you! You're welcome.",
+    "transcript": "请问，图书馆在哪儿？一直走，然后左转。图书馆在银行旁边。谢谢！不客气。",
+    "level": "hsk1",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "What place is the person looking for?",
+        "options": ["Bank", "Hospital", "Library", "School"],
+        "correct": 2
+      },
+      {
+        "question": "Which direction should they turn?",
+        "options": ["Right", "Left", "Straight", "Back"],
+        "correct": 1
+      },
+      {
+        "question": "What is next to the library?",
+        "options": ["A school", "A hospital", "A restaurant", "A bank"],
+        "correct": 3
+      }
+    ]
+  },
+  {
+    "id": "zh_listening_3",
+    "title": "买东西 - Shopping",
+    "text": "欢迎光临！这件衣服多少钱？这件一百五十块。有没有便宜一点的？这件八十块，怎么样？好的，我买这件。",
+    "pinyin": "Huānyíng guānglín! Zhè jiàn yīfu duōshao qián? Zhè jiàn yìbǎi wǔshí kuài. Yǒu méiyǒu piányi yìdiǎn de? Zhè jiàn bāshí kuài, zěnmeyàng? Hǎo de, wǒ mǎi zhè jiàn.",
+    "translation": "Welcome! How much is this piece of clothing? This one is 150 yuan. Is there something cheaper? This one is 80 yuan, how about it? Okay, I'll buy this one.",
+    "transcript": "欢迎光临！这件衣服多少钱？这件一百五十块。有没有便宜一点的？这件八十块，怎么样？好的，我买这件。",
+    "level": "hsk1",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "How much is the first piece of clothing?",
+        "options": ["80 yuan", "100 yuan", "150 yuan", "200 yuan"],
+        "correct": 2
+      },
+      {
+        "question": "What does the customer ask for?",
+        "options": ["A bigger size", "Something cheaper", "A different color", "Something more expensive"],
+        "correct": 1
+      },
+      {
+        "question": "How much does the customer pay?",
+        "options": ["50 yuan", "80 yuan", "100 yuan", "150 yuan"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "zh_listening_4",
+    "title": "打电话 - Making a Phone Call",
+    "text": "喂，你好！是小王吗？是的，我是小王。请问您是哪位？我是李老师。小王，明天的会议改到下午三点了，你知道吗？好的，我知道了。谢谢您告诉我。不客气，明天见！",
+    "pinyin": "Wèi, nǐ hǎo! Shì Xiǎo Wáng ma? Shì de, wǒ shì Xiǎo Wáng. Qǐngwèn nín shì nǎ wèi? Wǒ shì Lǐ lǎoshī. Xiǎo Wáng, míngtiān de huìyì gǎi dào xiàwǔ sān diǎn le, nǐ zhīdào ma? Hǎo de, wǒ zhīdào le. Xièxie nín gàosu wǒ. Bú kèqi, míngtiān jiàn!",
+    "translation": "Hello! Is this Xiao Wang? Yes, I am Xiao Wang. May I ask who's calling? I'm Teacher Li. Xiao Wang, tomorrow's meeting has been changed to 3 PM, did you know? Okay, I understand. Thank you for telling me. You're welcome, see you tomorrow!",
+    "transcript": "喂，你好！是小王吗？是的，我是小王。请问您是哪位？我是李老师。小王，明天的会议改到下午三点了，你知道吗？好的，我知道了。谢谢您告诉我。不客气，明天见！",
+    "level": "hsk2",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "Who is making the call?",
+        "options": ["Xiao Wang", "Teacher Li", "Xiao Li", "Teacher Wang"],
+        "correct": 1
+      },
+      {
+        "question": "What time is the meeting changed to?",
+        "options": ["2 PM", "3 PM", "4 PM", "5 PM"],
+        "correct": 1
+      },
+      {
+        "question": "When is the meeting?",
+        "options": ["Today", "Tomorrow", "Next week", "Next month"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "zh_listening_5",
+    "title": "看医生 - Seeing a Doctor",
+    "text": "医生，我头疼，还有点发烧。你发烧几天了？两天了。我给你检查一下。嗯，你感冒了，不太严重。我给你开点药，每天吃三次，吃三天就会好。好的，谢谢医生。多喝水，多休息。好的，再见。",
+    "pinyin": "Yīshēng, wǒ tóu téng, háiyǒu diǎn fāshāo. Nǐ fāshāo jǐ tiān le? Liǎng tiān le. Wǒ gěi nǐ jiǎnchá yíxià. Ńg, nǐ gǎnmào le, bú tài yánzhòng. Wǒ gěi nǐ kāi diǎn yào, měi tiān chī sān cì, chī sān tiān jiù huì hǎo. Hǎo de, xièxie yīshēng. Duō hē shuǐ, duō xiūxi. Hǎo de, zàijiàn.",
+    "translation": "Doctor, I have a headache and a slight fever. How many days have you had a fever? Two days. Let me examine you. Well, you have a cold, it's not too serious. I'll prescribe some medicine for you. Take it three times a day for three days and you'll get better. Okay, thank you doctor. Drink more water and rest more. Okay, goodbye.",
+    "transcript": "医生，我头疼，还有点发烧。你发烧几天了？两天了。我给你检查一下。嗯，你感冒了，不太严重。我给你开点药，每天吃三次，吃三天就会好。好的，谢谢医生。多喝水，多休息。好的，再见。",
+    "level": "hsk2",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "What symptoms does the patient have?",
+        "options": ["Stomach ache", "Headache and fever", "Cough", "Sore throat"],
+        "correct": 1
+      },
+      {
+        "question": "How long has the patient had a fever?",
+        "options": ["One day", "Two days", "Three days", "A week"],
+        "correct": 1
+      },
+      {
+        "question": "How many times a day should the patient take the medicine?",
+        "options": ["Once", "Twice", "Three times", "Four times"],
+        "correct": 2
+      },
+      {
+        "question": "What advice does the doctor give?",
+        "options": ["Exercise more", "Eat more", "Drink water and rest", "Go to work"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "zh_listening_6",
+    "title": "新闻访谈 - News Interview",
+    "text": "记者：李教授，您好。据了解，您最近完成了一项关于空气污染的研究。能给我们介绍一下吗？李教授：好的。我们的研究发现，城市空气污染主要来源于交通和工业排放。近年来，虽然政府采取了一些措施，但空气质量仍然不太理想。记者：那么，您认为应该怎么解决这个问题呢？李教授：首先，要大力发展公共交通，减少私家车的使用。其次，工厂要使用清洁能源，减少污染排放。另外，每个市民也应该从自身做起，多骑自行车或步行。记者：谢谢您的分享。",
+    "pinyin": "Jìzhě: Lǐ jiàoshòu, nín hǎo. Jù liǎojiě, nín zuìjìn wánchéng le yí xiàng guānyú kōngqì wūrǎn de yánjiū. Néng gěi wǒmen jièshào yíxià ma? Lǐ jiàoshòu: Hǎo de. Wǒmen de yánjiū fāxiàn, chéngshì kōngqì wūrǎn zhǔyào láiyuán yú jiāotōng hé gōngyè páifàng. Jìnnián lái, suīrán zhèngfǔ cǎiqǔ le yìxiē cuòshī, dàn kōngqì zhìliàng réngrán bú tài lǐxiǎng. Jìzhě: Nàme, nín rènwéi yīnggāi zěnme jiějué zhège wèntí ne? Lǐ jiàoshòu: Shǒuxiān, yào dàlì fāzhǎn gōnggòng jiāotōng, jiǎnshǎo sījiā chē de shǐyòng. Qícì, gōngchǎng yào shǐyòng qīngjié néngyuán, jiǎnshǎo wūrǎn páifàng. Lìngwài, měi gè shìmín yě yīnggāi cóng zìshēn zuòqǐ, duō qí zìxíngchē huò bùxíng. Jìzhě: Xièxie nín de fēnxiǎng.",
+    "translation": "Reporter: Professor Li, hello. I understand you recently completed a study on air pollution. Can you tell us about it? Professor Li: Sure. Our research found that urban air pollution mainly comes from traffic and industrial emissions. In recent years, although the government has taken some measures, air quality is still not ideal. Reporter: So, how do you think this problem should be solved? Professor Li: First, we need to vigorously develop public transportation and reduce the use of private cars. Second, factories should use clean energy and reduce pollution emissions. Additionally, every citizen should start with themselves, cycling or walking more. Reporter: Thank you for sharing.",
+    "transcript": "记者：李教授，您好。据了解，您最近完成了一项关于空气污染的研究。能给我们介绍一下吗？李教授：好的。我们的研究发现，城市空气污染主要来源于交通和工业排放。近年来，虽然政府采取了一些措施，但空气质量仍然不太理想。记者：那么，您认为应该怎么解决这个问题呢？李教授：首先，要大力发展公共交通，减少私家车的使用。其次，工厂要使用清洁能源，减少污染排放。另外，每个市民也应该从自身做起，多骑自行车或步行。记者：谢谢您的分享。",
+    "level": "hsk3",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "What is Professor Li's research about?",
+        "options": ["Water pollution", "Air pollution", "Noise pollution", "Light pollution"],
+        "correct": 1
+      },
+      {
+        "question": "What are the main sources of urban air pollution?",
+        "options": ["Agriculture and fishing", "Traffic and industrial emissions", "Tourism and entertainment", "Education and healthcare"],
+        "correct": 1
+      },
+      {
+        "question": "What does Professor Li suggest for factories?",
+        "options": ["Close all factories", "Use clean energy", "Move to rural areas", "Increase production"],
+        "correct": 1
+      },
+      {
+        "question": "What can citizens do according to Professor Li?",
+        "options": ["Buy more cars", "Cycle or walk more", "Stay at home", "Use more electricity"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "zh_listening_7",
+    "title": "旅行计划 - Travel Planning",
+    "text": "小王：小李，国庆节你有什么计划吗？小李：我打算和家人去云南旅游。听说那里风景很美，还有很多少数民族文化可以体验。小王：云南确实不错！你们打算怎么去？小李：我们先坐飞机到昆明，然后租车自驾游。这样比较自由，可以随时停下来欣赏风景。小王：那你们准备去几天？小李：大概一周吧。计划去昆明、大理、丽江这几个地方。小王：听起来很棒！记得多拍些照片。小李：一定！你呢，有什么打算？小王：我打算在家休息，顺便陪陪父母。小李：那也很好，难得有时间陪家人。",
+    "pinyin": "Xiǎo Wáng: Xiǎo Lǐ, guóqìng jié nǐ yǒu shénme jìhuà ma? Xiǎo Lǐ: Wǒ dǎsuàn hé jiārén qù Yúnnán lǚyóu. Tīngshuō nàlǐ fēngjǐng hěn měi, hái yǒu hěn duō shǎoshù mínzú wénhuà kěyǐ tǐyàn. Xiǎo Wáng: Yúnnán quèshí búcuò! Nǐmen dǎsuàn zěnme qù? Xiǎo Lǐ: Wǒmen xiān zuò fēijī dào Kūnmíng, ránhòu zūchē zìjià yóu. Zhèyàng bǐjiào zìyóu, kěyǐ suíshí tíng xiàlái xīnshǎng fēngjǐng. Xiǎo Wáng: Nà nǐmen zhǔnbèi qù jǐ tiān? Xiǎo Lǐ: Dàgài yì zhōu ba. Jìhuà qù Kūnmíng, Dàlǐ, Lìjiāng zhè jǐ gè dìfang. Xiǎo Wáng: Tīng qǐlái hěn bàng! Jìde duō pāi xiē zhàopiàn. Xiǎo Lǐ: Yídìng! Nǐ ne, yǒu shénme dǎsuàn? Xiǎo Wáng: Wǒ dǎsuàn zài jiā xiūxi, shùnbiàn péipei fùmǔ. Xiǎo Lǐ: Nà yě hěn hǎo, nándé yǒu shíjiān péi jiārén.",
+    "translation": "Xiao Wang: Xiao Li, do you have any plans for National Day? Xiao Li: I plan to travel to Yunnan with my family. I heard the scenery there is beautiful, and there are many ethnic minority cultures to experience. Xiao Wang: Yunnan is really nice! How do you plan to get there? Xiao Li: We'll first fly to Kunming, then rent a car for a road trip. It's more flexible, and we can stop anytime to enjoy the scenery. Xiao Wang: How many days are you planning to go? Xiao Li: About a week. We plan to visit Kunming, Dali, and Lijiang. Xiao Wang: Sounds great! Remember to take lots of photos. Xiao Li: Definitely! What about you, any plans? Xiao Wang: I plan to rest at home and spend some time with my parents. Xiao Li: That's also good, it's rare to have time with family.",
+    "transcript": "小王：小李，国庆节你有什么计划吗？小李：我打算和家人去云南旅游。听说那里风景很美，还有很多少数民族文化可以体验。小王：云南确实不错！你们打算怎么去？小李：我们先坐飞机到昆明，然后租车自驾游。这样比较自由，可以随时停下来欣赏风景。小王：那你们准备去几天？小李：大概一周吧。计划去昆明、大理、丽江这几个地方。小王：听起来很棒！记得多拍些照片。小李：一定！你呢，有什么打算？小王：我打算在家休息，顺便陪陪父母。小李：那也很好，难得有时间陪家人。",
+    "level": "hsk3",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "Where does Xiao Li plan to travel?",
+        "options": ["Beijing", "Shanghai", "Yunnan", "Guangzhou"],
+        "correct": 2
+      },
+      {
+        "question": "How will they travel from Kunming?",
+        "options": ["By train", "By bus", "By renting a car", "By walking"],
+        "correct": 2
+      },
+      {
+        "question": "How long is the trip planned for?",
+        "options": ["Three days", "Five days", "One week", "Two weeks"],
+        "correct": 2
+      },
+      {
+        "question": "What does Xiao Wang plan to do?",
+        "options": ["Travel abroad", "Work overtime", "Rest at home and spend time with parents", "Go shopping"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "zh_listening_8",
+    "title": "公司会议辩论 - Company Meeting Debate",
+    "text": "主持人：今天我们讨论是否应该实行弹性工作制。请正反双方发表意见。张经理：我支持弹性工作制。首先，员工可以根据自己的情况安排工作时间，这能提高工作效率和满意度。其次，减少高峰期通勤，也有利于环保。李经理：我有不同看法。弹性工作制会导致团队协作困难，因为大家工作时间不统一，沟通成本会增加。另外，某些岗位需要固定时间在岗，比如客户服务部门。张经理：这个问题可以通过设定核心工作时间来解决，比如上午十点到下午四点必须在岗。李经理：即使这样，管理难度也会增加。我认为应该先在部分部门试行，看效果再决定是否全面推广。主持人：好的，感谢两位的意见，我们会综合考虑。",
+    "pinyin": "Zhǔchírén: Jīntiān wǒmen tǎolùn shìfǒu yīnggāi shíxíng tánxìng gōngzuòzhì. Qǐng zhèng fǎn shuāngfāng fābiǎo yìjiàn. Zhāng jīnglǐ: Wǒ zhīchí tánxìng gōngzuòzhì. Shǒuxiān, yuángōng kěyǐ gēnjù zìjǐ de qíngkuàng ānpái gōngzuò shíjiān, zhè néng tígāo gōngzuò xiàolǜ hé mǎnyìdù. Qícì, jiǎnshǎo gāofēngqī tōngqín, yě yǒulì yú huánbǎo. Lǐ jīnglǐ: Wǒ yǒu bùtóng kànfǎ. Tánxìng gōngzuòzhì huì dǎozhì tuánduì xiézuò kùnnan, yīnwèi dàjiā gōngzuò shíjiān bù tǒngyī, gōutōng chéngběn huì zēngjiā. Lìngwài, mǒuxiē gǎngwèi xūyào gùdìng shíjiān zàigǎng, bǐrú kèhù fúwù bùmén. Zhāng jīnglǐ: Zhège wèntí kěyǐ tōngguò shèdìng héxīn gōngzuò shíjiān lái jiějué, bǐrú shàngwǔ shí diǎn dào xiàwǔ sì diǎn bìxū zàigǎng. Lǐ jīnglǐ: Jíshǐ zhèyàng, guǎnlǐ nándù yě huì zēngjiā. Wǒ rènwéi yīnggāi xiān zài bùfèn bùmén shìxíng, kàn xiàoguǒ zài juédìng shìfǒu quánmiàn tuīguǎng. Zhǔchírén: Hǎo de, gǎnxiè liǎng wèi de yìjiàn, wǒmen huì zōnghé kǎolǜ.",
+    "translation": "Host: Today we're discussing whether we should implement flexible working hours. Please share your opinions from both sides. Manager Zhang: I support flexible working hours. First, employees can arrange their work time according to their own situations, which improves efficiency and satisfaction. Second, reducing peak-hour commuting is also good for the environment. Manager Li: I have a different view. Flexible working hours will make team collaboration difficult because everyone's working hours aren't unified, and communication costs will increase. Also, certain positions require fixed hours, like customer service departments. Manager Zhang: This can be solved by setting core working hours, like being required to be present from 10 AM to 4 PM. Manager Li: Even so, management difficulty will increase. I think we should first pilot it in some departments and decide whether to fully implement it based on the results. Host: Okay, thank you both for your opinions. We will consider comprehensively.",
+    "transcript": "主持人：今天我们讨论是否应该实行弹性工作制。请正反双方发表意见。张经理：我支持弹性工作制。首先，员工可以根据自己的情况安排工作时间，这能提高工作效率和满意度。其次，减少高峰期通勤，也有利于环保。李经理：我有不同看法。弹性工作制会导致团队协作困难，因为大家工作时间不统一，沟通成本会增加。另外，某些岗位需要固定时间在岗，比如客户服务部门。张经理：这个问题可以通过设定核心工作时间来解决，比如上午十点到下午四点必须在岗。李经理：即使这样，管理难度也会增加。我认为应该先在部分部门试行，看效果再决定是否全面推广。主持人：好的，感谢两位的意见，我们会综合考虑。",
+    "level": "hsk4",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "What is the meeting topic?",
+        "options": ["Salary increase", "Flexible working hours", "Office relocation", "New project launch"],
+        "correct": 1
+      },
+      {
+        "question": "What benefit does Manager Zhang mention for flexible work?",
+        "options": ["Higher salary", "Improved efficiency and satisfaction", "More vacation days", "Better food"],
+        "correct": 1
+      },
+      {
+        "question": "What concern does Manager Li raise?",
+        "options": ["Cost too high", "Team collaboration difficulties", "Employees will be lazy", "Legal issues"],
+        "correct": 1
+      },
+      {
+        "question": "What does Manager Li suggest?",
+        "options": ["Reject the proposal completely", "Implement it company-wide immediately", "Pilot it in some departments first", "Let employees decide individually"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "zh_listening_9",
+    "title": "大学讲座 - University Lecture",
+    "text": "各位同学，大家好。今天我想和大家分享的主题是：如何在大学期间有效地规划自己的职业发展。首先，要明确自己的兴趣和优势。很多同学入学时对未来很迷茫，这很正常。建议大家多参加不同类型的活动，通过实践来发现自己真正感兴趣的领域。其次，要注重积累实践经验。课本知识固然重要，但企业更看重实际能力。利用假期参加实习，或者参与一些项目，这些经历会让你的简历更有竞争力。第三，建立人脉网络。参加社团活动、行业讲座，多和学长学姐交流，他们的经验对你非常有价值。最后，保持学习的心态。当今社会变化很快，只有不断学习，才能在职场中立于不败之地。希望今天的分享对大家有所帮助。",
+    "pinyin": "Gèwèi tóngxué, dàjiā hǎo. Jīntiān wǒ xiǎng hé dàjiā fēnxiǎng de zhǔtí shì: rúhé zài dàxué qījiān yǒuxiào de guīhuà zìjǐ de zhíyè fāzhǎn. Shǒuxiān, yào míngquè zìjǐ de xìngqù hé yōushì. Hěn duō tóngxué rùxué shí duì wèilái hěn mímáng, zhè hěn zhèngcháng. Jiànyì dàjiā duō cānjiā bùtóng lèixíng de huódòng, tōngguò shíjiàn lái fāxiàn zìjǐ zhēnzhèng gǎn xìngqù de lǐngyù. Qícì, yào zhùzhòng jīlěi shíjiàn jīngyàn. Kèběn zhīshi gùrán zhòngyào, dàn qǐyè gèng kànzhòng shíjì nénglì. Lìyòng jiàqī cānjiā shíxí, huòzhě cānyù yìxiē xiàngmù, zhèxiē jīnglì huì ràng nǐ de jiǎnlì gèng yǒu jìngzhēnglì. Dìsān, jiànlì rénmài wǎngluò. Cānjiā shètuán huódòng, hángyè jiǎngzuò, duō hé xuézhǎng xuéjiě jiāoliú, tāmen de jīngyàn duì nǐ fēicháng yǒu jiàzhí. Zuìhòu, bǎochí xuéxí de xīntài. Dāngjīn shèhuì biànhuà hěn kuài, zhǐyǒu bùduàn xuéxí, cái néng zài zhíchǎng zhōng lìyú bùbài zhīdì. Xīwàng jīntiān de fēnxiǎng duì dàjiā yǒusuǒ bāngzhù.",
+    "translation": "Hello everyone. Today I want to share with you the topic: how to effectively plan your career development during university. First, clarify your interests and strengths. Many students are confused about the future when they enter university, which is normal. I suggest participating in different types of activities to discover what you're truly interested in through practice. Second, focus on accumulating practical experience. Textbook knowledge is important, but companies value practical abilities more. Use vacations for internships or participate in projects; these experiences will make your resume more competitive. Third, build your network. Join club activities, industry lectures, and communicate more with senior students; their experience is very valuable to you. Finally, maintain a learning mindset. Today's society changes rapidly; only by continuous learning can you remain competitive in the workplace. I hope today's sharing is helpful to everyone.",
+    "transcript": "各位同学，大家好。今天我想和大家分享的主题是：如何在大学期间有效地规划自己的职业发展。首先，要明确自己的兴趣和优势。很多同学入学时对未来很迷茫，这很正常。建议大家多参加不同类型的活动，通过实践来发现自己真正感兴趣的领域。其次，要注重积累实践经验。课本知识固然重要，但企业更看重实际能力。利用假期参加实习，或者参与一些项目，这些经历会让你的简历更有竞争力。第三，建立人脉网络。参加社团活动、行业讲座，多和学长学姐交流，他们的经验对你非常有价值。最后，保持学习的心态。当今社会变化很快，只有不断学习，才能在职场中立于不败之地。希望今天的分享对大家有所帮助。",
+    "level": "hsk4",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "What is the lecture topic?",
+        "options": ["How to study for exams", "Career planning in university", "How to make friends", "How to save money"],
+        "correct": 1
+      },
+      {
+        "question": "What is the first advice given?",
+        "options": ["Find a job immediately", "Clarify your interests and strengths", "Study hard every day", "Make a lot of money"],
+        "correct": 1
+      },
+      {
+        "question": "What do companies value more according to the speaker?",
+        "options": ["High grades", "Practical abilities", "Family background", "Good appearance"],
+        "correct": 1
+      },
+      {
+        "question": "Why should students communicate with senior students?",
+        "options": ["To copy their homework", "Because their experience is valuable", "To borrow money", "To find a partner"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "zh_listening_10",
+    "title": "商业谈判 - Business Negotiation",
+    "text": "王总：李总，感谢您抽出时间来讨论这次合作。我们对贵公司的产品非常感兴趣。李总：谢谢。我们也很期待与贵公司建立长期合作关系。王总：我看了你们的报价，坦率地说，价格比我们预期的要高一些。市场上有些竞争对手的报价更有竞争力。李总：我理解您的顾虑。但是，我们的产品质量是业内最好的，而且我们提供三年质保。长期来看，这实际上是更划算的选择。王总：这一点我认同。不过，如果我们签订三年的合同并且订购量达到五千台，你们能提供什么样的折扣？李总：如果是这样的话，我们可以提供百分之十五的折扣，并且免费提供技术培训。王总：这个条件比较有吸引力。我们需要回去和团队讨论一下，下周给您答复，可以吗？李总：当然，期待您的好消息。",
+    "pinyin": "Wáng zǒng: Lǐ zǒng, gǎnxiè nín chōuchū shíjiān lái tǎolùn zhè cì hézuò. Wǒmen duì guì gōngsī de chǎnpǐn fēicháng gǎn xìngqù. Lǐ zǒng: Xièxie. Wǒmen yě hěn qīdài yǔ guì gōngsī jiànlì chángqī hézuò guānxì. Wáng zǒng: Wǒ kàn le nǐmen de bàojià, tǎnlǜ de shuō, jiàgé bǐ wǒmen yùqī de yào gāo yìxiē. Shìchǎng shàng yǒuxiē jìngzhēng duìshǒu de bàojià gèng yǒu jìngzhēnglì. Lǐ zǒng: Wǒ lǐjiě nín de gùlǜ. Dànshì, wǒmen de chǎnpǐn zhìliàng shì yènèi zuì hǎo de, érqiě wǒmen tígōng sān nián zhìbǎo. Chángqī lái kàn, zhè shíjì shàng shì gèng huásuàn de xuǎnzé. Wáng zǒng: Zhè yìdiǎn wǒ rèntóng. Bùguò, rúguǒ wǒmen qiāndìng sān nián de hétong bìngqiě dìnggòu liàng dádào wǔqiān tái, nǐmen néng tígōng shénme yàng de zhékòu? Lǐ zǒng: Rúguǒ shì zhèyàng de huà, wǒmen kěyǐ tígōng bǎifēnzhīshíwǔ de zhékòu, bìngqiě miǎnfèi tígōng jìshù péixùn. Wáng zǒng: Zhège tiáojiàn bǐjiào yǒu xīyǐnlì. Wǒmen xūyào huíqù hé tuánduì tǎolùn yíxià, xià zhōu gěi nín dáfù, kěyǐ ma? Lǐ zǒng: Dāngrán, qīdài nín de hǎo xiāoxi.",
+    "translation": "President Wang: President Li, thank you for taking the time to discuss this cooperation. We are very interested in your company's products. President Li: Thank you. We also look forward to establishing a long-term partnership with your company. President Wang: I've seen your quote, and frankly speaking, the price is higher than we expected. Some competitors in the market have more competitive quotes. President Li: I understand your concerns. However, our product quality is the best in the industry, and we provide a three-year warranty. In the long run, this is actually a more cost-effective choice. President Wang: I agree with that point. However, if we sign a three-year contract and the order quantity reaches 5,000 units, what kind of discount can you offer? President Li: In that case, we can offer a 15% discount and provide free technical training. President Wang: These terms are quite attractive. We need to go back and discuss with the team. Can we get back to you next week? President Li: Of course, looking forward to your good news.",
+    "transcript": "王总：李总，感谢您抽出时间来讨论这次合作。我们对贵公司的产品非常感兴趣。李总：谢谢。我们也很期待与贵公司建立长期合作关系。王总：我看了你们的报价，坦率地说，价格比我们预期的要高一些。市场上有些竞争对手的报价更有竞争力。李总：我理解您的顾虑。但是，我们的产品质量是业内最好的，而且我们提供三年质保。长期来看，这实际上是更划算的选择。王总：这一点我认同。不过，如果我们签订三年的合同并且订购量达到五千台，你们能提供什么样的折扣？李总：如果是这样的话，我们可以提供百分之十五的折扣，并且免费提供技术培训。王总：这个条件比较有吸引力。我们需要回去和团队讨论一下，下周给您答复，可以吗？李总：当然，期待您的好消息。",
+    "level": "hsk5",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "What is President Wang's concern about the quote?",
+        "options": ["Quality too low", "Price higher than expected", "Delivery too slow", "Product too complicated"],
+        "correct": 1
+      },
+      {
+        "question": "What advantage does President Li mention about their product?",
+        "options": ["Cheapest in market", "Best quality with 3-year warranty", "Fastest delivery", "Most popular brand"],
+        "correct": 1
+      },
+      {
+        "question": "What discount is offered for 5,000 units and a 3-year contract?",
+        "options": ["10%", "15%", "20%", "25%"],
+        "correct": 1
+      },
+      {
+        "question": "When will President Wang give a response?",
+        "options": ["Tomorrow", "In three days", "Next week", "Next month"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "zh_listening_11",
+    "title": "经济形势分析 - Economic Situation Analysis",
+    "text": "主持人：欢迎收听今日经济评论。今天我们邀请到了著名经济学家陈教授，为我们解读当前的经济形势。陈教授，您好！陈教授：主持人好，听众朋友们好。主持人：近期全球经济波动较大，您如何看待当前的形势？陈教授：确实，受多重因素影响，全球经济正面临前所未有的挑战。首先，地缘政治紧张局势导致能源价格上涨，推高了生产成本。其次，全球供应链仍未完全恢复，某些关键零部件短缺问题依然严峻。不过，我们也看到一些积极信号：消费市场逐步回暖，数字经济和绿色产业展现出强劲增长势头。主持人：对于普通投资者，您有什么建议？陈教授：在当前环境下，建议保持谨慎态度，分散投资风险。长期来看，科技创新和可持续发展领域值得关注。但最重要的是，要根据自身情况做出理性决策，不要盲目跟风。",
+    "pinyin": "Zhǔchírén: Huānyíng shōutīng jīnrì jīngjì pínglùn. Jīntiān wǒmen yāoqǐng dào le zhùmíng jīngjìxuéjiā Chén jiàoshòu, wèi wǒmen jiědú dāngqián de jīngjì xíngshì. Chén jiàoshòu, nín hǎo! Chén jiàoshòu: Zhǔchírén hǎo, tīngzhòng péngyoumen hǎo. Zhǔchírén: Jìnqī quánqiú jīngjì bōdòng jiào dà, nín rúhé kàndài dāngqián de xíngshì? Chén jiàoshòu: Quèshí, shòu duōchóng yīnsù yǐngxiǎng, quánqiú jīngjì zhèng miànlín qiánsuǒwèiyǒu de tiǎozhàn. Shǒuxiān, dìyuán zhèngzhì jǐnzhāng júshì dǎozhì néngyuán jiàgé shàngzhǎng, tuīgāo le shēngchǎn chéngběn. Qícì, quánqiú gōngyìngliàn réng wèi wánquán huīfù, mǒuxiē guānjiàn língbùjiàn duǎnquē wèntí yīrán yánjùn. Bùguò, wǒmen yě kàndào yìxiē jījí xìnhào: xiāofèi shìchǎng zhúbù huínuǎn, shùzì jīngjì hé lǜsè chǎnyè zhǎnxiàn chū qiángjìn zēngzhǎng shìtóu. Zhǔchírén: Duìyú pǔtōng tóuzīzhě, nín yǒu shénme jiànyì? Chén jiàoshòu: Zài dāngqián huánjìng xià, jiànyì bǎochí jǐnshèn tàidù, fēnsàn tóuzī fēngxiǎn. Chángqī lái kàn, kējì chuàngxīn hé kě chíxù fāzhǎn lǐngyù zhíde guānzhù. Dàn zuì zhòngyào de shì, yào gēnjù zìshēn qíngkuàng zuòchū lǐxìng juécè, búyào mángmù gēnfēng.",
+    "translation": "Host: Welcome to Today's Economic Commentary. Today we've invited famous economist Professor Chen to interpret the current economic situation for us. Professor Chen, hello! Professor Chen: Hello host, hello audience friends. Host: Global economy has been quite volatile recently. How do you view the current situation? Professor Chen: Indeed, affected by multiple factors, the global economy is facing unprecedented challenges. First, geopolitical tensions have led to rising energy prices, pushing up production costs. Second, global supply chains have not fully recovered, and shortages of certain key components remain severe. However, we also see some positive signals: the consumer market is gradually recovering, and the digital economy and green industries are showing strong growth momentum. Host: What advice do you have for ordinary investors? Professor Chen: In the current environment, I suggest maintaining a cautious attitude and diversifying investment risks. In the long run, technological innovation and sustainable development sectors are worth attention. But most importantly, make rational decisions based on your own situation, and don't follow trends blindly.",
+    "transcript": "主持人：欢迎收听今日经济评论。今天我们邀请到了著名经济学家陈教授，为我们解读当前的经济形势。陈教授，您好！陈教授：主持人好，听众朋友们好。主持人：近期全球经济波动较大，您如何看待当前的形势？陈教授：确实，受多重因素影响，全球经济正面临前所未有的挑战。首先，地缘政治紧张局势导致能源价格上涨，推高了生产成本。其次，全球供应链仍未完全恢复，某些关键零部件短缺问题依然严峻。不过，我们也看到一些积极信号：消费市场逐步回暖，数字经济和绿色产业展现出强劲增长势头。主持人：对于普通投资者，您有什么建议？陈教授：在当前环境下，建议保持谨慎态度，分散投资风险。长期来看，科技创新和可持续发展领域值得关注。但最重要的是，要根据自身情况做出理性决策，不要盲目跟风。",
+    "level": "hsk5",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "What has caused energy prices to rise?",
+        "options": ["Natural disasters", "Geopolitical tensions", "Technological failures", "Consumer demand"],
+        "correct": 1
+      },
+      {
+        "question": "Which sectors show strong growth momentum?",
+        "options": ["Traditional manufacturing", "Digital economy and green industries", "Mining and oil", "Real estate"],
+        "correct": 1
+      },
+      {
+        "question": "What investment advice does Professor Chen give?",
+        "options": ["Invest all in one sector", "Maintain caution and diversify risks", "Stop investing completely", "Only invest in gold"],
+        "correct": 1
+      },
+      {
+        "question": "What does the professor warn against?",
+        "options": ["Saving money", "Following trends blindly", "Consulting experts", "Long-term investing"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "zh_listening_12",
+    "title": "文学作品朗读 - Literary Work Reading",
+    "text": "人生若只如初见，何事秋风悲画扇。等闲变却故人心，却道故人心易变。这是清代词人纳兰性德的名作《木兰词》中的开篇。诗人以细腻的笔触，描绘了爱情中的遗憾与无奈。"人生若只如初见"，道出了人们对美好初遇的怀念。每段感情的开始都是美好的，充满期待与憧憬。然而，"等闲变却故人心"，随着时间的流逝，曾经相爱的人渐行渐远，往日的深情不再。这种变化令人感伤，却也是人生的常态。纳兰性德以他敏感的心灵，将这种普遍的人生体验凝练成不朽的诗句，至今仍能引起读者的共鸣。我们读这首词，不仅是在品味文学之美，更是在思考人生、爱情与时间的永恒命题。",
+    "pinyin": "Rénshēng ruò zhǐ rú chūjiàn, héshì qiūfēng bēi huàshàn. Děngxián biàn què gùrén xīn, què dào gùrén xīn yì biàn. Zhè shì Qīngdài círén Nàlánxìngdé de míngzuò 'Mùlán cí' zhōng de kāipiān. Shīrén yǐ xìnì de bǐchù, miáohuì le àiqíng zhōng de yíhàn yǔ wúnài. 'Rénshēng ruò zhǐ rú chūjiàn', dàochū le rénmen duì měihǎo chūyù de huáiniàn. Měi duàn gǎnqíng de kāishǐ dōu shì měihǎo de, chōngmǎn qīdài yǔ chōngjǐng. Rán'ér, 'děngxián biàn què gùrén xīn', suízhe shíjiān de liúshì, céngjīng xiāng'ài de rén jiànxíngjiànyuǎn, wǎngrì de shēnqíng bù zài. Zhè zhǒng biànhuà lìng rén gǎnshāng, què yě shì rénshēng de chángtài. Nàlánxìngdé yǐ tā mǐngǎn de xīnlíng, jiāng zhè zhǒng pǔbiàn de rénshēng tǐyàn níngliàn chéng bùxiǔ de shījù, zhìjīn réng néng yǐnqǐ dúzhě de gòngmíng. Wǒmen dú zhè shǒu cí, bùjǐn shì zài pǐnwèi wénxué zhī měi, gèng shì zài sīkǎo rénshēng, àiqíng yǔ shíjiān de yǒnghéng mìngtí.",
+    "translation": "If life were only like the first meeting, why would autumn wind grieve for painted fans? How easily changed is the heart of an old friend, yet they say an old friend's heart is prone to change. This is the opening of the famous work 'Mulan Ci' by Qing Dynasty poet Nalan Xingde. With delicate strokes, the poet depicts the regret and helplessness in love. 'If life were only like the first meeting' expresses people's nostalgia for beautiful first encounters. Every relationship begins beautifully, full of expectations and longings. However, 'how easily changed is the heart of an old friend' - as time passes, people who once loved each other gradually drift apart, and the deep feelings of the past are no more. This change is melancholic, yet it is also the norm of life. Nalan Xingde, with his sensitive soul, condensed this universal life experience into immortal verses that still resonate with readers today. When we read this poem, we are not only appreciating the beauty of literature, but also contemplating the eternal themes of life, love, and time.",
+    "transcript": "人生若只如初见，何事秋风悲画扇。等闲变却故人心，却道故人心易变。这是清代词人纳兰性德的名作《木兰词》中的开篇。诗人以细腻的笔触，描绘了爱情中的遗憾与无奈。"人生若只如初见"，道出了人们对美好初遇的怀念。每段感情的开始都是美好的，充满期待与憧憬。然而，"等闲变却故人心"，随着时间的流逝，曾经相爱的人渐行渐远，往日的深情不再。这种变化令人感伤，却也是人生的常态。纳兰性德以他敏感的心灵，将这种普遍的人生体验凝练成不朽的诗句，至今仍能引起读者的共鸣。我们读这首词，不仅是在品味文学之美，更是在思考人生、爱情与时间的永恒命题。",
+    "level": "hsk6",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "Who is the author of 'Mulan Ci'?",
+        "options": ["Li Bai", "Du Fu", "Nalan Xingde", "Su Shi"],
+        "correct": 2
+      },
+      {
+        "question": "Which dynasty was the poet from?",
+        "options": ["Tang", "Song", "Ming", "Qing"],
+        "correct": 3
+      },
+      {
+        "question": "What does 'If life were only like the first meeting' express?",
+        "options": ["Joy of new beginnings", "Nostalgia for beautiful first encounters", "Fear of meeting strangers", "Hope for the future"],
+        "correct": 1
+      },
+      {
+        "question": "According to the passage, what happens as time passes?",
+        "options": ["Love grows stronger", "People who once loved drift apart", "Relationships improve", "Everyone becomes happier"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "zh_listening_13",
+    "title": "哲学讲座 - Philosophy Lecture",
+    "text": "今天我想与诸位探讨一个古老而常新的命题：人生的意义何在？自古以来，这一问题困扰着无数哲人。庄子曰："吾生也有涯，而知也无涯。"强调了生命的有限与知识的无限之间的张力。儒家则认为，人生的意义在于修身齐家治国平天下，在于成就一番事业，造福社会。而禅宗的看法更为独特：意义不在外求，而在当下的觉悟。所谓"平常心是道"，吃饭时吃饭，睡觉时睡觉，便是真正的修行。现代社会，人们往往在名利场中追逐，却忘记了停下来思考。卢梭曾言："人生而自由，却无往不在枷锁之中。"这枷锁，有时恰恰是我们自己给自己套上的。或许，人生意义的答案，不在于找到某个确定的答案，而在于不断追问、不断探索的过程本身。",
+    "pinyin": "Jīntiān wǒ xiǎng yǔ zhūwèi tàntǎo yí gè gǔlǎo ér chángxīn de mìngtí: rénshēng de yìyì hézài? Zìgǔ yǐlái, zhè yì wèntí kùnrǎo zhe wúshù zhérén. Zhuāngzǐ yuē: 'Wú shēng yě yǒu yá, ér zhī yě wú yá.' Qiángdiào le shēngmìng de yǒuxiàn yǔ zhīshi de wúxiàn zhījiān de zhānglì. Rújiā zé rènwéi, rénshēng de yìyì zàiyú xiūshēn qíjiā zhìguó píng tiānxià, zàiyú chéngjiù yì fān shìyè, zàofú shèhuì. Ér Chánzōng de kànfǎ gèng wéi dútè: yìyì bú zài wàiqiú, ér zài dāngxià de juéwù. Suǒwèi 'píngcháng xīn shì dào', chīfàn shí chīfàn, shuìjiào shí shuìjiào, biàn shì zhēnzhèng de xiūxíng. Xiàndài shèhuì, rénmen wǎngwǎng zài mínglìchǎng zhōng zhuīzhú, què wàngjì le tíng xiàlái sīkǎo. Lúsuō céng yán: 'Rén shēng ér zìyóu, què wúwǎng bú zài jiāsuǒ zhīzhōng.' Zhè jiāsuǒ, yǒushí qiàqià shì wǒmen zìjǐ gěi zìjǐ tàoshàng de. Huòxǔ, rénshēng yìyì de dá'àn, bú zàiyú zhǎodào mǒu gè quèdìng de dá'àn, ér zàiyú bùduàn zhuīwèn, bùduàn tànsuǒ de guòchéng běnshēn.",
+    "translation": "Today I want to discuss with you an ancient yet ever-new proposition: what is the meaning of life? Since ancient times, this question has troubled countless philosophers. Zhuangzi said: 'My life has limits, but knowledge has no limits.' This emphasizes the tension between the finiteness of life and the infinity of knowledge. Confucianism believes that the meaning of life lies in cultivating oneself, managing one's family, governing the country, and bringing peace to the world - in achieving great undertakings and benefiting society. Zen Buddhism has a more unique view: meaning is not to be sought externally, but in the awareness of the present moment. The so-called 'ordinary mind is the way' - when eating, eat; when sleeping, sleep - this is true cultivation. In modern society, people often chase after fame and fortune, forgetting to stop and think. Rousseau once said: 'Man is born free, yet everywhere he is in chains.' These chains are sometimes precisely those we put on ourselves. Perhaps the answer to life's meaning lies not in finding a definite answer, but in the process of continuous questioning and exploration itself.",
+    "transcript": "今天我想与诸位探讨一个古老而常新的命题：人生的意义何在？自古以来，这一问题困扰着无数哲人。庄子曰："吾生也有涯，而知也无涯。"强调了生命的有限与知识的无限之间的张力。儒家则认为，人生的意义在于修身齐家治国平天下，在于成就一番事业，造福社会。而禅宗的看法更为独特：意义不在外求，而在当下的觉悟。所谓"平常心是道"，吃饭时吃饭，睡觉时睡觉，便是真正的修行。现代社会，人们往往在名利场中追逐，却忘记了停下来思考。卢梭曾言："人生而自由，却无往不在枷锁之中。"这枷锁，有时恰恰是我们自己给自己套上的。或许，人生意义的答案，不在于找到某个确定的答案，而在于不断追问、不断探索的过程本身。",
+    "level": "hsk6",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "What did Zhuangzi emphasize?",
+        "options": ["The importance of wealth", "The tension between finite life and infinite knowledge", "The need for political power", "The value of family"],
+        "correct": 1
+      },
+      {
+        "question": "What does Confucianism believe about life's meaning?",
+        "options": ["Seeking personal pleasure", "Cultivating oneself and benefiting society", "Achieving enlightenment", "Escaping from the world"],
+        "correct": 1
+      },
+      {
+        "question": "What is Zen Buddhism's view according to the passage?",
+        "options": ["Meaning is in external achievements", "Meaning is in the awareness of the present moment", "Meaning is in accumulating knowledge", "Meaning is in social status"],
+        "correct": 1
+      },
+      {
+        "question": "Who is quoted as saying 'Man is born free, yet everywhere he is in chains'?",
+        "options": ["Zhuangzi", "Confucius", "Buddha", "Rousseau"],
+        "correct": 3
+      }
+    ]
+  }
+]

@@ -1,23 +1,24 @@
 'use client'
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useMemo } from 'react';
 import Navigation from '@/components/common/Navigation';
 import StatsPanel from '@/components/common/StatsPanel';
 import MultipleChoice from '@/components/common/MultipleChoice';
+import LanguageContentGuard from '@/components/common/LanguageContentGuard';
 import { Container, CharacterCard, InputSection, Input, OptionsPanel, Text, Toggle, Chip, CharacterDisplay, Animated } from '@/components/ui';
 import optionsStyles from '@/components/ui/OptionsPanel.module.css';
 import { useProgressContext } from '@/context/ProgressProvider';
 import { useLanguage } from '@/context/LanguageProvider';
+import { useTargetLanguage } from '@/hooks/useTargetLanguage';
 import { useTTS } from '@/hooks/useTTS';
-import vocabularyJson from '@/data/vocabulary.json';
+import { getVocabularyData, getItemLevel } from '@/lib/dataLoader';
 import { VocabularyItem, Filter } from '@/types';
 import styles from './vocabulary.module.css';
-
-const vocabulary = vocabularyJson as VocabularyItem[];
 
 export default function VocabularyPage() {
     const { updateModuleStats: updateStats } = useProgressContext();
     const { t } = useLanguage();
+    const { targetLanguage, levels } = useTargetLanguage();
     const { speak } = useTTS();
     const [currentWord, setCurrentWord] = useState<VocabularyItem | null>(null);
     const [correct, setCorrect] = useState(0);
@@ -31,11 +32,35 @@ export default function VocabularyPage() {
     const [isCorrect, setIsCorrect] = useState(false);
     const [inputState, setInputState] = useState<'default' | 'success' | 'error'>('default');
 
-    const [filters, setFilters] = useState<Record<string, Filter>>({
-        n5: { id: 'n5', label: 'JLPT N5', checked: true, type: 'checkbox' },
-        n4: { id: 'n4', label: 'JLPT N4', checked: false, type: 'checkbox' },
-        practiceMode: { id: 'practice-mode', label: t('vocabulary.practiceMode'), checked: false, type: 'checkbox' }
-    });
+    // Get vocabulary data for the current language (from centralized data loader)
+    const vocabulary = useMemo(() => getVocabularyData(targetLanguage), [targetLanguage]);
+
+    // Get first 2 levels from language config (for initial filters)
+    // Levels come from language-configs.json - no hardcoding needed!
+    const displayLevels = useMemo(() => levels.slice(0, 2), [levels]);
+
+    // Initialize filters based on language-specific levels from config
+    const [filters, setFilters] = useState<Record<string, Filter>>({});
+
+    // Update filters when language changes
+    useEffect(() => {
+        const newFilters: Record<string, Filter> = {};
+        displayLevels.forEach((level, index) => {
+            newFilters[level.id] = {
+                id: level.id,
+                label: level.name,
+                checked: index === 0, // First level is checked by default
+                type: 'checkbox'
+            };
+        });
+        newFilters['practiceMode'] = {
+            id: 'practice-mode',
+            label: t('vocabulary.practiceMode'),
+            checked: false,
+            type: 'checkbox'
+        };
+        setFilters(newFilters);
+    }, [targetLanguage, displayLevels, t]);
 
     const generateMultipleChoice = useCallback((correctWord: VocabularyItem, available: VocabularyItem[]) => {
         const incorrect = available
@@ -52,11 +77,13 @@ export default function VocabularyPage() {
 
     const getAvailableVocabulary = useCallback(() => {
         return vocabulary.filter(word => {
-            if (filters.n5.checked && word.jlpt === 'N5') return true;
-            if (filters.n4.checked && word.jlpt === 'N4') return true;
-            return false;
+            const wordLevel = getItemLevel(word);
+            // Check if any of the active level filters match
+            return displayLevels.some(level =>
+                filters[level.id]?.checked && wordLevel === level.id
+            );
         });
-    }, [filters]);
+    }, [filters, vocabulary, displayLevels]);
 
     const nextWord = useCallback(() => {
         const available = getAvailableVocabulary();
@@ -119,9 +146,10 @@ export default function VocabularyPage() {
         if (isProcessing || !currentWord) return;
         const normalizedInput = value.toLowerCase().trim();
         const normalizedMeaning = currentWord.meaning.toLowerCase().trim();
-        const normalizedRomaji = currentWord.romaji.toLowerCase().trim();
+        // romaji may not exist for non-Japanese languages
+        const normalizedRomaji = (currentWord.romaji || '').toLowerCase().trim();
 
-        if (normalizedInput === normalizedMeaning || normalizedInput === normalizedRomaji) {
+        if (normalizedInput === normalizedMeaning || (normalizedRomaji && normalizedInput === normalizedRomaji)) {
             handleCorrect();
         }
     }, [isProcessing, currentWord, handleCorrect]);
@@ -135,11 +163,18 @@ export default function VocabularyPage() {
         setStreak(moduleData?.stats?.streak || 0);
     }, [getModuleData]);
 
+    // Create a stable string of filter states for dependency tracking
+    const filterStates = Object.entries(filters)
+        .filter(([key]) => key !== 'practiceMode')
+        .map(([key, f]) => `${key}:${f.checked}`)
+        .join(',');
+
     useEffect(() => {
-        if (vocabulary.length > 0) {
+        if (vocabulary.length > 0 && Object.keys(filters).length > 0) {
             nextWord();
         }
-    }, [filters.n5.checked, filters.n4.checked, practiceMode]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [filterStates, practiceMode, targetLanguage]);
 
     const handleFilterChange = useCallback((id: string, checked: boolean) => {
         if (id === 'practice-mode') {
@@ -149,25 +184,22 @@ export default function VocabularyPage() {
         }
     }, []);
 
-    useEffect(() => {
-        setFilters(prev => ({
-            ...prev,
-            practiceMode: { ...prev.practiceMode, label: t('vocabulary.practiceMode') }
-        }));
-    }, [t]);
 
     if (!currentWord) {
         return (
-            <Container variant="centered">
-                <Navigation />
-                <div>{t('vocabulary.noWords')}</div>
-            </Container>
+            <LanguageContentGuard moduleName="vocabulary">
+                <Container variant="centered">
+                    <Navigation />
+                    <div>{t('vocabulary.noWords')}</div>
+                </Container>
+            </LanguageContentGuard>
         );
     }
 
     return (
-        <Container variant="centered" streak={streak}>
-            <Navigation />
+        <LanguageContentGuard moduleName="vocabulary">
+            <Container variant="centered" streak={streak}>
+                <Navigation />
 
             <OptionsPanel>
                 <div className={optionsStyles.toggleContainer}>
@@ -245,7 +277,8 @@ export default function VocabularyPage() {
                 )}
                 <StatsPanel correct={correct} total={total} streak={streak} />
             </InputSection>
-        </Container>
+            </Container>
+        </LanguageContentGuard>
     );
 }
 

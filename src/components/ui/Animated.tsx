@@ -4,7 +4,7 @@ import { ReactNode } from 'react';
 
 interface AnimatedProps {
     children: ReactNode;
-    animation: 'fadeInUp' | 'float' | 'pulse' | 'shake' | 'characterEnter';
+    animation: 'fadeInUp' | 'fadeInDown' | 'float' | 'pulse' | 'shake' | 'characterEnter';
     delay?: number;
     className?: string;
     infinite?: boolean;

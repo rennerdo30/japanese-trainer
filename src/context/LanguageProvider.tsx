@@ -8,7 +8,7 @@ const LanguageContext = createContext<LanguageContextValue | null>(null);
 const SUPPORTED_LANGUAGES = [
     { code: 'en', name: 'English', flag: '🇺🇸' },
     { code: 'es', name: 'Español', flag: '🇪🇸' },
-    { code: 'zh-CN', name: '中文', flag: '🇨🇳' },
+    { code: 'zh', name: '中文', flag: '🇨🇳' },
     { code: 'pt', name: 'Português', flag: '🇵🇹' },
     { code: 'fr', name: 'Français', flag: '🇫🇷' },
     { code: 'de', name: 'Deutsch', flag: '🇩🇪' },

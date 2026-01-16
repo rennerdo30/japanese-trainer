@@ -41,12 +41,17 @@
     }
   },
   "alphabet": {
+    "title": "Alphabet",
     "hiragana": "Hiragana",
     "katakana": "Katakana",
     "filters": {
       "gojuon": "Gojūon",
       "yoon": "Yōon",
-      "dakuten": "Dakuten"
+      "dakuten": "Dakuten",
+      "consonant": "Consonants",
+      "vowel": "Vowels",
+      "doubleConsonant": "Double Consonants",
+      "compoundVowel": "Compound Vowels"
     },
     "noCharacters": "No characters available with current filters."
   },
@@ -60,9 +65,25 @@
     "practiceMeaning": "Meaning",
     "practiceReading": "Reading",
     "typeMeaningOrReading": "Type meaning or reading...",
+    "typeReading": "Type the reading...",
+    "showInfo": "Show Info",
     "noKanji": "No kanji available.",
     "onyomi": "音読み",
-    "kunyomi": "訓読み"
+    "kunyomi": "訓読み",
+    "pinyin": "Pinyin",
+    "filters": {
+      "n5": "JLPT N5",
+      "n4": "JLPT N4",
+      "n3": "JLPT N3",
+      "n2": "JLPT N2",
+      "n1": "JLPT N1",
+      "hsk1": "HSK 1",
+      "hsk2": "HSK 2",
+      "hsk3": "HSK 3",
+      "hsk4": "HSK 4",
+      "hsk5": "HSK 5",
+      "hsk6": "HSK 6"
+    }
   },
   "grammar": {
     "checkAnswer": "Check Answer",

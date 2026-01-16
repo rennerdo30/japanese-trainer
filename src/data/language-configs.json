@@ -1,0 +1,205 @@
+{
+  "languages": {
+    "ja": {
+      "code": "ja",
+      "name": "Japanese",
+      "nativeName": "日本語",
+      "modules": {
+        "alphabet": true,
+        "vocabulary": true,
+        "kanji": true,
+        "grammar": true,
+        "reading": true,
+        "listening": true
+      },
+      "levels": [
+        { "id": "N5", "name": "JLPT N5", "framework": "JLPT", "order": 1, "description": "Beginner" },
+        { "id": "N4", "name": "JLPT N4", "framework": "JLPT", "order": 2, "description": "Elementary" },
+        { "id": "N3", "name": "JLPT N3", "framework": "JLPT", "order": 3, "description": "Intermediate" },
+        { "id": "N2", "name": "JLPT N2", "framework": "JLPT", "order": 4, "description": "Upper-Intermediate" },
+        { "id": "N1", "name": "JLPT N1", "framework": "JLPT", "order": 5, "description": "Advanced" }
+      ],
+      "scripts": [
+        { "name": "Hiragana", "type": "syllabary", "required": true },
+        { "name": "Katakana", "type": "syllabary", "required": true },
+        { "name": "Kanji", "type": "logographic", "required": false }
+      ],
+      "ttsVoices": {
+        "elevenlabs": "GR4dBIFsYe57TxyrHKXz",
+        "webSpeech": "ja-JP"
+      },
+      "dataPath": "/data/ja"
+    },
+    "es": {
+      "code": "es",
+      "name": "Spanish",
+      "nativeName": "Español",
+      "modules": {
+        "alphabet": false,
+        "vocabulary": true,
+        "kanji": false,
+        "grammar": true,
+        "reading": true,
+        "listening": true
+      },
+      "levels": [
+        { "id": "A1", "name": "CEFR A1", "framework": "CEFR", "order": 1, "description": "Beginner" },
+        { "id": "A2", "name": "CEFR A2", "framework": "CEFR", "order": 2, "description": "Elementary" },
+        { "id": "B1", "name": "CEFR B1", "framework": "CEFR", "order": 3, "description": "Intermediate" },
+        { "id": "B2", "name": "CEFR B2", "framework": "CEFR", "order": 4, "description": "Upper-Intermediate" },
+        { "id": "C1", "name": "CEFR C1", "framework": "CEFR", "order": 5, "description": "Advanced" },
+        { "id": "C2", "name": "CEFR C2", "framework": "CEFR", "order": 6, "description": "Proficiency" }
+      ],
+      "scripts": [
+        { "name": "Latin", "type": "alphabet", "required": false }
+      ],
+      "ttsVoices": {
+        "webSpeech": "es-ES"
+      },
+      "dataPath": "/data/es"
+    },
+    "ko": {
+      "code": "ko",
+      "name": "Korean",
+      "nativeName": "한국어",
+      "modules": {
+        "alphabet": true,
+        "vocabulary": true,
+        "kanji": false,
+        "grammar": true,
+        "reading": false,
+        "listening": true
+      },
+      "levels": [
+        { "id": "TOPIK1", "name": "TOPIK I Level 1", "framework": "TOPIK", "order": 1, "description": "Beginner" },
+        { "id": "TOPIK2", "name": "TOPIK I Level 2", "framework": "TOPIK", "order": 2, "description": "Elementary" },
+        { "id": "TOPIK3", "name": "TOPIK II Level 3", "framework": "TOPIK", "order": 3, "description": "Intermediate" },
+        { "id": "TOPIK4", "name": "TOPIK II Level 4", "framework": "TOPIK", "order": 4, "description": "Upper-Intermediate" },
+        { "id": "TOPIK5", "name": "TOPIK II Level 5", "framework": "TOPIK", "order": 5, "description": "Advanced" },
+        { "id": "TOPIK6", "name": "TOPIK II Level 6", "framework": "TOPIK", "order": 6, "description": "Proficiency" }
+      ],
+      "scripts": [
+        { "name": "Hangul", "type": "alphabet", "required": true }
+      ],
+      "ttsVoices": {
+        "webSpeech": "ko-KR"
+      },
+      "dataPath": "/data/ko"
+    },
+    "zh": {
+      "code": "zh",
+      "name": "Chinese (Mandarin)",
+      "nativeName": "中文",
+      "modules": {
+        "alphabet": false,
+        "vocabulary": true,
+        "kanji": true,
+        "grammar": true,
+        "reading": false,
+        "listening": true
+      },
+      "levels": [
+        { "id": "HSK1", "name": "HSK 1", "framework": "HSK", "order": 1, "description": "Beginner" },
+        { "id": "HSK2", "name": "HSK 2", "framework": "HSK", "order": 2, "description": "Elementary" },
+        { "id": "HSK3", "name": "HSK 3", "framework": "HSK", "order": 3, "description": "Intermediate" },
+        { "id": "HSK4", "name": "HSK 4", "framework": "HSK", "order": 4, "description": "Upper-Intermediate" },
+        { "id": "HSK5", "name": "HSK 5", "framework": "HSK", "order": 5, "description": "Advanced" },
+        { "id": "HSK6", "name": "HSK 6", "framework": "HSK", "order": 6, "description": "Proficiency" }
+      ],
+      "scripts": [
+        { "name": "Hanzi (Simplified)", "type": "logographic", "required": true },
+        { "name": "Pinyin", "type": "romanization", "required": false }
+      ],
+      "ttsVoices": {
+        "webSpeech": "zh-CN"
+      },
+      "dataPath": "/data/zh"
+    },
+    "de": {
+      "code": "de",
+      "name": "German",
+      "nativeName": "Deutsch",
+      "modules": {
+        "alphabet": false,
+        "vocabulary": true,
+        "kanji": false,
+        "grammar": true,
+        "reading": false,
+        "listening": true
+      },
+      "levels": [
+        { "id": "A1", "name": "CEFR A1", "framework": "CEFR", "order": 1, "description": "Beginner" },
+        { "id": "A2", "name": "CEFR A2", "framework": "CEFR", "order": 2, "description": "Elementary" },
+        { "id": "B1", "name": "CEFR B1", "framework": "CEFR", "order": 3, "description": "Intermediate" },
+        { "id": "B2", "name": "CEFR B2", "framework": "CEFR", "order": 4, "description": "Upper-Intermediate" },
+        { "id": "C1", "name": "CEFR C1", "framework": "CEFR", "order": 5, "description": "Advanced" },
+        { "id": "C2", "name": "CEFR C2", "framework": "CEFR", "order": 6, "description": "Proficiency" }
+      ],
+      "scripts": [
+        { "name": "Latin", "type": "alphabet", "required": false }
+      ],
+      "ttsVoices": {
+        "webSpeech": "de-DE"
+      },
+      "dataPath": "/data/de"
+    },
+    "en": {
+      "code": "en",
+      "name": "English",
+      "nativeName": "English",
+      "modules": {
+        "alphabet": false,
+        "vocabulary": true,
+        "kanji": false,
+        "grammar": true,
+        "reading": false,
+        "listening": true
+      },
+      "levels": [
+        { "id": "A1", "name": "CEFR A1", "framework": "CEFR", "order": 1, "description": "Beginner" },
+        { "id": "A2", "name": "CEFR A2", "framework": "CEFR", "order": 2, "description": "Elementary" },
+        { "id": "B1", "name": "CEFR B1", "framework": "CEFR", "order": 3, "description": "Intermediate" },
+        { "id": "B2", "name": "CEFR B2", "framework": "CEFR", "order": 4, "description": "Upper-Intermediate" },
+        { "id": "C1", "name": "CEFR C1", "framework": "CEFR", "order": 5, "description": "Advanced" },
+        { "id": "C2", "name": "CEFR C2", "framework": "CEFR", "order": 6, "description": "Proficiency" }
+      ],
+      "scripts": [
+        { "name": "Latin", "type": "alphabet", "required": false }
+      ],
+      "ttsVoices": {
+        "webSpeech": "en-US"
+      },
+      "dataPath": "/data/en"
+    },
+    "it": {
+      "code": "it",
+      "name": "Italian",
+      "nativeName": "Italiano",
+      "modules": {
+        "alphabet": false,
+        "vocabulary": true,
+        "kanji": false,
+        "grammar": true,
+        "reading": false,
+        "listening": true
+      },
+      "levels": [
+        { "id": "A1", "name": "CEFR A1", "framework": "CEFR", "order": 1, "description": "Beginner" },
+        { "id": "A2", "name": "CEFR A2", "framework": "CEFR", "order": 2, "description": "Elementary" },
+        { "id": "B1", "name": "CEFR B1", "framework": "CEFR", "order": 3, "description": "Intermediate" },
+        { "id": "B2", "name": "CEFR B2", "framework": "CEFR", "order": 4, "description": "Upper-Intermediate" },
+        { "id": "C1", "name": "CEFR C1", "framework": "CEFR", "order": 5, "description": "Advanced" },
+        { "id": "C2", "name": "CEFR C2", "framework": "CEFR", "order": 6, "description": "Proficiency" }
+      ],
+      "scripts": [
+        { "name": "Latin", "type": "alphabet", "required": false }
+      ],
+      "ttsVoices": {
+        "webSpeech": "it-IT"
+      },
+      "dataPath": "/data/it"
+    }
+  },
+  "defaultLanguage": "ja",
+  "availableLanguages": ["ja", "es", "de", "en", "it", "ko", "zh"]
+}

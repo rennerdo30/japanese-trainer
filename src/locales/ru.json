@@ -60,6 +60,8 @@
     "practiceMeaning": "Значение",
     "practiceReading": "Чтение",
     "typeMeaningOrReading": "Введите значение или чтение...",
+    "typeReading": "Введите чтение...",
+    "showInfo": "Показать информацию",
     "noKanji": "Нет доступных кандзи.",
     "onyomi": "音読み",
     "kunyomi": "訓読み"

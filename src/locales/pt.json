@@ -60,6 +60,8 @@
     "practiceMeaning": "Significado",
     "practiceReading": "Leitura",
     "typeMeaningOrReading": "Digite significado ou leitura...",
+    "typeReading": "Digite a leitura...",
+    "showInfo": "Mostrar info",
     "noKanji": "Nenhum kanji disponível.",
     "onyomi": "音読み",
     "kunyomi": "訓読み"

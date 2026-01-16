@@ -1,0 +1,225 @@
+/* Learning Compass Widget */
+
+.compass {
+  padding: 1.5rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.headerIcon {
+  font-size: 1.5rem;
+  color: var(--accent-gold, #d4a574);
+}
+
+.header h3 {
+  margin: 0;
+}
+
+.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  gap: 1rem;
+}
+
+.loadingIcon {
+  font-size: 3rem;
+  color: var(--accent-gold, #d4a574);
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Radar Chart */
+.radarContainer {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.radar {
+  width: 100%;
+  height: 100%;
+}
+
+.radarGrid {
+  fill: none;
+  stroke: var(--border, #333);
+  stroke-width: 0.5;
+}
+
+.radarGridLine {
+  stroke: var(--border, #333);
+  stroke-width: 0.5;
+}
+
+.radarPolygon {
+  fill: rgba(212, 165, 116, 0.2);
+  stroke: var(--accent-gold, #d4a574);
+  stroke-width: 2;
+}
+
+.radarPoint {
+  fill: var(--accent-gold, #d4a574);
+}
+
+.radarLabel {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  pointer-events: none;
+}
+
+.labelName {
+  display: block;
+  font-size: 0.7rem;
+  color: var(--text-secondary, #888);
+}
+
+.labelValue {
+  display: block;
+  font-size: 0.65rem;
+  color: var(--accent-gold, #d4a574);
+  font-weight: 600;
+}
+
+/* Module List */
+.moduleList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.moduleItem {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.moduleName {
+  width: 60px;
+  font-size: 0.75rem;
+  color: var(--text-secondary, #888);
+}
+
+.moduleBar {
+  flex: 1;
+  height: 6px;
+  background: var(--bg-secondary, #1a1a2e);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.moduleBarFill {
+  height: 100%;
+  background: var(--accent-gold, #d4a574);
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.moduleValue {
+  width: 35px;
+  text-align: right;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent-gold, #d4a574);
+}
+
+/* Next Action */
+.nextAction {
+  padding: 1rem;
+  background: var(--bg-secondary, #1a1a2e);
+  border-radius: 0.75rem;
+}
+
+.nextActionHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.nextActionIcon {
+  color: var(--accent-gold, #d4a574);
+}
+
+.nextActionTitle {
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+
+.nextActionTime {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.nextActionButton {
+  width: 100%;
+}
+
+/* Review Alert */
+.reviewAlert {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  background: rgba(196, 30, 58, 0.1);
+  border-radius: 0.5rem;
+  color: var(--accent-red, #c41e3a);
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.reviewAlert:hover {
+  background: rgba(196, 30, 58, 0.2);
+}
+
+.reviewAlertIcon {
+  font-size: 1rem;
+}
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+  .compass {
+    padding: 1rem;
+  }
+
+  .radarContainer {
+    width: 160px;
+    height: 160px;
+  }
+
+  .labelName {
+    font-size: 0.65rem;
+  }
+
+  .labelValue {
+    font-size: 0.6rem;
+  }
+}

@@ -1,0 +1,39 @@
+/* English Theme - "Oxford Library" */
+/* Classic British scholarly elegance - mahogany, leather, candlelit academia */
+
+html[data-theme="en"] {
+  /* Colors - Aged mahogany, leather armchairs, parchment, candlelight */
+  --bg-primary: #1a150f;
+  --bg-secondary: #252015;
+  --bg-card: #2f281e;
+  --bg-glass: rgba(47, 40, 30, 0.88);
+  --text-primary: #f5f0e1;
+  --text-secondary: #c9bea8;
+  --text-muted: #8a7e68;
+  --accent-primary: #c4a35a;
+  --accent-secondary: #234e70;
+  --accent-red: #8b3a3a;
+  --accent-red-glow: rgba(139, 58, 58, 0.35);
+  --accent-red-light: #c46a6a;
+  --accent-gold: #c4a35a;
+  --accent-gold-dim: rgba(196, 163, 90, 0.18);
+  --success: #4a7c59;
+  --success-glow: rgba(74, 124, 89, 0.3);
+  --border-subtle: rgba(196, 163, 90, 0.12);
+  --glass-border: rgba(196, 163, 90, 0.18);
+  --shadow-deep: 0 25px 50px -12px rgba(26, 21, 15, 0.8);
+
+  /* Typography - Classic serif, scholarly */
+  --font-primary: 'Libre Baskerville', 'Times New Roman', serif;
+  --font-secondary: 'Open Sans', sans-serif;
+
+  /* Atmospheric gradient - Candlelit library corners */
+  --gradient-atmosphere:
+    radial-gradient(ellipse 50% 40% at 15% 15%, rgba(196, 163, 90, 0.12), transparent),
+    radial-gradient(ellipse 40% 35% at 90% 85%, rgba(196, 163, 90, 0.08), transparent),
+    radial-gradient(ellipse 80% 50% at 50% 120%, rgba(35, 78, 112, 0.08), transparent);
+}
+
+html[data-theme="en"] body {
+  font-family: var(--font-primary);
+}

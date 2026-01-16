@@ -17,6 +17,7 @@ interface UseStorageReturn {
     getReviewData: typeof storage.getReviewData;
     saveReviewData: typeof storage.saveReviewData;
     clearAllData: typeof storage.clearAllData;
+    updateModuleReview: (moduleName: string, itemId: string, reviewData: any) => void;
 }
 
 export function useStorage(): UseStorageReturn {
@@ -39,6 +40,32 @@ export function useStorage(): UseStorageReturn {
         setData(newData);
     }, []);
 
+    const updateModuleReview = useCallback((moduleName: string, itemId: string, reviewData: any) => {
+        // Get current module data
+        const moduleData = storage.getModuleData(moduleName);
+        const currentReviews = moduleData?.reviews || {};
+
+        // Update the reviews object
+        const updatedReviews = {
+            ...currentReviews,
+            [itemId]: reviewData
+        };
+
+        // Save back to storage
+        storage.saveModuleData(moduleName, {
+            ...moduleData,
+            reviews: updatedReviews
+        });
+
+        // Also mark as learned if not already
+        if (!moduleData?.learned?.includes(itemId)) {
+            storage.markLearned(moduleName, itemId);
+        }
+
+        // Reload data
+        setData(storage.getAllData());
+    }, []);
+
     return {
         data,
         isLoading,
@@ -52,6 +79,7 @@ export function useStorage(): UseStorageReturn {
         isLearned: storage.isLearned,
         getReviewData: storage.getReviewData,
         saveReviewData: storage.saveReviewData,
-        clearAllData: storage.clearAllData
+        clearAllData: storage.clearAllData,
+        updateModuleReview
     };
 }

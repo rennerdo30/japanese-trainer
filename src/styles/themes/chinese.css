@@ -1,0 +1,39 @@
+/* Chinese Theme - "Silk Road" */
+/* Imperial grandeur - Forbidden City vermillion, jade, silk gold, lacquer black */
+
+html[data-theme="zh"] {
+  /* Colors - Imperial vermillion, jade green, silk gold, lacquer depths */
+  --bg-primary: #0d0808;
+  --bg-secondary: #1a0f0f;
+  --bg-card: #261515;
+  --bg-glass: rgba(38, 21, 21, 0.9);
+  --text-primary: #fff8e8;
+  --text-secondary: #d4b896;
+  --text-muted: #8a6a50;
+  --accent-primary: #c82828;
+  --accent-secondary: #2d9b7a;
+  --accent-red: #c82828;
+  --accent-red-glow: rgba(200, 40, 40, 0.45);
+  --accent-red-light: #ff5555;
+  --accent-gold: #e8b830;
+  --accent-gold-dim: rgba(232, 184, 48, 0.2);
+  --success: #2d9b7a;
+  --success-glow: rgba(45, 155, 122, 0.35);
+  --border-subtle: rgba(232, 184, 48, 0.12);
+  --glass-border: rgba(200, 40, 40, 0.2);
+  --shadow-deep: 0 30px 60px -15px rgba(13, 8, 8, 0.8);
+
+  /* Typography - Elegant Chinese characters */
+  --font-primary: 'Noto Sans SC', 'PingFang SC', sans-serif;
+  --font-secondary: 'Ma Shan Zheng', 'KaiTi', cursive;
+
+  /* Atmospheric gradient - Forbidden City at dusk, silk lantern glow */
+  --gradient-atmosphere:
+    radial-gradient(ellipse 80% 50% at 50% -15%, rgba(200, 40, 40, 0.2), transparent),
+    radial-gradient(ellipse 50% 40% at 5% 80%, rgba(45, 155, 122, 0.1), transparent),
+    radial-gradient(ellipse 60% 45% at 95% 50%, rgba(232, 184, 48, 0.12), transparent);
+}
+
+html[data-theme="zh"] body {
+  font-family: var(--font-primary);
+}

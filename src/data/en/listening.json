@@ -1,0 +1,422 @@
+[
+  {
+    "id": "en_listening_1",
+    "title": "Meeting Someone New",
+    "text": "Hello! My name is Sarah. Nice to meet you. I am from Canada. I live in Toronto. I am a nurse. I work at a hospital. What about you?",
+    "transcript": "Hello! My name is Sarah. Nice to meet you. I am from Canada. I live in Toronto. I am a nurse. I work at a hospital. What about you?",
+    "level": "a1",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "What is the speaker's name?",
+        "options": ["Sandra", "Sarah", "Sally", "Susan"],
+        "correct": 1
+      },
+      {
+        "question": "Where is Sarah from?",
+        "options": ["USA", "UK", "Canada", "Australia"],
+        "correct": 2
+      },
+      {
+        "question": "What is Sarah's job?",
+        "options": ["Doctor", "Nurse", "Teacher", "Engineer"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en_listening_2",
+    "title": "Ordering at a Restaurant",
+    "text": "Waiter: Good evening. Are you ready to order? Customer: Yes, I would like the chicken salad, please. Waiter: Would you like anything to drink? Customer: Yes, I will have a glass of water, please. Waiter: Certainly. Anything else? Customer: No, that is all. Thank you. Waiter: Your order will be ready in about 15 minutes.",
+    "transcript": "Waiter: Good evening. Are you ready to order?\nCustomer: Yes, I would like the chicken salad, please.\nWaiter: Would you like anything to drink?\nCustomer: Yes, I will have a glass of water, please.\nWaiter: Certainly. Anything else?\nCustomer: No, that is all. Thank you.\nWaiter: Your order will be ready in about 15 minutes.",
+    "level": "a1",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "What does the customer order to eat?",
+        "options": ["Chicken soup", "Chicken salad", "Beef salad", "Vegetable soup"],
+        "correct": 1
+      },
+      {
+        "question": "What does the customer order to drink?",
+        "options": ["Coffee", "Tea", "Water", "Juice"],
+        "correct": 2
+      },
+      {
+        "question": "How long will the order take?",
+        "options": ["5 minutes", "10 minutes", "15 minutes", "20 minutes"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "en_listening_3",
+    "title": "Asking for Directions",
+    "text": "Tourist: Excuse me, how do I get to the train station? Local: Sure! Go straight on this street for two blocks. Then turn left at the traffic light. Walk for about five minutes and you will see the train station on your right. It is next to the big shopping mall. Tourist: Thank you so much! Local: You are welcome. Have a nice day!",
+    "transcript": "Tourist: Excuse me, how do I get to the train station?\nLocal: Sure! Go straight on this street for two blocks. Then turn left at the traffic light. Walk for about five minutes and you will see the train station on your right. It is next to the big shopping mall.\nTourist: Thank you so much!\nLocal: You are welcome. Have a nice day!",
+    "level": "a1",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "Where does the tourist want to go?",
+        "options": ["The bus station", "The train station", "The airport", "The shopping mall"],
+        "correct": 1
+      },
+      {
+        "question": "What should the tourist do at the traffic light?",
+        "options": ["Turn right", "Turn left", "Go straight", "Stop"],
+        "correct": 1
+      },
+      {
+        "question": "What is next to the train station?",
+        "options": ["A park", "A restaurant", "A shopping mall", "A hospital"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "en_listening_4",
+    "title": "Making a Phone Call",
+    "text": "Receptionist: Good morning, City Dental Clinic. How can I help you? Patient: Hello, I would like to make an appointment with Dr. Smith, please. Receptionist: Certainly. Is this for a regular checkup or do you have a problem? Patient: I have a toothache. Receptionist: I see. Dr. Smith is available tomorrow at 3 PM or Friday at 10 AM. Which time works better for you? Patient: Tomorrow at 3 PM is perfect. Receptionist: Great. Can I have your name, please? Patient: Yes, it is Michael Brown. Receptionist: Thank you, Mr. Brown. We will see you tomorrow at 3 PM.",
+    "transcript": "Receptionist: Good morning, City Dental Clinic. How can I help you?\nPatient: Hello, I would like to make an appointment with Dr. Smith, please.\nReceptionist: Certainly. Is this for a regular checkup or do you have a problem?\nPatient: I have a toothache.\nReceptionist: I see. Dr. Smith is available tomorrow at 3 PM or Friday at 10 AM. Which time works better for you?\nPatient: Tomorrow at 3 PM is perfect.\nReceptionist: Great. Can I have your name, please?\nPatient: Yes, it is Michael Brown.\nReceptionist: Thank you, Mr. Brown. We will see you tomorrow at 3 PM.",
+    "level": "a2",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "What kind of business is the caller calling?",
+        "options": ["A hospital", "A dental clinic", "A pharmacy", "A doctor's office"],
+        "correct": 1
+      },
+      {
+        "question": "Why does the patient need an appointment?",
+        "options": ["Regular checkup", "Toothache", "Cleaning", "Emergency"],
+        "correct": 1
+      },
+      {
+        "question": "When is the patient's appointment?",
+        "options": ["Today at 3 PM", "Tomorrow at 3 PM", "Friday at 10 AM", "Friday at 3 PM"],
+        "correct": 1
+      },
+      {
+        "question": "What is the patient's name?",
+        "options": ["Michael Smith", "Michael Brown", "John Brown", "John Smith"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en_listening_5",
+    "title": "At the Airport",
+    "text": "Attention all passengers. This is an announcement for flight BA 247 to New York. The flight has been delayed due to bad weather. The new departure time is 4:30 PM instead of 2:00 PM. We apologize for the inconvenience. All passengers for flight BA 247 should remain in the departure lounge. Free refreshments will be available at Gate 15. Please listen for further announcements. Thank you for your patience.",
+    "transcript": "Attention all passengers. This is an announcement for flight BA 247 to New York. The flight has been delayed due to bad weather. The new departure time is 4:30 PM instead of 2:00 PM. We apologize for the inconvenience. All passengers for flight BA 247 should remain in the departure lounge. Free refreshments will be available at Gate 15. Please listen for further announcements. Thank you for your patience.",
+    "level": "a2",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "What is the flight number?",
+        "options": ["BA 274", "BA 247", "BA 427", "BA 472"],
+        "correct": 1
+      },
+      {
+        "question": "Where is the flight going?",
+        "options": ["Los Angeles", "Chicago", "New York", "Boston"],
+        "correct": 2
+      },
+      {
+        "question": "Why is the flight delayed?",
+        "options": ["Technical problems", "Bad weather", "Staff shortage", "Security check"],
+        "correct": 1
+      },
+      {
+        "question": "What is the new departure time?",
+        "options": ["2:00 PM", "2:30 PM", "4:00 PM", "4:30 PM"],
+        "correct": 3
+      },
+      {
+        "question": "Where can passengers get free refreshments?",
+        "options": ["Gate 10", "Gate 12", "Gate 15", "Gate 20"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "en_listening_6",
+    "title": "A Phone Conversation",
+    "text": "Hey Mike, it's Sarah. I'm calling about the meeting tomorrow. I'm afraid I'm going to be about 30 minutes late because I have a doctor's appointment in the morning. Could you start without me and take notes? I'll catch up when I arrive. Also, can you remind everyone to bring their laptops? We'll need them for the presentation. Oh, and one more thing - could you book the large conference room instead of the small one? We're expecting more people than usual. Thanks so much. See you tomorrow!",
+    "transcript": "Hey Mike, it's Sarah. I'm calling about the meeting tomorrow. I'm afraid I'm going to be about 30 minutes late because I have a doctor's appointment in the morning. Could you start without me and take notes? I'll catch up when I arrive. Also, can you remind everyone to bring their laptops? We'll need them for the presentation. Oh, and one more thing - could you book the large conference room instead of the small one? We're expecting more people than usual. Thanks so much. See you tomorrow!",
+    "level": "b1",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "Why will Sarah be late?",
+        "options": ["Traffic problems", "A doctor's appointment", "Car trouble", "A family emergency"],
+        "correct": 1
+      },
+      {
+        "question": "How late will Sarah be?",
+        "options": ["15 minutes", "30 minutes", "45 minutes", "1 hour"],
+        "correct": 1
+      },
+      {
+        "question": "What does Sarah ask Mike to do during the meeting?",
+        "options": ["Cancel the meeting", "Start without her and take notes", "Reschedule for another day", "Wait for her"],
+        "correct": 1
+      },
+      {
+        "question": "What should everyone bring to the meeting?",
+        "options": ["Notebooks", "Laptops", "Reports", "Coffee"],
+        "correct": 1
+      },
+      {
+        "question": "What room does Sarah want to use?",
+        "options": ["The small conference room", "The large conference room", "Her office", "The cafeteria"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en_listening_7",
+    "title": "Radio News Report",
+    "text": "Good morning, this is the 8 o'clock news update. In our top story today, the city council has approved plans for a new sports stadium in the downtown area. The project, which will cost approximately 500 million dollars, is expected to create over 2,000 jobs during construction. Critics argue that the money could be better spent on education and healthcare. The stadium is scheduled to open in 2027.\n\nIn other news, police are investigating a robbery at the Central Bank on Oak Street. The incident occurred late last night, and officers believe three suspects were involved. No one was injured. Anyone with information is asked to contact the police hotline.\n\nNow for the weather. Today will be mostly cloudy with temperatures around 15 degrees Celsius. There's a 70% chance of rain this afternoon, so don't forget your umbrella.",
+    "transcript": "Good morning, this is the 8 o'clock news update. In our top story today, the city council has approved plans for a new sports stadium in the downtown area. The project, which will cost approximately 500 million dollars, is expected to create over 2,000 jobs during construction. Critics argue that the money could be better spent on education and healthcare. The stadium is scheduled to open in 2027.\n\nIn other news, police are investigating a robbery at the Central Bank on Oak Street. The incident occurred late last night, and officers believe three suspects were involved. No one was injured. Anyone with information is asked to contact the police hotline.\n\nNow for the weather. Today will be mostly cloudy with temperatures around 15 degrees Celsius. There's a 70% chance of rain this afternoon, so don't forget your umbrella.",
+    "level": "b1",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "How much will the new stadium cost?",
+        "options": ["50 million dollars", "200 million dollars", "500 million dollars", "2 billion dollars"],
+        "correct": 2
+      },
+      {
+        "question": "How many jobs will the stadium project create?",
+        "options": ["500", "1,000", "2,000", "5,000"],
+        "correct": 2
+      },
+      {
+        "question": "What do critics think the money should be spent on?",
+        "options": ["More stadiums", "Education and healthcare", "Roads and bridges", "Police and security"],
+        "correct": 1
+      },
+      {
+        "question": "How many suspects are believed to be involved in the robbery?",
+        "options": ["One", "Two", "Three", "Four"],
+        "correct": 2
+      },
+      {
+        "question": "What is the chance of rain this afternoon?",
+        "options": ["30%", "50%", "70%", "90%"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "en_listening_8",
+    "title": "University Lecture: Introduction to Psychology",
+    "text": "Good afternoon, everyone. Welcome to Psychology 101. Today, I'd like to give you an overview of what we'll be covering this semester. We'll begin by looking at the history of psychology as a scientific discipline, starting with Wilhelm Wundt's laboratory in Leipzig in 1879.\n\nThen we'll move on to the major schools of thought: behaviorism, which focuses on observable behavior rather than internal mental states; psychoanalysis, founded by Sigmund Freud, which emphasizes the role of the unconscious mind; and cognitive psychology, which emerged in the 1950s and studies mental processes like memory, perception, and problem-solving.\n\nIn the second half of the semester, we'll examine more applied topics, including developmental psychology - how we change throughout our lives - and abnormal psychology, which looks at mental disorders and their treatment.\n\nYour final grade will be based on two exams, worth 30% each, and a research paper worth 40%. The paper should be approximately 3,000 words and is due on the last day of classes. Any questions so far?",
+    "transcript": "Good afternoon, everyone. Welcome to Psychology 101. Today, I'd like to give you an overview of what we'll be covering this semester. We'll begin by looking at the history of psychology as a scientific discipline, starting with Wilhelm Wundt's laboratory in Leipzig in 1879.\n\nThen we'll move on to the major schools of thought: behaviorism, which focuses on observable behavior rather than internal mental states; psychoanalysis, founded by Sigmund Freud, which emphasizes the role of the unconscious mind; and cognitive psychology, which emerged in the 1950s and studies mental processes like memory, perception, and problem-solving.\n\nIn the second half of the semester, we'll examine more applied topics, including developmental psychology - how we change throughout our lives - and abnormal psychology, which looks at mental disorders and their treatment.\n\nYour final grade will be based on two exams, worth 30% each, and a research paper worth 40%. The paper should be approximately 3,000 words and is due on the last day of classes. Any questions so far?",
+    "level": "b1",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "When was the first psychology laboratory established?",
+        "options": ["1859", "1879", "1899", "1919"],
+        "correct": 1
+      },
+      {
+        "question": "What does behaviorism focus on?",
+        "options": ["Dreams and fantasies", "Observable behavior", "Childhood memories", "Spiritual experiences"],
+        "correct": 1
+      },
+      {
+        "question": "Who founded psychoanalysis?",
+        "options": ["Wilhelm Wundt", "Carl Jung", "Sigmund Freud", "B.F. Skinner"],
+        "correct": 2
+      },
+      {
+        "question": "How much is the research paper worth?",
+        "options": ["20%", "30%", "40%", "50%"],
+        "correct": 2
+      },
+      {
+        "question": "How long should the research paper be?",
+        "options": ["1,000 words", "2,000 words", "3,000 words", "5,000 words"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "en_listening_9",
+    "title": "Business Podcast: Leadership Strategies",
+    "text": "Today on the Business Insights podcast, we're talking about effective leadership in the modern workplace. I'm joined by Dr. Amanda Chen, author of 'Leading with Empathy.'\n\nDr. Chen, what's the biggest mistake you see new managers make?\n\nWell, the most common error is micromanaging. New leaders often feel they need to control every detail to prove their competence. But this actually undermines team morale and prevents employees from developing their own skills. The best managers set clear expectations, provide resources, and then step back to let their team work.\n\nAnother critical issue is communication. Many managers talk but don't listen. Effective leaders make time for one-on-one conversations, ask for feedback, and actually act on what they hear. It's not enough to have an open-door policy if you dismiss every concern that comes through it.\n\nI'd also emphasize the importance of acknowledging mistakes. Leaders who pretend to be perfect actually lose credibility. When you admit an error and explain what you've learned, it creates a culture where innovation is possible because people aren't afraid to fail.\n\nFinally, remember that leadership isn't about you - it's about enabling others to succeed. Your job is to remove obstacles, provide coaching, and celebrate your team's achievements.",
+    "transcript": "Today on the Business Insights podcast, we're talking about effective leadership in the modern workplace. I'm joined by Dr. Amanda Chen, author of 'Leading with Empathy.'\n\nDr. Chen, what's the biggest mistake you see new managers make?\n\nWell, the most common error is micromanaging. New leaders often feel they need to control every detail to prove their competence. But this actually undermines team morale and prevents employees from developing their own skills. The best managers set clear expectations, provide resources, and then step back to let their team work.\n\nAnother critical issue is communication. Many managers talk but don't listen. Effective leaders make time for one-on-one conversations, ask for feedback, and actually act on what they hear. It's not enough to have an open-door policy if you dismiss every concern that comes through it.\n\nI'd also emphasize the importance of acknowledging mistakes. Leaders who pretend to be perfect actually lose credibility. When you admit an error and explain what you've learned, it creates a culture where innovation is possible because people aren't afraid to fail.\n\nFinally, remember that leadership isn't about you - it's about enabling others to succeed. Your job is to remove obstacles, provide coaching, and celebrate your team's achievements.",
+    "level": "b2",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "What is the title of Dr. Chen's book?",
+        "options": ["Managing with Authority", "Leading with Empathy", "The Perfect Manager", "Business Success Strategies"],
+        "correct": 1
+      },
+      {
+        "question": "According to Dr. Chen, what is the most common mistake new managers make?",
+        "options": ["Being too friendly", "Micromanaging", "Delegating too much", "Working too many hours"],
+        "correct": 1
+      },
+      {
+        "question": "What does micromanaging do according to the podcast?",
+        "options": ["Improves efficiency", "Undermines team morale", "Increases productivity", "Helps new employees"],
+        "correct": 1
+      },
+      {
+        "question": "What does Dr. Chen say about leaders who pretend to be perfect?",
+        "options": ["They are more respected", "They lose credibility", "They get promoted faster", "They have better teams"],
+        "correct": 1
+      },
+      {
+        "question": "According to the podcast, leadership is about what?",
+        "options": ["Personal success", "Controlling others", "Enabling others to succeed", "Avoiding mistakes"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "en_listening_10",
+    "title": "Documentary: Climate Change",
+    "text": "The evidence is now irrefutable: our planet is warming at an unprecedented rate. Over the past century, global average temperatures have risen by approximately 1.1 degrees Celsius, with most of this warming occurring in the last 40 years. While this may seem like a small change, its effects are profound and far-reaching.\n\nGlaciers that have existed for thousands of years are retreating. Arctic sea ice is diminishing at a rate of approximately 13% per decade. Sea levels have risen by about 20 centimeters since 1880, and the rate of rise is accelerating. These changes threaten coastal communities worldwide, from Miami to Mumbai.\n\nBut it's not too late to act. The Paris Agreement of 2015 committed 196 nations to limiting warming to 1.5 degrees Celsius above pre-industrial levels. Achieving this goal requires reducing global carbon emissions by 45% by 2030 and reaching net zero by 2050.\n\nThe transition to renewable energy is already underway. Solar power costs have dropped by 90% since 2010, making it cheaper than coal in most of the world. Electric vehicles are becoming mainstream, and many countries are phasing out internal combustion engines entirely.\n\nThe choices we make in this decade will determine the future of life on Earth for centuries to come.",
+    "transcript": "The evidence is now irrefutable: our planet is warming at an unprecedented rate. Over the past century, global average temperatures have risen by approximately 1.1 degrees Celsius, with most of this warming occurring in the last 40 years. While this may seem like a small change, its effects are profound and far-reaching.\n\nGlaciers that have existed for thousands of years are retreating. Arctic sea ice is diminishing at a rate of approximately 13% per decade. Sea levels have risen by about 20 centimeters since 1880, and the rate of rise is accelerating. These changes threaten coastal communities worldwide, from Miami to Mumbai.\n\nBut it's not too late to act. The Paris Agreement of 2015 committed 196 nations to limiting warming to 1.5 degrees Celsius above pre-industrial levels. Achieving this goal requires reducing global carbon emissions by 45% by 2030 and reaching net zero by 2050.\n\nThe transition to renewable energy is already underway. Solar power costs have dropped by 90% since 2010, making it cheaper than coal in most of the world. Electric vehicles are becoming mainstream, and many countries are phasing out internal combustion engines entirely.\n\nThe choices we make in this decade will determine the future of life on Earth for centuries to come.",
+    "level": "b2",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "How much have global average temperatures risen over the past century?",
+        "options": ["0.5 degrees Celsius", "1.1 degrees Celsius", "2.5 degrees Celsius", "3.0 degrees Celsius"],
+        "correct": 1
+      },
+      {
+        "question": "At what rate is Arctic sea ice diminishing?",
+        "options": ["5% per decade", "10% per decade", "13% per decade", "20% per decade"],
+        "correct": 2
+      },
+      {
+        "question": "What temperature limit did the Paris Agreement set?",
+        "options": ["1.0 degrees Celsius", "1.5 degrees Celsius", "2.0 degrees Celsius", "2.5 degrees Celsius"],
+        "correct": 1
+      },
+      {
+        "question": "By how much have solar power costs dropped since 2010?",
+        "options": ["50%", "70%", "80%", "90%"],
+        "correct": 3
+      },
+      {
+        "question": "When must the world reach net zero emissions according to the documentary?",
+        "options": ["2030", "2040", "2050", "2060"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "en_listening_11",
+    "title": "Academic Seminar: The Digital Humanities",
+    "text": "Thank you for attending today's seminar on the digital humanities. This field, which has grown exponentially over the past two decades, represents a fundamental transformation in how we approach humanistic inquiry.\n\nAt its core, the digital humanities involves applying computational methods to traditional humanities disciplines: literature, history, philosophy, and the arts. But it's not merely about digitizing texts or creating databases. It's about asking entirely new questions that weren't possible before.\n\nConsider the work of Franco Moretti, who coined the term 'distant reading.' Rather than close analysis of individual texts - the traditional literary approach - Moretti uses computational analysis to examine thousands of novels simultaneously, revealing patterns invisible to any individual reader. His work on the evolution of novel titles, for instance, tracked changes across 7,000 British novels over two centuries.\n\nThe implications for historical research are equally significant. Network analysis can map relationships between historical figures at scales impossible for traditional methods. Text mining can identify linguistic patterns across millions of documents, revealing cultural shifts that unfolded over generations.\n\nYet digital humanities is not without its critics. Some argue that quantitative methods strip away the nuance and context essential to humanistic understanding. Others point to the 'black box' problem - complex algorithms whose workings we cannot fully interpret. These are legitimate concerns that practitioners must address.\n\nThe field is not a replacement for traditional humanities but an expansion of our methodological toolkit.",
+    "transcript": "Thank you for attending today's seminar on the digital humanities. This field, which has grown exponentially over the past two decades, represents a fundamental transformation in how we approach humanistic inquiry.\n\nAt its core, the digital humanities involves applying computational methods to traditional humanities disciplines: literature, history, philosophy, and the arts. But it's not merely about digitizing texts or creating databases. It's about asking entirely new questions that weren't possible before.\n\nConsider the work of Franco Moretti, who coined the term 'distant reading.' Rather than close analysis of individual texts - the traditional literary approach - Moretti uses computational analysis to examine thousands of novels simultaneously, revealing patterns invisible to any individual reader. His work on the evolution of novel titles, for instance, tracked changes across 7,000 British novels over two centuries.\n\nThe implications for historical research are equally significant. Network analysis can map relationships between historical figures at scales impossible for traditional methods. Text mining can identify linguistic patterns across millions of documents, revealing cultural shifts that unfolded over generations.\n\nYet digital humanities is not without its critics. Some argue that quantitative methods strip away the nuance and context essential to humanistic understanding. Others point to the 'black box' problem - complex algorithms whose workings we cannot fully interpret. These are legitimate concerns that practitioners must address.\n\nThe field is not a replacement for traditional humanities but an expansion of our methodological toolkit.",
+    "level": "c1",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "What does the digital humanities primarily involve?",
+        "options": ["Building websites", "Applying computational methods to humanities disciplines", "Teaching computer science", "Creating digital art"],
+        "correct": 1
+      },
+      {
+        "question": "Who coined the term 'distant reading'?",
+        "options": ["Edward Said", "Franco Moretti", "Jacques Derrida", "Michel Foucault"],
+        "correct": 1
+      },
+      {
+        "question": "How many British novels did Moretti's study of titles analyze?",
+        "options": ["700", "2,000", "7,000", "70,000"],
+        "correct": 2
+      },
+      {
+        "question": "What is the 'black box' problem mentioned in the lecture?",
+        "options": ["Data storage issues", "Complex algorithms we cannot fully interpret", "Broken computers", "Lost manuscripts"],
+        "correct": 1
+      },
+      {
+        "question": "According to the speaker, what is the digital humanities?",
+        "options": ["A replacement for traditional humanities", "An expansion of our methodological toolkit", "A passing fad", "Only for scientists"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en_listening_12",
+    "title": "TED Talk: The Science of Habit Formation",
+    "text": "What if I told you that up to 40% of your daily actions aren't actually decisions at all? They're habits - automatic behaviors triggered by cues in your environment. Understanding how habits work can transform your life.\n\nEvery habit consists of three components: the cue, the routine, and the reward. The cue is a trigger that tells your brain to go into automatic mode. The routine is the behavior itself. And the reward is what helps your brain decide if this loop is worth remembering.\n\nTake a simple example: feeling stressed at work. The stress is your cue. Maybe your routine is to walk to the vending machine and buy a chocolate bar. The reward is a temporary reduction in stress and a sugar rush. Over time, your brain links stress with chocolate, and the behavior becomes automatic.\n\nThe key insight from neuroscience is that you can't simply eliminate a habit. The cue and the craving for the reward remain. Instead, you must substitute a new routine that delivers a similar reward. Feel stressed? What if you walked to a colleague's desk for a brief chat instead? The social connection might satisfy the same underlying need.\n\nResearchers at MIT found that habits emerge because the brain is constantly looking for ways to save effort. When a behavior becomes automatic, the brain can essentially go on autopilot, freeing up mental resources for other tasks. This is why habits are so hard to break - they're literally wired into our neural pathways.\n\nBut here's the good news: the same mechanisms that make bad habits sticky can be harnessed to build good ones.",
+    "transcript": "What if I told you that up to 40% of your daily actions aren't actually decisions at all? They're habits - automatic behaviors triggered by cues in your environment. Understanding how habits work can transform your life.\n\nEvery habit consists of three components: the cue, the routine, and the reward. The cue is a trigger that tells your brain to go into automatic mode. The routine is the behavior itself. And the reward is what helps your brain decide if this loop is worth remembering.\n\nTake a simple example: feeling stressed at work. The stress is your cue. Maybe your routine is to walk to the vending machine and buy a chocolate bar. The reward is a temporary reduction in stress and a sugar rush. Over time, your brain links stress with chocolate, and the behavior becomes automatic.\n\nThe key insight from neuroscience is that you can't simply eliminate a habit. The cue and the craving for the reward remain. Instead, you must substitute a new routine that delivers a similar reward. Feel stressed? What if you walked to a colleague's desk for a brief chat instead? The social connection might satisfy the same underlying need.\n\nResearchers at MIT found that habits emerge because the brain is constantly looking for ways to save effort. When a behavior becomes automatic, the brain can essentially go on autopilot, freeing up mental resources for other tasks. This is why habits are so hard to break - they're literally wired into our neural pathways.\n\nBut here's the good news: the same mechanisms that make bad habits sticky can be harnessed to build good ones.",
+    "level": "c1",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "What percentage of daily actions may be habits rather than decisions?",
+        "options": ["Up to 20%", "Up to 30%", "Up to 40%", "Up to 50%"],
+        "correct": 2
+      },
+      {
+        "question": "What are the three components of a habit?",
+        "options": ["Start, middle, end", "Cue, routine, reward", "Thought, action, consequence", "Trigger, response, result"],
+        "correct": 1
+      },
+      {
+        "question": "According to the speaker, can you simply eliminate a habit?",
+        "options": ["Yes, easily", "No, you must substitute a new routine", "Only with medication", "Only with therapy"],
+        "correct": 1
+      },
+      {
+        "question": "Why does the brain create habits according to MIT researchers?",
+        "options": ["For entertainment", "To save effort", "For social bonding", "To process emotions"],
+        "correct": 1
+      },
+      {
+        "question": "What is the 'good news' the speaker mentions at the end?",
+        "options": ["Habits don't really matter", "You can take a pill to change habits", "The same mechanisms can be used to build good habits", "Scientists have eliminated all bad habits"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "en_listening_13",
+    "title": "Debate: Should Social Media Be Regulated?",
+    "text": "Moderator: Welcome to tonight's debate on social media regulation. Let's hear opening statements from our panelists.\n\nDr. Richards: Thank you. The case for regulation is, I believe, overwhelming. Social media platforms have demonstrated a systematic inability to self-govern. They've amplified misinformation, facilitated the erosion of democratic norms, and exacerbated mental health crises, particularly among adolescents. Study after study shows correlations between heavy social media use and depression, anxiety, and body image disorders. These companies optimize for engagement, not well-being, and engagement is often maximized by content that provokes outrage or exploits insecurities.\n\nMr. Thornton: With respect to my colleague, the cure may be worse than the disease. Government regulation of speech - and make no mistake, that's what we're discussing - raises profound constitutional concerns. Who decides what constitutes 'misinformation'? Throughout history, inconvenient truths have been labeled as dangerous falsehoods by those in power. Moreover, the pace of technological change far exceeds the speed at which legislation can adapt. Any regulatory framework will be obsolete before it's implemented.\n\nDr. Richards: But we regulate broadcast media, pharmaceutical companies, food products. The 'free market' argument ignores the externalities these platforms impose on society. Their algorithms are not neutral.\n\nMr. Thornton: The analogy to broadcast media fails because bandwidth was scarce. The internet is not. And users choose to be on these platforms - they're not captive audiences.",
+    "transcript": "Moderator: Welcome to tonight's debate on social media regulation. Let's hear opening statements from our panelists.\n\nDr. Richards: Thank you. The case for regulation is, I believe, overwhelming. Social media platforms have demonstrated a systematic inability to self-govern. They've amplified misinformation, facilitated the erosion of democratic norms, and exacerbated mental health crises, particularly among adolescents. Study after study shows correlations between heavy social media use and depression, anxiety, and body image disorders. These companies optimize for engagement, not well-being, and engagement is often maximized by content that provokes outrage or exploits insecurities.\n\nMr. Thornton: With respect to my colleague, the cure may be worse than the disease. Government regulation of speech - and make no mistake, that's what we're discussing - raises profound constitutional concerns. Who decides what constitutes 'misinformation'? Throughout history, inconvenient truths have been labeled as dangerous falsehoods by those in power. Moreover, the pace of technological change far exceeds the speed at which legislation can adapt. Any regulatory framework will be obsolete before it's implemented.\n\nDr. Richards: But we regulate broadcast media, pharmaceutical companies, food products. The 'free market' argument ignores the externalities these platforms impose on society. Their algorithms are not neutral.\n\nMr. Thornton: The analogy to broadcast media fails because bandwidth was scarce. The internet is not. And users choose to be on these platforms - they're not captive audiences.",
+    "level": "c2",
+    "audioUrl": "",
+    "questions": [
+      {
+        "question": "According to Dr. Richards, what do social media companies optimize for?",
+        "options": ["User privacy", "Engagement, not well-being", "Educational content", "Accurate information"],
+        "correct": 1
+      },
+      {
+        "question": "What constitutional concern does Mr. Thornton raise?",
+        "options": ["Property rights", "Government regulation of speech", "Tax implications", "Voting rights"],
+        "correct": 1
+      },
+      {
+        "question": "What does Mr. Thornton say about the pace of technological change?",
+        "options": ["It's slowing down", "It exceeds the speed of legislation", "It can be controlled", "It's irrelevant to the debate"],
+        "correct": 1
+      },
+      {
+        "question": "What analogy does Dr. Richards make about regulation?",
+        "options": ["Banks and insurance", "Broadcast media, pharmaceuticals, food products", "Schools and hospitals", "Military and police"],
+        "correct": 1
+      },
+      {
+        "question": "Why does Mr. Thornton say the broadcast media analogy fails?",
+        "options": ["Broadcast media isn't regulated", "Bandwidth was scarce; the internet is not", "The internet is exactly like TV", "There were no regulations then"],
+        "correct": 1
+      }
+    ]
+  }
+]

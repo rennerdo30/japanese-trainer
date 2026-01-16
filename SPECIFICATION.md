@@ -793,6 +793,462 @@ npm run deploy
 
 ---
 
+---
+
+## Supported Proficiency Levels
+
+**IMPORTANT: Full proficiency range support from beginner to mastery.**
+
+The application supports complete proficiency level ranges for all languages - from absolute beginner to near-native fluency. Content should be created for ALL levels, not just beginner levels.
+
+### Level Frameworks by Language
+
+| Language | Framework | Levels | Range |
+|----------|-----------|--------|-------|
+| Japanese | JLPT | N5 → N4 → N3 → N2 → N1 | Beginner → Proficiency |
+| Korean | TOPIK | TOPIK1 → TOPIK2 → TOPIK3 → TOPIK4 → TOPIK5 → TOPIK6 | Beginner → Proficiency |
+| Chinese | HSK | HSK1 → HSK2 → HSK3 → HSK4 → HSK5 → HSK6 | Beginner → Proficiency |
+| Spanish | CEFR | A1 → A2 → B1 → B2 → C1 → C2 | Beginner → Proficiency |
+| German | CEFR | A1 → A2 → B1 → B2 → C1 → C2 | Beginner → Proficiency |
+| Italian | CEFR | A1 → A2 → B1 → B2 → C1 → C2 | Beginner → Proficiency |
+| English | CEFR | A1 → A2 → B1 → B2 → C1 → C2 | Beginner → Proficiency |
+
+### Level Descriptions
+
+**CEFR (Common European Framework)**
+- **A1** - Beginner: Basic phrases, simple interactions
+- **A2** - Elementary: Routine tasks, simple descriptions
+- **B1** - Intermediate: Main points, travel situations, personal topics
+- **B2** - Upper-Intermediate: Complex texts, fluent interaction
+- **C1** - Advanced: Demanding texts, implicit meaning, flexible language use
+- **C2** - Proficiency: Near-native, nuanced expression, complex academic/professional contexts
+
+**JLPT (Japanese Language Proficiency Test)**
+- **N5** - Beginner: Hiragana, katakana, basic kanji (~100), basic grammar
+- **N4** - Elementary: ~300 kanji, basic conversations
+- **N3** - Intermediate: ~650 kanji, everyday situations
+- **N2** - Upper-Intermediate: ~1000 kanji, newspapers, complex texts
+- **N1** - Advanced: ~2000 kanji, nuanced Japanese, academic/business contexts
+
+**HSK (Hanyu Shuiping Kaoshi)**
+- **HSK1-2** - Beginner: Basic vocabulary and grammar
+- **HSK3-4** - Intermediate: Daily communication, travel
+- **HSK5-6** - Advanced: News, academic texts, professional contexts
+
+**TOPIK (Test of Proficiency in Korean)**
+- **TOPIK I (1-2)** - Beginner to Elementary
+- **TOPIK II (3-6)** - Intermediate to Advanced/Proficiency
+
+### Content Requirements
+
+All module data (vocabulary, grammar, reading, listening) MUST include content across the full level range:
+
+```json
+// Example vocabulary item with level
+{
+  "id": "es-vocab-42",
+  "word": "imprescindible",
+  "meaning": "essential, indispensable",
+  "level": "C1"  // Must cover A1 through C2
+}
+```
+
+---
+
+## Multi-Language Theme System
+
+### Design Philosophy
+
+**Each language has its own distinct visual identity** that creates an immersive, culturally-authentic learning experience. When a user selects a target language, the entire app transforms to reflect that language's cultural aesthetics.
+
+**Key Principles:**
+1. **Cultural Authenticity** - Colors, typography, and visual elements inspired by the target culture
+2. **Immersive Learning** - Help learners feel connected to the language they're studying
+3. **Consistent UX** - Same interaction patterns, different visual treatment
+4. **Accessibility First** - All themes maintain WCAG 2.1 AA contrast ratios
+
+---
+
+### Japanese (日本語) - "Zen Garden" Theme
+
+**Current Implementation** - The default theme.
+
+**Color Palette:**
+```css
+--bg-primary: #0f0f1a;        /* Deep indigo-black (yoru - night) */
+--bg-secondary: #1a1a2e;      /* Dark blue-purple */
+--bg-card: #16162a;           /* Card background */
+--text-primary: #f5f0e8;      /* Warm off-white (washi paper) */
+--text-secondary: #a0a0b0;    /* Muted gray */
+--accent-primary: #c41e3a;    /* Traditional vermillion (aka) */
+--accent-secondary: #d4a574;  /* Warm gold (kin) */
+--accent-tertiary: #2d5a4a;   /* Deep forest green (matcha) */
+--success: #4a9d7c;           /* Jade green */
+--error: #c41e3a;             /* Vermillion red */
+```
+
+**Typography:**
+- Primary: `'Zen Kaku Gothic New'` - Japanese-style sans-serif
+- Secondary: `'Crimson Pro'` - Elegant serif for subtitles
+
+**Visual Elements:**
+- Background decoration: Floating kanji "学" (manabu - to learn)
+- Subtle paper texture overlays
+- Soft shadows, rounded corners
+- Animations: Gentle floating, graceful transitions
+
+**Cultural Inspiration:**
+- Traditional Japanese aesthetics (wabi-sabi)
+- Calligraphy and brush strokes
+- Temple architecture colors
+- Night garden atmosphere
+
+---
+
+### Spanish (Español) - "Sol y Sombra" Theme
+
+**Theme Concept:** Warm Mediterranean energy meets passionate Spanish culture.
+
+**Color Palette:**
+```css
+--bg-primary: #1a0f0a;        /* Deep warm brown (tierra) */
+--bg-secondary: #2a1810;      /* Dark terracotta */
+--bg-card: #251512;           /* Card background */
+--text-primary: #fff8e7;      /* Warm cream (crema) */
+--text-secondary: #c4a882;    /* Sandy beige */
+--accent-primary: #e63946;    /* Vibrant red (rojo) */
+--accent-secondary: #f4a261;  /* Warm orange (naranja) */
+--accent-tertiary: #e9c46a;   /* Golden yellow (amarillo) */
+--success: #2a9d8f;           /* Teal green */
+--error: #e63946;             /* Spanish red */
+```
+
+**Typography:**
+- Primary: `'Playfair Display'` - Elegant serif with Spanish flair
+- Secondary: `'Source Sans Pro'` - Clean, readable sans-serif
+
+**Visual Elements:**
+- Background decoration: "Ñ" or stylized sun motif
+- Decorative tile patterns (azulejo-inspired borders)
+- Warm, earthy shadows
+- Animations: Energetic but smooth, flamenco-inspired rhythms
+
+**Cultural Inspiration:**
+- Spanish tiles and Moorish architecture
+- Warm Mediterranean sunlight
+- Flamenco passion and energy
+- Terracotta and whitewashed walls
+
+---
+
+### German (Deutsch) - "Schwarzwald" Theme
+
+**Theme Concept:** Bauhaus precision meets Black Forest mystique.
+
+**Color Palette:**
+```css
+--bg-primary: #0d1117;        /* Deep forest black */
+--bg-secondary: #161b22;      /* Dark pine */
+--bg-card: #1c2128;           /* Card background */
+--text-primary: #e6edf3;      /* Cool white (schnee) */
+--text-secondary: #8b949e;    /* Stone gray */
+--accent-primary: #d4af37;    /* Prussian gold */
+--accent-secondary: #4a7c59;  /* Forest green (wald) */
+--accent-tertiary: #8b0000;   /* Deep burgundy */
+--success: #3fb950;           /* Bright green */
+--error: #f85149;             /* Alert red */
+```
+
+**Typography:**
+- Primary: `'Fira Sans'` - German-designed, precise sans-serif
+- Secondary: `'Merriweather'` - Sturdy serif for headings
+
+**Visual Elements:**
+- Background decoration: "ß" or geometric Bauhaus pattern
+- Clean lines and precise spacing
+- Minimal but purposeful decoration
+- Animations: Precise, mechanical, efficient
+
+**Cultural Inspiration:**
+- Bauhaus design principles
+- German engineering precision
+- Black Forest mystique
+- Gothic architecture elements
+
+---
+
+### English - "Oxford Library" Theme
+
+**Theme Concept:** Classic British scholarly elegance.
+
+**Color Palette:**
+```css
+--bg-primary: #1a1a2e;        /* Deep navy blue */
+--bg-secondary: #232342;      /* Royal blue-gray */
+--bg-card: #2a2a4a;           /* Card background */
+--text-primary: #f0ead6;      /* Parchment cream */
+--text-secondary: #9a9ab8;    /* Lavender gray */
+--accent-primary: #c9a227;    /* Royal gold */
+--accent-secondary: #b8860b;  /* Dark goldenrod */
+--accent-tertiary: #4169e1;   /* Royal blue */
+--success: #228b22;           /* Forest green */
+--error: #dc143c;             /* Crimson */
+```
+
+**Typography:**
+- Primary: `'Libre Baskerville'` - Classic English serif
+- Secondary: `'Open Sans'` - Modern, readable sans-serif
+
+**Visual Elements:**
+- Background decoration: Crown motif or "Æ" letter
+- Subtle book spine patterns
+- Leather texture hints
+- Animations: Page turn effects, scholarly pace
+
+**Cultural Inspiration:**
+- Oxford/Cambridge libraries
+- Victorian book design
+- British royal colors
+- Classic English literature
+
+---
+
+### Italian (Italiano) - "Rinascimento" Theme
+
+**Theme Concept:** Renaissance elegance meets Tuscan warmth.
+
+**Color Palette:**
+```css
+--bg-primary: #1a1410;        /* Deep umber */
+--bg-secondary: #2a2018;      /* Tuscan brown */
+--bg-card: #352a20;           /* Card background */
+--text-primary: #faf3e0;      /* Marble white (marmo) */
+--text-secondary: #c4b59d;    /* Travertine */
+--accent-primary: #c41e3a;    /* Ferrari red (rosso) */
+--accent-secondary: #d4a574;  /* Tuscan gold */
+--accent-tertiary: #2e5339;   /* Cypress green (cipresso) */
+--success: #3d8b40;           /* Italian green */
+--error: #c41e3a;             /* Italian red */
+```
+
+**Typography:**
+- Primary: `'Cormorant Garamond'` - Renaissance-inspired serif
+- Secondary: `'Lato'` - Clean, Italian modernism
+
+**Visual Elements:**
+- Background decoration: Renaissance flourish or architectural column
+- Subtle marble texture overlays
+- Renaissance frame borders
+- Animations: Graceful, artistic, operatic
+
+**Cultural Inspiration:**
+- Renaissance art and architecture
+- Florentine elegance
+- Tuscan countryside
+- Italian fashion and design
+
+---
+
+### Korean (한국어) - "Hanok" Theme
+
+**Theme Concept:** Traditional Korean elegance meets modern K-culture energy.
+
+**Color Palette:**
+```css
+--bg-primary: #0f1419;        /* Deep charcoal (숯) */
+--bg-secondary: #1a2027;      /* Dark slate */
+--bg-card: #1e262f;           /* Card background */
+--text-primary: #ffffff;      /* Pure white (백) */
+--text-secondary: #8899a6;    /* Celadon gray */
+--accent-primary: #e91e63;    /* Vibrant pink (분홍) - K-pop */
+--accent-secondary: #00bcd4;  /* Cyan blue (청록) */
+--accent-tertiary: #9c27b0;   /* Purple (보라) */
+--success: #4caf50;           /* Fresh green */
+--error: #f44336;             /* Bright red */
+```
+
+**Typography:**
+- Primary: `'Noto Sans KR'` - Modern Korean sans-serif
+- Secondary: `'Nanum Gothic'` - Traditional Korean web font
+
+**Visual Elements:**
+- Background decoration: "한" (han) or taegeuk motif
+- Hanbok pattern overlays
+- K-pop inspired gradients
+- Animations: Dynamic K-pop energy meets traditional grace
+
+**Cultural Inspiration:**
+- Traditional hanok architecture
+- Modern K-pop aesthetics
+- Celadon pottery colors
+- K-drama visual style
+
+---
+
+### Chinese (中文) - "Silk Road" Theme
+
+**Theme Concept:** Imperial Chinese luxury meets ancient wisdom.
+
+**Color Palette:**
+```css
+--bg-primary: #1a0a0a;        /* Deep lacquer red-black */
+--bg-secondary: #2a1515;      /* Dark cinnabar */
+--bg-card: #251818;           /* Card background */
+--text-primary: #fff5e6;      /* Silk white (丝白) */
+--text-secondary: #c9a86c;    /* Antique gold */
+--accent-primary: #c41e3a;    /* Imperial red (朱红) */
+--accent-secondary: #ffd700;  /* Imperial gold (金) */
+--accent-tertiary: #006400;   /* Jade green (玉绿) */
+--success: #228b22;           /* Prosperity green */
+--error: #dc143c;             /* Lucky red */
+```
+
+**Typography:**
+- Primary: `'Noto Sans SC'` - Clean simplified Chinese
+- Secondary: `'ZCOOL XiaoWei'` - Elegant Chinese display font
+
+**Visual Elements:**
+- Background decoration: "学" (xué - study) or cloud pattern (祥云)
+- Subtle silk wave patterns
+- Chinese cloud motifs
+- Animations: Flowing like silk, tai chi inspired
+
+**Cultural Inspiration:**
+- Imperial Chinese aesthetics
+- Silk Road luxury
+- Chinese calligraphy
+- Forbidden City architecture
+
+---
+
+### Theme Implementation
+
+#### CSS Variables Structure
+
+Each theme overrides CSS custom properties on the root element:
+
+```css
+[data-theme="japanese"] {
+  --bg-primary: #0f0f1a;
+  --accent-primary: #c41e3a;
+  --font-primary: 'Zen Kaku Gothic New', sans-serif;
+  --bg-decoration: "学";
+  /* ... all theme variables */
+}
+
+[data-theme="spanish"] {
+  --bg-primary: #1a0f0a;
+  --accent-primary: #e63946;
+  --font-primary: 'Playfair Display', serif;
+  --bg-decoration: "Ñ";
+  /* ... all theme variables */
+}
+```
+
+#### Theme Provider Integration
+
+The theme automatically switches when the target language changes:
+
+```typescript
+// In useTargetLanguage hook
+useEffect(() => {
+  document.documentElement.setAttribute('data-theme', targetLanguage);
+}, [targetLanguage]);
+```
+
+#### Background Decoration Component
+
+The floating background character changes per language:
+
+```typescript
+const BACKGROUND_DECORATIONS = {
+  ja: '学',  // "learn" in Japanese
+  es: 'Ñ',   // Distinctive Spanish letter
+  de: 'ß',   // Distinctive German letter
+  en: 'A',   // Classic English
+  it: '&',   // Italian ampersand flourish
+  ko: '한',  // "han" in Korean
+  zh: '学',  // "learn" in Chinese
+};
+```
+
+#### Font Loading Strategy
+
+Load language-specific fonts on demand:
+
+```typescript
+const THEME_FONTS = {
+  ja: ['Zen Kaku Gothic New', 'Crimson Pro'],
+  es: ['Playfair Display', 'Source Sans Pro'],
+  de: ['Fira Sans', 'Merriweather'],
+  en: ['Libre Baskerville', 'Open Sans'],
+  it: ['Cormorant Garamond', 'Lato'],
+  ko: ['Noto Sans KR', 'Nanum Gothic'],
+  zh: ['Noto Sans SC', 'ZCOOL XiaoWei'],
+};
+```
+
+#### Transition Effects
+
+Smooth 300ms transition when switching themes:
+
+```css
+:root {
+  transition: background-color 0.3s ease,
+              color 0.3s ease;
+}
+```
+
+---
+
+### Theme File Structure
+
+```
+src/
+├── styles/
+│   ├── themes/
+│   │   ├── japanese.css    /* Zen Garden */
+│   │   ├── spanish.css     /* Sol y Sombra */
+│   │   ├── german.css      /* Schwarzwald */
+│   │   ├── english.css     /* Oxford Library */
+│   │   ├── italian.css     /* Rinascimento */
+│   │   ├── korean.css      /* Hanok */
+│   │   └── chinese.css     /* Silk Road */
+│   └── globals.css         /* Base styles + theme switching */
+├── context/
+│   └── ThemeProvider.tsx   /* Theme context */
+└── hooks/
+    └── useTheme.ts         /* Theme utilities */
+```
+
+---
+
+### Accessibility Requirements
+
+All themes MUST maintain:
+
+- **WCAG 2.1 AA compliance** for color contrast
+- **Minimum 4.5:1** contrast ratio for normal text
+- **Minimum 3:1** contrast ratio for large text and UI components
+- **Focus indicators** visible in all themes
+- **Reduced motion** option respected
+
+---
+
+### Testing Checklist Per Theme
+
+- [ ] All text readable at minimum contrast ratios
+- [ ] Buttons and interactive elements clearly visible
+- [ ] Success/error states distinguishable
+- [ ] Theme persists across page navigation
+- [ ] Smooth transition when switching languages
+- [ ] Background decoration renders correctly
+- [ ] Fonts load without FOUT (flash of unstyled text)
+- [ ] Mobile responsive at all breakpoints
+- [ ] Dark mode consistency maintained
+
+---
+
 ## License & Credits
 
 **Project**: Open source (specify license)

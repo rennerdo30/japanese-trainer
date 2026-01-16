@@ -1,0 +1,807 @@
+[
+  {
+    "id": "ko-grammar-1",
+    "title": "이에요/예요 (to be)",
+    "level": "TOPIK1",
+    "explanation": "이에요/예요 is the polite copula meaning 'to be'. Use 이에요 after consonants and 예요 after vowels.",
+    "examples": [
+      {
+        "korean": "저는 학생이에요",
+        "english": "I am a student"
+      },
+      {
+        "korean": "이것은 책이에요",
+        "english": "This is a book"
+      },
+      {
+        "korean": "제 친구예요",
+        "english": "It's my friend"
+      }
+    ],
+    "patterns": [
+      "Noun + 이에요 (after consonant)",
+      "Noun + 예요 (after vowel)"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "저는 선생님___.",
+        "options": ["이에요", "예요", "입니다"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-2",
+    "title": "은/는 (topic marker)",
+    "level": "TOPIK1",
+    "explanation": "은/는 marks the topic of a sentence. Use 은 after consonants and 는 after vowels.",
+    "examples": [
+      {
+        "korean": "저는 한국 사람이에요",
+        "english": "I am Korean"
+      },
+      {
+        "korean": "날씨는 좋아요",
+        "english": "The weather is nice"
+      }
+    ],
+    "patterns": [
+      "Noun + 은 (after consonant)",
+      "Noun + 는 (after vowel)"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "저___ 학생이에요.",
+        "options": ["은", "는", "이"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-3",
+    "title": "이/가 (subject marker)",
+    "level": "TOPIK1",
+    "explanation": "이/가 marks the subject of a sentence. Use 이 after consonants and 가 after vowels.",
+    "examples": [
+      {
+        "korean": "비가 와요",
+        "english": "It's raining"
+      },
+      {
+        "korean": "책이 있어요",
+        "english": "There is a book"
+      }
+    ],
+    "patterns": [
+      "Noun + 이 (after consonant)",
+      "Noun + 가 (after vowel)"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "물___ 있어요.",
+        "options": ["이", "가", "을"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-4",
+    "title": "을/를 (object marker)",
+    "level": "TOPIK1",
+    "explanation": "을/를 marks the direct object of a verb. Use 을 after consonants and 를 after vowels.",
+    "examples": [
+      {
+        "korean": "밥을 먹어요",
+        "english": "I eat rice"
+      },
+      {
+        "korean": "커피를 마셔요",
+        "english": "I drink coffee"
+      }
+    ],
+    "patterns": [
+      "Noun + 을 (after consonant)",
+      "Noun + 를 (after vowel)"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "책___ 읽어요.",
+        "options": ["을", "를", "이"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-5",
+    "title": "에 (location/time marker)",
+    "level": "TOPIK1",
+    "explanation": "에 indicates location (where something exists) or time (when something happens).",
+    "examples": [
+      {
+        "korean": "학교에 가요",
+        "english": "I go to school"
+      },
+      {
+        "korean": "서울에 살아요",
+        "english": "I live in Seoul"
+      },
+      {
+        "korean": "아침에 일어나요",
+        "english": "I wake up in the morning"
+      }
+    ],
+    "patterns": [
+      "Place + 에 (location)",
+      "Time + 에 (time)"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "집___ 가요.",
+        "options": ["에", "에서", "을"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-6",
+    "title": "에서 (action location marker)",
+    "level": "TOPIK1",
+    "explanation": "에서 indicates where an action takes place.",
+    "examples": [
+      {
+        "korean": "학교에서 공부해요",
+        "english": "I study at school"
+      },
+      {
+        "korean": "집에서 일해요",
+        "english": "I work at home"
+      }
+    ],
+    "patterns": [
+      "Place + 에서 + Action Verb"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "도서관___ 책을 읽어요.",
+        "options": ["에", "에서", "를"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-7",
+    "title": "아요/어요 (polite present tense)",
+    "level": "TOPIK1",
+    "explanation": "아요/어요 is the polite informal present tense ending. Use 아요 after vowels ㅏ, ㅗ and 어요 after other vowels.",
+    "examples": [
+      {
+        "korean": "가다 → 가요",
+        "english": "to go → I go"
+      },
+      {
+        "korean": "먹다 → 먹어요",
+        "english": "to eat → I eat"
+      },
+      {
+        "korean": "하다 → 해요",
+        "english": "to do → I do"
+      }
+    ],
+    "patterns": [
+      "Verb stem + 아요 (after ㅏ, ㅗ)",
+      "Verb stem + 어요 (after other vowels)",
+      "하다 → 해요"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "저는 학교에 ___.",
+        "options": ["가요", "가다", "갑니다"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-8",
+    "title": "았어요/었어요 (past tense)",
+    "level": "TOPIK1",
+    "explanation": "았어요/었어요 is the past tense ending. Use 았어요 after vowels ㅏ, ㅗ and 었어요 after other vowels.",
+    "examples": [
+      {
+        "korean": "가다 → 갔어요",
+        "english": "to go → I went"
+      },
+      {
+        "korean": "먹다 → 먹었어요",
+        "english": "to eat → I ate"
+      },
+      {
+        "korean": "하다 → 했어요",
+        "english": "to do → I did"
+      }
+    ],
+    "patterns": [
+      "Verb stem + 았어요 (after ㅏ, ㅗ)",
+      "Verb stem + 었어요 (after other vowels)",
+      "하다 → 했어요"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "어제 친구를 ___.",
+        "options": ["만나요", "만났어요", "만나다"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-9",
+    "title": "안 (negation)",
+    "level": "TOPIK1",
+    "explanation": "안 is placed before a verb or adjective to negate it (meaning 'not').",
+    "examples": [
+      {
+        "korean": "안 가요",
+        "english": "I don't go"
+      },
+      {
+        "korean": "안 먹어요",
+        "english": "I don't eat"
+      },
+      {
+        "korean": "안 좋아요",
+        "english": "It's not good"
+      }
+    ],
+    "patterns": [
+      "안 + Verb/Adjective"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "저는 고기를 ___ 먹어요.",
+        "options": ["안", "못", "없"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-10",
+    "title": "고 싶다 (want to)",
+    "level": "TOPIK1",
+    "explanation": "고 싶다 expresses desire or wish to do something.",
+    "examples": [
+      {
+        "korean": "한국에 가고 싶어요",
+        "english": "I want to go to Korea"
+      },
+      {
+        "korean": "커피를 마시고 싶어요",
+        "english": "I want to drink coffee"
+      }
+    ],
+    "patterns": [
+      "Verb stem + 고 싶어요"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "한국어를 배우___ 싶어요.",
+        "options": ["고", "를", "이"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-11",
+    "title": "~(으)면서 (while, at the same time)",
+    "level": "TOPIK3",
+    "explanation": "~(으)면서 is used to express two actions happening simultaneously by the same subject. Use 으면서 after consonants and 면서 after vowels.",
+    "examples": [
+      {
+        "korean": "음악을 들으면서 공부해요",
+        "english": "I study while listening to music"
+      },
+      {
+        "korean": "밥을 먹으면서 텔레비전을 봐요",
+        "english": "I watch TV while eating"
+      },
+      {
+        "korean": "웃으면서 말했어요",
+        "english": "He/she said it while smiling"
+      }
+    ],
+    "patterns": [
+      "Verb stem (consonant) + 으면서",
+      "Verb stem (vowel) + 면서"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "노래를 부르___ 춤을 춰요.",
+        "options": ["으면서", "면서", "고"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-12",
+    "title": "~기 때문에 (because)",
+    "level": "TOPIK3",
+    "explanation": "~기 때문에 is used to express reason or cause. It is more formal than ~(어/아)서 and emphasizes the reason.",
+    "examples": [
+      {
+        "korean": "비가 오기 때문에 우산을 가져가세요",
+        "english": "Please take an umbrella because it's raining"
+      },
+      {
+        "korean": "시간이 없기 때문에 택시를 탔어요",
+        "english": "I took a taxi because I didn't have time"
+      },
+      {
+        "korean": "건강이 중요하기 때문에 운동해요",
+        "english": "I exercise because health is important"
+      }
+    ],
+    "patterns": [
+      "Verb/Adjective stem + 기 때문에"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "너무 바쁘___ 때문에 못 갔어요.",
+        "options": ["기", "어", "니까"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-13",
+    "title": "~(으)ㄴ/는데 (background information, but)",
+    "level": "TOPIK3",
+    "explanation": "~(으)ㄴ/는데 provides background information or creates contrast. For verbs, use 는데. For adjectives, use (으)ㄴ데.",
+    "examples": [
+      {
+        "korean": "날씨가 좋은데 산책할까요?",
+        "english": "The weather is nice, shall we go for a walk?"
+      },
+      {
+        "korean": "지금 바쁜데 나중에 전화해 주세요",
+        "english": "I'm busy now, so please call me later"
+      },
+      {
+        "korean": "그 영화가 재미있는데 같이 볼래요?",
+        "english": "That movie is interesting, do you want to watch it together?"
+      }
+    ],
+    "patterns": [
+      "Verb stem + 는데",
+      "Adjective stem (consonant) + 은데",
+      "Adjective stem (vowel) + ㄴ데"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "저는 학생인___ 일도 하고 있어요.",
+        "options": ["데", "고", "면서"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-14",
+    "title": "~게 되다 (to come to, end up)",
+    "level": "TOPIK3",
+    "explanation": "~게 되다 expresses a change in state or situation that happens naturally or as a result of circumstances.",
+    "examples": [
+      {
+        "korean": "한국에 살게 되었어요",
+        "english": "I came to live in Korea"
+      },
+      {
+        "korean": "그 회사에서 일하게 됐어요",
+        "english": "I ended up working at that company"
+      },
+      {
+        "korean": "한국어를 좋아하게 됐어요",
+        "english": "I came to like Korean"
+      }
+    ],
+    "patterns": [
+      "Verb stem + 게 되다"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "한국 음식을 좋아하___ 됐어요.",
+        "options": ["게", "고", "어서"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-15",
+    "title": "~더라고요 (I noticed/realized that)",
+    "level": "TOPIK4",
+    "explanation": "~더라고요 is used to share a personal observation or realization with the listener. It indicates that the speaker personally experienced or witnessed something.",
+    "examples": [
+      {
+        "korean": "그 식당 음식이 정말 맛있더라고요",
+        "english": "I noticed that restaurant's food is really delicious"
+      },
+      {
+        "korean": "한국어가 생각보다 어렵더라고요",
+        "english": "I realized Korean is harder than I thought"
+      },
+      {
+        "korean": "그 영화가 재미있더라고요",
+        "english": "I found that movie to be interesting"
+      }
+    ],
+    "patterns": [
+      "Verb/Adjective stem + 더라고요"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "서울이 정말 넓___.",
+        "options": ["더라고요", "어요", "았어요"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-16",
+    "title": "~(으)ㄹ 뻔하다 (almost did)",
+    "level": "TOPIK4",
+    "explanation": "~(으)ㄹ 뻔하다 expresses that something almost happened but didn't. It's often used for close calls or near misses.",
+    "examples": [
+      {
+        "korean": "버스를 놓칠 뻔했어요",
+        "english": "I almost missed the bus"
+      },
+      {
+        "korean": "넘어질 뻔했어요",
+        "english": "I almost fell down"
+      },
+      {
+        "korean": "울 뻔했어요",
+        "english": "I almost cried"
+      }
+    ],
+    "patterns": [
+      "Verb stem (consonant) + 을 뻔하다",
+      "Verb stem (vowel) + ㄹ 뻔하다"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "지각할 ___했어요.",
+        "options": ["뻔", "번", "면"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-17",
+    "title": "~는 바람에 (because of, due to - unintended)",
+    "level": "TOPIK4",
+    "explanation": "~는 바람에 expresses an unintended or unexpected cause that led to a negative result. The result clause is usually negative.",
+    "examples": [
+      {
+        "korean": "비가 오는 바람에 소풍을 못 갔어요",
+        "english": "We couldn't go on the picnic because it rained"
+      },
+      {
+        "korean": "늦게 일어나는 바람에 지각했어요",
+        "english": "I was late because I woke up late"
+      },
+      {
+        "korean": "길이 막히는 바람에 약속에 늦었어요",
+        "english": "I was late to the appointment due to traffic"
+      }
+    ],
+    "patterns": [
+      "Verb stem + 는 바람에"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "전화가 오___ 바람에 집중할 수 없었어요.",
+        "options": ["는", "은", "ㄴ"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-18",
+    "title": "~(으)ㄹ 정도로 (to the extent that)",
+    "level": "TOPIK4",
+    "explanation": "~(으)ㄹ 정도로 expresses the degree or extent of something. It emphasizes how much or to what extent something is true.",
+    "examples": [
+      {
+        "korean": "목이 아플 정도로 많이 이야기했어요",
+        "english": "I talked so much that my throat hurt"
+      },
+      {
+        "korean": "눈물이 날 정도로 감동받았어요",
+        "english": "I was moved to the point of tears"
+      },
+      {
+        "korean": "걸을 수 없을 정도로 다리가 아팠어요",
+        "english": "My legs hurt to the extent that I couldn't walk"
+      }
+    ],
+    "patterns": [
+      "Verb/Adjective stem (consonant) + 을 정도로",
+      "Verb/Adjective stem (vowel) + ㄹ 정도로"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "배가 터질 ___로 많이 먹었어요.",
+        "options": ["정도", "때문", "바람"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-19",
+    "title": "~는 셈이다 (it's as if, practically)",
+    "level": "TOPIK5",
+    "explanation": "~는 셈이다 is used to express that something can be considered as equivalent to something else. It indicates an approximate calculation or assessment.",
+    "examples": [
+      {
+        "korean": "매일 운동하니까 건강한 셈이에요",
+        "english": "Since I exercise every day, I'm practically healthy"
+      },
+      {
+        "korean": "그가 다 한 셈이에요",
+        "english": "It's as if he did everything"
+      },
+      {
+        "korean": "반값에 산 셈이에요",
+        "english": "It's as if I bought it for half price"
+      }
+    ],
+    "patterns": [
+      "Verb stem + 는 셈이다 (present)",
+      "Verb stem + (으)ㄴ 셈이다 (past)"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "무료로 받은 ___이에요.",
+        "options": ["셈", "편", "탓"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-20",
+    "title": "~(으)ㄴ/는 만큼 (as much as, to the extent that)",
+    "level": "TOPIK5",
+    "explanation": "~(으)ㄴ/는 만큼 expresses proportion or degree, meaning 'as much as' or 'to the extent that'. It can also mean 'because' with an emphasis on proportionality.",
+    "examples": [
+      {
+        "korean": "노력한 만큼 결과가 좋았어요",
+        "english": "The result was as good as the effort I put in"
+      },
+      {
+        "korean": "아는 만큼 보인다",
+        "english": "You see as much as you know"
+      },
+      {
+        "korean": "기대한 만큼 좋지는 않았어요",
+        "english": "It wasn't as good as I expected"
+      }
+    ],
+    "patterns": [
+      "Verb stem + 는 만큼",
+      "Adjective stem (consonant) + 은 만큼",
+      "Adjective stem (vowel) + ㄴ 만큼"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "열심히 공부한 ___큼 성적이 올랐어요.",
+        "options": ["만", "정", "바"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-21",
+    "title": "~기는커녕 (far from, let alone)",
+    "level": "TOPIK5",
+    "explanation": "~기는커녕 expresses that not only is the first thing not true, but an even more basic or expected thing is also not true. It's used to negate something and then present an even more surprising negation.",
+    "examples": [
+      {
+        "korean": "여행은커녕 집 밖에도 못 나갔어요",
+        "english": "Far from traveling, I couldn't even leave the house"
+      },
+      {
+        "korean": "도움은커녕 방해만 됐어요",
+        "english": "Far from helping, you only interfered"
+      },
+      {
+        "korean": "감사는커녕 화를 내더라고요",
+        "english": "Far from being thankful, they got angry"
+      }
+    ],
+    "patterns": [
+      "Noun + (은/는)커녕",
+      "Verb stem + 기는커녕"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "밥은___ 물도 못 마셨어요.",
+        "options": ["커녕", "는데", "만큼"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-22",
+    "title": "~(으)ㄹ 따름이다 (only, nothing but)",
+    "level": "TOPIK5",
+    "explanation": "~(으)ㄹ 따름이다 is a formal expression meaning 'there is nothing to do but' or 'one can only'. It expresses that there is no other option or the speaker can only do a certain action.",
+    "examples": [
+      {
+        "korean": "결과를 기다릴 따름입니다",
+        "english": "I can only wait for the result"
+      },
+      {
+        "korean": "감사할 따름입니다",
+        "english": "I can only be grateful"
+      },
+      {
+        "korean": "놀랄 따름이에요",
+        "english": "I can only be surprised"
+      }
+    ],
+    "patterns": [
+      "Verb stem (consonant) + 을 따름이다",
+      "Verb stem (vowel) + ㄹ 따름이다"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "최선을 다할 ___입니다.",
+        "options": ["따름", "정도", "셈"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-23",
+    "title": "~(으)ㄴ/는 바 (the fact that - formal)",
+    "level": "TOPIK6",
+    "explanation": "~(으)ㄴ/는 바 is a formal written expression used to refer to 'the fact that' or 'what'. It is commonly found in academic writing, official documents, and formal speeches.",
+    "examples": [
+      {
+        "korean": "제가 말씀드린 바와 같이",
+        "english": "As I mentioned (the fact I stated)"
+      },
+      {
+        "korean": "조사한 바에 의하면",
+        "english": "According to what was investigated"
+      },
+      {
+        "korean": "알려진 바로는",
+        "english": "According to what is known"
+      }
+    ],
+    "patterns": [
+      "Verb stem + 는 바 (present)",
+      "Verb stem + (으)ㄴ 바 (past)"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "앞서 언급한 ___와 같이 진행하겠습니다.",
+        "options": ["바", "것", "데"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-24",
+    "title": "~(으)ㄹ진대 (given that - archaic/literary)",
+    "level": "TOPIK6",
+    "explanation": "~(으)ㄹ진대 is an archaic or literary expression meaning 'given that' or 'since'. It is primarily found in classical literature, formal writing, and sometimes proverbs.",
+    "examples": [
+      {
+        "korean": "이미 시작했을진대 끝까지 해야 한다",
+        "english": "Given that we've already started, we must see it through"
+      },
+      {
+        "korean": "살았을진대 희망은 있다",
+        "english": "Given that one is alive, there is hope"
+      }
+    ],
+    "patterns": [
+      "Verb stem (consonant) + 을진대",
+      "Verb stem (vowel) + ㄹ진대"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "약속했___진대 지켜야 한다.",
+        "options": ["을", "으면", "다면"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-25",
+    "title": "~(으)리라 (will definitely - literary)",
+    "level": "TOPIK6",
+    "explanation": "~(으)리라 is a literary future tense ending expressing strong will, determination, or prediction. It is used in formal writing, poetry, and literary works.",
+    "examples": [
+      {
+        "korean": "반드시 성공하리라 믿습니다",
+        "english": "I believe that (you) will definitely succeed"
+      },
+      {
+        "korean": "진실은 밝혀지리라",
+        "english": "The truth shall be revealed"
+      },
+      {
+        "korean": "그날이 오리라",
+        "english": "That day shall come"
+      }
+    ],
+    "patterns": [
+      "Verb stem (consonant) + 으리라",
+      "Verb stem (vowel) + 리라"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "언젠가 평화가 오___.",
+        "options": ["리라", "겠다", "을 것이다"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-26",
+    "title": "~(으)ㄹ망정 (even though, although - concessive)",
+    "level": "TOPIK6",
+    "explanation": "~(으)ㄹ망정 is an advanced concessive expression meaning 'even if' or 'although'. It emphasizes that even under the stated condition, the following clause remains true. It has a slightly literary or emphatic tone.",
+    "examples": [
+      {
+        "korean": "가난할망정 정직하게 살겠습니다",
+        "english": "Even if poor, I will live honestly"
+      },
+      {
+        "korean": "늦을망정 반드시 오겠습니다",
+        "english": "Even if late, I will definitely come"
+      },
+      {
+        "korean": "작을망정 내 집이 좋다",
+        "english": "Even if small, my home is good"
+      }
+    ],
+    "patterns": [
+      "Verb/Adjective stem (consonant) + 을망정",
+      "Verb/Adjective stem (vowel) + ㄹ망정"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "어렵___망정 포기하지 않겠습니다.",
+        "options": ["을", "으면", "지만"],
+        "correct": 0
+      }
+    ]
+  }
+]

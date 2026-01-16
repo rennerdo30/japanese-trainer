@@ -1,0 +1,242 @@
+[
+  {
+    "romaji": "g/k",
+    "character": "ㄱ",
+    "type": "consonant",
+    "name": "기역 (giyeok)"
+  },
+  {
+    "romaji": "n",
+    "character": "ㄴ",
+    "type": "consonant",
+    "name": "니은 (nieun)"
+  },
+  {
+    "romaji": "d/t",
+    "character": "ㄷ",
+    "type": "consonant",
+    "name": "디귿 (digeut)"
+  },
+  {
+    "romaji": "r/l",
+    "character": "ㄹ",
+    "type": "consonant",
+    "name": "리을 (rieul)"
+  },
+  {
+    "romaji": "m",
+    "character": "ㅁ",
+    "type": "consonant",
+    "name": "미음 (mieum)"
+  },
+  {
+    "romaji": "b/p",
+    "character": "ㅂ",
+    "type": "consonant",
+    "name": "비읍 (bieup)"
+  },
+  {
+    "romaji": "s",
+    "character": "ㅅ",
+    "type": "consonant",
+    "name": "시옷 (siot)"
+  },
+  {
+    "romaji": "ng/-",
+    "character": "ㅇ",
+    "type": "consonant",
+    "name": "이응 (ieung)"
+  },
+  {
+    "romaji": "j",
+    "character": "ㅈ",
+    "type": "consonant",
+    "name": "지읒 (jieut)"
+  },
+  {
+    "romaji": "ch",
+    "character": "ㅊ",
+    "type": "consonant",
+    "name": "치읓 (chieut)"
+  },
+  {
+    "romaji": "k",
+    "character": "ㅋ",
+    "type": "consonant",
+    "name": "키읔 (kieuk)"
+  },
+  {
+    "romaji": "t",
+    "character": "ㅌ",
+    "type": "consonant",
+    "name": "티읕 (tieut)"
+  },
+  {
+    "romaji": "p",
+    "character": "ㅍ",
+    "type": "consonant",
+    "name": "피읖 (pieup)"
+  },
+  {
+    "romaji": "h",
+    "character": "ㅎ",
+    "type": "consonant",
+    "name": "히읗 (hieut)"
+  },
+  {
+    "romaji": "a",
+    "character": "ㅏ",
+    "type": "vowel",
+    "name": "아 (a)"
+  },
+  {
+    "romaji": "ya",
+    "character": "ㅑ",
+    "type": "vowel",
+    "name": "야 (ya)"
+  },
+  {
+    "romaji": "eo",
+    "character": "ㅓ",
+    "type": "vowel",
+    "name": "어 (eo)"
+  },
+  {
+    "romaji": "yeo",
+    "character": "ㅕ",
+    "type": "vowel",
+    "name": "여 (yeo)"
+  },
+  {
+    "romaji": "o",
+    "character": "ㅗ",
+    "type": "vowel",
+    "name": "오 (o)"
+  },
+  {
+    "romaji": "yo",
+    "character": "ㅛ",
+    "type": "vowel",
+    "name": "요 (yo)"
+  },
+  {
+    "romaji": "u",
+    "character": "ㅜ",
+    "type": "vowel",
+    "name": "우 (u)"
+  },
+  {
+    "romaji": "yu",
+    "character": "ㅠ",
+    "type": "vowel",
+    "name": "유 (yu)"
+  },
+  {
+    "romaji": "eu",
+    "character": "ㅡ",
+    "type": "vowel",
+    "name": "으 (eu)"
+  },
+  {
+    "romaji": "i",
+    "character": "ㅣ",
+    "type": "vowel",
+    "name": "이 (i)"
+  },
+  {
+    "romaji": "kk",
+    "character": "ㄲ",
+    "type": "double_consonant",
+    "name": "쌍기역 (ssang-giyeok)"
+  },
+  {
+    "romaji": "tt",
+    "character": "ㄸ",
+    "type": "double_consonant",
+    "name": "쌍디귿 (ssang-digeut)"
+  },
+  {
+    "romaji": "pp",
+    "character": "ㅃ",
+    "type": "double_consonant",
+    "name": "쌍비읍 (ssang-bieup)"
+  },
+  {
+    "romaji": "ss",
+    "character": "ㅆ",
+    "type": "double_consonant",
+    "name": "쌍시옷 (ssang-siot)"
+  },
+  {
+    "romaji": "jj",
+    "character": "ㅉ",
+    "type": "double_consonant",
+    "name": "쌍지읒 (ssang-jieut)"
+  },
+  {
+    "romaji": "ae",
+    "character": "ㅐ",
+    "type": "compound_vowel",
+    "name": "애 (ae)"
+  },
+  {
+    "romaji": "yae",
+    "character": "ㅒ",
+    "type": "compound_vowel",
+    "name": "얘 (yae)"
+  },
+  {
+    "romaji": "e",
+    "character": "ㅔ",
+    "type": "compound_vowel",
+    "name": "에 (e)"
+  },
+  {
+    "romaji": "ye",
+    "character": "ㅖ",
+    "type": "compound_vowel",
+    "name": "예 (ye)"
+  },
+  {
+    "romaji": "wa",
+    "character": "ㅘ",
+    "type": "compound_vowel",
+    "name": "와 (wa)"
+  },
+  {
+    "romaji": "wae",
+    "character": "ㅙ",
+    "type": "compound_vowel",
+    "name": "왜 (wae)"
+  },
+  {
+    "romaji": "oe",
+    "character": "ㅚ",
+    "type": "compound_vowel",
+    "name": "외 (oe)"
+  },
+  {
+    "romaji": "wo",
+    "character": "ㅝ",
+    "type": "compound_vowel",
+    "name": "워 (wo)"
+  },
+  {
+    "romaji": "we",
+    "character": "ㅞ",
+    "type": "compound_vowel",
+    "name": "웨 (we)"
+  },
+  {
+    "romaji": "wi",
+    "character": "ㅟ",
+    "type": "compound_vowel",
+    "name": "위 (wi)"
+  },
+  {
+    "romaji": "ui",
+    "character": "ㅢ",
+    "type": "compound_vowel",
+    "name": "의 (ui)"
+  }
+]

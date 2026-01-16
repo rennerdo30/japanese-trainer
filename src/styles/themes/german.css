@@ -1,0 +1,39 @@
+/* German Theme - "Schwarzwald" */
+/* Bauhaus precision meets Black Forest mystique - industrial steel, amber, deep forest */
+
+html[data-theme="de"] {
+  /* Colors - Industrial steel, Black Forest depths, Oktoberfest amber */
+  --bg-primary: #0a0c0f;
+  --bg-secondary: #12161c;
+  --bg-card: #1a2028;
+  --bg-glass: rgba(26, 32, 40, 0.9);
+  --text-primary: #e8ecf0;
+  --text-secondary: #9ca8b8;
+  --text-muted: #5c6878;
+  --accent-primary: #f0a000;
+  --accent-secondary: #2d5a3d;
+  --accent-red: #cc3333;
+  --accent-red-glow: rgba(204, 51, 51, 0.35);
+  --accent-red-light: #ff6666;
+  --accent-gold: #f0a000;
+  --accent-gold-dim: rgba(240, 160, 0, 0.15);
+  --success: #2d8a4e;
+  --success-glow: rgba(45, 138, 78, 0.3);
+  --border-subtle: rgba(240, 160, 0, 0.1);
+  --glass-border: rgba(156, 168, 184, 0.15);
+  --shadow-deep: 0 30px 60px -15px rgba(0, 0, 0, 0.7);
+
+  /* Typography - Clean, geometric, precise */
+  --font-primary: 'Fira Sans', 'Helvetica Neue', sans-serif;
+  --font-secondary: 'Merriweather', Georgia, serif;
+
+  /* Atmospheric gradient - Misty forest with industrial glow */
+  --gradient-atmosphere:
+    radial-gradient(ellipse 70% 40% at 20% 0%, rgba(45, 90, 61, 0.15), transparent),
+    radial-gradient(ellipse 60% 50% at 85% 100%, rgba(240, 160, 0, 0.1), transparent),
+    linear-gradient(180deg, rgba(10, 12, 15, 0) 0%, rgba(45, 90, 61, 0.05) 100%);
+}
+
+html[data-theme="de"] body {
+  font-family: var(--font-primary);
+}

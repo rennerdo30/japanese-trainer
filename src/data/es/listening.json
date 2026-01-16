@@ -1,0 +1,427 @@
+[
+  {
+    "id": "es_listening_1",
+    "title": "Saludos y presentaciones",
+    "text": "¡Hola! ¿Cómo estás? Mucho gusto en conocerte. Me llamo Carmen y soy de España. ¿Y tú, de dónde eres? Espero que tengas un buen día.",
+    "transcript": "¡Hola! ¿Cómo estás? Mucho gusto en conocerte. Me llamo Carmen y soy de España. ¿Y tú, de dónde eres? Espero que tengas un buen día.",
+    "level": "a1",
+    "questions": [
+      {
+        "question": "What is the speaker's name?",
+        "options": ["María", "Carmen", "Ana", "Laura"],
+        "correct": 1
+      },
+      {
+        "question": "Where is Carmen from?",
+        "options": ["Mexico", "Argentina", "Spain", "Colombia"],
+        "correct": 2
+      },
+      {
+        "question": "What does 'Mucho gusto' mean?",
+        "options": ["Goodbye", "Nice to meet you", "Thank you", "I'm sorry"],
+        "correct": 1
+      }
+    ],
+    "audioUrl": ""
+  },
+  {
+    "id": "es_listening_2",
+    "title": "En el restaurante",
+    "text": "Buenas tardes. ¿Tienen una mesa para dos personas? Perfecto, gracias. ¿Me puede traer el menú, por favor? Voy a pedir una sopa de tomate y un filete de pollo con ensalada. Para beber, quiero una limonada. ¿Cuánto cuesta todo? Son quince euros. Aquí tiene. Muchas gracias, hasta luego.",
+    "transcript": "Buenas tardes. ¿Tienen una mesa para dos personas? Perfecto, gracias. ¿Me puede traer el menú, por favor? Voy a pedir una sopa de tomate y un filete de pollo con ensalada. Para beber, quiero una limonada. ¿Cuánto cuesta todo? Son quince euros. Aquí tiene. Muchas gracias, hasta luego.",
+    "level": "a1",
+    "questions": [
+      {
+        "question": "How many people need a table?",
+        "options": ["1", "2", "3", "4"],
+        "correct": 1
+      },
+      {
+        "question": "What does the speaker order to eat?",
+        "options": ["Pizza and salad", "Tomato soup and chicken with salad", "Pasta and bread", "Fish and rice"],
+        "correct": 1
+      },
+      {
+        "question": "What does the speaker want to drink?",
+        "options": ["Water", "Coffee", "Lemonade", "Orange juice"],
+        "correct": 2
+      },
+      {
+        "question": "How much does everything cost?",
+        "options": ["10 euros", "15 euros", "20 euros", "25 euros"],
+        "correct": 1
+      }
+    ],
+    "audioUrl": ""
+  },
+  {
+    "id": "es_listening_3",
+    "title": "Pidiendo direcciones",
+    "text": "Disculpe, ¿puede ayudarme? Estoy buscando la estación de tren. ¿Está lejos de aquí? Ah, necesito caminar recto por esta calle, luego girar a la izquierda en el semáforo y la estación está a la derecha. Son unos diez minutos a pie. Muchísimas gracias por su ayuda. ¡Que tenga un buen día!",
+    "transcript": "Disculpe, ¿puede ayudarme? Estoy buscando la estación de tren. ¿Está lejos de aquí? Ah, necesito caminar recto por esta calle, luego girar a la izquierda en el semáforo y la estación está a la derecha. Son unos diez minutos a pie. Muchísimas gracias por su ayuda. ¡Que tenga un buen día!",
+    "level": "a1",
+    "questions": [
+      {
+        "question": "What is the speaker looking for?",
+        "options": ["A restaurant", "A train station", "A hospital", "A bank"],
+        "correct": 1
+      },
+      {
+        "question": "In which direction should they turn at the traffic light?",
+        "options": ["Right", "Left", "Straight", "Back"],
+        "correct": 1
+      },
+      {
+        "question": "How long does it take to walk there?",
+        "options": ["5 minutes", "10 minutes", "15 minutes", "20 minutes"],
+        "correct": 1
+      }
+    ],
+    "audioUrl": ""
+  },
+  {
+    "id": "es_listening_4",
+    "title": "Una llamada telefónica",
+    "text": "¿Aló? Hola, buenos días. Soy Roberto. ¿Está María en casa? Ah, no está. ¿A qué hora vuelve? A las cinco de la tarde. Vale, perfecto. ¿Puede decirle que me llame cuando llegue? Mi número es seis, cinco, cuatro, tres, dos, uno, cero. Muchas gracias. Hasta luego.",
+    "transcript": "¿Aló? Hola, buenos días. Soy Roberto. ¿Está María en casa? Ah, no está. ¿A qué hora vuelve? A las cinco de la tarde. Vale, perfecto. ¿Puede decirle que me llame cuando llegue? Mi número es seis, cinco, cuatro, tres, dos, uno, cero. Muchas gracias. Hasta luego.",
+    "level": "a2",
+    "questions": [
+      {
+        "question": "Who is calling?",
+        "options": ["María", "Roberto", "Carlos", "Juan"],
+        "correct": 1
+      },
+      {
+        "question": "Is María at home?",
+        "options": ["Yes", "No", "Maybe", "She's sleeping"],
+        "correct": 1
+      },
+      {
+        "question": "What time will María return?",
+        "options": ["3 PM", "4 PM", "5 PM", "6 PM"],
+        "correct": 2
+      },
+      {
+        "question": "What does Roberto want María to do?",
+        "options": ["Send an email", "Come visit", "Call him back", "Send a message"],
+        "correct": 2
+      }
+    ],
+    "audioUrl": ""
+  },
+  {
+    "id": "es_listening_5",
+    "title": "El pronóstico del tiempo",
+    "text": "Buenos días a todos. Aquí está el pronóstico del tiempo para hoy. En la mañana, tendremos cielos despejados con una temperatura de veinte grados. Por la tarde, aumentará a veinticinco grados con algunas nubes. Sin embargo, por la noche se esperan lluvias moderadas, así que les recomendamos llevar un paraguas si van a salir. Las temperaturas bajarán a quince grados. Mañana volverá el sol. Que tengan un excelente día.",
+    "transcript": "Buenos días a todos. Aquí está el pronóstico del tiempo para hoy. En la mañana, tendremos cielos despejados con una temperatura de veinte grados. Por la tarde, aumentará a veinticinco grados con algunas nubes. Sin embargo, por la noche se esperan lluvias moderadas, así que les recomendamos llevar un paraguas si van a salir. Las temperaturas bajarán a quince grados. Mañana volverá el sol. Que tengan un excelente día.",
+    "level": "a2",
+    "questions": [
+      {
+        "question": "What will the weather be like in the morning?",
+        "options": ["Rainy", "Cloudy", "Clear skies", "Snowy"],
+        "correct": 2
+      },
+      {
+        "question": "What is the expected afternoon temperature?",
+        "options": ["15 degrees", "20 degrees", "25 degrees", "30 degrees"],
+        "correct": 2
+      },
+      {
+        "question": "What is expected at night?",
+        "options": ["Snow", "Moderate rain", "Strong winds", "Clear skies"],
+        "correct": 1
+      },
+      {
+        "question": "What does the speaker recommend bringing?",
+        "options": ["A jacket", "Sunglasses", "An umbrella", "A hat"],
+        "correct": 2
+      },
+      {
+        "question": "What will the weather be like tomorrow?",
+        "options": ["Rainy", "Sunny", "Cloudy", "Snowy"],
+        "correct": 1
+      }
+    ],
+    "audioUrl": ""
+  },
+  {
+    "id": "es_listening_6",
+    "title": "Entrevista de trabajo",
+    "text": "Buenas tardes, señora García. Gracias por venir a la entrevista. Cuénteme un poco sobre su experiencia profesional. Bueno, trabajé durante cinco años en una empresa de marketing digital. Allí era responsable de gestionar las redes sociales y crear contenido para clientes internacionales. Me encantaba el trabajo, pero la empresa cerró por la crisis económica. Desde entonces, he estado haciendo cursos de formación para actualizar mis conocimientos, especialmente en análisis de datos y estrategias de posicionamiento web. ¿Por qué quiere trabajar en nuestra empresa? Porque admiro su compromiso con la innovación y creo que mis habilidades pueden aportar valor a su equipo. Además, me interesa mucho trabajar en un ambiente internacional. ¿Cuáles son sus expectativas salariales? Busco un salario entre treinta y cinco mil y cuarenta mil euros anuales, dependiendo de los beneficios incluidos.",
+    "transcript": "Buenas tardes, señora García. Gracias por venir a la entrevista. Cuénteme un poco sobre su experiencia profesional. Bueno, trabajé durante cinco años en una empresa de marketing digital. Allí era responsable de gestionar las redes sociales y crear contenido para clientes internacionales. Me encantaba el trabajo, pero la empresa cerró por la crisis económica. Desde entonces, he estado haciendo cursos de formación para actualizar mis conocimientos, especialmente en análisis de datos y estrategias de posicionamiento web. ¿Por qué quiere trabajar en nuestra empresa? Porque admiro su compromiso con la innovación y creo que mis habilidades pueden aportar valor a su equipo. Además, me interesa mucho trabajar en un ambiente internacional. ¿Cuáles son sus expectativas salariales? Busco un salario entre treinta y cinco mil y cuarenta mil euros anuales, dependiendo de los beneficios incluidos.",
+    "level": "b1",
+    "questions": [
+      {
+        "question": "How many years did Mrs. García work in digital marketing?",
+        "options": ["Three years", "Four years", "Five years", "Six years"],
+        "correct": 2
+      },
+      {
+        "question": "Why did she leave her previous job?",
+        "options": ["She was fired", "She found a better job", "The company closed", "She retired"],
+        "correct": 2
+      },
+      {
+        "question": "What courses has she been taking?",
+        "options": ["Languages", "Data analysis and web positioning", "Cooking", "Art"],
+        "correct": 1
+      },
+      {
+        "question": "What does she admire about the company?",
+        "options": ["The salary", "The commitment to innovation", "The location", "The schedule"],
+        "correct": 1
+      },
+      {
+        "question": "What is her salary expectation?",
+        "options": ["25,000-30,000 euros", "30,000-35,000 euros", "35,000-40,000 euros", "40,000-45,000 euros"],
+        "correct": 2
+      }
+    ],
+    "audioUrl": ""
+  },
+  {
+    "id": "es_listening_7",
+    "title": "Programa de radio sobre salud",
+    "text": "Bienvenidos a 'Vida Sana', su programa de salud de confianza. Hoy hablaremos sobre los beneficios del ejercicio regular para la salud mental. Según estudios recientes, hacer ejercicio al menos treinta minutos al día puede reducir los síntomas de ansiedad y depresión en hasta un cuarenta por ciento. No es necesario ir al gimnasio; caminar a paso rápido, nadar o incluso bailar en casa cuenta como actividad física. Lo importante es la regularidad. Los expertos recomiendan encontrar una actividad que disfrute para mantener la motivación. Además, el ejercicio libera endorfinas, las llamadas 'hormonas de la felicidad', que mejoran nuestro estado de ánimo. Si tiene problemas para empezar, le sugerimos comenzar con solo diez minutos al día e ir aumentando gradualmente. Recuerde consultar con su médico antes de iniciar cualquier programa de ejercicios, especialmente si tiene condiciones de salud preexistentes.",
+    "transcript": "Bienvenidos a 'Vida Sana', su programa de salud de confianza. Hoy hablaremos sobre los beneficios del ejercicio regular para la salud mental. Según estudios recientes, hacer ejercicio al menos treinta minutos al día puede reducir los síntomas de ansiedad y depresión en hasta un cuarenta por ciento. No es necesario ir al gimnasio; caminar a paso rápido, nadar o incluso bailar en casa cuenta como actividad física. Lo importante es la regularidad. Los expertos recomiendan encontrar una actividad que disfrute para mantener la motivación. Además, el ejercicio libera endorfinas, las llamadas 'hormonas de la felicidad', que mejoran nuestro estado de ánimo. Si tiene problemas para empezar, le sugerimos comenzar con solo diez minutos al día e ir aumentando gradualmente. Recuerde consultar con su médico antes de iniciar cualquier programa de ejercicios, especialmente si tiene condiciones de salud preexistentes.",
+    "level": "b1",
+    "questions": [
+      {
+        "question": "What is the main topic of this radio program?",
+        "options": ["Nutrition", "Exercise and mental health", "Sleep", "Medicine"],
+        "correct": 1
+      },
+      {
+        "question": "How much can exercise reduce anxiety and depression symptoms?",
+        "options": ["20%", "30%", "40%", "50%"],
+        "correct": 2
+      },
+      {
+        "question": "Which of the following is mentioned as valid exercise?",
+        "options": ["Only gym workouts", "Only running", "Walking, swimming, or dancing at home", "Only professional sports"],
+        "correct": 2
+      },
+      {
+        "question": "What are endorphins called in the program?",
+        "options": ["Pain hormones", "Sleep hormones", "Happiness hormones", "Stress hormones"],
+        "correct": 2
+      },
+      {
+        "question": "How should beginners start exercising according to the program?",
+        "options": ["With 30 minutes daily", "With 10 minutes and increase gradually", "With 1 hour daily", "Only on weekends"],
+        "correct": 1
+      }
+    ],
+    "audioUrl": ""
+  },
+  {
+    "id": "es_listening_8",
+    "title": "Debate sobre el teletrabajo",
+    "text": "Moderador: Bienvenidos a nuestro debate sobre el futuro del teletrabajo. Tenemos dos expertos con opiniones diferentes. Marta, ¿cuál es su posición? Marta: Creo firmemente que el teletrabajo ha demostrado ser beneficioso tanto para empresas como para empleados. La productividad ha aumentado en muchos sectores, los trabajadores ahorran tiempo y dinero en desplazamientos, y las empresas pueden reducir costes de oficina. Moderador: Carlos, usted tiene una perspectiva diferente. Carlos: Así es. Aunque reconozco algunas ventajas, me preocupa el impacto en la cultura empresarial y la colaboración. Las interacciones espontáneas que ocurren en la oficina son difíciles de replicar virtualmente. Además, muchos empleados jóvenes necesitan mentoría presencial para desarrollarse profesionalmente. Sin olvidar los problemas de salud mental derivados del aislamiento. Marta: Esos problemas pueden mitigarse con modelos híbridos y mejores herramientas de comunicación. Moderador: Gracias a ambos. Parece que el futuro está en encontrar un equilibrio.",
+    "transcript": "Moderador: Bienvenidos a nuestro debate sobre el futuro del teletrabajo. Tenemos dos expertos con opiniones diferentes. Marta, ¿cuál es su posición? Marta: Creo firmemente que el teletrabajo ha demostrado ser beneficioso tanto para empresas como para empleados. La productividad ha aumentado en muchos sectores, los trabajadores ahorran tiempo y dinero en desplazamientos, y las empresas pueden reducir costes de oficina. Moderador: Carlos, usted tiene una perspectiva diferente. Carlos: Así es. Aunque reconozco algunas ventajas, me preocupa el impacto en la cultura empresarial y la colaboración. Las interacciones espontáneas que ocurren en la oficina son difíciles de replicar virtualmente. Además, muchos empleados jóvenes necesitan mentoría presencial para desarrollarse profesionalmente. Sin olvidar los problemas de salud mental derivados del aislamiento. Marta: Esos problemas pueden mitigarse con modelos híbridos y mejores herramientas de comunicación. Moderador: Gracias a ambos. Parece que el futuro está en encontrar un equilibrio.",
+    "level": "b2",
+    "questions": [
+      {
+        "question": "What is the topic of this debate?",
+        "options": ["Education", "Remote work", "Healthcare", "Technology"],
+        "correct": 1
+      },
+      {
+        "question": "According to Marta, what has happened to productivity with remote work?",
+        "options": ["It has decreased", "It has stayed the same", "It has increased", "It varies by person"],
+        "correct": 2
+      },
+      {
+        "question": "What concerns Carlos about remote work?",
+        "options": ["Higher costs", "Impact on company culture and collaboration", "Technical problems", "Legal issues"],
+        "correct": 1
+      },
+      {
+        "question": "Who does Carlos say needs in-person mentoring?",
+        "options": ["Senior executives", "Young employees", "All employees", "Remote workers only"],
+        "correct": 1
+      },
+      {
+        "question": "What solution does Marta suggest for the problems?",
+        "options": ["Full return to office", "Hybrid models and better communication tools", "More vacation time", "Shorter work hours"],
+        "correct": 1
+      }
+    ],
+    "audioUrl": ""
+  },
+  {
+    "id": "es_listening_9",
+    "title": "Conferencia académica sobre economía circular",
+    "text": "El modelo económico lineal de 'extraer, producir, consumir y desechar' que ha dominado la producción industrial durante siglos está llegando a sus límites ecológicos. La economía circular propone un paradigma alternativo basado en tres principios fundamentales: eliminar residuos y contaminación desde el diseño, mantener productos y materiales en uso, y regenerar sistemas naturales. A diferencia del reciclaje tradicional, que a menudo implica una degradación del material, la economía circular busca mantener el valor de los recursos durante el mayor tiempo posible. Empresas pioneras ya están implementando modelos de negocio circulares: desde el leasing de electrodomésticos hasta plataformas de reparación y reutilización. Sin embargo, la transición requiere no solo innovación tecnológica, sino también cambios regulatorios significativos y una transformación de los patrones de consumo. Las estimaciones sugieren que una economía plenamente circular podría reducir las emisiones de gases de efecto invernadero hasta en un cuarenta y cinco por ciento.",
+    "transcript": "El modelo económico lineal de 'extraer, producir, consumir y desechar' que ha dominado la producción industrial durante siglos está llegando a sus límites ecológicos. La economía circular propone un paradigma alternativo basado en tres principios fundamentales: eliminar residuos y contaminación desde el diseño, mantener productos y materiales en uso, y regenerar sistemas naturales. A diferencia del reciclaje tradicional, que a menudo implica una degradación del material, la economía circular busca mantener el valor de los recursos durante el mayor tiempo posible. Empresas pioneras ya están implementando modelos de negocio circulares: desde el leasing de electrodomésticos hasta plataformas de reparación y reutilización. Sin embargo, la transición requiere no solo innovación tecnológica, sino también cambios regulatorios significativos y una transformación de los patrones de consumo. Las estimaciones sugieren que una economía plenamente circular podría reducir las emisiones de gases de efecto invernadero hasta en un cuarenta y cinco por ciento.",
+    "level": "b2",
+    "questions": [
+      {
+        "question": "What does the linear economic model consist of?",
+        "options": ["Recycle and reuse", "Extract, produce, consume, discard", "Share and repair", "Reduce and regenerate"],
+        "correct": 1
+      },
+      {
+        "question": "How many fundamental principles does the circular economy have?",
+        "options": ["Two", "Three", "Four", "Five"],
+        "correct": 1
+      },
+      {
+        "question": "How is circular economy different from traditional recycling?",
+        "options": ["It's cheaper", "It seeks to maintain resource value longer", "It's faster", "It requires less technology"],
+        "correct": 1
+      },
+      {
+        "question": "What examples of circular business models are mentioned?",
+        "options": ["Online shopping", "Appliance leasing and repair platforms", "Fast fashion", "Disposable products"],
+        "correct": 1
+      },
+      {
+        "question": "By how much could a fully circular economy reduce greenhouse gas emissions?",
+        "options": ["25%", "35%", "45%", "55%"],
+        "correct": 2
+      }
+    ],
+    "audioUrl": ""
+  },
+  {
+    "id": "es_listening_10",
+    "title": "Podcast sobre migración y diversidad cultural",
+    "text": "En el episodio de hoy abordamos un tema que genera intensos debates en la sociedad contemporánea: la migración y sus efectos en la configuración de las identidades culturales. Tradicionalmente, los estados-nación han promovido narrativas de homogeneidad cultural, pero los flujos migratorios globales desafían esta visión. Entrevistamos a la antropóloga Elena Ruiz. 'Lo que estamos presenciando', explica, 'es el surgimiento de identidades híbridas que combinan elementos de múltiples tradiciones culturales. Los hijos de inmigrantes a menudo navegan entre diferentes sistemas de valores, y lejos de ser problemático, esto puede ser una fuente de creatividad y adaptabilidad.' Sin embargo, la integración no está exenta de tensiones. 'Es fundamental distinguir entre integración y asimilación', añade Ruiz. 'La primera permite mantener elementos de la cultura de origen mientras se adoptan aspectos de la sociedad de acogida. La segunda implica la pérdida de la identidad original. Las sociedades más exitosas son aquellas que logran equilibrar el respeto a la diversidad con la construcción de valores compartidos.'",
+    "transcript": "En el episodio de hoy abordamos un tema que genera intensos debates en la sociedad contemporánea: la migración y sus efectos en la configuración de las identidades culturales. Tradicionalmente, los estados-nación han promovido narrativas de homogeneidad cultural, pero los flujos migratorios globales desafían esta visión. Entrevistamos a la antropóloga Elena Ruiz. 'Lo que estamos presenciando', explica, 'es el surgimiento de identidades híbridas que combinan elementos de múltiples tradiciones culturales. Los hijos de inmigrantes a menudo navegan entre diferentes sistemas de valores, y lejos de ser problemático, esto puede ser una fuente de creatividad y adaptabilidad.' Sin embargo, la integración no está exenta de tensiones. 'Es fundamental distinguir entre integración y asimilación', añade Ruiz. 'La primera permite mantener elementos de la cultura de origen mientras se adoptan aspectos de la sociedad de acogida. La segunda implica la pérdida de la identidad original. Las sociedades más exitosas son aquellas que logran equilibrar el respeto a la diversidad con la construcción de valores compartidos.'",
+    "level": "c1",
+    "questions": [
+      {
+        "question": "What is the main topic of this podcast episode?",
+        "options": ["Economic policy", "Migration and cultural identities", "Technology", "Sports"],
+        "correct": 1
+      },
+      {
+        "question": "What have nation-states traditionally promoted according to the text?",
+        "options": ["Cultural diversity", "Narratives of cultural homogeneity", "Immigration", "Globalization"],
+        "correct": 1
+      },
+      {
+        "question": "What does Dr. Ruiz say about hybrid identities?",
+        "options": ["They are problematic", "They can be a source of creativity and adaptability", "They should be avoided", "They only affect adults"],
+        "correct": 1
+      },
+      {
+        "question": "What is the difference between integration and assimilation according to the anthropologist?",
+        "options": ["They are the same thing", "Integration maintains original culture while assimilation implies its loss", "Assimilation is faster", "Integration is more expensive"],
+        "correct": 1
+      },
+      {
+        "question": "What characterizes the most successful societies according to Dr. Ruiz?",
+        "options": ["They reject all immigration", "They balance respect for diversity with shared values", "They enforce complete assimilation", "They have no immigration"],
+        "correct": 1
+      }
+    ],
+    "audioUrl": ""
+  },
+  {
+    "id": "es_listening_11",
+    "title": "Conferencia: El impacto de las redes sociales en el discurso público",
+    "text": "La irrupción de las redes sociales ha transformado radicalmente la esfera pública contemporánea. Si bien estas plataformas han democratizado el acceso a la producción y difusión de contenidos, también han generado fenómenos preocupantes que amenazan la calidad del debate democrático. Los algoritmos de recomendación, diseñados para maximizar el engagement, tienden a crear cámaras de eco que refuerzan las creencias preexistentes y polarizan las opiniones. La economía de la atención premia el contenido emocionalmente provocador sobre el análisis matizado, lo que favorece la propagación de desinformación. Además, el anonimato relativo facilita comportamientos agresivos que serían impensables en interacciones cara a cara. No obstante, sería simplista atribuir todos los males del discurso público actual a la tecnología. Las redes también han permitido la organización de movimientos sociales legítimos, han dado voz a colectivos históricamente marginados y han posibilitado nuevas formas de rendición de cuentas del poder. El desafío consiste en regular estas plataformas preservando sus potencialidades emancipatorias mientras se mitigan sus efectos nocivos.",
+    "transcript": "La irrupción de las redes sociales ha transformado radicalmente la esfera pública contemporánea. Si bien estas plataformas han democratizado el acceso a la producción y difusión de contenidos, también han generado fenómenos preocupantes que amenazan la calidad del debate democrático. Los algoritmos de recomendación, diseñados para maximizar el engagement, tienden a crear cámaras de eco que refuerzan las creencias preexistentes y polarizan las opiniones. La economía de la atención premia el contenido emocionalmente provocador sobre el análisis matizado, lo que favorece la propagación de desinformación. Además, el anonimato relativo facilita comportamientos agresivos que serían impensables en interacciones cara a cara. No obstante, sería simplista atribuir todos los males del discurso público actual a la tecnología. Las redes también han permitido la organización de movimientos sociales legítimos, han dado voz a colectivos históricamente marginados y han posibilitado nuevas formas de rendición de cuentas del poder. El desafío consiste en regular estas plataformas preservando sus potencialidades emancipatorias mientras se mitigan sus efectos nocivos.",
+    "level": "c1",
+    "questions": [
+      {
+        "question": "What have recommendation algorithms been designed to maximize?",
+        "options": ["User safety", "Engagement", "Education", "Privacy"],
+        "correct": 1
+      },
+      {
+        "question": "What do 'echo chambers' do according to the text?",
+        "options": ["Promote diverse views", "Reinforce pre-existing beliefs and polarize opinions", "Reduce internet usage", "Improve communication"],
+        "correct": 1
+      },
+      {
+        "question": "What does the 'attention economy' reward?",
+        "options": ["Nuanced analysis", "Emotionally provocative content", "Long-form journalism", "Scientific accuracy"],
+        "correct": 1
+      },
+      {
+        "question": "What positive effects of social media are mentioned?",
+        "options": ["Higher profits for companies", "Organization of social movements and giving voice to marginalized groups", "More entertainment", "Better shopping experiences"],
+        "correct": 1
+      },
+      {
+        "question": "What does the speaker say the challenge consists of?",
+        "options": ["Banning social media", "Regulating platforms while preserving their emancipatory potential", "Ignoring the problems", "Creating new platforms"],
+        "correct": 1
+      }
+    ],
+    "audioUrl": ""
+  },
+  {
+    "id": "es_listening_12",
+    "title": "Discurso académico: Borges y la literatura del infinito",
+    "text": "Jorge Luis Borges ocupa un lugar singular en el canon literario del siglo veinte. Su obra, caracterizada por una erudición vertiginosa y una capacidad inigualable para condensar en pocas páginas especulaciones que requerirían tratados filosóficos enteros, ha ejercido una influencia determinante en la literatura posterior. La biblioteca de Babel, el Aleph, el Jardín de senderos que se bifurcan: estos conceptos borgesianos han trascendido el ámbito literario para convertirse en metáforas culturales ampliamente reconocidas. Lo que distingue a Borges de otros escritores intelectuales es su habilidad para convertir abstracciones filosóficas en experiencias estéticamente conmovedoras. Cuando describe una biblioteca infinita o un punto que contiene simultáneamente todos los puntos del universo, no está simplemente exponiendo una idea; está creando un vértigo existencial que el lector experimenta visceralmente. Esta capacidad para hacer sentir el infinito, para transformar el abismo metafísico en literatura, constituye quizás su logro más extraordinario. Como él mismo escribió: 'Un libro que no encierra su contralibro es considerado incompleto.'",
+    "transcript": "Jorge Luis Borges ocupa un lugar singular en el canon literario del siglo veinte. Su obra, caracterizada por una erudición vertiginosa y una capacidad inigualable para condensar en pocas páginas especulaciones que requerirían tratados filosóficos enteros, ha ejercido una influencia determinante en la literatura posterior. La biblioteca de Babel, el Aleph, el Jardín de senderos que se bifurcan: estos conceptos borgesianos han trascendido el ámbito literario para convertirse en metáforas culturales ampliamente reconocidas. Lo que distingue a Borges de otros escritores intelectuales es su habilidad para convertir abstracciones filosóficas en experiencias estéticamente conmovedoras. Cuando describe una biblioteca infinita o un punto que contiene simultáneamente todos los puntos del universo, está creando un vértigo existencial que el lector experimenta visceralmente. Esta capacidad para hacer sentir el infinito, para transformar el abismo metafísico en literatura, constituye quizás su logro más extraordinario. Como él mismo escribió: 'Un libro que no encierra su contralibro es considerado incompleto.'",
+    "level": "c2",
+    "questions": [
+      {
+        "question": "What is Borges's work characterized by according to the text?",
+        "options": ["Simple language", "Vertiginous erudition and ability to condense philosophical speculations", "Long novels", "Realistic descriptions"],
+        "correct": 1
+      },
+      {
+        "question": "Which Borges concepts are mentioned as having transcended literature?",
+        "options": ["Only The Aleph", "The Library of Babel, The Aleph, The Garden of Forking Paths", "Only short stories", "His poetry"],
+        "correct": 1
+      },
+      {
+        "question": "What distinguishes Borges from other intellectual writers?",
+        "options": ["His humor", "His ability to turn philosophical abstractions into moving aesthetic experiences", "His political views", "His travel writing"],
+        "correct": 1
+      },
+      {
+        "question": "What does the speaker describe as Borges's most extraordinary achievement?",
+        "options": ["Winning prizes", "The capacity to make readers feel the infinite", "Writing many books", "Being famous"],
+        "correct": 1
+      },
+      {
+        "question": "According to Borges's quote, what makes a book incomplete?",
+        "options": ["If it's too short", "If it doesn't contain its counter-book", "If it has no illustrations", "If it's not translated"],
+        "correct": 1
+      }
+    ],
+    "audioUrl": ""
+  },
+  {
+    "id": "es_listening_13",
+    "title": "Ponencia filosófica: La ética del cuidado en tiempos de crisis ecológica",
+    "text": "La crisis ecológica contemporánea nos obliga a repensar los fundamentos de nuestra ética. Los marcos morales tradicionales, tanto el utilitarismo como la deontología kantiana, presuponen un sujeto moral autónomo que delibera racionalmente sobre sus acciones. Sin embargo, la ética del cuidado, desarrollada originalmente por pensadoras feministas como Carol Gilligan y Nel Noddings, ofrece una perspectiva alternativa que resulta particularmente pertinente para abordar la crisis ambiental. Esta tradición ética enfatiza la interdependencia radical de todos los seres, la importancia de las relaciones y la responsabilidad que emerge de nuestra vulnerabilidad compartida. Frente a la abstracción del pensamiento moral convencional, la ética del cuidado propone atender a lo concreto, a lo particular, a las necesidades específicas de quienes nos rodean, incluidos los seres no humanos y las generaciones futuras. Esto no implica abandonar los principios universales, sino reconocer que su aplicación requiere sensibilidad contextual y atención a las circunstancias particulares. La pregunta ya no es solamente '¿qué es justo?' sino también '¿cómo puedo responder responsablemente a la vulnerabilidad del otro?'",
+    "transcript": "La crisis ecológica contemporánea nos obliga a repensar los fundamentos de nuestra ética. Los marcos morales tradicionales, tanto el utilitarismo como la deontología kantiana, presuponen un sujeto moral autónomo que delibera racionalmente sobre sus acciones. Sin embargo, la ética del cuidado, desarrollada originalmente por pensadoras feministas como Carol Gilligan y Nel Noddings, ofrece una perspectiva alternativa que resulta particularmente pertinente para abordar la crisis ambiental. Esta tradición ética enfatiza la interdependencia radical de todos los seres, la importancia de las relaciones y la responsabilidad que emerge de nuestra vulnerabilidad compartida. Frente a la abstracción del pensamiento moral convencional, la ética del cuidado propone atender a lo concreto, a lo particular, a las necesidades específicas de quienes nos rodean, incluidos los seres no humanos y las generaciones futuras. Esto no implica abandonar los principios universales, sino reconocer que su aplicación requiere sensibilidad contextual y atención a las circunstancias particulares. La pregunta ya no es solamente '¿qué es justo?' sino también '¿cómo puedo responder responsablemente a la vulnerabilidad del otro?'",
+    "level": "c2",
+    "questions": [
+      {
+        "question": "What does the ecological crisis force us to do according to the text?",
+        "options": ["Ignore ethics", "Rethink the foundations of our ethics", "Abandon philosophy", "Focus only on economics"],
+        "correct": 1
+      },
+      {
+        "question": "Who developed the ethics of care mentioned in the text?",
+        "options": ["Male philosophers", "Feminist thinkers like Carol Gilligan and Nel Noddings", "Ancient Greek philosophers", "Religious leaders"],
+        "correct": 1
+      },
+      {
+        "question": "What does the ethics of care emphasize?",
+        "options": ["Individual autonomy only", "Radical interdependence, relationships, and shared vulnerability", "Competition", "Abstract principles only"],
+        "correct": 1
+      },
+      {
+        "question": "Who should care ethics extend to according to the text?",
+        "options": ["Only humans", "Only current generations", "Including non-human beings and future generations", "Only the speaker's community"],
+        "correct": 2
+      },
+      {
+        "question": "What new question does care ethics add to moral deliberation?",
+        "options": ["What is profitable?", "How can I respond responsibly to the vulnerability of the other?", "What is legal?", "What is popular?"],
+        "correct": 1
+      }
+    ],
+    "audioUrl": ""
+  }
+]

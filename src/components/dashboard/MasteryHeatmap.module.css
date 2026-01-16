@@ -1,0 +1,148 @@
+/* Mastery Heatmap Widget */
+
+.heatmap {
+  padding: 1.5rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.headerIcon {
+  font-size: 1.5rem;
+  color: var(--accent-gold, #d4a574);
+}
+
+.header h3 {
+  margin: 0;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: auto repeat(5, 1fr);
+  gap: 4px;
+  margin-bottom: 1rem;
+}
+
+.corner {
+  /* Empty corner cell */
+}
+
+.levelHeader {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--text-muted, #666);
+  text-align: center;
+  padding: 0.25rem;
+}
+
+.moduleLabel {
+  font-size: 0.75rem;
+  color: var(--text-secondary, #888);
+  display: flex;
+  align-items: center;
+  padding-right: 0.5rem;
+}
+
+.cell {
+  aspect-ratio: 1;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  min-width: 32px;
+  min-height: 32px;
+}
+
+.cell:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
+.cellValue {
+  font-size: 0.6rem;
+  font-weight: 600;
+  color: var(--bg-primary, #0f0f1a);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.cell:hover .cellValue {
+  opacity: 1;
+}
+
+/* Legend */
+.legend {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.legendScale {
+  display: flex;
+  gap: 2px;
+}
+
+.legendCell {
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+  .heatmap {
+    padding: 1rem;
+  }
+
+  .cell {
+    min-width: 24px;
+    min-height: 24px;
+  }
+
+  .levelHeader {
+    font-size: 0.6rem;
+  }
+
+  .moduleLabel {
+    font-size: 0.65rem;
+  }
+
+  .legendCell {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  .grid {
+    gap: 2px;
+  }
+
+  .cell {
+    min-width: 20px;
+    min-height: 20px;
+    border-radius: 2px;
+  }
+
+  .levelHeader {
+    font-size: 0.55rem;
+  }
+
+  .moduleLabel {
+    font-size: 0.6rem;
+  }
+}

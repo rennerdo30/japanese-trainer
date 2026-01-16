@@ -1,0 +1,625 @@
+[
+  {
+    "id": "hanzi-1",
+    "hanzi": "我",
+    "meaning": "I, me",
+    "pinyin": "wǒ",
+    "strokes": 7,
+    "hsk": "HSK1",
+    "radicals": ["手"],
+    "examples": [
+      { "word": "我们", "pinyin": "wǒmen", "meaning": "we, us" },
+      { "word": "我的", "pinyin": "wǒ de", "meaning": "my, mine" }
+    ]
+  },
+  {
+    "id": "hanzi-2",
+    "hanzi": "你",
+    "meaning": "you",
+    "pinyin": "nǐ",
+    "strokes": 7,
+    "hsk": "HSK1",
+    "radicals": ["亻"],
+    "examples": [
+      { "word": "你好", "pinyin": "nǐ hǎo", "meaning": "hello" },
+      { "word": "你们", "pinyin": "nǐmen", "meaning": "you (plural)" }
+    ]
+  },
+  {
+    "id": "hanzi-3",
+    "hanzi": "他",
+    "meaning": "he, him",
+    "pinyin": "tā",
+    "strokes": 5,
+    "hsk": "HSK1",
+    "radicals": ["亻"],
+    "examples": [
+      { "word": "他们", "pinyin": "tāmen", "meaning": "they, them (male)" }
+    ]
+  },
+  {
+    "id": "hanzi-4",
+    "hanzi": "她",
+    "meaning": "she, her",
+    "pinyin": "tā",
+    "strokes": 6,
+    "hsk": "HSK1",
+    "radicals": ["女"],
+    "examples": [
+      { "word": "她们", "pinyin": "tāmen", "meaning": "they, them (female)" }
+    ]
+  },
+  {
+    "id": "hanzi-5",
+    "hanzi": "是",
+    "meaning": "to be, yes",
+    "pinyin": "shì",
+    "strokes": 9,
+    "hsk": "HSK1",
+    "radicals": ["日"],
+    "examples": [
+      { "word": "是的", "pinyin": "shì de", "meaning": "yes, that's right" }
+    ]
+  },
+  {
+    "id": "hanzi-6",
+    "hanzi": "有",
+    "meaning": "to have, there is",
+    "pinyin": "yǒu",
+    "strokes": 6,
+    "hsk": "HSK1",
+    "radicals": ["月"],
+    "examples": [
+      { "word": "没有", "pinyin": "méiyǒu", "meaning": "don't have, there isn't" }
+    ]
+  },
+  {
+    "id": "hanzi-7",
+    "hanzi": "人",
+    "meaning": "person, people",
+    "pinyin": "rén",
+    "strokes": 2,
+    "hsk": "HSK1",
+    "radicals": ["人"],
+    "examples": [
+      { "word": "中国人", "pinyin": "zhōngguórén", "meaning": "Chinese person" },
+      { "word": "大人", "pinyin": "dàren", "meaning": "adult" }
+    ]
+  },
+  {
+    "id": "hanzi-8",
+    "hanzi": "大",
+    "meaning": "big, large",
+    "pinyin": "dà",
+    "strokes": 3,
+    "hsk": "HSK1",
+    "radicals": ["大"],
+    "examples": [
+      { "word": "大学", "pinyin": "dàxué", "meaning": "university" }
+    ]
+  },
+  {
+    "id": "hanzi-9",
+    "hanzi": "小",
+    "meaning": "small, little",
+    "pinyin": "xiǎo",
+    "strokes": 3,
+    "hsk": "HSK1",
+    "radicals": ["小"],
+    "examples": [
+      { "word": "小学", "pinyin": "xiǎoxué", "meaning": "elementary school" }
+    ]
+  },
+  {
+    "id": "hanzi-10",
+    "hanzi": "中",
+    "meaning": "middle, center, China",
+    "pinyin": "zhōng",
+    "strokes": 4,
+    "hsk": "HSK1",
+    "radicals": ["丨"],
+    "examples": [
+      { "word": "中国", "pinyin": "zhōngguó", "meaning": "China" },
+      { "word": "中文", "pinyin": "zhōngwén", "meaning": "Chinese language" }
+    ]
+  },
+  {
+    "id": "hanzi-11",
+    "hanzi": "好",
+    "meaning": "good, well",
+    "pinyin": "hǎo",
+    "strokes": 6,
+    "hsk": "HSK1",
+    "radicals": ["女", "子"],
+    "examples": [
+      { "word": "你好", "pinyin": "nǐ hǎo", "meaning": "hello" },
+      { "word": "好吃", "pinyin": "hǎochī", "meaning": "delicious" }
+    ]
+  },
+  {
+    "id": "hanzi-12",
+    "hanzi": "不",
+    "meaning": "not, no",
+    "pinyin": "bù",
+    "strokes": 4,
+    "hsk": "HSK1",
+    "radicals": ["一"],
+    "examples": [
+      { "word": "不好", "pinyin": "bù hǎo", "meaning": "not good" },
+      { "word": "不是", "pinyin": "bú shì", "meaning": "is not" }
+    ]
+  },
+  {
+    "id": "hanzi-13",
+    "hanzi": "一",
+    "meaning": "one",
+    "pinyin": "yī",
+    "strokes": 1,
+    "hsk": "HSK1",
+    "radicals": ["一"],
+    "examples": [
+      { "word": "一个", "pinyin": "yí gè", "meaning": "one (thing)" },
+      { "word": "一起", "pinyin": "yìqǐ", "meaning": "together" }
+    ]
+  },
+  {
+    "id": "hanzi-14",
+    "hanzi": "二",
+    "meaning": "two",
+    "pinyin": "èr",
+    "strokes": 2,
+    "hsk": "HSK1",
+    "radicals": ["二"],
+    "examples": [
+      { "word": "二月", "pinyin": "èr yuè", "meaning": "February" }
+    ]
+  },
+  {
+    "id": "hanzi-15",
+    "hanzi": "三",
+    "meaning": "three",
+    "pinyin": "sān",
+    "strokes": 3,
+    "hsk": "HSK1",
+    "radicals": ["一"],
+    "examples": [
+      { "word": "三月", "pinyin": "sān yuè", "meaning": "March" }
+    ]
+  },
+  {
+    "id": "hanzi-16",
+    "hanzi": "四",
+    "meaning": "four",
+    "pinyin": "sì",
+    "strokes": 5,
+    "hsk": "HSK1",
+    "radicals": ["囗"],
+    "examples": [
+      { "word": "四月", "pinyin": "sì yuè", "meaning": "April" }
+    ]
+  },
+  {
+    "id": "hanzi-17",
+    "hanzi": "五",
+    "meaning": "five",
+    "pinyin": "wǔ",
+    "strokes": 4,
+    "hsk": "HSK1",
+    "radicals": ["二"],
+    "examples": [
+      { "word": "五月", "pinyin": "wǔ yuè", "meaning": "May" }
+    ]
+  },
+  {
+    "id": "hanzi-18",
+    "hanzi": "六",
+    "meaning": "six",
+    "pinyin": "liù",
+    "strokes": 4,
+    "hsk": "HSK1",
+    "radicals": ["八"],
+    "examples": [
+      { "word": "六月", "pinyin": "liù yuè", "meaning": "June" }
+    ]
+  },
+  {
+    "id": "hanzi-19",
+    "hanzi": "七",
+    "meaning": "seven",
+    "pinyin": "qī",
+    "strokes": 2,
+    "hsk": "HSK1",
+    "radicals": ["一"],
+    "examples": [
+      { "word": "七月", "pinyin": "qī yuè", "meaning": "July" }
+    ]
+  },
+  {
+    "id": "hanzi-20",
+    "hanzi": "八",
+    "meaning": "eight",
+    "pinyin": "bā",
+    "strokes": 2,
+    "hsk": "HSK1",
+    "radicals": ["八"],
+    "examples": [
+      { "word": "八月", "pinyin": "bā yuè", "meaning": "August" }
+    ]
+  },
+  {
+    "id": "hanzi-21",
+    "hanzi": "九",
+    "meaning": "nine",
+    "pinyin": "jiǔ",
+    "strokes": 2,
+    "hsk": "HSK1",
+    "radicals": ["乙"],
+    "examples": [
+      { "word": "九月", "pinyin": "jiǔ yuè", "meaning": "September" }
+    ]
+  },
+  {
+    "id": "hanzi-22",
+    "hanzi": "十",
+    "meaning": "ten",
+    "pinyin": "shí",
+    "strokes": 2,
+    "hsk": "HSK1",
+    "radicals": ["十"],
+    "examples": [
+      { "word": "十月", "pinyin": "shí yuè", "meaning": "October" }
+    ]
+  },
+  {
+    "id": "hanzi-23",
+    "hanzi": "日",
+    "meaning": "sun, day",
+    "pinyin": "rì",
+    "strokes": 4,
+    "hsk": "HSK1",
+    "radicals": ["日"],
+    "examples": [
+      { "word": "今日", "pinyin": "jīnrì", "meaning": "today" },
+      { "word": "日本", "pinyin": "Rìběn", "meaning": "Japan" }
+    ]
+  },
+  {
+    "id": "hanzi-24",
+    "hanzi": "月",
+    "meaning": "moon, month",
+    "pinyin": "yuè",
+    "strokes": 4,
+    "hsk": "HSK1",
+    "radicals": ["月"],
+    "examples": [
+      { "word": "月亮", "pinyin": "yuèliang", "meaning": "moon" }
+    ]
+  },
+  {
+    "id": "hanzi-25",
+    "hanzi": "水",
+    "meaning": "water",
+    "pinyin": "shuǐ",
+    "strokes": 4,
+    "hsk": "HSK1",
+    "radicals": ["水"],
+    "examples": [
+      { "word": "喝水", "pinyin": "hē shuǐ", "meaning": "drink water" }
+    ]
+  },
+  {
+    "id": "hanzi-26",
+    "hanzi": "火",
+    "meaning": "fire",
+    "pinyin": "huǒ",
+    "strokes": 4,
+    "hsk": "HSK2",
+    "radicals": ["火"],
+    "examples": [
+      { "word": "火车", "pinyin": "huǒchē", "meaning": "train" }
+    ]
+  },
+  {
+    "id": "hanzi-27",
+    "hanzi": "山",
+    "meaning": "mountain",
+    "pinyin": "shān",
+    "strokes": 3,
+    "hsk": "HSK2",
+    "radicals": ["山"],
+    "examples": [
+      { "word": "山上", "pinyin": "shān shàng", "meaning": "on the mountain" }
+    ]
+  },
+  {
+    "id": "hanzi-28",
+    "hanzi": "木",
+    "meaning": "tree, wood",
+    "pinyin": "mù",
+    "strokes": 4,
+    "hsk": "HSK2",
+    "radicals": ["木"],
+    "examples": [
+      { "word": "木头", "pinyin": "mùtou", "meaning": "wood" }
+    ]
+  },
+  {
+    "id": "hanzi-29",
+    "hanzi": "学",
+    "meaning": "to learn, study",
+    "pinyin": "xué",
+    "strokes": 8,
+    "hsk": "HSK1",
+    "radicals": ["子"],
+    "examples": [
+      { "word": "学习", "pinyin": "xuéxí", "meaning": "to study" },
+      { "word": "学校", "pinyin": "xuéxiào", "meaning": "school" }
+    ]
+  },
+  {
+    "id": "hanzi-30",
+    "hanzi": "生",
+    "meaning": "life, birth, to be born",
+    "pinyin": "shēng",
+    "strokes": 5,
+    "hsk": "HSK1",
+    "radicals": ["生"],
+    "examples": [
+      { "word": "学生", "pinyin": "xuésheng", "meaning": "student" },
+      { "word": "生日", "pinyin": "shēngrì", "meaning": "birthday" }
+    ]
+  },
+  {
+    "id": "hanzi-31",
+    "hanzi": "今",
+    "meaning": "now, today",
+    "pinyin": "jīn",
+    "strokes": 4,
+    "hsk": "HSK1",
+    "radicals": ["人"],
+    "examples": [
+      { "word": "今天", "pinyin": "jīntiān", "meaning": "today" },
+      { "word": "今年", "pinyin": "jīnnián", "meaning": "this year" }
+    ]
+  },
+  {
+    "id": "hanzi-32",
+    "hanzi": "天",
+    "meaning": "sky, day, heaven",
+    "pinyin": "tiān",
+    "strokes": 4,
+    "hsk": "HSK1",
+    "radicals": ["大"],
+    "examples": [
+      { "word": "今天", "pinyin": "jīntiān", "meaning": "today" },
+      { "word": "天气", "pinyin": "tiānqì", "meaning": "weather" }
+    ]
+  },
+  {
+    "id": "hanzi-33",
+    "hanzi": "上",
+    "meaning": "up, above, on",
+    "pinyin": "shàng",
+    "strokes": 3,
+    "hsk": "HSK1",
+    "radicals": ["一"],
+    "examples": [
+      { "word": "上午", "pinyin": "shàngwǔ", "meaning": "morning" },
+      { "word": "上课", "pinyin": "shàngkè", "meaning": "to attend class" }
+    ]
+  },
+  {
+    "id": "hanzi-34",
+    "hanzi": "下",
+    "meaning": "down, below, under",
+    "pinyin": "xià",
+    "strokes": 3,
+    "hsk": "HSK1",
+    "radicals": ["一"],
+    "examples": [
+      { "word": "下午", "pinyin": "xiàwǔ", "meaning": "afternoon" },
+      { "word": "下课", "pinyin": "xiàkè", "meaning": "to finish class" }
+    ]
+  },
+  {
+    "id": "hanzi-35",
+    "hanzi": "前",
+    "meaning": "front, before",
+    "pinyin": "qián",
+    "strokes": 9,
+    "hsk": "HSK2",
+    "radicals": ["八", "刂"],
+    "examples": [
+      { "word": "前面", "pinyin": "qiánmiàn", "meaning": "in front" },
+      { "word": "以前", "pinyin": "yǐqián", "meaning": "before, ago" }
+    ]
+  },
+  {
+    "id": "hanzi-36",
+    "hanzi": "后",
+    "meaning": "back, behind, after",
+    "pinyin": "hòu",
+    "strokes": 6,
+    "hsk": "HSK2",
+    "radicals": ["口"],
+    "examples": [
+      { "word": "后面", "pinyin": "hòumiàn", "meaning": "behind" },
+      { "word": "以后", "pinyin": "yǐhòu", "meaning": "later, after" }
+    ]
+  },
+  {
+    "id": "hanzi-37",
+    "hanzi": "左",
+    "meaning": "left",
+    "pinyin": "zuǒ",
+    "strokes": 5,
+    "hsk": "HSK2",
+    "radicals": ["工"],
+    "examples": [
+      { "word": "左边", "pinyin": "zuǒbiān", "meaning": "left side" }
+    ]
+  },
+  {
+    "id": "hanzi-38",
+    "hanzi": "右",
+    "meaning": "right",
+    "pinyin": "yòu",
+    "strokes": 5,
+    "hsk": "HSK2",
+    "radicals": ["口"],
+    "examples": [
+      { "word": "右边", "pinyin": "yòubiān", "meaning": "right side" }
+    ]
+  },
+  {
+    "id": "hanzi-39",
+    "hanzi": "吃",
+    "meaning": "to eat",
+    "pinyin": "chī",
+    "strokes": 6,
+    "hsk": "HSK1",
+    "radicals": ["口"],
+    "examples": [
+      { "word": "吃饭", "pinyin": "chīfàn", "meaning": "to eat (a meal)" },
+      { "word": "好吃", "pinyin": "hǎochī", "meaning": "delicious" }
+    ]
+  },
+  {
+    "id": "hanzi-40",
+    "hanzi": "喝",
+    "meaning": "to drink",
+    "pinyin": "hē",
+    "strokes": 12,
+    "hsk": "HSK1",
+    "radicals": ["口"],
+    "examples": [
+      { "word": "喝水", "pinyin": "hēshuǐ", "meaning": "to drink water" },
+      { "word": "喝茶", "pinyin": "hēchá", "meaning": "to drink tea" }
+    ]
+  },
+  {
+    "id": "hanzi-41",
+    "hanzi": "看",
+    "meaning": "to see, to watch, to look",
+    "pinyin": "kàn",
+    "strokes": 9,
+    "hsk": "HSK1",
+    "radicals": ["目"],
+    "examples": [
+      { "word": "看书", "pinyin": "kànshū", "meaning": "to read (a book)" },
+      { "word": "看电视", "pinyin": "kàn diànshì", "meaning": "to watch TV" }
+    ]
+  },
+  {
+    "id": "hanzi-42",
+    "hanzi": "听",
+    "meaning": "to listen, to hear",
+    "pinyin": "tīng",
+    "strokes": 7,
+    "hsk": "HSK1",
+    "radicals": ["口"],
+    "examples": [
+      { "word": "听音乐", "pinyin": "tīng yīnyuè", "meaning": "to listen to music" }
+    ]
+  },
+  {
+    "id": "hanzi-43",
+    "hanzi": "说",
+    "meaning": "to speak, to say",
+    "pinyin": "shuō",
+    "strokes": 9,
+    "hsk": "HSK1",
+    "radicals": ["讠"],
+    "examples": [
+      { "word": "说话", "pinyin": "shuōhuà", "meaning": "to speak" },
+      { "word": "说中文", "pinyin": "shuō Zhōngwén", "meaning": "to speak Chinese" }
+    ]
+  },
+  {
+    "id": "hanzi-44",
+    "hanzi": "读",
+    "meaning": "to read",
+    "pinyin": "dú",
+    "strokes": 10,
+    "hsk": "HSK1",
+    "radicals": ["讠"],
+    "examples": [
+      { "word": "读书", "pinyin": "dúshū", "meaning": "to read books" }
+    ]
+  },
+  {
+    "id": "hanzi-45",
+    "hanzi": "写",
+    "meaning": "to write",
+    "pinyin": "xiě",
+    "strokes": 5,
+    "hsk": "HSK1",
+    "radicals": ["冖"],
+    "examples": [
+      { "word": "写字", "pinyin": "xiězì", "meaning": "to write characters" }
+    ]
+  },
+  {
+    "id": "hanzi-46",
+    "hanzi": "爱",
+    "meaning": "to love, love",
+    "pinyin": "ài",
+    "strokes": 10,
+    "hsk": "HSK1",
+    "radicals": ["爫"],
+    "examples": [
+      { "word": "我爱你", "pinyin": "wǒ ài nǐ", "meaning": "I love you" },
+      { "word": "爱好", "pinyin": "àihào", "meaning": "hobby" }
+    ]
+  },
+  {
+    "id": "hanzi-47",
+    "hanzi": "想",
+    "meaning": "to think, to want, to miss",
+    "pinyin": "xiǎng",
+    "strokes": 13,
+    "hsk": "HSK1",
+    "radicals": ["心"],
+    "examples": [
+      { "word": "想家", "pinyin": "xiǎngjiā", "meaning": "to miss home" },
+      { "word": "想吃", "pinyin": "xiǎng chī", "meaning": "want to eat" }
+    ]
+  },
+  {
+    "id": "hanzi-48",
+    "hanzi": "去",
+    "meaning": "to go",
+    "pinyin": "qù",
+    "strokes": 5,
+    "hsk": "HSK1",
+    "radicals": ["土"],
+    "examples": [
+      { "word": "去学校", "pinyin": "qù xuéxiào", "meaning": "to go to school" }
+    ]
+  },
+  {
+    "id": "hanzi-49",
+    "hanzi": "来",
+    "meaning": "to come",
+    "pinyin": "lái",
+    "strokes": 7,
+    "hsk": "HSK1",
+    "radicals": ["木"],
+    "examples": [
+      { "word": "来中国", "pinyin": "lái Zhōngguó", "meaning": "to come to China" }
+    ]
+  },
+  {
+    "id": "hanzi-50",
+    "hanzi": "在",
+    "meaning": "at, in, to be at",
+    "pinyin": "zài",
+    "strokes": 6,
+    "hsk": "HSK1",
+    "radicals": ["土"],
+    "examples": [
+      { "word": "在家", "pinyin": "zài jiā", "meaning": "at home" },
+      { "word": "现在", "pinyin": "xiànzài", "meaning": "now" }
+    ]
+  }
+]

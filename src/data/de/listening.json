@@ -1,0 +1,688 @@
+[
+  {
+    "id": "de-listening-1",
+    "title": "Begrüßung und Vorstellung",
+    "level": "A1",
+    "difficulty": "beginner",
+    "estimatedTime": 3,
+    "text": "Guten Tag! Mein Name ist Claudia Schmidt. Ich komme aus Hamburg und wohne jetzt in Berlin. Ich bin 34 Jahre alt und arbeite als Krankenschwester im Krankenhaus. Freut mich, Sie kennenzulernen!",
+    "transcript": "Guten Tag! Mein Name ist Claudia Schmidt. Ich komme aus Hamburg und wohne jetzt in Berlin. Ich bin 34 Jahre alt und arbeite als Krankenschwester im Krankenhaus. Freut mich, Sie kennenzulernen!",
+    "translation": "Good day! My name is Claudia Schmidt. I come from Hamburg and now live in Berlin. I am 34 years old and work as a nurse in the hospital. Pleased to meet you!",
+    "vocabulary": [
+      {
+        "word": "Guten Tag",
+        "meaning": "good day"
+      },
+      {
+        "word": "Krankenschwester",
+        "meaning": "nurse"
+      },
+      {
+        "word": "Krankenhaus",
+        "meaning": "hospital"
+      },
+      {
+        "word": "Freut mich",
+        "meaning": "pleased to meet you"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Woher kommt Claudia?",
+        "options": ["Berlin", "Hamburg", "München", "Köln"],
+        "correct": 1
+      },
+      {
+        "question": "Was ist Claudias Beruf?",
+        "options": ["Ärztin", "Lehrerin", "Krankenschwester", "Sekretärin"],
+        "correct": 2
+      },
+      {
+        "question": "Wie alt ist Claudia?",
+        "options": ["24 Jahre", "30 Jahre", "34 Jahre", "40 Jahre"],
+        "correct": 2
+      }
+    ],
+    "audioUrl": ""
+  },
+  {
+    "id": "de-listening-2",
+    "title": "Im Supermarkt",
+    "level": "A1",
+    "difficulty": "beginner",
+    "estimatedTime": 4,
+    "text": "Entschuldigung, wo finde ich bitte die Milch? Die Milch steht im Kühlregal, in Gang drei. Danke schön! Und haben Sie auch frisches Brot? Ja, das frische Brot ist in der Bäckerei, gleich links neben dem Eingang. Wunderbar, vielen Dank für Ihre Hilfe! Gern geschehen. Einen schönen Tag noch!",
+    "transcript": "Entschuldigung, wo finde ich bitte die Milch? Die Milch steht im Kühlregal, in Gang drei. Danke schön! Und haben Sie auch frisches Brot? Ja, das frische Brot ist in der Bäckerei, gleich links neben dem Eingang. Wunderbar, vielen Dank für Ihre Hilfe! Gern geschehen. Einen schönen Tag noch!",
+    "translation": "Excuse me, where can I find the milk please? The milk is in the refrigerated section, in aisle three. Thank you! And do you also have fresh bread? Yes, the fresh bread is in the bakery, just to the left of the entrance. Wonderful, thank you very much for your help! You're welcome. Have a nice day!",
+    "vocabulary": [
+      {
+        "word": "Entschuldigung",
+        "meaning": "excuse me"
+      },
+      {
+        "word": "Kühlregal",
+        "meaning": "refrigerated section"
+      },
+      {
+        "word": "Bäckerei",
+        "meaning": "bakery"
+      },
+      {
+        "word": "Eingang",
+        "meaning": "entrance"
+      },
+      {
+        "word": "Gern geschehen",
+        "meaning": "you're welcome"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Wo steht die Milch?",
+        "options": ["In Gang eins", "In Gang zwei", "In Gang drei", "In Gang vier"],
+        "correct": 2
+      },
+      {
+        "question": "Wo ist das frische Brot?",
+        "options": ["Im Kühlregal", "In der Bäckerei", "Am Ausgang", "In Gang drei"],
+        "correct": 1
+      },
+      {
+        "question": "Wo liegt die Bäckerei?",
+        "options": ["Rechts vom Eingang", "Links vom Eingang", "Hinten im Laden", "Im ersten Stock"],
+        "correct": 1
+      }
+    ],
+    "audioUrl": ""
+  },
+  {
+    "id": "de-listening-3",
+    "title": "Am Bahnhof",
+    "level": "A1",
+    "difficulty": "beginner",
+    "estimatedTime": 4,
+    "text": "Guten Morgen. Ich möchte eine Fahrkarte nach Frankfurt, bitte. Einfach oder hin und zurück? Hin und zurück, bitte. Wann möchten Sie fahren? Heute Nachmittag, so gegen 14 Uhr. Der nächste Zug fährt um 14:15 Uhr von Gleis 7 ab. Er kommt um 16:45 Uhr in Frankfurt an. Das macht 89 Euro für die Hin- und Rückfahrt. Hier, bitte. Zahlen Sie bar oder mit Karte? Mit Karte, bitte. Bitte schön, hier ist Ihre Fahrkarte. Gute Reise!",
+    "transcript": "Guten Morgen. Ich möchte eine Fahrkarte nach Frankfurt, bitte. Einfach oder hin und zurück? Hin und zurück, bitte. Wann möchten Sie fahren? Heute Nachmittag, so gegen 14 Uhr. Der nächste Zug fährt um 14:15 Uhr von Gleis 7 ab. Er kommt um 16:45 Uhr in Frankfurt an. Das macht 89 Euro für die Hin- und Rückfahrt. Hier, bitte. Zahlen Sie bar oder mit Karte? Mit Karte, bitte. Bitte schön, hier ist Ihre Fahrkarte. Gute Reise!",
+    "translation": "Good morning. I would like a ticket to Frankfurt, please. One way or round trip? Round trip, please. When would you like to travel? This afternoon, around 2 PM. The next train leaves at 2:15 PM from platform 7. It arrives in Frankfurt at 4:45 PM. That will be 89 euros for the round trip. Here you go. Are you paying cash or by card? By card, please. Here you are, here is your ticket. Have a good trip!",
+    "vocabulary": [
+      {
+        "word": "Fahrkarte",
+        "meaning": "ticket"
+      },
+      {
+        "word": "hin und zurück",
+        "meaning": "round trip"
+      },
+      {
+        "word": "Gleis",
+        "meaning": "platform"
+      },
+      {
+        "word": "bar",
+        "meaning": "cash"
+      },
+      {
+        "word": "Gute Reise",
+        "meaning": "have a good trip"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Wohin möchte der Kunde fahren?",
+        "options": ["Berlin", "München", "Frankfurt", "Hamburg"],
+        "correct": 2
+      },
+      {
+        "question": "Von welchem Gleis fährt der Zug ab?",
+        "options": ["Gleis 5", "Gleis 6", "Gleis 7", "Gleis 8"],
+        "correct": 2
+      },
+      {
+        "question": "Wie viel kostet die Fahrkarte?",
+        "options": ["79 Euro", "89 Euro", "99 Euro", "69 Euro"],
+        "correct": 1
+      }
+    ],
+    "audioUrl": ""
+  },
+  {
+    "id": "de-listening-4",
+    "title": "Beim Arzt",
+    "level": "A2",
+    "difficulty": "intermediate",
+    "estimatedTime": 5,
+    "text": "Guten Tag, Herr Müller. Was kann ich für Sie tun? Guten Tag, Frau Doktor. Ich fühle mich nicht gut. Ich habe seit drei Tagen Kopfschmerzen und Fieber. Haben Sie auch Husten oder Halsschmerzen? Ja, ich habe auch ein bisschen Husten und meine Nase ist verstopft. Ich verstehe. Lassen Sie mich Ihren Hals untersuchen. Öffnen Sie bitte den Mund. Ja, Ihr Hals ist etwas gerötet. Sie haben wahrscheinlich eine Erkältung. Ich verschreibe Ihnen Medikamente. Nehmen Sie diese Tabletten dreimal täglich nach dem Essen. Und trinken Sie viel Wasser und ruhen Sie sich aus. Vielen Dank, Frau Doktor. Gute Besserung, Herr Müller!",
+    "transcript": "Guten Tag, Herr Müller. Was kann ich für Sie tun? Guten Tag, Frau Doktor. Ich fühle mich nicht gut. Ich habe seit drei Tagen Kopfschmerzen und Fieber. Haben Sie auch Husten oder Halsschmerzen? Ja, ich habe auch ein bisschen Husten und meine Nase ist verstopft. Ich verstehe. Lassen Sie mich Ihren Hals untersuchen. Öffnen Sie bitte den Mund. Ja, Ihr Hals ist etwas gerötet. Sie haben wahrscheinlich eine Erkältung. Ich verschreibe Ihnen Medikamente. Nehmen Sie diese Tabletten dreimal täglich nach dem Essen. Und trinken Sie viel Wasser und ruhen Sie sich aus. Vielen Dank, Frau Doktor. Gute Besserung, Herr Müller!",
+    "translation": "Good day, Mr. Müller. What can I do for you? Good day, Doctor. I don't feel well. I have had headaches and fever for three days. Do you also have a cough or sore throat? Yes, I also have a little cough and my nose is stuffed. I understand. Let me examine your throat. Please open your mouth. Yes, your throat is somewhat red. You probably have a cold. I will prescribe you medication. Take these tablets three times daily after meals. And drink plenty of water and rest. Thank you very much, Doctor. Get well soon, Mr. Müller!",
+    "vocabulary": [
+      {
+        "word": "Kopfschmerzen",
+        "meaning": "headache"
+      },
+      {
+        "word": "Fieber",
+        "meaning": "fever"
+      },
+      {
+        "word": "Husten",
+        "meaning": "cough"
+      },
+      {
+        "word": "Erkältung",
+        "meaning": "cold"
+      },
+      {
+        "word": "Tabletten",
+        "meaning": "tablets/pills"
+      },
+      {
+        "word": "Gute Besserung",
+        "meaning": "get well soon"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Wie lange hat Herr Müller schon Kopfschmerzen?",
+        "options": ["Einen Tag", "Zwei Tage", "Drei Tage", "Eine Woche"],
+        "correct": 2
+      },
+      {
+        "question": "Was hat Herr Müller wahrscheinlich?",
+        "options": ["Eine Grippe", "Eine Erkältung", "Allergien", "Eine Infektion"],
+        "correct": 1
+      },
+      {
+        "question": "Wie oft soll Herr Müller die Tabletten nehmen?",
+        "options": ["Einmal täglich", "Zweimal täglich", "Dreimal täglich", "Viermal täglich"],
+        "correct": 2
+      }
+    ],
+    "audioUrl": ""
+  },
+  {
+    "id": "de-listening-5",
+    "title": "Wohnungssuche",
+    "level": "A2",
+    "difficulty": "intermediate",
+    "estimatedTime": 5,
+    "text": "Hallo, ich rufe wegen der Wohnungsanzeige an. Ist die Wohnung noch frei? Ja, die Wohnung ist noch verfügbar. Können Sie mir mehr darüber erzählen? Natürlich. Es ist eine Zwei-Zimmer-Wohnung im dritten Stock. Sie hat etwa 55 Quadratmeter, mit einem großen Wohnzimmer, einem Schlafzimmer, einer Küche und einem Bad. Gibt es einen Balkon? Ja, es gibt einen kleinen Balkon mit Blick auf den Park. Wie hoch ist die Miete? Die Kaltmiete beträgt 650 Euro plus etwa 150 Euro Nebenkosten. Haustiere sind leider nicht erlaubt. Das klingt interessant. Wann könnte ich die Wohnung besichtigen? Wie wäre es am Samstag um 11 Uhr? Das passt mir gut. Dann bis Samstag!",
+    "transcript": "Hallo, ich rufe wegen der Wohnungsanzeige an. Ist die Wohnung noch frei? Ja, die Wohnung ist noch verfügbar. Können Sie mir mehr darüber erzählen? Natürlich. Es ist eine Zwei-Zimmer-Wohnung im dritten Stock. Sie hat etwa 55 Quadratmeter, mit einem großen Wohnzimmer, einem Schlafzimmer, einer Küche und einem Bad. Gibt es einen Balkon? Ja, es gibt einen kleinen Balkon mit Blick auf den Park. Wie hoch ist die Miete? Die Kaltmiete beträgt 650 Euro plus etwa 150 Euro Nebenkosten. Haustiere sind leider nicht erlaubt. Das klingt interessant. Wann könnte ich die Wohnung besichtigen? Wie wäre es am Samstag um 11 Uhr? Das passt mir gut. Dann bis Samstag!",
+    "translation": "Hello, I'm calling about the apartment ad. Is the apartment still available? Yes, the apartment is still available. Can you tell me more about it? Of course. It's a two-room apartment on the third floor. It has about 55 square meters, with a large living room, a bedroom, a kitchen, and a bathroom. Is there a balcony? Yes, there is a small balcony with a view of the park. How much is the rent? The basic rent is 650 euros plus about 150 euros for utilities. Unfortunately, pets are not allowed. That sounds interesting. When could I view the apartment? How about Saturday at 11 AM? That works for me. See you Saturday then!",
+    "vocabulary": [
+      {
+        "word": "Wohnungsanzeige",
+        "meaning": "apartment ad"
+      },
+      {
+        "word": "Quadratmeter",
+        "meaning": "square meters"
+      },
+      {
+        "word": "Balkon",
+        "meaning": "balcony"
+      },
+      {
+        "word": "Kaltmiete",
+        "meaning": "basic rent (without utilities)"
+      },
+      {
+        "word": "Nebenkosten",
+        "meaning": "utilities/additional costs"
+      },
+      {
+        "word": "besichtigen",
+        "meaning": "to view/inspect"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Wie groß ist die Wohnung?",
+        "options": ["45 Quadratmeter", "55 Quadratmeter", "65 Quadratmeter", "75 Quadratmeter"],
+        "correct": 1
+      },
+      {
+        "question": "Wie hoch ist die Kaltmiete?",
+        "options": ["550 Euro", "600 Euro", "650 Euro", "700 Euro"],
+        "correct": 2
+      },
+      {
+        "question": "Wann ist die Besichtigung?",
+        "options": ["Freitag um 10 Uhr", "Samstag um 11 Uhr", "Sonntag um 12 Uhr", "Montag um 9 Uhr"],
+        "correct": 1
+      }
+    ],
+    "audioUrl": ""
+  },
+  {
+    "id": "de-listening-6",
+    "title": "Interview: Berufswahl und Karriere",
+    "level": "B1",
+    "difficulty": "intermediate",
+    "estimatedTime": 6,
+    "text": "Guten Tag, Frau Schneider. Vielen Dank, dass Sie sich Zeit für dieses Interview nehmen. Heute sprechen wir über das Thema Berufswahl. Wie haben Sie Ihren Beruf gewählt?\n\nNun, als Jugendliche wusste ich lange nicht, was ich werden wollte. Ich habe mich für vieles interessiert – Kunst, Sprachen, Naturwissenschaften. Nach dem Abitur habe ich ein Praktikum bei einer Marketingfirma gemacht, und da hat es klick gemacht. Die Kombination aus Kreativität und Analyse hat mich fasziniert.\n\nWas würden Sie jungen Menschen raten, die vor der Berufswahl stehen?\n\nIch würde sagen: Probiert verschiedene Dinge aus! Macht Praktika, sprecht mit Menschen in verschiedenen Berufen, und habt keine Angst vor Umwegen. Mein Weg war auch nicht gerade. Und vor allem: Wählt nicht nur nach dem Gehalt, sondern fragt euch, was euch wirklich erfüllt.",
+    "transcript": "Guten Tag, Frau Schneider. Vielen Dank, dass Sie sich Zeit für dieses Interview nehmen. Heute sprechen wir über das Thema Berufswahl. Wie haben Sie Ihren Beruf gewählt?\n\nNun, als Jugendliche wusste ich lange nicht, was ich werden wollte. Ich habe mich für vieles interessiert – Kunst, Sprachen, Naturwissenschaften. Nach dem Abitur habe ich ein Praktikum bei einer Marketingfirma gemacht, und da hat es klick gemacht. Die Kombination aus Kreativität und Analyse hat mich fasziniert.\n\nWas würden Sie jungen Menschen raten, die vor der Berufswahl stehen?\n\nIch würde sagen: Probiert verschiedene Dinge aus! Macht Praktika, sprecht mit Menschen in verschiedenen Berufen, und habt keine Angst vor Umwegen. Mein Weg war auch nicht gerade. Und vor allem: Wählt nicht nur nach dem Gehalt, sondern fragt euch, was euch wirklich erfüllt.",
+    "translation": "Good day, Ms. Schneider. Thank you for taking the time for this interview. Today we are talking about career choice. How did you choose your profession?\n\nWell, as a teenager I didn't know for a long time what I wanted to become. I was interested in many things – art, languages, natural sciences. After high school, I did an internship at a marketing company, and that's when it clicked. The combination of creativity and analysis fascinated me.\n\nWhat would you advise young people who are facing career choices?\n\nI would say: Try different things! Do internships, talk to people in various professions, and don't be afraid of detours. My path wasn't straight either. And most importantly: Don't choose only based on salary, but ask yourself what really fulfills you.",
+    "vocabulary": [
+      {
+        "word": "Berufswahl",
+        "meaning": "career choice"
+      },
+      {
+        "word": "Praktikum",
+        "meaning": "internship"
+      },
+      {
+        "word": "Umwege",
+        "meaning": "detours"
+      },
+      {
+        "word": "erfüllt",
+        "meaning": "fulfills"
+      },
+      {
+        "word": "Gehalt",
+        "meaning": "salary"
+      },
+      {
+        "word": "klick gemacht",
+        "meaning": "clicked (realized)"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Wofür hat sich Frau Schneider als Jugendliche interessiert?",
+        "options": ["Nur für Sport", "Für vieles", "Nur für Mathematik", "Für nichts"],
+        "correct": 1
+      },
+      {
+        "question": "Wo hat sie das entscheidende Praktikum gemacht?",
+        "options": ["Bei einer Bank", "Bei einer Marketingfirma", "In einem Krankenhaus", "In einer Schule"],
+        "correct": 1
+      },
+      {
+        "question": "Was sollen junge Menschen laut Frau Schneider nicht als Hauptkriterium wählen?",
+        "options": ["Die Arbeitszeit", "Das Gehalt", "Den Standort", "Die Kollegen"],
+        "correct": 1
+      }
+    ],
+    "audioUrl": ""
+  },
+  {
+    "id": "de-listening-7",
+    "title": "Radiosendung: Nachhaltiges Leben",
+    "level": "B1",
+    "difficulty": "intermediate",
+    "estimatedTime": 7,
+    "text": "Willkommen bei 'Grün Leben', der Sendung über Nachhaltigkeit im Alltag. Heute mit dabei ist Umweltberater Martin Hoffmann.\n\nHerr Hoffmann, viele Menschen wollen nachhaltiger leben, wissen aber nicht, wo sie anfangen sollen. Was empfehlen Sie?\n\nDer wichtigste Rat ist: Fangen Sie klein an! Sie müssen nicht von heute auf morgen Ihr ganzes Leben umstellen. Beginnen Sie mit einer Sache. Zum Beispiel: Nehmen Sie beim Einkaufen immer eine Stofftasche mit, statt Plastiktüten zu kaufen.\n\nWas sind weitere einfache Tipps?\n\nAchten Sie auf Ihren Energieverbrauch. Schalten Sie Geräte ganz aus, statt sie auf Standby zu lassen. Duschen Sie kürzer. Und überlegen Sie vor dem Kauf: Brauche ich das wirklich? Oft ist der nachhaltigste Konsum gar kein Konsum.\n\nUnd beim Essen?\n\nRegionale und saisonale Produkte sind eine gute Wahl. Und versuchen Sie, weniger Fleisch zu essen. Man muss nicht Vegetarier werden, aber jeder fleischfreie Tag hilft.",
+    "transcript": "Willkommen bei 'Grün Leben', der Sendung über Nachhaltigkeit im Alltag. Heute mit dabei ist Umweltberater Martin Hoffmann.\n\nHerr Hoffmann, viele Menschen wollen nachhaltiger leben, wissen aber nicht, wo sie anfangen sollen. Was empfehlen Sie?\n\nDer wichtigste Rat ist: Fangen Sie klein an! Sie müssen nicht von heute auf morgen Ihr ganzes Leben umstellen. Beginnen Sie mit einer Sache. Zum Beispiel: Nehmen Sie beim Einkaufen immer eine Stofftasche mit, statt Plastiktüten zu kaufen.\n\nWas sind weitere einfache Tipps?\n\nAchten Sie auf Ihren Energieverbrauch. Schalten Sie Geräte ganz aus, statt sie auf Standby zu lassen. Duschen Sie kürzer. Und überlegen Sie vor dem Kauf: Brauche ich das wirklich? Oft ist der nachhaltigste Konsum gar kein Konsum.\n\nUnd beim Essen?\n\nRegionale und saisonale Produkte sind eine gute Wahl. Und versuchen Sie, weniger Fleisch zu essen. Man muss nicht Vegetarier werden, aber jeder fleischfreie Tag hilft.",
+    "translation": "Welcome to 'Green Living', the show about sustainability in everyday life. Today's guest is environmental consultant Martin Hoffmann.\n\nMr. Hoffmann, many people want to live more sustainably but don't know where to start. What do you recommend?\n\nThe most important advice is: Start small! You don't have to change your whole life overnight. Start with one thing. For example: Always bring a cloth bag when shopping, instead of buying plastic bags.\n\nWhat are other simple tips?\n\nPay attention to your energy consumption. Turn off devices completely instead of leaving them on standby. Shower shorter. And before buying, ask yourself: Do I really need this? Often the most sustainable consumption is no consumption at all.\n\nAnd with food?\n\nRegional and seasonal products are a good choice. And try to eat less meat. You don't have to become a vegetarian, but every meat-free day helps.",
+    "vocabulary": [
+      {
+        "word": "Nachhaltigkeit",
+        "meaning": "sustainability"
+      },
+      {
+        "word": "Umweltberater",
+        "meaning": "environmental consultant"
+      },
+      {
+        "word": "Stofftasche",
+        "meaning": "cloth bag"
+      },
+      {
+        "word": "Energieverbrauch",
+        "meaning": "energy consumption"
+      },
+      {
+        "word": "Standby",
+        "meaning": "standby mode"
+      },
+      {
+        "word": "saisonal",
+        "meaning": "seasonal"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Was ist der wichtigste Rat von Herrn Hoffmann?",
+        "options": ["Alles sofort ändern", "Klein anfangen", "Viel Geld ausgeben", "Ins Ausland ziehen"],
+        "correct": 1
+      },
+      {
+        "question": "Was sollte man mit Geräten tun, statt sie auf Standby zu lassen?",
+        "options": ["Wegwerfen", "Ganz ausschalten", "Verkaufen", "Ständig benutzen"],
+        "correct": 1
+      },
+      {
+        "question": "Welche Produkte werden beim Essen empfohlen?",
+        "options": ["Importierte Produkte", "Regionale und saisonale Produkte", "Nur Bio-Produkte", "Nur vegane Produkte"],
+        "correct": 1
+      }
+    ],
+    "audioUrl": ""
+  },
+  {
+    "id": "de-listening-8",
+    "title": "Podiumsdiskussion: Digitale Bildung",
+    "level": "B2",
+    "difficulty": "upper-intermediate",
+    "estimatedTime": 8,
+    "text": "Moderator: Willkommen zu unserer Diskussion zum Thema digitale Bildung. Bei uns sind Professorin Dr. Weber von der TU München und Schulleiter Herr Braun. Frau Dr. Weber, wie bewerten Sie den aktuellen Stand der Digitalisierung an deutschen Schulen?\n\nDr. Weber: Ehrlich gesagt, wir hinken im internationalen Vergleich hinterher. Während andere Länder längst digitale Lernplattformen etabliert haben, kämpfen viele deutsche Schulen noch mit grundlegender Infrastruktur – fehlendes WLAN, veraltete Computer, mangelnde Fortbildung der Lehrkräfte.\n\nHerr Braun: Das sehe ich etwas differenzierter. Ja, es gibt Nachholbedarf, aber die Pandemie hat als Katalysator gewirkt. Wir haben in zwei Jahren mehr erreicht als in den zehn Jahren davor. Die eigentliche Herausforderung liegt nicht in der Technik, sondern in der Pädagogik: Wie integrieren wir digitale Werkzeuge sinnvoll in den Unterricht?\n\nDr. Weber: Da stimme ich zu. Technik allein macht noch keinen guten Unterricht. Wir brauchen didaktische Konzepte, die das Beste aus beiden Welten verbinden – das Digitale und das Analoge.",
+    "transcript": "Moderator: Willkommen zu unserer Diskussion zum Thema digitale Bildung. Bei uns sind Professorin Dr. Weber von der TU München und Schulleiter Herr Braun. Frau Dr. Weber, wie bewerten Sie den aktuellen Stand der Digitalisierung an deutschen Schulen?\n\nDr. Weber: Ehrlich gesagt, wir hinken im internationalen Vergleich hinterher. Während andere Länder längst digitale Lernplattformen etabliert haben, kämpfen viele deutsche Schulen noch mit grundlegender Infrastruktur – fehlendes WLAN, veraltete Computer, mangelnde Fortbildung der Lehrkräfte.\n\nHerr Braun: Das sehe ich etwas differenzierter. Ja, es gibt Nachholbedarf, aber die Pandemie hat als Katalysator gewirkt. Wir haben in zwei Jahren mehr erreicht als in den zehn Jahren davor. Die eigentliche Herausforderung liegt nicht in der Technik, sondern in der Pädagogik: Wie integrieren wir digitale Werkzeuge sinnvoll in den Unterricht?\n\nDr. Weber: Da stimme ich zu. Technik allein macht noch keinen guten Unterricht. Wir brauchen didaktische Konzepte, die das Beste aus beiden Welten verbinden – das Digitale und das Analoge.",
+    "translation": "Moderator: Welcome to our discussion on digital education. With us are Professor Dr. Weber from TU Munich and school principal Mr. Braun. Dr. Weber, how do you assess the current state of digitalization in German schools?\n\nDr. Weber: Honestly, we are lagging behind in international comparison. While other countries have long established digital learning platforms, many German schools are still struggling with basic infrastructure – missing WiFi, outdated computers, lack of teacher training.\n\nMr. Braun: I see it somewhat differently. Yes, there is catching up to do, but the pandemic acted as a catalyst. We achieved more in two years than in the ten years before. The real challenge is not in technology, but in pedagogy: How do we meaningfully integrate digital tools into teaching?\n\nDr. Weber: I agree. Technology alone doesn't make good teaching. We need didactic concepts that combine the best of both worlds – the digital and the analog.",
+    "vocabulary": [
+      {
+        "word": "hinken hinterher",
+        "meaning": "lagging behind"
+      },
+      {
+        "word": "Infrastruktur",
+        "meaning": "infrastructure"
+      },
+      {
+        "word": "Nachholbedarf",
+        "meaning": "need to catch up"
+      },
+      {
+        "word": "Katalysator",
+        "meaning": "catalyst"
+      },
+      {
+        "word": "Pädagogik",
+        "meaning": "pedagogy"
+      },
+      {
+        "word": "didaktisch",
+        "meaning": "didactic"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Was ist laut Dr. Weber ein Problem an deutschen Schulen?",
+        "options": ["Zu viel Technologie", "Fehlende Infrastruktur", "Zu viele Schüler", "Zu wenig Ferien"],
+        "correct": 1
+      },
+      {
+        "question": "Was hat laut Herrn Braun als Katalysator gewirkt?",
+        "options": ["Die EU", "Die Pandemie", "Die Regierung", "Die Eltern"],
+        "correct": 1
+      },
+      {
+        "question": "Worüber sind sich beide Diskussionsteilnehmer einig?",
+        "options": ["Dass Deutschland führend ist", "Dass Technik allein nicht reicht", "Dass keine Änderungen nötig sind", "Dass analoge Methoden besser sind"],
+        "correct": 1
+      }
+    ],
+    "audioUrl": ""
+  },
+  {
+    "id": "de-listening-9",
+    "title": "Debatte: Grundeinkommen",
+    "level": "B2",
+    "difficulty": "upper-intermediate",
+    "estimatedTime": 9,
+    "text": "Befürworter: Das bedingungslose Grundeinkommen ist eine Antwort auf die Herausforderungen der Zukunft. Wenn Automatisierung und künstliche Intelligenz immer mehr Arbeitsplätze ersetzen, brauchen wir ein neues Modell der sozialen Absicherung. Ein Grundeinkommen würde Menschen Sicherheit geben, ohne sie zu Bittstellern zu machen.\n\nGegner: Das klingt schön, aber wer soll das bezahlen? Die Kosten wären astronomisch. Außerdem befürchte ich, dass viele Menschen aufhören würden zu arbeiten. Arbeit ist nicht nur Gelderwerb, sondern auch Sinnstiftung und gesellschaftliche Teilhabe.\n\nBefürworter: Studien zeigen, dass Menschen bei Grundeinkommens-Experimenten nicht aufhören zu arbeiten. Sie arbeiten vielleicht anders – manche gründen Unternehmen, andere pflegen Angehörige oder engagieren sich ehrenamtlich. Das ist doch wertvolle Arbeit!\n\nGegner: Mag sein, aber diese Experimente waren zeitlich begrenzt. Ob das Modell langfristig funktioniert, ist völlig unklar. Bevor wir unser bewährtes System aufgeben, brauchen wir harte Beweise, nicht Utopien.",
+    "transcript": "Befürworter: Das bedingungslose Grundeinkommen ist eine Antwort auf die Herausforderungen der Zukunft. Wenn Automatisierung und künstliche Intelligenz immer mehr Arbeitsplätze ersetzen, brauchen wir ein neues Modell der sozialen Absicherung. Ein Grundeinkommen würde Menschen Sicherheit geben, ohne sie zu Bittstellern zu machen.\n\nGegner: Das klingt schön, aber wer soll das bezahlen? Die Kosten wären astronomisch. Außerdem befürchte ich, dass viele Menschen aufhören würden zu arbeiten. Arbeit ist nicht nur Gelderwerb, sondern auch Sinnstiftung und gesellschaftliche Teilhabe.\n\nBefürworter: Studien zeigen, dass Menschen bei Grundeinkommens-Experimenten nicht aufhören zu arbeiten. Sie arbeiten vielleicht anders – manche gründen Unternehmen, andere pflegen Angehörige oder engagieren sich ehrenamtlich. Das ist doch wertvolle Arbeit!\n\nGegner: Mag sein, aber diese Experimente waren zeitlich begrenzt. Ob das Modell langfristig funktioniert, ist völlig unklar. Bevor wir unser bewährtes System aufgeben, brauchen wir harte Beweise, nicht Utopien.",
+    "translation": "Proponent: Universal basic income is an answer to the challenges of the future. If automation and artificial intelligence replace more and more jobs, we need a new model of social security. A basic income would give people security without making them beggars.\n\nOpponent: That sounds nice, but who is supposed to pay for it? The costs would be astronomical. I also fear that many people would stop working. Work is not just earning money, but also creating meaning and social participation.\n\nProponent: Studies show that people don't stop working in basic income experiments. They may work differently – some start businesses, others care for relatives or volunteer. That is valuable work!\n\nOpponent: That may be, but these experiments were time-limited. Whether the model works long-term is completely unclear. Before we give up our proven system, we need hard evidence, not utopias.",
+    "vocabulary": [
+      {
+        "word": "bedingungslos",
+        "meaning": "unconditional"
+      },
+      {
+        "word": "Bittsteller",
+        "meaning": "beggar, supplicant"
+      },
+      {
+        "word": "Sinnstiftung",
+        "meaning": "creating meaning"
+      },
+      {
+        "word": "ehrenamtlich",
+        "meaning": "voluntary"
+      },
+      {
+        "word": "bewährt",
+        "meaning": "proven"
+      },
+      {
+        "word": "Utopien",
+        "meaning": "utopias"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Was ist laut dem Befürworter ein Grund für das Grundeinkommen?",
+        "options": ["Mehr Urlaub", "Automatisierung ersetzt Arbeitsplätze", "Weniger Steuern", "Höhere Gehälter"],
+        "correct": 1
+      },
+      {
+        "question": "Was befürchtet der Gegner?",
+        "options": ["Dass Menschen mehr arbeiten", "Dass Menschen aufhören zu arbeiten", "Dass es zu billig ist", "Dass es zu wenig Geld gibt"],
+        "correct": 1
+      },
+      {
+        "question": "Was zeigen laut dem Befürworter die Studien?",
+        "options": ["Menschen arbeiten mehr", "Menschen hören nicht auf zu arbeiten", "Menschen werden krank", "Menschen ziehen weg"],
+        "correct": 1
+      }
+    ],
+    "audioUrl": ""
+  },
+  {
+    "id": "de-listening-10",
+    "title": "Akademischer Vortrag: Klimawandel und Migration",
+    "level": "C1",
+    "difficulty": "advanced",
+    "estimatedTime": 10,
+    "text": "Meine Damen und Herren, ich möchte heute über ein Thema sprechen, das in den kommenden Jahrzehnten unsere Gesellschaften grundlegend prägen wird: Klimabedingte Migration.\n\nNach aktuellen Schätzungen der Weltbank könnten bis 2050 über 200 Millionen Menschen aufgrund der Folgen des Klimawandels gezwungen sein, ihre Heimat zu verlassen. Die Ursachen sind vielfältig: Steigende Meeresspiegel bedrohen Küstenregionen, zunehmende Dürreperioden machen Landwirtschaft unmöglich, extreme Wetterereignisse zerstören Infrastruktur und Lebensgrundlagen.\n\nBemerkenswert ist, dass der Großteil dieser Migration innerhalb der betroffenen Länder stattfinden wird – von ländlichen in städtische Gebiete. Dennoch werden auch grenzüberschreitende Wanderungsbewegungen zunehmen, was die internationale Gemeinschaft vor erhebliche Herausforderungen stellt.\n\nDie völkerrechtliche Situation ist dabei problematisch. Der Begriff 'Klimaflüchtling' ist rechtlich nicht anerkannt. Menschen, die aufgrund von Klimaveränderungen fliehen, fallen nicht unter die Genfer Flüchtlingskonvention. Es besteht dringender Handlungsbedarf, einen angemessenen rechtlichen Rahmen zu schaffen.",
+    "transcript": "Meine Damen und Herren, ich möchte heute über ein Thema sprechen, das in den kommenden Jahrzehnten unsere Gesellschaften grundlegend prägen wird: Klimabedingte Migration.\n\nNach aktuellen Schätzungen der Weltbank könnten bis 2050 über 200 Millionen Menschen aufgrund der Folgen des Klimawandels gezwungen sein, ihre Heimat zu verlassen. Die Ursachen sind vielfältig: Steigende Meeresspiegel bedrohen Küstenregionen, zunehmende Dürreperioden machen Landwirtschaft unmöglich, extreme Wetterereignisse zerstören Infrastruktur und Lebensgrundlagen.\n\nBemerkenswert ist, dass der Großteil dieser Migration innerhalb der betroffenen Länder stattfinden wird – von ländlichen in städtische Gebiete. Dennoch werden auch grenzüberschreitende Wanderungsbewegungen zunehmen, was die internationale Gemeinschaft vor erhebliche Herausforderungen stellt.\n\nDie völkerrechtliche Situation ist dabei problematisch. Der Begriff 'Klimaflüchtling' ist rechtlich nicht anerkannt. Menschen, die aufgrund von Klimaveränderungen fliehen, fallen nicht unter die Genfer Flüchtlingskonvention. Es besteht dringender Handlungsbedarf, einen angemessenen rechtlichen Rahmen zu schaffen.",
+    "translation": "Ladies and gentlemen, I would like to speak today about a topic that will fundamentally shape our societies in the coming decades: Climate-related migration.\n\nAccording to current World Bank estimates, by 2050 over 200 million people could be forced to leave their homes due to the consequences of climate change. The causes are diverse: Rising sea levels threaten coastal regions, increasing drought periods make agriculture impossible, extreme weather events destroy infrastructure and livelihoods.\n\nIt is noteworthy that the majority of this migration will take place within affected countries – from rural to urban areas. Nevertheless, cross-border migration movements will also increase, which poses considerable challenges for the international community.\n\nThe situation under international law is problematic. The term 'climate refugee' is not legally recognized. People who flee due to climate changes do not fall under the Geneva Refugee Convention. There is an urgent need to create an appropriate legal framework.",
+    "vocabulary": [
+      {
+        "word": "klimabedingt",
+        "meaning": "climate-related"
+      },
+      {
+        "word": "Dürreperioden",
+        "meaning": "drought periods"
+      },
+      {
+        "word": "Lebensgrundlagen",
+        "meaning": "livelihoods"
+      },
+      {
+        "word": "grenzüberschreitend",
+        "meaning": "cross-border"
+      },
+      {
+        "word": "völkerrechtlich",
+        "meaning": "under international law"
+      },
+      {
+        "word": "Handlungsbedarf",
+        "meaning": "need for action"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Wie viele Menschen könnten laut Weltbank bis 2050 fliehen müssen?",
+        "options": ["50 Millionen", "100 Millionen", "Über 200 Millionen", "500 Millionen"],
+        "correct": 2
+      },
+      {
+        "question": "Wo wird der Großteil der klimabedingten Migration stattfinden?",
+        "options": ["Zwischen Kontinenten", "Innerhalb der betroffenen Länder", "Nur nach Europa", "Nur nach Nordamerika"],
+        "correct": 1
+      },
+      {
+        "question": "Was ist das rechtliche Problem?",
+        "options": ["Es gibt zu viele Gesetze", "'Klimaflüchtling' ist nicht anerkannt", "Die UNO existiert nicht", "Alle Flüchtlinge werden anerkannt"],
+        "correct": 1
+      }
+    ],
+    "audioUrl": ""
+  },
+  {
+    "id": "de-listening-11",
+    "title": "Schnelle Diskussion mit Dialekteinflüssen",
+    "level": "C1",
+    "difficulty": "advanced",
+    "estimatedTime": 8,
+    "text": "Moderator: Also, ich sag's ja nur ungern, aber die Lage is' halt echt kompliziert. Herr Müller aus Bayern, was meinen Sie dazu?\n\nHerr Müller: Ja mei, das is' doch alles a bisserl übertrieben, find' ich. Wir Bayern ham' des immer scho' hinkriegt. Des wird scho' werden.\n\nFrau Schmidt (Berliner Dialekt): Nee, nee, det siehste falsch! In Berlin ham wa' janz andere Probleme. Hier klappt jar nüscht mehr. Die Schulen sind kaputt, die U-Bahn fährt nicht, und die Mieten – ick sach dir, det is' nich' mehr feierlich!\n\nHerr Müller: Na ja, gut, aber wir sollten des jetzt ned' so dramatisieren. A bissl Geduld braucht's halt.\n\nModerator: Moment, Moment! Lassen wir doch mal die anderen auch zu Wort kommen. Frau Hansen aus Hamburg?\n\nFrau Hansen: Jo, also ich find' dat beide Seiten n' Punkt ham. Wir brauchen Lösungen, aber die müssen auch umsetzbar sein, ne? Dat bringt ja nix, wenn wir hier nur meckern.",
+    "transcript": "Moderator: Also, ich sag's ja nur ungern, aber die Lage is' halt echt kompliziert. Herr Müller aus Bayern, was meinen Sie dazu?\n\nHerr Müller: Ja mei, das is' doch alles a bisserl übertrieben, find' ich. Wir Bayern ham' des immer scho' hinkriegt. Des wird scho' werden.\n\nFrau Schmidt (Berliner Dialekt): Nee, nee, det siehste falsch! In Berlin ham wa' janz andere Probleme. Hier klappt jar nüscht mehr. Die Schulen sind kaputt, die U-Bahn fährt nicht, und die Mieten – ick sach dir, det is' nich' mehr feierlich!\n\nHerr Müller: Na ja, gut, aber wir sollten des jetzt ned' so dramatisieren. A bissl Geduld braucht's halt.\n\nModerator: Moment, Moment! Lassen wir doch mal die anderen auch zu Wort kommen. Frau Hansen aus Hamburg?\n\nFrau Hansen: Jo, also ich find' dat beide Seiten n' Punkt ham. Wir brauchen Lösungen, aber die müssen auch umsetzbar sein, ne? Dat bringt ja nix, wenn wir hier nur meckern.",
+    "translation": "Moderator: Well, I hate to say it, but the situation is really complicated. Mr. Müller from Bavaria, what do you think?\n\nMr. Müller: Well, I think it's all a bit exaggerated. We Bavarians have always managed. It'll work out.\n\nMs. Schmidt (Berlin dialect): No, no, you're seeing it wrong! In Berlin we have completely different problems. Nothing works here anymore. The schools are broken, the subway doesn't run, and the rents – I'm telling you, it's not funny anymore!\n\nMr. Müller: Well, okay, but we shouldn't dramatize this too much. A bit of patience is needed.\n\nModerator: Wait, wait! Let the others have their say too. Ms. Hansen from Hamburg?\n\nMs. Hansen: Yeah, well I think both sides have a point. We need solutions, but they also have to be feasible, right? It doesn't help if we just complain here.",
+    "vocabulary": [
+      {
+        "word": "a bisserl (Bavaria)",
+        "meaning": "a little bit"
+      },
+      {
+        "word": "des/des wird scho'",
+        "meaning": "this/it will work out"
+      },
+      {
+        "word": "det/ick (Berlin)",
+        "meaning": "that/I"
+      },
+      {
+        "word": "jar nüscht (Berlin)",
+        "meaning": "nothing at all"
+      },
+      {
+        "word": "dat/ham (Hamburg)",
+        "meaning": "that/have"
+      },
+      {
+        "word": "meckern",
+        "meaning": "to complain"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Welchen Dialekt spricht Herr Müller?",
+        "options": ["Berlinerisch", "Bayerisch", "Hamburgisch", "Sächsisch"],
+        "correct": 1
+      },
+      {
+        "question": "Welche Probleme nennt Frau Schmidt für Berlin?",
+        "options": ["Zu viel Tourismus", "Schulen, U-Bahn, Mieten", "Zu wenig Restaurants", "Zu viel Regen"],
+        "correct": 1
+      },
+      {
+        "question": "Was fordert Frau Hansen aus Hamburg?",
+        "options": ["Mehr Streit", "Umsetzbare Lösungen", "Weniger Diskussion", "Mehr Dialekt"],
+        "correct": 1
+      }
+    ],
+    "audioUrl": ""
+  },
+  {
+    "id": "de-listening-12",
+    "title": "Literarische Lesung: Rilke",
+    "level": "C2",
+    "difficulty": "mastery",
+    "estimatedTime": 10,
+    "text": "Ich lebe mein Leben in wachsenden Ringen,\ndie sich über die Dinge ziehn.\nIch werde den letzten vielleicht nicht vollbringen,\naber versuchen will ich ihn.\n\nIch kreise um Gott, um den uralten Turm,\nund ich kreise jahrtausendelang;\nund ich weiß noch nicht: bin ich ein Falke, ein Sturm\noder ein großer Gesang.\n\nDieses Gedicht von Rainer Maria Rilke aus dem 'Stunden-Buch' spiegelt das spirituelle Suchen des Dichters wider. Die Metapher der wachsenden Ringe – wie die Jahresringe eines Baumes – deutet auf eine ständige Erweiterung des Bewusstseins hin. Der Dichter umkreist ein göttliches Zentrum, unsicher über seine eigene Natur: Ist er ein Raubvogel, eine Naturgewalt oder Kunst selbst? Diese Ungewissheit ist keine Schwäche, sondern Ausdruck einer demütigen Suche nach Transzendenz.",
+    "transcript": "Ich lebe mein Leben in wachsenden Ringen,\ndie sich über die Dinge ziehn.\nIch werde den letzten vielleicht nicht vollbringen,\naber versuchen will ich ihn.\n\nIch kreise um Gott, um den uralten Turm,\nund ich kreise jahrtausendelang;\nund ich weiß noch nicht: bin ich ein Falke, ein Sturm\noder ein großer Gesang.\n\nDieses Gedicht von Rainer Maria Rilke aus dem 'Stunden-Buch' spiegelt das spirituelle Suchen des Dichters wider. Die Metapher der wachsenden Ringe – wie die Jahresringe eines Baumes – deutet auf eine ständige Erweiterung des Bewusstseins hin. Der Dichter umkreist ein göttliches Zentrum, unsicher über seine eigene Natur: Ist er ein Raubvogel, eine Naturgewalt oder Kunst selbst? Diese Ungewissheit ist keine Schwäche, sondern Ausdruck einer demütigen Suche nach Transzendenz.",
+    "translation": "I live my life in widening rings\nthat stretch out over the things.\nI will perhaps not complete the last one,\nbut I want to try it.\n\nI circle around God, around the ancient tower,\nand I circle for thousands of years;\nand I still don't know: am I a falcon, a storm\nor a great song.\n\nThis poem by Rainer Maria Rilke from the 'Book of Hours' reflects the poet's spiritual searching. The metaphor of the growing rings – like the annual rings of a tree – suggests a constant expansion of consciousness. The poet circles a divine center, uncertain about his own nature: Is he a bird of prey, a force of nature, or art itself? This uncertainty is not a weakness, but an expression of a humble search for transcendence.",
+    "vocabulary": [
+      {
+        "word": "wachsende Ringe",
+        "meaning": "growing rings"
+      },
+      {
+        "word": "vollbringen",
+        "meaning": "to complete, accomplish"
+      },
+      {
+        "word": "Falke",
+        "meaning": "falcon"
+      },
+      {
+        "word": "demütig",
+        "meaning": "humble"
+      },
+      {
+        "word": "Transzendenz",
+        "meaning": "transcendence"
+      },
+      {
+        "word": "widerspiegeln",
+        "meaning": "to reflect"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Was symbolisieren die 'wachsenden Ringe' im Gedicht?",
+        "options": ["Schmuck", "Erweiterung des Bewusstseins", "Gefängnisse", "Sportausrüstung"],
+        "correct": 1
+      },
+      {
+        "question": "Aus welchem Werk stammt das Gedicht?",
+        "options": ["Die Sonette an Orpheus", "Das Stunden-Buch", "Duineser Elegien", "Das Buch der Bilder"],
+        "correct": 1
+      },
+      {
+        "question": "Worüber ist der Dichter unsicher?",
+        "options": ["Sein Alter", "Seine eigene Natur", "Seine Nationalität", "Seine Sprache"],
+        "correct": 1
+      }
+    ],
+    "audioUrl": ""
+  },
+  {
+    "id": "de-listening-13",
+    "title": "Philosophische Rede: Die Grenzen der Sprache",
+    "level": "C2",
+    "difficulty": "mastery",
+    "estimatedTime": 12,
+    "text": "Ludwig Wittgenstein schrieb: 'Die Grenzen meiner Sprache bedeuten die Grenzen meiner Welt.' Dieser Satz, scheinbar simpel, birgt eine Revolution des Denkens.\n\nWas meinte Wittgenstein damit? Nicht etwa, dass wir nur begreifen können, wofür wir Worte haben – eine triviale Behauptung. Vielmehr geht es um die konstitutive Rolle der Sprache für unser Denken selbst. Unsere Sprache formt nicht nur aus, wie wir die Welt beschreiben; sie bestimmt, was überhaupt als denkbar erscheint.\n\nNehmen wir das Beispiel der Farbwahrnehmung. Sprachen, die keine eigenen Wörter für Blau und Grün besitzen, führen zu messbaren Unterschieden in der Farbunterscheidung ihrer Sprecher. Die Sprache strukturiert buchstäblich die Wahrnehmung.\n\nDoch hier liegt auch eine Gefahr. Wenn Sprache das Denken begrenzt, sind wir dann Gefangene unserer linguistischen Konventionen? Wittgenstein selbst rang mit diesem Problem. In seinem Spätwerk verwarf er die Idee einer idealen, logisch reinen Sprache zugunsten einer Vielfalt von 'Sprachspielen' – verschiedene Weisen, Sprache zu gebrauchen, eingebettet in Lebensformen.\n\nDie Aufgabe der Philosophie, so Wittgenstein, sei nicht, neue Wahrheiten zu entdecken, sondern die Verhexung unseres Verstandes durch die Sprache aufzulösen. Wir fliegen nicht aus dem Fliegenglas, indem wir schneller gegen die Wand rennen, sondern indem wir die Öffnung finden.",
+    "transcript": "Ludwig Wittgenstein schrieb: 'Die Grenzen meiner Sprache bedeuten die Grenzen meiner Welt.' Dieser Satz, scheinbar simpel, birgt eine Revolution des Denkens.\n\nWas meinte Wittgenstein damit? Nicht etwa, dass wir nur begreifen können, wofür wir Worte haben – eine triviale Behauptung. Vielmehr geht es um die konstitutive Rolle der Sprache für unser Denken selbst. Unsere Sprache formt nicht nur aus, wie wir die Welt beschreiben; sie bestimmt, was überhaupt als denkbar erscheint.\n\nNehmen wir das Beispiel der Farbwahrnehmung. Sprachen, die keine eigenen Wörter für Blau und Grün besitzen, führen zu messbaren Unterschieden in der Farbunterscheidung ihrer Sprecher. Die Sprache strukturiert buchstäblich die Wahrnehmung.\n\nDoch hier liegt auch eine Gefahr. Wenn Sprache das Denken begrenzt, sind wir dann Gefangene unserer linguistischen Konventionen? Wittgenstein selbst rang mit diesem Problem. In seinem Spätwerk verwarf er die Idee einer idealen, logisch reinen Sprache zugunsten einer Vielfalt von 'Sprachspielen' – verschiedene Weisen, Sprache zu gebrauchen, eingebettet in Lebensformen.\n\nDie Aufgabe der Philosophie, so Wittgenstein, sei nicht, neue Wahrheiten zu entdecken, sondern die Verhexung unseres Verstandes durch die Sprache aufzulösen. Wir fliegen nicht aus dem Fliegenglas, indem wir schneller gegen die Wand rennen, sondern indem wir die Öffnung finden.",
+    "translation": "Ludwig Wittgenstein wrote: 'The limits of my language mean the limits of my world.' This sentence, seemingly simple, contains a revolution of thought.\n\nWhat did Wittgenstein mean by this? Not that we can only understand what we have words for – a trivial claim. Rather, it's about the constitutive role of language for our thinking itself. Our language not only shapes how we describe the world; it determines what appears as thinkable at all.\n\nTake the example of color perception. Languages that have no separate words for blue and green lead to measurable differences in color discrimination among their speakers. Language literally structures perception.\n\nBut here lies a danger. If language limits thinking, are we then prisoners of our linguistic conventions? Wittgenstein himself struggled with this problem. In his later work, he rejected the idea of an ideal, logically pure language in favor of a variety of 'language games' – different ways of using language, embedded in forms of life.\n\nThe task of philosophy, according to Wittgenstein, is not to discover new truths, but to dissolve the bewitchment of our understanding by language. We don't fly out of the fly bottle by running faster against the wall, but by finding the opening.",
+    "vocabulary": [
+      {
+        "word": "konstitutiv",
+        "meaning": "constitutive"
+      },
+      {
+        "word": "Farbwahrnehmung",
+        "meaning": "color perception"
+      },
+      {
+        "word": "Sprachspiele",
+        "meaning": "language games"
+      },
+      {
+        "word": "Verhexung",
+        "meaning": "bewitchment"
+      },
+      {
+        "word": "Fliegenglas",
+        "meaning": "fly bottle"
+      },
+      {
+        "word": "eingebettet",
+        "meaning": "embedded"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Was bedeutet laut dem Text Wittgensteins Aussage über Sprachgrenzen?",
+        "options": ["Nur triviale Worterklärung", "Die konstitutive Rolle der Sprache für das Denken", "Dass Sprache unwichtig ist", "Dass alle Sprachen gleich sind"],
+        "correct": 1
+      },
+      {
+        "question": "Was zeigt das Beispiel der Farbwahrnehmung?",
+        "options": ["Alle sehen gleich", "Sprache strukturiert die Wahrnehmung", "Farben existieren nicht", "Nur Künstler sehen Farben"],
+        "correct": 1
+      },
+      {
+        "question": "Was ist laut Wittgenstein die Aufgabe der Philosophie?",
+        "options": ["Neue Wahrheiten entdecken", "Die Verhexung durch Sprache auflösen", "Neue Sprachen erfinden", "Alte Bücher lesen"],
+        "correct": 1
+      }
+    ],
+    "audioUrl": ""
+  }
+]

@@ -60,6 +60,8 @@
     "practiceMeaning": "意思",
     "practiceReading": "读音",
     "typeMeaningOrReading": "输入意思或读音...",
+    "typeReading": "输入读音...",
+    "showInfo": "显示信息",
     "noKanji": "没有可用汉字。",
     "onyomi": "音読み",
     "kunyomi": "訓読み"

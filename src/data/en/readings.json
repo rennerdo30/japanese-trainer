@@ -1,0 +1,695 @@
+[
+  {
+    "id": "en_reading_1",
+    "title": "My Daily Routine",
+    "text": "Hello! My name is John. I am a student. I wake up at 7 o'clock every morning. First, I take a shower and brush my teeth. Then I eat breakfast. I usually have toast and orange juice. I leave my house at 8 o'clock. I walk to the bus stop and take the bus to school. School starts at 9 o'clock. I have lunch at 12 o'clock in the cafeteria. After school, I go home and do my homework. I eat dinner with my family at 7 o'clock. I go to bed at 10 o'clock. I like my daily routine!",
+    "level": "a1",
+    "questions": [
+      {
+        "question": "What time does John wake up?",
+        "options": ["6 o'clock", "7 o'clock", "8 o'clock", "9 o'clock"],
+        "correct": 1
+      },
+      {
+        "question": "What does John usually have for breakfast?",
+        "options": ["Eggs and bacon", "Cereal and milk", "Toast and orange juice", "Pancakes"],
+        "correct": 2
+      },
+      {
+        "question": "How does John go to school?",
+        "options": ["He walks", "He takes the bus", "He rides a bike", "His parents drive him"],
+        "correct": 1
+      },
+      {
+        "question": "What time does John eat dinner?",
+        "options": ["6 o'clock", "7 o'clock", "8 o'clock", "9 o'clock"],
+        "correct": 1
+      },
+      {
+        "question": "Who does John eat dinner with?",
+        "options": ["His friends", "His family", "By himself", "His classmates"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en_reading_2",
+    "title": "At the Supermarket",
+    "text": "Maria goes to the supermarket every Saturday. She makes a shopping list before she goes. Today, she needs to buy milk, bread, eggs, apples, and chicken. The supermarket is near her house, so she walks there. When she arrives, she takes a shopping cart. First, she goes to the dairy section to get milk. The milk is in the refrigerator. Then she walks to the bakery section for bread. She chooses whole wheat bread. Next, she finds eggs near the dairy section. After that, she goes to the produce section for apples. She picks five red apples. Finally, she goes to the meat section for chicken. At the checkout, she pays with her credit card. The total is twenty-five dollars. Maria carries her groceries home in two bags.",
+    "level": "a1",
+    "questions": [
+      {
+        "question": "When does Maria go to the supermarket?",
+        "options": ["Every day", "Every Friday", "Every Saturday", "Every Sunday"],
+        "correct": 2
+      },
+      {
+        "question": "How does Maria get to the supermarket?",
+        "options": ["She drives", "She walks", "She takes the bus", "She rides a bike"],
+        "correct": 1
+      },
+      {
+        "question": "Where does Maria find the milk?",
+        "options": ["In the bakery section", "In the produce section", "In the refrigerator", "Near the checkout"],
+        "correct": 2
+      },
+      {
+        "question": "How many apples does Maria buy?",
+        "options": ["Three", "Four", "Five", "Six"],
+        "correct": 2
+      },
+      {
+        "question": "How much does Maria pay?",
+        "options": ["Fifteen dollars", "Twenty dollars", "Twenty-five dollars", "Thirty dollars"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "en_reading_3",
+    "title": "A Letter to a Friend",
+    "text": "Dear Tom,\n\nHow are you? I hope you are doing well. I am writing to tell you about my new job. I started working at a restaurant two weeks ago. I am a waiter. The restaurant is called 'The Blue Moon' and it is in the city center. I work from 5 PM to 11 PM, Tuesday to Saturday. The work is hard but interesting. I meet many different people every day. My coworkers are very friendly. The chef is from Italy, and the food is delicious!\n\nThe best part of my job is the tips. Customers are usually generous. Last week, I earned fifty dollars in tips! I am saving money to buy a new laptop.\n\nPlease write back and tell me about your life. Do you still work at the bookstore?\n\nBest wishes,\nDavid",
+    "level": "a2",
+    "questions": [
+      {
+        "question": "What is David's new job?",
+        "options": ["Chef", "Waiter", "Manager", "Cashier"],
+        "correct": 1
+      },
+      {
+        "question": "How long has David been working at the restaurant?",
+        "options": ["One week", "Two weeks", "One month", "Two months"],
+        "correct": 1
+      },
+      {
+        "question": "What days does David NOT work?",
+        "options": ["Tuesday and Wednesday", "Saturday and Sunday", "Sunday and Monday", "Friday and Saturday"],
+        "correct": 2
+      },
+      {
+        "question": "Where is the chef from?",
+        "options": ["France", "Spain", "Italy", "Greece"],
+        "correct": 2
+      },
+      {
+        "question": "What does David want to buy?",
+        "options": ["A new phone", "A new laptop", "A new car", "A new bike"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en_reading_4",
+    "title": "The Weather Forecast",
+    "text": "Good morning! Here is the weather forecast for this week. Today is Monday. It is cloudy and cool. The temperature is 15 degrees Celsius. Tomorrow, Tuesday, will be rainy. Please bring an umbrella! Wednesday will be better. It will be partly cloudy with some sunshine. Thursday and Friday will be warm and sunny. The temperature will reach 22 degrees. This is perfect weather for outdoor activities. However, the weekend will be different. On Saturday, there will be strong winds. On Sunday, we expect thunderstorms in the afternoon. If you have outdoor plans for the weekend, please be careful and check the weather before you go out. Have a great week!",
+    "level": "a2",
+    "questions": [
+      {
+        "question": "What is the weather like today (Monday)?",
+        "options": ["Sunny and warm", "Cloudy and cool", "Rainy and cold", "Windy and hot"],
+        "correct": 1
+      },
+      {
+        "question": "What should you bring on Tuesday?",
+        "options": ["Sunglasses", "A jacket", "An umbrella", "A hat"],
+        "correct": 2
+      },
+      {
+        "question": "What is the temperature on Thursday and Friday?",
+        "options": ["15 degrees", "18 degrees", "20 degrees", "22 degrees"],
+        "correct": 3
+      },
+      {
+        "question": "What is the weather on Saturday?",
+        "options": ["Rainy", "Sunny", "Strong winds", "Thunderstorms"],
+        "correct": 2
+      },
+      {
+        "question": "When are thunderstorms expected on Sunday?",
+        "options": ["In the morning", "At noon", "In the afternoon", "At night"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "en_reading_5",
+    "title": "My Favorite Hobby",
+    "text": "My favorite hobby is gardening. I started gardening three years ago when I moved to my new house. The house has a small backyard, and I wanted to make it beautiful. In the beginning, I did not know much about plants. I made many mistakes. Some plants died because I gave them too much water. Other plants died because they did not get enough sunlight.\n\nNow I know much more about gardening. I grow vegetables like tomatoes, carrots, and peppers. I also have flowers: roses, tulips, and sunflowers. My garden looks wonderful in spring and summer.\n\nI spend about two hours every weekend in my garden. I water the plants, remove weeds, and check for insects. Gardening is relaxing. When I am in my garden, I forget about work and stress. I also save money because I can eat vegetables from my own garden. Fresh vegetables taste much better than vegetables from the supermarket!\n\nI recommend gardening to everyone. You do not need a big space. You can grow plants in pots on your balcony. It is a wonderful hobby that connects you with nature.",
+    "level": "a2",
+    "questions": [
+      {
+        "question": "When did the writer start gardening?",
+        "options": ["One year ago", "Two years ago", "Three years ago", "Four years ago"],
+        "correct": 2
+      },
+      {
+        "question": "Why did some plants die in the beginning?",
+        "options": ["Not enough water", "Too much water", "Too cold", "Insects"],
+        "correct": 1
+      },
+      {
+        "question": "Which vegetable does the writer NOT mention growing?",
+        "options": ["Tomatoes", "Carrots", "Peppers", "Potatoes"],
+        "correct": 3
+      },
+      {
+        "question": "How much time does the writer spend gardening each weekend?",
+        "options": ["One hour", "Two hours", "Three hours", "Four hours"],
+        "correct": 1
+      },
+      {
+        "question": "According to the writer, what is one benefit of gardening?",
+        "options": ["Making money", "Getting exercise", "Saving money on vegetables", "Meeting new friends"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "en_reading_6",
+    "title": "Tech Company Announces Major Layoffs",
+    "text": "San Francisco - Tech giant GlobalTech announced yesterday that it will be laying off approximately 12,000 employees, representing about 15% of its global workforce. The decision comes amid a broader slowdown in the technology sector that has seen numerous companies reduce their headcount over the past year.\n\nIn an email to employees, CEO Marcus Chen cited 'challenging economic conditions' and the need to 'streamline operations' as the primary reasons for the cuts. The layoffs will affect all divisions of the company, including its cloud computing, hardware, and advertising units.\n\n'This was an incredibly difficult decision,' Chen wrote. 'However, we must adapt to the current economic reality and position ourselves for long-term success.' Affected employees will receive severance packages, extended health coverage, and job placement assistance.\n\nThe announcement sent GlobalTech's stock price down 3% in after-hours trading, though some analysts viewed the restructuring positively. 'These kinds of difficult decisions are sometimes necessary for companies to remain competitive,' said technology analyst Sarah Martinez. 'Investors may initially react negatively, but the long-term benefits could be significant.'\n\nThis marks the second round of layoffs at GlobalTech in the past eighteen months. The company had previously reduced its workforce by 5% in early 2024.",
+    "level": "b1",
+    "questions": [
+      {
+        "question": "How many employees will GlobalTech lay off?",
+        "options": ["5,000", "10,000", "12,000", "15,000"],
+        "correct": 2
+      },
+      {
+        "question": "What percentage of the workforce does this represent?",
+        "options": ["5%", "10%", "12%", "15%"],
+        "correct": 3
+      },
+      {
+        "question": "What reason did the CEO give for the layoffs?",
+        "options": ["Company bankruptcy", "Challenging economic conditions", "Employee misconduct", "Office relocation"],
+        "correct": 1
+      },
+      {
+        "question": "How did the stock price react to the news?",
+        "options": ["It went up 3%", "It went down 3%", "It stayed the same", "It went down 15%"],
+        "correct": 1
+      },
+      {
+        "question": "Is this the first time GlobalTech has had layoffs recently?",
+        "options": ["Yes, this is the first time", "No, there were layoffs 18 months ago", "No, there were layoffs last month", "The article doesn't say"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en_reading_7",
+    "title": "The Mysterious Passenger",
+    "text": "The train pulled into the station just as the evening rain began to fall. Emma found an empty compartment and settled into the worn velvet seat, grateful for the warmth. She was on her way to visit her grandmother in the countryside, a journey she made every winter.\n\nAt the next stop, a man in a grey coat entered the compartment. He was perhaps fifty, with silver-streaked hair and kind eyes that seemed to hold a secret. He nodded politely and took the seat across from Emma.\n\n'Dreadful weather,' he remarked, glancing at the rain-streaked window.\n\n'Yes,' Emma agreed. 'Though I rather like trains in the rain. There's something peaceful about it.'\n\nThe man smiled. 'You're wise beyond your years.' He paused, then added, 'I used to think the same when I was young. Before life became complicated.'\n\nEmma wanted to ask what he meant, but something in his expression stopped her. They rode in comfortable silence for several miles.\n\nAs the train approached Emma's stop, the man reached into his pocket and handed her a small, wrapped package. 'A gift,' he said. 'For reminding me that simple pleasures still exist.'\n\nBefore Emma could respond, the train stopped and the man stood up. 'This is where I get off,' he said. 'Have a wonderful visit with your grandmother.' And with that, he was gone.\n\nEmma stared at the package in her hands. How had he known about her grandmother?",
+    "level": "b1",
+    "questions": [
+      {
+        "question": "Where is Emma going?",
+        "options": ["To work", "To school", "To visit her grandmother", "To a hotel"],
+        "correct": 2
+      },
+      {
+        "question": "What does Emma say she likes about trains in the rain?",
+        "options": ["They go faster", "They are cheaper", "They are peaceful", "They are warmer"],
+        "correct": 2
+      },
+      {
+        "question": "How does Emma describe the man's eyes?",
+        "options": ["Cold and distant", "Kind, with a secret", "Tired and sad", "Young and bright"],
+        "correct": 1
+      },
+      {
+        "question": "What does the man give Emma?",
+        "options": ["Money", "A book", "A small wrapped package", "His business card"],
+        "correct": 2
+      },
+      {
+        "question": "What surprised Emma at the end of the story?",
+        "options": ["The man left suddenly", "The train was late", "The man knew about her grandmother", "The package was empty"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "en_reading_8",
+    "title": "My Year Without Social Media",
+    "text": "Last January, I made a decision that shocked my friends and family: I deleted all social media apps from my phone. No Instagram, no Twitter, no TikTok, no Facebook. For someone who had spent an average of four hours a day scrolling through feeds, this was a radical change.\n\nThe first week was the hardest. I found myself constantly reaching for my phone, only to remember there was nothing to check. I felt disconnected and slightly anxious. What were my friends doing? What news was I missing? Was I becoming irrelevant?\n\nBy the second week, something shifted. I started reading books again - actual physical books. I had conversations with strangers in coffee shops. I noticed things I had been too distracted to see: the architecture of buildings I walked past every day, the changing colors of the sky at sunset, the expressions on people's faces.\n\nThe most significant change was in my relationships. Without the illusion of connection that social media provides, I had to make real effort to stay in touch with people. I called my mom every Sunday. I met friends for dinner instead of just liking their photos. My friendships became deeper and more meaningful.\n\nI won't pretend it was all positive. I did miss out on some events and inside jokes. A few friendships faded because we had relied too heavily on social media to maintain them. But overall, I gained far more than I lost.\n\nAs this year ends, I have no plans to go back. The digital world will survive without me, and I've discovered that I survive quite well without it.",
+    "level": "b1",
+    "questions": [
+      {
+        "question": "How much time did the writer spend on social media before quitting?",
+        "options": ["One hour a day", "Two hours a day", "Four hours a day", "Six hours a day"],
+        "correct": 2
+      },
+      {
+        "question": "What was the hardest period for the writer?",
+        "options": ["The first day", "The first week", "The first month", "The entire year"],
+        "correct": 1
+      },
+      {
+        "question": "What activity did the writer start doing again?",
+        "options": ["Playing video games", "Reading physical books", "Watching TV", "Going to the gym"],
+        "correct": 1
+      },
+      {
+        "question": "How did the writer stay connected with their mom?",
+        "options": ["By texting", "By video calling daily", "By calling every Sunday", "By sending letters"],
+        "correct": 2
+      },
+      {
+        "question": "Does the writer plan to return to social media?",
+        "options": ["Yes, immediately", "Yes, next year", "Maybe, they're not sure", "No, they have no plans to return"],
+        "correct": 3
+      }
+    ]
+  },
+  {
+    "id": "en_reading_9",
+    "title": "The Paradox of Choice in Modern Society",
+    "text": "In his influential book 'The Paradox of Choice,' psychologist Barry Schwartz argues that having more options does not necessarily lead to greater satisfaction. In fact, he suggests that the abundance of choices available in modern consumer society may actually decrease our overall well-being.\n\nSchwartz distinguishes between two types of decision-makers: 'maximizers' and 'satisficers.' Maximizers seek to make the absolute best choice possible, exhaustively researching all available options before making a decision. Satisficers, on the other hand, look for something that is 'good enough' and move on once they find an option that meets their basic criteria.\n\nResearch has shown that maximizers tend to make objectively better choices than satisficers. However, they also experience more regret, anxiety, and dissatisfaction with their decisions. This is because maximizers are constantly second-guessing themselves, wondering whether they might have made a better choice if they had only looked a little longer.\n\nThe implications of this research extend beyond consumer behavior. In an era of unlimited career paths, potential romantic partners accessible through dating apps, and endless entertainment options, many young people report feeling overwhelmed and paralyzed by choice. The fear of making the wrong decision can be so intense that some avoid making decisions altogether.\n\nSchwartz proposes several strategies for coping with choice overload: set personal standards rather than seeking the best, make decisions irreversible when possible, practice gratitude for what you have, and consciously limit your options. As he puts it, 'Learning to choose is hard. Learning to choose well is harder. And learning to choose well in a world of unlimited possibilities is harder still.'",
+    "level": "b2",
+    "questions": [
+      {
+        "question": "What is the main argument of 'The Paradox of Choice'?",
+        "options": ["More choices lead to more happiness", "More choices may decrease well-being", "People should always maximize their options", "Shopping is bad for mental health"],
+        "correct": 1
+      },
+      {
+        "question": "What is a 'satisficer' according to Schwartz?",
+        "options": ["Someone who is never satisfied", "Someone who seeks the absolute best option", "Someone who looks for 'good enough' options", "Someone who avoids making decisions"],
+        "correct": 2
+      },
+      {
+        "question": "Who makes objectively better choices?",
+        "options": ["Satisficers", "Maximizers", "Both equally", "Neither - choices are subjective"],
+        "correct": 1
+      },
+      {
+        "question": "According to the passage, why do maximizers experience more regret?",
+        "options": ["They make worse choices", "They constantly second-guess themselves", "They spend too much money", "They take too long to decide"],
+        "correct": 1
+      },
+      {
+        "question": "Which is NOT a strategy Schwartz suggests for coping with choice overload?",
+        "options": ["Practice gratitude", "Make decisions irreversible", "Always seek the best option", "Limit your options"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "en_reading_10",
+    "title": "The Last Chapter",
+    "text": "The rain had stopped by the time Detective Sarah Chen arrived at Hartwood Manor. The old estate loomed against the grey October sky, its Victorian turrets casting long shadows across the overgrown garden. This was her last case before retirement - a fitting end, she thought, to a career that had begun in a place not unlike this one.\n\n'The body was found in the library,' said Officer Martinez, meeting her at the door. 'Lord Ashworth. Seventy-three years old. His nephew found him this morning.'\n\nSarah surveyed the scene with practiced eyes. Lord Ashworth sat in a leather armchair, a book still open in his lap. At first glance, he might have been sleeping. But the untouched cup of tea, cold now, and the unusual angle of his head told a different story.\n\n'Natural causes?' she asked.\n\nMartinez shook his head. 'The medical examiner found traces of a rare poison. One that's virtually undetectable unless you know to look for it.'\n\nSarah's interest sharpened. In forty years of detective work, she had encountered such sophistication only a handful of times. 'Who knew he would be here tonight?'\n\n'Only three people. His nephew Robert, who inherits everything. His personal secretary, Mrs. Campbell. And his estranged daughter, who arrived unexpectedly yesterday after twenty years abroad.'\n\nSarah moved to examine the bookshelves, running her finger along the spines. Histories, biographies, classic literature - and then, oddly, a gap. A book was missing.\n\n'Interesting,' she murmured. 'The murderer took something with them. Something more valuable than money, perhaps.'\n\nAs she turned to leave the room, her eyes fell on an inscription carved into the mantelpiece: 'Truth is found between the covers.' She smiled. Her last case was going to be memorable after all.",
+    "level": "b2",
+    "questions": [
+      {
+        "question": "What is significant about this case for Detective Chen?",
+        "options": ["It's her first case", "It's her last case before retirement", "It's her most dangerous case", "It's the only murder case she's worked"],
+        "correct": 1
+      },
+      {
+        "question": "How was Lord Ashworth killed?",
+        "options": ["He was shot", "He was stabbed", "He was poisoned", "He died of natural causes"],
+        "correct": 2
+      },
+      {
+        "question": "How many people knew Lord Ashworth would be at the manor?",
+        "options": ["One", "Two", "Three", "Four"],
+        "correct": 2
+      },
+      {
+        "question": "What clue does Detective Chen notice about the bookshelves?",
+        "options": ["They are dusty", "A book is missing", "They are locked", "They contain a hidden door"],
+        "correct": 1
+      },
+      {
+        "question": "What does the inscription on the mantelpiece say?",
+        "options": ["Death comes to all", "Knowledge is power", "Truth is found between the covers", "The end is near"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "en_reading_11",
+    "title": "The Neuroplasticity Revolution",
+    "text": "For much of the twentieth century, neuroscientists believed that the adult brain was essentially fixed - that after a critical period of development in childhood, neural pathways became permanent and unchangeable. This doctrine, known as the 'hardwired brain,' suggested that damage to brain tissue was irreversible and that learning new skills after a certain age was physiologically impossible.\n\nThis paradigm began to shift in the 1960s with the pioneering research of neuroscientist Michael Merzenich. Through experiments with monkeys, Merzenich demonstrated that the brain's sensory maps could be altered through experience, even in adulthood. His work laid the foundation for what is now called neuroplasticity - the brain's ability to reorganize itself by forming new neural connections throughout life.\n\nThe implications of this discovery are profound. Stroke patients who were once told they would never regain function are now recovering abilities through intensive rehabilitation programs that leverage the brain's plasticity. Musicians and athletes can continue to refine their skills well into old age. Most remarkably, research has shown that meditation and cognitive training can physically alter brain structure, increasing gray matter density in regions associated with learning and memory.\n\nHowever, neuroplasticity is a double-edged sword. The same mechanisms that allow for positive change can also reinforce negative patterns. Chronic stress, trauma, and addiction all create neural pathways that become increasingly entrenched over time. Understanding this has led to new therapeutic approaches that focus on deliberately rewiring maladaptive circuits.\n\nPerhaps the most significant implication of neuroplasticity research is philosophical rather than medical. It suggests that we are not prisoners of our genes or our past experiences. With sufficient effort and the right interventions, meaningful change is always possible. The brain, it turns out, is less like hardware and more like a dynamic, ever-evolving ecosystem.",
+    "level": "c1",
+    "questions": [
+      {
+        "question": "What was the dominant view of the adult brain before the 1960s?",
+        "options": ["It was highly adaptable", "It was essentially fixed after childhood", "It grew throughout life", "It deteriorated rapidly"],
+        "correct": 1
+      },
+      {
+        "question": "What did Michael Merzenich's research demonstrate?",
+        "options": ["The brain cannot change after childhood", "Sensory maps can be altered through experience in adulthood", "Animals and humans have different brains", "Memory is stored in a single location"],
+        "correct": 1
+      },
+      {
+        "question": "According to the passage, what can meditation do to the brain?",
+        "options": ["Reduce brain size", "Physically alter brain structure", "Stop neuroplasticity", "Replace damaged neurons"],
+        "correct": 1
+      },
+      {
+        "question": "Why does the author describe neuroplasticity as a 'double-edged sword'?",
+        "options": ["Because it only works in children", "Because it can reinforce both positive and negative patterns", "Because it requires surgery", "Because it conflicts with genetics"],
+        "correct": 1
+      },
+      {
+        "question": "What metaphor does the author use to describe the brain at the end?",
+        "options": ["A computer", "A fixed machine", "A dynamic ecosystem", "A library"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "en_reading_12",
+    "title": "Memorandum: Proposed Restructuring of Research Division",
+    "text": "TO: Executive Leadership Team\nFROM: Dr. Helena Voss, Chief Strategy Officer\nDATE: October 15, 2024\nRE: Proposed Restructuring of Research Division\n\nExecutive Summary\n\nFollowing our comprehensive review of organizational efficiency, I am proposing a fundamental restructuring of the Research Division. This memorandum outlines the rationale, methodology, and anticipated outcomes of the proposed changes.\n\nCurrent Challenges\n\nOur Research Division currently operates through seven semi-autonomous units, each with its own leadership, budget, and strategic priorities. While this structure has historically fostered innovation, it has also created significant inefficiencies:\n\n1. Redundant capabilities across units, with approximately 30% overlap in technical expertise\n2. Fragmented communication channels impeding cross-functional collaboration\n3. Inconsistent quality standards and research protocols\n4. Suboptimal resource allocation, with some units chronically under-resourced while others maintain excess capacity\n\nProposed Solution\n\nI recommend consolidating the seven units into three integrated research centers, organized by function rather than product line: Foundational Research, Applied Development, and Market Integration. Each center would be led by a senior director reporting directly to the Chief Technology Officer.\n\nThis restructuring would eliminate redundancies while preserving the specialized expertise that has been our competitive advantage. Cross-functional teams would be assembled dynamically based on project requirements, enabling more agile responses to market opportunities.\n\nImplementation Considerations\n\nThe restructuring would necessitate the elimination of approximately 45 positions, primarily in middle management and administrative roles. However, we anticipate creating 30 new positions in high-priority technical areas, resulting in a net reduction of 15 full-time equivalents. Affected employees would be offered early retirement packages, reassignment opportunities, or generous severance terms.\n\nI recommend a phased implementation over 18 months to minimize operational disruption. A detailed timeline and budget proposal are attached as Appendix A.\n\nI request the opportunity to present this proposal in full at the November board meeting.",
+    "level": "c1",
+    "questions": [
+      {
+        "question": "How many research units currently exist?",
+        "options": ["Three", "Five", "Seven", "Fifteen"],
+        "correct": 2
+      },
+      {
+        "question": "What percentage of overlap in technical expertise does the memo cite?",
+        "options": ["15%", "20%", "30%", "45%"],
+        "correct": 2
+      },
+      {
+        "question": "How would the new structure organize research centers?",
+        "options": ["By product line", "By geographic region", "By function", "By budget size"],
+        "correct": 2
+      },
+      {
+        "question": "What is the net change in positions?",
+        "options": ["Addition of 30 positions", "Elimination of 45 positions", "Reduction of 15 positions", "No change"],
+        "correct": 2
+      },
+      {
+        "question": "How long is the proposed implementation period?",
+        "options": ["6 months", "12 months", "18 months", "24 months"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "en_reading_13",
+    "title": "On the Sublime Indifference of the Universe",
+    "text": "Consider the astronomical fact: the light reaching your eyes from the Andromeda galaxy departed its source some 2.5 million years ago, long before any creature recognizably human walked upon this earth. In cosmic terms, your entire existence - indeed, the entirety of human civilization - is but an infinitesimal flicker, a momentary phosphorescence in an ocean of darkness that neither notices nor cares.\n\nThis is not nihilism speaking, though it may sound so to ears attuned only to comfortable falsehoods. It is, rather, the beginning of wisdom. For it is precisely this recognition of our cosmic insignificance that liberates us from the tyranny of petty concerns and enables us to apprehend what truly matters.\n\nThe philosopher Bertrand Russell expressed this insight with characteristic clarity: 'Brief and powerless is Man's life; on him and all his race the slow, sure doom falls pitiless and dark.' Yet Russell did not conclude from this that human existence was without value. Quite the contrary. He argued that the very brevity and fragility of our existence imbued it with a preciousness that an eternal being could never comprehend.\n\nThere is a peculiar comfort in contemplating vastness. Standing beneath a star-strewn sky, watching the Milky Way arc overhead, one experiences simultaneously the vertigo of insignificance and something approaching transcendence. The ego, that persistent fiction, temporarily dissolves. The boundaries between self and cosmos become permeable. We recognize ourselves as what we truly are: organized patterns of stellar debris, briefly animate, capable - for this fleeting moment - of wonder.\n\nThe universe's indifference is not hostile; it is simply the natural condition of existence. And within this indifference, we find not despair but freedom - the freedom to create meaning, to forge connections, to love fiercely and without reservation, knowing that all we cherish will someday pass. This knowledge does not diminish the value of our endeavors; it concentrates them, distills them to their essence.\n\nAs Marcus Aurelius counseled: 'Dwell on the beauty of life. Watch the stars, and see yourself running with them.'",
+    "level": "c2",
+    "questions": [
+      {
+        "question": "How long ago did the light from the Andromeda galaxy begin its journey?",
+        "options": ["250,000 years", "1 million years", "2.5 million years", "25 million years"],
+        "correct": 2
+      },
+      {
+        "question": "According to the passage, what does recognition of cosmic insignificance provide?",
+        "options": ["Despair and nihilism", "Religious certainty", "Liberation from petty concerns", "Scientific knowledge"],
+        "correct": 2
+      },
+      {
+        "question": "What did Bertrand Russell argue about human existence?",
+        "options": ["It is meaningless", "Its brevity gives it preciousness", "It should be extended indefinitely", "It is superior to the cosmos"],
+        "correct": 1
+      },
+      {
+        "question": "What does the author say temporarily dissolves when contemplating the stars?",
+        "options": ["Fear of death", "The ego", "Scientific skepticism", "Religious belief"],
+        "correct": 1
+      },
+      {
+        "question": "How does the author characterize the universe's indifference?",
+        "options": ["As hostile and threatening", "As the natural condition of existence", "As divine punishment", "As an illusion"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en_reading_14",
+    "title": "A Weekend Trip",
+    "text": "Last weekend, my friends and I decided to take a trip to the countryside. We rented a small cottage near a beautiful lake. The journey took about three hours by car, but we didn't mind because we listened to music and talked the whole way.\n\nWhen we arrived, we were amazed by the views. The mountains in the background were covered with snow, and the lake was so clear that we could see the fish swimming. We quickly unpacked our bags and went for a walk around the lake. The air was fresh and clean, completely different from the city.\n\nOn Saturday evening, we made a barbecue outside the cottage. We cooked sausages, chicken, and vegetables. After dinner, we sat around a small fire and told stories. The sky was full of stars - you can't see that many stars in the city because of the lights.\n\nOn Sunday morning, we woke up early and went hiking in the mountains. The trail was quite steep in some places, but the views from the top were worth it. We could see the whole valley below us. We took many photos and rested at the summit for about an hour.\n\nWe returned home on Sunday evening, tired but happy. Everyone agreed that we should do this more often. Sometimes it's important to get away from our busy lives and enjoy nature.",
+    "level": "b1",
+    "questions": [
+      {
+        "question": "How long did the journey take?",
+        "options": ["One hour", "Two hours", "Three hours", "Four hours"],
+        "correct": 2
+      },
+      {
+        "question": "What could they see in the lake?",
+        "options": ["Their reflection", "Fish swimming", "Nothing, it was too dark", "Boats"],
+        "correct": 1
+      },
+      {
+        "question": "What did they do on Saturday evening?",
+        "options": ["Went swimming", "Made a barbecue", "Went to a restaurant", "Watched television"],
+        "correct": 1
+      },
+      {
+        "question": "Why can't you see many stars in the city?",
+        "options": ["There are no stars", "The air is polluted", "Because of the lights", "The buildings are too tall"],
+        "correct": 2
+      },
+      {
+        "question": "How did the group feel when they returned home?",
+        "options": ["Bored and disappointed", "Tired but happy", "Angry about the weather", "Sick from the food"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en_reading_15",
+    "title": "The Job Interview",
+    "text": "Sarah had been unemployed for three months when she finally got a call for a job interview. The position was for a marketing assistant at a large advertising company. She was nervous but also excited about the opportunity.\n\nThe night before the interview, Sarah prepared carefully. She researched the company online and learned about their recent campaigns and clients. She also practiced answering common interview questions in front of a mirror. Her roommate helped by asking her difficult questions like 'What is your biggest weakness?' and 'Where do you see yourself in five years?'\n\nOn the day of the interview, Sarah woke up early and put on her best professional outfit - a navy blue suit with a white blouse. She arrived at the company's office fifteen minutes early, which gave her time to calm her nerves and review her notes.\n\nThe interview lasted about forty-five minutes. There were two interviewers: the marketing director and the HR manager. They asked about her education, her previous work experience, and why she wanted to work for their company. Sarah felt that she answered most questions well, although she stumbled a bit when they asked about her experience with social media advertising.\n\nAt the end of the interview, they told her that they would make a decision within two weeks. Sarah thanked them and left feeling cautiously optimistic. Two days later, she received an email saying that she had been selected for a second interview. She was thrilled!",
+    "level": "b1",
+    "questions": [
+      {
+        "question": "How long had Sarah been unemployed?",
+        "options": ["One month", "Two months", "Three months", "Six months"],
+        "correct": 2
+      },
+      {
+        "question": "What did Sarah do to prepare for the interview?",
+        "options": ["She did nothing", "She researched the company and practiced questions", "She only chose her clothes", "She called the company"],
+        "correct": 1
+      },
+      {
+        "question": "What time did Sarah arrive for the interview?",
+        "options": ["Exactly on time", "Five minutes early", "Fifteen minutes early", "Thirty minutes early"],
+        "correct": 2
+      },
+      {
+        "question": "How many interviewers were there?",
+        "options": ["One", "Two", "Three", "Four"],
+        "correct": 1
+      },
+      {
+        "question": "What happened two days after the interview?",
+        "options": ["She was rejected", "She was hired immediately", "She was invited for a second interview", "She heard nothing"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "en_reading_16",
+    "title": "Remote Work: The New Normal",
+    "text": "The COVID-19 pandemic fundamentally changed the way millions of people work. Forced to adapt to lockdowns and social distancing measures, companies worldwide implemented remote work policies almost overnight. What was initially seen as a temporary measure has now become a permanent fixture for many organizations.\n\nThe benefits of remote work are well-documented. Employees often report higher job satisfaction due to the elimination of commuting time, which can add hours to the working day. Parents particularly appreciate the flexibility to balance childcare with professional responsibilities. Companies, meanwhile, have discovered that they can reduce overhead costs significantly by downsizing office spaces.\n\nHowever, the shift to remote work has not been without challenges. Many workers struggle with the blurring of boundaries between professional and personal life. Without a physical separation between home and office, some find it difficult to 'switch off' at the end of the day. Social isolation is another concern, as casual conversations and spontaneous collaboration become less frequent.\n\nResearch suggests that the most effective approach may be a hybrid model, combining remote work with occasional office days. This allows employees to enjoy the flexibility of working from home while maintaining important face-to-face connections with colleagues. Some companies have adopted a 'three days in, two days out' policy, while others let employees choose their preferred arrangement.\n\nAs technology continues to evolve, with improvements in video conferencing, collaborative software, and virtual reality, the possibilities for remote work will only expand. The traditional nine-to-five office job may never fully return, replaced by a more flexible, location-independent way of working that prioritizes results over physical presence.",
+    "level": "b2",
+    "questions": [
+      {
+        "question": "What initially caused companies to implement remote work?",
+        "options": ["Employee demands", "The COVID-19 pandemic", "Technology improvements", "Cost reduction goals"],
+        "correct": 1
+      },
+      {
+        "question": "According to the passage, what do parents particularly appreciate about remote work?",
+        "options": ["Higher salaries", "Less supervision", "Flexibility to balance childcare", "More vacation time"],
+        "correct": 2
+      },
+      {
+        "question": "What challenge do many remote workers face?",
+        "options": ["Lower salaries", "Blurring of professional and personal boundaries", "Too much travel", "Difficult coworkers"],
+        "correct": 1
+      },
+      {
+        "question": "What does research suggest is the most effective approach?",
+        "options": ["Full-time remote work", "Full-time office work", "A hybrid model", "Freelance work"],
+        "correct": 2
+      },
+      {
+        "question": "What does the author predict about the traditional nine-to-five office job?",
+        "options": ["It will become more common", "It may never fully return", "It will be required by law", "It will be unchanged"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en_reading_17",
+    "title": "The Art of Negotiation",
+    "text": "Effective negotiation is a skill that can be learned and refined over time. Whether you are negotiating a salary increase, closing a business deal, or simply deciding where to go for dinner with friends, the fundamental principles remain the same.\n\nThe first step in any successful negotiation is preparation. This means researching the other party's needs, interests, and potential constraints. What do they truly want? What are they afraid of losing? What pressures are they under? The more you understand about their position, the better equipped you will be to find mutually beneficial solutions.\n\nMany people approach negotiations with a win-lose mentality, viewing any gain for the other party as a loss for themselves. However, skilled negotiators recognize that this mindset often leads to suboptimal outcomes for everyone. The most successful negotiations are those where both parties walk away feeling satisfied - what Harvard Business School calls a 'win-win' outcome.\n\nActive listening is perhaps the most underrated negotiation skill. Rather than simply waiting for your turn to speak, truly listen to what the other party is saying. Ask clarifying questions. Acknowledge their concerns. People are far more likely to be flexible with someone who demonstrates genuine interest in understanding their perspective.\n\nAnother crucial element is emotional intelligence. Negotiations can become heated, and the ability to remain calm under pressure is invaluable. Recognize when you are becoming defensive or aggressive, and take a moment to regain your composure. Remember that the goal is not to 'defeat' the other party but to reach an agreement that serves your interests.\n\nFinally, know your BATNA - your Best Alternative to a Negotiated Agreement. This is your plan B if negotiations fail. Having a strong BATNA gives you confidence and prevents you from accepting unfavorable terms out of desperation.",
+    "level": "b2",
+    "questions": [
+      {
+        "question": "What is the first step in successful negotiation according to the passage?",
+        "options": ["Making demands", "Preparation and research", "Being aggressive", "Walking away"],
+        "correct": 1
+      },
+      {
+        "question": "What does a 'win-win' outcome mean?",
+        "options": ["One party wins everything", "Both parties feel satisfied", "Neither party is happy", "The negotiation fails"],
+        "correct": 1
+      },
+      {
+        "question": "Why is active listening important in negotiations?",
+        "options": ["It wastes time", "People are more flexible with those who understand them", "It shows weakness", "It is not important"],
+        "correct": 1
+      },
+      {
+        "question": "What does BATNA stand for?",
+        "options": ["Best Action To Negotiate Agreement", "Best Alternative to a Negotiated Agreement", "Basic Agreement Terms for Negotiation Advances", "Business Association for Trade and Negotiation Act"],
+        "correct": 1
+      },
+      {
+        "question": "According to the passage, what should you do when negotiations become heated?",
+        "options": ["Walk away immediately", "Become more aggressive", "Remain calm and regain composure", "Accept any terms offered"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "en_reading_18",
+    "title": "The Cognitive Benefits of Bilingualism",
+    "text": "For much of the twentieth century, bilingualism was viewed with suspicion by many educators and psychologists. There was a widespread belief that learning two languages simultaneously would confuse children, impair their cognitive development, and ultimately hinder their academic achievement. Immigrant parents were often advised to speak only English at home, abandoning their native languages in the interest of their children's education.\n\nThis view has been comprehensively overturned by decades of neuroscientific and psychological research. We now know that bilingualism, far from being cognitively harmful, actually confers significant advantages. The bilingual brain, constantly navigating between two linguistic systems, develops enhanced executive function - the set of mental skills that includes working memory, cognitive flexibility, and inhibitory control.\n\nPerhaps most remarkably, these benefits appear to extend well beyond language processing itself. Studies have shown that bilingual individuals often outperform monolinguals on tasks requiring attention switching, conflict resolution, and the ability to filter out irrelevant information. These advantages have been observed across the lifespan, from bilingual toddlers who demonstrate superior cognitive flexibility to elderly bilinguals who show later onset of dementia symptoms.\n\nThe mechanism behind these benefits relates to the constant mental exercise involved in managing two languages. Every time a bilingual person speaks, their brain must suppress the non-target language while activating the target language. This continual mental juggling strengthens the prefrontal cortex, the brain region responsible for executive control.\n\nHowever, researchers caution against oversimplifying these findings. The 'bilingual advantage' is not universal or uniform; it varies depending on factors such as proficiency level, frequency of language use, and the specific cognitive skills being measured. Moreover, bilingualism is not the only path to cognitive enhancement - regular physical exercise, musical training, and intellectual engagement also strengthen executive function.\n\nNonetheless, the evidence is clear: rather than being a cognitive burden, bilingualism is a form of mental enrichment that reshapes the brain in beneficial ways.",
+    "level": "c1",
+    "questions": [
+      {
+        "question": "What was the traditional view of bilingualism in the twentieth century?",
+        "options": ["It was encouraged", "It was seen as beneficial", "It was viewed with suspicion", "It was mandatory in schools"],
+        "correct": 2
+      },
+      {
+        "question": "What does 'executive function' include?",
+        "options": ["Business management skills", "Working memory, cognitive flexibility, and inhibitory control", "Language production only", "Physical coordination"],
+        "correct": 1
+      },
+      {
+        "question": "According to the passage, what happens when elderly bilinguals are compared to monolinguals?",
+        "options": ["They show earlier dementia", "They show later onset of dementia symptoms", "There is no difference", "They have worse memory"],
+        "correct": 1
+      },
+      {
+        "question": "What brain region is strengthened by bilingualism?",
+        "options": ["The hippocampus", "The cerebellum", "The prefrontal cortex", "The amygdala"],
+        "correct": 2
+      },
+      {
+        "question": "What caution do researchers offer about the bilingual advantage?",
+        "options": ["It does not exist", "It is dangerous", "It is not universal or uniform", "It only applies to children"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "en_reading_19",
+    "title": "Ethical Dilemmas in Artificial Intelligence",
+    "text": "As artificial intelligence systems become increasingly sophisticated and ubiquitous, society faces a growing array of ethical challenges that demand careful consideration. These dilemmas are not merely theoretical; they have immediate practical implications for fields ranging from healthcare and criminal justice to employment and warfare.\n\nConsider the development of autonomous vehicles. These systems must be programmed to make split-second decisions in emergency situations - decisions that may involve choosing between different potentially harmful outcomes. If an accident is unavoidable, should the vehicle prioritize the safety of its passengers or that of pedestrians? Should it minimize total casualties, even if this means sacrificing its occupants? These questions echo classic philosophical thought experiments, but they now require concrete answers encoded in software.\n\nAlgorithmic bias presents another profound challenge. Machine learning systems are trained on historical data, which often reflects existing societal prejudices. When these systems are deployed for consequential decisions - determining creditworthiness, screening job applicants, or predicting criminal recidivism - they risk perpetuating and even amplifying discrimination. The opacity of many AI systems compounds this problem; even their creators may not fully understand how they arrive at their conclusions.\n\nThe question of accountability is equally vexing. When an AI system causes harm, who bears responsibility? The programmer who wrote the code? The company that deployed it? The user who employed it? Traditional legal frameworks, designed for human actors with clear intentions, struggle to accommodate decision-making entities that learn and evolve autonomously.\n\nPerhaps most fundamentally, the development of increasingly capable AI systems raises questions about the nature of consciousness, moral status, and rights. At what point, if ever, might an artificial system warrant moral consideration in its own right? How would we even recognize genuine machine consciousness if it emerged?\n\nThese challenges demand interdisciplinary collaboration among technologists, ethicists, policymakers, and the public. The decisions we make now about the development and deployment of AI will shape the future of human civilization in ways both profound and unpredictable.",
+    "level": "c1",
+    "questions": [
+      {
+        "question": "What ethical dilemma do autonomous vehicles face in emergency situations?",
+        "options": ["Fuel efficiency", "Choosing between different potentially harmful outcomes", "Entertainment systems", "Navigation accuracy"],
+        "correct": 1
+      },
+      {
+        "question": "What is 'algorithmic bias'?",
+        "options": ["A type of computer virus", "When AI systems reflect and perpetuate societal prejudices", "A programming technique", "Random errors in code"],
+        "correct": 1
+      },
+      {
+        "question": "What problem does the opacity of AI systems create?",
+        "options": ["They use too much electricity", "Even creators may not understand how they reach conclusions", "They are too slow", "They are too expensive"],
+        "correct": 1
+      },
+      {
+        "question": "What challenge does AI present for legal frameworks?",
+        "options": ["They are designed for human actors with clear intentions", "They are too expensive to update", "There are no laws about technology", "Courts don't understand computers"],
+        "correct": 0
+      },
+      {
+        "question": "What does the author suggest is needed to address AI ethics?",
+        "options": ["More powerful computers", "Interdisciplinary collaboration", "Banning all AI research", "Letting companies self-regulate"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en_reading_20",
+    "title": "The Collected Letters of Virginia Woolf: A Critical Examination",
+    "text": "The six volumes of Virginia Woolf's correspondence, meticulously edited by Nigel Nicolson and Joanne Trautmann, constitute an invaluable resource for understanding not merely the inner life of one of modernism's most luminous figures, but the entire intellectual and social milieu of Bloomsbury. These letters, spanning from Woolf's adolescence to her death in 1941, reveal a writer whose epistolary practice was no less innovative than her fiction.\n\nWhat strikes the reader most forcibly is Woolf's chameleon-like adaptability to her correspondents. Writing to her sister Vanessa, she is playful, gossipy, occasionally barbed; with Vita Sackville-West, ardent and rhapsodic; with Lytton Strachey, intellectually combative yet affectionate. Each letter becomes a performance calibrated to its audience, yet never feels inauthentic. Rather, these varied registers seem to represent facets of a multiform personality that resisted reduction to any single, stable identity.\n\nThe letters also illuminate Woolf's working methods in ways that her diaries, valuable as they are, cannot fully capture. We witness the genesis of novels in casual remarks to friends, see her wrestling with structural problems, observe the oscillation between exhilarating creative surges and paralyzing self-doubt. Her description of finishing 'The Waves' - 'I wrote the words O Death fifteen minutes ago, having reeled across the last ten pages with some moments of such intensity and intoxication that I seemed only to stumble after my own voice' - achieves a lyricism that rivals any passage in her published work.\n\nParticularly revelatory are the letters from her periods of mental illness. Contrary to the romantic notion of madness as somehow enabling artistic vision, these documents depict suffering of the starkest kind - a mind tormented by voices, by crushing despair, by the terror of losing itself entirely. That Woolf was able to transmute this anguish into the controlled brilliance of her prose represents a triumph of will and craft that the letters help us more fully appreciate.\n\nYet one must approach this correspondence with appropriate scholarly caution. Letters are not confessions; they are constructed artifacts, shaped by the writer's sense of audience and occasion. Woolf was acutely aware of posterity's gaze, occasionally remarking that she was writing 'for the biographer.' The letters reveal, but they also conceal and perform.",
+    "level": "c2",
+    "questions": [
+      {
+        "question": "How many volumes of Woolf's correspondence are discussed?",
+        "options": ["Four", "Five", "Six", "Seven"],
+        "correct": 2
+      },
+      {
+        "question": "What does the author say about Woolf's writing style in her letters?",
+        "options": ["It was always the same", "She adapted to each correspondent", "She only wrote formally", "She was a poor letter writer"],
+        "correct": 1
+      },
+      {
+        "question": "According to the passage, how do the letters differ from Woolf's diaries?",
+        "options": ["They are less personal", "They illuminate her working methods differently", "They are shorter", "They were never published"],
+        "correct": 1
+      },
+      {
+        "question": "What do the letters from Woolf's periods of mental illness reveal?",
+        "options": ["That madness enabled her art", "Suffering of the starkest kind", "That she was always happy", "That she never recovered"],
+        "correct": 1
+      },
+      {
+        "question": "What scholarly caution does the author advise?",
+        "options": ["The letters are forgeries", "Letters are constructed artifacts, not pure confessions", "Woolf's letters are unreliable", "The editors made mistakes"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en_reading_21",
+    "title": "The Phenomenology of Temporal Experience",
+    "text": "Our experience of time presents philosophy with one of its most enduring puzzles. We speak of time 'passing' or 'flowing,' yet when we attempt to grasp this flow directly, it seems to dissolve under scrutiny. As Saint Augustine famously observed: 'What then is time? If no one asks me, I know; if I wish to explain it to one who asks, I know not.'\n\nThe phenomenological tradition, inaugurated by Edmund Husserl, offers a sophisticated framework for approaching this problem. Rather than asking what time objectively is, phenomenology inquires into how temporality appears to consciousness. This shift in perspective reveals that our experience of the present is never a dimensionless instant but always contains within it traces of the past (what Husserl calls 'retention') and anticipations of the future ('protention').\n\nConsider the experience of listening to a melody. If consciousness grasped only the present moment, we would perceive only a succession of disconnected tones, never a melody. The fact that we hear music as music demonstrates that consciousness actively synthesizes temporal phases into unified wholes. The note now sounding carries with it the echo of the note just passed and the implicit expectation of the note to come.\n\nMartin Heidegger radicalizes this analysis by arguing that temporality is not merely a feature of consciousness but the fundamental structure of human existence (Dasein). We do not exist 'in' time as objects exist in space; rather, we are temporal through and through. Our past is not something left behind but something we carry forward and constantly reinterpret. Our future is not merely what will happen but what we project through our choices and commitments. The present emerges at the intersection of these temporal dimensions.\n\nThis conception has profound implications for understanding human finitude. Authentic existence, for Heidegger, requires confronting our mortality - not as an abstract fact but as the ultimate horizon that gives shape and urgency to our projects. It is the awareness of death that transforms mere passage through time into genuine historicity, the assumption of one's existence as a coherent narrative rather than a random sequence of events.\n\nThe question of temporal experience thus opens onto the most fundamental questions of human existence: meaning, identity, mortality, and the possibility of living authentically in the face of our finitude.",
+    "level": "c2",
+    "questions": [
+      {
+        "question": "What approach does phenomenology take to the problem of time?",
+        "options": ["It asks what time objectively is", "It inquires into how temporality appears to consciousness", "It denies that time exists", "It measures time scientifically"],
+        "correct": 1
+      },
+      {
+        "question": "What does Husserl mean by 'retention' and 'protention'?",
+        "options": ["Memory and planning", "Traces of the past and anticipations of the future within present experience", "Past and future tenses", "Historical and futuristic thinking"],
+        "correct": 1
+      },
+      {
+        "question": "Why does the author use the example of listening to a melody?",
+        "options": ["To discuss music theory", "To demonstrate how consciousness synthesizes temporal phases", "To show that music is pleasant", "To prove that time does not exist"],
+        "correct": 1
+      },
+      {
+        "question": "According to Heidegger, what is temporality?",
+        "options": ["A feature of clocks", "The fundamental structure of human existence", "An illusion", "A scientific measurement"],
+        "correct": 1
+      },
+      {
+        "question": "What does Heidegger argue about authentic existence and mortality?",
+        "options": ["We should ignore death", "Confronting mortality gives shape and urgency to existence", "Death has no meaning", "Authentic existence requires immortality"],
+        "correct": 1
+      }
+    ]
+  }
+]

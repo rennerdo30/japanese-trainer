@@ -1,0 +1,1386 @@
+[
+  {
+    "id": "en-grammar-1",
+    "title": "Present Simple Tense",
+    "level": "A1",
+    "explanation": "The present simple is used for habits, routines, facts, and general truths. Add -s or -es for he/she/it.",
+    "examples": [
+      {
+        "english": "I work every day.",
+        "translation": "Trabajo todos los días."
+      },
+      {
+        "english": "She plays tennis.",
+        "translation": "Ella juega tenis."
+      },
+      {
+        "english": "The sun rises in the east.",
+        "translation": "El sol sale por el este."
+      }
+    ],
+    "patterns": [
+      "I/You/We/They + verb (work, play, eat)",
+      "He/She/It + verb + s/es (works, plays, eats)"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "She ___ to school every day.",
+        "options": ["go", "goes", "going"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-2",
+    "title": "Present Continuous Tense",
+    "level": "A1",
+    "explanation": "The present continuous is used for actions happening now or around now. Use am/is/are + verb-ing.",
+    "examples": [
+      {
+        "english": "I am eating lunch.",
+        "translation": "Estoy almorzando."
+      },
+      {
+        "english": "She is reading a book.",
+        "translation": "Ella está leyendo un libro."
+      },
+      {
+        "english": "They are playing soccer.",
+        "translation": "Ellos están jugando fútbol."
+      }
+    ],
+    "patterns": [
+      "I am + verb-ing",
+      "He/She/It is + verb-ing",
+      "You/We/They are + verb-ing"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "They ___ watching TV now.",
+        "options": ["is", "am", "are"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-3",
+    "title": "Articles: a, an, the",
+    "level": "A1",
+    "explanation": "'A' is used before consonant sounds, 'an' before vowel sounds. 'The' is the definite article for specific things.",
+    "examples": [
+      {
+        "english": "I have a cat.",
+        "translation": "Tengo un gato."
+      },
+      {
+        "english": "She is an artist.",
+        "translation": "Ella es una artista."
+      },
+      {
+        "english": "The book is on the table.",
+        "translation": "El libro está en la mesa."
+      }
+    ],
+    "patterns": [
+      "a + consonant sound (a book, a house)",
+      "an + vowel sound (an apple, an hour)",
+      "the + specific noun (the sun, the president)"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "I want ___ apple.",
+        "options": ["a", "an", "the"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-4",
+    "title": "Subject Pronouns",
+    "level": "A1",
+    "explanation": "Subject pronouns replace noun subjects. They are: I, you, he, she, it, we, they.",
+    "examples": [
+      {
+        "english": "He is my friend.",
+        "translation": "Él es mi amigo."
+      },
+      {
+        "english": "She works here.",
+        "translation": "Ella trabaja aquí."
+      },
+      {
+        "english": "They are students.",
+        "translation": "Ellos son estudiantes."
+      }
+    ],
+    "patterns": [
+      "I (1st person singular)",
+      "You (2nd person)",
+      "He/She/It (3rd person singular)",
+      "We (1st person plural)",
+      "They (3rd person plural)"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Maria is a teacher. ___ is very kind.",
+        "options": ["He", "She", "It"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-5",
+    "title": "Possessive Adjectives",
+    "level": "A1",
+    "explanation": "Possessive adjectives show ownership: my, your, his, her, its, our, their.",
+    "examples": [
+      {
+        "english": "This is my book.",
+        "translation": "Este es mi libro."
+      },
+      {
+        "english": "Her name is Anna.",
+        "translation": "Su nombre es Anna."
+      },
+      {
+        "english": "Their house is big.",
+        "translation": "Su casa es grande."
+      }
+    ],
+    "patterns": [
+      "my (I → my)",
+      "your (you → your)",
+      "his/her/its (he/she/it → his/her/its)",
+      "our (we → our)",
+      "their (they → their)"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "John loves ___ car.",
+        "options": ["her", "his", "their"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-6",
+    "title": "Questions with Do/Does",
+    "level": "A1",
+    "explanation": "Use 'do' with I/you/we/they and 'does' with he/she/it to form questions in present simple.",
+    "examples": [
+      {
+        "english": "Do you speak English?",
+        "translation": "¿Hablas inglés?"
+      },
+      {
+        "english": "Does she live here?",
+        "translation": "¿Vive ella aquí?"
+      },
+      {
+        "english": "Do they work together?",
+        "translation": "¿Trabajan juntos?"
+      }
+    ],
+    "patterns": [
+      "Do + I/you/we/they + verb?",
+      "Does + he/she/it + verb?"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "___ he like coffee?",
+        "options": ["Do", "Does", "Is"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-7",
+    "title": "Negative Sentences",
+    "level": "A1",
+    "explanation": "Use 'do not' (don't) or 'does not' (doesn't) + base verb to make negative sentences.",
+    "examples": [
+      {
+        "english": "I don't like coffee.",
+        "translation": "No me gusta el café."
+      },
+      {
+        "english": "She doesn't work here.",
+        "translation": "Ella no trabaja aquí."
+      },
+      {
+        "english": "We don't have time.",
+        "translation": "No tenemos tiempo."
+      }
+    ],
+    "patterns": [
+      "I/You/We/They + don't + verb",
+      "He/She/It + doesn't + verb"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "She ___ eat meat.",
+        "options": ["don't", "doesn't", "not"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-8",
+    "title": "There is / There are",
+    "level": "A1",
+    "explanation": "Use 'there is' for singular nouns and 'there are' for plural nouns to talk about existence.",
+    "examples": [
+      {
+        "english": "There is a book on the table.",
+        "translation": "Hay un libro en la mesa."
+      },
+      {
+        "english": "There are three cats.",
+        "translation": "Hay tres gatos."
+      },
+      {
+        "english": "Is there a problem?",
+        "translation": "¿Hay un problema?"
+      }
+    ],
+    "patterns": [
+      "There is + singular noun",
+      "There are + plural noun",
+      "Is there / Are there (questions)"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "There ___ many people in the park.",
+        "options": ["is", "are", "be"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-9",
+    "title": "Can for Ability",
+    "level": "A1",
+    "explanation": "'Can' expresses ability or possibility. The verb after 'can' is always in base form.",
+    "examples": [
+      {
+        "english": "I can swim.",
+        "translation": "Puedo nadar."
+      },
+      {
+        "english": "She can speak French.",
+        "translation": "Ella puede hablar francés."
+      },
+      {
+        "english": "Can you help me?",
+        "translation": "¿Puedes ayudarme?"
+      }
+    ],
+    "patterns": [
+      "Subject + can + verb (base form)",
+      "Subject + can't + verb (negative)",
+      "Can + subject + verb? (question)"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "She can ___ the piano.",
+        "options": ["plays", "playing", "play"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-10",
+    "title": "Prepositions of Place",
+    "level": "A1",
+    "explanation": "Prepositions like in, on, at, under, behind describe where things are located.",
+    "examples": [
+      {
+        "english": "The cat is on the table.",
+        "translation": "El gato está en la mesa."
+      },
+      {
+        "english": "The keys are in my bag.",
+        "translation": "Las llaves están en mi bolsa."
+      },
+      {
+        "english": "She is at home.",
+        "translation": "Ella está en casa."
+      }
+    ],
+    "patterns": [
+      "in (inside): in the box, in the room",
+      "on (surface): on the table, on the wall",
+      "at (location): at home, at school, at work",
+      "under: under the bed",
+      "behind: behind the door"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "The book is ___ the table.",
+        "options": ["in", "on", "at"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-11",
+    "title": "Present Perfect Continuous",
+    "level": "B1",
+    "explanation": "The present perfect continuous describes actions that started in the past and continue to the present, or recently finished actions with visible results. Use have/has + been + verb-ing.",
+    "examples": [
+      {
+        "english": "I have been waiting for two hours.",
+        "translation": "He estado esperando por dos horas."
+      },
+      {
+        "english": "She has been studying all day.",
+        "translation": "Ella ha estado estudiando todo el día."
+      },
+      {
+        "english": "It has been raining since morning.",
+        "translation": "Ha estado lloviendo desde la mañana."
+      }
+    ],
+    "patterns": [
+      "I/You/We/They + have been + verb-ing",
+      "He/She/It + has been + verb-ing",
+      "Used for duration: for two hours, since Monday"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "She ___ working here for five years.",
+        "options": ["has been", "have been", "is being"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-12",
+    "title": "Past Perfect",
+    "level": "B1",
+    "explanation": "The past perfect describes an action that happened before another past action. Use had + past participle.",
+    "examples": [
+      {
+        "english": "I had finished dinner before she arrived.",
+        "translation": "Había terminado la cena antes de que ella llegara."
+      },
+      {
+        "english": "They had already left when we got there.",
+        "translation": "Ya se habían ido cuando llegamos."
+      },
+      {
+        "english": "She had never seen snow before moving to Canada.",
+        "translation": "Nunca había visto nieve antes de mudarse a Canadá."
+      }
+    ],
+    "patterns": [
+      "Subject + had + past participle",
+      "Often used with before, after, when, by the time",
+      "Negative: had not (hadn't) + past participle"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "By the time I arrived, the movie ___.",
+        "options": ["started", "had started", "has started"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-13",
+    "title": "Reported Speech",
+    "level": "B1",
+    "explanation": "Reported speech is used to tell someone what another person said. Tenses usually shift back one step (present becomes past, etc.).",
+    "examples": [
+      {
+        "english": "She said she was tired.",
+        "translation": "Ella dijo que estaba cansada."
+      },
+      {
+        "english": "He told me he had finished the work.",
+        "translation": "Él me dijo que había terminado el trabajo."
+      },
+      {
+        "english": "They asked if I could help.",
+        "translation": "Preguntaron si podía ayudar."
+      }
+    ],
+    "patterns": [
+      "Direct: 'I am happy.' → Reported: She said she was happy.",
+      "Direct: 'I will go.' → Reported: He said he would go.",
+      "Questions: 'Are you coming?' → She asked if I was coming."
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "He said he ___ help me tomorrow.",
+        "options": ["will", "would", "can"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-14",
+    "title": "Passive Voice",
+    "level": "B1",
+    "explanation": "The passive voice is used when the action is more important than who did it, or when the doer is unknown. Use be + past participle.",
+    "examples": [
+      {
+        "english": "The book was written by a famous author.",
+        "translation": "El libro fue escrito por un autor famoso."
+      },
+      {
+        "english": "English is spoken in many countries.",
+        "translation": "El inglés se habla en muchos países."
+      },
+      {
+        "english": "The window has been broken.",
+        "translation": "La ventana ha sido rota."
+      }
+    ],
+    "patterns": [
+      "Present: am/is/are + past participle",
+      "Past: was/were + past participle",
+      "Perfect: have/has been + past participle",
+      "By + agent (optional): done by someone"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "This castle ___ built in 1450.",
+        "options": ["is", "was", "has"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-15",
+    "title": "Mixed Conditionals",
+    "level": "B2",
+    "explanation": "Mixed conditionals combine different time references. They can mix past conditions with present results, or present conditions with past results.",
+    "examples": [
+      {
+        "english": "If I had studied harder, I would have a better job now.",
+        "translation": "Si hubiera estudiado más, tendría un mejor trabajo ahora."
+      },
+      {
+        "english": "If she were more careful, she wouldn't have made that mistake.",
+        "translation": "Si ella fuera más cuidadosa, no habría cometido ese error."
+      },
+      {
+        "english": "If I hadn't missed the flight, I would be in Paris now.",
+        "translation": "Si no hubiera perdido el vuelo, estaría en París ahora."
+      }
+    ],
+    "patterns": [
+      "Past condition → Present result: If + past perfect, would + base verb",
+      "Present condition → Past result: If + past simple, would have + past participle",
+      "Used for hypothetical situations connecting different time frames"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "If I had saved money, I ___ a house now.",
+        "options": ["would own", "would have owned", "will own"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-16",
+    "title": "Subjunctive Mood",
+    "level": "B2",
+    "explanation": "The subjunctive expresses wishes, demands, suggestions, or hypothetical situations. The base form of the verb is used regardless of subject.",
+    "examples": [
+      {
+        "english": "I suggest that he be more careful.",
+        "translation": "Sugiero que él sea más cuidadoso."
+      },
+      {
+        "english": "It is essential that she arrive on time.",
+        "translation": "Es esencial que ella llegue a tiempo."
+      },
+      {
+        "english": "I wish I were taller.",
+        "translation": "Desearía ser más alto."
+      }
+    ],
+    "patterns": [
+      "Demand/suggest/recommend + that + subject + base verb",
+      "It is important/essential/necessary + that + subject + base verb",
+      "I wish + past simple (for present wishes)",
+      "If I were... (not 'was' in formal English)"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "The doctor recommended that she ___ more rest.",
+        "options": ["gets", "get", "getting"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-17",
+    "title": "Advanced Modal Verbs",
+    "level": "B2",
+    "explanation": "Advanced modals express degrees of certainty, deduction, and past possibility. They add nuance to statements about probability and obligation.",
+    "examples": [
+      {
+        "english": "She must have forgotten about the meeting.",
+        "translation": "Ella debe haber olvidado la reunión."
+      },
+      {
+        "english": "They might have been delayed by traffic.",
+        "translation": "Podrían haber sido retrasados por el tráfico."
+      },
+      {
+        "english": "You should have told me earlier.",
+        "translation": "Deberías habérmelo dicho antes."
+      }
+    ],
+    "patterns": [
+      "must have + past participle (certain deduction about past)",
+      "might/may have + past participle (possibility about past)",
+      "should have + past participle (past advice/criticism)",
+      "could have + past participle (past ability/possibility)"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "He's not here. He ___ left early.",
+        "options": ["must have", "can", "should"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-18",
+    "title": "Cleft Sentences",
+    "level": "B2",
+    "explanation": "Cleft sentences (it-clefts and what-clefts) are used to emphasize specific information. They split a simple sentence into two clauses.",
+    "examples": [
+      {
+        "english": "It was John who broke the window.",
+        "translation": "Fue John quien rompió la ventana."
+      },
+      {
+        "english": "What I need is a vacation.",
+        "translation": "Lo que necesito es unas vacaciones."
+      },
+      {
+        "english": "It was in Paris that they first met.",
+        "translation": "Fue en París donde se conocieron."
+      }
+    ],
+    "patterns": [
+      "It + be + emphasized element + who/that/where + rest of sentence",
+      "What + subject + verb + be + emphasized element",
+      "All + subject + verb + be + emphasized element"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "___ I really want is some peace and quiet.",
+        "options": ["It", "What", "That"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-19",
+    "title": "Inversion for Emphasis",
+    "level": "C1",
+    "explanation": "Inversion (placing the auxiliary before the subject) is used after negative adverbs and for formal emphasis. It creates a more dramatic or formal tone.",
+    "examples": [
+      {
+        "english": "Never have I seen such a beautiful sunset.",
+        "translation": "Nunca he visto un atardecer tan hermoso."
+      },
+      {
+        "english": "Rarely does she make mistakes.",
+        "translation": "Raramente comete errores."
+      },
+      {
+        "english": "Not only did he arrive late, but he also forgot the documents.",
+        "translation": "No solo llegó tarde, sino que también olvidó los documentos."
+      }
+    ],
+    "patterns": [
+      "Never/Rarely/Seldom + auxiliary + subject + main verb",
+      "Not only + auxiliary + subject + verb, but also...",
+      "Only when/after/if + auxiliary + subject + verb",
+      "Little did + subject + know..."
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Never ___ I experienced such hospitality.",
+        "options": ["did", "have", "do"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-20",
+    "title": "Ellipsis",
+    "level": "C1",
+    "explanation": "Ellipsis is the omission of words that can be understood from context. It makes speech more natural and avoids repetition.",
+    "examples": [
+      {
+        "english": "I can play the piano, but my sister can't.",
+        "translation": "Yo puedo tocar el piano, pero mi hermana no puede."
+      },
+      {
+        "english": "She asked me to help, and I said I would.",
+        "translation": "Ella me pidió ayuda, y dije que lo haría."
+      },
+      {
+        "english": "A: Are you coming? B: I might.",
+        "translation": "A: ¿Vienes? B: Puede que sí."
+      }
+    ],
+    "patterns": [
+      "Auxiliary alone: can/will/would/might (omitting main verb)",
+      "So/Neither + auxiliary: So do I / Neither can she",
+      "Substitution with 'do so': He promised to call and he did so.",
+      "Short answers: Yes, I am. / No, she hasn't."
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "I don't like horror movies, and neither ___ my brother.",
+        "options": ["do", "does", "is"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-21",
+    "title": "Fronting for Emphasis",
+    "level": "C1",
+    "explanation": "Fronting moves an element to the beginning of a sentence for emphasis. It draws attention to particular information.",
+    "examples": [
+      {
+        "english": "This book I have read many times.",
+        "translation": "Este libro lo he leído muchas veces."
+      },
+      {
+        "english": "Happy they were not.",
+        "translation": "Felices no estaban."
+      },
+      {
+        "english": "Into the room walked a tall stranger.",
+        "translation": "A la habitación entró un extraño alto."
+      }
+    ],
+    "patterns": [
+      "Object fronting: This problem we must solve.",
+      "Complement fronting: Happy she was not.",
+      "Adverbial fronting: Into the forest they ran.",
+      "Creates literary or emphatic tone"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Such nonsense I have never ___!",
+        "options": ["hear", "heard", "hearing"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-22",
+    "title": "Complex Noun Phrases",
+    "level": "C1",
+    "explanation": "Complex noun phrases pack multiple modifiers around a head noun, allowing dense information. Common in academic and formal writing.",
+    "examples": [
+      {
+        "english": "The recently published, highly controversial study on climate change effects",
+        "translation": "El estudio recientemente publicado y muy controvertido sobre los efectos del cambio climático"
+      },
+      {
+        "english": "A well-documented case of systematic discrimination",
+        "translation": "Un caso bien documentado de discriminación sistemática"
+      },
+      {
+        "english": "All the students who had registered before the deadline",
+        "translation": "Todos los estudiantes que se habían registrado antes de la fecha límite"
+      }
+    ],
+    "patterns": [
+      "Pre-modifiers: articles, adjectives, nouns (a big red car)",
+      "Post-modifiers: prepositional phrases (the book on the table)",
+      "Relative clauses (the woman who called yesterday)",
+      "Participle phrases (the man standing by the door)"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "The carefully ___ report revealed many errors.",
+        "options": ["prepare", "prepared", "preparing"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-23",
+    "title": "Stylistic Devices in Writing",
+    "level": "C2",
+    "explanation": "Advanced writers use rhetorical devices like parallelism, antithesis, and chiasmus to create memorable, persuasive prose.",
+    "examples": [
+      {
+        "english": "Ask not what your country can do for you; ask what you can do for your country.",
+        "translation": "No preguntes qué puede hacer tu país por ti; pregunta qué puedes hacer tú por tu país."
+      },
+      {
+        "english": "It was the best of times, it was the worst of times.",
+        "translation": "Era el mejor de los tiempos, era el peor de los tiempos."
+      },
+      {
+        "english": "We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields.",
+        "translation": "Lucharemos en las playas, lucharemos en los terrenos de desembarco, lucharemos en los campos."
+      }
+    ],
+    "patterns": [
+      "Parallelism: same grammatical structure repeated",
+      "Antithesis: contrasting ideas in parallel structure",
+      "Chiasmus: reversed parallel structure (ABBA pattern)",
+      "Anaphora: repetition at the start of clauses"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "To err is human; to ___ divine.",
+        "options": ["mistake", "forgive", "forget"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-24",
+    "title": "Formal vs. Informal Register",
+    "level": "C2",
+    "explanation": "Register refers to the level of formality in language. Mastering register means choosing appropriate vocabulary, grammar, and tone for different contexts.",
+    "examples": [
+      {
+        "english": "Informal: Can you give me a hand? / Formal: Would you be so kind as to assist me?",
+        "translation": "Informal: ¿Me puedes echar una mano? / Formal: ¿Sería tan amable de ayudarme?"
+      },
+      {
+        "english": "Informal: I'll get back to you. / Formal: I shall respond at my earliest convenience.",
+        "translation": "Informal: Te contestaré. / Formal: Responderé a la mayor brevedad posible."
+      },
+      {
+        "english": "Informal: That's great! / Formal: That is most gratifying.",
+        "translation": "Informal: ¡Genial! / Formal: Eso es muy gratificante."
+      }
+    ],
+    "patterns": [
+      "Formal: Latinate vocabulary, passive voice, complete sentences",
+      "Informal: phrasal verbs, contractions, ellipsis",
+      "Academic: hedging language (It could be argued that...)",
+      "Colloquial: idioms, slang, fillers (you know, like)"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Formal version of 'I can't come': I regret that I am ___ to attend.",
+        "options": ["not able", "unable", "incapable"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-25",
+    "title": "Discourse Markers",
+    "level": "C2",
+    "explanation": "Discourse markers organize speech and writing, signal relationships between ideas, and guide the listener/reader. Native speakers use them naturally.",
+    "examples": [
+      {
+        "english": "Having said that, I still think we should proceed.",
+        "translation": "Dicho esto, todavía creo que deberíamos proceder."
+      },
+      {
+        "english": "Be that as it may, the decision has been made.",
+        "translation": "Sea como sea, la decisión ha sido tomada."
+      },
+      {
+        "english": "By and large, the experiment was successful.",
+        "translation": "En general, el experimento fue exitoso."
+      }
+    ],
+    "patterns": [
+      "Concession: having said that, be that as it may, nonetheless",
+      "Summary: by and large, all in all, on the whole",
+      "Contrast: on the contrary, conversely, then again",
+      "Addition: furthermore, moreover, what is more"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "The weather was terrible. ___, we had a great time.",
+        "options": ["Therefore", "Nevertheless", "Furthermore"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-26",
+    "title": "Used to and Would",
+    "level": "B1",
+    "explanation": "'Used to' describes past habits or states that no longer exist. 'Would' can also describe repeated past actions (but not states).",
+    "examples": [
+      {
+        "english": "I used to live in Paris when I was young.",
+        "translation": "Solía vivir en París cuando era joven."
+      },
+      {
+        "english": "We would go to the beach every summer.",
+        "translation": "Íbamos a la playa cada verano."
+      },
+      {
+        "english": "She didn't use to like coffee, but now she drinks it every day.",
+        "translation": "A ella no le solía gustar el café, pero ahora lo bebe todos los días."
+      }
+    ],
+    "patterns": [
+      "used to + base verb (habits and states): I used to smoke.",
+      "would + base verb (repeated actions only): We would play together.",
+      "Negative: didn't use to + base verb",
+      "Question: Did you use to...?"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "She ___ have long hair, but she cut it last year.",
+        "options": ["would", "used to", "was used to"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-27",
+    "title": "Relative Clauses",
+    "level": "B1",
+    "explanation": "Relative clauses give extra information about a noun. Defining clauses are essential for meaning; non-defining clauses (with commas) add extra information.",
+    "examples": [
+      {
+        "english": "The woman who called you is my sister.",
+        "translation": "La mujer que te llamó es mi hermana."
+      },
+      {
+        "english": "The book that I'm reading is very interesting.",
+        "translation": "El libro que estoy leyendo es muy interesante."
+      },
+      {
+        "english": "My brother, who lives in London, is visiting next week.",
+        "translation": "Mi hermano, que vive en Londres, nos visita la próxima semana."
+      }
+    ],
+    "patterns": [
+      "who/that for people: The man who helped me...",
+      "which/that for things: The car which I bought...",
+      "whose for possession: The girl whose father...",
+      "where for places: The town where I was born...",
+      "when for times: The day when we met..."
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "The man ___ car was stolen reported it to the police.",
+        "options": ["who", "whose", "which"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-28",
+    "title": "First and Second Conditionals",
+    "level": "B1",
+    "explanation": "First conditional expresses real, possible future situations. Second conditional expresses unreal, hypothetical present/future situations.",
+    "examples": [
+      {
+        "english": "If it rains tomorrow, I will stay home.",
+        "translation": "Si llueve mañana, me quedaré en casa."
+      },
+      {
+        "english": "If I won the lottery, I would buy a house.",
+        "translation": "Si ganara la lotería, compraría una casa."
+      },
+      {
+        "english": "If I were you, I would apologize.",
+        "translation": "Si yo fuera tú, me disculparía."
+      }
+    ],
+    "patterns": [
+      "First: If + present simple, will + base verb (real possibility)",
+      "Second: If + past simple, would + base verb (unreal/hypothetical)",
+      "If I were (not was) is more formal/correct",
+      "Could/might can replace would for less certainty"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "If I ___ more time, I would learn another language.",
+        "options": ["have", "had", "will have"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-29",
+    "title": "Comparatives and Superlatives",
+    "level": "B1",
+    "explanation": "Comparatives compare two things; superlatives compare three or more. Use -er/-est for short adjectives, more/most for longer ones.",
+    "examples": [
+      {
+        "english": "This book is more interesting than that one.",
+        "translation": "Este libro es más interesante que ese."
+      },
+      {
+        "english": "She is the tallest girl in her class.",
+        "translation": "Ella es la chica más alta de su clase."
+      },
+      {
+        "english": "The weather is getting worse and worse.",
+        "translation": "El clima está empeorando cada vez más."
+      }
+    ],
+    "patterns": [
+      "Short adjectives: -er (taller), -est (tallest)",
+      "Long adjectives: more + adj (more beautiful), most + adj (most beautiful)",
+      "Irregular: good-better-best, bad-worse-worst",
+      "Double comparatives: bigger and bigger, more and more"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "This is the ___ movie I have ever seen.",
+        "options": ["better", "best", "most good"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-30",
+    "title": "Third Conditional",
+    "level": "B2",
+    "explanation": "The third conditional expresses unreal past situations and their imaginary results. It is used to talk about how things could have been different.",
+    "examples": [
+      {
+        "english": "If I had known about the traffic, I would have left earlier.",
+        "translation": "Si hubiera sabido del tráfico, habría salido más temprano."
+      },
+      {
+        "english": "She wouldn't have failed if she had studied harder.",
+        "translation": "Ella no habría reprobado si hubiera estudiado más."
+      },
+      {
+        "english": "If they had invited me, I would have gone to the party.",
+        "translation": "Si me hubieran invitado, habría ido a la fiesta."
+      }
+    ],
+    "patterns": [
+      "If + past perfect, would have + past participle",
+      "Could have / might have instead of would have (for less certainty)",
+      "Often expresses regret or criticism about the past",
+      "Contracted form: If I'd known... I would've..."
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "If I ___ the email, I would have replied immediately.",
+        "options": ["saw", "had seen", "have seen"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-31",
+    "title": "Causative Have and Get",
+    "level": "B2",
+    "explanation": "Causative structures describe when someone arranges for another person to do something. 'Have' is more formal; 'get' is more informal and implies persuasion.",
+    "examples": [
+      {
+        "english": "I had my hair cut yesterday.",
+        "translation": "Me corté el pelo ayer (me lo cortaron)."
+      },
+      {
+        "english": "She got her car repaired at the garage.",
+        "translation": "Hizo que le repararan el carro en el taller."
+      },
+      {
+        "english": "We need to have the house painted before winter.",
+        "translation": "Necesitamos hacer que pinten la casa antes del invierno."
+      }
+    ],
+    "patterns": [
+      "have + object + past participle: I had my phone fixed.",
+      "get + object + past participle: I got my phone fixed.",
+      "have + person + base verb: I had him check the report.",
+      "get + person + to + verb: I got him to check the report."
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "I need to get my passport ___.",
+        "options": ["renew", "renewed", "to renew"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-32",
+    "title": "Wish and If Only",
+    "level": "B2",
+    "explanation": "'Wish' and 'if only' express desires for things to be different. The tense used depends on whether we're wishing about the present, past, or future.",
+    "examples": [
+      {
+        "english": "I wish I spoke better English.",
+        "translation": "Ojalá hablara mejor inglés."
+      },
+      {
+        "english": "If only I had listened to your advice.",
+        "translation": "Si tan solo hubiera escuchado tu consejo."
+      },
+      {
+        "english": "I wish he would stop making that noise.",
+        "translation": "Ojalá dejara de hacer ese ruido."
+      }
+    ],
+    "patterns": [
+      "Present wishes: wish/if only + past simple (I wish I knew...)",
+      "Past wishes: wish/if only + past perfect (I wish I had known...)",
+      "Complaints/requests: wish + would (I wish you would listen)",
+      "'If only' is more emphatic than 'wish'"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "I wish I ___ come to your party last week.",
+        "options": ["can", "could", "could have"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-33",
+    "title": "Gerunds and Infinitives",
+    "level": "B2",
+    "explanation": "Some verbs are followed by gerunds (-ing), some by infinitives (to + verb), and some by both with different meanings. This is a key area for advanced learners.",
+    "examples": [
+      {
+        "english": "I enjoy swimming in the ocean.",
+        "translation": "Disfruto nadar en el océano."
+      },
+      {
+        "english": "She decided to accept the job offer.",
+        "translation": "Ella decidió aceptar la oferta de trabajo."
+      },
+      {
+        "english": "I stopped smoking last year. / I stopped to smoke a cigarette.",
+        "translation": "Dejé de fumar el año pasado. / Paré para fumar un cigarrillo."
+      }
+    ],
+    "patterns": [
+      "Verbs + gerund: enjoy, avoid, finish, mind, suggest",
+      "Verbs + infinitive: want, decide, hope, promise, refuse",
+      "Verbs + both (different meaning): stop, remember, forget, try",
+      "After prepositions: always use gerund (good at swimming)"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "She suggested ___ to the new Italian restaurant.",
+        "options": ["to go", "going", "go"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-34",
+    "title": "Participle Clauses",
+    "level": "C1",
+    "explanation": "Participle clauses use present (-ing) or past (-ed) participles to give information about time, reason, or result. They make writing more concise and sophisticated.",
+    "examples": [
+      {
+        "english": "Having finished his work, he went home.",
+        "translation": "Habiendo terminado su trabajo, se fue a casa."
+      },
+      {
+        "english": "Surprised by the news, she couldn't speak.",
+        "translation": "Sorprendida por la noticia, no pudo hablar."
+      },
+      {
+        "english": "The road leading to the village was blocked.",
+        "translation": "El camino que llevaba al pueblo estaba bloqueado."
+      }
+    ],
+    "patterns": [
+      "Present participle (active): Walking home, I saw an accident.",
+      "Past participle (passive): Written in 1920, the book is still relevant.",
+      "Perfect participle: Having eaten, we left the restaurant.",
+      "Subjects must be the same in both clauses (dangling participle error)"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "___ the results, the scientist was delighted.",
+        "options": ["Seeing", "Seen", "Having been seen"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-35",
+    "title": "Advanced Passive Constructions",
+    "level": "C1",
+    "explanation": "Advanced passive structures include reporting passives, passive infinitives, and get-passives. These add formality and variety to writing.",
+    "examples": [
+      {
+        "english": "It is believed that the company will merge next year.",
+        "translation": "Se cree que la empresa se fusionará el próximo año."
+      },
+      {
+        "english": "He is said to have been a brilliant scientist.",
+        "translation": "Se dice que fue un científico brillante."
+      },
+      {
+        "english": "The suspect is thought to be hiding abroad.",
+        "translation": "Se piensa que el sospechoso se esconde en el extranjero."
+      }
+    ],
+    "patterns": [
+      "It + passive + that clause: It is believed that...",
+      "Subject + passive + infinitive: He is known to be wealthy.",
+      "Subject + passive + perfect infinitive: She is said to have won.",
+      "Get-passive (informal): He got fired. / She got promoted."
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "The building is reported ___ damaged in the earthquake.",
+        "options": ["to be", "to have been", "being"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-36",
+    "title": "Subjunctive in Formal English",
+    "level": "C1",
+    "explanation": "The formal subjunctive uses the base form of the verb after certain verbs and expressions. It is more common in American English and formal writing.",
+    "examples": [
+      {
+        "english": "It is vital that he attend the meeting.",
+        "translation": "Es vital que él asista a la reunión."
+      },
+      {
+        "english": "The committee demanded that the report be submitted immediately.",
+        "translation": "El comité exigió que el informe fuera presentado inmediatamente."
+      },
+      {
+        "english": "I move that this proposal be rejected.",
+        "translation": "Propongo que esta propuesta sea rechazada."
+      }
+    ],
+    "patterns": [
+      "Verbs: demand, insist, recommend, suggest, require, propose",
+      "Adjectives: essential, vital, important, necessary, crucial",
+      "The verb form is always base form (be, have, go) - no -s, no past",
+      "British alternative: should + verb (that he should attend)"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "The judge ordered that the defendant ___ released.",
+        "options": ["is", "be", "was"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-37",
+    "title": "Nominalization",
+    "level": "C1",
+    "explanation": "Nominalization transforms verbs and adjectives into nouns, making language more formal and abstract. It is essential for academic writing.",
+    "examples": [
+      {
+        "english": "The implementation of the new policy caused controversy.",
+        "translation": "La implementación de la nueva política causó controversia."
+      },
+      {
+        "english": "Their reluctance to cooperate delayed the project.",
+        "translation": "Su renuencia a cooperar retrasó el proyecto."
+      },
+      {
+        "english": "The discovery of the artifact was unexpected.",
+        "translation": "El descubrimiento del artefacto fue inesperado."
+      }
+    ],
+    "patterns": [
+      "Verb to noun: discover → discovery, implement → implementation",
+      "Adjective to noun: reluctant → reluctance, important → importance",
+      "Creates more formal, impersonal tone",
+      "Common in academic and business writing"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "The ___ of the evidence was crucial to the case.",
+        "options": ["analyze", "analyzing", "analysis"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-38",
+    "title": "Hedging Language",
+    "level": "C1",
+    "explanation": "Hedging makes statements less direct and absolute. It is crucial in academic writing to avoid overgeneralization and show appropriate caution.",
+    "examples": [
+      {
+        "english": "This may suggest that the theory needs revision.",
+        "translation": "Esto puede sugerir que la teoría necesita revisión."
+      },
+      {
+        "english": "It could be argued that the evidence is inconclusive.",
+        "translation": "Podría argumentarse que la evidencia no es concluyente."
+      },
+      {
+        "english": "The results seem to indicate a positive correlation.",
+        "translation": "Los resultados parecen indicar una correlación positiva."
+      }
+    ],
+    "patterns": [
+      "Modal verbs: may, might, could, would",
+      "Hedging verbs: seem, appear, suggest, tend to",
+      "Adverbs: perhaps, possibly, probably, apparently",
+      "Expressions: to some extent, in some cases, it could be argued"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "The data ___ to support this hypothesis, though more research is needed.",
+        "options": ["proves", "definitely shows", "appears"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-39",
+    "title": "Literary Present Tense",
+    "level": "C2",
+    "explanation": "The literary present (or historical present) uses present tense to describe past events for dramatic effect, or to discuss literature, art, and ideas.",
+    "examples": [
+      {
+        "english": "In his novel, Dostoevsky explores the nature of guilt.",
+        "translation": "En su novela, Dostoievski explora la naturaleza de la culpa."
+      },
+      {
+        "english": "Caesar crosses the Rubicon and declares war on the Senate.",
+        "translation": "César cruza el Rubicón y declara la guerra al Senado."
+      },
+      {
+        "english": "The painting depicts a woman standing by a window.",
+        "translation": "La pintura representa a una mujer de pie junto a una ventana."
+      }
+    ],
+    "patterns": [
+      "Discussing literature: Shakespeare uses imagery to convey...",
+      "Historical narrative: Napoleon invades Russia in 1812...",
+      "Art criticism: The sculpture represents the human condition.",
+      "Creates immediacy and timelessness"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "In the final chapter, the protagonist ___ the truth about his past.",
+        "options": ["discovered", "discovers", "will discover"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-40",
+    "title": "Concessive Clauses",
+    "level": "C2",
+    "explanation": "Concessive clauses express contrast between expectation and reality. Advanced forms like 'much as' and 'however + adjective' create sophisticated arguments.",
+    "examples": [
+      {
+        "english": "Much as I admire his work, I cannot support this decision.",
+        "translation": "Por mucho que admire su trabajo, no puedo apoyar esta decisión."
+      },
+      {
+        "english": "However intelligent she may be, she lacks experience.",
+        "translation": "Por muy inteligente que sea, le falta experiencia."
+      },
+      {
+        "english": "Try as he might, he could not solve the problem.",
+        "translation": "Por más que lo intentara, no pudo resolver el problema."
+      }
+    ],
+    "patterns": [
+      "Much as + clause: Much as I would like to help...",
+      "However + adjective + subject + be: However hard it may seem...",
+      "Try as + subject + might: Try as she might...",
+      "Adjective + though/as + subject + be: Cold though it was..."
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "___ as the task seemed, they completed it successfully.",
+        "options": ["Impossible", "However impossible", "Much impossible"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "en-grammar-41",
+    "title": "Correlative Conjunctions",
+    "level": "C2",
+    "explanation": "Correlative conjunctions work in pairs to link balanced elements. Using them correctly creates parallel structure and sophisticated prose.",
+    "examples": [
+      {
+        "english": "Not only did she complete the project, but she also exceeded expectations.",
+        "translation": "No solo completó el proyecto, sino que también superó las expectativas."
+      },
+      {
+        "english": "The proposal was neither practical nor cost-effective.",
+        "translation": "La propuesta no era ni práctica ni rentable."
+      },
+      {
+        "english": "Whether you agree or disagree, the decision has been made.",
+        "translation": "Ya sea que estés de acuerdo o no, la decisión ha sido tomada."
+      }
+    ],
+    "patterns": [
+      "both...and: Both the manager and the staff agree.",
+      "not only...but also: Not only is he smart, but he is also kind.",
+      "either...or: Either we leave now or we miss the train.",
+      "neither...nor: Neither the accusation nor the defense was convincing.",
+      "whether...or: Whether by design or by accident..."
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "The results were ___ surprising ___ concerning to the researchers.",
+        "options": ["both...and", "either...or", "neither...nor"],
+        "correct": 0
+      }
+    ]
+  }
+]
