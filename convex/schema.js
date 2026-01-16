@@ -1,31 +1,10 @@
 import { defineSchema, defineTable } from "convex/server";
 import { v } from "convex/values";
+import { authTables } from "@convex-dev/auth/server";
 
 export default defineSchema({
-  // Convex Auth required tables
-  users: defineTable({
-    email: v.optional(v.string()),
-    name: v.optional(v.string()),
-    picture: v.optional(v.string()),
-    isAnonymous: v.optional(v.boolean()),
-  }),
-
-  authAccounts: defineTable({
-    userId: v.id("users"),
-    provider: v.string(),
-    providerAccountId: v.string(),
-    secret: v.optional(v.string()),
-    emailVerified: v.optional(v.boolean()),
-    phoneVerified: v.optional(v.boolean()),
-  })
-    .index("providerAndAccountId", ["provider", "providerAccountId"])
-    .index("by_userId", ["userId"]),
-
-  sessions: defineTable({
-    userId: v.id("users"),
-    expiresAt: v.number(),
-  })
-    .index("by_userId", ["userId"]),
+  // Convex Auth required tables (automatically includes users, authAccounts, sessions, etc.)
+  ...authTables,
 
   userData: defineTable({
     userId: v.string(),

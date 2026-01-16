@@ -28,7 +28,7 @@ export const getCurrentUser = query({
       userId: userId,
       email: user.email || null,
       name: user.name || (user.isAnonymous ? 'Anonymous User' : null),
-      pictureUrl: user.picture || null,
+      pictureUrl: user.image || null,
       isAnonymous: user.isAnonymous || false,
     };
   },
