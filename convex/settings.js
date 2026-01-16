@@ -5,22 +5,16 @@ import { auth } from "./auth";
 // Get settings
 export const getSettings = query({
   handler: async (ctx) => {
-    const sessionId = await auth.getSessionId(ctx);
-    if (!sessionId) {
+    const userId = await auth.getUserId(ctx);
+    if (!userId) {
       throw new Error("Not authenticated");
     }
-    
-    const session = await auth.store.getSession(ctx, sessionId);
-    if (!session) {
-      throw new Error("Not authenticated");
-    }
-    
-    const userId = session.userId;
+
     const settings = await ctx.db
       .query("userSettings")
       .withIndex("by_userId", (q) => q.eq("userId", userId))
       .first();
-    
+
     return settings?.settings || null;
   },
 });
@@ -31,22 +25,16 @@ export const saveSettings = mutation({
     settings: v.any(),
   },
   handler: async (ctx, args) => {
-    const sessionId = await auth.getSessionId(ctx);
-    if (!sessionId) {
+    const userId = await auth.getUserId(ctx);
+    if (!userId) {
       throw new Error("Not authenticated");
     }
-    
-    const session = await auth.store.getSession(ctx, sessionId);
-    if (!session) {
-      throw new Error("Not authenticated");
-    }
-    
-    const userId = session.userId;
+
     const existing = await ctx.db
       .query("userSettings")
       .withIndex("by_userId", (q) => q.eq("userId", userId))
       .first();
-    
+
     if (existing) {
       await ctx.db.patch(existing._id, {
         settings: args.settings,
@@ -69,33 +57,27 @@ export const updateSetting = mutation({
     value: v.any(),
   },
   handler: async (ctx, args) => {
-    const sessionId = await auth.getSessionId(ctx);
-    if (!sessionId) {
+    const userId = await auth.getUserId(ctx);
+    if (!userId) {
       throw new Error("Not authenticated");
     }
-    
-    const session = await auth.store.getSession(ctx, sessionId);
-    if (!session) {
-      throw new Error("Not authenticated");
-    }
-    
-    const userId = session.userId;
+
     const existing = await ctx.db
       .query("userSettings")
       .withIndex("by_userId", (q) => q.eq("userId", userId))
       .first();
-    
+
     if (!existing) {
       throw new Error("Settings not found");
     }
-    
+
     await ctx.db.patch(existing._id, {
       settings: {
         ...existing.settings,
         [args.key]: args.value,
       },
     });
-    
+
     return { success: true };
   },
 });

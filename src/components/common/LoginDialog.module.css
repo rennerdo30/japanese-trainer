@@ -68,7 +68,7 @@
     background: rgba(196, 30, 58, 0.15);
     border: 1px solid var(--accent-red);
     border-radius: 12px;
-    color: #ff99aa;
+    color: var(--accent-red-light);
     font-size: 0.9rem;
     margin-bottom: 2rem;
     animation: shake 0.5s ease-out;
