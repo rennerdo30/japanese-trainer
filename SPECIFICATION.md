@@ -1,11 +1,11 @@
-# Japanese Trainer - Technical Specification
+# Murmura - Technical Specification
 
 ## Overview
 
-Japanese Trainer is a modern, full-featured web application for learning Japanese. Built with Next.js and TypeScript, it provides an elegant, distraction-free learning experience with comprehensive progress tracking, audio pronunciation, and multi-language support.
+Murmura is a modern, full-featured web application for learning multiple languages. Built with Next.js and TypeScript, it provides an elegant, distraction-free learning experience with comprehensive progress tracking, audio pronunciation, and support for Japanese, Korean, Chinese, Spanish, German, Italian, and English.
 
-**URL**: https://japanese.renner.dev
-**Repository**: https://github.com/rennerdo30/japanese-trainer
+**URL**: https://murmura.renner.dev (to be updated)
+**Repository**: https://github.com/rennerdo30/murmura
 
 ---
 
@@ -733,7 +733,7 @@ npm run build
 ```
 
 ### GitHub Pages
-- Custom domain: `japanese.renner.dev`
+- Custom domain: `murmura.renner.dev`
 - CNAME file in public/
 - Deployed from `out/` directory
 - Automated via GitHub Actions
@@ -1256,4 +1256,4 @@ All themes MUST maintain:
 **TTS**: ElevenLabs API
 **Backend**: Convex
 **Hosting**: GitHub Pages
-**Domain**: japanese.renner.dev
+**Domain**: murmura.renner.dev

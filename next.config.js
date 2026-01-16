@@ -5,7 +5,7 @@ const nextConfig = {
     unoptimized: true // Required for static export
   },
   trailingSlash: true // GitHub Pages compatibility
-  // No base path needed - using custom domain (japanese.renner.dev)
+  // No base path needed - using custom domain (murmura.renner.dev)
 }
 
 module.exports = nextConfig

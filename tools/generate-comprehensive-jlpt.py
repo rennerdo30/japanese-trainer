@@ -165,7 +165,7 @@ def generate_grammar_json() -> List[Dict[str, Any]]:
     return result
 
 def main():
-    data_dir = "/Users/rennerdo30/Development/japanese-trainer/data"
+    data_dir = "/Users/rennerdo30/Development/murmura/data"
     
     # Generate data
     print("Generating JLPT N5-N1 Data...")

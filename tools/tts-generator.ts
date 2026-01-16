@@ -59,7 +59,7 @@ const program = new Command();
 
 program
   .name('tts-generator')
-  .description('Generate ElevenLabs TTS audio files for Japanese learning data')
+  .description('Generate TTS audio files for multi-language learning data')
   .option('-t, --type <type>', 'Data type to generate: characters|vocabulary|grammar|kanji|reading|listening|all', 'all')
   .option('-o, --output <path>', 'Output directory', DEFAULT_CONFIG.DEFAULT_OUTPUT_DIR)
   .option('-k, --api-key <key>', 'ElevenLabs API key (or use ELEVENLABS_API_KEY env var)')

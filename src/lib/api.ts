@@ -1,5 +1,5 @@
-// External API integration for Japanese learning resources
-// Jisho API, Tatoeba API, etc.
+// External API integration for Japanese dictionary resources
+// Jisho API (Japanese dictionary), Tatoeba API (example sentences)
 
 const JISHO_API = 'https://jisho.org/api/v1/search/words?keyword=';
 const TATOEBA_API = 'https://tatoeba.org/en/api_v0/search?from=jpn&to=eng&query=';

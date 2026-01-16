@@ -616,7 +616,7 @@ def generate_grammar_entries():
     return grammar_entries
 
 def main():
-    output_dir = "/Users/rennerdo30/Development/japanese-trainer/data"
+    output_dir = "/Users/rennerdo30/Development/murmura/data"
     
     print("Generating Comprehensive JLPT N5-N1 Data...")
     print("=" * 60)

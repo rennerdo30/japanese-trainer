@@ -376,7 +376,7 @@ def generate_vocab_entries():
     return entries
 
 def main():
-    output_dir = "/Users/rennerdo30/Development/japanese-trainer/src/data"
+    output_dir = "/Users/rennerdo30/Development/murmura/src/data"
     
     print("Generating Comprehensive JLPT N5-N1 Vocabulary...")
     print("=" * 60)

@@ -318,7 +318,7 @@ npm run deploy  # Runs: npx convex deploy --cmd 'npm run build'
 
 Murmura is a modern, full-featured multi-language learning web application built with Next.js and TypeScript. Users can learn Japanese, Korean, Chinese, Spanish, German, Italian, and English through interactive exercises with audio support and progress tracking.
 
-**Live URL**: https://japanese.renner.dev (to be updated)
+**Live URL**: https://murmura.renner.dev (to be updated)
 
 ## Tech Stack
 
@@ -729,7 +729,7 @@ Convex Auth requires these environment variables to be set in the **Convex Dashb
 |----------|-------------|
 | `JWT_PRIVATE_KEY` | RSA private key for signing JWTs |
 | `JWKS` | JSON Web Key Set (public key) |
-| `SITE_URL` | Production URL (e.g., `https://japanese.renner.dev`) |
+| `SITE_URL` | Production URL (e.g., `https://murmura.renner.dev`) |
 
 **To generate new keys:**
 ```bash
@@ -947,7 +947,7 @@ git commit -m "deploy: update static build"
 git push origin master
 ```
 - GitHub Pages automatically serves from `out/` directory
-- Custom domain: `japanese.renner.dev` (configured via `CNAME`)
+- Custom domain: `murmura.renner.dev` (configured via `CNAME`)
 
 ### Environment Variables
 
@@ -969,7 +969,7 @@ These must be set in the Convex Dashboard (Settings → Environment Variables), 
 |----------|-------------|
 | `JWT_PRIVATE_KEY` | RSA private key for signing JWTs |
 | `JWKS` | JSON Web Key Set (public key) |
-| `SITE_URL` | `https://japanese.renner.dev` |
+| `SITE_URL` | `https://murmura.renner.dev` |
 
 Generate keys with: `node tools/generateAuthKeys.mjs`
 
@@ -978,7 +978,7 @@ Generate keys with: `node tools/generateAuthKeys.mjs`
 ```
 ┌─────────────────────────────────────┐
 │   GitHub Pages (Static Hosting)    │
-│  https://japanese.renner.dev        │
+│  https://murmura.renner.dev        │
 │                                     │
 │  - Serves HTML/CSS/JS files         │
 │  - Next.js static export (out/)     │

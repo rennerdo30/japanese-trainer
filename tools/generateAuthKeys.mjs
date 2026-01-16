@@ -34,4 +34,4 @@ console.log("1. Go to https://dashboard.convex.dev");
 console.log("2. Select your project → Settings → Environment Variables");
 console.log("3. Add JWT_PRIVATE_KEY with the private key above");
 console.log("4. Add JWKS with the JSON above");
-console.log("5. Add SITE_URL with your production URL (e.g., https://japanese.renner.dev)");
+console.log("5. Add SITE_URL with your production URL (e.g., https://murmura.renner.dev)");

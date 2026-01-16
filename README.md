@@ -2,7 +2,7 @@
 
 *From whispers to fluency* - A comprehensive, browser-based language learning application.
 
-**Live Demo**: [https://japanese.renner.dev](https://japanese.renner.dev)
+**Live Demo**: [https://murmura.renner.dev](https://murmura.renner.dev)
 
 ## Supported Languages
 
