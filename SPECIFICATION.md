@@ -22,12 +22,52 @@ Japanese Trainer is a modern, full-featured web application for learning Japanes
 | Convex | 1.31.4 | Backend-as-a-service for data and auth |
 | @convex-dev/auth | 0.0.90 | Authentication (Password + Anonymous) |
 | ElevenLabs API | - | High-quality Japanese TTS (390+ audio files) |
+| GitHub Pages | - | Static file hosting for frontend |
+
+### Deployment Architecture
+
+**Frontend + Backend Separation**
+
+This application uses a **decoupled architecture**:
+
+- **Frontend (GitHub Pages)**: Next.js static export (`out/` directory) served as HTML/CSS/JS files
+- **Backend (Convex Cloud)**: Serverless backend hosted separately at `*.convex.cloud`
+- **Communication**: Frontend makes HTTPS API calls to Convex backend
+- **No Traditional Server**: No Node.js server, no PostgreSQL, no server-side rendering at runtime
+
+```
+┌──────────────────────────────┐
+│   GitHub Pages (Frontend)   │
+│   Static Files Only          │
+│   - HTML, CSS, JS            │
+│   - Audio files (390+)       │
+│   - Images, fonts            │
+└────────────┬─────────────────┘
+             │
+             │ API Calls (HTTPS)
+             │
+┌────────────▼─────────────────┐
+│   Convex Cloud (Backend)    │
+│   Serverless Functions       │
+│   - Database (users, data)   │
+│   - Authentication           │
+│   - Real-time subscriptions  │
+└──────────────────────────────┘
+```
+
+**How Convex Works with GitHub Pages:**
+
+1. **Build Time**: `npx convex deploy --cmd 'npm run build'` sets `NEXT_PUBLIC_CONVEX_URL` and builds static files
+2. **Deployment**: Static files pushed to GitHub Pages, Convex backend deployed to Convex cloud
+3. **Runtime**: Browser loads static HTML/CSS/JS from GitHub Pages, then makes API calls to Convex backend
+4. **Data Flow**: All user data, progress, and authentication handled by Convex backend via API
 
 ### Build Configuration
 
-- **Static Export**: `output: 'export'` in `next.config.js` for GitHub Pages
+- **Static Export**: `output: 'export'` in `next.config.js` for GitHub Pages compatibility
 - **TypeScript**: Strict mode enabled with comprehensive type checking
-- **Deployment**: Automated via GitHub Actions on push to master
+- **Environment Variables**: `NEXT_PUBLIC_CONVEX_URL` set at build time for backend communication
+- **Deployment**: Combined deployment via `npm run deploy` (deploys both frontend and backend)
 
 ### Project Structure
 

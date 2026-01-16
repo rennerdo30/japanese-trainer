@@ -2,6 +2,42 @@
 
 This file provides guidance for AI assistants working on the Japanese Trainer codebase.
 
+## ⚠️ IMPORTANT: Deployment Architecture
+
+This project uses a **client-server architecture** with:
+
+- **Frontend**: Next.js static export deployed to GitHub Pages
+- **Backend**: Convex hosted backend-as-a-service (separate from frontend hosting)
+- **Data Persistence**: Convex database (user progress, settings, authentication)
+- **Static Assets**: GitHub Pages serves the built Next.js app
+- **API Communication**: Frontend communicates with Convex backend via HTTPS
+
+### How Convex Works with GitHub Pages
+
+Convex is a **separate backend service** that works perfectly with static site hosting like GitHub Pages:
+
+1. **Frontend Build**: Next.js static export generates HTML/CSS/JS files
+2. **Backend Deployment**: Convex backend functions run on Convex's infrastructure
+3. **Runtime Communication**: The static frontend makes API calls to `NEXT_PUBLIC_CONVEX_URL`
+4. **No Server Required**: GitHub Pages only serves static files; Convex handles all backend logic
+
+**Key Concept**: GitHub Pages hosts the **frontend** (static files), while Convex provides the **backend** (database, auth, serverless functions). They are **two separate services** that work together.
+
+### Deployment Process
+
+```bash
+# Deploy backend + build frontend in one command
+npm run deploy  # Runs: npx convex deploy --cmd 'npm run build'
+
+# This does:
+# 1. Sets NEXT_PUBLIC_CONVEX_URL to production Convex deployment
+# 2. Runs 'npm run build' to generate static files in out/ directory
+# 3. Deploys Convex backend functions
+# 4. Push to GitHub master branch to deploy frontend to Pages
+```
+
+**No PostgreSQL, No Node.js Server**: This is NOT a traditional full-stack app. There's no PostgreSQL database, no Express server, no server-side Node.js runtime on GitHub Pages. It's a **static frontend + serverless backend** architecture.
+
 ## Project Overview
 
 A modern, full-featured Japanese learning web application built with Next.js and TypeScript. Users can practice Hiragana, Katakana, vocabulary, Kanji, grammar, reading comprehension, and listening skills through interactive exercises with audio support and progress tracking.
@@ -376,18 +412,82 @@ Use `src/lib/convexStorage.ts` for common operations:
 
 ## Deployment
 
-### GitHub Pages Setup
-1. Push to `master` branch
-2. GitHub Actions builds Next.js (`npm run build`)
-3. Static files from `out/` deployed to GitHub Pages
-4. Custom domain: `japanese.renner.dev` (configured via `CNAME`)
-
-### Convex Deployment
+### Combined Deployment (Recommended)
 ```bash
-npm run deploy  # Deploys Convex backend + builds Next.js
+npm run deploy  # Deploys Convex backend + builds Next.js static export
 ```
 
-**Note:** Requires `CONVEX_DEPLOYMENT` environment variable set.
+This single command:
+1. Sets `NEXT_PUBLIC_CONVEX_URL` environment variable to production Convex deployment
+2. Runs `npm run build` to generate static files in `out/` directory
+3. Deploys backend code from `convex/` directory to Convex cloud
+4. You then push the `out/` directory to GitHub master branch
+
+### Manual Deployment Steps
+
+**Step 1: Deploy Backend + Build Frontend**
+```bash
+npx convex deploy --cmd 'npm run build'
+```
+- Confirms you want to push backend code to production
+- Builds Next.js static export with correct Convex URL
+- Deploys Convex functions to cloud
+
+**Step 2: Deploy Frontend to GitHub Pages**
+```bash
+git add out/
+git commit -m "deploy: update static build"
+git push origin master
+```
+- GitHub Pages automatically serves from `out/` directory
+- Custom domain: `japanese.renner.dev` (configured via `CNAME`)
+
+### Environment Variables
+
+**Production (.env.local):**
+```env
+CONVEX_DEPLOYMENT=prod:your-deployment-name
+NEXT_PUBLIC_CONVEX_URL=https://your-deployment.convex.cloud
+```
+
+**Development (.env.local):**
+```env
+CONVEX_DEPLOYMENT=dev:your-deployment-name
+NEXT_PUBLIC_CONVEX_URL=https://your-dev-deployment.convex.cloud
+```
+
+### Architecture Diagram
+
+```
+┌─────────────────────────────────────┐
+│   GitHub Pages (Static Hosting)    │
+│  https://japanese.renner.dev        │
+│                                     │
+│  - Serves HTML/CSS/JS files         │
+│  - Next.js static export (out/)     │
+│  - No server-side processing        │
+└───────────────┬─────────────────────┘
+                │
+                │ HTTPS API Calls
+                │
+┌───────────────▼─────────────────────┐
+│   Convex Backend (Cloud Hosted)    │
+│  https://*.convex.cloud             │
+│                                     │
+│  - Database (users, progress, etc.) │
+│  - Authentication (Password, OAuth) │
+│  - Serverless functions             │
+│  - Real-time subscriptions          │
+└─────────────────────────────────────┘
+```
+
+### Why This Works
+
+- **Separation of Concerns**: Frontend (static) and backend (dynamic) are decoupled
+- **No Server Required**: GitHub Pages only serves files; Convex handles all backend logic
+- **Client-Side Rendering**: React app hydrates in browser and makes API calls to Convex
+- **Scalable**: Convex backend scales independently of frontend hosting
+- **Cost-Effective**: GitHub Pages is free; Convex has generous free tier
 
 ## Tools & Scripts
 
