@@ -138,6 +138,519 @@
         }
       ]
     },
+    "cefr-spanish": {
+      "id": "cefr-spanish",
+      "type": "linear",
+      "name": "Spanish CEFR Path",
+      "description": "Learn Spanish from beginner to elementary level following the CEFR framework.",
+      "icon": "graduation",
+      "language": "es",
+      "estimatedHours": 150,
+      "difficulty": "beginner",
+      "milestones": [
+        {
+          "id": "es-a1-vocabulary",
+          "level": "A1",
+          "name": "A1 Core Vocabulary",
+          "description": "Learn 500 essential Spanish words for basic communication",
+          "module": "vocabulary",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 15
+        },
+        {
+          "id": "es-a1-grammar",
+          "level": "A1",
+          "name": "A1 Grammar Basics",
+          "description": "Master present tense, articles, and basic sentence structure",
+          "module": "grammar",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 20
+        },
+        {
+          "id": "es-a1-reading",
+          "level": "A1",
+          "name": "A1 Reading Practice",
+          "description": "Read simple texts about everyday topics",
+          "module": "reading",
+          "requirement": { "type": "complete-all" },
+          "estimatedHours": 10
+        },
+        {
+          "id": "es-a1-listening",
+          "level": "A1",
+          "name": "A1 Listening Skills",
+          "description": "Understand slow, clear speech on familiar topics",
+          "module": "listening",
+          "requirement": { "type": "complete-all" },
+          "estimatedHours": 10
+        },
+        {
+          "id": "es-a2-vocabulary",
+          "level": "A2",
+          "name": "A2 Expanded Vocabulary",
+          "description": "Build vocabulary to 1000+ words for daily situations",
+          "module": "vocabulary",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 25
+        },
+        {
+          "id": "es-a2-grammar",
+          "level": "A2",
+          "name": "A2 Grammar Expansion",
+          "description": "Learn past tenses, reflexive verbs, and comparatives",
+          "module": "grammar",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 30
+        },
+        {
+          "id": "es-a2-reading",
+          "level": "A2",
+          "name": "A2 Reading Comprehension",
+          "description": "Read short articles and simple stories",
+          "module": "reading",
+          "requirement": { "type": "complete-all" },
+          "estimatedHours": 15
+        },
+        {
+          "id": "es-a2-listening",
+          "level": "A2",
+          "name": "A2 Listening Practice",
+          "description": "Understand conversations on everyday matters",
+          "module": "listening",
+          "requirement": { "type": "complete-all" },
+          "estimatedHours": 15
+        }
+      ]
+    },
+    "cefr-german": {
+      "id": "cefr-german",
+      "type": "linear",
+      "name": "German CEFR Path",
+      "description": "Learn German from beginner to elementary level following the CEFR framework.",
+      "icon": "graduation",
+      "language": "de",
+      "estimatedHours": 160,
+      "difficulty": "beginner",
+      "milestones": [
+        {
+          "id": "de-a1-vocabulary",
+          "level": "A1",
+          "name": "A1 Core Vocabulary",
+          "description": "Learn 500 essential German words for basic communication",
+          "module": "vocabulary",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 15
+        },
+        {
+          "id": "de-a1-grammar",
+          "level": "A1",
+          "name": "A1 Grammar Basics",
+          "description": "Master cases, articles, and present tense conjugation",
+          "module": "grammar",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 25
+        },
+        {
+          "id": "de-a1-reading",
+          "level": "A1",
+          "name": "A1 Reading Practice",
+          "description": "Read simple texts about everyday topics",
+          "module": "reading",
+          "requirement": { "type": "complete-all" },
+          "estimatedHours": 10
+        },
+        {
+          "id": "de-a1-listening",
+          "level": "A1",
+          "name": "A1 Listening Skills",
+          "description": "Understand slow, clear speech on familiar topics",
+          "module": "listening",
+          "requirement": { "type": "complete-all" },
+          "estimatedHours": 10
+        },
+        {
+          "id": "de-a2-vocabulary",
+          "level": "A2",
+          "name": "A2 Expanded Vocabulary",
+          "description": "Build vocabulary to 1000+ words for daily situations",
+          "module": "vocabulary",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 25
+        },
+        {
+          "id": "de-a2-grammar",
+          "level": "A2",
+          "name": "A2 Grammar Expansion",
+          "description": "Learn past tenses, modal verbs, and subordinate clauses",
+          "module": "grammar",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 35
+        },
+        {
+          "id": "de-a2-reading",
+          "level": "A2",
+          "name": "A2 Reading Comprehension",
+          "description": "Read short articles and simple stories",
+          "module": "reading",
+          "requirement": { "type": "complete-all" },
+          "estimatedHours": 15
+        },
+        {
+          "id": "de-a2-listening",
+          "level": "A2",
+          "name": "A2 Listening Practice",
+          "description": "Understand conversations on everyday matters",
+          "module": "listening",
+          "requirement": { "type": "complete-all" },
+          "estimatedHours": 15
+        }
+      ]
+    },
+    "cefr-italian": {
+      "id": "cefr-italian",
+      "type": "linear",
+      "name": "Italian CEFR Path",
+      "description": "Learn Italian from beginner to elementary level following the CEFR framework.",
+      "icon": "graduation",
+      "language": "it",
+      "estimatedHours": 150,
+      "difficulty": "beginner",
+      "milestones": [
+        {
+          "id": "it-a1-vocabulary",
+          "level": "A1",
+          "name": "A1 Core Vocabulary",
+          "description": "Learn 500 essential Italian words for basic communication",
+          "module": "vocabulary",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 15
+        },
+        {
+          "id": "it-a1-grammar",
+          "level": "A1",
+          "name": "A1 Grammar Basics",
+          "description": "Master present tense, articles, and basic sentence structure",
+          "module": "grammar",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 20
+        },
+        {
+          "id": "it-a1-reading",
+          "level": "A1",
+          "name": "A1 Reading Practice",
+          "description": "Read simple texts about everyday topics",
+          "module": "reading",
+          "requirement": { "type": "complete-all" },
+          "estimatedHours": 10
+        },
+        {
+          "id": "it-a1-listening",
+          "level": "A1",
+          "name": "A1 Listening Skills",
+          "description": "Understand slow, clear speech on familiar topics",
+          "module": "listening",
+          "requirement": { "type": "complete-all" },
+          "estimatedHours": 10
+        },
+        {
+          "id": "it-a2-vocabulary",
+          "level": "A2",
+          "name": "A2 Expanded Vocabulary",
+          "description": "Build vocabulary to 1000+ words for daily situations",
+          "module": "vocabulary",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 25
+        },
+        {
+          "id": "it-a2-grammar",
+          "level": "A2",
+          "name": "A2 Grammar Expansion",
+          "description": "Learn past tenses, reflexive verbs, and pronouns",
+          "module": "grammar",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 30
+        },
+        {
+          "id": "it-a2-reading",
+          "level": "A2",
+          "name": "A2 Reading Comprehension",
+          "description": "Read short articles and simple stories",
+          "module": "reading",
+          "requirement": { "type": "complete-all" },
+          "estimatedHours": 15
+        },
+        {
+          "id": "it-a2-listening",
+          "level": "A2",
+          "name": "A2 Listening Practice",
+          "description": "Understand conversations on everyday matters",
+          "module": "listening",
+          "requirement": { "type": "complete-all" },
+          "estimatedHours": 15
+        }
+      ]
+    },
+    "cefr-english": {
+      "id": "cefr-english",
+      "type": "linear",
+      "name": "English CEFR Path",
+      "description": "Learn English from beginner to elementary level following the CEFR framework.",
+      "icon": "graduation",
+      "language": "en",
+      "estimatedHours": 150,
+      "difficulty": "beginner",
+      "milestones": [
+        {
+          "id": "en-a1-vocabulary",
+          "level": "A1",
+          "name": "A1 Core Vocabulary",
+          "description": "Learn 500 essential English words for basic communication",
+          "module": "vocabulary",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 15
+        },
+        {
+          "id": "en-a1-grammar",
+          "level": "A1",
+          "name": "A1 Grammar Basics",
+          "description": "Master present tense, articles, and basic sentence structure",
+          "module": "grammar",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 20
+        },
+        {
+          "id": "en-a1-reading",
+          "level": "A1",
+          "name": "A1 Reading Practice",
+          "description": "Read simple texts about everyday topics",
+          "module": "reading",
+          "requirement": { "type": "complete-all" },
+          "estimatedHours": 10
+        },
+        {
+          "id": "en-a1-listening",
+          "level": "A1",
+          "name": "A1 Listening Skills",
+          "description": "Understand slow, clear speech on familiar topics",
+          "module": "listening",
+          "requirement": { "type": "complete-all" },
+          "estimatedHours": 10
+        },
+        {
+          "id": "en-a2-vocabulary",
+          "level": "A2",
+          "name": "A2 Expanded Vocabulary",
+          "description": "Build vocabulary to 1000+ words for daily situations",
+          "module": "vocabulary",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 25
+        },
+        {
+          "id": "en-a2-grammar",
+          "level": "A2",
+          "name": "A2 Grammar Expansion",
+          "description": "Learn past tenses, modal verbs, and conditionals",
+          "module": "grammar",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 30
+        },
+        {
+          "id": "en-a2-reading",
+          "level": "A2",
+          "name": "A2 Reading Comprehension",
+          "description": "Read short articles and simple stories",
+          "module": "reading",
+          "requirement": { "type": "complete-all" },
+          "estimatedHours": 15
+        },
+        {
+          "id": "en-a2-listening",
+          "level": "A2",
+          "name": "A2 Listening Practice",
+          "description": "Understand conversations on everyday matters",
+          "module": "listening",
+          "requirement": { "type": "complete-all" },
+          "estimatedHours": 15
+        }
+      ]
+    },
+    "topik-korean": {
+      "id": "topik-korean",
+      "type": "linear",
+      "name": "Korean TOPIK Path",
+      "description": "Learn Korean from beginner level following the TOPIK framework. Master Hangul and essential vocabulary.",
+      "icon": "graduation",
+      "language": "ko",
+      "estimatedHours": 180,
+      "difficulty": "beginner",
+      "milestones": [
+        {
+          "id": "ko-hangul",
+          "level": "TOPIK1",
+          "name": "Master Hangul",
+          "description": "Learn all Korean alphabet characters (consonants and vowels)",
+          "module": "alphabet",
+          "requirement": { "type": "complete-all" },
+          "estimatedHours": 8
+        },
+        {
+          "id": "ko-topik1-vocabulary",
+          "level": "TOPIK1",
+          "name": "TOPIK I Vocabulary",
+          "description": "Learn 800 essential Korean words for basic communication",
+          "module": "vocabulary",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 25
+        },
+        {
+          "id": "ko-topik1-grammar",
+          "level": "TOPIK1",
+          "name": "TOPIK I Grammar",
+          "description": "Master basic sentence patterns and honorifics",
+          "module": "grammar",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 30
+        },
+        {
+          "id": "ko-topik1-reading",
+          "level": "TOPIK1",
+          "name": "TOPIK I Reading",
+          "description": "Read simple Korean texts and signs",
+          "module": "reading",
+          "requirement": { "type": "complete-all" },
+          "estimatedHours": 15
+        },
+        {
+          "id": "ko-topik1-listening",
+          "level": "TOPIK1",
+          "name": "TOPIK I Listening",
+          "description": "Understand basic Korean conversations",
+          "module": "listening",
+          "requirement": { "type": "complete-all" },
+          "estimatedHours": 15
+        },
+        {
+          "id": "ko-topik2-vocabulary",
+          "level": "TOPIK2",
+          "name": "TOPIK II Vocabulary",
+          "description": "Expand vocabulary to 1500+ words",
+          "module": "vocabulary",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 30
+        },
+        {
+          "id": "ko-topik2-grammar",
+          "level": "TOPIK2",
+          "name": "TOPIK II Grammar",
+          "description": "Learn complex grammar patterns and connectors",
+          "module": "grammar",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 35
+        },
+        {
+          "id": "ko-topik2-reading",
+          "level": "TOPIK2",
+          "name": "TOPIK II Reading",
+          "description": "Read articles and short stories",
+          "module": "reading",
+          "requirement": { "type": "complete-all" },
+          "estimatedHours": 20
+        }
+      ]
+    },
+    "hsk-chinese": {
+      "id": "hsk-chinese",
+      "type": "linear",
+      "name": "Chinese HSK Path",
+      "description": "Learn Chinese from beginner level following the HSK framework. Master essential Hanzi and vocabulary.",
+      "icon": "graduation",
+      "language": "zh",
+      "estimatedHours": 200,
+      "difficulty": "beginner",
+      "milestones": [
+        {
+          "id": "zh-hsk1-hanzi",
+          "level": "HSK1",
+          "name": "HSK 1 Hanzi",
+          "description": "Learn 150 essential Chinese characters",
+          "module": "kanji",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 20
+        },
+        {
+          "id": "zh-hsk1-vocabulary",
+          "level": "HSK1",
+          "name": "HSK 1 Vocabulary",
+          "description": "Learn 150 essential Chinese words",
+          "module": "vocabulary",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 20
+        },
+        {
+          "id": "zh-hsk1-grammar",
+          "level": "HSK1",
+          "name": "HSK 1 Grammar",
+          "description": "Master basic sentence structure and particles",
+          "module": "grammar",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 20
+        },
+        {
+          "id": "zh-hsk1-reading",
+          "level": "HSK1",
+          "name": "HSK 1 Reading",
+          "description": "Read simple Chinese texts",
+          "module": "reading",
+          "requirement": { "type": "complete-all" },
+          "estimatedHours": 15
+        },
+        {
+          "id": "zh-hsk1-listening",
+          "level": "HSK1",
+          "name": "HSK 1 Listening",
+          "description": "Understand basic Chinese conversations",
+          "module": "listening",
+          "requirement": { "type": "complete-all" },
+          "estimatedHours": 15
+        },
+        {
+          "id": "zh-hsk2-hanzi",
+          "level": "HSK2",
+          "name": "HSK 2 Hanzi",
+          "description": "Learn 300 Chinese characters total",
+          "module": "kanji",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 25
+        },
+        {
+          "id": "zh-hsk2-vocabulary",
+          "level": "HSK2",
+          "name": "HSK 2 Vocabulary",
+          "description": "Expand vocabulary to 300 words",
+          "module": "vocabulary",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 25
+        },
+        {
+          "id": "zh-hsk2-grammar",
+          "level": "HSK2",
+          "name": "HSK 2 Grammar",
+          "description": "Learn comparison, complement structures",
+          "module": "grammar",
+          "requirement": { "type": "master-percentage", "value": 70 },
+          "estimatedHours": 30
+        },
+        {
+          "id": "zh-hsk2-reading",
+          "level": "HSK2",
+          "name": "HSK 2 Reading",
+          "description": "Read short articles and dialogues",
+          "module": "reading",
+          "requirement": { "type": "complete-all" },
+          "estimatedHours": 15
+        }
+      ]
+    },
     "restaurant-japanese": {
       "id": "restaurant-japanese",
       "type": "topic",
@@ -220,5 +733,18 @@
       }
     }
   },
-  "pathOrder": ["jlpt-mastery", "restaurant-japanese", "travel-essentials", "business-japanese", "daily-conversation", "anime-manga"]
+  "pathOrder": [
+    "jlpt-mastery",
+    "cefr-spanish",
+    "cefr-german",
+    "cefr-italian",
+    "cefr-english",
+    "topik-korean",
+    "hsk-chinese",
+    "restaurant-japanese",
+    "travel-essentials",
+    "business-japanese",
+    "daily-conversation",
+    "anime-manga"
+  ]
 }

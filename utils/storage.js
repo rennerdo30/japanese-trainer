@@ -1,8 +1,8 @@
 // localStorage wrapper for progress tracking
 // Designed for easy migration to backend API
 
-const STORAGE_KEY = 'japanese_trainer_data';
-const USER_ID_KEY = 'japanese_trainer_user_id';
+const STORAGE_KEY = 'murmura_data';
+const USER_ID_KEY = 'murmura_user_id';
 
 // Generate or retrieve user ID
 function getUserId() {

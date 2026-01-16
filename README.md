@@ -1,35 +1,40 @@
-# Japanese Trainer 🎌
+# Murmura
 
-A lightweight, browser-based Japanese alphabet learning application. Practice recognizing Hiragana and Katakana characters by typing the corresponding Romaji.
+*From whispers to fluency* - A comprehensive, browser-based language learning application.
 
-**🌐 Live Demo**: [https://japanese.renner.dev](https://japanese.renner.dev)
+**Live Demo**: [https://japanese.renner.dev](https://japanese.renner.dev)
+
+## Supported Languages
+
+| Language | Framework | Features |
+|----------|-----------|----------|
+| Japanese | JLPT (N5-N1) | Hiragana, Katakana, Kanji, Vocabulary, Grammar, Reading, Listening |
+| Korean | TOPIK (1-6) | Hangul, Vocabulary, Grammar, Reading, Listening |
+| Chinese | HSK (1-6) | Hanzi, Vocabulary, Grammar, Reading, Listening |
+| Spanish | CEFR (A1-C2) | Vocabulary, Grammar, Reading, Listening |
+| German | CEFR (A1-C2) | Vocabulary, Grammar, Reading, Listening |
+| Italian | CEFR (A1-C2) | Vocabulary, Grammar, Reading, Listening |
+| English | CEFR (A1-C2) | Vocabulary, Grammar, Reading, Listening |
 
 ## Features
 
-- **Dual Alphabet Support**: Practice both Hiragana and Katakana
-- **Character Type Filtering**: Focus on specific character sets:
-  - **Gojūon** (五十音) - Basic 46 characters
-  - **Yōon** (拗音) - Palatalized combinations (きゃ, しゅ, ちょ)
-  - **Dakuten** (濁音) - Voiced consonants (が, ざ, だ)
-  - **Handakuten** (半濁音) - Semi-voiced sounds (ぱ, ぴ, ぷ)
+- **Multi-Language Support**: Learn 7 languages with culturally-themed interfaces
+- **Structured Learning Paths**: JLPT, CEFR, HSK, and TOPIK progression tracks
+- **Character Systems**: Hiragana, Katakana, Hangul, Kanji, and Hanzi practice
 - **Adaptive Input Methods**:
-  - **Desktop**: Type Romaji to match displayed characters
-  - **Mobile**: Multiple choice buttons (4 options) for touch-friendly interaction
-- **Smart Mobile Detection**: Automatically switches to multiple choice on mobile devices
-- **Timer System**: 5-second countdown per character for timed practice
-- **Text-to-Speech**: High-quality pronunciation using ElevenLabs (Cloud) and Kokoro (Local)
-- **Primary**: ElevenLabs with `eleven_v3` for native Japanese accuracy
-- **Optimized Local**: Kokoro TTS with native Japanese voices and silence optimization
-- **Progress Tracking**: Real-time score display and Convex-backed persistent stats
-- **Streak Counter**: Track consecutive correct answers
+  - **Desktop**: Type answers with keyboard
+  - **Mobile**: Touch-friendly multiple choice
+- **Spaced Repetition**: SRS-based review system for optimal retention
+- **Progress Tracking**: Persistent stats with Convex backend
+- **Text-to-Speech**: High-quality pronunciation with ElevenLabs
+- **Offline Support**: Works without internet after initial load
 
 ## Tech Stack
 
-- **Next.js** (v16.1.1) - React framework (App Router)
+- **Next.js** (v16.1.1) - React framework with App Router
 - **TypeScript** - Type-safe development
-- **Wanakana.js** (v5.0.2) - Hiragana/Katakana conversion library
-- **ElevenLabs/Kokoro TTS** - High-quality Japanese text-to-speech
-- **Convex** - Backend for progress and user data
+- **Convex** - Backend for user data and authentication
+- **ElevenLabs/Kokoro TTS** - High-quality text-to-speech
 - **GitHub Pages** - Static hosting
 
 ## Getting Started
@@ -38,8 +43,8 @@ A lightweight, browser-based Japanese alphabet learning application. Practice re
 
 1. Clone the repository and install dependencies:
 ```bash
-git clone https://github.com/rennerdo30/japanese-trainer.git
-cd japanese-trainer
+git clone https://github.com/rennerdo30/murmura.git
+cd murmura
 npm install
 ```
 
@@ -48,88 +53,61 @@ npm install
 npm run dev
 ```
 
-3. Generate audio files (requires ElevenLabs API key or local Kokoro setup):
-```bash
-npm run generate-audio -- --type all --update-json
+3. Open [http://localhost:3000](http://localhost:3000)
+
+### Environment Variables
+
+Create a `.env.local` file:
+```env
+CONVEX_DEPLOYMENT=dev:your-deployment
+NEXT_PUBLIC_CONVEX_URL=https://your-deployment.convex.cloud
+ELEVENLABS_API_KEY=sk_...  # Optional, for audio generation
 ```
-
-### Usage
-
-1. Visit the [live site](https://japanese.renner.dev) or open `index.html` locally
-2. Click "Begin Practice"
-3. Select your preferred alphabet (Hiragana or Katakana)
-4. Choose character type filters (Gojūon, Yōon, Dakuten)
-5. Type the Romaji equivalent for each displayed character
-6. Get instant feedback and hear pronunciation on correct answers
 
 ## Project Structure
 
 ```
-japanese-trainer/
-├── index.html              # Landing page
-├── learn_alphabet.html     # Main training interface
-├── learn_alphabet.js       # Core application logic (character database + quiz logic)
-├── style.css               # Styling
-├── CNAME                   # GitHub Pages domain configuration
-├── DEBUGGING.md            # Debugging guide for mobile features
-└── README.md               # This file
+murmura/
+├── src/
+│   ├── app/                # Next.js App Router pages
+│   ├── components/         # React components
+│   ├── hooks/              # Custom React hooks
+│   ├── context/            # React Context providers
+│   ├── data/               # Language data (JSON)
+│   │   ├── ja/             # Japanese
+│   │   ├── ko/             # Korean
+│   │   ├── zh/             # Chinese
+│   │   └── ...
+│   ├── lib/                # Utilities
+│   ├── styles/             # CSS and themes
+│   └── types/              # TypeScript types
+├── convex/                 # Backend functions
+├── public/                 # Static assets & audio
+└── tools/                  # CLI utilities
 ```
-
-## Character Database
-
-The application includes 656+ character combinations stored in `learn_alphabet.js`. Each entry follows this format:
-
-```javascript
-{
-  romaji: "ka",           // Romanized pronunciation
-  hiragana: "か",         // Hiragana character
-  type: "gojuon"          // Character type classification
-}
-```
-
-Katakana conversion is handled automatically at runtime using Wanakana.js.
-
-## Browser Compatibility
-
-- ✅ Chrome/Edge (full TTS support)
-- ✅ Safari (full TTS support)
-- ✅ Firefox (TTS may vary by OS)
-- ✅ Modern browsers with ES6 support
 
 ## Deployment
 
-This project is automatically deployed to GitHub Pages on every push to the `master` branch.
+Deployed automatically to GitHub Pages on push to `master`.
 
-- **Live URL**: https://japanese.renner.dev
-- **GitHub Pages**: Configured via repository settings
-- **Custom Domain**: Managed via `CNAME` file
+```bash
+npm run deploy  # Deploy Convex + build frontend
+```
 
 ## Contributing
 
-Contributions are welcome! This is a simple static site, so:
-
-1. Fork the repository
-2. Make your changes
-3. Test locally by opening `index.html` in a browser
-4. Submit a pull request
-
-### Common Contribution Ideas
-
-- Adding more character combinations
-- Improving UI/UX
-- Adding new features (see [SPECIFICATION.md](SPECIFICATION.md) for ideas)
-- Bug fixes
-- Performance optimizations
+Contributions welcome! See [SPECIFICATION.md](SPECIFICATION.md) for design guidelines.
 
 ## License
 
-This project is open source and available for educational purposes.
+Open source for educational purposes.
 
 ## Acknowledgments
 
-- [Wanakana.js](https://github.com/WaniKani/WanaKana) for Hiragana/Katakana conversion
-- Web Speech API for pronunciation support
+- [Wanakana.js](https://github.com/WaniKani/WanaKana) - Japanese character conversion
+- [Convex](https://convex.dev) - Backend platform
+- [ElevenLabs](https://elevenlabs.io) - Text-to-speech
 
 ---
 
-Made with ❤️ for Japanese language learners
+Made with care for language learners everywhere

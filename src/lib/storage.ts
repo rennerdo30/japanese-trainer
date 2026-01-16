@@ -3,8 +3,8 @@
 
 import { ModuleData, ModuleStats } from '@/types';
 
-const STORAGE_KEY = 'japanese_trainer_data';
-const USER_ID_KEY = 'japanese_trainer_user_id';
+const STORAGE_KEY = 'murmura_data';
+const USER_ID_KEY = 'murmura_user_id';
 
 export interface StorageData {
     userId: string;
@@ -18,26 +18,39 @@ export interface StorageData {
     };
 }
 
-// Migrate old profile-based data format
+// Migrate old data formats to new Murmura keys
 function migrateOldData(): void {
     if (typeof window === 'undefined') return;
-    
-    // Check for old profile-based keys and migrate to single key
+
+    // Migrate from old japanese_trainer keys
+    const oldData = localStorage.getItem('japanese_trainer_data');
+    if (oldData && !localStorage.getItem(STORAGE_KEY)) {
+        localStorage.setItem(STORAGE_KEY, oldData);
+        localStorage.removeItem('japanese_trainer_data');
+    }
+
+    const oldUserId = localStorage.getItem('japanese_trainer_user_id');
+    if (oldUserId && !localStorage.getItem(USER_ID_KEY)) {
+        localStorage.setItem(USER_ID_KEY, oldUserId);
+        localStorage.removeItem('japanese_trainer_user_id');
+    }
+
+    // Also migrate from old profile-based keys (legacy format)
     const oldProfileKey = localStorage.getItem('japanese_trainer_current_profile');
     if (oldProfileKey) {
         const oldProfileDataKey = `japanese_trainer_data_${oldProfileKey}`;
         const oldProfileUserIdKey = `japanese_trainer_user_id_${oldProfileKey}`;
-        
-        const oldData = localStorage.getItem(oldProfileDataKey);
-        if (oldData && !localStorage.getItem(STORAGE_KEY)) {
-            localStorage.setItem(STORAGE_KEY, oldData);
+
+        const profileData = localStorage.getItem(oldProfileDataKey);
+        if (profileData && !localStorage.getItem(STORAGE_KEY)) {
+            localStorage.setItem(STORAGE_KEY, profileData);
         }
-        
-        const oldUserId = localStorage.getItem(oldProfileUserIdKey);
-        if (oldUserId && !localStorage.getItem(USER_ID_KEY)) {
-            localStorage.setItem(USER_ID_KEY, oldUserId);
+
+        const profileUserId = localStorage.getItem(oldProfileUserIdKey);
+        if (profileUserId && !localStorage.getItem(USER_ID_KEY)) {
+            localStorage.setItem(USER_ID_KEY, profileUserId);
         }
-        
+
         // Clean up old keys
         localStorage.removeItem(oldProfileDataKey);
         localStorage.removeItem(oldProfileUserIdKey);

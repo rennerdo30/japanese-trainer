@@ -8,8 +8,8 @@ import ClientLayout from '@/components/layout/ClientLayout'
 import { ReactNode } from 'react'
 
 export const metadata = {
-  title: 'Language Trainer - Learn Languages',
-  description: 'Comprehensive language learning platform. Master Japanese, Spanish, German, English, Italian, Korean, and Chinese with interactive exercises.',
+  title: 'Murmura - Learn Languages',
+  description: 'Murmura - From whispers to fluency. Master Japanese, Spanish, German, English, Italian, Korean, and Chinese with interactive exercises.',
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: 'any' },

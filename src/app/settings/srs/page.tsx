@@ -9,7 +9,7 @@ import { SRSSettings, DEFAULT_SRS_SETTINGS } from '@/lib/reviewQueue';
 import { IoSave, IoRefresh, IoNotifications, IoSpeedometer, IoTime, IoVolumeHigh } from 'react-icons/io5';
 import styles from './srs.module.css';
 
-const STORAGE_KEY = 'japanese_trainer_srs_settings';
+const STORAGE_KEY = 'murmura_srs_settings';
 
 export default function SRSSettingsPage() {
   const router = useRouter();

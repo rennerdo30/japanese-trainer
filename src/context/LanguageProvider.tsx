@@ -21,7 +21,7 @@ const SUPPORTED_LANGUAGES = [
 ];
 
 const DEFAULT_LANGUAGE = 'en';
-const STORAGE_KEY = 'japanese_trainer_language';
+const STORAGE_KEY = 'murmura_language';
 
 export function LanguageProvider({ children }: ContextProviderProps) {
     const [language, setLanguage] = useState(DEFAULT_LANGUAGE);

@@ -133,6 +133,24 @@ const REVIEW_PRIORITY_THRESHOLD = 20; // Prioritize reviews when more than this 
 const WEAK_AREA_THRESHOLD = 0.5; // 50% mastery considered weak
 const STRONG_AREA_THRESHOLD = 0.8; // 80% mastery considered strong
 
+// Mapping from language code to linear path ID
+const LANGUAGE_PATH_MAP: Record<string, string> = {
+  ja: 'jlpt-mastery',
+  es: 'cefr-spanish',
+  de: 'cefr-german',
+  it: 'cefr-italian',
+  en: 'cefr-english',
+  ko: 'topik-korean',
+  zh: 'hsk-chinese',
+};
+
+/**
+ * Get the linear path ID for a given language
+ */
+export function getLinearPathIdForLanguage(languageCode: string): string | null {
+  return LANGUAGE_PATH_MAP[languageCode] || null;
+}
+
 /**
  * Calculate learning statistics from user progress
  * @param userProgress - User's learning progress data
@@ -332,17 +350,21 @@ export function getTopicTrackProgress(
 
 /**
  * Generate adaptive path recommendations based on user progress and patterns
+ * @param targetLanguage - Optional language code to filter recommendations
+ * @param enabledModules - Optional list of modules enabled for the current language
  */
 export function generateAdaptiveRecommendations(
   userProgress: UserProgress,
   reviewQueue: ReviewQueue,
-  settings: SRSSettings = DEFAULT_SRS_SETTINGS
+  settings: SRSSettings = DEFAULT_SRS_SETTINGS,
+  targetLanguage?: string,
+  enabledModules?: ModuleName[]
 ): AdaptivePathRecommendation {
-  const stats = calculateLearningStats(userProgress, reviewQueue);
+  const stats = calculateLearningStats(userProgress, reviewQueue, enabledModules);
   const focusAreas: AdaptivePathRecommendation['focusAreas'] = [];
 
-  // Identify weak areas to focus on
-  const modules: ModuleName[] = ['vocabulary', 'kanji', 'grammar', 'reading'];
+  // Identify weak areas to focus on (only for enabled modules)
+  const modules: ModuleName[] = enabledModules || ['vocabulary', 'kanji', 'grammar', 'reading'];
 
   for (const module of modules) {
     const strength = stats.moduleStrengths[module] || 0;
@@ -352,22 +374,28 @@ export function generateAdaptiveRecommendations(
     if (hasContent && strength < WEAK_AREA_THRESHOLD) {
       focusAreas.push({
         module,
-        level: 'N5', // Start with N5 level for weak areas
+        level: targetLanguage === 'ja' ? 'N5' : 'beginner',
         reason: `${module} mastery is low (${Math.round(strength * 100)}%)`,
         priority: Math.round((1 - strength) * 10),
       });
     }
   }
 
-  // If user hasn't started alphabet, prioritize it
-  const alphabetData = userProgress.modules['alphabet'];
-  if (!alphabetData || (alphabetData.learned?.length || 0) < 46) {
-    focusAreas.unshift({
-      module: 'alphabet',
-      level: 'N5',
-      reason: 'Master Hiragana and Katakana first',
-      priority: 10,
-    });
+  // If user hasn't started alphabet, prioritize it (Japanese/Korean only - languages with character systems)
+  if (targetLanguage === 'ja' || targetLanguage === 'ko') {
+    const alphabetData = userProgress.modules['alphabet'];
+    const alphabetModule = enabledModules?.includes('alphabet');
+    if (alphabetModule && (!alphabetData || (alphabetData.learned?.length || 0) < 46)) {
+      const reason = targetLanguage === 'ja'
+        ? 'Master Hiragana and Katakana first'
+        : 'Master Hangul first';
+      focusAreas.unshift({
+        module: 'alphabet',
+        level: targetLanguage === 'ja' ? 'N5' : 'TOPIK1',
+        reason,
+        priority: 10,
+      });
+    }
   }
 
   // Sort by priority
@@ -416,12 +444,14 @@ export function generateAdaptiveRecommendations(
 /**
  * Get all recommendations for a user
  * Combines all 4 path types into prioritized action list
+ * @param targetLanguage - Optional language code to filter recommendations
  */
 export function getRecommendations(
   userProgress: UserProgress,
   reviewQueue: ReviewQueue,
   settings: SRSSettings = DEFAULT_SRS_SETTINGS,
-  maxRecommendations: number = 5
+  maxRecommendations: number = 5,
+  targetLanguage?: string
 ): Recommendation[] {
   const recommendations: Recommendation[] = [];
   const stats = calculateLearningStats(userProgress, reviewQueue);
@@ -449,25 +479,35 @@ export function getRecommendations(
     });
   }
 
-  // 2. LINEAR PATH PROGRESS - Next JLPT milestone
-  const jlptProgress = getLinearPathProgress('jlpt-mastery', userProgress);
-  if (jlptProgress && jlptProgress.currentMilestone) {
-    const milestone = jlptProgress.currentMilestone;
-    const isHighPriority = jlptProgress.completedMilestones === 0; // First milestone
+  // 2. LINEAR PATH PROGRESS - Next milestone for the target language
+  if (targetLanguage) {
+    const pathId = getLinearPathIdForLanguage(targetLanguage);
+    if (pathId) {
+      const pathProgress = getLinearPathProgress(pathId, userProgress);
+      if (pathProgress && pathProgress.currentMilestone) {
+        const milestone = pathProgress.currentMilestone;
+        const isHighPriority = pathProgress.completedMilestones === 0; // First milestone
 
-    recommendations.push({
-      id: `path-${jlptProgress.pathId}-${milestone.id}`,
-      type: 'path-milestone',
-      priority: isHighPriority ? 8 : 6,
-      title: milestone.name,
-      description: `Continue your JLPT journey - ${Math.round(milestone.progress)}% complete`,
-      pathId: jlptProgress.pathId,
-      rationale: 'Structured progression through JLPT levels',
-      action: {
-        type: 'navigate',
-        target: `/paths/${jlptProgress.pathId}`,
-      },
-    });
+        // Customize description based on language
+        const journeyType = targetLanguage === 'ja' ? 'JLPT' :
+          targetLanguage === 'ko' ? 'TOPIK' :
+          targetLanguage === 'zh' ? 'HSK' : 'CEFR';
+
+        recommendations.push({
+          id: `path-${pathProgress.pathId}-${milestone.id}`,
+          type: 'path-milestone',
+          priority: isHighPriority ? 8 : 6,
+          title: milestone.name,
+          description: `Continue your ${journeyType} journey - ${Math.round(milestone.progress)}% complete`,
+          pathId: pathProgress.pathId,
+          rationale: `Structured progression through ${journeyType} levels`,
+          action: {
+            type: 'navigate',
+            target: `/paths/${pathProgress.pathId}`,
+          },
+        });
+      }
+    }
   }
 
   // 3. WEAK AREA FOCUS - Prerequisite-based recommendations
@@ -489,9 +529,10 @@ export function getRecommendations(
     });
   }
 
-  // 4. TOPIC TRACKS - Recommend relevant themed paths
+  // 4. TOPIC TRACKS - Recommend relevant themed paths (filtered by language)
   const topicTracks = Object.values(pathsData.paths).filter(
-    (p): p is TopicTrack => p.type === 'topic'
+    (p): p is TopicTrack => p.type === 'topic' &&
+      (!targetLanguage || p.language === targetLanguage)
   );
 
   for (const track of topicTracks.slice(0, 2)) {
@@ -560,15 +601,23 @@ export function getNextRecommendedAction(
 
 /**
  * Get all available learning paths with progress
+ * @param targetLanguage - Optional language code to filter paths
  */
 export function getAllPathsWithProgress(
-  userProgress: UserProgress
+  userProgress: UserProgress,
+  targetLanguage?: string
 ): Array<PathProgress & { description: string; difficulty: string; tags?: string[] }> {
   const paths: Array<PathProgress & { description: string; difficulty: string; tags?: string[] }> = [];
 
   for (const pathId of pathsData.pathOrder) {
     const pathData = pathsData.paths[pathId];
     if (!pathData) continue;
+
+    // Filter by language if specified
+    const pathLanguage = (pathData as { language?: string }).language;
+    if (targetLanguage && pathLanguage && pathLanguage !== targetLanguage) {
+      continue;
+    }
 
     if (pathData.type === 'linear') {
       const progress = getLinearPathProgress(pathId, userProgress);

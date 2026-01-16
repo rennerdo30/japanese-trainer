@@ -49,8 +49,8 @@ interface UsePathProgressReturn {
   isLoading: boolean;
 }
 
-const ENROLLED_PATHS_KEY = 'japanese_trainer_enrolled_paths';
-const PATH_PREFERENCES_KEY = 'japanese_trainer_path_preferences';
+const ENROLLED_PATHS_KEY = 'murmura_enrolled_paths';
+const PATH_PREFERENCES_KEY = 'murmura_path_preferences';
 
 const DEFAULT_PREFERENCES: PathPreferences = {
   preferStructured: true,

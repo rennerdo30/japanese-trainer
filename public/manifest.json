@@ -1,7 +1,7 @@
 {
-  "name": "Language Trainer",
-  "short_name": "LangTrainer",
-  "description": "Comprehensive language learning platform. Master Japanese, Spanish, German, English, Italian, Korean, and Chinese.",
+  "name": "Murmura",
+  "short_name": "Murmura",
+  "description": "Murmura - From whispers to fluency. Master Japanese, Spanish, German, English, Italian, Korean, and Chinese.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0f0f1a",

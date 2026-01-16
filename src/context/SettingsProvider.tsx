@@ -15,7 +15,7 @@ const DEFAULT_SETTINGS: Settings = {
     timerDuration: 5
 };
 
-const SETTINGS_KEY = 'japanese_trainer_settings';
+const SETTINGS_KEY = 'murmura_settings';
 
 export function SettingsProvider({ children }: ContextProviderProps) {
     const [settings, setSettings] = useState<Settings>(DEFAULT_SETTINGS);

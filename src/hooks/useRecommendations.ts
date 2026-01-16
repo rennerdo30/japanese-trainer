@@ -15,6 +15,7 @@ import {
   generateAdaptiveRecommendations,
   calculateLearningStats,
   getLinearPathProgress,
+  getLinearPathIdForLanguage,
   getTopicTrackProgress,
   getStreakInfo,
 } from '@/lib/recommendations';
@@ -55,7 +56,7 @@ interface UseRecommendationsReturn {
   getPathProgress: (pathId: string) => PathProgress | null;
 }
 
-const SRS_SETTINGS_KEY = 'japanese_trainer_srs_settings';
+const SRS_SETTINGS_KEY = 'murmura_srs_settings';
 
 export function useRecommendations(): UseRecommendationsReturn {
   const { summary, getModuleData } = useProgressContext();
@@ -131,20 +132,21 @@ export function useRecommendations(): UseRecommendationsReturn {
       const learningStats = calculateLearningStats(userProgress, queue, enabledModules);
       setStats(learningStats);
 
-      // Get recommendations
-      const recs = getRecommendations(userProgress, queue, srsSettings, 5);
+      // Get recommendations (filtered by target language)
+      const recs = getRecommendations(userProgress, queue, srsSettings, 5, targetLanguage);
       setRecommendations(recs);
 
-      // Get all paths with progress
-      const allPaths = getAllPathsWithProgress(userProgress);
+      // Get all paths with progress (filtered by target language)
+      const allPaths = getAllPathsWithProgress(userProgress, targetLanguage);
       setPaths(allPaths);
 
-      // Get JLPT progress specifically
-      const jlpt = getLinearPathProgress('jlpt-mastery', userProgress);
-      setJlptProgress(jlpt);
+      // Get linear path progress for the current language
+      const linearPathId = getLinearPathIdForLanguage(targetLanguage);
+      const linearProgress = linearPathId ? getLinearPathProgress(linearPathId, userProgress) : null;
+      setJlptProgress(linearProgress);
 
-      // Generate adaptive recommendations
-      const adaptive = generateAdaptiveRecommendations(userProgress, queue, srsSettings);
+      // Generate adaptive recommendations (filtered by target language)
+      const adaptive = generateAdaptiveRecommendations(userProgress, queue, srsSettings, targetLanguage, enabledModules);
       setAdaptiveRecommendations(adaptive);
 
     } catch (error) {

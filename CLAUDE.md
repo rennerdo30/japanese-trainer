@@ -1,6 +1,8 @@
 # CLAUDE.md
 
-This file provides guidance for AI assistants working on the Japanese Trainer codebase.
+This file provides guidance for AI assistants working on the Murmura codebase.
+
+**Murmura** - *From whispers to fluency* - A multi-language learning platform.
 
 ## ⚠️ CRITICAL: Follow SPECIFICATION.md
 
@@ -314,9 +316,9 @@ npm run deploy  # Runs: npx convex deploy --cmd 'npm run build'
 
 ## Project Overview
 
-A modern, full-featured Japanese learning web application built with Next.js and TypeScript. Users can practice Hiragana, Katakana, vocabulary, Kanji, grammar, reading comprehension, and listening skills through interactive exercises with audio support and progress tracking.
+Murmura is a modern, full-featured multi-language learning web application built with Next.js and TypeScript. Users can learn Japanese, Korean, Chinese, Spanish, German, Italian, and English through interactive exercises with audio support and progress tracking.
 
-**Live URL**: https://japanese.renner.dev
+**Live URL**: https://japanese.renner.dev (to be updated)
 
 ## Tech Stack
 
@@ -333,13 +335,13 @@ A modern, full-featured Japanese learning web application built with Next.js and
 ## Project Structure
 
 ```
-japanese-trainer/
+murmura/
 ├── src/                           # Next.js source code
 │   ├── app/                      # Next.js App Router pages
 │   │   ├── page.tsx              # Dashboard landing page
-│   │   ├── alphabet/             # Hiragana/Katakana practice
+│   │   ├── alphabet/             # Character practice (Hiragana/Katakana/Hangul)
 │   │   ├── vocabulary/           # Vocabulary learning
-│   │   ├── kanji/                # Kanji practice
+│   │   ├── kanji/                # Kanji/Hanzi practice
 │   │   ├── grammar/              # Grammar lessons
 │   │   ├── reading/              # Reading comprehension
 │   │   └── listening/            # Listening exercises
@@ -719,6 +721,29 @@ The Convex backend (`convex/schema.js`) defines:
 - **Implementation**: `@convex-dev/auth` with `convex/auth.ts`
 - **Client**: `ConvexAuthProvider` wraps the app in `src/lib/convex.tsx`
 
+### Auth Environment Variables (Required for Production)
+
+Convex Auth requires these environment variables to be set in the **Convex Dashboard** (not GitHub secrets):
+
+| Variable | Description |
+|----------|-------------|
+| `JWT_PRIVATE_KEY` | RSA private key for signing JWTs |
+| `JWKS` | JSON Web Key Set (public key) |
+| `SITE_URL` | Production URL (e.g., `https://japanese.renner.dev`) |
+
+**To generate new keys:**
+```bash
+node tools/generateAuthKeys.mjs
+```
+
+**To set up:**
+1. Go to https://dashboard.convex.dev
+2. Select project → **Settings** → **Environment Variables**
+3. Select the **Production** deployment
+4. Add all three variables with the generated values
+
+**Important:** These must be set on the Convex deployment, NOT as GitHub secrets. The Convex backend needs these to sign and verify authentication tokens.
+
 ### Data Operations
 Use `src/lib/convexStorage.ts` for common operations:
 - `saveProgress(module, data)` - Save user progress
@@ -926,17 +951,27 @@ git push origin master
 
 ### Environment Variables
 
-**Production (.env.local):**
-```env
-CONVEX_DEPLOYMENT=prod:your-deployment-name
-NEXT_PUBLIC_CONVEX_URL=https://your-deployment.convex.cloud
-```
-
-**Development (.env.local):**
+**Local Development (.env.local):**
 ```env
 CONVEX_DEPLOYMENT=dev:your-deployment-name
 NEXT_PUBLIC_CONVEX_URL=https://your-dev-deployment.convex.cloud
 ```
+
+**GitHub Actions Secrets (for CI/CD):**
+| Secret | Description |
+|--------|-------------|
+| `CONVEX_DEPLOY_KEY` | Deploy key from Convex Dashboard → Settings → Deploy Keys |
+
+**Convex Dashboard Environment Variables (for Auth):**
+
+These must be set in the Convex Dashboard (Settings → Environment Variables), NOT in GitHub:
+| Variable | Description |
+|----------|-------------|
+| `JWT_PRIVATE_KEY` | RSA private key for signing JWTs |
+| `JWKS` | JSON Web Key Set (public key) |
+| `SITE_URL` | `https://japanese.renner.dev` |
+
+Generate keys with: `node tools/generateAuthKeys.mjs`
 
 ### Architecture Diagram
 

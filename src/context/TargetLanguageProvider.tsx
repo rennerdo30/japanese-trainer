@@ -24,7 +24,7 @@ import {
   isLanguageAvailable,
 } from '@/lib/language';
 
-const TARGET_LANGUAGE_KEY = 'japanese_trainer_target_language';
+const TARGET_LANGUAGE_KEY = 'murmura_target_language';
 
 export interface TargetLanguageContextType {
   // Current state
