@@ -182,7 +182,7 @@ export default function ReadingPage() {
 
                 <div className="mt-8 flex justify-center gap-4">
                     <Button onClick={handlePlayReading} variant="secondary">
-                        <IoVolumeHigh style={{ marginRight: '0.5rem' }} /> {t('common.playAudio') || 'Play'}
+                        <IoVolumeHigh style={{ marginRight: '0.5rem' }} /> {t('listening.playAudio')}
                     </Button>
                     {currentReading.questions && (
                         <Button onClick={() => setShowQuestions(!showQuestions)} variant="primary">

@@ -41,12 +41,17 @@
     }
   },
   "alphabet": {
+    "title": "الأبجدية",
     "hiragana": "الهيراغانا",
     "katakana": "الكاتاكانا",
     "filters": {
       "gojuon": "غوجيون",
       "yoon": "يون",
-      "dakuten": "داكوتين"
+      "dakuten": "داكوتين",
+      "consonant": "الحروف الساكنة",
+      "vowel": "حروف العلة",
+      "doubleConsonant": "الحروف الساكنة المزدوجة",
+      "compoundVowel": "حروف العلة المركبة"
     },
     "noCharacters": "لا توجد أحرف متاحة مع المرشحات الحالية."
   },
@@ -64,7 +69,21 @@
     "showInfo": "إظهار المعلومات",
     "noKanji": "لا توجد كانجي متاحة.",
     "onyomi": "音読み",
-    "kunyomi": "訓読み"
+    "kunyomi": "訓読み",
+    "pinyin": "بينيين",
+    "filters": {
+      "n5": "JLPT N5",
+      "n4": "JLPT N4",
+      "n3": "JLPT N3",
+      "n2": "JLPT N2",
+      "n1": "JLPT N1",
+      "hsk1": "HSK 1",
+      "hsk2": "HSK 2",
+      "hsk3": "HSK 3",
+      "hsk4": "HSK 4",
+      "hsk5": "HSK 5",
+      "hsk6": "HSK 6"
+    }
   },
   "grammar": {
     "checkAnswer": "تحقق من الإجابة",
@@ -74,6 +93,8 @@
   },
   "reading": {
     "showFurigana": "إظهار الفوريغانا",
+    "show": "إظهار",
+    "hide": "إخفاء",
     "showQuestions": "إظهار الأسئلة",
     "checkAnswers": "تحقق من الإجابات",
     "vocabulary": "المفردات",
@@ -91,8 +112,8 @@
     "noExercises": "لا توجد تمارين متاحة."
   },
   "dashboard": {
-    "title": "مدرب اليابانية",
-    "subtitle": "学ぶ - تعلم اليابانية",
+    "title": "Murmura",
+    "subtitle": "من الهمسات إلى الطلاقة",
     "dayStreak": "سلسلة الأيام",
     "wordsLearned": "الكلمات المتعلمة",
     "kanjiMastered": "الكانجي المتقنة",

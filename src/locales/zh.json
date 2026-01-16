@@ -41,12 +41,17 @@
     }
   },
   "alphabet": {
+    "title": "字母表",
     "hiragana": "平假名",
     "katakana": "片假名",
     "filters": {
       "gojuon": "五十音",
       "yoon": "拗音",
-      "dakuten": "浊音"
+      "dakuten": "浊音",
+      "consonant": "辅音",
+      "vowel": "元音",
+      "doubleConsonant": "双辅音",
+      "compoundVowel": "复合元音"
     },
     "noCharacters": "当前筛选条件下没有可用字符。"
   },
@@ -64,7 +69,21 @@
     "showInfo": "显示信息",
     "noKanji": "没有可用汉字。",
     "onyomi": "音読み",
-    "kunyomi": "訓読み"
+    "kunyomi": "訓読み",
+    "pinyin": "拼音",
+    "filters": {
+      "n5": "JLPT N5",
+      "n4": "JLPT N4",
+      "n3": "JLPT N3",
+      "n2": "JLPT N2",
+      "n1": "JLPT N1",
+      "hsk1": "HSK 1",
+      "hsk2": "HSK 2",
+      "hsk3": "HSK 3",
+      "hsk4": "HSK 4",
+      "hsk5": "HSK 5",
+      "hsk6": "HSK 6"
+    }
   },
   "grammar": {
     "checkAnswer": "检查答案",
@@ -74,6 +93,8 @@
   },
   "reading": {
     "showFurigana": "显示假名",
+    "show": "显示",
+    "hide": "隐藏",
     "showQuestions": "显示问题",
     "checkAnswers": "检查答案",
     "vocabulary": "词汇",
@@ -91,8 +112,8 @@
     "noExercises": "没有可用练习。"
   },
   "dashboard": {
-    "title": "日语训练器",
-    "subtitle": "学ぶ - 学习日语",
+    "title": "Murmura",
+    "subtitle": "从低语到流利",
     "dayStreak": "连续天数",
     "wordsLearned": "已学单词",
     "kanjiMastered": "已掌握汉字",

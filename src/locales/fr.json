@@ -41,12 +41,17 @@
     }
   },
   "alphabet": {
+    "title": "Alphabet",
     "hiragana": "Hiragana",
     "katakana": "Katakana",
     "filters": {
       "gojuon": "Gojūon",
       "yoon": "Yōon",
-      "dakuten": "Dakuten"
+      "dakuten": "Dakuten",
+      "consonant": "Consonnes",
+      "vowel": "Voyelles",
+      "doubleConsonant": "Doubles Consonnes",
+      "compoundVowel": "Voyelles Composées"
     },
     "noCharacters": "Aucun caractère disponible avec les filtres actuels."
   },
@@ -64,7 +69,21 @@
     "showInfo": "Afficher info",
     "noKanji": "Aucun kanji disponible.",
     "onyomi": "音読み",
-    "kunyomi": "訓読み"
+    "kunyomi": "訓読み",
+    "pinyin": "Pinyin",
+    "filters": {
+      "n5": "JLPT N5",
+      "n4": "JLPT N4",
+      "n3": "JLPT N3",
+      "n2": "JLPT N2",
+      "n1": "JLPT N1",
+      "hsk1": "HSK 1",
+      "hsk2": "HSK 2",
+      "hsk3": "HSK 3",
+      "hsk4": "HSK 4",
+      "hsk5": "HSK 5",
+      "hsk6": "HSK 6"
+    }
   },
   "grammar": {
     "checkAnswer": "Vérifier la Réponse",
@@ -74,6 +93,8 @@
   },
   "reading": {
     "showFurigana": "Afficher Furigana",
+    "show": "Afficher",
+    "hide": "Masquer",
     "showQuestions": "Afficher les Questions",
     "checkAnswers": "Vérifier les Réponses",
     "vocabulary": "Vocabulaire",
@@ -91,8 +112,8 @@
     "noExercises": "Aucun exercice disponible."
   },
   "dashboard": {
-    "title": "Entraîneur de Japonais",
-    "subtitle": "学ぶ - Apprenez le Japonais",
+    "title": "Murmura",
+    "subtitle": "Des murmures à la maîtrise",
     "dayStreak": "Série Quotidienne",
     "wordsLearned": "Mots Appris",
     "kanjiMastered": "Kanji Maîtrisés",

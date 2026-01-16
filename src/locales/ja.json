@@ -41,12 +41,17 @@
     }
   },
   "alphabet": {
+    "title": "アルファベット",
     "hiragana": "ひらがな",
     "katakana": "カタカナ",
     "filters": {
       "gojuon": "五十音",
       "yoon": "拗音",
-      "dakuten": "濁音"
+      "dakuten": "濁音",
+      "consonant": "子音",
+      "vowel": "母音",
+      "doubleConsonant": "濃音",
+      "compoundVowel": "複合母音"
     },
     "noCharacters": "現在のフィルターで利用可能な文字がありません。"
   },
@@ -64,7 +69,21 @@
     "showInfo": "情報を表示",
     "noKanji": "利用可能な漢字がありません。",
     "onyomi": "音読み",
-    "kunyomi": "訓読み"
+    "kunyomi": "訓読み",
+    "pinyin": "ピンイン",
+    "filters": {
+      "n5": "JLPT N5",
+      "n4": "JLPT N4",
+      "n3": "JLPT N3",
+      "n2": "JLPT N2",
+      "n1": "JLPT N1",
+      "hsk1": "HSK 1",
+      "hsk2": "HSK 2",
+      "hsk3": "HSK 3",
+      "hsk4": "HSK 4",
+      "hsk5": "HSK 5",
+      "hsk6": "HSK 6"
+    }
   },
   "grammar": {
     "checkAnswer": "答えを確認",
@@ -93,8 +112,8 @@
     "noExercises": "利用可能な練習がありません。"
   },
   "dashboard": {
-    "title": "日本語トレーナー",
-    "subtitle": "学ぶ - 日本語を学ぶ",
+    "title": "Murmura",
+    "subtitle": "囁きから流暢さへ",
     "dayStreak": "連続日数",
     "wordsLearned": "学習した単語",
     "kanjiMastered": "マスターした漢字",

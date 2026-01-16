@@ -41,12 +41,17 @@
     }
   },
   "alphabet": {
+    "title": "Алфавит",
     "hiragana": "Хирагана",
     "katakana": "Катакана",
     "filters": {
       "gojuon": "Годзюон",
       "yoon": "Ёон",
-      "dakuten": "Дакутэн"
+      "dakuten": "Дакутэн",
+      "consonant": "Согласные",
+      "vowel": "Гласные",
+      "doubleConsonant": "Двойные согласные",
+      "compoundVowel": "Составные гласные"
     },
     "noCharacters": "Нет доступных символов с текущими фильтрами."
   },
@@ -64,7 +69,21 @@
     "showInfo": "Показать информацию",
     "noKanji": "Нет доступных кандзи.",
     "onyomi": "音読み",
-    "kunyomi": "訓読み"
+    "kunyomi": "訓読み",
+    "pinyin": "Пиньинь",
+    "filters": {
+      "n5": "JLPT N5",
+      "n4": "JLPT N4",
+      "n3": "JLPT N3",
+      "n2": "JLPT N2",
+      "n1": "JLPT N1",
+      "hsk1": "HSK 1",
+      "hsk2": "HSK 2",
+      "hsk3": "HSK 3",
+      "hsk4": "HSK 4",
+      "hsk5": "HSK 5",
+      "hsk6": "HSK 6"
+    }
   },
   "grammar": {
     "checkAnswer": "Проверить Ответ",
@@ -74,6 +93,8 @@
   },
   "reading": {
     "showFurigana": "Показать Фуригану",
+    "show": "Показать",
+    "hide": "Скрыть",
     "showQuestions": "Показать Вопросы",
     "checkAnswers": "Проверить Ответы",
     "vocabulary": "Словарь",
@@ -91,8 +112,8 @@
     "noExercises": "Нет доступных упражнений."
   },
   "dashboard": {
-    "title": "Тренер Японского",
-    "subtitle": "学ぶ - Изучайте Японский",
+    "title": "Murmura",
+    "subtitle": "От шёпота к свободному владению",
     "dayStreak": "Ежедневная Серия",
     "wordsLearned": "Изученные Слова",
     "kanjiMastered": "Освоенные Кандзи",

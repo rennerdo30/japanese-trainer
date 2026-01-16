@@ -41,12 +41,17 @@
     }
   },
   "alphabet": {
+    "title": "वर्णमाला",
     "hiragana": "हिरागाना",
     "katakana": "काटाकाना",
     "filters": {
       "gojuon": "गोज्यूओन",
       "yoon": "यूओन",
-      "dakuten": "डाकुटेन"
+      "dakuten": "डाकुटेन",
+      "consonant": "व्यंजन",
+      "vowel": "स्वर",
+      "doubleConsonant": "द्विगुणित व्यंजन",
+      "compoundVowel": "संयुक्त स्वर"
     },
     "noCharacters": "वर्तमान फ़िल्टर के साथ कोई वर्ण उपलब्ध नहीं है।"
   },
@@ -64,7 +69,21 @@
     "showInfo": "जानकारी दिखाएं",
     "noKanji": "कोई कांजी उपलब्ध नहीं है।",
     "onyomi": "音読み",
-    "kunyomi": "訓読み"
+    "kunyomi": "訓読み",
+    "pinyin": "पिनयिन",
+    "filters": {
+      "n5": "JLPT N5",
+      "n4": "JLPT N4",
+      "n3": "JLPT N3",
+      "n2": "JLPT N2",
+      "n1": "JLPT N1",
+      "hsk1": "HSK 1",
+      "hsk2": "HSK 2",
+      "hsk3": "HSK 3",
+      "hsk4": "HSK 4",
+      "hsk5": "HSK 5",
+      "hsk6": "HSK 6"
+    }
   },
   "grammar": {
     "checkAnswer": "उत्तर जांचें",
@@ -74,6 +93,8 @@
   },
   "reading": {
     "showFurigana": "फुरिगाना दिखाएं",
+    "show": "दिखाएं",
+    "hide": "छुपाएं",
     "showQuestions": "प्रश्न दिखाएं",
     "checkAnswers": "उत्तर जांचें",
     "vocabulary": "शब्दावली",
@@ -91,8 +112,8 @@
     "noExercises": "कोई अभ्यास उपलब्ध नहीं है।"
   },
   "dashboard": {
-    "title": "जापानी ट्रेनर",
-    "subtitle": "学ぶ - जापानी सीखें",
+    "title": "Murmura",
+    "subtitle": "फुसफुसाहट से प्रवाह तक",
     "dayStreak": "दैनिक श्रृंखला",
     "wordsLearned": "सीखे गए शब्द",
     "kanjiMastered": "महारत हासिल कांजी",

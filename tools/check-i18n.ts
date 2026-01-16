@@ -24,7 +24,7 @@ const SUPPORTED_LOCALES = [
   'ko.json',
   'pt.json',
   'ru.json',
-  'zh-CN.json'
+  'zh.json'
 ];
 
 interface MissingKey {
