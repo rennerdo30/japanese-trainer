@@ -55,11 +55,30 @@
     },
     "noCharacters": "Нет доступных символов с текущими фильтрами."
   },
+  "learnMode": {
+    "learn": "Учить",
+    "practice": "Практиковать",
+    "progress": "Прогресс",
+    "learned": "Изучено",
+    "type": "Тип",
+    "group": "Группа",
+    "playSound": "Воспроизвести звук",
+    "markLearned": "Отметить как изученное",
+    "alreadyLearned": "Уже изучено",
+    "mnemonic": "Подсказка для запоминания",
+    "noLessonsAvailable": "Уроки для этого языка пока недоступны.",
+    "characterOf": "Символ {current} из {total}",
+    "lessonComplete": "Урок завершён!",
+    "nextLesson": "Следующий урок",
+    "selectLesson": "Выбрать урок"
+  },
   "vocabulary": {
     "practiceMode": "Режим Практики",
     "typeMeaning": "Введите значение или ромадзи...",
     "typeWord": "Введите японское слово...",
-    "noWords": "Нет доступных слов."
+    "noWords": "Нет доступных слов.",
+    "showHint": "Показать подсказку",
+    "hintShown": "Подсказка показана"
   },
   "kanji": {
     "practiceMeaning": "Значение",

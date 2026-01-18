@@ -1,11 +1,12 @@
 'use client'
 
-import { useState, useEffect, useCallback, useMemo } from 'react';
+import { useState, useEffect, useCallback, useMemo, useRef } from 'react';
 import Navigation from '@/components/common/Navigation';
 import StatsPanel from '@/components/common/StatsPanel';
 import MultipleChoice from '@/components/common/MultipleChoice';
 import LanguageContentGuard from '@/components/common/LanguageContentGuard';
 import { Container, CharacterCard, InputSection, Input, OptionsPanel, Text, Toggle, Chip, CharacterDisplay, Animated, Button } from '@/components/ui';
+import ErrorBoundary from '@/components/common/ErrorBoundary';
 import optionsStyles from '@/components/ui/OptionsPanel.module.css';
 import { useProgressContext } from '@/context/ProgressProvider';
 import { useLanguage } from '@/context/LanguageProvider';
@@ -67,30 +68,7 @@ const getCharacterData = (lang: string): KanjiItem[] => {
     }
 };
 
-// Level filter configurations per language
-interface LevelFilterConfig {
-    id: string;
-    label: string;
-    value: string;
-}
-
-const LEVEL_FILTERS: Record<string, LevelFilterConfig[]> = {
-    ja: [
-        { id: 'n5', label: 'JLPT N5', value: 'N5' },
-        { id: 'n4', label: 'JLPT N4', value: 'N4' },
-        { id: 'n3', label: 'JLPT N3', value: 'N3' },
-        { id: 'n2', label: 'JLPT N2', value: 'N2' },
-        { id: 'n1', label: 'JLPT N1', value: 'N1' },
-    ],
-    zh: [
-        { id: 'hsk1', label: 'HSK 1', value: 'HSK1' },
-        { id: 'hsk2', label: 'HSK 2', value: 'HSK2' },
-        { id: 'hsk3', label: 'HSK 3', value: 'HSK3' },
-        { id: 'hsk4', label: 'HSK 4', value: 'HSK4' },
-        { id: 'hsk5', label: 'HSK 5', value: 'HSK5' },
-        { id: 'hsk6', label: 'HSK 6', value: 'HSK6' },
-    ],
-};
+// Note: Level filters are now loaded dynamically from language-configs.json via useTargetLanguage().levels
 
 // Reading labels per language
 const READING_LABELS: Record<string, { primary: string; secondary?: string }> = {
@@ -99,15 +77,18 @@ const READING_LABELS: Record<string, { primary: string; secondary?: string }> = 
 };
 
 export default function KanjiPage() {
-    const { updateModuleStats: updateStats } = useProgressContext();
+    const { updateModuleStats: updateStats, getModuleData } = useProgressContext();
     const { t } = useLanguage();
-    const { targetLanguage } = useTargetLanguage();
+    const { targetLanguage, levels } = useTargetLanguage();
     const { speak } = useTTS();
     const [currentKanji, setCurrentKanji] = useState<KanjiItem | null>(null);
     const [correct, setCorrect] = useState(0);
     const [total, setTotal] = useState(0);
     const [streak, setStreak] = useState(0);
     const [isProcessing, setIsProcessing] = useState(false);
+
+    // Use refs to track current stats values for updateStats to avoid stale closures
+    const statsRef = useRef({ correct: 0, total: 0, streak: 0, bestStreak: 0 });
     const [practiceType, setPracticeType] = useState<'meaning' | 'reading'>('meaning');
     const [inputValue, setInputValue] = useState('');
     const [isCharacterEntering, setIsCharacterEntering] = useState(false);
@@ -117,37 +98,39 @@ export default function KanjiPage() {
 
     // Get data and configurations for current language
     const kanjiData = useMemo(() => getCharacterData(targetLanguage), [targetLanguage]);
-    const levelFilters = useMemo(() => LEVEL_FILTERS[targetLanguage] || LEVEL_FILTERS.ja, [targetLanguage]);
     const readingLabels = useMemo(() => READING_LABELS[targetLanguage] || READING_LABELS.ja, [targetLanguage]);
 
-    // Initialize level filters based on language
-    const [filters, setFilters] = useState<Record<string, Filter>>(() => {
-        const levelConfig = LEVEL_FILTERS[targetLanguage] || LEVEL_FILTERS.ja;
+    const [filters, setFilters] = useState<Record<string, Filter>>({});
+
+    // Initialize level filters when language changes
+    useEffect(() => {
         const initialFilters: Record<string, Filter> = {};
-        levelConfig.forEach((lf, index) => {
-            initialFilters[lf.id] = {
-                id: lf.id,
-                label: lf.label,
+        levels.forEach((level, index) => {
+            initialFilters[level.id] = {
+                id: level.id,
+                label: level.name,
                 checked: index === 0, // First level checked by default
                 type: 'checkbox',
             };
         });
         initialFilters.practiceMeaning = { id: 'practice-meaning', label: t('kanji.practiceMeaning'), checked: true, type: 'radio', name: 'kanji-mode' };
         initialFilters.practiceReading = { id: 'practice-reading', label: t('kanji.practiceReading'), checked: false, type: 'radio', name: 'kanji-mode' };
-        return initialFilters;
-    });
+        setFilters(initialFilters);
+    }, [targetLanguage, levels, t]);
 
     const getAvailableKanji = useCallback(() => {
         return kanjiData.filter(item => {
             // Check each level filter for the current language
-            for (const lf of levelFilters) {
-                if (filters[lf.id]?.checked && item.jlpt === lf.value) {
+            // The item.jlpt might be uppercase (N5, HSK1) while level.id is lowercase (n5, hsk1)
+            const itemLevel = item.jlpt?.toLowerCase();
+            for (const level of levels) {
+                if (filters[level.id]?.checked && itemLevel === level.id.toLowerCase()) {
                     return true;
                 }
             }
             return false;
         });
-    }, [filters, levelFilters, kanjiData]);
+    }, [filters, levels, kanjiData]);
 
     const nextKanji = useCallback(() => {
         const available = getAvailableKanji();
@@ -178,30 +161,53 @@ export default function KanjiPage() {
         setIsProcessing(true);
         setIsCorrect(true);
         setInputState('success');
+
+        // Update state using functional updates
         setCorrect(prev => prev + 1);
         setTotal(prev => prev + 1);
         setStreak(prev => prev + 1);
+
+        // Calculate new values from ref (current values) for updateStats
+        const newCorrect = statsRef.current.correct + 1;
+        const newTotal = statsRef.current.total + 1;
+        const newStreak = statsRef.current.streak + 1;
+        const newBestStreak = Math.max(statsRef.current.bestStreak, newStreak);
+
+        // Update ref immediately
+        statsRef.current = { correct: newCorrect, total: newTotal, streak: newStreak, bestStreak: newBestStreak };
+
         speak(currentKanji.kanji, { audioUrl: currentKanji.audioUrl });
-        updateStats('kanji', { correct: correct + 1, total: total + 1, streak: streak + 1 });
+        updateStats('kanji', { correct: newCorrect, total: newTotal, streak: newStreak, bestStreak: newBestStreak });
+
         setTimeout(() => {
             nextKanji();
             setIsProcessing(false);
         }, 1000);
-    }, [currentKanji, correct, total, streak, speak, updateStats, nextKanji]);
+    }, [currentKanji, speak, updateStats, nextKanji]);
 
     const handleIncorrect = useCallback(() => {
         if (!currentKanji) return;
         setIsProcessing(true);
         setInputState('error');
+
+        // Update state using functional updates
         setTotal(prev => prev + 1);
         setStreak(0);
+
+        // Calculate new values from ref (current values) for updateStats
+        const newTotal = statsRef.current.total + 1;
+
+        // Update ref immediately
+        statsRef.current = { ...statsRef.current, total: newTotal, streak: 0 };
+
         speak(currentKanji.kanji, { audioUrl: currentKanji.audioUrl });
-        updateStats('kanji', { correct, total: total + 1, streak: 0 });
+        updateStats('kanji', { correct: statsRef.current.correct, total: newTotal, streak: 0, bestStreak: statsRef.current.bestStreak });
+
         setTimeout(() => {
             nextKanji();
             setIsProcessing(false);
         }, 2000);
-    }, [currentKanji, correct, total, speak, updateStats, nextKanji]);
+    }, [currentKanji, speak, updateStats, nextKanji]);
 
     const checkInput = useCallback((value: string) => {
         if (isProcessing || !currentKanji) return;
@@ -220,13 +226,25 @@ export default function KanjiPage() {
         }
     }, [isProcessing, currentKanji, practiceType, handleCorrect]);
 
-    const { getModuleData } = useProgressContext();
-
+    // Load initial stats from module data and sync to ref
     useEffect(() => {
         const moduleData = getModuleData('kanji');
-        setCorrect(moduleData?.stats?.correct || 0);
-        setTotal(moduleData?.stats?.total || 0);
-        setStreak(moduleData?.stats?.streak || 0);
+        const initialCorrect = moduleData?.stats?.correct || 0;
+        const initialTotal = moduleData?.stats?.total || 0;
+        const initialStreak = moduleData?.stats?.streak || 0;
+        const initialBestStreak = moduleData?.stats?.bestStreak || 0;
+
+        setCorrect(initialCorrect);
+        setTotal(initialTotal);
+        setStreak(initialStreak);
+
+        // Initialize ref with loaded values
+        statsRef.current = {
+            correct: initialCorrect,
+            total: initialTotal,
+            streak: initialStreak,
+            bestStreak: initialBestStreak
+        };
     }, [getModuleData]);
 
     // Create a stable string of filter states for dependency tracking
@@ -266,35 +284,21 @@ export default function KanjiPage() {
         }));
     }, [t]);
 
-    // Reset filters when language changes
-    useEffect(() => {
-        const newFilters: Record<string, Filter> = {};
-        levelFilters.forEach((lf, index) => {
-            newFilters[lf.id] = {
-                id: lf.id,
-                label: lf.label,
-                checked: index === 0,
-                type: 'checkbox',
-            };
-        });
-        newFilters.practiceMeaning = { id: 'practice-meaning', label: t('kanji.practiceMeaning'), checked: true, type: 'radio', name: 'kanji-mode' };
-        newFilters.practiceReading = { id: 'practice-reading', label: t('kanji.practiceReading'), checked: false, type: 'radio', name: 'kanji-mode' };
-        setFilters(newFilters);
-        setPracticeType('meaning');
-    }, [targetLanguage, levelFilters, t]);
-
     if (!currentKanji) {
         return (
+            <ErrorBoundary>
             <LanguageContentGuard moduleName="kanji">
                 <Container variant="centered">
                     <Navigation />
                     <div>{t('kanji.noKanji')}</div>
                 </Container>
             </LanguageContentGuard>
+            </ErrorBoundary>
         );
     }
 
     return (
+        <ErrorBoundary>
         <LanguageContentGuard moduleName="kanji">
             <Container variant="centered" streak={streak}>
                 <Navigation />
@@ -392,6 +396,7 @@ export default function KanjiPage() {
             </InputSection>
             </Container>
         </LanguageContentGuard>
+        </ErrorBoundary>
     );
 }
 

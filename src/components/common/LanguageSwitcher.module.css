@@ -39,7 +39,7 @@
 
 .arrow {
     font-size: 0.7rem;
-    opacity: 0.5;
+    color: var(--text-muted);
     transition: transform 0.3s ease;
 }
 
@@ -47,9 +47,7 @@
     position: absolute;
     top: calc(100% + 0.5rem);
     right: 0;
-    background: var(--bg-glass);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    background: var(--bg-card);
     border: 1px solid var(--glass-border);
     border-radius: 12px;
     box-shadow: var(--shadow-deep);

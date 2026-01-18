@@ -55,11 +55,30 @@
     },
     "noCharacters": "現在のフィルターで利用可能な文字がありません。"
   },
+  "learnMode": {
+    "learn": "学習",
+    "practice": "練習",
+    "progress": "進捗",
+    "learned": "学習済み",
+    "type": "種類",
+    "group": "グループ",
+    "playSound": "音声を再生",
+    "markLearned": "学習済みにする",
+    "alreadyLearned": "学習済み",
+    "mnemonic": "覚え方のヒント",
+    "noLessonsAvailable": "この言語のレッスンはまだありません。",
+    "characterOf": "{total}文字中{current}文字目",
+    "lessonComplete": "レッスン完了！",
+    "nextLesson": "次のレッスン",
+    "selectLesson": "レッスンを選択"
+  },
   "vocabulary": {
     "practiceMode": "練習モード",
     "typeMeaning": "意味またはローマ字を入力...",
     "noWords": "利用可能な単語がありません。",
-    "typeWord": "日本語の単語を入力..."
+    "typeWord": "日本語の単語を入力...",
+    "showHint": "ヒントを表示",
+    "hintShown": "ヒント表示中"
   },
   "kanji": {
     "practiceMeaning": "意味",

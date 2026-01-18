@@ -1,0 +1,136 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 1rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: 12px;
+    max-width: 480px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.lessonName {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--accent-gold);
+    text-align: center;
+}
+
+.progressBar {
+    height: 6px;
+    background: var(--bg-tertiary);
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.progressFill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--success) 0%, var(--accent-gold) 100%);
+    border-radius: 3px;
+    transition: width 0.3s ease;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.progressText,
+.learnedText {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+.learnedText {
+    color: var(--success);
+    font-weight: 500;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.navButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-subtle);
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1.25rem;
+}
+
+.navButton:hover:not(:disabled) {
+    background: var(--accent-red);
+    color: var(--text-primary);
+    border-color: var(--accent-red);
+}
+
+.navButton:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.navButton:focus-visible {
+    outline: 2px solid var(--accent-gold);
+    outline-offset: 2px;
+}
+
+.dots {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--border-subtle);
+    transition: all 0.2s ease;
+}
+
+.dot.activeDot {
+    background: var(--accent-gold);
+    transform: scale(1.25);
+}
+
+/* Mobile responsive */
+@media (max-width: 640px) {
+    .container {
+        padding: 0.75rem;
+    }
+
+    .dots {
+        gap: 0.375rem;
+    }
+
+    .dot {
+        width: 6px;
+        height: 6px;
+    }
+}
+
+@media (max-width: 375px) {
+    .stats {
+        flex-direction: column;
+        gap: 0.25rem;
+    }
+
+    .dots {
+        display: none;
+    }
+}

@@ -33,9 +33,24 @@
     box-shadow: 0 2px 10px var(--accent-red-glow);
 }
 
+.input:focus-visible+.label {
+    outline: 2px solid var(--accent-gold);
+    outline-offset: 2px;
+}
+
 @media (max-width: 640px) {
     .label {
         padding: 0.6rem 1.5rem;
         font-size: 0.85rem;
     }
+}
+
+/* Disabled state */
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.disabled .label {
+    cursor: not-allowed;
 }

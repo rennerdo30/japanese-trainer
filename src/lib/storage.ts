@@ -3,6 +3,9 @@
 
 import { ModuleData, ModuleStats } from '@/types';
 
+// Re-export for use by other modules
+export type { ModuleData, ModuleStats };
+
 const STORAGE_KEY = 'murmura_data';
 const USER_ID_KEY = 'murmura_user_id';
 
@@ -231,8 +234,9 @@ export function updateModuleStats(moduleName: string, statUpdates: Partial<Modul
 // Mark item as learned
 export function markLearned(moduleName: string, itemId: string): boolean {
     const moduleData = getModuleData(moduleName);
-    if (!moduleData.learned.includes(itemId)) {
-        moduleData.learned.push(itemId);
+    const learned = moduleData.learned || [];
+    if (!learned.includes(itemId)) {
+        moduleData.learned = [...learned, itemId];
         return saveModuleData(moduleName, moduleData);
     }
     return true;
@@ -241,19 +245,23 @@ export function markLearned(moduleName: string, itemId: string): boolean {
 // Check if item is learned
 export function isLearned(moduleName: string, itemId: string): boolean {
     const moduleData = getModuleData(moduleName);
-    return moduleData.learned.includes(itemId);
+    const learned = moduleData.learned || [];
+    return learned.includes(itemId);
 }
 
 // Get review data for an item
-export function getReviewData(moduleName: string, itemId: string): any {
+export function getReviewData(moduleName: string, itemId: string): Record<string, unknown> | null {
     const moduleData = getModuleData(moduleName);
-    return moduleData.reviews[itemId] || null;
+    const reviews = moduleData.reviews || {};
+    return reviews[itemId] || null;
 }
 
 // Save review data for an item
-export function saveReviewData(moduleName: string, itemId: string, reviewData: any): boolean {
+export function saveReviewData(moduleName: string, itemId: string, reviewData: Record<string, unknown>): boolean {
     const moduleData = getModuleData(moduleName);
-    moduleData.reviews[itemId] = reviewData;
+    const reviews = { ...(moduleData.reviews || {}) };
+    reviews[itemId] = reviewData;
+    moduleData.reviews = reviews;
     return saveModuleData(moduleName, moduleData);
 }
 

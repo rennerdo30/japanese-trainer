@@ -1,4 +1,4 @@
-'use client'; 
+'use client';
 
 // Convex-based storage adapter
 // Replaces localStorage with Convex backend
@@ -6,12 +6,31 @@
 
 import { useQuery, useMutation } from 'convex/react';
 import { api } from '../../convex/_generated/api';
-import { StorageData } from './storage';
+import { StorageData, ModuleData, GlobalStats } from './storage';
+import { ReviewData } from '@/types';
+
+// Valid module names matching Convex validator
+type ModuleName = 'alphabet' | 'vocabulary' | 'kanji' | 'grammar' | 'reading' | 'listening';
+
+// Valid setting keys matching Convex validator
+type SettingKey = 'theme' | 'soundEnabled' | 'ttsEnabled' | 'ttsRate' | 'ttsVolume' | 'timerEnabled' | 'timerDuration' | 'leaderboardVisible';
+
+// Settings data structure
+interface SettingsData {
+    theme?: string;
+    soundEnabled?: boolean;
+    ttsEnabled?: boolean;
+    ttsRate?: number;
+    ttsVolume?: number;
+    timerEnabled?: boolean;
+    timerDuration?: number;
+    leaderboardVisible?: boolean;
+}
 
 // Default data structure
 function getDefaultData(): StorageData {
     return {
-        userId: null as any, // Will be set by authenticated user
+        userId: null, // Will be set by authenticated user
         modules: {
             alphabet: {
                 learned: [],
@@ -92,8 +111,8 @@ interface ConvexHooks {
     data: StorageData | null;
     isLoading: boolean;
     saveUserData: (data: StorageData) => Promise<void>;
-    updateModule: (moduleName: string, moduleData: any) => Promise<void>;
-    updateGlobalStats: (stats: any) => Promise<void>;
+    updateModule: (moduleName: string, moduleData: Partial<ModuleData>) => Promise<void>;
+    updateGlobalStats: (stats: Partial<GlobalStats>) => Promise<void>;
 }
 
 // Hook to get user data from Convex
@@ -123,16 +142,17 @@ export function useConvexUserData() {
     }
     
     return {
-        data: (userData as any as StorageData | null) || getDefaultData(),
+        data: (userData as StorageData | null) || getDefaultData(),
         isLoading: userData === undefined || currentUser === undefined,
         isAuthenticated: true,
         saveUserData: async (data: StorageData) => {
-            await saveUserData({ data });
+            // Use type assertion for Convex validator compatibility
+            await saveUserData({ data: data as unknown as Record<string, unknown> });
         },
-        updateModule: async (moduleName: string, moduleData: any) => {
+        updateModule: async (moduleName: ModuleName, moduleData: Partial<ModuleData>) => {
             await updateModule({ moduleName, moduleData });
         },
-        updateGlobalStats: async (stats: any) => {
+        updateGlobalStats: async (stats: Partial<GlobalStats>) => {
             await updateGlobalStats({ stats });
         },
     };
@@ -165,10 +185,10 @@ export function useConvexSettings() {
         settings: settings || null,
         isLoading: settings === undefined || currentUser === undefined,
         isAuthenticated: true,
-        saveSettings: async (settingsData: any) => {
+        saveSettings: async (settingsData: SettingsData) => {
             await saveSettings({ settings: settingsData });
         },
-        updateSetting: async (key: string, value: any) => {
+        updateSetting: async (key: SettingKey, value: string | boolean | number) => {
             await updateSetting({ key, value });
         },
     };
@@ -198,39 +218,44 @@ export function createConvexStorageAdapter(convexHooks: ConvexHooks) {
             }
             return allData.modules[moduleName];
         },
-        saveModuleData: async (moduleName: string, moduleData: any) => {
+        saveModuleData: async (moduleName: string, moduleData: Partial<ModuleData>) => {
             await updateModule(moduleName, moduleData);
         },
         getGlobalStats: () => {
             const allData = data || getDefaultData();
             return allData.globalStats;
         },
-        updateGlobalStats: async (updates: any) => {
+        updateGlobalStats: async (updates: Partial<GlobalStats>) => {
             await updateGlobalStats(updates);
         },
-        updateModuleStats: async (moduleName: string, statUpdates: any) => {
-            const moduleData = data?.modules[moduleName] || getDefaultData().modules[moduleName];
+        updateModuleStats: async (moduleName: ModuleName, statUpdates: Record<string, unknown>) => {
+            const moduleData = { ...(data?.modules[moduleName] || getDefaultData().modules[moduleName]) };
             moduleData.stats = { ...moduleData.stats, ...statUpdates };
             await updateModule(moduleName, moduleData);
         },
-        markLearned: async (moduleName: string, itemId: string) => {
-            const moduleData = data?.modules[moduleName] || getDefaultData().modules[moduleName];
-            if (!moduleData.learned.includes(itemId)) {
-                moduleData.learned.push(itemId);
+        markLearned: async (moduleName: ModuleName, itemId: string) => {
+            const moduleData = { ...(data?.modules[moduleName] || getDefaultData().modules[moduleName]) };
+            const learned = moduleData.learned || [];
+            if (!learned.includes(itemId)) {
+                moduleData.learned = [...learned, itemId];
                 await updateModule(moduleName, moduleData);
             }
         },
-        isLearned: (moduleName: string, itemId: string) => {
+        isLearned: (moduleName: ModuleName, itemId: string) => {
             const moduleData = data?.modules[moduleName] || getDefaultData().modules[moduleName];
-            return moduleData.learned.includes(itemId);
+            const learned = moduleData.learned || [];
+            return learned.includes(itemId);
         },
-        getReviewData: (moduleName: string, itemId: string) => {
+        getReviewData: (moduleName: ModuleName, itemId: string) => {
             const moduleData = data?.modules[moduleName] || getDefaultData().modules[moduleName];
-            return moduleData.reviews[itemId] || null;
+            const reviews = moduleData.reviews || {};
+            return reviews[itemId] || null;
         },
-        saveReviewData: async (moduleName: string, itemId: string, reviewData: any) => {
-            const moduleData = data?.modules[moduleName] || getDefaultData().modules[moduleName];
-            moduleData.reviews[itemId] = reviewData;
+        saveReviewData: async (moduleName: ModuleName, itemId: string, reviewData: ReviewData) => {
+            const moduleData = { ...(data?.modules[moduleName] || getDefaultData().modules[moduleName]) };
+            const reviews = { ...(moduleData.reviews || {}) };
+            reviews[itemId] = reviewData;
+            moduleData.reviews = reviews;
             await updateModule(moduleName, moduleData);
         },
         clearAllData: async () => {

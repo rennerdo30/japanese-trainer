@@ -55,11 +55,30 @@
     },
     "noCharacters": "لا توجد أحرف متاحة مع المرشحات الحالية."
   },
+  "learnMode": {
+    "learn": "تعلم",
+    "practice": "تدرب",
+    "progress": "التقدم",
+    "learned": "تم التعلم",
+    "type": "النوع",
+    "group": "المجموعة",
+    "playSound": "تشغيل الصوت",
+    "markLearned": "تحديد كمتعلم",
+    "alreadyLearned": "تم تعلمه بالفعل",
+    "mnemonic": "نصيحة للتذكر",
+    "noLessonsAvailable": "لا توجد دروس متاحة لهذه اللغة حتى الآن.",
+    "characterOf": "الحرف {current} من {total}",
+    "lessonComplete": "اكتمل الدرس!",
+    "nextLesson": "الدرس التالي",
+    "selectLesson": "اختر درساً"
+  },
   "vocabulary": {
     "practiceMode": "وضع الممارسة",
     "typeMeaning": "اكتب المعنى أو الروماجي...",
     "typeWord": "اكتب الكلمة اليابانية...",
-    "noWords": "لا توجد كلمات متاحة."
+    "noWords": "لا توجد كلمات متاحة.",
+    "showHint": "إظهار التلميح",
+    "hintShown": "التلميح معروض"
   },
   "kanji": {
     "practiceMeaning": "المعنى",

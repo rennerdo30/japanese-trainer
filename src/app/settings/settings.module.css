@@ -1,0 +1,373 @@
+.pageHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.headerIcon {
+  font-size: 2.5rem;
+  color: var(--accent-gold, #d4a574);
+}
+
+.pageTitle {
+  text-align: center;
+}
+
+.pageSubtitle {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.settingsSection {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto 1rem;
+  padding: 1.5rem;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border, #333);
+}
+
+.sectionIcon {
+  font-size: 1.5rem;
+  color: var(--accent-gold, #d4a574);
+}
+
+.settingRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border, #333);
+  gap: 1rem;
+}
+
+.settingRow:last-child {
+  border-bottom: none;
+}
+
+.settingInfo {
+  flex: 1;
+}
+
+.settingLabel {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.settingControl {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-shrink: 0;
+}
+
+.anonymousName {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/* Link Card */
+.settingsLink {
+  display: block;
+  text-decoration: none;
+}
+
+.linkContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.linkLeft {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.chevron {
+  font-size: 1.25rem;
+  color: var(--text-muted, #666);
+  transition: transform 0.2s ease;
+}
+
+.settingsLink:hover .chevron {
+  transform: translateX(4px);
+  color: var(--accent-gold, #d4a574);
+}
+
+.comingSoon {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+/* Setting Label Row with Icon */
+.settingLabelRow {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.settingLabelIcon {
+  font-size: 1.125rem;
+  color: var(--accent-gold, #d4a574);
+}
+
+.warningText {
+  margin-top: 0.5rem;
+}
+
+/* Progress Section */
+.progressSection {
+  padding: 1rem;
+  background: var(--bg-tertiary, rgba(255, 255, 255, 0.03));
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.progressHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.progressIcon {
+  font-size: 1rem;
+  color: var(--accent-gold, #d4a574);
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.progressBar {
+  height: 6px;
+  background: var(--bg-secondary, rgba(255, 255, 255, 0.1));
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent-gold, #d4a574), var(--accent-secondary, #8b7355));
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.progressPercent {
+  display: block;
+  text-align: right;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+}
+
+/* Status Section */
+.statusSection {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background: var(--bg-tertiary, rgba(255, 255, 255, 0.03));
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.successIcon {
+  font-size: 1.25rem;
+  color: var(--success, #4ade80);
+}
+
+.errorIcon {
+  font-size: 1.25rem;
+  color: var(--error, #f87171);
+}
+
+.warningIcon {
+  font-size: 1.25rem;
+  color: var(--warning, #fbbf24);
+}
+
+/* TTS Info Section */
+.ttsInfo {
+  padding: 1rem;
+  background: var(--bg-tertiary, rgba(255, 255, 255, 0.03));
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+
+.ttsInfoTitle {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.ttsTierList {
+  margin: 0;
+  padding-left: 1.25rem;
+  font-size: 0.8125rem;
+  color: var(--text-muted, #666);
+  line-height: 1.6;
+}
+
+.ttsTierList li {
+  padding-left: 0.25rem;
+}
+
+/* Voice Selection */
+.voiceSelectionHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border, #333);
+}
+
+.voiceSelectionNote {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.voiceSelector {
+  display: flex;
+  gap: 0.75rem;
+  align-items: stretch;
+}
+
+.voiceSelect {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  font-size: 0.9375rem;
+  background: var(--bg-card, #1a1a1a);
+  color: var(--text-primary, #fff);
+  border: 1px solid var(--border, #333);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23666' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  padding-right: 2.5rem;
+}
+
+.voiceSelect:focus {
+  outline: none;
+  border-color: var(--accent-gold, #d4a574);
+  box-shadow: 0 0 0 2px var(--accent-gold-glow, rgba(212, 165, 116, 0.2));
+}
+
+.voiceSelect optgroup {
+  font-weight: 600;
+  color: var(--text-muted, #666);
+  background: var(--bg-card, #1a1a1a);
+}
+
+.voiceSelect option {
+  padding: 0.5rem;
+  background: var(--bg-card, #1a1a1a);
+  color: var(--text-primary, #fff);
+}
+
+.testVoiceButton {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  white-space: nowrap;
+  min-width: 100px;
+}
+
+.voiceInfo {
+  margin-top: 0.5rem;
+  padding: 0.5rem 0;
+}
+
+/* Mobile responsive for voice selection */
+@media (max-width: 640px) {
+  .voiceSelector {
+    flex-direction: column;
+  }
+
+  .testVoiceButton {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .voiceSelectionHeader {
+    margin-top: 1rem;
+    padding-top: 0.75rem;
+  }
+}
+
+.backButton {
+  display: block;
+  margin: 2rem auto;
+}
+
+/* Mobile responsive */
+@media (max-width: 640px) {
+  .pageHeader {
+    gap: 0.75rem;
+  }
+
+  .headerIcon {
+    font-size: 2rem;
+  }
+
+  .settingsSection {
+    padding: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .settingRow {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .settingControl {
+    width: 100%;
+  }
+
+  .linkLeft {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .sectionHeader h3 {
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .pageTitle {
+    font-size: 1.5rem;
+  }
+
+  .headerIcon {
+    font-size: 1.5rem;
+  }
+
+  .settingsSection {
+    padding: 0.875rem;
+  }
+
+  .anonymousName {
+    font-size: 0.9375rem;
+  }
+}

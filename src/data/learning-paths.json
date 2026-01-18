@@ -1,4 +1,270 @@
 {
+  "alphabetLessons": {
+    "ja": {
+      "name": "Hiragana & Katakana",
+      "nameKey": "learnMode.paths.ja.alphabet.name",
+      "description": "Master the Japanese phonetic scripts",
+      "descriptionKey": "learnMode.paths.ja.alphabet.description",
+      "lessons": [
+        {
+          "id": "hiragana-vowels",
+          "name": "Vowels",
+          "nameKey": "learnMode.lessons.vowels",
+          "characters": ["a", "i", "u", "e", "o"],
+          "prerequisite": null,
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "hiragana-k-row",
+          "name": "K-Row",
+          "nameKey": "learnMode.lessons.kRow",
+          "characters": ["ka", "ki", "ku", "ke", "ko"],
+          "prerequisite": "hiragana-vowels",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "hiragana-s-row",
+          "name": "S-Row",
+          "nameKey": "learnMode.lessons.sRow",
+          "characters": ["sa", "shi", "su", "se", "so"],
+          "prerequisite": "hiragana-k-row",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "hiragana-t-row",
+          "name": "T-Row",
+          "nameKey": "learnMode.lessons.tRow",
+          "characters": ["ta", "chi", "tsu", "te", "to"],
+          "prerequisite": "hiragana-s-row",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "hiragana-n-row",
+          "name": "N-Row",
+          "nameKey": "learnMode.lessons.nRow",
+          "characters": ["na", "ni", "nu", "ne", "no"],
+          "prerequisite": "hiragana-t-row",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "hiragana-h-row",
+          "name": "H-Row",
+          "nameKey": "learnMode.lessons.hRow",
+          "characters": ["ha", "hi", "fu", "he", "ho"],
+          "prerequisite": "hiragana-n-row",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "hiragana-m-row",
+          "name": "M-Row",
+          "nameKey": "learnMode.lessons.mRow",
+          "characters": ["ma", "mi", "mu", "me", "mo"],
+          "prerequisite": "hiragana-h-row",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "hiragana-y-row",
+          "name": "Y-Row",
+          "nameKey": "learnMode.lessons.yRow",
+          "characters": ["ya", "yu", "yo"],
+          "prerequisite": "hiragana-m-row",
+          "estimatedMinutes": 10
+        },
+        {
+          "id": "hiragana-r-row",
+          "name": "R-Row",
+          "nameKey": "learnMode.lessons.rRow",
+          "characters": ["ra", "ri", "ru", "re", "ro"],
+          "prerequisite": "hiragana-y-row",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "hiragana-w-row",
+          "name": "W-Row & N",
+          "nameKey": "learnMode.lessons.wRow",
+          "characters": ["wa", "wo", "n"],
+          "prerequisite": "hiragana-r-row",
+          "estimatedMinutes": 10
+        },
+        {
+          "id": "hiragana-dakuten-g",
+          "name": "Voiced G-Row",
+          "nameKey": "learnMode.lessons.gRow",
+          "characters": ["ga", "gi", "gu", "ge", "go"],
+          "prerequisite": "hiragana-w-row",
+          "estimatedMinutes": 10
+        },
+        {
+          "id": "hiragana-dakuten-z",
+          "name": "Voiced Z-Row",
+          "nameKey": "learnMode.lessons.zRow",
+          "characters": ["za", "ji", "zu", "ze", "zo"],
+          "prerequisite": "hiragana-dakuten-g",
+          "estimatedMinutes": 10
+        },
+        {
+          "id": "hiragana-dakuten-d",
+          "name": "Voiced D-Row",
+          "nameKey": "learnMode.lessons.dRow",
+          "characters": ["da", "de", "do"],
+          "prerequisite": "hiragana-dakuten-z",
+          "estimatedMinutes": 8
+        },
+        {
+          "id": "hiragana-dakuten-b",
+          "name": "Voiced B-Row",
+          "nameKey": "learnMode.lessons.bRow",
+          "characters": ["ba", "bi", "bu", "be", "bo"],
+          "prerequisite": "hiragana-dakuten-d",
+          "estimatedMinutes": 10
+        },
+        {
+          "id": "hiragana-handakuten",
+          "name": "P-Row (Handakuten)",
+          "nameKey": "learnMode.lessons.pRow",
+          "characters": ["pa", "pi", "pu", "pe", "po"],
+          "prerequisite": "hiragana-dakuten-b",
+          "estimatedMinutes": 10
+        },
+        {
+          "id": "hiragana-yoon-k",
+          "name": "K-Yoon Combinations",
+          "nameKey": "learnMode.lessons.kYoon",
+          "characters": ["kya", "kyu", "kyo"],
+          "prerequisite": "hiragana-handakuten",
+          "estimatedMinutes": 8
+        },
+        {
+          "id": "hiragana-yoon-s",
+          "name": "S-Yoon Combinations",
+          "nameKey": "learnMode.lessons.sYoon",
+          "characters": ["sha", "shu", "sho"],
+          "prerequisite": "hiragana-yoon-k",
+          "estimatedMinutes": 8
+        },
+        {
+          "id": "hiragana-yoon-c",
+          "name": "Ch-Yoon Combinations",
+          "nameKey": "learnMode.lessons.cYoon",
+          "characters": ["cha", "chu", "cho"],
+          "prerequisite": "hiragana-yoon-s",
+          "estimatedMinutes": 8
+        },
+        {
+          "id": "hiragana-yoon-n",
+          "name": "N-Yoon Combinations",
+          "nameKey": "learnMode.lessons.nYoon",
+          "characters": ["nya", "nyu", "nyo"],
+          "prerequisite": "hiragana-yoon-c",
+          "estimatedMinutes": 8
+        },
+        {
+          "id": "hiragana-yoon-h",
+          "name": "H-Yoon Combinations",
+          "nameKey": "learnMode.lessons.hYoon",
+          "characters": ["hya", "hyu", "hyo"],
+          "prerequisite": "hiragana-yoon-n",
+          "estimatedMinutes": 8
+        },
+        {
+          "id": "hiragana-yoon-m",
+          "name": "M-Yoon Combinations",
+          "nameKey": "learnMode.lessons.mYoon",
+          "characters": ["mya", "myu", "myo"],
+          "prerequisite": "hiragana-yoon-h",
+          "estimatedMinutes": 8
+        },
+        {
+          "id": "hiragana-yoon-r",
+          "name": "R-Yoon Combinations",
+          "nameKey": "learnMode.lessons.rYoon",
+          "characters": ["rya", "ryu", "ryo"],
+          "prerequisite": "hiragana-yoon-m",
+          "estimatedMinutes": 8
+        },
+        {
+          "id": "hiragana-yoon-voiced",
+          "name": "Voiced Yoon",
+          "nameKey": "learnMode.lessons.voicedYoon",
+          "characters": ["gya", "gyu", "gyo", "ja", "ju", "jo", "bya", "byu", "byo", "pya", "pyu", "pyo"],
+          "prerequisite": "hiragana-yoon-r",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    "ko": {
+      "name": "Hangul",
+      "nameKey": "learnMode.paths.ko.alphabet.name",
+      "description": "Master the Korean alphabet",
+      "descriptionKey": "learnMode.paths.ko.alphabet.description",
+      "lessons": [
+        {
+          "id": "hangul-basic-consonants-1",
+          "name": "Basic Consonants (Part 1)",
+          "nameKey": "learnMode.lessons.basicConsonants1",
+          "characters": ["g/k", "n", "d/t", "r/l", "m"],
+          "prerequisite": null,
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "hangul-basic-consonants-2",
+          "name": "Basic Consonants (Part 2)",
+          "nameKey": "learnMode.lessons.basicConsonants2",
+          "characters": ["b/p", "s", "ng/-", "j", "ch"],
+          "prerequisite": "hangul-basic-consonants-1",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "hangul-aspirated-consonants",
+          "name": "Aspirated Consonants",
+          "nameKey": "learnMode.lessons.aspiratedConsonants",
+          "characters": ["k", "t", "p", "h"],
+          "prerequisite": "hangul-basic-consonants-2",
+          "estimatedMinutes": 12
+        },
+        {
+          "id": "hangul-basic-vowels",
+          "name": "Basic Vowels",
+          "nameKey": "learnMode.lessons.basicVowels",
+          "characters": ["a", "eo", "o", "u", "eu", "i"],
+          "prerequisite": "hangul-aspirated-consonants",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "hangul-y-vowels",
+          "name": "Y-Vowels",
+          "nameKey": "learnMode.lessons.yVowels",
+          "characters": ["ya", "yeo", "yo", "yu"],
+          "prerequisite": "hangul-basic-vowels",
+          "estimatedMinutes": 12
+        },
+        {
+          "id": "hangul-double-consonants",
+          "name": "Double Consonants",
+          "nameKey": "learnMode.lessons.doubleConsonants",
+          "characters": ["kk", "tt", "pp", "ss", "jj"],
+          "prerequisite": "hangul-y-vowels",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "hangul-compound-vowels-1",
+          "name": "Compound Vowels (Part 1)",
+          "nameKey": "learnMode.lessons.compoundVowels1",
+          "characters": ["ae", "yae", "e", "ye"],
+          "prerequisite": "hangul-double-consonants",
+          "estimatedMinutes": 12
+        },
+        {
+          "id": "hangul-compound-vowels-2",
+          "name": "Compound Vowels (Part 2)",
+          "nameKey": "learnMode.lessons.compoundVowels2",
+          "characters": ["wa", "wae", "oe", "wo", "we", "wi", "ui"],
+          "prerequisite": "hangul-compound-vowels-1",
+          "estimatedMinutes": 18
+        }
+      ]
+    }
+  },
   "paths": {
     "jlpt-mastery": {
       "id": "jlpt-mastery",

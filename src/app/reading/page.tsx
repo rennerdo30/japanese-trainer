@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback, useMemo } from 'react';
 import Navigation from '@/components/common/Navigation';
 import StatsPanel from '@/components/common/StatsPanel';
 import LanguageContentGuard from '@/components/common/LanguageContentGuard';
+import ErrorBoundary from '@/components/common/ErrorBoundary';
 import { Container, Card, Text, Button, Chip, Toggle, OptionsPanel, Animated } from '@/components/ui';
 import optionsStyles from '@/components/ui/OptionsPanel.module.css';
 import { useProgressContext } from '@/context/ProgressProvider';
@@ -11,14 +12,14 @@ import { useLanguage } from '@/context/LanguageProvider';
 import { useTargetLanguage } from '@/hooks/useTargetLanguage';
 import { useTTS } from '@/hooks/useTTS';
 import { ReadingItem, Filter } from '@/types';
-import { IoVolumeHigh, IoCheckmark, IoClose } from 'react-icons/io5';
+import { IoVolumeHigh, IoCheckmark, IoClose, IoStop } from 'react-icons/io5';
 import styles from './reading.module.css';
 
 export default function ReadingPage() {
     const { getModuleData: getModule, updateModuleStats: updateStats } = useProgressContext();
     const { t } = useLanguage();
     const { targetLanguage, levels, getDataUrl } = useTargetLanguage();
-    const { speak } = useTTS();
+    const { speak, stop, isPlaying } = useTTS();
     const [readings, setReadings] = useState<ReadingItem[]>([]);
     const [currentReading, setCurrentReading] = useState<ReadingItem | null>(null);
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -26,7 +27,16 @@ export default function ReadingPage() {
     const [showQuestions, setShowQuestions] = useState(false);
     const [questionAnswers, setQuestionAnswers] = useState<Record<number, number>>({});
     const [showCorrectness, setShowCorrectness] = useState(false);
-    const [stats, setStats] = useState({ correct: 0, total: 0, streak: 0 });
+    const [stats, setStats] = useState({
+        correct: 0,
+        total: 0,
+        streak: 0,
+        textsRead: 0,
+        totalAttempts: 0,
+        comprehensionScore: 0,
+        comprehensionTotal: 0,
+        comprehensionCorrect: 0
+    });
 
     // Get first 2 levels from language config for filters
     const displayLevels = useMemo(() => levels.slice(0, 2), [levels]);
@@ -50,26 +60,79 @@ export default function ReadingPage() {
         setFilters(newFilters);
     }, [targetLanguage, displayLevels]);
 
-    // Load reading data when language changes
+    // Filter readings based on selected level filters
+    const filteredReadings = useMemo(() => {
+        const activeFilters = Object.values(filters)
+            .filter(f => f.checked)
+            .map(f => f.id);
+
+        // If no filters selected, show all readings
+        if (activeFilters.length === 0) return readings;
+
+        return readings.filter(reading => {
+            // Handle various level formats (n5, N5, etc.)
+            const readingLevel = reading.level?.toLowerCase();
+            return activeFilters.some(f => f.toLowerCase() === readingLevel);
+        });
+    }, [readings, filters]);
+
+    // Update current reading when filters change
     useEffect(() => {
+        if (filteredReadings.length > 0) {
+            // If current reading is not in filtered list, reset to first filtered item
+            const currentInFiltered = currentReading && filteredReadings.some(r => r.id === currentReading.id);
+            if (!currentInFiltered) {
+                setCurrentIndex(0);
+                setCurrentReading(filteredReadings[0]);
+                setQuestionAnswers({});
+                setShowCorrectness(false);
+                setShowQuestions(false);
+            }
+        } else {
+            setCurrentReading(null);
+        }
+    }, [filteredReadings, currentReading]);
+
+    // Load reading data when language changes (with AbortController to prevent race conditions)
+    useEffect(() => {
+        const abortController = new AbortController();
+
         const loadData = async () => {
             try {
-                const response = await fetch(getDataUrl('readings.json'));
+                const response = await fetch(getDataUrl('readings.json'), {
+                    signal: abortController.signal
+                });
                 const data = await response.json();
-                setReadings(data);
-                setCurrentIndex(0);
-                if (data.length > 0) {
-                    setCurrentReading(data[0]);
-                } else {
-                    setCurrentReading(null);
+
+                // Only update state if this request wasn't aborted
+                if (!abortController.signal.aborted) {
+                    setReadings(data);
+                    setCurrentIndex(0);
+                    if (data.length > 0) {
+                        setCurrentReading(data[0]);
+                    } else {
+                        setCurrentReading(null);
+                    }
                 }
             } catch (error) {
+                // Ignore abort errors - they're expected when switching languages rapidly
+                if (error instanceof Error && error.name === 'AbortError') {
+                    return;
+                }
                 console.error('Failed to load readings:', error);
-                setReadings([]);
-                setCurrentReading(null);
+                if (!abortController.signal.aborted) {
+                    setReadings([]);
+                    setCurrentReading(null);
+                }
             }
         };
+
         loadData();
+
+        // Cleanup: abort fetch if language changes before fetch completes
+        return () => {
+            abortController.abort();
+        };
     }, [targetLanguage, getDataUrl]);
 
     useEffect(() => {
@@ -78,7 +141,12 @@ export default function ReadingPage() {
             setStats({
                 correct: moduleData.stats.correct || 0,
                 total: moduleData.stats.total || 0,
-                streak: moduleData.stats.streak || 0
+                streak: moduleData.stats.streak || 0,
+                textsRead: moduleData.stats.textsRead || 0,
+                totalAttempts: moduleData.stats.totalAttempts || 0,
+                comprehensionScore: moduleData.stats.comprehensionScore || 0,
+                comprehensionTotal: moduleData.stats.comprehensionTotal || 0,
+                comprehensionCorrect: moduleData.stats.comprehensionCorrect || 0
             });
         }
     }, [getModule]);
@@ -106,38 +174,67 @@ export default function ReadingPage() {
             }
         });
 
-        const allCorrect = correctCount === currentReading.questions.length;
+        const questionCount = currentReading.questions.length;
+        const allCorrect = correctCount === questionCount;
         const newCorrect = stats.correct + correctCount;
-        const newTotal = stats.total + (currentReading.questions?.length || 0);
+        const newTotal = stats.total + questionCount;
         const newStreak = allCorrect ? stats.streak + 1 : 0;
 
-        setStats({ correct: newCorrect, total: newTotal, streak: newStreak });
+        // Calculate reading-specific stats
+        const currentTextsRead = (stats as Record<string, number>).textsRead || 0;
+        const currentTotalAttempts = (stats as Record<string, number>).totalAttempts || 0;
+        const currentComprehensionTotal = (stats as Record<string, number>).comprehensionTotal || 0;
+        const currentComprehensionCorrect = (stats as Record<string, number>).comprehensionCorrect || 0;
+
+        const newTextsRead = currentTextsRead + 1;
+        const newTotalAttempts = currentTotalAttempts + 1;
+        const newComprehensionCorrect = currentComprehensionCorrect + correctCount;
+        const newComprehensionTotal = currentComprehensionTotal + questionCount;
+        const comprehensionScore = newComprehensionTotal > 0
+            ? Math.round((newComprehensionCorrect / newComprehensionTotal) * 100)
+            : 0;
+
+        const updatedStats = {
+            correct: newCorrect,
+            total: newTotal,
+            streak: newStreak,
+            textsRead: newTextsRead,
+            totalAttempts: newTotalAttempts,
+            comprehensionScore,
+            comprehensionTotal: newComprehensionTotal,
+            comprehensionCorrect: newComprehensionCorrect
+        };
+
+        setStats(updatedStats);
         setShowCorrectness(true);
-        updateStats('reading', { correct: newCorrect, total: newTotal, streak: newStreak });
+        updateStats('reading', updatedStats);
     }, [currentReading, questionAnswers, stats, updateStats]);
 
     const nextReading = useCallback(() => {
-        if (readings.length === 0) return;
-        const nextIndex = (currentIndex + 1) % readings.length;
+        if (filteredReadings.length === 0) return;
+        const nextIndex = (currentIndex + 1) % filteredReadings.length;
         setCurrentIndex(nextIndex);
-        setCurrentReading(readings[nextIndex]);
+        setCurrentReading(filteredReadings[nextIndex]);
         setQuestionAnswers({});
         setShowCorrectness(false);
         setShowQuestions(false);
-    }, [currentIndex, readings]);
+    }, [currentIndex, filteredReadings]);
 
     if (!currentReading) {
         return (
+            <ErrorBoundary>
             <LanguageContentGuard moduleName="reading">
                 <Container variant="centered">
                     <Navigation />
                     <Text>{t('reading.noReadings') || 'No readings available.'}</Text>
                 </Container>
             </LanguageContentGuard>
+            </ErrorBoundary>
         );
     }
 
     return (
+        <ErrorBoundary>
         <LanguageContentGuard moduleName="reading">
             <Container variant="centered" streak={stats.streak}>
                 <Navigation />
@@ -181,9 +278,15 @@ export default function ReadingPage() {
                 </div>
 
                 <div className="mt-8 flex justify-center gap-4">
-                    <Button onClick={handlePlayReading} variant="secondary">
-                        <IoVolumeHigh style={{ marginRight: '0.5rem' }} /> {t('listening.playAudio')}
-                    </Button>
+                    {isPlaying ? (
+                        <Button onClick={stop} variant="danger">
+                            <IoStop style={{ marginRight: '0.5rem' }} /> {t('common.stop') || 'Stop'}
+                        </Button>
+                    ) : (
+                        <Button onClick={handlePlayReading} variant="secondary">
+                            <IoVolumeHigh style={{ marginRight: '0.5rem' }} /> {t('listening.playAudio')}
+                        </Button>
+                    )}
                     {currentReading.questions && (
                         <Button onClick={() => setShowQuestions(!showQuestions)} variant="primary">
                             {t('reading.showQuestions')}
@@ -234,6 +337,7 @@ export default function ReadingPage() {
             <StatsPanel correct={stats.correct} total={stats.total} streak={stats.streak} />
             </Container>
         </LanguageContentGuard>
+        </ErrorBoundary>
     );
 }
 

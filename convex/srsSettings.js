@@ -1,6 +1,6 @@
 import { v } from "convex/values";
 import { query, mutation } from "./_generated/server";
-import { getAuthUserId } from "@convex-dev/auth/server";
+import { auth } from "./auth";
 
 // Default SRS settings
 export const defaultSRSSettings = {
@@ -29,7 +29,7 @@ export const defaultSRSSettings = {
 export const getSRSSettings = query({
   args: {},
   handler: async (ctx) => {
-    const userId = await getAuthUserId(ctx);
+    const userId = await auth.getUserId(ctx);
     if (!userId) return { settings: defaultSRSSettings };
 
     const userSettings = await ctx.db
@@ -49,7 +49,7 @@ export const getSRSSettings = query({
 export const initializeSRSSettings = mutation({
   args: {},
   handler: async (ctx) => {
-    const userId = await getAuthUserId(ctx);
+    const userId = await auth.getUserId(ctx);
     if (!userId) throw new Error("Not authenticated");
 
     const existing = await ctx.db
@@ -87,7 +87,7 @@ export const updateSRSSettings = mutation({
     }),
   },
   handler: async (ctx, { settings }) => {
-    const userId = await getAuthUserId(ctx);
+    const userId = await auth.getUserId(ctx);
     if (!userId) throw new Error("Not authenticated");
 
     let userSettings = await ctx.db
@@ -117,7 +117,7 @@ export const updateSRSSettings = mutation({
 export const resetSRSSettings = mutation({
   args: {},
   handler: async (ctx) => {
-    const userId = await getAuthUserId(ctx);
+    const userId = await auth.getUserId(ctx);
     if (!userId) throw new Error("Not authenticated");
 
     const userSettings = await ctx.db
@@ -144,7 +144,7 @@ export const resetSRSSettings = mutation({
 export const getDailyActivity = query({
   args: { days: v.optional(v.number()) },
   handler: async (ctx, { days = 365 }) => {
-    const userId = await getAuthUserId(ctx);
+    const userId = await auth.getUserId(ctx);
     if (!userId) return [];
 
     // Get activity from the last N days
@@ -172,7 +172,7 @@ export const recordDailyActivity = mutation({
     moduleTime: v.optional(v.number()),
   },
   handler: async (ctx, { studyTimeMinutes, itemsLearned, itemsReviewed, module, moduleTime }) => {
-    const userId = await getAuthUserId(ctx);
+    const userId = await auth.getUserId(ctx);
     if (!userId) throw new Error("Not authenticated");
 
     const today = new Date().toISOString().split('T')[0];

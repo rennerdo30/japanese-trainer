@@ -1,11 +1,12 @@
 'use client'
 
-import { useState, useEffect, useCallback, useMemo } from 'react';
+import { useState, useEffect, useCallback, useMemo, useRef } from 'react';
 import Navigation from '@/components/common/Navigation';
 import StatsPanel from '@/components/common/StatsPanel';
 import MultipleChoice from '@/components/common/MultipleChoice';
 import LanguageContentGuard from '@/components/common/LanguageContentGuard';
-import { Container, CharacterCard, InputSection, Input, OptionsPanel, Text, Toggle, Chip, CharacterDisplay, Animated } from '@/components/ui';
+import ErrorBoundary from '@/components/common/ErrorBoundary';
+import { Container, CharacterCard, InputSection, Input, OptionsPanel, Text, Toggle, Chip, CharacterDisplay, Animated, Button } from '@/components/ui';
 import optionsStyles from '@/components/ui/OptionsPanel.module.css';
 import { useProgressContext } from '@/context/ProgressProvider';
 import { useLanguage } from '@/context/LanguageProvider';
@@ -16,7 +17,7 @@ import { VocabularyItem, Filter } from '@/types';
 import styles from './vocabulary.module.css';
 
 export default function VocabularyPage() {
-    const { updateModuleStats: updateStats } = useProgressContext();
+    const { updateModuleStats: updateStats, getModuleData } = useProgressContext();
     const { t } = useLanguage();
     const { targetLanguage, levels } = useTargetLanguage();
     const { speak } = useTTS();
@@ -24,6 +25,10 @@ export default function VocabularyPage() {
     const [correct, setCorrect] = useState(0);
     const [total, setTotal] = useState(0);
     const [streak, setStreak] = useState(0);
+
+    // Use refs to track current stats values for updateStats to avoid stale closures
+    const statsRef = useRef({ correct: 0, total: 0, streak: 0, bestStreak: 0 });
+    const inputRef = useRef<HTMLInputElement>(null);
     const [isProcessing, setIsProcessing] = useState(false);
     const [inputValue, setInputValue] = useState('');
     const [practiceMode, setPracticeMode] = useState(false); // false = meaning, true = multiple choice
@@ -31,6 +36,7 @@ export default function VocabularyPage() {
     const [isCharacterEntering, setIsCharacterEntering] = useState(false);
     const [isCorrect, setIsCorrect] = useState(false);
     const [inputState, setInputState] = useState<'default' | 'success' | 'error'>('default');
+    const [showHint, setShowHint] = useState(false);
 
     // Get vocabulary data for the current language (from centralized data loader)
     const vocabulary = useMemo(() => getVocabularyData(targetLanguage), [targetLanguage]);
@@ -102,6 +108,7 @@ export default function VocabularyPage() {
                 setInputValue('');
                 setIsCorrect(false);
                 setInputState('default');
+                setShowHint(false);
                 setIsCharacterEntering(true);
                 setTimeout(() => setIsCharacterEntering(false), 400);
 
@@ -117,50 +124,88 @@ export default function VocabularyPage() {
         setIsProcessing(true);
         setIsCorrect(true);
         setInputState('success');
+
+        // Update state using functional updates
         setCorrect(prev => prev + 1);
         setTotal(prev => prev + 1);
         setStreak(prev => prev + 1);
+
+        // Calculate new values from ref (current values) for updateStats
+        const newCorrect = statsRef.current.correct + 1;
+        const newTotal = statsRef.current.total + 1;
+        const newStreak = statsRef.current.streak + 1;
+        const newBestStreak = Math.max(statsRef.current.bestStreak, newStreak);
+
+        // Update ref immediately
+        statsRef.current = { correct: newCorrect, total: newTotal, streak: newStreak, bestStreak: newBestStreak };
+
         speak(currentWord.word, { audioUrl: currentWord.audioUrl });
-        updateStats('vocabulary', { correct: correct + 1, total: total + 1, streak: streak + 1 });
+        updateStats('vocabulary', { correct: newCorrect, total: newTotal, streak: newStreak, bestStreak: newBestStreak });
+
         setTimeout(() => {
             nextWord();
             setIsProcessing(false);
+            // Focus the input field after moving to next word
+            setTimeout(() => inputRef.current?.focus(), 100);
         }, 1000);
-    }, [currentWord, correct, total, streak, speak, updateStats, nextWord]);
+    }, [currentWord, speak, updateStats, nextWord]);
 
     const handleIncorrect = useCallback(() => {
         if (!currentWord) return;
         setIsProcessing(true);
         setInputState('error');
+
+        // Update state using functional updates
         setTotal(prev => prev + 1);
         setStreak(0);
+
+        // Calculate new values from ref (current values) for updateStats
+        const newTotal = statsRef.current.total + 1;
+
+        // Update ref immediately
+        statsRef.current = { ...statsRef.current, total: newTotal, streak: 0 };
+
         speak(currentWord.word, { audioUrl: currentWord.audioUrl });
-        updateStats('vocabulary', { correct, total: total + 1, streak: 0 });
+        updateStats('vocabulary', { correct: statsRef.current.correct, total: newTotal, streak: 0, bestStreak: statsRef.current.bestStreak });
+
         setTimeout(() => {
             nextWord();
             setIsProcessing(false);
+            // Focus the input field after moving to next word
+            setTimeout(() => inputRef.current?.focus(), 100);
         }, 2000);
-    }, [currentWord, correct, total, speak, updateStats, nextWord]);
+    }, [currentWord, speak, updateStats, nextWord]);
 
     const checkInput = useCallback((value: string) => {
         if (isProcessing || !currentWord) return;
         const normalizedInput = value.toLowerCase().trim();
         const normalizedMeaning = currentWord.meaning.toLowerCase().trim();
-        // romaji may not exist for non-Japanese languages
-        const normalizedRomaji = (currentWord.romaji || '').toLowerCase().trim();
 
-        if (normalizedInput === normalizedMeaning || (normalizedRomaji && normalizedInput === normalizedRomaji)) {
+        // Only accept meaning as correct answer (not romaji)
+        if (normalizedInput === normalizedMeaning) {
             handleCorrect();
         }
     }, [isProcessing, currentWord, handleCorrect]);
 
-    const { getModuleData } = useProgressContext();
-
+    // Load initial stats from module data and sync to ref
     useEffect(() => {
         const moduleData = getModuleData('vocabulary');
-        setCorrect(moduleData?.stats?.correct || 0);
-        setTotal(moduleData?.stats?.total || 0);
-        setStreak(moduleData?.stats?.streak || 0);
+        const initialCorrect = moduleData?.stats?.correct || 0;
+        const initialTotal = moduleData?.stats?.total || 0;
+        const initialStreak = moduleData?.stats?.streak || 0;
+        const initialBestStreak = moduleData?.stats?.bestStreak || 0;
+
+        setCorrect(initialCorrect);
+        setTotal(initialTotal);
+        setStreak(initialStreak);
+
+        // Initialize ref with loaded values
+        statsRef.current = {
+            correct: initialCorrect,
+            total: initialTotal,
+            streak: initialStreak,
+            bestStreak: initialBestStreak
+        };
     }, [getModuleData]);
 
     // Create a stable string of filter states for dependency tracking
@@ -184,19 +229,30 @@ export default function VocabularyPage() {
         }
     }, []);
 
+    // Generate hint: show first 2 characters of meaning + ...
+    const getHint = useCallback(() => {
+        if (!currentWord) return '';
+        const meaning = currentWord.meaning;
+        if (meaning.length <= 3) return meaning.charAt(0) + '...';
+        return meaning.substring(0, 2) + '...';
+    }, [currentWord]);
+
 
     if (!currentWord) {
         return (
-            <LanguageContentGuard moduleName="vocabulary">
-                <Container variant="centered">
-                    <Navigation />
-                    <div>{t('vocabulary.noWords')}</div>
-                </Container>
-            </LanguageContentGuard>
+            <ErrorBoundary>
+                <LanguageContentGuard moduleName="vocabulary">
+                    <Container variant="centered">
+                        <Navigation />
+                        <div>{t('vocabulary.noWords')}</div>
+                    </Container>
+                </LanguageContentGuard>
+            </ErrorBoundary>
         );
     }
 
     return (
+        <ErrorBoundary>
         <LanguageContentGuard moduleName="vocabulary">
             <Container variant="centered" streak={streak}>
                 <Navigation />
@@ -238,15 +294,27 @@ export default function VocabularyPage() {
                     entering={isCharacterEntering}
                     correct={isCorrect}
                     subtext={currentWord.reading}
+                    variant="word"
                 />
             </CharacterCard>
 
             <div className="mt-8 mb-4">
                 <Animated animation="pulse" key={currentWord.id}>
                     <Text variant="h2" color="gold">
-                        {isCorrect ? currentWord.meaning : '???'}
+                        {isCorrect ? currentWord.meaning : (showHint ? getHint() : '???')}
                     </Text>
                 </Animated>
+                {!isCorrect && !practiceMode && (
+                    <Button
+                        variant="ghost"
+                        size="sm"
+                        onClick={() => setShowHint(true)}
+                        disabled={showHint}
+                        className="mt-2"
+                    >
+                        {showHint ? t('vocabulary.hintShown') : t('vocabulary.showHint')}
+                    </Button>
+                )}
             </div>
 
             <InputSection>
@@ -261,6 +329,7 @@ export default function VocabularyPage() {
                     />
                 ) : (
                     <Input
+                        ref={inputRef}
                         type="text"
                         value={inputValue}
                         onChange={(e) => {
@@ -279,6 +348,7 @@ export default function VocabularyPage() {
             </InputSection>
             </Container>
         </LanguageContentGuard>
+        </ErrorBoundary>
     );
 }
 

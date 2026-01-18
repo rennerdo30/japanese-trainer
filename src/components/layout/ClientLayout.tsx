@@ -1,27 +1,21 @@
 'use client';
 
-import { ReactNode, useEffect } from 'react';
+import { ReactNode } from 'react';
 import LearningCompanion from '@/components/LearningCompanion/LearningCompanion';
-import { useTargetLanguage } from '@/hooks/useTargetLanguage';
+import ErrorBoundary from '@/components/common/ErrorBoundary';
 
 interface ClientLayoutProps {
   children: ReactNode;
 }
 
 export default function ClientLayout({ children }: ClientLayoutProps) {
-  const { targetLanguage } = useTargetLanguage();
-
-  // Apply theme based on target language at the root level
-  useEffect(() => {
-    if (typeof document !== 'undefined') {
-      document.documentElement.setAttribute('data-theme', targetLanguage);
-    }
-  }, [targetLanguage]);
+  // NOTE: Theme is applied by TargetLanguageProvider to avoid duplicate application
+  // Do NOT add data-theme attribute here
 
   return (
-    <>
+    <ErrorBoundary>
       {children}
       <LearningCompanion position="sidebar" />
-    </>
+    </ErrorBoundary>
   );
 }

@@ -7,7 +7,10 @@ export function useMobile(): boolean {
 
     useEffect(() => {
         const checkMobile = (): boolean => {
-            const userAgent = navigator.userAgent || (navigator as any).vendor || (window as any).opera;
+            // Use type assertions for legacy browser properties (vendor, opera)
+            const nav = navigator as Navigator & { vendor?: string };
+            const win = window as Window & { opera?: string };
+            const userAgent = navigator.userAgent || nav.vendor || win.opera || '';
             const mobileRegex = /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i;
             const isUserAgentMobile = mobileRegex.test(userAgent.toLowerCase());
             const hasTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;

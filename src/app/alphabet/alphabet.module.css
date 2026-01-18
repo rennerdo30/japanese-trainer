@@ -32,3 +32,18 @@
     font-size: 0.85rem;
   }
 }
+
+/* Learn Mode Toggle Wrapper */
+.modeToggleWrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+/* No characters/lessons message */
+.noCharacters {
+  text-align: center;
+  padding: 2rem;
+  color: var(--text-muted);
+  font-size: 1rem;
+}

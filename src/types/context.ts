@@ -1,7 +1,7 @@
 // Context type definitions
 
 import { ReactNode } from 'react';
-import { ModuleData, ModuleStats } from './index';
+import { ModuleData, ModuleStats, ReviewData, StorageData } from './index';
 
 export interface LanguageContextValue {
     language: string;
@@ -27,7 +27,7 @@ export interface Settings {
 
 export interface SettingsContextValue {
     settings: Settings;
-    updateSetting: (key: keyof Settings, value: any) => void;
+    updateSetting: <K extends keyof Settings>(key: K, value: Settings[K]) => void;
     loaded: boolean;
 }
 
@@ -50,12 +50,12 @@ export interface ProgressContextValue {
     updateStreak: () => number;
     getModuleProgress: (moduleName: string, totalItems: number) => number;
     recordStudyTime: (seconds: number) => void;
-    getItemsDueForReview: (moduleName: string) => Array<{ itemId: string; reviewData: any }>;
+    getItemsDueForReview: (moduleName: string) => Array<{ itemId: string; reviewData: ReviewData }>;
     getMasteryLevel: (moduleName: string, itemId: string) => string;
     getModuleData: (moduleName: string) => ModuleData;
     updateModuleStats: (moduleName: string, stats: Partial<ModuleStats>) => void;
-    updateData: (data: any) => void;
-    updateModuleReview: (moduleName: string, itemId: string, reviewData: any) => void;
+    updateData: (data: Partial<StorageData>) => void;
+    updateModuleReview: (moduleName: string, itemId: string, reviewData: ReviewData) => void;
 }
 
 export interface ContextProviderProps {

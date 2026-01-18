@@ -1,0 +1,766 @@
+{
+  "vocabulary": [
+    {
+      "id": "zh-vocab-hsk2-1",
+      "word": "时间",
+      "reading": "shíjiān",
+      "romaji": "shíjiān",
+      "meaning": "time",
+      "meanings": { "en": "time", "es": "tiempo", "ja": "時間", "ko": "시간" },
+      "level": "HSK2",
+      "partOfSpeech": "noun",
+      "examples": [{ "chinese": "我没有时间。", "pinyin": "Wǒ méiyǒu shíjiān.", "english": "I don't have time." }],
+      "tags": ["time", "daily-life"]
+    },
+    {
+      "id": "zh-vocab-hsk2-2",
+      "word": "小时",
+      "reading": "xiǎoshí",
+      "romaji": "xiǎoshí",
+      "meaning": "hour",
+      "meanings": { "en": "hour", "es": "hora", "ja": "時間", "ko": "시간" },
+      "level": "HSK2",
+      "partOfSpeech": "noun",
+      "examples": [{ "chinese": "我等了两个小时。", "pinyin": "Wǒ děngle liǎng gè xiǎoshí.", "english": "I waited for two hours." }],
+      "tags": ["time", "duration"]
+    },
+    {
+      "id": "zh-vocab-hsk2-3",
+      "word": "分钟",
+      "reading": "fēnzhōng",
+      "romaji": "fēnzhōng",
+      "meaning": "minute",
+      "meanings": { "en": "minute", "es": "minuto", "ja": "分", "ko": "분" },
+      "level": "HSK2",
+      "partOfSpeech": "noun",
+      "examples": [{ "chinese": "请等五分钟。", "pinyin": "Qǐng děng wǔ fēnzhōng.", "english": "Please wait five minutes." }],
+      "tags": ["time", "duration"]
+    },
+    {
+      "id": "zh-vocab-hsk2-4",
+      "word": "早上",
+      "reading": "zǎoshang",
+      "romaji": "zǎoshang",
+      "meaning": "morning",
+      "meanings": { "en": "morning", "es": "mañana", "ja": "朝", "ko": "아침" },
+      "level": "HSK2",
+      "partOfSpeech": "noun",
+      "examples": [{ "chinese": "我早上七点起床。", "pinyin": "Wǒ zǎoshang qī diǎn qǐchuáng.", "english": "I get up at 7 in the morning." }],
+      "tags": ["time", "daily-life"]
+    },
+    {
+      "id": "zh-vocab-hsk2-5",
+      "word": "晚上",
+      "reading": "wǎnshang",
+      "romaji": "wǎnshang",
+      "meaning": "evening, night",
+      "meanings": { "en": "evening, night", "es": "noche", "ja": "夜", "ko": "저녁" },
+      "level": "HSK2",
+      "partOfSpeech": "noun",
+      "examples": [{ "chinese": "晚上我们去看电影。", "pinyin": "Wǎnshang wǒmen qù kàn diànyǐng.", "english": "We're going to watch a movie tonight." }],
+      "tags": ["time", "daily-life"]
+    },
+    {
+      "id": "zh-vocab-hsk2-6",
+      "word": "去年",
+      "reading": "qùnián",
+      "romaji": "qùnián",
+      "meaning": "last year",
+      "meanings": { "en": "last year", "es": "el año pasado", "ja": "去年", "ko": "작년" },
+      "level": "HSK2",
+      "partOfSpeech": "noun",
+      "examples": [{ "chinese": "去年我去了中国。", "pinyin": "Qùnián wǒ qùle Zhōngguó.", "english": "I went to China last year." }],
+      "tags": ["time", "past"]
+    },
+    {
+      "id": "zh-vocab-hsk2-7",
+      "word": "机场",
+      "reading": "jīchǎng",
+      "romaji": "jīchǎng",
+      "meaning": "airport",
+      "meanings": { "en": "airport", "es": "aeropuerto", "ja": "空港", "ko": "공항" },
+      "level": "HSK2",
+      "partOfSpeech": "noun",
+      "examples": [{ "chinese": "我们去机场接朋友。", "pinyin": "Wǒmen qù jīchǎng jiē péngyou.", "english": "We're going to the airport to pick up a friend." }],
+      "tags": ["location", "transportation"]
+    },
+    {
+      "id": "zh-vocab-hsk2-8",
+      "word": "火车站",
+      "reading": "huǒchēzhàn",
+      "romaji": "huǒchēzhàn",
+      "meaning": "train station",
+      "meanings": { "en": "train station", "es": "estación de tren", "ja": "駅", "ko": "기차역" },
+      "level": "HSK2",
+      "partOfSpeech": "noun",
+      "examples": [{ "chinese": "火车站离这儿很近。", "pinyin": "Huǒchēzhàn lí zhèr hěn jìn.", "english": "The train station is very close to here." }],
+      "tags": ["location", "transportation"]
+    },
+    {
+      "id": "zh-vocab-hsk2-9",
+      "word": "公共汽车",
+      "reading": "gōnggòng qìchē",
+      "romaji": "gōnggòng qìchē",
+      "meaning": "bus",
+      "meanings": { "en": "bus", "es": "autobús", "ja": "バス", "ko": "버스" },
+      "level": "HSK2",
+      "partOfSpeech": "noun",
+      "examples": [{ "chinese": "我坐公共汽车去上班。", "pinyin": "Wǒ zuò gōnggòng qìchē qù shàngbān.", "english": "I take the bus to work." }],
+      "tags": ["transportation"]
+    },
+    {
+      "id": "zh-vocab-hsk2-10",
+      "word": "自行车",
+      "reading": "zìxíngchē",
+      "romaji": "zìxíngchē",
+      "meaning": "bicycle",
+      "meanings": { "en": "bicycle", "es": "bicicleta", "ja": "自転車", "ko": "자전거" },
+      "level": "HSK2",
+      "partOfSpeech": "noun",
+      "examples": [{ "chinese": "他骑自行车去学校。", "pinyin": "Tā qí zìxíngchē qù xuéxiào.", "english": "He rides a bicycle to school." }],
+      "tags": ["transportation"]
+    },
+    {
+      "id": "zh-vocab-hsk2-11",
+      "word": "船",
+      "reading": "chuán",
+      "romaji": "chuán",
+      "meaning": "boat, ship",
+      "meanings": { "en": "boat, ship", "es": "barco", "ja": "船", "ko": "배" },
+      "level": "HSK2",
+      "partOfSpeech": "noun",
+      "examples": [{ "chinese": "我们坐船去那个岛。", "pinyin": "Wǒmen zuò chuán qù nàge dǎo.", "english": "We take a boat to that island." }],
+      "tags": ["transportation"]
+    },
+    {
+      "id": "zh-vocab-hsk2-12",
+      "word": "教室",
+      "reading": "jiàoshì",
+      "romaji": "jiàoshì",
+      "meaning": "classroom",
+      "meanings": { "en": "classroom", "es": "aula", "ja": "教室", "ko": "교실" },
+      "level": "HSK2",
+      "partOfSpeech": "noun",
+      "examples": [{ "chinese": "学生们在教室里学习。", "pinyin": "Xuéshēngmen zài jiàoshì lǐ xuéxí.", "english": "The students are studying in the classroom." }],
+      "tags": ["location", "education"]
+    },
+    {
+      "id": "zh-vocab-hsk2-13",
+      "word": "办公室",
+      "reading": "bàngōngshì",
+      "romaji": "bàngōngshì",
+      "meaning": "office",
+      "meanings": { "en": "office", "es": "oficina", "ja": "オフィス", "ko": "사무실" },
+      "level": "HSK2",
+      "partOfSpeech": "noun",
+      "examples": [{ "chinese": "老师在办公室。", "pinyin": "Lǎoshī zài bàngōngshì.", "english": "The teacher is in the office." }],
+      "tags": ["location", "work"]
+    },
+    {
+      "id": "zh-vocab-hsk2-14",
+      "word": "宾馆",
+      "reading": "bīnguǎn",
+      "romaji": "bīnguǎn",
+      "meaning": "hotel",
+      "meanings": { "en": "hotel", "es": "hotel", "ja": "ホテル", "ko": "호텔" },
+      "level": "HSK2",
+      "partOfSpeech": "noun",
+      "examples": [{ "chinese": "我们住在那个宾馆。", "pinyin": "Wǒmen zhù zài nàge bīnguǎn.", "english": "We're staying at that hotel." }],
+      "tags": ["location", "travel"]
+    },
+    {
+      "id": "zh-vocab-hsk2-15",
+      "word": "便宜",
+      "reading": "piányi",
+      "romaji": "piányi",
+      "meaning": "cheap, inexpensive",
+      "meanings": { "en": "cheap, inexpensive", "es": "barato", "ja": "安い", "ko": "싸다" },
+      "level": "HSK2",
+      "partOfSpeech": "adjective",
+      "examples": [{ "chinese": "这件衣服很便宜。", "pinyin": "Zhè jiàn yīfu hěn piányi.", "english": "This piece of clothing is very cheap." }],
+      "tags": ["shopping", "price"]
+    },
+    {
+      "id": "zh-vocab-hsk2-16",
+      "word": "贵",
+      "reading": "guì",
+      "romaji": "guì",
+      "meaning": "expensive",
+      "meanings": { "en": "expensive", "es": "caro", "ja": "高い", "ko": "비싸다" },
+      "level": "HSK2",
+      "partOfSpeech": "adjective",
+      "examples": [{ "chinese": "这个太贵了。", "pinyin": "Zhège tài guì le.", "english": "This is too expensive." }],
+      "tags": ["shopping", "price"]
+    },
+    {
+      "id": "zh-vocab-hsk2-17",
+      "word": "卖",
+      "reading": "mài",
+      "romaji": "mài",
+      "meaning": "to sell",
+      "meanings": { "en": "to sell", "es": "vender", "ja": "売る", "ko": "팔다" },
+      "level": "HSK2",
+      "partOfSpeech": "verb",
+      "examples": [{ "chinese": "这家店卖水果。", "pinyin": "Zhè jiā diàn mài shuǐguǒ.", "english": "This store sells fruit." }],
+      "tags": ["shopping", "action"]
+    },
+    {
+      "id": "zh-vocab-hsk2-18",
+      "word": "穿",
+      "reading": "chuān",
+      "romaji": "chuān",
+      "meaning": "to wear",
+      "meanings": { "en": "to wear", "es": "llevar puesto", "ja": "着る", "ko": "입다" },
+      "level": "HSK2",
+      "partOfSpeech": "verb",
+      "examples": [{ "chinese": "她穿着一件红色的裙子。", "pinyin": "Tā chuānzhe yī jiàn hóngsè de qúnzi.", "english": "She is wearing a red dress." }],
+      "tags": ["clothing", "action"]
+    },
+    {
+      "id": "zh-vocab-hsk2-19",
+      "word": "颜色",
+      "reading": "yánsè",
+      "romaji": "yánsè",
+      "meaning": "color",
+      "meanings": { "en": "color", "es": "color", "ja": "色", "ko": "색" },
+      "level": "HSK2",
+      "partOfSpeech": "noun",
+      "examples": [{ "chinese": "你喜欢什么颜色？", "pinyin": "Nǐ xǐhuan shénme yánsè?", "english": "What color do you like?" }],
+      "tags": ["shopping", "description"]
+    },
+    {
+      "id": "zh-vocab-hsk2-20",
+      "word": "高",
+      "reading": "gāo",
+      "romaji": "gāo",
+      "meaning": "tall, high",
+      "meanings": { "en": "tall, high", "es": "alto", "ja": "高い", "ko": "높다" },
+      "level": "HSK2",
+      "partOfSpeech": "adjective",
+      "examples": [{ "chinese": "他很高。", "pinyin": "Tā hěn gāo.", "english": "He is very tall." }],
+      "tags": ["description", "people"]
+    },
+    {
+      "id": "zh-vocab-hsk2-21",
+      "word": "矮",
+      "reading": "ǎi",
+      "romaji": "ǎi",
+      "meaning": "short (height)",
+      "meanings": { "en": "short (height)", "es": "bajo", "ja": "低い", "ko": "키가 작다" },
+      "level": "HSK2",
+      "partOfSpeech": "adjective",
+      "examples": [{ "chinese": "这棵树很矮。", "pinyin": "Zhè kē shù hěn ǎi.", "english": "This tree is very short." }],
+      "tags": ["description"]
+    },
+    {
+      "id": "zh-vocab-hsk2-22",
+      "word": "胖",
+      "reading": "pàng",
+      "romaji": "pàng",
+      "meaning": "fat, overweight",
+      "meanings": { "en": "fat, overweight", "es": "gordo", "ja": "太っている", "ko": "뚱뚱하다" },
+      "level": "HSK2",
+      "partOfSpeech": "adjective",
+      "examples": [{ "chinese": "这只猫很胖。", "pinyin": "Zhè zhī māo hěn pàng.", "english": "This cat is very fat." }],
+      "tags": ["description", "people"]
+    },
+    {
+      "id": "zh-vocab-hsk2-23",
+      "word": "瘦",
+      "reading": "shòu",
+      "romaji": "shòu",
+      "meaning": "thin, skinny",
+      "meanings": { "en": "thin, skinny", "es": "delgado", "ja": "痩せている", "ko": "마르다" },
+      "level": "HSK2",
+      "partOfSpeech": "adjective",
+      "examples": [{ "chinese": "她太瘦了。", "pinyin": "Tā tài shòu le.", "english": "She is too thin." }],
+      "tags": ["description", "people"]
+    },
+    {
+      "id": "zh-vocab-hsk2-24",
+      "word": "眼睛",
+      "reading": "yǎnjing",
+      "romaji": "yǎnjing",
+      "meaning": "eye",
+      "meanings": { "en": "eye", "es": "ojo", "ja": "目", "ko": "눈" },
+      "level": "HSK2",
+      "partOfSpeech": "noun",
+      "examples": [{ "chinese": "她的眼睛很大。", "pinyin": "Tā de yǎnjing hěn dà.", "english": "Her eyes are very big." }],
+      "tags": ["body", "description"]
+    },
+    {
+      "id": "zh-vocab-hsk2-25",
+      "word": "身体",
+      "reading": "shēntǐ",
+      "romaji": "shēntǐ",
+      "meaning": "body, health",
+      "meanings": { "en": "body, health", "es": "cuerpo", "ja": "体", "ko": "몸" },
+      "level": "HSK2",
+      "partOfSpeech": "noun",
+      "examples": [{ "chinese": "他的身体很好。", "pinyin": "Tā de shēntǐ hěn hǎo.", "english": "He is in good health." }],
+      "tags": ["body", "health"]
+    },
+    {
+      "id": "zh-vocab-hsk2-26",
+      "word": "跑步",
+      "reading": "pǎobù",
+      "romaji": "pǎobù",
+      "meaning": "to run, jogging",
+      "meanings": { "en": "to run, jogging", "es": "correr", "ja": "走る", "ko": "달리기" },
+      "level": "HSK2",
+      "partOfSpeech": "verb",
+      "examples": [{ "chinese": "我每天早上跑步。", "pinyin": "Wǒ měitiān zǎoshang pǎobù.", "english": "I run every morning." }],
+      "tags": ["action", "sports"]
+    },
+    {
+      "id": "zh-vocab-hsk2-27",
+      "word": "游泳",
+      "reading": "yóuyǒng",
+      "romaji": "yóuyǒng",
+      "meaning": "to swim",
+      "meanings": { "en": "to swim", "es": "nadar", "ja": "泳ぐ", "ko": "수영하다" },
+      "level": "HSK2",
+      "partOfSpeech": "verb",
+      "examples": [{ "chinese": "他会游泳。", "pinyin": "Tā huì yóuyǒng.", "english": "He can swim." }],
+      "tags": ["action", "sports"]
+    },
+    {
+      "id": "zh-vocab-hsk2-28",
+      "word": "踢足球",
+      "reading": "tī zúqiú",
+      "romaji": "tī zúqiú",
+      "meaning": "to play soccer",
+      "meanings": { "en": "to play soccer", "es": "jugar al fútbol", "ja": "サッカーをする", "ko": "축구하다" },
+      "level": "HSK2",
+      "partOfSpeech": "verb",
+      "examples": [{ "chinese": "他们在踢足球。", "pinyin": "Tāmen zài tī zúqiú.", "english": "They are playing soccer." }],
+      "tags": ["action", "sports"]
+    },
+    {
+      "id": "zh-vocab-hsk2-29",
+      "word": "唱歌",
+      "reading": "chànggē",
+      "romaji": "chànggē",
+      "meaning": "to sing",
+      "meanings": { "en": "to sing", "es": "cantar", "ja": "歌う", "ko": "노래하다" },
+      "level": "HSK2",
+      "partOfSpeech": "verb",
+      "examples": [{ "chinese": "她唱歌唱得很好。", "pinyin": "Tā chànggē chàng de hěn hǎo.", "english": "She sings very well." }],
+      "tags": ["action", "entertainment"]
+    },
+    {
+      "id": "zh-vocab-hsk2-30",
+      "word": "跳舞",
+      "reading": "tiàowǔ",
+      "romaji": "tiàowǔ",
+      "meaning": "to dance",
+      "meanings": { "en": "to dance", "es": "bailar", "ja": "踊る", "ko": "춤추다" },
+      "level": "HSK2",
+      "partOfSpeech": "verb",
+      "examples": [{ "chinese": "我喜欢跳舞。", "pinyin": "Wǒ xǐhuan tiàowǔ.", "english": "I like to dance." }],
+      "tags": ["action", "entertainment"]
+    },
+    {
+      "id": "zh-vocab-hsk2-31",
+      "word": "阴",
+      "reading": "yīn",
+      "romaji": "yīn",
+      "meaning": "cloudy, overcast",
+      "meanings": { "en": "cloudy, overcast", "es": "nublado", "ja": "曇り", "ko": "흐리다" },
+      "level": "HSK2",
+      "partOfSpeech": "adjective",
+      "examples": [{ "chinese": "今天是阴天。", "pinyin": "Jīntiān shì yīntiān.", "english": "Today is cloudy." }],
+      "tags": ["weather"]
+    },
+    {
+      "id": "zh-vocab-hsk2-32",
+      "word": "晴",
+      "reading": "qíng",
+      "romaji": "qíng",
+      "meaning": "sunny, clear",
+      "meanings": { "en": "sunny, clear", "es": "soleado", "ja": "晴れ", "ko": "맑다" },
+      "level": "HSK2",
+      "partOfSpeech": "adjective",
+      "examples": [{ "chinese": "明天会是晴天。", "pinyin": "Míngtiān huì shì qíngtiān.", "english": "Tomorrow will be sunny." }],
+      "tags": ["weather"]
+    },
+    {
+      "id": "zh-vocab-hsk2-33",
+      "word": "刮风",
+      "reading": "guāfēng",
+      "romaji": "guāfēng",
+      "meaning": "to be windy",
+      "meanings": { "en": "to be windy", "es": "hacer viento", "ja": "風が吹く", "ko": "바람이 불다" },
+      "level": "HSK2",
+      "partOfSpeech": "verb",
+      "examples": [{ "chinese": "外面刮风了。", "pinyin": "Wàimiàn guāfēng le.", "english": "It's windy outside." }],
+      "tags": ["weather"]
+    },
+    {
+      "id": "zh-vocab-hsk2-34",
+      "word": "下雪",
+      "reading": "xiàxuě",
+      "romaji": "xiàxuě",
+      "meaning": "to snow",
+      "meanings": { "en": "to snow", "es": "nevar", "ja": "雪が降る", "ko": "눈이 오다" },
+      "level": "HSK2",
+      "partOfSpeech": "verb",
+      "examples": [{ "chinese": "北京冬天常常下雪。", "pinyin": "Běijīng dōngtiān chángcháng xiàxuě.", "english": "It often snows in Beijing in winter." }],
+      "tags": ["weather"]
+    },
+    {
+      "id": "zh-vocab-hsk2-35",
+      "word": "帮助",
+      "reading": "bāngzhù",
+      "romaji": "bāngzhù",
+      "meaning": "to help",
+      "meanings": { "en": "to help", "es": "ayudar", "ja": "助ける", "ko": "돕다" },
+      "level": "HSK2",
+      "partOfSpeech": "verb",
+      "examples": [{ "chinese": "谢谢你帮助我。", "pinyin": "Xièxie nǐ bāngzhù wǒ.", "english": "Thank you for helping me." }],
+      "tags": ["action", "social"]
+    },
+    {
+      "id": "zh-vocab-hsk2-36",
+      "word": "准备",
+      "reading": "zhǔnbèi",
+      "romaji": "zhǔnbèi",
+      "meaning": "to prepare",
+      "meanings": { "en": "to prepare", "es": "preparar", "ja": "準備する", "ko": "준비하다" },
+      "level": "HSK2",
+      "partOfSpeech": "verb",
+      "examples": [{ "chinese": "我在准备考试。", "pinyin": "Wǒ zài zhǔnbèi kǎoshì.", "english": "I am preparing for the exam." }],
+      "tags": ["action"]
+    },
+    {
+      "id": "zh-vocab-hsk2-37",
+      "word": "开始",
+      "reading": "kāishǐ",
+      "romaji": "kāishǐ",
+      "meaning": "to begin, to start",
+      "meanings": { "en": "to begin, to start", "es": "empezar", "ja": "始める", "ko": "시작하다" },
+      "level": "HSK2",
+      "partOfSpeech": "verb",
+      "examples": [{ "chinese": "电影开始了。", "pinyin": "Diànyǐng kāishǐ le.", "english": "The movie has started." }],
+      "tags": ["action", "time"]
+    },
+    {
+      "id": "zh-vocab-hsk2-38",
+      "word": "完成",
+      "reading": "wánchéng",
+      "romaji": "wánchéng",
+      "meaning": "to complete, to finish",
+      "meanings": { "en": "to complete, to finish", "es": "completar", "ja": "完成する", "ko": "완성하다" },
+      "level": "HSK2",
+      "partOfSpeech": "verb",
+      "examples": [{ "chinese": "我完成了作业。", "pinyin": "Wǒ wánchéngle zuòyè.", "english": "I completed my homework." }],
+      "tags": ["action"]
+    },
+    {
+      "id": "zh-vocab-hsk2-39",
+      "word": "告诉",
+      "reading": "gàosu",
+      "romaji": "gàosu",
+      "meaning": "to tell",
+      "meanings": { "en": "to tell", "es": "decir", "ja": "教える", "ko": "말하다" },
+      "level": "HSK2",
+      "partOfSpeech": "verb",
+      "examples": [{ "chinese": "请告诉我你的名字。", "pinyin": "Qǐng gàosu wǒ nǐ de míngzi.", "english": "Please tell me your name." }],
+      "tags": ["action", "communication"]
+    },
+    {
+      "id": "zh-vocab-hsk2-40",
+      "word": "回答",
+      "reading": "huídá",
+      "romaji": "huídá",
+      "meaning": "to answer",
+      "meanings": { "en": "to answer", "es": "responder", "ja": "答える", "ko": "대답하다" },
+      "level": "HSK2",
+      "partOfSpeech": "verb",
+      "examples": [{ "chinese": "他没有回答我的问题。", "pinyin": "Tā méiyǒu huídá wǒ de wèntí.", "english": "He didn't answer my question." }],
+      "tags": ["action", "communication"]
+    },
+    {
+      "id": "zh-vocab-hsk2-41",
+      "word": "可能",
+      "reading": "kěnéng",
+      "romaji": "kěnéng",
+      "meaning": "possible, maybe",
+      "meanings": { "en": "possible, maybe", "es": "posible", "ja": "可能", "ko": "가능하다" },
+      "level": "HSK2",
+      "partOfSpeech": "adjective",
+      "examples": [{ "chinese": "他可能不来了。", "pinyin": "Tā kěnéng bù lái le.", "english": "He probably won't come." }],
+      "tags": ["modal"]
+    },
+    {
+      "id": "zh-vocab-hsk2-42",
+      "word": "希望",
+      "reading": "xīwàng",
+      "romaji": "xīwàng",
+      "meaning": "to hope, wish",
+      "meanings": { "en": "to hope, wish", "es": "esperar", "ja": "希望する", "ko": "희망하다" },
+      "level": "HSK2",
+      "partOfSpeech": "verb",
+      "examples": [{ "chinese": "我希望你能来。", "pinyin": "Wǒ xīwàng nǐ néng lái.", "english": "I hope you can come." }],
+      "tags": ["emotion"]
+    },
+    {
+      "id": "zh-vocab-hsk2-43",
+      "word": "已经",
+      "reading": "yǐjīng",
+      "romaji": "yǐjīng",
+      "meaning": "already",
+      "meanings": { "en": "already", "es": "ya", "ja": "すでに", "ko": "이미" },
+      "level": "HSK2",
+      "partOfSpeech": "adverb",
+      "examples": [{ "chinese": "我已经吃过了。", "pinyin": "Wǒ yǐjīng chīguò le.", "english": "I have already eaten." }],
+      "tags": ["time", "adverb"]
+    },
+    {
+      "id": "zh-vocab-hsk2-44",
+      "word": "一直",
+      "reading": "yīzhí",
+      "romaji": "yīzhí",
+      "meaning": "always, continuously",
+      "meanings": { "en": "always, continuously", "es": "siempre", "ja": "ずっと", "ko": "계속" },
+      "level": "HSK2",
+      "partOfSpeech": "adverb",
+      "examples": [{ "chinese": "我一直在等你。", "pinyin": "Wǒ yīzhí zài děng nǐ.", "english": "I have been waiting for you." }],
+      "tags": ["time", "adverb"]
+    },
+    {
+      "id": "zh-vocab-hsk2-45",
+      "word": "最近",
+      "reading": "zuìjìn",
+      "romaji": "zuìjìn",
+      "meaning": "recently, lately",
+      "meanings": { "en": "recently, lately", "es": "recientemente", "ja": "最近", "ko": "최근" },
+      "level": "HSK2",
+      "partOfSpeech": "adverb",
+      "examples": [{ "chinese": "最近你忙吗？", "pinyin": "Zuìjìn nǐ máng ma?", "english": "Have you been busy lately?" }],
+      "tags": ["time", "adverb"]
+    },
+    {
+      "id": "zh-vocab-hsk2-46",
+      "word": "还是",
+      "reading": "háishi",
+      "romaji": "háishi",
+      "meaning": "or (in questions)",
+      "meanings": { "en": "or (in questions)", "es": "o (en preguntas)", "ja": "それとも", "ko": "아니면" },
+      "level": "HSK2",
+      "partOfSpeech": "conjunction",
+      "examples": [{ "chinese": "你喝茶还是咖啡？", "pinyin": "Nǐ hē chá háishi kāfēi?", "english": "Do you want tea or coffee?" }],
+      "tags": ["grammar", "question"]
+    },
+    {
+      "id": "zh-vocab-hsk2-47",
+      "word": "虽然",
+      "reading": "suīrán",
+      "romaji": "suīrán",
+      "meaning": "although",
+      "meanings": { "en": "although", "es": "aunque", "ja": "〜だけれども", "ko": "비록" },
+      "level": "HSK2",
+      "partOfSpeech": "conjunction",
+      "examples": [{ "chinese": "虽然他很忙，但是他还是来了。", "pinyin": "Suīrán tā hěn máng, dànshì tā háishi lái le.", "english": "Although he was busy, he still came." }],
+      "tags": ["grammar", "conjunction"]
+    },
+    {
+      "id": "zh-vocab-hsk2-48",
+      "word": "因为",
+      "reading": "yīnwèi",
+      "romaji": "yīnwèi",
+      "meaning": "because",
+      "meanings": { "en": "because", "es": "porque", "ja": "〜なので", "ko": "왜냐하면" },
+      "level": "HSK2",
+      "partOfSpeech": "conjunction",
+      "examples": [{ "chinese": "因为下雨，我没去。", "pinyin": "Yīnwèi xiàyǔ, wǒ méi qù.", "english": "Because it was raining, I didn't go." }],
+      "tags": ["grammar", "conjunction"]
+    },
+    {
+      "id": "zh-vocab-hsk2-49",
+      "word": "所以",
+      "reading": "suǒyǐ",
+      "romaji": "suǒyǐ",
+      "meaning": "so, therefore",
+      "meanings": { "en": "so, therefore", "es": "por eso", "ja": "だから", "ko": "그래서" },
+      "level": "HSK2",
+      "partOfSpeech": "conjunction",
+      "examples": [{ "chinese": "我累了，所以想休息。", "pinyin": "Wǒ lèi le, suǒyǐ xiǎng xiūxi.", "english": "I'm tired, so I want to rest." }],
+      "tags": ["grammar", "conjunction"]
+    },
+    {
+      "id": "zh-vocab-hsk2-50",
+      "word": "离",
+      "reading": "lí",
+      "romaji": "lí",
+      "meaning": "from, away from",
+      "meanings": { "en": "from, away from", "es": "de, desde", "ja": "〜から", "ko": "〜에서" },
+      "level": "HSK2",
+      "partOfSpeech": "preposition",
+      "examples": [{ "chinese": "学校离我家很近。", "pinyin": "Xuéxiào lí wǒ jiā hěn jìn.", "english": "The school is very close to my home." }],
+      "tags": ["grammar", "location"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "zh-grammar-hsk2-1",
+      "title": "了 (le) - Completed Action",
+      "level": "HSK2",
+      "explanation": "The particle 了 (le) is placed after a verb to indicate that an action has been completed. It shows that something has already happened or a change of state has occurred.",
+      "examples": [
+        { "chinese": "我吃了早饭。", "pinyin": "Wǒ chīle zǎofàn.", "english": "I ate breakfast." },
+        { "chinese": "他买了一本书。", "pinyin": "Tā mǎile yī běn shū.", "english": "He bought a book." },
+        { "chinese": "她学了两年中文。", "pinyin": "Tā xuéle liǎng nián Zhōngwén.", "english": "She has studied Chinese for two years." }
+      ],
+      "patterns": ["Subject + Verb + 了 + Object", "Subject + Verb + 了 + Duration + Object"],
+      "exercises": [
+        { "type": "fill-blank", "question": "我昨天___三个苹果。(吃)", "options": ["吃", "吃了", "吃着"], "correct": 1 },
+        { "type": "fill-blank", "question": "他___一件新衣服。(买)", "options": ["买了", "买", "买过"], "correct": 0 }
+      ]
+    },
+    {
+      "id": "zh-grammar-hsk2-2",
+      "title": "过 (guò) - Past Experience",
+      "level": "HSK2",
+      "explanation": "The particle 过 (guò) is used after a verb to indicate that someone has had an experience of doing something at least once in the past. It emphasizes the experience itself rather than when it happened.",
+      "examples": [
+        { "chinese": "我去过中国。", "pinyin": "Wǒ qùguò Zhōngguó.", "english": "I have been to China." },
+        { "chinese": "你吃过北京烤鸭吗？", "pinyin": "Nǐ chīguò Běijīng kǎoyā ma?", "english": "Have you ever eaten Peking duck?" },
+        { "chinese": "他没见过雪。", "pinyin": "Tā méi jiànguò xuě.", "english": "He has never seen snow." }
+      ],
+      "patterns": ["Subject + Verb + 过 + Object", "Subject + 没 + Verb + 过 + Object"],
+      "exercises": [
+        { "type": "fill-blank", "question": "你___这本书吗？(看)", "options": ["看了", "看过", "看着"], "correct": 1 },
+        { "type": "fill-blank", "question": "我没___日本。(去)", "options": ["去了", "去过", "去"], "correct": 1 }
+      ]
+    },
+    {
+      "id": "zh-grammar-hsk2-3",
+      "title": "在 (zài) + Verb - Progressive Action",
+      "level": "HSK2",
+      "explanation": "The adverb 在 (zài) is placed before a verb to indicate that an action is in progress, similar to the '-ing' form in English. It can be combined with 正 (zhèng) for emphasis.",
+      "examples": [
+        { "chinese": "他在看书。", "pinyin": "Tā zài kànshū.", "english": "He is reading a book." },
+        { "chinese": "我们正在吃饭。", "pinyin": "Wǒmen zhèngzài chīfàn.", "english": "We are eating." },
+        { "chinese": "她在学中文。", "pinyin": "Tā zài xué Zhōngwén.", "english": "She is studying Chinese." }
+      ],
+      "patterns": ["Subject + 在 + Verb + Object", "Subject + 正在 + Verb + Object"],
+      "exercises": [
+        { "type": "fill-blank", "question": "他___看电视。", "options": ["了", "在", "过"], "correct": 1 },
+        { "type": "fill-blank", "question": "我们___吃午饭。", "options": ["正在", "了", "过"], "correct": 0 }
+      ]
+    },
+    {
+      "id": "zh-grammar-hsk2-4",
+      "title": "比 (bǐ) - Comparison",
+      "level": "HSK2",
+      "explanation": "The preposition 比 (bǐ) is used to make comparisons between two things. The structure is: A 比 B + Adjective. Note that 很 is not used before the adjective in this pattern.",
+      "examples": [
+        { "chinese": "他比我高。", "pinyin": "Tā bǐ wǒ gāo.", "english": "He is taller than me." },
+        { "chinese": "今天比昨天冷。", "pinyin": "Jīntiān bǐ zuótiān lěng.", "english": "Today is colder than yesterday." },
+        { "chinese": "苹果比香蕉贵一点。", "pinyin": "Píngguǒ bǐ xiāngjiāo guì yīdiǎn.", "english": "Apples are a little more expensive than bananas." }
+      ],
+      "patterns": ["A + 比 + B + Adjective", "A + 比 + B + Adjective + 一点/多了"],
+      "exercises": [
+        { "type": "fill-blank", "question": "我___他大两岁。", "options": ["比", "很", "和"], "correct": 0 },
+        { "type": "fill-blank", "question": "这本书___那本书有意思。", "options": ["和", "比", "很"], "correct": 1 }
+      ]
+    },
+    {
+      "id": "zh-grammar-hsk2-5",
+      "title": "会/能/可以 - Modal Verbs",
+      "level": "HSK2",
+      "explanation": "These three modal verbs all express ability or possibility but have different uses: 会 (huì) indicates learned ability or probability, 能 (néng) indicates physical ability or permission based on circumstances, 可以 (kěyǐ) indicates permission or possibility.",
+      "examples": [
+        { "chinese": "我会说中文。", "pinyin": "Wǒ huì shuō Zhōngwén.", "english": "I can speak Chinese. (learned skill)" },
+        { "chinese": "他今天不能来。", "pinyin": "Tā jīntiān bù néng lái.", "english": "He can't come today. (circumstances)" },
+        { "chinese": "这里可以停车吗？", "pinyin": "Zhèlǐ kěyǐ tíngchē ma?", "english": "Can I park here? (permission)" }
+      ],
+      "patterns": ["Subject + 会/能/可以 + Verb + Object"],
+      "exercises": [
+        { "type": "fill-blank", "question": "你___游泳吗？(learned ability)", "options": ["会", "能", "可以"], "correct": 0 },
+        { "type": "fill-blank", "question": "我___借你的书吗？(asking permission)", "options": ["会", "能", "可以"], "correct": 2 }
+      ]
+    },
+    {
+      "id": "zh-grammar-hsk2-6",
+      "title": "得 (de) - Complement of Degree",
+      "level": "HSK2",
+      "explanation": "The structural particle 得 (de) is placed after a verb to introduce a complement that describes how well or to what degree an action is performed. The pattern is: Verb + 得 + Adjective/Adverb.",
+      "examples": [
+        { "chinese": "她唱歌唱得很好。", "pinyin": "Tā chànggē chàng de hěn hǎo.", "english": "She sings very well." },
+        { "chinese": "他说中文说得很快。", "pinyin": "Tā shuō Zhōngwén shuō de hěn kuài.", "english": "He speaks Chinese very fast." },
+        { "chinese": "你写得很漂亮。", "pinyin": "Nǐ xiě de hěn piàoliang.", "english": "You write beautifully." }
+      ],
+      "patterns": ["Verb + 得 + Adjective", "Verb + Object + Verb + 得 + Adjective"],
+      "exercises": [
+        { "type": "fill-blank", "question": "他跑___很快。", "options": ["的", "得", "地"], "correct": 1 },
+        { "type": "fill-blank", "question": "她汉语说___很好。", "options": ["得", "的", "地"], "correct": 0 }
+      ]
+    },
+    {
+      "id": "zh-grammar-hsk2-7",
+      "title": "把 (bǎ) Structure",
+      "level": "HSK2",
+      "explanation": "The 把 structure is used to emphasize what happens to an object as a result of an action. The object is moved before the verb using 把. This pattern is often used when the action causes a change or movement of the object.",
+      "examples": [
+        { "chinese": "请把门关上。", "pinyin": "Qǐng bǎ mén guānshang.", "english": "Please close the door." },
+        { "chinese": "他把作业做完了。", "pinyin": "Tā bǎ zuòyè zuòwán le.", "english": "He finished his homework." },
+        { "chinese": "我把书放在桌子上了。", "pinyin": "Wǒ bǎ shū fàng zài zhuōzi shàng le.", "english": "I put the book on the table." }
+      ],
+      "patterns": ["Subject + 把 + Object + Verb + Complement", "Subject + 把 + Object + Verb + 在/到/给 + Location/Person"],
+      "exercises": [
+        { "type": "fill-blank", "question": "请___窗户打开。", "options": ["把", "被", "给"], "correct": 0 },
+        { "type": "fill-blank", "question": "他___苹果吃了。", "options": ["给", "把", "被"], "correct": 1 }
+      ]
+    },
+    {
+      "id": "zh-grammar-hsk2-8",
+      "title": "因为...所以... - Cause and Effect",
+      "level": "HSK2",
+      "explanation": "This paired conjunction structure expresses cause and effect. 因为 (yīnwèi) means 'because' and introduces the reason, while 所以 (suǒyǐ) means 'therefore/so' and introduces the result. They can be used together or separately.",
+      "examples": [
+        { "chinese": "因为下雨，所以我没去。", "pinyin": "Yīnwèi xiàyǔ, suǒyǐ wǒ méi qù.", "english": "Because it was raining, I didn't go." },
+        { "chinese": "因为他很忙，所以不能来。", "pinyin": "Yīnwèi tā hěn máng, suǒyǐ bù néng lái.", "english": "Because he's busy, he can't come." },
+        { "chinese": "我很累，所以想休息。", "pinyin": "Wǒ hěn lèi, suǒyǐ xiǎng xiūxi.", "english": "I'm tired, so I want to rest." }
+      ],
+      "patterns": ["因为 + Reason, 所以 + Result", "Reason, 所以 + Result"],
+      "exercises": [
+        { "type": "fill-blank", "question": "___今天太冷，___我不想出去。", "options": ["因为...所以", "虽然...但是", "不但...而且"], "correct": 0 },
+        { "type": "fill-blank", "question": "___他生病了，___没来上课。", "options": ["虽然...但是", "因为...所以", "如果...就"], "correct": 1 }
+      ]
+    },
+    {
+      "id": "zh-grammar-hsk2-9",
+      "title": "虽然...但是... - Although...But",
+      "level": "HSK2",
+      "explanation": "This paired conjunction structure expresses contrast or concession. 虽然 (suīrán) means 'although' and introduces a fact or situation, while 但是 (dànshì) means 'but' and introduces a contrasting statement. Unlike English, both parts are usually included in Chinese.",
+      "examples": [
+        { "chinese": "虽然很累，但是很开心。", "pinyin": "Suīrán hěn lèi, dànshì hěn kāixīn.", "english": "Although tired, (I'm) very happy." },
+        { "chinese": "虽然他很年轻，但是很有经验。", "pinyin": "Suīrán tā hěn niánqīng, dànshì hěn yǒu jīngyàn.", "english": "Although he is young, he has a lot of experience." },
+        { "chinese": "虽然天气不好，但是我们还是去了。", "pinyin": "Suīrán tiānqì bù hǎo, dànshì wǒmen háishi qù le.", "english": "Although the weather was bad, we still went." }
+      ],
+      "patterns": ["虽然 + Statement 1, 但是 + Statement 2"],
+      "exercises": [
+        { "type": "fill-blank", "question": "___这本书很难，___我想看完。", "options": ["因为...所以", "虽然...但是", "如果...就"], "correct": 1 },
+        { "type": "fill-blank", "question": "___他不会说中文，___他想学。", "options": ["虽然...但是", "因为...所以", "不但...而且"], "correct": 0 }
+      ]
+    },
+    {
+      "id": "zh-grammar-hsk2-10",
+      "title": "离 (lí) - Distance From",
+      "level": "HSK2",
+      "explanation": "The preposition 离 (lí) is used to express the distance between two places or points. The structure is: A 离 B + Distance/Adjective. It indicates how far A is from B.",
+      "examples": [
+        { "chinese": "学校离我家很近。", "pinyin": "Xuéxiào lí wǒ jiā hěn jìn.", "english": "The school is very close to my home." },
+        { "chinese": "这里离火车站有多远？", "pinyin": "Zhèlǐ lí huǒchēzhàn yǒu duō yuǎn?", "english": "How far is it from here to the train station?" },
+        { "chinese": "北京离上海很远。", "pinyin": "Běijīng lí Shànghǎi hěn yuǎn.", "english": "Beijing is far from Shanghai." }
+      ],
+      "patterns": ["Place A + 离 + Place B + Adjective", "Place A + 离 + Place B + 有 + Distance"],
+      "exercises": [
+        { "type": "fill-blank", "question": "我家___学校很近。", "options": ["离", "从", "到"], "correct": 0 },
+        { "type": "fill-blank", "question": "这里___机场有多远？", "options": ["从", "离", "到"], "correct": 1 }
+      ]
+    }
+  ]
+}

@@ -28,13 +28,19 @@
   color: var(--accent-gold);
 }
 
-.navBack::before {
-  content: '←';
+.navBack:focus-visible {
+  outline: 2px solid var(--accent-gold);
+  outline-offset: 2px;
+  border-color: var(--accent-gold);
+  color: var(--accent-gold);
+}
+
+.icon {
   font-size: 1.2rem;
   transition: transform 0.3s ease;
 }
 
-.navBack:hover::before {
+.navBack:hover .icon {
   transform: translateX(-2px);
 }
 

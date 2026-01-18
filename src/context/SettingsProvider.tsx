@@ -36,7 +36,7 @@ export function SettingsProvider({ children }: ContextProviderProps) {
         }
     }, []);
 
-    const updateSetting = (key: keyof Settings, value: any) => {
+    const updateSetting = <K extends keyof Settings>(key: K, value: Settings[K]) => {
         const newSettings = { ...settings, [key]: value };
         setSettings(newSettings);
         if (typeof window !== 'undefined') {

@@ -1,9 +1,10 @@
 'use client'
 
-import { useState, useEffect, useCallback, useMemo } from 'react';
+import { useState, useEffect, useCallback, useMemo, useRef } from 'react';
 import Navigation from '@/components/common/Navigation';
 import StatsPanel from '@/components/common/StatsPanel';
 import LanguageContentGuard from '@/components/common/LanguageContentGuard';
+import ErrorBoundary from '@/components/common/ErrorBoundary';
 import { Container, Card, Text, Button, Chip, Animated, OptionsPanel } from '@/components/ui';
 import optionsStyles from '@/components/ui/OptionsPanel.module.css';
 import { useProgressContext } from '@/context/ProgressProvider';
@@ -32,9 +33,19 @@ export default function GrammarPage() {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
     const [showFeedback, setShowFeedback] = useState(false);
-    const [correct, setCorrect] = useState(0);
-    const [total, setTotal] = useState(0);
-    const [streak, setStreak] = useState(0);
+    const [stats, setStats] = useState({
+        correct: 0,
+        total: 0,
+        streak: 0,
+        bestStreak: 0,
+        pointsMastered: 0
+    });
+
+    // Use ref to track current stats values and prevent stale closures
+    const statsRef = useRef(stats);
+    useEffect(() => {
+        statsRef.current = stats;
+    }, [stats]);
 
     // Get first 2 levels from language config for filters
     const displayLevels = useMemo(() => levels.slice(0, 2), [levels]);
@@ -55,34 +66,60 @@ export default function GrammarPage() {
         setFilters(newFilters);
     }, [targetLanguage, displayLevels]);
 
-    // Load grammar data when language changes
+    // Load grammar data when language changes (with AbortController to prevent race conditions)
     useEffect(() => {
+        const abortController = new AbortController();
+
         const loadData = async () => {
             try {
-                const response = await fetch(getDataUrl('grammar.json'));
+                const response = await fetch(getDataUrl('grammar.json'), {
+                    signal: abortController.signal
+                });
                 const data = await response.json();
-                setGrammarPoints(data);
-                setCurrentIndex(0);
-                if (data.length > 0) {
-                    setCurrentGrammar(data[0]);
-                } else {
-                    setCurrentGrammar(null);
+
+                // Only update state if this request wasn't aborted
+                if (!abortController.signal.aborted) {
+                    setGrammarPoints(data);
+                    setCurrentIndex(0);
+                    if (data.length > 0) {
+                        setCurrentGrammar(data[0]);
+                    } else {
+                        setCurrentGrammar(null);
+                    }
                 }
             } catch (error) {
+                // Ignore abort errors - they're expected when switching languages rapidly
+                if (error instanceof Error && error.name === 'AbortError') {
+                    return;
+                }
                 console.error('Failed to load grammar points:', error);
-                setGrammarPoints([]);
-                setCurrentGrammar(null);
+                if (!abortController.signal.aborted) {
+                    setGrammarPoints([]);
+                    setCurrentGrammar(null);
+                }
             }
         };
+
         loadData();
+
+        // Cleanup: abort fetch if language changes before fetch completes
+        return () => {
+            abortController.abort();
+        };
     }, [targetLanguage, getDataUrl]);
 
     useEffect(() => {
         const moduleData = getModule('grammar');
         if (moduleData?.stats) {
-            setCorrect(moduleData.stats.correct || 0);
-            setTotal(moduleData.stats.total || 0);
-            setStreak(moduleData.stats.streak || 0);
+            const loadedStats = {
+                correct: moduleData.stats.correct || 0,
+                total: moduleData.stats.total || 0,
+                streak: moduleData.stats.streak || 0,
+                bestStreak: moduleData.stats.bestStreak || 0,
+                pointsMastered: moduleData.stats.pointsMastered || 0
+            };
+            setStats(loadedStats);
+            statsRef.current = loadedStats;
         }
     }, [getModule]);
 
@@ -96,15 +133,31 @@ export default function GrammarPage() {
         setShowFeedback(true);
 
         const isCorrect = index === currentGrammar.exercises[0].correct;
-        const newCorrect = correct + (isCorrect ? 1 : 0);
-        const newTotal = total + 1;
-        const newStreak = isCorrect ? streak + 1 : 0;
 
-        setCorrect(newCorrect);
-        setTotal(newTotal);
-        setStreak(newStreak);
-        updateStats('grammar', { correct: newCorrect, total: newTotal, streak: newStreak });
-    }, [showFeedback, currentGrammar, correct, total, streak, updateStats]);
+        // Use ref to get current stats values (prevents stale closure)
+        const currentStats = statsRef.current;
+        const newCorrect = currentStats.correct + (isCorrect ? 1 : 0);
+        const newTotal = currentStats.total + 1;
+        const newStreak = isCorrect ? currentStats.streak + 1 : 0;
+        const newBestStreak = Math.max(currentStats.bestStreak, newStreak);
+        // Increment pointsMastered when a grammar point is answered correctly
+        const newPointsMastered = isCorrect
+            ? currentStats.pointsMastered + 1
+            : currentStats.pointsMastered;
+
+        const newStats = {
+            correct: newCorrect,
+            total: newTotal,
+            streak: newStreak,
+            bestStreak: newBestStreak,
+            pointsMastered: newPointsMastered
+        };
+
+        // Update ref immediately for fast consecutive answers
+        statsRef.current = newStats;
+        setStats(newStats);
+        updateStats('grammar', newStats);
+    }, [showFeedback, currentGrammar, updateStats]);
 
     const nextGrammar = useCallback(() => {
         if (grammarPoints.length === 0) return;
@@ -117,20 +170,23 @@ export default function GrammarPage() {
 
     if (!currentGrammar) {
         return (
+            <ErrorBoundary>
             <LanguageContentGuard moduleName="grammar">
                 <Container variant="centered">
                     <Navigation />
                     <Text>{t('grammar.noGrammar')}</Text>
                 </Container>
             </LanguageContentGuard>
+            </ErrorBoundary>
         );
     }
 
     const exercise = currentGrammar.exercises?.[0];
 
     return (
+        <ErrorBoundary>
         <LanguageContentGuard moduleName="grammar">
-            <Container variant="centered" streak={streak}>
+            <Container variant="centered" streak={stats.streak}>
                 <Navigation />
 
             <OptionsPanel>
@@ -210,8 +266,9 @@ export default function GrammarPage() {
                 </Card>
             )}
 
-            <StatsPanel correct={correct} total={total} streak={streak} />
+            <StatsPanel correct={stats.correct} total={stats.total} streak={stats.streak} />
             </Container>
         </LanguageContentGuard>
+        </ErrorBoundary>
     );
 }

@@ -15,6 +15,14 @@ export function useTimer(initialTime: number, onTimeout?: () => void): UseTimerR
     const [isRunning, setIsRunning] = useState(false);
     const intervalRef = useRef<NodeJS.Timeout | null>(null);
 
+    // Use ref to store the latest onTimeout callback to avoid stale closures
+    const onTimeoutRef = useRef(onTimeout);
+
+    // Keep the ref updated with the latest callback
+    useEffect(() => {
+        onTimeoutRef.current = onTimeout;
+    }, [onTimeout]);
+
     const start = useCallback(() => {
         setIsRunning(true);
         setTimeLeft(initialTime);
@@ -39,7 +47,10 @@ export function useTimer(initialTime: number, onTimeout?: () => void): UseTimerR
                 setTimeLeft((prev) => {
                     if (prev <= 1) {
                         setIsRunning(false);
-                        if (onTimeout) onTimeout();
+                        // Use the ref to get the latest callback - avoids stale closure
+                        if (onTimeoutRef.current) {
+                            onTimeoutRef.current();
+                        }
                         return 0;
                     }
                     return prev - 1;
@@ -57,7 +68,7 @@ export function useTimer(initialTime: number, onTimeout?: () => void): UseTimerR
                 clearInterval(intervalRef.current);
             }
         };
-    }, [isRunning, timeLeft, onTimeout]);
+    }, [isRunning, timeLeft]);
 
     return {
         timeLeft,

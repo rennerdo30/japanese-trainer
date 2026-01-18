@@ -1,8 +1,14 @@
 'use client'
 
-import { useEffect, useState, useMemo } from 'react';
+import { useEffect, useState, useMemo, CSSProperties } from 'react';
 import styles from './BurningEffect.module.css';
 import { BURNING_THRESHOLD, MAX_BURNING_INTENSITY_STREAK } from '@/constants';
+
+// Extend CSSProperties to allow custom CSS variables
+interface EmberStyle extends CSSProperties {
+    '--duration'?: string;
+    '--drift'?: string;
+}
 
 interface Ember {
     id: number;
@@ -64,7 +70,7 @@ export default function BurningEffect({ streak }: BurningEffectProps) {
                         '--duration': ember.duration,
                         '--drift': ember.drift,
                         animationDelay: ember.delay,
-                    } as any}
+                    } as EmberStyle}
                 />
             ))}
 

@@ -1,0 +1,209 @@
+.lessonCard {
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: 24px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 480px;
+    margin: 0 auto;
+    animation: fadeIn 0.4s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.characterSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.characterDisplay {
+    font-size: clamp(6rem, 25vw, 10rem);
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 700;
+    color: var(--text-primary);
+    line-height: 1;
+    transition: transform 0.2s ease;
+}
+
+.characterDisplay.pulse {
+    animation: charPulse 0.3s ease;
+}
+
+@keyframes charPulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.soundRow {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.romaji {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--accent-gold);
+}
+
+.audioButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-subtle);
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1.25rem;
+}
+
+.audioButton:hover:not(:disabled) {
+    background: var(--accent-red);
+    color: var(--text-primary);
+    border-color: var(--accent-red);
+}
+
+.audioButton:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.audioButton.playing {
+    background: var(--accent-red);
+    color: var(--text-primary);
+    animation: audioPlaying 0.5s ease infinite alternate;
+}
+
+@keyframes audioPlaying {
+    from { transform: scale(1); }
+    to { transform: scale(1.1); }
+}
+
+.audioButton:focus-visible {
+    outline: 2px solid var(--accent-gold);
+    outline-offset: 2px;
+}
+
+.infoSection {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+    background: var(--bg-tertiary);
+    border-radius: 12px;
+}
+
+.infoRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.infoLabel {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.infoValue {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    text-transform: capitalize;
+}
+
+.mnemonicSection {
+    padding: 1rem;
+    background: linear-gradient(135deg, var(--accent-gold-dim) 0%, transparent 100%);
+    border-radius: 12px;
+    border: 1px solid var(--accent-gold-border);
+}
+
+.mnemonicLabel {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--accent-gold);
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.mnemonicText {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin: 0;
+}
+
+.actionSection {
+    margin-top: 0.5rem;
+}
+
+.learnedBadge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    background: var(--success-dim);
+    border: 1px solid var(--success);
+    border-radius: 8px;
+    color: var(--success);
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+.learnedBadge svg {
+    font-size: 1.25rem;
+}
+
+/* Mobile responsive */
+@media (max-width: 640px) {
+    .lessonCard {
+        padding: 1.5rem;
+        gap: 1.25rem;
+        border-radius: 16px;
+    }
+
+    .characterDisplay {
+        font-size: clamp(5rem, 30vw, 8rem);
+    }
+
+    .romaji {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .lessonCard {
+        padding: 1rem;
+    }
+
+    .characterDisplay {
+        font-size: 5rem;
+    }
+
+    .infoRow {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.25rem;
+    }
+}

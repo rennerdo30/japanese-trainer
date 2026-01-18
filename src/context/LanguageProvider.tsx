@@ -23,9 +23,15 @@ const SUPPORTED_LANGUAGES = [
 const DEFAULT_LANGUAGE = 'en';
 const STORAGE_KEY = 'murmura_language';
 
+// Recursive type for nested translations
+type TranslationValue = string | TranslationObject;
+interface TranslationObject {
+    [key: string]: TranslationValue;
+}
+
 export function LanguageProvider({ children }: ContextProviderProps) {
     const [language, setLanguage] = useState(DEFAULT_LANGUAGE);
-    const [translations, setTranslations] = useState<Record<string, any> | null>(null);
+    const [translations, setTranslations] = useState<TranslationObject | null>(null);
     const [isLoading, setIsLoading] = useState(true);
 
     // Detect browser language on mount
@@ -39,7 +45,9 @@ export function LanguageProvider({ children }: ContextProviderProps) {
 
             // Check browser language
             if (typeof window !== 'undefined') {
-                const browserLang = navigator.language || (navigator as any).userLanguage;
+                // Type assertion for legacy IE userLanguage property
+                const nav = navigator as Navigator & { userLanguage?: string };
+                const browserLang = navigator.language || nav.userLanguage || '';
                 const langCode = browserLang.split('-')[0];
                 
                 // Try to find exact match first
@@ -93,25 +101,25 @@ export function LanguageProvider({ children }: ContextProviderProps) {
 
     const t = (key: string, params: Record<string, string | number> = {}): string => {
         if (!translations) return key;
-        
+
         const keys = key.split('.');
-        let value: any = translations;
-        
+        let value: TranslationValue = translations;
+
         for (const k of keys) {
             if (value && typeof value === 'object' && k in value) {
-                value = value[k];
+                value = (value as TranslationObject)[k];
             } else {
                 return key; // Return key if translation not found
             }
         }
-        
+
         // Replace parameters if any
         if (typeof value === 'string' && Object.keys(params).length > 0) {
             return value.replace(/\{\{(\w+)\}\}/g, (match, paramKey) => {
                 return params[paramKey] !== undefined ? String(params[paramKey]) : match;
             });
         }
-        
+
         return typeof value === 'string' ? value : key;
     };
 

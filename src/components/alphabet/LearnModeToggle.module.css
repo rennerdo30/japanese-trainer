@@ -1,0 +1,48 @@
+.toggle {
+    display: flex;
+    background: var(--bg-card);
+    border-radius: 50px;
+    padding: 0.25rem;
+    border: 1px solid var(--border-subtle);
+    width: fit-content;
+}
+
+.option {
+    padding: 0.75rem 2rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text-muted);
+    cursor: pointer;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    user-select: none;
+    border: none;
+    background: transparent;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    min-height: 44px;
+}
+
+.option:focus-visible {
+    outline: 2px solid var(--accent-gold);
+    outline-offset: 2px;
+}
+
+.option.active {
+    background: var(--accent-red);
+    color: var(--text-primary);
+    box-shadow: 0 2px 10px var(--accent-red-glow);
+}
+
+@media (max-width: 640px) {
+    .option {
+        padding: 0.6rem 1.5rem;
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .option {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+    }
+}

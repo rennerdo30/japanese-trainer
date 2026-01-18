@@ -3,612 +3,1224 @@
     "romaji": "a",
     "hiragana": "あ",
     "type": "gojuon",
+    "group": "vowels",
+    "order": 1,
+    "mnemonic": {
+      "en": "Looks like a person doing a yoga pose, saying 'Ahh' in relaxation",
+      "es": "Parece una persona en pose de yoga diciendo 'Ahh'"
+    },
     "audioUrl": "/audio/characters/5a394b9f.mp3"
   },
   {
     "romaji": "i",
     "hiragana": "い",
     "type": "gojuon",
+    "group": "vowels",
+    "order": 2,
+    "mnemonic": {
+      "en": "Two chopsticks standing side by side - 'ee' like eating",
+      "es": "Dos palillos de pie - 'i' como comer"
+    },
     "audioUrl": "/audio/characters/3921066f.mp3"
   },
   {
     "romaji": "u",
     "hiragana": "う",
     "type": "gojuon",
+    "group": "vowels",
+    "order": 3,
+    "mnemonic": {
+      "en": "A curved line like someone saying 'oo' with rounded lips",
+      "es": "Una curva como alguien diciendo 'u' con labios redondeados"
+    },
     "audioUrl": "/audio/characters/88c1e102.mp3"
   },
   {
     "romaji": "e",
     "hiragana": "え",
     "type": "gojuon",
+    "group": "vowels",
+    "order": 4,
+    "mnemonic": {
+      "en": "Looks like an exotic bird with a long neck",
+      "es": "Parece un pájaro exótico con cuello largo"
+    },
     "audioUrl": "/audio/characters/fa96ec68.mp3"
   },
   {
     "romaji": "o",
     "hiragana": "お",
     "type": "gojuon",
+    "group": "vowels",
+    "order": 5,
+    "mnemonic": {
+      "en": "A golfer saying 'oh!' as they swing",
+      "es": "Un golfista diciendo '¡oh!' mientras balancea"
+    },
     "audioUrl": "/audio/characters/579eb036.mp3"
   },
   {
     "romaji": "ka",
     "hiragana": "か",
     "type": "gojuon",
+    "group": "k-row",
+    "order": 6,
+    "mnemonic": {
+      "en": "A person kicking their leg - 'ka' like karate kick",
+      "es": "Una persona pateando - 'ka' como patada de karate"
+    },
     "audioUrl": "/audio/characters/586e6299.mp3"
   },
   {
     "romaji": "ki",
     "hiragana": "き",
     "type": "gojuon",
+    "group": "k-row",
+    "order": 7,
+    "mnemonic": {
+      "en": "A key with a decorative handle",
+      "es": "Una llave con mango decorativo"
+    },
     "audioUrl": "/audio/characters/29eecd47.mp3"
   },
   {
     "romaji": "ku",
     "hiragana": "く",
     "type": "gojuon",
+    "group": "k-row",
+    "order": 8,
+    "mnemonic": {
+      "en": "A bird's beak going 'coo coo'",
+      "es": "El pico de un pájaro diciendo 'cu cu'"
+    },
     "audioUrl": "/audio/characters/2ad6548d.mp3"
   },
   {
     "romaji": "ke",
     "hiragana": "け",
     "type": "gojuon",
+    "group": "k-row",
+    "order": 9,
+    "mnemonic": {
+      "en": "A gate or doorway - 'ke' for 'entrance'",
+      "es": "Una puerta o entrada"
+    },
     "audioUrl": "/audio/characters/8e33c209.mp3"
   },
   {
     "romaji": "ko",
     "hiragana": "こ",
     "type": "gojuon",
+    "group": "k-row",
+    "order": 10,
+    "mnemonic": {
+      "en": "Two worms or caterpillars together - 'ko' means child",
+      "es": "Dos gusanos juntos - 'ko' significa niño"
+    },
     "audioUrl": "/audio/characters/68ce5763.mp3"
   },
   {
     "romaji": "sa",
     "hiragana": "さ",
     "type": "gojuon",
+    "group": "s-row",
+    "order": 11,
+    "mnemonic": {
+      "en": "A person doing a salsa dance move",
+      "es": "Una persona haciendo un movimiento de salsa"
+    },
     "audioUrl": "/audio/characters/9d67d836.mp3"
   },
   {
     "romaji": "shi",
     "hiragana": "し",
     "type": "gojuon",
+    "group": "s-row",
+    "order": 12,
+    "mnemonic": {
+      "en": "A fishhook - perfect for catching fish in the sea",
+      "es": "Un anzuelo - perfecto para pescar en el mar"
+    },
     "audioUrl": "/audio/characters/47400e8d.mp3"
   },
   {
     "romaji": "su",
     "hiragana": "す",
     "type": "gojuon",
+    "group": "s-row",
+    "order": 13,
+    "mnemonic": {
+      "en": "A noodle swinging in soup",
+      "es": "Un fideo balanceándose en la sopa"
+    },
     "audioUrl": "/audio/characters/b7304822.mp3"
   },
   {
     "romaji": "se",
     "hiragana": "せ",
     "type": "gojuon",
+    "group": "s-row",
+    "order": 14,
+    "mnemonic": {
+      "en": "A person saying something with an open mouth",
+      "es": "Una persona diciendo algo con la boca abierta"
+    },
     "audioUrl": "/audio/characters/500e7d68.mp3"
   },
   {
     "romaji": "so",
     "hiragana": "そ",
     "type": "gojuon",
+    "group": "s-row",
+    "order": 15,
+    "mnemonic": {
+      "en": "A zigzag stitch in sewing",
+      "es": "Una puntada en zigzag al coser"
+    },
     "audioUrl": "/audio/characters/e9cb65a1.mp3"
   },
   {
     "romaji": "ta",
     "hiragana": "た",
     "type": "gojuon",
+    "group": "t-row",
+    "order": 16,
+    "mnemonic": {
+      "en": "A person with arms crossed saying 'ta-da!'",
+      "es": "Una persona con brazos cruzados diciendo '¡ta-da!'"
+    },
     "audioUrl": "/audio/characters/5aa958f3.mp3"
   },
   {
     "romaji": "chi",
     "hiragana": "ち",
     "type": "gojuon",
+    "group": "t-row",
+    "order": 17,
+    "mnemonic": {
+      "en": "A cheerleader with pom-poms",
+      "es": "Una animadora con pompones"
+    },
     "audioUrl": "/audio/characters/b1fac908.mp3"
   },
   {
     "romaji": "tsu",
     "hiragana": "つ",
     "type": "gojuon",
+    "group": "t-row",
+    "order": 18,
+    "mnemonic": {
+      "en": "Tsunami wave curling over",
+      "es": "Una ola de tsunami curvándose"
+    },
     "audioUrl": "/audio/characters/0aa51c6a.mp3"
   },
   {
     "romaji": "te",
     "hiragana": "て",
     "type": "gojuon",
+    "group": "t-row",
+    "order": 19,
+    "mnemonic": {
+      "en": "The tail of a dog wagging",
+      "es": "La cola de un perro meneándose"
+    },
     "audioUrl": "/audio/characters/4471d880.mp3"
   },
   {
     "romaji": "to",
     "hiragana": "と",
     "type": "gojuon",
+    "group": "t-row",
+    "order": 20,
+    "mnemonic": {
+      "en": "A tornado spinning",
+      "es": "Un tornado girando"
+    },
     "audioUrl": "/audio/characters/d6c5ed73.mp3"
   },
   {
     "romaji": "na",
     "hiragana": "な",
     "type": "gojuon",
+    "group": "n-row",
+    "order": 21,
+    "mnemonic": {
+      "en": "A knot being tied - 'na' for 'knot'",
+      "es": "Un nudo siendo atado"
+    },
     "audioUrl": "/audio/characters/f72af453.mp3"
   },
   {
     "romaji": "ni",
     "hiragana": "に",
     "type": "gojuon",
+    "group": "n-row",
+    "order": 22,
+    "mnemonic": {
+      "en": "Looks like a knee bending - 'ni' for 'knee'",
+      "es": "Parece una rodilla doblándose"
+    },
     "audioUrl": "/audio/characters/bb55e2c5.mp3"
   },
   {
     "romaji": "nu",
     "hiragana": "ぬ",
     "type": "gojuon",
+    "group": "n-row",
+    "order": 23,
+    "mnemonic": {
+      "en": "Noodles twirling on a fork",
+      "es": "Fideos girando en un tenedor"
+    },
     "audioUrl": "/audio/characters/21c73476.mp3"
   },
   {
     "romaji": "ne",
     "hiragana": "ね",
     "type": "gojuon",
+    "group": "n-row",
+    "order": 24,
+    "mnemonic": {
+      "en": "A cat's face with whiskers - cats say 'ne' in Japanese",
+      "es": "La cara de un gato con bigotes"
+    },
     "audioUrl": "/audio/characters/c602d8ae.mp3"
   },
   {
     "romaji": "no",
     "hiragana": "の",
     "type": "gojuon",
+    "group": "n-row",
+    "order": 25,
+    "mnemonic": {
+      "en": "A 'no' sign with a diagonal line",
+      "es": "Un signo de 'no' con línea diagonal"
+    },
     "audioUrl": "/audio/characters/a4b12c0d.mp3"
   },
   {
     "romaji": "ha",
     "hiragana": "は",
     "type": "gojuon",
+    "group": "h-row",
+    "order": 26,
+    "mnemonic": {
+      "en": "A person laughing 'ha ha ha'",
+      "es": "Una persona riendo 'ja ja ja'"
+    },
     "audioUrl": "/audio/characters/fe9fd860.mp3"
   },
   {
     "romaji": "hi",
     "hiragana": "ひ",
     "type": "gojuon",
+    "group": "h-row",
+    "order": 27,
+    "mnemonic": {
+      "en": "A smiling face saying 'hee hee'",
+      "es": "Una cara sonriente diciendo 'ji ji'"
+    },
     "audioUrl": "/audio/characters/0af87d27.mp3"
   },
   {
     "romaji": "fu",
     "hiragana": "ふ",
     "type": "gojuon",
+    "group": "h-row",
+    "order": 28,
+    "mnemonic": {
+      "en": "Mount Fuji with snow on top",
+      "es": "El Monte Fuji con nieve en la cima"
+    },
     "audioUrl": "/audio/characters/2c62839b.mp3"
   },
   {
     "romaji": "he",
     "hiragana": "へ",
     "type": "gojuon",
+    "group": "h-row",
+    "order": 29,
+    "mnemonic": {
+      "en": "A mountain peak or tent roof",
+      "es": "Un pico de montaña o techo de tienda"
+    },
     "audioUrl": "/audio/characters/2ac5253b.mp3"
   },
   {
     "romaji": "ho",
     "hiragana": "ほ",
     "type": "gojuon",
+    "group": "h-row",
+    "order": 30,
+    "mnemonic": {
+      "en": "Santa Claus saying 'ho ho ho'",
+      "es": "Santa Claus diciendo 'jo jo jo'"
+    },
     "audioUrl": "/audio/characters/325ce662.mp3"
   },
   {
     "romaji": "ma",
     "hiragana": "ま",
     "type": "gojuon",
+    "group": "m-row",
+    "order": 31,
+    "mnemonic": {
+      "en": "A mother holding a baby - 'ma' for mama",
+      "es": "Una madre sosteniendo un bebé - 'ma' de mamá"
+    },
     "audioUrl": "/audio/characters/e794e77b.mp3"
   },
   {
     "romaji": "mi",
     "hiragana": "み",
     "type": "gojuon",
+    "group": "m-row",
+    "order": 32,
+    "mnemonic": {
+      "en": "The number 21 or 'me' looking in a mirror",
+      "es": "El número 21 o 'yo' mirándose en un espejo"
+    },
     "audioUrl": "/audio/characters/b5d5de0b.mp3"
   },
   {
     "romaji": "mu",
     "hiragana": "む",
     "type": "gojuon",
+    "group": "m-row",
+    "order": 33,
+    "mnemonic": {
+      "en": "A cow saying 'moo'",
+      "es": "Una vaca diciendo 'mu'"
+    },
     "audioUrl": "/audio/characters/3ed873a8.mp3"
   },
   {
     "romaji": "me",
     "hiragana": "め",
     "type": "gojuon",
+    "group": "m-row",
+    "order": 34,
+    "mnemonic": {
+      "en": "An eye with eyelashes - 'me' means eye",
+      "es": "Un ojo con pestañas - 'me' significa ojo"
+    },
     "audioUrl": "/audio/characters/abc38867.mp3"
   },
   {
     "romaji": "mo",
     "hiragana": "も",
     "type": "gojuon",
+    "group": "m-row",
+    "order": 35,
+    "mnemonic": {
+      "en": "More hooks - like asking for 'more'",
+      "es": "Más ganchos - como pidiendo 'más'"
+    },
     "audioUrl": "/audio/characters/df297c3d.mp3"
   },
   {
     "romaji": "ya",
     "hiragana": "や",
     "type": "gojuon",
+    "group": "y-row",
+    "order": 36,
+    "mnemonic": {
+      "en": "A yacht sailing on water",
+      "es": "Un yate navegando en el agua"
+    },
     "audioUrl": "/audio/characters/af1b72af.mp3"
   },
   {
     "romaji": "yu",
     "hiragana": "ゆ",
     "type": "gojuon",
+    "group": "y-row",
+    "order": 37,
+    "mnemonic": {
+      "en": "A fish swimming - 'yu' is in yukata (bath robe)",
+      "es": "Un pez nadando"
+    },
     "audioUrl": "/audio/characters/fb471993.mp3"
   },
   {
     "romaji": "yo",
     "hiragana": "よ",
     "type": "gojuon",
+    "group": "y-row",
+    "order": 38,
+    "mnemonic": {
+      "en": "A yo-yo hanging from a string",
+      "es": "Un yo-yo colgando de una cuerda"
+    },
     "audioUrl": "/audio/characters/73c2cfda.mp3"
   },
   {
     "romaji": "ra",
     "hiragana": "ら",
     "type": "gojuon",
+    "group": "r-row",
+    "order": 39,
+    "mnemonic": {
+      "en": "A rabbit hopping - 'ra' for rabbit",
+      "es": "Un conejo saltando"
+    },
     "audioUrl": "/audio/characters/d7a1b0f4.mp3"
   },
   {
     "romaji": "ri",
     "hiragana": "り",
     "type": "gojuon",
+    "group": "r-row",
+    "order": 40,
+    "mnemonic": {
+      "en": "Reeds swaying in the wind",
+      "es": "Juncos meciéndose en el viento"
+    },
     "audioUrl": "/audio/characters/dc34da0d.mp3"
   },
   {
     "romaji": "ru",
     "hiragana": "る",
     "type": "gojuon",
+    "group": "r-row",
+    "order": 41,
+    "mnemonic": {
+      "en": "A looping road or route",
+      "es": "Un camino o ruta en bucle"
+    },
     "audioUrl": "/audio/characters/06ebb14c.mp3"
   },
   {
     "romaji": "re",
     "hiragana": "れ",
     "type": "gojuon",
+    "group": "r-row",
+    "order": 42,
+    "mnemonic": {
+      "en": "A person reaching out their arms",
+      "es": "Una persona extendiendo sus brazos"
+    },
     "audioUrl": "/audio/characters/a506cbdb.mp3"
   },
   {
     "romaji": "ro",
     "hiragana": "ろ",
     "type": "gojuon",
+    "group": "r-row",
+    "order": 43,
+    "mnemonic": {
+      "en": "A road sign or number 3",
+      "es": "Una señal de carretera o el número 3"
+    },
     "audioUrl": "/audio/characters/dda74d76.mp3"
   },
   {
     "romaji": "wa",
     "hiragana": "わ",
     "type": "gojuon",
+    "group": "w-row",
+    "order": 44,
+    "mnemonic": {
+      "en": "A person waving hello - 'wa' for wave",
+      "es": "Una persona saludando - 'wa' de ola"
+    },
     "audioUrl": "/audio/characters/b79f1ac4.mp3"
   },
   {
     "romaji": "wo",
     "hiragana": "を",
     "type": "gojuon",
+    "group": "w-row",
+    "order": 45,
+    "mnemonic": {
+      "en": "A wobbly person trying to balance",
+      "es": "Una persona tambaleándose tratando de equilibrarse"
+    },
     "audioUrl": "/audio/characters/9b2a68c0.mp3"
   },
   {
     "romaji": "n",
     "hiragana": "ん",
     "type": "gojuon",
+    "group": "w-row",
+    "order": 46,
+    "mnemonic": {
+      "en": "The only consonant alone - hums like 'nn'",
+      "es": "La única consonante sola - tararea como 'nn'"
+    },
     "audioUrl": "/audio/characters/fb540b58.mp3"
   },
   {
     "romaji": "kya",
     "hiragana": "きゃ",
     "type": "yoon",
+    "group": "k-yoon",
+    "order": 47,
+    "mnemonic": {
+      "en": "Ki + small ya = kya - a cat's surprised meow",
+      "es": "Ki + ya pequeña = kya - maullido sorprendido de gato"
+    },
     "audioUrl": "/audio/characters/529daf6c.mp3"
   },
   {
     "romaji": "kyu",
     "hiragana": "きゅ",
     "type": "yoon",
+    "group": "k-yoon",
+    "order": 48,
+    "mnemonic": {
+      "en": "Ki + small yu = kyu - cute sound",
+      "es": "Ki + yu pequeña = kyu - sonido tierno"
+    },
     "audioUrl": "/audio/characters/55eac240.mp3"
   },
   {
     "romaji": "kyo",
     "hiragana": "きょ",
     "type": "yoon",
+    "group": "k-yoon",
+    "order": 49,
+    "mnemonic": {
+      "en": "Ki + small yo = kyo - like Kyoto city",
+      "es": "Ki + yo pequeña = kyo - como la ciudad de Kioto"
+    },
     "audioUrl": "/audio/characters/5b13c6f7.mp3"
   },
   {
     "romaji": "sha",
     "hiragana": "しゃ",
     "type": "yoon",
+    "group": "s-yoon",
+    "order": 50,
+    "mnemonic": {
+      "en": "Shi + small ya = sha - shampoo sound",
+      "es": "Shi + ya pequeña = sha - sonido de champú"
+    },
     "audioUrl": "/audio/characters/d9306456.mp3"
   },
   {
     "romaji": "shu",
     "hiragana": "しゅ",
     "type": "yoon",
+    "group": "s-yoon",
+    "order": 51,
+    "mnemonic": {
+      "en": "Shi + small yu = shu - like 'shoe'",
+      "es": "Shi + yu pequeña = shu - como 'zapato'"
+    },
     "audioUrl": "/audio/characters/f98cc23f.mp3"
   },
   {
     "romaji": "sho",
     "hiragana": "しょ",
     "type": "yoon",
+    "group": "s-yoon",
+    "order": 52,
+    "mnemonic": {
+      "en": "Shi + small yo = sho - like 'show'",
+      "es": "Shi + yo pequeña = sho - como 'espectáculo'"
+    },
     "audioUrl": "/audio/characters/4e7c3cf7.mp3"
   },
   {
     "romaji": "cha",
     "hiragana": "ちゃ",
     "type": "yoon",
+    "group": "c-yoon",
+    "order": 53,
+    "mnemonic": {
+      "en": "Chi + small ya = cha - like 'cha' in chai tea",
+      "es": "Chi + ya pequeña = cha - como 'cha' en té chai"
+    },
     "audioUrl": "/audio/characters/9c7ad2aa.mp3"
   },
   {
     "romaji": "chu",
     "hiragana": "ちゅ",
     "type": "yoon",
+    "group": "c-yoon",
+    "order": 54,
+    "mnemonic": {
+      "en": "Chi + small yu = chu - a train sound 'choo choo'",
+      "es": "Chi + yu pequeña = chu - sonido de tren 'chu chu'"
+    },
     "audioUrl": "/audio/characters/8890add6.mp3"
   },
   {
     "romaji": "cho",
     "hiragana": "ちょ",
     "type": "yoon",
+    "group": "c-yoon",
+    "order": 55,
+    "mnemonic": {
+      "en": "Chi + small yo = cho - like chocolate",
+      "es": "Chi + yo pequeña = cho - como chocolate"
+    },
     "audioUrl": "/audio/characters/c7ea5a87.mp3"
   },
   {
     "romaji": "nya",
     "hiragana": "にゃ",
     "type": "yoon",
+    "group": "n-yoon",
+    "order": 56,
+    "mnemonic": {
+      "en": "Ni + small ya = nya - a cat's meow in Japanese",
+      "es": "Ni + ya pequeña = nya - maullido de gato en japonés"
+    },
     "audioUrl": "/audio/characters/4d08b972.mp3"
   },
   {
     "romaji": "nyu",
     "hiragana": "にゅ",
     "type": "yoon",
+    "group": "n-yoon",
+    "order": 57,
+    "mnemonic": {
+      "en": "Ni + small yu = nyu - like 'new'",
+      "es": "Ni + yu pequeña = nyu - como 'nuevo'"
+    },
     "audioUrl": "/audio/characters/c5800e13.mp3"
   },
   {
     "romaji": "nyo",
     "hiragana": "にょ",
     "type": "yoon",
+    "group": "n-yoon",
+    "order": 58,
+    "mnemonic": {
+      "en": "Ni + small yo = nyo - a unique sound",
+      "es": "Ni + yo pequeña = nyo - un sonido único"
+    },
     "audioUrl": "/audio/characters/557ba700.mp3"
   },
   {
     "romaji": "hya",
     "hiragana": "ひゃ",
     "type": "yoon",
+    "group": "h-yoon",
+    "order": 59,
+    "mnemonic": {
+      "en": "Hi + small ya = hya - a hundred in Japanese (hyaku)",
+      "es": "Hi + ya pequeña = hya - cien en japonés (hyaku)"
+    },
     "audioUrl": "/audio/characters/868a2b4b.mp3"
   },
   {
     "romaji": "hyu",
     "hiragana": "ひゅ",
     "type": "yoon",
+    "group": "h-yoon",
+    "order": 60,
+    "mnemonic": {
+      "en": "Hi + small yu = hyu - like 'huge'",
+      "es": "Hi + yu pequeña = hyu - como 'enorme'"
+    },
     "audioUrl": "/audio/characters/036a0fcb.mp3"
   },
   {
     "romaji": "hyo",
     "hiragana": "ひょ",
     "type": "yoon",
+    "group": "h-yoon",
+    "order": 61,
+    "mnemonic": {
+      "en": "Hi + small yo = hyo - like a leopard (hyou)",
+      "es": "Hi + yo pequeña = hyo - como leopardo (hyou)"
+    },
     "audioUrl": "/audio/characters/384fd069.mp3"
   },
   {
     "romaji": "mya",
     "hiragana": "みゃ",
     "type": "yoon",
+    "group": "m-yoon",
+    "order": 62,
+    "mnemonic": {
+      "en": "Mi + small ya = mya - sounds like a cat",
+      "es": "Mi + ya pequeña = mya - suena como un gato"
+    },
     "audioUrl": "/audio/characters/d65dfb62.mp3"
   },
   {
     "romaji": "myu",
     "hiragana": "みゅ",
     "type": "yoon",
+    "group": "m-yoon",
+    "order": 63,
+    "mnemonic": {
+      "en": "Mi + small yu = myu - like 'muse'",
+      "es": "Mi + yu pequeña = myu - como 'musa'"
+    },
     "audioUrl": "/audio/characters/177148e8.mp3"
   },
   {
     "romaji": "myo",
     "hiragana": "みょ",
     "type": "yoon",
+    "group": "m-yoon",
+    "order": 64,
+    "mnemonic": {
+      "en": "Mi + small yo = myo - a unique sound",
+      "es": "Mi + yo pequeña = myo - un sonido único"
+    },
     "audioUrl": "/audio/characters/2f0c5382.mp3"
   },
   {
     "romaji": "rya",
     "hiragana": "りゃ",
     "type": "yoon",
+    "group": "r-yoon",
+    "order": 65,
+    "mnemonic": {
+      "en": "Ri + small ya = rya - rolling sound",
+      "es": "Ri + ya pequeña = rya - sonido rodante"
+    },
     "audioUrl": "/audio/characters/450ebcdf.mp3"
   },
   {
     "romaji": "ryu",
     "hiragana": "りゅ",
     "type": "yoon",
+    "group": "r-yoon",
+    "order": 66,
+    "mnemonic": {
+      "en": "Ri + small yu = ryu - like 'dragon' (ryuu)",
+      "es": "Ri + yu pequeña = ryu - como 'dragón' (ryuu)"
+    },
     "audioUrl": "/audio/characters/8aa5b206.mp3"
   },
   {
     "romaji": "ryo",
     "hiragana": "りょ",
     "type": "yoon",
+    "group": "r-yoon",
+    "order": 67,
+    "mnemonic": {
+      "en": "Ri + small yo = ryo - like 'travel' (ryokou)",
+      "es": "Ri + yo pequeña = ryo - como 'viaje' (ryokou)"
+    },
     "audioUrl": "/audio/characters/2f2fe020.mp3"
   },
   {
     "romaji": "ga",
     "hiragana": "が",
     "type": "dakuten",
+    "group": "g-row",
+    "order": 68,
+    "mnemonic": {
+      "en": "Ka with dakuten (゛) = ga - voiced 'ka'",
+      "es": "Ka con dakuten (゛) = ga - 'ka' sonora"
+    },
     "audioUrl": "/audio/characters/be0b4ef2.mp3"
   },
   {
     "romaji": "gi",
     "hiragana": "ぎ",
     "type": "dakuten",
+    "group": "g-row",
+    "order": 69,
+    "mnemonic": {
+      "en": "Ki with dakuten = gi - like 'gear'",
+      "es": "Ki con dakuten = gi - como 'engranaje'"
+    },
     "audioUrl": "/audio/characters/49cf5a92.mp3"
   },
   {
     "romaji": "gu",
     "hiragana": "ぐ",
     "type": "dakuten",
+    "group": "g-row",
+    "order": 70,
+    "mnemonic": {
+      "en": "Ku with dakuten = gu - like 'good'",
+      "es": "Ku con dakuten = gu - como 'bueno'"
+    },
     "audioUrl": "/audio/characters/6bc15612.mp3"
   },
   {
     "romaji": "ge",
     "hiragana": "げ",
     "type": "dakuten",
+    "group": "g-row",
+    "order": 71,
+    "mnemonic": {
+      "en": "Ke with dakuten = ge - like 'get'",
+      "es": "Ke con dakuten = ge - como 'obtener'"
+    },
     "audioUrl": "/audio/characters/0fd4d146.mp3"
   },
   {
     "romaji": "go",
     "hiragana": "ご",
     "type": "dakuten",
+    "group": "g-row",
+    "order": 72,
+    "mnemonic": {
+      "en": "Ko with dakuten = go - like 'go'",
+      "es": "Ko con dakuten = go - como 'ir'"
+    },
     "audioUrl": "/audio/characters/a4a9eb01.mp3"
   },
   {
     "romaji": "za",
     "hiragana": "ざ",
     "type": "dakuten",
+    "group": "z-row",
+    "order": 73,
+    "mnemonic": {
+      "en": "Sa with dakuten = za - buzzing sound",
+      "es": "Sa con dakuten = za - sonido zumbante"
+    },
     "audioUrl": "/audio/characters/15030890.mp3"
   },
   {
     "romaji": "ji",
     "hiragana": "じ",
     "type": "dakuten",
+    "group": "z-row",
+    "order": 74,
+    "mnemonic": {
+      "en": "Shi with dakuten = ji - like 'jeans'",
+      "es": "Shi con dakuten = ji - como 'jeans'"
+    },
     "audioUrl": "/audio/characters/b9ecf9b9.mp3"
   },
   {
     "romaji": "zu",
     "hiragana": "ず",
     "type": "dakuten",
+    "group": "z-row",
+    "order": 75,
+    "mnemonic": {
+      "en": "Su with dakuten = zu - like 'zoo'",
+      "es": "Su con dakuten = zu - como 'zoológico'"
+    },
     "audioUrl": "/audio/characters/10280971.mp3"
   },
   {
     "romaji": "ze",
     "hiragana": "ぜ",
     "type": "dakuten",
+    "group": "z-row",
+    "order": 76,
+    "mnemonic": {
+      "en": "Se with dakuten = ze - like 'zest'",
+      "es": "Se con dakuten = ze - como 'entusiasmo'"
+    },
     "audioUrl": "/audio/characters/a1fe445d.mp3"
   },
   {
     "romaji": "zo",
     "hiragana": "ぞ",
     "type": "dakuten",
+    "group": "z-row",
+    "order": 77,
+    "mnemonic": {
+      "en": "So with dakuten = zo - like 'zone'",
+      "es": "So con dakuten = zo - como 'zona'"
+    },
     "audioUrl": "/audio/characters/9bd92f68.mp3"
   },
   {
     "romaji": "da",
     "hiragana": "だ",
     "type": "dakuten",
+    "group": "d-row",
+    "order": 78,
+    "mnemonic": {
+      "en": "Ta with dakuten = da - like 'dad'",
+      "es": "Ta con dakuten = da - como 'papá'"
+    },
     "audioUrl": "/audio/characters/8f0764c1.mp3"
   },
   {
     "romaji": "de",
     "hiragana": "で",
     "type": "dakuten",
+    "group": "d-row",
+    "order": 79,
+    "mnemonic": {
+      "en": "Te with dakuten = de - like 'day'",
+      "es": "Te con dakuten = de - como 'día'"
+    },
     "audioUrl": "/audio/characters/ab0e7366.mp3"
   },
   {
     "romaji": "do",
     "hiragana": "ど",
     "type": "dakuten",
+    "group": "d-row",
+    "order": 80,
+    "mnemonic": {
+      "en": "To with dakuten = do - like 'door'",
+      "es": "To con dakuten = do - como 'puerta'"
+    },
     "audioUrl": "/audio/characters/c5021d94.mp3"
   },
   {
     "romaji": "ba",
     "hiragana": "ば",
     "type": "dakuten",
+    "group": "b-row",
+    "order": 81,
+    "mnemonic": {
+      "en": "Ha with dakuten = ba - like 'banana'",
+      "es": "Ha con dakuten = ba - como 'banana'"
+    },
     "audioUrl": "/audio/characters/9ede47a1.mp3"
   },
   {
     "romaji": "bi",
     "hiragana": "び",
     "type": "dakuten",
+    "group": "b-row",
+    "order": 82,
+    "mnemonic": {
+      "en": "Hi with dakuten = bi - like 'bee'",
+      "es": "Hi con dakuten = bi - como 'abeja'"
+    },
     "audioUrl": "/audio/characters/443713f9.mp3"
   },
   {
     "romaji": "bu",
     "hiragana": "ぶ",
     "type": "dakuten",
+    "group": "b-row",
+    "order": 83,
+    "mnemonic": {
+      "en": "Fu with dakuten = bu - like 'book'",
+      "es": "Fu con dakuten = bu - como 'libro'"
+    },
     "audioUrl": "/audio/characters/062437a4.mp3"
   },
   {
     "romaji": "be",
     "hiragana": "べ",
     "type": "dakuten",
+    "group": "b-row",
+    "order": 84,
+    "mnemonic": {
+      "en": "He with dakuten = be - like 'bed'",
+      "es": "He con dakuten = be - como 'cama'"
+    },
     "audioUrl": "/audio/characters/02a2fc66.mp3"
   },
   {
     "romaji": "bo",
     "hiragana": "ぼ",
     "type": "dakuten",
+    "group": "b-row",
+    "order": 85,
+    "mnemonic": {
+      "en": "Ho with dakuten = bo - like 'boat'",
+      "es": "Ho con dakuten = bo - como 'bote'"
+    },
     "audioUrl": "/audio/characters/1854b8a1.mp3"
   },
   {
     "romaji": "pa",
     "hiragana": "ぱ",
     "type": "dakuten",
+    "group": "p-row",
+    "order": 86,
+    "mnemonic": {
+      "en": "Ha with handakuten (゜) = pa - like 'papa'",
+      "es": "Ha con handakuten (゜) = pa - como 'papá'"
+    },
     "audioUrl": "/audio/characters/c276682e.mp3"
   },
   {
     "romaji": "pi",
     "hiragana": "ぴ",
     "type": "dakuten",
+    "group": "p-row",
+    "order": 87,
+    "mnemonic": {
+      "en": "Hi with handakuten = pi - like 'pizza'",
+      "es": "Hi con handakuten = pi - como 'pizza'"
+    },
     "audioUrl": "/audio/characters/e185dd37.mp3"
   },
   {
     "romaji": "pu",
     "hiragana": "ぷ",
     "type": "dakuten",
+    "group": "p-row",
+    "order": 88,
+    "mnemonic": {
+      "en": "Fu with handakuten = pu - popping sound",
+      "es": "Fu con handakuten = pu - sonido de estallido"
+    },
     "audioUrl": "/audio/characters/5ef4a61b.mp3"
   },
   {
     "romaji": "pe",
     "hiragana": "ぺ",
     "type": "dakuten",
+    "group": "p-row",
+    "order": 89,
+    "mnemonic": {
+      "en": "He with handakuten = pe - like 'pen'",
+      "es": "He con handakuten = pe - como 'pluma'"
+    },
     "audioUrl": "/audio/characters/eb193a50.mp3"
   },
   {
     "romaji": "po",
     "hiragana": "ぽ",
     "type": "dakuten",
+    "group": "p-row",
+    "order": 90,
+    "mnemonic": {
+      "en": "Ho with handakuten = po - popping sound",
+      "es": "Ho con handakuten = po - sonido de estallido"
+    },
     "audioUrl": "/audio/characters/0b5174e4.mp3"
   },
   {
     "romaji": "gya",
     "hiragana": "ぎゃ",
     "type": "dakuten",
+    "group": "voiced-yoon",
+    "order": 91,
+    "mnemonic": {
+      "en": "Gi + small ya = gya - surprised exclamation",
+      "es": "Gi + ya pequeña = gya - exclamación sorprendida"
+    },
     "audioUrl": "/audio/characters/fbf14362.mp3"
   },
   {
     "romaji": "gyu",
     "hiragana": "ぎゅ",
     "type": "dakuten",
+    "group": "voiced-yoon",
+    "order": 92,
+    "mnemonic": {
+      "en": "Gi + small yu = gyu - like 'beef' (gyuuniku)",
+      "es": "Gi + yu pequeña = gyu - como 'carne de res'"
+    },
     "audioUrl": "/audio/characters/346a6f77.mp3"
   },
   {
     "romaji": "gyo",
     "hiragana": "ぎょ",
     "type": "dakuten",
+    "group": "voiced-yoon",
+    "order": 93,
+    "mnemonic": {
+      "en": "Gi + small yo = gyo - like 'fish' (sakana)",
+      "es": "Gi + yo pequeña = gyo - como 'pescado'"
+    },
     "audioUrl": "/audio/characters/8d614f94.mp3"
   },
   {
     "romaji": "ja",
     "hiragana": "じゃ",
     "type": "dakuten",
+    "group": "voiced-yoon",
+    "order": 94,
+    "mnemonic": {
+      "en": "Ji + small ya = ja - casual bye (ja ne)",
+      "es": "Ji + ya pequeña = ja - adiós casual (ja ne)"
+    },
     "audioUrl": "/audio/characters/e76e9f92.mp3"
   },
   {
     "romaji": "ju",
     "hiragana": "じゅ",
     "type": "dakuten",
+    "group": "voiced-yoon",
+    "order": 95,
+    "mnemonic": {
+      "en": "Ji + small yu = ju - like 'juice'",
+      "es": "Ji + yu pequeña = ju - como 'jugo'"
+    },
     "audioUrl": "/audio/characters/1e97c1e0.mp3"
   },
   {
     "romaji": "jo",
     "hiragana": "じょ",
     "type": "dakuten",
+    "group": "voiced-yoon",
+    "order": 96,
+    "mnemonic": {
+      "en": "Ji + small yo = jo - like 'joke'",
+      "es": "Ji + yo pequeña = jo - como 'chiste'"
+    },
     "audioUrl": "/audio/characters/3e45f517.mp3"
   },
   {
     "romaji": "bya",
     "hiragana": "びゃ",
     "type": "dakuten",
+    "group": "voiced-yoon",
+    "order": 97,
+    "mnemonic": {
+      "en": "Bi + small ya = bya - uncommon sound",
+      "es": "Bi + ya pequeña = bya - sonido poco común"
+    },
     "audioUrl": "/audio/characters/1b3b6a63.mp3"
   },
   {
     "romaji": "byu",
     "hiragana": "びゅ",
     "type": "dakuten",
+    "group": "voiced-yoon",
+    "order": 98,
+    "mnemonic": {
+      "en": "Bi + small yu = byu - like 'view'",
+      "es": "Bi + yu pequeña = byu - como 'vista'"
+    },
     "audioUrl": "/audio/characters/37af83ac.mp3"
   },
   {
     "romaji": "byo",
     "hiragana": "びょ",
     "type": "dakuten",
+    "group": "voiced-yoon",
+    "order": 99,
+    "mnemonic": {
+      "en": "Bi + small yo = byo - like 'hospital' (byouin)",
+      "es": "Bi + yo pequeña = byo - como 'hospital'"
+    },
     "audioUrl": "/audio/characters/25d11cb5.mp3"
   },
   {
     "romaji": "pya",
     "hiragana": "ぴゃ",
     "type": "dakuten",
+    "group": "voiced-yoon",
+    "order": 100,
+    "mnemonic": {
+      "en": "Pi + small ya = pya - playful sound",
+      "es": "Pi + ya pequeña = pya - sonido juguetón"
+    },
     "audioUrl": "/audio/characters/8647ca86.mp3"
   },
   {
     "romaji": "pyu",
     "hiragana": "ぴゅ",
     "type": "dakuten",
+    "group": "voiced-yoon",
+    "order": 101,
+    "mnemonic": {
+      "en": "Pi + small yu = pyu - shooting sound",
+      "es": "Pi + yu pequeña = pyu - sonido de disparo"
+    },
     "audioUrl": "/audio/characters/67dfbc17.mp3"
   },
   {
     "romaji": "pyo",
     "hiragana": "ぴょ",
     "type": "dakuten",
+    "group": "voiced-yoon",
+    "order": 102,
+    "mnemonic": {
+      "en": "Pi + small yo = pyo - hopping sound",
+      "es": "Pi + yo pequeña = pyo - sonido de salto"
+    },
     "audioUrl": "/audio/characters/a8dad33c.mp3"
   }
 ]

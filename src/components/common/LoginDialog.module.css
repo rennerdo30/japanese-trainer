@@ -22,7 +22,7 @@
     border: 1px solid var(--glass-border);
     border-radius: 24px;
     padding: 2.5rem;
-    min-width: 440px;
+    min-width: min(440px, calc(100vw - 2rem));
     max-width: 500px;
     max-height: 90vh;
     overflow-y: auto;
@@ -33,15 +33,17 @@
 
 .close {
     position: absolute;
-    top: 1.25rem;
-    right: 1.25rem;
+    top: 1rem;
+    right: 1rem;
     background: rgba(255, 255, 255, 0.05);
     border: none;
     color: var(--text-secondary);
     font-size: 1.5rem;
     cursor: pointer;
-    width: 32px;
-    height: 32px;
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+    min-height: 44px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,6 +55,11 @@
     background: rgba(255, 255, 255, 0.1);
     color: var(--text-primary);
     transform: rotate(90deg);
+}
+
+.close:focus-visible {
+    outline: 2px solid var(--accent-gold);
+    outline-offset: 2px;
 }
 
 .title {
@@ -99,6 +106,12 @@
     background: rgba(255, 255, 255, 0.06);
     transform: translateY(-4px);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.optionCard:focus-visible {
+    outline: 2px solid var(--accent-gold);
+    outline-offset: 2px;
+    border-color: var(--accent-gold);
 }
 
 .optionIcon {
@@ -184,6 +197,11 @@
     box-shadow: 0 6px 20px var(--accent-red-glow);
 }
 
+.primary:focus-visible {
+    outline: 2px solid var(--accent-gold);
+    outline-offset: 2px;
+}
+
 .secondary {
     background: rgba(255, 255, 255, 0.05);
     color: var(--text-primary);
@@ -192,6 +210,11 @@
 
 .secondary:hover:not(:disabled) {
     background: rgba(255, 255, 255, 0.1);
+}
+
+.secondary:focus-visible {
+    outline: 2px solid var(--accent-gold);
+    outline-offset: 2px;
 }
 
 .linkButton {
@@ -204,6 +227,12 @@
     padding: 0.5rem;
     margin-top: -0.5rem;
     text-align: center;
+}
+
+.linkButton:focus-visible {
+    outline: 2px solid var(--accent-gold);
+    outline-offset: 2px;
+    border-radius: 4px;
 }
 
 .loading {

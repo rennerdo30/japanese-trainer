@@ -2,11 +2,12 @@
 
 import { useState, useEffect, useCallback } from 'react';
 import * as storage from '@/lib/storage';
+import { StorageData, ReviewData } from '@/types';
 
 interface UseStorageReturn {
-    data: any;
+    data: StorageData | null;
     isLoading: boolean;
-    updateData: (updates: any) => void;
+    updateData: (updates: Partial<StorageData>) => void;
     getModuleData: typeof storage.getModuleData;
     saveModuleData: typeof storage.saveModuleData;
     getGlobalStats: typeof storage.getGlobalStats;
@@ -17,11 +18,11 @@ interface UseStorageReturn {
     getReviewData: typeof storage.getReviewData;
     saveReviewData: typeof storage.saveReviewData;
     clearAllData: typeof storage.clearAllData;
-    updateModuleReview: (moduleName: string, itemId: string, reviewData: any) => void;
+    updateModuleReview: (moduleName: string, itemId: string, reviewData: ReviewData) => void;
 }
 
 export function useStorage(): UseStorageReturn {
-    const [data, setData] = useState<any>(null);
+    const [data, setData] = useState<StorageData | null>(null);
     const [isLoading, setIsLoading] = useState(true);
 
     const loadData = useCallback(() => {
@@ -33,14 +34,14 @@ export function useStorage(): UseStorageReturn {
         loadData();
     }, [loadData]);
 
-    const updateData = useCallback((updates: any) => {
+    const updateData = useCallback((updates: Partial<StorageData>) => {
         const currentData = storage.getAllData();
         const newData = { ...currentData, ...updates };
         storage.saveAllData(newData);
         setData(newData);
     }, []);
 
-    const updateModuleReview = useCallback((moduleName: string, itemId: string, reviewData: any) => {
+    const updateModuleReview = useCallback((moduleName: string, itemId: string, reviewData: ReviewData) => {
         // Get current module data
         const moduleData = storage.getModuleData(moduleName);
         const currentReviews = moduleData?.reviews || {};

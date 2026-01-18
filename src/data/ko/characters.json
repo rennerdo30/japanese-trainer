@@ -3,240 +3,480 @@
     "romaji": "g/k",
     "character": "ㄱ",
     "type": "consonant",
-    "name": "기역 (giyeok)"
+    "name": "giyeok",
+    "group": "basic-consonants-1",
+    "order": 1,
+    "mnemonic": {
+      "en": "Looks like a gun shape - 'g' sound at start, 'k' at end",
+      "es": "Parece una pistola - sonido 'g' al inicio, 'k' al final"
+    }
   },
   {
     "romaji": "n",
     "character": "ㄴ",
     "type": "consonant",
-    "name": "니은 (nieun)"
+    "name": "nieun",
+    "group": "basic-consonants-1",
+    "order": 2,
+    "mnemonic": {
+      "en": "Like the letter 'n' rotated - easy to remember!",
+      "es": "Como la letra 'n' rotada - fácil de recordar"
+    }
   },
   {
     "romaji": "d/t",
     "character": "ㄷ",
     "type": "consonant",
-    "name": "디귿 (digeut)"
+    "name": "digeut",
+    "group": "basic-consonants-1",
+    "order": 3,
+    "mnemonic": {
+      "en": "A door shape - 'd' at start, 't' at end",
+      "es": "Forma de puerta - 'd' al inicio, 't' al final"
+    }
   },
   {
     "romaji": "r/l",
     "character": "ㄹ",
     "type": "consonant",
-    "name": "리을 (rieul)"
+    "name": "rieul",
+    "group": "basic-consonants-1",
+    "order": 4,
+    "mnemonic": {
+      "en": "A ladder with rungs - 'r' or 'l' sound",
+      "es": "Una escalera con peldaños - sonido 'r' o 'l'"
+    }
   },
   {
     "romaji": "m",
     "character": "ㅁ",
     "type": "consonant",
-    "name": "미음 (mieum)"
+    "name": "mieum",
+    "group": "basic-consonants-1",
+    "order": 5,
+    "mnemonic": {
+      "en": "A square mouth shape - 'm' for mouth",
+      "es": "Forma de boca cuadrada - 'm' de boca"
+    }
   },
   {
     "romaji": "b/p",
     "character": "ㅂ",
     "type": "consonant",
-    "name": "비읍 (bieup)"
+    "name": "bieup",
+    "group": "basic-consonants-2",
+    "order": 6,
+    "mnemonic": {
+      "en": "A bucket shape - 'b' at start, 'p' at end",
+      "es": "Forma de cubo - 'b' al inicio, 'p' al final"
+    }
   },
   {
     "romaji": "s",
     "character": "ㅅ",
     "type": "consonant",
-    "name": "시옷 (siot)"
+    "name": "siot",
+    "group": "basic-consonants-2",
+    "order": 7,
+    "mnemonic": {
+      "en": "A tent or mountain peak - sharp 's' sound",
+      "es": "Una tienda o pico de montaña - sonido agudo 's'"
+    }
   },
   {
     "romaji": "ng/-",
     "character": "ㅇ",
     "type": "consonant",
-    "name": "이응 (ieung)"
+    "name": "ieung",
+    "group": "basic-consonants-2",
+    "order": 8,
+    "mnemonic": {
+      "en": "A circle - silent at start, 'ng' at end",
+      "es": "Un círculo - silencioso al inicio, 'ng' al final"
+    }
   },
   {
     "romaji": "j",
     "character": "ㅈ",
     "type": "consonant",
-    "name": "지읒 (jieut)"
+    "name": "jieut",
+    "group": "basic-consonants-2",
+    "order": 9,
+    "mnemonic": {
+      "en": "Like a jar top or zigzag - 'j' sound",
+      "es": "Como la tapa de un frasco o zigzag - sonido 'j'"
+    }
   },
   {
     "romaji": "ch",
     "character": "ㅊ",
     "type": "consonant",
-    "name": "치읓 (chieut)"
+    "name": "chieut",
+    "group": "basic-consonants-2",
+    "order": 10,
+    "mnemonic": {
+      "en": "Hat on top of jieut - aspirated 'ch' sound",
+      "es": "Sombrero encima de jieut - sonido aspirado 'ch'"
+    }
   },
   {
     "romaji": "k",
     "character": "ㅋ",
     "type": "consonant",
-    "name": "키읔 (kieuk)"
+    "name": "kieuk",
+    "group": "aspirated-consonants",
+    "order": 11,
+    "mnemonic": {
+      "en": "Like giyeok with extra line - stronger 'k' sound",
+      "es": "Como giyeok con línea extra - sonido 'k' más fuerte"
+    }
   },
   {
     "romaji": "t",
     "character": "ㅌ",
     "type": "consonant",
-    "name": "티읕 (tieut)"
+    "name": "tieut",
+    "group": "aspirated-consonants",
+    "order": 12,
+    "mnemonic": {
+      "en": "Like digeut with extra line - stronger 't' sound",
+      "es": "Como digeut con línea extra - sonido 't' más fuerte"
+    }
   },
   {
     "romaji": "p",
     "character": "ㅍ",
     "type": "consonant",
-    "name": "피읖 (pieup)"
+    "name": "pieup",
+    "group": "aspirated-consonants",
+    "order": 13,
+    "mnemonic": {
+      "en": "Like bieup with extra lines - stronger 'p' sound",
+      "es": "Como bieup con líneas extra - sonido 'p' más fuerte"
+    }
   },
   {
     "romaji": "h",
     "character": "ㅎ",
     "type": "consonant",
-    "name": "히읗 (hieut)"
+    "name": "hieut",
+    "group": "aspirated-consonants",
+    "order": 14,
+    "mnemonic": {
+      "en": "A person with a hat - breathing 'h' sound",
+      "es": "Una persona con sombrero - sonido respirado 'h'"
+    }
   },
   {
     "romaji": "a",
     "character": "ㅏ",
     "type": "vowel",
-    "name": "아 (a)"
+    "name": "a",
+    "group": "basic-vowels",
+    "order": 15,
+    "mnemonic": {
+      "en": "Vertical line with branch pointing right - mouth opens wide 'ah'",
+      "es": "Línea vertical con rama apuntando derecha - boca abierta 'ah'"
+    }
   },
   {
     "romaji": "ya",
     "character": "ㅑ",
     "type": "vowel",
-    "name": "야 (ya)"
+    "name": "ya",
+    "group": "y-vowels",
+    "order": 16,
+    "mnemonic": {
+      "en": "Like 'a' but with two branches - adds 'y' sound",
+      "es": "Como 'a' pero con dos ramas - añade sonido 'y'"
+    }
   },
   {
     "romaji": "eo",
     "character": "ㅓ",
     "type": "vowel",
-    "name": "어 (eo)"
+    "name": "eo",
+    "group": "basic-vowels",
+    "order": 17,
+    "mnemonic": {
+      "en": "Branch points left - like 'uh' in 'up'",
+      "es": "Rama apunta izquierda - como 'o' cerrada"
+    }
   },
   {
     "romaji": "yeo",
     "character": "ㅕ",
     "type": "vowel",
-    "name": "여 (yeo)"
+    "name": "yeo",
+    "group": "y-vowels",
+    "order": 18,
+    "mnemonic": {
+      "en": "Like 'eo' with two branches - adds 'y' sound",
+      "es": "Como 'eo' con dos ramas - añade sonido 'y'"
+    }
   },
   {
     "romaji": "o",
     "character": "ㅗ",
     "type": "vowel",
-    "name": "오 (o)"
+    "name": "o",
+    "group": "basic-vowels",
+    "order": 19,
+    "mnemonic": {
+      "en": "Branch points up - lips round up for 'oh'",
+      "es": "Rama apunta arriba - labios redondean para 'o'"
+    }
   },
   {
     "romaji": "yo",
     "character": "ㅛ",
     "type": "vowel",
-    "name": "요 (yo)"
+    "name": "yo",
+    "group": "y-vowels",
+    "order": 20,
+    "mnemonic": {
+      "en": "Like 'o' with two branches - adds 'y' sound",
+      "es": "Como 'o' con dos ramas - añade sonido 'y'"
+    }
   },
   {
     "romaji": "u",
     "character": "ㅜ",
     "type": "vowel",
-    "name": "우 (u)"
+    "name": "u",
+    "group": "basic-vowels",
+    "order": 21,
+    "mnemonic": {
+      "en": "Branch points down - lips purse down for 'oo'",
+      "es": "Rama apunta abajo - labios se fruncen para 'u'"
+    }
   },
   {
     "romaji": "yu",
     "character": "ㅠ",
     "type": "vowel",
-    "name": "유 (yu)"
+    "name": "yu",
+    "group": "y-vowels",
+    "order": 22,
+    "mnemonic": {
+      "en": "Like 'u' with two branches - adds 'y' sound",
+      "es": "Como 'u' con dos ramas - añade sonido 'y'"
+    }
   },
   {
     "romaji": "eu",
     "character": "ㅡ",
     "type": "vowel",
-    "name": "으 (eu)"
+    "name": "eu",
+    "group": "basic-vowels",
+    "order": 23,
+    "mnemonic": {
+      "en": "A single horizontal line - flat mouth 'eu' sound",
+      "es": "Una línea horizontal - boca plana sonido 'eu'"
+    }
   },
   {
     "romaji": "i",
     "character": "ㅣ",
     "type": "vowel",
-    "name": "이 (i)"
+    "name": "i",
+    "group": "basic-vowels",
+    "order": 24,
+    "mnemonic": {
+      "en": "A single vertical line - smile wide for 'ee'",
+      "es": "Una línea vertical - sonrisa amplia para 'i'"
+    }
   },
   {
     "romaji": "kk",
     "character": "ㄲ",
     "type": "double_consonant",
-    "name": "쌍기역 (ssang-giyeok)"
+    "name": "ssang-giyeok",
+    "group": "double-consonants",
+    "order": 25,
+    "mnemonic": {
+      "en": "Double giyeok - tense 'kk' sound",
+      "es": "Doble giyeok - sonido tenso 'kk'"
+    }
   },
   {
     "romaji": "tt",
     "character": "ㄸ",
     "type": "double_consonant",
-    "name": "쌍디귿 (ssang-digeut)"
+    "name": "ssang-digeut",
+    "group": "double-consonants",
+    "order": 26,
+    "mnemonic": {
+      "en": "Double digeut - tense 'tt' sound",
+      "es": "Doble digeut - sonido tenso 'tt'"
+    }
   },
   {
     "romaji": "pp",
     "character": "ㅃ",
     "type": "double_consonant",
-    "name": "쌍비읍 (ssang-bieup)"
+    "name": "ssang-bieup",
+    "group": "double-consonants",
+    "order": 27,
+    "mnemonic": {
+      "en": "Double bieup - tense 'pp' sound",
+      "es": "Doble bieup - sonido tenso 'pp'"
+    }
   },
   {
     "romaji": "ss",
     "character": "ㅆ",
     "type": "double_consonant",
-    "name": "쌍시옷 (ssang-siot)"
+    "name": "ssang-siot",
+    "group": "double-consonants",
+    "order": 28,
+    "mnemonic": {
+      "en": "Double siot - tense 'ss' sound",
+      "es": "Doble siot - sonido tenso 'ss'"
+    }
   },
   {
     "romaji": "jj",
     "character": "ㅉ",
     "type": "double_consonant",
-    "name": "쌍지읒 (ssang-jieut)"
+    "name": "ssang-jieut",
+    "group": "double-consonants",
+    "order": 29,
+    "mnemonic": {
+      "en": "Double jieut - tense 'jj' sound",
+      "es": "Doble jieut - sonido tenso 'jj'"
+    }
   },
   {
     "romaji": "ae",
     "character": "ㅐ",
     "type": "compound_vowel",
-    "name": "애 (ae)"
+    "name": "ae",
+    "group": "compound-vowels-1",
+    "order": 30,
+    "mnemonic": {
+      "en": "Combination of a + i = 'ae' like in 'air'",
+      "es": "Combinación de a + i = 'ae' como en 'aire'"
+    }
   },
   {
     "romaji": "yae",
     "character": "ㅒ",
     "type": "compound_vowel",
-    "name": "얘 (yae)"
+    "name": "yae",
+    "group": "compound-vowels-1",
+    "order": 31,
+    "mnemonic": {
+      "en": "Like 'ae' with two branches - adds 'y' sound",
+      "es": "Como 'ae' con dos ramas - añade sonido 'y'"
+    }
   },
   {
     "romaji": "e",
     "character": "ㅔ",
     "type": "compound_vowel",
-    "name": "에 (e)"
+    "name": "e",
+    "group": "compound-vowels-1",
+    "order": 32,
+    "mnemonic": {
+      "en": "Combination of eo + i = 'e' like in 'bed'",
+      "es": "Combinación de eo + i = 'e' como en 'cena'"
+    }
   },
   {
     "romaji": "ye",
     "character": "ㅖ",
     "type": "compound_vowel",
-    "name": "예 (ye)"
+    "name": "ye",
+    "group": "compound-vowels-1",
+    "order": 33,
+    "mnemonic": {
+      "en": "Like 'e' with two branches - adds 'y' sound",
+      "es": "Como 'e' con dos ramas - añade sonido 'y'"
+    }
   },
   {
     "romaji": "wa",
     "character": "ㅘ",
     "type": "compound_vowel",
-    "name": "와 (wa)"
+    "name": "wa",
+    "group": "compound-vowels-2",
+    "order": 34,
+    "mnemonic": {
+      "en": "Combination of o + a = 'wa'",
+      "es": "Combinación de o + a = 'wa'"
+    }
   },
   {
     "romaji": "wae",
     "character": "ㅙ",
     "type": "compound_vowel",
-    "name": "왜 (wae)"
+    "name": "wae",
+    "group": "compound-vowels-2",
+    "order": 35,
+    "mnemonic": {
+      "en": "Combination of o + ae = 'wae'",
+      "es": "Combinación de o + ae = 'wae'"
+    }
   },
   {
     "romaji": "oe",
     "character": "ㅚ",
     "type": "compound_vowel",
-    "name": "외 (oe)"
+    "name": "oe",
+    "group": "compound-vowels-2",
+    "order": 36,
+    "mnemonic": {
+      "en": "Combination of o + i = 'we' sound",
+      "es": "Combinación de o + i = sonido 'we'"
+    }
   },
   {
     "romaji": "wo",
     "character": "ㅝ",
     "type": "compound_vowel",
-    "name": "워 (wo)"
+    "name": "wo",
+    "group": "compound-vowels-2",
+    "order": 37,
+    "mnemonic": {
+      "en": "Combination of u + eo = 'wo'",
+      "es": "Combinación de u + eo = 'wo'"
+    }
   },
   {
     "romaji": "we",
     "character": "ㅞ",
     "type": "compound_vowel",
-    "name": "웨 (we)"
+    "name": "we",
+    "group": "compound-vowels-2",
+    "order": 38,
+    "mnemonic": {
+      "en": "Combination of u + e = 'we'",
+      "es": "Combinación de u + e = 'we'"
+    }
   },
   {
     "romaji": "wi",
     "character": "ㅟ",
     "type": "compound_vowel",
-    "name": "위 (wi)"
+    "name": "wi",
+    "group": "compound-vowels-2",
+    "order": 39,
+    "mnemonic": {
+      "en": "Combination of u + i = 'wi'",
+      "es": "Combinación de u + i = 'wi'"
+    }
   },
   {
     "romaji": "ui",
     "character": "ㅢ",
     "type": "compound_vowel",
-    "name": "의 (ui)"
+    "name": "ui",
+    "group": "compound-vowels-2",
+    "order": 40,
+    "mnemonic": {
+      "en": "Combination of eu + i = 'ui'",
+      "es": "Combinación de eu + i = 'ui'"
+    }
   }
 ]

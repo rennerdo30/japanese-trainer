@@ -55,11 +55,30 @@
     },
     "noCharacters": "当前筛选条件下没有可用字符。"
   },
+  "learnMode": {
+    "learn": "学习",
+    "practice": "练习",
+    "progress": "进度",
+    "learned": "已学习",
+    "type": "类型",
+    "group": "组",
+    "playSound": "播放声音",
+    "markLearned": "标记为已学习",
+    "alreadyLearned": "已学习",
+    "mnemonic": "记忆技巧",
+    "noLessonsAvailable": "该语言暂无课程。",
+    "characterOf": "第 {current} 个字符，共 {total} 个",
+    "lessonComplete": "课程完成！",
+    "nextLesson": "下一课",
+    "selectLesson": "选择课程"
+  },
   "vocabulary": {
     "practiceMode": "练习模式",
     "typeMeaning": "输入意思或罗马音...",
     "typeWord": "输入日语单词...",
-    "noWords": "没有可用单词。"
+    "noWords": "没有可用单词。",
+    "showHint": "显示提示",
+    "hintShown": "已显示提示"
   },
   "kanji": {
     "practiceMeaning": "意思",

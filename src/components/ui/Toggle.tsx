@@ -12,11 +12,12 @@ interface ToggleProps {
     value: string;
     onChange: (value: string) => void;
     name: string;
+    disabled?: boolean;
 }
 
-export default function Toggle({ options, value, onChange, name }: ToggleProps) {
+export default function Toggle({ options, value, onChange, name, disabled = false }: ToggleProps) {
     return (
-        <div className={styles.toggle}>
+        <div className={`${styles.toggle} ${disabled ? styles.disabled : ''}`}>
             {options.map((option) => (
                 <div key={option.id} className={styles.option}>
                     <input
@@ -26,6 +27,7 @@ export default function Toggle({ options, value, onChange, name }: ToggleProps) 
                         checked={value === option.id}
                         onChange={() => onChange(option.id)}
                         className={styles.input}
+                        disabled={disabled}
                     />
                     <label htmlFor={`${name}-${option.id}`} className={styles.label}>
                         {option.label}

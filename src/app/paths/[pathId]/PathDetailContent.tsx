@@ -141,8 +141,8 @@ export default function PathDetailContent() {
   };
 
   // Count items in topic tracks
-  const getTopicItemCounts = () => {
-    if (!topicTrack) return {};
+  const getTopicItemCounts = (): { vocabulary: number; grammar: number; reading: number; kanji: number } => {
+    if (!topicTrack) return { vocabulary: 0, grammar: 0, reading: 0, kanji: 0 };
     const items = topicTrack.items;
     return {
       vocabulary: items.vocabulary?.length || 0,

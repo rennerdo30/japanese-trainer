@@ -1,0 +1,625 @@
+{
+  "vocabulary": [
+    {
+      "id": "en-vocab-a2-1",
+      "word": "appointment",
+      "level": "A2",
+      "meanings": { "es": ["cita"], "ja": ["予約", "約束"], "de": ["Termin"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "I have a doctor's appointment at 3 PM.", "translation": "A scheduled meeting with someone" }]
+    },
+    {
+      "id": "en-vocab-a2-2",
+      "word": "receipt",
+      "level": "A2",
+      "meanings": { "es": ["recibo"], "ja": ["レシート", "領収書"], "de": ["Quittung"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Can I have the receipt, please?", "translation": "Paper proof of purchase" }]
+    },
+    {
+      "id": "en-vocab-a2-3",
+      "word": "luggage",
+      "level": "A2",
+      "meanings": { "es": ["equipaje"], "ja": ["荷物"], "de": ["Gepäck"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "My luggage is very heavy.", "translation": "Bags and suitcases for traveling" }]
+    },
+    {
+      "id": "en-vocab-a2-4",
+      "word": "cloudy",
+      "level": "A2",
+      "meanings": { "es": ["nublado"], "ja": ["曇った"], "de": ["bewölkt"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "It's cloudy today, but it won't rain.", "translation": "Sky covered with clouds" }]
+    },
+    {
+      "id": "en-vocab-a2-5",
+      "word": "polite",
+      "level": "A2",
+      "meanings": { "es": ["educado", "cortés"], "ja": ["礼儀正しい"], "de": ["höflich"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "She's always very polite to customers.", "translation": "Having good manners" }]
+    },
+    {
+      "id": "en-vocab-a2-6",
+      "word": "belong",
+      "level": "A2",
+      "meanings": { "es": ["pertenecer"], "ja": ["属する", "所有である"], "de": ["gehören"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "This book belongs to my sister.", "translation": "To be owned by someone" }]
+    },
+    {
+      "id": "en-vocab-a2-7",
+      "word": "temperature",
+      "level": "A2",
+      "meanings": { "es": ["temperatura"], "ja": ["温度", "気温"], "de": ["Temperatur"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "The temperature will reach 30 degrees tomorrow.", "translation": "How hot or cold something is" }]
+    },
+    {
+      "id": "en-vocab-a2-8",
+      "word": "recommend",
+      "level": "A2",
+      "meanings": { "es": ["recomendar"], "ja": ["勧める"], "de": ["empfehlen"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "I recommend this restaurant for Italian food.", "translation": "To suggest something good" }]
+    },
+    {
+      "id": "en-vocab-a2-9",
+      "word": "medicine",
+      "level": "A2",
+      "meanings": { "es": ["medicina", "medicamento"], "ja": ["薬"], "de": ["Medizin", "Medikament"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Take this medicine twice a day.", "translation": "Drug used to treat illness" }]
+    },
+    {
+      "id": "en-vocab-a2-10",
+      "word": "collect",
+      "level": "A2",
+      "meanings": { "es": ["coleccionar", "recoger"], "ja": ["集める"], "de": ["sammeln"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "He collects stamps from different countries.", "translation": "To gather things as a hobby" }]
+    },
+    {
+      "id": "en-vocab-a2-11",
+      "word": "discount",
+      "level": "A2",
+      "meanings": { "es": ["descuento"], "ja": ["割引"], "de": ["Rabatt"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Students get a 20% discount.", "translation": "Reduction in price" }]
+    },
+    {
+      "id": "en-vocab-a2-12",
+      "word": "passenger",
+      "level": "A2",
+      "meanings": { "es": ["pasajero"], "ja": ["乗客"], "de": ["Passagier"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "All passengers must fasten their seatbelts.", "translation": "Person traveling in a vehicle" }]
+    },
+    {
+      "id": "en-vocab-a2-13",
+      "word": "foggy",
+      "level": "A2",
+      "meanings": { "es": ["con niebla"], "ja": ["霧の"], "de": ["neblig"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "It's too foggy to drive safely.", "translation": "Weather with thick mist" }]
+    },
+    {
+      "id": "en-vocab-a2-14",
+      "word": "generous",
+      "level": "A2",
+      "meanings": { "es": ["generoso"], "ja": ["寛大な", "気前の良い"], "de": ["großzügig"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "My grandmother is very generous with gifts.", "translation": "Willing to give more than expected" }]
+    },
+    {
+      "id": "en-vocab-a2-15",
+      "word": "improve",
+      "level": "A2",
+      "meanings": { "es": ["mejorar"], "ja": ["改善する", "上達する"], "de": ["verbessern"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "I want to improve my English speaking.", "translation": "To make something better" }]
+    },
+    {
+      "id": "en-vocab-a2-16",
+      "word": "headache",
+      "level": "A2",
+      "meanings": { "es": ["dolor de cabeza"], "ja": ["頭痛"], "de": ["Kopfschmerzen"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "I have a terrible headache today.", "translation": "Pain in the head" }]
+    },
+    {
+      "id": "en-vocab-a2-17",
+      "word": "hiking",
+      "level": "A2",
+      "meanings": { "es": ["senderismo"], "ja": ["ハイキング"], "de": ["Wandern"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "We went hiking in the mountains last weekend.", "translation": "Walking in nature as exercise" }]
+    },
+    {
+      "id": "en-vocab-a2-18",
+      "word": "checkout",
+      "level": "A2",
+      "meanings": { "es": ["caja"], "ja": ["レジ", "チェックアウト"], "de": ["Kasse"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Please pay at the checkout.", "translation": "Place to pay in a store" }]
+    },
+    {
+      "id": "en-vocab-a2-19",
+      "word": "platform",
+      "level": "A2",
+      "meanings": { "es": ["andén"], "ja": ["ホーム", "プラットフォーム"], "de": ["Bahnsteig"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "The train leaves from platform 5.", "translation": "Place where you get on a train" }]
+    },
+    {
+      "id": "en-vocab-a2-20",
+      "word": "sunny",
+      "level": "A2",
+      "meanings": { "es": ["soleado"], "ja": ["晴れた"], "de": ["sonnig"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "It's a beautiful sunny day.", "translation": "Bright with sunlight" }]
+    },
+    {
+      "id": "en-vocab-a2-21",
+      "word": "honest",
+      "level": "A2",
+      "meanings": { "es": ["honesto"], "ja": ["正直な"], "de": ["ehrlich"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "He's an honest person who never lies.", "translation": "Always telling the truth" }]
+    },
+    {
+      "id": "en-vocab-a2-22",
+      "word": "decide",
+      "level": "A2",
+      "meanings": { "es": ["decidir"], "ja": ["決める"], "de": ["entscheiden"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "I can't decide what to order.", "translation": "To make a choice" }]
+    },
+    {
+      "id": "en-vocab-a2-23",
+      "word": "cough",
+      "level": "A2",
+      "meanings": { "es": ["tos", "toser"], "ja": ["咳", "咳をする"], "de": ["Husten", "husten"] },
+      "partOfSpeech": "noun/verb",
+      "examples": [{ "sentence": "I've had a bad cough for a week.", "translation": "Expelling air from throat suddenly" }]
+    },
+    {
+      "id": "en-vocab-a2-24",
+      "word": "photography",
+      "level": "A2",
+      "meanings": { "es": ["fotografía"], "ja": ["写真撮影"], "de": ["Fotografie"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Photography is my favorite hobby.", "translation": "Art of taking pictures" }]
+    },
+    {
+      "id": "en-vocab-a2-25",
+      "word": "refund",
+      "level": "A2",
+      "meanings": { "es": ["reembolso"], "ja": ["返金"], "de": ["Rückerstattung"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "I'd like a refund for this broken item.", "translation": "Money returned after purchase" }]
+    },
+    {
+      "id": "en-vocab-a2-26",
+      "word": "departure",
+      "level": "A2",
+      "meanings": { "es": ["salida"], "ja": ["出発"], "de": ["Abfahrt", "Abflug"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Check the departure time on your ticket.", "translation": "When something leaves" }]
+    },
+    {
+      "id": "en-vocab-a2-27",
+      "word": "windy",
+      "level": "A2",
+      "meanings": { "es": ["ventoso"], "ja": ["風の強い"], "de": ["windig"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "It's too windy to have a picnic outside.", "translation": "With a lot of wind" }]
+    },
+    {
+      "id": "en-vocab-a2-28",
+      "word": "patient",
+      "level": "A2",
+      "meanings": { "es": ["paciente"], "ja": ["辛抱強い", "患者"], "de": ["geduldig", "Patient"] },
+      "partOfSpeech": "adjective/noun",
+      "examples": [{ "sentence": "Teachers need to be very patient.", "translation": "Able to wait calmly" }]
+    },
+    {
+      "id": "en-vocab-a2-29",
+      "word": "cancel",
+      "level": "A2",
+      "meanings": { "es": ["cancelar"], "ja": ["キャンセルする"], "de": ["absagen", "stornieren"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "I need to cancel my reservation.", "translation": "To stop something planned" }]
+    },
+    {
+      "id": "en-vocab-a2-30",
+      "word": "allergy",
+      "level": "A2",
+      "meanings": { "es": ["alergia"], "ja": ["アレルギー"], "de": ["Allergie"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "I have an allergy to nuts.", "translation": "Bad reaction to certain things" }]
+    },
+    {
+      "id": "en-vocab-a2-31",
+      "word": "gardening",
+      "level": "A2",
+      "meanings": { "es": ["jardinería"], "ja": ["ガーデニング"], "de": ["Gartenarbeit"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "My mother enjoys gardening on weekends.", "translation": "Growing plants as a hobby" }]
+    },
+    {
+      "id": "en-vocab-a2-32",
+      "word": "exchange",
+      "level": "A2",
+      "meanings": { "es": ["cambiar", "intercambio"], "ja": ["交換する"], "de": ["umtauschen", "Austausch"] },
+      "partOfSpeech": "verb/noun",
+      "examples": [{ "sentence": "Can I exchange this for a larger size?", "translation": "To give something and receive another" }]
+    },
+    {
+      "id": "en-vocab-a2-33",
+      "word": "arrival",
+      "level": "A2",
+      "meanings": { "es": ["llegada"], "ja": ["到着"], "de": ["Ankunft"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "The arrival gate is on the left.", "translation": "When something reaches a place" }]
+    },
+    {
+      "id": "en-vocab-a2-34",
+      "word": "freezing",
+      "level": "A2",
+      "meanings": { "es": ["helado", "congelándose"], "ja": ["凍えるような"], "de": ["eiskalt"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "It's freezing outside! Wear a coat.", "translation": "Extremely cold" }]
+    },
+    {
+      "id": "en-vocab-a2-35",
+      "word": "lazy",
+      "level": "A2",
+      "meanings": { "es": ["perezoso"], "ja": ["怠惰な"], "de": ["faul"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "I feel too lazy to cook today.", "translation": "Not wanting to work or be active" }]
+    },
+    {
+      "id": "en-vocab-a2-36",
+      "word": "borrow",
+      "level": "A2",
+      "meanings": { "es": ["pedir prestado"], "ja": ["借りる"], "de": ["leihen", "ausleihen"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Can I borrow your pen for a minute?", "translation": "To use something temporarily" }]
+    },
+    {
+      "id": "en-vocab-a2-37",
+      "word": "symptom",
+      "level": "A2",
+      "meanings": { "es": ["síntoma"], "ja": ["症状"], "de": ["Symptom"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Fever is a common symptom of the flu.", "translation": "Sign of illness" }]
+    },
+    {
+      "id": "en-vocab-a2-38",
+      "word": "painting",
+      "level": "A2",
+      "meanings": { "es": ["pintura"], "ja": ["絵画", "ペインティング"], "de": ["Malen", "Gemälde"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "I took up painting during lockdown.", "translation": "Art of creating pictures with paint" }]
+    },
+    {
+      "id": "en-vocab-a2-39",
+      "word": "bargain",
+      "level": "A2",
+      "meanings": { "es": ["ganga"], "ja": ["お買い得品"], "de": ["Schnäppchen"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "This jacket was a real bargain.", "translation": "Something bought cheaply" }]
+    },
+    {
+      "id": "en-vocab-a2-40",
+      "word": "destination",
+      "level": "A2",
+      "meanings": { "es": ["destino"], "ja": ["目的地"], "de": ["Ziel", "Reiseziel"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Paris is a popular tourist destination.", "translation": "Place you are going to" }]
+    },
+    {
+      "id": "en-vocab-a2-41",
+      "word": "humid",
+      "level": "A2",
+      "meanings": { "es": ["húmedo"], "ja": ["湿度の高い"], "de": ["feucht", "schwül"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "It's very humid in summer here.", "translation": "Air with lots of moisture" }]
+    },
+    {
+      "id": "en-vocab-a2-42",
+      "word": "stubborn",
+      "level": "A2",
+      "meanings": { "es": ["terco", "obstinado"], "ja": ["頑固な"], "de": ["stur", "hartnäckig"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "He's too stubborn to ask for help.", "translation": "Refusing to change opinion" }]
+    },
+    {
+      "id": "en-vocab-a2-43",
+      "word": "complain",
+      "level": "A2",
+      "meanings": { "es": ["quejarse"], "ja": ["文句を言う"], "de": ["sich beschweren"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Don't complain about the food.", "translation": "To say something is wrong" }]
+    },
+    {
+      "id": "en-vocab-a2-44",
+      "word": "prescription",
+      "level": "A2",
+      "meanings": { "es": ["receta médica"], "ja": ["処方箋"], "de": ["Rezept"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "You need a prescription for this medicine.", "translation": "Doctor's written order for medicine" }]
+    },
+    {
+      "id": "en-vocab-a2-45",
+      "word": "cycling",
+      "level": "A2",
+      "meanings": { "es": ["ciclismo"], "ja": ["サイクリング"], "de": ["Radfahren"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Cycling is good exercise and eco-friendly.", "translation": "Riding a bicycle" }]
+    },
+    {
+      "id": "en-vocab-a2-46",
+      "word": "available",
+      "level": "A2",
+      "meanings": { "es": ["disponible"], "ja": ["利用可能な"], "de": ["verfügbar"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "Is this room available tonight?", "translation": "Able to be used or obtained" }]
+    },
+    {
+      "id": "en-vocab-a2-47",
+      "word": "delay",
+      "level": "A2",
+      "meanings": { "es": ["retraso"], "ja": ["遅延"], "de": ["Verspätung", "Verzögerung"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "There's a 30-minute delay on all flights.", "translation": "When something happens later than planned" }]
+    },
+    {
+      "id": "en-vocab-a2-48",
+      "word": "forecast",
+      "level": "A2",
+      "meanings": { "es": ["pronóstico"], "ja": ["予報"], "de": ["Vorhersage"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "The weather forecast says it will rain.", "translation": "Prediction about future weather" }]
+    },
+    {
+      "id": "en-vocab-a2-49",
+      "word": "annoyed",
+      "level": "A2",
+      "meanings": { "es": ["molesto", "irritado"], "ja": ["イライラした"], "de": ["verärgert", "genervt"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "She was annoyed by the loud noise.", "translation": "Slightly angry" }]
+    },
+    {
+      "id": "en-vocab-a2-50",
+      "word": "routine",
+      "level": "A2",
+      "meanings": { "es": ["rutina"], "ja": ["日課", "ルーティン"], "de": ["Routine"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "I follow the same morning routine every day.", "translation": "Regular way of doing things" }]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "en-grammar-a2-1",
+      "title": "Past Simple vs Past Continuous",
+      "level": "A2",
+      "explanation": "Use Past Simple for completed actions and Past Continuous for actions in progress at a specific time. The Past Continuous often sets the background scene for a Past Simple action.",
+      "examples": [
+        { "sentence": "I was cooking when the phone rang.", "translation": "Cooking was in progress, then the phone rang (interruption)" },
+        { "sentence": "While they were sleeping, it started to snow.", "translation": "Sleeping was the background action, snow starting was the event" },
+        { "sentence": "She walked to work yesterday.", "translation": "Completed action - Past Simple" }
+      ],
+      "patterns": [
+        "Subject + was/were + verb-ing (Past Continuous)",
+        "Subject + verb-ed / irregular past (Past Simple)",
+        "While + Past Continuous, Past Simple",
+        "Past Continuous + when + Past Simple"
+      ],
+      "exercises": [
+        { "type": "fill-blank", "question": "I ___ (watch) TV when she arrived.", "options": ["watched", "was watching", "am watching"], "correct": 1 },
+        { "type": "fill-blank", "question": "They ___ (play) football at 5 PM yesterday.", "options": ["played", "were playing", "play"], "correct": 1 },
+        { "type": "fill-blank", "question": "While we ___ (wait), the bus finally came.", "options": ["waited", "were waiting", "wait"], "correct": 1 }
+      ]
+    },
+    {
+      "id": "en-grammar-a2-2",
+      "title": "Present Perfect (Experience & Recent Past)",
+      "level": "A2",
+      "explanation": "Use Present Perfect to talk about life experiences (without specific time) or recent events with a connection to now. Use 'ever', 'never', 'already', 'yet', 'just' as time markers.",
+      "examples": [
+        { "sentence": "I have visited Paris twice.", "translation": "Life experience - when is not important" },
+        { "sentence": "Have you ever eaten sushi?", "translation": "Asking about experience at any time in life" },
+        { "sentence": "She has just finished her homework.", "translation": "Very recent action, connected to now" }
+      ],
+      "patterns": [
+        "Subject + have/has + past participle",
+        "Have/Has + subject + ever + past participle?",
+        "Subject + have/has + never + past participle",
+        "Subject + have/has + just/already/yet + past participle"
+      ],
+      "exercises": [
+        { "type": "fill-blank", "question": "I have never ___ a helicopter.", "options": ["fly", "flew", "flown"], "correct": 2 },
+        { "type": "fill-blank", "question": "___ you ever been to Japan?", "options": ["Did", "Have", "Are"], "correct": 1 },
+        { "type": "fill-blank", "question": "She has already ___ the report.", "options": ["finish", "finished", "finishing"], "correct": 1 }
+      ]
+    },
+    {
+      "id": "en-grammar-a2-3",
+      "title": "Comparatives and Superlatives",
+      "level": "A2",
+      "explanation": "Use comparatives (-er / more + adj) to compare two things. Use superlatives (-est / most + adj) to compare three or more things. Short adjectives add -er/-est; long adjectives use more/most.",
+      "examples": [
+        { "sentence": "Tokyo is bigger than Paris.", "translation": "Comparing two cities" },
+        { "sentence": "This is the most expensive restaurant in town.", "translation": "Comparing all restaurants" },
+        { "sentence": "My coffee is hotter than yours.", "translation": "Comparing two things" }
+      ],
+      "patterns": [
+        "Short adj + -er + than (taller, bigger, happier)",
+        "more + long adj + than (more beautiful, more expensive)",
+        "the + short adj + -est (the tallest, the biggest)",
+        "the most + long adj (the most beautiful)"
+      ],
+      "exercises": [
+        { "type": "fill-blank", "question": "This book is ___ than that one.", "options": ["interesting", "more interesting", "most interesting"], "correct": 1 },
+        { "type": "fill-blank", "question": "She is the ___ student in the class.", "options": ["smart", "smarter", "smartest"], "correct": 2 },
+        { "type": "fill-blank", "question": "My house is ___ than yours.", "options": ["old", "older", "oldest"], "correct": 1 }
+      ]
+    },
+    {
+      "id": "en-grammar-a2-4",
+      "title": "Future with Will",
+      "level": "A2",
+      "explanation": "Use 'will' for spontaneous decisions, promises, predictions, and offers. 'Will' expresses future actions decided at the moment of speaking.",
+      "examples": [
+        { "sentence": "I'll help you carry those bags.", "translation": "Spontaneous offer" },
+        { "sentence": "It will rain tomorrow.", "translation": "Prediction about the future" },
+        { "sentence": "I promise I won't be late.", "translation": "Making a promise" }
+      ],
+      "patterns": [
+        "Subject + will + base verb",
+        "Subject + will not (won't) + base verb",
+        "Will + subject + base verb?",
+        "I think/believe + subject + will + base verb"
+      ],
+      "exercises": [
+        { "type": "fill-blank", "question": "Don't worry, I ___ call you later.", "options": ["am", "will", "going to"], "correct": 1 },
+        { "type": "fill-blank", "question": "___ you help me with this?", "options": ["Are", "Do", "Will"], "correct": 2 },
+        { "type": "fill-blank", "question": "I think it ___ be sunny tomorrow.", "options": ["will", "is", "was"], "correct": 0 }
+      ]
+    },
+    {
+      "id": "en-grammar-a2-5",
+      "title": "Future with Going To",
+      "level": "A2",
+      "explanation": "Use 'going to' for planned intentions and predictions based on present evidence. Unlike 'will', 'going to' shows the decision was made before speaking.",
+      "examples": [
+        { "sentence": "I'm going to visit my parents next weekend.", "translation": "Planned intention - decided before now" },
+        { "sentence": "Look at those clouds! It's going to rain.", "translation": "Prediction based on evidence" },
+        { "sentence": "They're going to get married in June.", "translation": "Future plan already decided" }
+      ],
+      "patterns": [
+        "Subject + am/is/are + going to + base verb",
+        "Subject + am/is/are + not going to + base verb",
+        "Am/Is/Are + subject + going to + base verb?"
+      ],
+      "exercises": [
+        { "type": "fill-blank", "question": "She ___ going to study medicine.", "options": ["is", "will", "does"], "correct": 0 },
+        { "type": "fill-blank", "question": "We ___ going to move to a new house.", "options": ["is", "are", "will"], "correct": 1 },
+        { "type": "fill-blank", "question": "Look! The baby ___ going to cry.", "options": ["will", "is", "does"], "correct": 1 }
+      ]
+    },
+    {
+      "id": "en-grammar-a2-6",
+      "title": "Should for Advice",
+      "level": "A2",
+      "explanation": "Use 'should' to give advice, suggestions, or express what is the right thing to do. 'Shouldn't' expresses that something is not a good idea.",
+      "examples": [
+        { "sentence": "You should see a doctor.", "translation": "Advice - it's a good idea" },
+        { "sentence": "You shouldn't eat so much sugar.", "translation": "Advice against something" },
+        { "sentence": "Should I call her?", "translation": "Asking for advice" }
+      ],
+      "patterns": [
+        "Subject + should + base verb",
+        "Subject + shouldn't + base verb",
+        "Should + subject + base verb?",
+        "I think you should + base verb"
+      ],
+      "exercises": [
+        { "type": "fill-blank", "question": "You look tired. You ___ get some rest.", "options": ["should", "must", "will"], "correct": 0 },
+        { "type": "fill-blank", "question": "He ___ eat so much fast food.", "options": ["should", "shouldn't", "mustn't"], "correct": 1 },
+        { "type": "fill-blank", "question": "___ I bring something to the party?", "options": ["Do", "Will", "Should"], "correct": 2 }
+      ]
+    },
+    {
+      "id": "en-grammar-a2-7",
+      "title": "Could for Possibility and Ability",
+      "level": "A2",
+      "explanation": "Use 'could' for past ability, polite requests, and possibilities. It's also used for suggestions and hypothetical situations.",
+      "examples": [
+        { "sentence": "I could swim when I was five.", "translation": "Past ability" },
+        { "sentence": "Could you open the window, please?", "translation": "Polite request" },
+        { "sentence": "We could go to the cinema tonight.", "translation": "Suggestion/possibility" }
+      ],
+      "patterns": [
+        "Subject + could + base verb (past ability)",
+        "Could + subject + base verb? (polite request)",
+        "Subject + could + base verb (possibility/suggestion)",
+        "Subject + couldn't + base verb (past inability)"
+      ],
+      "exercises": [
+        { "type": "fill-blank", "question": "___ you help me with my luggage?", "options": ["Could", "Did", "Were"], "correct": 0 },
+        { "type": "fill-blank", "question": "When I was young, I ___ run very fast.", "options": ["can", "could", "will"], "correct": 1 },
+        { "type": "fill-blank", "question": "We ___ have pizza for dinner.", "options": ["could", "can't", "shouldn't"], "correct": 0 }
+      ]
+    },
+    {
+      "id": "en-grammar-a2-8",
+      "title": "Might for Possibility",
+      "level": "A2",
+      "explanation": "Use 'might' to express uncertain possibility about the present or future. 'Might' indicates something is possible but not certain.",
+      "examples": [
+        { "sentence": "It might rain later.", "translation": "Uncertain possibility about weather" },
+        { "sentence": "She might be at home.", "translation": "Not sure, but possible" },
+        { "sentence": "I might go to the party.", "translation": "Haven't decided, it's possible" }
+      ],
+      "patterns": [
+        "Subject + might + base verb",
+        "Subject + might not + base verb",
+        "Subject + might be + adjective/noun",
+        "I/We might + base verb (uncertain plans)"
+      ],
+      "exercises": [
+        { "type": "fill-blank", "question": "Take an umbrella. It ___ rain.", "options": ["will", "might", "is"], "correct": 1 },
+        { "type": "fill-blank", "question": "I ___ be late, so don't wait for me.", "options": ["might", "will", "am"], "correct": 0 },
+        { "type": "fill-blank", "question": "She ___ not come to the meeting.", "options": ["might", "will", "is"], "correct": 0 }
+      ]
+    },
+    {
+      "id": "en-grammar-a2-9",
+      "title": "First Conditional",
+      "level": "A2",
+      "explanation": "Use First Conditional to talk about possible future situations and their results. The 'if' clause uses Present Simple, and the result clause uses 'will'.",
+      "examples": [
+        { "sentence": "If it rains, I will stay at home.", "translation": "Possible condition and its result" },
+        { "sentence": "If you study hard, you will pass the exam.", "translation": "Real possibility in the future" },
+        { "sentence": "I'll be happy if you come to my party.", "translation": "Result clause can come first" }
+      ],
+      "patterns": [
+        "If + Present Simple, Subject + will + base verb",
+        "Subject + will + base verb + if + Present Simple",
+        "If + Present Simple, Subject + won't + base verb",
+        "Subject + will + base verb + unless + Present Simple"
+      ],
+      "exercises": [
+        { "type": "fill-blank", "question": "If you ___ hard, you will succeed.", "options": ["will work", "work", "worked"], "correct": 1 },
+        { "type": "fill-blank", "question": "I ___ call you if I have time.", "options": ["will", "am", "would"], "correct": 0 },
+        { "type": "fill-blank", "question": "If she ___ the bus, she will be late.", "options": ["misses", "will miss", "missed"], "correct": 0 }
+      ]
+    },
+    {
+      "id": "en-grammar-a2-10",
+      "title": "Present Perfect vs Past Simple",
+      "level": "A2",
+      "explanation": "Use Past Simple when the time is mentioned or finished. Use Present Perfect when the time is not important, or the action has a connection to now.",
+      "examples": [
+        { "sentence": "I saw that movie last week. (Past Simple - specific time)", "translation": "Time is mentioned, use Past Simple" },
+        { "sentence": "I have seen that movie. (Present Perfect - sometime before now)", "translation": "Time not mentioned, experience matters" },
+        { "sentence": "She has lived here for five years. (still lives here)", "translation": "Situation continues to now" }
+      ],
+      "patterns": [
+        "Past Simple: Subject + verb-ed + time expression",
+        "Present Perfect: Subject + have/has + past participle",
+        "Use Past Simple with: yesterday, last week, in 2020, ago",
+        "Use Present Perfect with: ever, never, just, already, yet, for, since"
+      ],
+      "exercises": [
+        { "type": "fill-blank", "question": "I ___ to London twice. (life experience)", "options": ["went", "have been", "go"], "correct": 1 },
+        { "type": "fill-blank", "question": "She ___ her keys yesterday.", "options": ["has lost", "lost", "loses"], "correct": 1 },
+        { "type": "fill-blank", "question": "They ___ here since 2019.", "options": ["lived", "have lived", "live"], "correct": 1 }
+      ]
+    }
+  ]
+}

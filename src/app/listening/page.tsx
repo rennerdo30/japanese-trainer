@@ -11,14 +11,14 @@ import { useLanguage } from '@/context/LanguageProvider';
 import { useTargetLanguage } from '@/hooks/useTargetLanguage';
 import { useTTS } from '@/hooks/useTTS';
 import { ListeningExercise, Filter } from '@/types';
-import { IoVolumeHigh, IoCheckmark } from 'react-icons/io5';
+import { IoVolumeHigh, IoCheckmark, IoStop } from 'react-icons/io5';
 import styles from './listening.module.css';
 
 export default function ListeningPage() {
     const { getModuleData: getModule, updateModuleStats: updateStats } = useProgressContext();
     const { t } = useLanguage();
     const { targetLanguage, levels, getDataUrl } = useTargetLanguage();
-    const { speak } = useTTS();
+    const { speak, stop, isPlaying } = useTTS();
     const [exercises, setExercises] = useState<ListeningExercise[]>([]);
     const [currentExercise, setCurrentExercise] = useState<ListeningExercise | null>(null);
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -152,9 +152,15 @@ export default function ListeningPage() {
                 </Text>
 
                 <div className={styles.audioControls}>
-                    <Button onClick={handlePlayAudio} variant="primary" size="lg" className={styles.playButton}>
-                        <IoVolumeHigh /> {t('listening.playAudio')}
-                    </Button>
+                    {isPlaying ? (
+                        <Button onClick={stop} variant="danger" size="lg" className={styles.playButton}>
+                            <IoStop /> {t('common.stop')}
+                        </Button>
+                    ) : (
+                        <Button onClick={handlePlayAudio} variant="primary" size="lg" className={styles.playButton}>
+                            <IoVolumeHigh /> {t('listening.playAudio')}
+                        </Button>
+                    )}
                 </div>
 
                 <div className="mt-6">

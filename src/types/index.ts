@@ -12,6 +12,50 @@ export interface Character {
   hiragana: string;
   type: CharacterType;
   audioUrl?: string;
+  // Learn mode extensions
+  group?: string;
+  order?: number;
+  name?: string;
+  mnemonic?: {
+    en: string;
+    es?: string;
+    [key: string]: string | undefined;
+  };
+}
+
+// Extended character type for Korean with native field name
+export interface KoreanCharacter {
+  romaji: string;
+  character: string;
+  type: KoreanCharacterType;
+  name?: string;
+  group?: string;
+  order?: number;
+  mnemonic?: {
+    en: string;
+    es?: string;
+    [key: string]: string | undefined;
+  };
+  audioUrl?: string;
+}
+
+// Lesson structure for alphabet learning
+export interface AlphabetLesson {
+  id: string;
+  name: string;
+  nameKey?: string;
+  characters: string[];
+  prerequisite: string | null;
+  estimatedMinutes: number;
+}
+
+// Alphabet lesson path configuration
+export interface AlphabetLessonPath {
+  name: string;
+  nameKey?: string;
+  description: string;
+  descriptionKey?: string;
+  lessons: AlphabetLesson[];
 }
 
 export interface Filter {
@@ -117,15 +161,42 @@ export interface ModuleStats {
   kanjiMastered?: number;
   pointsMastered?: number;
   comprehensionScore?: number;
+  comprehensionTotal?: number;
+  comprehensionCorrect?: number;
   totalAttempts?: number;
   exercisesCompleted?: number;
   textsRead?: number;
   accuracy?: number;
 }
 
+// SRS Review data for spaced repetition
+export interface ReviewData {
+  interval: number;
+  easeFactor: number;
+  nextReview: string; // ISO date string
+  repetitions: number;
+  lastReview?: string;
+}
+
 export interface ModuleData {
   learned?: string[];
-  reviews?: Record<string, any>;
+  reviews?: Record<string, ReviewData>;
   stats: ModuleStats;
   completed?: string[];
+}
+
+// Storage data structure for progress tracking
+export interface StorageData {
+  alphabet?: ModuleData;
+  vocabulary?: ModuleData;
+  kanji?: ModuleData;
+  grammar?: ModuleData;
+  reading?: ModuleData;
+  listening?: ModuleData;
+  globalStats?: {
+    streak: number;
+    bestStreak: number;
+    totalStudyTime: number;
+    lastActive: string;
+  };
 }

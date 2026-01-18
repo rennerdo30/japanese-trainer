@@ -19,12 +19,12 @@ interface LanguageContentGuardProps {
 // This is separate from language-configs.json which defines which modules a language SHOULD have
 // A language might have a module enabled but no data yet (shows "Coming Soon")
 const MODULE_DATA_AVAILABILITY: Record<string, string[]> = {
-  alphabet: ['ja', 'ko'],                           // Japanese (Hiragana/Katakana), Korean (Hangul)
-  vocabulary: ['ja', 'ko', 'zh', 'es', 'de', 'en', 'it'], // Japanese, Korean, Chinese, Spanish, German, English, Italian
-  kanji: ['ja', 'zh'],                              // Japanese (Kanji), Chinese (Hanzi)
-  grammar: ['ja', 'ko', 'zh', 'es', 'de', 'en', 'it'],    // Japanese, Korean, Chinese, Spanish, German, English, Italian
-  reading: ['ja', 'es'],                            // Japanese and Spanish
-  listening: ['ja'],                                // Only Japanese has listening data for now
+  alphabet: ['ja', 'ko'],                                     // Japanese (Hiragana/Katakana), Korean (Hangul)
+  vocabulary: ['ja', 'ko', 'zh', 'es', 'de', 'en', 'it'],     // Japanese, Korean, Chinese, Spanish, German, English, Italian
+  kanji: ['ja', 'zh'],                                        // Japanese (Kanji), Chinese (Hanzi)
+  grammar: ['ja', 'ko', 'zh', 'es', 'de', 'en', 'it'],        // Japanese, Korean, Chinese, Spanish, German, English, Italian
+  reading: ['ja', 'ko', 'zh', 'es', 'de', 'en', 'it'],        // All languages with readings.json
+  listening: ['ja', 'ko', 'zh', 'es', 'de', 'en', 'it'],      // All languages with listening.json
 };
 
 export default function LanguageContentGuard({

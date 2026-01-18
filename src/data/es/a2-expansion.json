@@ -1,0 +1,566 @@
+{
+  "vocabulary": [
+    {
+      "id": "es-vocab-a2-1",
+      "word": "despertarse",
+      "level": "A2",
+      "meanings": { "en": ["to wake up"], "ja": ["起きる"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Me despierto a las siete.", "translation": "I wake up at seven." }]
+    },
+    {
+      "id": "es-vocab-a2-2",
+      "word": "ducharse",
+      "level": "A2",
+      "meanings": { "en": ["to shower"], "ja": ["シャワーを浴びる"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Me ducho por la mañana.", "translation": "I shower in the morning." }]
+    },
+    {
+      "id": "es-vocab-a2-3",
+      "word": "vestirse",
+      "level": "A2",
+      "meanings": { "en": ["to get dressed"], "ja": ["服を着る"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Me visto rápidamente.", "translation": "I get dressed quickly." }]
+    },
+    {
+      "id": "es-vocab-a2-4",
+      "word": "acostarse",
+      "level": "A2",
+      "meanings": { "en": ["to go to bed"], "ja": ["寝る"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Me acuesto a las once.", "translation": "I go to bed at eleven." }]
+    },
+    {
+      "id": "es-vocab-a2-5",
+      "word": "la tienda",
+      "level": "A2",
+      "meanings": { "en": ["the store", "the shop"], "ja": ["店"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Voy a la tienda a comprar leche.", "translation": "I'm going to the store to buy milk." }]
+    },
+    {
+      "id": "es-vocab-a2-6",
+      "word": "el precio",
+      "level": "A2",
+      "meanings": { "en": ["the price"], "ja": ["価格"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "¿Cuál es el precio de esta camisa?", "translation": "What is the price of this shirt?" }]
+    },
+    {
+      "id": "es-vocab-a2-7",
+      "word": "barato",
+      "level": "A2",
+      "meanings": { "en": ["cheap", "inexpensive"], "ja": ["安い"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "Este restaurante es muy barato.", "translation": "This restaurant is very cheap." }]
+    },
+    {
+      "id": "es-vocab-a2-8",
+      "word": "caro",
+      "level": "A2",
+      "meanings": { "en": ["expensive"], "ja": ["高い"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "El hotel es demasiado caro.", "translation": "The hotel is too expensive." }]
+    },
+    {
+      "id": "es-vocab-a2-9",
+      "word": "pagar",
+      "level": "A2",
+      "meanings": { "en": ["to pay"], "ja": ["払う"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Quiero pagar con tarjeta.", "translation": "I want to pay by card." }]
+    },
+    {
+      "id": "es-vocab-a2-10",
+      "word": "el vuelo",
+      "level": "A2",
+      "meanings": { "en": ["the flight"], "ja": ["フライト"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Mi vuelo sale a las tres.", "translation": "My flight leaves at three." }]
+    },
+    {
+      "id": "es-vocab-a2-11",
+      "word": "el aeropuerto",
+      "level": "A2",
+      "meanings": { "en": ["the airport"], "ja": ["空港"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Llegamos al aeropuerto temprano.", "translation": "We arrived at the airport early." }]
+    },
+    {
+      "id": "es-vocab-a2-12",
+      "word": "la maleta",
+      "level": "A2",
+      "meanings": { "en": ["the suitcase"], "ja": ["スーツケース"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Mi maleta es azul.", "translation": "My suitcase is blue." }]
+    },
+    {
+      "id": "es-vocab-a2-13",
+      "word": "el pasaporte",
+      "level": "A2",
+      "meanings": { "en": ["the passport"], "ja": ["パスポート"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Necesitas tu pasaporte para viajar.", "translation": "You need your passport to travel." }]
+    },
+    {
+      "id": "es-vocab-a2-14",
+      "word": "reservar",
+      "level": "A2",
+      "meanings": { "en": ["to book", "to reserve"], "ja": ["予約する"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Quiero reservar una habitación.", "translation": "I want to book a room." }]
+    },
+    {
+      "id": "es-vocab-a2-15",
+      "word": "llover",
+      "level": "A2",
+      "meanings": { "en": ["to rain"], "ja": ["雨が降る"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Va a llover mañana.", "translation": "It's going to rain tomorrow." }]
+    },
+    {
+      "id": "es-vocab-a2-16",
+      "word": "nevar",
+      "level": "A2",
+      "meanings": { "en": ["to snow"], "ja": ["雪が降る"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "En invierno nieva mucho.", "translation": "It snows a lot in winter." }]
+    },
+    {
+      "id": "es-vocab-a2-17",
+      "word": "el sol",
+      "level": "A2",
+      "meanings": { "en": ["the sun"], "ja": ["太陽"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Hace sol hoy.", "translation": "It's sunny today." }]
+    },
+    {
+      "id": "es-vocab-a2-18",
+      "word": "la nube",
+      "level": "A2",
+      "meanings": { "en": ["the cloud"], "ja": ["雲"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Hay muchas nubes en el cielo.", "translation": "There are many clouds in the sky." }]
+    },
+    {
+      "id": "es-vocab-a2-19",
+      "word": "el viento",
+      "level": "A2",
+      "meanings": { "en": ["the wind"], "ja": ["風"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Hace mucho viento hoy.", "translation": "It's very windy today." }]
+    },
+    {
+      "id": "es-vocab-a2-20",
+      "word": "alto",
+      "level": "A2",
+      "meanings": { "en": ["tall", "high"], "ja": ["高い", "背が高い"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "Mi hermano es muy alto.", "translation": "My brother is very tall." }]
+    },
+    {
+      "id": "es-vocab-a2-21",
+      "word": "bajo",
+      "level": "A2",
+      "meanings": { "en": ["short", "low"], "ja": ["低い", "背が低い"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "La mesa es muy baja.", "translation": "The table is very low." }]
+    },
+    {
+      "id": "es-vocab-a2-22",
+      "word": "delgado",
+      "level": "A2",
+      "meanings": { "en": ["thin", "slim"], "ja": ["細い", "痩せた"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "Ella es alta y delgada.", "translation": "She is tall and slim." }]
+    },
+    {
+      "id": "es-vocab-a2-23",
+      "word": "gordo",
+      "level": "A2",
+      "meanings": { "en": ["fat", "overweight"], "ja": ["太った"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "El gato está un poco gordo.", "translation": "The cat is a bit fat." }]
+    },
+    {
+      "id": "es-vocab-a2-24",
+      "word": "rubio",
+      "level": "A2",
+      "meanings": { "en": ["blond"], "ja": ["金髪の"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "Mi amiga es rubia.", "translation": "My friend is blond." }]
+    },
+    {
+      "id": "es-vocab-a2-25",
+      "word": "moreno",
+      "level": "A2",
+      "meanings": { "en": ["dark-haired", "brunette"], "ja": ["黒髪の"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "Juan es moreno y tiene ojos verdes.", "translation": "Juan is dark-haired and has green eyes." }]
+    },
+    {
+      "id": "es-vocab-a2-26",
+      "word": "comer",
+      "level": "A2",
+      "meanings": { "en": ["to eat"], "ja": ["食べる"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Ayer comí paella.", "translation": "Yesterday I ate paella." }]
+    },
+    {
+      "id": "es-vocab-a2-27",
+      "word": "beber",
+      "level": "A2",
+      "meanings": { "en": ["to drink"], "ja": ["飲む"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Bebimos vino en la cena.", "translation": "We drank wine at dinner." }]
+    },
+    {
+      "id": "es-vocab-a2-28",
+      "word": "escribir",
+      "level": "A2",
+      "meanings": { "en": ["to write"], "ja": ["書く"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Escribí una carta a mi abuela.", "translation": "I wrote a letter to my grandmother." }]
+    },
+    {
+      "id": "es-vocab-a2-29",
+      "word": "leer",
+      "level": "A2",
+      "meanings": { "en": ["to read"], "ja": ["読む"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Leí el periódico esta mañana.", "translation": "I read the newspaper this morning." }]
+    },
+    {
+      "id": "es-vocab-a2-30",
+      "word": "el médico",
+      "level": "A2",
+      "meanings": { "en": ["the doctor"], "ja": ["医者"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Fui al médico ayer.", "translation": "I went to the doctor yesterday." }]
+    },
+    {
+      "id": "es-vocab-a2-31",
+      "word": "la farmacia",
+      "level": "A2",
+      "meanings": { "en": ["the pharmacy"], "ja": ["薬局"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Compré medicina en la farmacia.", "translation": "I bought medicine at the pharmacy." }]
+    },
+    {
+      "id": "es-vocab-a2-32",
+      "word": "enfermo",
+      "level": "A2",
+      "meanings": { "en": ["sick", "ill"], "ja": ["病気の"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "Estoy enfermo, tengo fiebre.", "translation": "I'm sick, I have a fever." }]
+    },
+    {
+      "id": "es-vocab-a2-33",
+      "word": "el dolor",
+      "level": "A2",
+      "meanings": { "en": ["the pain", "the ache"], "ja": ["痛み"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Tengo dolor de cabeza.", "translation": "I have a headache." }]
+    },
+    {
+      "id": "es-vocab-a2-34",
+      "word": "la fiebre",
+      "level": "A2",
+      "meanings": { "en": ["the fever"], "ja": ["熱"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "El niño tiene fiebre.", "translation": "The child has a fever." }]
+    },
+    {
+      "id": "es-vocab-a2-35",
+      "word": "nadar",
+      "level": "A2",
+      "meanings": { "en": ["to swim"], "ja": ["泳ぐ"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Me gusta nadar en el mar.", "translation": "I like to swim in the sea." }]
+    },
+    {
+      "id": "es-vocab-a2-36",
+      "word": "correr",
+      "level": "A2",
+      "meanings": { "en": ["to run"], "ja": ["走る"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Corro en el parque todos los días.", "translation": "I run in the park every day." }]
+    },
+    {
+      "id": "es-vocab-a2-37",
+      "word": "pintar",
+      "level": "A2",
+      "meanings": { "en": ["to paint"], "ja": ["絵を描く"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Mi hermana pinta cuadros.", "translation": "My sister paints pictures." }]
+    },
+    {
+      "id": "es-vocab-a2-38",
+      "word": "cocinar",
+      "level": "A2",
+      "meanings": { "en": ["to cook"], "ja": ["料理する"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Me encanta cocinar para mi familia.", "translation": "I love to cook for my family." }]
+    },
+    {
+      "id": "es-vocab-a2-39",
+      "word": "bailar",
+      "level": "A2",
+      "meanings": { "en": ["to dance"], "ja": ["踊る"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Bailamos salsa en la fiesta.", "translation": "We danced salsa at the party." }]
+    },
+    {
+      "id": "es-vocab-a2-40",
+      "word": "cantar",
+      "level": "A2",
+      "meanings": { "en": ["to sing"], "ja": ["歌う"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Ella canta muy bien.", "translation": "She sings very well." }]
+    },
+    {
+      "id": "es-vocab-a2-41",
+      "word": "ayer",
+      "level": "A2",
+      "meanings": { "en": ["yesterday"], "ja": ["昨日"] },
+      "partOfSpeech": "adverb",
+      "examples": [{ "sentence": "Ayer fui al cine.", "translation": "Yesterday I went to the cinema." }]
+    },
+    {
+      "id": "es-vocab-a2-42",
+      "word": "la semana pasada",
+      "level": "A2",
+      "meanings": { "en": ["last week"], "ja": ["先週"] },
+      "partOfSpeech": "noun phrase",
+      "examples": [{ "sentence": "La semana pasada visité a mis abuelos.", "translation": "Last week I visited my grandparents." }]
+    },
+    {
+      "id": "es-vocab-a2-43",
+      "word": "el mes pasado",
+      "level": "A2",
+      "meanings": { "en": ["last month"], "ja": ["先月"] },
+      "partOfSpeech": "noun phrase",
+      "examples": [{ "sentence": "El mes pasado viajé a México.", "translation": "Last month I traveled to Mexico." }]
+    },
+    {
+      "id": "es-vocab-a2-44",
+      "word": "mientras",
+      "level": "A2",
+      "meanings": { "en": ["while", "meanwhile"], "ja": ["〜している間"] },
+      "partOfSpeech": "conjunction",
+      "examples": [{ "sentence": "Leía mientras esperaba.", "translation": "I was reading while I waited." }]
+    },
+    {
+      "id": "es-vocab-a2-45",
+      "word": "entonces",
+      "level": "A2",
+      "meanings": { "en": ["then", "so"], "ja": ["それから", "その時"] },
+      "partOfSpeech": "adverb",
+      "examples": [{ "sentence": "Entonces, ¿qué pasó?", "translation": "So, what happened?" }]
+    },
+    {
+      "id": "es-vocab-a2-46",
+      "word": "todavía",
+      "level": "A2",
+      "meanings": { "en": ["still", "yet"], "ja": ["まだ"] },
+      "partOfSpeech": "adverb",
+      "examples": [{ "sentence": "Todavía no he terminado.", "translation": "I haven't finished yet." }]
+    },
+    {
+      "id": "es-vocab-a2-47",
+      "word": "ya",
+      "level": "A2",
+      "meanings": { "en": ["already", "now"], "ja": ["もう", "すでに"] },
+      "partOfSpeech": "adverb",
+      "examples": [{ "sentence": "Ya he comido.", "translation": "I have already eaten." }]
+    },
+    {
+      "id": "es-vocab-a2-48",
+      "word": "siempre",
+      "level": "A2",
+      "meanings": { "en": ["always"], "ja": ["いつも"] },
+      "partOfSpeech": "adverb",
+      "examples": [{ "sentence": "Siempre desayuno a las ocho.", "translation": "I always have breakfast at eight." }]
+    },
+    {
+      "id": "es-vocab-a2-49",
+      "word": "nunca",
+      "level": "A2",
+      "meanings": { "en": ["never"], "ja": ["決して〜ない"] },
+      "partOfSpeech": "adverb",
+      "examples": [{ "sentence": "Nunca he estado en España.", "translation": "I have never been to Spain." }]
+    },
+    {
+      "id": "es-vocab-a2-50",
+      "word": "a veces",
+      "level": "A2",
+      "meanings": { "en": ["sometimes"], "ja": ["時々"] },
+      "partOfSpeech": "adverb phrase",
+      "examples": [{ "sentence": "A veces como en restaurantes.", "translation": "Sometimes I eat at restaurants." }]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "es-grammar-a2-1",
+      "title": "Preterite Tense (Regular Verbs)",
+      "level": "A2",
+      "explanation": "The preterite tense is used to describe completed actions in the past. For -AR verbs, remove -ar and add: -é, -aste, -ó, -amos, -asteis, -aron. For -ER/-IR verbs, remove the ending and add: -í, -iste, -ió, -imos, -isteis, -ieron.",
+      "examples": [
+        { "sentence": "Ayer hablé con mi madre.", "translation": "Yesterday I talked with my mother." },
+        { "sentence": "Comimos pizza anoche.", "translation": "We ate pizza last night." },
+        { "sentence": "Ella escribió una carta.", "translation": "She wrote a letter." }
+      ],
+      "patterns": ["hablar → hablé, hablaste, habló, hablamos, hablasteis, hablaron", "comer → comí, comiste, comió, comimos, comisteis, comieron", "vivir → viví, viviste, vivió, vivimos, vivisteis, vivieron"],
+      "exercises": [
+        { "type": "fill-blank", "question": "Ayer yo ___ (hablar) con Juan.", "options": ["hablé", "hablo", "hablaré"], "correct": 0 },
+        { "type": "fill-blank", "question": "Ellos ___ (comer) en el restaurante.", "options": ["comieron", "comen", "comerán"], "correct": 0 }
+      ]
+    },
+    {
+      "id": "es-grammar-a2-2",
+      "title": "Imperfect Tense",
+      "level": "A2",
+      "explanation": "The imperfect tense describes ongoing or habitual actions in the past, background descriptions, and actions without a specific endpoint. For -AR verbs: -aba, -abas, -aba, -ábamos, -abais, -aban. For -ER/-IR verbs: -ía, -ías, -ía, -íamos, -íais, -ían.",
+      "examples": [
+        { "sentence": "Cuando era niño, jugaba en el parque.", "translation": "When I was a child, I used to play in the park." },
+        { "sentence": "Mientras estudiaba, escuchaba música.", "translation": "While I was studying, I was listening to music." },
+        { "sentence": "Hacía sol y los pájaros cantaban.", "translation": "It was sunny and the birds were singing." }
+      ],
+      "patterns": ["hablar → hablaba, hablabas, hablaba, hablábamos, hablabais, hablaban", "comer → comía, comías, comía, comíamos, comíais, comían", "vivir → vivía, vivías, vivía, vivíamos, vivíais, vivían"],
+      "exercises": [
+        { "type": "fill-blank", "question": "Cuando era joven, ___ (vivir) en Madrid.", "options": ["vivía", "viví", "viviré"], "correct": 0 },
+        { "type": "fill-blank", "question": "De niña, ella ___ (jugar) con muñecas.", "options": ["jugaba", "jugó", "jugará"], "correct": 0 }
+      ]
+    },
+    {
+      "id": "es-grammar-a2-3",
+      "title": "Preterite vs Imperfect",
+      "level": "A2",
+      "explanation": "The preterite is used for completed, one-time actions with a clear beginning or end. The imperfect is used for ongoing states, habitual past actions, and background descriptions. Often both tenses are used together: imperfect for background, preterite for the main action.",
+      "examples": [
+        { "sentence": "Llovía cuando salí de casa.", "translation": "It was raining when I left home." },
+        { "sentence": "Mientras dormía, sonó el teléfono.", "translation": "While I was sleeping, the phone rang." },
+        { "sentence": "Era tarde y estaba cansado.", "translation": "It was late and I was tired." }
+      ],
+      "patterns": ["Background (imperfect) + Main action (preterite)", "Habitual action = imperfect", "Specific completed action = preterite"],
+      "exercises": [
+        { "type": "fill-blank", "question": "___ (Llover) cuando ___ (llegar) a casa.", "options": ["Llovía, llegué", "Llovió, llegaba", "Llovía, llegaba"], "correct": 0 },
+        { "type": "fill-blank", "question": "Cuando ___ (ser) niño, siempre ___ (ir) a la playa.", "options": ["era, iba", "fui, iba", "era, fui"], "correct": 0 }
+      ]
+    },
+    {
+      "id": "es-grammar-a2-4",
+      "title": "Comparatives",
+      "level": "A2",
+      "explanation": "To compare two things: más/menos + adjective + que (more/less than). Some adjectives have irregular comparatives: bueno → mejor, malo → peor, grande → mayor, pequeño → menor. For equality: tan + adjective + como (as ... as).",
+      "examples": [
+        { "sentence": "María es más alta que Pedro.", "translation": "María is taller than Pedro." },
+        { "sentence": "Este libro es menos interesante que el otro.", "translation": "This book is less interesting than the other one." },
+        { "sentence": "Mi hermano es tan inteligente como yo.", "translation": "My brother is as intelligent as me." }
+      ],
+      "patterns": ["más + adjective + que", "menos + adjective + que", "tan + adjective + como", "mejor/peor/mayor/menor + que"],
+      "exercises": [
+        { "type": "fill-blank", "question": "Juan es ___ alto ___ Miguel.", "options": ["más, que", "tan, como", "menos, como"], "correct": 0 },
+        { "type": "fill-blank", "question": "Este restaurante es ___ que el otro.", "options": ["mejor", "más bueno", "bueno"], "correct": 0 }
+      ]
+    },
+    {
+      "id": "es-grammar-a2-5",
+      "title": "Future Tense (Simple)",
+      "level": "A2",
+      "explanation": "The simple future is formed by adding these endings to the infinitive: -é, -ás, -á, -emos, -éis, -án. It expresses future actions, predictions, and probability. Some verbs have irregular stems: tener → tendr-, poder → podr-, hacer → har-, decir → dir-, salir → saldr-.",
+      "examples": [
+        { "sentence": "Mañana iré al cine.", "translation": "Tomorrow I will go to the cinema." },
+        { "sentence": "¿Vendrás a la fiesta?", "translation": "Will you come to the party?" },
+        { "sentence": "El año que viene viajaremos a España.", "translation": "Next year we will travel to Spain." }
+      ],
+      "patterns": ["hablar → hablaré, hablarás, hablará, hablaremos, hablaréis, hablarán", "comer → comeré, comerás, comerá, comeremos, comeréis, comerán", "tener → tendré, poder → podré, hacer → haré"],
+      "exercises": [
+        { "type": "fill-blank", "question": "Mañana ___ (estudiar) para el examen.", "options": ["estudiaré", "estudio", "estudié"], "correct": 0 },
+        { "type": "fill-blank", "question": "Ellos ___ (venir) a las ocho.", "options": ["vendrán", "vienen", "vinieron"], "correct": 0 }
+      ]
+    },
+    {
+      "id": "es-grammar-a2-6",
+      "title": "Reflexive Verbs",
+      "level": "A2",
+      "explanation": "Reflexive verbs indicate that the subject performs an action on itself. They use reflexive pronouns: me, te, se, nos, os, se. Many daily routine verbs are reflexive: levantarse, ducharse, vestirse, acostarse, lavarse, peinarse.",
+      "examples": [
+        { "sentence": "Me levanto a las siete.", "translation": "I get up at seven." },
+        { "sentence": "¿A qué hora te acuestas?", "translation": "What time do you go to bed?" },
+        { "sentence": "Ella se maquilla por la mañana.", "translation": "She puts on makeup in the morning." }
+      ],
+      "patterns": ["yo me + verb", "tú te + verb", "él/ella/usted se + verb", "nosotros nos + verb", "vosotros os + verb", "ellos/ustedes se + verb"],
+      "exercises": [
+        { "type": "fill-blank", "question": "Yo ___ (ducharse) por la mañana.", "options": ["me ducho", "ducho", "se ducho"], "correct": 0 },
+        { "type": "fill-blank", "question": "Ellos ___ (levantarse) temprano.", "options": ["se levantan", "levantan", "me levantan"], "correct": 0 }
+      ]
+    },
+    {
+      "id": "es-grammar-a2-7",
+      "title": "Direct Object Pronouns",
+      "level": "A2",
+      "explanation": "Direct object pronouns replace the noun receiving the action: me (me), te (you), lo/la (him/her/it/you formal), nos (us), os (you all), los/las (them/you all). They are placed before the conjugated verb or attached to infinitives and gerunds.",
+      "examples": [
+        { "sentence": "¿Tienes el libro? Sí, lo tengo.", "translation": "Do you have the book? Yes, I have it." },
+        { "sentence": "¿Conoces a María? Sí, la conozco.", "translation": "Do you know María? Yes, I know her." },
+        { "sentence": "Voy a comprarlo mañana.", "translation": "I'm going to buy it tomorrow." }
+      ],
+      "patterns": ["lo (him/it masculine)", "la (her/it feminine)", "los (them masculine)", "las (them feminine)", "Pronoun + conjugated verb", "Infinitive + pronoun"],
+      "exercises": [
+        { "type": "fill-blank", "question": "¿Ves la película? Sí, ___ veo.", "options": ["la", "lo", "las"], "correct": 0 },
+        { "type": "fill-blank", "question": "¿Tienes los libros? Sí, ___ tengo.", "options": ["los", "las", "lo"], "correct": 0 }
+      ]
+    },
+    {
+      "id": "es-grammar-a2-8",
+      "title": "Indirect Object Pronouns",
+      "level": "A2",
+      "explanation": "Indirect object pronouns indicate to whom or for whom an action is done: me (to me), te (to you), le (to him/her/you formal), nos (to us), os (to you all), les (to them/you all). They are placed before the verb and often used with verbs like dar, decir, escribir, enviar.",
+      "examples": [
+        { "sentence": "Le di el libro a Juan.", "translation": "I gave the book to Juan." },
+        { "sentence": "¿Me puedes ayudar?", "translation": "Can you help me?" },
+        { "sentence": "Nos enviaron una carta.", "translation": "They sent us a letter." }
+      ],
+      "patterns": ["me (to me)", "te (to you)", "le (to him/her/you)", "nos (to us)", "os (to you all)", "les (to them)"],
+      "exercises": [
+        { "type": "fill-blank", "question": "___ escribí una carta a mi amigo.", "options": ["Le", "Lo", "La"], "correct": 0 },
+        { "type": "fill-blank", "question": "¿___ puedes dar el menú?", "options": ["Me", "Mi", "Mí"], "correct": 0 }
+      ]
+    },
+    {
+      "id": "es-grammar-a2-9",
+      "title": "Conditional Tense",
+      "level": "A2",
+      "explanation": "The conditional expresses what would happen, polite requests, and hypothetical situations. It is formed by adding -ía, -ías, -ía, -íamos, -íais, -ían to the infinitive. Verbs with irregular future stems use the same irregular stem for conditional.",
+      "examples": [
+        { "sentence": "Me gustaría un café, por favor.", "translation": "I would like a coffee, please." },
+        { "sentence": "¿Podrías ayudarme?", "translation": "Could you help me?" },
+        { "sentence": "Si tuviera tiempo, viajaría más.", "translation": "If I had time, I would travel more." }
+      ],
+      "patterns": ["hablar → hablaría, hablarías, hablaría, hablaríamos, hablaríais, hablarían", "comer → comería, comerías, comería, comeríamos, comeríais, comerían", "tener → tendría, poder → podría, hacer → haría"],
+      "exercises": [
+        { "type": "fill-blank", "question": "Me ___ (gustar) visitar España.", "options": ["gustaría", "gusta", "gustó"], "correct": 0 },
+        { "type": "fill-blank", "question": "¿___ (poder) cerrar la ventana?", "options": ["Podrías", "Puedes", "Pudiste"], "correct": 0 }
+      ]
+    },
+    {
+      "id": "es-grammar-a2-10",
+      "title": "Ir a + Infinitive (Near Future)",
+      "level": "A2",
+      "explanation": "The construction 'ir a + infinitive' expresses future plans and intentions, similar to 'going to' in English. It is very common in spoken Spanish and is formed with the present tense of ir (voy, vas, va, vamos, vais, van) + a + infinitive.",
+      "examples": [
+        { "sentence": "Voy a estudiar esta noche.", "translation": "I'm going to study tonight." },
+        { "sentence": "¿Qué vas a hacer mañana?", "translation": "What are you going to do tomorrow?" },
+        { "sentence": "Vamos a comer en un restaurante.", "translation": "We're going to eat at a restaurant." }
+      ],
+      "patterns": ["voy a + infinitive", "vas a + infinitive", "va a + infinitive", "vamos a + infinitive", "vais a + infinitive", "van a + infinitive"],
+      "exercises": [
+        { "type": "fill-blank", "question": "Mañana ___ a visitar a mis abuelos.", "options": ["voy", "fui", "iré"], "correct": 0 },
+        { "type": "fill-blank", "question": "¿___ a venir a la fiesta?", "options": ["Vas", "Fuiste", "Irás"], "correct": 0 }
+      ]
+    }
+  ]
+}

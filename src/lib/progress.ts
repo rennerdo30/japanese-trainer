@@ -3,6 +3,7 @@
 
 import { getAllData, getGlobalStats, updateGlobalStats, getModuleData, getReviewData } from './storage';
 import { ProgressSummary } from '@/types/context';
+import { ReviewData } from '@/types';
 
 interface GlobalStats {
     streak?: number;
@@ -83,10 +84,10 @@ export function recordStudyTime(seconds: number): void {
 }
 
 // Get items due for review (for SRS)
-export function getItemsDueForReview(moduleName: string): Array<{ itemId: string; reviewData: any }> {
+export function getItemsDueForReview(moduleName: string): Array<{ itemId: string; reviewData: ReviewData }> {
     const moduleData = getModuleData(moduleName);
     const now = Date.now();
-    const dueItems: Array<{ itemId: string; reviewData: any }> = [];
+    const dueItems: Array<{ itemId: string; reviewData: ReviewData }> = [];
     
     for (const [itemId, reviewData] of Object.entries(moduleData.reviews || {})) {
         if (reviewData && reviewData.nextReview && reviewData.nextReview <= now) {
@@ -104,10 +105,11 @@ export function getItemsDueForReview(moduleName: string): Array<{ itemId: string
 export function getMasteryLevel(moduleName: string, itemId: string): string {
     const reviewData = getReviewData(moduleName, itemId);
     if (!reviewData) return 'new';
-    
-    const repetitions = reviewData.repetitions || 0;
-    const interval = reviewData.interval || 0;
-    
+
+    // Type-safe access to review data properties
+    const repetitions = typeof reviewData.repetitions === 'number' ? reviewData.repetitions : 0;
+    const interval = typeof reviewData.interval === 'number' ? reviewData.interval : 0;
+
     if (repetitions >= 5 && interval >= 30) return 'mastered';
     if (repetitions >= 3 && interval >= 7) return 'advanced';
     if (repetitions >= 1) return 'learning';

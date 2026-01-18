@@ -5,7 +5,7 @@ const JISHO_API = 'https://jisho.org/api/v1/search/words?keyword=';
 const TATOEBA_API = 'https://tatoeba.org/en/api_v0/search?from=jpn&to=eng&query=';
 
 interface CacheEntry {
-    data: any;
+    data: unknown;
     timestamp: number;
 }
 
@@ -29,16 +29,16 @@ interface TatoebaResult {
 }
 
 // Fetch with caching
-async function fetchWithCache(url: string, cacheKey: string): Promise<any> {
+async function fetchWithCache(url: string, cacheKey: string): Promise<unknown> {
     const cached = apiCache.get(cacheKey);
     if (cached && Date.now() - cached.timestamp < CACHE_DURATION) {
         return cached.data;
     }
-    
+
     try {
         const response = await fetch(url);
         if (!response.ok) throw new Error(`API error: ${response.status}`);
-        const data = await response.json();
+        const data: unknown = await response.json();
         apiCache.set(cacheKey, { data, timestamp: Date.now() });
         return data;
     } catch (error) {
@@ -59,7 +59,7 @@ export async function searchJisho(query: string): Promise<JishoResult | null> {
     return {
         word: result.japanese[0]?.word || '',
         reading: result.japanese[0]?.reading || '',
-        meanings: result.senses.map((sense: any) => ({
+        meanings: result.senses.map((sense: { english_definitions: string[]; parts_of_speech: string[] }) => ({
             english: sense.english_definitions,
             partOfSpeech: sense.parts_of_speech
         })),
@@ -75,7 +75,7 @@ export async function searchTatoeba(query: string, limit: number = 5): Promise<T
     const data = await fetchWithCache(url, cacheKey);
     if (!data || !data.results) return [];
     
-    return data.results.map((result: any) => ({
+    return data.results.map((result: { text: string; translations?: Array<{ text: string }> }) => ({
         japanese: result.text,
         english: result.translations?.[0]?.text || ''
     }));

@@ -9,6 +9,7 @@ export default defineSchema({
   userData: defineTable({
     userId: v.string(),
     targetLanguage: v.optional(v.string()), // 'ja', 'es', 'ko', 'zh' etc.
+    anonymousName: v.optional(v.string()), // Generated display name for leaderboard
     modules: v.object({
       alphabet: v.object({
         learned: v.array(v.string()),
@@ -88,6 +89,19 @@ export default defineSchema({
       ttsVolume: v.number(),
       timerEnabled: v.boolean(),
       timerDuration: v.number(),
+      leaderboardVisible: v.optional(v.boolean()), // Show on leaderboard (default true)
+      kokoroVoice: v.optional(v.string()), // Legacy single voice (kept for backwards compat)
+      // Per-language Kokoro voice preferences
+      kokoroVoices: v.optional(v.object({
+        ja: v.optional(v.string()), // Japanese voice (e.g., 'jf_alpha')
+        zh: v.optional(v.string()), // Chinese voice (e.g., 'zf_xiaobei')
+        es: v.optional(v.string()), // Spanish voice (e.g., 'ef_dora')
+        fr: v.optional(v.string()), // French voice (e.g., 'ff_siwis')
+        hi: v.optional(v.string()), // Hindi voice
+        it: v.optional(v.string()), // Italian voice
+        pt: v.optional(v.string()), // Portuguese voice
+        en: v.optional(v.string()), // English voice (e.g., 'af_heart')
+      })),
     }),
   })
     .index("by_userId", ["userId"]),

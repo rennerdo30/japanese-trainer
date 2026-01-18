@@ -9,7 +9,9 @@ import ReviewProgress from '@/components/review/ReviewProgress';
 import ReviewStats from '@/components/review/ReviewStats';
 import { useProgressContext } from '@/context/ProgressProvider';
 import { useLanguage } from '@/context/LanguageProvider';
+import { useTargetLanguage } from '@/hooks/useTargetLanguage';
 import { useTTS } from '@/hooks/useTTS';
+import { getVocabularyData } from '@/lib/dataLoader';
 import {
   ReviewQueue,
   ReviewItem,
@@ -24,11 +26,6 @@ import {
 import { IoBook, IoSchool, IoDocumentText, IoCheckmarkCircle, IoTime, IoFlame } from 'react-icons/io5';
 import styles from './review.module.css';
 
-// Import vocabulary, kanji, grammar data for card display
-import vocabularyJson from '@/data/ja/vocabulary.json';
-import kanjiJson from '@/data/ja/kanji.json';
-import grammarJson from '@/data/ja/grammar.json';
-
 type ReviewMode = 'overview' | 'session' | 'complete';
 
 interface ItemDataMap {
@@ -37,9 +34,30 @@ interface ItemDataMap {
   grammar: Record<string, { front: string; back: string; reading?: string; audioUrl?: string }>;
 }
 
+// Interface for kanji/hanzi data from JSON
+interface KanjiData {
+  id: string;
+  kanji?: string;
+  hanzi?: string;
+  meaning: string;
+  onyomi?: string[];
+  kunyomi?: string[];
+  pinyin?: string;
+  audioUrl?: string;
+}
+
+// Interface for grammar data from JSON
+interface GrammarData {
+  id: string;
+  title: string;
+  explanation?: string;
+  explanations?: { en?: string };
+}
+
 export default function ReviewPage() {
   const router = useRouter();
   const { t } = useLanguage();
+  const { targetLanguage, getDataUrl } = useTargetLanguage();
   const { speak } = useTTS();
   const { getModuleData, updateModuleReview } = useProgressContext();
 
@@ -50,11 +68,53 @@ export default function ReviewPage() {
   const [isLoading, setIsLoading] = useState(true);
   const [showAnswer, setShowAnswer] = useState(false);
   const [responseStartTime, setResponseStartTime] = useState<number>(0);
+  const [kanjiData, setKanjiData] = useState<KanjiData[]>([]);
+  const [grammarData, setGrammarData] = useState<GrammarData[]>([]);
 
-  // Build item data maps for display
+  // Load kanji/hanzi and grammar data when language changes
+  useEffect(() => {
+    const abortController = new AbortController();
+
+    const loadData = async () => {
+      try {
+        // Load kanji or hanzi based on language
+        const kanjiFileName = targetLanguage === 'zh' ? 'hanzi.json' : 'kanji.json';
+        const [kanjiResponse, grammarResponse] = await Promise.all([
+          fetch(getDataUrl(kanjiFileName), { signal: abortController.signal }).catch(() => null),
+          fetch(getDataUrl('grammar.json'), { signal: abortController.signal }).catch(() => null),
+        ]);
+
+        if (!abortController.signal.aborted) {
+          if (kanjiResponse?.ok) {
+            const data = await kanjiResponse.json();
+            setKanjiData(Array.isArray(data) ? data : []);
+          } else {
+            setKanjiData([]);
+          }
+
+          if (grammarResponse?.ok) {
+            const data = await grammarResponse.json();
+            setGrammarData(Array.isArray(data) ? data : []);
+          } else {
+            setGrammarData([]);
+          }
+        }
+      } catch (error) {
+        if (error instanceof Error && error.name === 'AbortError') return;
+        console.error('Failed to load review data:', error);
+      }
+    };
+
+    loadData();
+    return () => abortController.abort();
+  }, [targetLanguage, getDataUrl]);
+
+  // Build item data maps for display (now uses dynamic data)
   const itemDataMap = useMemo<ItemDataMap>(() => {
+    // Vocabulary from centralized dataLoader
     const vocabMap: ItemDataMap['vocabulary'] = {};
-    (vocabularyJson as Array<{ id: string; word: string; meaning: string; reading?: string; audioUrl?: string }>).forEach((item) => {
+    const vocabulary = getVocabularyData(targetLanguage);
+    vocabulary.forEach((item) => {
       vocabMap[item.id] = {
         front: item.word,
         back: item.meaning,
@@ -63,18 +123,25 @@ export default function ReviewPage() {
       };
     });
 
+    // Kanji/Hanzi from fetched data
     const kanjiMap: ItemDataMap['kanji'] = {};
-    (kanjiJson as Array<{ id: string; kanji: string; meaning: string; onyomi?: string[]; kunyomi?: string[]; audioUrl?: string }>).forEach((item) => {
+    kanjiData.forEach((item) => {
+      const character = item.kanji || item.hanzi || '';
+      const reading = item.pinyin
+        ? item.pinyin
+        : [...(item.onyomi || []), ...(item.kunyomi || [])].join(', ');
+
       kanjiMap[item.id] = {
-        front: item.kanji,
+        front: character,
         back: item.meaning,
-        reading: [...(item.onyomi || []), ...(item.kunyomi || [])].join(', '),
+        reading,
         audioUrl: item.audioUrl,
       };
     });
 
+    // Grammar from fetched data
     const grammarMap: ItemDataMap['grammar'] = {};
-    (grammarJson as Array<{ id: string; title: string; explanation?: string; explanations?: { en?: string } }>).forEach((item) => {
+    grammarData.forEach((item) => {
       grammarMap[item.id] = {
         front: item.title,
         back: item.explanations?.en || item.explanation || '',
@@ -82,7 +149,7 @@ export default function ReviewPage() {
     });
 
     return { vocabulary: vocabMap, kanji: kanjiMap, grammar: grammarMap };
-  }, []);
+  }, [targetLanguage, kanjiData, grammarData]);
 
   // Load review queue
   useEffect(() => {

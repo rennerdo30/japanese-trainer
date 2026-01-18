@@ -8,6 +8,7 @@
     "check": "Check",
     "submit": "Submit",
     "play": "Play",
+    "stop": "Stop",
     "loading": "Loading...",
     "correct": "Correct",
     "incorrect": "Incorrect",
@@ -55,11 +56,30 @@
     },
     "noCharacters": "No characters available with current filters."
   },
+  "learnMode": {
+    "learn": "Learn",
+    "practice": "Practice",
+    "progress": "Progress",
+    "learned": "Learned",
+    "type": "Type",
+    "group": "Group",
+    "playSound": "Play Sound",
+    "markLearned": "Mark as Learned",
+    "alreadyLearned": "Already Learned",
+    "mnemonic": "Memory Tip",
+    "noLessonsAvailable": "No lessons available for this language yet.",
+    "characterOf": "Character {current} of {total}",
+    "lessonComplete": "Lesson Complete!",
+    "nextLesson": "Next Lesson",
+    "selectLesson": "Select Lesson"
+  },
   "vocabulary": {
     "practiceMode": "Practice Mode",
     "typeMeaning": "Type meaning or romaji...",
     "typeWord": "Type the Japanese word...",
-    "noWords": "No words available."
+    "noWords": "No words available.",
+    "showHint": "Show Hint",
+    "hintShown": "Hint Shown"
   },
   "kanji": {
     "practiceMeaning": "Meaning",

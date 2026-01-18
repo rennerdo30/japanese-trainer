@@ -8,6 +8,7 @@ interface CharacterDisplayProps extends HTMLAttributes<HTMLDivElement> {
     entering?: boolean;
     correct?: boolean;
     subtext?: string;
+    variant?: 'character' | 'word';
 }
 
 export default function CharacterDisplay({
@@ -15,11 +16,13 @@ export default function CharacterDisplay({
     entering = false,
     correct = false,
     subtext,
+    variant = 'character',
     className = '',
     ...props
 }: CharacterDisplayProps) {
     const classes = [
         styles.display,
+        variant === 'word' && styles.wordDisplay,
         entering && styles.entering,
         correct && styles.correct,
         className

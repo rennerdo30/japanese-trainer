@@ -1,0 +1,509 @@
+.pageHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.headerIcon {
+  font-size: 2.5rem;
+  color: var(--accent-gold, #d4a574);
+}
+
+.pageTitle {
+  text-align: center;
+}
+
+.pageSubtitle {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Period Tabs */
+.periodTabs {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  background: var(--bg-secondary, #1a1a2e);
+  padding: 0.375rem;
+  border-radius: 0.75rem;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.periodTab {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  min-height: 44px;
+  background: transparent;
+  border: none;
+  border-radius: 0.5rem;
+  color: var(--text-muted, #666);
+  font-size: 0.9375rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.periodTab:hover {
+  color: var(--text-primary, #f5f0e8);
+}
+
+.periodTab.active {
+  background: var(--accent-gold, #d4a574);
+  color: var(--bg-primary, #0f0f1a);
+}
+
+/* Filter Row */
+.filterRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.languageDropdownContainer {
+  position: relative;
+}
+
+.languageDropdownButton {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  min-height: 44px;
+  background: var(--bg-card, #16162a);
+  border: 1px solid var(--border, #333);
+  border-radius: 0.5rem;
+  color: var(--text-primary, #f5f0e8);
+  font-size: 0.9375rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.languageDropdownButton:hover {
+  border-color: var(--accent-gold, #d4a574);
+}
+
+.languageDropdownButton svg:last-child {
+  transition: transform 0.2s ease;
+}
+
+.languageDropdownButton svg:last-child.rotated {
+  transform: rotate(180deg);
+}
+
+.languageDropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin-top: 0.25rem;
+  background: var(--bg-card, #16162a);
+  border: 1px solid var(--border, #333);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  z-index: 100;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.languageOption {
+  display: block;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  min-height: 44px;
+  background: transparent;
+  border: none;
+  text-align: left;
+  color: var(--text-primary, #f5f0e8);
+  font-size: 0.9375rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.languageOption:hover {
+  background: var(--bg-secondary, #1a1a2e);
+}
+
+.languageOption.selected {
+  background: var(--accent-gold, #d4a574);
+  color: var(--bg-primary, #0f0f1a);
+  font-weight: 500;
+}
+
+.visibilityButton {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 44px;
+}
+
+/* My Stats Card */
+.myStatsCard {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto 1.5rem;
+  padding: 1.5rem;
+}
+
+.myStatsHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.myStatsIcon {
+  font-size: 1.5rem;
+  color: var(--accent-gold, #d4a574);
+}
+
+.anonymousName {
+  margin-left: auto;
+  font-weight: 600;
+}
+
+.xpBreakdown {
+  background: var(--bg-secondary, #1a1a2e);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.xpRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border, #333);
+}
+
+.xpRow:last-child {
+  border-bottom: none;
+}
+
+.xpLabel {
+  color: var(--text-muted, #666);
+  font-size: 0.9375rem;
+}
+
+.xpValue {
+  color: var(--text-primary, #f5f0e8);
+  font-weight: 500;
+}
+
+.xpTotal {
+  margin-top: 0.5rem;
+  padding-top: 1rem;
+  border-top: 2px solid var(--accent-gold, #d4a574);
+  border-bottom: none;
+}
+
+.xpTotalValue {
+  color: var(--accent-gold, #d4a574);
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.myRank {
+  text-align: center;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border, #333);
+}
+
+/* Leaderboard Card */
+.leaderboardCard {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto 1.5rem;
+  padding: 1rem;
+}
+
+.loading,
+.emptyState {
+  text-align: center;
+  padding: 2rem;
+}
+
+.emptyIcon {
+  font-size: 3rem;
+  color: var(--text-muted, #666);
+  margin-bottom: 1rem;
+}
+
+.leaderboardList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.leaderboardRow {
+  display: flex;
+  align-items: center;
+  padding: 0.875rem 1rem;
+  background: var(--bg-secondary, #1a1a2e);
+  border-radius: 0.5rem;
+  gap: 1rem;
+  min-height: 56px;
+  transition: all 0.2s ease;
+}
+
+.leaderboardRow:hover {
+  background: var(--bg-card, #16162a);
+}
+
+.leaderboardRow.currentUser {
+  border: 2px solid var(--accent-gold, #d4a574);
+  background: rgba(212, 165, 116, 0.1);
+}
+
+.leaderboardRow.topThree {
+  background: linear-gradient(90deg, rgba(212, 165, 116, 0.1) 0%, transparent 100%);
+}
+
+.rankCell {
+  width: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.rankNumber {
+  font-weight: 600;
+  color: var(--text-muted, #666);
+  font-size: 0.9375rem;
+}
+
+.goldMedal {
+  font-size: 1.5rem;
+  color: #ffd700;
+}
+
+.silverMedal {
+  font-size: 1.5rem;
+  color: #c0c0c0;
+}
+
+.bronzeMedal {
+  font-size: 1.5rem;
+  color: #cd7f32;
+}
+
+.nameCell {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 0;
+}
+
+.playerName {
+  font-weight: 500;
+  color: var(--text-primary, #f5f0e8);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.youBadge {
+  font-size: 0.75rem;
+  padding: 0.125rem 0.5rem;
+  background: var(--accent-gold, #d4a574);
+  color: var(--bg-primary, #0f0f1a);
+  border-radius: 0.25rem;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.streakCell {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: var(--text-muted, #666);
+  font-size: 0.875rem;
+  flex-shrink: 0;
+}
+
+.streakIcon {
+  color: #ff6b35;
+}
+
+.xpCell {
+  display: flex;
+  align-items: baseline;
+  gap: 0.25rem;
+  flex-shrink: 0;
+  min-width: 80px;
+  justify-content: flex-end;
+}
+
+.xpAmount {
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--accent-gold, #d4a574);
+}
+
+.xpSuffix {
+  font-size: 0.75rem;
+  color: var(--text-muted, #666);
+}
+
+/* Current User Outside Top 50 */
+.currentUserOutside {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto 1.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.currentUserOutside .leaderboardRow {
+  margin-top: 0.5rem;
+}
+
+/* Back Button */
+.backButton {
+  display: block;
+  margin: 0 auto 2rem;
+}
+
+/* Mobile Responsive */
+@media (max-width: 640px) {
+  .pageHeader {
+    gap: 0.75rem;
+  }
+
+  .headerIcon {
+    font-size: 2rem;
+  }
+
+  .periodTabs {
+    max-width: 100%;
+    padding: 0.25rem;
+  }
+
+  .periodTab {
+    padding: 0.625rem 0.75rem;
+    font-size: 0.875rem;
+  }
+
+  .filterRow {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .languageDropdownContainer {
+    width: 100%;
+  }
+
+  .languageDropdownButton {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .visibilityButton {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .myStatsCard,
+  .leaderboardCard,
+  .currentUserOutside {
+    padding: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .anonymousName {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+
+  .leaderboardRow {
+    padding: 0.75rem;
+    gap: 0.5rem;
+  }
+
+  .rankCell {
+    width: 36px;
+  }
+
+  .playerName {
+    font-size: 0.9375rem;
+  }
+
+  .xpCell {
+    min-width: 60px;
+  }
+
+  .xpAmount {
+    font-size: 0.9375rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .pageTitle {
+    font-size: 1.5rem;
+  }
+
+  .headerIcon {
+    font-size: 1.5rem;
+  }
+
+  .myStatsHeader h3 {
+    font-size: 1.125rem;
+  }
+
+  .xpBreakdown {
+    padding: 0.75rem;
+  }
+
+  .xpRow {
+    padding: 0.375rem 0;
+  }
+
+  .xpLabel,
+  .xpValue {
+    font-size: 0.875rem;
+  }
+
+  .leaderboardRow {
+    padding: 0.625rem;
+    gap: 0.375rem;
+  }
+
+  .rankCell {
+    width: 32px;
+  }
+
+  .goldMedal,
+  .silverMedal,
+  .bronzeMedal {
+    font-size: 1.25rem;
+  }
+
+  .playerName {
+    font-size: 0.875rem;
+  }
+
+  .streakCell {
+    display: none;
+  }
+
+  .xpCell {
+    min-width: 50px;
+  }
+
+  .xpAmount {
+    font-size: 0.875rem;
+  }
+}

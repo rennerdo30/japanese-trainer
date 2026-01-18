@@ -24,6 +24,30 @@
     border: 1px solid var(--border-subtle);
 }
 
+/* Furigana (ruby text) support for Japanese readings */
+.withFurigana ruby rt {
+    font-size: 0.55em;
+    color: var(--text-muted);
+    opacity: 1;
+    visibility: visible;
+}
+
+.noFurigana ruby rt {
+    font-size: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* Ruby element styling */
+.readingText ruby {
+    ruby-position: over;
+    ruby-align: center;
+}
+
+.readingText ruby rt {
+    transition: opacity 0.2s ease, font-size 0.2s ease;
+}
+
 .questionsSection {
     padding: 2.5rem;
     margin-bottom: 2rem;

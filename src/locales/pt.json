@@ -55,11 +55,30 @@
     },
     "noCharacters": "Nenhum caractere disponível com os filtros atuais."
   },
+  "learnMode": {
+    "learn": "Aprender",
+    "practice": "Praticar",
+    "progress": "Progresso",
+    "learned": "Aprendido",
+    "type": "Tipo",
+    "group": "Grupo",
+    "playSound": "Reproduzir Som",
+    "markLearned": "Marcar como Aprendido",
+    "alreadyLearned": "Já Aprendido",
+    "mnemonic": "Dica de Memória",
+    "noLessonsAvailable": "Ainda não há lições disponíveis para este idioma.",
+    "characterOf": "Caractere {current} de {total}",
+    "lessonComplete": "Lição Completa!",
+    "nextLesson": "Próxima Lição",
+    "selectLesson": "Selecionar Lição"
+  },
   "vocabulary": {
     "practiceMode": "Modo Prática",
     "typeMeaning": "Digite o significado ou romaji...",
     "typeWord": "Digite a palavra japonesa...",
-    "noWords": "Nenhuma palavra disponível."
+    "noWords": "Nenhuma palavra disponível.",
+    "showHint": "Mostrar dica",
+    "hintShown": "Dica mostrada"
   },
   "kanji": {
     "practiceMeaning": "Significado",

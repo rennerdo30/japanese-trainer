@@ -1,0 +1,617 @@
+{
+  "vocabulary": [
+    {
+      "id": "it-vocab-a2-1",
+      "word": "svegliarsi",
+      "level": "A2",
+      "meanings": { "en": ["to wake up"], "ja": ["目を覚ます"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Mi sveglio alle sette ogni mattina.", "translation": "I wake up at seven every morning." }]
+    },
+    {
+      "id": "it-vocab-a2-2",
+      "word": "vestirsi",
+      "level": "A2",
+      "meanings": { "en": ["to get dressed"], "ja": ["服を着る"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Mi vesto rapidamente per andare al lavoro.", "translation": "I get dressed quickly to go to work." }]
+    },
+    {
+      "id": "it-vocab-a2-3",
+      "word": "lavarsi",
+      "level": "A2",
+      "meanings": { "en": ["to wash oneself"], "ja": ["体を洗う"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Mi lavo le mani prima di mangiare.", "translation": "I wash my hands before eating." }]
+    },
+    {
+      "id": "it-vocab-a2-4",
+      "word": "addormentarsi",
+      "level": "A2",
+      "meanings": { "en": ["to fall asleep"], "ja": ["眠りにつく"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Mi addormento sempre tardi.", "translation": "I always fall asleep late." }]
+    },
+    {
+      "id": "it-vocab-a2-5",
+      "word": "il negozio",
+      "level": "A2",
+      "meanings": { "en": ["shop", "store"], "ja": ["店"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Il negozio chiude alle otto.", "translation": "The shop closes at eight." }]
+    },
+    {
+      "id": "it-vocab-a2-6",
+      "word": "il supermercato",
+      "level": "A2",
+      "meanings": { "en": ["supermarket"], "ja": ["スーパーマーケット"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Vado al supermercato ogni sabato.", "translation": "I go to the supermarket every Saturday." }]
+    },
+    {
+      "id": "it-vocab-a2-7",
+      "word": "comprare",
+      "level": "A2",
+      "meanings": { "en": ["to buy"], "ja": ["買う"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Ho comprato un regalo per mia madre.", "translation": "I bought a gift for my mother." }]
+    },
+    {
+      "id": "it-vocab-a2-8",
+      "word": "vendere",
+      "level": "A2",
+      "meanings": { "en": ["to sell"], "ja": ["売る"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Questo negozio vende prodotti biologici.", "translation": "This shop sells organic products." }]
+    },
+    {
+      "id": "it-vocab-a2-9",
+      "word": "lo sconto",
+      "level": "A2",
+      "meanings": { "en": ["discount"], "ja": ["割引"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "C'è uno sconto del venti per cento.", "translation": "There is a twenty percent discount." }]
+    },
+    {
+      "id": "it-vocab-a2-10",
+      "word": "il prezzo",
+      "level": "A2",
+      "meanings": { "en": ["price"], "ja": ["価格"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Il prezzo è troppo alto.", "translation": "The price is too high." }]
+    },
+    {
+      "id": "it-vocab-a2-11",
+      "word": "il viaggio",
+      "level": "A2",
+      "meanings": { "en": ["trip", "journey"], "ja": ["旅行"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Il viaggio in treno dura due ore.", "translation": "The train journey takes two hours." }]
+    },
+    {
+      "id": "it-vocab-a2-12",
+      "word": "la valigia",
+      "level": "A2",
+      "meanings": { "en": ["suitcase"], "ja": ["スーツケース"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Ho perso la mia valigia all'aeroporto.", "translation": "I lost my suitcase at the airport." }]
+    },
+    {
+      "id": "it-vocab-a2-13",
+      "word": "prenotare",
+      "level": "A2",
+      "meanings": { "en": ["to book", "to reserve"], "ja": ["予約する"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Vorrei prenotare una camera doppia.", "translation": "I would like to book a double room." }]
+    },
+    {
+      "id": "it-vocab-a2-14",
+      "word": "il biglietto",
+      "level": "A2",
+      "meanings": { "en": ["ticket"], "ja": ["切符"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Ho comprato il biglietto online.", "translation": "I bought the ticket online." }]
+    },
+    {
+      "id": "it-vocab-a2-15",
+      "word": "l'aeroporto",
+      "level": "A2",
+      "meanings": { "en": ["airport"], "ja": ["空港"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "L'aeroporto è lontano dal centro.", "translation": "The airport is far from the center." }]
+    },
+    {
+      "id": "it-vocab-a2-16",
+      "word": "il sole",
+      "level": "A2",
+      "meanings": { "en": ["sun"], "ja": ["太陽"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Il sole splende oggi.", "translation": "The sun is shining today." }]
+    },
+    {
+      "id": "it-vocab-a2-17",
+      "word": "la pioggia",
+      "level": "A2",
+      "meanings": { "en": ["rain"], "ja": ["雨"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "La pioggia è iniziata improvvisamente.", "translation": "The rain started suddenly." }]
+    },
+    {
+      "id": "it-vocab-a2-18",
+      "word": "la neve",
+      "level": "A2",
+      "meanings": { "en": ["snow"], "ja": ["雪"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "La neve copre le montagne.", "translation": "The snow covers the mountains." }]
+    },
+    {
+      "id": "it-vocab-a2-19",
+      "word": "il vento",
+      "level": "A2",
+      "meanings": { "en": ["wind"], "ja": ["風"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Il vento è molto forte oggi.", "translation": "The wind is very strong today." }]
+    },
+    {
+      "id": "it-vocab-a2-20",
+      "word": "nuvoloso",
+      "level": "A2",
+      "meanings": { "en": ["cloudy"], "ja": ["曇り"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "Il cielo è nuvoloso ma non piove.", "translation": "The sky is cloudy but it's not raining." }]
+    },
+    {
+      "id": "it-vocab-a2-21",
+      "word": "alto",
+      "level": "A2",
+      "meanings": { "en": ["tall", "high"], "ja": ["高い"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "Mio fratello è più alto di me.", "translation": "My brother is taller than me." }]
+    },
+    {
+      "id": "it-vocab-a2-22",
+      "word": "basso",
+      "level": "A2",
+      "meanings": { "en": ["short", "low"], "ja": ["低い"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "La sedia è troppo bassa per il tavolo.", "translation": "The chair is too low for the table." }]
+    },
+    {
+      "id": "it-vocab-a2-23",
+      "word": "magro",
+      "level": "A2",
+      "meanings": { "en": ["thin", "slim"], "ja": ["痩せた"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "È diventato molto magro.", "translation": "He has become very thin." }]
+    },
+    {
+      "id": "it-vocab-a2-24",
+      "word": "grasso",
+      "level": "A2",
+      "meanings": { "en": ["fat"], "ja": ["太った"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "Il gatto è troppo grasso.", "translation": "The cat is too fat." }]
+    },
+    {
+      "id": "it-vocab-a2-25",
+      "word": "i capelli",
+      "level": "A2",
+      "meanings": { "en": ["hair"], "ja": ["髪"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Ha i capelli biondi e gli occhi azzurri.", "translation": "She has blonde hair and blue eyes." }]
+    },
+    {
+      "id": "it-vocab-a2-26",
+      "word": "andare",
+      "level": "A2",
+      "meanings": { "en": ["to go"], "ja": ["行く"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Ieri sono andato al cinema.", "translation": "Yesterday I went to the cinema." }]
+    },
+    {
+      "id": "it-vocab-a2-27",
+      "word": "venire",
+      "level": "A2",
+      "meanings": { "en": ["to come"], "ja": ["来る"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "È venuta a trovarmi domenica.", "translation": "She came to visit me on Sunday." }]
+    },
+    {
+      "id": "it-vocab-a2-28",
+      "word": "partire",
+      "level": "A2",
+      "meanings": { "en": ["to leave", "to depart"], "ja": ["出発する"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Siamo partiti alle sei di mattina.", "translation": "We left at six in the morning." }]
+    },
+    {
+      "id": "it-vocab-a2-29",
+      "word": "tornare",
+      "level": "A2",
+      "meanings": { "en": ["to return", "to come back"], "ja": ["戻る"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Sono tornato a casa tardi.", "translation": "I came back home late." }]
+    },
+    {
+      "id": "it-vocab-a2-30",
+      "word": "rimanere",
+      "level": "A2",
+      "meanings": { "en": ["to stay", "to remain"], "ja": ["残る"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Siamo rimasti a casa tutto il giorno.", "translation": "We stayed home all day." }]
+    },
+    {
+      "id": "it-vocab-a2-31",
+      "word": "la salute",
+      "level": "A2",
+      "meanings": { "en": ["health"], "ja": ["健康"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "La salute è la cosa più importante.", "translation": "Health is the most important thing." }]
+    },
+    {
+      "id": "it-vocab-a2-32",
+      "word": "il dottore",
+      "level": "A2",
+      "meanings": { "en": ["doctor"], "ja": ["医者"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Devo andare dal dottore domani.", "translation": "I have to go to the doctor tomorrow." }]
+    },
+    {
+      "id": "it-vocab-a2-33",
+      "word": "la febbre",
+      "level": "A2",
+      "meanings": { "en": ["fever"], "ja": ["熱"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Ho la febbre e il mal di testa.", "translation": "I have a fever and a headache." }]
+    },
+    {
+      "id": "it-vocab-a2-34",
+      "word": "il raffreddore",
+      "level": "A2",
+      "meanings": { "en": ["cold"], "ja": ["風邪"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Ho preso il raffreddore.", "translation": "I caught a cold." }]
+    },
+    {
+      "id": "it-vocab-a2-35",
+      "word": "la medicina",
+      "level": "A2",
+      "meanings": { "en": ["medicine"], "ja": ["薬"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Devo prendere la medicina tre volte al giorno.", "translation": "I have to take the medicine three times a day." }]
+    },
+    {
+      "id": "it-vocab-a2-36",
+      "word": "nuotare",
+      "level": "A2",
+      "meanings": { "en": ["to swim"], "ja": ["泳ぐ"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Mi piace nuotare in piscina.", "translation": "I like to swim in the pool." }]
+    },
+    {
+      "id": "it-vocab-a2-37",
+      "word": "correre",
+      "level": "A2",
+      "meanings": { "en": ["to run"], "ja": ["走る"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Corro ogni mattina nel parco.", "translation": "I run every morning in the park." }]
+    },
+    {
+      "id": "it-vocab-a2-38",
+      "word": "dipingere",
+      "level": "A2",
+      "meanings": { "en": ["to paint"], "ja": ["絵を描く"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Mi piace dipingere paesaggi.", "translation": "I like to paint landscapes." }]
+    },
+    {
+      "id": "it-vocab-a2-39",
+      "word": "cucinare",
+      "level": "A2",
+      "meanings": { "en": ["to cook"], "ja": ["料理する"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Mia nonna cucina benissimo.", "translation": "My grandmother cooks very well." }]
+    },
+    {
+      "id": "it-vocab-a2-40",
+      "word": "suonare",
+      "level": "A2",
+      "meanings": { "en": ["to play (instrument)"], "ja": ["演奏する"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Suono il pianoforte da dieci anni.", "translation": "I have been playing the piano for ten years." }]
+    },
+    {
+      "id": "it-vocab-a2-41",
+      "word": "ricordare",
+      "level": "A2",
+      "meanings": { "en": ["to remember"], "ja": ["覚えている"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Non ricordo il suo nome.", "translation": "I don't remember his name." }]
+    },
+    {
+      "id": "it-vocab-a2-42",
+      "word": "dimenticare",
+      "level": "A2",
+      "meanings": { "en": ["to forget"], "ja": ["忘れる"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Ho dimenticato le chiavi a casa.", "translation": "I forgot the keys at home." }]
+    },
+    {
+      "id": "it-vocab-a2-43",
+      "word": "spiegare",
+      "level": "A2",
+      "meanings": { "en": ["to explain"], "ja": ["説明する"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Puoi spiegarmi questa regola?", "translation": "Can you explain this rule to me?" }]
+    },
+    {
+      "id": "it-vocab-a2-44",
+      "word": "capire",
+      "level": "A2",
+      "meanings": { "en": ["to understand"], "ja": ["理解する"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Non ho capito la domanda.", "translation": "I didn't understand the question." }]
+    },
+    {
+      "id": "it-vocab-a2-45",
+      "word": "provare",
+      "level": "A2",
+      "meanings": { "en": ["to try"], "ja": ["試す"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Voglio provare questo piatto.", "translation": "I want to try this dish." }]
+    },
+    {
+      "id": "it-vocab-a2-46",
+      "word": "decidere",
+      "level": "A2",
+      "meanings": { "en": ["to decide"], "ja": ["決める"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Non ho ancora deciso cosa fare.", "translation": "I haven't decided yet what to do." }]
+    },
+    {
+      "id": "it-vocab-a2-47",
+      "word": "la borsa",
+      "level": "A2",
+      "meanings": { "en": ["bag", "purse"], "ja": ["バッグ"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Ho messo il portafoglio nella borsa.", "translation": "I put the wallet in the bag." }]
+    },
+    {
+      "id": "it-vocab-a2-48",
+      "word": "il vestito",
+      "level": "A2",
+      "meanings": { "en": ["dress", "suit"], "ja": ["服"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Questo vestito è molto elegante.", "translation": "This dress is very elegant." }]
+    },
+    {
+      "id": "it-vocab-a2-49",
+      "word": "la camicia",
+      "level": "A2",
+      "meanings": { "en": ["shirt"], "ja": ["シャツ"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Ho comprato una camicia blu.", "translation": "I bought a blue shirt." }]
+    },
+    {
+      "id": "it-vocab-a2-50",
+      "word": "i pantaloni",
+      "level": "A2",
+      "meanings": { "en": ["pants", "trousers"], "ja": ["ズボン"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Questi pantaloni sono troppo stretti.", "translation": "These pants are too tight." }]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "it-grammar-a2-1",
+      "title": "Passato Prossimo with Avere",
+      "level": "A2",
+      "explanation": "The passato prossimo (present perfect) is used to describe completed actions in the past. It is formed with the present tense of 'avere' (to have) plus the past participle. Most transitive verbs use 'avere'. Regular past participles end in -ato (for -are verbs), -uto (for -ere verbs), and -ito (for -ire verbs).",
+      "examples": [
+        { "sentence": "Ho mangiato la pizza.", "translation": "I ate the pizza." },
+        { "sentence": "Abbiamo studiato italiano.", "translation": "We studied Italian." },
+        { "sentence": "Hai comprato il pane?", "translation": "Did you buy the bread?" }
+      ],
+      "patterns": [
+        "ho + past participle",
+        "hai + past participle",
+        "ha + past participle",
+        "abbiamo + past participle",
+        "avete + past participle",
+        "hanno + past participle"
+      ],
+      "exercises": [
+        { "type": "fill-blank", "question": "Ieri ___ (mangiare) al ristorante.", "options": ["ho mangiato", "sono mangiato", "mangiavo"], "correct": 0 },
+        { "type": "fill-blank", "question": "Maria ___ (comprare) un libro nuovo.", "options": ["è comprata", "ha comprato", "comprava"], "correct": 1 }
+      ]
+    },
+    {
+      "id": "it-grammar-a2-2",
+      "title": "Passato Prossimo with Essere",
+      "level": "A2",
+      "explanation": "Some verbs, mainly verbs of motion and state change, use 'essere' (to be) as the auxiliary verb in the passato prossimo. When using 'essere', the past participle must agree in gender and number with the subject. Common verbs that use 'essere' include: andare, venire, partire, arrivare, tornare, entrare, uscire, nascere, morire, restare, diventare.",
+      "examples": [
+        { "sentence": "Sono andato al cinema.", "translation": "I went to the cinema." },
+        { "sentence": "Maria è arrivata ieri.", "translation": "Maria arrived yesterday." },
+        { "sentence": "Siamo partiti presto.", "translation": "We left early." }
+      ],
+      "patterns": [
+        "sono + past participle (-o/-a)",
+        "sei + past participle (-o/-a)",
+        "è + past participle (-o/-a)",
+        "siamo + past participle (-i/-e)",
+        "siete + past participle (-i/-e)",
+        "sono + past participle (-i/-e)"
+      ],
+      "exercises": [
+        { "type": "fill-blank", "question": "Luca ___ (andare) a Roma.", "options": ["ha andato", "è andato", "andava"], "correct": 1 },
+        { "type": "fill-blank", "question": "Le ragazze ___ (arrivare) in ritardo.", "options": ["hanno arrivato", "sono arrivate", "arrivavano"], "correct": 1 }
+      ]
+    },
+    {
+      "id": "it-grammar-a2-3",
+      "title": "Imperfetto (Imperfect Tense)",
+      "level": "A2",
+      "explanation": "The imperfetto is used to describe ongoing or habitual actions in the past, background information, physical and emotional states, and actions that were happening when something else occurred. It is formed by removing the infinitive ending and adding the imperfetto endings: -avo/-evo/-ivo, -avi/-evi/-ivi, -ava/-eva/-iva, -avamo/-evamo/-ivamo, -avate/-evate/-ivate, -avano/-evano/-ivano.",
+      "examples": [
+        { "sentence": "Quando ero piccolo, giocavo sempre nel parco.", "translation": "When I was little, I always played in the park." },
+        { "sentence": "Mentre studiavo, è arrivato Marco.", "translation": "While I was studying, Marco arrived." },
+        { "sentence": "Faceva freddo e pioveva.", "translation": "It was cold and it was raining." }
+      ],
+      "patterns": [
+        "parlare: parlavo, parlavi, parlava, parlavamo, parlavate, parlavano",
+        "leggere: leggevo, leggevi, leggeva, leggevamo, leggevate, leggevano",
+        "dormire: dormivo, dormivi, dormiva, dormivamo, dormivate, dormivano"
+      ],
+      "exercises": [
+        { "type": "fill-blank", "question": "Da bambino ___ (andare) sempre al mare d'estate.", "options": ["sono andato", "andavo", "vado"], "correct": 1 },
+        { "type": "fill-blank", "question": "Mentre io ___ (dormire), ha suonato il telefono.", "options": ["dormivo", "ho dormito", "dormirò"], "correct": 0 }
+      ]
+    },
+    {
+      "id": "it-grammar-a2-4",
+      "title": "Reflexive Verbs",
+      "level": "A2",
+      "explanation": "Reflexive verbs indicate that the subject performs an action on itself. They are conjugated with reflexive pronouns (mi, ti, si, ci, vi, si) placed before the verb. In the passato prossimo, reflexive verbs always use 'essere' as the auxiliary, and the past participle agrees with the subject. Common reflexive verbs include: svegliarsi, alzarsi, lavarsi, vestirsi, pettinarsi, addormentarsi, chiamarsi, sentirsi.",
+      "examples": [
+        { "sentence": "Mi sveglio alle sette.", "translation": "I wake up at seven." },
+        { "sentence": "Maria si è vestita velocemente.", "translation": "Maria got dressed quickly." },
+        { "sentence": "Ci siamo divertiti alla festa.", "translation": "We had fun at the party." }
+      ],
+      "patterns": [
+        "mi + verb (io)",
+        "ti + verb (tu)",
+        "si + verb (lui/lei)",
+        "ci + verb (noi)",
+        "vi + verb (voi)",
+        "si + verb (loro)"
+      ],
+      "exercises": [
+        { "type": "fill-blank", "question": "La mattina ___ (alzarsi) sempre presto.", "options": ["mi alzo", "alzo", "alzarmi"], "correct": 0 },
+        { "type": "fill-blank", "question": "Ieri sera loro ___ (addormentarsi) tardi.", "options": ["hanno addormentato", "si sono addormentati", "addormentavano"], "correct": 1 }
+      ]
+    },
+    {
+      "id": "it-grammar-a2-5",
+      "title": "Direct Object Pronouns",
+      "level": "A2",
+      "explanation": "Direct object pronouns replace the direct object of a verb. They are: mi (me), ti (you), lo (him/it), la (her/it), ci (us), vi (you pl.), li (them masc.), le (them fem.). They are placed before the conjugated verb, but attach to the end of infinitives. In the passato prossimo with 'avere', the past participle agrees with the pronoun when lo, la, li, le are used.",
+      "examples": [
+        { "sentence": "Ho comprato il libro. L'ho comprato ieri.", "translation": "I bought the book. I bought it yesterday." },
+        { "sentence": "Vedi Maria? Sì, la vedo.", "translation": "Do you see Maria? Yes, I see her." },
+        { "sentence": "Le mele? Le ho mangiate.", "translation": "The apples? I ate them." }
+      ],
+      "patterns": [
+        "lo/la/li/le + verb",
+        "verb + lo/la/li/le (with infinitive)",
+        "Past participle agreement: lo → -o, la → -a, li → -i, le → -e"
+      ],
+      "exercises": [
+        { "type": "fill-blank", "question": "Il caffè? ___ bevo ogni mattina.", "options": ["Lo", "La", "Li"], "correct": 0 },
+        { "type": "fill-blank", "question": "Le lettere? ___ ho spedite ieri.", "options": ["Lo", "Le", "Li"], "correct": 1 }
+      ]
+    },
+    {
+      "id": "it-grammar-a2-6",
+      "title": "Indirect Object Pronouns",
+      "level": "A2",
+      "explanation": "Indirect object pronouns replace the indirect object (the person to whom or for whom something is done). They are: mi (to me), ti (to you), gli (to him), le (to her), ci (to us), vi (to you pl.), gli (to them). They are placed before the conjugated verb. Common verbs used with indirect objects: dare, dire, chiedere, rispondere, scrivere, telefonare, piacere.",
+      "examples": [
+        { "sentence": "Gli ho dato il libro.", "translation": "I gave him the book." },
+        { "sentence": "Le scrivo una lettera.", "translation": "I write her a letter." },
+        { "sentence": "Ti telefono domani.", "translation": "I'll call you tomorrow." }
+      ],
+      "patterns": [
+        "mi/ti/gli/le/ci/vi/gli + verb",
+        "dare qualcosa a qualcuno → dare + indirect pronoun + qualcosa",
+        "dire qualcosa a qualcuno → dire + indirect pronoun + qualcosa"
+      ],
+      "exercises": [
+        { "type": "fill-blank", "question": "Ho telefonato a Marco. ___ ho telefonato ieri.", "options": ["Lo", "Gli", "Le"], "correct": 1 },
+        { "type": "fill-blank", "question": "Cosa ___ hai detto a Maria?", "options": ["la", "le", "gli"], "correct": 1 }
+      ]
+    },
+    {
+      "id": "it-grammar-a2-7",
+      "title": "Comparatives",
+      "level": "A2",
+      "explanation": "Comparatives are used to compare two things. 'Più...di/che' (more...than) and 'meno...di/che' (less...than) are used for comparisons. Use 'di' before nouns, pronouns, and numbers. Use 'che' when comparing two qualities of the same subject, two verbs, or two prepositional phrases. 'Tanto...quanto' and 'così...come' express equality (as...as).",
+      "examples": [
+        { "sentence": "Marco è più alto di Luigi.", "translation": "Marco is taller than Luigi." },
+        { "sentence": "Roma è più bella che grande.", "translation": "Rome is more beautiful than big." },
+        { "sentence": "Lei è tanto intelligente quanto simpatica.", "translation": "She is as intelligent as she is nice." }
+      ],
+      "patterns": [
+        "più + adjective + di + noun/pronoun",
+        "più + adjective + che + adjective/verb/preposition",
+        "meno + adjective + di/che",
+        "tanto/così + adjective + quanto/come"
+      ],
+      "exercises": [
+        { "type": "fill-blank", "question": "Il treno è più veloce ___ l'autobus.", "options": ["di", "che", "come"], "correct": 0 },
+        { "type": "fill-blank", "question": "Questo libro è più interessante ___ lungo.", "options": ["di", "che", "quanto"], "correct": 1 }
+      ]
+    },
+    {
+      "id": "it-grammar-a2-8",
+      "title": "Superlatives",
+      "level": "A2",
+      "explanation": "The relative superlative expresses the highest or lowest degree of a quality within a group. It is formed with 'il/la/i/le più' or 'il/la/i/le meno' + adjective + di. The absolute superlative indicates a very high degree without comparison, formed by adding -issimo/-issima/-issimi/-issime to the adjective stem, or using 'molto' + adjective.",
+      "examples": [
+        { "sentence": "Roma è la città più grande d'Italia.", "translation": "Rome is the biggest city in Italy." },
+        { "sentence": "Questo è il ristorante meno caro della zona.", "translation": "This is the least expensive restaurant in the area." },
+        { "sentence": "Il film era bellissimo.", "translation": "The movie was very beautiful." }
+      ],
+      "patterns": [
+        "il/la/i/le + più + adjective + di",
+        "il/la/i/le + meno + adjective + di",
+        "adjective stem + -issimo/-issima/-issimi/-issime"
+      ],
+      "exercises": [
+        { "type": "fill-blank", "question": "Maria è ___ studentessa più brava della classe.", "options": ["il", "la", "una"], "correct": 1 },
+        { "type": "fill-blank", "question": "Questa pizza è ___!", "options": ["buonissima", "più buona", "la buona"], "correct": 0 }
+      ]
+    },
+    {
+      "id": "it-grammar-a2-9",
+      "title": "Future Tense (Futuro Semplice)",
+      "level": "A2",
+      "explanation": "The futuro semplice (simple future) is used to express future actions, predictions, and suppositions. It is formed by adding future endings to the verb stem. For -are verbs, the 'a' changes to 'e' before the endings. The endings are: -ò, -ai, -à, -emo, -ete, -anno. Some common irregular verbs include: essere (sarò), avere (avrò), fare (farò), andare (andrò), venire (verrò).",
+      "examples": [
+        { "sentence": "Domani andrò al mare.", "translation": "Tomorrow I will go to the sea." },
+        { "sentence": "L'anno prossimo studieremo in Italia.", "translation": "Next year we will study in Italy." },
+        { "sentence": "Quando arriverai?", "translation": "When will you arrive?" }
+      ],
+      "patterns": [
+        "parlare: parlerò, parlerai, parlerà, parleremo, parlerete, parleranno",
+        "leggere: leggerò, leggerai, leggerà, leggeremo, leggerete, leggeranno",
+        "partire: partirò, partirai, partirà, partiremo, partirete, partiranno"
+      ],
+      "exercises": [
+        { "type": "fill-blank", "question": "L'estate prossima ___ (andare) in vacanza in Grecia.", "options": ["vado", "andrò", "sono andato"], "correct": 1 },
+        { "type": "fill-blank", "question": "Quando ___ (finire) il corso?", "options": ["finisco", "ho finito", "finirà"], "correct": 2 }
+      ]
+    },
+    {
+      "id": "it-grammar-a2-10",
+      "title": "Combined Pronouns",
+      "level": "A2",
+      "explanation": "When both an indirect object pronoun and a direct object pronoun are used together, the indirect pronoun comes first and changes form: mi→me, ti→te, ci→ce, vi→ve, gli/le→glie (which attaches to the direct pronoun). The combined pronouns are: me lo/la/li/le, te lo/la/li/le, glielo/gliela/glieli/gliele, ce lo/la/li/le, ve lo/la/li/le. They are placed before the verb or attached to infinitives.",
+      "examples": [
+        { "sentence": "Me lo dai? (the book, to me)", "translation": "Will you give it to me?" },
+        { "sentence": "Glielo dico domani.", "translation": "I'll tell him/her it tomorrow." },
+        { "sentence": "Te la presto volentieri.", "translation": "I'll gladly lend it to you." }
+      ],
+      "patterns": [
+        "indirect + direct: mi + lo = me lo",
+        "indirect + direct: ti + la = te la",
+        "indirect + direct: gli/le + lo = glielo",
+        "indirect + direct: ci + li = ce li"
+      ],
+      "exercises": [
+        { "type": "fill-blank", "question": "Il libro? ___ presto domani. (to you)", "options": ["Te lo", "Ti lo", "Lo ti"], "correct": 0 },
+        { "type": "fill-blank", "question": "La notizia? ___ dico subito. (to him)", "options": ["Gli la", "Gliela", "Le lo"], "correct": 1 }
+      ]
+    }
+  ]
+}

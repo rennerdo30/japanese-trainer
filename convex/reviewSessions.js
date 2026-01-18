@@ -1,15 +1,15 @@
 import { v } from "convex/values";
 import { query, mutation } from "./_generated/server";
-import { getAuthUserId } from "@convex-dev/auth/server";
+import { auth } from "./auth";
 
 // Create a new review session
 export const createReviewSession = mutation({
   args: {},
   handler: async (ctx) => {
-    const userId = await getAuthUserId(ctx);
+    const userId = await auth.getUserId(ctx);
     if (!userId) throw new Error("Not authenticated");
 
-    const sessionId = `session_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+    const sessionId = `session_${Date.now()}_${Math.random().toString(36).substring(2, 11)}`;
 
     const id = await ctx.db.insert("reviewSessions", {
       userId,
@@ -36,7 +36,7 @@ export const updateReviewSession = mutation({
     correct: v.boolean(),
   },
   handler: async (ctx, { sessionId, module, correct }) => {
-    const userId = await getAuthUserId(ctx);
+    const userId = await auth.getUserId(ctx);
     if (!userId) throw new Error("Not authenticated");
 
     const session = await ctx.db
@@ -80,7 +80,7 @@ export const updateReviewSession = mutation({
 export const completeReviewSession = mutation({
   args: { sessionId: v.string() },
   handler: async (ctx, { sessionId }) => {
-    const userId = await getAuthUserId(ctx);
+    const userId = await auth.getUserId(ctx);
     if (!userId) throw new Error("Not authenticated");
 
     const session = await ctx.db
@@ -126,7 +126,7 @@ export const completeReviewSession = mutation({
 export const getReviewSession = query({
   args: { sessionId: v.string() },
   handler: async (ctx, { sessionId }) => {
-    const userId = await getAuthUserId(ctx);
+    const userId = await auth.getUserId(ctx);
     if (!userId) return null;
 
     const session = await ctx.db
@@ -146,7 +146,7 @@ export const getReviewSession = query({
 export const getReviewHistory = query({
   args: { limit: v.optional(v.number()) },
   handler: async (ctx, { limit = 30 }) => {
-    const userId = await getAuthUserId(ctx);
+    const userId = await auth.getUserId(ctx);
     if (!userId) return [];
 
     const thirtyDaysAgo = Date.now() - (30 * 24 * 60 * 60 * 1000);
@@ -166,7 +166,7 @@ export const getReviewHistory = query({
 export const getReviewStats = query({
   args: { days: v.optional(v.number()) },
   handler: async (ctx, { days = 7 }) => {
-    const userId = await getAuthUserId(ctx);
+    const userId = await auth.getUserId(ctx);
     if (!userId) return null;
 
     const startDate = Date.now() - (days * 24 * 60 * 60 * 1000);

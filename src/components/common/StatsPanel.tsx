@@ -1,6 +1,7 @@
 'use client'
 
 import { useLanguage } from '@/context/LanguageProvider';
+import { IoFlame } from 'react-icons/io5';
 import Text from '@/components/ui/Text';
 import styles from './StatsPanel.module.css';
 
@@ -36,6 +37,7 @@ export default function StatsPanel({ correct, total, streak = 0, showStreak = tr
             </div>
             {showStreak && streak > 0 && (
                 <div className={`${styles.streakBadge} ${streak >= 3 ? styles.visible : ''}`}>
+                    <IoFlame className={styles.streakIcon} />
                     <span>{streak}</span> {t('stats.streak')}
                 </div>
             )}

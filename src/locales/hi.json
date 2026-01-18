@@ -55,11 +55,30 @@
     },
     "noCharacters": "वर्तमान फ़िल्टर के साथ कोई वर्ण उपलब्ध नहीं है।"
   },
+  "learnMode": {
+    "learn": "सीखें",
+    "practice": "अभ्यास",
+    "progress": "प्रगति",
+    "learned": "सीखा गया",
+    "type": "प्रकार",
+    "group": "समूह",
+    "playSound": "ध्वनि चलाएं",
+    "markLearned": "सीखा गया चिह्नित करें",
+    "alreadyLearned": "पहले से सीखा हुआ",
+    "mnemonic": "याद रखने की युक्ति",
+    "noLessonsAvailable": "इस भाषा के लिए अभी कोई पाठ उपलब्ध नहीं है।",
+    "characterOf": "{total} में से {current} वर्ण",
+    "lessonComplete": "पाठ पूरा!",
+    "nextLesson": "अगला पाठ",
+    "selectLesson": "पाठ चुनें"
+  },
   "vocabulary": {
     "practiceMode": "अभ्यास मोड",
     "typeMeaning": "अर्थ या रोमाजी टाइप करें...",
     "typeWord": "जापानी शब्द टाइप करें...",
-    "noWords": "कोई शब्द उपलब्ध नहीं है।"
+    "noWords": "कोई शब्द उपलब्ध नहीं है।",
+    "showHint": "संकेत दिखाएं",
+    "hintShown": "संकेत दिखाया गया"
   },
   "kanji": {
     "practiceMeaning": "अर्थ",

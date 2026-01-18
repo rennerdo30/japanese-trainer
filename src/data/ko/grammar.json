@@ -26,7 +26,11 @@
       {
         "type": "fill-blank",
         "question": "저는 선생님___.",
-        "options": ["이에요", "예요", "입니다"],
+        "options": [
+          "이에요",
+          "예요",
+          "입니다"
+        ],
         "correct": 0
       }
     ]
@@ -54,7 +58,11 @@
       {
         "type": "fill-blank",
         "question": "저___ 학생이에요.",
-        "options": ["은", "는", "이"],
+        "options": [
+          "은",
+          "는",
+          "이"
+        ],
         "correct": 1
       }
     ]
@@ -82,7 +90,11 @@
       {
         "type": "fill-blank",
         "question": "물___ 있어요.",
-        "options": ["이", "가", "을"],
+        "options": [
+          "이",
+          "가",
+          "을"
+        ],
         "correct": 0
       }
     ]
@@ -110,7 +122,11 @@
       {
         "type": "fill-blank",
         "question": "책___ 읽어요.",
-        "options": ["을", "를", "이"],
+        "options": [
+          "을",
+          "를",
+          "이"
+        ],
         "correct": 0
       }
     ]
@@ -142,7 +158,11 @@
       {
         "type": "fill-blank",
         "question": "집___ 가요.",
-        "options": ["에", "에서", "을"],
+        "options": [
+          "에",
+          "에서",
+          "을"
+        ],
         "correct": 0
       }
     ]
@@ -169,7 +189,11 @@
       {
         "type": "fill-blank",
         "question": "도서관___ 책을 읽어요.",
-        "options": ["에", "에서", "를"],
+        "options": [
+          "에",
+          "에서",
+          "를"
+        ],
         "correct": 1
       }
     ]
@@ -202,7 +226,11 @@
       {
         "type": "fill-blank",
         "question": "저는 학교에 ___.",
-        "options": ["가요", "가다", "갑니다"],
+        "options": [
+          "가요",
+          "가다",
+          "갑니다"
+        ],
         "correct": 0
       }
     ]
@@ -235,7 +263,11 @@
       {
         "type": "fill-blank",
         "question": "어제 친구를 ___.",
-        "options": ["만나요", "만났어요", "만나다"],
+        "options": [
+          "만나요",
+          "만났어요",
+          "만나다"
+        ],
         "correct": 1
       }
     ]
@@ -266,7 +298,11 @@
       {
         "type": "fill-blank",
         "question": "저는 고기를 ___ 먹어요.",
-        "options": ["안", "못", "없"],
+        "options": [
+          "안",
+          "못",
+          "없"
+        ],
         "correct": 0
       }
     ]
@@ -293,7 +329,11 @@
       {
         "type": "fill-blank",
         "question": "한국어를 배우___ 싶어요.",
-        "options": ["고", "를", "이"],
+        "options": [
+          "고",
+          "를",
+          "이"
+        ],
         "correct": 0
       }
     ]
@@ -325,7 +365,11 @@
       {
         "type": "fill-blank",
         "question": "노래를 부르___ 춤을 춰요.",
-        "options": ["으면서", "면서", "고"],
+        "options": [
+          "으면서",
+          "면서",
+          "고"
+        ],
         "correct": 1
       }
     ]
@@ -356,7 +400,11 @@
       {
         "type": "fill-blank",
         "question": "너무 바쁘___ 때문에 못 갔어요.",
-        "options": ["기", "어", "니까"],
+        "options": [
+          "기",
+          "어",
+          "니까"
+        ],
         "correct": 0
       }
     ]
@@ -389,7 +437,11 @@
       {
         "type": "fill-blank",
         "question": "저는 학생인___ 일도 하고 있어요.",
-        "options": ["데", "고", "면서"],
+        "options": [
+          "데",
+          "고",
+          "면서"
+        ],
         "correct": 0
       }
     ]
@@ -420,7 +472,11 @@
       {
         "type": "fill-blank",
         "question": "한국 음식을 좋아하___ 됐어요.",
-        "options": ["게", "고", "어서"],
+        "options": [
+          "게",
+          "고",
+          "어서"
+        ],
         "correct": 0
       }
     ]
@@ -451,7 +507,11 @@
       {
         "type": "fill-blank",
         "question": "서울이 정말 넓___.",
-        "options": ["더라고요", "어요", "았어요"],
+        "options": [
+          "더라고요",
+          "어요",
+          "았어요"
+        ],
         "correct": 0
       }
     ]
@@ -483,7 +543,11 @@
       {
         "type": "fill-blank",
         "question": "지각할 ___했어요.",
-        "options": ["뻔", "번", "면"],
+        "options": [
+          "뻔",
+          "번",
+          "면"
+        ],
         "correct": 0
       }
     ]
@@ -514,7 +578,11 @@
       {
         "type": "fill-blank",
         "question": "전화가 오___ 바람에 집중할 수 없었어요.",
-        "options": ["는", "은", "ㄴ"],
+        "options": [
+          "는",
+          "은",
+          "ㄴ"
+        ],
         "correct": 0
       }
     ]
@@ -546,7 +614,11 @@
       {
         "type": "fill-blank",
         "question": "배가 터질 ___로 많이 먹었어요.",
-        "options": ["정도", "때문", "바람"],
+        "options": [
+          "정도",
+          "때문",
+          "바람"
+        ],
         "correct": 0
       }
     ]
@@ -578,7 +650,11 @@
       {
         "type": "fill-blank",
         "question": "무료로 받은 ___이에요.",
-        "options": ["셈", "편", "탓"],
+        "options": [
+          "셈",
+          "편",
+          "탓"
+        ],
         "correct": 0
       }
     ]
@@ -611,7 +687,11 @@
       {
         "type": "fill-blank",
         "question": "열심히 공부한 ___큼 성적이 올랐어요.",
-        "options": ["만", "정", "바"],
+        "options": [
+          "만",
+          "정",
+          "바"
+        ],
         "correct": 0
       }
     ]
@@ -643,7 +723,11 @@
       {
         "type": "fill-blank",
         "question": "밥은___ 물도 못 마셨어요.",
-        "options": ["커녕", "는데", "만큼"],
+        "options": [
+          "커녕",
+          "는데",
+          "만큼"
+        ],
         "correct": 0
       }
     ]
@@ -675,7 +759,11 @@
       {
         "type": "fill-blank",
         "question": "최선을 다할 ___입니다.",
-        "options": ["따름", "정도", "셈"],
+        "options": [
+          "따름",
+          "정도",
+          "셈"
+        ],
         "correct": 0
       }
     ]
@@ -707,7 +795,11 @@
       {
         "type": "fill-blank",
         "question": "앞서 언급한 ___와 같이 진행하겠습니다.",
-        "options": ["바", "것", "데"],
+        "options": [
+          "바",
+          "것",
+          "데"
+        ],
         "correct": 0
       }
     ]
@@ -735,7 +827,11 @@
       {
         "type": "fill-blank",
         "question": "약속했___진대 지켜야 한다.",
-        "options": ["을", "으면", "다면"],
+        "options": [
+          "을",
+          "으면",
+          "다면"
+        ],
         "correct": 0
       }
     ]
@@ -767,7 +863,11 @@
       {
         "type": "fill-blank",
         "question": "언젠가 평화가 오___.",
-        "options": ["리라", "겠다", "을 것이다"],
+        "options": [
+          "리라",
+          "겠다",
+          "을 것이다"
+        ],
         "correct": 0
       }
     ]
@@ -799,7 +899,370 @@
       {
         "type": "fill-blank",
         "question": "어렵___망정 포기하지 않겠습니다.",
-        "options": ["을", "으면", "지만"],
+        "options": [
+          "을",
+          "으면",
+          "지만"
+        ],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-27",
+    "title": "~(으)ㄹ 거예요 (future tense)",
+    "level": "TOPIK2",
+    "explanation": "~(으)ㄹ 거예요 expresses future plans or intentions. Use 을 거예요 after consonants and ㄹ 거예요 after vowels.",
+    "examples": [
+      {
+        "korean": "내일 영화를 볼 거예요",
+        "english": "I will watch a movie tomorrow"
+      },
+      {
+        "korean": "다음 주에 한국에 갈 거예요",
+        "english": "I will go to Korea next week"
+      },
+      {
+        "korean": "저녁에 친구를 만날 거예요",
+        "english": "I will meet a friend in the evening"
+      }
+    ],
+    "patterns": [
+      "Verb stem (consonant) + 을 거예요",
+      "Verb stem (vowel) + ㄹ 거예요"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "내일 뭐 ___ 거예요?",
+        "options": [
+          "할",
+          "해",
+          "하고"
+        ],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-28",
+    "title": "~(으)ㄹ 수 있다/없다 (can/cannot)",
+    "level": "TOPIK2",
+    "explanation": "~(으)ㄹ 수 있다 expresses ability or possibility ('can do'). Use 을 수 있다 after consonants and ㄹ 수 있다 after vowels.",
+    "examples": [
+      {
+        "korean": "한국어를 할 수 있어요",
+        "english": "I can speak Korean"
+      },
+      {
+        "korean": "수영할 수 없어요",
+        "english": "I cannot swim"
+      },
+      {
+        "korean": "여기서 사진을 찍을 수 있어요?",
+        "english": "Can I take photos here?"
+      }
+    ],
+    "patterns": [
+      "Verb stem (consonant) + 을 수 있다/없다",
+      "Verb stem (vowel) + ㄹ 수 있다/없다"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "저는 운전___ 수 있어요.",
+        "options": [
+          "할",
+          "하는",
+          "하고"
+        ],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-29",
+    "title": "~아/어서 (reason, sequence)",
+    "level": "TOPIK2",
+    "explanation": "~아/어서 connects two clauses to show reason/cause or sequence of actions. Use 아서 after ㅏ, ㅗ and 어서 after other vowels.",
+    "examples": [
+      {
+        "korean": "배가 고파서 밥을 먹어요",
+        "english": "I'm hungry so I eat"
+      },
+      {
+        "korean": "만나서 반가워요",
+        "english": "Nice to meet you (meeting you, I'm happy)"
+      },
+      {
+        "korean": "늦어서 미안해요",
+        "english": "I'm sorry for being late"
+      }
+    ],
+    "patterns": [
+      "Verb stem (ㅏ,ㅗ) + 아서",
+      "Verb stem (other) + 어서",
+      "하다 → 해서"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "피곤___ 일찍 잤어요.",
+        "options": [
+          "해서",
+          "하고",
+          "하면"
+        ],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-30",
+    "title": "~(으)니까 (because, since)",
+    "level": "TOPIK2",
+    "explanation": "~(으)니까 expresses reason or cause, often followed by commands or suggestions. Use 으니까 after consonants and 니까 after vowels.",
+    "examples": [
+      {
+        "korean": "비가 오니까 우산을 가져가세요",
+        "english": "Since it's raining, take an umbrella"
+      },
+      {
+        "korean": "시간이 없으니까 빨리 가요",
+        "english": "Since there's no time, let's go quickly"
+      },
+      {
+        "korean": "맛있으니까 많이 드세요",
+        "english": "Since it's delicious, eat a lot"
+      }
+    ],
+    "patterns": [
+      "Verb/Adj stem (consonant) + 으니까",
+      "Verb/Adj stem (vowel) + 니까"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "날씨가 좋___까 산책해요.",
+        "options": [
+          "으니",
+          "아서",
+          "고"
+        ],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-31",
+    "title": "~고 (and, then)",
+    "level": "TOPIK2",
+    "explanation": "~고 connects verbs or adjectives to list actions or states. It can mean 'and' or show sequence of actions.",
+    "examples": [
+      {
+        "korean": "밥을 먹고 커피를 마셔요",
+        "english": "I eat and drink coffee"
+      },
+      {
+        "korean": "이 책은 싸고 재미있어요",
+        "english": "This book is cheap and interesting"
+      },
+      {
+        "korean": "아침에 일어나고 운동해요",
+        "english": "I wake up and exercise"
+      }
+    ],
+    "patterns": [
+      "Verb/Adj stem + 고"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "숙제하___ 텔레비전 봐요.",
+        "options": [
+          "고",
+          "서",
+          "면"
+        ],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-32",
+    "title": "~(으)면 (if, when)",
+    "level": "TOPIK2",
+    "explanation": "~(으)면 expresses condition ('if') or hypothetical situations. Use 으면 after consonants and 면 after vowels.",
+    "examples": [
+      {
+        "korean": "시간이 있으면 여행 가고 싶어요",
+        "english": "If I have time, I want to travel"
+      },
+      {
+        "korean": "배가 고프면 밥 먹어요",
+        "english": "If you're hungry, eat"
+      },
+      {
+        "korean": "내일 비가 오면 집에 있을 거예요",
+        "english": "If it rains tomorrow, I'll stay home"
+      }
+    ],
+    "patterns": [
+      "Verb/Adj stem (consonant) + 으면",
+      "Verb/Adj stem (vowel) + 면"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "돈이 있___ 차를 사고 싶어요.",
+        "options": [
+          "으면",
+          "어서",
+          "고"
+        ],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-33",
+    "title": "~지만 (but, however)",
+    "level": "TOPIK2",
+    "explanation": "~지만 connects two contrasting clauses, meaning 'but' or 'however'.",
+    "examples": [
+      {
+        "korean": "비싸지만 좋아요",
+        "english": "It's expensive but good"
+      },
+      {
+        "korean": "한국어는 어렵지만 재미있어요",
+        "english": "Korean is difficult but interesting"
+      },
+      {
+        "korean": "먹고 싶지만 시간이 없어요",
+        "english": "I want to eat but don't have time"
+      }
+    ],
+    "patterns": [
+      "Verb/Adj stem + 지만"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "피곤하___ 일해야 해요.",
+        "options": [
+          "지만",
+          "고",
+          "서"
+        ],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-34",
+    "title": "~(으)세요 (polite request/command)",
+    "level": "TOPIK2",
+    "explanation": "~(으)세요 is used to make polite requests or give polite commands. Use 으세요 after consonants and 세요 after vowels.",
+    "examples": [
+      {
+        "korean": "여기 앉으세요",
+        "english": "Please sit here"
+      },
+      {
+        "korean": "천천히 말씀하세요",
+        "english": "Please speak slowly"
+      },
+      {
+        "korean": "이 책을 읽으세요",
+        "english": "Please read this book"
+      }
+    ],
+    "patterns": [
+      "Verb stem (consonant) + 으세요",
+      "Verb stem (vowel) + 세요"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "물 좀 주___.",
+        "options": [
+          "세요",
+          "어요",
+          "ㄹ까요"
+        ],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-35",
+    "title": "~(으)ㄹ까요? (shall we, I wonder)",
+    "level": "TOPIK2",
+    "explanation": "~(으)ㄹ까요? is used to make suggestions ('Shall we...?') or express wondering ('I wonder if...').",
+    "examples": [
+      {
+        "korean": "같이 점심 먹을까요?",
+        "english": "Shall we eat lunch together?"
+      },
+      {
+        "korean": "창문을 열까요?",
+        "english": "Shall I open the window?"
+      },
+      {
+        "korean": "내일 비가 올까요?",
+        "english": "I wonder if it will rain tomorrow"
+      }
+    ],
+    "patterns": [
+      "Verb stem (consonant) + 을까요?",
+      "Verb stem (vowel) + ㄹ까요?"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "영화를 볼___?",
+        "options": [
+          "까요",
+          "거예요",
+          "고 싶어요"
+        ],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "ko-grammar-36",
+    "title": "~(으)ㄹ게요 (I will, promise)",
+    "level": "TOPIK2",
+    "explanation": "~(으)ㄹ게요 expresses the speaker's intention or promise to do something. Only used for first person.",
+    "examples": [
+      {
+        "korean": "내일 전화할게요",
+        "english": "I will call you tomorrow"
+      },
+      {
+        "korean": "제가 도와줄게요",
+        "english": "I will help you"
+      },
+      {
+        "korean": "조심할게요",
+        "english": "I will be careful"
+      }
+    ],
+    "patterns": [
+      "Verb stem (consonant) + 을게요",
+      "Verb stem (vowel) + ㄹ게요"
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "제가 정리___게요.",
+        "options": [
+          "할",
+          "하는",
+          "해"
+        ],
         "correct": 0
       }
     ]

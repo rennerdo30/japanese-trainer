@@ -1,12 +1,14 @@
 'use client'
 
-import { useState, useEffect, useCallback, useRef, useMemo } from 'react';
+import { useState, useEffect, useCallback, useRef, useMemo, MutableRefObject } from 'react';
 import Navigation from '@/components/common/Navigation';
 import StatsPanel from '@/components/common/StatsPanel';
 import Timer from '@/components/common/Timer';
 import MultipleChoice from '@/components/common/MultipleChoice';
 import LanguageContentGuard from '@/components/common/LanguageContentGuard';
+import { LearnModeToggle, CharacterLesson, LessonProgress, AlphabetMode, LessonCharacter } from '@/components/alphabet';
 import { Container, Input, CharacterCard, CharacterDisplay, OptionsPanel, InputSection, Toggle, Chip, Text } from '@/components/ui';
+import ErrorBoundary from '@/components/common/ErrorBoundary';
 import optionsStyles from '@/components/ui/OptionsPanel.module.css';
 import { useProgressContext } from '@/context/ProgressProvider';
 import { useLanguage } from '@/context/LanguageProvider';
@@ -14,41 +16,75 @@ import { useTargetLanguage } from '@/hooks/useTargetLanguage';
 import { useMobile } from '@/hooks/useMobile';
 import { useTTS } from '@/hooks/useTTS';
 import { useTimer } from '@/hooks/useTimer';
-import { Character, Filter } from '@/types';
+import { Character, Filter, AlphabetLesson } from '@/types';
 import { toKatakana } from 'wanakana';
 import styles from './alphabet.module.css';
 
 // Import character data for each language
 import jaCharactersJson from '@/data/ja/characters.json';
 import koCharactersJson from '@/data/ko/characters.json';
+import learningPathsJson from '@/data/learning-paths.json';
 
 const TIME_PER_CHARACTER = 5;
 
 // Define extended character type for Korean
-interface KoreanCharacter {
+interface KoreanCharacterData {
     romaji: string;
     character: string;
     type: 'consonant' | 'vowel' | 'double_consonant' | 'compound_vowel';
-    name: string;
+    name?: string;
+    group?: string;
+    order?: number;
+    mnemonic?: {
+        en: string;
+        es?: string;
+        [key: string]: string | undefined;
+    };
+    audioUrl?: string;
+}
+
+// Define extended character type for Japanese with metadata
+interface JapaneseCharacterData {
+    romaji: string;
+    hiragana: string;
+    type: 'gojuon' | 'yoon' | 'dakuten' | 'handakuten';
+    group?: string;
+    order?: number;
+    mnemonic?: {
+        en: string;
+        es?: string;
+        [key: string]: string | undefined;
+    };
+    audioUrl?: string;
 }
 
 // Normalize Korean characters to match the Character interface
-const normalizeKoreanCharacter = (char: KoreanCharacter): Character => ({
+const normalizeKoreanCharacter = (char: KoreanCharacterData): Character => ({
     romaji: char.romaji,
     hiragana: char.character, // Use 'hiragana' field for the character display
     type: char.type,
-    audioUrl: undefined, // No audio yet for Korean
+    audioUrl: char.audioUrl,
+    group: char.group,
+    order: char.order,
+    name: char.name,
+    mnemonic: char.mnemonic,
 });
 
 // Get characters based on target language
 const getCharacterData = (lang: string): Character[] => {
     switch (lang) {
         case 'ko':
-            return (koCharactersJson as KoreanCharacter[]).map(normalizeKoreanCharacter);
+            return (koCharactersJson as KoreanCharacterData[]).map(normalizeKoreanCharacter);
         case 'ja':
         default:
             return jaCharactersJson as Character[];
     }
+};
+
+// Get lesson data based on target language
+const getLessonData = (lang: string): AlphabetLesson[] => {
+    const alphabetLessons = (learningPathsJson as { alphabetLessons: Record<string, { lessons: AlphabetLesson[] }> }).alphabetLessons;
+    return alphabetLessons[lang]?.lessons || alphabetLessons['ja']?.lessons || [];
 };
 
 // Filter configurations per language
@@ -95,17 +131,31 @@ const TOGGLE_CONFIGS: Record<string, ToggleConfig> = {
 type InputState = '' | 'error' | 'success';
 
 export default function AlphabetPage() {
-    const { updateModuleStats: updateStats } = useProgressContext();
-    const { t } = useLanguage();
+    const { updateModuleStats: updateStats, getModuleData } = useProgressContext();
+    const { t, language } = useLanguage();
     const { targetLanguage } = useTargetLanguage();
     const isMobile = useMobile();
     const { speakAndWait, preloadAudio } = useTTS();
     const preloadedAudioRef = useRef<HTMLAudioElement | null>(null);
+
+    // Mode toggle state (learn vs practice)
+    const [mode, setMode] = useState<AlphabetMode>('learn');
+
+    // Learn mode state
+    const [currentLessonIndex, setCurrentLessonIndex] = useState(0);
+    const [currentCharIndex, setCurrentCharIndex] = useState(0);
+    const [learnedCharacters, setLearnedCharacters] = useState<Set<string>>(new Set());
+    const [isPlayingAudio, setIsPlayingAudio] = useState(false);
+
+    // Practice mode state
     const [currentChar, setCurrentChar] = useState<Character | null>(null);
     const [correct, setCorrect] = useState(0);
     const [total, setTotal] = useState(0);
     const [streak, setStreak] = useState(0);
     const [isProcessing, setIsProcessing] = useState(false);
+
+    // Use refs to track current stats values for updateStats to avoid stale closures
+    const statsRef = useRef({ correct: 0, total: 0, streak: 0, bestStreak: 0 });
     const [inputValue, setInputValue] = useState('');
     const [multipleChoiceOptions, setMultipleChoiceOptions] = useState<string[]>([]);
     const [useHiragana, setUseHiragana] = useState(true);
@@ -118,8 +168,19 @@ export default function AlphabetPage() {
 
     // Get characters and filter configuration for current language
     const characters = useMemo(() => getCharacterData(targetLanguage), [targetLanguage]);
+    const lessons = useMemo(() => getLessonData(targetLanguage), [targetLanguage]);
     const filterConfig = useMemo(() => FILTER_CONFIGS[targetLanguage] || FILTER_CONFIGS.ja, [targetLanguage]);
     const toggleConfig = useMemo(() => TOGGLE_CONFIGS[targetLanguage] || TOGGLE_CONFIGS.ja, [targetLanguage]);
+
+    // Get current lesson and characters for learn mode
+    const currentLesson = useMemo(() => lessons[currentLessonIndex], [lessons, currentLessonIndex]);
+    const lessonCharacters = useMemo(() => {
+        if (!currentLesson) return [];
+        return currentLesson.characters
+            .map(romaji => characters.find(c => c.romaji === romaji))
+            .filter((c): c is Character => c !== undefined);
+    }, [currentLesson, characters]);
+    const currentLessonChar = useMemo(() => lessonCharacters[currentCharIndex], [lessonCharacters, currentCharIndex]);
 
     // Initialize filters based on language
     const [filters, setFilters] = useState<Record<string, Filter>>(() => {
@@ -145,6 +206,20 @@ export default function AlphabetPage() {
         // For other languages, just return the character as-is
         return char.hiragana;
     }, [useHiragana, targetLanguage]);
+
+    // Convert Character to LessonCharacter for the CharacterLesson component
+    const toLessonCharacter = useCallback((char: Character | null): LessonCharacter | null => {
+        if (!char) return null;
+        return {
+            romaji: char.romaji,
+            character: getDisplayCharacter(char),
+            type: char.type,
+            group: char.group,
+            name: char.name,
+            mnemonic: char.mnemonic?.[language] || char.mnemonic?.en,
+            audioUrl: char.audioUrl,
+        };
+    }, [getDisplayCharacter, language]);
 
     const generateMultipleChoice = useCallback((correctChar: Character, available: Character[]) => {
         const incorrect = available
@@ -226,30 +301,51 @@ export default function AlphabetPage() {
         setIsProcessing(true);
         setIsCorrect(true);
         setInputState('success');
+
+        // Update state using functional updates
         setCorrect(prev => prev + 1);
         setTotal(prev => prev + 1);
         setStreak(prev => prev + 1);
+
+        // Calculate new values from ref (current values) for updateStats
+        const newCorrect = statsRef.current.correct + 1;
+        const newTotal = statsRef.current.total + 1;
+        const newStreak = statsRef.current.streak + 1;
+        const newBestStreak = Math.max(statsRef.current.bestStreak, newStreak);
+
+        // Update ref immediately
+        statsRef.current = { correct: newCorrect, total: newTotal, streak: newStreak, bestStreak: newBestStreak };
+
         await speakAndWait(getDisplayCharacter(currentChar), { audioUrl: currentChar.audioUrl });
-        updateStats('alphabet', { correct: correct + 1, total: total + 1, streak: streak + 1 });
+        updateStats('alphabet', { correct: newCorrect, total: newTotal, streak: newStreak, bestStreak: newBestStreak });
         nextCharacter();
         reset();
         start();
         setIsProcessing(false);
-    }, [currentChar, correct, total, streak, speakAndWait, getDisplayCharacter, updateStats, nextCharacter, reset, start]);
+    }, [currentChar, speakAndWait, getDisplayCharacter, updateStats, nextCharacter, reset, start]);
 
     const handleIncorrect = useCallback(async () => {
         if (!currentChar) return;
         setIsProcessing(true);
         setInputState('error');
+
+        // Update state using functional updates
         setTotal(prev => prev + 1);
         setStreak(0);
+
+        // Calculate new values from ref (current values) for updateStats
+        const newTotal = statsRef.current.total + 1;
+
+        // Update ref immediately
+        statsRef.current = { ...statsRef.current, total: newTotal, streak: 0 };
+
         await speakAndWait(getDisplayCharacter(currentChar), { audioUrl: currentChar.audioUrl });
-        updateStats('alphabet', { correct, total: total + 1, streak: 0 });
+        updateStats('alphabet', { correct: statsRef.current.correct, total: newTotal, streak: 0, bestStreak: statsRef.current.bestStreak });
         nextCharacter();
         reset();
         start();
         setIsProcessing(false);
-    }, [currentChar, correct, total, speakAndWait, getDisplayCharacter, updateStats, nextCharacter, reset, start]);
+    }, [currentChar, speakAndWait, getDisplayCharacter, updateStats, nextCharacter, reset, start]);
 
     const checkInput = useCallback((value: string) => {
         if (isProcessing || !currentChar) return;
@@ -270,7 +366,34 @@ export default function AlphabetPage() {
         }
     }, [isProcessing, currentChar, multipleChoiceOptions, handleCorrect, handleIncorrect]);
 
-    const { getModuleData } = useProgressContext();
+    // Learn mode handlers
+    const handlePlayAudio = useCallback(async () => {
+        if (!currentLessonChar) return;
+        setIsPlayingAudio(true);
+        await speakAndWait(getDisplayCharacter(currentLessonChar), { audioUrl: currentLessonChar.audioUrl });
+        setIsPlayingAudio(false);
+    }, [currentLessonChar, speakAndWait, getDisplayCharacter]);
+
+    const handleMarkLearned = useCallback(() => {
+        if (!currentLessonChar) return;
+        setLearnedCharacters(prev => new Set([...prev, currentLessonChar.romaji]));
+        // Auto-advance to next character
+        if (currentCharIndex < lessonCharacters.length - 1) {
+            setCurrentCharIndex(prev => prev + 1);
+        }
+    }, [currentLessonChar, currentCharIndex, lessonCharacters.length]);
+
+    const handlePreviousChar = useCallback(() => {
+        if (currentCharIndex > 0) {
+            setCurrentCharIndex(prev => prev - 1);
+        }
+    }, [currentCharIndex]);
+
+    const handleNextChar = useCallback(() => {
+        if (currentCharIndex < lessonCharacters.length - 1) {
+            setCurrentCharIndex(prev => prev + 1);
+        }
+    }, [currentCharIndex, lessonCharacters.length]);
 
     // Update filter labels when translation changes
     useEffect(() => {
@@ -297,13 +420,31 @@ export default function AlphabetPage() {
             };
         });
         setFilters(newFilters);
+        // Reset learn mode state
+        setCurrentLessonIndex(0);
+        setCurrentCharIndex(0);
+        setLearnedCharacters(new Set());
     }, [targetLanguage, filterConfig, t]);
 
+    // Load initial stats from module data and sync to ref
     useEffect(() => {
         const moduleData = getModuleData('alphabet');
-        setCorrect(moduleData?.stats?.correct || 0);
-        setTotal(moduleData?.stats?.total || 0);
-        setStreak(moduleData?.stats?.streak || 0);
+        const initialCorrect = moduleData?.stats?.correct || 0;
+        const initialTotal = moduleData?.stats?.total || 0;
+        const initialStreak = moduleData?.stats?.streak || 0;
+        const initialBestStreak = moduleData?.stats?.bestStreak || 0;
+
+        setCorrect(initialCorrect);
+        setTotal(initialTotal);
+        setStreak(initialStreak);
+
+        // Initialize ref with loaded values
+        statsRef.current = {
+            correct: initialCorrect,
+            total: initialTotal,
+            streak: initialStreak,
+            bestStreak: initialBestStreak
+        };
     }, [getModuleData]);
 
     // Create a stable string of filter states for dependency tracking
@@ -311,22 +452,23 @@ export default function AlphabetPage() {
         return Object.entries(filters).map(([id, f]) => `${id}:${f.checked}`).join(',');
     }, [filters]);
 
+    // Initialize practice mode when switching to it
     useEffect(() => {
-        if (characters.length > 0) {
+        if (mode === 'practice' && characters.length > 0) {
             nextCharacter();
             start();
         }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [filterStates, useHiragana, targetLanguage]);
+    }, [mode, filterStates, useHiragana, targetLanguage]);
 
     useEffect(() => {
-        if (!isMobile && currentChar && inputRef.current && !isProcessing) {
+        if (mode === 'practice' && !isMobile && currentChar && inputRef.current && !isProcessing) {
             const timeoutId = setTimeout(() => {
                 inputRef.current?.focus();
             }, 50);
             return () => clearTimeout(timeoutId);
         }
-    }, [currentChar, isMobile, isProcessing]);
+    }, [currentChar, isMobile, isProcessing, mode]);
 
     useEffect(() => {
         if (currentChar?.audioUrl) {
@@ -343,91 +485,152 @@ export default function AlphabetPage() {
         setFilters(prev => ({ ...prev, [id]: { ...prev[id], checked } }));
     }, []);
 
-    if (!currentChar) {
+    // Render Learn Mode
+    const renderLearnMode = () => {
+        const lessonChar = toLessonCharacter(currentLessonChar);
+        if (!lessonChar || !currentLesson) {
+            return (
+                <div className={styles.noCharacters}>
+                    {t('learnMode.noLessonsAvailable') || 'No lessons available for this language yet.'}
+                </div>
+            );
+        }
+
+        const lessonLearnedCount = lessonCharacters.filter(c => learnedCharacters.has(c.romaji)).length;
+
         return (
-            <LanguageContentGuard moduleName="alphabet">
-                <Container variant="centered">
-                    <Navigation />
-                    <div>{t('alphabet.noCharacters')}</div>
-                </Container>
-            </LanguageContentGuard>
+            <>
+                <LessonProgress
+                    currentIndex={currentCharIndex}
+                    totalCount={lessonCharacters.length}
+                    learnedCount={lessonLearnedCount}
+                    onPrevious={handlePreviousChar}
+                    onNext={handleNextChar}
+                    hasPrevious={currentCharIndex > 0}
+                    hasNext={currentCharIndex < lessonCharacters.length - 1}
+                    lessonName={currentLesson.name}
+                    progressLabel={t('learnMode.progress') || 'Progress'}
+                    learnedLabel={t('learnMode.learned') || 'Learned'}
+                />
+
+                <CharacterLesson
+                    character={lessonChar}
+                    languageCode={targetLanguage}
+                    onMarkLearned={handleMarkLearned}
+                    onPlayAudio={handlePlayAudio}
+                    isPlaying={isPlayingAudio}
+                    isLearned={learnedCharacters.has(currentLessonChar?.romaji || '')}
+                    typeLabel={t('learnMode.type') || 'Type'}
+                    groupLabel={t('learnMode.group') || 'Group'}
+                    soundLabel={t('learnMode.playSound') || 'Play Sound'}
+                    markLearnedLabel={t('learnMode.markLearned') || 'Mark as Learned'}
+                    learnedLabel={t('learnMode.alreadyLearned') || 'Already Learned'}
+                    mnemonicLabel={t('learnMode.mnemonic') || 'Memory Tip'}
+                />
+            </>
         );
-    }
+    };
+
+    // Render Practice Mode
+    const renderPracticeMode = () => {
+        if (!currentChar) {
+            return (
+                <div>{t('alphabet.noCharacters')}</div>
+            );
+        }
+
+        return (
+            <>
+                <OptionsPanel>
+                    {toggleConfig.enabled && (
+                        <div className={optionsStyles.toggleContainer}>
+                            <Text variant="label" color="muted">{t('alphabet.title')}</Text>
+                            <Toggle
+                                options={toggleConfig.options.map(opt => ({
+                                    id: opt.id,
+                                    label: t(opt.labelKey)
+                                })) as [{ id: string; label: string }, { id: string; label: string }]}
+                                value={useHiragana ? 'hiragana' : 'katakana'}
+                                onChange={(val) => setUseHiragana(val === 'hiragana')}
+                                name="alphabet-type"
+                            />
+                        </div>
+                    )}
+                    <div className={optionsStyles.group}>
+                        {Object.values(filters).map((filter) => (
+                            <Chip
+                                key={filter.id}
+                                id={filter.id}
+                                label={filter.label}
+                                checked={filter.checked}
+                                onChange={(checked) => handleFilterChange(filter.id, checked)}
+                            />
+                        ))}
+                    </div>
+                </OptionsPanel>
+
+                <CharacterCard entering={isCharacterEntering} correct={isCorrect}>
+                    <Timer timeLeft={timeLeft} totalTime={TIME_PER_CHARACTER} />
+                    <CharacterDisplay
+                        character={getDisplayCharacter(currentChar)}
+                        entering={isCharacterEntering}
+                        correct={isCorrect}
+                    />
+                </CharacterCard>
+
+                <InputSection>
+                    {isMobile ? (
+                        <MultipleChoice
+                            options={multipleChoiceOptions}
+                            onSelect={handleMultipleChoice}
+                            disabled={isProcessing}
+                            showCorrect={showMultipleChoiceFeedback}
+                            correctIndex={multipleChoiceOptions.indexOf(currentChar?.romaji)}
+                        />
+                    ) : (
+                        <Input
+                            ref={inputRef}
+                            type="text"
+                            value={inputValue}
+                            onChange={(e) => {
+                                setInputValue(e.target.value);
+                                setInputState('');
+                                checkInput(e.target.value);
+                            }}
+                            placeholder="..."
+                            autoComplete="off"
+                            autoCapitalize="off"
+                            spellCheck="false"
+                            disabled={isProcessing}
+                            variant={inputState || 'default'}
+                            size="lg"
+                            fullWidth
+                        />
+                    )}
+                    <StatsPanel correct={correct} total={total} streak={streak} />
+                </InputSection>
+            </>
+        );
+    };
 
     return (
+        <ErrorBoundary>
         <LanguageContentGuard moduleName="alphabet">
-            <Container variant="centered" streak={streak}>
+            <Container variant="centered" streak={mode === 'practice' ? streak : 0}>
                 <Navigation />
 
-            <OptionsPanel>
-                {toggleConfig.enabled && (
-                    <div className={optionsStyles.toggleContainer}>
-                        <Text variant="label" color="muted">{t('alphabet.title')}</Text>
-                        <Toggle
-                            options={toggleConfig.options.map(opt => ({
-                                id: opt.id,
-                                label: t(opt.labelKey)
-                            })) as [{ id: string; label: string }, { id: string; label: string }]}
-                            value={useHiragana ? 'hiragana' : 'katakana'}
-                            onChange={(val) => setUseHiragana(val === 'hiragana')}
-                            name="alphabet-type"
-                        />
-                    </div>
-                )}
-                <div className={optionsStyles.group}>
-                    {Object.values(filters).map((filter) => (
-                        <Chip
-                            key={filter.id}
-                            id={filter.id}
-                            label={filter.label}
-                            checked={filter.checked}
-                            onChange={(checked) => handleFilterChange(filter.id, checked)}
-                        />
-                    ))}
+                <div className={styles.modeToggleWrapper}>
+                    <LearnModeToggle
+                        mode={mode}
+                        onChange={setMode}
+                        learnLabel={t('learnMode.learn') || 'Learn'}
+                        practiceLabel={t('learnMode.practice') || 'Practice'}
+                    />
                 </div>
-            </OptionsPanel>
 
-            <CharacterCard entering={isCharacterEntering} correct={isCorrect}>
-                <Timer timeLeft={timeLeft} totalTime={TIME_PER_CHARACTER} />
-                <CharacterDisplay
-                    character={getDisplayCharacter(currentChar)}
-                    entering={isCharacterEntering}
-                    correct={isCorrect}
-                />
-            </CharacterCard>
-
-            <InputSection>
-                {isMobile ? (
-                    <MultipleChoice
-                        options={multipleChoiceOptions}
-                        onSelect={handleMultipleChoice}
-                        disabled={isProcessing}
-                        showCorrect={showMultipleChoiceFeedback}
-                        correctIndex={multipleChoiceOptions.indexOf(currentChar?.romaji)}
-                    />
-                ) : (
-                    <Input
-                        ref={inputRef}
-                        type="text"
-                        value={inputValue}
-                        onChange={(e) => {
-                            setInputValue(e.target.value);
-                            setInputState('');
-                            checkInput(e.target.value);
-                        }}
-                        placeholder="..."
-                        autoComplete="off"
-                        autoCapitalize="off"
-                        spellCheck="false"
-                        disabled={isProcessing}
-                        variant={inputState || 'default'}
-                        size="lg"
-                        fullWidth
-                    />
-                )}
-                <StatsPanel correct={correct} total={total} streak={streak} />
-            </InputSection>
+                {mode === 'learn' ? renderLearnMode() : renderPracticeMode()}
             </Container>
         </LanguageContentGuard>
+        </ErrorBoundary>
     );
 }

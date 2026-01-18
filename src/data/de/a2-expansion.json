@@ -1,0 +1,606 @@
+{
+  "vocabulary": [
+    {
+      "id": "de-vocab-a2-1",
+      "word": "aufstehen",
+      "level": "A2",
+      "meanings": { "en": ["to get up", "to stand up"], "ja": ["起きる", "立ち上がる"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Ich stehe jeden Morgen um sieben Uhr auf.", "translation": "I get up at seven o'clock every morning." }]
+    },
+    {
+      "id": "de-vocab-a2-2",
+      "word": "frühstücken",
+      "level": "A2",
+      "meanings": { "en": ["to have breakfast"], "ja": ["朝食を食べる"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Wir frühstücken zusammen am Wochenende.", "translation": "We have breakfast together on the weekend." }]
+    },
+    {
+      "id": "de-vocab-a2-3",
+      "word": "duschen",
+      "level": "A2",
+      "meanings": { "en": ["to shower"], "ja": ["シャワーを浴びる"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Nach dem Sport dusche ich immer.", "translation": "I always shower after sports." }]
+    },
+    {
+      "id": "de-vocab-a2-4",
+      "word": "anziehen",
+      "level": "A2",
+      "meanings": { "en": ["to put on", "to dress"], "ja": ["着る", "身につける"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Zieh dir eine warme Jacke an!", "translation": "Put on a warm jacket!" }]
+    },
+    {
+      "id": "de-vocab-a2-5",
+      "word": "einkaufen",
+      "level": "A2",
+      "meanings": { "en": ["to shop", "to go shopping"], "ja": ["買い物する"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Ich gehe samstags im Supermarkt einkaufen.", "translation": "I go shopping at the supermarket on Saturdays." }]
+    },
+    {
+      "id": "de-vocab-a2-6",
+      "word": "der Einkaufswagen",
+      "level": "A2",
+      "meanings": { "en": ["shopping cart"], "ja": ["ショッピングカート"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Nimm bitte einen Einkaufswagen.", "translation": "Please take a shopping cart." }]
+    },
+    {
+      "id": "de-vocab-a2-7",
+      "word": "die Kasse",
+      "level": "A2",
+      "meanings": { "en": ["checkout", "cash register"], "ja": ["レジ", "会計"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "An der Kasse ist eine lange Schlange.", "translation": "There is a long line at the checkout." }]
+    },
+    {
+      "id": "de-vocab-a2-8",
+      "word": "bezahlen",
+      "level": "A2",
+      "meanings": { "en": ["to pay"], "ja": ["支払う"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Kann ich mit Karte bezahlen?", "translation": "Can I pay by card?" }]
+    },
+    {
+      "id": "de-vocab-a2-9",
+      "word": "das Sonderangebot",
+      "level": "A2",
+      "meanings": { "en": ["special offer", "sale"], "ja": ["特売", "セール"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Diese Woche gibt es Käse im Sonderangebot.", "translation": "This week there is cheese on special offer." }]
+    },
+    {
+      "id": "de-vocab-a2-10",
+      "word": "der Flughafen",
+      "level": "A2",
+      "meanings": { "en": ["airport"], "ja": ["空港"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Der Flughafen ist 30 Kilometer von hier entfernt.", "translation": "The airport is 30 kilometers from here." }]
+    },
+    {
+      "id": "de-vocab-a2-11",
+      "word": "der Koffer",
+      "level": "A2",
+      "meanings": { "en": ["suitcase"], "ja": ["スーツケース"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Mein Koffer ist sehr schwer.", "translation": "My suitcase is very heavy." }]
+    },
+    {
+      "id": "de-vocab-a2-12",
+      "word": "buchen",
+      "level": "A2",
+      "meanings": { "en": ["to book", "to reserve"], "ja": ["予約する"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Ich möchte einen Flug nach Berlin buchen.", "translation": "I would like to book a flight to Berlin." }]
+    },
+    {
+      "id": "de-vocab-a2-13",
+      "word": "die Unterkunft",
+      "level": "A2",
+      "meanings": { "en": ["accommodation", "lodging"], "ja": ["宿泊施設"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Wir suchen eine günstige Unterkunft.", "translation": "We are looking for affordable accommodation." }]
+    },
+    {
+      "id": "de-vocab-a2-14",
+      "word": "der Reisepass",
+      "level": "A2",
+      "meanings": { "en": ["passport"], "ja": ["パスポート"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Vergiss deinen Reisepass nicht!", "translation": "Don't forget your passport!" }]
+    },
+    {
+      "id": "de-vocab-a2-15",
+      "word": "regnen",
+      "level": "A2",
+      "meanings": { "en": ["to rain"], "ja": ["雨が降る"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Es hat den ganzen Tag geregnet.", "translation": "It rained all day." }]
+    },
+    {
+      "id": "de-vocab-a2-16",
+      "word": "schneien",
+      "level": "A2",
+      "meanings": { "en": ["to snow"], "ja": ["雪が降る"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Im Winter schneit es hier oft.", "translation": "It often snows here in winter." }]
+    },
+    {
+      "id": "de-vocab-a2-17",
+      "word": "bewölkt",
+      "level": "A2",
+      "meanings": { "en": ["cloudy", "overcast"], "ja": ["曇った"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "Heute ist es bewölkt, aber es regnet nicht.", "translation": "Today it is cloudy, but it is not raining." }]
+    },
+    {
+      "id": "de-vocab-a2-18",
+      "word": "der Sturm",
+      "level": "A2",
+      "meanings": { "en": ["storm"], "ja": ["嵐"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Ein schwerer Sturm kommt morgen.", "translation": "A heavy storm is coming tomorrow." }]
+    },
+    {
+      "id": "de-vocab-a2-19",
+      "word": "die Temperatur",
+      "level": "A2",
+      "meanings": { "en": ["temperature"], "ja": ["気温", "温度"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Die Temperatur liegt bei 25 Grad.", "translation": "The temperature is 25 degrees." }]
+    },
+    {
+      "id": "de-vocab-a2-20",
+      "word": "freundlich",
+      "level": "A2",
+      "meanings": { "en": ["friendly", "kind"], "ja": ["親切な", "友好的な"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "Die Leute hier sind sehr freundlich.", "translation": "The people here are very friendly." }]
+    },
+    {
+      "id": "de-vocab-a2-21",
+      "word": "lustig",
+      "level": "A2",
+      "meanings": { "en": ["funny", "amusing"], "ja": ["面白い", "愉快な"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "Er erzählt immer lustige Geschichten.", "translation": "He always tells funny stories." }]
+    },
+    {
+      "id": "de-vocab-a2-22",
+      "word": "traurig",
+      "level": "A2",
+      "meanings": { "en": ["sad"], "ja": ["悲しい"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "Warum bist du so traurig?", "translation": "Why are you so sad?" }]
+    },
+    {
+      "id": "de-vocab-a2-23",
+      "word": "müde",
+      "level": "A2",
+      "meanings": { "en": ["tired"], "ja": ["疲れた", "眠い"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "Ich bin heute sehr müde.", "translation": "I am very tired today." }]
+    },
+    {
+      "id": "de-vocab-a2-24",
+      "word": "nervös",
+      "level": "A2",
+      "meanings": { "en": ["nervous"], "ja": ["緊張した", "神経質な"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "Vor Prüfungen bin ich immer nervös.", "translation": "I am always nervous before exams." }]
+    },
+    {
+      "id": "de-vocab-a2-25",
+      "word": "besuchen",
+      "level": "A2",
+      "meanings": { "en": ["to visit"], "ja": ["訪問する", "見舞う"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Ich habe meine Großeltern besucht.", "translation": "I visited my grandparents." }]
+    },
+    {
+      "id": "de-vocab-a2-26",
+      "word": "treffen",
+      "level": "A2",
+      "meanings": { "en": ["to meet"], "ja": ["会う"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Wir haben uns im Park getroffen.", "translation": "We met in the park." }]
+    },
+    {
+      "id": "de-vocab-a2-27",
+      "word": "verlieren",
+      "level": "A2",
+      "meanings": { "en": ["to lose"], "ja": ["失う", "なくす"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Ich habe meinen Schlüssel verloren.", "translation": "I lost my key." }]
+    },
+    {
+      "id": "de-vocab-a2-28",
+      "word": "finden",
+      "level": "A2",
+      "meanings": { "en": ["to find"], "ja": ["見つける"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Hast du deine Brille gefunden?", "translation": "Did you find your glasses?" }]
+    },
+    {
+      "id": "de-vocab-a2-29",
+      "word": "der Arzt",
+      "level": "A2",
+      "meanings": { "en": ["doctor", "physician"], "ja": ["医者"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Ich muss zum Arzt gehen.", "translation": "I have to go to the doctor." }]
+    },
+    {
+      "id": "de-vocab-a2-30",
+      "word": "die Apotheke",
+      "level": "A2",
+      "meanings": { "en": ["pharmacy"], "ja": ["薬局"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Die nächste Apotheke ist um die Ecke.", "translation": "The nearest pharmacy is around the corner." }]
+    },
+    {
+      "id": "de-vocab-a2-31",
+      "word": "das Medikament",
+      "level": "A2",
+      "meanings": { "en": ["medicine", "medication"], "ja": ["薬"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Nehmen Sie dieses Medikament dreimal täglich.", "translation": "Take this medicine three times a day." }]
+    },
+    {
+      "id": "de-vocab-a2-32",
+      "word": "die Erkältung",
+      "level": "A2",
+      "meanings": { "en": ["cold", "common cold"], "ja": ["風邪"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Ich habe eine starke Erkältung.", "translation": "I have a bad cold." }]
+    },
+    {
+      "id": "de-vocab-a2-33",
+      "word": "das Fieber",
+      "level": "A2",
+      "meanings": { "en": ["fever"], "ja": ["熱"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Das Kind hat hohes Fieber.", "translation": "The child has a high fever." }]
+    },
+    {
+      "id": "de-vocab-a2-34",
+      "word": "wehtun",
+      "level": "A2",
+      "meanings": { "en": ["to hurt", "to ache"], "ja": ["痛む"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Mein Kopf tut weh.", "translation": "My head hurts." }]
+    },
+    {
+      "id": "de-vocab-a2-35",
+      "word": "schwimmen",
+      "level": "A2",
+      "meanings": { "en": ["to swim"], "ja": ["泳ぐ"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Im Sommer gehe ich oft schwimmen.", "translation": "In summer I often go swimming." }]
+    },
+    {
+      "id": "de-vocab-a2-36",
+      "word": "wandern",
+      "level": "A2",
+      "meanings": { "en": ["to hike"], "ja": ["ハイキングする"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Wir sind gestern in den Bergen gewandert.", "translation": "We went hiking in the mountains yesterday." }]
+    },
+    {
+      "id": "de-vocab-a2-37",
+      "word": "das Instrument",
+      "level": "A2",
+      "meanings": { "en": ["instrument"], "ja": ["楽器"] },
+      "partOfSpeech": "noun",
+      "examples": [{ "sentence": "Spielst du ein Instrument?", "translation": "Do you play an instrument?" }]
+    },
+    {
+      "id": "de-vocab-a2-38",
+      "word": "fotografieren",
+      "level": "A2",
+      "meanings": { "en": ["to photograph", "to take photos"], "ja": ["写真を撮る"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Ich fotografiere gern Landschaften.", "translation": "I like to photograph landscapes." }]
+    },
+    {
+      "id": "de-vocab-a2-39",
+      "word": "sammeln",
+      "level": "A2",
+      "meanings": { "en": ["to collect"], "ja": ["集める"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Mein Bruder sammelt Briefmarken.", "translation": "My brother collects stamps." }]
+    },
+    {
+      "id": "de-vocab-a2-40",
+      "word": "können",
+      "level": "A2",
+      "meanings": { "en": ["can", "to be able to"], "ja": ["できる"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Kannst du mir helfen?", "translation": "Can you help me?" }]
+    },
+    {
+      "id": "de-vocab-a2-41",
+      "word": "müssen",
+      "level": "A2",
+      "meanings": { "en": ["must", "to have to"], "ja": ["しなければならない"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Ich muss morgen früh aufstehen.", "translation": "I have to get up early tomorrow." }]
+    },
+    {
+      "id": "de-vocab-a2-42",
+      "word": "wollen",
+      "level": "A2",
+      "meanings": { "en": ["to want to"], "ja": ["したい"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Sie will Ärztin werden.", "translation": "She wants to become a doctor." }]
+    },
+    {
+      "id": "de-vocab-a2-43",
+      "word": "sollen",
+      "level": "A2",
+      "meanings": { "en": ["should", "ought to"], "ja": ["すべきである"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Du sollst mehr Wasser trinken.", "translation": "You should drink more water." }]
+    },
+    {
+      "id": "de-vocab-a2-44",
+      "word": "dürfen",
+      "level": "A2",
+      "meanings": { "en": ["may", "to be allowed to"], "ja": ["してもよい"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Hier darf man nicht rauchen.", "translation": "You are not allowed to smoke here." }]
+    },
+    {
+      "id": "de-vocab-a2-45",
+      "word": "mögen",
+      "level": "A2",
+      "meanings": { "en": ["to like"], "ja": ["好きである"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Ich mag Schokolade sehr.", "translation": "I like chocolate very much." }]
+    },
+    {
+      "id": "de-vocab-a2-46",
+      "word": "gestern",
+      "level": "A2",
+      "meanings": { "en": ["yesterday"], "ja": ["昨日"] },
+      "partOfSpeech": "adverb",
+      "examples": [{ "sentence": "Gestern war ich im Kino.", "translation": "Yesterday I was at the cinema." }]
+    },
+    {
+      "id": "de-vocab-a2-47",
+      "word": "letzte Woche",
+      "level": "A2",
+      "meanings": { "en": ["last week"], "ja": ["先週"] },
+      "partOfSpeech": "phrase",
+      "examples": [{ "sentence": "Letzte Woche habe ich viel gearbeitet.", "translation": "Last week I worked a lot." }]
+    },
+    {
+      "id": "de-vocab-a2-48",
+      "word": "vergleichen",
+      "level": "A2",
+      "meanings": { "en": ["to compare"], "ja": ["比較する"] },
+      "partOfSpeech": "verb",
+      "examples": [{ "sentence": "Lass uns die Preise vergleichen.", "translation": "Let's compare the prices." }]
+    },
+    {
+      "id": "de-vocab-a2-49",
+      "word": "billiger",
+      "level": "A2",
+      "meanings": { "en": ["cheaper"], "ja": ["より安い"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "Dieses Handy ist billiger als jenes.", "translation": "This phone is cheaper than that one." }]
+    },
+    {
+      "id": "de-vocab-a2-50",
+      "word": "besser",
+      "level": "A2",
+      "meanings": { "en": ["better"], "ja": ["より良い"] },
+      "partOfSpeech": "adjective",
+      "examples": [{ "sentence": "Heute geht es mir besser.", "translation": "Today I feel better." }]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "de-grammar-a2-1",
+      "title": "Perfekt Tense with haben",
+      "level": "A2",
+      "explanation": "The Perfekt is the most common past tense in spoken German. It is formed with the present tense of 'haben' or 'sein' plus the past participle (Partizip II). Most verbs use 'haben'. Regular verbs form the past participle with ge- + stem + -t (gemacht, gekauft). Irregular verbs often have ge- + changed stem + -en (geschrieben, getrunken).",
+      "examples": [
+        { "sentence": "Ich habe gestern einen Film gesehen.", "translation": "I watched a movie yesterday." },
+        { "sentence": "Er hat das Buch gelesen.", "translation": "He read the book." },
+        { "sentence": "Wir haben Pizza gegessen.", "translation": "We ate pizza." }
+      ],
+      "patterns": [
+        "Subject + haben (conjugated) + ... + Partizip II",
+        "ich habe gemacht, du hast gemacht, er/sie/es hat gemacht",
+        "wir haben gemacht, ihr habt gemacht, sie/Sie haben gemacht"
+      ],
+      "exercises": [
+        { "type": "fill-blank", "question": "Ich ___ gestern viel ___ (arbeiten).", "options": ["habe ... gearbeitet", "bin ... gearbeitet", "hat ... arbeitet"], "correct": 0 },
+        { "type": "fill-blank", "question": "Sie ___ ein neues Auto ___ (kaufen).", "options": ["ist ... gekauft", "haben ... gekauft", "hat ... kaufen"], "correct": 1 }
+      ]
+    },
+    {
+      "id": "de-grammar-a2-2",
+      "title": "Perfekt Tense with sein",
+      "level": "A2",
+      "explanation": "Some verbs form the Perfekt with 'sein' instead of 'haben'. These are typically verbs that express movement from one place to another (gehen, fahren, fliegen, kommen) or a change of state (werden, sterben, einschlafen). The verbs 'sein' and 'bleiben' also use 'sein'.",
+      "examples": [
+        { "sentence": "Ich bin nach Berlin gefahren.", "translation": "I drove/went to Berlin." },
+        { "sentence": "Sie ist gestern angekommen.", "translation": "She arrived yesterday." },
+        { "sentence": "Wir sind zu Hause geblieben.", "translation": "We stayed at home." }
+      ],
+      "patterns": [
+        "Subject + sein (conjugated) + ... + Partizip II",
+        "Movement verbs: gehen, fahren, fliegen, kommen, laufen",
+        "Change of state: werden, sterben, aufwachen, einschlafen"
+      ],
+      "exercises": [
+        { "type": "fill-blank", "question": "Er ___ nach Hause ___.", "options": ["hat ... gegangen", "ist ... gegangen", "ist ... geht"], "correct": 1 },
+        { "type": "fill-blank", "question": "Die Kinder ___ schnell ___.", "options": ["sind ... gewachsen", "haben ... gewachsen", "ist ... gewachst"], "correct": 0 }
+      ]
+    },
+    {
+      "id": "de-grammar-a2-3",
+      "title": "Modal Verbs",
+      "level": "A2",
+      "explanation": "German has six modal verbs: können (can/be able to), müssen (must/have to), wollen (want to), sollen (should/ought to), dürfen (may/be allowed to), and mögen (like). Modal verbs are conjugated in the second position, and the main verb goes to the end in infinitive form.",
+      "examples": [
+        { "sentence": "Ich kann gut schwimmen.", "translation": "I can swim well." },
+        { "sentence": "Du musst mehr lernen.", "translation": "You have to study more." },
+        { "sentence": "Sie will nach Japan reisen.", "translation": "She wants to travel to Japan." }
+      ],
+      "patterns": [
+        "Subject + Modal Verb (conjugated) + ... + Infinitive",
+        "können: ich kann, du kannst, er kann, wir können",
+        "müssen: ich muss, du musst, er muss, wir müssen"
+      ],
+      "exercises": [
+        { "type": "fill-blank", "question": "Ich ___ heute nicht kommen.", "options": ["kann", "könnt", "können"], "correct": 0 },
+        { "type": "fill-blank", "question": "Wir ___ um 8 Uhr aufstehen.", "options": ["muss", "müssen", "musst"], "correct": 1 }
+      ]
+    },
+    {
+      "id": "de-grammar-a2-4",
+      "title": "Dative Case",
+      "level": "A2",
+      "explanation": "The dative case is used for indirect objects (the recipient of an action), after certain prepositions (aus, bei, mit, nach, seit, von, zu), and with certain verbs (helfen, danken, gehören). Articles change in the dative: der/das → dem, die → der, plural die → den (+ -n on noun if possible).",
+      "examples": [
+        { "sentence": "Ich gebe dem Kind einen Ball.", "translation": "I give the child a ball." },
+        { "sentence": "Sie hilft ihrer Mutter.", "translation": "She helps her mother." },
+        { "sentence": "Wir fahren mit dem Bus.", "translation": "We travel by bus." }
+      ],
+      "patterns": [
+        "Masculine/Neuter: der/das → dem, ein → einem",
+        "Feminine: die → der, eine → einer",
+        "Plural: die → den (+ -n on noun)"
+      ],
+      "exercises": [
+        { "type": "fill-blank", "question": "Ich gebe ___ Frau die Blumen.", "options": ["die", "der", "dem"], "correct": 1 },
+        { "type": "fill-blank", "question": "Er kommt aus ___ Schweiz.", "options": ["die", "der", "dem"], "correct": 1 }
+      ]
+    },
+    {
+      "id": "de-grammar-a2-5",
+      "title": "Accusative Prepositions",
+      "level": "A2",
+      "explanation": "Certain prepositions always require the accusative case: durch (through), für (for), gegen (against), ohne (without), um (around/at). When these prepositions are used, the following noun must be in the accusative case.",
+      "examples": [
+        { "sentence": "Das Geschenk ist für meinen Vater.", "translation": "The gift is for my father." },
+        { "sentence": "Wir laufen durch den Park.", "translation": "We walk through the park." },
+        { "sentence": "Ohne dich gehe ich nicht.", "translation": "I won't go without you." }
+      ],
+      "patterns": [
+        "durch + Accusative: durch den Wald (through the forest)",
+        "für + Accusative: für mich (for me)",
+        "gegen + Accusative: gegen die Wand (against the wall)"
+      ],
+      "exercises": [
+        { "type": "fill-blank", "question": "Das ist ein Geschenk für ___.", "options": ["mein Bruder", "meinen Bruder", "meinem Bruder"], "correct": 1 },
+        { "type": "fill-blank", "question": "Wir fahren um ___ Stadt.", "options": ["die", "der", "den"], "correct": 0 }
+      ]
+    },
+    {
+      "id": "de-grammar-a2-6",
+      "title": "Subordinate Clauses with weil",
+      "level": "A2",
+      "explanation": "The conjunction 'weil' (because) introduces a subordinate clause to explain a reason. In subordinate clauses, the conjugated verb moves to the end of the clause. The subordinate clause can come before or after the main clause.",
+      "examples": [
+        { "sentence": "Ich bleibe zu Hause, weil ich krank bin.", "translation": "I'm staying home because I'm sick." },
+        { "sentence": "Weil es regnet, nehme ich einen Schirm.", "translation": "Because it's raining, I'm taking an umbrella." },
+        { "sentence": "Sie ist müde, weil sie lange gearbeitet hat.", "translation": "She is tired because she worked for a long time." }
+      ],
+      "patterns": [
+        "Main clause + weil + Subject + ... + Verb (at end)",
+        "Weil + Subject + ... + Verb, Main clause",
+        "Verb goes to the END of the weil-clause"
+      ],
+      "exercises": [
+        { "type": "fill-blank", "question": "Ich lerne Deutsch, weil ich in Deutschland ___ möchte.", "options": ["arbeiten", "arbeite", "gearbeitet"], "correct": 0 },
+        { "type": "fill-blank", "question": "Weil das Wetter schön ___, gehen wir spazieren.", "options": ["ist", "sein", "sind"], "correct": 0 }
+      ]
+    },
+    {
+      "id": "de-grammar-a2-7",
+      "title": "Subordinate Clauses with dass",
+      "level": "A2",
+      "explanation": "The conjunction 'dass' (that) introduces a subordinate clause, often used after verbs of thinking, saying, knowing, or feeling (denken, sagen, wissen, glauben, hoffen). Like all subordinate clauses, the conjugated verb moves to the end.",
+      "examples": [
+        { "sentence": "Ich denke, dass er recht hat.", "translation": "I think that he is right." },
+        { "sentence": "Sie sagt, dass sie morgen kommt.", "translation": "She says that she is coming tomorrow." },
+        { "sentence": "Ich hoffe, dass du bald gesund wirst.", "translation": "I hope that you get well soon." }
+      ],
+      "patterns": [
+        "Verb of thinking/saying + dass + Subject + ... + Verb",
+        "Ich glaube, dass...",
+        "Es ist wichtig, dass..."
+      ],
+      "exercises": [
+        { "type": "fill-blank", "question": "Ich weiß, dass er heute ___ kommt.", "options": ["nicht", "kein", "nichts"], "correct": 0 },
+        { "type": "fill-blank", "question": "Sie glaubt, dass die Prüfung schwer ___.", "options": ["sein", "ist", "sind"], "correct": 1 }
+      ]
+    },
+    {
+      "id": "de-grammar-a2-8",
+      "title": "Subordinate Clauses with wenn",
+      "level": "A2",
+      "explanation": "The conjunction 'wenn' can mean 'if' (conditional) or 'when/whenever' (temporal for present/future or repeated past actions). The conjugated verb moves to the end of the wenn-clause. For completed past events, 'als' is used instead of 'wenn'.",
+      "examples": [
+        { "sentence": "Wenn es regnet, bleibe ich zu Hause.", "translation": "If it rains, I stay home." },
+        { "sentence": "Ich rufe dich an, wenn ich ankomme.", "translation": "I'll call you when I arrive." },
+        { "sentence": "Wenn ich Zeit habe, lese ich gern.", "translation": "When I have time, I like to read." }
+      ],
+      "patterns": [
+        "Wenn + Subject + ... + Verb, Main clause",
+        "Main clause, wenn + Subject + ... + Verb",
+        "Wenn = if/when (present, future, repeated past)"
+      ],
+      "exercises": [
+        { "type": "fill-blank", "question": "Wenn du Hilfe ___, ruf mich an.", "options": ["brauchst", "brauchen", "braucht"], "correct": 0 },
+        { "type": "fill-blank", "question": "___ das Wetter schön ist, gehen wir wandern.", "options": ["Weil", "Dass", "Wenn"], "correct": 2 }
+      ]
+    },
+    {
+      "id": "de-grammar-a2-9",
+      "title": "Comparative Adjectives",
+      "level": "A2",
+      "explanation": "To compare two things in German, add -er to the adjective to form the comparative. Many common adjectives also take an umlaut (alt → älter, jung → jünger). The word 'als' means 'than' in comparisons. Some adjectives have irregular forms (gut → besser, viel → mehr).",
+      "examples": [
+        { "sentence": "Mein Bruder ist älter als ich.", "translation": "My brother is older than me." },
+        { "sentence": "Dieses Buch ist interessanter.", "translation": "This book is more interesting." },
+        { "sentence": "Sie spricht besser Deutsch als ich.", "translation": "She speaks German better than me." }
+      ],
+      "patterns": [
+        "Adjective + -er + als: schneller als (faster than)",
+        "Common umlaut changes: alt/älter, jung/jünger, groß/größer",
+        "Irregular: gut/besser, viel/mehr, gern/lieber"
+      ],
+      "exercises": [
+        { "type": "fill-blank", "question": "Berlin ist ___ als München.", "options": ["groß", "größer", "am größten"], "correct": 1 },
+        { "type": "fill-blank", "question": "Ich finde Kaffee ___ als Tee.", "options": ["gut", "besser", "beste"], "correct": 1 }
+      ]
+    },
+    {
+      "id": "de-grammar-a2-10",
+      "title": "Reflexive Verbs",
+      "level": "A2",
+      "explanation": "Reflexive verbs are verbs where the subject and object are the same person. They require a reflexive pronoun (mich, dich, sich, uns, euch, sich). Some verbs are always reflexive in German but not in English (sich freuen, sich erinnern). The reflexive pronoun usually comes right after the conjugated verb.",
+      "examples": [
+        { "sentence": "Ich freue mich auf das Wochenende.", "translation": "I'm looking forward to the weekend." },
+        { "sentence": "Er wäscht sich die Hände.", "translation": "He washes his hands." },
+        { "sentence": "Wir treffen uns morgen.", "translation": "We're meeting tomorrow." }
+      ],
+      "patterns": [
+        "Accusative reflexive: mich, dich, sich, uns, euch, sich",
+        "Dative reflexive: mir, dir, sich, uns, euch, sich",
+        "sich freuen, sich erinnern, sich waschen, sich anziehen"
+      ],
+      "exercises": [
+        { "type": "fill-blank", "question": "Ich erinnere ___ nicht an seinen Namen.", "options": ["mich", "mir", "sich"], "correct": 0 },
+        { "type": "fill-blank", "question": "Wir freuen ___ auf die Party.", "options": ["sich", "uns", "euch"], "correct": 1 }
+      ]
+    }
+  ]
+}

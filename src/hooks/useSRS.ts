@@ -2,10 +2,11 @@
 
 import { useCallback } from 'react';
 import * as srs from '@/lib/srs';
+import type { ReviewData } from '@/lib/srs';
 import { getReviewData, saveReviewData } from '@/lib/storage';
 
 interface UseSRSReturn {
-    calculateNextReview: (itemId: string, quality: number) => any;
+    calculateNextReview: (itemId: string, quality: number) => ReviewData;
     getQualityFromResponse: (isCorrect: boolean, responseTime: number, difficulty?: string) => number;
     isDueForReview: typeof srs.isDueForReview;
     getReviewPriority: typeof srs.getReviewPriority;
@@ -15,9 +16,9 @@ interface UseSRSReturn {
 
 export function useSRS(moduleName: string): UseSRSReturn {
     const calculateNextReview = useCallback((itemId: string, quality: number) => {
-        const reviewData = getReviewData(moduleName, itemId);
+        const reviewData = getReviewData(moduleName, itemId) as ReviewData | null;
         const newReviewData = srs.calculateNextReview(reviewData, quality);
-        saveReviewData(moduleName, itemId, newReviewData);
+        saveReviewData(moduleName, itemId, newReviewData as unknown as Record<string, unknown>);
         return newReviewData;
     }, [moduleName]);
 

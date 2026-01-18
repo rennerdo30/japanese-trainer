@@ -11,7 +11,7 @@ import LanguageSwitcher from '@/components/common/LanguageSwitcher';
 import TargetLanguageSelector from '@/components/common/TargetLanguageSelector';
 import AuthButton from '@/components/common/AuthButton';
 import { Container, Card, Text, Animated, Button } from '@/components/ui';
-import { IoFlame, IoBook, IoSchool, IoTime, IoDocumentText, IoHeadset, IoMap, IoRefresh } from 'react-icons/io5';
+import { IoFlame, IoBook, IoSchool, IoTime, IoDocumentText, IoHeadset, IoMap, IoRefresh, IoTrophy, IoSettings } from 'react-icons/io5';
 import { PiExam } from 'react-icons/pi';
 import LearningCompass from '@/components/dashboard/LearningCompass';
 import MasteryHeatmap from '@/components/dashboard/MasteryHeatmap';
@@ -218,6 +218,16 @@ export default function Dashboard() {
                 <Link href="/review">
                     <Button variant="ghost" className={styles.quickActionButton}>
                         <IoRefresh /> Review Dashboard
+                    </Button>
+                </Link>
+                <Link href="/leaderboard">
+                    <Button variant="ghost" className={styles.quickActionButton}>
+                        <IoTrophy /> Leaderboard
+                    </Button>
+                </Link>
+                <Link href="/settings">
+                    <Button variant="ghost" className={styles.quickActionButton}>
+                        <IoSettings /> Settings
                     </Button>
                 </Link>
             </div>

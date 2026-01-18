@@ -1,6 +1,6 @@
 import { v } from "convex/values";
 import { query, mutation } from "./_generated/server";
-import { getAuthUserId } from "@convex-dev/auth/server";
+import { auth } from "./auth";
 
 // Default path preferences
 const defaultPathPreferences = {
@@ -13,7 +13,7 @@ const defaultPathPreferences = {
 export const getUserPaths = query({
   args: {},
   handler: async (ctx) => {
-    const userId = await getAuthUserId(ctx);
+    const userId = await auth.getUserId(ctx);
     if (!userId) return null;
 
     const paths = await ctx.db
@@ -29,7 +29,7 @@ export const getUserPaths = query({
 export const getActivePath = query({
   args: { pathId: v.string() },
   handler: async (ctx, { pathId }) => {
-    const userId = await getAuthUserId(ctx);
+    const userId = await auth.getUserId(ctx);
     if (!userId) return null;
 
     const paths = await ctx.db
@@ -47,7 +47,7 @@ export const getActivePath = query({
 export const initializePaths = mutation({
   args: {},
   handler: async (ctx) => {
-    const userId = await getAuthUserId(ctx);
+    const userId = await auth.getUserId(ctx);
     if (!userId) throw new Error("Not authenticated");
 
     const existing = await ctx.db
@@ -71,7 +71,7 @@ export const initializePaths = mutation({
 export const enrollInPath = mutation({
   args: { pathId: v.string() },
   handler: async (ctx, { pathId }) => {
-    const userId = await getAuthUserId(ctx);
+    const userId = await auth.getUserId(ctx);
     if (!userId) throw new Error("Not authenticated");
 
     let paths = await ctx.db
@@ -114,7 +114,7 @@ export const enrollInPath = mutation({
 export const unenrollFromPath = mutation({
   args: { pathId: v.string() },
   handler: async (ctx, { pathId }) => {
-    const userId = await getAuthUserId(ctx);
+    const userId = await auth.getUserId(ctx);
     if (!userId) throw new Error("Not authenticated");
 
     const paths = await ctx.db
@@ -144,7 +144,7 @@ export const updatePathProgress = mutation({
     completed: v.optional(v.boolean()),
   },
   handler: async (ctx, { pathId, currentMilestone, completed }) => {
-    const userId = await getAuthUserId(ctx);
+    const userId = await auth.getUserId(ctx);
     if (!userId) throw new Error("Not authenticated");
 
     const paths = await ctx.db
@@ -182,7 +182,7 @@ export const updatePathPreferences = mutation({
     autoEnrollInPaths: v.optional(v.boolean()),
   },
   handler: async (ctx, updates) => {
-    const userId = await getAuthUserId(ctx);
+    const userId = await auth.getUserId(ctx);
     if (!userId) throw new Error("Not authenticated");
 
     let paths = await ctx.db
@@ -220,7 +220,7 @@ export const trackModuleAccess = mutation({
     duration: v.number(), // seconds spent
   },
   handler: async (ctx, { module, duration }) => {
-    const userId = await getAuthUserId(ctx);
+    const userId = await auth.getUserId(ctx);
     if (!userId) return;
 
     // Get or create today's activity

@@ -55,11 +55,30 @@
     },
     "noCharacters": "현재 필터로 사용 가능한 문자가 없습니다."
   },
+  "learnMode": {
+    "learn": "학습",
+    "practice": "연습",
+    "progress": "진행률",
+    "learned": "학습 완료",
+    "type": "유형",
+    "group": "그룹",
+    "playSound": "소리 재생",
+    "markLearned": "학습 완료로 표시",
+    "alreadyLearned": "이미 학습함",
+    "mnemonic": "암기 팁",
+    "noLessonsAvailable": "이 언어에 대한 레슨이 아직 없습니다.",
+    "characterOf": "{total}자 중 {current}자",
+    "lessonComplete": "레슨 완료!",
+    "nextLesson": "다음 레슨",
+    "selectLesson": "레슨 선택"
+  },
   "vocabulary": {
     "practiceMode": "연습 모드",
     "typeMeaning": "의미 또는 로마자 입력...",
     "typeWord": "일본어 단어 입력...",
-    "noWords": "사용 가능한 단어가 없습니다."
+    "noWords": "사용 가능한 단어가 없습니다.",
+    "showHint": "힌트 보기",
+    "hintShown": "힌트 표시됨"
   },
   "kanji": {
     "practiceMeaning": "의미",

@@ -27,8 +27,7 @@
 
 .divider {
   font-size: 1.5rem;
-  color: var(--border-subtle);
-  opacity: 0.5;
+  color: var(--text-muted);
 }
 
 .label {
@@ -58,8 +57,10 @@
   display: flex;
 }
 
-.streakBadge::before {
-  content: '🔥';
+.streakIcon {
+  font-size: 1.1rem;
+  color: #ff9500;
+  filter: drop-shadow(0 0 4px rgba(255, 149, 0, 0.5));
 }
 
 @keyframes fadeInScale {

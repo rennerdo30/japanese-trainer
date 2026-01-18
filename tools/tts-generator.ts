@@ -2,6 +2,8 @@
 // TTS Audio Generator CLI Tool
 // Generates ElevenLabs audio files for all learning data
 
+/// <reference path="./types.d.ts" />
+
 import { Command } from 'commander';
 import * as dotenv from 'dotenv';
 import * as fs from 'fs-extra';
