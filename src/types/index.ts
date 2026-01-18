@@ -1,5 +1,12 @@
 // Shared type definitions
 
+// Curriculum and gamification types
+export * from './curriculum';
+export * from './gamification';
+export * from './exercises';
+export * from './paths';
+export * from './reviews';
+
 // Japanese character types
 export type JapaneseCharacterType = 'gojuon' | 'yoon' | 'dakuten' | 'handakuten';
 // Korean character types
@@ -153,9 +160,9 @@ export interface ListeningExercise {
 }
 
 export interface ModuleStats {
-  correct: number;
-  total: number;
-  streak: number;
+  correct?: number;
+  total?: number;
+  streak?: number;
   bestStreak?: number;
   wordsMastered?: number;
   kanjiMastered?: number;
@@ -173,9 +180,10 @@ export interface ModuleStats {
 export interface ReviewData {
   interval: number;
   easeFactor: number;
-  nextReview: string; // ISO date string
   repetitions: number;
-  lastReview?: string;
+  quality: number[];
+  lastReview: number;
+  nextReview: number;
 }
 
 export interface ModuleData {
@@ -185,18 +193,25 @@ export interface ModuleData {
   completed?: string[];
 }
 
+// Global stats structure
+export interface GlobalStats {
+  streak: number;
+  bestStreak: number;
+  totalStudyTime: number;
+  lastActive: number | null;
+  createdAt: number;
+}
+
 // Storage data structure for progress tracking
 export interface StorageData {
+  userId?: string | null;
+  modules: Record<string, ModuleData>;
+  globalStats: GlobalStats;
+  // Legacy module properties (deprecated, use modules instead)
   alphabet?: ModuleData;
   vocabulary?: ModuleData;
   kanji?: ModuleData;
   grammar?: ModuleData;
   reading?: ModuleData;
   listening?: ModuleData;
-  globalStats?: {
-    streak: number;
-    bestStreak: number;
-    totalStudyTime: number;
-    lastActive: string;
-  };
 }

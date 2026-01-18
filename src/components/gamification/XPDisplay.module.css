@@ -1,0 +1,137 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+.compactContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+/* Tier colors */
+.tier-bronze {
+  --tier-color: #CD7F32;
+  --tier-bg: rgba(205, 127, 50, 0.1);
+}
+
+.tier-silver {
+  --tier-color: #C0C0C0;
+  --tier-bg: rgba(192, 192, 192, 0.1);
+}
+
+.tier-gold {
+  --tier-color: #FFD700;
+  --tier-bg: rgba(255, 215, 0, 0.1);
+}
+
+.tier-platinum {
+  --tier-color: #E5E4E2;
+  --tier-bg: rgba(229, 228, 226, 0.1);
+}
+
+.tier-diamond {
+  --tier-color: #B9F2FF;
+  --tier-bg: rgba(185, 242, 255, 0.1);
+}
+
+/* Level Section */
+.levelSection {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.levelBadge {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--tier-bg, rgba(255, 215, 0, 0.1));
+  border: 2px solid var(--tier-color, var(--gold, #FFD700));
+  border-radius: 12px;
+  position: relative;
+}
+
+.levelBadgeSmall {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--tier-bg, rgba(255, 215, 0, 0.1));
+  border: 2px solid var(--tier-color, var(--gold, #FFD700));
+  border-radius: 8px;
+}
+
+.starIcon {
+  font-size: 1rem;
+  color: var(--tier-color, var(--gold, #FFD700));
+  position: absolute;
+  top: -8px;
+  right: -8px;
+}
+
+.levelBadgeSmall .starIcon {
+  font-size: 0.75rem;
+  top: -6px;
+  right: -6px;
+}
+
+.levelNumber {
+  font-size: 1.75rem;
+  color: var(--tier-color, var(--gold, #FFD700));
+  line-height: 1;
+}
+
+.levelInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+/* Progress Section */
+.progressSection {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.progressHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.progressBar {
+  height: 8px;
+  background: var(--border-color, rgba(255, 255, 255, 0.1));
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    var(--tier-color, var(--gold, #FFD700)),
+    var(--tier-color, var(--gold, #FFD700))
+  );
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.xpNeeded {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.trendIcon {
+  color: var(--tier-color, var(--gold, #FFD700));
+}

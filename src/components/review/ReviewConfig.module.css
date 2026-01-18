@@ -1,0 +1,164 @@
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.headerIcon {
+  font-size: 1.5rem;
+  color: var(--gold, #FFD700);
+}
+
+.section {
+  margin-bottom: 1.5rem;
+}
+
+.sectionLabel {
+  display: block;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.75rem;
+}
+
+.moduleGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+}
+
+.moduleButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid transparent;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: var(--text-primary);
+}
+
+.moduleButton:hover:not(.disabled) {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.moduleButton.selected {
+  background: rgba(255, 215, 0, 0.15);
+  border-color: var(--gold, #FFD700);
+}
+
+.moduleButton.disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.moduleIcon {
+  font-size: 1.5rem;
+  color: var(--gold, #FFD700);
+}
+
+.moduleLabel {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.moduleCount {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.countOptions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.countButton {
+  flex: 1;
+  padding: 0.75rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid transparent;
+  border-radius: 8px;
+  color: var(--text-primary);
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.countButton:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.countButton.selected {
+  background: rgba(255, 215, 0, 0.15);
+  border-color: var(--gold, #FFD700);
+  color: var(--gold, #FFD700);
+}
+
+.countButton:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.availableNote {
+  display: block;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.summary {
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.summaryRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25rem 0;
+}
+
+.startButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.noItemsMessage {
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+@media (max-width: 480px) {
+  .moduleGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .moduleButton {
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0.875rem 1rem;
+  }
+
+  .moduleIcon {
+    font-size: 1.25rem;
+  }
+
+  .moduleLabel {
+    flex: 1;
+  }
+}

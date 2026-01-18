@@ -1,0 +1,83 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+  min-height: 300px;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.iconWrapper {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+.icon {
+  font-size: 1.5rem;
+}
+
+.type {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.75rem;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.mainContent {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  max-width: 400px;
+}
+
+.ttsControls {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+.ttsButton {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  transition: all 0.2s ease;
+}
+
+.ttsButton:hover {
+  transform: scale(1.05);
+}
+
+.footer {
+  opacity: 0.5;
+}
+
+@media (max-width: 480px) {
+  .card {
+    min-height: 250px;
+    gap: 1.5rem;
+  }
+
+  .mainContent {
+    font-size: 1.25rem;
+  }
+}

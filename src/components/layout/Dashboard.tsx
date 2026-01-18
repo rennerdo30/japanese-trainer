@@ -1,22 +1,42 @@
 'use client'
 
-import { useEffect, useState, useMemo } from 'react';
+import { useEffect, useState, useMemo, memo } from 'react';
 import Link from 'next/link';
 import { useProgressContext } from '@/context/ProgressProvider';
 import { useLanguage } from '@/context/LanguageProvider';
 import { useTargetLanguage } from '@/hooks/useTargetLanguage';
+import { useGamification } from '@/hooks/useGamification';
+import { useCurriculum } from '@/hooks/useCurriculum';
 import { ModuleName } from '@/lib/language';
 import ProgressBar from '@/components/common/ProgressBar';
 import LanguageSwitcher from '@/components/common/LanguageSwitcher';
 import TargetLanguageSelector from '@/components/common/TargetLanguageSelector';
 import AuthButton from '@/components/common/AuthButton';
+import XPDisplay from '@/components/gamification/XPDisplay';
+import StreakBadge from '@/components/gamification/StreakBadge';
+import DailyGoalCard from '@/components/gamification/DailyGoalCard';
 import { Container, Card, Text, Animated, Button } from '@/components/ui';
-import { IoFlame, IoBook, IoSchool, IoTime, IoDocumentText, IoHeadset, IoMap, IoRefresh, IoTrophy, IoSettings } from 'react-icons/io5';
+import { IoFlame, IoBook, IoSchool, IoTime, IoDocumentText, IoHeadset, IoMap, IoRefresh, IoTrophy, IoSettings, IoPlay } from 'react-icons/io5';
 import { PiExam } from 'react-icons/pi';
 import LearningCompass from '@/components/dashboard/LearningCompass';
 import MasteryHeatmap from '@/components/dashboard/MasteryHeatmap';
 import StreakCalendar from '@/components/dashboard/StreakCalendar';
 import styles from './Dashboard.module.css';
+
+// Mapping from language code to primary learning path ID
+const LANGUAGE_PATH_MAP: Record<string, string> = {
+    ja: 'jlpt-mastery',
+    es: 'cefr-spanish',
+    de: 'cefr-german',
+    it: 'cefr-italian',
+    en: 'cefr-english',
+    ko: 'topik-korean',
+    zh: 'hsk-chinese',
+};
+
+const getPathIdForLanguage = (lang: string): string => {
+    return LANGUAGE_PATH_MAP[lang] || LANGUAGE_PATH_MAP.ja;
+};
 
 interface Module {
     id: ModuleName;
@@ -102,11 +122,33 @@ const ALL_MODULES: Module[] = [
     { id: 'listening', icon: <IoHeadset />, href: '/listening', totalItems: 3 },
 ];
 
-export default function Dashboard() {
+function Dashboard() {
     const { summary, getModuleProgress, refresh, initialized } = useProgressContext();
     const { t } = useLanguage();
     const { targetLanguage, isModuleEnabled } = useTargetLanguage();
+    const { level, streak, dailyGoal, todayXP, isLoading: gamificationLoading } = useGamification();
+    const { lessons, lessonProgress, getLessonStatus } = useCurriculum();
     const [moduleProgress, setModuleProgress] = useState<Record<string, number>>({});
+
+    // Find the current in-progress lesson or the next available one
+    const currentLesson = useMemo(() => {
+        // First, check for an in-progress lesson
+        for (const flatLesson of lessons) {
+            const status = getLessonStatus(flatLesson.lesson.id);
+            if (status === 'in_progress') {
+                return flatLesson.lesson;
+            }
+        }
+        // Otherwise, find the first available lesson
+        for (const flatLesson of lessons) {
+            const status = getLessonStatus(flatLesson.lesson.id);
+            if (status === 'available') {
+                return flatLesson.lesson;
+            }
+        }
+        // Default to first lesson if all are locked or none available
+        return lessons.length > 0 ? lessons[0].lesson : null;
+    }, [lessons, getLessonStatus]);
 
     // Filter modules based on target language and update icons
     const filteredModules = useMemo(() => {
@@ -168,6 +210,36 @@ export default function Dashboard() {
                     </div>
                 </div>
             </header>
+
+            {/* Continue Learning Card */}
+            {currentLesson && (
+                <Card variant="glass" hover className={`${styles.continueLessonCard} fadeInUp`}>
+                    <div className={styles.continueLessonContent}>
+                        <div className={styles.continueLessonInfo}>
+                            <Text variant="label" color="muted">Continue Learning</Text>
+                            <Text variant="h2">{currentLesson.title}</Text>
+                            <Text variant="body" color="secondary">{currentLesson.description}</Text>
+                        </div>
+                        <Link href={`/paths/${getPathIdForLanguage(targetLanguage)}/${currentLesson.id}`}>
+                            <Button className={styles.continueLessonButton}>
+                                <IoPlay /> Continue
+                            </Button>
+                        </Link>
+                    </div>
+                </Card>
+            )}
+
+            {/* Gamification Section */}
+            <div className={styles.gamificationSection}>
+                <XPDisplay level={level} compact />
+                <StreakBadge streak={streak} showMessage size="md" />
+                <DailyGoalCard
+                    dailyGoal={dailyGoal}
+                    streak={streak}
+                    todayXP={todayXP}
+                    compact
+                />
+            </div>
 
             <div className={styles.statsOverview}>
                 <Card variant="glass" hover className={`${styles.statCard} fadeInUp stagger-1`}>
@@ -267,3 +339,5 @@ export default function Dashboard() {
         </Container>
     );
 }
+
+export default memo(Dashboard);

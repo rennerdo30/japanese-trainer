@@ -1,0 +1,105 @@
+.card {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.mainContent {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+}
+
+.primary {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.secondary {
+  font-size: 1rem;
+}
+
+.meaningSection {
+  padding-left: 0.25rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--glass-border, rgba(255, 255, 255, 0.1));
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.lessonSource {
+  font-size: 0.75rem;
+}
+
+.srsIndicator {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.75rem;
+  text-transform: capitalize;
+}
+
+.srsIndicator svg {
+  font-size: 0.875rem;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.audioButton {
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+.audioButton svg {
+  font-size: 1rem;
+  color: var(--gold, #FFD700);
+}
+
+.masteryBar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.masteryFill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--gold, #FFD700), var(--accent-green, #4ADE80));
+  transition: width 0.3s ease;
+}
+
+@media (max-width: 480px) {
+  .primary {
+    font-size: 1.25rem;
+  }
+
+  .mainContent {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+}

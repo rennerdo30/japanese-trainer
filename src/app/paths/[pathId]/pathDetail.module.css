@@ -249,6 +249,17 @@
   font-weight: 600;
 }
 
+.lockedMessage {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  background: var(--bg-secondary, #1a1a2e);
+  color: var(--text-muted, #666);
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+}
+
 /* Item Breakdown (Topic Tracks) */
 .itemBreakdown {
   display: grid;

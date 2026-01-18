@@ -1,0 +1,152 @@
+[
+  {
+    "id": "ja-n5-vocab-l1",
+    "milestoneId": "n5-vocabulary",
+    "title": "Basic Greetings",
+    "description": "Learn essential Japanese greetings and daily expressions",
+    "content": {
+      "topics": ["Daily greetings", "Polite expressions"],
+      "vocab_focus": ["おはよう", "こんにちは", "こんばんは", "おやすみ", "さようなら", "ありがとう"],
+      "grammar_focus": ["です/ます polite form"],
+      "cultural_notes": ["Japanese greetings change based on time of day. Bowing is customary when greeting."]
+    },
+    "exercises": [
+      {
+        "id": "ex1",
+        "type": "multiple_choice",
+        "question": "How do you say 'good morning' in Japanese?",
+        "options": ["こんにちは", "おはよう", "こんばんは", "さようなら"],
+        "correctIndex": 1
+      },
+      {
+        "id": "ex2",
+        "type": "multiple_choice",
+        "question": "Which greeting is appropriate for the evening?",
+        "options": ["おはよう", "こんにちは", "こんばんは", "おやすみ"],
+        "correctIndex": 2
+      },
+      {
+        "id": "ex3",
+        "type": "multiple_choice",
+        "question": "How do you say 'thank you' in Japanese?",
+        "options": ["すみません", "ごめんなさい", "ありがとう", "おねがいします"],
+        "correctIndex": 2
+      },
+      {
+        "id": "ex4",
+        "type": "multiple_choice",
+        "question": "'さようなら' means:",
+        "options": ["Hello", "Good night", "Goodbye", "Thank you"],
+        "correctIndex": 2
+      },
+      {
+        "id": "ex5",
+        "type": "multiple_choice",
+        "question": "What do you say before going to sleep?",
+        "options": ["おはよう", "こんにちは", "ありがとう", "おやすみ"],
+        "correctIndex": 3
+      }
+    ],
+    "estimatedMinutes": 10
+  },
+  {
+    "id": "ja-n5-vocab-l2",
+    "milestoneId": "n5-vocabulary",
+    "title": "Numbers 1-10",
+    "description": "Learn to count from one to ten in Japanese",
+    "content": {
+      "topics": ["Basic counting", "Number pronunciation"],
+      "vocab_focus": ["いち", "に", "さん", "よん/し", "ご", "ろく", "なな/しち", "はち", "きゅう/く", "じゅう"],
+      "grammar_focus": [],
+      "cultural_notes": ["Some numbers have alternate readings (4: よん/し, 7: なな/しち). The number 4 (し) sounds like 'death' so よん is often preferred."]
+    },
+    "exercises": [
+      {
+        "id": "ex1",
+        "type": "multiple_choice",
+        "question": "What is 'さん' in English?",
+        "options": ["1", "2", "3", "4"],
+        "correctIndex": 2
+      },
+      {
+        "id": "ex2",
+        "type": "multiple_choice",
+        "question": "How do you say '5' in Japanese?",
+        "options": ["よん", "ご", "ろく", "なな"],
+        "correctIndex": 1
+      },
+      {
+        "id": "ex3",
+        "type": "multiple_choice",
+        "question": "What number is 'じゅう'?",
+        "options": ["7", "8", "9", "10"],
+        "correctIndex": 3
+      },
+      {
+        "id": "ex4",
+        "type": "multiple_choice",
+        "question": "Which is a reading for the number 7?",
+        "options": ["ろく", "なな", "はち", "きゅう"],
+        "correctIndex": 1
+      },
+      {
+        "id": "ex5",
+        "type": "multiple_choice",
+        "question": "How do you say '2' in Japanese?",
+        "options": ["いち", "に", "さん", "ご"],
+        "correctIndex": 1
+      }
+    ],
+    "estimatedMinutes": 15
+  },
+  {
+    "id": "ja-n5-vocab-l3",
+    "milestoneId": "n5-vocabulary",
+    "title": "Common Verbs",
+    "description": "Learn essential Japanese verbs for everyday actions",
+    "content": {
+      "topics": ["Basic action verbs", "Verb types"],
+      "vocab_focus": ["食べる (たべる)", "飲む (のむ)", "行く (いく)", "来る (くる)", "見る (みる)", "聞く (きく)"],
+      "grammar_focus": ["Dictionary form vs ます form"],
+      "cultural_notes": ["Japanese verbs conjugate differently based on politeness level. The ます form is polite."]
+    },
+    "exercises": [
+      {
+        "id": "ex1",
+        "type": "multiple_choice",
+        "question": "What does '食べる' mean?",
+        "options": ["to drink", "to eat", "to go", "to come"],
+        "correctIndex": 1
+      },
+      {
+        "id": "ex2",
+        "type": "multiple_choice",
+        "question": "Which verb means 'to drink'?",
+        "options": ["食べる", "飲む", "行く", "見る"],
+        "correctIndex": 1
+      },
+      {
+        "id": "ex3",
+        "type": "multiple_choice",
+        "question": "'行く' is read as:",
+        "options": ["たべる", "のむ", "いく", "みる"],
+        "correctIndex": 2
+      },
+      {
+        "id": "ex4",
+        "type": "multiple_choice",
+        "question": "What does '見る' mean?",
+        "options": ["to hear", "to eat", "to see/watch", "to go"],
+        "correctIndex": 2
+      },
+      {
+        "id": "ex5",
+        "type": "multiple_choice",
+        "question": "Which verb means 'to come'?",
+        "options": ["行く", "来る", "食べる", "聞く"],
+        "correctIndex": 1
+      }
+    ],
+    "estimatedMinutes": 15
+  }
+]

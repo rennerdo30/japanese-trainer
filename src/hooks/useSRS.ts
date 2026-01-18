@@ -2,7 +2,7 @@
 
 import { useCallback } from 'react';
 import * as srs from '@/lib/srs';
-import type { ReviewData } from '@/lib/srs';
+import { ReviewData } from '@/types';
 import { getReviewData, saveReviewData } from '@/lib/storage';
 
 interface UseSRSReturn {
@@ -16,9 +16,9 @@ interface UseSRSReturn {
 
 export function useSRS(moduleName: string): UseSRSReturn {
     const calculateNextReview = useCallback((itemId: string, quality: number) => {
-        const reviewData = getReviewData(moduleName, itemId) as ReviewData | null;
+        const reviewData = getReviewData(moduleName, itemId);
         const newReviewData = srs.calculateNextReview(reviewData, quality);
-        saveReviewData(moduleName, itemId, newReviewData as unknown as Record<string, unknown>);
+        saveReviewData(moduleName, itemId, newReviewData);
         return newReviewData;
     }, [moduleName]);
 

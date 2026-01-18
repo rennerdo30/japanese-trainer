@@ -1,0 +1,67 @@
+.lessonContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.cardContainer {
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.exerciseCard {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.question {
+  text-align: center;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.optionButton {
+  width: 100%;
+  justify-content: flex-start;
+  padding: 1rem 1.5rem;
+  text-align: left;
+}
+
+.optionButton:hover {
+  background: var(--hover-bg, rgba(255, 255, 255, 0.1));
+}
+
+@media (max-width: 480px) {
+  .lessonContainer {
+    padding: 0.5rem;
+  }
+
+  .cardContainer {
+    min-height: 350px;
+    padding: 1.5rem;
+  }
+
+  .navigation {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

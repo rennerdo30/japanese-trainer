@@ -1,0 +1,110 @@
+[
+  {
+    "path": {
+      "id": 5,
+      "slug": "cefr-english",
+      "name": "CEFR English Path",
+      "description": "Master English systematically through CEFR levels, from A1 to B2.",
+      "type": "linear",
+      "estimated_hours": 280,
+      "difficulty": "beginner-to-intermediate",
+      "language_id": 5
+    },
+    "milestones": [
+      {
+        "id": 1,
+        "slug": "a1-vocabulary-en",
+        "level": "A1",
+        "name": "A1 Vocabulary Foundation",
+        "description": "Learn essential A1 vocabulary (500 words)",
+        "module": "vocabulary",
+        "requirement": {
+          "type": "master-percentage",
+          "value": 70
+        },
+        "estimated_hours": 12,
+        "path_id": 5
+      },
+      {
+        "id": 2,
+        "slug": "a1-grammar-en",
+        "level": "A1",
+        "name": "A1 Grammar Basics",
+        "description": "Learn fundamental English grammar including tenses and sentence structure",
+        "module": "grammar",
+        "requirement": {
+          "type": "complete-all"
+        },
+        "estimated_hours": 12,
+        "path_id": 5
+      },
+      {
+        "id": 3,
+        "slug": "a1-listening-en",
+        "level": "A1",
+        "name": "A1 Listening Skills",
+        "description": "Develop basic listening comprehension",
+        "module": "listening",
+        "requirement": {
+          "type": "complete-all"
+        },
+        "estimated_hours": 8,
+        "path_id": 5
+      },
+      {
+        "id": 4,
+        "slug": "a2-vocabulary-en",
+        "level": "A2",
+        "name": "A2 Vocabulary Expansion",
+        "description": "Expand vocabulary to A2 level (1000 words total)",
+        "module": "vocabulary",
+        "requirement": {
+          "type": "master-percentage",
+          "value": 70
+        },
+        "estimated_hours": 18,
+        "path_id": 5
+      },
+      {
+        "id": 5,
+        "slug": "a2-grammar-en",
+        "level": "A2",
+        "name": "A2 Grammar Patterns",
+        "description": "Master elementary grammar including past tenses and modals",
+        "module": "grammar",
+        "requirement": {
+          "type": "complete-all"
+        },
+        "estimated_hours": 14,
+        "path_id": 5
+      },
+      {
+        "id": 6,
+        "slug": "b1-vocabulary-en",
+        "level": "B1",
+        "name": "B1 Vocabulary Building",
+        "description": "Build vocabulary to intermediate level (2000 words total)",
+        "module": "vocabulary",
+        "requirement": {
+          "type": "master-percentage",
+          "value": 70
+        },
+        "estimated_hours": 25,
+        "path_id": 5
+      },
+      {
+        "id": 7,
+        "slug": "b1-grammar-en",
+        "level": "B1",
+        "name": "B1 Grammar Mastery",
+        "description": "Master intermediate grammar including conditionals and passive voice",
+        "module": "grammar",
+        "requirement": {
+          "type": "complete-all"
+        },
+        "estimated_hours": 18,
+        "path_id": 5
+      }
+    ]
+  }
+]

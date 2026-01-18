@@ -1,6 +1,6 @@
 'use client'
 
-import { HTMLAttributes, ReactNode } from 'react';
+import { HTMLAttributes, ReactNode, memo } from 'react';
 import styles from './Text.module.css';
 
 interface TextProps extends HTMLAttributes<HTMLDivElement> {
@@ -11,7 +11,7 @@ interface TextProps extends HTMLAttributes<HTMLDivElement> {
     as?: 'h1' | 'h2' | 'h3' | 'p' | 'span' | 'div';
 }
 
-export default function Text({
+const Text = memo(function Text({
     variant = 'body',
     color = 'primary',
     align = 'left',
@@ -21,7 +21,7 @@ export default function Text({
     ...props
 }: TextProps) {
     const Component = as || (variant.startsWith('h') ? variant as 'h1' | 'h2' | 'h3' : 'div');
-    
+
     const classes = [
         styles.text,
         styles[variant],
@@ -35,4 +35,6 @@ export default function Text({
             {children}
         </Component>
     );
-}
+});
+
+export default Text;

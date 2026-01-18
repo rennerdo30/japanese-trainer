@@ -1,6 +1,6 @@
 'use client'
 
-import { ButtonHTMLAttributes, ReactNode } from 'react';
+import { ButtonHTMLAttributes, ReactNode, memo } from 'react';
 import styles from './Button.module.css';
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
@@ -10,7 +10,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
     children: ReactNode;
 }
 
-export default function Button({
+const Button = memo(function Button({
     variant = 'primary',
     size = 'md',
     fullWidth = false,
@@ -31,4 +31,6 @@ export default function Button({
             {children}
         </button>
     );
-}
+});
+
+export default Button;

@@ -1,0 +1,132 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.instruction {
+  text-align: center;
+}
+
+.matchArea {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  flex: 1;
+  max-width: 200px;
+}
+
+.connector {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 20px;
+}
+
+.line {
+  height: 2px;
+  background: var(--gold, #FFD700);
+  opacity: 0.5;
+}
+
+.item {
+  padding: 0.875rem 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: var(--text-primary);
+  font-size: 0.9375rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.item:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.item.selected {
+  border-color: var(--gold, #FFD700);
+  background: rgba(255, 215, 0, 0.15);
+}
+
+.item.matched {
+  background: rgba(255, 215, 0, 0.1);
+  border-color: var(--gold, #FFD700);
+  opacity: 0.8;
+}
+
+.item.available {
+  border-color: rgba(255, 215, 0, 0.3);
+}
+
+.item.correct {
+  border-color: var(--success, #22c55e);
+  background: rgba(34, 197, 94, 0.15);
+}
+
+.item.incorrect {
+  border-color: var(--danger, #ef4444);
+  background: rgba(239, 68, 68, 0.15);
+}
+
+.item:disabled {
+  cursor: default;
+}
+
+.icon {
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+.item.correct .icon {
+  color: var(--success, #22c55e);
+}
+
+.item.incorrect .icon {
+  color: var(--danger, #ef4444);
+}
+
+.feedback {
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.feedback.correct {
+  background: rgba(34, 197, 94, 0.15);
+}
+
+.feedback.incorrect {
+  background: rgba(239, 68, 68, 0.15);
+}
+
+@media (max-width: 480px) {
+  .matchArea {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .column {
+    max-width: 100%;
+  }
+
+  .connector {
+    display: none;
+  }
+
+  .column:last-child {
+    padding-top: 0.5rem;
+    border-top: 1px dashed rgba(255, 255, 255, 0.1);
+  }
+}

@@ -12,7 +12,8 @@
     "correct": "正确",
     "incorrect": "错误",
     "total": "总计",
-    "streak": "连胜"
+    "streak": "连胜",
+    "stop": "悸得"
   },
   "modules": {
     "alphabet": {

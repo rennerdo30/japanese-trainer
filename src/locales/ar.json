@@ -12,7 +12,8 @@
     "correct": "صحيح",
     "incorrect": "خطأ",
     "total": "الإجمالي",
-    "streak": "سلسلة"
+    "streak": "سلسلة",
+    "stop": "السحب"
   },
   "modules": {
     "alphabet": {

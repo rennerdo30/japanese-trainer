@@ -40,5 +40,9 @@
     .label {
         padding: 0.4rem 1rem;
         font-size: 0.8rem;
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }

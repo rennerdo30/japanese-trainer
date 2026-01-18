@@ -53,3 +53,37 @@
 .hover:hover::before {
   opacity: 1;
 }
+
+/* Focus indicators for keyboard navigation */
+.hover:focus-within {
+  outline: 2px solid var(--accent-gold);
+  outline-offset: 2px;
+}
+
+.card:has(> a:focus-visible),
+.card:has(> button:focus-visible) {
+  outline: 2px solid var(--accent-gold);
+  outline-offset: 2px;
+}
+
+/* When card itself is focusable */
+.card:focus-visible {
+  outline: 2px solid var(--accent-gold);
+  outline-offset: 2px;
+}
+
+/* Respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .card {
+    transition: none;
+  }
+
+  .card::before {
+    transition: none;
+  }
+
+  .hover:hover {
+    transform: none;
+    transition: none;
+  }
+}

@@ -1,0 +1,102 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+  background: var(--glass-bg, rgba(255, 255, 255, 0.05));
+  border: 1px solid var(--glass-border, rgba(255, 255, 255, 0.1));
+  border-radius: 12px;
+}
+
+.filterGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.toggleGroup {
+  display: flex;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding: 0.125rem;
+}
+
+.toggleButton {
+  /* 44px minimum touch target per WCAG */
+  min-height: 44px;
+  padding: 0.5rem 0.75rem;
+  background: transparent;
+  border: none;
+  border-radius: 6px;
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.toggleButton:hover {
+  color: var(--text-primary);
+}
+
+.toggleButton:focus-visible {
+  outline: 2px solid var(--gold, #FFD700);
+  outline-offset: 2px;
+  color: var(--text-primary);
+}
+
+.toggleButton.active {
+  background: var(--gold, #FFD700);
+  color: var(--bg-primary);
+  font-weight: 500;
+}
+
+.toggleButton.active:focus-visible {
+  outline-color: var(--text-primary);
+}
+
+.select {
+  padding: 0.5rem 2rem 0.5rem 0.75rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--glass-border, rgba(255, 255, 255, 0.1));
+  border-radius: 8px;
+  color: var(--text-primary);
+  font-size: 0.875rem;
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%239ca3af' d='M3 5l3 3 3-3'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+}
+
+.select:focus {
+  outline: 2px solid var(--gold, #FFD700);
+  outline-offset: 2px;
+  border-color: var(--gold, #FFD700);
+}
+
+.select option {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+@media (max-width: 640px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .toggleGroup {
+    flex-wrap: wrap;
+  }
+
+  .toggleButton {
+    flex: 1;
+    text-align: center;
+  }
+}

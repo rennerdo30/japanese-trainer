@@ -9,6 +9,7 @@ import {
   loadKokoroModel,
   checkKokoroSupport,
 } from '@/lib/kokoroTTS';
+import { isMobileDevice } from '@/lib/mobileDetection';
 
 interface TTSOptions {
   lang?: string;
@@ -25,23 +26,6 @@ interface TTSOptions {
  * Tier 3: Web Speech API (variable quality, always available)
  */
 type TTSTier = 'pregenerated' | 'kokoro' | 'webspeech';
-
-/**
- * Check if device is mobile
- */
-function isMobileDevice(): boolean {
-  if (typeof window === 'undefined') return false;
-  const nav = navigator as Navigator & { vendor?: string };
-  const win = window as Window & { opera?: string };
-  const userAgent = navigator.userAgent || nav.vendor || win.opera || '';
-  const mobileRegex =
-    /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i;
-  const isUserAgentMobile = mobileRegex.test(userAgent.toLowerCase());
-  const hasTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
-  const isSmallScreen = window.innerWidth < 768;
-  const conditions = [isUserAgentMobile, hasTouch, isSmallScreen];
-  return conditions.filter(Boolean).length >= 2;
-}
 
 export function useTTS() {
   const { ttsVoice } = useTargetLanguage();
@@ -174,6 +158,42 @@ export function useTTS() {
     []
   );
 
+  // Shared TTS fallback chain logic
+  const executeTTSFallback = useCallback(
+    async (
+      text: string,
+      options: TTSOptions,
+      lang: string,
+      volume: number,
+      rate: number
+    ): Promise<TTSTier> => {
+      // Tier 1: Pre-generated ElevenLabs audio
+      if (options.audioUrl) {
+        try {
+          await playPregenerated(options.audioUrl, volume, rate);
+          return 'pregenerated';
+        } catch {
+          // Fall through to next tier
+        }
+      }
+
+      // Tier 2: Kokoro (if model loaded - English only)
+      if (isKokoroLoaded()) {
+        try {
+          await speakWithKokoro(text, undefined, volume);
+          return 'kokoro';
+        } catch {
+          // Fall through to next tier
+        }
+      }
+
+      // Tier 3: Web Speech API
+      await speakWithWebSpeech(text, { ...options, volume }, lang);
+      return 'webspeech';
+    },
+    [playPregenerated, speakWithWebSpeech]
+  );
+
   // Main speak function with 3-tier fallback
   const speak = useCallback(
     (
@@ -199,35 +219,11 @@ export function useTTS() {
       const volume = options.volume ?? 0.8;
       const rate = options.rate ?? 1.0;
 
-      // Async fallback chain
+      // Async fallback chain using shared helper
       (async () => {
         try {
-          // Tier 1: Pre-generated ElevenLabs audio
-          if (options.audioUrl) {
-            try {
-              await playPregenerated(options.audioUrl, volume, rate);
-              setLastUsedTier('pregenerated');
-              return;
-            } catch {
-              // Fall through to next tier
-            }
-          }
-
-          // Tier 2: Kokoro (if model loaded - English only)
-          if (isKokoroLoaded()) {
-            try {
-              // Kokoro uses saved voice preference, not language
-              await speakWithKokoro(text, undefined, volume);
-              setLastUsedTier('kokoro');
-              return;
-            } catch {
-              // Fall through to next tier
-            }
-          }
-
-          // Tier 3: Web Speech API
-          await speakWithWebSpeech(text, { ...options, volume }, lang);
-          setLastUsedTier('webspeech');
+          const tier = await executeTTSFallback(text, options, lang, volume, rate);
+          setLastUsedTier(tier);
         } catch (error) {
           console.warn('All TTS tiers failed:', error);
         } finally {
@@ -238,7 +234,7 @@ export function useTTS() {
       // Return the audio ref for backwards compatibility
       return audioRef.current ?? undefined;
     },
-    [ttsVoice, playPregenerated, speakWithWebSpeech]
+    [ttsVoice, executeTTSFallback]
   );
 
   // speakAndWait with 3-tier fallback
@@ -264,39 +260,15 @@ export function useTTS() {
       const rate = options.rate ?? 1.0;
 
       try {
-        // Tier 1: Pre-generated ElevenLabs audio
-        if (options.audioUrl) {
-          try {
-            await playPregenerated(options.audioUrl, volume, rate);
-            setLastUsedTier('pregenerated');
-            return;
-          } catch {
-            // Fall through to next tier
-          }
-        }
-
-        // Tier 2: Kokoro (if model loaded - English only)
-        if (isKokoroLoaded()) {
-          try {
-            // Kokoro uses saved voice preference, not language
-            await speakWithKokoro(text, undefined, volume);
-            setLastUsedTier('kokoro');
-            return;
-          } catch {
-            // Fall through to next tier
-          }
-        }
-
-        // Tier 3: Web Speech API
-        await speakWithWebSpeech(text, { ...options, volume }, lang);
-        setLastUsedTier('webspeech');
+        const tier = await executeTTSFallback(text, options, lang, volume, rate);
+        setLastUsedTier(tier);
       } catch (error) {
         console.warn('All TTS tiers failed:', error);
       } finally {
         setIsPlaying(false);
       }
     },
-    [ttsVoice, playPregenerated, speakWithWebSpeech]
+    [ttsVoice, executeTTSFallback]
   );
 
   const cancel = useCallback(() => {

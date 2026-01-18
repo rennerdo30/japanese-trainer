@@ -1,0 +1,172 @@
+.summaryContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.celebrationIcon {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: var(--success, #4ADE80);
+  background: rgba(74, 222, 128, 0.1);
+  border-radius: 50%;
+  animation: bounceIn 0.5s ease;
+}
+
+.celebrationIcon.perfect {
+  color: var(--gold, #FFD700);
+  background: rgba(255, 215, 0, 0.1);
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.title {
+  margin: 0;
+}
+
+.subtitle {
+  opacity: 0.7;
+}
+
+.statsCard {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.scoreSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.scoreCircle {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--card-bg-subtle, rgba(0, 0, 0, 0.2));
+  border-radius: 50%;
+  border: 4px solid var(--gold, #FFD700);
+}
+
+.scoreValue {
+  font-size: 2rem;
+  color: var(--gold, #FFD700);
+}
+
+.xpSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.xpTotal {
+  font-size: 1.75rem;
+}
+
+.xpBreakdown {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.xpItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.xpIcon {
+  color: var(--gold, #FFD700);
+}
+
+.levelUpBanner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.2), rgba(255, 215, 0, 0.1));
+  border-radius: 0.75rem;
+  border: 1px solid var(--gold, #FFD700);
+}
+
+.levelUpIcon {
+  font-size: 2rem;
+  color: var(--gold, #FFD700);
+}
+
+.levelUpContent {
+  text-align: left;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.primaryButton {
+  min-width: 200px;
+}
+
+.nextLessonPreview {
+  padding: 1rem 1.5rem;
+  text-align: left;
+}
+
+.nextLessonPreview > * + * {
+  margin-top: 0.25rem;
+}
+
+@media (max-width: 480px) {
+  .summaryContainer {
+    padding: 0.5rem;
+  }
+
+  .statsCard {
+    padding: 1.5rem;
+  }
+
+  .scoreCircle {
+    width: 100px;
+    height: 100px;
+  }
+
+  .scoreValue {
+    font-size: 1.75rem;
+  }
+}

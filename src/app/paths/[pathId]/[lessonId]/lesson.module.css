@@ -1,0 +1,46 @@
+.loadingCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 3rem;
+  min-height: 300px;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 4px solid var(--border-color, rgba(255, 255, 255, 0.1));
+  border-top-color: var(--gold, #FFD700);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.errorCard,
+.lockedCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 3rem;
+  text-align: center;
+  min-height: 300px;
+}
+
+.errorIcon,
+.lockedIcon {
+  font-size: 3rem;
+  color: var(--error, #ff6b6b);
+}
+
+.lockedIcon {
+  color: var(--muted, rgba(255, 255, 255, 0.5));
+}

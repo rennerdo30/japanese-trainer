@@ -47,19 +47,37 @@ async function fetchWithCache(url: string, cacheKey: string): Promise<unknown> {
     }
 }
 
+// Type guard for Jisho API response
+interface JishoApiResponse {
+    data: Array<{
+        japanese: Array<{ word?: string; reading?: string }>;
+        senses: Array<{ english_definitions: string[]; parts_of_speech: string[] }>;
+        is_common?: boolean;
+    }>;
+}
+
+function isJishoResponse(data: unknown): data is JishoApiResponse {
+    return (
+        typeof data === 'object' &&
+        data !== null &&
+        'data' in data &&
+        Array.isArray((data as JishoApiResponse).data)
+    );
+}
+
 // Search Jisho for word/kanji information
 export async function searchJisho(query: string): Promise<JishoResult | null> {
     const url = `${JISHO_API}${encodeURIComponent(query)}`;
     const cacheKey = `jisho_${query}`;
-    
+
     const data = await fetchWithCache(url, cacheKey);
-    if (!data || !data.data || data.data.length === 0) return null;
-    
+    if (!data || !isJishoResponse(data) || data.data.length === 0) return null;
+
     const result = data.data[0];
     return {
         word: result.japanese[0]?.word || '',
         reading: result.japanese[0]?.reading || '',
-        meanings: result.senses.map((sense: { english_definitions: string[]; parts_of_speech: string[] }) => ({
+        meanings: result.senses.map((sense) => ({
             english: sense.english_definitions,
             partOfSpeech: sense.parts_of_speech
         })),
@@ -67,17 +85,34 @@ export async function searchJisho(query: string): Promise<JishoResult | null> {
     };
 }
 
+// Type guard for Tatoeba API response
+interface TatoebaApiResponse {
+    results: Array<{
+        text: string;
+        translations?: Array<Array<{ text: string }>>;
+    }>;
+}
+
+function isTatoebaResponse(data: unknown): data is TatoebaApiResponse {
+    return (
+        typeof data === 'object' &&
+        data !== null &&
+        'results' in data &&
+        Array.isArray((data as TatoebaApiResponse).results)
+    );
+}
+
 // Search Tatoeba for example sentences
 export async function searchTatoeba(query: string, limit: number = 5): Promise<TatoebaResult[]> {
     const url = `${TATOEBA_API}${encodeURIComponent(query)}&limit=${limit}`;
     const cacheKey = `tatoeba_${query}_${limit}`;
-    
+
     const data = await fetchWithCache(url, cacheKey);
-    if (!data || !data.results) return [];
-    
-    return data.results.map((result: { text: string; translations?: Array<{ text: string }> }) => ({
+    if (!data || !isTatoebaResponse(data)) return [];
+
+    return data.results.map((result) => ({
         japanese: result.text,
-        english: result.translations?.[0]?.text || ''
+        english: result.translations?.[0]?.[0]?.text || ''
     }));
 }
 

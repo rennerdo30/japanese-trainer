@@ -93,6 +93,40 @@
     font-weight: 700;
 }
 
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Respect user preference for reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    .button {
+        transition: none;
+    }
+
+    .button:hover {
+        transform: none;
+    }
+
+    .arrow {
+        transition: none;
+    }
+
+    .dropdown {
+        animation: none;
+    }
+
+    .option {
+        transition: none;
+    }
+}
+
 /* Very small phones */
 @media (max-width: 375px) {
     .button {

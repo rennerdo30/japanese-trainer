@@ -4,6 +4,7 @@
  */
 
 import prerequisitesData from '@/data/ja/prerequisites.json';
+import { ModuleStats } from '@/types';
 
 export type MasteryLevel = 'new' | 'learning' | 'advanced' | 'mastered';
 export type ModuleName = 'alphabet' | 'vocabulary' | 'kanji' | 'grammar' | 'reading' | 'listening';
@@ -28,10 +29,7 @@ export interface UserProgress {
     [key in ModuleName]?: {
       learned: string[];
       reviews: Record<string, ReviewData>;
-      stats?: {
-        correct: number;
-        total: number;
-      };
+      stats?: ModuleStats;
     };
   };
 }

@@ -1,28 +1,16 @@
 'use client'
 
 import { useState, useEffect } from 'react';
+import { checkIsMobile } from '@/lib/mobileDetection';
 
 export function useMobile(): boolean {
     const [isMobile, setIsMobile] = useState(false);
 
     useEffect(() => {
-        const checkMobile = (): boolean => {
-            // Use type assertions for legacy browser properties (vendor, opera)
-            const nav = navigator as Navigator & { vendor?: string };
-            const win = window as Window & { opera?: string };
-            const userAgent = navigator.userAgent || nav.vendor || win.opera || '';
-            const mobileRegex = /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i;
-            const isUserAgentMobile = mobileRegex.test(userAgent.toLowerCase());
-            const hasTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
-            const isSmallScreen = window.innerWidth < 768;
-            const conditions = [isUserAgentMobile, hasTouch, isSmallScreen];
-            return conditions.filter(Boolean).length >= 2;
-        };
-
-        setIsMobile(checkMobile());
+        setIsMobile(checkIsMobile());
 
         const handleResize = () => {
-            setIsMobile(checkMobile());
+            setIsMobile(checkIsMobile());
         };
 
         window.addEventListener('resize', handleResize);

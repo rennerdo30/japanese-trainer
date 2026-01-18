@@ -1,0 +1,85 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.stats {
+  text-align: center;
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.filterGroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.filterButton {
+  font-size: 0.8125rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(280px, 100%), 1fr));
+  gap: 1rem;
+}
+
+.compactGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr));
+  gap: 0.5rem;
+}
+
+.empty {
+  text-align: center;
+  padding: 2rem;
+}
+
+@media (max-width: 640px) {
+  .header {
+    gap: 0.75rem;
+  }
+
+  .filterGroup {
+    gap: 0.35rem;
+  }
+
+  .filterButton {
+    font-size: 0.75rem;
+    padding: 0.35rem 0.75rem;
+  }
+
+  .grid {
+    gap: 0.75rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .stats {
+    text-align: left;
+  }
+
+  .filters {
+    flex-direction: row;
+    gap: 1rem;
+  }
+}

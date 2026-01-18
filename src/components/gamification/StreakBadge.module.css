@@ -1,0 +1,115 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+/* Size variants */
+.sm .badge {
+  width: 36px;
+  height: 36px;
+}
+
+.sm .flameIcon {
+  font-size: 1rem;
+}
+
+.md .badge {
+  width: 48px;
+  height: 48px;
+}
+
+.md .flameIcon {
+  font-size: 1.25rem;
+}
+
+.lg .badge {
+  width: 64px;
+  height: 64px;
+}
+
+.lg .flameIcon {
+  font-size: 1.5rem;
+}
+
+/* Badge */
+.badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--card-bg-subtle, rgba(0, 0, 0, 0.2));
+  border-radius: 12px;
+  border: 2px solid var(--border-color, rgba(255, 255, 255, 0.1));
+  transition: all 0.3s ease;
+}
+
+.badge.active {
+  background: var(--streak-bg, rgba(255, 107, 53, 0.1));
+  border-color: var(--streak-color, var(--flame-orange, #FF6B35));
+}
+
+.flameIcon {
+  color: var(--muted, rgba(255, 255, 255, 0.3));
+}
+
+.active .flameIcon {
+  color: var(--streak-color, var(--flame-orange, #FF6B35));
+  animation: flicker 1s ease-in-out infinite;
+}
+
+@keyframes flicker {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.1);
+  }
+}
+
+/* Info */
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.displayText {
+  font-weight: 600;
+}
+
+.message {
+  font-style: italic;
+}
+
+.best {
+  opacity: 0.7;
+}
+
+/* Streak color classes */
+.streak-none {
+  --streak-color: var(--muted, rgba(255, 255, 255, 0.3));
+  --streak-bg: transparent;
+}
+
+.streak-starting {
+  --streak-color: var(--flame-orange, #FF6B35);
+  --streak-bg: rgba(255, 107, 53, 0.1);
+}
+
+.streak-building {
+  --streak-color: #FF4500;
+  --streak-bg: rgba(255, 69, 0, 0.1);
+}
+
+.streak-strong {
+  --streak-color: #FF0000;
+  --streak-bg: rgba(255, 0, 0, 0.1);
+}
+
+.streak-legendary {
+  --streak-color: #FFD700;
+  --streak-bg: rgba(255, 215, 0, 0.1);
+}

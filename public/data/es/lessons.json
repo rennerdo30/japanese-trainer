@@ -1,0 +1,152 @@
+[
+  {
+    "id": "es-a1-vocab-l1",
+    "milestoneId": "es-a1-vocabulary",
+    "title": "Basic Greetings",
+    "description": "Learn essential Spanish greetings and introductions",
+    "content": {
+      "topics": ["Formal vs informal greetings", "Time-based greetings"],
+      "vocab_focus": ["hola", "buenos días", "buenas tardes", "buenas noches", "adiós", "hasta luego"],
+      "grammar_focus": ["Tú vs Usted (formal you)"],
+      "cultural_notes": ["In Spain, people often greet with two kisses on the cheek"]
+    },
+    "exercises": [
+      {
+        "id": "ex1",
+        "type": "multiple_choice",
+        "question": "How do you say 'hello' in Spanish?",
+        "options": ["Adiós", "Hola", "Gracias", "Por favor"],
+        "correctIndex": 1
+      },
+      {
+        "id": "ex2",
+        "type": "multiple_choice",
+        "question": "Which greeting is appropriate for the morning?",
+        "options": ["Buenas noches", "Buenos días", "Hasta luego", "Adiós"],
+        "correctIndex": 1
+      },
+      {
+        "id": "ex3",
+        "type": "multiple_choice",
+        "question": "How do you say 'goodbye' in Spanish?",
+        "options": ["Hola", "Buenos días", "Adiós", "Gracias"],
+        "correctIndex": 2
+      },
+      {
+        "id": "ex4",
+        "type": "multiple_choice",
+        "question": "Which greeting would you use in the evening?",
+        "options": ["Buenos días", "Buenas tardes", "Buenas noches", "Hola"],
+        "correctIndex": 2
+      },
+      {
+        "id": "ex5",
+        "type": "multiple_choice",
+        "question": "'Hasta luego' means:",
+        "options": ["Good morning", "Good night", "Hello", "See you later"],
+        "correctIndex": 3
+      }
+    ],
+    "estimatedMinutes": 10
+  },
+  {
+    "id": "es-a1-vocab-l2",
+    "milestoneId": "es-a1-vocabulary",
+    "title": "Numbers 1-20",
+    "description": "Count from one to twenty in Spanish",
+    "content": {
+      "topics": ["Cardinal numbers", "Using numbers in everyday situations"],
+      "vocab_focus": ["uno", "dos", "tres", "cuatro", "cinco", "seis", "siete", "ocho", "nueve", "diez", "once", "doce", "trece", "catorce", "quince", "dieciséis", "diecisiete", "dieciocho", "diecinueve", "veinte"],
+      "grammar_focus": [],
+      "cultural_notes": ["Phone numbers are usually read digit by digit"]
+    },
+    "exercises": [
+      {
+        "id": "ex1",
+        "type": "multiple_choice",
+        "question": "What number is 'siete'?",
+        "options": ["5", "6", "7", "8"],
+        "correctIndex": 2
+      },
+      {
+        "id": "ex2",
+        "type": "multiple_choice",
+        "question": "How do you say '3' in Spanish?",
+        "options": ["Uno", "Dos", "Tres", "Cuatro"],
+        "correctIndex": 2
+      },
+      {
+        "id": "ex3",
+        "type": "multiple_choice",
+        "question": "What is 'diez'?",
+        "options": ["8", "9", "10", "11"],
+        "correctIndex": 2
+      },
+      {
+        "id": "ex4",
+        "type": "multiple_choice",
+        "question": "How do you say '15' in Spanish?",
+        "options": ["Catorce", "Quince", "Dieciséis", "Trece"],
+        "correctIndex": 1
+      },
+      {
+        "id": "ex5",
+        "type": "multiple_choice",
+        "question": "What number is 'veinte'?",
+        "options": ["12", "15", "18", "20"],
+        "correctIndex": 3
+      }
+    ],
+    "estimatedMinutes": 15
+  },
+  {
+    "id": "es-a1-vocab-l3",
+    "milestoneId": "es-a1-vocabulary",
+    "title": "Common Phrases",
+    "description": "Essential phrases for polite conversation",
+    "content": {
+      "topics": ["Polite expressions", "Basic questions"],
+      "vocab_focus": ["gracias", "por favor", "de nada", "perdón", "lo siento", "¿cómo estás?", "muy bien", "¿y tú?"],
+      "grammar_focus": ["Question formation with ¿?"],
+      "cultural_notes": ["Spanish uses inverted question marks at the start of questions"]
+    },
+    "exercises": [
+      {
+        "id": "ex1",
+        "type": "multiple_choice",
+        "question": "How do you say 'thank you'?",
+        "options": ["Por favor", "Gracias", "De nada", "Perdón"],
+        "correctIndex": 1
+      },
+      {
+        "id": "ex2",
+        "type": "multiple_choice",
+        "question": "'Por favor' means:",
+        "options": ["Thank you", "You're welcome", "Please", "Excuse me"],
+        "correctIndex": 2
+      },
+      {
+        "id": "ex3",
+        "type": "multiple_choice",
+        "question": "What is the response to 'gracias'?",
+        "options": ["Hola", "De nada", "Por favor", "Adiós"],
+        "correctIndex": 1
+      },
+      {
+        "id": "ex4",
+        "type": "multiple_choice",
+        "question": "'¿Cómo estás?' means:",
+        "options": ["What is your name?", "How are you?", "Where are you from?", "How old are you?"],
+        "correctIndex": 1
+      },
+      {
+        "id": "ex5",
+        "type": "multiple_choice",
+        "question": "How do you say 'I'm sorry' in Spanish?",
+        "options": ["Perdón", "Lo siento", "De nada", "Both A and B"],
+        "correctIndex": 3
+      }
+    ],
+    "estimatedMinutes": 10
+  }
+]

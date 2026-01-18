@@ -1,0 +1,209 @@
+.container {
+  position: fixed;
+  z-index: 1000;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Position variants */
+.center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top {
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bottom {
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Size variants */
+.sm .badge {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.md .badge {
+  font-size: 1.5rem;
+  padding: 0.75rem 1.5rem;
+}
+
+.lg .badge {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.3), rgba(255, 215, 0, 0.1));
+  border: 2px solid var(--gold, #FFD700);
+  border-radius: 2rem;
+  box-shadow:
+    0 0 20px rgba(255, 215, 0, 0.4),
+    0 0 40px rgba(255, 215, 0, 0.2);
+  opacity: 0;
+  transform: scale(0.5) translateY(20px);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.visible .badge {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+}
+
+.exiting .badge {
+  opacity: 0;
+  transform: scale(1.2) translateY(-30px);
+}
+
+.icon {
+  color: var(--gold, #FFD700);
+  animation: sparkle 0.6s ease-in-out infinite alternate;
+}
+
+@keyframes sparkle {
+  from {
+    transform: rotate(-10deg) scale(1);
+  }
+  to {
+    transform: rotate(10deg) scale(1.1);
+  }
+}
+
+.amount {
+  color: var(--gold, #FFD700);
+  font-weight: 700;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+.label {
+  color: var(--gold, #FFD700);
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+/* Particle effects */
+.particles {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.particle {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: var(--gold, #FFD700);
+  border-radius: 50%;
+  opacity: 0;
+  animation: particle 1s ease-out var(--delay, 0s) forwards;
+}
+
+.visible .particle {
+  opacity: 1;
+}
+
+@keyframes particle {
+  0% {
+    opacity: 1;
+    transform: rotate(var(--angle)) translateY(0) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(var(--angle)) translateY(-80px) scale(0);
+  }
+}
+
+/* Confetti-like variant for large gains */
+.lg .particle {
+  width: 10px;
+  height: 10px;
+}
+
+.lg .particles::before,
+.lg .particles::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: var(--gold, #FFD700);
+  border-radius: 50%;
+  animation: confetti 1.2s ease-out forwards;
+}
+
+.lg .particles::before {
+  left: -30px;
+  animation-delay: 0.1s;
+}
+
+.lg .particles::after {
+  right: -30px;
+  animation-delay: 0.15s;
+}
+
+@keyframes confetti {
+  0% {
+    opacity: 1;
+    transform: translateY(0) rotate(0deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-60px) rotate(180deg);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .md .badge {
+    font-size: 1.25rem;
+    padding: 0.625rem 1.25rem;
+  }
+
+  .lg .badge {
+    font-size: 1.5rem;
+    padding: 0.75rem 1.5rem;
+  }
+}
+
+/* Accessibility: Reduce motion */
+@media (prefers-reduced-motion: reduce) {
+  .badge {
+    transition: opacity 0.2s ease;
+    transform: none !important;
+  }
+
+  .visible .badge {
+    transform: none !important;
+  }
+
+  .exiting .badge {
+    transform: none !important;
+  }
+
+  .icon {
+    animation: none;
+  }
+
+  .particle {
+    animation: none;
+    opacity: 0;
+  }
+
+  .lg .particles::before,
+  .lg .particles::after {
+    animation: none;
+  }
+}

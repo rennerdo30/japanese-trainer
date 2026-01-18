@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.phaseLabel {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.75rem;
+}
+
+.progressBar {
+  height: 8px;
+  background: var(--border-color, rgba(255, 255, 255, 0.1));
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.progressFill.learning {
+  background: linear-gradient(
+    90deg,
+    var(--gold, #FFD700),
+    var(--gold-light, #FFE44D)
+  );
+}
+
+.progressFill.exercises {
+  background: linear-gradient(
+    90deg,
+    var(--accent-green, #4ADE80),
+    var(--accent-green-light, #86EFAC)
+  );
+}

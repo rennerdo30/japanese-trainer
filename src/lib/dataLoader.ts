@@ -4,39 +4,28 @@
  * This module provides a registry-based approach to loading data for different languages.
  * To add a new language:
  * 1. Create the data files in src/data/{lang}/
- * 2. Import the data files below
- * 3. Add entries to the DATA_REGISTRY
- * 4. Add the language to language-configs.json
+ * 2. Add the language to the VOCABULARY_LOADERS map
+ * 3. Add the language to language-configs.json
  *
  * No other code changes should be needed!
  */
 
 import { VocabularyItem } from '@/types';
 
-// Import vocabulary data for all languages
-import jaVocabJson from '@/data/ja/vocabulary.json';
-import koVocabJson from '@/data/ko/vocabulary.json';
-import zhVocabJson from '@/data/zh/vocabulary.json';
-import esVocabJson from '@/data/es/vocabulary.json';
-import deVocabJson from '@/data/de/vocabulary.json';
-import enVocabJson from '@/data/en/vocabulary.json';
-import itVocabJson from '@/data/it/vocabulary.json';
+// Valid language codes for vocabulary data
+const VALID_LANGUAGE_CODES = ['ja', 'ko', 'zh', 'es', 'de', 'en', 'it', 'fr', 'pt', 'ar', 'ru', 'hi'] as const;
+type LanguageCode = typeof VALID_LANGUAGE_CODES[number];
 
-// Type for the data registry
-interface DataRegistry {
-  vocabulary: Record<string, VocabularyItem[]>;
-  // Add other data types as needed:
-  // grammar: Record<string, GrammarItem[]>;
-  // characters: Record<string, CharacterItem[]>;
+function isValidLanguageCode(code: string): code is LanguageCode {
+  return VALID_LANGUAGE_CODES.includes(code as LanguageCode);
 }
 
-/**
- * DATA_REGISTRY - Central registry for all language data
- *
- * To add a new language, simply:
- * 1. Import the JSON file above
- * 2. Add an entry here with the language code as key
- */
+// Cache for loaded vocabulary data
+const vocabularyCache = new Map<string, VocabularyItem[]>();
+
+// Loading state to prevent duplicate requests
+const loadingPromises = new Map<string, Promise<VocabularyItem[]>>();
+
 // Helper to extract vocabulary array from different JSON structures
 const extractVocabulary = (data: unknown): VocabularyItem[] => {
   if (Array.isArray(data)) {
@@ -48,38 +37,124 @@ const extractVocabulary = (data: unknown): VocabularyItem[] => {
   return [];
 };
 
-const DATA_REGISTRY: DataRegistry = {
-  vocabulary: {
-    ja: extractVocabulary(jaVocabJson),
-    ko: extractVocabulary(koVocabJson),
-    zh: extractVocabulary(zhVocabJson),
-    es: extractVocabulary(esVocabJson),
-    de: extractVocabulary(deVocabJson),
-    en: extractVocabulary(enVocabJson),
-    it: extractVocabulary(itVocabJson),
-  },
+/**
+ * Dynamic import loaders for vocabulary data
+ * Each language has a dynamic import function
+ */
+const VOCABULARY_LOADERS: Record<string, () => Promise<unknown>> = {
+  ja: () => import('@/data/ja/vocabulary.json').then(m => m.default),
+  ko: () => import('@/data/ko/vocabulary.json').then(m => m.default),
+  zh: () => import('@/data/zh/vocabulary.json').then(m => m.default),
+  es: () => import('@/data/es/vocabulary.json').then(m => m.default),
+  de: () => import('@/data/de/vocabulary.json').then(m => m.default),
+  en: () => import('@/data/en/vocabulary.json').then(m => m.default),
+  it: () => import('@/data/it/vocabulary.json').then(m => m.default),
 };
 
 /**
- * Get vocabulary data for a specific language
- * Falls back to Japanese if the language is not found
+ * Load vocabulary data asynchronously for a specific language.
+ * Results are cached to avoid repeated loading.
+ * Uses request deduplication to prevent concurrent duplicate requests.
+ */
+export async function loadVocabularyData(lang: string): Promise<VocabularyItem[]> {
+  // Validate language code
+  if (!isValidLanguageCode(lang) && !VOCABULARY_LOADERS[lang]) {
+    console.warn(`Unknown language code: ${lang}, falling back to 'ja'`);
+    lang = 'ja';
+  }
+
+  // Return cached data if available
+  if (vocabularyCache.has(lang)) {
+    return vocabularyCache.get(lang)!;
+  }
+
+  // Check if already loading - deduplicate concurrent requests
+  if (loadingPromises.has(lang)) {
+    return loadingPromises.get(lang)!;
+  }
+
+  // Get loader for language
+  const loader = VOCABULARY_LOADERS[lang];
+  if (!loader) {
+    console.warn(`No vocabulary data for language: ${lang}, falling back to 'ja'`);
+    return loadVocabularyData('ja');
+  }
+
+  // Create loading promise
+  const loadPromise = (async () => {
+    try {
+      const data = await loader();
+      const vocabulary = extractVocabulary(data);
+      vocabularyCache.set(lang, vocabulary);
+      return vocabulary;
+    } catch (error) {
+      console.error(`Failed to load vocabulary for ${lang}:`, error);
+      // Fall back to Japanese if available
+      if (lang !== 'ja' && vocabularyCache.has('ja')) {
+        return vocabularyCache.get('ja')!;
+      }
+      return [];
+    } finally {
+      loadingPromises.delete(lang);
+    }
+  })();
+
+  loadingPromises.set(lang, loadPromise);
+  return loadPromise;
+}
+
+/**
+ * Get vocabulary data synchronously from cache.
+ * Returns empty array if not loaded yet.
+ * Use loadVocabularyData() to ensure data is loaded first.
+ *
+ * @deprecated Use loadVocabularyData() for async loading instead
  */
 export function getVocabularyData(lang: string): VocabularyItem[] {
-  return DATA_REGISTRY.vocabulary[lang] || DATA_REGISTRY.vocabulary['ja'] || [];
+  // Check cache first
+  if (vocabularyCache.has(lang)) {
+    return vocabularyCache.get(lang)!;
+  }
+
+  // Trigger async load for future use
+  loadVocabularyData(lang).catch(() => {
+    // Error already logged in loadVocabularyData
+  });
+
+  // Return empty array synchronously - data will be available on next render
+  return [];
+}
+
+/**
+ * Check if vocabulary data is loaded for a language
+ */
+export function isVocabularyLoaded(lang: string): boolean {
+  return vocabularyCache.has(lang);
 }
 
 /**
  * Check if vocabulary data exists for a language
  */
 export function hasVocabularyData(lang: string): boolean {
-  return lang in DATA_REGISTRY.vocabulary;
+  return lang in VOCABULARY_LOADERS;
 }
 
 /**
  * Get all available languages for vocabulary
  */
 export function getVocabularyLanguages(): string[] {
-  return Object.keys(DATA_REGISTRY.vocabulary);
+  return Object.keys(VOCABULARY_LOADERS);
+}
+
+/**
+ * Preload vocabulary data for a language (doesn't block)
+ */
+export function preloadVocabularyData(lang: string): void {
+  if (!vocabularyCache.has(lang) && !loadingPromises.has(lang)) {
+    loadVocabularyData(lang).catch(() => {
+      // Error already logged in loadVocabularyData
+    });
+  }
 }
 
 /**
@@ -109,4 +184,11 @@ export function filterVocabularyByLevels(
     const itemLevel = getItemLevel(item);
     return activeLevelIds.includes(itemLevel);
   });
+}
+
+/**
+ * Clear vocabulary cache (useful for testing or memory management)
+ */
+export function clearVocabularyCache(): void {
+  vocabularyCache.clear();
 }

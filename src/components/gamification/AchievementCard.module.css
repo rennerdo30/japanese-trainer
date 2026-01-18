@@ -1,0 +1,203 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.25rem;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.card.unlocked {
+  border-color: var(--rarity-color, #9CA3AF);
+  box-shadow: 0 0 20px color-mix(in srgb, var(--rarity-color) 30%, transparent);
+}
+
+.card.locked {
+  opacity: 0.6;
+}
+
+.card.locked:hover {
+  opacity: 0.8;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.iconWrapper {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  background: color-mix(in srgb, var(--rarity-color) 20%, transparent);
+}
+
+.icon {
+  font-size: 1.75rem;
+  color: var(--rarity-color);
+}
+
+.lockedIcon {
+  font-size: 1.5rem;
+  color: var(--text-muted, #888);
+}
+
+.rarityBadge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 2rem;
+  background: color-mix(in srgb, var(--rarity-color) 15%, transparent);
+  border: 1px solid color-mix(in srgb, var(--rarity-color) 30%, transparent);
+}
+
+.rarityText {
+  color: var(--rarity-color);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.name {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.unlocked .name {
+  color: var(--rarity-color);
+}
+
+.description {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.progressContainer {
+  position: relative;
+  height: 6px;
+  background: var(--glass-bg, rgba(255, 255, 255, 0.1));
+  border-radius: 3px;
+  margin-top: 0.5rem;
+  overflow: hidden;
+}
+
+.progressBar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background: var(--rarity-color);
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.progressText {
+  position: absolute;
+  right: 0.25rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.625rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--glass-border, rgba(255, 255, 255, 0.1));
+}
+
+.xpBadge {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.xpIcon {
+  font-size: 0.875rem;
+  color: var(--gold, #FFD700);
+}
+
+/* Compact variant */
+.compactCard {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  background: var(--glass-bg, rgba(255, 255, 255, 0.05));
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.compactCard.unlocked {
+  border-color: var(--rarity-color, #9CA3AF);
+}
+
+.compactCard.locked {
+  opacity: 0.5;
+}
+
+.compactIcon {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--rarity-color) 20%, transparent);
+}
+
+.compactIcon .icon {
+  font-size: 1rem;
+}
+
+.compactIcon .lockedIcon {
+  font-size: 0.875rem;
+}
+
+.compactInfo {
+  flex: 1;
+}
+
+.compactName {
+  font-weight: 500;
+}
+
+.compactCard.unlocked .compactName {
+  color: var(--rarity-color);
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 1rem;
+  }
+
+  .iconWrapper {
+    width: 48px;
+    height: 48px;
+  }
+
+  .icon {
+    font-size: 1.5rem;
+  }
+
+  .name {
+    font-size: 1rem;
+  }
+
+  .description {
+    font-size: 0.8125rem;
+  }
+}

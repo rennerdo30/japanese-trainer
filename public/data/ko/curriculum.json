@@ -1,0 +1,109 @@
+[
+  {
+    "path": {
+      "id": 2,
+      "slug": "topik-korean",
+      "name": "TOPIK Korean Path",
+      "description": "Master Korean systematically through TOPIK levels, from beginner to advanced.",
+      "type": "linear",
+      "estimated_hours": 350,
+      "difficulty": "beginner-to-advanced",
+      "language_id": 2
+    },
+    "milestones": [
+      {
+        "id": 1,
+        "slug": "hangul-basics",
+        "level": "TOPIK I",
+        "name": "Master Hangul",
+        "description": "Learn all Korean phonetic characters",
+        "module": "alphabet",
+        "requirement": {
+          "type": "complete-all"
+        },
+        "estimated_hours": 8,
+        "path_id": 2
+      },
+      {
+        "id": 2,
+        "slug": "topik1-vocabulary",
+        "level": "TOPIK I",
+        "name": "TOPIK I Vocabulary Foundation",
+        "description": "Learn essential beginner vocabulary (800 words)",
+        "module": "vocabulary",
+        "requirement": {
+          "type": "master-percentage",
+          "value": 70
+        },
+        "estimated_hours": 20,
+        "path_id": 2
+      },
+      {
+        "id": 3,
+        "slug": "topik1-grammar",
+        "level": "TOPIK I",
+        "name": "TOPIK I Grammar Basics",
+        "description": "Learn fundamental grammar structures and sentence patterns",
+        "module": "grammar",
+        "requirement": {
+          "type": "complete-all"
+        },
+        "estimated_hours": 15,
+        "path_id": 2
+      },
+      {
+        "id": 4,
+        "slug": "topik1-reading",
+        "level": "TOPIK I",
+        "name": "TOPIK I Reading Practice",
+        "description": "Practice reading simple Korean texts",
+        "module": "reading",
+        "requirement": {
+          "type": "complete-all"
+        },
+        "estimated_hours": 10,
+        "path_id": 2
+      },
+      {
+        "id": 5,
+        "slug": "topik1-listening",
+        "level": "TOPIK I",
+        "name": "TOPIK I Listening Skills",
+        "description": "Develop listening comprehension abilities",
+        "module": "listening",
+        "requirement": {
+          "type": "complete-all"
+        },
+        "estimated_hours": 10,
+        "path_id": 2
+      },
+      {
+        "id": 6,
+        "slug": "topik2-vocabulary",
+        "level": "TOPIK II",
+        "name": "TOPIK II Vocabulary Expansion",
+        "description": "Expand vocabulary to intermediate level (2000 words total)",
+        "module": "vocabulary",
+        "requirement": {
+          "type": "master-percentage",
+          "value": 70
+        },
+        "estimated_hours": 30,
+        "path_id": 2
+      },
+      {
+        "id": 7,
+        "slug": "topik2-grammar",
+        "level": "TOPIK II",
+        "name": "TOPIK II Grammar Mastery",
+        "description": "Master intermediate and advanced grammar patterns",
+        "module": "grammar",
+        "requirement": {
+          "type": "complete-all"
+        },
+        "estimated_hours": 25,
+        "path_id": 2
+      }
+    ]
+  }
+]

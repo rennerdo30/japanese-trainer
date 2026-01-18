@@ -1,25 +1,18 @@
 // localStorage wrapper for progress tracking
 // Designed for easy migration to backend API
 
-import { ModuleData, ModuleStats } from '@/types';
+import { ModuleData, ModuleStats, GlobalStats, StorageData as TypesStorageData, ReviewData } from '@/types';
 
 // Re-export for use by other modules
-export type { ModuleData, ModuleStats };
+export type { ModuleData, ModuleStats, GlobalStats, ReviewData };
+
+// Use the StorageData type from types but ensure compatibility
+export type StorageData = TypesStorageData & {
+    userId: string | null;
+};
 
 const STORAGE_KEY = 'murmura_data';
 const USER_ID_KEY = 'murmura_user_id';
-
-export interface StorageData {
-    userId: string;
-    modules: Record<string, ModuleData>;
-    globalStats: {
-        streak: number;
-        bestStreak: number;
-        totalStudyTime: number;
-        lastActive: number | null;
-        createdAt: number;
-    };
-}
 
 // Migrate old data formats to new Murmura keys
 function migrateOldData(): void {
@@ -159,15 +152,21 @@ function getDefaultData(): StorageData {
 // Get all stored data
 export function getAllData(): StorageData {
     if (typeof window === 'undefined') return getDefaultData();
-    
+
     // Migrate old data on first access
     migrateOldData();
-    
+
     try {
         const data = localStorage.getItem(STORAGE_KEY);
         return data ? JSON.parse(data) : getDefaultData();
     } catch (e) {
-        console.error('Error reading storage:', e);
+        console.error('Error reading storage (corrupted data will be cleared):', e);
+        // Clear corrupted data to prevent repeated failures
+        try {
+            localStorage.removeItem(STORAGE_KEY);
+        } catch {
+            // Ignore removal errors
+        }
         return getDefaultData();
     }
 }
@@ -250,14 +249,14 @@ export function isLearned(moduleName: string, itemId: string): boolean {
 }
 
 // Get review data for an item
-export function getReviewData(moduleName: string, itemId: string): Record<string, unknown> | null {
+export function getReviewData(moduleName: string, itemId: string): ReviewData | null {
     const moduleData = getModuleData(moduleName);
     const reviews = moduleData.reviews || {};
     return reviews[itemId] || null;
 }
 
 // Save review data for an item
-export function saveReviewData(moduleName: string, itemId: string, reviewData: Record<string, unknown>): boolean {
+export function saveReviewData(moduleName: string, itemId: string, reviewData: ReviewData): boolean {
     const moduleData = getModuleData(moduleName);
     const reviews = { ...(moduleData.reviews || {}) };
     reviews[itemId] = reviewData;

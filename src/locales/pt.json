@@ -12,7 +12,8 @@
     "correct": "Correto",
     "incorrect": "Incorreto",
     "total": "Total",
-    "streak": "Sequência"
+    "streak": "Sequência",
+    "stop": "Parar"
   },
   "modules": {
     "alphabet": {

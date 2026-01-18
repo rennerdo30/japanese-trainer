@@ -1,0 +1,237 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+  gap: 1rem;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.profileButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.05);
+  border: none;
+  border-radius: 50%;
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.profileButton:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.profileIcon {
+  font-size: 1.25rem;
+}
+
+.greeting {
+  display: flex;
+  flex-direction: column;
+}
+
+.greetingText {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.userName {
+  color: var(--gold, #FFD700);
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.statBadge,
+.levelBadge {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+}
+
+.statIcon {
+  font-size: 1rem;
+}
+
+.statValue {
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+/* Streak colors */
+.stat.bronze .statIcon { color: #CD7F32; }
+.stat.silver .statIcon { color: #C0C0C0; }
+.stat.gold .statIcon { color: #FFD700; }
+.stat.platinum .statIcon { color: #E5E4E2; }
+.stat.diamond .statIcon { color: #B9F2FF; }
+.stat.active .statBadge { animation: pulse 2s ease-in-out infinite; }
+
+/* Level tier colors */
+.stat.novice .levelBadge { border: 1px solid #9CA3AF; }
+.stat.novice .statIcon { color: #9CA3AF; }
+
+.stat.apprentice .levelBadge { border: 1px solid #22C55E; }
+.stat.apprentice .statIcon { color: #22C55E; }
+
+.stat.journeyman .levelBadge { border: 1px solid #3B82F6; }
+.stat.journeyman .statIcon { color: #3B82F6; }
+
+.stat.expert .levelBadge { border: 1px solid #A855F7; }
+.stat.expert .statIcon { color: #A855F7; }
+
+.stat.master .levelBadge { border: 1px solid #FFD700; }
+.stat.master .statIcon { color: #FFD700; }
+
+.stat.legend .levelBadge {
+  border: 1px solid transparent;
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.2), rgba(255, 69, 0, 0.2));
+}
+.stat.legend .statIcon {
+  background: linear-gradient(135deg, #FFD700, #FF4500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Level progress bar */
+.levelProgressBar {
+  width: 100%;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.levelProgressFill {
+  height: 100%;
+  background: var(--gold, #FFD700);
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+/* Daily goal ring */
+.dailyGoalRing {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.dailyGoalSvg {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+
+.dailyGoalBg {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.1);
+  stroke-width: 3;
+}
+
+.dailyGoalFill {
+  fill: none;
+  stroke: var(--gold, #FFD700);
+  stroke-width: 3;
+  stroke-linecap: round;
+  transition: stroke-dasharray 0.3s ease;
+}
+
+.stat.completed .dailyGoalFill {
+  stroke: var(--success, #22c55e);
+}
+
+.dailyGoalPercent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.625rem;
+  font-weight: 600;
+}
+
+/* Notification button */
+.notificationButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.notificationButton:hover {
+  color: var(--text-primary);
+}
+
+.notificationIcon {
+  font-size: 1.25rem;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .header {
+    flex-wrap: wrap;
+    padding: 0.5rem 0.75rem;
+    gap: 0.5rem;
+  }
+
+  .greeting {
+    display: none;
+  }
+
+  .stats {
+    gap: 0.75rem;
+    flex: 1;
+    justify-content: flex-end;
+  }
+
+  .dailyGoalRing {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .stat.active .statBadge {
+    animation: none;
+  }
+
+  .levelProgressFill,
+  .dailyGoalFill {
+    transition: none;
+  }
+}

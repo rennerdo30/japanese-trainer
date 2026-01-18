@@ -1,0 +1,167 @@
+.card {
+  background: var(--glass-bg, rgba(255, 255, 255, 0.05));
+  border: 1px solid var(--glass-border, rgba(255, 255, 255, 0.1));
+  border-radius: 16px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  min-height: 400px;
+}
+
+.wordDisplay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 1.5rem;
+}
+
+.word {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--text-primary);
+}
+
+.reading {
+  font-size: 1.25rem;
+}
+
+.controls {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.audioButton,
+.toggleButton {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border-radius: 12px;
+  background: var(--glass-bg, rgba(255, 255, 255, 0.05));
+  border: 1px solid var(--glass-border, rgba(255, 255, 255, 0.1));
+  transition: all 0.2s ease;
+}
+
+.audioButton:hover,
+.toggleButton:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: var(--gold, #FFD700);
+}
+
+.audioButton svg,
+.toggleButton svg {
+  font-size: 1.25rem;
+  color: var(--gold, #FFD700);
+}
+
+.meaningSection {
+  text-align: center;
+  padding: 1rem;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.meaningSection.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.meaningSection.hidden {
+  opacity: 0;
+  transform: translateY(-10px);
+  pointer-events: none;
+}
+
+.partOfSpeech {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+}
+
+.meaning {
+  color: var(--gold, #FFD700);
+}
+
+.examplesSection {
+  width: 100%;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+}
+
+.examples {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.example {
+  padding: 0.75rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+}
+
+.exampleMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.exampleSentence {
+  flex: 1;
+}
+
+.exampleAudio {
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+.exampleAudio svg {
+  font-size: 1rem;
+  color: var(--gold, #FFD700);
+}
+
+.exampleTranslation {
+  margin-top: 0.25rem;
+  font-style: italic;
+}
+
+.actions {
+  margin-top: auto;
+  padding-top: 1rem;
+}
+
+.masteredButton {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer {
+  padding-top: 0.5rem;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 1.5rem;
+    min-height: 350px;
+  }
+
+  .word {
+    font-size: 2.5rem;
+  }
+
+  .controls {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

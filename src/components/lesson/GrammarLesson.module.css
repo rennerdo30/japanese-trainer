@@ -1,0 +1,160 @@
+.card {
+  background: var(--glass-bg, rgba(255, 255, 255, 0.05));
+  border: 1px solid var(--glass-border, rgba(255, 255, 255, 0.1));
+  border-radius: 16px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  min-height: 400px;
+}
+
+.header {
+  text-align: center;
+  padding: 1rem;
+}
+
+.title {
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.pattern {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--gold, #FFD700);
+  padding: 0.5rem 1rem;
+  background: rgba(255, 215, 0, 0.1);
+  border: 1px solid rgba(255, 215, 0, 0.2);
+  border-radius: 8px;
+}
+
+.explanationSection {
+  width: 100%;
+}
+
+.explanationToggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.explanationToggle svg {
+  font-size: 1.125rem;
+  color: var(--gold, #FFD700);
+}
+
+.explanation {
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+  border-left: 3px solid var(--gold, #FFD700);
+}
+
+.examplesSection {
+  width: 100%;
+}
+
+.examples {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.example {
+  padding: 0.75rem 1rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+}
+
+.exampleMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.exampleSentence {
+  flex: 1;
+  font-size: 1.125rem;
+}
+
+.exampleAudio {
+  padding: 0.5rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.exampleAudio svg {
+  font-size: 1rem;
+  color: var(--gold, #FFD700);
+}
+
+.exampleTranslation {
+  margin-top: 0.25rem;
+  font-style: italic;
+}
+
+.notesSection {
+  width: 100%;
+  padding: 1rem;
+  background: rgba(255, 215, 0, 0.05);
+  border-radius: 12px;
+}
+
+.notesList {
+  list-style: none;
+  margin: 0.5rem 0 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.notesList li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.notesList li::before {
+  content: '•';
+  color: var(--gold, #FFD700);
+  font-weight: bold;
+}
+
+.actions {
+  margin-top: auto;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.masteredButton {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer {
+  padding-top: 0.5rem;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 1.5rem;
+    min-height: 350px;
+  }
+
+  .pattern {
+    font-size: 1.25rem;
+  }
+
+  .exampleSentence {
+    font-size: 1rem;
+  }
+}

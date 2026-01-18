@@ -2,6 +2,16 @@ import { defineSchema, defineTable } from "convex/server";
 import { v } from "convex/values";
 import { authTables } from "@convex-dev/auth/server";
 
+// Validator for SRS review data stored per item
+const reviewDataValidator = v.object({
+  interval: v.number(),
+  easeFactor: v.number(),
+  repetitions: v.number(),
+  dueDate: v.number(),
+  lastReview: v.optional(v.number()),
+  lastQuality: v.optional(v.number()),
+});
+
 export default defineSchema({
   // Convex Auth required tables (automatically includes users, authAccounts, sessions, etc.)
   ...authTables,
@@ -13,7 +23,7 @@ export default defineSchema({
     modules: v.object({
       alphabet: v.object({
         learned: v.array(v.string()),
-        reviews: v.object({}),
+        reviews: v.record(v.string(), reviewDataValidator),
         stats: v.object({
           correct: v.number(),
           total: v.number(),
@@ -23,7 +33,7 @@ export default defineSchema({
       }),
       vocabulary: v.object({
         learned: v.array(v.string()),
-        reviews: v.object({}),
+        reviews: v.record(v.string(), reviewDataValidator),
         stats: v.object({
           correct: v.number(),
           total: v.number(),
@@ -34,7 +44,7 @@ export default defineSchema({
       }),
       kanji: v.object({
         learned: v.array(v.string()),
-        reviews: v.object({}),
+        reviews: v.record(v.string(), reviewDataValidator),
         stats: v.object({
           correct: v.number(),
           total: v.number(),
@@ -45,7 +55,7 @@ export default defineSchema({
       }),
       grammar: v.object({
         learned: v.array(v.string()),
-        reviews: v.object({}),
+        reviews: v.record(v.string(), reviewDataValidator),
         stats: v.object({
           correct: v.number(),
           total: v.number(),
@@ -186,4 +196,117 @@ export default defineSchema({
   })
     .index("by_userId", ["userId"])
     .index("by_userId_date", ["userId", "date"]),
+
+  // Lesson Progress - tracks user progress through curriculum lessons
+  lessonProgress: defineTable({
+    userId: v.string(),
+    languageCode: v.string(),
+    lessonId: v.string(),
+    status: v.union(
+      v.literal('locked'),
+      v.literal('available'),
+      v.literal('in_progress'),
+      v.literal('completed')
+    ),
+    startedAt: v.optional(v.number()),
+    completedAt: v.optional(v.number()),
+    score: v.optional(v.number()),
+    xpEarned: v.optional(v.number()),
+    attempts: v.number(),
+  })
+    .index("by_userId", ["userId"])
+    .index("by_userId_language", ["userId", "languageCode"])
+    .index("by_userId_lesson", ["userId", "lessonId"]),
+
+  // Gamification - tracks XP, levels, streaks, and daily goals
+  gamification: defineTable({
+    userId: v.string(),
+    level: v.number(),
+    currentXP: v.number(),
+    totalXP: v.number(),
+    currentStreak: v.number(),
+    longestStreak: v.number(),
+    lastActiveDate: v.string(), // "YYYY-MM-DD" format
+    todayXP: v.number(),
+    todayDate: v.string(), // "YYYY-MM-DD" format for tracking daily reset
+    dailyGoalType: v.union(
+      v.literal('xp'),
+      v.literal('lessons'),
+      v.literal('time')
+    ),
+    dailyGoalTarget: v.number(),
+    dailyGoalProgress: v.number(),
+  })
+    .index("by_userId", ["userId"]),
+
+  // User Achievements - tracks user's unlocked achievements
+  userAchievements: defineTable({
+    userId: v.string(),
+    achievementId: v.string(),
+    unlockedAt: v.number(), // Timestamp when unlocked
+    progress: v.optional(v.number()), // Progress percentage (0-100) for progressive achievements
+  })
+    .index("by_userId", ["userId"])
+    .index("by_userId_achievement", ["userId", "achievementId"]),
+
+  // Review Queue - unified cross-module SRS review queue
+  reviewQueue: defineTable({
+    userId: v.string(),
+    itemId: v.string(),           // Reference to the actual item
+    itemType: v.union(
+      v.literal('vocabulary'),
+      v.literal('kanji'),
+      v.literal('hanzi'),
+      v.literal('grammar'),
+      v.literal('character'),
+      v.literal('reading')
+    ),
+    languageCode: v.string(),
+    lessonId: v.optional(v.string()),
+    pathId: v.optional(v.string()),
+    // SRS data
+    dueAt: v.number(),            // When this item is due for review
+    interval: v.number(),         // Current interval in days
+    easeFactor: v.number(),       // SM-2 ease factor (default 2.5)
+    repetitions: v.number(),      // Number of successful repetitions
+    lastReview: v.optional(v.number()),
+    lastQuality: v.optional(v.number()),
+    // Preview data for quick display
+    preview: v.object({
+      front: v.string(),
+      back: v.string(),
+      reading: v.optional(v.string()),
+      audioUrl: v.optional(v.string()),
+    }),
+  })
+    .index("by_userId", ["userId"])
+    .index("by_userId_due", ["userId", "dueAt"])
+    .index("by_userId_type", ["userId", "itemType"])
+    .index("by_userId_item", ["userId", "itemId"]),
+
+  // Weekly Reports - generated weekly summary reports
+  weeklyReports: defineTable({
+    userId: v.string(),
+    weekStart: v.string(), // "YYYY-MM-DD" - Monday of the week
+    weekEnd: v.string(), // "YYYY-MM-DD" - Sunday of the week
+    generatedAt: v.number(), // Timestamp when report was generated
+    stats: v.object({
+      totalStudyTimeMinutes: v.number(),
+      lessonsCompleted: v.number(),
+      exercisesCompleted: v.number(),
+      accuracy: v.number(), // 0-100
+      xpEarned: v.number(),
+      streakDays: v.number(),
+      newWordsLearned: v.number(),
+      newKanjiLearned: v.number(),
+    }),
+    comparison: v.optional(v.object({
+      studyTimeChange: v.number(), // Percentage change from previous week
+      lessonsChange: v.number(),
+      accuracyChange: v.number(),
+    })),
+    highlights: v.optional(v.array(v.string())), // Notable achievements or milestones
+  })
+    .index("by_userId", ["userId"])
+    .index("by_userId_weekStart", ["userId", "weekStart"]),
 });

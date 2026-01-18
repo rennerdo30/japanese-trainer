@@ -6,25 +6,91 @@
 
 import { useQuery, useMutation } from 'convex/react';
 import { api } from '../../convex/_generated/api';
-import { StorageData, ModuleData, GlobalStats } from './storage';
-import { ReviewData } from '@/types';
+import { StorageData, ModuleData } from './storage';
+import { ReviewData, GlobalStats, ModuleStats } from '@/types';
 
 // Valid module names matching Convex validator
 type ModuleName = 'alphabet' | 'vocabulary' | 'kanji' | 'grammar' | 'reading' | 'listening';
 
+const VALID_MODULE_NAMES: ReadonlySet<string> = new Set([
+    'alphabet', 'vocabulary', 'kanji', 'grammar', 'reading', 'listening'
+]);
+
+function isValidModuleName(name: string): name is ModuleName {
+    return VALID_MODULE_NAMES.has(name);
+}
+
 // Valid setting keys matching Convex validator
 type SettingKey = 'theme' | 'soundEnabled' | 'ttsEnabled' | 'ttsRate' | 'ttsVolume' | 'timerEnabled' | 'timerDuration' | 'leaderboardVisible';
 
-// Settings data structure
+// Settings data structure matching Convex schema
 interface SettingsData {
-    theme?: string;
-    soundEnabled?: boolean;
-    ttsEnabled?: boolean;
-    ttsRate?: number;
-    ttsVolume?: number;
-    timerEnabled?: boolean;
-    timerDuration?: number;
+    theme: string;
+    soundEnabled: boolean;
+    ttsEnabled: boolean;
+    ttsRate: number;
+    ttsVolume: number;
+    timerEnabled: boolean;
+    timerDuration: number;
     leaderboardVisible?: boolean;
+    kokoroVoice?: string;
+    kokoroVoices?: {
+        ja?: string;
+        zh?: string;
+        es?: string;
+        fr?: string;
+        hi?: string;
+        it?: string;
+        pt?: string;
+        en?: string;
+    };
+}
+
+// Convex user data structure (what comes back from the API)
+interface ConvexUserData {
+    _id: string;
+    userId: string;
+    modules: Record<string, ModuleData>;
+    globalStats: GlobalStats;
+}
+
+// Type guard for Convex user data
+function isConvexUserData(data: unknown): data is ConvexUserData {
+    if (!data || typeof data !== 'object') return false;
+    const obj = data as Record<string, unknown>;
+    return (
+        typeof obj._id === 'string' &&
+        typeof obj.userId === 'string' &&
+        typeof obj.modules === 'object' &&
+        obj.modules !== null &&
+        typeof obj.globalStats === 'object' &&
+        obj.globalStats !== null
+    );
+}
+
+// Type guard for module stats
+function isValidModuleStats(stats: unknown): stats is ModuleStats {
+    if (!stats || typeof stats !== 'object') return false;
+    const obj = stats as Record<string, unknown>;
+    // At minimum, stats should have numeric values for known fields
+    return (
+        (obj.correct === undefined || typeof obj.correct === 'number') &&
+        (obj.total === undefined || typeof obj.total === 'number') &&
+        (obj.streak === undefined || typeof obj.streak === 'number')
+    );
+}
+
+// Type guard for global stats
+function isValidGlobalStats(stats: unknown): stats is GlobalStats {
+    if (!stats || typeof stats !== 'object') return false;
+    const obj = stats as Record<string, unknown>;
+    return (
+        typeof obj.streak === 'number' &&
+        typeof obj.bestStreak === 'number' &&
+        typeof obj.totalStudyTime === 'number' &&
+        (obj.lastActive === null || typeof obj.lastActive === 'number') &&
+        typeof obj.createdAt === 'number'
+    );
 }
 
 // Default data structure
@@ -141,15 +207,46 @@ export function useConvexUserData() {
         };
     }
     
+    // Transform Convex userData to our StorageData type with proper validation
+    let transformedData: StorageData | null = null;
+
+    if (userData && isConvexUserData(userData)) {
+        const validGlobalStats = isValidGlobalStats(userData.globalStats)
+            ? userData.globalStats
+            : getDefaultData().globalStats;
+
+        transformedData = {
+            userId: null,
+            modules: userData.modules || {},
+            globalStats: validGlobalStats,
+        };
+    }
+
     return {
-        data: (userData as StorageData | null) || getDefaultData(),
+        data: transformedData || getDefaultData(),
         isLoading: userData === undefined || currentUser === undefined,
         isAuthenticated: true,
         saveUserData: async (data: StorageData) => {
-            // Use type assertion for Convex validator compatibility
-            await saveUserData({ data: data as unknown as Record<string, unknown> });
+            // Validate data before sending to Convex
+            if (!data.modules || !data.globalStats) {
+                throw new Error('Invalid data structure: missing modules or globalStats');
+            }
+            if (!isValidGlobalStats(data.globalStats)) {
+                throw new Error('Invalid globalStats structure');
+            }
+            // Convex expects a specific module structure - create a compatible payload
+            // The Convex schema validator will handle the actual validation
+            await saveUserData({
+                data: {
+                    modules: data.modules as typeof data.modules,
+                    globalStats: data.globalStats,
+                }
+            } as Parameters<typeof saveUserData>[0]);
         },
-        updateModule: async (moduleName: ModuleName, moduleData: Partial<ModuleData>) => {
+        updateModule: async (moduleName: string, moduleData: Partial<ModuleData>) => {
+            if (!isValidModuleName(moduleName)) {
+                throw new Error(`Invalid module name: ${moduleName}`);
+            }
             await updateModule({ moduleName, moduleData });
         },
         updateGlobalStats: async (stats: Partial<GlobalStats>) => {

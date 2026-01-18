@@ -1,0 +1,155 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.headerIcon {
+  font-size: 1.5rem;
+  color: var(--gold, #FFD700);
+}
+
+.subtitle {
+  margin-top: -1rem;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.optionCard {
+  cursor: pointer;
+  padding: 1rem 1.25rem;
+  transition: all 0.2s ease;
+}
+
+.optionCard:hover {
+  border-color: var(--gold, #FFD700);
+}
+
+.optionCard.selected {
+  border-color: var(--gold, #FFD700);
+  background: rgba(255, 215, 0, 0.1);
+}
+
+.optionContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.optionMain {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.optionLabel {
+  color: var(--text-primary);
+}
+
+.currentBadge {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.25rem 0.75rem;
+  background: rgba(255, 215, 0, 0.2);
+  border-radius: 20px;
+  color: var(--gold, #FFD700);
+}
+
+.currentBadge svg {
+  font-size: 0.875rem;
+}
+
+.selectedIndicator {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gold, #FFD700);
+  border-radius: 50%;
+  color: var(--bg-primary);
+}
+
+.confirmSection {
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+}
+
+.confirmButtons {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+/* Compact variant */
+.compactContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.compactOptions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.compactOption {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.75rem;
+  background: var(--glass-bg, rgba(255, 255, 255, 0.05));
+  border: 1px solid var(--glass-border, rgba(255, 255, 255, 0.1));
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.compactOption:hover {
+  border-color: var(--gold, #FFD700);
+}
+
+.compactOption.selected {
+  border-color: var(--gold, #FFD700);
+  background: rgba(255, 215, 0, 0.1);
+}
+
+.compactLabel {
+  color: var(--text-muted);
+}
+
+.compactTarget {
+  color: var(--gold, #FFD700);
+  font-size: 1.25rem;
+}
+
+@media (max-width: 480px) {
+  .compactOptions {
+    flex-wrap: wrap;
+  }
+
+  .compactOption {
+    min-width: calc(50% - 0.25rem);
+  }
+}

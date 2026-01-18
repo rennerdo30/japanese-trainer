@@ -2,6 +2,15 @@ import { v } from "convex/values";
 import { query, mutation } from "./_generated/server";
 import { auth } from "./auth";
 
+// Valid module names
+const VALID_MODULE_NAMES = new Set([
+  'alphabet', 'vocabulary', 'kanji', 'grammar', 'reading', 'listening'
+]);
+
+function isValidModuleName(name) {
+  return typeof name === 'string' && VALID_MODULE_NAMES.has(name);
+}
+
 // Default path preferences
 const defaultPathPreferences = {
   preferStructured: true,
@@ -216,12 +225,22 @@ export const updatePathPreferences = mutation({
 // Track module access for preference learning
 export const trackModuleAccess = mutation({
   args: {
-    module: v.string(),
+    module: v.union(
+      v.literal('alphabet'),
+      v.literal('vocabulary'),
+      v.literal('kanji'),
+      v.literal('grammar'),
+      v.literal('reading'),
+      v.literal('listening')
+    ),
     duration: v.number(), // seconds spent
   },
   handler: async (ctx, { module, duration }) => {
     const userId = await auth.getUserId(ctx);
     if (!userId) return;
+
+    // Clamp duration to reasonable bounds (max 24 hours)
+    const clampedDuration = Math.max(0, Math.min(86400, duration));
 
     // Get or create today's activity
     const today = new Date().toISOString().split('T')[0];
@@ -235,20 +254,20 @@ export const trackModuleAccess = mutation({
       await ctx.db.insert("dailyActivity", {
         userId,
         date: today,
-        studyTimeMinutes: Math.round(duration / 60),
+        studyTimeMinutes: Math.round(clampedDuration / 60),
         itemsLearned: 0,
         itemsReviewed: 0,
         modules: {
-          [module]: Math.round(duration / 60),
+          [module]: Math.round(clampedDuration / 60),
         },
       });
     } else {
       const currentModuleTime = activity.modules[module] || 0;
       await ctx.db.patch(activity._id, {
-        studyTimeMinutes: activity.studyTimeMinutes + Math.round(duration / 60),
+        studyTimeMinutes: activity.studyTimeMinutes + Math.round(clampedDuration / 60),
         modules: {
           ...activity.modules,
-          [module]: currentModuleTime + Math.round(duration / 60),
+          [module]: currentModuleTime + Math.round(clampedDuration / 60),
         },
       });
     }

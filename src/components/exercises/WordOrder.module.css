@@ -1,0 +1,137 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.translation {
+  text-align: center;
+  padding: 0.75rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+}
+
+.sentenceArea {
+  min-height: 80px;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px dashed rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.sentenceArea.correct {
+  border-color: var(--success, #22c55e);
+  background: rgba(34, 197, 94, 0.1);
+}
+
+.sentenceArea.incorrect {
+  border-color: var(--danger, #ef4444);
+  background: rgba(239, 68, 68, 0.1);
+}
+
+.placeholder {
+  font-style: italic;
+}
+
+.selectedWords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.selectedWord {
+  padding: 0.625rem 0.875rem;
+  background: var(--gold, #FFD700);
+  border: none;
+  border-radius: 8px;
+  color: var(--bg-primary);
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.selectedWord:hover:not(:disabled) {
+  transform: scale(0.95);
+  opacity: 0.9;
+}
+
+.selectedWord:disabled {
+  cursor: default;
+}
+
+.feedback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.875rem;
+  border-radius: 8px;
+}
+
+.feedback.correct {
+  background: rgba(34, 197, 94, 0.15);
+  color: var(--success, #22c55e);
+}
+
+.feedback.incorrect {
+  background: rgba(239, 68, 68, 0.15);
+}
+
+.feedbackIcon {
+  font-size: 1.25rem;
+}
+
+.feedback.correct .feedbackIcon {
+  color: var(--success, #22c55e);
+}
+
+.feedback.incorrect .feedbackIcon {
+  color: var(--danger, #ef4444);
+}
+
+.wordBank {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.625rem;
+  justify-content: center;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+}
+
+.word {
+  padding: 0.625rem 0.875rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  color: var(--text-primary);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.word:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: var(--gold, #FFD700);
+}
+
+.word.used {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.actions {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.actions > button:last-child {
+  flex: 1;
+}

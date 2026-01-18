@@ -328,26 +328,32 @@ export default function ReviewPage() {
             </div>
           </div>
 
-          <div className={styles.moduleBreakdown}>
+          <div className={styles.moduleBreakdown} role="group" aria-label="Module selection">
             <button
               className={`${styles.moduleChip} ${selectedModules.includes('vocabulary') ? styles.active : ''}`}
               onClick={() => toggleModule('vocabulary')}
+              aria-pressed={selectedModules.includes('vocabulary')}
+              aria-label={`Toggle vocabulary module, ${queue?.byModule.vocabulary || 0} items due`}
             >
-              <IoBook className={styles.moduleIcon} />
+              <IoBook className={styles.moduleIcon} aria-hidden="true" />
               <span>Vocabulary: {queue?.byModule.vocabulary || 0}</span>
             </button>
             <button
               className={`${styles.moduleChip} ${selectedModules.includes('kanji') ? styles.active : ''}`}
               onClick={() => toggleModule('kanji')}
+              aria-pressed={selectedModules.includes('kanji')}
+              aria-label={`Toggle kanji module, ${queue?.byModule.kanji || 0} items due`}
             >
-              <IoSchool className={styles.moduleIcon} />
+              <IoSchool className={styles.moduleIcon} aria-hidden="true" />
               <span>Kanji: {queue?.byModule.kanji || 0}</span>
             </button>
             <button
               className={`${styles.moduleChip} ${selectedModules.includes('grammar') ? styles.active : ''}`}
               onClick={() => toggleModule('grammar')}
+              aria-pressed={selectedModules.includes('grammar')}
+              aria-label={`Toggle grammar module, ${queue?.byModule.grammar || 0} items due`}
             >
-              <IoDocumentText className={styles.moduleIcon} />
+              <IoDocumentText className={styles.moduleIcon} aria-hidden="true" />
               <span>Grammar: {queue?.byModule.grammar || 0}</span>
             </button>
           </div>

@@ -12,7 +12,8 @@
     "correct": "正解",
     "incorrect": "不正解",
     "total": "合計",
-    "streak": "連続"
+    "streak": "連続",
+    "stop": "已吃"
   },
   "modules": {
     "alphabet": {

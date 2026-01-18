@@ -12,7 +12,8 @@
     "correct": "Правильно",
     "incorrect": "Неправильно",
     "total": "Всего",
-    "streak": "Серия"
+    "streak": "Серия",
+    "stop": "Стопирь"
   },
   "modules": {
     "alphabet": {

@@ -310,13 +310,24 @@ export default function PathDetailContent() {
                           />
                         </div>
                         <div className={styles.milestoneActions}>
-                          <Link href={`/${milestone.module}`}>
+                          <Link href={`/paths/${pathId}/${milestone.id}`}>
                             <Button size="sm">
-                              <IoPlay /> Practice {milestone.module}
+                              <IoPlay /> Start Lesson
+                            </Button>
+                          </Link>
+                          <Link href={`/${milestone.module}`}>
+                            <Button size="sm" variant="ghost">
+                              Practice {milestone.module}
                             </Button>
                           </Link>
                         </div>
                       </>
+                    )}
+
+                    {status === 'locked' && (
+                      <div className={styles.lockedMessage}>
+                        <IoLockClosed /> Complete previous lessons to unlock
+                      </div>
                     )}
 
                     {status === 'completed' && (

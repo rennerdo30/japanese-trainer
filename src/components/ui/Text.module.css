@@ -8,10 +8,34 @@
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: -0.02em;
+  /* Solid color fallback for accessibility */
+  color: var(--text-primary);
+  /* Gradient enhancement for supporting browsers */
   background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent-gold) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+/* High contrast mode: disable gradient for accessibility */
+@media (forced-colors: active) {
+  .h1 {
+    background: none;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: unset;
+    background-clip: unset;
+    color: CanvasText;
+  }
+}
+
+/* Reduced motion: use solid color to avoid gradient visual effects */
+@media (prefers-reduced-motion: reduce) {
+  .h1 {
+    background: none;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: unset;
+    background-clip: unset;
+  }
 }
 
 .h2 {

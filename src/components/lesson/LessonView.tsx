@@ -1,0 +1,265 @@
+'use client';
+
+import { useState, useCallback } from 'react';
+import { Card, Text, Button } from '@/components/ui';
+import LessonIntro from './LessonIntro';
+import LessonCard from './LessonCard';
+import LessonProgressBar from './LessonProgress';
+import { FillBlank } from '@/components/exercises';
+import type { CurriculumLesson, LessonContext } from '@/types/curriculum';
+import type { FillBlankExercise } from '@/types/exercises';
+import { IoArrowBack, IoArrowForward, IoCheckmark } from 'react-icons/io5';
+import styles from './LessonView.module.css';
+
+type LessonPhase = 'intro' | 'learning' | 'exercises';
+
+interface LessonViewProps {
+  lesson: CurriculumLesson;
+  lessonInfo: LessonContext | null;
+  phase: string;
+  onStart: () => void;
+  onCompleteLearning: () => void;
+  onCompleteExercises: (correct: number, total: number) => void;
+  onBack: () => void;
+}
+
+interface LearningCard {
+  type: 'topic' | 'vocabulary' | 'grammar' | 'cultural';
+  title: string;
+  content: string;
+}
+
+export default function LessonView({
+  lesson,
+  lessonInfo,
+  phase,
+  onStart,
+  onCompleteLearning,
+  onCompleteExercises,
+  onBack,
+}: LessonViewProps) {
+  const [currentCardIndex, setCurrentCardIndex] = useState(0);
+  const [exerciseAnswers, setExerciseAnswers] = useState<boolean[]>([]);
+
+  // Generate learning cards from lesson content
+  const learningCards: LearningCard[] = [
+    // Topics
+    ...lesson.content.topics.map((topic) => ({
+      type: 'topic' as const,
+      title: 'Topic',
+      content: topic,
+    })),
+    // Vocabulary focus
+    ...lesson.content.vocab_focus.map((vocab) => ({
+      type: 'vocabulary' as const,
+      title: 'Vocabulary',
+      content: vocab,
+    })),
+    // Grammar focus
+    ...(lesson.content.grammar_focus || []).map((grammar) => ({
+      type: 'grammar' as const,
+      title: 'Grammar',
+      content: grammar,
+    })),
+    // Cultural notes
+    ...(lesson.content.cultural_notes || []).map((note) => ({
+      type: 'cultural' as const,
+      title: 'Cultural Note',
+      content: note,
+    })),
+  ];
+
+  const totalLearningCards = learningCards.length;
+  const totalExerciseCards = lesson.exercises?.length || 0;
+
+  const handleNextCard = useCallback(() => {
+    if (phase === 'learning') {
+      if (currentCardIndex < totalLearningCards - 1) {
+        setCurrentCardIndex(currentCardIndex + 1);
+      } else {
+        setCurrentCardIndex(0);
+        onCompleteLearning();
+      }
+    } else if (phase === 'exercises') {
+      if (currentCardIndex < totalExerciseCards - 1) {
+        setCurrentCardIndex(currentCardIndex + 1);
+      } else {
+        const correctCount = exerciseAnswers.filter(Boolean).length;
+        onCompleteExercises(correctCount, totalExerciseCards);
+      }
+    }
+  }, [
+    phase,
+    currentCardIndex,
+    totalLearningCards,
+    totalExerciseCards,
+    exerciseAnswers,
+    onCompleteLearning,
+    onCompleteExercises,
+  ]);
+
+  const handlePrevCard = useCallback(() => {
+    if (currentCardIndex > 0) {
+      setCurrentCardIndex(currentCardIndex - 1);
+    }
+  }, [currentCardIndex]);
+
+  const handleAnswerExercise = useCallback(
+    (isCorrect: boolean) => {
+      setExerciseAnswers([...exerciseAnswers, isCorrect]);
+      handleNextCard();
+    },
+    [exerciseAnswers, handleNextCard]
+  );
+
+  // Render intro phase
+  if (phase === 'intro') {
+    return (
+      <LessonIntro
+        lesson={lesson}
+        lessonInfo={lessonInfo}
+        onStart={onStart}
+        onBack={onBack}
+      />
+    );
+  }
+
+  // Render learning phase
+  if (phase === 'learning') {
+    const currentCard = learningCards[currentCardIndex];
+
+    return (
+      <div className={styles.lessonContainer}>
+        <LessonProgressBar
+          current={currentCardIndex + 1}
+          total={totalLearningCards}
+          phase="learning"
+        />
+
+        <Card variant="glass" className={styles.cardContainer}>
+          {currentCard ? (
+            <LessonCard
+              type={currentCard.type}
+              title={currentCard.title}
+              content={currentCard.content}
+            />
+          ) : (
+            <Text color="muted">No content available</Text>
+          )}
+        </Card>
+
+        <div className={styles.navigation}>
+          <Button
+            variant="ghost"
+            onClick={handlePrevCard}
+            disabled={currentCardIndex === 0}
+          >
+            <IoArrowBack /> Previous
+          </Button>
+
+          <Text variant="caption" color="muted">
+            {currentCardIndex + 1} / {totalLearningCards}
+          </Text>
+
+          <Button onClick={handleNextCard}>
+            {currentCardIndex === totalLearningCards - 1 ? (
+              <>
+                Start Exercises <IoCheckmark />
+              </>
+            ) : (
+              <>
+                Next <IoArrowForward />
+              </>
+            )}
+          </Button>
+        </div>
+      </div>
+    );
+  }
+
+  // Render exercises phase
+  if (phase === 'exercises') {
+    const currentExercise = lesson.exercises?.[currentCardIndex];
+
+    if (!currentExercise) {
+      return (
+        <div className={styles.lessonContainer}>
+          <Card variant="glass" className={styles.cardContainer}>
+            <Text>No exercises available for this lesson.</Text>
+            <Button onClick={() => onCompleteExercises(0, 0)}>
+              Complete Lesson
+            </Button>
+          </Card>
+        </div>
+      );
+    }
+
+    // Render based on exercise type
+    const renderExercise = () => {
+      const exerciseType = currentExercise.type || 'multiple_choice';
+
+      switch (exerciseType) {
+        case 'fill_blank':
+          return (
+            <FillBlank
+              exercise={currentExercise as FillBlankExercise}
+              onAnswer={handleAnswerExercise}
+            />
+          );
+
+        case 'multiple_choice':
+        default:
+          // Handle multiple choice exercises (default)
+          const mcExercise = currentExercise as {
+            question: string;
+            options: string[];
+            correctIndex: number;
+          };
+          return (
+            <div className={styles.exerciseCard}>
+              <Text variant="h3" className={styles.question}>
+                {mcExercise.question || 'Complete the exercise'}
+              </Text>
+
+              <div className={styles.options}>
+                {(mcExercise.options || []).map((option, index) => (
+                  <Button
+                    key={index}
+                    variant="secondary"
+                    className={styles.optionButton}
+                    onClick={() =>
+                      handleAnswerExercise(index === mcExercise.correctIndex)
+                    }
+                  >
+                    {option}
+                  </Button>
+                ))}
+              </div>
+            </div>
+          );
+      }
+    };
+
+    return (
+      <div className={styles.lessonContainer}>
+        <LessonProgressBar
+          current={currentCardIndex + 1}
+          total={totalExerciseCards}
+          phase="exercises"
+        />
+
+        <Card variant="glass" className={styles.cardContainer}>
+          {renderExercise()}
+        </Card>
+
+        <div className={styles.navigation}>
+          <Text variant="caption" color="muted">
+            Exercise {currentCardIndex + 1} of {totalExerciseCards}
+          </Text>
+        </div>
+      </div>
+    );
+  }
+
+  return null;
+}

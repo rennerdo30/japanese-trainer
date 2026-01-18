@@ -12,7 +12,8 @@
     "correct": "정답",
     "incorrect": "오답",
     "total": "총",
-    "streak": "연속"
+    "streak": "연속",
+    "stop": "버해"
   },
   "modules": {
     "alphabet": {

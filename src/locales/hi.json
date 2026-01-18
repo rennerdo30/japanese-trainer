@@ -12,7 +12,8 @@
     "correct": "सही",
     "incorrect": "गलत",
     "total": "कुल",
-    "streak": "श्रृंखला"
+    "streak": "श्रृंखला",
+    "stop": "स्गां"
   },
   "modules": {
     "alphabet": {

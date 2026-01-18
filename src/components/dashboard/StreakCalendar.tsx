@@ -14,6 +14,18 @@ interface StreakCalendarProps {
 export default function StreakCalendar({ className, weeks = 12 }: StreakCalendarProps) {
   const { summary } = useProgressContext();
 
+  // Deterministic hash function for consistent pseudo-random values based on date
+  const deterministicActivity = (date: Date, daysInStreak: number): number => {
+    // Use date as seed for deterministic "random" value
+    const seed = date.getFullYear() * 10000 + (date.getMonth() + 1) * 100 + date.getDate();
+    // Simple hash function for deterministic pseudo-random
+    const hash = ((seed * 9301 + 49297) % 233280) / 233280;
+    // Scale to activity range (10-70 for active days, 5-50 for past activity)
+    return daysInStreak >= 0
+      ? Math.floor(hash * 60) + 10
+      : Math.floor(hash * 45) + 5;
+  };
+
   // Generate calendar data
   const calendarData = useMemo(() => {
     const days: Array<{
@@ -36,13 +48,6 @@ export default function StreakCalendar({ className, weeks = 12 }: StreakCalendar
       const date = new Date(startDate);
       date.setDate(startDate.getDate() + i);
 
-      // Simulate activity based on streak
-      // In a real implementation, this would come from actual daily activity data
-      const isToday =
-        date.getDate() === today.getDate() &&
-        date.getMonth() === today.getMonth() &&
-        date.getFullYear() === today.getFullYear();
-
       const daysSinceToday = Math.floor(
         (today.getTime() - date.getTime()) / (1000 * 60 * 60 * 24)
       );
@@ -50,11 +55,12 @@ export default function StreakCalendar({ className, weeks = 12 }: StreakCalendar
       let activity = 0;
       if (summary && summary.streak > 0) {
         if (daysSinceToday >= 0 && daysSinceToday < summary.streak) {
-          // Active streak days
-          activity = Math.floor(Math.random() * 60) + 10; // 10-70 minutes
+          // Active streak days - use deterministic activity
+          activity = deterministicActivity(date, summary.streak - daysSinceToday);
         } else if (daysSinceToday >= 0 && daysSinceToday < summary.bestStreak) {
-          // Past activity (before current streak)
-          activity = Math.random() > 0.3 ? Math.floor(Math.random() * 45) + 5 : 0;
+          // Past activity (before current streak) - deterministic with 70% chance
+          const hash = deterministicActivity(date, -1);
+          activity = hash > 15 ? hash : 0; // ~70% have activity
         }
       }
 

@@ -280,6 +280,41 @@
     }
 }
 
+/* Respect user preference for reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    .backdrop {
+        animation: none;
+    }
+
+    .dialog {
+        animation: none;
+    }
+
+    .error {
+        animation: none;
+    }
+
+    .spinner {
+        animation: spin 2s linear infinite;
+    }
+
+    .close:hover {
+        transform: none;
+    }
+
+    .optionCard:hover:not(:disabled) {
+        transform: none;
+    }
+
+    .primary:hover:not(:disabled) {
+        transform: none;
+    }
+
+    .button:hover {
+        transform: none;
+    }
+}
+
 /* Mobile-first responsive breakpoints */
 @media (max-width: 480px) {
     .dialog {

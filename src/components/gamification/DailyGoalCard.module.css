@@ -1,0 +1,119 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.compactCard {
+  padding: 0.75rem 1rem;
+}
+
+.compactContent {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.streakBadge,
+.xpBadge {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.divider {
+  width: 1px;
+  height: 24px;
+  background: var(--border-color, rgba(255, 255, 255, 0.1));
+}
+
+.flameIcon {
+  font-size: 1.25rem;
+  color: var(--muted, rgba(255, 255, 255, 0.5));
+}
+
+.flameIcon.active {
+  color: var(--flame-orange, #FF6B35);
+}
+
+.trophyIcon {
+  font-size: 1.25rem;
+  color: var(--gold, #FFD700);
+}
+
+/* Progress Ring */
+.progressRing {
+  position: relative;
+  width: 120px;
+  height: 120px;
+}
+
+.progressSvg {
+  transform: rotate(-90deg);
+  width: 100%;
+  height: 100%;
+}
+
+.progressBg {
+  stroke: var(--border-color, rgba(255, 255, 255, 0.1));
+}
+
+.progressFill {
+  stroke: var(--gold, #FFD700);
+  transition: stroke-dashoffset 0.5s ease;
+}
+
+.progressFill.complete {
+  stroke: var(--success, #4ADE80);
+}
+
+.ringCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.progressValue {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.completeIcon {
+  font-size: 3rem;
+  color: var(--success, #4ADE80);
+}
+
+/* Goal Info */
+.goalInfo {
+  text-align: center;
+}
+
+/* Streak Info */
+.streakInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.streakRow {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Today's XP */
+.todayXP {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: var(--card-bg-subtle, rgba(0, 0, 0, 0.2));
+  border-radius: 999px;
+}

@@ -1,0 +1,213 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  padding: 1rem;
+}
+
+.overlay.visible {
+  opacity: 1;
+}
+
+.overlay.exiting {
+  opacity: 0;
+}
+
+.modal {
+  position: relative;
+  background: var(--surface-elevated, #1a1a2e);
+  border-radius: 20px;
+  padding: 2rem;
+  max-width: 360px;
+  width: 100%;
+  text-align: center;
+  border: 2px solid var(--rarity-color);
+  box-shadow:
+    0 0 40px color-mix(in srgb, var(--rarity-color) 40%, transparent),
+    0 0 80px color-mix(in srgb, var(--rarity-color) 20%, transparent);
+  transform: scale(0.8) translateY(20px);
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  overflow: hidden;
+}
+
+.visible .modal {
+  transform: scale(1) translateY(0);
+}
+
+.exiting .modal {
+  transform: scale(0.8) translateY(-20px);
+}
+
+.closeButton {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  background: none;
+  border: none;
+  color: var(--text-muted, #888);
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.25rem;
+  display: flex;
+  transition: color 0.2s;
+}
+
+.closeButton:hover {
+  color: var(--text-primary, #fff);
+}
+
+.celebration {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.sparkles {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sparkle {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: var(--rarity-color);
+  border-radius: 50%;
+  animation: sparkle 1.5s ease-out var(--delay, 0s) infinite;
+  transform: rotate(var(--rotation, 0deg));
+}
+
+@keyframes sparkle {
+  0% {
+    opacity: 1;
+    transform: rotate(var(--rotation)) translateY(0) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(var(--rotation)) translateY(-100px) scale(0);
+  }
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.label {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.iconWrapper {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--rarity-color) 20%, transparent);
+  border: 3px solid var(--rarity-color);
+  margin-bottom: 0.5rem;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--rarity-color) 40%, transparent);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px 10px color-mix(in srgb, var(--rarity-color) 20%, transparent);
+  }
+}
+
+.icon {
+  font-size: 2.5rem;
+  color: var(--rarity-color);
+}
+
+.name {
+  color: var(--rarity-color);
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.description {
+  font-size: 0.9rem;
+  max-width: 280px;
+}
+
+.xpReward {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.2), rgba(255, 215, 0, 0.05));
+  border-radius: 2rem;
+  margin-top: 0.5rem;
+}
+
+.xpIcon {
+  color: var(--gold, #FFD700);
+  font-size: 1.25rem;
+}
+
+.xpAmount {
+  color: var(--gold, #FFD700);
+  margin: 0;
+}
+
+.rarityBadge {
+  padding: 0.35rem 1rem;
+  border-radius: 2rem;
+  background: color-mix(in srgb, var(--rarity-color) 15%, transparent);
+  border: 1px solid color-mix(in srgb, var(--rarity-color) 40%, transparent);
+  margin-top: 0.25rem;
+}
+
+.rarityText {
+  color: var(--rarity-color);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+}
+
+.continueButton {
+  margin-top: 1.5rem;
+  width: 100%;
+}
+
+@media (max-width: 400px) {
+  .modal {
+    padding: 1.5rem;
+  }
+
+  .iconWrapper {
+    width: 64px;
+    height: 64px;
+  }
+
+  .icon {
+    font-size: 2rem;
+  }
+
+  .name {
+    font-size: 1.25rem;
+  }
+}

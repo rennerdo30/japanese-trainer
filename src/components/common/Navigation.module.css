@@ -50,6 +50,25 @@
     left: 1.25rem;
     padding: 0.6rem 1.25rem;
     font-size: 0.85rem;
+    min-height: 44px;
   }
 }
 
+/* Respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .navBack {
+    transition: none;
+  }
+
+  .navBack:hover {
+    transform: none;
+  }
+
+  .icon {
+    transition: none;
+  }
+
+  .navBack:hover .icon {
+    transform: none;
+  }
+}

@@ -154,6 +154,29 @@
   border-color: #22c55e;
 }
 
+/* Focus indicators for keyboard navigation */
+.ratingButton:focus-visible {
+  outline: 2px solid var(--accent-gold, #d4a574);
+  outline-offset: 2px;
+  transform: scale(1.02);
+}
+
+.ratingButton.danger:focus-visible {
+  outline-color: #dc2626;
+}
+
+.ratingButton.warning:focus-visible {
+  outline-color: #eab308;
+}
+
+.ratingButton.primary:focus-visible {
+  outline-color: #3b82f6;
+}
+
+.ratingButton.success:focus-visible {
+  outline-color: #22c55e;
+}
+
 .masteryIndicator {
   display: flex;
   align-items: center;
@@ -204,5 +227,16 @@
     min-width: 60px;
     padding: 0.625rem 0.375rem;
     font-size: 0.75rem;
+  }
+}
+
+/* Respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .ratingButton {
+    transition: none;
+  }
+
+  .ratingButton:focus-visible {
+    transform: none;
   }
 }

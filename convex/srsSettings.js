@@ -2,6 +2,27 @@ import { v } from "convex/values";
 import { query, mutation } from "./_generated/server";
 import { auth } from "./auth";
 
+// Validators for SRS settings with proper constraints
+const reviewThresholdValidator = v.union(
+  v.literal("strict"),
+  v.literal("moderate"),
+  v.literal("relaxed")
+);
+
+// Regex for HH:MM format (validated in mutation handler)
+const TIME_REGEX = /^([0-1]?[0-9]|2[0-3]):[0-5][0-9]$/;
+
+// Helper to validate and clamp numeric values
+function clampNumber(value, min, max, defaultVal) {
+  if (typeof value !== 'number' || isNaN(value)) return defaultVal;
+  return Math.max(min, Math.min(max, value));
+}
+
+// Helper to validate time format
+function isValidTimeFormat(time) {
+  return typeof time === 'string' && TIME_REGEX.test(time);
+}
+
 // Default SRS settings
 export const defaultSRSSettings = {
   // Review scheduling
@@ -74,7 +95,7 @@ export const updateSRSSettings = mutation({
     settings: v.object({
       dailyNewItemsLimit: v.optional(v.number()),
       dailyReviewLimit: v.optional(v.number()),
-      reviewThreshold: v.optional(v.string()),
+      reviewThreshold: v.optional(reviewThresholdValidator),
       easeBonus: v.optional(v.number()),
       intervalMultiplier: v.optional(v.number()),
       lapseNewInterval: v.optional(v.number()),
@@ -90,6 +111,52 @@ export const updateSRSSettings = mutation({
     const userId = await auth.getUserId(ctx);
     if (!userId) throw new Error("Not authenticated");
 
+    // Validate and sanitize numeric values with proper ranges
+    const sanitizedSettings = { ...settings };
+
+    if (sanitizedSettings.dailyNewItemsLimit !== undefined) {
+      sanitizedSettings.dailyNewItemsLimit = clampNumber(
+        sanitizedSettings.dailyNewItemsLimit, 1, 100, defaultSRSSettings.dailyNewItemsLimit
+      );
+    }
+    if (sanitizedSettings.dailyReviewLimit !== undefined) {
+      sanitizedSettings.dailyReviewLimit = clampNumber(
+        sanitizedSettings.dailyReviewLimit, 0, 500, defaultSRSSettings.dailyReviewLimit
+      );
+    }
+    if (sanitizedSettings.easeBonus !== undefined) {
+      sanitizedSettings.easeBonus = clampNumber(
+        sanitizedSettings.easeBonus, -0.2, 0.2, defaultSRSSettings.easeBonus
+      );
+    }
+    if (sanitizedSettings.intervalMultiplier !== undefined) {
+      sanitizedSettings.intervalMultiplier = clampNumber(
+        sanitizedSettings.intervalMultiplier, 0.5, 2.0, defaultSRSSettings.intervalMultiplier
+      );
+    }
+    if (sanitizedSettings.lapseNewInterval !== undefined) {
+      sanitizedSettings.lapseNewInterval = clampNumber(
+        sanitizedSettings.lapseNewInterval, 0, 1.0, defaultSRSSettings.lapseNewInterval
+      );
+    }
+    if (sanitizedSettings.requiredAccuracy !== undefined) {
+      sanitizedSettings.requiredAccuracy = clampNumber(
+        sanitizedSettings.requiredAccuracy, 0.6, 1.0, defaultSRSSettings.requiredAccuracy
+      );
+    }
+    if (sanitizedSettings.reminderThreshold !== undefined) {
+      sanitizedSettings.reminderThreshold = clampNumber(
+        sanitizedSettings.reminderThreshold, 1, 100, defaultSRSSettings.reminderThreshold
+      );
+    }
+
+    // Validate reminderTime format (HH:MM)
+    if (sanitizedSettings.reminderTime !== undefined) {
+      if (!isValidTimeFormat(sanitizedSettings.reminderTime)) {
+        sanitizedSettings.reminderTime = defaultSRSSettings.reminderTime;
+      }
+    }
+
     let userSettings = await ctx.db
       .query("srsSettings")
       .withIndex("by_userId", (q) => q.eq("userId", userId))
@@ -99,14 +166,14 @@ export const updateSRSSettings = mutation({
       // Create with merged settings
       await ctx.db.insert("srsSettings", {
         userId,
-        settings: { ...defaultSRSSettings, ...settings },
+        settings: { ...defaultSRSSettings, ...sanitizedSettings },
       });
       return { success: true };
     }
 
     // Merge with existing settings
     await ctx.db.patch(userSettings._id, {
-      settings: { ...userSettings.settings, ...settings },
+      settings: { ...userSettings.settings, ...sanitizedSettings },
     });
 
     return { success: true };
@@ -147,9 +214,12 @@ export const getDailyActivity = query({
     const userId = await auth.getUserId(ctx);
     if (!userId) return [];
 
+    // Clamp days to a reasonable maximum (730 = ~2 years)
+    const clampedDays = Math.max(1, Math.min(730, days));
+
     // Get activity from the last N days
     const startDate = new Date();
-    startDate.setDate(startDate.getDate() - days);
+    startDate.setDate(startDate.getDate() - clampedDays);
     const startDateStr = startDate.toISOString().split('T')[0];
 
     const activities = await ctx.db
