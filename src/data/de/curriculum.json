@@ -1,0 +1,124 @@
+[
+  {
+    "path": {
+      "id": 3,
+      "slug": "cefr-german",
+      "name": "German CEFR Path",
+      "description": "Learn German from beginner to elementary level following the CEFR framework.",
+      "type": "linear",
+      "estimated_hours": 160,
+      "difficulty": "beginner",
+      "language_id": 5
+    },
+    "milestones": [
+      {
+        "id": 23,
+        "slug": "de-a1-vocabulary",
+        "level": "A1",
+        "name": "A1 Core Vocabulary",
+        "description": "Learn 500 essential German words for basic communication",
+        "module": "vocabulary",
+        "requirement": {
+          "type": "master-percentage",
+          "value": 70
+        },
+        "estimated_hours": 15,
+        "path_id": 3
+      },
+      {
+        "id": 24,
+        "slug": "de-a1-grammar",
+        "level": "A1",
+        "name": "A1 Grammar Basics",
+        "description": "Master cases, articles, and present tense conjugation",
+        "module": "grammar",
+        "requirement": {
+          "type": "master-percentage",
+          "value": 70
+        },
+        "estimated_hours": 25,
+        "path_id": 3
+      },
+      {
+        "id": 26,
+        "slug": "de-a1-listening",
+        "level": "A1",
+        "name": "A1 Listening Skills",
+        "description": "Understand slow, clear speech on familiar topics",
+        "module": "listening",
+        "requirement": {
+          "type": "complete-all"
+        },
+        "estimated_hours": 10,
+        "path_id": 3
+      },
+      {
+        "id": 25,
+        "slug": "de-a1-reading",
+        "level": "A1",
+        "name": "A1 Reading Practice",
+        "description": "Read simple texts about everyday topics",
+        "module": "reading",
+        "requirement": {
+          "type": "complete-all"
+        },
+        "estimated_hours": 10,
+        "path_id": 3
+      },
+      {
+        "id": 27,
+        "slug": "de-a2-vocabulary",
+        "level": "A2",
+        "name": "A2 Expanded Vocabulary",
+        "description": "Build vocabulary to 1000+ words for daily situations",
+        "module": "vocabulary",
+        "requirement": {
+          "type": "master-percentage",
+          "value": 70
+        },
+        "estimated_hours": 25,
+        "path_id": 3
+      },
+      {
+        "id": 28,
+        "slug": "de-a2-grammar",
+        "level": "A2",
+        "name": "A2 Grammar Expansion",
+        "description": "Learn past tenses, modal verbs, and subordinate clauses",
+        "module": "grammar",
+        "requirement": {
+          "type": "master-percentage",
+          "value": 70
+        },
+        "estimated_hours": 35,
+        "path_id": 3
+      },
+      {
+        "id": 30,
+        "slug": "de-a2-listening",
+        "level": "A2",
+        "name": "A2 Listening Practice",
+        "description": "Understand conversations on everyday matters",
+        "module": "listening",
+        "requirement": {
+          "type": "complete-all"
+        },
+        "estimated_hours": 15,
+        "path_id": 3
+      },
+      {
+        "id": 29,
+        "slug": "de-a2-reading",
+        "level": "A2",
+        "name": "A2 Reading Comprehension",
+        "description": "Read short articles and simple stories",
+        "module": "reading",
+        "requirement": {
+          "type": "complete-all"
+        },
+        "estimated_hours": 15,
+        "path_id": 3
+      }
+    ]
+  }
+]

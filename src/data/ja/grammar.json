@@ -1,406 +1,13 @@
 [
   {
-    "id": "grammar-1",
-    "title": "です (desu)",
-    "jlpt": "N5",
-    "explanation": "です is a copula (linking verb) meaning 'to be'. It is used to make polite statements and questions.",
-    "examples": [
-      {
-        "japanese": "私は学生です",
-        "english": "I am a student",
-        "audioUrl": "/audio/grammar/8ea040a6.mp3"
-      },
-      {
-        "japanese": "これは本です",
-        "english": "This is a book",
-        "audioUrl": "/audio/grammar/d7128703.mp3"
-      }
-    ],
-    "patterns": [
-      "Noun + です"
-    ],
-    "exercises": [
-      {
-        "type": "fill-blank",
-        "question": "私は___です。",
-        "options": [
-          "学生",
-          "本",
-          "大きい"
-        ],
-        "correct": 0
-      }
-    ]
-  },
-  {
-    "id": "grammar-2",
-    "title": "が particle",
-    "jlpt": "N5",
-    "explanation": "が marks the subject of a sentence. It is used to introduce new information or emphasize the subject.",
-    "examples": [
-      {
-        "japanese": "私が学生です",
-        "english": "I am a student (emphasizing 'I')",
-        "audioUrl": "/audio/grammar/4ddefeec.mp3"
-      },
-      {
-        "japanese": "雨が降っています",
-        "english": "It is raining",
-        "audioUrl": "/audio/grammar/f15136c9.mp3"
-      }
-    ],
-    "patterns": [
-      "Subject + が + Verb"
-    ],
-    "exercises": [
-      {
-        "type": "fill-blank",
-        "question": "私___学生です。",
-        "options": [
-          "は",
-          "が",
-          "を"
-        ],
-        "correct": 1
-      }
-    ]
-  },
-  {
-    "id": "grammar-3",
-    "title": "を particle",
-    "jlpt": "N5",
-    "explanation": "を marks the direct object of a verb. It indicates what receives the action of the verb.",
-    "examples": [
-      {
-        "japanese": "本を読む",
-        "english": "to read a book",
-        "audioUrl": "/audio/grammar/33dc68fe.mp3"
-      },
-      {
-        "japanese": "水を飲む",
-        "english": "to drink water",
-        "audioUrl": "/audio/grammar/43a077d4.mp3"
-      }
-    ],
-    "patterns": [
-      "Object + を + Verb"
-    ],
-    "exercises": [
-      {
-        "type": "fill-blank",
-        "question": "本___読む",
-        "options": [
-          "は",
-          "が",
-          "を"
-        ],
-        "correct": 2
-      }
-    ]
-  },
-  {
-    "id": "grammar-4",
-    "title": "に particle (direction)",
-    "jlpt": "N5",
-    "explanation": "に indicates direction or destination. It shows where someone or something is going.",
-    "examples": [
-      {
-        "japanese": "学校に行く",
-        "english": "to go to school",
-        "audioUrl": "/audio/grammar/b7511e60.mp3"
-      },
-      {
-        "japanese": "日本に来る",
-        "english": "to come to Japan",
-        "audioUrl": "/audio/grammar/20097d31.mp3"
-      }
-    ],
-    "patterns": [
-      "Place + に + Movement Verb"
-    ],
-    "exercises": [
-      {
-        "type": "fill-blank",
-        "question": "学校___行く",
-        "options": [
-          "は",
-          "に",
-          "を"
-        ],
-        "correct": 1
-      }
-    ]
-  },
-  {
-    "id": "grammar-5",
-    "title": "て form",
-    "jlpt": "N5",
-    "explanation": "The て form is used to connect verbs, make requests, and express ongoing actions.",
-    "examples": [
-      {
-        "japanese": "食べてください",
-        "english": "Please eat",
-        "audioUrl": "/audio/grammar/3dda9f40.mp3"
-      },
-      {
-        "japanese": "本を読んでいます",
-        "english": "I am reading a book",
-        "audioUrl": "/audio/grammar/e76385f5.mp3"
-      }
-    ],
-    "patterns": [
-      "Verb (て form) + ください",
-      "Verb (て form) + います"
-    ],
-    "exercises": [
-      {
-        "type": "fill-blank",
-        "question": "本を読___ください",
-        "options": [
-          "む",
-          "んで",
-          "みる"
-        ],
-        "correct": 1
-      }
-    ]
-  },
-  {
-    "id": "grammar-6",
-    "title": "〜てみる",
-    "jlpt": "N4",
-    "explanation": "〜てみる means 'to try doing something' or 'to see what happens when you do something'.",
-    "examples": [
-      {
-        "japanese": "この本を読んでみる",
-        "english": "I'll try reading this book",
-        "audioUrl": "/audio/grammar/63140b3d.mp3"
-      },
-      {
-        "japanese": "食べてみてください",
-        "english": "Please try eating it",
-        "audioUrl": "/audio/grammar/8d18104f.mp3"
-      }
-    ],
-    "patterns": [
-      "Verb (て form) + みる"
-    ],
-    "exercises": [
-      {
-        "type": "fill-blank",
-        "question": "この料理を___みてください",
-        "options": [
-          "食べる",
-          "食べて",
-          "食べ"
-        ],
-        "correct": 1
-      }
-    ]
-  },
-  {
-    "id": "grammar-7",
-    "title": "〜かもしれない",
-    "jlpt": "N4",
-    "explanation": "〜かもしれない expresses possibility or uncertainty, meaning 'might' or 'maybe'.",
-    "examples": [
-      {
-        "japanese": "雨が降るかもしれない",
-        "english": "It might rain",
-        "audioUrl": "/audio/grammar/5de2e60a.mp3"
-      },
-      {
-        "japanese": "彼は来ないかもしれない",
-        "english": "He might not come",
-        "audioUrl": "/audio/grammar/c1afbcb8.mp3"
-      }
-    ],
-    "patterns": [
-      "Verb/Adjective + かもしれない"
-    ],
-    "exercises": [
-      {
-        "type": "fill-blank",
-        "question": "明日は___かもしれない",
-        "options": [
-          "雨",
-          "雨が",
-          "雨だ"
-        ],
-        "correct": 2
-      }
-    ]
-  },
-  {
-    "id": "grammar-8",
-    "title": "〜はずだ",
-    "jlpt": "N3",
-    "explanation": "〜はずだ expresses expectation or logical conclusion, meaning 'should' or 'supposed to'.",
-    "examples": [
-      {
-        "japanese": "彼は来るはずだ",
-        "english": "He should come",
-        "audioUrl": "/audio/grammar/b9e6c0b3.mp3"
-      },
-      {
-        "japanese": "この本は面白いはずだ",
-        "english": "This book should be interesting",
-        "audioUrl": "/audio/grammar/4506ff10.mp3"
-      }
-    ],
-    "patterns": [
-      "Verb/Adjective + はずだ"
-    ],
-    "exercises": [
-      {
-        "type": "fill-blank",
-        "question": "彼は___はずだ",
-        "options": [
-          "来る",
-          "来た",
-          "来て"
-        ],
-        "correct": 0
-      }
-    ]
-  },
-  {
-    "id": "grammar-9",
-    "title": "〜わけだ",
-    "jlpt": "N3",
-    "explanation": "〜わけだ expresses a natural conclusion or reason, meaning 'that's why' or 'it means that'.",
-    "examples": [
-      {
-        "japanese": "だから疲れているわけだ",
-        "english": "That's why I'm tired",
-        "audioUrl": "/audio/grammar/d31ba6c2.mp3"
-      },
-      {
-        "japanese": "彼が来ないわけだ",
-        "english": "That's why he's not coming",
-        "audioUrl": "/audio/grammar/74913b8e.mp3"
-      }
-    ],
-    "patterns": [
-      "Verb/Adjective + わけだ"
-    ],
-    "exercises": [
-      {
-        "type": "fill-blank",
-        "question": "だから___わけだ",
-        "options": [
-          "疲れる",
-          "疲れた",
-          "疲れている"
-        ],
-        "correct": 2
-      }
-    ]
-  },
-  {
-    "id": "grammar-10",
-    "title": "〜に限って",
-    "jlpt": "N2",
-    "explanation": "〜に限って means 'especially' or 'of all times/people', expressing emphasis on a particular case.",
-    "examples": [
-      {
-        "japanese": "今日に限って遅刻した",
-        "english": "Of all days, I was late today",
-        "audioUrl": "/audio/grammar/c1442034.mp3"
-      },
-      {
-        "japanese": "彼に限ってそんなことはしない",
-        "english": "He, of all people, wouldn't do such a thing",
-        "audioUrl": "/audio/grammar/17747f8e.mp3"
-      }
-    ],
-    "patterns": [
-      "Noun + に限って"
-    ],
-    "exercises": [
-      {
-        "type": "fill-blank",
-        "question": "___に限って雨が降った",
-        "options": [
-          "今日",
-          "今日は",
-          "今日が"
-        ],
-        "correct": 0
-      }
-    ]
-  },
-  {
-    "id": "grammar-11",
-    "title": "〜に応じて",
-    "jlpt": "N2",
-    "explanation": "〜に応じて means 'according to' or 'in response to', indicating adaptation to circumstances.",
-    "examples": [
-      {
-        "japanese": "需要に応じて生産する",
-        "english": "to produce according to demand",
-        "audioUrl": "/audio/grammar/cfa7e75b.mp3"
-      },
-      {
-        "japanese": "能力に応じて給料が決まる",
-        "english": "Salary is determined according to ability",
-        "audioUrl": "/audio/grammar/4a1841a8.mp3"
-      }
-    ],
-    "patterns": [
-      "Noun + に応じて"
-    ],
-    "exercises": [
-      {
-        "type": "fill-blank",
-        "question": "___に応じて対応する",
-        "options": [
-          "状況",
-          "状況は",
-          "状況が"
-        ],
-        "correct": 0
-      }
-    ]
-  },
-  {
-    "id": "grammar-12",
-    "title": "〜を踏まえて",
-    "jlpt": "N1",
-    "explanation": "〜を踏まえて means 'based on' or 'taking into account', indicating consideration of something.",
-    "examples": [
-      {
-        "japanese": "前回の結果を踏まえて計画を立てる",
-        "english": "to make a plan based on the previous results",
-        "audioUrl": "/audio/grammar/8f8d91a4.mp3"
-      },
-      {
-        "japanese": "現状を踏まえて判断する",
-        "english": "to judge taking the current situation into account",
-        "audioUrl": "/audio/grammar/e90e2671.mp3"
-      }
-    ],
-    "patterns": [
-      "Noun + を踏まえて"
-    ],
-    "exercises": [
-      {
-        "type": "fill-blank",
-        "question": "___を踏まえて決定する",
-        "options": [
-          "データ",
-          "データは",
-          "データが"
-        ],
-        "correct": 0
-      }
-    ]
-  },
-  {
-    "id": "grammar-13",
+    "id": 13,
     "title": "〜に伴って",
-    "jlpt": "N1",
+    "rule": "〜に伴って means 'along with' or 'as a result of', indicating simultaneous change or consequence.",
     "explanation": "〜に伴って means 'along with' or 'as a result of', indicating simultaneous change or consequence.",
+    "explanations": null,
+    "patterns": [
+      "Noun + に伴って"
+    ],
     "examples": [
       {
         "japanese": "経済成長に伴って環境問題が深刻化した",
@@ -413,9 +20,6 @@
         "audioUrl": "/audio/grammar/730fc28d.mp3"
       }
     ],
-    "patterns": [
-      "Noun + に伴って"
-    ],
     "exercises": [
       {
         "type": "fill-blank",
@@ -427,6 +31,551 @@
         ],
         "correct": 0
       }
-    ]
+    ],
+    "level": "N1",
+    "framework": null,
+    "audio_url": null,
+    "language_id": 1
+  },
+  {
+    "id": 12,
+    "title": "〜を踏まえて",
+    "rule": "〜を踏まえて means 'based on' or 'taking into account', indicating consideration of something.",
+    "explanation": "〜を踏まえて means 'based on' or 'taking into account', indicating consideration of something.",
+    "explanations": null,
+    "patterns": [
+      "Noun + を踏まえて"
+    ],
+    "examples": [
+      {
+        "japanese": "前回の結果を踏まえて計画を立てる",
+        "english": "to make a plan based on the previous results",
+        "audioUrl": "/audio/grammar/8f8d91a4.mp3"
+      },
+      {
+        "japanese": "現状を踏まえて判断する",
+        "english": "to judge taking the current situation into account",
+        "audioUrl": "/audio/grammar/e90e2671.mp3"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "___を踏まえて決定する",
+        "options": [
+          "データ",
+          "データは",
+          "データが"
+        ],
+        "correct": 0
+      }
+    ],
+    "level": "N1",
+    "framework": null,
+    "audio_url": null,
+    "language_id": 1
+  },
+  {
+    "id": 198,
+    "title": "技術革新と社会変革",
+    "rule": null,
+    "explanation": "",
+    "explanations": null,
+    "patterns": [],
+    "examples": [],
+    "exercises": [],
+    "level": "N1",
+    "framework": null,
+    "audio_url": "/audio/reading/465f5f9b.mp3",
+    "language_id": 1
+  },
+  {
+    "id": 11,
+    "title": "〜に応じて",
+    "rule": "〜に応じて means 'according to' or 'in response to', indicating adaptation to circumstances.",
+    "explanation": "〜に応じて means 'according to' or 'in response to', indicating adaptation to circumstances.",
+    "explanations": null,
+    "patterns": [
+      "Noun + に応じて"
+    ],
+    "examples": [
+      {
+        "japanese": "需要に応じて生産する",
+        "english": "to produce according to demand",
+        "audioUrl": "/audio/grammar/cfa7e75b.mp3"
+      },
+      {
+        "japanese": "能力に応じて給料が決まる",
+        "english": "Salary is determined according to ability",
+        "audioUrl": "/audio/grammar/4a1841a8.mp3"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "___に応じて対応する",
+        "options": [
+          "状況",
+          "状況は",
+          "状況が"
+        ],
+        "correct": 0
+      }
+    ],
+    "level": "N2",
+    "framework": null,
+    "audio_url": null,
+    "language_id": 1
+  },
+  {
+    "id": 10,
+    "title": "〜に限って",
+    "rule": "〜に限って means 'especially' or 'of all times/people', expressing emphasis on a particular case.",
+    "explanation": "〜に限って means 'especially' or 'of all times/people', expressing emphasis on a particular case.",
+    "explanations": null,
+    "patterns": [
+      "Noun + に限って"
+    ],
+    "examples": [
+      {
+        "japanese": "今日に限って遅刻した",
+        "english": "Of all days, I was late today",
+        "audioUrl": "/audio/grammar/c1442034.mp3"
+      },
+      {
+        "japanese": "彼に限ってそんなことはしない",
+        "english": "He, of all people, wouldn't do such a thing",
+        "audioUrl": "/audio/grammar/17747f8e.mp3"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "___に限って雨が降った",
+        "options": [
+          "今日",
+          "今日は",
+          "今日が"
+        ],
+        "correct": 0
+      }
+    ],
+    "level": "N2",
+    "framework": null,
+    "audio_url": null,
+    "language_id": 1
+  },
+  {
+    "id": 197,
+    "title": "経済成長と社会",
+    "rule": null,
+    "explanation": "",
+    "explanations": null,
+    "patterns": [],
+    "examples": [],
+    "exercises": [],
+    "level": "N2",
+    "framework": null,
+    "audio_url": "/audio/reading/21178b7b.mp3",
+    "language_id": 1
+  },
+  {
+    "id": 8,
+    "title": "〜はずだ",
+    "rule": "〜はずだ expresses expectation or logical conclusion, meaning 'should' or 'supposed to'.",
+    "explanation": "〜はずだ expresses expectation or logical conclusion, meaning 'should' or 'supposed to'.",
+    "explanations": null,
+    "patterns": [
+      "Verb/Adjective + はずだ"
+    ],
+    "examples": [
+      {
+        "japanese": "彼は来るはずだ",
+        "english": "He should come",
+        "audioUrl": "/audio/grammar/b9e6c0b3.mp3"
+      },
+      {
+        "japanese": "この本は面白いはずだ",
+        "english": "This book should be interesting",
+        "audioUrl": "/audio/grammar/4506ff10.mp3"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "彼は___はずだ",
+        "options": [
+          "来る",
+          "来た",
+          "来て"
+        ],
+        "correct": 0
+      }
+    ],
+    "level": "N3",
+    "framework": null,
+    "audio_url": null,
+    "language_id": 1
+  },
+  {
+    "id": 9,
+    "title": "〜わけだ",
+    "rule": "〜わけだ expresses a natural conclusion or reason, meaning 'that's why' or 'it means that'.",
+    "explanation": "〜わけだ expresses a natural conclusion or reason, meaning 'that's why' or 'it means that'.",
+    "explanations": null,
+    "patterns": [
+      "Verb/Adjective + わけだ"
+    ],
+    "examples": [
+      {
+        "japanese": "だから疲れているわけだ",
+        "english": "That's why I'm tired",
+        "audioUrl": "/audio/grammar/d31ba6c2.mp3"
+      },
+      {
+        "japanese": "彼が来ないわけだ",
+        "english": "That's why he's not coming",
+        "audioUrl": "/audio/grammar/74913b8e.mp3"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "だから___わけだ",
+        "options": [
+          "疲れる",
+          "疲れた",
+          "疲れている"
+        ],
+        "correct": 2
+      }
+    ],
+    "level": "N3",
+    "framework": null,
+    "audio_url": null,
+    "language_id": 1
+  },
+  {
+    "id": 196,
+    "title": "環境問題",
+    "rule": null,
+    "explanation": "",
+    "explanations": null,
+    "patterns": [],
+    "examples": [],
+    "exercises": [],
+    "level": "N3",
+    "framework": null,
+    "audio_url": "/audio/reading/13fa35fd.mp3",
+    "language_id": 1
+  },
+  {
+    "id": 7,
+    "title": "〜かもしれない",
+    "rule": "〜かもしれない expresses possibility or uncertainty, meaning 'might' or 'maybe'.",
+    "explanation": "〜かもしれない expresses possibility or uncertainty, meaning 'might' or 'maybe'.",
+    "explanations": null,
+    "patterns": [
+      "Verb/Adjective + かもしれない"
+    ],
+    "examples": [
+      {
+        "japanese": "雨が降るかもしれない",
+        "english": "It might rain",
+        "audioUrl": "/audio/grammar/5de2e60a.mp3"
+      },
+      {
+        "japanese": "彼は来ないかもしれない",
+        "english": "He might not come",
+        "audioUrl": "/audio/grammar/c1afbcb8.mp3"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "明日は___かもしれない",
+        "options": [
+          "雨",
+          "雨が",
+          "雨だ"
+        ],
+        "correct": 2
+      }
+    ],
+    "level": "N4",
+    "framework": null,
+    "audio_url": null,
+    "language_id": 1
+  },
+  {
+    "id": 6,
+    "title": "〜てみる",
+    "rule": "〜てみる means 'to try doing something' or 'to see what happens when you do something'.",
+    "explanation": "〜てみる means 'to try doing something' or 'to see what happens when you do something'.",
+    "explanations": null,
+    "patterns": [
+      "Verb (て form) + みる"
+    ],
+    "examples": [
+      {
+        "japanese": "この本を読んでみる",
+        "english": "I'll try reading this book",
+        "audioUrl": "/audio/grammar/63140b3d.mp3"
+      },
+      {
+        "japanese": "食べてみてください",
+        "english": "Please try eating it",
+        "audioUrl": "/audio/grammar/8d18104f.mp3"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "この料理を___みてください",
+        "options": [
+          "食べる",
+          "食べて",
+          "食べ"
+        ],
+        "correct": 1
+      }
+    ],
+    "level": "N4",
+    "framework": null,
+    "audio_url": null,
+    "language_id": 1
+  },
+  {
+    "id": 195,
+    "title": "新しい経験",
+    "rule": null,
+    "explanation": "",
+    "explanations": null,
+    "patterns": [],
+    "examples": [],
+    "exercises": [],
+    "level": "N4",
+    "framework": null,
+    "audio_url": "/audio/reading/cc9e4692.mp3",
+    "language_id": 1
+  },
+  {
+    "id": 2,
+    "title": "が particle",
+    "rule": "が marks the subject of a sentence. It is used to introduce new information or emphasize the subject.",
+    "explanation": "が marks the subject of a sentence. It is used to introduce new information or emphasize the subject.",
+    "explanations": null,
+    "patterns": [
+      "Subject + が + Verb"
+    ],
+    "examples": [
+      {
+        "japanese": "私が学生です",
+        "english": "I am a student (emphasizing 'I')",
+        "audioUrl": "/audio/grammar/4ddefeec.mp3"
+      },
+      {
+        "japanese": "雨が降っています",
+        "english": "It is raining",
+        "audioUrl": "/audio/grammar/f15136c9.mp3"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "私___学生です。",
+        "options": [
+          "は",
+          "が",
+          "を"
+        ],
+        "correct": 1
+      }
+    ],
+    "level": "N5",
+    "framework": null,
+    "audio_url": null,
+    "language_id": 1
+  },
+  {
+    "id": 5,
+    "title": "て form",
+    "rule": "The て form is used to connect verbs, make requests, and express ongoing actions.",
+    "explanation": "The て form is used to connect verbs, make requests, and express ongoing actions.",
+    "explanations": null,
+    "patterns": [
+      "Verb (て form) + ください",
+      "Verb (て form) + います"
+    ],
+    "examples": [
+      {
+        "japanese": "食べてください",
+        "english": "Please eat",
+        "audioUrl": "/audio/grammar/3dda9f40.mp3"
+      },
+      {
+        "japanese": "本を読んでいます",
+        "english": "I am reading a book",
+        "audioUrl": "/audio/grammar/e76385f5.mp3"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "本を読___ください",
+        "options": [
+          "む",
+          "んで",
+          "みる"
+        ],
+        "correct": 1
+      }
+    ],
+    "level": "N5",
+    "framework": null,
+    "audio_url": null,
+    "language_id": 1
+  },
+  {
+    "id": 1,
+    "title": "です (desu)",
+    "rule": "です is a copula (linking verb) meaning 'to be'. It is used to make polite statements and questions.",
+    "explanation": "です is a copula (linking verb) meaning 'to be'. It is used to make polite statements and questions.",
+    "explanations": null,
+    "patterns": [
+      "Noun + です"
+    ],
+    "examples": [
+      {
+        "japanese": "私は学生です",
+        "english": "I am a student",
+        "audioUrl": "/audio/grammar/8ea040a6.mp3"
+      },
+      {
+        "japanese": "これは本です",
+        "english": "This is a book",
+        "audioUrl": "/audio/grammar/d7128703.mp3"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "私は___です。",
+        "options": [
+          "学生",
+          "本",
+          "大きい"
+        ],
+        "correct": 0
+      }
+    ],
+    "level": "N5",
+    "framework": null,
+    "audio_url": null,
+    "language_id": 1
+  },
+  {
+    "id": 4,
+    "title": "に particle (direction)",
+    "rule": "に indicates direction or destination. It shows where someone or something is going.",
+    "explanation": "に indicates direction or destination. It shows where someone or something is going.",
+    "explanations": null,
+    "patterns": [
+      "Place + に + Movement Verb"
+    ],
+    "examples": [
+      {
+        "japanese": "学校に行く",
+        "english": "to go to school",
+        "audioUrl": "/audio/grammar/b7511e60.mp3"
+      },
+      {
+        "japanese": "日本に来る",
+        "english": "to come to Japan",
+        "audioUrl": "/audio/grammar/20097d31.mp3"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "学校___行く",
+        "options": [
+          "は",
+          "に",
+          "を"
+        ],
+        "correct": 1
+      }
+    ],
+    "level": "N5",
+    "framework": null,
+    "audio_url": null,
+    "language_id": 1
+  },
+  {
+    "id": 3,
+    "title": "を particle",
+    "rule": "を marks the direct object of a verb. It indicates what receives the action of the verb.",
+    "explanation": "を marks the direct object of a verb. It indicates what receives the action of the verb.",
+    "explanations": null,
+    "patterns": [
+      "Object + を + Verb"
+    ],
+    "examples": [
+      {
+        "japanese": "本を読む",
+        "english": "to read a book",
+        "audioUrl": "/audio/grammar/33dc68fe.mp3"
+      },
+      {
+        "japanese": "水を飲む",
+        "english": "to drink water",
+        "audioUrl": "/audio/grammar/43a077d4.mp3"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "本___読む",
+        "options": [
+          "は",
+          "が",
+          "を"
+        ],
+        "correct": 2
+      }
+    ],
+    "level": "N5",
+    "framework": null,
+    "audio_url": null,
+    "language_id": 1
+  },
+  {
+    "id": 193,
+    "title": "私の一日",
+    "rule": null,
+    "explanation": "",
+    "explanations": null,
+    "patterns": [],
+    "examples": [],
+    "exercises": [],
+    "level": "N5",
+    "framework": null,
+    "audio_url": "/audio/reading/eccb41e7.mp3",
+    "language_id": 1
+  },
+  {
+    "id": 194,
+    "title": "私の家族",
+    "rule": null,
+    "explanation": "",
+    "explanations": null,
+    "patterns": [],
+    "examples": [],
+    "exercises": [],
+    "level": "N5",
+    "framework": null,
+    "audio_url": "/audio/reading/a9819f6b.mp3",
+    "language_id": 1
   }
 ]

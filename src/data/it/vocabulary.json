@@ -1,772 +1,3270 @@
 [
   {
-    "id": "it-vocab-1",
-    "word": "mangiare",
-    "reading": "mangiare",
-    "meaning": "to eat",
-    "meanings": { "en": "to eat", "es": "comer", "ja": "食べる", "ko": "먹다" },
-    "level": "A1",
-    "partOfSpeech": "verb",
-    "examples": [{ "italian": "Io mangio la pizza", "english": "I eat pizza" }],
-    "tags": ["food", "basic"]
-  },
-  {
-    "id": "it-vocab-2",
-    "word": "bere",
-    "reading": "bere",
-    "meaning": "to drink",
-    "meanings": { "en": "to drink", "es": "beber", "ja": "飲む", "ko": "마시다" },
-    "level": "A1",
-    "partOfSpeech": "verb",
-    "examples": [{ "italian": "Bevo un caffè", "english": "I drink a coffee" }],
-    "tags": ["food", "basic"]
-  },
-  {
-    "id": "it-vocab-3",
-    "word": "andare",
-    "reading": "andare",
-    "meaning": "to go",
-    "meanings": { "en": "to go", "es": "ir", "ja": "行く", "ko": "가다" },
-    "level": "A1",
-    "partOfSpeech": "verb",
-    "examples": [{ "italian": "Vado a scuola", "english": "I go to school" }],
-    "tags": ["movement", "basic"]
-  },
-  {
-    "id": "it-vocab-4",
-    "word": "venire",
-    "reading": "venire",
-    "meaning": "to come",
-    "meanings": { "en": "to come", "es": "venir", "ja": "来る", "ko": "오다" },
-    "level": "A1",
-    "partOfSpeech": "verb",
-    "examples": [{ "italian": "Vieni qui!", "english": "Come here!" }],
-    "tags": ["movement", "basic"]
-  },
-  {
-    "id": "it-vocab-5",
-    "word": "vedere",
-    "reading": "vedere",
-    "meaning": "to see",
-    "meanings": { "en": "to see", "es": "ver", "ja": "見る", "ko": "보다" },
-    "level": "A1",
-    "partOfSpeech": "verb",
-    "examples": [{ "italian": "Vedo il mare", "english": "I see the sea" }],
-    "tags": ["senses", "basic"]
-  },
-  {
-    "id": "it-vocab-6",
-    "word": "sentire",
-    "reading": "sentire",
-    "meaning": "to hear, to feel",
-    "meanings": { "en": "to hear", "es": "escuchar", "ja": "聞く", "ko": "듣다" },
-    "level": "A1",
-    "partOfSpeech": "verb",
-    "examples": [{ "italian": "Sento la musica", "english": "I hear the music" }],
-    "tags": ["senses", "basic"]
-  },
-  {
-    "id": "it-vocab-7",
-    "word": "parlare",
-    "reading": "parlare",
-    "meaning": "to speak",
-    "meanings": { "en": "to speak", "es": "hablar", "ja": "話す", "ko": "말하다" },
-    "level": "A1",
-    "partOfSpeech": "verb",
-    "examples": [{ "italian": "Parli italiano?", "english": "Do you speak Italian?" }],
-    "tags": ["communication", "basic"]
-  },
-  {
-    "id": "it-vocab-8",
-    "word": "leggere",
-    "reading": "leggere",
-    "meaning": "to read",
-    "meanings": { "en": "to read", "es": "leer", "ja": "読む", "ko": "읽다" },
-    "level": "A1",
-    "partOfSpeech": "verb",
-    "examples": [{ "italian": "Leggo un libro", "english": "I read a book" }],
-    "tags": ["study", "basic"]
-  },
-  {
-    "id": "it-vocab-9",
-    "word": "scrivere",
-    "reading": "scrivere",
-    "meaning": "to write",
-    "meanings": { "en": "to write", "es": "escribir", "ja": "書く", "ko": "쓰다" },
-    "level": "A1",
-    "partOfSpeech": "verb",
-    "examples": [{ "italian": "Scrivo una lettera", "english": "I write a letter" }],
-    "tags": ["study", "basic"]
-  },
-  {
-    "id": "it-vocab-10",
-    "word": "amore",
-    "reading": "amore",
-    "meaning": "love",
-    "meanings": { "en": "love", "es": "amor", "ja": "愛", "ko": "사랑" },
-    "level": "A1",
-    "partOfSpeech": "noun",
-    "examples": [{ "italian": "Ti amo", "english": "I love you" }],
-    "tags": ["emotions", "basic"]
-  },
-  {
-    "id": "it-vocab-11",
-    "word": "amico",
-    "reading": "amico",
-    "meaning": "friend",
-    "meanings": { "en": "friend", "es": "amigo", "ja": "友達", "ko": "친구" },
-    "level": "A1",
-    "partOfSpeech": "noun",
-    "examples": [{ "italian": "Il mio migliore amico", "english": "My best friend" }],
-    "tags": ["people", "basic"]
-  },
-  {
-    "id": "it-vocab-12",
-    "word": "famiglia",
-    "reading": "famiglia",
-    "meaning": "family",
-    "meanings": { "en": "family", "es": "familia", "ja": "家族", "ko": "가족" },
-    "level": "A1",
-    "partOfSpeech": "noun",
-    "examples": [{ "italian": "La mia famiglia", "english": "My family" }],
-    "tags": ["people", "basic"]
-  },
-  {
-    "id": "it-vocab-13",
-    "word": "casa",
-    "reading": "casa",
-    "meaning": "house, home",
-    "meanings": { "en": "house", "es": "casa", "ja": "家", "ko": "집" },
-    "level": "A1",
-    "partOfSpeech": "noun",
-    "examples": [{ "italian": "Sono a casa", "english": "I am at home" }],
-    "tags": ["places", "basic"]
-  },
-  {
-    "id": "it-vocab-14",
+    "id": 98,
     "word": "acqua",
-    "reading": "acqua",
     "meaning": "water",
-    "meanings": { "en": "water", "es": "agua", "ja": "水", "ko": "물" },
+    "meanings": {
+      "en": "water",
+      "es": "agua",
+      "ja": "水",
+      "ko": "물"
+    },
+    "reading": "acqua",
+    "romaji": null,
     "level": "A1",
-    "partOfSpeech": "noun",
-    "examples": [{ "italian": "Un bicchiere d'acqua", "english": "A glass of water" }],
-    "tags": ["food", "basic"]
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "examples": [
+      {
+        "italian": "Un bicchiere d'acqua",
+        "english": "A glass of water"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
   },
   {
-    "id": "it-vocab-15",
-    "word": "pane",
-    "reading": "pane",
-    "meaning": "bread",
-    "meanings": { "en": "bread", "es": "pan", "ja": "パン", "ko": "빵" },
+    "id": 95,
+    "word": "amico",
+    "meaning": "friend",
+    "meanings": {
+      "en": "friend",
+      "es": "amigo",
+      "ja": "友達",
+      "ko": "친구"
+    },
+    "reading": "amico",
+    "romaji": null,
     "level": "A1",
-    "partOfSpeech": "noun",
-    "examples": [{ "italian": "Compro il pane", "english": "I buy bread" }],
-    "tags": ["food", "basic"]
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "people",
+      "basic"
+    ],
+    "examples": [
+      {
+        "italian": "Il mio migliore amico",
+        "english": "My best friend"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
   },
   {
-    "id": "it-vocab-16",
-    "word": "uomo",
-    "reading": "uomo",
-    "meaning": "man",
-    "meanings": { "en": "man", "es": "hombre", "ja": "男", "ko": "남자" },
+    "id": 94,
+    "word": "amore",
+    "meaning": "love",
+    "meanings": {
+      "en": "love",
+      "es": "amor",
+      "ja": "愛",
+      "ko": "사랑"
+    },
+    "reading": "amore",
+    "romaji": null,
     "level": "A1",
-    "partOfSpeech": "noun",
-    "examples": [{ "italian": "L'uomo cammina", "english": "The man walks" }],
-    "tags": ["people", "basic"]
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "emotions",
+      "basic"
+    ],
+    "examples": [
+      {
+        "italian": "Ti amo",
+        "english": "I love you"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
   },
   {
-    "id": "it-vocab-17",
-    "word": "donna",
-    "reading": "donna",
-    "meaning": "woman",
-    "meanings": { "en": "woman", "es": "mujer", "ja": "女", "ko": "여자" },
+    "id": 87,
+    "word": "andare",
+    "meaning": "to go",
+    "meanings": {
+      "en": "to go",
+      "es": "ir",
+      "ja": "行く",
+      "ko": "가다"
+    },
+    "reading": "andare",
+    "romaji": null,
     "level": "A1",
-    "partOfSpeech": "noun",
-    "examples": [{ "italian": "La donna parla", "english": "The woman speaks" }],
-    "tags": ["people", "basic"]
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "movement",
+      "basic"
+    ],
+    "examples": [
+      {
+        "italian": "Vado a scuola",
+        "english": "I go to school"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
   },
   {
-    "id": "it-vocab-18",
-    "word": "oggi",
-    "reading": "oggi",
-    "meaning": "today",
-    "meanings": { "en": "today", "es": "hoy", "ja": "今日", "ko": "오늘" },
-    "level": "A1",
-    "partOfSpeech": "adverb",
-    "examples": [{ "italian": "Oggi è lunedì", "english": "Today is Monday" }],
-    "tags": ["time", "basic"]
-  },
-  {
-    "id": "it-vocab-19",
-    "word": "domani",
-    "reading": "domani",
-    "meaning": "tomorrow",
-    "meanings": { "en": "tomorrow", "es": "mañana", "ja": "明日", "ko": "내일" },
-    "level": "A1",
-    "partOfSpeech": "adverb",
-    "examples": [{ "italian": "A domani!", "english": "See you tomorrow!" }],
-    "tags": ["time", "basic"]
-  },
-  {
-    "id": "it-vocab-20",
-    "word": "ieri",
-    "reading": "ieri",
-    "meaning": "yesterday",
-    "meanings": { "en": "yesterday", "es": "ayer", "ja": "昨日", "ko": "어제" },
-    "level": "A1",
-    "partOfSpeech": "adverb",
-    "examples": [{ "italian": "Ieri ho lavorato", "english": "Yesterday I worked" }],
-    "tags": ["time", "basic"]
-  },
-  {
-    "id": "it-vocab-21",
-    "word": "buono",
-    "reading": "buono",
-    "meaning": "good",
-    "meanings": { "en": "good", "es": "bueno", "ja": "良い", "ko": "좋다" },
-    "level": "A1",
-    "partOfSpeech": "adjective",
-    "examples": [{ "italian": "Questo è buono", "english": "This is good" }],
-    "tags": ["descriptive", "basic"]
-  },
-  {
-    "id": "it-vocab-22",
-    "word": "grande",
-    "reading": "grande",
-    "meaning": "big, great",
-    "meanings": { "en": "big", "es": "grande", "ja": "大きい", "ko": "크다" },
-    "level": "A1",
-    "partOfSpeech": "adjective",
-    "examples": [{ "italian": "Una grande città", "english": "A big city" }],
-    "tags": ["descriptive", "basic"]
-  },
-  {
-    "id": "it-vocab-23",
-    "word": "piccolo",
-    "reading": "piccolo",
-    "meaning": "small, little",
-    "meanings": { "en": "small", "es": "pequeño", "ja": "小さい", "ko": "작다" },
-    "level": "A1",
-    "partOfSpeech": "adjective",
-    "examples": [{ "italian": "Un piccolo gatto", "english": "A small cat" }],
-    "tags": ["descriptive", "basic"]
-  },
-  {
-    "id": "it-vocab-24",
+    "id": 108,
     "word": "bello",
-    "reading": "bello",
     "meaning": "beautiful, nice",
-    "meanings": { "en": "beautiful", "es": "hermoso", "ja": "美しい", "ko": "아름답다" },
+    "meanings": {
+      "en": "beautiful",
+      "es": "hermoso",
+      "ja": "美しい",
+      "ko": "아름답다"
+    },
+    "reading": "bello",
+    "romaji": null,
     "level": "A1",
-    "partOfSpeech": "adjective",
-    "examples": [{ "italian": "Che bella giornata!", "english": "What a beautiful day!" }],
-    "tags": ["descriptive", "basic"]
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "basic"
+    ],
+    "examples": [
+      {
+        "italian": "Che bella giornata!",
+        "english": "What a beautiful day!"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
   },
   {
-    "id": "it-vocab-25",
+    "id": 86,
+    "word": "bere",
+    "meaning": "to drink",
+    "meanings": {
+      "en": "to drink",
+      "es": "beber",
+      "ja": "飲む",
+      "ko": "마시다"
+    },
+    "reading": "bere",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "examples": [
+      {
+        "italian": "Bevo un caffè",
+        "english": "I drink a coffee"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 105,
+    "word": "buono",
+    "meaning": "good",
+    "meanings": {
+      "en": "good",
+      "es": "bueno",
+      "ja": "良い",
+      "ko": "좋다"
+    },
+    "reading": "buono",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "basic"
+    ],
+    "examples": [
+      {
+        "italian": "Questo è buono",
+        "english": "This is good"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 97,
+    "word": "casa",
+    "meaning": "house, home",
+    "meanings": {
+      "en": "house",
+      "es": "casa",
+      "ja": "家",
+      "ko": "집"
+    },
+    "reading": "casa",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "places",
+      "basic"
+    ],
+    "examples": [
+      {
+        "italian": "Sono a casa",
+        "english": "I am at home"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 109,
     "word": "ciao",
-    "reading": "ciao",
     "meaning": "hello, goodbye",
-    "meanings": { "en": "hello/goodbye", "es": "hola/adiós", "ja": "こんにちは", "ko": "안녕" },
+    "meanings": {
+      "en": "hello/goodbye",
+      "es": "hola/adiós",
+      "ja": "こんにちは",
+      "ko": "안녕"
+    },
+    "reading": "ciao",
+    "romaji": null,
     "level": "A1",
-    "partOfSpeech": "interjection",
-    "examples": [{ "italian": "Ciao, come stai?", "english": "Hi, how are you?" }],
-    "tags": ["greetings", "basic"]
+    "framework": null,
+    "part_of_speech": "interjection",
+    "tags": [
+      "greetings",
+      "basic"
+    ],
+    "examples": [
+      {
+        "italian": "Ciao, come stai?",
+        "english": "Hi, how are you?"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
   },
   {
-    "id": "it-vocab-26",
+    "id": 103,
+    "word": "domani",
+    "meaning": "tomorrow",
+    "meanings": {
+      "en": "tomorrow",
+      "es": "mañana",
+      "ja": "明日",
+      "ko": "내일"
+    },
+    "reading": "domani",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "examples": [
+      {
+        "italian": "A domani!",
+        "english": "See you tomorrow!"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 101,
+    "word": "donna",
+    "meaning": "woman",
+    "meanings": {
+      "en": "woman",
+      "es": "mujer",
+      "ja": "女",
+      "ko": "여자"
+    },
+    "reading": "donna",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "people",
+      "basic"
+    ],
+    "examples": [
+      {
+        "italian": "La donna parla",
+        "english": "The woman speaks"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 96,
+    "word": "famiglia",
+    "meaning": "family",
+    "meanings": {
+      "en": "family",
+      "es": "familia",
+      "ja": "家族",
+      "ko": "가족"
+    },
+    "reading": "famiglia",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "people",
+      "basic"
+    ],
+    "examples": [
+      {
+        "italian": "La mia famiglia",
+        "english": "My family"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 106,
+    "word": "grande",
+    "meaning": "big, great",
+    "meanings": {
+      "en": "big",
+      "es": "grande",
+      "ja": "大きい",
+      "ko": "크다"
+    },
+    "reading": "grande",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "basic"
+    ],
+    "examples": [
+      {
+        "italian": "Una grande città",
+        "english": "A big city"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 110,
     "word": "grazie",
-    "reading": "grazie",
     "meaning": "thank you",
-    "meanings": { "en": "thank you", "es": "gracias", "ja": "ありがとう", "ko": "감사합니다" },
+    "meanings": {
+      "en": "thank you",
+      "es": "gracias",
+      "ja": "ありがとう",
+      "ko": "감사합니다"
+    },
+    "reading": "grazie",
+    "romaji": null,
     "level": "A1",
-    "partOfSpeech": "interjection",
-    "examples": [{ "italian": "Grazie mille!", "english": "Thank you very much!" }],
-    "tags": ["polite", "basic"]
+    "framework": null,
+    "part_of_speech": "interjection",
+    "tags": [
+      "polite",
+      "basic"
+    ],
+    "examples": [
+      {
+        "italian": "Grazie mille!",
+        "english": "Thank you very much!"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
   },
   {
-    "id": "it-vocab-27",
-    "word": "scuola",
-    "reading": "scuola",
-    "meaning": "school",
-    "meanings": { "en": "school", "es": "escuela", "ja": "学校", "ko": "학교" },
+    "id": 104,
+    "word": "ieri",
+    "meaning": "yesterday",
+    "meanings": {
+      "en": "yesterday",
+      "es": "ayer",
+      "ja": "昨日",
+      "ko": "어제"
+    },
+    "reading": "ieri",
+    "romaji": null,
     "level": "A1",
-    "partOfSpeech": "noun",
-    "examples": [{ "italian": "Vado a scuola", "english": "I go to school" }],
-    "tags": ["education", "basic"]
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "examples": [
+      {
+        "italian": "Ieri ho lavorato",
+        "english": "Yesterday I worked"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
   },
   {
-    "id": "it-vocab-28",
-    "word": "lavoro",
-    "reading": "lavoro",
-    "meaning": "work, job",
-    "meanings": { "en": "work", "es": "trabajo", "ja": "仕事", "ko": "일" },
-    "level": "A1",
-    "partOfSpeech": "noun",
-    "examples": [{ "italian": "Ho molto lavoro", "english": "I have a lot of work" }],
-    "tags": ["work", "basic"]
-  },
-  {
-    "id": "it-vocab-29",
-    "word": "tempo",
-    "reading": "tempo",
-    "meaning": "time, weather",
-    "meanings": { "en": "time", "es": "tiempo", "ja": "時間", "ko": "시간" },
-    "level": "A1",
-    "partOfSpeech": "noun",
-    "examples": [{ "italian": "Non ho tempo", "english": "I don't have time" }],
-    "tags": ["time", "basic"]
-  },
-  {
-    "id": "it-vocab-30",
+    "id": 114,
     "word": "imparare",
-    "reading": "imparare",
     "meaning": "to learn",
-    "meanings": { "en": "to learn", "es": "aprender", "ja": "学ぶ", "ko": "배우다" },
+    "meanings": {
+      "en": "to learn",
+      "es": "aprender",
+      "ja": "学ぶ",
+      "ko": "배우다"
+    },
+    "reading": "imparare",
+    "romaji": null,
     "level": "A1",
-    "partOfSpeech": "verb",
-    "examples": [{ "italian": "Imparo l'italiano", "english": "I learn Italian" }],
-    "tags": ["education", "basic"]
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "education",
+      "basic"
+    ],
+    "examples": [
+      {
+        "italian": "Imparo l'italiano",
+        "english": "I learn Italian"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
   },
   {
-    "id": "it-vocab-31",
-    "word": "preoccupato",
-    "reading": "",
-    "meaning": "worried, concerned",
-    "meanings": { "en": "worried", "es": "preocupado", "ja": "心配した", "ko": "걱정하는" },
-    "level": "B1",
-    "partOfSpeech": "adjective",
-    "examples": [{ "italian": "Sono preoccupato per l'esame", "english": "I am worried about the exam" }],
-    "tags": ["emotions", "intermediate"]
+    "id": 112,
+    "word": "lavoro",
+    "meaning": "work, job",
+    "meanings": {
+      "en": "work",
+      "es": "trabajo",
+      "ja": "仕事",
+      "ko": "일"
+    },
+    "reading": "lavoro",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "work",
+      "basic"
+    ],
+    "examples": [
+      {
+        "italian": "Ho molto lavoro",
+        "english": "I have a lot of work"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
   },
   {
-    "id": "it-vocab-32",
+    "id": 92,
+    "word": "leggere",
+    "meaning": "to read",
+    "meanings": {
+      "en": "to read",
+      "es": "leer",
+      "ja": "読む",
+      "ko": "읽다"
+    },
+    "reading": "leggere",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "study",
+      "basic"
+    ],
+    "examples": [
+      {
+        "italian": "Leggo un libro",
+        "english": "I read a book"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 85,
+    "word": "mangiare",
+    "meaning": "to eat",
+    "meanings": {
+      "en": "to eat",
+      "es": "comer",
+      "ja": "食べる",
+      "ko": "먹다"
+    },
+    "reading": "mangiare",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "examples": [
+      {
+        "italian": "Io mangio la pizza",
+        "english": "I eat pizza"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 102,
+    "word": "oggi",
+    "meaning": "today",
+    "meanings": {
+      "en": "today",
+      "es": "hoy",
+      "ja": "今日",
+      "ko": "오늘"
+    },
+    "reading": "oggi",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "examples": [
+      {
+        "italian": "Oggi è lunedì",
+        "english": "Today is Monday"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 99,
+    "word": "pane",
+    "meaning": "bread",
+    "meanings": {
+      "en": "bread",
+      "es": "pan",
+      "ja": "パン",
+      "ko": "빵"
+    },
+    "reading": "pane",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "examples": [
+      {
+        "italian": "Compro il pane",
+        "english": "I buy bread"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 91,
+    "word": "parlare",
+    "meaning": "to speak",
+    "meanings": {
+      "en": "to speak",
+      "es": "hablar",
+      "ja": "話す",
+      "ko": "말하다"
+    },
+    "reading": "parlare",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "communication",
+      "basic"
+    ],
+    "examples": [
+      {
+        "italian": "Parli italiano?",
+        "english": "Do you speak Italian?"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 107,
+    "word": "piccolo",
+    "meaning": "small, little",
+    "meanings": {
+      "en": "small",
+      "es": "pequeño",
+      "ja": "小さい",
+      "ko": "작다"
+    },
+    "reading": "piccolo",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "basic"
+    ],
+    "examples": [
+      {
+        "italian": "Un piccolo gatto",
+        "english": "A small cat"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 93,
+    "word": "scrivere",
+    "meaning": "to write",
+    "meanings": {
+      "en": "to write",
+      "es": "escribir",
+      "ja": "書く",
+      "ko": "쓰다"
+    },
+    "reading": "scrivere",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "study",
+      "basic"
+    ],
+    "examples": [
+      {
+        "italian": "Scrivo una lettera",
+        "english": "I write a letter"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 111,
+    "word": "scuola",
+    "meaning": "school",
+    "meanings": {
+      "en": "school",
+      "es": "escuela",
+      "ja": "学校",
+      "ko": "학교"
+    },
+    "reading": "scuola",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "education",
+      "basic"
+    ],
+    "examples": [
+      {
+        "italian": "Vado a scuola",
+        "english": "I go to school"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 90,
+    "word": "sentire",
+    "meaning": "to hear, to feel",
+    "meanings": {
+      "en": "to hear",
+      "es": "escuchar",
+      "ja": "聞く",
+      "ko": "듣다"
+    },
+    "reading": "sentire",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "senses",
+      "basic"
+    ],
+    "examples": [
+      {
+        "italian": "Sento la musica",
+        "english": "I hear the music"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 113,
+    "word": "tempo",
+    "meaning": "time, weather",
+    "meanings": {
+      "en": "time",
+      "es": "tiempo",
+      "ja": "時間",
+      "ko": "시간"
+    },
+    "reading": "tempo",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "examples": [
+      {
+        "italian": "Non ho tempo",
+        "english": "I don't have time"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 100,
+    "word": "uomo",
+    "meaning": "man",
+    "meanings": {
+      "en": "man",
+      "es": "hombre",
+      "ja": "男",
+      "ko": "남자"
+    },
+    "reading": "uomo",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "people",
+      "basic"
+    ],
+    "examples": [
+      {
+        "italian": "L'uomo cammina",
+        "english": "The man walks"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 89,
+    "word": "vedere",
+    "meaning": "to see",
+    "meanings": {
+      "en": "to see",
+      "es": "ver",
+      "ja": "見る",
+      "ko": "보다"
+    },
+    "reading": "vedere",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "senses",
+      "basic"
+    ],
+    "examples": [
+      {
+        "italian": "Vedo il mare",
+        "english": "I see the sea"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 88,
+    "word": "venire",
+    "meaning": "to come",
+    "meanings": {
+      "en": "to come",
+      "es": "venir",
+      "ja": "来る",
+      "ko": "오다"
+    },
+    "reading": "venire",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "movement",
+      "basic"
+    ],
+    "examples": [
+      {
+        "italian": "Vieni qui!",
+        "english": "Come here!"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 644,
+    "word": "addormentarsi",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "to fall asleep"
+      ],
+      "ja": [
+        "眠りにつく"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Mi addormento sempre tardi.",
+        "translation": "I always fall asleep late."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 661,
+    "word": "alto",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "tall",
+        "high"
+      ],
+      "ja": [
+        "高い"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Mio fratello è più alto di me.",
+        "translation": "My brother is taller than me."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 662,
+    "word": "basso",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "short",
+        "low"
+      ],
+      "ja": [
+        "低い"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "La sedia è troppo bassa per il tavolo.",
+        "translation": "The chair is too low for the table."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 682,
+    "word": "capire",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "to understand"
+      ],
+      "ja": [
+        "理解する"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Non ho capito la domanda.",
+        "translation": "I didn't understand the question."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 647,
+    "word": "comprare",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "to buy"
+      ],
+      "ja": [
+        "買う"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Ho comprato un regalo per mia madre.",
+        "translation": "I bought a gift for my mother."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 675,
+    "word": "correre",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "to run"
+      ],
+      "ja": [
+        "走る"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Corro ogni mattina nel parco.",
+        "translation": "I run every morning in the park."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 677,
+    "word": "cucinare",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "to cook"
+      ],
+      "ja": [
+        "料理する"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Mia nonna cucina benissimo.",
+        "translation": "My grandmother cooks very well."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 684,
+    "word": "decidere",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "to decide"
+      ],
+      "ja": [
+        "決める"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Non ho ancora deciso cosa fare.",
+        "translation": "I haven't decided yet what to do."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 680,
+    "word": "dimenticare",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "to forget"
+      ],
+      "ja": [
+        "忘れる"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Ho dimenticato le chiavi a casa.",
+        "translation": "I forgot the keys at home."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 676,
+    "word": "dipingere",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "to paint"
+      ],
+      "ja": [
+        "絵を描く"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Mi piace dipingere paesaggi.",
+        "translation": "I like to paint landscapes."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 664,
+    "word": "grasso",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "fat"
+      ],
+      "ja": [
+        "太った"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Il gatto è troppo grasso.",
+        "translation": "The cat is too fat."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 665,
+    "word": "i capelli",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "hair"
+      ],
+      "ja": [
+        "髪"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Ha i capelli biondi e gli occhi azzurri.",
+        "translation": "She has blonde hair and blue eyes."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 688,
+    "word": "i pantaloni",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "pants",
+        "trousers"
+      ],
+      "ja": [
+        "ズボン"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Questi pantaloni sono troppo stretti.",
+        "translation": "These pants are too tight."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 654,
+    "word": "il biglietto",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "ticket"
+      ],
+      "ja": [
+        "切符"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Ho comprato il biglietto online.",
+        "translation": "I bought the ticket online."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 670,
+    "word": "il dottore",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "doctor"
+      ],
+      "ja": [
+        "医者"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Devo andare dal dottore domani.",
+        "translation": "I have to go to the doctor tomorrow."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 645,
+    "word": "il negozio",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "shop",
+        "store"
+      ],
+      "ja": [
+        "店"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Il negozio chiude alle otto.",
+        "translation": "The shop closes at eight."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 650,
+    "word": "il prezzo",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "price"
+      ],
+      "ja": [
+        "価格"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Il prezzo è troppo alto.",
+        "translation": "The price is too high."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 672,
+    "word": "il raffreddore",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "cold"
+      ],
+      "ja": [
+        "風邪"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Ho preso il raffreddore.",
+        "translation": "I caught a cold."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 656,
+    "word": "il sole",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "sun"
+      ],
+      "ja": [
+        "太陽"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Il sole splende oggi.",
+        "translation": "The sun is shining today."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 646,
+    "word": "il supermercato",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "supermarket"
+      ],
+      "ja": [
+        "スーパーマーケット"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Vado al supermercato ogni sabato.",
+        "translation": "I go to the supermarket every Saturday."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 659,
+    "word": "il vento",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "wind"
+      ],
+      "ja": [
+        "風"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Il vento è molto forte oggi.",
+        "translation": "The wind is very strong today."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 686,
+    "word": "il vestito",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "dress",
+        "suit"
+      ],
+      "ja": [
+        "服"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Questo vestito è molto elegante.",
+        "translation": "This dress is very elegant."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 651,
+    "word": "il viaggio",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "trip",
+        "journey"
+      ],
+      "ja": [
+        "旅行"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Il viaggio in treno dura due ore.",
+        "translation": "The train journey takes two hours."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 655,
+    "word": "l'aeroporto",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "airport"
+      ],
+      "ja": [
+        "空港"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "L'aeroporto è lontano dal centro.",
+        "translation": "The airport is far from the center."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 685,
+    "word": "la borsa",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "bag",
+        "purse"
+      ],
+      "ja": [
+        "バッグ"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Ho messo il portafoglio nella borsa.",
+        "translation": "I put the wallet in the bag."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 687,
+    "word": "la camicia",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "shirt"
+      ],
+      "ja": [
+        "シャツ"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Ho comprato una camicia blu.",
+        "translation": "I bought a blue shirt."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 671,
+    "word": "la febbre",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "fever"
+      ],
+      "ja": [
+        "熱"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Ho la febbre e il mal di testa.",
+        "translation": "I have a fever and a headache."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 673,
+    "word": "la medicina",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "medicine"
+      ],
+      "ja": [
+        "薬"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Devo prendere la medicina tre volte al giorno.",
+        "translation": "I have to take the medicine three times a day."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 658,
+    "word": "la neve",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "snow"
+      ],
+      "ja": [
+        "雪"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "La neve copre le montagne.",
+        "translation": "The snow covers the mountains."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 657,
+    "word": "la pioggia",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "rain"
+      ],
+      "ja": [
+        "雨"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "La pioggia è iniziata improvvisamente.",
+        "translation": "The rain started suddenly."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 669,
+    "word": "la salute",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "health"
+      ],
+      "ja": [
+        "健康"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "La salute è la cosa più importante.",
+        "translation": "Health is the most important thing."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 652,
+    "word": "la valigia",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "suitcase"
+      ],
+      "ja": [
+        "スーツケース"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Ho perso la mia valigia all'aeroporto.",
+        "translation": "I lost my suitcase at the airport."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 643,
+    "word": "lavarsi",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "to wash oneself"
+      ],
+      "ja": [
+        "体を洗う"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Mi lavo le mani prima di mangiare.",
+        "translation": "I wash my hands before eating."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 649,
+    "word": "lo sconto",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "discount"
+      ],
+      "ja": [
+        "割引"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "C'è uno sconto del venti per cento.",
+        "translation": "There is a twenty percent discount."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 663,
+    "word": "magro",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "thin",
+        "slim"
+      ],
+      "ja": [
+        "痩せた"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "È diventato molto magro.",
+        "translation": "He has become very thin."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 674,
+    "word": "nuotare",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "to swim"
+      ],
+      "ja": [
+        "泳ぐ"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Mi piace nuotare in piscina.",
+        "translation": "I like to swim in the pool."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 660,
+    "word": "nuvoloso",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "cloudy"
+      ],
+      "ja": [
+        "曇り"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Il cielo è nuvoloso ma non piove.",
+        "translation": "The sky is cloudy but it's not raining."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 666,
+    "word": "partire",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "to leave",
+        "to depart"
+      ],
+      "ja": [
+        "出発する"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Siamo partiti alle sei di mattina.",
+        "translation": "We left at six in the morning."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 653,
+    "word": "prenotare",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "to book",
+        "to reserve"
+      ],
+      "ja": [
+        "予約する"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Vorrei prenotare una camera doppia.",
+        "translation": "I would like to book a double room."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 683,
+    "word": "provare",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "to try"
+      ],
+      "ja": [
+        "試す"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Voglio provare questo piatto.",
+        "translation": "I want to try this dish."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 679,
+    "word": "ricordare",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "to remember"
+      ],
+      "ja": [
+        "覚えている"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Non ricordo il suo nome.",
+        "translation": "I don't remember his name."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 668,
+    "word": "rimanere",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "to stay",
+        "to remain"
+      ],
+      "ja": [
+        "残る"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Siamo rimasti a casa tutto il giorno.",
+        "translation": "We stayed home all day."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 681,
+    "word": "spiegare",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "to explain"
+      ],
+      "ja": [
+        "説明する"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Puoi spiegarmi questa regola?",
+        "translation": "Can you explain this rule to me?"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 678,
+    "word": "suonare",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "to play (instrument)"
+      ],
+      "ja": [
+        "演奏する"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Suono il pianoforte da dieci anni.",
+        "translation": "I have been playing the piano for ten years."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 641,
+    "word": "svegliarsi",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "to wake up"
+      ],
+      "ja": [
+        "目を覚ます"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Mi sveglio alle sette ogni mattina.",
+        "translation": "I wake up at seven every morning."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 667,
+    "word": "tornare",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "to return",
+        "to come back"
+      ],
+      "ja": [
+        "戻る"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Sono tornato a casa tardi.",
+        "translation": "I came back home late."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 648,
+    "word": "vendere",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "to sell"
+      ],
+      "ja": [
+        "売る"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Questo negozio vende prodotti biologici.",
+        "translation": "This shop sells organic products."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 642,
+    "word": "vestirsi",
+    "meaning": "",
+    "meanings": {
+      "en": [
+        "to get dressed"
+      ],
+      "ja": [
+        "服を着る"
+      ]
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "Mi vesto rapidamente per andare al lavoro.",
+        "translation": "I get dressed quickly to go to work."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 116,
     "word": "arrabbiato",
-    "reading": "",
     "meaning": "angry",
-    "meanings": { "en": "angry", "es": "enfadado", "ja": "怒った", "ko": "화난" },
+    "meanings": {
+      "en": "angry",
+      "es": "enfadado",
+      "ja": "怒った",
+      "ko": "화난"
+    },
+    "reading": null,
+    "romaji": null,
     "level": "B1",
-    "partOfSpeech": "adjective",
-    "examples": [{ "italian": "Non essere arrabbiato con me", "english": "Don't be angry with me" }],
-    "tags": ["emotions", "intermediate"]
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "emotions",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "italian": "Non essere arrabbiato con me",
+        "english": "Don't be angry with me"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
   },
   {
-    "id": "it-vocab-33",
-    "word": "deluso",
-    "reading": "",
-    "meaning": "disappointed",
-    "meanings": { "en": "disappointed", "es": "decepcionado", "ja": "がっかりした", "ko": "실망한" },
-    "level": "B1",
-    "partOfSpeech": "adjective",
-    "examples": [{ "italian": "Sono deluso dal risultato", "english": "I am disappointed with the result" }],
-    "tags": ["emotions", "intermediate"]
-  },
-  {
-    "id": "it-vocab-34",
-    "word": "colloquio",
-    "reading": "",
-    "meaning": "interview, meeting",
-    "meanings": { "en": "interview", "es": "entrevista", "ja": "面接", "ko": "면접" },
-    "level": "B1",
-    "partOfSpeech": "noun",
-    "examples": [{ "italian": "Ho un colloquio di lavoro domani", "english": "I have a job interview tomorrow" }],
-    "tags": ["work", "intermediate"]
-  },
-  {
-    "id": "it-vocab-35",
-    "word": "stipendio",
-    "reading": "",
-    "meaning": "salary, wage",
-    "meanings": { "en": "salary", "es": "sueldo", "ja": "給料", "ko": "급여" },
-    "level": "B1",
-    "partOfSpeech": "noun",
-    "examples": [{ "italian": "Lo stipendio viene pagato alla fine del mese", "english": "The salary is paid at the end of the month" }],
-    "tags": ["work", "intermediate"]
-  },
-  {
-    "id": "it-vocab-36",
-    "word": "prenotazione",
-    "reading": "",
-    "meaning": "reservation, booking",
-    "meanings": { "en": "reservation", "es": "reserva", "ja": "予約", "ko": "예약" },
-    "level": "B1",
-    "partOfSpeech": "noun",
-    "examples": [{ "italian": "Ho fatto una prenotazione per due notti", "english": "I made a reservation for two nights" }],
-    "tags": ["travel", "intermediate"]
-  },
-  {
-    "id": "it-vocab-37",
-    "word": "volo",
-    "reading": "",
-    "meaning": "flight",
-    "meanings": { "en": "flight", "es": "vuelo", "ja": "フライト", "ko": "비행" },
-    "level": "B1",
-    "partOfSpeech": "noun",
-    "examples": [{ "italian": "Il volo parte alle dieci", "english": "The flight departs at ten" }],
-    "tags": ["travel", "intermediate"]
-  },
-  {
-    "id": "it-vocab-38",
+    "id": 122,
     "word": "bagaglio",
-    "reading": "",
     "meaning": "luggage, baggage",
-    "meanings": { "en": "luggage", "es": "equipaje", "ja": "荷物", "ko": "짐" },
+    "meanings": {
+      "en": "luggage",
+      "es": "equipaje",
+      "ja": "荷物",
+      "ko": "짐"
+    },
+    "reading": null,
+    "romaji": null,
     "level": "B1",
-    "partOfSpeech": "noun",
-    "examples": [{ "italian": "Il mio bagaglio è troppo pesante", "english": "My luggage is too heavy" }],
-    "tags": ["travel", "intermediate"]
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "travel",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "italian": "Il mio bagaglio è troppo pesante",
+        "english": "My luggage is too heavy"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
   },
   {
-    "id": "it-vocab-39",
-    "word": "sintomo",
-    "reading": "",
-    "meaning": "symptom",
-    "meanings": { "en": "symptom", "es": "síntoma", "ja": "症状", "ko": "증상" },
+    "id": 118,
+    "word": "colloquio",
+    "meaning": "interview, meeting",
+    "meanings": {
+      "en": "interview",
+      "es": "entrevista",
+      "ja": "面接",
+      "ko": "면접"
+    },
+    "reading": null,
+    "romaji": null,
     "level": "B1",
-    "partOfSpeech": "noun",
-    "examples": [{ "italian": "Quali sono i sintomi?", "english": "What are the symptoms?" }],
-    "tags": ["health", "intermediate"]
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "work",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "italian": "Ho un colloquio di lavoro domani",
+        "english": "I have a job interview tomorrow"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
   },
   {
-    "id": "it-vocab-40",
-    "word": "ricetta",
-    "reading": "",
-    "meaning": "prescription, recipe",
-    "meanings": { "en": "prescription/recipe", "es": "receta", "ja": "処方箋/レシピ", "ko": "처방전/조리법" },
+    "id": 117,
+    "word": "deluso",
+    "meaning": "disappointed",
+    "meanings": {
+      "en": "disappointed",
+      "es": "decepcionado",
+      "ja": "がっかりした",
+      "ko": "실망한"
+    },
+    "reading": null,
+    "romaji": null,
     "level": "B1",
-    "partOfSpeech": "noun",
-    "examples": [{ "italian": "Il medico mi ha dato una ricetta", "english": "The doctor gave me a prescription" }],
-    "tags": ["health", "intermediate"]
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "emotions",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "italian": "Sono deluso dal risultato",
+        "english": "I am disappointed with the result"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
   },
   {
-    "id": "it-vocab-41",
+    "id": 125,
     "word": "guarire",
-    "reading": "",
     "meaning": "to heal, to recover",
-    "meanings": { "en": "to heal", "es": "curar", "ja": "治る", "ko": "치유하다" },
+    "meanings": {
+      "en": "to heal",
+      "es": "curar",
+      "ja": "治る",
+      "ko": "치유하다"
+    },
+    "reading": null,
+    "romaji": null,
     "level": "B1",
-    "partOfSpeech": "verb",
-    "examples": [{ "italian": "Spero che tu guarisca presto", "english": "I hope you recover soon" }],
-    "tags": ["health", "intermediate"]
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "health",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "italian": "Spero che tu guarisca presto",
+        "english": "I hope you recover soon"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
   },
   {
-    "id": "it-vocab-42",
+    "id": 120,
+    "word": "prenotazione",
+    "meaning": "reservation, booking",
+    "meanings": {
+      "en": "reservation",
+      "es": "reserva",
+      "ja": "予約",
+      "ko": "예약"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "travel",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "italian": "Ho fatto una prenotazione per due notti",
+        "english": "I made a reservation for two nights"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 115,
+    "word": "preoccupato",
+    "meaning": "worried, concerned",
+    "meanings": {
+      "en": "worried",
+      "es": "preocupado",
+      "ja": "心配した",
+      "ko": "걱정하는"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "emotions",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "italian": "Sono preoccupato per l'esame",
+        "english": "I am worried about the exam"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 124,
+    "word": "ricetta",
+    "meaning": "prescription, recipe",
+    "meanings": {
+      "en": "prescription/recipe",
+      "es": "receta",
+      "ja": "処方箋/レシピ",
+      "ko": "처방전/조리법"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "health",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "italian": "Il medico mi ha dato una ricetta",
+        "english": "The doctor gave me a prescription"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 123,
+    "word": "sintomo",
+    "meaning": "symptom",
+    "meanings": {
+      "en": "symptom",
+      "es": "síntoma",
+      "ja": "症状",
+      "ko": "증상"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "health",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "italian": "Quali sono i sintomi?",
+        "english": "What are the symptoms?"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 119,
+    "word": "stipendio",
+    "meaning": "salary, wage",
+    "meanings": {
+      "en": "salary",
+      "es": "sueldo",
+      "ja": "給料",
+      "ko": "급여"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "work",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "italian": "Lo stipendio viene pagato alla fine del mese",
+        "english": "The salary is paid at the end of the month"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 121,
+    "word": "volo",
+    "meaning": "flight",
+    "meanings": {
+      "en": "flight",
+      "es": "vuelo",
+      "ja": "フライト",
+      "ko": "비행"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "travel",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "italian": "Il volo parte alle dieci",
+        "english": "The flight departs at ten"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 126,
     "word": "affidabile",
-    "reading": "",
     "meaning": "reliable, trustworthy",
-    "meanings": { "en": "reliable", "es": "confiable", "ja": "信頼できる", "ko": "신뢰할 수 있는" },
+    "meanings": {
+      "en": "reliable",
+      "es": "confiable",
+      "ja": "信頼できる",
+      "ko": "신뢰할 수 있는"
+    },
+    "reading": null,
+    "romaji": null,
     "level": "B2",
-    "partOfSpeech": "adjective",
-    "examples": [{ "italian": "È una persona molto affidabile", "english": "He is a very reliable person" }],
-    "tags": ["personality", "advanced"]
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "personality",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "italian": "È una persona molto affidabile",
+        "english": "He is a very reliable person"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
   },
   {
-    "id": "it-vocab-43",
+    "id": 127,
     "word": "ambizioso",
-    "reading": "",
     "meaning": "ambitious",
-    "meanings": { "en": "ambitious", "es": "ambicioso", "ja": "野心的な", "ko": "야심찬" },
+    "meanings": {
+      "en": "ambitious",
+      "es": "ambicioso",
+      "ja": "野心的な",
+      "ko": "야심찬"
+    },
+    "reading": null,
+    "romaji": null,
     "level": "B2",
-    "partOfSpeech": "adjective",
-    "examples": [{ "italian": "Ha obiettivi molto ambiziosi", "english": "He has very ambitious goals" }],
-    "tags": ["personality", "advanced"]
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "personality",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "italian": "Ha obiettivi molto ambiziosi",
+        "english": "He has very ambitious goals"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
   },
   {
-    "id": "it-vocab-44",
-    "word": "consapevole",
-    "reading": "",
-    "meaning": "aware, conscious",
-    "meanings": { "en": "aware", "es": "consciente", "ja": "自覚している", "ko": "인식하는" },
-    "level": "B2",
-    "partOfSpeech": "adjective",
-    "examples": [{ "italian": "Sono consapevole dei rischi", "english": "I am aware of the risks" }],
-    "tags": ["abstract", "advanced"]
-  },
-  {
-    "id": "it-vocab-45",
-    "word": "sostenibile",
-    "reading": "",
-    "meaning": "sustainable",
-    "meanings": { "en": "sustainable", "es": "sostenible", "ja": "持続可能な", "ko": "지속 가능한" },
-    "level": "B2",
-    "partOfSpeech": "adjective",
-    "examples": [{ "italian": "Dobbiamo adottare uno stile di vita sostenibile", "english": "We must adopt a sustainable lifestyle" }],
-    "tags": ["environment", "advanced"]
-  },
-  {
-    "id": "it-vocab-46",
-    "word": "valere la pena",
-    "reading": "",
-    "meaning": "to be worth it",
-    "meanings": { "en": "to be worth it", "es": "valer la pena", "ja": "価値がある", "ko": "가치가 있다" },
-    "level": "B2",
-    "partOfSpeech": "expression",
-    "examples": [{ "italian": "Vale la pena visitare quel museo", "english": "It's worth visiting that museum" }],
-    "tags": ["idioms", "advanced"]
-  },
-  {
-    "id": "it-vocab-47",
-    "word": "prendere in giro",
-    "reading": "",
-    "meaning": "to make fun of, to tease",
-    "meanings": { "en": "to make fun of", "es": "burlarse de", "ja": "からかう", "ko": "놀리다" },
-    "level": "B2",
-    "partOfSpeech": "expression",
-    "examples": [{ "italian": "Non mi prendere in giro!", "english": "Don't make fun of me!" }],
-    "tags": ["idioms", "advanced"]
-  },
-  {
-    "id": "it-vocab-48",
+    "id": 132,
     "word": "andare d'accordo",
-    "reading": "",
     "meaning": "to get along",
-    "meanings": { "en": "to get along", "es": "llevarse bien", "ja": "仲良くする", "ko": "사이좋게 지내다" },
+    "meanings": {
+      "en": "to get along",
+      "es": "llevarse bien",
+      "ja": "仲良くする",
+      "ko": "사이좋게 지내다"
+    },
+    "reading": null,
+    "romaji": null,
     "level": "B2",
-    "partOfSpeech": "expression",
-    "examples": [{ "italian": "Vanno molto d'accordo", "english": "They get along very well" }],
-    "tags": ["idioms", "advanced"]
+    "framework": null,
+    "part_of_speech": "expression",
+    "tags": [
+      "idioms",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "italian": "Vanno molto d'accordo",
+        "english": "They get along very well"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
   },
   {
-    "id": "it-vocab-49",
-    "word": "fatturato",
-    "reading": "",
-    "meaning": "turnover, revenue",
-    "meanings": { "en": "turnover", "es": "facturación", "ja": "売上高", "ko": "매출액" },
-    "level": "B2",
-    "partOfSpeech": "noun",
-    "examples": [{ "italian": "Il fatturato è aumentato del 10%", "english": "The turnover increased by 10%" }],
-    "tags": ["business", "advanced"]
-  },
-  {
-    "id": "it-vocab-50",
-    "word": "sede",
-    "reading": "",
-    "meaning": "headquarters, office",
-    "meanings": { "en": "headquarters", "es": "sede", "ja": "本社", "ko": "본사" },
-    "level": "B2",
-    "partOfSpeech": "noun",
-    "examples": [{ "italian": "La sede centrale è a Milano", "english": "The headquarters is in Milan" }],
-    "tags": ["business", "advanced"]
-  },
-  {
-    "id": "it-vocab-51",
+    "id": 135,
     "word": "concorrenza",
-    "reading": "",
     "meaning": "competition",
-    "meanings": { "en": "competition", "es": "competencia", "ja": "競争", "ko": "경쟁" },
+    "meanings": {
+      "en": "competition",
+      "es": "competencia",
+      "ja": "競争",
+      "ko": "경쟁"
+    },
+    "reading": null,
+    "romaji": null,
     "level": "B2",
-    "partOfSpeech": "noun",
-    "examples": [{ "italian": "La concorrenza è molto agguerrita", "english": "The competition is very fierce" }],
-    "tags": ["business", "advanced"]
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "business",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "italian": "La concorrenza è molto agguerrita",
+        "english": "The competition is very fierce"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
   },
   {
-    "id": "it-vocab-52",
-    "word": "inconfutabile",
-    "reading": "",
-    "meaning": "irrefutable, undeniable",
-    "meanings": { "en": "irrefutable", "es": "irrefutable", "ja": "反論の余地のない", "ko": "반박할 수 없는" },
-    "level": "C1",
-    "partOfSpeech": "adjective",
-    "examples": [{ "italian": "Le prove sono inconfutabili", "english": "The evidence is irrefutable" }],
-    "tags": ["formal", "sophisticated"]
+    "id": 128,
+    "word": "consapevole",
+    "meaning": "aware, conscious",
+    "meanings": {
+      "en": "aware",
+      "es": "consciente",
+      "ja": "自覚している",
+      "ko": "인식하는"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "abstract",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "italian": "Sono consapevole dei rischi",
+        "english": "I am aware of the risks"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
   },
   {
-    "id": "it-vocab-53",
-    "word": "inesorabile",
-    "reading": "",
-    "meaning": "inexorable, relentless",
-    "meanings": { "en": "inexorable", "es": "inexorable", "ja": "容赦のない", "ko": "가차없는" },
-    "level": "C1",
-    "partOfSpeech": "adjective",
-    "examples": [{ "italian": "Il passare del tempo è inesorabile", "english": "The passage of time is inexorable" }],
-    "tags": ["formal", "sophisticated"]
+    "id": 133,
+    "word": "fatturato",
+    "meaning": "turnover, revenue",
+    "meanings": {
+      "en": "turnover",
+      "es": "facturación",
+      "ja": "売上高",
+      "ko": "매출액"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "business",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "italian": "Il fatturato è aumentato del 10%",
+        "english": "The turnover increased by 10%"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
   },
   {
-    "id": "it-vocab-54",
-    "word": "imprescindibile",
-    "reading": "",
-    "meaning": "essential, indispensable",
-    "meanings": { "en": "essential", "es": "imprescindible", "ja": "不可欠な", "ko": "필수적인" },
-    "level": "C1",
-    "partOfSpeech": "adjective",
-    "examples": [{ "italian": "È un requisito imprescindibile", "english": "It is an essential requirement" }],
-    "tags": ["formal", "sophisticated"]
+    "id": 131,
+    "word": "prendere in giro",
+    "meaning": "to make fun of, to tease",
+    "meanings": {
+      "en": "to make fun of",
+      "es": "burlarse de",
+      "ja": "からかう",
+      "ko": "놀리다"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "expression",
+    "tags": [
+      "idioms",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "italian": "Non mi prendere in giro!",
+        "english": "Don't make fun of me!"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
   },
   {
-    "id": "it-vocab-55",
-    "word": "fattispecie",
-    "reading": "",
-    "meaning": "case, instance (legal term)",
-    "meanings": { "en": "case/instance", "es": "caso", "ja": "事例", "ko": "사례" },
-    "level": "C1",
-    "partOfSpeech": "noun",
-    "examples": [{ "italian": "Nella fattispecie, la legge si applica diversamente", "english": "In this case, the law applies differently" }],
-    "tags": ["legal", "technical"]
+    "id": 134,
+    "word": "sede",
+    "meaning": "headquarters, office",
+    "meanings": {
+      "en": "headquarters",
+      "es": "sede",
+      "ja": "本社",
+      "ko": "본사"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "business",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "italian": "La sede centrale è a Milano",
+        "english": "The headquarters is in Milan"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
   },
   {
-    "id": "it-vocab-56",
-    "word": "giurisprudenza",
-    "reading": "",
-    "meaning": "jurisprudence, case law",
-    "meanings": { "en": "jurisprudence", "es": "jurisprudencia", "ja": "法学", "ko": "법학" },
-    "level": "C1",
-    "partOfSpeech": "noun",
-    "examples": [{ "italian": "Secondo la giurisprudenza recente", "english": "According to recent case law" }],
-    "tags": ["legal", "technical"]
+    "id": 129,
+    "word": "sostenibile",
+    "meaning": "sustainable",
+    "meanings": {
+      "en": "sustainable",
+      "es": "sostenible",
+      "ja": "持続可能な",
+      "ko": "지속 가능한"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "environment",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "italian": "Dobbiamo adottare uno stile di vita sostenibile",
+        "english": "We must adopt a sustainable lifestyle"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
   },
   {
-    "id": "it-vocab-57",
-    "word": "ottemperare",
-    "reading": "",
-    "meaning": "to comply with",
-    "meanings": { "en": "to comply with", "es": "cumplir con", "ja": "遵守する", "ko": "준수하다" },
-    "level": "C1",
-    "partOfSpeech": "verb",
-    "examples": [{ "italian": "È necessario ottemperare alle norme", "english": "It is necessary to comply with the regulations" }],
-    "tags": ["formal", "technical"]
+    "id": 130,
+    "word": "valere la pena",
+    "meaning": "to be worth it",
+    "meanings": {
+      "en": "to be worth it",
+      "es": "valer la pena",
+      "ja": "価値がある",
+      "ko": "가치가 있다"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "expression",
+    "tags": [
+      "idioms",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "italian": "Vale la pena visitare quel museo",
+        "english": "It's worth visiting that museum"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
   },
   {
-    "id": "it-vocab-58",
+    "id": 142,
     "word": "adempiere",
-    "reading": "",
     "meaning": "to fulfill, to carry out",
-    "meanings": { "en": "to fulfill", "es": "cumplir", "ja": "履行する", "ko": "이행하다" },
+    "meanings": {
+      "en": "to fulfill",
+      "es": "cumplir",
+      "ja": "履行する",
+      "ko": "이행하다"
+    },
+    "reading": null,
+    "romaji": null,
     "level": "C1",
-    "partOfSpeech": "verb",
-    "examples": [{ "italian": "Deve adempiere ai suoi obblighi", "english": "He must fulfill his obligations" }],
-    "tags": ["formal", "technical"]
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "formal",
+      "technical"
+    ],
+    "examples": [
+      {
+        "italian": "Deve adempiere ai suoi obblighi",
+        "english": "He must fulfill his obligations"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
   },
   {
-    "id": "it-vocab-59",
+    "id": 143,
     "word": "avvicendamento",
-    "reading": "",
     "meaning": "rotation, turnover",
-    "meanings": { "en": "rotation", "es": "rotación", "ja": "交代", "ko": "교체" },
+    "meanings": {
+      "en": "rotation",
+      "es": "rotación",
+      "ja": "交代",
+      "ko": "교체"
+    },
+    "reading": null,
+    "romaji": null,
     "level": "C1",
-    "partOfSpeech": "noun",
-    "examples": [{ "italian": "C'è stato un avvicendamento ai vertici", "english": "There was a turnover at the top" }],
-    "tags": ["business", "sophisticated"]
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "business",
+      "sophisticated"
+    ],
+    "examples": [
+      {
+        "italian": "C'è stato un avvicendamento ai vertici",
+        "english": "There was a turnover at the top"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
   },
   {
-    "id": "it-vocab-60",
-    "word": "vagheggiare",
-    "reading": "",
-    "meaning": "to dream of, to yearn for",
-    "meanings": { "en": "to dream of", "es": "soñar con", "ja": "夢見る", "ko": "동경하다" },
-    "level": "C2",
-    "partOfSpeech": "verb",
-    "examples": [{ "italian": "Vagheggiava un futuro migliore", "english": "He dreamed of a better future" }],
-    "tags": ["literary", "rare"]
+    "id": 139,
+    "word": "fattispecie",
+    "meaning": "case, instance (legal term)",
+    "meanings": {
+      "en": "case/instance",
+      "es": "caso",
+      "ja": "事例",
+      "ko": "사례"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "legal",
+      "technical"
+    ],
+    "examples": [
+      {
+        "italian": "Nella fattispecie, la legge si applica diversamente",
+        "english": "In this case, the law applies differently"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
   },
   {
-    "id": "it-vocab-61",
-    "word": "struggente",
-    "reading": "",
-    "meaning": "heartrending, poignant",
-    "meanings": { "en": "heartrending", "es": "desgarrador", "ja": "心を締め付ける", "ko": "애절한" },
-    "level": "C2",
-    "partOfSpeech": "adjective",
-    "examples": [{ "italian": "Una melodia struggente", "english": "A heartrending melody" }],
-    "tags": ["literary", "emotional"]
+    "id": 140,
+    "word": "giurisprudenza",
+    "meaning": "jurisprudence, case law",
+    "meanings": {
+      "en": "jurisprudence",
+      "es": "jurisprudencia",
+      "ja": "法学",
+      "ko": "법학"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "legal",
+      "technical"
+    ],
+    "examples": [
+      {
+        "italian": "Secondo la giurisprudenza recente",
+        "english": "According to recent case law"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
   },
   {
-    "id": "it-vocab-62",
-    "word": "rimembranza",
-    "reading": "",
-    "meaning": "remembrance, recollection",
-    "meanings": { "en": "remembrance", "es": "remembranza", "ja": "追憶", "ko": "추억" },
-    "level": "C2",
-    "partOfSpeech": "noun",
-    "examples": [{ "italian": "Dolci rimembranze del passato", "english": "Sweet remembrances of the past" }],
-    "tags": ["literary", "poetic"]
+    "id": 138,
+    "word": "imprescindibile",
+    "meaning": "essential, indispensable",
+    "meanings": {
+      "en": "essential",
+      "es": "imprescindible",
+      "ja": "不可欠な",
+      "ko": "필수적인"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "formal",
+      "sophisticated"
+    ],
+    "examples": [
+      {
+        "italian": "È un requisito imprescindibile",
+        "english": "It is an essential requirement"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
   },
   {
-    "id": "it-vocab-63",
-    "word": "crepuscolare",
-    "reading": "",
-    "meaning": "twilight, crepuscular",
-    "meanings": { "en": "twilight", "es": "crepuscular", "ja": "黄昏の", "ko": "황혼의" },
-    "level": "C2",
-    "partOfSpeech": "adjective",
-    "examples": [{ "italian": "Un'atmosfera crepuscolare", "english": "A twilight atmosphere" }],
-    "tags": ["literary", "poetic"]
+    "id": 136,
+    "word": "inconfutabile",
+    "meaning": "irrefutable, undeniable",
+    "meanings": {
+      "en": "irrefutable",
+      "es": "irrefutable",
+      "ja": "反論の余地のない",
+      "ko": "반박할 수 없는"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "formal",
+      "sophisticated"
+    ],
+    "examples": [
+      {
+        "italian": "Le prove sono inconfutabili",
+        "english": "The evidence is irrefutable"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
   },
   {
-    "id": "it-vocab-64",
-    "word": "aulico",
-    "reading": "",
-    "meaning": "courtly, elevated (style)",
-    "meanings": { "en": "courtly", "es": "áulico", "ja": "荘厳な", "ko": "격조 높은" },
-    "level": "C2",
-    "partOfSpeech": "adjective",
-    "examples": [{ "italian": "Uno stile aulico e raffinato", "english": "A courtly and refined style" }],
-    "tags": ["literary", "archaic"]
+    "id": 137,
+    "word": "inesorabile",
+    "meaning": "inexorable, relentless",
+    "meanings": {
+      "en": "inexorable",
+      "es": "inexorable",
+      "ja": "容赦のない",
+      "ko": "가차없는"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "formal",
+      "sophisticated"
+    ],
+    "examples": [
+      {
+        "italian": "Il passare del tempo è inesorabile",
+        "english": "The passage of time is inexorable"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
   },
   {
-    "id": "it-vocab-65",
-    "word": "periglio",
-    "reading": "",
-    "meaning": "peril, danger (archaic)",
-    "meanings": { "en": "peril", "es": "peligro", "ja": "危難", "ko": "위험" },
-    "level": "C2",
-    "partOfSpeech": "noun",
-    "examples": [{ "italian": "In mezzo al periglio", "english": "In the midst of peril" }],
-    "tags": ["literary", "archaic"]
+    "id": 141,
+    "word": "ottemperare",
+    "meaning": "to comply with",
+    "meanings": {
+      "en": "to comply with",
+      "es": "cumplir con",
+      "ja": "遵守する",
+      "ko": "준수하다"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "formal",
+      "technical"
+    ],
+    "examples": [
+      {
+        "italian": "È necessario ottemperare alle norme",
+        "english": "It is necessary to comply with the regulations"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
   },
   {
-    "id": "it-vocab-66",
-    "word": "beccaccino",
-    "reading": "",
-    "meaning": "snipe (bird)",
-    "meanings": { "en": "snipe", "es": "agachadiza", "ja": "タシギ", "ko": "도요새" },
-    "level": "C2",
-    "partOfSpeech": "noun",
-    "examples": [{ "italian": "Abbiamo avvistato un beccaccino", "english": "We spotted a snipe" }],
-    "tags": ["nature", "rare"]
-  },
-  {
-    "id": "it-vocab-67",
-    "word": "madornale",
-    "reading": "",
-    "meaning": "enormous, egregious",
-    "meanings": { "en": "egregious", "es": "enorme", "ja": "途方もない", "ko": "엄청난" },
-    "level": "C2",
-    "partOfSpeech": "adjective",
-    "examples": [{ "italian": "Un errore madornale", "english": "An egregious error" }],
-    "tags": ["formal", "rare"]
-  },
-  {
-    "id": "it-vocab-68",
-    "word": "garbare",
-    "reading": "",
-    "meaning": "to please, to like (regional)",
-    "meanings": { "en": "to please", "es": "agradar", "ja": "気に入る", "ko": "마음에 들다" },
-    "level": "C2",
-    "partOfSpeech": "verb",
-    "examples": [{ "italian": "Non mi garba per niente", "english": "I don't like it at all" }],
-    "tags": ["regional", "Tuscan"]
-  },
-  {
-    "id": "it-vocab-69",
-    "word": "sciamannato",
-    "reading": "",
-    "meaning": "scruffy, sloppy (regional)",
-    "meanings": { "en": "scruffy", "es": "desaliñado", "ja": "だらしない", "ko": "흐트러진" },
-    "level": "C2",
-    "partOfSpeech": "adjective",
-    "examples": [{ "italian": "Va in giro tutto sciamannato", "english": "He goes around all scruffy" }],
-    "tags": ["regional", "colloquial"]
-  },
-  {
-    "id": "it-vocab-70",
+    "id": 154,
     "word": "abbiocco",
-    "reading": "",
     "meaning": "drowsiness after eating",
-    "meanings": { "en": "food coma", "es": "somnolencia", "ja": "食後の眠気", "ko": "식곤증" },
+    "meanings": {
+      "en": "food coma",
+      "es": "somnolencia",
+      "ja": "食後の眠気",
+      "ko": "식곤증"
+    },
+    "reading": null,
+    "romaji": null,
     "level": "C2",
-    "partOfSpeech": "noun",
-    "examples": [{ "italian": "Mi è venuto l'abbiocco dopo pranzo", "english": "I got drowsy after lunch" }],
-    "tags": ["colloquial", "Italian-specific"]
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "colloquial",
+      "Italian-specific"
+    ],
+    "examples": [
+      {
+        "italian": "Mi è venuto l'abbiocco dopo pranzo",
+        "english": "I got drowsy after lunch"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 148,
+    "word": "aulico",
+    "meaning": "courtly, elevated (style)",
+    "meanings": {
+      "en": "courtly",
+      "es": "áulico",
+      "ja": "荘厳な",
+      "ko": "격조 높은"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "literary",
+      "archaic"
+    ],
+    "examples": [
+      {
+        "italian": "Uno stile aulico e raffinato",
+        "english": "A courtly and refined style"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 150,
+    "word": "beccaccino",
+    "meaning": "snipe (bird)",
+    "meanings": {
+      "en": "snipe",
+      "es": "agachadiza",
+      "ja": "タシギ",
+      "ko": "도요새"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "nature",
+      "rare"
+    ],
+    "examples": [
+      {
+        "italian": "Abbiamo avvistato un beccaccino",
+        "english": "We spotted a snipe"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 147,
+    "word": "crepuscolare",
+    "meaning": "twilight, crepuscular",
+    "meanings": {
+      "en": "twilight",
+      "es": "crepuscular",
+      "ja": "黄昏の",
+      "ko": "황혼의"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "literary",
+      "poetic"
+    ],
+    "examples": [
+      {
+        "italian": "Un'atmosfera crepuscolare",
+        "english": "A twilight atmosphere"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 152,
+    "word": "garbare",
+    "meaning": "to please, to like (regional)",
+    "meanings": {
+      "en": "to please",
+      "es": "agradar",
+      "ja": "気に入る",
+      "ko": "마음에 들다"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "regional",
+      "Tuscan"
+    ],
+    "examples": [
+      {
+        "italian": "Non mi garba per niente",
+        "english": "I don't like it at all"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 151,
+    "word": "madornale",
+    "meaning": "enormous, egregious",
+    "meanings": {
+      "en": "egregious",
+      "es": "enorme",
+      "ja": "途方もない",
+      "ko": "엄청난"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "formal",
+      "rare"
+    ],
+    "examples": [
+      {
+        "italian": "Un errore madornale",
+        "english": "An egregious error"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 149,
+    "word": "periglio",
+    "meaning": "peril, danger (archaic)",
+    "meanings": {
+      "en": "peril",
+      "es": "peligro",
+      "ja": "危難",
+      "ko": "위험"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "literary",
+      "archaic"
+    ],
+    "examples": [
+      {
+        "italian": "In mezzo al periglio",
+        "english": "In the midst of peril"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 146,
+    "word": "rimembranza",
+    "meaning": "remembrance, recollection",
+    "meanings": {
+      "en": "remembrance",
+      "es": "remembranza",
+      "ja": "追憶",
+      "ko": "추억"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "literary",
+      "poetic"
+    ],
+    "examples": [
+      {
+        "italian": "Dolci rimembranze del passato",
+        "english": "Sweet remembrances of the past"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 153,
+    "word": "sciamannato",
+    "meaning": "scruffy, sloppy (regional)",
+    "meanings": {
+      "en": "scruffy",
+      "es": "desaliñado",
+      "ja": "だらしない",
+      "ko": "흐트러진"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "regional",
+      "colloquial"
+    ],
+    "examples": [
+      {
+        "italian": "Va in giro tutto sciamannato",
+        "english": "He goes around all scruffy"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 145,
+    "word": "struggente",
+    "meaning": "heartrending, poignant",
+    "meanings": {
+      "en": "heartrending",
+      "es": "desgarrador",
+      "ja": "心を締め付ける",
+      "ko": "애절한"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "literary",
+      "emotional"
+    ],
+    "examples": [
+      {
+        "italian": "Una melodia struggente",
+        "english": "A heartrending melody"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
+  },
+  {
+    "id": 144,
+    "word": "vagheggiare",
+    "meaning": "to dream of, to yearn for",
+    "meanings": {
+      "en": "to dream of",
+      "es": "soñar con",
+      "ja": "夢見る",
+      "ko": "동경하다"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "literary",
+      "rare"
+    ],
+    "examples": [
+      {
+        "italian": "Vagheggiava un futuro migliore",
+        "english": "He dreamed of a better future"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 7
   }
 ]

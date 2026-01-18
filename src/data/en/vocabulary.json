@@ -1,1234 +1,3138 @@
 [
   {
-    "id": "en-vocab-1",
-    "word": "hello",
-    "reading": "hello",
-    "meaning": "a greeting",
-    "meanings": { "es": "hola", "ja": "こんにちは", "ko": "안녕하세요", "de": "hallo" },
-    "level": "A1",
-    "partOfSpeech": "interjection",
-    "examples": [{ "english": "Hello, how are you?", "translation": "Hola, ¿cómo estás?" }],
-    "tags": ["greetings", "basic"]
-  },
-  {
-    "id": "en-vocab-2",
-    "word": "goodbye",
-    "reading": "goodbye",
-    "meaning": "a farewell",
-    "meanings": { "es": "adiós", "ja": "さようなら", "ko": "안녕히 가세요", "de": "auf Wiedersehen" },
-    "level": "A1",
-    "partOfSpeech": "interjection",
-    "examples": [{ "english": "Goodbye, see you tomorrow!", "translation": "¡Adiós, nos vemos mañana!" }],
-    "tags": ["greetings", "basic"]
-  },
-  {
-    "id": "en-vocab-3",
-    "word": "please",
-    "reading": "please",
-    "meaning": "used to add politeness",
-    "meanings": { "es": "por favor", "ja": "お願いします", "ko": "제발", "de": "bitte" },
-    "level": "A1",
-    "partOfSpeech": "adverb",
-    "examples": [{ "english": "Please help me.", "translation": "Por favor, ayúdame." }],
-    "tags": ["polite", "basic"]
-  },
-  {
-    "id": "en-vocab-4",
-    "word": "thank you",
-    "reading": "thank you",
-    "meaning": "expression of gratitude",
-    "meanings": { "es": "gracias", "ja": "ありがとう", "ko": "감사합니다", "de": "danke" },
-    "level": "A1",
-    "partOfSpeech": "interjection",
-    "examples": [{ "english": "Thank you very much!", "translation": "¡Muchas gracias!" }],
-    "tags": ["polite", "basic"]
-  },
-  {
-    "id": "en-vocab-5",
-    "word": "yes",
-    "reading": "yes",
-    "meaning": "affirmative response",
-    "meanings": { "es": "sí", "ja": "はい", "ko": "네", "de": "ja" },
-    "level": "A1",
-    "partOfSpeech": "adverb",
-    "examples": [{ "english": "Yes, I understand.", "translation": "Sí, entiendo." }],
-    "tags": ["basic", "responses"]
-  },
-  {
-    "id": "en-vocab-6",
-    "word": "no",
-    "reading": "no",
-    "meaning": "negative response",
-    "meanings": { "es": "no", "ja": "いいえ", "ko": "아니요", "de": "nein" },
-    "level": "A1",
-    "partOfSpeech": "adverb",
-    "examples": [{ "english": "No, thank you.", "translation": "No, gracias." }],
-    "tags": ["basic", "responses"]
-  },
-  {
-    "id": "en-vocab-7",
-    "word": "water",
-    "reading": "water",
-    "meaning": "a clear liquid",
-    "meanings": { "es": "agua", "ja": "水", "ko": "물", "de": "Wasser" },
-    "level": "A1",
-    "partOfSpeech": "noun",
-    "examples": [{ "english": "I need some water.", "translation": "Necesito agua." }],
-    "tags": ["food", "basic"]
-  },
-  {
-    "id": "en-vocab-8",
-    "word": "food",
-    "reading": "food",
-    "meaning": "things to eat",
-    "meanings": { "es": "comida", "ja": "食べ物", "ko": "음식", "de": "Essen" },
-    "level": "A1",
-    "partOfSpeech": "noun",
-    "examples": [{ "english": "The food is delicious.", "translation": "La comida está deliciosa." }],
-    "tags": ["food", "basic"]
-  },
-  {
-    "id": "en-vocab-9",
-    "word": "house",
-    "reading": "house",
-    "meaning": "a building for living",
-    "meanings": { "es": "casa", "ja": "家", "ko": "집", "de": "Haus" },
-    "level": "A1",
-    "partOfSpeech": "noun",
-    "examples": [{ "english": "This is my house.", "translation": "Esta es mi casa." }],
-    "tags": ["places", "basic"]
-  },
-  {
-    "id": "en-vocab-10",
-    "word": "family",
-    "reading": "family",
-    "meaning": "relatives",
-    "meanings": { "es": "familia", "ja": "家族", "ko": "가족", "de": "Familie" },
-    "level": "A1",
-    "partOfSpeech": "noun",
-    "examples": [{ "english": "I love my family.", "translation": "Amo a mi familia." }],
-    "tags": ["people", "basic"]
-  },
-  {
-    "id": "en-vocab-11",
-    "word": "friend",
-    "reading": "friend",
-    "meaning": "a person you like",
-    "meanings": { "es": "amigo", "ja": "友達", "ko": "친구", "de": "Freund" },
-    "level": "A1",
-    "partOfSpeech": "noun",
-    "examples": [{ "english": "She is my best friend.", "translation": "Ella es mi mejor amiga." }],
-    "tags": ["people", "basic"]
-  },
-  {
-    "id": "en-vocab-12",
-    "word": "work",
-    "reading": "work",
-    "meaning": "job or effort",
-    "meanings": { "es": "trabajo", "ja": "仕事", "ko": "일", "de": "Arbeit" },
-    "level": "A1",
-    "partOfSpeech": "noun",
-    "examples": [{ "english": "I go to work every day.", "translation": "Voy al trabajo todos los días." }],
-    "tags": ["work", "basic"]
-  },
-  {
-    "id": "en-vocab-13",
-    "word": "school",
-    "reading": "school",
-    "meaning": "place of education",
-    "meanings": { "es": "escuela", "ja": "学校", "ko": "학교", "de": "Schule" },
-    "level": "A1",
-    "partOfSpeech": "noun",
-    "examples": [{ "english": "The children go to school.", "translation": "Los niños van a la escuela." }],
-    "tags": ["education", "basic"]
-  },
-  {
-    "id": "en-vocab-14",
-    "word": "time",
-    "reading": "time",
-    "meaning": "duration or moment",
-    "meanings": { "es": "tiempo", "ja": "時間", "ko": "시간", "de": "Zeit" },
-    "level": "A1",
-    "partOfSpeech": "noun",
-    "examples": [{ "english": "What time is it?", "translation": "¿Qué hora es?" }],
-    "tags": ["time", "basic"]
-  },
-  {
-    "id": "en-vocab-15",
-    "word": "day",
-    "reading": "day",
-    "meaning": "24-hour period",
-    "meanings": { "es": "día", "ja": "日", "ko": "날", "de": "Tag" },
-    "level": "A1",
-    "partOfSpeech": "noun",
-    "examples": [{ "english": "Have a nice day!", "translation": "¡Que tengas un buen día!" }],
-    "tags": ["time", "basic"]
-  },
-  {
-    "id": "en-vocab-16",
-    "word": "good",
-    "reading": "good",
-    "meaning": "positive quality",
-    "meanings": { "es": "bueno", "ja": "良い", "ko": "좋다", "de": "gut" },
-    "level": "A1",
-    "partOfSpeech": "adjective",
-    "examples": [{ "english": "This is good.", "translation": "Esto es bueno." }],
-    "tags": ["descriptive", "basic"]
-  },
-  {
-    "id": "en-vocab-17",
+    "id": 544,
     "word": "bad",
-    "reading": "bad",
     "meaning": "negative quality",
-    "meanings": { "es": "malo", "ja": "悪い", "ko": "나쁘다", "de": "schlecht" },
+    "meanings": {
+      "es": "malo",
+      "ja": "悪い",
+      "ko": "나쁘다",
+      "de": "schlecht"
+    },
+    "reading": "bad",
+    "romaji": null,
     "level": "A1",
-    "partOfSpeech": "adjective",
-    "examples": [{ "english": "The weather is bad.", "translation": "El clima está malo." }],
-    "tags": ["descriptive", "basic"]
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "basic"
+    ],
+    "examples": [
+      {
+        "english": "The weather is bad.",
+        "translation": "El clima está malo."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
   },
   {
-    "id": "en-vocab-18",
+    "id": 545,
     "word": "big",
-    "reading": "big",
     "meaning": "large in size",
-    "meanings": { "es": "grande", "ja": "大きい", "ko": "크다", "de": "groß" },
+    "meanings": {
+      "es": "grande",
+      "ja": "大きい",
+      "ko": "크다",
+      "de": "groß"
+    },
+    "reading": "big",
+    "romaji": null,
     "level": "A1",
-    "partOfSpeech": "adjective",
-    "examples": [{ "english": "That is a big house.", "translation": "Esa es una casa grande." }],
-    "tags": ["descriptive", "basic"]
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "basic"
+    ],
+    "examples": [
+      {
+        "english": "That is a big house.",
+        "translation": "Esa es una casa grande."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
   },
   {
-    "id": "en-vocab-19",
-    "word": "small",
-    "reading": "small",
-    "meaning": "little in size",
-    "meanings": { "es": "pequeño", "ja": "小さい", "ko": "작다", "de": "klein" },
+    "id": 542,
+    "word": "day",
+    "meaning": "24-hour period",
+    "meanings": {
+      "es": "día",
+      "ja": "日",
+      "ko": "날",
+      "de": "Tag"
+    },
+    "reading": "day",
+    "romaji": null,
     "level": "A1",
-    "partOfSpeech": "adjective",
-    "examples": [{ "english": "I have a small dog.", "translation": "Tengo un perro pequeño." }],
-    "tags": ["descriptive", "basic"]
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "examples": [
+      {
+        "english": "Have a nice day!",
+        "translation": "¡Que tengas un buen día!"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
   },
   {
-    "id": "en-vocab-20",
+    "id": 537,
+    "word": "family",
+    "meaning": "relatives",
+    "meanings": {
+      "es": "familia",
+      "ja": "家族",
+      "ko": "가족",
+      "de": "Familie"
+    },
+    "reading": "family",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "people",
+      "basic"
+    ],
+    "examples": [
+      {
+        "english": "I love my family.",
+        "translation": "Amo a mi familia."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 535,
+    "word": "food",
+    "meaning": "things to eat",
+    "meanings": {
+      "es": "comida",
+      "ja": "食べ物",
+      "ko": "음식",
+      "de": "Essen"
+    },
+    "reading": "food",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "examples": [
+      {
+        "english": "The food is delicious.",
+        "translation": "La comida está deliciosa."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 538,
+    "word": "friend",
+    "meaning": "a person you like",
+    "meanings": {
+      "es": "amigo",
+      "ja": "友達",
+      "ko": "친구",
+      "de": "Freund"
+    },
+    "reading": "friend",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "people",
+      "basic"
+    ],
+    "examples": [
+      {
+        "english": "She is my best friend.",
+        "translation": "Ella es mi mejor amiga."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 543,
+    "word": "good",
+    "meaning": "positive quality",
+    "meanings": {
+      "es": "bueno",
+      "ja": "良い",
+      "ko": "좋다",
+      "de": "gut"
+    },
+    "reading": "good",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "basic"
+    ],
+    "examples": [
+      {
+        "english": "This is good.",
+        "translation": "Esto es bueno."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 529,
+    "word": "goodbye",
+    "meaning": "a farewell",
+    "meanings": {
+      "es": "adiós",
+      "ja": "さようなら",
+      "ko": "안녕히 가세요",
+      "de": "auf Wiedersehen"
+    },
+    "reading": "goodbye",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "interjection",
+    "tags": [
+      "greetings",
+      "basic"
+    ],
+    "examples": [
+      {
+        "english": "Goodbye, see you tomorrow!",
+        "translation": "¡Adiós, nos vemos mañana!"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 528,
+    "word": "hello",
+    "meaning": "a greeting",
+    "meanings": {
+      "es": "hola",
+      "ja": "こんにちは",
+      "ko": "안녕하세요",
+      "de": "hallo"
+    },
+    "reading": "hello",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "interjection",
+    "tags": [
+      "greetings",
+      "basic"
+    ],
+    "examples": [
+      {
+        "english": "Hello, how are you?",
+        "translation": "Hola, ¿cómo estás?"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 536,
+    "word": "house",
+    "meaning": "a building for living",
+    "meanings": {
+      "es": "casa",
+      "ja": "家",
+      "ko": "집",
+      "de": "Haus"
+    },
+    "reading": "house",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "places",
+      "basic"
+    ],
+    "examples": [
+      {
+        "english": "This is my house.",
+        "translation": "Esta es mi casa."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 547,
     "word": "new",
-    "reading": "new",
     "meaning": "recently made",
-    "meanings": { "es": "nuevo", "ja": "新しい", "ko": "새롭다", "de": "neu" },
+    "meanings": {
+      "es": "nuevo",
+      "ja": "新しい",
+      "ko": "새롭다",
+      "de": "neu"
+    },
+    "reading": "new",
+    "romaji": null,
     "level": "A1",
-    "partOfSpeech": "adjective",
-    "examples": [{ "english": "I bought a new car.", "translation": "Compré un carro nuevo." }],
-    "tags": ["descriptive", "basic"]
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "basic"
+    ],
+    "examples": [
+      {
+        "english": "I bought a new car.",
+        "translation": "Compré un carro nuevo."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
   },
   {
-    "id": "en-vocab-21",
-    "word": "to eat",
-    "reading": "to eat",
-    "meaning": "consume food",
-    "meanings": { "es": "comer", "ja": "食べる", "ko": "먹다", "de": "essen" },
+    "id": 533,
+    "word": "no",
+    "meaning": "negative response",
+    "meanings": {
+      "es": "no",
+      "ja": "いいえ",
+      "ko": "아니요",
+      "de": "nein"
+    },
+    "reading": "no",
+    "romaji": null,
     "level": "A1",
-    "partOfSpeech": "verb",
-    "examples": [{ "english": "I eat breakfast.", "translation": "Yo desayuno." }],
-    "tags": ["food", "basic"]
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [
+      "basic",
+      "responses"
+    ],
+    "examples": [
+      {
+        "english": "No, thank you.",
+        "translation": "No, gracias."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
   },
   {
-    "id": "en-vocab-22",
-    "word": "to drink",
-    "reading": "to drink",
-    "meaning": "consume liquid",
-    "meanings": { "es": "beber", "ja": "飲む", "ko": "마시다", "de": "trinken" },
+    "id": 530,
+    "word": "please",
+    "meaning": "used to add politeness",
+    "meanings": {
+      "es": "por favor",
+      "ja": "お願いします",
+      "ko": "제발",
+      "de": "bitte"
+    },
+    "reading": "please",
+    "romaji": null,
     "level": "A1",
-    "partOfSpeech": "verb",
-    "examples": [{ "english": "I drink coffee.", "translation": "Bebo café." }],
-    "tags": ["food", "basic"]
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [
+      "polite",
+      "basic"
+    ],
+    "examples": [
+      {
+        "english": "Please help me.",
+        "translation": "Por favor, ayúdame."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
   },
   {
-    "id": "en-vocab-23",
-    "word": "to go",
-    "reading": "to go",
-    "meaning": "move to a place",
-    "meanings": { "es": "ir", "ja": "行く", "ko": "가다", "de": "gehen" },
+    "id": 540,
+    "word": "school",
+    "meaning": "place of education",
+    "meanings": {
+      "es": "escuela",
+      "ja": "学校",
+      "ko": "학교",
+      "de": "Schule"
+    },
+    "reading": "school",
+    "romaji": null,
     "level": "A1",
-    "partOfSpeech": "verb",
-    "examples": [{ "english": "I go to school.", "translation": "Voy a la escuela." }],
-    "tags": ["movement", "basic"]
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "education",
+      "basic"
+    ],
+    "examples": [
+      {
+        "english": "The children go to school.",
+        "translation": "Los niños van a la escuela."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
   },
   {
-    "id": "en-vocab-24",
+    "id": 546,
+    "word": "small",
+    "meaning": "little in size",
+    "meanings": {
+      "es": "pequeño",
+      "ja": "小さい",
+      "ko": "작다",
+      "de": "klein"
+    },
+    "reading": "small",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "basic"
+    ],
+    "examples": [
+      {
+        "english": "I have a small dog.",
+        "translation": "Tengo un perro pequeño."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 531,
+    "word": "thank you",
+    "meaning": "expression of gratitude",
+    "meanings": {
+      "es": "gracias",
+      "ja": "ありがとう",
+      "ko": "감사합니다",
+      "de": "danke"
+    },
+    "reading": "thank you",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "interjection",
+    "tags": [
+      "polite",
+      "basic"
+    ],
+    "examples": [
+      {
+        "english": "Thank you very much!",
+        "translation": "¡Muchas gracias!"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 541,
+    "word": "time",
+    "meaning": "duration or moment",
+    "meanings": {
+      "es": "tiempo",
+      "ja": "時間",
+      "ko": "시간",
+      "de": "Zeit"
+    },
+    "reading": "time",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "examples": [
+      {
+        "english": "What time is it?",
+        "translation": "¿Qué hora es?"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 551,
     "word": "to come",
-    "reading": "to come",
     "meaning": "move toward",
-    "meanings": { "es": "venir", "ja": "来る", "ko": "오다", "de": "kommen" },
+    "meanings": {
+      "es": "venir",
+      "ja": "来る",
+      "ko": "오다",
+      "de": "kommen"
+    },
+    "reading": "to come",
+    "romaji": null,
     "level": "A1",
-    "partOfSpeech": "verb",
-    "examples": [{ "english": "Please come here.", "translation": "Por favor, ven aquí." }],
-    "tags": ["movement", "basic"]
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "movement",
+      "basic"
+    ],
+    "examples": [
+      {
+        "english": "Please come here.",
+        "translation": "Por favor, ven aquí."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
   },
   {
-    "id": "en-vocab-25",
-    "word": "to see",
-    "reading": "to see",
-    "meaning": "perceive with eyes",
-    "meanings": { "es": "ver", "ja": "見る", "ko": "보다", "de": "sehen" },
+    "id": 549,
+    "word": "to drink",
+    "meaning": "consume liquid",
+    "meanings": {
+      "es": "beber",
+      "ja": "飲む",
+      "ko": "마시다",
+      "de": "trinken"
+    },
+    "reading": "to drink",
+    "romaji": null,
     "level": "A1",
-    "partOfSpeech": "verb",
-    "examples": [{ "english": "I see the mountain.", "translation": "Veo la montaña." }],
-    "tags": ["senses", "basic"]
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "examples": [
+      {
+        "english": "I drink coffee.",
+        "translation": "Bebo café."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
   },
   {
-    "id": "en-vocab-26",
+    "id": 548,
+    "word": "to eat",
+    "meaning": "consume food",
+    "meanings": {
+      "es": "comer",
+      "ja": "食べる",
+      "ko": "먹다",
+      "de": "essen"
+    },
+    "reading": "to eat",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "examples": [
+      {
+        "english": "I eat breakfast.",
+        "translation": "Yo desayuno."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 550,
+    "word": "to go",
+    "meaning": "move to a place",
+    "meanings": {
+      "es": "ir",
+      "ja": "行く",
+      "ko": "가다",
+      "de": "gehen"
+    },
+    "reading": "to go",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "movement",
+      "basic"
+    ],
+    "examples": [
+      {
+        "english": "I go to school.",
+        "translation": "Voy a la escuela."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 553,
     "word": "to hear",
-    "reading": "to hear",
     "meaning": "perceive with ears",
-    "meanings": { "es": "escuchar", "ja": "聞く", "ko": "듣다", "de": "hören" },
+    "meanings": {
+      "es": "escuchar",
+      "ja": "聞く",
+      "ko": "듣다",
+      "de": "hören"
+    },
+    "reading": "to hear",
+    "romaji": null,
     "level": "A1",
-    "partOfSpeech": "verb",
-    "examples": [{ "english": "I hear music.", "translation": "Escucho música." }],
-    "tags": ["senses", "basic"]
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "senses",
+      "basic"
+    ],
+    "examples": [
+      {
+        "english": "I hear music.",
+        "translation": "Escucho música."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
   },
   {
-    "id": "en-vocab-27",
-    "word": "to speak",
-    "reading": "to speak",
-    "meaning": "use words",
-    "meanings": { "es": "hablar", "ja": "話す", "ko": "말하다", "de": "sprechen" },
-    "level": "A1",
-    "partOfSpeech": "verb",
-    "examples": [{ "english": "Do you speak English?", "translation": "¿Hablas inglés?" }],
-    "tags": ["communication", "basic"]
-  },
-  {
-    "id": "en-vocab-28",
-    "word": "to read",
-    "reading": "to read",
-    "meaning": "understand written words",
-    "meanings": { "es": "leer", "ja": "読む", "ko": "읽다", "de": "lesen" },
-    "level": "A1",
-    "partOfSpeech": "verb",
-    "examples": [{ "english": "I read books.", "translation": "Leo libros." }],
-    "tags": ["study", "basic"]
-  },
-  {
-    "id": "en-vocab-29",
-    "word": "to write",
-    "reading": "to write",
-    "meaning": "form letters or words",
-    "meanings": { "es": "escribir", "ja": "書く", "ko": "쓰다", "de": "schreiben" },
-    "level": "A1",
-    "partOfSpeech": "verb",
-    "examples": [{ "english": "I write emails.", "translation": "Escribo correos." }],
-    "tags": ["study", "basic"]
-  },
-  {
-    "id": "en-vocab-30",
+    "id": 557,
     "word": "to learn",
-    "reading": "to learn",
     "meaning": "gain knowledge",
-    "meanings": { "es": "aprender", "ja": "学ぶ", "ko": "배우다", "de": "lernen" },
+    "meanings": {
+      "es": "aprender",
+      "ja": "学ぶ",
+      "ko": "배우다",
+      "de": "lernen"
+    },
+    "reading": "to learn",
+    "romaji": null,
     "level": "A1",
-    "partOfSpeech": "verb",
-    "examples": [{ "english": "I learn new things every day.", "translation": "Aprendo cosas nuevas cada día." }],
-    "tags": ["education", "basic"]
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "education",
+      "basic"
+    ],
+    "examples": [
+      {
+        "english": "I learn new things every day.",
+        "translation": "Aprendo cosas nuevas cada día."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
   },
   {
-    "id": "en-vocab-31",
-    "word": "anxious",
-    "reading": "",
-    "meaning": "feeling worried or nervous",
-    "meanings": { "es": "ansioso", "ja": "不安な", "ko": "불안한", "de": "ängstlich" },
-    "level": "B1",
-    "partOfSpeech": "adjective",
-    "examples": [{ "english": "I feel anxious about the exam.", "translation": "Me siento ansioso por el examen." }],
-    "tags": ["emotions", "intermediate"]
+    "id": 555,
+    "word": "to read",
+    "meaning": "understand written words",
+    "meanings": {
+      "es": "leer",
+      "ja": "読む",
+      "ko": "읽다",
+      "de": "lesen"
+    },
+    "reading": "to read",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "study",
+      "basic"
+    ],
+    "examples": [
+      {
+        "english": "I read books.",
+        "translation": "Leo libros."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
   },
   {
-    "id": "en-vocab-32",
-    "word": "frustrating",
-    "reading": "",
-    "meaning": "causing annoyance or disappointment",
-    "meanings": { "es": "frustrante", "ja": "イライラする", "ko": "답답한", "de": "frustrierend" },
-    "level": "B1",
-    "partOfSpeech": "adjective",
-    "examples": [{ "english": "Learning a new language can be frustrating.", "translation": "Aprender un nuevo idioma puede ser frustrante." }],
-    "tags": ["emotions", "intermediate"]
+    "id": 552,
+    "word": "to see",
+    "meaning": "perceive with eyes",
+    "meanings": {
+      "es": "ver",
+      "ja": "見る",
+      "ko": "보다",
+      "de": "sehen"
+    },
+    "reading": "to see",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "senses",
+      "basic"
+    ],
+    "examples": [
+      {
+        "english": "I see the mountain.",
+        "translation": "Veo la montaña."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
   },
   {
-    "id": "en-vocab-33",
-    "word": "deadline",
-    "reading": "",
-    "meaning": "the latest time something must be completed",
-    "meanings": { "es": "fecha límite", "ja": "締め切り", "ko": "마감일", "de": "Frist" },
-    "level": "B1",
-    "partOfSpeech": "noun",
-    "examples": [{ "english": "The deadline for the project is next Friday.", "translation": "La fecha límite del proyecto es el próximo viernes." }],
-    "tags": ["workplace", "intermediate"]
+    "id": 554,
+    "word": "to speak",
+    "meaning": "use words",
+    "meanings": {
+      "es": "hablar",
+      "ja": "話す",
+      "ko": "말하다",
+      "de": "sprechen"
+    },
+    "reading": "to speak",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "communication",
+      "basic"
+    ],
+    "examples": [
+      {
+        "english": "Do you speak English?",
+        "translation": "¿Hablas inglés?"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
   },
   {
-    "id": "en-vocab-34",
-    "word": "colleague",
-    "reading": "",
-    "meaning": "a person you work with",
-    "meanings": { "es": "colega", "ja": "同僚", "ko": "동료", "de": "Kollege" },
-    "level": "B1",
-    "partOfSpeech": "noun",
-    "examples": [{ "english": "My colleague helped me with the presentation.", "translation": "Mi colega me ayudó con la presentación." }],
-    "tags": ["workplace", "intermediate"]
+    "id": 556,
+    "word": "to write",
+    "meaning": "form letters or words",
+    "meanings": {
+      "es": "escribir",
+      "ja": "書く",
+      "ko": "쓰다",
+      "de": "schreiben"
+    },
+    "reading": "to write",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "study",
+      "basic"
+    ],
+    "examples": [
+      {
+        "english": "I write emails.",
+        "translation": "Escribo correos."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
   },
   {
-    "id": "en-vocab-35",
-    "word": "destination",
-    "reading": "",
-    "meaning": "the place you are traveling to",
-    "meanings": { "es": "destino", "ja": "目的地", "ko": "목적지", "de": "Reiseziel" },
-    "level": "B1",
-    "partOfSpeech": "noun",
-    "examples": [{ "english": "Our final destination is Paris.", "translation": "Nuestro destino final es París." }],
-    "tags": ["travel", "intermediate"]
+    "id": 534,
+    "word": "water",
+    "meaning": "a clear liquid",
+    "meanings": {
+      "es": "agua",
+      "ja": "水",
+      "ko": "물",
+      "de": "Wasser"
+    },
+    "reading": "water",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "examples": [
+      {
+        "english": "I need some water.",
+        "translation": "Necesito agua."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
   },
   {
-    "id": "en-vocab-36",
+    "id": 539,
+    "word": "work",
+    "meaning": "job or effort",
+    "meanings": {
+      "es": "trabajo",
+      "ja": "仕事",
+      "ko": "일",
+      "de": "Arbeit"
+    },
+    "reading": "work",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "work",
+      "basic"
+    ],
+    "examples": [
+      {
+        "english": "I go to work every day.",
+        "translation": "Voy al trabajo todos los días."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 532,
+    "word": "yes",
+    "meaning": "affirmative response",
+    "meanings": {
+      "es": "sí",
+      "ja": "はい",
+      "ko": "네",
+      "de": "ja"
+    },
+    "reading": "yes",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [
+      "basic",
+      "responses"
+    ],
+    "examples": [
+      {
+        "english": "Yes, I understand.",
+        "translation": "Sí, entiendo."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 563,
     "word": "accommodation",
-    "reading": "",
     "meaning": "a place to stay during travel",
-    "meanings": { "es": "alojamiento", "ja": "宿泊施設", "ko": "숙박 시설", "de": "Unterkunft" },
+    "meanings": {
+      "es": "alojamiento",
+      "ja": "宿泊施設",
+      "ko": "숙박 시설",
+      "de": "Unterkunft"
+    },
+    "reading": null,
+    "romaji": null,
     "level": "B1",
-    "partOfSpeech": "noun",
-    "examples": [{ "english": "The accommodation includes breakfast.", "translation": "El alojamiento incluye desayuno." }],
-    "tags": ["travel", "intermediate"]
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "travel",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "english": "The accommodation includes breakfast.",
+        "translation": "El alojamiento incluye desayuno."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
   },
   {
-    "id": "en-vocab-37",
-    "word": "symptom",
-    "reading": "",
-    "meaning": "a sign of illness",
-    "meanings": { "es": "síntoma", "ja": "症状", "ko": "증상", "de": "Symptom" },
-    "level": "B1",
-    "partOfSpeech": "noun",
-    "examples": [{ "english": "Fever is a common symptom of the flu.", "translation": "La fiebre es un síntoma común de la gripe." }],
-    "tags": ["health", "intermediate"]
-  },
-  {
-    "id": "en-vocab-38",
-    "word": "prescription",
-    "reading": "",
-    "meaning": "doctor's written order for medicine",
-    "meanings": { "es": "receta médica", "ja": "処方箋", "ko": "처방전", "de": "Rezept" },
-    "level": "B1",
-    "partOfSpeech": "noun",
-    "examples": [{ "english": "You need a prescription for this medication.", "translation": "Necesitas una receta para este medicamento." }],
-    "tags": ["health", "intermediate"]
-  },
-  {
-    "id": "en-vocab-39",
-    "word": "confident",
-    "reading": "",
-    "meaning": "feeling sure of yourself",
-    "meanings": { "es": "seguro de sí mismo", "ja": "自信のある", "ko": "자신감 있는", "de": "selbstbewusst" },
-    "level": "B1",
-    "partOfSpeech": "adjective",
-    "examples": [{ "english": "She is confident about passing the test.", "translation": "Ella está segura de aprobar el examen." }],
-    "tags": ["emotions", "intermediate"]
-  },
-  {
-    "id": "en-vocab-40",
-    "word": "disappointed",
-    "reading": "",
-    "meaning": "sad because something was not as expected",
-    "meanings": { "es": "decepcionado", "ja": "がっかりした", "ko": "실망한", "de": "enttäuscht" },
-    "level": "B1",
-    "partOfSpeech": "adjective",
-    "examples": [{ "english": "I was disappointed with the results.", "translation": "Estaba decepcionado con los resultados." }],
-    "tags": ["emotions", "intermediate"]
-  },
-  {
-    "id": "en-vocab-41",
-    "word": "ambiguous",
-    "reading": "",
-    "meaning": "having more than one meaning; unclear",
-    "meanings": { "es": "ambiguo", "ja": "曖昧な", "ko": "모호한", "de": "mehrdeutig" },
-    "level": "B2",
-    "partOfSpeech": "adjective",
-    "examples": [{ "english": "His answer was deliberately ambiguous.", "translation": "Su respuesta fue deliberadamente ambigua." }],
-    "tags": ["abstract", "advanced"]
-  },
-  {
-    "id": "en-vocab-42",
-    "word": "dilemma",
-    "reading": "",
-    "meaning": "a difficult choice between two options",
-    "meanings": { "es": "dilema", "ja": "ジレンマ", "ko": "딜레마", "de": "Dilemma" },
-    "level": "B2",
-    "partOfSpeech": "noun",
-    "examples": [{ "english": "She faced a moral dilemma.", "translation": "Ella enfrentó un dilema moral." }],
-    "tags": ["abstract", "advanced"]
-  },
-  {
-    "id": "en-vocab-43",
-    "word": "to undermine",
-    "reading": "",
-    "meaning": "to weaken or damage gradually",
-    "meanings": { "es": "socavar", "ja": "弱体化させる", "ko": "약화시키다", "de": "untergraben" },
-    "level": "B2",
-    "partOfSpeech": "verb",
-    "examples": [{ "english": "These actions could undermine trust.", "translation": "Estas acciones podrían socavar la confianza." }],
-    "tags": ["business", "advanced"]
-  },
-  {
-    "id": "en-vocab-44",
-    "word": "to take something for granted",
-    "reading": "",
-    "meaning": "to not appreciate something's value",
-    "meanings": { "es": "dar por sentado", "ja": "当然のことと思う", "ko": "당연하게 여기다", "de": "als selbstverständlich betrachten" },
-    "level": "B2",
-    "partOfSpeech": "idiom",
-    "examples": [{ "english": "Don't take your health for granted.", "translation": "No des tu salud por sentada." }],
-    "tags": ["idioms", "advanced"]
-  },
-  {
-    "id": "en-vocab-45",
-    "word": "to be on the same page",
-    "reading": "",
-    "meaning": "to have the same understanding",
-    "meanings": { "es": "estar en la misma sintonía", "ja": "同じ認識を持つ", "ko": "같은 생각을 하다", "de": "auf dem gleichen Stand sein" },
-    "level": "B2",
-    "partOfSpeech": "idiom",
-    "examples": [{ "english": "Let's make sure we're on the same page.", "translation": "Asegurémonos de estar en la misma sintonía." }],
-    "tags": ["idioms", "business"]
-  },
-  {
-    "id": "en-vocab-46",
-    "word": "feasible",
-    "reading": "",
-    "meaning": "possible and practical to do",
-    "meanings": { "es": "factible", "ja": "実行可能な", "ko": "실행 가능한", "de": "machbar" },
-    "level": "B2",
-    "partOfSpeech": "adjective",
-    "examples": [{ "english": "Is this plan economically feasible?", "translation": "¿Es este plan económicamente factible?" }],
-    "tags": ["business", "advanced"]
-  },
-  {
-    "id": "en-vocab-47",
-    "word": "stakeholder",
-    "reading": "",
-    "meaning": "person with interest in a project or company",
-    "meanings": { "es": "interesado", "ja": "利害関係者", "ko": "이해관계자", "de": "Interessenvertreter" },
-    "level": "B2",
-    "partOfSpeech": "noun",
-    "examples": [{ "english": "We need to consult all stakeholders.", "translation": "Necesitamos consultar a todos los interesados." }],
-    "tags": ["business", "advanced"]
-  },
-  {
-    "id": "en-vocab-48",
-    "word": "hypothetical",
-    "reading": "",
-    "meaning": "imagined or theoretical, not real",
-    "meanings": { "es": "hipotético", "ja": "仮定の", "ko": "가설적인", "de": "hypothetisch" },
-    "level": "B2",
-    "partOfSpeech": "adjective",
-    "examples": [{ "english": "Let's consider a hypothetical scenario.", "translation": "Consideremos un escenario hipotético." }],
-    "tags": ["abstract", "advanced"]
-  },
-  {
-    "id": "en-vocab-49",
-    "word": "to procrastinate",
-    "reading": "",
-    "meaning": "to delay doing something",
-    "meanings": { "es": "procrastinar", "ja": "先延ばしにする", "ko": "미루다", "de": "aufschieben" },
-    "level": "B2",
-    "partOfSpeech": "verb",
-    "examples": [{ "english": "I tend to procrastinate when I'm stressed.", "translation": "Tiendo a procrastinar cuando estoy estresado." }],
-    "tags": ["psychology", "advanced"]
-  },
-  {
-    "id": "en-vocab-50",
-    "word": "resilient",
-    "reading": "",
-    "meaning": "able to recover from difficulties",
-    "meanings": { "es": "resiliente", "ja": "回復力のある", "ko": "회복력 있는", "de": "widerstandsfähig" },
-    "level": "B2",
-    "partOfSpeech": "adjective",
-    "examples": [{ "english": "Children can be remarkably resilient.", "translation": "Los niños pueden ser notablemente resilientes." }],
-    "tags": ["psychology", "advanced"]
-  },
-  {
-    "id": "en-vocab-51",
-    "word": "nuanced",
-    "reading": "",
-    "meaning": "having subtle distinctions or variations",
-    "meanings": { "es": "matizado", "ja": "微妙な違いのある", "ko": "미묘한 차이가 있는", "de": "nuanciert" },
-    "level": "C1",
-    "partOfSpeech": "adjective",
-    "examples": [{ "english": "The topic requires a more nuanced discussion.", "translation": "El tema requiere una discusión más matizada." }],
-    "tags": ["academic", "sophisticated"]
-  },
-  {
-    "id": "en-vocab-52",
-    "word": "to corroborate",
-    "reading": "",
-    "meaning": "to confirm or support with evidence",
-    "meanings": { "es": "corroborar", "ja": "裏付ける", "ko": "확증하다", "de": "bestätigen" },
-    "level": "C1",
-    "partOfSpeech": "verb",
-    "examples": [{ "english": "The witness testimony corroborates the evidence.", "translation": "El testimonio del testigo corrobora la evidencia." }],
-    "tags": ["formal", "academic"]
-  },
-  {
-    "id": "en-vocab-53",
-    "word": "conundrum",
-    "reading": "",
-    "meaning": "a confusing or difficult problem",
-    "meanings": { "es": "enigma", "ja": "難問", "ko": "수수께끼", "de": "Rätsel" },
-    "level": "C1",
-    "partOfSpeech": "noun",
-    "examples": [{ "english": "This ethical conundrum has no easy solution.", "translation": "Este enigma ético no tiene solución fácil." }],
-    "tags": ["academic", "sophisticated"]
-  },
-  {
-    "id": "en-vocab-54",
-    "word": "to exacerbate",
-    "reading": "",
-    "meaning": "to make a problem worse",
-    "meanings": { "es": "exacerbar", "ja": "悪化させる", "ko": "악화시키다", "de": "verschärfen" },
-    "level": "C1",
-    "partOfSpeech": "verb",
-    "examples": [{ "english": "The policy may exacerbate inequality.", "translation": "La política puede exacerbar la desigualdad." }],
-    "tags": ["formal", "academic"]
-  },
-  {
-    "id": "en-vocab-55",
-    "word": "ubiquitous",
-    "reading": "",
-    "meaning": "present or found everywhere",
-    "meanings": { "es": "ubicuo", "ja": "至る所にある", "ko": "어디에나 있는", "de": "allgegenwärtig" },
-    "level": "C1",
-    "partOfSpeech": "adjective",
-    "examples": [{ "english": "Smartphones have become ubiquitous.", "translation": "Los teléfonos inteligentes se han vuelto ubicuos." }],
-    "tags": ["academic", "sophisticated"]
-  },
-  {
-    "id": "en-vocab-56",
-    "word": "paradigm",
-    "reading": "",
-    "meaning": "a typical example or model",
-    "meanings": { "es": "paradigma", "ja": "パラダイム", "ko": "패러다임", "de": "Paradigma" },
-    "level": "C1",
-    "partOfSpeech": "noun",
-    "examples": [{ "english": "This represents a paradigm shift in thinking.", "translation": "Esto representa un cambio de paradigma en el pensamiento." }],
-    "tags": ["academic", "sophisticated"]
-  },
-  {
-    "id": "en-vocab-57",
-    "word": "to mitigate",
-    "reading": "",
-    "meaning": "to make less severe or serious",
-    "meanings": { "es": "mitigar", "ja": "軽減する", "ko": "완화하다", "de": "mildern" },
-    "level": "C1",
-    "partOfSpeech": "verb",
-    "examples": [{ "english": "We need to mitigate the risks involved.", "translation": "Necesitamos mitigar los riesgos involucrados." }],
-    "tags": ["formal", "business"]
-  },
-  {
-    "id": "en-vocab-58",
-    "word": "to elucidate",
-    "reading": "",
-    "meaning": "to make clear or explain",
-    "meanings": { "es": "elucidar", "ja": "解明する", "ko": "명확히 하다", "de": "erläutern" },
-    "level": "C1",
-    "partOfSpeech": "verb",
-    "examples": [{ "english": "Could you elucidate your position?", "translation": "¿Podría elucidar su posición?" }],
-    "tags": ["formal", "academic"]
-  },
-  {
-    "id": "en-vocab-59",
-    "word": "inherent",
-    "reading": "",
-    "meaning": "existing as a natural or essential part",
-    "meanings": { "es": "inherente", "ja": "固有の", "ko": "고유한", "de": "inhärent" },
-    "level": "C1",
-    "partOfSpeech": "adjective",
-    "examples": [{ "english": "There are inherent risks in any investment.", "translation": "Hay riesgos inherentes en cualquier inversión." }],
-    "tags": ["formal", "academic"]
-  },
-  {
-    "id": "en-vocab-60",
-    "word": "juxtaposition",
-    "reading": "",
-    "meaning": "placing things side by side for contrast",
-    "meanings": { "es": "yuxtaposición", "ja": "並置", "ko": "병치", "de": "Nebeneinanderstellung" },
-    "level": "C1",
-    "partOfSpeech": "noun",
-    "examples": [{ "english": "The juxtaposition of wealth and poverty is striking.", "translation": "La yuxtaposición de riqueza y pobreza es impactante." }],
-    "tags": ["academic", "literary"]
-  },
-  {
-    "id": "en-vocab-61",
-    "word": "ephemeral",
-    "reading": "",
-    "meaning": "lasting for a very short time",
-    "meanings": { "es": "efímero", "ja": "はかない", "ko": "덧없는", "de": "vergänglich" },
-    "level": "C2",
-    "partOfSpeech": "adjective",
-    "examples": [{ "english": "Fame can be ephemeral.", "translation": "La fama puede ser efímera." }],
-    "tags": ["literary", "near-native"]
-  },
-  {
-    "id": "en-vocab-62",
-    "word": "obfuscate",
-    "reading": "",
-    "meaning": "to make unclear or confusing deliberately",
-    "meanings": { "es": "ofuscar", "ja": "曖昧にする", "ko": "모호하게 하다", "de": "verschleiern" },
-    "level": "C2",
-    "partOfSpeech": "verb",
-    "examples": [{ "english": "Politicians often obfuscate the truth.", "translation": "Los políticos a menudo ofuscan la verdad." }],
-    "tags": ["literary", "near-native"]
-  },
-  {
-    "id": "en-vocab-63",
-    "word": "sycophant",
-    "reading": "",
-    "meaning": "a person who flatters powerful people",
-    "meanings": { "es": "sicofante", "ja": "おべっか使い", "ko": "아첨꾼", "de": "Schmeichler" },
-    "level": "C2",
-    "partOfSpeech": "noun",
-    "examples": [{ "english": "He surrounded himself with sycophants.", "translation": "Se rodeó de sicofantes." }],
-    "tags": ["literary", "rare"]
-  },
-  {
-    "id": "en-vocab-64",
-    "word": "to pontificate",
-    "reading": "",
-    "meaning": "to express opinions pompously",
-    "meanings": { "es": "pontificar", "ja": "偉そうに言う", "ko": "거드름 피우며 말하다", "de": "dozieren" },
-    "level": "C2",
-    "partOfSpeech": "verb",
-    "examples": [{ "english": "He loves to pontificate about politics.", "translation": "Le encanta pontificar sobre política." }],
-    "tags": ["colloquial", "rare"]
-  },
-  {
-    "id": "en-vocab-65",
-    "word": "serendipity",
-    "reading": "",
-    "meaning": "fortunate discovery by accident",
-    "meanings": { "es": "serendipia", "ja": "幸運な偶然", "ko": "뜻밖의 행운", "de": "glücklicher Zufall" },
-    "level": "C2",
-    "partOfSpeech": "noun",
-    "examples": [{ "english": "Meeting her was pure serendipity.", "translation": "Conocerla fue pura serendipia." }],
-    "tags": ["literary", "rare"]
-  },
-  {
-    "id": "en-vocab-66",
-    "word": "verisimilitude",
-    "reading": "",
-    "meaning": "the appearance of being true or real",
-    "meanings": { "es": "verosimilitud", "ja": "真実らしさ", "ko": "진실다움", "de": "Wahrscheinlichkeit" },
-    "level": "C2",
-    "partOfSpeech": "noun",
-    "examples": [{ "english": "The novel has remarkable verisimilitude.", "translation": "La novela tiene una verosimilitud notable." }],
-    "tags": ["literary", "rare"]
-  },
-  {
-    "id": "en-vocab-67",
-    "word": "to prevaricate",
-    "reading": "",
-    "meaning": "to speak evasively or misleadingly",
-    "meanings": { "es": "prevaricar", "ja": "言葉を濁す", "ko": "말을 얼버무리다", "de": "ausweichen" },
-    "level": "C2",
-    "partOfSpeech": "verb",
-    "examples": [{ "english": "Stop prevaricating and answer the question.", "translation": "Deja de prevaricar y responde la pregunta." }],
-    "tags": ["formal", "rare"]
-  },
-  {
-    "id": "en-vocab-68",
-    "word": "schadenfreude",
-    "reading": "",
-    "meaning": "pleasure from others' misfortune",
-    "meanings": { "es": "alegría del mal ajeno", "ja": "他人の不幸を喜ぶこと", "ko": "남의 불행을 즐기는 심리", "de": "Schadenfreude" },
-    "level": "C2",
-    "partOfSpeech": "noun",
-    "examples": [{ "english": "She felt a twinge of schadenfreude at his failure.", "translation": "Sintió una pizca de alegría del mal ajeno por su fracaso." }],
-    "tags": ["colloquial", "rare"]
-  },
-  {
-    "id": "en-vocab-69",
-    "word": "laconic",
-    "reading": "",
-    "meaning": "using very few words",
-    "meanings": { "es": "lacónico", "ja": "簡潔な", "ko": "간결한", "de": "lakonisch" },
-    "level": "C2",
-    "partOfSpeech": "adjective",
-    "examples": [{ "english": "His laconic reply surprised everyone.", "translation": "Su respuesta lacónica sorprendió a todos." }],
-    "tags": ["literary", "rare"]
-  },
-  {
-    "id": "en-vocab-70",
-    "word": "to vacillate",
-    "reading": "",
-    "meaning": "to waver between different opinions",
-    "meanings": { "es": "vacilar", "ja": "迷う", "ko": "동요하다", "de": "schwanken" },
-    "level": "C2",
-    "partOfSpeech": "verb",
-    "examples": [{ "english": "He continued to vacillate about the decision.", "translation": "Continuó vacilando sobre la decisión." }],
-    "tags": ["formal", "rare"]
-  },
-  {
-    "id": "en-vocab-71",
-    "word": "overwhelmed",
-    "reading": "",
-    "meaning": "feeling completely overcome by emotions or tasks",
-    "meanings": { "es": "abrumado", "ja": "圧倒された", "ko": "압도된", "de": "überwältigt" },
-    "level": "B1",
-    "partOfSpeech": "adjective",
-    "examples": [{ "english": "She felt overwhelmed by all the work she had to do.", "translation": "Se sintió abrumada por todo el trabajo que tenía que hacer." }],
-    "tags": ["emotions", "intermediate"]
-  },
-  {
-    "id": "en-vocab-72",
-    "word": "exhausted",
-    "reading": "",
-    "meaning": "extremely tired",
-    "meanings": { "es": "agotado", "ja": "疲れ果てた", "ko": "지친", "de": "erschöpft" },
-    "level": "B1",
-    "partOfSpeech": "adjective",
-    "examples": [{ "english": "After the marathon, I was completely exhausted.", "translation": "Después del maratón, estaba completamente agotado." }],
-    "tags": ["emotions", "health"]
-  },
-  {
-    "id": "en-vocab-73",
-    "word": "relieved",
-    "reading": "",
-    "meaning": "feeling happy because something unpleasant has ended",
-    "meanings": { "es": "aliviado", "ja": "安心した", "ko": "안도한", "de": "erleichtert" },
-    "level": "B1",
-    "partOfSpeech": "adjective",
-    "examples": [{ "english": "I was relieved to hear that everyone was safe.", "translation": "Me sentí aliviado al saber que todos estaban a salvo." }],
-    "tags": ["emotions", "intermediate"]
-  },
-  {
-    "id": "en-vocab-74",
-    "word": "promotion",
-    "reading": "",
-    "meaning": "advancement to a higher position at work",
-    "meanings": { "es": "promoción", "ja": "昇進", "ko": "승진", "de": "Beförderung" },
-    "level": "B1",
-    "partOfSpeech": "noun",
-    "examples": [{ "english": "She received a promotion after three years at the company.", "translation": "Recibió una promoción después de tres años en la empresa." }],
-    "tags": ["workplace", "intermediate"]
-  },
-  {
-    "id": "en-vocab-75",
-    "word": "salary",
-    "reading": "",
-    "meaning": "regular payment for work, usually monthly",
-    "meanings": { "es": "salario", "ja": "給料", "ko": "급여", "de": "Gehalt" },
-    "level": "B1",
-    "partOfSpeech": "noun",
-    "examples": [{ "english": "The starting salary for this position is $50,000 per year.", "translation": "El salario inicial para este puesto es de $50,000 al año." }],
-    "tags": ["workplace", "intermediate"]
-  },
-  {
-    "id": "en-vocab-76",
-    "word": "to resign",
-    "reading": "",
-    "meaning": "to voluntarily leave a job",
-    "meanings": { "es": "renunciar", "ja": "辞職する", "ko": "사임하다", "de": "kündigen" },
-    "level": "B1",
-    "partOfSpeech": "verb",
-    "examples": [{ "english": "He resigned from his position last month.", "translation": "Renunció a su puesto el mes pasado." }],
-    "tags": ["workplace", "intermediate"]
-  },
-  {
-    "id": "en-vocab-77",
-    "word": "itinerary",
-    "reading": "",
-    "meaning": "a planned route or schedule of travel",
-    "meanings": { "es": "itinerario", "ja": "旅程", "ko": "여행 일정", "de": "Reiseroute" },
-    "level": "B1",
-    "partOfSpeech": "noun",
-    "examples": [{ "english": "I will send you the travel itinerary by email.", "translation": "Te enviaré el itinerario de viaje por correo electrónico." }],
-    "tags": ["travel", "intermediate"]
-  },
-  {
-    "id": "en-vocab-78",
-    "word": "to book",
-    "reading": "",
-    "meaning": "to reserve something in advance",
-    "meanings": { "es": "reservar", "ja": "予約する", "ko": "예약하다", "de": "buchen" },
-    "level": "B1",
-    "partOfSpeech": "verb",
-    "examples": [{ "english": "I need to book a hotel room for next weekend.", "translation": "Necesito reservar una habitación de hotel para el próximo fin de semana." }],
-    "tags": ["travel", "intermediate"]
-  },
-  {
-    "id": "en-vocab-79",
-    "word": "sightseeing",
-    "reading": "",
-    "meaning": "the activity of visiting interesting places",
-    "meanings": { "es": "turismo", "ja": "観光", "ko": "관광", "de": "Besichtigung" },
-    "level": "B1",
-    "partOfSpeech": "noun",
-    "examples": [{ "english": "We spent the whole day sightseeing in Rome.", "translation": "Pasamos todo el día haciendo turismo en Roma." }],
-    "tags": ["travel", "intermediate"]
-  },
-  {
-    "id": "en-vocab-80",
+    "id": 607,
     "word": "allergy",
-    "reading": "",
     "meaning": "a reaction to certain substances",
-    "meanings": { "es": "alergia", "ja": "アレルギー", "ko": "알레르기", "de": "Allergie" },
+    "meanings": {
+      "es": "alergia",
+      "ja": "アレルギー",
+      "ko": "알레르기",
+      "de": "Allergie"
+    },
+    "reading": null,
+    "romaji": null,
     "level": "B1",
-    "partOfSpeech": "noun",
-    "examples": [{ "english": "She has a severe allergy to peanuts.", "translation": "Tiene una alergia severa a los cacahuetes." }],
-    "tags": ["health", "intermediate"]
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "health",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "english": "She has a severe allergy to peanuts.",
+        "translation": "Tiene una alergia severa a los cacahuetes."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
   },
   {
-    "id": "en-vocab-81",
-    "word": "treatment",
-    "reading": "",
-    "meaning": "medical care for an illness",
-    "meanings": { "es": "tratamiento", "ja": "治療", "ko": "치료", "de": "Behandlung" },
+    "id": 558,
+    "word": "anxious",
+    "meaning": "feeling worried or nervous",
+    "meanings": {
+      "es": "ansioso",
+      "ja": "不安な",
+      "ko": "불안한",
+      "de": "ängstlich"
+    },
+    "reading": null,
+    "romaji": null,
     "level": "B1",
-    "partOfSpeech": "noun",
-    "examples": [{ "english": "The treatment for this condition usually takes several weeks.", "translation": "El tratamiento para esta condición generalmente toma varias semanas." }],
-    "tags": ["health", "intermediate"]
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "emotions",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "english": "I feel anxious about the exam.",
+        "translation": "Me siento ansioso por el examen."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
   },
   {
-    "id": "en-vocab-82",
+    "id": 561,
+    "word": "colleague",
+    "meaning": "a person you work with",
+    "meanings": {
+      "es": "colega",
+      "ja": "同僚",
+      "ko": "동료",
+      "de": "Kollege"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "workplace",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "english": "My colleague helped me with the presentation.",
+        "translation": "Mi colega me ayudó con la presentación."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 566,
+    "word": "confident",
+    "meaning": "feeling sure of yourself",
+    "meanings": {
+      "es": "seguro de sí mismo",
+      "ja": "自信のある",
+      "ko": "자신감 있는",
+      "de": "selbstbewusst"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "emotions",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "english": "She is confident about passing the test.",
+        "translation": "Ella está segura de aprobar el examen."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 560,
+    "word": "deadline",
+    "meaning": "the latest time something must be completed",
+    "meanings": {
+      "es": "fecha límite",
+      "ja": "締め切り",
+      "ko": "마감일",
+      "de": "Frist"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "workplace",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "english": "The deadline for the project is next Friday.",
+        "translation": "La fecha límite del proyecto es el próximo viernes."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 562,
+    "word": "destination",
+    "meaning": "the place you are traveling to",
+    "meanings": {
+      "es": "destino",
+      "ja": "目的地",
+      "ko": "목적지",
+      "de": "Reiseziel"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "travel",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "english": "Our final destination is Paris.",
+        "translation": "Nuestro destino final es París."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 567,
+    "word": "disappointed",
+    "meaning": "sad because something was not as expected",
+    "meanings": {
+      "es": "decepcionado",
+      "ja": "がっかりした",
+      "ko": "실망한",
+      "de": "enttäuscht"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "emotions",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "english": "I was disappointed with the results.",
+        "translation": "Estaba decepcionado con los resultados."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 599,
+    "word": "exhausted",
+    "meaning": "extremely tired",
+    "meanings": {
+      "es": "agotado",
+      "ja": "疲れ果てた",
+      "ko": "지친",
+      "de": "erschöpft"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "emotions",
+      "health"
+    ],
+    "examples": [
+      {
+        "english": "After the marathon, I was completely exhausted.",
+        "translation": "Después del maratón, estaba completamente agotado."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 559,
+    "word": "frustrating",
+    "meaning": "causing annoyance or disappointment",
+    "meanings": {
+      "es": "frustrante",
+      "ja": "イライラする",
+      "ko": "답답한",
+      "de": "frustrierend"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "emotions",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "english": "Learning a new language can be frustrating.",
+        "translation": "Aprender un nuevo idioma puede ser frustrante."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 604,
+    "word": "itinerary",
+    "meaning": "a planned route or schedule of travel",
+    "meanings": {
+      "es": "itinerario",
+      "ja": "旅程",
+      "ko": "여행 일정",
+      "de": "Reiseroute"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "travel",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "english": "I will send you the travel itinerary by email.",
+        "translation": "Te enviaré el itinerario de viaje por correo electrónico."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 598,
+    "word": "overwhelmed",
+    "meaning": "feeling completely overcome by emotions or tasks",
+    "meanings": {
+      "es": "abrumado",
+      "ja": "圧倒された",
+      "ko": "압도된",
+      "de": "überwältigt"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "emotions",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "english": "She felt overwhelmed by all the work she had to do.",
+        "translation": "Se sintió abrumada por todo el trabajo que tenía que hacer."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 565,
+    "word": "prescription",
+    "meaning": "doctor's written order for medicine",
+    "meanings": {
+      "es": "receta médica",
+      "ja": "処方箋",
+      "ko": "처방전",
+      "de": "Rezept"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "health",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "english": "You need a prescription for this medication.",
+        "translation": "Necesitas una receta para este medicamento."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 601,
+    "word": "promotion",
+    "meaning": "advancement to a higher position at work",
+    "meanings": {
+      "es": "promoción",
+      "ja": "昇進",
+      "ko": "승진",
+      "de": "Beförderung"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "workplace",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "english": "She received a promotion after three years at the company.",
+        "translation": "Recibió una promoción después de tres años en la empresa."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 600,
+    "word": "relieved",
+    "meaning": "feeling happy because something unpleasant has ended",
+    "meanings": {
+      "es": "aliviado",
+      "ja": "安心した",
+      "ko": "안도한",
+      "de": "erleichtert"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "emotions",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "english": "I was relieved to hear that everyone was safe.",
+        "translation": "Me sentí aliviado al saber que todos estaban a salvo."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 602,
+    "word": "salary",
+    "meaning": "regular payment for work, usually monthly",
+    "meanings": {
+      "es": "salario",
+      "ja": "給料",
+      "ko": "급여",
+      "de": "Gehalt"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "workplace",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "english": "The starting salary for this position is $50,000 per year.",
+        "translation": "El salario inicial para este puesto es de $50,000 al año."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 606,
+    "word": "sightseeing",
+    "meaning": "the activity of visiting interesting places",
+    "meanings": {
+      "es": "turismo",
+      "ja": "観光",
+      "ko": "관광",
+      "de": "Besichtigung"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "travel",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "english": "We spent the whole day sightseeing in Rome.",
+        "translation": "Pasamos todo el día haciendo turismo en Roma."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 564,
+    "word": "symptom",
+    "meaning": "a sign of illness",
+    "meanings": {
+      "es": "síntoma",
+      "ja": "症状",
+      "ko": "증상",
+      "de": "Symptom"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "health",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "english": "Fever is a common symptom of the flu.",
+        "translation": "La fiebre es un síntoma común de la gripe."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 605,
+    "word": "to book",
+    "meaning": "to reserve something in advance",
+    "meanings": {
+      "es": "reservar",
+      "ja": "予約する",
+      "ko": "예약하다",
+      "de": "buchen"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "travel",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "english": "I need to book a hotel room for next weekend.",
+        "translation": "Necesito reservar una habitación de hotel para el próximo fin de semana."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 609,
     "word": "to recover",
-    "reading": "",
     "meaning": "to return to health after illness",
-    "meanings": { "es": "recuperarse", "ja": "回復する", "ko": "회복하다", "de": "sich erholen" },
+    "meanings": {
+      "es": "recuperarse",
+      "ja": "回復する",
+      "ko": "회복하다",
+      "de": "sich erholen"
+    },
+    "reading": null,
+    "romaji": null,
     "level": "B1",
-    "partOfSpeech": "verb",
-    "examples": [{ "english": "It took her several months to fully recover from the surgery.", "translation": "Le tomó varios meses recuperarse completamente de la cirugía." }],
-    "tags": ["health", "intermediate"]
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "health",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "english": "It took her several months to fully recover from the surgery.",
+        "translation": "Le tomó varios meses recuperarse completamente de la cirugía."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
   },
   {
-    "id": "en-vocab-83",
-    "word": "consequently",
-    "reading": "",
-    "meaning": "as a result",
-    "meanings": { "es": "consecuentemente", "ja": "その結果", "ko": "결과적으로", "de": "folglich" },
+    "id": 603,
+    "word": "to resign",
+    "meaning": "to voluntarily leave a job",
+    "meanings": {
+      "es": "renunciar",
+      "ja": "辞職する",
+      "ko": "사임하다",
+      "de": "kündigen"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "workplace",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "english": "He resigned from his position last month.",
+        "translation": "Renunció a su puesto el mes pasado."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 608,
+    "word": "treatment",
+    "meaning": "medical care for an illness",
+    "meanings": {
+      "es": "tratamiento",
+      "ja": "治療",
+      "ko": "치료",
+      "de": "Behandlung"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "health",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "english": "The treatment for this condition usually takes several weeks.",
+        "translation": "El tratamiento para esta condición generalmente toma varias semanas."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 568,
+    "word": "ambiguous",
+    "meaning": "having more than one meaning; unclear",
+    "meanings": {
+      "es": "ambiguo",
+      "ja": "曖昧な",
+      "ko": "모호한",
+      "de": "mehrdeutig"
+    },
+    "reading": null,
+    "romaji": null,
     "level": "B2",
-    "partOfSpeech": "adverb",
-    "examples": [{ "english": "He missed the deadline; consequently, he lost the contract.", "translation": "No cumplió con el plazo; consecuentemente, perdió el contrato." }],
-    "tags": ["academic", "advanced"]
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "abstract",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "english": "His answer was deliberately ambiguous.",
+        "translation": "Su respuesta fue deliberadamente ambigua."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
   },
   {
-    "id": "en-vocab-84",
-    "word": "unprecedented",
-    "reading": "",
-    "meaning": "never done or known before",
-    "meanings": { "es": "sin precedentes", "ja": "前例のない", "ko": "전례 없는", "de": "beispiellos" },
-    "level": "B2",
-    "partOfSpeech": "adjective",
-    "examples": [{ "english": "The company achieved unprecedented growth this year.", "translation": "La empresa logró un crecimiento sin precedentes este año." }],
-    "tags": ["business", "advanced"]
-  },
-  {
-    "id": "en-vocab-85",
-    "word": "to implement",
-    "reading": "",
-    "meaning": "to put a plan into action",
-    "meanings": { "es": "implementar", "ja": "実施する", "ko": "시행하다", "de": "umsetzen" },
-    "level": "B2",
-    "partOfSpeech": "verb",
-    "examples": [{ "english": "The government plans to implement new tax policies.", "translation": "El gobierno planea implementar nuevas políticas fiscales." }],
-    "tags": ["business", "advanced"]
-  },
-  {
-    "id": "en-vocab-86",
+    "id": 613,
     "word": "comprehensive",
-    "reading": "",
     "meaning": "including everything that is necessary",
-    "meanings": { "es": "completo", "ja": "包括的な", "ko": "포괄적인", "de": "umfassend" },
+    "meanings": {
+      "es": "completo",
+      "ja": "包括的な",
+      "ko": "포괄적인",
+      "de": "umfassend"
+    },
+    "reading": null,
+    "romaji": null,
     "level": "B2",
-    "partOfSpeech": "adjective",
-    "examples": [{ "english": "The report provides a comprehensive analysis of the market.", "translation": "El informe proporciona un análisis completo del mercado." }],
-    "tags": ["business", "academic"]
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "business",
+      "academic"
+    ],
+    "examples": [
+      {
+        "english": "The report provides a comprehensive analysis of the market.",
+        "translation": "El informe proporciona un análisis completo del mercado."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
   },
   {
-    "id": "en-vocab-87",
-    "word": "to burn the midnight oil",
-    "reading": "",
-    "meaning": "to work late into the night",
-    "meanings": { "es": "quemar las pestañas", "ja": "夜遅くまで働く", "ko": "밤늦도록 일하다", "de": "bis spät in die Nacht arbeiten" },
+    "id": 610,
+    "word": "consequently",
+    "meaning": "as a result",
+    "meanings": {
+      "es": "consecuentemente",
+      "ja": "その結果",
+      "ko": "결과적으로",
+      "de": "folglich"
+    },
+    "reading": null,
+    "romaji": null,
     "level": "B2",
-    "partOfSpeech": "idiom",
-    "examples": [{ "english": "I had to burn the midnight oil to finish the project.", "translation": "Tuve que quemar las pestañas para terminar el proyecto." }],
-    "tags": ["idioms", "advanced"]
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [
+      "academic",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "english": "He missed the deadline; consequently, he lost the contract.",
+        "translation": "No cumplió con el plazo; consecuentemente, perdió el contrato."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
   },
   {
-    "id": "en-vocab-88",
-    "word": "to get cold feet",
-    "reading": "",
-    "meaning": "to become nervous and hesitate about doing something",
-    "meanings": { "es": "acobardarse", "ja": "怖じ気づく", "ko": "겁이 나다", "de": "kalte Füße bekommen" },
-    "level": "B2",
-    "partOfSpeech": "idiom",
-    "examples": [{ "english": "She got cold feet before the wedding and almost cancelled it.", "translation": "Se acobardó antes de la boda y casi la canceló." }],
-    "tags": ["idioms", "advanced"]
-  },
-  {
-    "id": "en-vocab-89",
-    "word": "to bite off more than you can chew",
-    "reading": "",
-    "meaning": "to take on more responsibility than you can handle",
-    "meanings": { "es": "abarcar más de lo que se puede", "ja": "自分の能力以上のことをしようとする", "ko": "감당할 수 없는 일을 맡다", "de": "sich übernehmen" },
-    "level": "B2",
-    "partOfSpeech": "idiom",
-    "examples": [{ "english": "I think I bit off more than I could chew with this project.", "translation": "Creo que abarcé más de lo que podía con este proyecto." }],
-    "tags": ["idioms", "advanced"]
-  },
-  {
-    "id": "en-vocab-90",
+    "id": 617,
     "word": "deteriorate",
-    "reading": "",
     "meaning": "to become progressively worse",
-    "meanings": { "es": "deteriorarse", "ja": "悪化する", "ko": "악화되다", "de": "sich verschlechtern" },
+    "meanings": {
+      "es": "deteriorarse",
+      "ja": "悪化する",
+      "ko": "악화되다",
+      "de": "sich verschlechtern"
+    },
+    "reading": null,
+    "romaji": null,
     "level": "B2",
-    "partOfSpeech": "verb",
-    "examples": [{ "english": "His health began to deteriorate rapidly.", "translation": "Su salud comenzó a deteriorarse rápidamente." }],
-    "tags": ["formal", "advanced"]
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "formal",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "english": "His health began to deteriorate rapidly.",
+        "translation": "Su salud comenzó a deteriorarse rápidamente."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
   },
   {
-    "id": "en-vocab-91",
+    "id": 569,
+    "word": "dilemma",
+    "meaning": "a difficult choice between two options",
+    "meanings": {
+      "es": "dilema",
+      "ja": "ジレンマ",
+      "ko": "딜레마",
+      "de": "Dilemma"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "abstract",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "english": "She faced a moral dilemma.",
+        "translation": "Ella enfrentó un dilema moral."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 573,
+    "word": "feasible",
+    "meaning": "possible and practical to do",
+    "meanings": {
+      "es": "factible",
+      "ja": "実行可能な",
+      "ko": "실행 가능한",
+      "de": "machbar"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "business",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "english": "Is this plan economically feasible?",
+        "translation": "¿Es este plan económicamente factible?"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 575,
+    "word": "hypothetical",
+    "meaning": "imagined or theoretical, not real",
+    "meanings": {
+      "es": "hipotético",
+      "ja": "仮定の",
+      "ko": "가설적인",
+      "de": "hypothetisch"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "abstract",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "english": "Let's consider a hypothetical scenario.",
+        "translation": "Consideremos un escenario hipotético."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 618,
     "word": "implication",
-    "reading": "",
     "meaning": "a possible effect or result; something suggested without being stated directly",
-    "meanings": { "es": "implicación", "ja": "含意", "ko": "함축", "de": "Auswirkung" },
+    "meanings": {
+      "es": "implicación",
+      "ja": "含意",
+      "ko": "함축",
+      "de": "Auswirkung"
+    },
+    "reading": null,
+    "romaji": null,
     "level": "B2",
-    "partOfSpeech": "noun",
-    "examples": [{ "english": "The implications of this decision are far-reaching.", "translation": "Las implicaciones de esta decisión son de gran alcance." }],
-    "tags": ["academic", "advanced"]
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "academic",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "english": "The implications of this decision are far-reaching.",
+        "translation": "Las implicaciones de esta decisión son de gran alcance."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
   },
   {
-    "id": "en-vocab-92",
+    "id": 577,
+    "word": "resilient",
+    "meaning": "able to recover from difficulties",
+    "meanings": {
+      "es": "resiliente",
+      "ja": "回復力のある",
+      "ko": "회복력 있는",
+      "de": "widerstandsfähig"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "psychology",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "english": "Children can be remarkably resilient.",
+        "translation": "Los niños pueden ser notablemente resilientes."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 574,
+    "word": "stakeholder",
+    "meaning": "person with interest in a project or company",
+    "meanings": {
+      "es": "interesado",
+      "ja": "利害関係者",
+      "ko": "이해관계자",
+      "de": "Interessenvertreter"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "business",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "english": "We need to consult all stakeholders.",
+        "translation": "Necesitamos consultar a todos los interesados."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 619,
     "word": "subtle",
-    "reading": "",
     "meaning": "not obvious; delicate or precise",
-    "meanings": { "es": "sutil", "ja": "微妙な", "ko": "미묘한", "de": "subtil" },
+    "meanings": {
+      "es": "sutil",
+      "ja": "微妙な",
+      "ko": "미묘한",
+      "de": "subtil"
+    },
+    "reading": null,
+    "romaji": null,
     "level": "B2",
-    "partOfSpeech": "adjective",
-    "examples": [{ "english": "There was a subtle change in her attitude.", "translation": "Hubo un cambio sutil en su actitud." }],
-    "tags": ["descriptive", "advanced"]
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "english": "There was a subtle change in her attitude.",
+        "translation": "Hubo un cambio sutil en su actitud."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
   },
   {
-    "id": "en-vocab-93",
+    "id": 572,
+    "word": "to be on the same page",
+    "meaning": "to have the same understanding",
+    "meanings": {
+      "es": "estar en la misma sintonía",
+      "ja": "同じ認識を持つ",
+      "ko": "같은 생각을 하다",
+      "de": "auf dem gleichen Stand sein"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "idiom",
+    "tags": [
+      "idioms",
+      "business"
+    ],
+    "examples": [
+      {
+        "english": "Let's make sure we're on the same page.",
+        "translation": "Asegurémonos de estar en la misma sintonía."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 616,
+    "word": "to bite off more than you can chew",
+    "meaning": "to take on more responsibility than you can handle",
+    "meanings": {
+      "es": "abarcar más de lo que se puede",
+      "ja": "自分の能力以上のことをしようとする",
+      "ko": "감당할 수 없는 일을 맡다",
+      "de": "sich übernehmen"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "idiom",
+    "tags": [
+      "idioms",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "english": "I think I bit off more than I could chew with this project.",
+        "translation": "Creo que abarcé más de lo que podía con este proyecto."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 614,
+    "word": "to burn the midnight oil",
+    "meaning": "to work late into the night",
+    "meanings": {
+      "es": "quemar las pestañas",
+      "ja": "夜遅くまで働く",
+      "ko": "밤늦도록 일하다",
+      "de": "bis spät in die Nacht arbeiten"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "idiom",
+    "tags": [
+      "idioms",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "english": "I had to burn the midnight oil to finish the project.",
+        "translation": "Tuve que quemar las pestañas para terminar el proyecto."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 615,
+    "word": "to get cold feet",
+    "meaning": "to become nervous and hesitate about doing something",
+    "meanings": {
+      "es": "acobardarse",
+      "ja": "怖じ気づく",
+      "ko": "겁이 나다",
+      "de": "kalte Füße bekommen"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "idiom",
+    "tags": [
+      "idioms",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "english": "She got cold feet before the wedding and almost cancelled it.",
+        "translation": "Se acobardó antes de la boda y casi la canceló."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 612,
+    "word": "to implement",
+    "meaning": "to put a plan into action",
+    "meanings": {
+      "es": "implementar",
+      "ja": "実施する",
+      "ko": "시행하다",
+      "de": "umsetzen"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "business",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "english": "The government plans to implement new tax policies.",
+        "translation": "El gobierno planea implementar nuevas políticas fiscales."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 576,
+    "word": "to procrastinate",
+    "meaning": "to delay doing something",
+    "meanings": {
+      "es": "procrastinar",
+      "ja": "先延ばしにする",
+      "ko": "미루다",
+      "de": "aufschieben"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "psychology",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "english": "I tend to procrastinate when I'm stressed.",
+        "translation": "Tiendo a procrastinar cuando estoy estresado."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 571,
+    "word": "to take something for granted",
+    "meaning": "to not appreciate something's value",
+    "meanings": {
+      "es": "dar por sentado",
+      "ja": "当然のことと思う",
+      "ko": "당연하게 여기다",
+      "de": "als selbstverständlich betrachten"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "idiom",
+    "tags": [
+      "idioms",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "english": "Don't take your health for granted.",
+        "translation": "No des tu salud por sentada."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 570,
+    "word": "to undermine",
+    "meaning": "to weaken or damage gradually",
+    "meanings": {
+      "es": "socavar",
+      "ja": "弱体化させる",
+      "ko": "약화시키다",
+      "de": "untergraben"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "business",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "english": "These actions could undermine trust.",
+        "translation": "Estas acciones podrían socavar la confianza."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 611,
+    "word": "unprecedented",
+    "meaning": "never done or known before",
+    "meanings": {
+      "es": "sin precedentes",
+      "ja": "前例のない",
+      "ko": "전례 없는",
+      "de": "beispiellos"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "business",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "english": "The company achieved unprecedented growth this year.",
+        "translation": "La empresa logró un crecimiento sin precedentes este año."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 620,
     "word": "articulate",
-    "reading": "",
     "meaning": "able to express ideas clearly and effectively",
-    "meanings": { "es": "elocuente", "ja": "明瞭な", "ko": "명료한", "de": "wortgewandt" },
+    "meanings": {
+      "es": "elocuente",
+      "ja": "明瞭な",
+      "ko": "명료한",
+      "de": "wortgewandt"
+    },
+    "reading": null,
+    "romaji": null,
     "level": "C1",
-    "partOfSpeech": "adjective",
-    "examples": [{ "english": "She is an articulate speaker who can explain complex ideas simply.", "translation": "Es una oradora elocuente que puede explicar ideas complejas de manera simple." }],
-    "tags": ["communication", "sophisticated"]
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "communication",
+      "sophisticated"
+    ],
+    "examples": [
+      {
+        "english": "She is an articulate speaker who can explain complex ideas simply.",
+        "translation": "Es una oradora elocuente que puede explicar ideas complejas de manera simple."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
   },
   {
-    "id": "en-vocab-94",
-    "word": "to alleviate",
-    "reading": "",
-    "meaning": "to make suffering or a problem less severe",
-    "meanings": { "es": "aliviar", "ja": "緩和する", "ko": "완화하다", "de": "lindern" },
+    "id": 580,
+    "word": "conundrum",
+    "meaning": "a confusing or difficult problem",
+    "meanings": {
+      "es": "enigma",
+      "ja": "難問",
+      "ko": "수수께끼",
+      "de": "Rätsel"
+    },
+    "reading": null,
+    "romaji": null,
     "level": "C1",
-    "partOfSpeech": "verb",
-    "examples": [{ "english": "The medication helped to alleviate her symptoms.", "translation": "La medicación ayudó a aliviar sus síntomas." }],
-    "tags": ["formal", "academic"]
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "academic",
+      "sophisticated"
+    ],
+    "examples": [
+      {
+        "english": "This ethical conundrum has no easy solution.",
+        "translation": "Este enigma ético no tiene solución fácil."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
   },
   {
-    "id": "en-vocab-95",
-    "word": "to scrutinize",
-    "reading": "",
-    "meaning": "to examine very carefully",
-    "meanings": { "es": "escudriñar", "ja": "精査する", "ko": "면밀히 조사하다", "de": "genau prüfen" },
-    "level": "C1",
-    "partOfSpeech": "verb",
-    "examples": [{ "english": "The committee will scrutinize every detail of the proposal.", "translation": "El comité escudriñará cada detalle de la propuesta." }],
-    "tags": ["formal", "academic"]
-  },
-  {
-    "id": "en-vocab-96",
-    "word": "pragmatic",
-    "reading": "",
-    "meaning": "dealing with things sensibly and realistically",
-    "meanings": { "es": "pragmático", "ja": "実用的な", "ko": "실용적인", "de": "pragmatisch" },
-    "level": "C1",
-    "partOfSpeech": "adjective",
-    "examples": [{ "english": "We need a more pragmatic approach to solving this problem.", "translation": "Necesitamos un enfoque más pragmático para resolver este problema." }],
-    "tags": ["formal", "academic"]
-  },
-  {
-    "id": "en-vocab-97",
-    "word": "to perpetuate",
-    "reading": "",
-    "meaning": "to make something continue indefinitely",
-    "meanings": { "es": "perpetuar", "ja": "永続させる", "ko": "영속시키다", "de": "aufrechterhalten" },
-    "level": "C1",
-    "partOfSpeech": "verb",
-    "examples": [{ "english": "The media can perpetuate harmful stereotypes.", "translation": "Los medios pueden perpetuar estereotipos dañinos." }],
-    "tags": ["formal", "academic"]
-  },
-  {
-    "id": "en-vocab-98",
-    "word": "efficacy",
-    "reading": "",
-    "meaning": "the ability to produce a desired result",
-    "meanings": { "es": "eficacia", "ja": "有効性", "ko": "효능", "de": "Wirksamkeit" },
-    "level": "C1",
-    "partOfSpeech": "noun",
-    "examples": [{ "english": "Scientists are studying the efficacy of the new vaccine.", "translation": "Los científicos están estudiando la eficacia de la nueva vacuna." }],
-    "tags": ["academic", "formal"]
-  },
-  {
-    "id": "en-vocab-99",
+    "id": 626,
     "word": "dichotomy",
-    "reading": "",
     "meaning": "a division into two contrasting things",
-    "meanings": { "es": "dicotomía", "ja": "二分法", "ko": "이분법", "de": "Dichotomie" },
+    "meanings": {
+      "es": "dicotomía",
+      "ja": "二分法",
+      "ko": "이분법",
+      "de": "Dichotomie"
+    },
+    "reading": null,
+    "romaji": null,
     "level": "C1",
-    "partOfSpeech": "noun",
-    "examples": [{ "english": "There is a false dichotomy between work and personal life.", "translation": "Hay una falsa dicotomía entre el trabajo y la vida personal." }],
-    "tags": ["academic", "sophisticated"]
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "academic",
+      "sophisticated"
+    ],
+    "examples": [
+      {
+        "english": "There is a false dichotomy between work and personal life.",
+        "translation": "Hay una falsa dicotomía entre el trabajo y la vida personal."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
   },
   {
-    "id": "en-vocab-100",
-    "word": "to conflate",
-    "reading": "",
-    "meaning": "to combine two or more things into one, often mistakenly",
-    "meanings": { "es": "fusionar", "ja": "混同する", "ko": "혼동하다", "de": "vermischen" },
+    "id": 625,
+    "word": "efficacy",
+    "meaning": "the ability to produce a desired result",
+    "meanings": {
+      "es": "eficacia",
+      "ja": "有効性",
+      "ko": "효능",
+      "de": "Wirksamkeit"
+    },
+    "reading": null,
+    "romaji": null,
     "level": "C1",
-    "partOfSpeech": "verb",
-    "examples": [{ "english": "People often conflate correlation with causation.", "translation": "La gente a menudo confunde correlación con causalidad." }],
-    "tags": ["academic", "sophisticated"]
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "academic",
+      "formal"
+    ],
+    "examples": [
+      {
+        "english": "Scientists are studying the efficacy of the new vaccine.",
+        "translation": "Los científicos están estudiando la eficacia de la nueva vacuna."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
   },
   {
-    "id": "en-vocab-101",
-    "word": "to extrapolate",
-    "reading": "",
-    "meaning": "to extend facts or data to an unknown situation",
-    "meanings": { "es": "extrapolar", "ja": "推定する", "ko": "추정하다", "de": "extrapolieren" },
+    "id": 586,
+    "word": "inherent",
+    "meaning": "existing as a natural or essential part",
+    "meanings": {
+      "es": "inherente",
+      "ja": "固有の",
+      "ko": "고유한",
+      "de": "inhärent"
+    },
+    "reading": null,
+    "romaji": null,
     "level": "C1",
-    "partOfSpeech": "verb",
-    "examples": [{ "english": "We cannot simply extrapolate from this small sample size.", "translation": "No podemos simplemente extrapolar de este tamaño de muestra pequeño." }],
-    "tags": ["academic", "sophisticated"]
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "formal",
+      "academic"
+    ],
+    "examples": [
+      {
+        "english": "There are inherent risks in any investment.",
+        "translation": "Hay riesgos inherentes en cualquier inversión."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
   },
   {
-    "id": "en-vocab-102",
+    "id": 587,
+    "word": "juxtaposition",
+    "meaning": "placing things side by side for contrast",
+    "meanings": {
+      "es": "yuxtaposición",
+      "ja": "並置",
+      "ko": "병치",
+      "de": "Nebeneinanderstellung"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "academic",
+      "literary"
+    ],
+    "examples": [
+      {
+        "english": "The juxtaposition of wealth and poverty is striking.",
+        "translation": "La yuxtaposición de riqueza y pobreza es impactante."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 578,
+    "word": "nuanced",
+    "meaning": "having subtle distinctions or variations",
+    "meanings": {
+      "es": "matizado",
+      "ja": "微妙な違いのある",
+      "ko": "미묘한 차이가 있는",
+      "de": "nuanciert"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "academic",
+      "sophisticated"
+    ],
+    "examples": [
+      {
+        "english": "The topic requires a more nuanced discussion.",
+        "translation": "El tema requiere una discusión más matizada."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 583,
+    "word": "paradigm",
+    "meaning": "a typical example or model",
+    "meanings": {
+      "es": "paradigma",
+      "ja": "パラダイム",
+      "ko": "패러다임",
+      "de": "Paradigma"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "academic",
+      "sophisticated"
+    ],
+    "examples": [
+      {
+        "english": "This represents a paradigm shift in thinking.",
+        "translation": "Esto representa un cambio de paradigma en el pensamiento."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 623,
+    "word": "pragmatic",
+    "meaning": "dealing with things sensibly and realistically",
+    "meanings": {
+      "es": "pragmático",
+      "ja": "実用的な",
+      "ko": "실용적인",
+      "de": "pragmatisch"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "formal",
+      "academic"
+    ],
+    "examples": [
+      {
+        "english": "We need a more pragmatic approach to solving this problem.",
+        "translation": "Necesitamos un enfoque más pragmático para resolver este problema."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 629,
     "word": "quintessential",
-    "reading": "",
     "meaning": "representing the most perfect or typical example",
-    "meanings": { "es": "quintaesencial", "ja": "典型的な", "ko": "전형적인", "de": "typisch" },
+    "meanings": {
+      "es": "quintaesencial",
+      "ja": "典型的な",
+      "ko": "전형적인",
+      "de": "typisch"
+    },
+    "reading": null,
+    "romaji": null,
     "level": "C1",
-    "partOfSpeech": "adjective",
-    "examples": [{ "english": "He is the quintessential English gentleman.", "translation": "Él es el caballero inglés por excelencia." }],
-    "tags": ["formal", "literary"]
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "formal",
+      "literary"
+    ],
+    "examples": [
+      {
+        "english": "He is the quintessential English gentleman.",
+        "translation": "Él es el caballero inglés por excelencia."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
   },
   {
-    "id": "en-vocab-103",
+    "id": 621,
+    "word": "to alleviate",
+    "meaning": "to make suffering or a problem less severe",
+    "meanings": {
+      "es": "aliviar",
+      "ja": "緩和する",
+      "ko": "완화하다",
+      "de": "lindern"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "formal",
+      "academic"
+    ],
+    "examples": [
+      {
+        "english": "The medication helped to alleviate her symptoms.",
+        "translation": "La medicación ayudó a aliviar sus síntomas."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 627,
+    "word": "to conflate",
+    "meaning": "to combine two or more things into one, often mistakenly",
+    "meanings": {
+      "es": "fusionar",
+      "ja": "混同する",
+      "ko": "혼동하다",
+      "de": "vermischen"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "academic",
+      "sophisticated"
+    ],
+    "examples": [
+      {
+        "english": "People often conflate correlation with causation.",
+        "translation": "La gente a menudo confunde correlación con causalidad."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 579,
+    "word": "to corroborate",
+    "meaning": "to confirm or support with evidence",
+    "meanings": {
+      "es": "corroborar",
+      "ja": "裏付ける",
+      "ko": "확증하다",
+      "de": "bestätigen"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "formal",
+      "academic"
+    ],
+    "examples": [
+      {
+        "english": "The witness testimony corroborates the evidence.",
+        "translation": "El testimonio del testigo corrobora la evidencia."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 585,
+    "word": "to elucidate",
+    "meaning": "to make clear or explain",
+    "meanings": {
+      "es": "elucidar",
+      "ja": "解明する",
+      "ko": "명확히 하다",
+      "de": "erläutern"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "formal",
+      "academic"
+    ],
+    "examples": [
+      {
+        "english": "Could you elucidate your position?",
+        "translation": "¿Podría elucidar su posición?"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 581,
+    "word": "to exacerbate",
+    "meaning": "to make a problem worse",
+    "meanings": {
+      "es": "exacerbar",
+      "ja": "悪化させる",
+      "ko": "악화시키다",
+      "de": "verschärfen"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "formal",
+      "academic"
+    ],
+    "examples": [
+      {
+        "english": "The policy may exacerbate inequality.",
+        "translation": "La política puede exacerbar la desigualdad."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 628,
+    "word": "to extrapolate",
+    "meaning": "to extend facts or data to an unknown situation",
+    "meanings": {
+      "es": "extrapolar",
+      "ja": "推定する",
+      "ko": "추정하다",
+      "de": "extrapolieren"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "academic",
+      "sophisticated"
+    ],
+    "examples": [
+      {
+        "english": "We cannot simply extrapolate from this small sample size.",
+        "translation": "No podemos simplemente extrapolar de este tamaño de muestra pequeño."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 584,
+    "word": "to mitigate",
+    "meaning": "to make less severe or serious",
+    "meanings": {
+      "es": "mitigar",
+      "ja": "軽減する",
+      "ko": "완화하다",
+      "de": "mildern"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "formal",
+      "business"
+    ],
+    "examples": [
+      {
+        "english": "We need to mitigate the risks involved.",
+        "translation": "Necesitamos mitigar los riesgos involucrados."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 624,
+    "word": "to perpetuate",
+    "meaning": "to make something continue indefinitely",
+    "meanings": {
+      "es": "perpetuar",
+      "ja": "永続させる",
+      "ko": "영속시키다",
+      "de": "aufrechterhalten"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "formal",
+      "academic"
+    ],
+    "examples": [
+      {
+        "english": "The media can perpetuate harmful stereotypes.",
+        "translation": "Los medios pueden perpetuar estereotipos dañinos."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 622,
+    "word": "to scrutinize",
+    "meaning": "to examine very carefully",
+    "meanings": {
+      "es": "escudriñar",
+      "ja": "精査する",
+      "ko": "면밀히 조사하다",
+      "de": "genau prüfen"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "formal",
+      "academic"
+    ],
+    "examples": [
+      {
+        "english": "The committee will scrutinize every detail of the proposal.",
+        "translation": "El comité escudriñará cada detalle de la propuesta."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 582,
+    "word": "ubiquitous",
+    "meaning": "present or found everywhere",
+    "meanings": {
+      "es": "ubicuo",
+      "ja": "至る所にある",
+      "ko": "어디에나 있는",
+      "de": "allgegenwärtig"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "academic",
+      "sophisticated"
+    ],
+    "examples": [
+      {
+        "english": "Smartphones have become ubiquitous.",
+        "translation": "Los teléfonos inteligentes se han vuelto ubicuos."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 588,
+    "word": "ephemeral",
+    "meaning": "lasting for a very short time",
+    "meanings": {
+      "es": "efímero",
+      "ja": "はかない",
+      "ko": "덧없는",
+      "de": "vergänglich"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "literary",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "english": "Fame can be ephemeral.",
+        "translation": "La fama puede ser efímera."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 596,
+    "word": "laconic",
+    "meaning": "using very few words",
+    "meanings": {
+      "es": "lacónico",
+      "ja": "簡潔な",
+      "ko": "간결한",
+      "de": "lakonisch"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "literary",
+      "rare"
+    ],
+    "examples": [
+      {
+        "english": "His laconic reply surprised everyone.",
+        "translation": "Su respuesta lacónica sorprendió a todos."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 589,
+    "word": "obfuscate",
+    "meaning": "to make unclear or confusing deliberately",
+    "meanings": {
+      "es": "ofuscar",
+      "ja": "曖昧にする",
+      "ko": "모호하게 하다",
+      "de": "verschleiern"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "literary",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "english": "Politicians often obfuscate the truth.",
+        "translation": "Los políticos a menudo ofuscan la verdad."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 630,
     "word": "perfunctory",
-    "reading": "",
     "meaning": "carried out with minimum effort or reflection",
-    "meanings": { "es": "superficial", "ja": "おざなりの", "ko": "형식적인", "de": "oberflächlich" },
+    "meanings": {
+      "es": "superficial",
+      "ja": "おざなりの",
+      "ko": "형식적인",
+      "de": "oberflächlich"
+    },
+    "reading": null,
+    "romaji": null,
     "level": "C2",
-    "partOfSpeech": "adjective",
-    "examples": [{ "english": "He gave a perfunctory nod and continued reading.", "translation": "Hizo un gesto superficial con la cabeza y continuó leyendo." }],
-    "tags": ["literary", "near-native"]
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "literary",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "english": "He gave a perfunctory nod and continued reading.",
+        "translation": "Hizo un gesto superficial con la cabeza y continuó leyendo."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
   },
   {
-    "id": "en-vocab-104",
-    "word": "surreptitious",
-    "reading": "",
-    "meaning": "done in a secret or stealthy way",
-    "meanings": { "es": "subrepticio", "ja": "こっそりした", "ko": "은밀한", "de": "heimlich" },
-    "level": "C2",
-    "partOfSpeech": "adjective",
-    "examples": [{ "english": "She cast a surreptitious glance at her watch.", "translation": "Echó una mirada subrepticia a su reloj." }],
-    "tags": ["literary", "rare"]
-  },
-  {
-    "id": "en-vocab-105",
-    "word": "to acquiesce",
-    "reading": "",
-    "meaning": "to accept something reluctantly without protest",
-    "meanings": { "es": "consentir", "ja": "黙諾する", "ko": "묵인하다", "de": "einwilligen" },
-    "level": "C2",
-    "partOfSpeech": "verb",
-    "examples": [{ "english": "She eventually acquiesced to their demands.", "translation": "Finalmente consintió a sus demandas." }],
-    "tags": ["formal", "rare"]
-  },
-  {
-    "id": "en-vocab-106",
-    "word": "to expunge",
-    "reading": "",
-    "meaning": "to erase or remove completely",
-    "meanings": { "es": "expurgar", "ja": "抹消する", "ko": "삭제하다", "de": "tilgen" },
-    "level": "C2",
-    "partOfSpeech": "verb",
-    "examples": [{ "english": "The court ordered that his criminal record be expunged.", "translation": "El tribunal ordenó que su expediente criminal fuera eliminado." }],
-    "tags": ["legal", "formal"]
-  },
-  {
-    "id": "en-vocab-107",
-    "word": "quixotic",
-    "reading": "",
-    "meaning": "extremely idealistic; unrealistic and impractical",
-    "meanings": { "es": "quijotesco", "ja": "夢想的な", "ko": "비현실적인", "de": "donquichottisch" },
-    "level": "C2",
-    "partOfSpeech": "adjective",
-    "examples": [{ "english": "His quixotic quest to reform the entire system was admirable but doomed.", "translation": "Su búsqueda quijotesca de reformar todo el sistema era admirable pero condenada al fracaso." }],
-    "tags": ["literary", "rare"]
-  },
-  {
-    "id": "en-vocab-108",
-    "word": "to inculcate",
-    "reading": "",
-    "meaning": "to instill values or habits by persistent instruction",
-    "meanings": { "es": "inculcar", "ja": "教え込む", "ko": "주입하다", "de": "einschärfen" },
-    "level": "C2",
-    "partOfSpeech": "verb",
-    "examples": [{ "english": "Schools aim to inculcate a love of learning in children.", "translation": "Las escuelas buscan inculcar el amor por el aprendizaje en los niños." }],
-    "tags": ["formal", "academic"]
-  },
-  {
-    "id": "en-vocab-109",
-    "word": "pusillanimous",
-    "reading": "",
-    "meaning": "showing a lack of courage; timid",
-    "meanings": { "es": "pusilánime", "ja": "臆病な", "ko": "겁이 많은", "de": "kleinmütig" },
-    "level": "C2",
-    "partOfSpeech": "adjective",
-    "examples": [{ "english": "The committee's pusillanimous response disappointed everyone.", "translation": "La respuesta pusilánime del comité decepcionó a todos." }],
-    "tags": ["literary", "rare"]
-  },
-  {
-    "id": "en-vocab-110",
-    "word": "to obsequiously",
-    "reading": "",
-    "meaning": "excessively compliant or deferential",
-    "meanings": { "es": "servilmente", "ja": "へつらって", "ko": "아첨하며", "de": "unterwürfig" },
-    "level": "C2",
-    "partOfSpeech": "adverb",
-    "examples": [{ "english": "He obsequiously agreed with everything his boss said.", "translation": "Estuvo servilmente de acuerdo con todo lo que dijo su jefe." }],
-    "tags": ["formal", "rare"]
-  },
-  {
-    "id": "en-vocab-111",
-    "word": "to gainsay",
-    "reading": "",
-    "meaning": "to deny or contradict",
-    "meanings": { "es": "contradecir", "ja": "否定する", "ko": "부인하다", "de": "bestreiten" },
-    "level": "C2",
-    "partOfSpeech": "verb",
-    "examples": [{ "english": "No one could gainsay the evidence presented.", "translation": "Nadie podía contradecir la evidencia presentada." }],
-    "tags": ["literary", "archaic"]
-  },
-  {
-    "id": "en-vocab-112",
+    "id": 639,
     "word": "pulchritudinous",
-    "reading": "",
     "meaning": "physically beautiful",
-    "meanings": { "es": "hermoso", "ja": "美しい", "ko": "아름다운", "de": "wunderschön" },
+    "meanings": {
+      "es": "hermoso",
+      "ja": "美しい",
+      "ko": "아름다운",
+      "de": "wunderschön"
+    },
+    "reading": null,
+    "romaji": null,
     "level": "C2",
-    "partOfSpeech": "adjective",
-    "examples": [{ "english": "The pulchritudinous landscape left the tourists speechless.", "translation": "El hermoso paisaje dejó a los turistas sin palabras." }],
-    "tags": ["literary", "rare"]
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "literary",
+      "rare"
+    ],
+    "examples": [
+      {
+        "english": "The pulchritudinous landscape left the tourists speechless.",
+        "translation": "El hermoso paisaje dejó a los turistas sin palabras."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 636,
+    "word": "pusillanimous",
+    "meaning": "showing a lack of courage; timid",
+    "meanings": {
+      "es": "pusilánime",
+      "ja": "臆病な",
+      "ko": "겁이 많은",
+      "de": "kleinmütig"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "literary",
+      "rare"
+    ],
+    "examples": [
+      {
+        "english": "The committee's pusillanimous response disappointed everyone.",
+        "translation": "La respuesta pusilánime del comité decepcionó a todos."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 634,
+    "word": "quixotic",
+    "meaning": "extremely idealistic; unrealistic and impractical",
+    "meanings": {
+      "es": "quijotesco",
+      "ja": "夢想的な",
+      "ko": "비현실적인",
+      "de": "donquichottisch"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "literary",
+      "rare"
+    ],
+    "examples": [
+      {
+        "english": "His quixotic quest to reform the entire system was admirable but doomed.",
+        "translation": "Su búsqueda quijotesca de reformar todo el sistema era admirable pero condenada al fracaso."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 595,
+    "word": "schadenfreude",
+    "meaning": "pleasure from others' misfortune",
+    "meanings": {
+      "es": "alegría del mal ajeno",
+      "ja": "他人の不幸を喜ぶこと",
+      "ko": "남의 불행을 즐기는 심리",
+      "de": "Schadenfreude"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "colloquial",
+      "rare"
+    ],
+    "examples": [
+      {
+        "english": "She felt a twinge of schadenfreude at his failure.",
+        "translation": "Sintió una pizca de alegría del mal ajeno por su fracaso."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 592,
+    "word": "serendipity",
+    "meaning": "fortunate discovery by accident",
+    "meanings": {
+      "es": "serendipia",
+      "ja": "幸運な偶然",
+      "ko": "뜻밖의 행운",
+      "de": "glücklicher Zufall"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "literary",
+      "rare"
+    ],
+    "examples": [
+      {
+        "english": "Meeting her was pure serendipity.",
+        "translation": "Conocerla fue pura serendipia."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 631,
+    "word": "surreptitious",
+    "meaning": "done in a secret or stealthy way",
+    "meanings": {
+      "es": "subrepticio",
+      "ja": "こっそりした",
+      "ko": "은밀한",
+      "de": "heimlich"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "literary",
+      "rare"
+    ],
+    "examples": [
+      {
+        "english": "She cast a surreptitious glance at her watch.",
+        "translation": "Echó una mirada subrepticia a su reloj."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 590,
+    "word": "sycophant",
+    "meaning": "a person who flatters powerful people",
+    "meanings": {
+      "es": "sicofante",
+      "ja": "おべっか使い",
+      "ko": "아첨꾼",
+      "de": "Schmeichler"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "literary",
+      "rare"
+    ],
+    "examples": [
+      {
+        "english": "He surrounded himself with sycophants.",
+        "translation": "Se rodeó de sicofantes."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 632,
+    "word": "to acquiesce",
+    "meaning": "to accept something reluctantly without protest",
+    "meanings": {
+      "es": "consentir",
+      "ja": "黙諾する",
+      "ko": "묵인하다",
+      "de": "einwilligen"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "formal",
+      "rare"
+    ],
+    "examples": [
+      {
+        "english": "She eventually acquiesced to their demands.",
+        "translation": "Finalmente consintió a sus demandas."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 633,
+    "word": "to expunge",
+    "meaning": "to erase or remove completely",
+    "meanings": {
+      "es": "expurgar",
+      "ja": "抹消する",
+      "ko": "삭제하다",
+      "de": "tilgen"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "legal",
+      "formal"
+    ],
+    "examples": [
+      {
+        "english": "The court ordered that his criminal record be expunged.",
+        "translation": "El tribunal ordenó que su expediente criminal fuera eliminado."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 638,
+    "word": "to gainsay",
+    "meaning": "to deny or contradict",
+    "meanings": {
+      "es": "contradecir",
+      "ja": "否定する",
+      "ko": "부인하다",
+      "de": "bestreiten"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "literary",
+      "archaic"
+    ],
+    "examples": [
+      {
+        "english": "No one could gainsay the evidence presented.",
+        "translation": "Nadie podía contradecir la evidencia presentada."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 635,
+    "word": "to inculcate",
+    "meaning": "to instill values or habits by persistent instruction",
+    "meanings": {
+      "es": "inculcar",
+      "ja": "教え込む",
+      "ko": "주입하다",
+      "de": "einschärfen"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "formal",
+      "academic"
+    ],
+    "examples": [
+      {
+        "english": "Schools aim to inculcate a love of learning in children.",
+        "translation": "Las escuelas buscan inculcar el amor por el aprendizaje en los niños."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 637,
+    "word": "to obsequiously",
+    "meaning": "excessively compliant or deferential",
+    "meanings": {
+      "es": "servilmente",
+      "ja": "へつらって",
+      "ko": "아첨하며",
+      "de": "unterwürfig"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [
+      "formal",
+      "rare"
+    ],
+    "examples": [
+      {
+        "english": "He obsequiously agreed with everything his boss said.",
+        "translation": "Estuvo servilmente de acuerdo con todo lo que dijo su jefe."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 591,
+    "word": "to pontificate",
+    "meaning": "to express opinions pompously",
+    "meanings": {
+      "es": "pontificar",
+      "ja": "偉そうに言う",
+      "ko": "거드름 피우며 말하다",
+      "de": "dozieren"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "colloquial",
+      "rare"
+    ],
+    "examples": [
+      {
+        "english": "He loves to pontificate about politics.",
+        "translation": "Le encanta pontificar sobre política."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 594,
+    "word": "to prevaricate",
+    "meaning": "to speak evasively or misleadingly",
+    "meanings": {
+      "es": "prevaricar",
+      "ja": "言葉を濁す",
+      "ko": "말을 얼버무리다",
+      "de": "ausweichen"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "formal",
+      "rare"
+    ],
+    "examples": [
+      {
+        "english": "Stop prevaricating and answer the question.",
+        "translation": "Deja de prevaricar y responde la pregunta."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 597,
+    "word": "to vacillate",
+    "meaning": "to waver between different opinions",
+    "meanings": {
+      "es": "vacilar",
+      "ja": "迷う",
+      "ko": "동요하다",
+      "de": "schwanken"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "formal",
+      "rare"
+    ],
+    "examples": [
+      {
+        "english": "He continued to vacillate about the decision.",
+        "translation": "Continuó vacilando sobre la decisión."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
+  },
+  {
+    "id": 593,
+    "word": "verisimilitude",
+    "meaning": "the appearance of being true or real",
+    "meanings": {
+      "es": "verosimilitud",
+      "ja": "真実らしさ",
+      "ko": "진실다움",
+      "de": "Wahrscheinlichkeit"
+    },
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "literary",
+      "rare"
+    ],
+    "examples": [
+      {
+        "english": "The novel has remarkable verisimilitude.",
+        "translation": "La novela tiene una verosimilitud notable."
+      }
+    ],
+    "audio_url": null,
+    "language_id": 6
   }
 ]

@@ -1,354 +1,7 @@
 [
   {
-    "id": "zh-vocab-1",
-    "word": "吃",
-    "reading": "chī",
-    "romaji": "chi",
-    "meaning": "to eat",
-    "meanings": {
-      "en": "to eat",
-      "es": "comer",
-      "ja": "食べる",
-      "ko": "먹다"
-    },
-    "level": "HSK1",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "chinese": "吃饭",
-        "pinyin": "chī fàn",
-        "english": "to eat (a meal)"
-      }
-    ],
-    "tags": ["food", "basic"]
-  },
-  {
-    "id": "zh-vocab-2",
-    "word": "喝",
-    "reading": "hē",
-    "romaji": "he",
-    "meaning": "to drink",
-    "meanings": {
-      "en": "to drink",
-      "es": "beber",
-      "ja": "飲む",
-      "ko": "마시다"
-    },
-    "level": "HSK1",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "chinese": "喝水",
-        "pinyin": "hē shuǐ",
-        "english": "to drink water"
-      }
-    ],
-    "tags": ["food", "basic"]
-  },
-  {
-    "id": "zh-vocab-3",
-    "word": "去",
-    "reading": "qù",
-    "romaji": "qu",
-    "meaning": "to go",
-    "meanings": {
-      "en": "to go",
-      "es": "ir",
-      "ja": "行く",
-      "ko": "가다"
-    },
-    "level": "HSK1",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "chinese": "去学校",
-        "pinyin": "qù xuéxiào",
-        "english": "to go to school"
-      }
-    ],
-    "tags": ["movement", "basic"]
-  },
-  {
-    "id": "zh-vocab-4",
-    "word": "来",
-    "reading": "lái",
-    "romaji": "lai",
-    "meaning": "to come",
-    "meanings": {
-      "en": "to come",
-      "es": "venir",
-      "ja": "来る",
-      "ko": "오다"
-    },
-    "level": "HSK1",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "chinese": "来中国",
-        "pinyin": "lái Zhōngguó",
-        "english": "to come to China"
-      }
-    ],
-    "tags": ["movement", "basic"]
-  },
-  {
-    "id": "zh-vocab-5",
-    "word": "看",
-    "reading": "kàn",
-    "romaji": "kan",
-    "meaning": "to see, to watch, to look",
-    "meanings": {
-      "en": "to see, to watch, to look",
-      "es": "ver, mirar",
-      "ja": "見る",
-      "ko": "보다"
-    },
-    "level": "HSK1",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "chinese": "看电影",
-        "pinyin": "kàn diànyǐng",
-        "english": "to watch a movie"
-      }
-    ],
-    "tags": ["senses", "basic"]
-  },
-  {
-    "id": "zh-vocab-6",
-    "word": "听",
-    "reading": "tīng",
-    "romaji": "ting",
-    "meaning": "to listen, to hear",
-    "meanings": {
-      "en": "to listen, to hear",
-      "es": "escuchar",
-      "ja": "聞く",
-      "ko": "듣다"
-    },
-    "level": "HSK1",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "chinese": "听音乐",
-        "pinyin": "tīng yīnyuè",
-        "english": "to listen to music"
-      }
-    ],
-    "tags": ["senses", "basic"]
-  },
-  {
-    "id": "zh-vocab-7",
-    "word": "说",
-    "reading": "shuō",
-    "romaji": "shuo",
-    "meaning": "to speak, to say",
-    "meanings": {
-      "en": "to speak, to say",
-      "es": "hablar, decir",
-      "ja": "話す、言う",
-      "ko": "말하다"
-    },
-    "level": "HSK1",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "chinese": "说中文",
-        "pinyin": "shuō Zhōngwén",
-        "english": "to speak Chinese"
-      }
-    ],
-    "tags": ["communication", "basic"]
-  },
-  {
-    "id": "zh-vocab-8",
-    "word": "读",
-    "reading": "dú",
-    "romaji": "du",
-    "meaning": "to read",
-    "meanings": {
-      "en": "to read",
-      "es": "leer",
-      "ja": "読む",
-      "ko": "읽다"
-    },
-    "level": "HSK1",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "chinese": "读书",
-        "pinyin": "dú shū",
-        "english": "to read books"
-      }
-    ],
-    "tags": ["study", "basic"]
-  },
-  {
-    "id": "zh-vocab-9",
-    "word": "写",
-    "reading": "xiě",
-    "romaji": "xie",
-    "meaning": "to write",
-    "meanings": {
-      "en": "to write",
-      "es": "escribir",
-      "ja": "書く",
-      "ko": "쓰다"
-    },
-    "level": "HSK1",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "chinese": "写字",
-        "pinyin": "xiě zì",
-        "english": "to write characters"
-      }
-    ],
-    "tags": ["study", "basic"]
-  },
-  {
-    "id": "zh-vocab-10",
-    "word": "爱",
-    "reading": "ài",
-    "romaji": "ai",
-    "meaning": "to love",
-    "meanings": {
-      "en": "to love",
-      "es": "amar",
-      "ja": "愛する",
-      "ko": "사랑하다"
-    },
-    "level": "HSK1",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "chinese": "我爱你",
-        "pinyin": "wǒ ài nǐ",
-        "english": "I love you"
-      }
-    ],
-    "tags": ["emotions", "basic"]
-  },
-  {
-    "id": "zh-vocab-11",
-    "word": "朋友",
-    "reading": "péngyou",
-    "romaji": "pengyou",
-    "meaning": "friend",
-    "meanings": {
-      "en": "friend",
-      "es": "amigo",
-      "ja": "友達",
-      "ko": "친구"
-    },
-    "level": "HSK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "chinese": "好朋友",
-        "pinyin": "hǎo péngyou",
-        "english": "good friend"
-      }
-    ],
-    "tags": ["people", "basic"]
-  },
-  {
-    "id": "zh-vocab-12",
-    "word": "学校",
-    "reading": "xuéxiào",
-    "romaji": "xuexiao",
-    "meaning": "school",
-    "meanings": {
-      "en": "school",
-      "es": "escuela",
-      "ja": "学校",
-      "ko": "학교"
-    },
-    "level": "HSK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "chinese": "去学校",
-        "pinyin": "qù xuéxiào",
-        "english": "to go to school"
-      }
-    ],
-    "tags": ["education", "basic"]
-  },
-  {
-    "id": "zh-vocab-13",
-    "word": "家",
-    "reading": "jiā",
-    "romaji": "jia",
-    "meaning": "home, family",
-    "meanings": {
-      "en": "home, family",
-      "es": "casa, familia",
-      "ja": "家",
-      "ko": "집"
-    },
-    "level": "HSK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "chinese": "回家",
-        "pinyin": "huí jiā",
-        "english": "to go home"
-      }
-    ],
-    "tags": ["places", "basic"]
-  },
-  {
-    "id": "zh-vocab-14",
-    "word": "水",
-    "reading": "shuǐ",
-    "romaji": "shui",
-    "meaning": "water",
-    "meanings": {
-      "en": "water",
-      "es": "agua",
-      "ja": "水",
-      "ko": "물"
-    },
-    "level": "HSK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "chinese": "喝水",
-        "pinyin": "hē shuǐ",
-        "english": "to drink water"
-      }
-    ],
-    "tags": ["food", "basic"]
-  },
-  {
-    "id": "zh-vocab-15",
-    "word": "饭",
-    "reading": "fàn",
-    "romaji": "fan",
-    "meaning": "rice, meal",
-    "meanings": {
-      "en": "rice, meal",
-      "es": "arroz, comida",
-      "ja": "ご飯",
-      "ko": "밥"
-    },
-    "level": "HSK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "chinese": "吃饭",
-        "pinyin": "chī fàn",
-        "english": "to eat (a meal)"
-      }
-    ],
-    "tags": ["food", "basic"]
-  },
-  {
-    "id": "zh-vocab-16",
+    "id": 170,
     "word": "人",
-    "reading": "rén",
-    "romaji": "ren",
     "meaning": "person, people",
     "meanings": {
       "en": "person, people",
@@ -356,8 +9,15 @@
       "ja": "人",
       "ko": "사람"
     },
+    "reading": "rén",
+    "romaji": "ren",
     "level": "HSK1",
-    "partOfSpeech": "noun",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "people",
+      "basic"
+    ],
     "examples": [
       {
         "chinese": "中国人",
@@ -365,13 +25,12 @@
         "english": "Chinese person"
       }
     ],
-    "tags": ["people", "basic"]
+    "audio_url": null,
+    "language_id": 4
   },
   {
-    "id": "zh-vocab-17",
+    "id": 171,
     "word": "今天",
-    "reading": "jīntiān",
-    "romaji": "jintian",
     "meaning": "today",
     "meanings": {
       "en": "today",
@@ -379,8 +38,15 @@
       "ja": "今日",
       "ko": "오늘"
     },
+    "reading": "jīntiān",
+    "romaji": "jintian",
     "level": "HSK1",
-    "partOfSpeech": "noun",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "basic"
+    ],
     "examples": [
       {
         "chinese": "今天很热",
@@ -388,289 +54,12 @@
         "english": "It's hot today"
       }
     ],
-    "tags": ["time", "basic"]
+    "audio_url": null,
+    "language_id": 4
   },
   {
-    "id": "zh-vocab-18",
-    "word": "明天",
-    "reading": "míngtiān",
-    "romaji": "mingtian",
-    "meaning": "tomorrow",
-    "meanings": {
-      "en": "tomorrow",
-      "es": "mañana",
-      "ja": "明日",
-      "ko": "내일"
-    },
-    "level": "HSK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "chinese": "明天见",
-        "pinyin": "míngtiān jiàn",
-        "english": "See you tomorrow"
-      }
-    ],
-    "tags": ["time", "basic"]
-  },
-  {
-    "id": "zh-vocab-19",
-    "word": "昨天",
-    "reading": "zuótiān",
-    "romaji": "zuotian",
-    "meaning": "yesterday",
-    "meanings": {
-      "en": "yesterday",
-      "es": "ayer",
-      "ja": "昨日",
-      "ko": "어제"
-    },
-    "level": "HSK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "chinese": "昨天下雨了",
-        "pinyin": "zuótiān xià yǔ le",
-        "english": "It rained yesterday"
-      }
-    ],
-    "tags": ["time", "basic"]
-  },
-  {
-    "id": "zh-vocab-20",
-    "word": "好",
-    "reading": "hǎo",
-    "romaji": "hao",
-    "meaning": "good, well",
-    "meanings": {
-      "en": "good, well",
-      "es": "bueno, bien",
-      "ja": "良い",
-      "ko": "좋다"
-    },
-    "level": "HSK1",
-    "partOfSpeech": "adjective",
-    "examples": [
-      {
-        "chinese": "很好",
-        "pinyin": "hěn hǎo",
-        "english": "very good"
-      }
-    ],
-    "tags": ["descriptive", "basic"]
-  },
-  {
-    "id": "zh-vocab-21",
-    "word": "大",
-    "reading": "dà",
-    "romaji": "da",
-    "meaning": "big, large",
-    "meanings": {
-      "en": "big, large",
-      "es": "grande",
-      "ja": "大きい",
-      "ko": "크다"
-    },
-    "level": "HSK1",
-    "partOfSpeech": "adjective",
-    "examples": [
-      {
-        "chinese": "很大",
-        "pinyin": "hěn dà",
-        "english": "very big"
-      }
-    ],
-    "tags": ["descriptive", "basic"]
-  },
-  {
-    "id": "zh-vocab-22",
-    "word": "小",
-    "reading": "xiǎo",
-    "romaji": "xiao",
-    "meaning": "small, little",
-    "meanings": {
-      "en": "small, little",
-      "es": "pequeño",
-      "ja": "小さい",
-      "ko": "작다"
-    },
-    "level": "HSK1",
-    "partOfSpeech": "adjective",
-    "examples": [
-      {
-        "chinese": "很小",
-        "pinyin": "hěn xiǎo",
-        "english": "very small"
-      }
-    ],
-    "tags": ["descriptive", "basic"]
-  },
-  {
-    "id": "zh-vocab-23",
-    "word": "多",
-    "reading": "duō",
-    "romaji": "duo",
-    "meaning": "many, much",
-    "meanings": {
-      "en": "many, much",
-      "es": "mucho",
-      "ja": "多い",
-      "ko": "많다"
-    },
-    "level": "HSK1",
-    "partOfSpeech": "adjective",
-    "examples": [
-      {
-        "chinese": "人很多",
-        "pinyin": "rén hěn duō",
-        "english": "There are many people"
-      }
-    ],
-    "tags": ["descriptive", "basic"]
-  },
-  {
-    "id": "zh-vocab-24",
-    "word": "名字",
-    "reading": "míngzi",
-    "romaji": "mingzi",
-    "meaning": "name",
-    "meanings": {
-      "en": "name",
-      "es": "nombre",
-      "ja": "名前",
-      "ko": "이름"
-    },
-    "level": "HSK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "chinese": "你叫什么名字？",
-        "pinyin": "nǐ jiào shénme míngzi?",
-        "english": "What's your name?"
-      }
-    ],
-    "tags": ["basic", "introductions"]
-  },
-  {
-    "id": "zh-vocab-25",
-    "word": "国",
-    "reading": "guó",
-    "romaji": "guo",
-    "meaning": "country, nation",
-    "meanings": {
-      "en": "country, nation",
-      "es": "país, nación",
-      "ja": "国",
-      "ko": "나라"
-    },
-    "level": "HSK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "chinese": "中国",
-        "pinyin": "Zhōngguó",
-        "english": "China"
-      }
-    ],
-    "tags": ["places", "basic"]
-  },
-  {
-    "id": "zh-vocab-26",
-    "word": "工作",
-    "reading": "gōngzuò",
-    "romaji": "gongzuo",
-    "meaning": "work, job",
-    "meanings": {
-      "en": "work, job",
-      "es": "trabajo",
-      "ja": "仕事",
-      "ko": "일"
-    },
-    "level": "HSK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "chinese": "我在工作",
-        "pinyin": "wǒ zài gōngzuò",
-        "english": "I am working"
-      }
-    ],
-    "tags": ["work", "basic"]
-  },
-  {
-    "id": "zh-vocab-27",
-    "word": "钱",
-    "reading": "qián",
-    "romaji": "qian",
-    "meaning": "money",
-    "meanings": {
-      "en": "money",
-      "es": "dinero",
-      "ja": "お金",
-      "ko": "돈"
-    },
-    "level": "HSK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "chinese": "多少钱？",
-        "pinyin": "duōshao qián?",
-        "english": "How much money?"
-      }
-    ],
-    "tags": ["basic", "shopping"]
-  },
-  {
-    "id": "zh-vocab-28",
-    "word": "时候",
-    "reading": "shíhou",
-    "romaji": "shihou",
-    "meaning": "time, moment",
-    "meanings": {
-      "en": "time, moment",
-      "es": "tiempo, momento",
-      "ja": "時間",
-      "ko": "시간"
-    },
-    "level": "HSK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "chinese": "什么时候",
-        "pinyin": "shénme shíhou",
-        "english": "what time, when"
-      }
-    ],
-    "tags": ["time", "basic"]
-  },
-  {
-    "id": "zh-vocab-29",
-    "word": "学习",
-    "reading": "xuéxí",
-    "romaji": "xuexi",
-    "meaning": "to study, to learn",
-    "meanings": {
-      "en": "to study, to learn",
-      "es": "estudiar, aprender",
-      "ja": "勉強する",
-      "ko": "공부하다"
-    },
-    "level": "HSK1",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "chinese": "学习中文",
-        "pinyin": "xuéxí Zhōngwén",
-        "english": "to study Chinese"
-      }
-    ],
-    "tags": ["education", "basic"]
-  },
-  {
-    "id": "zh-vocab-30",
+    "id": 184,
     "word": "你好",
-    "reading": "nǐ hǎo",
-    "romaji": "ni hao",
     "meaning": "hello",
     "meanings": {
       "en": "hello",
@@ -678,8 +67,15 @@
       "ja": "こんにちは",
       "ko": "안녕하세요"
     },
+    "reading": "nǐ hǎo",
+    "romaji": "ni hao",
     "level": "HSK1",
-    "partOfSpeech": "expression",
+    "framework": null,
+    "part_of_speech": "expression",
+    "tags": [
+      "greetings",
+      "basic"
+    ],
     "examples": [
       {
         "chinese": "你好，我是小明",
@@ -687,82 +83,795 @@
         "english": "Hello, I am Xiaoming"
       }
     ],
-    "tags": ["greetings", "basic"]
+    "audio_url": null,
+    "language_id": 4
   },
   {
-    "id": "zh-vocab-31",
-    "word": "感情",
-    "reading": "gǎnqíng",
-    "romaji": "ganqing",
-    "meaning": "emotion, feeling, affection",
+    "id": 163,
+    "word": "写",
+    "meaning": "to write",
     "meanings": {
-      "en": "emotion, feeling, affection",
-      "es": "emoción, sentimiento",
-      "ja": "感情",
-      "ko": "감정"
+      "en": "to write",
+      "es": "escribir",
+      "ja": "書く",
+      "ko": "쓰다"
     },
-    "level": "HSK3",
-    "partOfSpeech": "noun",
+    "reading": "xiě",
+    "romaji": "xie",
+    "level": "HSK1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "study",
+      "basic"
+    ],
     "examples": [
       {
-        "chinese": "他们的感情很好",
-        "pinyin": "tāmen de gǎnqíng hěn hǎo",
-        "english": "They have a good relationship"
+        "chinese": "写字",
+        "pinyin": "xiě zì",
+        "english": "to write characters"
       }
     ],
-    "tags": ["emotions", "relationships"]
+    "audio_url": null,
+    "language_id": 4
   },
   {
-    "id": "zh-vocab-32",
-    "word": "经验",
-    "reading": "jīngyàn",
-    "romaji": "jingyan",
-    "meaning": "experience",
+    "id": 157,
+    "word": "去",
+    "meaning": "to go",
     "meanings": {
-      "en": "experience",
-      "es": "experiencia",
-      "ja": "経験",
-      "ko": "경험"
+      "en": "to go",
+      "es": "ir",
+      "ja": "行く",
+      "ko": "가다"
     },
-    "level": "HSK3",
-    "partOfSpeech": "noun",
+    "reading": "qù",
+    "romaji": "qu",
+    "level": "HSK1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "movement",
+      "basic"
+    ],
     "examples": [
       {
-        "chinese": "他有很多工作经验",
-        "pinyin": "tā yǒu hěn duō gōngzuò jīngyàn",
-        "english": "He has a lot of work experience"
+        "chinese": "去学校",
+        "pinyin": "qù xuéxiào",
+        "english": "to go to school"
       }
     ],
-    "tags": ["work", "intermediate"]
+    "audio_url": null,
+    "language_id": 4
   },
   {
-    "id": "zh-vocab-33",
-    "word": "旅游",
-    "reading": "lǚyóu",
-    "romaji": "lvyou",
-    "meaning": "to travel, tourism",
+    "id": 155,
+    "word": "吃",
+    "meaning": "to eat",
     "meanings": {
-      "en": "to travel, tourism",
-      "es": "viajar, turismo",
-      "ja": "旅行する",
-      "ko": "여행하다"
+      "en": "to eat",
+      "es": "comer",
+      "ja": "食べる",
+      "ko": "먹다"
     },
-    "level": "HSK3",
-    "partOfSpeech": "verb",
+    "reading": "chī",
+    "romaji": "chi",
+    "level": "HSK1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "food",
+      "basic"
+    ],
     "examples": [
       {
-        "chinese": "我喜欢去国外旅游",
-        "pinyin": "wǒ xǐhuan qù guówài lǚyóu",
-        "english": "I like to travel abroad"
+        "chinese": "吃饭",
+        "pinyin": "chī fàn",
+        "english": "to eat (a meal)"
       }
     ],
-    "tags": ["travel", "intermediate"]
+    "audio_url": null,
+    "language_id": 4
   },
   {
-    "id": "zh-vocab-34",
+    "id": 178,
+    "word": "名字",
+    "meaning": "name",
+    "meanings": {
+      "en": "name",
+      "es": "nombre",
+      "ja": "名前",
+      "ko": "이름"
+    },
+    "reading": "míngzi",
+    "romaji": "mingzi",
+    "level": "HSK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "basic",
+      "introductions"
+    ],
+    "examples": [
+      {
+        "chinese": "你叫什么名字？",
+        "pinyin": "nǐ jiào shénme míngzi?",
+        "english": "What's your name?"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 160,
+    "word": "听",
+    "meaning": "to listen, to hear",
+    "meanings": {
+      "en": "to listen, to hear",
+      "es": "escuchar",
+      "ja": "聞く",
+      "ko": "듣다"
+    },
+    "reading": "tīng",
+    "romaji": "ting",
+    "level": "HSK1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "senses",
+      "basic"
+    ],
+    "examples": [
+      {
+        "chinese": "听音乐",
+        "pinyin": "tīng yīnyuè",
+        "english": "to listen to music"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 156,
+    "word": "喝",
+    "meaning": "to drink",
+    "meanings": {
+      "en": "to drink",
+      "es": "beber",
+      "ja": "飲む",
+      "ko": "마시다"
+    },
+    "reading": "hē",
+    "romaji": "he",
+    "level": "HSK1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "examples": [
+      {
+        "chinese": "喝水",
+        "pinyin": "hē shuǐ",
+        "english": "to drink water"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 179,
+    "word": "国",
+    "meaning": "country, nation",
+    "meanings": {
+      "en": "country, nation",
+      "es": "país, nación",
+      "ja": "国",
+      "ko": "나라"
+    },
+    "reading": "guó",
+    "romaji": "guo",
+    "level": "HSK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "places",
+      "basic"
+    ],
+    "examples": [
+      {
+        "chinese": "中国",
+        "pinyin": "Zhōngguó",
+        "english": "China"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 177,
+    "word": "多",
+    "meaning": "many, much",
+    "meanings": {
+      "en": "many, much",
+      "es": "mucho",
+      "ja": "多い",
+      "ko": "많다"
+    },
+    "reading": "duō",
+    "romaji": "duo",
+    "level": "HSK1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "basic"
+    ],
+    "examples": [
+      {
+        "chinese": "人很多",
+        "pinyin": "rén hěn duō",
+        "english": "There are many people"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 175,
+    "word": "大",
+    "meaning": "big, large",
+    "meanings": {
+      "en": "big, large",
+      "es": "grande",
+      "ja": "大きい",
+      "ko": "크다"
+    },
+    "reading": "dà",
+    "romaji": "da",
+    "level": "HSK1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "basic"
+    ],
+    "examples": [
+      {
+        "chinese": "很大",
+        "pinyin": "hěn dà",
+        "english": "very big"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 174,
+    "word": "好",
+    "meaning": "good, well",
+    "meanings": {
+      "en": "good, well",
+      "es": "bueno, bien",
+      "ja": "良い",
+      "ko": "좋다"
+    },
+    "reading": "hǎo",
+    "romaji": "hao",
+    "level": "HSK1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "basic"
+    ],
+    "examples": [
+      {
+        "chinese": "很好",
+        "pinyin": "hěn hǎo",
+        "english": "very good"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 183,
+    "word": "学习",
+    "meaning": "to study, to learn",
+    "meanings": {
+      "en": "to study, to learn",
+      "es": "estudiar, aprender",
+      "ja": "勉強する",
+      "ko": "공부하다"
+    },
+    "reading": "xuéxí",
+    "romaji": "xuexi",
+    "level": "HSK1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "education",
+      "basic"
+    ],
+    "examples": [
+      {
+        "chinese": "学习中文",
+        "pinyin": "xuéxí Zhōngwén",
+        "english": "to study Chinese"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 166,
+    "word": "学校",
+    "meaning": "school",
+    "meanings": {
+      "en": "school",
+      "es": "escuela",
+      "ja": "学校",
+      "ko": "학교"
+    },
+    "reading": "xuéxiào",
+    "romaji": "xuexiao",
+    "level": "HSK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "education",
+      "basic"
+    ],
+    "examples": [
+      {
+        "chinese": "去学校",
+        "pinyin": "qù xuéxiào",
+        "english": "to go to school"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 167,
+    "word": "家",
+    "meaning": "home, family",
+    "meanings": {
+      "en": "home, family",
+      "es": "casa, familia",
+      "ja": "家",
+      "ko": "집"
+    },
+    "reading": "jiā",
+    "romaji": "jia",
+    "level": "HSK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "places",
+      "basic"
+    ],
+    "examples": [
+      {
+        "chinese": "回家",
+        "pinyin": "huí jiā",
+        "english": "to go home"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 176,
+    "word": "小",
+    "meaning": "small, little",
+    "meanings": {
+      "en": "small, little",
+      "es": "pequeño",
+      "ja": "小さい",
+      "ko": "작다"
+    },
+    "reading": "xiǎo",
+    "romaji": "xiao",
+    "level": "HSK1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "basic"
+    ],
+    "examples": [
+      {
+        "chinese": "很小",
+        "pinyin": "hěn xiǎo",
+        "english": "very small"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 180,
+    "word": "工作",
+    "meaning": "work, job",
+    "meanings": {
+      "en": "work, job",
+      "es": "trabajo",
+      "ja": "仕事",
+      "ko": "일"
+    },
+    "reading": "gōngzuò",
+    "romaji": "gongzuo",
+    "level": "HSK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "work",
+      "basic"
+    ],
+    "examples": [
+      {
+        "chinese": "我在工作",
+        "pinyin": "wǒ zài gōngzuò",
+        "english": "I am working"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 182,
+    "word": "时候",
+    "meaning": "time, moment",
+    "meanings": {
+      "en": "time, moment",
+      "es": "tiempo, momento",
+      "ja": "時間",
+      "ko": "시간"
+    },
+    "reading": "shíhou",
+    "romaji": "shihou",
+    "level": "HSK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "examples": [
+      {
+        "chinese": "什么时候",
+        "pinyin": "shénme shíhou",
+        "english": "what time, when"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 172,
+    "word": "明天",
+    "meaning": "tomorrow",
+    "meanings": {
+      "en": "tomorrow",
+      "es": "mañana",
+      "ja": "明日",
+      "ko": "내일"
+    },
+    "reading": "míngtiān",
+    "romaji": "mingtian",
+    "level": "HSK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "examples": [
+      {
+        "chinese": "明天见",
+        "pinyin": "míngtiān jiàn",
+        "english": "See you tomorrow"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 173,
+    "word": "昨天",
+    "meaning": "yesterday",
+    "meanings": {
+      "en": "yesterday",
+      "es": "ayer",
+      "ja": "昨日",
+      "ko": "어제"
+    },
+    "reading": "zuótiān",
+    "romaji": "zuotian",
+    "level": "HSK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "examples": [
+      {
+        "chinese": "昨天下雨了",
+        "pinyin": "zuótiān xià yǔ le",
+        "english": "It rained yesterday"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 165,
+    "word": "朋友",
+    "meaning": "friend",
+    "meanings": {
+      "en": "friend",
+      "es": "amigo",
+      "ja": "友達",
+      "ko": "친구"
+    },
+    "reading": "péngyou",
+    "romaji": "pengyou",
+    "level": "HSK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "people",
+      "basic"
+    ],
+    "examples": [
+      {
+        "chinese": "好朋友",
+        "pinyin": "hǎo péngyou",
+        "english": "good friend"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 158,
+    "word": "来",
+    "meaning": "to come",
+    "meanings": {
+      "en": "to come",
+      "es": "venir",
+      "ja": "来る",
+      "ko": "오다"
+    },
+    "reading": "lái",
+    "romaji": "lai",
+    "level": "HSK1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "movement",
+      "basic"
+    ],
+    "examples": [
+      {
+        "chinese": "来中国",
+        "pinyin": "lái Zhōngguó",
+        "english": "to come to China"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 168,
+    "word": "水",
+    "meaning": "water",
+    "meanings": {
+      "en": "water",
+      "es": "agua",
+      "ja": "水",
+      "ko": "물"
+    },
+    "reading": "shuǐ",
+    "romaji": "shui",
+    "level": "HSK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "examples": [
+      {
+        "chinese": "喝水",
+        "pinyin": "hē shuǐ",
+        "english": "to drink water"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 164,
+    "word": "爱",
+    "meaning": "to love",
+    "meanings": {
+      "en": "to love",
+      "es": "amar",
+      "ja": "愛する",
+      "ko": "사랑하다"
+    },
+    "reading": "ài",
+    "romaji": "ai",
+    "level": "HSK1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "emotions",
+      "basic"
+    ],
+    "examples": [
+      {
+        "chinese": "我爱你",
+        "pinyin": "wǒ ài nǐ",
+        "english": "I love you"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 159,
+    "word": "看",
+    "meaning": "to see, to watch, to look",
+    "meanings": {
+      "en": "to see, to watch, to look",
+      "es": "ver, mirar",
+      "ja": "見る",
+      "ko": "보다"
+    },
+    "reading": "kàn",
+    "romaji": "kan",
+    "level": "HSK1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "senses",
+      "basic"
+    ],
+    "examples": [
+      {
+        "chinese": "看电影",
+        "pinyin": "kàn diànyǐng",
+        "english": "to watch a movie"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 161,
+    "word": "说",
+    "meaning": "to speak, to say",
+    "meanings": {
+      "en": "to speak, to say",
+      "es": "hablar, decir",
+      "ja": "話す、言う",
+      "ko": "말하다"
+    },
+    "reading": "shuō",
+    "romaji": "shuo",
+    "level": "HSK1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "communication",
+      "basic"
+    ],
+    "examples": [
+      {
+        "chinese": "说中文",
+        "pinyin": "shuō Zhōngwén",
+        "english": "to speak Chinese"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 162,
+    "word": "读",
+    "meaning": "to read",
+    "meanings": {
+      "en": "to read",
+      "es": "leer",
+      "ja": "読む",
+      "ko": "읽다"
+    },
+    "reading": "dú",
+    "romaji": "du",
+    "level": "HSK1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "study",
+      "basic"
+    ],
+    "examples": [
+      {
+        "chinese": "读书",
+        "pinyin": "dú shū",
+        "english": "to read books"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 181,
+    "word": "钱",
+    "meaning": "money",
+    "meanings": {
+      "en": "money",
+      "es": "dinero",
+      "ja": "お金",
+      "ko": "돈"
+    },
+    "reading": "qián",
+    "romaji": "qian",
+    "level": "HSK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "basic",
+      "shopping"
+    ],
+    "examples": [
+      {
+        "chinese": "多少钱？",
+        "pinyin": "duōshao qián?",
+        "english": "How much money?"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 169,
+    "word": "饭",
+    "meaning": "rice, meal",
+    "meanings": {
+      "en": "rice, meal",
+      "es": "arroz, comida",
+      "ja": "ご飯",
+      "ko": "밥"
+    },
+    "reading": "fàn",
+    "romaji": "fan",
+    "level": "HSK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "examples": [
+      {
+        "chinese": "吃饭",
+        "pinyin": "chī fàn",
+        "english": "to eat (a meal)"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 188,
     "word": "健康",
-    "reading": "jiànkāng",
-    "romaji": "jiankang",
     "meaning": "health, healthy",
     "meanings": {
       "en": "health, healthy",
@@ -770,8 +879,15 @@
       "ja": "健康",
       "ko": "건강"
     },
+    "reading": "jiànkāng",
+    "romaji": "jiankang",
     "level": "HSK3",
-    "partOfSpeech": "noun/adjective",
+    "framework": null,
+    "part_of_speech": "noun/adjective",
+    "tags": [
+      "health",
+      "intermediate"
+    ],
     "examples": [
       {
         "chinese": "身体健康最重要",
@@ -779,36 +895,12 @@
         "english": "Good health is most important"
       }
     ],
-    "tags": ["health", "intermediate"]
+    "audio_url": null,
+    "language_id": 4
   },
   {
-    "id": "zh-vocab-35",
-    "word": "担心",
-    "reading": "dānxīn",
-    "romaji": "danxin",
-    "meaning": "to worry, worried",
-    "meanings": {
-      "en": "to worry, worried",
-      "es": "preocuparse",
-      "ja": "心配する",
-      "ko": "걱정하다"
-    },
-    "level": "HSK3",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "chinese": "别担心，一切都会好的",
-        "pinyin": "bié dānxīn, yíqiè dōu huì hǎo de",
-        "english": "Don't worry, everything will be fine"
-      }
-    ],
-    "tags": ["emotions", "intermediate"]
-  },
-  {
-    "id": "zh-vocab-36",
+    "id": 190,
     "word": "决定",
-    "reading": "juédìng",
-    "romaji": "jueding",
     "meaning": "to decide, decision",
     "meanings": {
       "en": "to decide, decision",
@@ -816,8 +908,15 @@
       "ja": "決定する",
       "ko": "결정하다"
     },
+    "reading": "juédìng",
+    "romaji": "jueding",
     "level": "HSK3",
-    "partOfSpeech": "verb/noun",
+    "framework": null,
+    "part_of_speech": "verb/noun",
+    "tags": [
+      "actions",
+      "intermediate"
+    ],
     "examples": [
       {
         "chinese": "我决定明年去留学",
@@ -825,36 +924,12 @@
         "english": "I decided to study abroad next year"
       }
     ],
-    "tags": ["actions", "intermediate"]
+    "audio_url": null,
+    "language_id": 4
   },
   {
-    "id": "zh-vocab-37",
-    "word": "环境",
-    "reading": "huánjìng",
-    "romaji": "huanjing",
-    "meaning": "environment, surroundings",
-    "meanings": {
-      "en": "environment, surroundings",
-      "es": "ambiente, entorno",
-      "ja": "環境",
-      "ko": "환경"
-    },
-    "level": "HSK3",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "chinese": "保护环境是每个人的责任",
-        "pinyin": "bǎohù huánjìng shì měi gè rén de zérèn",
-        "english": "Protecting the environment is everyone's responsibility"
-      }
-    ],
-    "tags": ["nature", "intermediate"]
-  },
-  {
-    "id": "zh-vocab-38",
+    "id": 192,
     "word": "办法",
-    "reading": "bànfǎ",
-    "romaji": "banfa",
     "meaning": "method, way, means",
     "meanings": {
       "en": "method, way, means",
@@ -862,8 +937,15 @@
       "ja": "方法",
       "ko": "방법"
     },
+    "reading": "bànfǎ",
+    "romaji": "banfa",
     "level": "HSK3",
-    "partOfSpeech": "noun",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "abstract",
+      "intermediate"
+    ],
     "examples": [
       {
         "chinese": "我没有办法帮你",
@@ -871,36 +953,12 @@
         "english": "I have no way to help you"
       }
     ],
-    "tags": ["abstract", "intermediate"]
+    "audio_url": null,
+    "language_id": 4
   },
   {
-    "id": "zh-vocab-39",
-    "word": "影响",
-    "reading": "yǐngxiǎng",
-    "romaji": "yingxiang",
-    "meaning": "to influence, influence",
-    "meanings": {
-      "en": "to influence, influence",
-      "es": "influir, influencia",
-      "ja": "影響する",
-      "ko": "영향"
-    },
-    "level": "HSK3",
-    "partOfSpeech": "verb/noun",
-    "examples": [
-      {
-        "chinese": "父母对孩子的影响很大",
-        "pinyin": "fùmǔ duì háizi de yǐngxiǎng hěn dà",
-        "english": "Parents have a great influence on children"
-      }
-    ],
-    "tags": ["abstract", "intermediate"]
-  },
-  {
-    "id": "zh-vocab-40",
+    "id": 194,
     "word": "安全",
-    "reading": "ānquán",
-    "romaji": "anquan",
     "meaning": "safe, safety",
     "meanings": {
       "en": "safe, safety",
@@ -908,8 +966,15 @@
       "ja": "安全",
       "ko": "안전"
     },
+    "reading": "ānquán",
+    "romaji": "anquan",
     "level": "HSK3",
-    "partOfSpeech": "noun/adjective",
+    "framework": null,
+    "part_of_speech": "noun/adjective",
+    "tags": [
+      "safety",
+      "intermediate"
+    ],
     "examples": [
       {
         "chinese": "注意安全！",
@@ -917,59 +982,186 @@
         "english": "Be careful! (Pay attention to safety)"
       }
     ],
-    "tags": ["safety", "intermediate"]
+    "audio_url": null,
+    "language_id": 4
   },
   {
-    "id": "zh-vocab-41",
-    "word": "竞争",
-    "reading": "jìngzhēng",
-    "romaji": "jingzheng",
-    "meaning": "competition, to compete",
+    "id": 193,
+    "word": "影响",
+    "meaning": "to influence, influence",
     "meanings": {
-      "en": "competition, to compete",
-      "es": "competencia, competir",
-      "ja": "競争",
-      "ko": "경쟁"
+      "en": "to influence, influence",
+      "es": "influir, influencia",
+      "ja": "影響する",
+      "ko": "영향"
     },
-    "level": "HSK4",
-    "partOfSpeech": "noun/verb",
+    "reading": "yǐngxiǎng",
+    "romaji": "yingxiang",
+    "level": "HSK3",
+    "framework": null,
+    "part_of_speech": "verb/noun",
+    "tags": [
+      "abstract",
+      "intermediate"
+    ],
     "examples": [
       {
-        "chinese": "市场竞争非常激烈",
-        "pinyin": "shìchǎng jìngzhēng fēicháng jīliè",
-        "english": "Market competition is very fierce"
+        "chinese": "父母对孩子的影响很大",
+        "pinyin": "fùmǔ duì háizi de yǐngxiǎng hěn dà",
+        "english": "Parents have a great influence on children"
       }
     ],
-    "tags": ["business", "upper-intermediate"]
+    "audio_url": null,
+    "language_id": 4
   },
   {
-    "id": "zh-vocab-42",
-    "word": "概念",
-    "reading": "gàiniàn",
-    "romaji": "gainian",
-    "meaning": "concept, notion",
+    "id": 185,
+    "word": "感情",
+    "meaning": "emotion, feeling, affection",
     "meanings": {
-      "en": "concept, notion",
-      "es": "concepto, noción",
-      "ja": "概念",
-      "ko": "개념"
+      "en": "emotion, feeling, affection",
+      "es": "emoción, sentimiento",
+      "ja": "感情",
+      "ko": "감정"
     },
-    "level": "HSK4",
-    "partOfSpeech": "noun",
+    "reading": "gǎnqíng",
+    "romaji": "ganqing",
+    "level": "HSK3",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "emotions",
+      "relationships"
+    ],
     "examples": [
       {
-        "chinese": "这个概念很抽象",
-        "pinyin": "zhège gàiniàn hěn chōuxiàng",
-        "english": "This concept is very abstract"
+        "chinese": "他们的感情很好",
+        "pinyin": "tāmen de gǎnqíng hěn hǎo",
+        "english": "They have a good relationship"
       }
     ],
-    "tags": ["abstract", "upper-intermediate"]
+    "audio_url": null,
+    "language_id": 4
   },
   {
-    "id": "zh-vocab-43",
+    "id": 189,
+    "word": "担心",
+    "meaning": "to worry, worried",
+    "meanings": {
+      "en": "to worry, worried",
+      "es": "preocuparse",
+      "ja": "心配する",
+      "ko": "걱정하다"
+    },
+    "reading": "dānxīn",
+    "romaji": "danxin",
+    "level": "HSK3",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "emotions",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "chinese": "别担心，一切都会好的",
+        "pinyin": "bié dānxīn, yíqiè dōu huì hǎo de",
+        "english": "Don't worry, everything will be fine"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 187,
+    "word": "旅游",
+    "meaning": "to travel, tourism",
+    "meanings": {
+      "en": "to travel, tourism",
+      "es": "viajar, turismo",
+      "ja": "旅行する",
+      "ko": "여행하다"
+    },
+    "reading": "lǚyóu",
+    "romaji": "lvyou",
+    "level": "HSK3",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "travel",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "chinese": "我喜欢去国外旅游",
+        "pinyin": "wǒ xǐhuan qù guówài lǚyóu",
+        "english": "I like to travel abroad"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 191,
+    "word": "环境",
+    "meaning": "environment, surroundings",
+    "meanings": {
+      "en": "environment, surroundings",
+      "es": "ambiente, entorno",
+      "ja": "環境",
+      "ko": "환경"
+    },
+    "reading": "huánjìng",
+    "romaji": "huanjing",
+    "level": "HSK3",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "nature",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "chinese": "保护环境是每个人的责任",
+        "pinyin": "bǎohù huánjìng shì měi gè rén de zérèn",
+        "english": "Protecting the environment is everyone's responsibility"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 186,
+    "word": "经验",
+    "meaning": "experience",
+    "meanings": {
+      "en": "experience",
+      "es": "experiencia",
+      "ja": "経験",
+      "ko": "경험"
+    },
+    "reading": "jīngyàn",
+    "romaji": "jingyan",
+    "level": "HSK3",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "work",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "chinese": "他有很多工作经验",
+        "pinyin": "tā yǒu hěn duō gōngzuò jīngyàn",
+        "english": "He has a lot of work experience"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 197,
     "word": "一帆风顺",
-    "reading": "yìfānfēngshùn",
-    "romaji": "yifanfengshun",
     "meaning": "smooth sailing, everything going well",
     "meanings": {
       "en": "smooth sailing, everything going well",
@@ -977,8 +1169,15 @@
       "ja": "順風満帆",
       "ko": "순풍순조"
     },
+    "reading": "yìfānfēngshùn",
+    "romaji": "yifanfengshun",
     "level": "HSK4",
-    "partOfSpeech": "idiom",
+    "framework": null,
+    "part_of_speech": "idiom",
+    "tags": [
+      "idiom",
+      "upper-intermediate"
+    ],
     "examples": [
       {
         "chinese": "祝你一帆风顺！",
@@ -986,82 +1185,12 @@
         "english": "Wishing you smooth sailing!"
       }
     ],
-    "tags": ["idiom", "upper-intermediate"]
+    "audio_url": null,
+    "language_id": 4
   },
   {
-    "id": "zh-vocab-44",
-    "word": "合同",
-    "reading": "hétong",
-    "romaji": "hetong",
-    "meaning": "contract, agreement",
-    "meanings": {
-      "en": "contract, agreement",
-      "es": "contrato, acuerdo",
-      "ja": "契約",
-      "ko": "계약"
-    },
-    "level": "HSK4",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "chinese": "请签这份合同",
-        "pinyin": "qǐng qiān zhè fèn hétong",
-        "english": "Please sign this contract"
-      }
-    ],
-    "tags": ["business", "upper-intermediate"]
-  },
-  {
-    "id": "zh-vocab-45",
-    "word": "效率",
-    "reading": "xiàolǜ",
-    "romaji": "xiaolv",
-    "meaning": "efficiency",
-    "meanings": {
-      "en": "efficiency",
-      "es": "eficiencia",
-      "ja": "効率",
-      "ko": "효율"
-    },
-    "level": "HSK4",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "chinese": "我们需要提高工作效率",
-        "pinyin": "wǒmen xūyào tígāo gōngzuò xiàolǜ",
-        "english": "We need to improve work efficiency"
-      }
-    ],
-    "tags": ["business", "upper-intermediate"]
-  },
-  {
-    "id": "zh-vocab-46",
-    "word": "脾气",
-    "reading": "píqi",
-    "romaji": "piqi",
-    "meaning": "temper, temperament",
-    "meanings": {
-      "en": "temper, temperament",
-      "es": "temperamento, carácter",
-      "ja": "気性",
-      "ko": "성격"
-    },
-    "level": "HSK4",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "chinese": "他脾气很好，从不生气",
-        "pinyin": "tā píqi hěn hǎo, cóng bù shēngqì",
-        "english": "He has a good temper and never gets angry"
-      }
-    ],
-    "tags": ["personality", "upper-intermediate"]
-  },
-  {
-    "id": "zh-vocab-47",
+    "id": 201,
     "word": "半途而废",
-    "reading": "bàntú'érfèi",
-    "romaji": "bantuerfe",
     "meaning": "to give up halfway",
     "meanings": {
       "en": "to give up halfway",
@@ -1069,8 +1198,15 @@
       "ja": "中途で諦める",
       "ko": "도중에 포기하다"
     },
+    "reading": "bàntú'érfèi",
+    "romaji": "bantuerfe",
     "level": "HSK4",
-    "partOfSpeech": "idiom",
+    "framework": null,
+    "part_of_speech": "idiom",
+    "tags": [
+      "idiom",
+      "upper-intermediate"
+    ],
     "examples": [
       {
         "chinese": "做事不能半途而废",
@@ -1078,36 +1214,12 @@
         "english": "You shouldn't give up halfway when doing things"
       }
     ],
-    "tags": ["idiom", "upper-intermediate"]
+    "audio_url": null,
+    "language_id": 4
   },
   {
-    "id": "zh-vocab-48",
-    "word": "投资",
-    "reading": "tóuzī",
-    "romaji": "touzi",
-    "meaning": "to invest, investment",
-    "meanings": {
-      "en": "to invest, investment",
-      "es": "invertir, inversión",
-      "ja": "投資する",
-      "ko": "투자하다"
-    },
-    "level": "HSK4",
-    "partOfSpeech": "verb/noun",
-    "examples": [
-      {
-        "chinese": "他在股票市场投资了很多钱",
-        "pinyin": "tā zài gǔpiào shìchǎng tóuzī le hěn duō qián",
-        "english": "He invested a lot of money in the stock market"
-      }
-    ],
-    "tags": ["business", "finance", "upper-intermediate"]
-  },
-  {
-    "id": "zh-vocab-49",
+    "id": 203,
     "word": "压力",
-    "reading": "yālì",
-    "romaji": "yali",
     "meaning": "pressure, stress",
     "meanings": {
       "en": "pressure, stress",
@@ -1115,8 +1227,15 @@
       "ja": "プレッシャー",
       "ko": "압력"
     },
+    "reading": "yālì",
+    "romaji": "yali",
     "level": "HSK4",
-    "partOfSpeech": "noun",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "emotions",
+      "upper-intermediate"
+    ],
     "examples": [
       {
         "chinese": "现代人的生活压力很大",
@@ -1124,13 +1243,187 @@
         "english": "Modern people have a lot of life pressure"
       }
     ],
-    "tags": ["emotions", "upper-intermediate"]
+    "audio_url": null,
+    "language_id": 4
   },
   {
-    "id": "zh-vocab-50",
+    "id": 198,
+    "word": "合同",
+    "meaning": "contract, agreement",
+    "meanings": {
+      "en": "contract, agreement",
+      "es": "contrato, acuerdo",
+      "ja": "契約",
+      "ko": "계약"
+    },
+    "reading": "hétong",
+    "romaji": "hetong",
+    "level": "HSK4",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "business",
+      "upper-intermediate"
+    ],
+    "examples": [
+      {
+        "chinese": "请签这份合同",
+        "pinyin": "qǐng qiān zhè fèn hétong",
+        "english": "Please sign this contract"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 202,
+    "word": "投资",
+    "meaning": "to invest, investment",
+    "meanings": {
+      "en": "to invest, investment",
+      "es": "invertir, inversión",
+      "ja": "投資する",
+      "ko": "투자하다"
+    },
+    "reading": "tóuzī",
+    "romaji": "touzi",
+    "level": "HSK4",
+    "framework": null,
+    "part_of_speech": "verb/noun",
+    "tags": [
+      "business",
+      "finance",
+      "upper-intermediate"
+    ],
+    "examples": [
+      {
+        "chinese": "他在股票市场投资了很多钱",
+        "pinyin": "tā zài gǔpiào shìchǎng tóuzī le hěn duō qián",
+        "english": "He invested a lot of money in the stock market"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 199,
+    "word": "效率",
+    "meaning": "efficiency",
+    "meanings": {
+      "en": "efficiency",
+      "es": "eficiencia",
+      "ja": "効率",
+      "ko": "효율"
+    },
+    "reading": "xiàolǜ",
+    "romaji": "xiaolv",
+    "level": "HSK4",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "business",
+      "upper-intermediate"
+    ],
+    "examples": [
+      {
+        "chinese": "我们需要提高工作效率",
+        "pinyin": "wǒmen xūyào tígāo gōngzuò xiàolǜ",
+        "english": "We need to improve work efficiency"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 196,
+    "word": "概念",
+    "meaning": "concept, notion",
+    "meanings": {
+      "en": "concept, notion",
+      "es": "concepto, noción",
+      "ja": "概念",
+      "ko": "개념"
+    },
+    "reading": "gàiniàn",
+    "romaji": "gainian",
+    "level": "HSK4",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "abstract",
+      "upper-intermediate"
+    ],
+    "examples": [
+      {
+        "chinese": "这个概念很抽象",
+        "pinyin": "zhège gàiniàn hěn chōuxiàng",
+        "english": "This concept is very abstract"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 195,
+    "word": "竞争",
+    "meaning": "competition, to compete",
+    "meanings": {
+      "en": "competition, to compete",
+      "es": "competencia, competir",
+      "ja": "競争",
+      "ko": "경쟁"
+    },
+    "reading": "jìngzhēng",
+    "romaji": "jingzheng",
+    "level": "HSK4",
+    "framework": null,
+    "part_of_speech": "noun/verb",
+    "tags": [
+      "business",
+      "upper-intermediate"
+    ],
+    "examples": [
+      {
+        "chinese": "市场竞争非常激烈",
+        "pinyin": "shìchǎng jìngzhēng fēicháng jīliè",
+        "english": "Market competition is very fierce"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 200,
+    "word": "脾气",
+    "meaning": "temper, temperament",
+    "meanings": {
+      "en": "temper, temperament",
+      "es": "temperamento, carácter",
+      "ja": "気性",
+      "ko": "성격"
+    },
+    "reading": "píqi",
+    "romaji": "piqi",
+    "level": "HSK4",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "personality",
+      "upper-intermediate"
+    ],
+    "examples": [
+      {
+        "chinese": "他脾气很好，从不生气",
+        "pinyin": "tā píqi hěn hǎo, cóng bù shēngqì",
+        "english": "He has a good temper and never gets angry"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 204,
     "word": "自信",
-    "reading": "zìxìn",
-    "romaji": "zixin",
     "meaning": "self-confidence, confident",
     "meanings": {
       "en": "self-confidence, confident",
@@ -1138,8 +1431,15 @@
       "ja": "自信",
       "ko": "자신감"
     },
+    "reading": "zìxìn",
+    "romaji": "zixin",
     "level": "HSK4",
-    "partOfSpeech": "noun/adjective",
+    "framework": null,
+    "part_of_speech": "noun/adjective",
+    "tags": [
+      "personality",
+      "upper-intermediate"
+    ],
     "examples": [
       {
         "chinese": "她是一个很自信的人",
@@ -1147,13 +1447,12 @@
         "english": "She is a very confident person"
       }
     ],
-    "tags": ["personality", "upper-intermediate"]
+    "audio_url": null,
+    "language_id": 4
   },
   {
-    "id": "zh-vocab-51",
+    "id": 205,
     "word": "协调",
-    "reading": "xiétiáo",
-    "romaji": "xietiao",
     "meaning": "to coordinate, harmonize",
     "meanings": {
       "en": "to coordinate, harmonize",
@@ -1161,8 +1460,15 @@
       "ja": "調整する",
       "ko": "조정하다"
     },
+    "reading": "xiétiáo",
+    "romaji": "xietiao",
     "level": "HSK5",
-    "partOfSpeech": "verb",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "business",
+      "advanced"
+    ],
     "examples": [
       {
         "chinese": "他负责协调各部门之间的工作",
@@ -1170,128 +1476,12 @@
         "english": "He is responsible for coordinating work between departments"
       }
     ],
-    "tags": ["business", "advanced"]
+    "audio_url": null,
+    "language_id": 4
   },
   {
-    "id": "zh-vocab-52",
-    "word": "辩论",
-    "reading": "biànlùn",
-    "romaji": "bianlun",
-    "meaning": "to debate, debate",
-    "meanings": {
-      "en": "to debate, debate",
-      "es": "debatir, debate",
-      "ja": "討論する",
-      "ko": "토론하다"
-    },
-    "level": "HSK5",
-    "partOfSpeech": "verb/noun",
-    "examples": [
-      {
-        "chinese": "学生们正在进行激烈的辩论",
-        "pinyin": "xuéshengmen zhèngzài jìnxíng jīliè de biànlùn",
-        "english": "The students are having an intense debate"
-      }
-    ],
-    "tags": ["academic", "advanced"]
-  },
-  {
-    "id": "zh-vocab-53",
-    "word": "执着",
-    "reading": "zhízhuó",
-    "romaji": "zhizhuo",
-    "meaning": "persistent, perseverance",
-    "meanings": {
-      "en": "persistent, perseverance",
-      "es": "persistente, perseverancia",
-      "ja": "執着",
-      "ko": "집착"
-    },
-    "level": "HSK5",
-    "partOfSpeech": "adjective/noun",
-    "examples": [
-      {
-        "chinese": "他对音乐的执着令人敬佩",
-        "pinyin": "tā duì yīnyuè de zhízhuó lìng rén jìngpèi",
-        "english": "His perseverance in music is admirable"
-      }
-    ],
-    "tags": ["personality", "advanced"]
-  },
-  {
-    "id": "zh-vocab-54",
-    "word": "抽象",
-    "reading": "chōuxiàng",
-    "romaji": "chouxiang",
-    "meaning": "abstract",
-    "meanings": {
-      "en": "abstract",
-      "es": "abstracto",
-      "ja": "抽象的",
-      "ko": "추상적"
-    },
-    "level": "HSK5",
-    "partOfSpeech": "adjective",
-    "examples": [
-      {
-        "chinese": "哲学是一门很抽象的学科",
-        "pinyin": "zhéxué shì yì mén hěn chōuxiàng de xuékē",
-        "english": "Philosophy is a very abstract subject"
-      }
-    ],
-    "tags": ["academic", "advanced"]
-  },
-  {
-    "id": "zh-vocab-55",
-    "word": "繁荣",
-    "reading": "fánróng",
-    "romaji": "fanrong",
-    "meaning": "prosperous, prosperity",
-    "meanings": {
-      "en": "prosperous, prosperity",
-      "es": "próspero, prosperidad",
-      "ja": "繁栄",
-      "ko": "번영"
-    },
-    "level": "HSK5",
-    "partOfSpeech": "adjective/noun",
-    "examples": [
-      {
-        "chinese": "这座城市经济繁荣",
-        "pinyin": "zhè zuò chéngshì jīngjì fánróng",
-        "english": "This city has a prosperous economy"
-      }
-    ],
-    "tags": ["economy", "advanced"]
-  },
-  {
-    "id": "zh-vocab-56",
-    "word": "舆论",
-    "reading": "yúlùn",
-    "romaji": "yulun",
-    "meaning": "public opinion",
-    "meanings": {
-      "en": "public opinion",
-      "es": "opinión pública",
-      "ja": "世論",
-      "ko": "여론"
-    },
-    "level": "HSK5",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "chinese": "舆论对这件事反应强烈",
-        "pinyin": "yúlùn duì zhè jiàn shì fǎnyìng qiángliè",
-        "english": "Public opinion reacted strongly to this matter"
-      }
-    ],
-    "tags": ["society", "advanced"]
-  },
-  {
-    "id": "zh-vocab-57",
+    "id": 211,
     "word": "妥协",
-    "reading": "tuǒxié",
-    "romaji": "tuoxie",
     "meaning": "to compromise",
     "meanings": {
       "en": "to compromise",
@@ -1299,8 +1489,15 @@
       "ja": "妥協する",
       "ko": "타협하다"
     },
+    "reading": "tuǒxié",
+    "romaji": "tuoxie",
     "level": "HSK5",
-    "partOfSpeech": "verb",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "negotiation",
+      "advanced"
+    ],
     "examples": [
       {
         "chinese": "双方都不愿意妥协",
@@ -1308,59 +1505,70 @@
         "english": "Neither side is willing to compromise"
       }
     ],
-    "tags": ["negotiation", "advanced"]
+    "audio_url": null,
+    "language_id": 4
   },
   {
-    "id": "zh-vocab-58",
-    "word": "潜力",
-    "reading": "qiánlì",
-    "romaji": "qianli",
-    "meaning": "potential",
+    "id": 207,
+    "word": "执着",
+    "meaning": "persistent, perseverance",
     "meanings": {
-      "en": "potential",
-      "es": "potencial",
-      "ja": "潜在力",
-      "ko": "잠재력"
+      "en": "persistent, perseverance",
+      "es": "persistente, perseverancia",
+      "ja": "執着",
+      "ko": "집착"
     },
+    "reading": "zhízhuó",
+    "romaji": "zhizhuo",
     "level": "HSK5",
-    "partOfSpeech": "noun",
+    "framework": null,
+    "part_of_speech": "adjective/noun",
+    "tags": [
+      "personality",
+      "advanced"
+    ],
     "examples": [
       {
-        "chinese": "这个年轻人有很大的发展潜力",
-        "pinyin": "zhège niánqīng rén yǒu hěn dà de fāzhǎn qiánlì",
-        "english": "This young person has great development potential"
+        "chinese": "他对音乐的执着令人敬佩",
+        "pinyin": "tā duì yīnyuè de zhízhuó lìng rén jìngpèi",
+        "english": "His perseverance in music is admirable"
       }
     ],
-    "tags": ["business", "advanced"]
+    "audio_url": null,
+    "language_id": 4
   },
   {
-    "id": "zh-vocab-59",
-    "word": "融洽",
-    "reading": "róngqià",
-    "romaji": "rongqia",
-    "meaning": "harmonious, friendly",
+    "id": 208,
+    "word": "抽象",
+    "meaning": "abstract",
     "meanings": {
-      "en": "harmonious, friendly",
-      "es": "armonioso, amistoso",
-      "ja": "和やか",
-      "ko": "화목한"
+      "en": "abstract",
+      "es": "abstracto",
+      "ja": "抽象的",
+      "ko": "추상적"
     },
+    "reading": "chōuxiàng",
+    "romaji": "chouxiang",
     "level": "HSK5",
-    "partOfSpeech": "adjective",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "academic",
+      "advanced"
+    ],
     "examples": [
       {
-        "chinese": "他们的关系很融洽",
-        "pinyin": "tāmen de guānxì hěn róngqià",
-        "english": "Their relationship is very harmonious"
+        "chinese": "哲学是一门很抽象的学科",
+        "pinyin": "zhéxué shì yì mén hěn chōuxiàng de xuékē",
+        "english": "Philosophy is a very abstract subject"
       }
     ],
-    "tags": ["relationships", "advanced"]
+    "audio_url": null,
+    "language_id": 4
   },
   {
-    "id": "zh-vocab-60",
+    "id": 214,
     "word": "渊博",
-    "reading": "yuānbó",
-    "romaji": "yuanbo",
     "meaning": "profound, erudite",
     "meanings": {
       "en": "profound, erudite",
@@ -1368,8 +1576,15 @@
       "ja": "博学な",
       "ko": "박학한"
     },
+    "reading": "yuānbó",
+    "romaji": "yuanbo",
     "level": "HSK5",
-    "partOfSpeech": "adjective",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "academic",
+      "advanced"
+    ],
     "examples": [
       {
         "chinese": "他学识渊博，受人尊敬",
@@ -1377,151 +1592,157 @@
         "english": "He is erudite and respected by others"
       }
     ],
-    "tags": ["academic", "advanced"]
+    "audio_url": null,
+    "language_id": 4
   },
   {
-    "id": "zh-vocab-61",
-    "word": "沧桑",
-    "reading": "cāngsāng",
-    "romaji": "cangsang",
-    "meaning": "vicissitudes, great changes",
+    "id": 212,
+    "word": "潜力",
+    "meaning": "potential",
     "meanings": {
-      "en": "vicissitudes, great changes",
-      "es": "vicisitudes, grandes cambios",
-      "ja": "滄桑",
-      "ko": "상전벽해"
+      "en": "potential",
+      "es": "potencial",
+      "ja": "潜在力",
+      "ko": "잠재력"
     },
-    "level": "HSK6",
-    "partOfSpeech": "noun",
+    "reading": "qiánlì",
+    "romaji": "qianli",
+    "level": "HSK5",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "business",
+      "advanced"
+    ],
     "examples": [
       {
-        "chinese": "这座古城经历了历史的沧桑",
-        "pinyin": "zhè zuò gǔchéng jīnglì le lìshǐ de cāngsāng",
-        "english": "This ancient city has experienced the vicissitudes of history"
+        "chinese": "这个年轻人有很大的发展潜力",
+        "pinyin": "zhège niánqīng rén yǒu hěn dà de fāzhǎn qiánlì",
+        "english": "This young person has great development potential"
       }
     ],
-    "tags": ["literary", "near-native"]
+    "audio_url": null,
+    "language_id": 4
   },
   {
-    "id": "zh-vocab-62",
-    "word": "斟酌",
-    "reading": "zhēnzhuó",
-    "romaji": "zhenzhuo",
-    "meaning": "to deliberate, to consider carefully",
+    "id": 209,
+    "word": "繁荣",
+    "meaning": "prosperous, prosperity",
     "meanings": {
-      "en": "to deliberate, to consider carefully",
-      "es": "deliberar, considerar cuidadosamente",
-      "ja": "熟考する",
-      "ko": "숙고하다"
+      "en": "prosperous, prosperity",
+      "es": "próspero, prosperidad",
+      "ja": "繁栄",
+      "ko": "번영"
     },
-    "level": "HSK6",
-    "partOfSpeech": "verb",
+    "reading": "fánróng",
+    "romaji": "fanrong",
+    "level": "HSK5",
+    "framework": null,
+    "part_of_speech": "adjective/noun",
+    "tags": [
+      "economy",
+      "advanced"
+    ],
     "examples": [
       {
-        "chinese": "这件事需要仔细斟酌",
-        "pinyin": "zhè jiàn shì xūyào zǐxì zhēnzhuó",
-        "english": "This matter needs careful deliberation"
+        "chinese": "这座城市经济繁荣",
+        "pinyin": "zhè zuò chéngshì jīngjì fánróng",
+        "english": "This city has a prosperous economy"
       }
     ],
-    "tags": ["formal", "near-native"]
+    "audio_url": null,
+    "language_id": 4
   },
   {
-    "id": "zh-vocab-63",
-    "word": "陶冶",
-    "reading": "táoyě",
-    "romaji": "taoye",
-    "meaning": "to cultivate (character), to mold",
+    "id": 210,
+    "word": "舆论",
+    "meaning": "public opinion",
     "meanings": {
-      "en": "to cultivate (character), to mold",
-      "es": "cultivar (carácter), moldear",
-      "ja": "陶冶する",
-      "ko": "도야하다"
+      "en": "public opinion",
+      "es": "opinión pública",
+      "ja": "世論",
+      "ko": "여론"
     },
-    "level": "HSK6",
-    "partOfSpeech": "verb",
+    "reading": "yúlùn",
+    "romaji": "yulun",
+    "level": "HSK5",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "society",
+      "advanced"
+    ],
     "examples": [
       {
-        "chinese": "阅读可以陶冶情操",
-        "pinyin": "yuèdú kěyǐ táoyě qíngcāo",
-        "english": "Reading can cultivate one's temperament"
+        "chinese": "舆论对这件事反应强烈",
+        "pinyin": "yúlùn duì zhè jiàn shì fǎnyìng qiángliè",
+        "english": "Public opinion reacted strongly to this matter"
       }
     ],
-    "tags": ["literary", "near-native"]
+    "audio_url": null,
+    "language_id": 4
   },
   {
-    "id": "zh-vocab-64",
-    "word": "殚精竭虑",
-    "reading": "dānjīngjiélǜ",
-    "romaji": "danjingjielv",
-    "meaning": "to exhaust all mental efforts",
+    "id": 213,
+    "word": "融洽",
+    "meaning": "harmonious, friendly",
     "meanings": {
-      "en": "to exhaust all mental efforts",
-      "es": "agotar todos los esfuerzos mentales",
-      "ja": "心血を注ぐ",
-      "ko": "심혈을 기울이다"
+      "en": "harmonious, friendly",
+      "es": "armonioso, amistoso",
+      "ja": "和やか",
+      "ko": "화목한"
     },
-    "level": "HSK6",
-    "partOfSpeech": "idiom",
+    "reading": "róngqià",
+    "romaji": "rongqia",
+    "level": "HSK5",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "relationships",
+      "advanced"
+    ],
     "examples": [
       {
-        "chinese": "他为这个项目殚精竭虑",
-        "pinyin": "tā wèi zhège xiàngmù dānjīngjiélǜ",
-        "english": "He exhausted all mental efforts for this project"
+        "chinese": "他们的关系很融洽",
+        "pinyin": "tāmen de guānxì hěn róngqià",
+        "english": "Their relationship is very harmonious"
       }
     ],
-    "tags": ["idiom", "literary", "near-native"]
+    "audio_url": null,
+    "language_id": 4
   },
   {
-    "id": "zh-vocab-65",
-    "word": "矜持",
-    "reading": "jīnchí",
-    "romaji": "jinchi",
-    "meaning": "reserved, restrained",
+    "id": 206,
+    "word": "辩论",
+    "meaning": "to debate, debate",
     "meanings": {
-      "en": "reserved, restrained",
-      "es": "reservado, contenido",
-      "ja": "控えめな",
-      "ko": "점잖은"
+      "en": "to debate, debate",
+      "es": "debatir, debate",
+      "ja": "討論する",
+      "ko": "토론하다"
     },
-    "level": "HSK6",
-    "partOfSpeech": "adjective",
+    "reading": "biànlùn",
+    "romaji": "bianlun",
+    "level": "HSK5",
+    "framework": null,
+    "part_of_speech": "verb/noun",
+    "tags": [
+      "academic",
+      "advanced"
+    ],
     "examples": [
       {
-        "chinese": "她表面上很矜持，但其实很热情",
-        "pinyin": "tā biǎomiàn shàng hěn jīnchí, dàn qíshí hěn rèqíng",
-        "english": "She appears reserved on the surface, but is actually very warm"
+        "chinese": "学生们正在进行激烈的辩论",
+        "pinyin": "xuéshengmen zhèngzài jìnxíng jīliè de biànlùn",
+        "english": "The students are having an intense debate"
       }
     ],
-    "tags": ["personality", "near-native"]
+    "audio_url": null,
+    "language_id": 4
   },
   {
-    "id": "zh-vocab-66",
-    "word": "缄默",
-    "reading": "jiānmò",
-    "romaji": "jianmo",
-    "meaning": "silent, reticent",
-    "meanings": {
-      "en": "silent, reticent",
-      "es": "silencioso, reticente",
-      "ja": "沈黙した",
-      "ko": "침묵하는"
-    },
-    "level": "HSK6",
-    "partOfSpeech": "adjective/verb",
-    "examples": [
-      {
-        "chinese": "他对此保持缄默",
-        "pinyin": "tā duì cǐ bǎochí jiānmò",
-        "english": "He remained silent about this"
-      }
-    ],
-    "tags": ["formal", "near-native"]
-  },
-  {
-    "id": "zh-vocab-67",
+    "id": 221,
     "word": "恍然大悟",
-    "reading": "huǎngrándàwù",
-    "romaji": "huangrandawu",
     "meaning": "to suddenly realize, sudden enlightenment",
     "meanings": {
       "en": "to suddenly realize, sudden enlightenment",
@@ -1529,8 +1750,15 @@
       "ja": "はっと気づく",
       "ko": "갑자기 깨닫다"
     },
+    "reading": "huǎngrándàwù",
+    "romaji": "huangrandawu",
     "level": "HSK6",
-    "partOfSpeech": "idiom",
+    "framework": null,
+    "part_of_speech": "idiom",
+    "tags": [
+      "idiom",
+      "near-native"
+    ],
     "examples": [
       {
         "chinese": "听了他的解释，我恍然大悟",
@@ -1538,13 +1766,158 @@
         "english": "After hearing his explanation, I suddenly realized"
       }
     ],
-    "tags": ["idiom", "near-native"]
+    "audio_url": null,
+    "language_id": 4
   },
   {
-    "id": "zh-vocab-68",
+    "id": 216,
+    "word": "斟酌",
+    "meaning": "to deliberate, to consider carefully",
+    "meanings": {
+      "en": "to deliberate, to consider carefully",
+      "es": "deliberar, considerar cuidadosamente",
+      "ja": "熟考する",
+      "ko": "숙고하다"
+    },
+    "reading": "zhēnzhuó",
+    "romaji": "zhenzhuo",
+    "level": "HSK6",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "formal",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "chinese": "这件事需要仔细斟酌",
+        "pinyin": "zhè jiàn shì xūyào zǐxì zhēnzhuó",
+        "english": "This matter needs careful deliberation"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 218,
+    "word": "殚精竭虑",
+    "meaning": "to exhaust all mental efforts",
+    "meanings": {
+      "en": "to exhaust all mental efforts",
+      "es": "agotar todos los esfuerzos mentales",
+      "ja": "心血を注ぐ",
+      "ko": "심혈을 기울이다"
+    },
+    "reading": "dānjīngjiélǜ",
+    "romaji": "danjingjielv",
+    "level": "HSK6",
+    "framework": null,
+    "part_of_speech": "idiom",
+    "tags": [
+      "idiom",
+      "literary",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "chinese": "他为这个项目殚精竭虑",
+        "pinyin": "tā wèi zhège xiàngmù dānjīngjiélǜ",
+        "english": "He exhausted all mental efforts for this project"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 215,
+    "word": "沧桑",
+    "meaning": "vicissitudes, great changes",
+    "meanings": {
+      "en": "vicissitudes, great changes",
+      "es": "vicisitudes, grandes cambios",
+      "ja": "滄桑",
+      "ko": "상전벽해"
+    },
+    "reading": "cāngsāng",
+    "romaji": "cangsang",
+    "level": "HSK6",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "literary",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "chinese": "这座古城经历了历史的沧桑",
+        "pinyin": "zhè zuò gǔchéng jīnglì le lìshǐ de cāngsāng",
+        "english": "This ancient city has experienced the vicissitudes of history"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 219,
+    "word": "矜持",
+    "meaning": "reserved, restrained",
+    "meanings": {
+      "en": "reserved, restrained",
+      "es": "reservado, contenido",
+      "ja": "控えめな",
+      "ko": "점잖은"
+    },
+    "reading": "jīnchí",
+    "romaji": "jinchi",
+    "level": "HSK6",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "personality",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "chinese": "她表面上很矜持，但其实很热情",
+        "pinyin": "tā biǎomiàn shàng hěn jīnchí, dàn qíshí hěn rèqíng",
+        "english": "She appears reserved on the surface, but is actually very warm"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 220,
+    "word": "缄默",
+    "meaning": "silent, reticent",
+    "meanings": {
+      "en": "silent, reticent",
+      "es": "silencioso, reticente",
+      "ja": "沈黙した",
+      "ko": "침묵하는"
+    },
+    "reading": "jiānmò",
+    "romaji": "jianmo",
+    "level": "HSK6",
+    "framework": null,
+    "part_of_speech": "adjective/verb",
+    "tags": [
+      "formal",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "chinese": "他对此保持缄默",
+        "pinyin": "tā duì cǐ bǎochí jiānmò",
+        "english": "He remained silent about this"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 222,
     "word": "耐人寻味",
-    "reading": "nàirénxúnwèi",
-    "romaji": "nairenxunwei",
     "meaning": "thought-provoking, food for thought",
     "meanings": {
       "en": "thought-provoking, food for thought",
@@ -1552,8 +1925,16 @@
       "ja": "示唆に富む",
       "ko": "생각할 거리가 많은"
     },
+    "reading": "nàirénxúnwèi",
+    "romaji": "nairenxunwei",
     "level": "HSK6",
-    "partOfSpeech": "idiom",
+    "framework": null,
+    "part_of_speech": "idiom",
+    "tags": [
+      "idiom",
+      "literary",
+      "near-native"
+    ],
     "examples": [
       {
         "chinese": "这部电影的结局耐人寻味",
@@ -1561,13 +1942,12 @@
         "english": "The ending of this movie is thought-provoking"
       }
     ],
-    "tags": ["idiom", "literary", "near-native"]
+    "audio_url": null,
+    "language_id": 4
   },
   {
-    "id": "zh-vocab-69",
+    "id": 223,
     "word": "蹉跎",
-    "reading": "cuōtuó",
-    "romaji": "cuotuo",
     "meaning": "to waste time, to let time slip by",
     "meanings": {
       "en": "to waste time, to let time slip by",
@@ -1575,8 +1955,15 @@
       "ja": "時間を無駄にする",
       "ko": "시간을 허비하다"
     },
+    "reading": "cuōtuó",
+    "romaji": "cuotuo",
     "level": "HSK6",
-    "partOfSpeech": "verb",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "literary",
+      "near-native"
+    ],
     "examples": [
       {
         "chinese": "不要蹉跎岁月",
@@ -1584,13 +1971,41 @@
         "english": "Don't let the years slip by"
       }
     ],
-    "tags": ["literary", "near-native"]
+    "audio_url": null,
+    "language_id": 4
   },
   {
-    "id": "zh-vocab-70",
+    "id": 217,
+    "word": "陶冶",
+    "meaning": "to cultivate (character), to mold",
+    "meanings": {
+      "en": "to cultivate (character), to mold",
+      "es": "cultivar (carácter), moldear",
+      "ja": "陶冶する",
+      "ko": "도야하다"
+    },
+    "reading": "táoyě",
+    "romaji": "taoye",
+    "level": "HSK6",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "literary",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "chinese": "阅读可以陶冶情操",
+        "pinyin": "yuèdú kěyǐ táoyě qíngcāo",
+        "english": "Reading can cultivate one's temperament"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 4
+  },
+  {
+    "id": 224,
     "word": "隽永",
-    "reading": "juànyǒng",
-    "romaji": "juanyong",
     "meaning": "meaningful and lasting (of words/writing)",
     "meanings": {
       "en": "meaningful and lasting (of words/writing)",
@@ -1598,8 +2013,15 @@
       "ja": "含蓄のある",
       "ko": "함축적인"
     },
+    "reading": "juànyǒng",
+    "romaji": "juanyong",
     "level": "HSK6",
-    "partOfSpeech": "adjective",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "literary",
+      "near-native"
+    ],
     "examples": [
       {
         "chinese": "这首诗意味隽永",
@@ -1607,6 +2029,7 @@
         "english": "This poem has a profound and lasting meaning"
       }
     ],
-    "tags": ["literary", "near-native"]
+    "audio_url": null,
+    "language_id": 4
   }
 ]

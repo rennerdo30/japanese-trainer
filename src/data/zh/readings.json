@@ -1,405 +1,704 @@
 [
   {
-    "id": "zh_reading_1",
-    "title": "自我介绍 - Self Introduction",
-    "text": "你好！我叫李明。我是中国人。我今年二十岁。我是大学生。我学习英语。我喜欢看书和听音乐。我有一个哥哥和一个妹妹。我们住在北京。很高兴认识你！",
-    "pinyin": "Nǐ hǎo! Wǒ jiào Lǐ Míng. Wǒ shì Zhōngguó rén. Wǒ jīnnián èrshí suì. Wǒ shì dàxuéshēng. Wǒ xuéxí Yīngyǔ. Wǒ xǐhuan kànshū hé tīng yīnyuè. Wǒ yǒu yí gè gēge hé yí gè mèimei. Wǒmen zhù zài Běijīng. Hěn gāoxìng rènshi nǐ!",
-    "translation": "Hello! My name is Li Ming. I am Chinese. I am twenty years old this year. I am a college student. I study English. I like reading books and listening to music. I have an older brother and a younger sister. We live in Beijing. Nice to meet you!",
-    "level": "hsk1",
-    "questions": [
-      {
-        "question": "What is the speaker's name?",
-        "options": ["王伟", "李明", "张华", "刘洋"],
-        "correct": 1
-      },
-      {
-        "question": "How old is the speaker?",
-        "options": ["18 years old", "19 years old", "20 years old", "21 years old"],
-        "correct": 2
-      },
-      {
-        "question": "What does the speaker study?",
-        "options": ["Chinese", "English", "Math", "History"],
-        "correct": 1
-      },
-      {
-        "question": "Where does the speaker's family live?",
-        "options": ["Shanghai", "Guangzhou", "Beijing", "Shenzhen"],
-        "correct": 2
-      }
-    ],
-    "audioUrl": ""
-  },
-  {
-    "id": "zh_reading_2",
+    "id": 21,
     "title": "我的一天 - My Day",
-    "text": "我每天早上六点起床。我先洗脸刷牙，然后吃早饭。早饭我喜欢吃面包和喝牛奶。七点半我去上学。我坐公交车去学校。上午我有四节课。中午我在学校食堂吃午饭。下午我有两节课。下午四点放学后，我去图书馆学习。晚上我回家吃晚饭，然后做作业。十点我睡觉。",
-    "pinyin": "Wǒ měitiān zǎoshang liù diǎn qǐchuáng. Wǒ xiān xǐliǎn shuāyá, ránhòu chī zǎofàn. Zǎofàn wǒ xǐhuan chī miànbāo hé hē niúnǎi. Qī diǎn bàn wǒ qù shàngxué. Wǒ zuò gōngjiāo chē qù xuéxiào. Shàngwǔ wǒ yǒu sì jié kè. Zhōngwǔ wǒ zài xuéxiào shítáng chī wǔfàn. Xiàwǔ wǒ yǒu liǎng jié kè. Xiàwǔ sì diǎn fàngxué hòu, wǒ qù túshūguǎn xuéxí. Wǎnshang wǒ huí jiā chī wǎnfàn, ránhòu zuò zuòyè. Shí diǎn wǒ shuìjiào.",
-    "translation": "I get up at 6 o'clock every morning. First I wash my face and brush my teeth, then eat breakfast. For breakfast, I like to eat bread and drink milk. At 7:30 I go to school. I take the bus to school. In the morning I have four classes. At noon I eat lunch in the school cafeteria. In the afternoon I have two classes. After school at 4 PM, I go to the library to study. In the evening I go home to eat dinner, then do homework. I go to sleep at 10 o'clock.",
     "level": "hsk1",
+    "framework": null,
+    "text": "我每天早上六点起床。我先洗脸刷牙，然后吃早饭。早饭我喜欢吃面包和喝牛奶。七点半我去上学。我坐公交车去学校。上午我有四节课。中午我在学校食堂吃午饭。下午我有两节课。下午四点放学后，我去图书馆学习。晚上我回家吃晚饭，然后做作业。十点我睡觉。",
+    "translation": "I get up at 6 o'clock every morning. First I wash my face and brush my teeth, then eat breakfast. For breakfast, I like to eat bread and drink milk. At 7:30 I go to school. I take the bus to school. In the morning I have four classes. At noon I eat lunch in the school cafeteria. In the afternoon I have two classes. After school at 4 PM, I go to the library to study. In the evening I go home to eat dinner, then do homework. I go to sleep at 10 o'clock.",
     "questions": [
       {
         "question": "What time does the speaker wake up?",
-        "options": ["5 o'clock", "6 o'clock", "7 o'clock", "8 o'clock"],
+        "options": [
+          "5 o'clock",
+          "6 o'clock",
+          "7 o'clock",
+          "8 o'clock"
+        ],
         "correct": 1
       },
       {
         "question": "What does the speaker like to eat for breakfast?",
-        "options": ["Rice and tea", "Bread and milk", "Noodles and water", "Eggs and juice"],
+        "options": [
+          "Rice and tea",
+          "Bread and milk",
+          "Noodles and water",
+          "Eggs and juice"
+        ],
         "correct": 1
       },
       {
         "question": "How many classes does the speaker have in the morning?",
-        "options": ["Two", "Three", "Four", "Five"],
+        "options": [
+          "Two",
+          "Three",
+          "Four",
+          "Five"
+        ],
         "correct": 2
       },
       {
         "question": "Where does the speaker go after school?",
-        "options": ["Home", "Park", "Library", "Restaurant"],
+        "options": [
+          "Home",
+          "Park",
+          "Library",
+          "Restaurant"
+        ],
         "correct": 2
       }
     ],
-    "audioUrl": ""
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audio_url": "",
+    "language_id": 4
   },
   {
-    "id": "zh_reading_3",
+    "id": 20,
+    "title": "自我介绍 - Self Introduction",
+    "level": "hsk1",
+    "framework": null,
+    "text": "你好！我叫李明。我是中国人。我今年二十岁。我是大学生。我学习英语。我喜欢看书和听音乐。我有一个哥哥和一个妹妹。我们住在北京。很高兴认识你！",
+    "translation": "Hello! My name is Li Ming. I am Chinese. I am twenty years old this year. I am a college student. I study English. I like reading books and listening to music. I have an older brother and a younger sister. We live in Beijing. Nice to meet you!",
+    "questions": [
+      {
+        "question": "What is the speaker's name?",
+        "options": [
+          "王伟",
+          "李明",
+          "张华",
+          "刘洋"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "How old is the speaker?",
+        "options": [
+          "18 years old",
+          "19 years old",
+          "20 years old",
+          "21 years old"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What does the speaker study?",
+        "options": [
+          "Chinese",
+          "English",
+          "Math",
+          "History"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Where does the speaker's family live?",
+        "options": [
+          "Shanghai",
+          "Guangzhou",
+          "Beijing",
+          "Shenzhen"
+        ],
+        "correct": 2
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audio_url": "",
+    "language_id": 4
+  },
+  {
+    "id": 22,
     "title": "在餐厅 - At the Restaurant",
-    "text": "今天是星期六。我和朋友去餐厅吃饭。这家餐厅很有名。我们到餐厅的时候，人很多。我们等了十分钟。服务员给我们菜单。我点了一碗米饭和一个红烧肉。我的朋友点了面条。我们还要了两杯茶。菜很好吃。吃完饭后，我们付了一百二十元。虽然有点贵，但是我们很满意。",
-    "pinyin": "Jīntiān shì xīngqīliù. Wǒ hé péngyou qù cāntīng chīfàn. Zhè jiā cāntīng hěn yǒumíng. Wǒmen dào cāntīng de shíhou, rén hěn duō. Wǒmen děng le shí fēnzhōng. Fúwùyuán gěi wǒmen càidān. Wǒ diǎn le yì wǎn mǐfàn hé yí gè hóngshāo ròu. Wǒ de péngyou diǎn le miàntiáo. Wǒmen hái yào le liǎng bēi chá. Cài hěn hǎochī. Chī wán fàn hòu, wǒmen fù le yìbǎi èrshí yuán. Suīrán yǒudiǎn guì, dànshì wǒmen hěn mǎnyì.",
-    "translation": "Today is Saturday. My friend and I went to a restaurant to eat. This restaurant is very famous. When we arrived at the restaurant, there were many people. We waited for ten minutes. The waiter gave us the menu. I ordered a bowl of rice and braised pork. My friend ordered noodles. We also ordered two cups of tea. The food was delicious. After eating, we paid 120 yuan. Although it was a bit expensive, we were very satisfied.",
     "level": "hsk2",
+    "framework": null,
+    "text": "今天是星期六。我和朋友去餐厅吃饭。这家餐厅很有名。我们到餐厅的时候，人很多。我们等了十分钟。服务员给我们菜单。我点了一碗米饭和一个红烧肉。我的朋友点了面条。我们还要了两杯茶。菜很好吃。吃完饭后，我们付了一百二十元。虽然有点贵，但是我们很满意。",
+    "translation": "Today is Saturday. My friend and I went to a restaurant to eat. This restaurant is very famous. When we arrived at the restaurant, there were many people. We waited for ten minutes. The waiter gave us the menu. I ordered a bowl of rice and braised pork. My friend ordered noodles. We also ordered two cups of tea. The food was delicious. After eating, we paid 120 yuan. Although it was a bit expensive, we were very satisfied.",
     "questions": [
       {
         "question": "What day is it?",
-        "options": ["Friday", "Saturday", "Sunday", "Monday"],
+        "options": [
+          "Friday",
+          "Saturday",
+          "Sunday",
+          "Monday"
+        ],
         "correct": 1
       },
       {
         "question": "How long did they wait?",
-        "options": ["5 minutes", "10 minutes", "15 minutes", "20 minutes"],
+        "options": [
+          "5 minutes",
+          "10 minutes",
+          "15 minutes",
+          "20 minutes"
+        ],
         "correct": 1
       },
       {
         "question": "What did the speaker order?",
-        "options": ["Noodles and tea", "Rice and braised pork", "Dumplings and soup", "Fried rice and vegetables"],
+        "options": [
+          "Noodles and tea",
+          "Rice and braised pork",
+          "Dumplings and soup",
+          "Fried rice and vegetables"
+        ],
         "correct": 1
       },
       {
         "question": "How much did they pay?",
-        "options": ["100 yuan", "120 yuan", "150 yuan", "200 yuan"],
+        "options": [
+          "100 yuan",
+          "120 yuan",
+          "150 yuan",
+          "200 yuan"
+        ],
         "correct": 1
       }
     ],
-    "audioUrl": ""
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audio_url": "",
+    "language_id": 4
   },
   {
-    "id": "zh_reading_4",
+    "id": 23,
     "title": "天气 - The Weather",
-    "text": "今天天气很好。早上有点冷，但是现在很暖和。昨天下雨了，所以今天空气很新鲜。我和家人决定去公园散步。公园里有很多人。有的人在跑步，有的人在打太极。孩子们在玩。树上有很多鸟。花也开了，很漂亮。我们在公园待了两个小时。明天天气预报说会下雨，所以我们很高兴今天出来了。",
-    "pinyin": "Jīntiān tiānqì hěn hǎo. Zǎoshang yǒudiǎn lěng, dànshì xiànzài hěn nuǎnhuo. Zuótiān xiàyǔ le, suǒyǐ jīntiān kōngqì hěn xīnxiān. Wǒ hé jiārén juédìng qù gōngyuán sànbù. Gōngyuán lǐ yǒu hěn duō rén. Yǒude rén zài pǎobù, yǒude rén zài dǎ tàijí. Háizimen zài wán. Shù shang yǒu hěn duō niǎo. Huā yě kāi le, hěn piàoliang. Wǒmen zài gōngyuán dāi le liǎng gè xiǎoshí. Míngtiān tiānqì yùbào shuō huì xiàyǔ, suǒyǐ wǒmen hěn gāoxìng jīntiān chūlai le.",
-    "translation": "The weather is very nice today. It was a bit cold in the morning, but now it's warm. It rained yesterday, so the air is very fresh today. My family and I decided to go for a walk in the park. There are many people in the park. Some people are running, some are doing tai chi. Children are playing. There are many birds in the trees. The flowers have also bloomed, very beautiful. We stayed in the park for two hours. The weather forecast says it will rain tomorrow, so we're glad we came out today.",
     "level": "hsk2",
+    "framework": null,
+    "text": "今天天气很好。早上有点冷，但是现在很暖和。昨天下雨了，所以今天空气很新鲜。我和家人决定去公园散步。公园里有很多人。有的人在跑步，有的人在打太极。孩子们在玩。树上有很多鸟。花也开了，很漂亮。我们在公园待了两个小时。明天天气预报说会下雨，所以我们很高兴今天出来了。",
+    "translation": "The weather is very nice today. It was a bit cold in the morning, but now it's warm. It rained yesterday, so the air is very fresh today. My family and I decided to go for a walk in the park. There are many people in the park. Some people are running, some are doing tai chi. Children are playing. There are many birds in the trees. The flowers have also bloomed, very beautiful. We stayed in the park for two hours. The weather forecast says it will rain tomorrow, so we're glad we came out today.",
     "questions": [
       {
         "question": "How is the weather today?",
-        "options": ["Rainy", "Cold", "Nice", "Hot"],
+        "options": [
+          "Rainy",
+          "Cold",
+          "Nice",
+          "Hot"
+        ],
         "correct": 2
       },
       {
         "question": "What happened yesterday?",
-        "options": ["It was sunny", "It rained", "It snowed", "It was windy"],
+        "options": [
+          "It was sunny",
+          "It rained",
+          "It snowed",
+          "It was windy"
+        ],
         "correct": 1
       },
       {
         "question": "How long did they stay in the park?",
-        "options": ["One hour", "Two hours", "Three hours", "Half an hour"],
+        "options": [
+          "One hour",
+          "Two hours",
+          "Three hours",
+          "Half an hour"
+        ],
         "correct": 1
       },
       {
         "question": "What will the weather be like tomorrow?",
-        "options": ["Sunny", "Cloudy", "Rainy", "Snowy"],
+        "options": [
+          "Sunny",
+          "Cloudy",
+          "Rainy",
+          "Snowy"
+        ],
         "correct": 2
       }
     ],
-    "audioUrl": ""
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audio_url": "",
+    "language_id": 4
   },
   {
-    "id": "zh_reading_5",
+    "id": 24,
     "title": "我的爱好 - My Hobbies",
-    "text": "每个人都有自己的爱好。我的爱好是画画和弹吉他。我从小就喜欢画画。我喜欢画风景和动物。我的房间里挂着很多我自己画的画。去年我开始学吉他。虽然刚开始很难，但是我没有放弃。现在我已经会弹几首简单的歌了。我觉得有爱好很重要，因为爱好可以让我们放松，也可以认识新朋友。我希望以后能画得更好，弹得更好。",
-    "pinyin": "Měi gè rén dōu yǒu zìjǐ de àihào. Wǒ de àihào shì huàhuà hé tán jítā. Wǒ cóngxiǎo jiù xǐhuan huàhuà. Wǒ xǐhuan huà fēngjǐng hé dòngwù. Wǒ de fángjiān lǐ guà zhe hěn duō wǒ zìjǐ huà de huà. Qùnián wǒ kāishǐ xué jítā. Suīrán gāng kāishǐ hěn nán, dànshì wǒ méiyǒu fàngqì. Xiànzài wǒ yǐjīng huì tán jǐ shǒu jiǎndān de gē le. Wǒ juéde yǒu àihào hěn zhòngyào, yīnwèi àihào kěyǐ ràng wǒmen fàngsōng, yě kěyǐ rènshi xīn péngyou. Wǒ xīwàng yǐhòu néng huà de gèng hǎo, tán de gèng hǎo.",
-    "translation": "Everyone has their own hobbies. My hobbies are painting and playing guitar. I have liked painting since I was young. I like to paint landscapes and animals. My room has many paintings I drew myself hanging on the walls. Last year I started learning guitar. Although it was difficult at first, I didn't give up. Now I can already play a few simple songs. I think having hobbies is important because hobbies can help us relax and also meet new friends. I hope I can paint better and play better in the future.",
     "level": "hsk2",
+    "framework": null,
+    "text": "每个人都有自己的爱好。我的爱好是画画和弹吉他。我从小就喜欢画画。我喜欢画风景和动物。我的房间里挂着很多我自己画的画。去年我开始学吉他。虽然刚开始很难，但是我没有放弃。现在我已经会弹几首简单的歌了。我觉得有爱好很重要，因为爱好可以让我们放松，也可以认识新朋友。我希望以后能画得更好，弹得更好。",
+    "translation": "Everyone has their own hobbies. My hobbies are painting and playing guitar. I have liked painting since I was young. I like to paint landscapes and animals. My room has many paintings I drew myself hanging on the walls. Last year I started learning guitar. Although it was difficult at first, I didn't give up. Now I can already play a few simple songs. I think having hobbies is important because hobbies can help us relax and also meet new friends. I hope I can paint better and play better in the future.",
     "questions": [
       {
         "question": "What are the speaker's hobbies?",
-        "options": ["Reading and writing", "Painting and playing guitar", "Singing and dancing", "Swimming and running"],
+        "options": [
+          "Reading and writing",
+          "Painting and playing guitar",
+          "Singing and dancing",
+          "Swimming and running"
+        ],
         "correct": 1
       },
       {
         "question": "What does the speaker like to paint?",
-        "options": ["People and buildings", "Landscapes and animals", "Food and flowers", "Cars and planes"],
+        "options": [
+          "People and buildings",
+          "Landscapes and animals",
+          "Food and flowers",
+          "Cars and planes"
+        ],
         "correct": 1
       },
       {
         "question": "When did the speaker start learning guitar?",
-        "options": ["This year", "Last year", "Two years ago", "When they were young"],
+        "options": [
+          "This year",
+          "Last year",
+          "Two years ago",
+          "When they were young"
+        ],
         "correct": 1
       },
       {
         "question": "Why does the speaker think hobbies are important?",
-        "options": ["To make money", "To be famous", "To relax and meet friends", "To stay healthy"],
+        "options": [
+          "To make money",
+          "To be famous",
+          "To relax and meet friends",
+          "To stay healthy"
+        ],
         "correct": 2
       }
     ],
-    "audioUrl": ""
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audio_url": "",
+    "language_id": 4
   },
   {
-    "id": "zh_reading_6",
+    "id": 25,
     "title": "环保意识 - Environmental Awareness",
-    "text": "随着经济的发展，环境问题变得越来越严重。空气污染、水污染和垃圾问题影响着我们的生活。为了保护环境，我们应该从小事做起。比如，出门时可以骑自行车或者坐公交车，少开私家车。购物时可以自带购物袋，减少使用塑料袋。在家里要注意节约用水用电，把垃圾分类处理。保护环境不是一个人的事，需要大家共同努力。只有这样，我们才能给下一代留下一个美好的地球。",
-    "pinyin": "Suízhe jīngjì de fāzhǎn, huánjìng wèntí biàn de yuèláiyuè yánzhòng. Kōngqì wūrǎn, shuǐ wūrǎn hé lājī wèntí yǐngxiǎng zhe wǒmen de shēnghuó. Wèile bǎohù huánjìng, wǒmen yīnggāi cóng xiǎoshì zuòqǐ. Bǐrú, chūmén shí kěyǐ qí zìxíngchē huòzhě zuò gōngjiāo chē, shǎo kāi sījiā chē. Gòuwù shí kěyǐ zìdài gòuwù dài, jiǎnshǎo shǐyòng sùliào dài. Zài jiālǐ yào zhùyì jiéyuē yòngshuǐ yòngdiàn, bǎ lājī fēnlèi chǔlǐ. Bǎohù huánjìng bú shì yí gè rén de shì, xūyào dàjiā gòngtóng nǔlì. Zhǐyǒu zhèyàng, wǒmen cái néng gěi xiàyīdài liúxià yí gè měihǎo de dìqiú.",
-    "translation": "With economic development, environmental problems have become increasingly serious. Air pollution, water pollution, and garbage problems affect our lives. To protect the environment, we should start with small things. For example, when going out, we can ride bicycles or take public transportation, and drive private cars less. When shopping, we can bring our own bags to reduce the use of plastic bags. At home, we should save water and electricity, and sort our garbage. Protecting the environment is not one person's responsibility; it requires everyone's joint effort. Only in this way can we leave a beautiful earth for the next generation.",
     "level": "hsk3",
+    "framework": null,
+    "text": "随着经济的发展，环境问题变得越来越严重。空气污染、水污染和垃圾问题影响着我们的生活。为了保护环境，我们应该从小事做起。比如，出门时可以骑自行车或者坐公交车，少开私家车。购物时可以自带购物袋，减少使用塑料袋。在家里要注意节约用水用电，把垃圾分类处理。保护环境不是一个人的事，需要大家共同努力。只有这样，我们才能给下一代留下一个美好的地球。",
+    "translation": "With economic development, environmental problems have become increasingly serious. Air pollution, water pollution, and garbage problems affect our lives. To protect the environment, we should start with small things. For example, when going out, we can ride bicycles or take public transportation, and drive private cars less. When shopping, we can bring our own bags to reduce the use of plastic bags. At home, we should save water and electricity, and sort our garbage. Protecting the environment is not one person's responsibility; it requires everyone's joint effort. Only in this way can we leave a beautiful earth for the next generation.",
     "questions": [
       {
         "question": "According to the passage, what problems affect our lives?",
-        "options": ["Economic problems", "Air and water pollution", "Traffic problems", "Housing problems"],
+        "options": [
+          "Economic problems",
+          "Air and water pollution",
+          "Traffic problems",
+          "Housing problems"
+        ],
         "correct": 1
       },
       {
         "question": "What transportation does the passage suggest using?",
-        "options": ["Private cars", "Airplanes", "Bicycles and public transport", "Taxis"],
+        "options": [
+          "Private cars",
+          "Airplanes",
+          "Bicycles and public transport",
+          "Taxis"
+        ],
         "correct": 2
       },
       {
         "question": "What should we do when shopping?",
-        "options": ["Buy more things", "Bring our own bags", "Use more plastic bags", "Shop online only"],
+        "options": [
+          "Buy more things",
+          "Bring our own bags",
+          "Use more plastic bags",
+          "Shop online only"
+        ],
         "correct": 1
       },
       {
         "question": "According to the passage, protecting the environment requires:",
-        "options": ["Government action only", "Individual effort only", "Everyone's joint effort", "Technology development"],
+        "options": [
+          "Government action only",
+          "Individual effort only",
+          "Everyone's joint effort",
+          "Technology development"
+        ],
         "correct": 2
       }
     ],
-    "audioUrl": ""
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audio_url": "",
+    "language_id": 4
   },
   {
-    "id": "zh_reading_7",
+    "id": 26,
     "title": "科技改变生活 - Technology Changes Life",
-    "text": "在过去的二十年里，科技发展迅速，深刻地改变了我们的生活方式。智能手机的普及让人们随时随地都能上网、交流、工作。网上购物变得非常方便，足不出户就能买到世界各地的商品。移动支付也改变了人们的消费习惯，出门不用带现金，只需要一部手机。然而，科技的发展也带来了一些问题。很多人过度依赖手机，影响了面对面的交流。网络信息的真假难辨也让人担忧。我们应该合理利用科技，让它更好地为我们的生活服务。",
-    "pinyin": "Zài guòqù de èrshí nián lǐ, kējì fāzhǎn xùnsù, shēnkè de gǎibiàn le wǒmen de shēnghuó fāngshì. Zhìnéng shǒujī de pǔjí ràng rénmen suíshí suídì dōu néng shàngwǎng, jiāoliú, gōngzuò. Wǎngshàng gòuwù biàn de fēicháng fāngbiàn, zúbùchūhù jiù néng mǎidào shìjiè gèdì de shāngpǐn. Yídòng zhīfù yě gǎibiàn le rénmen de xiāofèi xíguàn, chūmén bú yòng dài xiànjīn, zhǐ xūyào yì bù shǒujī. Rán'ér, kējì de fāzhǎn yě dàilái le yìxiē wèntí. Hěn duō rén guòdù yīlài shǒujī, yǐngxiǎng le miànduìmiàn de jiāoliú. Wǎngluò xìnxī de zhēnjiǎ nánbiàn yě ràng rén dānyōu. Wǒmen yīnggāi hélǐ lìyòng kējì, ràng tā gèng hǎo de wèi wǒmen de shēnghuó fúwù.",
-    "translation": "In the past twenty years, technology has developed rapidly, profoundly changing our way of life. The popularity of smartphones allows people to access the internet, communicate, and work anytime, anywhere. Online shopping has become very convenient; you can buy goods from around the world without leaving home. Mobile payment has also changed people's consumption habits; you don't need to carry cash when going out, just a phone. However, technological development has also brought some problems. Many people are overly dependent on phones, affecting face-to-face communication. The difficulty in distinguishing true from false information online is also concerning. We should use technology reasonably, so it can better serve our lives.",
     "level": "hsk3",
+    "framework": null,
+    "text": "在过去的二十年里，科技发展迅速，深刻地改变了我们的生活方式。智能手机的普及让人们随时随地都能上网、交流、工作。网上购物变得非常方便，足不出户就能买到世界各地的商品。移动支付也改变了人们的消费习惯，出门不用带现金，只需要一部手机。然而，科技的发展也带来了一些问题。很多人过度依赖手机，影响了面对面的交流。网络信息的真假难辨也让人担忧。我们应该合理利用科技，让它更好地为我们的生活服务。",
+    "translation": "In the past twenty years, technology has developed rapidly, profoundly changing our way of life. The popularity of smartphones allows people to access the internet, communicate, and work anytime, anywhere. Online shopping has become very convenient; you can buy goods from around the world without leaving home. Mobile payment has also changed people's consumption habits; you don't need to carry cash when going out, just a phone. However, technological development has also brought some problems. Many people are overly dependent on phones, affecting face-to-face communication. The difficulty in distinguishing true from false information online is also concerning. We should use technology reasonably, so it can better serve our lives.",
     "questions": [
       {
         "question": "How has online shopping changed people's lives?",
-        "options": ["It's more expensive", "You can buy things without leaving home", "It's slower than before", "You can only buy local products"],
+        "options": [
+          "It's more expensive",
+          "You can buy things without leaving home",
+          "It's slower than before",
+          "You can only buy local products"
+        ],
         "correct": 1
       },
       {
         "question": "What has mobile payment changed?",
-        "options": ["Working habits", "Eating habits", "Consumption habits", "Exercise habits"],
+        "options": [
+          "Working habits",
+          "Eating habits",
+          "Consumption habits",
+          "Exercise habits"
+        ],
         "correct": 2
       },
       {
         "question": "What problem does phone addiction cause?",
-        "options": ["It costs too much money", "It affects face-to-face communication", "It makes people sick", "It wastes electricity"],
+        "options": [
+          "It costs too much money",
+          "It affects face-to-face communication",
+          "It makes people sick",
+          "It wastes electricity"
+        ],
         "correct": 1
       },
       {
         "question": "What is the author's attitude toward technology?",
-        "options": ["Completely against it", "Completely supportive", "We should use it reasonably", "Technology is dangerous"],
+        "options": [
+          "Completely against it",
+          "Completely supportive",
+          "We should use it reasonably",
+          "Technology is dangerous"
+        ],
         "correct": 2
       }
     ],
-    "audioUrl": ""
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audio_url": "",
+    "language_id": 4
   },
   {
-    "id": "zh_reading_8",
+    "id": 27,
     "title": "传统节日的意义 - The Significance of Traditional Festivals",
-    "text": "中国有许多传统节日，每个节日都有其独特的文化内涵和庆祝方式。春节是最重要的节日，代表着辞旧迎新。人们会贴春联、放鞭炮、吃团圆饭。中秋节则象征着团圆，人们会赏月、吃月饼，思念远方的亲人。端午节为了纪念伟大的诗人屈原，人们会赛龙舟、包粽子。这些传统节日不仅是家人团聚的机会，更是传承文化的重要时刻。然而，随着现代生活节奏的加快，一些年轻人对传统节日的兴趣逐渐减少。我们应该重视这些节日，因为它们承载着民族的历史记忆和精神财富。",
-    "pinyin": "Zhōngguó yǒu xǔduō chuántǒng jiérì, měi gè jiérì dōu yǒu qí dútè de wénhuà nèihán hé qìngzhù fāngshì. Chūnjié shì zuì zhòngyào de jiérì, dàibiǎo zhe cíjiùyíngxīn. Rénmen huì tiē chūnlián, fàng biānpào, chī tuányuánfàn. Zhōngqiūjié zé xiàngzhēng zhe tuányuán, rénmen huì shǎngyuè, chī yuèbing, sīniàn yuǎnfāng de qīnrén. Duānwǔjié wèile jìniàn wěidà de shīrén Qūyuán, rénmen huì sài lóngzhōu, bāo zòngzi. Zhèxiē chuántǒng jiérì bùjǐn shì jiārén tuánjù de jīhuì, gèng shì chuánchéng wénhuà de zhòngyào shíkè. Rán'ér, suízhe xiàndài shēnghuó jiézòu de jiākuài, yìxiē niánqīng rén duì chuántǒng jiérì de xìngqù zhújiàn jiǎnshǎo. Wǒmen yīnggāi zhòngshì zhèxiē jiérì, yīnwèi tāmen chéngzài zhe mínzú de lìshǐ jìyì hé jīngshén cáifù.",
-    "translation": "China has many traditional festivals, each with its unique cultural connotation and celebration methods. The Spring Festival is the most important holiday, representing bidding farewell to the old and welcoming the new. People put up spring couplets, set off firecrackers, and have reunion dinners. The Mid-Autumn Festival symbolizes reunion; people admire the moon, eat mooncakes, and miss distant relatives. The Dragon Boat Festival commemorates the great poet Qu Yuan; people race dragon boats and make zongzi. These traditional festivals are not only opportunities for family reunions but also important moments for cultural inheritance. However, with the acceleration of modern life, some young people's interest in traditional festivals is gradually decreasing. We should value these festivals because they carry the nation's historical memory and spiritual wealth.",
     "level": "hsk4",
+    "framework": null,
+    "text": "中国有许多传统节日，每个节日都有其独特的文化内涵和庆祝方式。春节是最重要的节日，代表着辞旧迎新。人们会贴春联、放鞭炮、吃团圆饭。中秋节则象征着团圆，人们会赏月、吃月饼，思念远方的亲人。端午节为了纪念伟大的诗人屈原，人们会赛龙舟、包粽子。这些传统节日不仅是家人团聚的机会，更是传承文化的重要时刻。然而，随着现代生活节奏的加快，一些年轻人对传统节日的兴趣逐渐减少。我们应该重视这些节日，因为它们承载着民族的历史记忆和精神财富。",
+    "translation": "China has many traditional festivals, each with its unique cultural connotation and celebration methods. The Spring Festival is the most important holiday, representing bidding farewell to the old and welcoming the new. People put up spring couplets, set off firecrackers, and have reunion dinners. The Mid-Autumn Festival symbolizes reunion; people admire the moon, eat mooncakes, and miss distant relatives. The Dragon Boat Festival commemorates the great poet Qu Yuan; people race dragon boats and make zongzi. These traditional festivals are not only opportunities for family reunions but also important moments for cultural inheritance. However, with the acceleration of modern life, some young people's interest in traditional festivals is gradually decreasing. We should value these festivals because they carry the nation's historical memory and spiritual wealth.",
     "questions": [
       {
         "question": "What does the Spring Festival represent?",
-        "options": ["Family reunion", "Bidding farewell to the old and welcoming the new", "Commemorating ancestors", "Harvest season"],
+        "options": [
+          "Family reunion",
+          "Bidding farewell to the old and welcoming the new",
+          "Commemorating ancestors",
+          "Harvest season"
+        ],
         "correct": 1
       },
       {
         "question": "What do people do during the Mid-Autumn Festival?",
-        "options": ["Set off firecrackers", "Race dragon boats", "Admire the moon and eat mooncakes", "Put up spring couplets"],
+        "options": [
+          "Set off firecrackers",
+          "Race dragon boats",
+          "Admire the moon and eat mooncakes",
+          "Put up spring couplets"
+        ],
         "correct": 2
       },
       {
         "question": "Who does the Dragon Boat Festival commemorate?",
-        "options": ["Confucius", "Qu Yuan", "Li Bai", "Emperor Qin"],
+        "options": [
+          "Confucius",
+          "Qu Yuan",
+          "Li Bai",
+          "Emperor Qin"
+        ],
         "correct": 1
       },
       {
         "question": "According to the passage, what is the problem with traditional festivals today?",
-        "options": ["They cost too much money", "Young people are losing interest", "They are too complicated", "They last too long"],
+        "options": [
+          "They cost too much money",
+          "Young people are losing interest",
+          "They are too complicated",
+          "They last too long"
+        ],
         "correct": 1
       }
     ],
-    "audioUrl": ""
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audio_url": "",
+    "language_id": 4
   },
   {
-    "id": "zh_reading_9",
+    "id": 28,
     "title": "职场压力与心理健康 - Workplace Stress and Mental Health",
-    "text": "在当今竞争激烈的社会中，职场压力已成为影响人们心理健康的重要因素。长时间的工作、高强度的任务以及复杂的人际关系都可能导致焦虑和抑郁。研究表明，长期处于高压状态会影响人的睡眠质量、食欲，甚至会引发身体疾病。面对这种情况，专家建议人们要学会合理安排时间，区分工作和生活。定期进行体育锻炼、培养兴趣爱好、保持良好的社交关系都是缓解压力的有效方法。同时，企业也应该关注员工的心理健康，提供必要的支持和帮助。只有身心健康，才能在职场中获得长远的发展。",
-    "pinyin": "Zài dāngjīn jìngzhēng jīliè de shèhuì zhōng, zhíchǎng yālì yǐ chéngwéi yǐngxiǎng rénmen xīnlǐ jiànkāng de zhòngyào yīnsù. Cháng shíjiān de gōngzuò, gāo qiángdù de rènwu yǐjí fùzá de rénjì guānxì dōu kěnéng dǎozhì jiāolǜ hé yìyù. Yánjiū biǎomíng, chángqī chǔyú gāoyā zhuàngtài huì yǐngxiǎng rén de shuìmián zhìliàng, shíyù, shènzhì huì yǐnfā shēntǐ jíbìng. Miànduì zhè zhǒng qíngkuàng, zhuānjiā jiànyì rénmen yào xuéhuì hélǐ ānpái shíjiān, qūfēn gōngzuò hé shēnghuó. Dìngqī jìnxíng tǐyù duànliàn, péiyǎng xìngqù àihào, bǎochí liánghǎo de shèjiāo guānxì dōu shì huǎnjiě yālì de yǒuxiào fāngfǎ. Tóngshí, qǐyè yě yīnggāi guānzhù yuángōng de xīnlǐ jiànkāng, tígōng bìyào de zhīchí hé bāngzhù. Zhǐyǒu shēnxīn jiànkāng, cái néng zài zhíchǎng zhōng huòdé chángyuǎn de fāzhǎn.",
-    "translation": "In today's highly competitive society, workplace stress has become an important factor affecting people's mental health. Long working hours, high-intensity tasks, and complex interpersonal relationships can all lead to anxiety and depression. Research shows that being in a high-pressure state for a long time affects sleep quality, appetite, and can even cause physical illness. Facing this situation, experts suggest people should learn to manage time reasonably and distinguish between work and life. Regular exercise, cultivating hobbies, and maintaining good social relationships are all effective ways to relieve stress. At the same time, companies should also pay attention to employees' mental health and provide necessary support and help. Only with physical and mental health can one achieve long-term development in the workplace.",
     "level": "hsk4",
+    "framework": null,
+    "text": "在当今竞争激烈的社会中，职场压力已成为影响人们心理健康的重要因素。长时间的工作、高强度的任务以及复杂的人际关系都可能导致焦虑和抑郁。研究表明，长期处于高压状态会影响人的睡眠质量、食欲，甚至会引发身体疾病。面对这种情况，专家建议人们要学会合理安排时间，区分工作和生活。定期进行体育锻炼、培养兴趣爱好、保持良好的社交关系都是缓解压力的有效方法。同时，企业也应该关注员工的心理健康，提供必要的支持和帮助。只有身心健康，才能在职场中获得长远的发展。",
+    "translation": "In today's highly competitive society, workplace stress has become an important factor affecting people's mental health. Long working hours, high-intensity tasks, and complex interpersonal relationships can all lead to anxiety and depression. Research shows that being in a high-pressure state for a long time affects sleep quality, appetite, and can even cause physical illness. Facing this situation, experts suggest people should learn to manage time reasonably and distinguish between work and life. Regular exercise, cultivating hobbies, and maintaining good social relationships are all effective ways to relieve stress. At the same time, companies should also pay attention to employees' mental health and provide necessary support and help. Only with physical and mental health can one achieve long-term development in the workplace.",
     "questions": [
       {
         "question": "According to the passage, what can cause anxiety and depression?",
-        "options": ["Low salary", "Long working hours and complex relationships", "Boring work", "Bad weather"],
+        "options": [
+          "Low salary",
+          "Long working hours and complex relationships",
+          "Boring work",
+          "Bad weather"
+        ],
         "correct": 1
       },
       {
         "question": "What effects can long-term high pressure have?",
-        "options": ["Better performance", "Promotion opportunities", "Sleep and appetite problems", "Higher income"],
+        "options": [
+          "Better performance",
+          "Promotion opportunities",
+          "Sleep and appetite problems",
+          "Higher income"
+        ],
         "correct": 2
       },
       {
         "question": "What do experts recommend for stress relief?",
-        "options": ["Work harder", "Change jobs frequently", "Exercise regularly and have hobbies", "Avoid social activities"],
+        "options": [
+          "Work harder",
+          "Change jobs frequently",
+          "Exercise regularly and have hobbies",
+          "Avoid social activities"
+        ],
         "correct": 2
       },
       {
         "question": "What should companies do according to the passage?",
-        "options": ["Give more work to employees", "Pay attention to employees' mental health", "Reduce employees' salary", "Make work more competitive"],
+        "options": [
+          "Give more work to employees",
+          "Pay attention to employees' mental health",
+          "Reduce employees' salary",
+          "Make work more competitive"
+        ],
         "correct": 1
       }
     ],
-    "audioUrl": ""
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audio_url": "",
+    "language_id": 4
   },
   {
-    "id": "zh_reading_10",
+    "id": 29,
     "title": "人工智能的双刃剑 - The Double-Edged Sword of Artificial Intelligence",
-    "text": "人工智能的飞速发展正在重塑我们的社会。从语音助手到自动驾驶，从医疗诊断到金融分析，AI技术已渗透到生活的方方面面。它大大提高了生产效率，解放了人们从事重复性工作的时间，使我们能够专注于更具创造性的任务。然而，这项技术的发展也引发了广泛的争议。首先，自动化可能导致大规模失业，尤其是对从事简单重复工作的劳动者影响最大。其次，算法的不透明性引发了关于隐私和歧视的担忧。此外，若AI被恶意使用，后果不堪设想。因此，在拥抱技术进步的同时，我们必须建立完善的伦理框架和法律法规，确保人工智能的发展能够真正造福人类，而非成为威胁。",
-    "pinyin": "Réngōng zhìnéng de fēisù fāzhǎn zhèngzài chóngsù wǒmen de shèhuì. Cóng yǔyīn zhùshǒu dào zìdòng jiàshǐ, cóng yīliáo zhěnduàn dào jīnróng fēnxī, AI jìshù yǐ shèntòu dào shēnghuó de fāngfāngmiànmiàn. Tā dàdà tígāo le shēngchǎn xiàolǜ, jiěfàng le rénmen cóngshì chóngfùxìng gōngzuò de shíjiān, shǐ wǒmen nénggòu zhuānzhù yú gèng jù chuàngzàoxìng de rènwù. Rán'ér, zhè xiàng jìshù de fāzhǎn yě yǐnfā le guǎngfàn de zhēngyì. Shǒuxiān, zìdònghuà kěnéng dǎozhì dàguīmó shīyè, yóuqí shì duì cóngshì jiǎndān chóngfù gōngzuò de láodòngzhě yǐngxiǎng zuìdà. Qícì, suànfǎ de bù tòumíngxìng yǐnfā le guānyú yǐnsī hé qíshì de dānyōu. Cǐwài, ruò AI bèi èyì shǐyòng, hòuguǒ bùkān shèxiǎng. Yīncǐ, zài yōngbào jìshù jìnbù de tóngshí, wǒmen bìxū jiànlì wánshàn de lúnlǐ kuàngjià hé fǎlǜ fǎguī, quèbǎo réngōng zhìnéng de fāzhǎn nénggòu zhēnzhèng zàofú rénlèi, ér fēi chéngwéi wēixié.",
-    "translation": "The rapid development of artificial intelligence is reshaping our society. From voice assistants to autonomous driving, from medical diagnosis to financial analysis, AI technology has penetrated every aspect of life. It has greatly improved production efficiency, freed people from repetitive work, and allowed us to focus on more creative tasks. However, the development of this technology has also sparked widespread controversy. First, automation may lead to large-scale unemployment, especially affecting workers engaged in simple repetitive work. Second, the opacity of algorithms has raised concerns about privacy and discrimination. Furthermore, if AI is used maliciously, the consequences would be unimaginable. Therefore, while embracing technological progress, we must establish a comprehensive ethical framework and legal regulations to ensure that the development of artificial intelligence can truly benefit humanity rather than become a threat.",
     "level": "hsk5",
+    "framework": null,
+    "text": "人工智能的飞速发展正在重塑我们的社会。从语音助手到自动驾驶，从医疗诊断到金融分析，AI技术已渗透到生活的方方面面。它大大提高了生产效率，解放了人们从事重复性工作的时间，使我们能够专注于更具创造性的任务。然而，这项技术的发展也引发了广泛的争议。首先，自动化可能导致大规模失业，尤其是对从事简单重复工作的劳动者影响最大。其次，算法的不透明性引发了关于隐私和歧视的担忧。此外，若AI被恶意使用，后果不堪设想。因此，在拥抱技术进步的同时，我们必须建立完善的伦理框架和法律法规，确保人工智能的发展能够真正造福人类，而非成为威胁。",
+    "translation": "The rapid development of artificial intelligence is reshaping our society. From voice assistants to autonomous driving, from medical diagnosis to financial analysis, AI technology has penetrated every aspect of life. It has greatly improved production efficiency, freed people from repetitive work, and allowed us to focus on more creative tasks. However, the development of this technology has also sparked widespread controversy. First, automation may lead to large-scale unemployment, especially affecting workers engaged in simple repetitive work. Second, the opacity of algorithms has raised concerns about privacy and discrimination. Furthermore, if AI is used maliciously, the consequences would be unimaginable. Therefore, while embracing technological progress, we must establish a comprehensive ethical framework and legal regulations to ensure that the development of artificial intelligence can truly benefit humanity rather than become a threat.",
     "questions": [
       {
         "question": "According to the passage, which fields has AI penetrated?",
-        "options": ["Only technology companies", "Only medical field", "Various aspects of life", "Only entertainment"],
+        "options": [
+          "Only technology companies",
+          "Only medical field",
+          "Various aspects of life",
+          "Only entertainment"
+        ],
         "correct": 2
       },
       {
         "question": "What is one benefit of AI mentioned in the passage?",
-        "options": ["It makes everything free", "It improves production efficiency", "It replaces all human work", "It eliminates all diseases"],
+        "options": [
+          "It makes everything free",
+          "It improves production efficiency",
+          "It replaces all human work",
+          "It eliminates all diseases"
+        ],
         "correct": 1
       },
       {
         "question": "Who might be most affected by automation?",
-        "options": ["Creative workers", "Workers doing simple repetitive tasks", "Company executives", "Government officials"],
+        "options": [
+          "Creative workers",
+          "Workers doing simple repetitive tasks",
+          "Company executives",
+          "Government officials"
+        ],
         "correct": 1
       },
       {
         "question": "What does the author suggest we should do?",
-        "options": ["Stop developing AI completely", "Let AI develop without restrictions", "Establish ethical frameworks and laws", "Only use AI in certain fields"],
+        "options": [
+          "Stop developing AI completely",
+          "Let AI develop without restrictions",
+          "Establish ethical frameworks and laws",
+          "Only use AI in certain fields"
+        ],
         "correct": 2
       }
     ],
-    "audioUrl": ""
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audio_url": "",
+    "language_id": 4
   },
   {
-    "id": "zh_reading_11",
+    "id": 30,
     "title": "全球化背景下的文化认同 - Cultural Identity in the Context of Globalization",
-    "text": "全球化浪潮席卷世界的同时，也引发了关于文化认同的深刻思考。一方面，全球化促进了文化交流，使不同文明之间能够相互借鉴、取长补短。通过互联网，我们可以接触到世界各地的音乐、电影、文学作品，视野得到极大拓展。另一方面，强势文化的扩张也威胁着一些小众文化的生存空间。许多传统习俗和语言正面临消亡的危险，年轻一代对本土文化的了解日益减少。在这种背景下，如何在开放与保护之间找到平衡，成为各国面临的共同课题。专家指出，文化的自信并非排斥外来文化，而是在了解自身文化精髓的基础上，以包容的态度与其他文化对话。唯有如此，才能在全球化进程中既保持文化多样性，又实现文明的共同繁荣。",
-    "pinyin": "Quánqiúhuà làngcháo xíjuǎn shìjiè de tóngshí, yě yǐnfā le guānyú wénhuà rèntóng de shēnkè sīkǎo. Yìfāngmiàn, quánqiúhuà cùjìn le wénhuà jiāoliú, shǐ bùtóng wénmíng zhījiān nénggòu xiānghù jièjiàn, qǔchángbǔduǎn. Tōngguò hùliánwǎng, wǒmen kěyǐ jiēchù dào shìjiè gèdì de yīnyuè, diànyǐng, wénxué zuòpǐn, shìyě dédào jídà tuòzhǎn. Lìngyìfāngmiàn, qiángshì wénhuà de kuòzhāng yě wēixié zhe yìxiē xiǎozhòng wénhuà de shēngcún kōngjiān. Xǔduō chuántǒng xísú hé yǔyán zhèng miànlín xiāowáng de wéixiǎn, niánqīng yídài duì běntǔ wénhuà de liǎojiě rìyì jiǎnshǎo. Zài zhè zhǒng bèijǐng xià, rúhé zài kāifàng yǔ bǎohù zhījiān zhǎodào pínghéng, chéngwéi gèguó miànlín de gòngtóng kètí. Zhuānjiā zhǐchū, wénhuà de zìxìn bìngfēi páichì wàilái wénhuà, ér shì zài liǎojiě zìshēn wénhuà jīngsuǐ de jīchǔ shàng, yǐ bāoróng de tàidù yǔ qítā wénhuà duìhuà. Wéiyǒu rúcǐ, cái néng zài quánqiúhuà jìnchéng zhōng jì bǎochí wénhuà duōyàngxìng, yòu shíxiàn wénmíng de gòngtóng fánróng.",
-    "translation": "While the wave of globalization sweeps the world, it has also triggered profound reflection on cultural identity. On one hand, globalization has promoted cultural exchange, enabling different civilizations to learn from each other and complement each other's strengths and weaknesses. Through the internet, we can access music, movies, and literary works from around the world, greatly expanding our horizons. On the other hand, the expansion of dominant cultures also threatens the survival space of some minority cultures. Many traditional customs and languages are facing the danger of extinction, and the younger generation's understanding of local culture is decreasing. In this context, how to find a balance between openness and protection has become a common challenge facing all countries. Experts point out that cultural confidence is not about rejecting foreign cultures, but rather engaging in dialogue with other cultures with an inclusive attitude based on understanding the essence of one's own culture. Only in this way can we maintain cultural diversity while achieving common prosperity of civilizations in the process of globalization.",
     "level": "hsk5",
+    "framework": null,
+    "text": "全球化浪潮席卷世界的同时，也引发了关于文化认同的深刻思考。一方面，全球化促进了文化交流，使不同文明之间能够相互借鉴、取长补短。通过互联网，我们可以接触到世界各地的音乐、电影、文学作品，视野得到极大拓展。另一方面，强势文化的扩张也威胁着一些小众文化的生存空间。许多传统习俗和语言正面临消亡的危险，年轻一代对本土文化的了解日益减少。在这种背景下，如何在开放与保护之间找到平衡，成为各国面临的共同课题。专家指出，文化的自信并非排斥外来文化，而是在了解自身文化精髓的基础上，以包容的态度与其他文化对话。唯有如此，才能在全球化进程中既保持文化多样性，又实现文明的共同繁荣。",
+    "translation": "While the wave of globalization sweeps the world, it has also triggered profound reflection on cultural identity. On one hand, globalization has promoted cultural exchange, enabling different civilizations to learn from each other and complement each other's strengths and weaknesses. Through the internet, we can access music, movies, and literary works from around the world, greatly expanding our horizons. On the other hand, the expansion of dominant cultures also threatens the survival space of some minority cultures. Many traditional customs and languages are facing the danger of extinction, and the younger generation's understanding of local culture is decreasing. In this context, how to find a balance between openness and protection has become a common challenge facing all countries. Experts point out that cultural confidence is not about rejecting foreign cultures, but rather engaging in dialogue with other cultures with an inclusive attitude based on understanding the essence of one's own culture. Only in this way can we maintain cultural diversity while achieving common prosperity of civilizations in the process of globalization.",
     "questions": [
       {
         "question": "What is one positive effect of globalization on culture?",
-        "options": ["It eliminates all differences", "It promotes cultural exchange", "It makes all cultures the same", "It stops cultural development"],
+        "options": [
+          "It eliminates all differences",
+          "It promotes cultural exchange",
+          "It makes all cultures the same",
+          "It stops cultural development"
+        ],
         "correct": 1
       },
       {
         "question": "What threat does globalization pose to minority cultures?",
-        "options": ["It makes them more popular", "It threatens their survival space", "It helps them spread globally", "It makes them wealthier"],
+        "options": [
+          "It makes them more popular",
+          "It threatens their survival space",
+          "It helps them spread globally",
+          "It makes them wealthier"
+        ],
         "correct": 1
       },
       {
         "question": "According to experts, what does cultural confidence mean?",
-        "options": ["Rejecting all foreign cultures", "Abandoning traditional culture", "Dialogue with other cultures while understanding one's own", "Copying dominant cultures"],
+        "options": [
+          "Rejecting all foreign cultures",
+          "Abandoning traditional culture",
+          "Dialogue with other cultures while understanding one's own",
+          "Copying dominant cultures"
+        ],
         "correct": 2
       },
       {
         "question": "What is the main challenge countries face according to the passage?",
-        "options": ["Stopping globalization", "Finding balance between openness and protection", "Adopting only one culture", "Eliminating cultural diversity"],
+        "options": [
+          "Stopping globalization",
+          "Finding balance between openness and protection",
+          "Adopting only one culture",
+          "Eliminating cultural diversity"
+        ],
         "correct": 1
       }
     ],
-    "audioUrl": ""
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audio_url": "",
+    "language_id": 4
   },
   {
-    "id": "zh_reading_12",
-    "title": "论读书之道 - On the Way of Reading",
-    "text": "古人云："书中自有黄金屋，书中自有颜如玉。"此言虽有功利之嫌，却道出了读书的重要性。然今人读书，多为求功名利禄，鲜有为求知而读者。读书之道，贵在得法。首当明确目的，知己所需；次则择书有道，宁缺毋滥；三者读有深浅，略读与精读当有分别；四则学以致用，理论联系实际。古之学者为己，今之学者为人。为己者，所学皆内化于心；为人者，不过装饰门面而已。读书若只为标榜风雅，则失其本义矣。真正的读书人，当如陶渊明所言"好读书，不求甚解"，于字里行间寻找共鸣，在先贤智慧中汲取养分。惟其如此，方能"腹有诗书气自华"，达至修身养性之境界。",
-    "pinyin": "Gǔrén yún: 'Shū zhōng zìyǒu huángjīn wū, shū zhōng zìyǒu yán rú yù.' Cǐ yán suī yǒu gōnglì zhī xián, què dàochū le dúshū de zhòngyàoxìng. Rán jīn rén dúshū, duō wéi qiú gōngmíng lìlù, xiǎn yǒu wéi qiúzhī ér dúzhě. Dúshū zhī dào, guì zài défǎ. Shǒudāng míngquè mùdì, zhījǐ suǒ xū; cì zé zé shū yǒu dào, nìng quē wú làn; sānzhě dú yǒu shēnqiǎn, lüèdú yǔ jīngdú dāng yǒu fēnbié; sì zé xué yǐ zhìyòng, lǐlùn liánxì shíjì. Gǔ zhī xuézhě wéi jǐ, jīn zhī xuézhě wéi rén. Wéi jǐ zhě, suǒ xué jiē nèihuà yú xīn; wéi rén zhě, bùguò zhuāngshì ménmiàn éryǐ. Dúshū ruò zhǐ wéi biāobǎng fēngyǎ, zé shī qí běnyì yǐ. Zhēnzhèng de dúshū rén, dāng rú Táo Yuānmíng suǒ yán 'hào dúshū, bù qiú shèn jiě', yú zì lǐ hángjiān xúnzhǎo gòngmíng, zài xiānxián zhìhuì zhōng jíqǔ yǎngfèn. Wéi qí rúcǐ, fāng néng 'fù yǒu shīshū qì zì huá', dá zhì xiūshēn yǎngxìng zhī jìngjiè.",
-    "translation": "The ancients said: 'In books there are golden houses, in books there are beauties like jade.' Although this saying smacks of utilitarianism, it reveals the importance of reading. However, modern people read mostly for fame and fortune, rarely for the pursuit of knowledge itself. The way of reading lies in proper method. First, one must clarify the purpose and know what one needs; second, select books wisely, preferring quality over quantity; third, reading has depth and shallowness, skimming and intensive reading should be distinguished; fourth, apply what you learn, connecting theory with practice. Ancient scholars studied for themselves, modern scholars study for others. Those who study for themselves internalize all learning in their hearts; those who study for others merely decorate their facades. If one reads only to show off elegance, one loses the original meaning. True readers should be like Tao Yuanming who said 'love reading, not seeking thorough understanding,' finding resonance between the lines, drawing nourishment from the wisdom of ancient sages. Only thus can one achieve 'a belly full of poetry and books, naturally exuding refinement,' reaching the state of self-cultivation and character nurturing.",
-    "level": "hsk6",
-    "questions": [
-      {
-        "question": "What criticism does the passage make about modern readers?",
-        "options": ["They read too slowly", "They read mostly for fame and fortune", "They read too many books", "They don't understand Chinese"],
-        "correct": 1
-      },
-      {
-        "question": "According to the passage, what is the first step in proper reading?",
-        "options": ["Buy expensive books", "Read as fast as possible", "Clarify the purpose and know what you need", "Read only classical texts"],
-        "correct": 2
-      },
-      {
-        "question": "What does 'ancient scholars studied for themselves' mean?",
-        "options": ["They were selfish", "They internalized all learning in their hearts", "They didn't share knowledge", "They only read alone"],
-        "correct": 1
-      },
-      {
-        "question": "Who is quoted as an example of a true reader?",
-        "options": ["Confucius", "Tao Yuanming", "Li Bai", "Mencius"],
-        "correct": 1
-      }
-    ],
-    "audioUrl": ""
-  },
-  {
-    "id": "zh_reading_13",
+    "id": 32,
     "title": "存在主义与现代人的困境 - Existentialism and the Predicament of Modern Man",
-    "text": "存在主义作为二十世纪最具影响力的哲学思潮之一，深刻揭示了现代人的生存困境。萨特提出"存在先于本质"的命题，认为人首先存在，然后通过自己的选择来定义自身。这一观点赋予人自由，同时也带来沉重的责任。海德格尔则关注"此在"的存在方式，指出人往往沉沦于日常生活的庸碌之中，忘却了对存在本身的追问。当代社会，物质生活日益丰富，精神世界却日渐贫瘠。人们被消费主义裹挟，在名利场中迷失自我。存在主义提醒我们：人生没有预设的剧本，每个人都必须为自己的存在负责。面对虚无，我们可以选择逃避，也可以勇敢地承担起创造意义的使命。正如加缪所言，即使认清生活的荒诞，我们仍可像西西弗斯一样，在推石上山的过程中寻找属于自己的幸福。",
-    "pinyin": "Cúnzàizhǔyì zuòwéi èrshí shìjì zuì jù yǐngxiǎnglì de zhéxué sīcháo zhīyī, shēnkè jiēshì le xiàndài rén de shēngcún kùnjìng. Sàtè tíchū 'cúnzài xiān yú běnzhì' de mìngtí, rènwéi rén shǒuxiān cúnzài, ránhòu tōngguò zìjǐ de xuǎnzé lái dìngyì zìshēn. Zhè yì guāndiǎn fùyǔ rén zìyóu, tóngshí yě dàilái chénzhòng de zérèn. Hǎidégé'ěr zé guānzhù 'cǐzài' de cúnzài fāngshì, zhǐchū rén wǎngwǎng chénlún yú rìcháng shēnghuó de yōnglù zhīzhōng, wàngquè le duì cúnzài běnshēn de zhuīwèn. Dāngdài shèhuì, wùzhì shēnghuó rìyì fēngfù, jīngshén shìjiè què rìjiàn pínjí. Rénmen bèi xiāofèizhǔyì guǒxié, zài mínglìchǎng zhōng míshī zìwǒ. Cúnzàizhǔyì tíxǐng wǒmen: rénshēng méiyǒu yùshè de jùběn, měi gè rén dōu bìxū wèi zìjǐ de cúnzài fùzé. Miànduì xūwú, wǒmen kěyǐ xuǎnzé táobì, yě kěyǐ yǒnggǎn de chéngdān qǐ chuàngzào yìyì de shǐmìng. Zhèngrú Jiāmǔ suǒ yán, jíshǐ rènqīng shēnghuó de huāngdàn, wǒmen réng kě xiàng Xīxīfúsī yíyàng, zài tuī shí shàng shān de guòchéng zhōng xúnzhǎo shǔyú zìjǐ de xìngfú.",
-    "translation": "Existentialism, as one of the most influential philosophical movements of the twentieth century, profoundly reveals the existential predicament of modern man. Sartre proposed the thesis 'existence precedes essence,' believing that humans first exist, then define themselves through their own choices. This viewpoint grants humans freedom while also bringing heavy responsibility. Heidegger focused on the mode of existence of 'Dasein,' pointing out that people often fall into the mundane routines of daily life, forgetting to question existence itself. In contemporary society, material life becomes increasingly abundant while the spiritual world becomes increasingly impoverished. People are swept up by consumerism, losing themselves in the pursuit of fame and fortune. Existentialism reminds us: life has no preset script, and everyone must take responsibility for their own existence. Facing nothingness, we can choose to escape, or we can bravely take on the mission of creating meaning. As Camus said, even if we recognize the absurdity of life, we can still, like Sisyphus, find our own happiness in the process of pushing the rock up the mountain.",
     "level": "hsk6",
+    "framework": null,
+    "text": "存在主义作为二十世纪最具影响力的哲学思潮之一，深刻揭示了现代人的生存困境。萨特提出\"存在先于本质\"的命题，认为人首先存在，然后通过自己的选择来定义自身。这一观点赋予人自由，同时也带来沉重的责任。海德格尔则关注\"此在\"的存在方式，指出人往往沉沦于日常生活的庸碌之中，忘却了对存在本身的追问。当代社会，物质生活日益丰富，精神世界却日渐贫瘠。人们被消费主义裹挟，在名利场中迷失自我。存在主义提醒我们：人生没有预设的剧本，每个人都必须为自己的存在负责。面对虚无，我们可以选择逃避，也可以勇敢地承担起创造意义的使命。正如加缪所言，即使认清生活的荒诞，我们仍可像西西弗斯一样，在推石上山的过程中寻找属于自己的幸福。",
+    "translation": "Existentialism, as one of the most influential philosophical movements of the twentieth century, profoundly reveals the existential predicament of modern man. Sartre proposed the thesis \"existence precedes essence,\" believing that humans first exist, then define themselves through their own choices. This viewpoint grants humans freedom while also bringing heavy responsibility. Heidegger focused on the mode of existence of \"Dasein,\" pointing out that people often fall into the mundane routines of daily life, forgetting to question existence itself. In contemporary society, material life becomes increasingly abundant while the spiritual world becomes increasingly impoverished. People are swept up by consumerism, losing themselves in the pursuit of fame and fortune. Existentialism reminds us: life has no preset script, and everyone must take responsibility for their own existence. Facing nothingness, we can choose to escape, or we can bravely take on the mission of creating meaning. As Camus said, even if we recognize the absurdity of life, we can still, like Sisyphus, find our own happiness in the process of pushing the rock up the mountain.",
     "questions": [
       {
         "question": "What is Sartre's main thesis mentioned in the passage?",
-        "options": ["Essence precedes existence", "Existence precedes essence", "Life is meaningless", "Freedom is an illusion"],
+        "options": [
+          "Essence precedes existence",
+          "Existence precedes essence",
+          "Life is meaningless",
+          "Freedom is an illusion"
+        ],
         "correct": 1
       },
       {
         "question": "According to Heidegger, what do people often do in daily life?",
-        "options": ["Question existence constantly", "Fall into mundane routines and forget to question existence", "Live meaningful lives", "Reject consumerism"],
+        "options": [
+          "Question existence constantly",
+          "Fall into mundane routines and forget to question existence",
+          "Live meaningful lives",
+          "Reject consumerism"
+        ],
         "correct": 1
       },
       {
         "question": "What problem does the passage identify in contemporary society?",
-        "options": ["Material poverty", "Material abundance but spiritual impoverishment", "Too much philosophy", "Lack of freedom"],
+        "options": [
+          "Material poverty",
+          "Material abundance but spiritual impoverishment",
+          "Too much philosophy",
+          "Lack of freedom"
+        ],
         "correct": 1
       },
       {
         "question": "What does the reference to Sisyphus represent?",
-        "options": ["The futility of life", "Finding happiness despite life's absurdity", "The need to escape reality", "Physical strength"],
+        "options": [
+          "The futility of life",
+          "Finding happiness despite life's absurdity",
+          "The need to escape reality",
+          "Physical strength"
+        ],
         "correct": 1
       }
     ],
-    "audioUrl": ""
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audio_url": "",
+    "language_id": 4
+  },
+  {
+    "id": 31,
+    "title": "论读书之道 - On the Way of Reading",
+    "level": "hsk6",
+    "framework": null,
+    "text": "古人云：\"书中自有黄金屋，书中自有颜如玉。\"此言虽有功利之嫌，却道出了读书的重要性。然今人读书，多为求功名利禄，鲜有为求知而读者。读书之道，贵在得法。首当明确目的，知己所需；次则择书有道，宁缺毋滥；三者读有深浅，略读与精读当有分别；四则学以致用，理论联系实际。古之学者为己，今之学者为人。为己者，所学皆内化于心；为人者，不过装饰门面而已。读书若只为标榜风雅，则失其本义矣。真正的读书人，当如陶渊明所言\"好读书，不求甚解\"，于字里行间寻找共鸣，在先贤智慧中汲取养分。惟其如此，方能\"腹有诗书气自华\"，达至修身养性之境界。",
+    "translation": "The ancients said: 'In books there are golden houses, in books there are beauties like jade.' Although this saying smacks of utilitarianism, it reveals the importance of reading. However, modern people read mostly for fame and fortune, rarely for the pursuit of knowledge itself. The way of reading lies in proper method. First, one must clarify the purpose and know what one needs; second, select books wisely, preferring quality over quantity; third, reading has depth and shallowness, skimming and intensive reading should be distinguished; fourth, apply what you learn, connecting theory with practice. Ancient scholars studied for themselves, modern scholars study for others. Those who study for themselves internalize all learning in their hearts; those who study for others merely decorate their facades. If one reads only to show off elegance, one loses the original meaning. True readers should be like Tao Yuanming who said 'love reading, not seeking thorough understanding,' finding resonance between the lines, drawing nourishment from the wisdom of ancient sages. Only thus can one achieve 'a belly full of poetry and books, naturally exuding refinement,' reaching the state of self-cultivation and character nurturing.",
+    "questions": [
+      {
+        "question": "What criticism does the passage make about modern readers?",
+        "options": [
+          "They read too slowly",
+          "They read mostly for fame and fortune",
+          "They read too many books",
+          "They don't understand Chinese"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "According to the passage, what is the first step in proper reading?",
+        "options": [
+          "Buy expensive books",
+          "Read as fast as possible",
+          "Clarify the purpose and know what you need",
+          "Read only classical texts"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What does 'ancient scholars studied for themselves' mean?",
+        "options": [
+          "They were selfish",
+          "They internalized all learning in their hearts",
+          "They didn't share knowledge",
+          "They only read alone"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Who is quoted as an example of a true reader?",
+        "options": [
+          "Confucius",
+          "Tao Yuanming",
+          "Li Bai",
+          "Mencius"
+        ],
+        "correct": 1
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audio_url": "",
+    "language_id": 4
   }
 ]

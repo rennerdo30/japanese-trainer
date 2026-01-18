@@ -1,59 +1,7 @@
 [
   {
-    "id": "ko-vocab-1",
-    "word": "먹다",
-    "reading": "meokda",
-    "romaji": "meokda",
-    "meaning": "to eat",
-    "meanings": {
-      "en": "to eat",
-      "es": "comer",
-      "zh-CN": "吃",
-      "ja": "食べる"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "korean": "밥을 먹다",
-        "english": "to eat rice/a meal"
-      }
-    ],
-    "tags": [
-      "food",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-2",
-    "word": "마시다",
-    "reading": "masida",
-    "romaji": "masida",
-    "meaning": "to drink",
-    "meanings": {
-      "en": "to drink",
-      "es": "beber",
-      "zh-CN": "喝",
-      "ja": "飲む"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "korean": "물을 마시다",
-        "english": "to drink water"
-      }
-    ],
-    "tags": [
-      "food",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-3",
+    "id": 299,
     "word": "가다",
-    "reading": "gada",
-    "romaji": "gada",
     "meaning": "to go",
     "meanings": {
       "en": "to go",
@@ -61,2293 +9,27 @@
       "zh-CN": "去",
       "ja": "行く"
     },
+    "reading": "gada",
+    "romaji": "gada",
     "level": "TOPIK1",
-    "partOfSpeech": "verb",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "movement",
+      "basic"
+    ],
     "examples": [
       {
         "korean": "학교에 가다",
         "english": "to go to school"
       }
     ],
-    "tags": [
-      "movement",
-      "basic"
-    ]
+    "audio_url": null,
+    "language_id": 3
   },
   {
-    "id": "ko-vocab-4",
-    "word": "오다",
-    "reading": "oda",
-    "romaji": "oda",
-    "meaning": "to come",
-    "meanings": {
-      "en": "to come",
-      "es": "venir",
-      "zh-CN": "来",
-      "ja": "来る"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "korean": "집에 오다",
-        "english": "to come home"
-      }
-    ],
-    "tags": [
-      "movement",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-5",
-    "word": "보다",
-    "reading": "boda",
-    "romaji": "boda",
-    "meaning": "to see, to watch",
-    "meanings": {
-      "en": "to see, to watch",
-      "es": "ver",
-      "zh-CN": "看",
-      "ja": "見る"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "korean": "영화를 보다",
-        "english": "to watch a movie"
-      }
-    ],
-    "tags": [
-      "senses",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-6",
-    "word": "듣다",
-    "reading": "deutda",
-    "romaji": "deutda",
-    "meaning": "to listen, to hear",
-    "meanings": {
-      "en": "to listen, to hear",
-      "es": "escuchar",
-      "zh-CN": "听",
-      "ja": "聞く"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "korean": "음악을 듣다",
-        "english": "to listen to music"
-      }
-    ],
-    "tags": [
-      "senses",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-7",
-    "word": "말하다",
-    "reading": "malhada",
-    "romaji": "malhada",
-    "meaning": "to speak, to talk",
-    "meanings": {
-      "en": "to speak, to talk",
-      "es": "hablar",
-      "zh-CN": "说",
-      "ja": "話す"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "korean": "한국어로 말하다",
-        "english": "to speak in Korean"
-      }
-    ],
-    "tags": [
-      "communication",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-8",
-    "word": "읽다",
-    "reading": "ikda",
-    "romaji": "ikda",
-    "meaning": "to read",
-    "meanings": {
-      "en": "to read",
-      "es": "leer",
-      "zh-CN": "读",
-      "ja": "読む"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "korean": "책을 읽다",
-        "english": "to read a book"
-      }
-    ],
-    "tags": [
-      "study",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-9",
-    "word": "쓰다",
-    "reading": "sseuda",
-    "romaji": "sseuda",
-    "meaning": "to write",
-    "meanings": {
-      "en": "to write",
-      "es": "escribir",
-      "zh-CN": "写",
-      "ja": "書く"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "korean": "편지를 쓰다",
-        "english": "to write a letter"
-      }
-    ],
-    "tags": [
-      "study",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-10",
-    "word": "사랑",
-    "reading": "sarang",
-    "romaji": "sarang",
-    "meaning": "love",
-    "meanings": {
-      "en": "love",
-      "es": "amor",
-      "zh-CN": "爱",
-      "ja": "愛"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "사랑해요",
-        "english": "I love you"
-      }
-    ],
-    "tags": [
-      "emotions",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-11",
-    "word": "친구",
-    "reading": "chingu",
-    "romaji": "chingu",
-    "meaning": "friend",
-    "meanings": {
-      "en": "friend",
-      "es": "amigo",
-      "zh-CN": "朋友",
-      "ja": "友達"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "친구를 만나다",
-        "english": "to meet a friend"
-      }
-    ],
-    "tags": [
-      "people",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-12",
-    "word": "학교",
-    "reading": "hakgyo",
-    "romaji": "hakgyo",
-    "meaning": "school",
-    "meanings": {
-      "en": "school",
-      "es": "escuela",
-      "zh-CN": "学校",
-      "ja": "学校"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "학교에 가다",
-        "english": "to go to school"
-      }
-    ],
-    "tags": [
-      "education",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-13",
-    "word": "집",
-    "reading": "jip",
-    "romaji": "jip",
-    "meaning": "house, home",
-    "meanings": {
-      "en": "house, home",
-      "es": "casa",
-      "zh-CN": "家",
-      "ja": "家"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "집에 가다",
-        "english": "to go home"
-      }
-    ],
-    "tags": [
-      "places",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-14",
-    "word": "물",
-    "reading": "mul",
-    "romaji": "mul",
-    "meaning": "water",
-    "meanings": {
-      "en": "water",
-      "es": "agua",
-      "zh-CN": "水",
-      "ja": "水"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "물 주세요",
-        "english": "Water, please"
-      }
-    ],
-    "tags": [
-      "food",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-15",
-    "word": "밥",
-    "reading": "bap",
-    "romaji": "bap",
-    "meaning": "rice, meal",
-    "meanings": {
-      "en": "rice, meal",
-      "es": "arroz, comida",
-      "zh-CN": "饭",
-      "ja": "ご飯"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "밥을 먹다",
-        "english": "to eat rice/a meal"
-      }
-    ],
-    "tags": [
-      "food",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-16",
-    "word": "사람",
-    "reading": "saram",
-    "romaji": "saram",
-    "meaning": "person, people",
-    "meanings": {
-      "en": "person, people",
-      "es": "persona",
-      "zh-CN": "人",
-      "ja": "人"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "좋은 사람",
-        "english": "good person"
-      }
-    ],
-    "tags": [
-      "people",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-17",
-    "word": "오늘",
-    "reading": "oneul",
-    "romaji": "oneul",
-    "meaning": "today",
-    "meanings": {
-      "en": "today",
-      "es": "hoy",
-      "zh-CN": "今天",
-      "ja": "今日"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "오늘 날씨가 좋아요",
-        "english": "The weather is nice today"
-      }
-    ],
-    "tags": [
-      "time",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-18",
-    "word": "내일",
-    "reading": "naeil",
-    "romaji": "naeil",
-    "meaning": "tomorrow",
-    "meanings": {
-      "en": "tomorrow",
-      "es": "mañana",
-      "zh-CN": "明天",
-      "ja": "明日"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "내일 만나요",
-        "english": "See you tomorrow"
-      }
-    ],
-    "tags": [
-      "time",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-19",
-    "word": "어제",
-    "reading": "eoje",
-    "romaji": "eoje",
-    "meaning": "yesterday",
-    "meanings": {
-      "en": "yesterday",
-      "es": "ayer",
-      "zh-CN": "昨天",
-      "ja": "昨日"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "어제 뭐 했어요?",
-        "english": "What did you do yesterday?"
-      }
-    ],
-    "tags": [
-      "time",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-20",
-    "word": "좋다",
-    "reading": "jota",
-    "romaji": "jota",
-    "meaning": "to be good, to like",
-    "meanings": {
-      "en": "to be good, to like",
-      "es": "ser bueno, gustar",
-      "zh-CN": "好",
-      "ja": "良い"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "adjective",
-    "examples": [
-      {
-        "korean": "날씨가 좋아요",
-        "english": "The weather is nice"
-      }
-    ],
-    "tags": [
-      "descriptive",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-21",
-    "word": "크다",
-    "reading": "keuda",
-    "romaji": "keuda",
-    "meaning": "to be big, to be large",
-    "meanings": {
-      "en": "to be big, to be large",
-      "es": "ser grande",
-      "zh-CN": "大",
-      "ja": "大きい"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "adjective",
-    "examples": [
-      {
-        "korean": "이 집이 커요",
-        "english": "This house is big"
-      }
-    ],
-    "tags": [
-      "descriptive",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-22",
-    "word": "작다",
-    "reading": "jakda",
-    "romaji": "jakda",
-    "meaning": "to be small",
-    "meanings": {
-      "en": "to be small",
-      "es": "ser pequeño",
-      "zh-CN": "小",
-      "ja": "小さい"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "adjective",
-    "examples": [
-      {
-        "korean": "이 가방이 작아요",
-        "english": "This bag is small"
-      }
-    ],
-    "tags": [
-      "descriptive",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-23",
-    "word": "많다",
-    "reading": "manta",
-    "romaji": "manta",
-    "meaning": "to be many, to be much",
-    "meanings": {
-      "en": "to be many, to be much",
-      "es": "ser mucho",
-      "zh-CN": "多",
-      "ja": "多い"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "adjective",
-    "examples": [
-      {
-        "korean": "사람이 많아요",
-        "english": "There are many people"
-      }
-    ],
-    "tags": [
-      "descriptive",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-24",
-    "word": "이름",
-    "reading": "ireum",
-    "romaji": "ireum",
-    "meaning": "name",
-    "meanings": {
-      "en": "name",
-      "es": "nombre",
-      "zh-CN": "名字",
-      "ja": "名前"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "이름이 뭐예요?",
-        "english": "What is your name?"
-      }
-    ],
-    "tags": [
-      "basic",
-      "introductions"
-    ]
-  },
-  {
-    "id": "ko-vocab-25",
-    "word": "나라",
-    "reading": "nara",
-    "romaji": "nara",
-    "meaning": "country",
-    "meanings": {
-      "en": "country",
-      "es": "país",
-      "zh-CN": "国家",
-      "ja": "国"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "어느 나라에서 왔어요?",
-        "english": "Which country are you from?"
-      }
-    ],
-    "tags": [
-      "places",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-26",
-    "word": "일",
-    "reading": "il",
-    "romaji": "il",
-    "meaning": "work, matter, thing",
-    "meanings": {
-      "en": "work, matter, thing",
-      "es": "trabajo, asunto",
-      "zh-CN": "工作，事情",
-      "ja": "仕事、こと"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "일이 많아요",
-        "english": "I have a lot of work"
-      }
-    ],
-    "tags": [
-      "work",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-27",
-    "word": "돈",
-    "reading": "don",
-    "romaji": "don",
-    "meaning": "money",
-    "meanings": {
-      "en": "money",
-      "es": "dinero",
-      "zh-CN": "钱",
-      "ja": "お金"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "돈이 없어요",
-        "english": "I don't have money"
-      }
-    ],
-    "tags": [
-      "basic",
-      "shopping"
-    ]
-  },
-  {
-    "id": "ko-vocab-28",
-    "word": "시간",
-    "reading": "sigan",
-    "romaji": "sigan",
-    "meaning": "time, hour",
-    "meanings": {
-      "en": "time, hour",
-      "es": "tiempo, hora",
-      "zh-CN": "时间",
-      "ja": "時間"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "시간이 없어요",
-        "english": "I don't have time"
-      }
-    ],
-    "tags": [
-      "time",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-29",
-    "word": "공부하다",
-    "reading": "gongbuhada",
-    "romaji": "gongbuhada",
-    "meaning": "to study",
-    "meanings": {
-      "en": "to study",
-      "es": "estudiar",
-      "zh-CN": "学习",
-      "ja": "勉強する"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "korean": "한국어를 공부해요",
-        "english": "I study Korean"
-      }
-    ],
-    "tags": [
-      "education",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-30",
-    "word": "안녕하세요",
-    "reading": "annyeonghaseyo",
-    "romaji": "annyeonghaseyo",
-    "meaning": "hello",
-    "meanings": {
-      "en": "hello",
-      "es": "hola",
-      "zh-CN": "你好",
-      "ja": "こんにちは"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "expression",
-    "examples": [
-      {
-        "korean": "안녕하세요, 저는 민수예요",
-        "english": "Hello, I am Minsu"
-      }
-    ],
-    "tags": [
-      "greetings",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-31",
-    "word": "감정",
-    "reading": "gamjeong",
-    "romaji": "gamjeong",
-    "meaning": "emotion, feeling",
-    "meanings": {
-      "en": "emotion, feeling",
-      "es": "emoción, sentimiento",
-      "zh-CN": "感情",
-      "ja": "感情"
-    },
-    "level": "TOPIK3",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "감정을 표현하다",
-        "english": "to express emotions"
-      }
-    ],
-    "tags": [
-      "emotions",
-      "intermediate"
-    ]
-  },
-  {
-    "id": "ko-vocab-32",
-    "word": "실망하다",
-    "reading": "silmanghada",
-    "romaji": "silmanghada",
-    "meaning": "to be disappointed",
-    "meanings": {
-      "en": "to be disappointed",
-      "es": "estar decepcionado",
-      "zh-CN": "失望",
-      "ja": "失望する"
-    },
-    "level": "TOPIK3",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "korean": "결과에 실망했어요",
-        "english": "I was disappointed with the result"
-      }
-    ],
-    "tags": [
-      "emotions",
-      "intermediate"
-    ]
-  },
-  {
-    "id": "ko-vocab-33",
-    "word": "직장",
-    "reading": "jikjang",
-    "romaji": "jikjang",
-    "meaning": "workplace, job",
-    "meanings": {
-      "en": "workplace, job",
-      "es": "lugar de trabajo",
-      "zh-CN": "职场",
-      "ja": "職場"
-    },
-    "level": "TOPIK3",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "새 직장을 구하고 있어요",
-        "english": "I'm looking for a new job"
-      }
-    ],
-    "tags": [
-      "work",
-      "intermediate"
-    ]
-  },
-  {
-    "id": "ko-vocab-34",
-    "word": "출장",
-    "reading": "chuljang",
-    "romaji": "chuljang",
-    "meaning": "business trip",
-    "meanings": {
-      "en": "business trip",
-      "es": "viaje de negocios",
-      "zh-CN": "出差",
-      "ja": "出張"
-    },
-    "level": "TOPIK3",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "다음 주에 출장을 가요",
-        "english": "I'm going on a business trip next week"
-      }
-    ],
-    "tags": [
-      "work",
-      "travel",
-      "intermediate"
-    ]
-  },
-  {
-    "id": "ko-vocab-35",
-    "word": "예약하다",
-    "reading": "yeyakhada",
-    "romaji": "yeyakhada",
-    "meaning": "to make a reservation",
-    "meanings": {
-      "en": "to make a reservation",
-      "es": "reservar",
-      "zh-CN": "预约",
-      "ja": "予約する"
-    },
-    "level": "TOPIK3",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "korean": "호텔을 예약했어요",
-        "english": "I made a hotel reservation"
-      }
-    ],
-    "tags": [
-      "travel",
-      "intermediate"
-    ]
-  },
-  {
-    "id": "ko-vocab-36",
-    "word": "건강",
-    "reading": "geongang",
-    "romaji": "geongang",
-    "meaning": "health",
-    "meanings": {
-      "en": "health",
-      "es": "salud",
-      "zh-CN": "健康",
-      "ja": "健康"
-    },
-    "level": "TOPIK3",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "건강이 제일 중요해요",
-        "english": "Health is the most important"
-      }
-    ],
-    "tags": [
-      "health",
-      "intermediate"
-    ]
-  },
-  {
-    "id": "ko-vocab-37",
-    "word": "증상",
-    "reading": "jeungsang",
-    "romaji": "jeungsang",
-    "meaning": "symptom",
-    "meanings": {
-      "en": "symptom",
-      "es": "síntoma",
-      "zh-CN": "症状",
-      "ja": "症状"
-    },
-    "level": "TOPIK3",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "어떤 증상이 있으세요?",
-        "english": "What symptoms do you have?"
-      }
-    ],
-    "tags": [
-      "health",
-      "intermediate"
-    ]
-  },
-  {
-    "id": "ko-vocab-38",
-    "word": "경험",
-    "reading": "gyeongheom",
-    "romaji": "gyeongheom",
-    "meaning": "experience",
-    "meanings": {
-      "en": "experience",
-      "es": "experiencia",
-      "zh-CN": "经验",
-      "ja": "経験"
-    },
-    "level": "TOPIK3",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "좋은 경험이었어요",
-        "english": "It was a good experience"
-      }
-    ],
-    "tags": [
-      "work",
-      "intermediate"
-    ]
-  },
-  {
-    "id": "ko-vocab-39",
-    "word": "관심",
-    "reading": "gwansim",
-    "romaji": "gwansim",
-    "meaning": "interest, attention",
-    "meanings": {
-      "en": "interest, attention",
-      "es": "interés, atención",
-      "zh-CN": "关心",
-      "ja": "関心"
-    },
-    "level": "TOPIK3",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "한국 문화에 관심이 있어요",
-        "english": "I'm interested in Korean culture"
-      }
-    ],
-    "tags": [
-      "emotions",
-      "intermediate"
-    ]
-  },
-  {
-    "id": "ko-vocab-40",
-    "word": "긴장하다",
-    "reading": "ginjjanghada",
-    "romaji": "ginjjanghada",
-    "meaning": "to be nervous, tense",
-    "meanings": {
-      "en": "to be nervous, tense",
-      "es": "estar nervioso",
-      "zh-CN": "紧张",
-      "ja": "緊張する"
-    },
-    "level": "TOPIK3",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "korean": "면접이라서 많이 긴장해요",
-        "english": "I'm very nervous because of the interview"
-      }
-    ],
-    "tags": [
-      "emotions",
-      "work",
-      "intermediate"
-    ]
-  },
-  {
-    "id": "ko-vocab-41",
-    "word": "개념",
-    "reading": "gaenyeom",
-    "romaji": "gaenyeom",
-    "meaning": "concept, notion",
-    "meanings": {
-      "en": "concept, notion",
-      "es": "concepto, noción",
-      "zh-CN": "概念",
-      "ja": "概念"
-    },
-    "level": "TOPIK4",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "이 개념을 이해하기 어려워요",
-        "english": "This concept is difficult to understand"
-      }
-    ],
-    "tags": [
-      "abstract",
-      "upper-intermediate"
-    ]
-  },
-  {
-    "id": "ko-vocab-42",
-    "word": "논리",
-    "reading": "nolli",
-    "romaji": "nolli",
-    "meaning": "logic",
-    "meanings": {
-      "en": "logic",
-      "es": "lógica",
-      "zh-CN": "逻辑",
-      "ja": "論理"
-    },
-    "level": "TOPIK4",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "그의 논리는 설득력이 있어요",
-        "english": "His logic is persuasive"
-      }
-    ],
-    "tags": [
-      "abstract",
-      "upper-intermediate"
-    ]
-  },
-  {
-    "id": "ko-vocab-43",
-    "word": "발을 빼다",
-    "reading": "bareul ppaeda",
-    "romaji": "bareul ppaeda",
-    "meaning": "to back out, withdraw (idiom)",
-    "meanings": {
-      "en": "to back out, withdraw (idiom)",
-      "es": "retirarse, echarse atrás",
-      "zh-CN": "撤退，退出",
-      "ja": "手を引く"
-    },
-    "level": "TOPIK4",
-    "partOfSpeech": "idiom",
-    "examples": [
-      {
-        "korean": "그 사업에서 발을 빼기로 했어요",
-        "english": "I decided to back out of that business"
-      }
-    ],
-    "tags": [
-      "idiom",
-      "business",
-      "upper-intermediate"
-    ]
-  },
-  {
-    "id": "ko-vocab-44",
-    "word": "눈치를 보다",
-    "reading": "nunchireul boda",
-    "romaji": "nunchireul boda",
-    "meaning": "to read the room, gauge someone's mood (idiom)",
-    "meanings": {
-      "en": "to read the room, gauge someone's mood",
-      "es": "leer el ambiente, medir el estado de ánimo",
-      "zh-CN": "察言观色",
-      "ja": "空気を読む"
-    },
-    "level": "TOPIK4",
-    "partOfSpeech": "idiom",
-    "examples": [
-      {
-        "korean": "눈치를 보면서 말하세요",
-        "english": "Speak while reading the room"
-      }
-    ],
-    "tags": [
-      "idiom",
-      "social",
-      "upper-intermediate"
-    ]
-  },
-  {
-    "id": "ko-vocab-45",
-    "word": "계약서",
-    "reading": "gyeyakseo",
-    "romaji": "gyeyakseo",
-    "meaning": "contract document",
-    "meanings": {
-      "en": "contract document",
-      "es": "documento de contrato",
-      "zh-CN": "合同",
-      "ja": "契約書"
-    },
-    "level": "TOPIK4",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "계약서에 서명해 주세요",
-        "english": "Please sign the contract"
-      }
-    ],
-    "tags": [
-      "business",
-      "upper-intermediate"
-    ]
-  },
-  {
-    "id": "ko-vocab-46",
-    "word": "협상하다",
-    "reading": "hyeopsanghada",
-    "romaji": "hyeopsanghada",
-    "meaning": "to negotiate",
-    "meanings": {
-      "en": "to negotiate",
-      "es": "negociar",
-      "zh-CN": "谈判",
-      "ja": "交渉する"
-    },
-    "level": "TOPIK4",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "korean": "가격을 협상하고 있어요",
-        "english": "We are negotiating the price"
-      }
-    ],
-    "tags": [
-      "business",
-      "upper-intermediate"
-    ]
-  },
-  {
-    "id": "ko-vocab-47",
-    "word": "분석",
-    "reading": "bunseok",
-    "romaji": "bunseok",
-    "meaning": "analysis",
-    "meanings": {
-      "en": "analysis",
-      "es": "análisis",
-      "zh-CN": "分析",
-      "ja": "分析"
-    },
-    "level": "TOPIK4",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "데이터 분석이 필요해요",
-        "english": "Data analysis is needed"
-      }
-    ],
-    "tags": [
-      "business",
-      "academic",
-      "upper-intermediate"
-    ]
-  },
-  {
-    "id": "ko-vocab-48",
-    "word": "맥락",
-    "reading": "maengnak",
-    "romaji": "maengnak",
-    "meaning": "context",
-    "meanings": {
-      "en": "context",
-      "es": "contexto",
-      "zh-CN": "脉络，上下文",
-      "ja": "文脈"
-    },
-    "level": "TOPIK4",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "맥락을 이해해야 해요",
-        "english": "You need to understand the context"
-      }
-    ],
-    "tags": [
-      "abstract",
-      "academic",
-      "upper-intermediate"
-    ]
-  },
-  {
-    "id": "ko-vocab-49",
-    "word": "사고방식",
-    "reading": "sagobangshik",
-    "romaji": "sagobangshik",
-    "meaning": "way of thinking, mindset",
-    "meanings": {
-      "en": "way of thinking, mindset",
-      "es": "forma de pensar, mentalidad",
-      "zh-CN": "思维方式",
-      "ja": "考え方"
-    },
-    "level": "TOPIK4",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "사고방식을 바꿔야 해요",
-        "english": "You need to change your way of thinking"
-      }
-    ],
-    "tags": [
-      "abstract",
-      "upper-intermediate"
-    ]
-  },
-  {
-    "id": "ko-vocab-50",
-    "word": "손해를 보다",
-    "reading": "sonhaereul boda",
-    "romaji": "sonhaereul boda",
-    "meaning": "to suffer a loss",
-    "meanings": {
-      "en": "to suffer a loss",
-      "es": "sufrir una pérdida",
-      "zh-CN": "遭受损失",
-      "ja": "損をする"
-    },
-    "level": "TOPIK4",
-    "partOfSpeech": "idiom",
-    "examples": [
-      {
-        "korean": "그 거래에서 손해를 봤어요",
-        "english": "I suffered a loss in that deal"
-      }
-    ],
-    "tags": [
-      "idiom",
-      "business",
-      "upper-intermediate"
-    ]
-  },
-  {
-    "id": "ko-vocab-51",
-    "word": "함축",
-    "reading": "hamchuk",
-    "romaji": "hamchuk",
-    "meaning": "implication, connotation",
-    "meanings": {
-      "en": "implication, connotation",
-      "es": "implicación, connotación",
-      "zh-CN": "含蓄，蕴含",
-      "ja": "含蓄"
-    },
-    "level": "TOPIK5",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "이 단어는 부정적인 함축을 가지고 있어요",
-        "english": "This word has negative connotations"
-      }
-    ],
-    "tags": [
-      "academic",
-      "advanced"
-    ]
-  },
-  {
-    "id": "ko-vocab-52",
-    "word": "명료하다",
-    "reading": "myeongnyohada",
-    "romaji": "myeongnyohada",
-    "meaning": "to be clear, lucid",
-    "meanings": {
-      "en": "to be clear, lucid",
-      "es": "ser claro, lúcido",
-      "zh-CN": "明了",
-      "ja": "明瞭である"
-    },
-    "level": "TOPIK5",
-    "partOfSpeech": "adjective",
-    "examples": [
-      {
-        "korean": "명료한 설명이 필요합니다",
-        "english": "A clear explanation is needed"
-      }
-    ],
-    "tags": [
-      "formal",
-      "advanced"
-    ]
-  },
-  {
-    "id": "ko-vocab-53",
-    "word": "축적하다",
-    "reading": "chukjeokhada",
-    "romaji": "chukjeokhada",
-    "meaning": "to accumulate",
-    "meanings": {
-      "en": "to accumulate",
-      "es": "acumular",
-      "zh-CN": "积累",
-      "ja": "蓄積する"
-    },
-    "level": "TOPIK5",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "korean": "경험을 축적해 왔습니다",
-        "english": "I have accumulated experience"
-      }
-    ],
-    "tags": [
-      "formal",
-      "advanced"
-    ]
-  },
-  {
-    "id": "ko-vocab-54",
-    "word": "기여하다",
-    "reading": "giyeohada",
-    "romaji": "giyeohada",
-    "meaning": "to contribute",
-    "meanings": {
-      "en": "to contribute",
-      "es": "contribuir",
-      "zh-CN": "贡献",
-      "ja": "貢献する"
-    },
-    "level": "TOPIK5",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "korean": "사회 발전에 기여하고 싶습니다",
-        "english": "I want to contribute to social development"
-      }
-    ],
-    "tags": [
-      "formal",
-      "advanced"
-    ]
-  },
-  {
-    "id": "ko-vocab-55",
-    "word": "통찰력",
-    "reading": "tongchallyeok",
-    "romaji": "tongchallyeok",
-    "meaning": "insight",
-    "meanings": {
-      "en": "insight",
-      "es": "perspicacia",
-      "zh-CN": "洞察力",
-      "ja": "洞察力"
-    },
-    "level": "TOPIK5",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "깊은 통찰력을 보여 주셨습니다",
-        "english": "You showed deep insight"
-      }
-    ],
-    "tags": [
-      "formal",
-      "advanced"
-    ]
-  },
-  {
-    "id": "ko-vocab-56",
-    "word": "시사하다",
-    "reading": "sisahada",
-    "romaji": "sisahada",
-    "meaning": "to imply, suggest",
-    "meanings": {
-      "en": "to imply, suggest",
-      "es": "implicar, sugerir",
-      "zh-CN": "暗示",
-      "ja": "示唆する"
-    },
-    "level": "TOPIK5",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "korean": "이 결과는 새로운 가능성을 시사합니다",
-        "english": "This result suggests new possibilities"
-      }
-    ],
-    "tags": [
-      "formal",
-      "academic",
-      "advanced"
-    ]
-  },
-  {
-    "id": "ko-vocab-57",
-    "word": "획기적",
-    "reading": "hoekgijeok",
-    "romaji": "hoekgijeok",
-    "meaning": "groundbreaking, epoch-making",
-    "meanings": {
-      "en": "groundbreaking, epoch-making",
-      "es": "revolucionario, innovador",
-      "zh-CN": "划时代的",
-      "ja": "画期的"
-    },
-    "level": "TOPIK5",
-    "partOfSpeech": "adjective",
-    "examples": [
-      {
-        "korean": "이것은 획기적인 발명입니다",
-        "english": "This is a groundbreaking invention"
-      }
-    ],
-    "tags": [
-      "formal",
-      "advanced"
-    ]
-  },
-  {
-    "id": "ko-vocab-58",
-    "word": "방대하다",
-    "reading": "bangdaehada",
-    "romaji": "bangdaehada",
-    "meaning": "to be vast, extensive",
-    "meanings": {
-      "en": "to be vast, extensive",
-      "es": "ser vasto, extenso",
-      "zh-CN": "庞大的",
-      "ja": "膨大である"
-    },
-    "level": "TOPIK5",
-    "partOfSpeech": "adjective",
-    "examples": [
-      {
-        "korean": "방대한 양의 데이터를 분석했습니다",
-        "english": "We analyzed a vast amount of data"
-      }
-    ],
-    "tags": [
-      "formal",
-      "academic",
-      "advanced"
-    ]
-  },
-  {
-    "id": "ko-vocab-59",
-    "word": "파생되다",
-    "reading": "pasaengdoeda",
-    "romaji": "pasaengdoeda",
-    "meaning": "to be derived",
-    "meanings": {
-      "en": "to be derived",
-      "es": "derivarse",
-      "zh-CN": "派生",
-      "ja": "派生する"
-    },
-    "level": "TOPIK5",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "korean": "이 문제는 다른 문제에서 파생되었습니다",
-        "english": "This problem was derived from another problem"
-      }
-    ],
-    "tags": [
-      "formal",
-      "academic",
-      "advanced"
-    ]
-  },
-  {
-    "id": "ko-vocab-60",
-    "word": "간과하다",
-    "reading": "gangwahada",
-    "romaji": "gangwahada",
-    "meaning": "to overlook, disregard",
-    "meanings": {
-      "en": "to overlook, disregard",
-      "es": "pasar por alto, ignorar",
-      "zh-CN": "忽视",
-      "ja": "看過する"
-    },
-    "level": "TOPIK5",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "korean": "중요한 사실을 간과해서는 안 됩니다",
-        "english": "You must not overlook important facts"
-      }
-    ],
-    "tags": [
-      "formal",
-      "advanced"
-    ]
-  },
-  {
-    "id": "ko-vocab-61",
-    "word": "고찰",
-    "reading": "gochal",
-    "romaji": "gochal",
-    "meaning": "consideration, contemplation (academic)",
-    "meanings": {
-      "en": "consideration, contemplation (academic)",
-      "es": "consideración, contemplación",
-      "zh-CN": "考察",
-      "ja": "考察"
-    },
-    "level": "TOPIK6",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "이 문제에 대한 심층적 고찰이 필요합니다",
-        "english": "An in-depth contemplation of this issue is needed"
-      }
-    ],
-    "tags": [
-      "literary",
-      "academic",
-      "near-native"
-    ]
-  },
-  {
-    "id": "ko-vocab-62",
-    "word": "기인하다",
-    "reading": "giinhada",
-    "romaji": "giinhada",
-    "meaning": "to be attributed to, stem from",
-    "meanings": {
-      "en": "to be attributed to, stem from",
-      "es": "atribuirse a, provenir de",
-      "zh-CN": "归因于",
-      "ja": "起因する"
-    },
-    "level": "TOPIK6",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "korean": "이 현상은 환경 변화에 기인합니다",
-        "english": "This phenomenon is attributed to environmental change"
-      }
-    ],
-    "tags": [
-      "literary",
-      "academic",
-      "near-native"
-    ]
-  },
-  {
-    "id": "ko-vocab-63",
-    "word": "일맥상통하다",
-    "reading": "ilmaeksangtonghada",
-    "romaji": "ilmaeksangtonghada",
-    "meaning": "to be in accord with, have something in common (idiom)",
-    "meanings": {
-      "en": "to be in accord with, have something in common",
-      "es": "estar en concordancia, tener algo en común",
-      "zh-CN": "一脉相通",
-      "ja": "一脈相通ずる"
-    },
-    "level": "TOPIK6",
-    "partOfSpeech": "idiom",
-    "examples": [
-      {
-        "korean": "두 이론은 일맥상통하는 바가 있습니다",
-        "english": "The two theories have something in common"
-      }
-    ],
-    "tags": [
-      "idiom",
-      "literary",
-      "near-native"
-    ]
-  },
-  {
-    "id": "ko-vocab-64",
-    "word": "금상첨화",
-    "reading": "geumsangcheomhwa",
-    "romaji": "geumsangcheomhwa",
-    "meaning": "icing on the cake (four-character idiom)",
-    "meanings": {
-      "en": "icing on the cake, adding perfection to perfection",
-      "es": "la guinda del pastel",
-      "zh-CN": "锦上添花",
-      "ja": "錦上添花"
-    },
-    "level": "TOPIK6",
-    "partOfSpeech": "idiom",
-    "examples": [
-      {
-        "korean": "좋은 날씨까지 금상첨화였습니다",
-        "english": "The good weather was the icing on the cake"
-      }
-    ],
-    "tags": [
-      "idiom",
-      "four-character",
-      "near-native"
-    ]
-  },
-  {
-    "id": "ko-vocab-65",
-    "word": "백미",
-    "reading": "baekmi",
-    "romaji": "baekmi",
-    "meaning": "highlight, the best part (literary)",
-    "meanings": {
-      "en": "highlight, the best part",
-      "es": "lo más destacado, la mejor parte",
-      "zh-CN": "白眉，精华",
-      "ja": "白眉、ハイライト"
-    },
-    "level": "TOPIK6",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "이 장면이 이 영화의 백미입니다",
-        "english": "This scene is the highlight of this movie"
-      }
-    ],
-    "tags": [
-      "literary",
-      "near-native"
-    ]
-  },
-  {
-    "id": "ko-vocab-66",
-    "word": "소멸하다",
-    "reading": "somyeolhada",
-    "romaji": "somyeolhada",
-    "meaning": "to extinguish, become extinct",
-    "meanings": {
-      "en": "to extinguish, become extinct",
-      "es": "extinguirse, desaparecer",
-      "zh-CN": "消灭",
-      "ja": "消滅する"
-    },
-    "level": "TOPIK6",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "korean": "많은 언어가 소멸될 위기에 처해 있습니다",
-        "english": "Many languages are in danger of extinction"
-      }
-    ],
-    "tags": [
-      "formal",
-      "literary",
-      "near-native"
-    ]
-  },
-  {
-    "id": "ko-vocab-67",
-    "word": "침묵을 지키다",
-    "reading": "chimmugeul jikida",
-    "romaji": "chimmugeul jikida",
-    "meaning": "to keep silent",
-    "meanings": {
-      "en": "to keep silent",
-      "es": "guardar silencio",
-      "zh-CN": "保持沉默",
-      "ja": "沈黙を守る"
-    },
-    "level": "TOPIK6",
-    "partOfSpeech": "idiom",
-    "examples": [
-      {
-        "korean": "그는 끝까지 침묵을 지켰습니다",
-        "english": "He kept silent until the end"
-      }
-    ],
-    "tags": [
-      "idiom",
-      "literary",
-      "near-native"
-    ]
-  },
-  {
-    "id": "ko-vocab-68",
-    "word": "등한시하다",
-    "reading": "deunghansihada",
-    "romaji": "deunghansihada",
-    "meaning": "to neglect, treat lightly",
-    "meanings": {
-      "en": "to neglect, treat lightly",
-      "es": "descuidar, tratar a la ligera",
-      "zh-CN": "忽视，轻视",
-      "ja": "等閑視する"
-    },
-    "level": "TOPIK6",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "korean": "이 문제를 등한시해서는 안 됩니다",
-        "english": "We must not neglect this issue"
-      }
-    ],
-    "tags": [
-      "formal",
-      "literary",
-      "near-native"
-    ]
-  },
-  {
-    "id": "ko-vocab-69",
-    "word": "역설적",
-    "reading": "yeokseoljeok",
-    "romaji": "yeokseoljeok",
-    "meaning": "paradoxical",
-    "meanings": {
-      "en": "paradoxical",
-      "es": "paradójico",
-      "zh-CN": "悖论的",
-      "ja": "逆説的"
-    },
-    "level": "TOPIK6",
-    "partOfSpeech": "adjective",
-    "examples": [
-      {
-        "korean": "역설적이게도 그는 성공했습니다",
-        "english": "Paradoxically, he succeeded"
-      }
-    ],
-    "tags": [
-      "academic",
-      "literary",
-      "near-native"
-    ]
-  },
-  {
-    "id": "ko-vocab-70",
-    "word": "새옹지마",
-    "reading": "saeongzima",
-    "romaji": "saeongzima",
-    "meaning": "a blessing in disguise (four-character idiom)",
-    "meanings": {
-      "en": "a blessing in disguise, fortune and misfortune are unpredictable",
-      "es": "una bendición disfrazada",
-      "zh-CN": "塞翁之马",
-      "ja": "塞翁が馬"
-    },
-    "level": "TOPIK6",
-    "partOfSpeech": "idiom",
-    "examples": [
-      {
-        "korean": "실패했지만 새옹지마라고, 더 좋은 기회가 왔습니다",
-        "english": "I failed, but as they say, it was a blessing in disguise - a better opportunity came"
-      }
-    ],
-    "tags": [
-      "idiom",
-      "four-character",
-      "near-native"
-    ]
-  },
-  {
-    "id": "ko-vocab-71",
-    "word": "하나",
-    "reading": "hana",
-    "romaji": "hana",
-    "meaning": "one (native Korean)",
-    "meanings": {
-      "en": "one",
-      "es": "uno",
-      "zh-CN": "一",
-      "ja": "一つ"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "number",
-    "examples": [
-      {
-        "korean": "사과 하나 주세요",
-        "english": "Please give me one apple"
-      }
-    ],
-    "tags": [
-      "numbers",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-72",
-    "word": "둘",
-    "reading": "dul",
-    "romaji": "dul",
-    "meaning": "two (native Korean)",
-    "meanings": {
-      "en": "two",
-      "es": "dos",
-      "zh-CN": "二",
-      "ja": "二つ"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "number",
-    "examples": [
-      {
-        "korean": "친구 둘이 왔어요",
-        "english": "Two friends came"
-      }
-    ],
-    "tags": [
-      "numbers",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-73",
-    "word": "셋",
-    "reading": "set",
-    "romaji": "set",
-    "meaning": "three (native Korean)",
-    "meanings": {
-      "en": "three",
-      "es": "tres",
-      "zh-CN": "三",
-      "ja": "三つ"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "number",
-    "examples": [
-      {
-        "korean": "셋 세어 봐요",
-        "english": "Count to three"
-      }
-    ],
-    "tags": [
-      "numbers",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-74",
-    "word": "넷",
-    "reading": "net",
-    "romaji": "net",
-    "meaning": "four (native Korean)",
-    "meanings": {
-      "en": "four",
-      "es": "cuatro",
-      "zh-CN": "四",
-      "ja": "四つ"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "number",
-    "examples": [
-      {
-        "korean": "의자가 넷 있어요",
-        "english": "There are four chairs"
-      }
-    ],
-    "tags": [
-      "numbers",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-75",
-    "word": "다섯",
-    "reading": "daseot",
-    "romaji": "daseot",
-    "meaning": "five (native Korean)",
-    "meanings": {
-      "en": "five",
-      "es": "cinco",
-      "zh-CN": "五",
-      "ja": "五つ"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "number",
-    "examples": [
-      {
-        "korean": "다섯 시에 만나요",
-        "english": "Let's meet at five o'clock"
-      }
-    ],
-    "tags": [
-      "numbers",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-76",
-    "word": "아버지",
-    "reading": "abeoji",
-    "romaji": "abeoji",
-    "meaning": "father",
-    "meanings": {
-      "en": "father",
-      "es": "padre",
-      "zh-CN": "父亲",
-      "ja": "父"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "아버지가 회사에 가요",
-        "english": "Father goes to work"
-      }
-    ],
-    "tags": [
-      "family",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-77",
-    "word": "어머니",
-    "reading": "eomeoni",
-    "romaji": "eomeoni",
-    "meaning": "mother",
-    "meanings": {
-      "en": "mother",
-      "es": "madre",
-      "zh-CN": "母亲",
-      "ja": "母"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "어머니가 요리해요",
-        "english": "Mother cooks"
-      }
-    ],
-    "tags": [
-      "family",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-78",
-    "word": "형",
-    "reading": "hyeong",
-    "romaji": "hyeong",
-    "meaning": "older brother (male speaker)",
-    "meanings": {
-      "en": "older brother",
-      "es": "hermano mayor",
-      "zh-CN": "哥哥",
-      "ja": "兄"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "형이 대학생이에요",
-        "english": "My older brother is a university student"
-      }
-    ],
-    "tags": [
-      "family",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-79",
-    "word": "누나",
-    "reading": "nuna",
-    "romaji": "nuna",
-    "meaning": "older sister (male speaker)",
-    "meanings": {
-      "en": "older sister",
-      "es": "hermana mayor",
-      "zh-CN": "姐姐",
-      "ja": "姉"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "누나가 선생님이에요",
-        "english": "My older sister is a teacher"
-      }
-    ],
-    "tags": [
-      "family",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-80",
-    "word": "오빠",
-    "reading": "oppa",
-    "romaji": "oppa",
-    "meaning": "older brother (female speaker)",
-    "meanings": {
-      "en": "older brother",
-      "es": "hermano mayor",
-      "zh-CN": "哥哥",
-      "ja": "お兄さん"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "오빠가 축구해요",
-        "english": "My older brother plays soccer"
-      }
-    ],
-    "tags": [
-      "family",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-81",
-    "word": "언니",
-    "reading": "eonni",
-    "romaji": "eonni",
-    "meaning": "older sister (female speaker)",
-    "meanings": {
-      "en": "older sister",
-      "es": "hermana mayor",
-      "zh-CN": "姐姐",
-      "ja": "お姉さん"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "언니가 예뻐요",
-        "english": "My older sister is pretty"
-      }
-    ],
-    "tags": [
-      "family",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-82",
-    "word": "동생",
-    "reading": "dongsaeng",
-    "romaji": "dongsaeng",
-    "meaning": "younger sibling",
-    "meanings": {
-      "en": "younger sibling",
-      "es": "hermano/a menor",
-      "zh-CN": "弟弟/妹妹",
-      "ja": "弟/妹"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "동생이 학교에 가요",
-        "english": "My younger sibling goes to school"
-      }
-    ],
-    "tags": [
-      "family",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-83",
-    "word": "머리",
-    "reading": "meori",
-    "romaji": "meori",
-    "meaning": "head, hair",
-    "meanings": {
-      "en": "head, hair",
-      "es": "cabeza, pelo",
-      "zh-CN": "头",
-      "ja": "頭"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "머리가 아파요",
-        "english": "My head hurts"
-      }
-    ],
-    "tags": [
-      "body",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-84",
-    "word": "눈",
-    "reading": "nun",
-    "romaji": "nun",
-    "meaning": "eye, snow",
-    "meanings": {
-      "en": "eye, snow",
-      "es": "ojo, nieve",
-      "zh-CN": "眼睛/雪",
-      "ja": "目/雪"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "눈이 커요",
-        "english": "The eyes are big"
-      }
-    ],
-    "tags": [
-      "body",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-85",
-    "word": "코",
-    "reading": "ko",
-    "romaji": "ko",
-    "meaning": "nose",
-    "meanings": {
-      "en": "nose",
-      "es": "nariz",
-      "zh-CN": "鼻子",
-      "ja": "鼻"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "코가 높아요",
-        "english": "The nose is high"
-      }
-    ],
-    "tags": [
-      "body",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-86",
-    "word": "입",
-    "reading": "ip",
-    "romaji": "ip",
-    "meaning": "mouth",
-    "meanings": {
-      "en": "mouth",
-      "es": "boca",
-      "zh-CN": "嘴",
-      "ja": "口"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "입을 크게 벌리세요",
-        "english": "Open your mouth wide"
-      }
-    ],
-    "tags": [
-      "body",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-87",
-    "word": "귀",
-    "reading": "gwi",
-    "romaji": "gwi",
-    "meaning": "ear",
-    "meanings": {
-      "en": "ear",
-      "es": "oreja",
-      "zh-CN": "耳朵",
-      "ja": "耳"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "귀가 아파요",
-        "english": "My ear hurts"
-      }
-    ],
-    "tags": [
-      "body",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-88",
-    "word": "손",
-    "reading": "son",
-    "romaji": "son",
-    "meaning": "hand",
-    "meanings": {
-      "en": "hand",
-      "es": "mano",
-      "zh-CN": "手",
-      "ja": "手"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "손을 씻으세요",
-        "english": "Please wash your hands"
-      }
-    ],
-    "tags": [
-      "body",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-89",
-    "word": "발",
-    "reading": "bal",
-    "romaji": "bal",
-    "meaning": "foot",
-    "meanings": {
-      "en": "foot",
-      "es": "pie",
-      "zh-CN": "脚",
-      "ja": "足"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "발이 아파요",
-        "english": "My foot hurts"
-      }
-    ],
-    "tags": [
-      "body",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-90",
-    "word": "빨간색",
-    "reading": "ppalgansaek",
-    "romaji": "ppalgansaek",
-    "meaning": "red",
-    "meanings": {
-      "en": "red",
-      "es": "rojo",
-      "zh-CN": "红色",
-      "ja": "赤"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "빨간색 사과",
-        "english": "red apple"
-      }
-    ],
-    "tags": [
-      "colors",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-91",
-    "word": "파란색",
-    "reading": "paransaek",
-    "romaji": "paransaek",
-    "meaning": "blue",
-    "meanings": {
-      "en": "blue",
-      "es": "azul",
-      "zh-CN": "蓝色",
-      "ja": "青"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "하늘이 파란색이에요",
-        "english": "The sky is blue"
-      }
-    ],
-    "tags": [
-      "colors",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-92",
-    "word": "노란색",
-    "reading": "noransaek",
-    "romaji": "noransaek",
-    "meaning": "yellow",
-    "meanings": {
-      "en": "yellow",
-      "es": "amarillo",
-      "zh-CN": "黄色",
-      "ja": "黄色"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "노란색 꽃",
-        "english": "yellow flower"
-      }
-    ],
-    "tags": [
-      "colors",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-93",
-    "word": "하얀색",
-    "reading": "hayansaek",
-    "romaji": "hayansaek",
-    "meaning": "white",
-    "meanings": {
-      "en": "white",
-      "es": "blanco",
-      "zh-CN": "白色",
-      "ja": "白"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "하얀색 눈",
-        "english": "white snow"
-      }
-    ],
-    "tags": [
-      "colors",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-94",
+    "id": 390,
     "word": "검은색",
-    "reading": "geomeunsaek",
-    "romaji": "geomeunsaek",
     "meaning": "black",
     "meanings": {
       "en": "black",
@@ -2355,360 +37,27 @@
       "zh-CN": "黑色",
       "ja": "黒"
     },
+    "reading": "geomeunsaek",
+    "romaji": "geomeunsaek",
     "level": "TOPIK1",
-    "partOfSpeech": "noun",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "colors",
+      "basic"
+    ],
     "examples": [
       {
         "korean": "검은색 가방",
         "english": "black bag"
       }
     ],
-    "tags": [
-      "colors",
-      "basic"
-    ]
+    "audio_url": null,
+    "language_id": 3
   },
   {
-    "id": "ko-vocab-95",
-    "word": "월요일",
-    "reading": "woryoil",
-    "romaji": "woryoil",
-    "meaning": "Monday",
-    "meanings": {
-      "en": "Monday",
-      "es": "lunes",
-      "zh-CN": "星期一",
-      "ja": "月曜日"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "월요일에 학교 가요",
-        "english": "I go to school on Monday"
-      }
-    ],
-    "tags": [
-      "time",
-      "days",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-96",
-    "word": "화요일",
-    "reading": "hwayoil",
-    "romaji": "hwayoil",
-    "meaning": "Tuesday",
-    "meanings": {
-      "en": "Tuesday",
-      "es": "martes",
-      "zh-CN": "星期二",
-      "ja": "火曜日"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "화요일에 수업이 있어요",
-        "english": "I have class on Tuesday"
-      }
-    ],
-    "tags": [
-      "time",
-      "days",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-97",
-    "word": "수요일",
-    "reading": "suyoil",
-    "romaji": "suyoil",
-    "meaning": "Wednesday",
-    "meanings": {
-      "en": "Wednesday",
-      "es": "miércoles",
-      "zh-CN": "星期三",
-      "ja": "水曜日"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "수요일은 바빠요",
-        "english": "Wednesday is busy"
-      }
-    ],
-    "tags": [
-      "time",
-      "days",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-98",
-    "word": "목요일",
-    "reading": "mogyoil",
-    "romaji": "mogyoil",
-    "meaning": "Thursday",
-    "meanings": {
-      "en": "Thursday",
-      "es": "jueves",
-      "zh-CN": "星期四",
-      "ja": "木曜日"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "목요일에 영화 봐요",
-        "english": "I watch a movie on Thursday"
-      }
-    ],
-    "tags": [
-      "time",
-      "days",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-99",
-    "word": "금요일",
-    "reading": "geumyoil",
-    "romaji": "geumyoil",
-    "meaning": "Friday",
-    "meanings": {
-      "en": "Friday",
-      "es": "viernes",
-      "zh-CN": "星期五",
-      "ja": "金曜日"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "금요일에 파티해요",
-        "english": "There's a party on Friday"
-      }
-    ],
-    "tags": [
-      "time",
-      "days",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-100",
-    "word": "토요일",
-    "reading": "toyoil",
-    "romaji": "toyoil",
-    "meaning": "Saturday",
-    "meanings": {
-      "en": "Saturday",
-      "es": "sábado",
-      "zh-CN": "星期六",
-      "ja": "土曜日"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "토요일에 쉬어요",
-        "english": "I rest on Saturday"
-      }
-    ],
-    "tags": [
-      "time",
-      "days",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-101",
-    "word": "일요일",
-    "reading": "iryoil",
-    "romaji": "iryoil",
-    "meaning": "Sunday",
-    "meanings": {
-      "en": "Sunday",
-      "es": "domingo",
-      "zh-CN": "星期日",
-      "ja": "日曜日"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "일요일에 교회 가요",
-        "english": "I go to church on Sunday"
-      }
-    ],
-    "tags": [
-      "time",
-      "days",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-102",
-    "word": "아침",
-    "reading": "achim",
-    "romaji": "achim",
-    "meaning": "morning, breakfast",
-    "meanings": {
-      "en": "morning, breakfast",
-      "es": "mañana, desayuno",
-      "zh-CN": "早上",
-      "ja": "朝"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "아침에 운동해요",
-        "english": "I exercise in the morning"
-      }
-    ],
-    "tags": [
-      "time",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-103",
-    "word": "점심",
-    "reading": "jeomsim",
-    "romaji": "jeomsim",
-    "meaning": "lunch, noon",
-    "meanings": {
-      "en": "lunch, noon",
-      "es": "almuerzo, mediodía",
-      "zh-CN": "午餐",
-      "ja": "昼"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "점심 먹었어요?",
-        "english": "Did you eat lunch?"
-      }
-    ],
-    "tags": [
-      "time",
-      "food",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-104",
-    "word": "저녁",
-    "reading": "jeonyeok",
-    "romaji": "jeonyeok",
-    "meaning": "evening, dinner",
-    "meanings": {
-      "en": "evening, dinner",
-      "es": "tarde, cena",
-      "zh-CN": "晚上",
-      "ja": "夕方"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "저녁에 뭐 해요?",
-        "english": "What do you do in the evening?"
-      }
-    ],
-    "tags": [
-      "time",
-      "food",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-105",
-    "word": "밤",
-    "reading": "bam",
-    "romaji": "bam",
-    "meaning": "night",
-    "meanings": {
-      "en": "night",
-      "es": "noche",
-      "zh-CN": "晚上",
-      "ja": "夜"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "밤에 별이 많아요",
-        "english": "There are many stars at night"
-      }
-    ],
-    "tags": [
-      "time",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-106",
-    "word": "커피",
-    "reading": "keopi",
-    "romaji": "keopi",
-    "meaning": "coffee",
-    "meanings": {
-      "en": "coffee",
-      "es": "café",
-      "zh-CN": "咖啡",
-      "ja": "コーヒー"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "커피 한 잔 주세요",
-        "english": "One coffee please"
-      }
-    ],
-    "tags": [
-      "food",
-      "drinks",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-107",
-    "word": "차",
-    "reading": "cha",
-    "romaji": "cha",
-    "meaning": "tea, car",
-    "meanings": {
-      "en": "tea, car",
-      "es": "té, coche",
-      "zh-CN": "茶/车",
-      "ja": "お茶/車"
-    },
-    "level": "TOPIK1",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "녹차를 마셔요",
-        "english": "I drink green tea"
-      }
-    ],
-    "tags": [
-      "food",
-      "drinks",
-      "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-108",
+    "id": 404,
     "word": "고기",
-    "reading": "gogi",
-    "romaji": "gogi",
     "meaning": "meat",
     "meanings": {
       "en": "meat",
@@ -2716,24 +65,813 @@
       "zh-CN": "肉",
       "ja": "肉"
     },
+    "reading": "gogi",
+    "romaji": "gogi",
     "level": "TOPIK1",
-    "partOfSpeech": "noun",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "food",
+      "basic"
+    ],
     "examples": [
       {
         "korean": "고기를 좋아해요",
         "english": "I like meat"
       }
     ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 325,
+    "word": "공부하다",
+    "meaning": "to study",
+    "meanings": {
+      "en": "to study",
+      "es": "estudiar",
+      "zh-CN": "学习",
+      "ja": "勉強する"
+    },
+    "reading": "gongbuhada",
+    "romaji": "gongbuhada",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "education",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "한국어를 공부해요",
+        "english": "I study Korean"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 383,
+    "word": "귀",
+    "meaning": "ear",
+    "meanings": {
+      "en": "ear",
+      "es": "oreja",
+      "zh-CN": "耳朵",
+      "ja": "耳"
+    },
+    "reading": "gwi",
+    "romaji": "gwi",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "body",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "귀가 아파요",
+        "english": "My ear hurts"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 395,
+    "word": "금요일",
+    "meaning": "Friday",
+    "meanings": {
+      "en": "Friday",
+      "es": "viernes",
+      "zh-CN": "星期五",
+      "ja": "金曜日"
+    },
+    "reading": "geumyoil",
+    "romaji": "geumyoil",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "days",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "금요일에 파티해요",
+        "english": "There's a party on Friday"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 321,
+    "word": "나라",
+    "meaning": "country",
+    "meanings": {
+      "en": "country",
+      "es": "país",
+      "zh-CN": "国家",
+      "ja": "国"
+    },
+    "reading": "nara",
+    "romaji": "nara",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "places",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "어느 나라에서 왔어요?",
+        "english": "Which country are you from?"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 314,
+    "word": "내일",
+    "meaning": "tomorrow",
+    "meanings": {
+      "en": "tomorrow",
+      "es": "mañana",
+      "zh-CN": "明天",
+      "ja": "明日"
+    },
+    "reading": "naeil",
+    "romaji": "naeil",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "내일 만나요",
+        "english": "See you tomorrow"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 370,
+    "word": "넷",
+    "meaning": "four (native Korean)",
+    "meanings": {
+      "en": "four",
+      "es": "cuatro",
+      "zh-CN": "四",
+      "ja": "四つ"
+    },
+    "reading": "net",
+    "romaji": "net",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "number",
+    "tags": [
+      "numbers",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "의자가 넷 있어요",
+        "english": "There are four chairs"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 388,
+    "word": "노란색",
+    "meaning": "yellow",
+    "meanings": {
+      "en": "yellow",
+      "es": "amarillo",
+      "zh-CN": "黄色",
+      "ja": "黄色"
+    },
+    "reading": "noransaek",
+    "romaji": "noransaek",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "colors",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "노란색 꽃",
+        "english": "yellow flower"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 375,
+    "word": "누나",
+    "meaning": "older sister (male speaker)",
+    "meanings": {
+      "en": "older sister",
+      "es": "hermana mayor",
+      "zh-CN": "姐姐",
+      "ja": "姉"
+    },
+    "reading": "nuna",
+    "romaji": "nuna",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "family",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "누나가 선생님이에요",
+        "english": "My older sister is a teacher"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 380,
+    "word": "눈",
+    "meaning": "eye, snow",
+    "meanings": {
+      "en": "eye, snow",
+      "es": "ojo, nieve",
+      "zh-CN": "眼睛/雪",
+      "ja": "目/雪"
+    },
+    "reading": "nun",
+    "romaji": "nun",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "body",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "눈이 커요",
+        "english": "The eyes are big"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 371,
+    "word": "다섯",
+    "meaning": "five (native Korean)",
+    "meanings": {
+      "en": "five",
+      "es": "cinco",
+      "zh-CN": "五",
+      "ja": "五つ"
+    },
+    "reading": "daseot",
+    "romaji": "daseot",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "number",
+    "tags": [
+      "numbers",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "다섯 시에 만나요",
+        "english": "Let's meet at five o'clock"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 323,
+    "word": "돈",
+    "meaning": "money",
+    "meanings": {
+      "en": "money",
+      "es": "dinero",
+      "zh-CN": "钱",
+      "ja": "お金"
+    },
+    "reading": "don",
+    "romaji": "don",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "basic",
+      "shopping"
+    ],
+    "examples": [
+      {
+        "korean": "돈이 없어요",
+        "english": "I don't have money"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 378,
+    "word": "동생",
+    "meaning": "younger sibling",
+    "meanings": {
+      "en": "younger sibling",
+      "es": "hermano/a menor",
+      "zh-CN": "弟弟/妹妹",
+      "ja": "弟/妹"
+    },
+    "reading": "dongsaeng",
+    "romaji": "dongsaeng",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "family",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "동생이 학교에 가요",
+        "english": "My younger sibling goes to school"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 368,
+    "word": "둘",
+    "meaning": "two (native Korean)",
+    "meanings": {
+      "en": "two",
+      "es": "dos",
+      "zh-CN": "二",
+      "ja": "二つ"
+    },
+    "reading": "dul",
+    "romaji": "dul",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "number",
+    "tags": [
+      "numbers",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "친구 둘이 왔어요",
+        "english": "Two friends came"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 302,
+    "word": "듣다",
+    "meaning": "to listen, to hear",
+    "meanings": {
+      "en": "to listen, to hear",
+      "es": "escuchar",
+      "zh-CN": "听",
+      "ja": "聞く"
+    },
+    "reading": "deutda",
+    "romaji": "deutda",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "senses",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "음악을 듣다",
+        "english": "to listen to music"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 298,
+    "word": "마시다",
+    "meaning": "to drink",
+    "meanings": {
+      "en": "to drink",
+      "es": "beber",
+      "zh-CN": "喝",
+      "ja": "飲む"
+    },
+    "reading": "masida",
+    "romaji": "masida",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "verb",
     "tags": [
       "food",
       "basic"
-    ]
+    ],
+    "examples": [
+      {
+        "korean": "물을 마시다",
+        "english": "to drink water"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
   },
   {
-    "id": "ko-vocab-109",
+    "id": 319,
+    "word": "많다",
+    "meaning": "to be many, to be much",
+    "meanings": {
+      "en": "to be many, to be much",
+      "es": "ser mucho",
+      "zh-CN": "多",
+      "ja": "多い"
+    },
+    "reading": "manta",
+    "romaji": "manta",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "사람이 많아요",
+        "english": "There are many people"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 303,
+    "word": "말하다",
+    "meaning": "to speak, to talk",
+    "meanings": {
+      "en": "to speak, to talk",
+      "es": "hablar",
+      "zh-CN": "说",
+      "ja": "話す"
+    },
+    "reading": "malhada",
+    "romaji": "malhada",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "communication",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "한국어로 말하다",
+        "english": "to speak in Korean"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 379,
+    "word": "머리",
+    "meaning": "head, hair",
+    "meanings": {
+      "en": "head, hair",
+      "es": "cabeza, pelo",
+      "zh-CN": "头",
+      "ja": "頭"
+    },
+    "reading": "meori",
+    "romaji": "meori",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "body",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "머리가 아파요",
+        "english": "My head hurts"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 297,
+    "word": "먹다",
+    "meaning": "to eat",
+    "meanings": {
+      "en": "to eat",
+      "es": "comer",
+      "zh-CN": "吃",
+      "ja": "食べる"
+    },
+    "reading": "meokda",
+    "romaji": "meokda",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "밥을 먹다",
+        "english": "to eat rice/a meal"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 394,
+    "word": "목요일",
+    "meaning": "Thursday",
+    "meanings": {
+      "en": "Thursday",
+      "es": "jueves",
+      "zh-CN": "星期四",
+      "ja": "木曜日"
+    },
+    "reading": "mogyoil",
+    "romaji": "mogyoil",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "days",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "목요일에 영화 봐요",
+        "english": "I watch a movie on Thursday"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 310,
+    "word": "물",
+    "meaning": "water",
+    "meanings": {
+      "en": "water",
+      "es": "agua",
+      "zh-CN": "水",
+      "ja": "水"
+    },
+    "reading": "mul",
+    "romaji": "mul",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "물 주세요",
+        "english": "Water, please"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 385,
+    "word": "발",
+    "meaning": "foot",
+    "meanings": {
+      "en": "foot",
+      "es": "pie",
+      "zh-CN": "脚",
+      "ja": "足"
+    },
+    "reading": "bal",
+    "romaji": "bal",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "body",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "발이 아파요",
+        "english": "My foot hurts"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 401,
+    "word": "밤",
+    "meaning": "night",
+    "meanings": {
+      "en": "night",
+      "es": "noche",
+      "zh-CN": "晚上",
+      "ja": "夜"
+    },
+    "reading": "bam",
+    "romaji": "bam",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "밤에 별이 많아요",
+        "english": "There are many stars at night"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 311,
+    "word": "밥",
+    "meaning": "rice, meal",
+    "meanings": {
+      "en": "rice, meal",
+      "es": "arroz, comida",
+      "zh-CN": "饭",
+      "ja": "ご飯"
+    },
+    "reading": "bap",
+    "romaji": "bap",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "밥을 먹다",
+        "english": "to eat rice/a meal"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 301,
+    "word": "보다",
+    "meaning": "to see, to watch",
+    "meanings": {
+      "en": "to see, to watch",
+      "es": "ver",
+      "zh-CN": "看",
+      "ja": "見る"
+    },
+    "reading": "boda",
+    "romaji": "boda",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "senses",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "영화를 보다",
+        "english": "to watch a movie"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 386,
+    "word": "빨간색",
+    "meaning": "red",
+    "meanings": {
+      "en": "red",
+      "es": "rojo",
+      "zh-CN": "红色",
+      "ja": "赤"
+    },
+    "reading": "ppalgansaek",
+    "romaji": "ppalgansaek",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "colors",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "빨간색 사과",
+        "english": "red apple"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 312,
+    "word": "사람",
+    "meaning": "person, people",
+    "meanings": {
+      "en": "person, people",
+      "es": "persona",
+      "zh-CN": "人",
+      "ja": "人"
+    },
+    "reading": "saram",
+    "romaji": "saram",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "people",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "좋은 사람",
+        "english": "good person"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 306,
+    "word": "사랑",
+    "meaning": "love",
+    "meanings": {
+      "en": "love",
+      "es": "amor",
+      "zh-CN": "爱",
+      "ja": "愛"
+    },
+    "reading": "sarang",
+    "romaji": "sarang",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "emotions",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "사랑해요",
+        "english": "I love you"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 405,
     "word": "생선",
-    "reading": "saengseon",
-    "romaji": "saengseon",
     "meaning": "fish (for eating)",
     "meanings": {
       "en": "fish",
@@ -2741,24 +879,252 @@
       "zh-CN": "鱼",
       "ja": "魚"
     },
+    "reading": "saengseon",
+    "romaji": "saengseon",
     "level": "TOPIK1",
-    "partOfSpeech": "noun",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "food",
+      "basic"
+    ],
     "examples": [
       {
         "korean": "생선이 신선해요",
         "english": "The fish is fresh"
       }
     ],
-    "tags": [
-      "food",
-      "basic"
-    ]
+    "audio_url": null,
+    "language_id": 3
   },
   {
-    "id": "ko-vocab-110",
+    "id": 369,
+    "word": "셋",
+    "meaning": "three (native Korean)",
+    "meanings": {
+      "en": "three",
+      "es": "tres",
+      "zh-CN": "三",
+      "ja": "三つ"
+    },
+    "reading": "set",
+    "romaji": "set",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "number",
+    "tags": [
+      "numbers",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "셋 세어 봐요",
+        "english": "Count to three"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 384,
+    "word": "손",
+    "meaning": "hand",
+    "meanings": {
+      "en": "hand",
+      "es": "mano",
+      "zh-CN": "手",
+      "ja": "手"
+    },
+    "reading": "son",
+    "romaji": "son",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "body",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "손을 씻으세요",
+        "english": "Please wash your hands"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 393,
+    "word": "수요일",
+    "meaning": "Wednesday",
+    "meanings": {
+      "en": "Wednesday",
+      "es": "miércoles",
+      "zh-CN": "星期三",
+      "ja": "水曜日"
+    },
+    "reading": "suyoil",
+    "romaji": "suyoil",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "days",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "수요일은 바빠요",
+        "english": "Wednesday is busy"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 324,
+    "word": "시간",
+    "meaning": "time, hour",
+    "meanings": {
+      "en": "time, hour",
+      "es": "tiempo, hora",
+      "zh-CN": "时间",
+      "ja": "時間"
+    },
+    "reading": "sigan",
+    "romaji": "sigan",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "시간이 없어요",
+        "english": "I don't have time"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 305,
+    "word": "쓰다",
+    "meaning": "to write",
+    "meanings": {
+      "en": "to write",
+      "es": "escribir",
+      "zh-CN": "写",
+      "ja": "書く"
+    },
+    "reading": "sseuda",
+    "romaji": "sseuda",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "study",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "편지를 쓰다",
+        "english": "to write a letter"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 372,
+    "word": "아버지",
+    "meaning": "father",
+    "meanings": {
+      "en": "father",
+      "es": "padre",
+      "zh-CN": "父亲",
+      "ja": "父"
+    },
+    "reading": "abeoji",
+    "romaji": "abeoji",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "family",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "아버지가 회사에 가요",
+        "english": "Father goes to work"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 398,
+    "word": "아침",
+    "meaning": "morning, breakfast",
+    "meanings": {
+      "en": "morning, breakfast",
+      "es": "mañana, desayuno",
+      "zh-CN": "早上",
+      "ja": "朝"
+    },
+    "reading": "achim",
+    "romaji": "achim",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "아침에 운동해요",
+        "english": "I exercise in the morning"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 326,
+    "word": "안녕하세요",
+    "meaning": "hello",
+    "meanings": {
+      "en": "hello",
+      "es": "hola",
+      "zh-CN": "你好",
+      "ja": "こんにちは"
+    },
+    "reading": "annyeonghaseyo",
+    "romaji": "annyeonghaseyo",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "expression",
+    "tags": [
+      "greetings",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "안녕하세요, 저는 민수예요",
+        "english": "Hello, I am Minsu"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 406,
     "word": "야채",
-    "reading": "yachae",
-    "romaji": "yachae",
     "meaning": "vegetables",
     "meanings": {
       "en": "vegetables",
@@ -2766,174 +1132,847 @@
       "zh-CN": "蔬菜",
       "ja": "野菜"
     },
+    "reading": "yachae",
+    "romaji": "yachae",
     "level": "TOPIK1",
-    "partOfSpeech": "noun",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "food",
+      "basic"
+    ],
     "examples": [
       {
         "korean": "야채를 많이 먹어요",
         "english": "I eat a lot of vegetables"
       }
     ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 373,
+    "word": "어머니",
+    "meaning": "mother",
+    "meanings": {
+      "en": "mother",
+      "es": "madre",
+      "zh-CN": "母亲",
+      "ja": "母"
+    },
+    "reading": "eomeoni",
+    "romaji": "eomeoni",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
     "tags": [
+      "family",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "어머니가 요리해요",
+        "english": "Mother cooks"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 315,
+    "word": "어제",
+    "meaning": "yesterday",
+    "meanings": {
+      "en": "yesterday",
+      "es": "ayer",
+      "zh-CN": "昨天",
+      "ja": "昨日"
+    },
+    "reading": "eoje",
+    "romaji": "eoje",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "어제 뭐 했어요?",
+        "english": "What did you do yesterday?"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 377,
+    "word": "언니",
+    "meaning": "older sister (female speaker)",
+    "meanings": {
+      "en": "older sister",
+      "es": "hermana mayor",
+      "zh-CN": "姐姐",
+      "ja": "お姉さん"
+    },
+    "reading": "eonni",
+    "romaji": "eonni",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "family",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "언니가 예뻐요",
+        "english": "My older sister is pretty"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 313,
+    "word": "오늘",
+    "meaning": "today",
+    "meanings": {
+      "en": "today",
+      "es": "hoy",
+      "zh-CN": "今天",
+      "ja": "今日"
+    },
+    "reading": "oneul",
+    "romaji": "oneul",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "오늘 날씨가 좋아요",
+        "english": "The weather is nice today"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 300,
+    "word": "오다",
+    "meaning": "to come",
+    "meanings": {
+      "en": "to come",
+      "es": "venir",
+      "zh-CN": "来",
+      "ja": "来る"
+    },
+    "reading": "oda",
+    "romaji": "oda",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "movement",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "집에 오다",
+        "english": "to come home"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 376,
+    "word": "오빠",
+    "meaning": "older brother (female speaker)",
+    "meanings": {
+      "en": "older brother",
+      "es": "hermano mayor",
+      "zh-CN": "哥哥",
+      "ja": "お兄さん"
+    },
+    "reading": "oppa",
+    "romaji": "oppa",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "family",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "오빠가 축구해요",
+        "english": "My older brother plays soccer"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 391,
+    "word": "월요일",
+    "meaning": "Monday",
+    "meanings": {
+      "en": "Monday",
+      "es": "lunes",
+      "zh-CN": "星期一",
+      "ja": "月曜日"
+    },
+    "reading": "woryoil",
+    "romaji": "woryoil",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "days",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "월요일에 학교 가요",
+        "english": "I go to school on Monday"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 320,
+    "word": "이름",
+    "meaning": "name",
+    "meanings": {
+      "en": "name",
+      "es": "nombre",
+      "zh-CN": "名字",
+      "ja": "名前"
+    },
+    "reading": "ireum",
+    "romaji": "ireum",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "basic",
+      "introductions"
+    ],
+    "examples": [
+      {
+        "korean": "이름이 뭐예요?",
+        "english": "What is your name?"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 322,
+    "word": "일",
+    "meaning": "work, matter, thing",
+    "meanings": {
+      "en": "work, matter, thing",
+      "es": "trabajo, asunto",
+      "zh-CN": "工作，事情",
+      "ja": "仕事、こと"
+    },
+    "reading": "il",
+    "romaji": "il",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "work",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "일이 많아요",
+        "english": "I have a lot of work"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 397,
+    "word": "일요일",
+    "meaning": "Sunday",
+    "meanings": {
+      "en": "Sunday",
+      "es": "domingo",
+      "zh-CN": "星期日",
+      "ja": "日曜日"
+    },
+    "reading": "iryoil",
+    "romaji": "iryoil",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "days",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "일요일에 교회 가요",
+        "english": "I go to church on Sunday"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 304,
+    "word": "읽다",
+    "meaning": "to read",
+    "meanings": {
+      "en": "to read",
+      "es": "leer",
+      "zh-CN": "读",
+      "ja": "読む"
+    },
+    "reading": "ikda",
+    "romaji": "ikda",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "study",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "책을 읽다",
+        "english": "to read a book"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 382,
+    "word": "입",
+    "meaning": "mouth",
+    "meanings": {
+      "en": "mouth",
+      "es": "boca",
+      "zh-CN": "嘴",
+      "ja": "口"
+    },
+    "reading": "ip",
+    "romaji": "ip",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "body",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "입을 크게 벌리세요",
+        "english": "Open your mouth wide"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 318,
+    "word": "작다",
+    "meaning": "to be small",
+    "meanings": {
+      "en": "to be small",
+      "es": "ser pequeño",
+      "zh-CN": "小",
+      "ja": "小さい"
+    },
+    "reading": "jakda",
+    "romaji": "jakda",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "이 가방이 작아요",
+        "english": "This bag is small"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 400,
+    "word": "저녁",
+    "meaning": "evening, dinner",
+    "meanings": {
+      "en": "evening, dinner",
+      "es": "tarde, cena",
+      "zh-CN": "晚上",
+      "ja": "夕方"
+    },
+    "reading": "jeonyeok",
+    "romaji": "jeonyeok",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
       "food",
       "basic"
-    ]
-  },
-  {
-    "id": "ko-vocab-111",
-    "word": "생각하다",
-    "reading": "saenggakhada",
-    "romaji": "saenggakhada",
-    "meaning": "to think",
-    "meanings": {
-      "en": "to think",
-      "es": "pensar",
-      "zh-CN": "想",
-      "ja": "考える"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "verb",
+    ],
     "examples": [
       {
-        "korean": "뭐라고 생각해요?",
-        "english": "What do you think?"
+        "korean": "저녁에 뭐 해요?",
+        "english": "What do you do in the evening?"
       }
     ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 399,
+    "word": "점심",
+    "meaning": "lunch, noon",
+    "meanings": {
+      "en": "lunch, noon",
+      "es": "almuerzo, mediodía",
+      "zh-CN": "午餐",
+      "ja": "昼"
+    },
+    "reading": "jeomsim",
+    "romaji": "jeomsim",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
     "tags": [
-      "basic",
-      "mental"
-    ]
-  },
-  {
-    "id": "ko-vocab-112",
-    "word": "알다",
-    "reading": "alda",
-    "romaji": "alda",
-    "meaning": "to know",
-    "meanings": {
-      "en": "to know",
-      "es": "saber",
-      "zh-CN": "知道",
-      "ja": "知る"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "verb",
+      "time",
+      "food",
+      "basic"
+    ],
     "examples": [
       {
-        "korean": "저는 그것을 알아요",
-        "english": "I know that"
+        "korean": "점심 먹었어요?",
+        "english": "Did you eat lunch?"
       }
     ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 316,
+    "word": "좋다",
+    "meaning": "to be good, to like",
+    "meanings": {
+      "en": "to be good, to like",
+      "es": "ser bueno, gustar",
+      "zh-CN": "好",
+      "ja": "良い"
+    },
+    "reading": "jota",
+    "romaji": "jota",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "adjective",
     "tags": [
-      "basic",
-      "mental"
-    ]
-  },
-  {
-    "id": "ko-vocab-113",
-    "word": "모르다",
-    "reading": "moreuda",
-    "romaji": "moreuda",
-    "meaning": "to not know",
-    "meanings": {
-      "en": "to not know",
-      "es": "no saber",
-      "zh-CN": "不知道",
-      "ja": "知らない"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "verb",
+      "descriptive",
+      "basic"
+    ],
     "examples": [
       {
-        "korean": "저는 몰라요",
-        "english": "I don't know"
+        "korean": "날씨가 좋아요",
+        "english": "The weather is nice"
       }
     ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 309,
+    "word": "집",
+    "meaning": "house, home",
+    "meanings": {
+      "en": "house, home",
+      "es": "casa",
+      "zh-CN": "家",
+      "ja": "家"
+    },
+    "reading": "jip",
+    "romaji": "jip",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
     "tags": [
-      "basic",
-      "mental"
-    ]
-  },
-  {
-    "id": "ko-vocab-114",
-    "word": "기다리다",
-    "reading": "gidarida",
-    "romaji": "gidarida",
-    "meaning": "to wait",
-    "meanings": {
-      "en": "to wait",
-      "es": "esperar",
-      "zh-CN": "等待",
-      "ja": "待つ"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "verb",
+      "places",
+      "basic"
+    ],
     "examples": [
       {
-        "korean": "여기서 기다리세요",
-        "english": "Please wait here"
+        "korean": "집에 가다",
+        "english": "to go home"
       }
     ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 403,
+    "word": "차",
+    "meaning": "tea, car",
+    "meanings": {
+      "en": "tea, car",
+      "es": "té, coche",
+      "zh-CN": "茶/车",
+      "ja": "お茶/車"
+    },
+    "reading": "cha",
+    "romaji": "cha",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
     "tags": [
-      "basic",
-      "action"
-    ]
-  },
-  {
-    "id": "ko-vocab-115",
-    "word": "만나다",
-    "reading": "mannada",
-    "romaji": "mannada",
-    "meaning": "to meet",
-    "meanings": {
-      "en": "to meet",
-      "es": "encontrar",
-      "zh-CN": "见面",
-      "ja": "会う"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "verb",
+      "food",
+      "drinks",
+      "basic"
+    ],
     "examples": [
       {
-        "korean": "내일 만나요",
-        "english": "Let's meet tomorrow"
+        "korean": "녹차를 마셔요",
+        "english": "I drink green tea"
       }
     ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 307,
+    "word": "친구",
+    "meaning": "friend",
+    "meanings": {
+      "en": "friend",
+      "es": "amigo",
+      "zh-CN": "朋友",
+      "ja": "友達"
+    },
+    "reading": "chingu",
+    "romaji": "chingu",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
     "tags": [
-      "basic",
-      "social"
-    ]
-  },
-  {
-    "id": "ko-vocab-116",
-    "word": "배우다",
-    "reading": "baeuda",
-    "romaji": "baeuda",
-    "meaning": "to learn",
-    "meanings": {
-      "en": "to learn",
-      "es": "aprender",
-      "zh-CN": "学习",
-      "ja": "習う"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "verb",
+      "people",
+      "basic"
+    ],
     "examples": [
       {
-        "korean": "한국어를 배워요",
-        "english": "I learn Korean"
+        "korean": "친구를 만나다",
+        "english": "to meet a friend"
       }
     ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 402,
+    "word": "커피",
+    "meaning": "coffee",
+    "meanings": {
+      "en": "coffee",
+      "es": "café",
+      "zh-CN": "咖啡",
+      "ja": "コーヒー"
+    },
+    "reading": "keopi",
+    "romaji": "keopi",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "food",
+      "drinks",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "커피 한 잔 주세요",
+        "english": "One coffee please"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 381,
+    "word": "코",
+    "meaning": "nose",
+    "meanings": {
+      "en": "nose",
+      "es": "nariz",
+      "zh-CN": "鼻子",
+      "ja": "鼻"
+    },
+    "reading": "ko",
+    "romaji": "ko",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "body",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "코가 높아요",
+        "english": "The nose is high"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 317,
+    "word": "크다",
+    "meaning": "to be big, to be large",
+    "meanings": {
+      "en": "to be big, to be large",
+      "es": "ser grande",
+      "zh-CN": "大",
+      "ja": "大きい"
+    },
+    "reading": "keuda",
+    "romaji": "keuda",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "이 집이 커요",
+        "english": "This house is big"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 396,
+    "word": "토요일",
+    "meaning": "Saturday",
+    "meanings": {
+      "en": "Saturday",
+      "es": "sábado",
+      "zh-CN": "星期六",
+      "ja": "土曜日"
+    },
+    "reading": "toyoil",
+    "romaji": "toyoil",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "days",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "토요일에 쉬어요",
+        "english": "I rest on Saturday"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 387,
+    "word": "파란색",
+    "meaning": "blue",
+    "meanings": {
+      "en": "blue",
+      "es": "azul",
+      "zh-CN": "蓝色",
+      "ja": "青"
+    },
+    "reading": "paransaek",
+    "romaji": "paransaek",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "colors",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "하늘이 파란색이에요",
+        "english": "The sky is blue"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 367,
+    "word": "하나",
+    "meaning": "one (native Korean)",
+    "meanings": {
+      "en": "one",
+      "es": "uno",
+      "zh-CN": "一",
+      "ja": "一つ"
+    },
+    "reading": "hana",
+    "romaji": "hana",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "number",
+    "tags": [
+      "numbers",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "사과 하나 주세요",
+        "english": "Please give me one apple"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 389,
+    "word": "하얀색",
+    "meaning": "white",
+    "meanings": {
+      "en": "white",
+      "es": "blanco",
+      "zh-CN": "白色",
+      "ja": "白"
+    },
+    "reading": "hayansaek",
+    "romaji": "hayansaek",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "colors",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "하얀색 눈",
+        "english": "white snow"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 308,
+    "word": "학교",
+    "meaning": "school",
+    "meanings": {
+      "en": "school",
+      "es": "escuela",
+      "zh-CN": "学校",
+      "ja": "学校"
+    },
+    "reading": "hakgyo",
+    "romaji": "hakgyo",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
     "tags": [
       "education",
-      "elementary"
-    ]
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "학교에 가다",
+        "english": "to go to school"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
   },
   {
-    "id": "ko-vocab-117",
+    "id": 374,
+    "word": "형",
+    "meaning": "older brother (male speaker)",
+    "meanings": {
+      "en": "older brother",
+      "es": "hermano mayor",
+      "zh-CN": "哥哥",
+      "ja": "兄"
+    },
+    "reading": "hyeong",
+    "romaji": "hyeong",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "family",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "형이 대학생이에요",
+        "english": "My older brother is a university student"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 392,
+    "word": "화요일",
+    "meaning": "Tuesday",
+    "meanings": {
+      "en": "Tuesday",
+      "es": "martes",
+      "zh-CN": "星期二",
+      "ja": "火曜日"
+    },
+    "reading": "hwayoil",
+    "romaji": "hwayoil",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "days",
+      "basic"
+    ],
+    "examples": [
+      {
+        "korean": "화요일에 수업이 있어요",
+        "english": "I have class on Tuesday"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 413,
     "word": "가르치다",
-    "reading": "gareuchida",
-    "romaji": "gareuchida",
     "meaning": "to teach",
     "meanings": {
       "en": "to teach",
@@ -2941,980 +1980,27 @@
       "zh-CN": "教",
       "ja": "教える"
     },
+    "reading": "gareuchida",
+    "romaji": "gareuchida",
     "level": "TOPIK2",
-    "partOfSpeech": "verb",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "education",
+      "elementary"
+    ],
     "examples": [
       {
         "korean": "영어를 가르쳐요",
         "english": "I teach English"
       }
     ],
-    "tags": [
-      "education",
-      "elementary"
-    ]
+    "audio_url": null,
+    "language_id": 3
   },
   {
-    "id": "ko-vocab-118",
-    "word": "일하다",
-    "reading": "ilhada",
-    "romaji": "ilhada",
-    "meaning": "to work",
-    "meanings": {
-      "en": "to work",
-      "es": "trabajar",
-      "zh-CN": "工作",
-      "ja": "働く"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "korean": "회사에서 일해요",
-        "english": "I work at a company"
-      }
-    ],
-    "tags": [
-      "work",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-119",
-    "word": "쉬다",
-    "reading": "swida",
-    "romaji": "swida",
-    "meaning": "to rest",
-    "meanings": {
-      "en": "to rest",
-      "es": "descansar",
-      "zh-CN": "休息",
-      "ja": "休む"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "korean": "주말에 쉬어요",
-        "english": "I rest on weekends"
-      }
-    ],
-    "tags": [
-      "daily",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-120",
-    "word": "자다",
-    "reading": "jada",
-    "romaji": "jada",
-    "meaning": "to sleep",
-    "meanings": {
-      "en": "to sleep",
-      "es": "dormir",
-      "zh-CN": "睡觉",
-      "ja": "寝る"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "korean": "일찍 자요",
-        "english": "I sleep early"
-      }
-    ],
-    "tags": [
-      "daily",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-121",
-    "word": "일어나다",
-    "reading": "ireonada",
-    "romaji": "ireonada",
-    "meaning": "to wake up, to get up",
-    "meanings": {
-      "en": "to wake up",
-      "es": "levantarse",
-      "zh-CN": "起床",
-      "ja": "起きる"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "korean": "7시에 일어나요",
-        "english": "I wake up at 7"
-      }
-    ],
-    "tags": [
-      "daily",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-122",
-    "word": "사다",
-    "reading": "sada",
-    "romaji": "sada",
-    "meaning": "to buy",
-    "meanings": {
-      "en": "to buy",
-      "es": "comprar",
-      "zh-CN": "买",
-      "ja": "買う"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "korean": "옷을 사요",
-        "english": "I buy clothes"
-      }
-    ],
-    "tags": [
-      "shopping",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-123",
-    "word": "팔다",
-    "reading": "palda",
-    "romaji": "palda",
-    "meaning": "to sell",
-    "meanings": {
-      "en": "to sell",
-      "es": "vender",
-      "zh-CN": "卖",
-      "ja": "売る"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "korean": "과일을 팔아요",
-        "english": "I sell fruit"
-      }
-    ],
-    "tags": [
-      "shopping",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-124",
-    "word": "전화하다",
-    "reading": "jeonhwahada",
-    "romaji": "jeonhwahada",
-    "meaning": "to call (phone)",
-    "meanings": {
-      "en": "to call",
-      "es": "llamar",
-      "zh-CN": "打电话",
-      "ja": "電話する"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "korean": "나중에 전화할게요",
-        "english": "I'll call you later"
-      }
-    ],
-    "tags": [
-      "communication",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-125",
-    "word": "운동하다",
-    "reading": "undonghada",
-    "romaji": "undonghada",
-    "meaning": "to exercise",
-    "meanings": {
-      "en": "to exercise",
-      "es": "hacer ejercicio",
-      "zh-CN": "运动",
-      "ja": "運動する"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "korean": "매일 운동해요",
-        "english": "I exercise every day"
-      }
-    ],
-    "tags": [
-      "health",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-126",
-    "word": "요리하다",
-    "reading": "yorihada",
-    "romaji": "yorihada",
-    "meaning": "to cook",
-    "meanings": {
-      "en": "to cook",
-      "es": "cocinar",
-      "zh-CN": "做饭",
-      "ja": "料理する"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "korean": "저녁을 요리해요",
-        "english": "I cook dinner"
-      }
-    ],
-    "tags": [
-      "food",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-127",
-    "word": "청소하다",
-    "reading": "cheongsohada",
-    "romaji": "cheongsohada",
-    "meaning": "to clean",
-    "meanings": {
-      "en": "to clean",
-      "es": "limpiar",
-      "zh-CN": "打扫",
-      "ja": "掃除する"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "verb",
-    "examples": [
-      {
-        "korean": "방을 청소해요",
-        "english": "I clean my room"
-      }
-    ],
-    "tags": [
-      "daily",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-128",
-    "word": "빠르다",
-    "reading": "ppareuda",
-    "romaji": "ppareuda",
-    "meaning": "to be fast",
-    "meanings": {
-      "en": "fast",
-      "es": "rápido",
-      "zh-CN": "快",
-      "ja": "速い"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "adjective",
-    "examples": [
-      {
-        "korean": "버스가 빨라요",
-        "english": "The bus is fast"
-      }
-    ],
-    "tags": [
-      "descriptive",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-129",
-    "word": "느리다",
-    "reading": "neurida",
-    "romaji": "neurida",
-    "meaning": "to be slow",
-    "meanings": {
-      "en": "slow",
-      "es": "lento",
-      "zh-CN": "慢",
-      "ja": "遅い"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "adjective",
-    "examples": [
-      {
-        "korean": "거북이가 느려요",
-        "english": "The turtle is slow"
-      }
-    ],
-    "tags": [
-      "descriptive",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-130",
-    "word": "쉽다",
-    "reading": "swipda",
-    "romaji": "swipda",
-    "meaning": "to be easy",
-    "meanings": {
-      "en": "easy",
-      "es": "fácil",
-      "zh-CN": "容易",
-      "ja": "簡単"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "adjective",
-    "examples": [
-      {
-        "korean": "한국어가 쉬워요",
-        "english": "Korean is easy"
-      }
-    ],
-    "tags": [
-      "descriptive",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-131",
-    "word": "어렵다",
-    "reading": "eoryeopda",
-    "romaji": "eoryeopda",
-    "meaning": "to be difficult",
-    "meanings": {
-      "en": "difficult",
-      "es": "difícil",
-      "zh-CN": "难",
-      "ja": "難しい"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "adjective",
-    "examples": [
-      {
-        "korean": "시험이 어려워요",
-        "english": "The exam is difficult"
-      }
-    ],
-    "tags": [
-      "descriptive",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-132",
-    "word": "비싸다",
-    "reading": "bissada",
-    "romaji": "bissada",
-    "meaning": "to be expensive",
-    "meanings": {
-      "en": "expensive",
-      "es": "caro",
-      "zh-CN": "贵",
-      "ja": "高い"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "adjective",
-    "examples": [
-      {
-        "korean": "이 가방이 비싸요",
-        "english": "This bag is expensive"
-      }
-    ],
-    "tags": [
-      "shopping",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-133",
-    "word": "싸다",
-    "reading": "ssada",
-    "romaji": "ssada",
-    "meaning": "to be cheap",
-    "meanings": {
-      "en": "cheap",
-      "es": "barato",
-      "zh-CN": "便宜",
-      "ja": "安い"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "adjective",
-    "examples": [
-      {
-        "korean": "이 옷이 싸요",
-        "english": "These clothes are cheap"
-      }
-    ],
-    "tags": [
-      "shopping",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-134",
-    "word": "재미있다",
-    "reading": "jaemiitda",
-    "romaji": "jaemiitda",
-    "meaning": "to be fun, interesting",
-    "meanings": {
-      "en": "fun, interesting",
-      "es": "divertido",
-      "zh-CN": "有趣",
-      "ja": "面白い"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "adjective",
-    "examples": [
-      {
-        "korean": "영화가 재미있어요",
-        "english": "The movie is fun"
-      }
-    ],
-    "tags": [
-      "descriptive",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-135",
-    "word": "재미없다",
-    "reading": "jaemieoptda",
-    "romaji": "jaemieoptda",
-    "meaning": "to be boring",
-    "meanings": {
-      "en": "boring",
-      "es": "aburrido",
-      "zh-CN": "无聊",
-      "ja": "つまらない"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "adjective",
-    "examples": [
-      {
-        "korean": "수업이 재미없어요",
-        "english": "The class is boring"
-      }
-    ],
-    "tags": [
-      "descriptive",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-136",
-    "word": "덥다",
-    "reading": "deopda",
-    "romaji": "deopda",
-    "meaning": "to be hot (weather)",
-    "meanings": {
-      "en": "hot",
-      "es": "caliente",
-      "zh-CN": "热",
-      "ja": "暑い"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "adjective",
-    "examples": [
-      {
-        "korean": "여름에 더워요",
-        "english": "It's hot in summer"
-      }
-    ],
-    "tags": [
-      "weather",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-137",
-    "word": "춥다",
-    "reading": "chupda",
-    "romaji": "chupda",
-    "meaning": "to be cold (weather)",
-    "meanings": {
-      "en": "cold",
-      "es": "frío",
-      "zh-CN": "冷",
-      "ja": "寒い"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "adjective",
-    "examples": [
-      {
-        "korean": "겨울에 추워요",
-        "english": "It's cold in winter"
-      }
-    ],
-    "tags": [
-      "weather",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-138",
-    "word": "배고프다",
-    "reading": "baegoppeuda",
-    "romaji": "baegoppeuda",
-    "meaning": "to be hungry",
-    "meanings": {
-      "en": "hungry",
-      "es": "hambriento",
-      "zh-CN": "饿",
-      "ja": "お腹が空いた"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "adjective",
-    "examples": [
-      {
-        "korean": "배고파요",
-        "english": "I'm hungry"
-      }
-    ],
-    "tags": [
-      "body",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-139",
-    "word": "목마르다",
-    "reading": "mongmareuda",
-    "romaji": "mongmareuda",
-    "meaning": "to be thirsty",
-    "meanings": {
-      "en": "thirsty",
-      "es": "sediento",
-      "zh-CN": "渴",
-      "ja": "喉が渇いた"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "adjective",
-    "examples": [
-      {
-        "korean": "목말라요",
-        "english": "I'm thirsty"
-      }
-    ],
-    "tags": [
-      "body",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-140",
-    "word": "피곤하다",
-    "reading": "pigonhada",
-    "romaji": "pigonhada",
-    "meaning": "to be tired",
-    "meanings": {
-      "en": "tired",
-      "es": "cansado",
-      "zh-CN": "累",
-      "ja": "疲れた"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "adjective",
-    "examples": [
-      {
-        "korean": "오늘 피곤해요",
-        "english": "I'm tired today"
-      }
-    ],
-    "tags": [
-      "body",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-141",
-    "word": "회사",
-    "reading": "hoesa",
-    "romaji": "hoesa",
-    "meaning": "company",
-    "meanings": {
-      "en": "company",
-      "es": "empresa",
-      "zh-CN": "公司",
-      "ja": "会社"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "회사에 가요",
-        "english": "I go to the company"
-      }
-    ],
-    "tags": [
-      "work",
-      "places",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-142",
-    "word": "병원",
-    "reading": "byeongwon",
-    "romaji": "byeongwon",
-    "meaning": "hospital",
-    "meanings": {
-      "en": "hospital",
-      "es": "hospital",
-      "zh-CN": "医院",
-      "ja": "病院"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "병원에 가야 해요",
-        "english": "I have to go to the hospital"
-      }
-    ],
-    "tags": [
-      "health",
-      "places",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-143",
-    "word": "은행",
-    "reading": "eunhaeng",
-    "romaji": "eunhaeng",
-    "meaning": "bank",
-    "meanings": {
-      "en": "bank",
-      "es": "banco",
-      "zh-CN": "银行",
-      "ja": "銀行"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "은행에서 돈을 찾아요",
-        "english": "I withdraw money at the bank"
-      }
-    ],
-    "tags": [
-      "places",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-144",
-    "word": "공항",
-    "reading": "gonghang",
-    "romaji": "gonghang",
-    "meaning": "airport",
-    "meanings": {
-      "en": "airport",
-      "es": "aeropuerto",
-      "zh-CN": "机场",
-      "ja": "空港"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "공항에서 만나요",
-        "english": "Let's meet at the airport"
-      }
-    ],
-    "tags": [
-      "travel",
-      "places",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-145",
-    "word": "역",
-    "reading": "yeok",
-    "romaji": "yeok",
-    "meaning": "station",
-    "meanings": {
-      "en": "station",
-      "es": "estación",
-      "zh-CN": "站",
-      "ja": "駅"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "서울역에서 내려요",
-        "english": "I get off at Seoul Station"
-      }
-    ],
-    "tags": [
-      "travel",
-      "places",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-146",
-    "word": "버스",
-    "reading": "beoseu",
-    "romaji": "beoseu",
-    "meaning": "bus",
-    "meanings": {
-      "en": "bus",
-      "es": "autobús",
-      "zh-CN": "公交车",
-      "ja": "バス"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "버스를 타요",
-        "english": "I take the bus"
-      }
-    ],
-    "tags": [
-      "transportation",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-147",
-    "word": "지하철",
-    "reading": "jihacheol",
-    "romaji": "jihacheol",
-    "meaning": "subway",
-    "meanings": {
-      "en": "subway",
-      "es": "metro",
-      "zh-CN": "地铁",
-      "ja": "地下鉄"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "지하철이 빨라요",
-        "english": "The subway is fast"
-      }
-    ],
-    "tags": [
-      "transportation",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-148",
-    "word": "택시",
-    "reading": "taeksi",
-    "romaji": "taeksi",
-    "meaning": "taxi",
-    "meanings": {
-      "en": "taxi",
-      "es": "taxi",
-      "zh-CN": "出租车",
-      "ja": "タクシー"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "택시를 불러요",
-        "english": "I call a taxi"
-      }
-    ],
-    "tags": [
-      "transportation",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-149",
-    "word": "비행기",
-    "reading": "bihaenggi",
-    "romaji": "bihaenggi",
-    "meaning": "airplane",
-    "meanings": {
-      "en": "airplane",
-      "es": "avión",
-      "zh-CN": "飞机",
-      "ja": "飛行機"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "비행기로 여행해요",
-        "english": "I travel by airplane"
-      }
-    ],
-    "tags": [
-      "transportation",
-      "travel",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-150",
-    "word": "날씨",
-    "reading": "nalssi",
-    "romaji": "nalssi",
-    "meaning": "weather",
-    "meanings": {
-      "en": "weather",
-      "es": "tiempo",
-      "zh-CN": "天气",
-      "ja": "天気"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "오늘 날씨가 좋아요",
-        "english": "The weather is nice today"
-      }
-    ],
-    "tags": [
-      "weather",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-151",
-    "word": "비",
-    "reading": "bi",
-    "romaji": "bi",
-    "meaning": "rain",
-    "meanings": {
-      "en": "rain",
-      "es": "lluvia",
-      "zh-CN": "雨",
-      "ja": "雨"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "비가 와요",
-        "english": "It's raining"
-      }
-    ],
-    "tags": [
-      "weather",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-152",
-    "word": "우산",
-    "reading": "usan",
-    "romaji": "usan",
-    "meaning": "umbrella",
-    "meanings": {
-      "en": "umbrella",
-      "es": "paraguas",
-      "zh-CN": "伞",
-      "ja": "傘"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "우산을 가져가세요",
-        "english": "Take an umbrella"
-      }
-    ],
-    "tags": [
-      "items",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-153",
-    "word": "구름",
-    "reading": "gureum",
-    "romaji": "gureum",
-    "meaning": "cloud",
-    "meanings": {
-      "en": "cloud",
-      "es": "nube",
-      "zh-CN": "云",
-      "ja": "雲"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "구름이 많아요",
-        "english": "There are many clouds"
-      }
-    ],
-    "tags": [
-      "weather",
-      "nature",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-154",
-    "word": "봄",
-    "reading": "bom",
-    "romaji": "bom",
-    "meaning": "spring",
-    "meanings": {
-      "en": "spring",
-      "es": "primavera",
-      "zh-CN": "春天",
-      "ja": "春"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "봄에 꽃이 펴요",
-        "english": "Flowers bloom in spring"
-      }
-    ],
-    "tags": [
-      "seasons",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-155",
-    "word": "여름",
-    "reading": "yeoreum",
-    "romaji": "yeoreum",
-    "meaning": "summer",
-    "meanings": {
-      "en": "summer",
-      "es": "verano",
-      "zh-CN": "夏天",
-      "ja": "夏"
-    },
-    "level": "TOPIK2",
-    "partOfSpeech": "noun",
-    "examples": [
-      {
-        "korean": "여름에 바다에 가요",
-        "english": "I go to the beach in summer"
-      }
-    ],
-    "tags": [
-      "seasons",
-      "elementary"
-    ]
-  },
-  {
-    "id": "ko-vocab-156",
+    "id": 452,
     "word": "가을",
-    "reading": "gaeul",
-    "romaji": "gaeul",
     "meaning": "autumn, fall",
     "meanings": {
       "en": "autumn",
@@ -3922,24 +2008,27 @@
       "zh-CN": "秋天",
       "ja": "秋"
     },
+    "reading": "gaeul",
+    "romaji": "gaeul",
     "level": "TOPIK2",
-    "partOfSpeech": "noun",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "seasons",
+      "elementary"
+    ],
     "examples": [
       {
         "korean": "가을에 단풍이 예뻐요",
         "english": "The autumn leaves are pretty in fall"
       }
     ],
-    "tags": [
-      "seasons",
-      "elementary"
-    ]
+    "audio_url": null,
+    "language_id": 3
   },
   {
-    "id": "ko-vocab-157",
+    "id": 453,
     "word": "겨울",
-    "reading": "gyeoul",
-    "romaji": "gyeoul",
     "meaning": "winter",
     "meanings": {
       "en": "winter",
@@ -3947,24 +2036,113 @@
       "zh-CN": "冬天",
       "ja": "冬"
     },
+    "reading": "gyeoul",
+    "romaji": "gyeoul",
     "level": "TOPIK2",
-    "partOfSpeech": "noun",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "seasons",
+      "elementary"
+    ],
     "examples": [
       {
         "korean": "겨울에 눈이 와요",
         "english": "It snows in winter"
       }
     ],
-    "tags": [
-      "seasons",
-      "elementary"
-    ]
+    "audio_url": null,
+    "language_id": 3
   },
   {
-    "id": "ko-vocab-158",
+    "id": 440,
+    "word": "공항",
+    "meaning": "airport",
+    "meanings": {
+      "en": "airport",
+      "es": "aeropuerto",
+      "zh-CN": "机场",
+      "ja": "空港"
+    },
+    "reading": "gonghang",
+    "romaji": "gonghang",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "travel",
+      "places",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "공항에서 만나요",
+        "english": "Let's meet at the airport"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 449,
+    "word": "구름",
+    "meaning": "cloud",
+    "meanings": {
+      "en": "cloud",
+      "es": "nube",
+      "zh-CN": "云",
+      "ja": "雲"
+    },
+    "reading": "gureum",
+    "romaji": "gureum",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "weather",
+      "nature",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "구름이 많아요",
+        "english": "There are many clouds"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 410,
+    "word": "기다리다",
+    "meaning": "to wait",
+    "meanings": {
+      "en": "to wait",
+      "es": "esperar",
+      "zh-CN": "等待",
+      "ja": "待つ"
+    },
+    "reading": "gidarida",
+    "romaji": "gidarida",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "basic",
+      "action"
+    ],
+    "examples": [
+      {
+        "korean": "여기서 기다리세요",
+        "english": "Please wait here"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 454,
     "word": "꽃",
-    "reading": "kkot",
-    "romaji": "kkot",
     "meaning": "flower",
     "meanings": {
       "en": "flower",
@@ -3972,24 +2150,27 @@
       "zh-CN": "花",
       "ja": "花"
     },
+    "reading": "kkot",
+    "romaji": "kkot",
     "level": "TOPIK2",
-    "partOfSpeech": "noun",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "nature",
+      "elementary"
+    ],
     "examples": [
       {
         "korean": "꽃이 예뻐요",
         "english": "The flowers are pretty"
       }
     ],
-    "tags": [
-      "nature",
-      "elementary"
-    ]
+    "audio_url": null,
+    "language_id": 3
   },
   {
-    "id": "ko-vocab-159",
+    "id": 455,
     "word": "나무",
-    "reading": "namu",
-    "romaji": "namu",
     "meaning": "tree",
     "meanings": {
       "en": "tree",
@@ -3997,24 +2178,477 @@
       "zh-CN": "树",
       "ja": "木"
     },
+    "reading": "namu",
+    "romaji": "namu",
     "level": "TOPIK2",
-    "partOfSpeech": "noun",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "nature",
+      "elementary"
+    ],
     "examples": [
       {
         "korean": "나무가 커요",
         "english": "The tree is big"
       }
     ],
-    "tags": [
-      "nature",
-      "elementary"
-    ]
+    "audio_url": null,
+    "language_id": 3
   },
   {
-    "id": "ko-vocab-160",
+    "id": 446,
+    "word": "날씨",
+    "meaning": "weather",
+    "meanings": {
+      "en": "weather",
+      "es": "tiempo",
+      "zh-CN": "天气",
+      "ja": "天気"
+    },
+    "reading": "nalssi",
+    "romaji": "nalssi",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "weather",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "오늘 날씨가 좋아요",
+        "english": "The weather is nice today"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 425,
+    "word": "느리다",
+    "meaning": "to be slow",
+    "meanings": {
+      "en": "slow",
+      "es": "lento",
+      "zh-CN": "慢",
+      "ja": "遅い"
+    },
+    "reading": "neurida",
+    "romaji": "neurida",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "거북이가 느려요",
+        "english": "The turtle is slow"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 432,
+    "word": "덥다",
+    "meaning": "to be hot (weather)",
+    "meanings": {
+      "en": "hot",
+      "es": "caliente",
+      "zh-CN": "热",
+      "ja": "暑い"
+    },
+    "reading": "deopda",
+    "romaji": "deopda",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "weather",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "여름에 더워요",
+        "english": "It's hot in summer"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 411,
+    "word": "만나다",
+    "meaning": "to meet",
+    "meanings": {
+      "en": "to meet",
+      "es": "encontrar",
+      "zh-CN": "见面",
+      "ja": "会う"
+    },
+    "reading": "mannada",
+    "romaji": "mannada",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "basic",
+      "social"
+    ],
+    "examples": [
+      {
+        "korean": "내일 만나요",
+        "english": "Let's meet tomorrow"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 409,
+    "word": "모르다",
+    "meaning": "to not know",
+    "meanings": {
+      "en": "to not know",
+      "es": "no saber",
+      "zh-CN": "不知道",
+      "ja": "知らない"
+    },
+    "reading": "moreuda",
+    "romaji": "moreuda",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "basic",
+      "mental"
+    ],
+    "examples": [
+      {
+        "korean": "저는 몰라요",
+        "english": "I don't know"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 435,
+    "word": "목마르다",
+    "meaning": "to be thirsty",
+    "meanings": {
+      "en": "thirsty",
+      "es": "sediento",
+      "zh-CN": "渴",
+      "ja": "喉が渇いた"
+    },
+    "reading": "mongmareuda",
+    "romaji": "mongmareuda",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "body",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "목말라요",
+        "english": "I'm thirsty"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 434,
+    "word": "배고프다",
+    "meaning": "to be hungry",
+    "meanings": {
+      "en": "hungry",
+      "es": "hambriento",
+      "zh-CN": "饿",
+      "ja": "お腹が空いた"
+    },
+    "reading": "baegoppeuda",
+    "romaji": "baegoppeuda",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "body",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "배고파요",
+        "english": "I'm hungry"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 412,
+    "word": "배우다",
+    "meaning": "to learn",
+    "meanings": {
+      "en": "to learn",
+      "es": "aprender",
+      "zh-CN": "学习",
+      "ja": "習う"
+    },
+    "reading": "baeuda",
+    "romaji": "baeuda",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "education",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "한국어를 배워요",
+        "english": "I learn Korean"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 442,
+    "word": "버스",
+    "meaning": "bus",
+    "meanings": {
+      "en": "bus",
+      "es": "autobús",
+      "zh-CN": "公交车",
+      "ja": "バス"
+    },
+    "reading": "beoseu",
+    "romaji": "beoseu",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "transportation",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "버스를 타요",
+        "english": "I take the bus"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 438,
+    "word": "병원",
+    "meaning": "hospital",
+    "meanings": {
+      "en": "hospital",
+      "es": "hospital",
+      "zh-CN": "医院",
+      "ja": "病院"
+    },
+    "reading": "byeongwon",
+    "romaji": "byeongwon",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "health",
+      "places",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "병원에 가야 해요",
+        "english": "I have to go to the hospital"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 450,
+    "word": "봄",
+    "meaning": "spring",
+    "meanings": {
+      "en": "spring",
+      "es": "primavera",
+      "zh-CN": "春天",
+      "ja": "春"
+    },
+    "reading": "bom",
+    "romaji": "bom",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "seasons",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "봄에 꽃이 펴요",
+        "english": "Flowers bloom in spring"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 447,
+    "word": "비",
+    "meaning": "rain",
+    "meanings": {
+      "en": "rain",
+      "es": "lluvia",
+      "zh-CN": "雨",
+      "ja": "雨"
+    },
+    "reading": "bi",
+    "romaji": "bi",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "weather",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "비가 와요",
+        "english": "It's raining"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 428,
+    "word": "비싸다",
+    "meaning": "to be expensive",
+    "meanings": {
+      "en": "expensive",
+      "es": "caro",
+      "zh-CN": "贵",
+      "ja": "高い"
+    },
+    "reading": "bissada",
+    "romaji": "bissada",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "shopping",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "이 가방이 비싸요",
+        "english": "This bag is expensive"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 445,
+    "word": "비행기",
+    "meaning": "airplane",
+    "meanings": {
+      "en": "airplane",
+      "es": "avión",
+      "zh-CN": "飞机",
+      "ja": "飛行機"
+    },
+    "reading": "bihaenggi",
+    "romaji": "bihaenggi",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "transportation",
+      "travel",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "비행기로 여행해요",
+        "english": "I travel by airplane"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 424,
+    "word": "빠르다",
+    "meaning": "to be fast",
+    "meanings": {
+      "en": "fast",
+      "es": "rápido",
+      "zh-CN": "快",
+      "ja": "速い"
+    },
+    "reading": "ppareuda",
+    "romaji": "ppareuda",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "버스가 빨라요",
+        "english": "The bus is fast"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 418,
+    "word": "사다",
+    "meaning": "to buy",
+    "meanings": {
+      "en": "to buy",
+      "es": "comprar",
+      "zh-CN": "买",
+      "ja": "買う"
+    },
+    "reading": "sada",
+    "romaji": "sada",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "shopping",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "옷을 사요",
+        "english": "I buy clothes"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 456,
     "word": "산",
-    "reading": "san",
-    "romaji": "san",
     "meaning": "mountain",
     "meanings": {
       "en": "mountain",
@@ -4022,18 +2656,1864 @@
       "zh-CN": "山",
       "ja": "山"
     },
+    "reading": "san",
+    "romaji": "san",
     "level": "TOPIK2",
-    "partOfSpeech": "noun",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "nature",
+      "places",
+      "elementary"
+    ],
     "examples": [
       {
         "korean": "주말에 산에 가요",
         "english": "I go to the mountain on weekends"
       }
     ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 407,
+    "word": "생각하다",
+    "meaning": "to think",
+    "meanings": {
+      "en": "to think",
+      "es": "pensar",
+      "zh-CN": "想",
+      "ja": "考える"
+    },
+    "reading": "saenggakhada",
+    "romaji": "saenggakhada",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "verb",
     "tags": [
-      "nature",
+      "basic",
+      "mental"
+    ],
+    "examples": [
+      {
+        "korean": "뭐라고 생각해요?",
+        "english": "What do you think?"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 415,
+    "word": "쉬다",
+    "meaning": "to rest",
+    "meanings": {
+      "en": "to rest",
+      "es": "descansar",
+      "zh-CN": "休息",
+      "ja": "休む"
+    },
+    "reading": "swida",
+    "romaji": "swida",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "daily",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "주말에 쉬어요",
+        "english": "I rest on weekends"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 426,
+    "word": "쉽다",
+    "meaning": "to be easy",
+    "meanings": {
+      "en": "easy",
+      "es": "fácil",
+      "zh-CN": "容易",
+      "ja": "簡単"
+    },
+    "reading": "swipda",
+    "romaji": "swipda",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "한국어가 쉬워요",
+        "english": "Korean is easy"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 429,
+    "word": "싸다",
+    "meaning": "to be cheap",
+    "meanings": {
+      "en": "cheap",
+      "es": "barato",
+      "zh-CN": "便宜",
+      "ja": "安い"
+    },
+    "reading": "ssada",
+    "romaji": "ssada",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "shopping",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "이 옷이 싸요",
+        "english": "These clothes are cheap"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 408,
+    "word": "알다",
+    "meaning": "to know",
+    "meanings": {
+      "en": "to know",
+      "es": "saber",
+      "zh-CN": "知道",
+      "ja": "知る"
+    },
+    "reading": "alda",
+    "romaji": "alda",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "basic",
+      "mental"
+    ],
+    "examples": [
+      {
+        "korean": "저는 그것을 알아요",
+        "english": "I know that"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 427,
+    "word": "어렵다",
+    "meaning": "to be difficult",
+    "meanings": {
+      "en": "difficult",
+      "es": "difícil",
+      "zh-CN": "难",
+      "ja": "難しい"
+    },
+    "reading": "eoryeopda",
+    "romaji": "eoryeopda",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "시험이 어려워요",
+        "english": "The exam is difficult"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 451,
+    "word": "여름",
+    "meaning": "summer",
+    "meanings": {
+      "en": "summer",
+      "es": "verano",
+      "zh-CN": "夏天",
+      "ja": "夏"
+    },
+    "reading": "yeoreum",
+    "romaji": "yeoreum",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "seasons",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "여름에 바다에 가요",
+        "english": "I go to the beach in summer"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 441,
+    "word": "역",
+    "meaning": "station",
+    "meanings": {
+      "en": "station",
+      "es": "estación",
+      "zh-CN": "站",
+      "ja": "駅"
+    },
+    "reading": "yeok",
+    "romaji": "yeok",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "travel",
       "places",
       "elementary"
-    ]
+    ],
+    "examples": [
+      {
+        "korean": "서울역에서 내려요",
+        "english": "I get off at Seoul Station"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 422,
+    "word": "요리하다",
+    "meaning": "to cook",
+    "meanings": {
+      "en": "to cook",
+      "es": "cocinar",
+      "zh-CN": "做饭",
+      "ja": "料理する"
+    },
+    "reading": "yorihada",
+    "romaji": "yorihada",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "food",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "저녁을 요리해요",
+        "english": "I cook dinner"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 448,
+    "word": "우산",
+    "meaning": "umbrella",
+    "meanings": {
+      "en": "umbrella",
+      "es": "paraguas",
+      "zh-CN": "伞",
+      "ja": "傘"
+    },
+    "reading": "usan",
+    "romaji": "usan",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "items",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "우산을 가져가세요",
+        "english": "Take an umbrella"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 421,
+    "word": "운동하다",
+    "meaning": "to exercise",
+    "meanings": {
+      "en": "to exercise",
+      "es": "hacer ejercicio",
+      "zh-CN": "运动",
+      "ja": "運動する"
+    },
+    "reading": "undonghada",
+    "romaji": "undonghada",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "health",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "매일 운동해요",
+        "english": "I exercise every day"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 439,
+    "word": "은행",
+    "meaning": "bank",
+    "meanings": {
+      "en": "bank",
+      "es": "banco",
+      "zh-CN": "银行",
+      "ja": "銀行"
+    },
+    "reading": "eunhaeng",
+    "romaji": "eunhaeng",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "places",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "은행에서 돈을 찾아요",
+        "english": "I withdraw money at the bank"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 417,
+    "word": "일어나다",
+    "meaning": "to wake up, to get up",
+    "meanings": {
+      "en": "to wake up",
+      "es": "levantarse",
+      "zh-CN": "起床",
+      "ja": "起きる"
+    },
+    "reading": "ireonada",
+    "romaji": "ireonada",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "daily",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "7시에 일어나요",
+        "english": "I wake up at 7"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 414,
+    "word": "일하다",
+    "meaning": "to work",
+    "meanings": {
+      "en": "to work",
+      "es": "trabajar",
+      "zh-CN": "工作",
+      "ja": "働く"
+    },
+    "reading": "ilhada",
+    "romaji": "ilhada",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "work",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "회사에서 일해요",
+        "english": "I work at a company"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 416,
+    "word": "자다",
+    "meaning": "to sleep",
+    "meanings": {
+      "en": "to sleep",
+      "es": "dormir",
+      "zh-CN": "睡觉",
+      "ja": "寝る"
+    },
+    "reading": "jada",
+    "romaji": "jada",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "daily",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "일찍 자요",
+        "english": "I sleep early"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 431,
+    "word": "재미없다",
+    "meaning": "to be boring",
+    "meanings": {
+      "en": "boring",
+      "es": "aburrido",
+      "zh-CN": "无聊",
+      "ja": "つまらない"
+    },
+    "reading": "jaemieoptda",
+    "romaji": "jaemieoptda",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "수업이 재미없어요",
+        "english": "The class is boring"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 430,
+    "word": "재미있다",
+    "meaning": "to be fun, interesting",
+    "meanings": {
+      "en": "fun, interesting",
+      "es": "divertido",
+      "zh-CN": "有趣",
+      "ja": "面白い"
+    },
+    "reading": "jaemiitda",
+    "romaji": "jaemiitda",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "영화가 재미있어요",
+        "english": "The movie is fun"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 420,
+    "word": "전화하다",
+    "meaning": "to call (phone)",
+    "meanings": {
+      "en": "to call",
+      "es": "llamar",
+      "zh-CN": "打电话",
+      "ja": "電話する"
+    },
+    "reading": "jeonhwahada",
+    "romaji": "jeonhwahada",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "communication",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "나중에 전화할게요",
+        "english": "I'll call you later"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 443,
+    "word": "지하철",
+    "meaning": "subway",
+    "meanings": {
+      "en": "subway",
+      "es": "metro",
+      "zh-CN": "地铁",
+      "ja": "地下鉄"
+    },
+    "reading": "jihacheol",
+    "romaji": "jihacheol",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "transportation",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "지하철이 빨라요",
+        "english": "The subway is fast"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 423,
+    "word": "청소하다",
+    "meaning": "to clean",
+    "meanings": {
+      "en": "to clean",
+      "es": "limpiar",
+      "zh-CN": "打扫",
+      "ja": "掃除する"
+    },
+    "reading": "cheongsohada",
+    "romaji": "cheongsohada",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "daily",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "방을 청소해요",
+        "english": "I clean my room"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 433,
+    "word": "춥다",
+    "meaning": "to be cold (weather)",
+    "meanings": {
+      "en": "cold",
+      "es": "frío",
+      "zh-CN": "冷",
+      "ja": "寒い"
+    },
+    "reading": "chupda",
+    "romaji": "chupda",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "weather",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "겨울에 추워요",
+        "english": "It's cold in winter"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 444,
+    "word": "택시",
+    "meaning": "taxi",
+    "meanings": {
+      "en": "taxi",
+      "es": "taxi",
+      "zh-CN": "出租车",
+      "ja": "タクシー"
+    },
+    "reading": "taeksi",
+    "romaji": "taeksi",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "transportation",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "택시를 불러요",
+        "english": "I call a taxi"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 419,
+    "word": "팔다",
+    "meaning": "to sell",
+    "meanings": {
+      "en": "to sell",
+      "es": "vender",
+      "zh-CN": "卖",
+      "ja": "売る"
+    },
+    "reading": "palda",
+    "romaji": "palda",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "shopping",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "과일을 팔아요",
+        "english": "I sell fruit"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 436,
+    "word": "피곤하다",
+    "meaning": "to be tired",
+    "meanings": {
+      "en": "tired",
+      "es": "cansado",
+      "zh-CN": "累",
+      "ja": "疲れた"
+    },
+    "reading": "pigonhada",
+    "romaji": "pigonhada",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "body",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "오늘 피곤해요",
+        "english": "I'm tired today"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 437,
+    "word": "회사",
+    "meaning": "company",
+    "meanings": {
+      "en": "company",
+      "es": "empresa",
+      "zh-CN": "公司",
+      "ja": "会社"
+    },
+    "reading": "hoesa",
+    "romaji": "hoesa",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "work",
+      "places",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "korean": "회사에 가요",
+        "english": "I go to the company"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 327,
+    "word": "감정",
+    "meaning": "emotion, feeling",
+    "meanings": {
+      "en": "emotion, feeling",
+      "es": "emoción, sentimiento",
+      "zh-CN": "感情",
+      "ja": "感情"
+    },
+    "reading": "gamjeong",
+    "romaji": "gamjeong",
+    "level": "TOPIK3",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "emotions",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "korean": "감정을 표현하다",
+        "english": "to express emotions"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 332,
+    "word": "건강",
+    "meaning": "health",
+    "meanings": {
+      "en": "health",
+      "es": "salud",
+      "zh-CN": "健康",
+      "ja": "健康"
+    },
+    "reading": "geongang",
+    "romaji": "geongang",
+    "level": "TOPIK3",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "health",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "korean": "건강이 제일 중요해요",
+        "english": "Health is the most important"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 334,
+    "word": "경험",
+    "meaning": "experience",
+    "meanings": {
+      "en": "experience",
+      "es": "experiencia",
+      "zh-CN": "经验",
+      "ja": "経験"
+    },
+    "reading": "gyeongheom",
+    "romaji": "gyeongheom",
+    "level": "TOPIK3",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "work",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "korean": "좋은 경험이었어요",
+        "english": "It was a good experience"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 335,
+    "word": "관심",
+    "meaning": "interest, attention",
+    "meanings": {
+      "en": "interest, attention",
+      "es": "interés, atención",
+      "zh-CN": "关心",
+      "ja": "関心"
+    },
+    "reading": "gwansim",
+    "romaji": "gwansim",
+    "level": "TOPIK3",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "emotions",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "korean": "한국 문화에 관심이 있어요",
+        "english": "I'm interested in Korean culture"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 336,
+    "word": "긴장하다",
+    "meaning": "to be nervous, tense",
+    "meanings": {
+      "en": "to be nervous, tense",
+      "es": "estar nervioso",
+      "zh-CN": "紧张",
+      "ja": "緊張する"
+    },
+    "reading": "ginjjanghada",
+    "romaji": "ginjjanghada",
+    "level": "TOPIK3",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "emotions",
+      "work",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "korean": "면접이라서 많이 긴장해요",
+        "english": "I'm very nervous because of the interview"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 328,
+    "word": "실망하다",
+    "meaning": "to be disappointed",
+    "meanings": {
+      "en": "to be disappointed",
+      "es": "estar decepcionado",
+      "zh-CN": "失望",
+      "ja": "失望する"
+    },
+    "reading": "silmanghada",
+    "romaji": "silmanghada",
+    "level": "TOPIK3",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "emotions",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "korean": "결과에 실망했어요",
+        "english": "I was disappointed with the result"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 331,
+    "word": "예약하다",
+    "meaning": "to make a reservation",
+    "meanings": {
+      "en": "to make a reservation",
+      "es": "reservar",
+      "zh-CN": "预约",
+      "ja": "予約する"
+    },
+    "reading": "yeyakhada",
+    "romaji": "yeyakhada",
+    "level": "TOPIK3",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "travel",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "korean": "호텔을 예약했어요",
+        "english": "I made a hotel reservation"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 333,
+    "word": "증상",
+    "meaning": "symptom",
+    "meanings": {
+      "en": "symptom",
+      "es": "síntoma",
+      "zh-CN": "症状",
+      "ja": "症状"
+    },
+    "reading": "jeungsang",
+    "romaji": "jeungsang",
+    "level": "TOPIK3",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "health",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "korean": "어떤 증상이 있으세요?",
+        "english": "What symptoms do you have?"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 329,
+    "word": "직장",
+    "meaning": "workplace, job",
+    "meanings": {
+      "en": "workplace, job",
+      "es": "lugar de trabajo",
+      "zh-CN": "职场",
+      "ja": "職場"
+    },
+    "reading": "jikjang",
+    "romaji": "jikjang",
+    "level": "TOPIK3",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "work",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "korean": "새 직장을 구하고 있어요",
+        "english": "I'm looking for a new job"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 330,
+    "word": "출장",
+    "meaning": "business trip",
+    "meanings": {
+      "en": "business trip",
+      "es": "viaje de negocios",
+      "zh-CN": "出差",
+      "ja": "出張"
+    },
+    "reading": "chuljang",
+    "romaji": "chuljang",
+    "level": "TOPIK3",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "work",
+      "travel",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "korean": "다음 주에 출장을 가요",
+        "english": "I'm going on a business trip next week"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 337,
+    "word": "개념",
+    "meaning": "concept, notion",
+    "meanings": {
+      "en": "concept, notion",
+      "es": "concepto, noción",
+      "zh-CN": "概念",
+      "ja": "概念"
+    },
+    "reading": "gaenyeom",
+    "romaji": "gaenyeom",
+    "level": "TOPIK4",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "abstract",
+      "upper-intermediate"
+    ],
+    "examples": [
+      {
+        "korean": "이 개념을 이해하기 어려워요",
+        "english": "This concept is difficult to understand"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 341,
+    "word": "계약서",
+    "meaning": "contract document",
+    "meanings": {
+      "en": "contract document",
+      "es": "documento de contrato",
+      "zh-CN": "合同",
+      "ja": "契約書"
+    },
+    "reading": "gyeyakseo",
+    "romaji": "gyeyakseo",
+    "level": "TOPIK4",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "business",
+      "upper-intermediate"
+    ],
+    "examples": [
+      {
+        "korean": "계약서에 서명해 주세요",
+        "english": "Please sign the contract"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 338,
+    "word": "논리",
+    "meaning": "logic",
+    "meanings": {
+      "en": "logic",
+      "es": "lógica",
+      "zh-CN": "逻辑",
+      "ja": "論理"
+    },
+    "reading": "nolli",
+    "romaji": "nolli",
+    "level": "TOPIK4",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "abstract",
+      "upper-intermediate"
+    ],
+    "examples": [
+      {
+        "korean": "그의 논리는 설득력이 있어요",
+        "english": "His logic is persuasive"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 340,
+    "word": "눈치를 보다",
+    "meaning": "to read the room, gauge someone's mood (idiom)",
+    "meanings": {
+      "en": "to read the room, gauge someone's mood",
+      "es": "leer el ambiente, medir el estado de ánimo",
+      "zh-CN": "察言观色",
+      "ja": "空気を読む"
+    },
+    "reading": "nunchireul boda",
+    "romaji": "nunchireul boda",
+    "level": "TOPIK4",
+    "framework": null,
+    "part_of_speech": "idiom",
+    "tags": [
+      "idiom",
+      "social",
+      "upper-intermediate"
+    ],
+    "examples": [
+      {
+        "korean": "눈치를 보면서 말하세요",
+        "english": "Speak while reading the room"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 344,
+    "word": "맥락",
+    "meaning": "context",
+    "meanings": {
+      "en": "context",
+      "es": "contexto",
+      "zh-CN": "脉络，上下文",
+      "ja": "文脈"
+    },
+    "reading": "maengnak",
+    "romaji": "maengnak",
+    "level": "TOPIK4",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "abstract",
+      "academic",
+      "upper-intermediate"
+    ],
+    "examples": [
+      {
+        "korean": "맥락을 이해해야 해요",
+        "english": "You need to understand the context"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 339,
+    "word": "발을 빼다",
+    "meaning": "to back out, withdraw (idiom)",
+    "meanings": {
+      "en": "to back out, withdraw (idiom)",
+      "es": "retirarse, echarse atrás",
+      "zh-CN": "撤退，退出",
+      "ja": "手を引く"
+    },
+    "reading": "bareul ppaeda",
+    "romaji": "bareul ppaeda",
+    "level": "TOPIK4",
+    "framework": null,
+    "part_of_speech": "idiom",
+    "tags": [
+      "idiom",
+      "business",
+      "upper-intermediate"
+    ],
+    "examples": [
+      {
+        "korean": "그 사업에서 발을 빼기로 했어요",
+        "english": "I decided to back out of that business"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 343,
+    "word": "분석",
+    "meaning": "analysis",
+    "meanings": {
+      "en": "analysis",
+      "es": "análisis",
+      "zh-CN": "分析",
+      "ja": "分析"
+    },
+    "reading": "bunseok",
+    "romaji": "bunseok",
+    "level": "TOPIK4",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "business",
+      "academic",
+      "upper-intermediate"
+    ],
+    "examples": [
+      {
+        "korean": "데이터 분석이 필요해요",
+        "english": "Data analysis is needed"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 345,
+    "word": "사고방식",
+    "meaning": "way of thinking, mindset",
+    "meanings": {
+      "en": "way of thinking, mindset",
+      "es": "forma de pensar, mentalidad",
+      "zh-CN": "思维方式",
+      "ja": "考え方"
+    },
+    "reading": "sagobangshik",
+    "romaji": "sagobangshik",
+    "level": "TOPIK4",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "abstract",
+      "upper-intermediate"
+    ],
+    "examples": [
+      {
+        "korean": "사고방식을 바꿔야 해요",
+        "english": "You need to change your way of thinking"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 346,
+    "word": "손해를 보다",
+    "meaning": "to suffer a loss",
+    "meanings": {
+      "en": "to suffer a loss",
+      "es": "sufrir una pérdida",
+      "zh-CN": "遭受损失",
+      "ja": "損をする"
+    },
+    "reading": "sonhaereul boda",
+    "romaji": "sonhaereul boda",
+    "level": "TOPIK4",
+    "framework": null,
+    "part_of_speech": "idiom",
+    "tags": [
+      "idiom",
+      "business",
+      "upper-intermediate"
+    ],
+    "examples": [
+      {
+        "korean": "그 거래에서 손해를 봤어요",
+        "english": "I suffered a loss in that deal"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 342,
+    "word": "협상하다",
+    "meaning": "to negotiate",
+    "meanings": {
+      "en": "to negotiate",
+      "es": "negociar",
+      "zh-CN": "谈判",
+      "ja": "交渉する"
+    },
+    "reading": "hyeopsanghada",
+    "romaji": "hyeopsanghada",
+    "level": "TOPIK4",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "business",
+      "upper-intermediate"
+    ],
+    "examples": [
+      {
+        "korean": "가격을 협상하고 있어요",
+        "english": "We are negotiating the price"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 356,
+    "word": "간과하다",
+    "meaning": "to overlook, disregard",
+    "meanings": {
+      "en": "to overlook, disregard",
+      "es": "pasar por alto, ignorar",
+      "zh-CN": "忽视",
+      "ja": "看過する"
+    },
+    "reading": "gangwahada",
+    "romaji": "gangwahada",
+    "level": "TOPIK5",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "formal",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "korean": "중요한 사실을 간과해서는 안 됩니다",
+        "english": "You must not overlook important facts"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 350,
+    "word": "기여하다",
+    "meaning": "to contribute",
+    "meanings": {
+      "en": "to contribute",
+      "es": "contribuir",
+      "zh-CN": "贡献",
+      "ja": "貢献する"
+    },
+    "reading": "giyeohada",
+    "romaji": "giyeohada",
+    "level": "TOPIK5",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "formal",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "korean": "사회 발전에 기여하고 싶습니다",
+        "english": "I want to contribute to social development"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 348,
+    "word": "명료하다",
+    "meaning": "to be clear, lucid",
+    "meanings": {
+      "en": "to be clear, lucid",
+      "es": "ser claro, lúcido",
+      "zh-CN": "明了",
+      "ja": "明瞭である"
+    },
+    "reading": "myeongnyohada",
+    "romaji": "myeongnyohada",
+    "level": "TOPIK5",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "formal",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "korean": "명료한 설명이 필요합니다",
+        "english": "A clear explanation is needed"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 354,
+    "word": "방대하다",
+    "meaning": "to be vast, extensive",
+    "meanings": {
+      "en": "to be vast, extensive",
+      "es": "ser vasto, extenso",
+      "zh-CN": "庞大的",
+      "ja": "膨大である"
+    },
+    "reading": "bangdaehada",
+    "romaji": "bangdaehada",
+    "level": "TOPIK5",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "formal",
+      "academic",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "korean": "방대한 양의 데이터를 분석했습니다",
+        "english": "We analyzed a vast amount of data"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 352,
+    "word": "시사하다",
+    "meaning": "to imply, suggest",
+    "meanings": {
+      "en": "to imply, suggest",
+      "es": "implicar, sugerir",
+      "zh-CN": "暗示",
+      "ja": "示唆する"
+    },
+    "reading": "sisahada",
+    "romaji": "sisahada",
+    "level": "TOPIK5",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "formal",
+      "academic",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "korean": "이 결과는 새로운 가능성을 시사합니다",
+        "english": "This result suggests new possibilities"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 349,
+    "word": "축적하다",
+    "meaning": "to accumulate",
+    "meanings": {
+      "en": "to accumulate",
+      "es": "acumular",
+      "zh-CN": "积累",
+      "ja": "蓄積する"
+    },
+    "reading": "chukjeokhada",
+    "romaji": "chukjeokhada",
+    "level": "TOPIK5",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "formal",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "korean": "경험을 축적해 왔습니다",
+        "english": "I have accumulated experience"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 351,
+    "word": "통찰력",
+    "meaning": "insight",
+    "meanings": {
+      "en": "insight",
+      "es": "perspicacia",
+      "zh-CN": "洞察力",
+      "ja": "洞察力"
+    },
+    "reading": "tongchallyeok",
+    "romaji": "tongchallyeok",
+    "level": "TOPIK5",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "formal",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "korean": "깊은 통찰력을 보여 주셨습니다",
+        "english": "You showed deep insight"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 355,
+    "word": "파생되다",
+    "meaning": "to be derived",
+    "meanings": {
+      "en": "to be derived",
+      "es": "derivarse",
+      "zh-CN": "派生",
+      "ja": "派生する"
+    },
+    "reading": "pasaengdoeda",
+    "romaji": "pasaengdoeda",
+    "level": "TOPIK5",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "formal",
+      "academic",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "korean": "이 문제는 다른 문제에서 파생되었습니다",
+        "english": "This problem was derived from another problem"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 347,
+    "word": "함축",
+    "meaning": "implication, connotation",
+    "meanings": {
+      "en": "implication, connotation",
+      "es": "implicación, connotación",
+      "zh-CN": "含蓄，蕴含",
+      "ja": "含蓄"
+    },
+    "reading": "hamchuk",
+    "romaji": "hamchuk",
+    "level": "TOPIK5",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "academic",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "korean": "이 단어는 부정적인 함축을 가지고 있어요",
+        "english": "This word has negative connotations"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 353,
+    "word": "획기적",
+    "meaning": "groundbreaking, epoch-making",
+    "meanings": {
+      "en": "groundbreaking, epoch-making",
+      "es": "revolucionario, innovador",
+      "zh-CN": "划时代的",
+      "ja": "画期的"
+    },
+    "reading": "hoekgijeok",
+    "romaji": "hoekgijeok",
+    "level": "TOPIK5",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "formal",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "korean": "이것은 획기적인 발명입니다",
+        "english": "This is a groundbreaking invention"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 357,
+    "word": "고찰",
+    "meaning": "consideration, contemplation (academic)",
+    "meanings": {
+      "en": "consideration, contemplation (academic)",
+      "es": "consideración, contemplación",
+      "zh-CN": "考察",
+      "ja": "考察"
+    },
+    "reading": "gochal",
+    "romaji": "gochal",
+    "level": "TOPIK6",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "literary",
+      "academic",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "korean": "이 문제에 대한 심층적 고찰이 필요합니다",
+        "english": "An in-depth contemplation of this issue is needed"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 360,
+    "word": "금상첨화",
+    "meaning": "icing on the cake (four-character idiom)",
+    "meanings": {
+      "en": "icing on the cake, adding perfection to perfection",
+      "es": "la guinda del pastel",
+      "zh-CN": "锦上添花",
+      "ja": "錦上添花"
+    },
+    "reading": "geumsangcheomhwa",
+    "romaji": "geumsangcheomhwa",
+    "level": "TOPIK6",
+    "framework": null,
+    "part_of_speech": "idiom",
+    "tags": [
+      "idiom",
+      "four-character",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "korean": "좋은 날씨까지 금상첨화였습니다",
+        "english": "The good weather was the icing on the cake"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 358,
+    "word": "기인하다",
+    "meaning": "to be attributed to, stem from",
+    "meanings": {
+      "en": "to be attributed to, stem from",
+      "es": "atribuirse a, provenir de",
+      "zh-CN": "归因于",
+      "ja": "起因する"
+    },
+    "reading": "giinhada",
+    "romaji": "giinhada",
+    "level": "TOPIK6",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "literary",
+      "academic",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "korean": "이 현상은 환경 변화에 기인합니다",
+        "english": "This phenomenon is attributed to environmental change"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 364,
+    "word": "등한시하다",
+    "meaning": "to neglect, treat lightly",
+    "meanings": {
+      "en": "to neglect, treat lightly",
+      "es": "descuidar, tratar a la ligera",
+      "zh-CN": "忽视，轻视",
+      "ja": "等閑視する"
+    },
+    "reading": "deunghansihada",
+    "romaji": "deunghansihada",
+    "level": "TOPIK6",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "formal",
+      "literary",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "korean": "이 문제를 등한시해서는 안 됩니다",
+        "english": "We must not neglect this issue"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 361,
+    "word": "백미",
+    "meaning": "highlight, the best part (literary)",
+    "meanings": {
+      "en": "highlight, the best part",
+      "es": "lo más destacado, la mejor parte",
+      "zh-CN": "白眉，精华",
+      "ja": "白眉、ハイライト"
+    },
+    "reading": "baekmi",
+    "romaji": "baekmi",
+    "level": "TOPIK6",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "literary",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "korean": "이 장면이 이 영화의 백미입니다",
+        "english": "This scene is the highlight of this movie"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 366,
+    "word": "새옹지마",
+    "meaning": "a blessing in disguise (four-character idiom)",
+    "meanings": {
+      "en": "a blessing in disguise, fortune and misfortune are unpredictable",
+      "es": "una bendición disfrazada",
+      "zh-CN": "塞翁之马",
+      "ja": "塞翁が馬"
+    },
+    "reading": "saeongzima",
+    "romaji": "saeongzima",
+    "level": "TOPIK6",
+    "framework": null,
+    "part_of_speech": "idiom",
+    "tags": [
+      "idiom",
+      "four-character",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "korean": "실패했지만 새옹지마라고, 더 좋은 기회가 왔습니다",
+        "english": "I failed, but as they say, it was a blessing in disguise - a better opportunity came"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 362,
+    "word": "소멸하다",
+    "meaning": "to extinguish, become extinct",
+    "meanings": {
+      "en": "to extinguish, become extinct",
+      "es": "extinguirse, desaparecer",
+      "zh-CN": "消灭",
+      "ja": "消滅する"
+    },
+    "reading": "somyeolhada",
+    "romaji": "somyeolhada",
+    "level": "TOPIK6",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "formal",
+      "literary",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "korean": "많은 언어가 소멸될 위기에 처해 있습니다",
+        "english": "Many languages are in danger of extinction"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 365,
+    "word": "역설적",
+    "meaning": "paradoxical",
+    "meanings": {
+      "en": "paradoxical",
+      "es": "paradójico",
+      "zh-CN": "悖论的",
+      "ja": "逆説的"
+    },
+    "reading": "yeokseoljeok",
+    "romaji": "yeokseoljeok",
+    "level": "TOPIK6",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "academic",
+      "literary",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "korean": "역설적이게도 그는 성공했습니다",
+        "english": "Paradoxically, he succeeded"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 359,
+    "word": "일맥상통하다",
+    "meaning": "to be in accord with, have something in common (idiom)",
+    "meanings": {
+      "en": "to be in accord with, have something in common",
+      "es": "estar en concordancia, tener algo en común",
+      "zh-CN": "一脉相通",
+      "ja": "一脈相通ずる"
+    },
+    "reading": "ilmaeksangtonghada",
+    "romaji": "ilmaeksangtonghada",
+    "level": "TOPIK6",
+    "framework": null,
+    "part_of_speech": "idiom",
+    "tags": [
+      "idiom",
+      "literary",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "korean": "두 이론은 일맥상통하는 바가 있습니다",
+        "english": "The two theories have something in common"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
+  },
+  {
+    "id": 363,
+    "word": "침묵을 지키다",
+    "meaning": "to keep silent",
+    "meanings": {
+      "en": "to keep silent",
+      "es": "guardar silencio",
+      "zh-CN": "保持沉默",
+      "ja": "沈黙を守る"
+    },
+    "reading": "chimmugeul jikida",
+    "romaji": "chimmugeul jikida",
+    "level": "TOPIK6",
+    "framework": null,
+    "part_of_speech": "idiom",
+    "tags": [
+      "idiom",
+      "literary",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "korean": "그는 끝까지 침묵을 지켰습니다",
+        "english": "He kept silent until the end"
+      }
+    ],
+    "audio_url": null,
+    "language_id": 3
   }
 ]
