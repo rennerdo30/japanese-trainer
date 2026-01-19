@@ -542,9 +542,11 @@
     "appearance": {
       "title": "Appearance",
       "subtitle": "Customize the look and feel",
-      "themeOverride": "Theme Override",
-      "themeDescription": "Choose a specific theme or follow the language",
-      "auto": "Auto (Follow Language)"
+      "globalTheme": "Global Theme Override",
+      "themeDescription": "Applies this theme across all languages (overrides per-language settings)",
+      "languageOverrides": "Per-Language Themes",
+      "languageOverridesDescription": "Customize the appearance for each language independently",
+      "auto": "Follow Language (Default)"
     },
     "backToDashboard": "Back to Dashboard"
   },

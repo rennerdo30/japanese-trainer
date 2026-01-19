@@ -134,7 +134,8 @@ export default function VocabularyPage() {
             const audioUrls = filteredVocabulary
                 .slice(0, 10)
                 .map(v => v.audioUrl);
-            preloadBatch(audioUrls);
+            const texts = filteredVocabulary.slice(0, 10).map(v => v.word);
+            preloadBatch(audioUrls, texts, targetLanguage);
         }
     }, [activeTab, filteredVocabulary, preloadBatch]);
 
@@ -296,7 +297,7 @@ export default function VocabularyPage() {
         if (vocabulary.length > 0 && Object.keys(filters).length > 0 && activeTab === 'myCards') {
             nextWord();
         }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [filterStates, practiceMode, targetLanguage, activeTab]);
 
     const handleFilterChange = useCallback((id: string, checked: boolean) => {

@@ -77,13 +77,23 @@ export function TargetLanguageProvider({ children }: TargetLanguageProviderProps
   }, []);
 
   // Apply theme based on target language (for dynamic theme switching)
-  // Or override if user has selected a specific theme
+  // Or override if user has selected a specific global or per-language theme
   useEffect(() => {
     if (typeof document !== 'undefined') {
-      const themeToApply = settings.themeOverride === 'auto' ? targetLanguage : settings.themeOverride;
+      let themeToApply: string = targetLanguage;
+
+      // 1. Check for global override
+      if (settings.globalTheme && settings.globalTheme !== 'auto') {
+        themeToApply = settings.globalTheme;
+      }
+      // 2. Check for per-language override
+      else if (settings.languageThemes && settings.languageThemes[targetLanguage] && settings.languageThemes[targetLanguage] !== 'auto') {
+        themeToApply = settings.languageThemes[targetLanguage];
+      }
+
       document.documentElement.setAttribute('data-theme', themeToApply);
     }
-  }, [targetLanguage, settings.themeOverride]);
+  }, [targetLanguage, settings.globalTheme, settings.languageThemes]);
 
   // Set and persist target language
   const setTargetLanguage = useCallback((code: LanguageCode) => {

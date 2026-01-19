@@ -172,6 +172,21 @@ export function useTTS() {
   }, []);
 
   /**
+   * Preload Edge TTS audio for a given text
+   */
+  const preloadEdge = useCallback(async (text: string, lang: string) => {
+    if (typeof window === 'undefined' || !isEdgeTTSSupported(lang)) {
+      return;
+    }
+
+    try {
+      await generateEdgeTTSAudio(text, lang);
+    } catch (error) {
+      console.warn('Failed to preload Edge TTS audio:', error);
+    }
+  }, []);
+
+  /**
    * Preload multiple audio files in batch (e.g., next 5 vocabulary items)
    * This is useful for preloading upcoming content while user is viewing current content
    */
@@ -192,16 +207,25 @@ export function useTTS() {
       }
 
       // Preload Kokoro for texts if no audio URL is available
-      if (lang && isKokoroLoaded() && isKokoroSupportedLanguage(lang)) {
+      if (lang) {
+        const edgeSupported = isEdgeTTSSupported(lang);
+        const kokoroLoaded = isKokoroLoaded();
+        const kokoroSupported = isKokoroSupportedLanguage(lang);
+
         texts.forEach((text, index) => {
-          // Only preload kokoro if there is no audio URL for this item
+          // Only preload if there is no pre-generated audio URL for this item
           if (!audioUrls[index]) {
-            preloadKokoro(text, lang);
+            // Prioritize Edge TTS for preloading as it supports all languages
+            if (edgeSupported) {
+              preloadEdge(text, lang);
+            } else if (kokoroLoaded && kokoroSupported) {
+              preloadKokoro(text, lang);
+            }
           }
         });
       }
     },
-    [preloadAudio, preloadKokoro]
+    [preloadAudio, preloadKokoro, preloadEdge]
   );
 
   // Tier 1: Play pre-generated audio file (uses cache if available)

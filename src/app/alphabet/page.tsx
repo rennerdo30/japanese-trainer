@@ -140,7 +140,7 @@ export default function AlphabetPage() {
     const { t, language } = useLanguage();
     const { targetLanguage } = useTargetLanguage();
     const isMobile = useMobile();
-    const { speakAndWait, preloadAudio } = useTTS();
+    const { speakAndWait, preloadAudio, preloadBatch } = useTTS();
     const preloadedAudioRef = useRef<HTMLAudioElement | null>(null);
 
     // Mode toggle state (learn vs practice)
@@ -590,12 +590,44 @@ export default function AlphabetPage() {
         if (currentChar?.audioUrl) {
             preloadedAudioRef.current = preloadAudio(currentChar.audioUrl);
         }
+
+        // Also preload with Edge TTS if no audioUrl
+        if (currentChar && !currentChar.audioUrl) {
+            preloadBatch([], [getDisplayCharacter(currentChar)], targetLanguage);
+        }
+
         return () => {
             if (preloadedAudioRef.current) {
                 preloadedAudioRef.current = null;
             }
         };
-    }, [currentChar?.audioUrl, preloadAudio]);
+    }, [currentChar, preloadAudio, preloadBatch, targetLanguage, getDisplayCharacter]);
+
+    // Preload all characters in the current lesson for Learn mode
+    useEffect(() => {
+        if (mode === 'learn' && lessonCharacters.length > 0) {
+            const audioUrls = lessonCharacters.map(c => c.audioUrl).filter((url): url is string => !!url);
+            const texts = lessonCharacters.map(c => getDisplayCharacter(c));
+            preloadBatch(audioUrls, texts, targetLanguage);
+        }
+    }, [mode, lessonCharacters, preloadBatch, targetLanguage, getDisplayCharacter]);
+
+    // Preload a few random available characters for Practice mode
+    useEffect(() => {
+        if (mode === 'practice' && characters.length > 0) {
+            const available = getAvailableCharacters();
+            if (available.length > 0) {
+                // Preload up to 10 random characters to avoid flooding
+                const sample = available
+                    .sort(() => Math.random() - 0.5)
+                    .slice(0, 10);
+
+                const audioUrls = sample.map(c => c.audioUrl).filter((url): url is string => !!url);
+                const texts = sample.map(c => getDisplayCharacter(c));
+                preloadBatch(audioUrls, texts, targetLanguage);
+            }
+        }
+    }, [mode, characters.length, getAvailableCharacters, preloadBatch, targetLanguage, getDisplayCharacter]);
 
     const handleFilterChange = useCallback((id: string, checked: boolean) => {
         setFilters(prev => ({ ...prev, [id]: { ...prev[id], checked } }));

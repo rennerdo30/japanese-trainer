@@ -28,6 +28,11 @@ import {
   type KokoroVoice,
 } from '@/lib/kokoroTTS';
 import {
+  getAvailableLanguages,
+  getLanguageDisplayInfo,
+  LanguageCode
+} from '@/lib/language';
+import {
   isEdgeTTSSupported,
   getEdgeVoicesForLanguage,
   getSelectedEdgeVoice,
@@ -212,8 +217,13 @@ export default function SettingsPage() {
   }, []);
 
   const handleThemeChange = useCallback((theme: string) => {
-    updateSetting('themeOverride', theme as ThemeOverride);
+    updateSetting('globalTheme', theme as ThemeOverride);
   }, [updateSetting]);
+
+  const handleLanguageThemeChange = useCallback((langCode: string, theme: string) => {
+    const newLanguageThemes = { ...settings.languageThemes, [langCode]: theme as ThemeOverride };
+    updateSetting('languageThemes', newLanguageThemes);
+  }, [settings.languageThemes, updateSetting]);
 
   const handleVoiceChange = useCallback((voiceId: KokoroVoice) => {
     setSelectedVoice(voiceId);
@@ -589,7 +599,7 @@ export default function SettingsPage() {
         </div>
         <div className={styles.settingRow}>
           <div className={styles.settingInfo}>
-            <Text className={styles.settingLabel}>{t('settings.appearance.themeOverride')}</Text>
+            <Text className={styles.settingLabel}>{t('settings.appearance.globalTheme')}</Text>
             <Text variant="label" color="muted">
               {t('settings.appearance.themeDescription')}
             </Text>
@@ -597,7 +607,7 @@ export default function SettingsPage() {
           <div className={styles.settingControl}>
             <select
               className={styles.voiceSelect}
-              value={settings.themeOverride}
+              value={settings.globalTheme}
               onChange={(e) => handleThemeChange(e.target.value)}
             >
               <option value="auto">{t('settings.appearance.auto')}</option>
@@ -608,7 +618,42 @@ export default function SettingsPage() {
               <option value="fr">French (Château)</option>
               <option value="it">Italian (Rinascimento)</option>
               <option value="en">English (Oxford Library)</option>
+              <option value="de">German (Schwarzwald)</option>
             </select>
+          </div>
+        </div>
+
+        {/* Per-Language Overrides */}
+        <div className={styles.languageOverridesSection}>
+          <Text variant="h3" className={styles.overridesTitle}>{t('settings.appearance.languageOverrides')}</Text>
+          <Text variant="label" color="muted" className={styles.overridesSubtitle}>
+            {t('settings.appearance.languageOverridesDescription')}
+          </Text>
+
+          <div className={styles.overridesGrid}>
+            {getAvailableLanguages().map((langCode) => {
+              const info = getLanguageDisplayInfo(langCode);
+              return (
+                <div key={langCode} className={styles.overrideRow}>
+                  <Text className={styles.overrideLangName}>{info?.name || langCode}</Text>
+                  <select
+                    className={styles.overrideSelect}
+                    value={settings.languageThemes?.[langCode] || 'auto'}
+                    onChange={(e) => handleLanguageThemeChange(langCode, e.target.value)}
+                  >
+                    <option value="auto">{t('settings.appearance.auto')}</option>
+                    <option value="ja">Japanese</option>
+                    <option value="zh">Chinese</option>
+                    <option value="ko">Korean</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                    <option value="it">Italian</option>
+                    <option value="en">English</option>
+                    <option value="de">German</option>
+                  </select>
+                </div>
+              );
+            })}
           </div>
         </div>
       </Card>

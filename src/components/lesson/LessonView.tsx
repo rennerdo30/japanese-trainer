@@ -117,8 +117,8 @@ export default function LessonView({
         })
         .filter((url): url is string => !!url);
 
-      if (audioUrls.length > 0) {
-        preloadBatch(audioUrls);
+      if (audioUrls.length > 0 || (lesson.content.vocab_focus && lesson.content.vocab_focus.length > 0)) {
+        preloadBatch(audioUrls, lesson.content.vocab_focus, targetLanguage);
       }
     };
 

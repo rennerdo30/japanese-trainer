@@ -15,10 +15,11 @@ export interface LanguageContextValue {
     }>;
 }
 
-export type ThemeOverride = 'auto' | 'ja' | 'es' | 'de' | 'en' | 'it' | 'ko' | 'zh';
+export type ThemeOverride = 'auto' | 'ja' | 'es' | 'de' | 'en' | 'it' | 'ko' | 'zh' | 'fr';
 
 export interface Settings {
-    themeOverride: ThemeOverride;
+    globalTheme: ThemeOverride;
+    languageThemes: Record<string, ThemeOverride>;
     soundEnabled: boolean;
     ttsEnabled: boolean;
     ttsRate: number;
