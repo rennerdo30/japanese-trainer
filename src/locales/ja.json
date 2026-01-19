@@ -271,7 +271,7 @@
       "form": {
         "email": "メールアドレス",
         "password": "パスワード",
-        "emailPlaceholder": "your@email.com",
+        "emailPlaceholder": "メールアドレス",
         "passwordPlaceholderNew": "8文字以上",
         "passwordPlaceholderExisting": "パスワードを入力",
         "back": "戻る",

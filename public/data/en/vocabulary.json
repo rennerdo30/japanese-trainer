@@ -21,7 +21,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_a9b23c6b0b22.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "丁寧に何かを頼む表現",
+        "es": "una forma educada de pedir algo",
+        "de": "eine höfliche Art, um etwas zu bitten"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "お水をいただけますか？",
+            "de": "Kann ich etwas Wasser haben?"
+          }
+        }
+      ]
+    }
   },
   {
     "id": 998,
@@ -50,7 +67,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_dd7536794b63.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "私（話し手自身を指す一人称代名詞）",
+        "es": "la persona que habla",
+        "de": "die sprechende Person"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "こんにちは、私はアンナです。",
+            "de": "Hallo, ich bin Anna."
+          }
+        },
+        {
+          "translation": {
+            "ja": "私はあなたの友達です。",
+            "de": "Ich bin dein Freund."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1024,
@@ -79,7 +119,30 @@
       }
     ],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "一人称単数の代名詞（話し手自身を指す）",
+        "es": "pronombre de primera persona singular",
+        "de": "Personalpronomen der ersten Person Singular"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私はアンナです。",
+            "de": "Ich bin Anna."
+          }
+        },
+        {
+          "translation": {
+            "ja": "私は教師ではありません。",
+            "de": "Ich bin kein Lehrer."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1199,
@@ -108,7 +171,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_4f3b78ce2bda.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "～が欲しい、～したい（願望や欲求を表す表現）",
+        "es": "expresar un deseo por algo",
+        "de": "einen Wunsch nach etwas ausdrücken"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "この本が欲しいです。",
+            "de": "Ich möchte dieses Buch, bitte."
+          }
+        },
+        {
+          "translation": {
+            "ja": "7時にその店に行きたいです。",
+            "de": "Ich möchte um 7 Uhr in den Laden gehen."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1160,
@@ -132,7 +218,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_2f8698b212df.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "丁寧に欲しいものを伝える表現",
+        "es": "una forma educada de decir lo que quieres",
+        "de": "eine höfliche Art zu sagen, was man möchte"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "ご飯をお願いします。",
+            "de": "Ich hätte gerne etwas Reis, bitte."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1076,
@@ -161,7 +264,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_0cc175b9c0f1.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "単数名詞の不定冠詞（一般的なものや初めて言及するものに使う）",
+        "es": "artículo indefinido para sustantivos singulares (general o primera mención)",
+        "de": "unbestimmter Artikel für Singularnomen (allgemein oder erste Erwähnung)"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "これは部屋です。",
+            "de": "Das ist ein Zimmer."
+          }
+        },
+        {
+          "translation": {
+            "ja": "彼女のベッドは寝室にあります。",
+            "de": "Ihr Bett ist in einem Schlafzimmer."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1115,
@@ -195,7 +321,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_12f66de13e76.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "その後で、それから",
+        "es": "después de eso; posteriormente",
+        "de": "danach; anschließend"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "まず、私は9時に起きます。それから、朝食を食べます。その後で、学校に行きます。最後に、10時に家に帰ります。",
+            "de": "Zuerst wache ich um neun Uhr auf. Dann frühstücke ich. Danach gehe ich zur Schule. Schließlich gehe ich um zehn Uhr nach Hause."
+          }
+        },
+        {
+          "translation": {
+            "ja": "彼女はいつも朝に歯を磨きます。その後で、たいていシャワーを浴びます。",
+            "de": "Sie putzt sich morgens immer die Zähne. Danach duscht sie sich normalerweise."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1117,
@@ -224,7 +373,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_f9f90eeaf400.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "いつも、常に、必ず",
+        "es": "cada vez; sin excepción",
+        "de": "jedes Mal; ohne Ausnahme"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼女はいつも朝に歯を磨きます。その後、たいていシャワーを浴びます。",
+            "de": "Sie putzt sich morgens immer die Zähne. Danach duscht sie sich normalerweise."
+          }
+        },
+        {
+          "translation": {
+            "ja": "私はたいてい夕方にテレビを見ます。夜はいつも夕食を作ります。",
+            "de": "Ich schaue normalerweise abends fern. Ich koche immer abends das Abendessen."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1077,
@@ -248,7 +420,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_18b049cc8d85.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "母音で始まる単数名詞の前につく不定冠詞",
+        "es": "artículo indefinido para sustantivos singulares que comienzan con sonidos de vocal",
+        "de": "unbestimmter Artikel für Singularnomen, die mit Vokallauten beginnen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "あなたの本は古いテーブルの上にあります。",
+            "de": "Dein Buch liegt auf einem alten Tisch."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1018,
@@ -272,7 +461,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_a96e02a502c1.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "相手に同じ質問を返すときに使う表現",
+        "es": "usado para devolver una pregunta a la otra persona",
+        "de": "wird verwendet, um eine Frage an die andere Person zurückzugeben"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "元気です、ありがとう。あなたは？",
+            "de": "Mir geht es gut, danke. Und dir?"
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1159,
@@ -301,7 +507,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_100b8cad7cf2.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "疑問文や否定文で使われる「何か」「少しも」という意味を表す",
+        "es": "usado en preguntas y oraciones negativas",
+        "de": "wird in Fragen und negativen Sätzen verwendet"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "魚は何かありますか？",
+            "de": "Hast du Fisch?"
+          }
+        },
+        {
+          "translation": {
+            "ja": "彼女はパンを少しも持っていません。",
+            "de": "Sie hat kein Brot."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1131,
@@ -325,7 +554,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_1f3870be274f.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "リンゴ（赤、緑、黄色の皮と白い果肉を持つ丸い果物）",
+        "es": "una fruta redonda con piel roja, verde o amarilla y carne blanca",
+        "de": "eine runde Frucht mit roter, grüner oder gelber Schale und weißem Fruchtfleisch"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "朝食にリンゴを食べます。",
+            "de": "Ich esse einen Apfel zum Frühstück."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1172,
@@ -354,7 +600,30 @@
       }
     ],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "リンゴ、りんご",
+        "es": "una fruta redonda, a menudo roja o verde",
+        "de": "eine runde Frucht, oft rot oder grün"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私は小さなリンゴを持っています。",
+            "de": "Ich habe einen kleinen Apfel."
+          }
+        },
+        {
+          "translation": {
+            "ja": "あなたはリンゴが好きですか？",
+            "de": "Magst du Äpfel?"
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1070,
@@ -378,7 +647,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_7d0db380a5b9.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "～で、～に（特定の場所や時点を示す）",
+        "es": "en un punto o ubicación específica",
+        "de": "an einem bestimmten Punkt oder Ort"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "背の高い娘は家にいます。",
+            "de": "Die große Tochter ist zu Hause."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1110,
@@ -402,7 +688,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_fd1c5300ff2f.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "7時に",
+        "es": "a la hora específica de las siete",
+        "de": "um die genaue Zeit sieben Uhr"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私は7時に朝食を食べます。",
+            "de": "Ich frühstücke um sieben Uhr."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1109,
@@ -426,7 +729,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_3627e6d34d90.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "夜に、夜間",
+        "es": "durante la noche",
+        "de": "während der Nachtzeit"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼らは夜に寝ます。",
+            "de": "Sie gehen nachts schlafen."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1169,
@@ -450,7 +770,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_ddf72373feb4.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "パン屋",
+        "es": "una tienda que vende pan y pasteles",
+        "de": "ein Geschäft, das Brot und Kuchen verkauft"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "そのパン屋にはパンがあります。",
+            "de": "Die Bäckerei hat Brot."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1132,
@@ -474,7 +811,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_72b302bf297a.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "バナナ",
+        "es": "una fruta larga y curva con piel amarilla y carne dulce y suave",
+        "de": "eine lange, gebogene Frucht mit gelber Schale und weichem, süßem Fruchtfleisch"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼らはバナナとオレンジを食べます。",
+            "de": "Sie essen Bananen und Orangen."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1063,
@@ -498,7 +852,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_67518d646b9c.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "トイレと風呂（シャワー）がある部屋",
+        "es": "habitación con inodoro y baño/ducha",
+        "de": "Raum mit Toilette und Bad/Dusche"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "あなたはバスルームにいます。",
+            "de": "Du bist im Badezimmer."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1067,
@@ -522,7 +893,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_001cbc059a40.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "ベッド",
+        "es": "un mueble para dormir",
+        "de": "ein Möbelstück zum Schlafen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "家にはベッドが3台あります。",
+            "de": "Drei Betten sind im Haus."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1062,
@@ -546,7 +934,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_cff8b1fe9362.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "寝室",
+        "es": "habitación para dormir",
+        "de": "Zimmer zum Schlafen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼は寝室にいます。",
+            "de": "Er ist im Schlafzimmer."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1083,
@@ -570,7 +975,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_ded15c530f0d.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "複数のベッド",
+        "es": "más de una cama",
+        "de": "Mehr als ein Bett"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "ベッドは寝室にあります。",
+            "de": "Die Betten sind im Schlafzimmer."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1089,
@@ -594,7 +1016,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_d861877da56b.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "大きい",
+        "es": "grande en tamaño",
+        "de": "Groß in der Größe"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私の家は大きくてきれいです。",
+            "de": "Mein Zuhause ist groß und sauber."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1171,
@@ -612,7 +1051,17 @@
     ],
     "examples": [],
     "audioUrl": "/audio/en/vocabulary/vocabulary_821f03288846.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "本",
+        "es": "algo que lees con páginas",
+        "de": "Etwas, das man mit Seiten liest"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1149,
@@ -636,7 +1085,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_dba7b12a19fe.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "パン",
+        "es": "un alimento hecho de harina, agua y levadura",
+        "de": "Ein Lebensmittel aus Mehl, Wasser und Hefe"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "パンは好きですか？",
+            "de": "Magst du Brot?"
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1173,
@@ -665,7 +1131,30 @@
       }
     ],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "小麦粉を焼いて作った食べ物",
+        "es": "alimento hecho de harina, horneado",
+        "de": "Aus Mehl gebackenes Lebensmittel"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "そのパン屋にはパンがあります。",
+            "de": "Die Bäckerei hat Brot."
+          }
+        },
+        {
+          "translation": {
+            "ja": "パンを少しもらえますか？",
+            "de": "Kann ich etwas Brot haben?"
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1137,
@@ -689,7 +1178,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_835ef6c0b299.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "朝食、朝ごはん",
+        "es": "primera comida del día, se come por la mañana",
+        "de": "Erste Mahlzeit des Tages, morgens gegessen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "朝食にりんごを食べます。",
+            "de": "Ich esse einen Apfel zum Frühstück."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1010,
@@ -713,7 +1219,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_e511e2a4a4b8.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "兄弟（男性の兄弟）",
+        "es": "hermano",
+        "de": "Männliches Geschwisterkind"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "こちらは私の兄弟です。",
+            "de": "Das ist mein Bruder."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1022,
@@ -737,7 +1260,24 @@
       }
     ],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "兄弟（男性のきょうだい）",
+        "es": "hermano",
+        "de": "Männliches Geschwisterkind"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "あなたは私の兄弟です。",
+            "de": "Du bist mein Bruder."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1043,
@@ -766,7 +1306,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_a95d51d858b2.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "複数の兄弟",
+        "es": "más de un hermano",
+        "de": "Mehr als ein Bruder"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私の兄弟たちは背が高いです。",
+            "de": "Meine Brüder sind groß."
+          }
+        },
+        {
+          "translation": {
+            "ja": "あなたの兄弟たちは誰ですか？",
+            "de": "Wer sind deine Brüder?"
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1100,
@@ -790,7 +1353,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_bfa2c5a8a265.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "歯を磨く",
+        "es": "cepillarse los dientes",
+        "de": "Zähne mit einer Zahnbürste reinigen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼は朝に歯を磨きます。",
+            "de": "Er putzt sich morgens die Zähne."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1126,
@@ -814,7 +1394,24 @@
       }
     ],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "歯を磨く",
+        "es": "cepillarse los dientes",
+        "de": "Zähne mit einer Bürste reinigen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼女はまず歯を磨いて、それから朝食を食べます。",
+            "de": "Sie putzt sich zuerst die Zähne, dann isst sie Frühstück."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1208,
@@ -848,7 +1445,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_0461ebd2b773.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "お金を払って何かを手に入れること",
+        "es": "comprar, obtener algo pagando dinero",
+        "de": "Etwas durch Bezahlung erhalten"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "本を買いたいです。",
+            "de": "Ich möchte ein Buch kaufen."
+          }
+        },
+        {
+          "translation": {
+            "ja": "それは買いません。それは私の本ではありません。",
+            "de": "Ich kaufe das nicht. Es ist nicht mein Buch."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 993,
@@ -872,7 +1492,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_bfa99df33b13.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "さようなら（カジュアルな別れの挨拶）",
+        "es": "una despedida informal",
+        "de": "Ein informeller Abschiedsgruß"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "バイ、良い一日を。",
+            "de": "Tschüss, hab einen schönen Tag."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1153,
@@ -896,7 +1533,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_a1b8585122e1.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "ケーキ",
+        "es": "un postre dulce horneado",
+        "de": "Ein süßes, gebackenes Dessert"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "ケーキは好きですか？",
+            "de": "Magst du Kuchen?"
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1141,
@@ -920,7 +1574,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_005d05de2948.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "長いオレンジ色の野菜",
+        "es": "una verdura larga de color naranja",
+        "de": "Ein langes, orangefarbenes Gemüse"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私はニンジンが好きです。",
+            "de": "Ich esse gerne Karotten."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1066,
@@ -944,7 +1615,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_a09272b53419.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "椅子（いす）",
+        "es": "un mueble para sentarse",
+        "de": "Ein Möbelstück zum Sitzen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "リビングルームに椅子が二つあります。",
+            "de": "Zwei Stühle sind im Wohnzimmer."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1081,
@@ -968,7 +1656,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_086f25da48a0.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "椅子（複数形）",
+        "es": "más de una silla",
+        "de": "Mehr als ein Stuhl"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "リビングルームにはたくさんの椅子があります。",
+            "de": "Es gibt viele Stühle im Wohnzimmer."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1211,
@@ -992,7 +1697,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_eb399bcaca68.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "お釣り",
+        "es": "el dinero que te devuelven cuando pagas más que el precio",
+        "de": "Das zurückgegebene Geld, wenn die Zahlung höher als der Preis ist"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "はい、どうぞ。お釣りは5ユーロです。",
+            "de": "Bitte schön. Ihr Wechselgeld beträgt fünf Euro."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1150,
@@ -1016,7 +1738,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_fea0f1f6fede.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "チーズ",
+        "es": "un alimento hecho de leche",
+        "de": "Ein Lebensmittel aus Milch"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "はい、そうです。私はテーブルの上のチーズが好きです。",
+            "de": "Ja, das tue ich. Ich mag Käse auf dem Tisch."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1155,
@@ -1040,7 +1779,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_742929dcb631.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "鶏肉",
+        "es": "un tipo de carne de ave",
+        "de": "eine Art Fleisch von einem Vogel"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "夕食に鶏肉を食べます。",
+            "de": "Ich habe etwas Hühnchen zum Abendessen."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1046,
@@ -1064,7 +1820,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_268184c12df0.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "子供たち（複数の子供、息子や娘たち）",
+        "es": "más de un niño (hijos e hijas)",
+        "de": "mehr als ein Kind (Söhne und Töchter)"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "子供たちは幸せです。",
+            "de": "Die Kinder sind glücklich."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1152,
@@ -1088,7 +1861,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_c378985d629e.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "チョコレート",
+        "es": "un alimento dulce de color marrón",
+        "de": "ein süßes braunes Lebensmittel"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "いいえ、嫌です。部屋にチョコレートがあるのは好きじゃありません。",
+            "de": "Nein, tue ich nicht. Ich mag keine Schokolade in meinem Zimmer."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1091,
@@ -1112,7 +1902,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_123402c04dcf.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "きれいな、清潔な",
+        "es": "no sucio",
+        "de": "nicht schmutzig"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私の家は大きくてきれいです。",
+            "de": "Mein Zuhause ist groß und sauber."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1170,
@@ -1136,7 +1943,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_8a253c281b17.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "衣料品店、洋服屋",
+        "es": "una tienda que vende ropa",
+        "de": "ein Geschäft, das Kleidung verkauft"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "その衣料品店にはシャツがあります。",
+            "de": "Der Kleidungsladen hat Hemden."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1136,
@@ -1160,7 +1984,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_24eb05d18318.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "コーヒー豆から作られる温かい飲み物",
+        "es": "bebida caliente hecha de granos de café",
+        "de": "ein heißes Getränk aus Kaffeebohnen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼女は朝にコーヒーを飲みます。",
+            "de": "Sie trinkt morgens Kaffee."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1105,
@@ -1184,7 +2025,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_8c003531fa1a.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "夕食を作る",
+        "es": "preparar la comida de la noche",
+        "de": "das Abendessen zubereiten"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼女は3時に夕食を作ります。",
+            "de": "Sie kocht um drei Uhr Abendessen."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1154,
@@ -1208,7 +2066,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_2dccd1ab3e03.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "クッキー",
+        "es": "un alimento pequeño y dulce horneado",
+        "de": "ein kleines süßes Gebäck"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "はい、そうです。私は椅子の上のクッキーが好きです。",
+            "de": "Ja, tue ich. Ich mag Kekse auf den Stühlen."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1198,
@@ -1226,7 +2101,17 @@
     ],
     "examples": [],
     "audioUrl": "/audio/en/vocabulary/vocabulary_4e1566f0798f.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "費用、コスト",
+        "es": "el precio de algo",
+        "de": "der Preis von etwas"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1031,
@@ -1250,7 +2135,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_2b0cf9520521.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "娘（むすめ）",
+        "es": "una hija",
+        "de": "ein weibliches Kind"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼女は私の娘です。",
+            "de": "Sie ist meine Tochter."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1088,
@@ -1268,7 +2170,17 @@
     ],
     "examples": [],
     "audioUrl": "/audio/en/vocabulary/vocabulary_0d16430e9f0a.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "描写する、説明する、述べる",
+        "es": "decir cómo es algo",
+        "de": "beschreiben, wie etwas ist"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1139,
@@ -1292,7 +2204,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_ad5acdfacefd.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "夕食、晩ごはん、ディナー",
+        "es": "comida principal del día, generalmente se come por la noche",
+        "de": "die Hauptmahlzeit des Tages, normalerweise am Abend gegessen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "夕食には水を飲みます。",
+            "de": "Du trinkst Wasser zu deinem Abendessen."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1120,
@@ -1326,7 +2255,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_59a7709f7ee8.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "～しない（三人称単数現在の否定形）",
+        "es": "no (se usa con él, ella, ello)",
+        "de": "tut nicht (wird mit er, sie, es verwendet)"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼女は7時に仕事に行きません。",
+            "de": "Sie geht nicht um 7 Uhr zur Arbeit."
+          }
+        },
+        {
+          "translation": {
+            "ja": "彼女の兄（弟）はその後ゲームをしません。",
+            "de": "Ihr Bruder spielt danach keine Spiele."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1196,
@@ -1350,7 +2302,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_33c381af2d1e.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "アメリカ合衆国やその他の国で使用される通貨",
+        "es": "moneda utilizada en EE. UU. y otros países",
+        "de": "Währung, die in den USA und anderen Ländern verwendet wird"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "値段は15ドルです。",
+            "de": "Der Preis beträgt fünfzehn Dollar."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1119,
@@ -1379,7 +2348,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_5970929a4256.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "～しない（I、you、we、theyと共に使用）",
+        "es": "no (se usa con yo, tú, nosotros, ellos)",
+        "de": "tun nicht (wird mit ich, du, wir, sie verwendet)"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私は台所で朝食を食べません。",
+            "de": "Ich esse kein Frühstück in der Küche."
+          }
+        },
+        {
+          "translation": {
+            "ja": "まずシャワーを浴びますが、バスルームでは歯を磨きません。",
+            "de": "Zuerst dusche ich, aber ich putze meine Zähne nicht im Badezimmer."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1129,
@@ -1403,7 +2395,24 @@
       }
     ],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "～しないでください、～するな（否定の命令・禁止）、～しない（否定）",
+        "es": "no",
+        "de": "tun nicht"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼は夜にテレビを見ないで、本を読みます。",
+            "de": "Er schaut abends kein Fernsehen; er liest ein Buch."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1148,
@@ -1437,7 +2446,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_882c303bec73.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "好きではない、嫌いである",
+        "es": "no disfrutar o tener un sentimiento negativo hacia algo",
+        "de": "etwas nicht mögen oder eine negative Einstellung dazu haben"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "トマトが好きではありません。",
+            "de": "Ich mag keine Tomaten."
+          }
+        },
+        {
+          "translation": {
+            "ja": "あそこのソーダは好きではありません。",
+            "de": "Ich mag dort keine Limonade."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1166,
@@ -1455,7 +2487,17 @@
     ],
     "examples": [],
     "audioUrl": "/audio/en/vocabulary/vocabulary_0b18a3d7b9c4.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "飲み物",
+        "es": "un líquido que puedes tragar",
+        "de": "eine Flüssigkeit, die man schlucken kann"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1094,
@@ -1479,7 +2521,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_c1b521b31b57.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "朝食を食べる",
+        "es": "tomar la comida de la mañana",
+        "de": "die Morgenmahlzeit einnehmen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私は台所で朝食を食べます。",
+            "de": "Ich esse Frühstück in der Küche."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1151,
@@ -1503,7 +2562,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_0e9312087f58.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "鳥類が産む楕円形の物体で、食用として使われるもの",
+        "es": "un objeto ovalado de las aves, utilizado como alimento",
+        "de": "ein ovales Objekt von Vögeln, das als Nahrung verwendet wird"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "卵は好きですか？",
+            "de": "Magst du Eier?"
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1056,
@@ -1521,7 +2597,17 @@
     ],
     "examples": [],
     "audioUrl": "/audio/en/vocabulary/vocabulary_24d27c169c2c.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "8、八",
+        "es": "el número 8",
+        "de": "die Zahl 8"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1182,
@@ -1539,7 +2625,17 @@
     ],
     "examples": [],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "8、八",
+        "es": "el número 8",
+        "de": "die Zahl 8"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1192,
@@ -1557,7 +2653,17 @@
     ],
     "examples": [],
     "audioUrl": "/audio/en/vocabulary/vocabulary_2cbdaf9ce47a.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "18、十八",
+        "es": "el número 18",
+        "de": "die Zahl 18"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1185,
@@ -1575,7 +2681,17 @@
     ],
     "examples": [],
     "audioUrl": "/audio/en/vocabulary/vocabulary_9c8454ddf7aa.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "11、十一",
+        "es": "el número 11",
+        "de": "die Zahl 11"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1195,
@@ -1599,7 +2715,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_2acae8be44a7.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "多くのヨーロッパ諸国で使用されている通貨",
+        "es": "moneda utilizada en muchos países europeos",
+        "de": "Währung, die in vielen europäischen Ländern verwendet wird"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "そのリンゴは2ユーロです。",
+            "de": "Der Apfel kostet zwei Euro."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1042,
@@ -1633,7 +2766,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_0d3fda0bdbb9.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "家族（かぞく）",
+        "es": "un grupo de personas relacionadas por sangre o matrimonio",
+        "de": "eine Gruppe von Menschen, die durch Blut oder Heirat verwandt sind"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "あなたのお母さんは誰ですか？",
+            "de": "Wer ist deine Mutter?"
+          }
+        },
+        {
+          "translation": {
+            "ja": "彼女の兄弟は誰ですか？",
+            "de": "Wer ist ihr Bruder?"
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1021,
@@ -1657,7 +2813,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_0de959beaa82.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "父（ちち）",
+        "es": "padre",
+        "de": "männliches Elternteil"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼は私の父です。",
+            "de": "Er ist mein Vater."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1189,
@@ -1681,7 +2854,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_92a2132e0190.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "15、十五",
+        "es": "el número 15",
+        "de": "die Zahl 15"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "値段は15ドルです。",
+            "de": "Der Preis beträgt fünfzehn Dollar."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1116,
@@ -1710,7 +2900,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_2025c24429eb.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "最後に、ついに、ようやく",
+        "es": "al final; por último",
+        "de": "am Ende; zuletzt"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "まず、私は9時に起きます。それから、朝食を食べます。その後、学校に行きます。最後に、10時に家に帰ります。",
+            "de": "Zuerst wache ich um neun Uhr auf. Dann frühstücke ich. Danach gehe ich zur Schule. Schließlich gehe ich um zehn Uhr nach Hause."
+          }
+        },
+        {
+          "translation": {
+            "ja": "まず、彼は起きます。それから、昼食を食べます。その後、本を読みます。最後に、寝ます。",
+            "de": "Zuerst steht er auf. Dann isst er zu Mittag. Danach liest er ein Buch. Schließlich geht er ins Bett."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1016,
@@ -1734,7 +2947,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_fff25994ee39.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "元気、大丈夫、良い",
+        "es": "bien, de acuerdo, bien",
+        "de": "gut, okay, wohl"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "元気です、ありがとう。あなたは？",
+            "de": "Mir geht es gut, danke. Und dir?"
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1113,
@@ -1763,7 +2993,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_8b04d5e3775d.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "最初に、まず",
+        "es": "al principio; antes que nada",
+        "de": "am Anfang; vor allem anderen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "まず、私は9時に起きます。それから、朝食を食べます。その後、学校に行きます。最後に、10時に家に帰ります。",
+            "de": "Zuerst wache ich um neun Uhr auf. Dann frühstücke ich. Danach gehe ich zur Schule. Schließlich gehe ich um zehn Uhr nach Hause."
+          }
+        },
+        {
+          "translation": {
+            "ja": "まず、彼は起きます。それから、昼食を食べます。その後、本を読みます。最後に、寝ます。",
+            "de": "Zuerst steht er auf. Dann isst er zu Mittag. Danach liest er ein Buch. Schließlich geht er ins Bett."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1128,
@@ -1787,7 +3040,24 @@
       }
     ],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "最初に、一番最初に、最初の",
+        "es": "antes que nada",
+        "de": "vor allem anderen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼女は最初に歯を磨き、それから朝食を食べます。",
+            "de": "Sie putzt sich zuerst die Zähne, dann frühstückt sie."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1156,
@@ -1811,7 +3081,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_83e4a96aed96.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "魚（さかな）。水中に生息する動物で、食用とされるもの。",
+        "es": "un animal que vive en el agua, consumido como alimento",
+        "de": "ein Tier, das im Wasser lebt und als Nahrung gegessen wird"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "魚はありますか？",
+            "de": "Hast du Fisch?"
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1053,
@@ -1835,7 +3122,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_30056e1cab7a.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "5、五",
+        "es": "el número 5",
+        "de": "die Zahl 5"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私たちは5人家族です。",
+            "de": "Wir sind eine fünfköpfige Familie."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1179,
@@ -1853,7 +3157,17 @@
     ],
     "examples": [],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "5、五",
+        "es": "el número 5",
+        "de": "die Zahl 5"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1052,
@@ -1871,7 +3185,17 @@
     ],
     "examples": [],
     "audioUrl": "/audio/en/vocabulary/vocabulary_8cbad96aced4.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "4、四",
+        "es": "el número 4",
+        "de": "die Zahl 4"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1178,
@@ -1889,7 +3213,17 @@
     ],
     "examples": [],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "4、四",
+        "es": "el número 4",
+        "de": "die Zahl 4"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1188,
@@ -1907,7 +3241,17 @@
     ],
     "examples": [],
     "audioUrl": "/audio/en/vocabulary/vocabulary_279e962ea623.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "14、十四",
+        "es": "el número 14",
+        "de": "die Zahl 14"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1003,
@@ -1936,7 +3280,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_3af00c6cad11.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "友人、友達、親しい人",
+        "es": "una persona que te gusta y en quien confías",
+        "de": "eine Person, die du magst und der du vertraust"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "あなたは私の友達です。",
+            "de": "Du bist mein Freund."
+          }
+        },
+        {
+          "translation": {
+            "ja": "私はあなたの友達です。",
+            "de": "Ich bin dein Freund."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1093,
@@ -1954,7 +3321,17 @@
     ],
     "examples": [],
     "audioUrl": "/audio/en/vocabulary/vocabulary_c6ec1bb206e0.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "起きる",
+        "es": "levantarse de la cama",
+        "de": "das Bett verlassen"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1097,
@@ -1978,7 +3355,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_2979c8fac32c.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "家に帰る",
+        "es": "volver a tu casa",
+        "de": "nach Hause gehen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私は家に帰ってテレビを見ます。",
+            "de": "Ich gehe nach Hause und schaue fern."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1099,
@@ -2002,7 +3396,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_2aa6db0f7160.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "寝る、就寝する",
+        "es": "acostarse para dormir",
+        "de": "ins Bett gehen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私のベッドは小さいですが、10時に寝ます。",
+            "de": "Mein Bett ist klein, aber ich gehe um 22:00 Uhr ins Bett."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1096,
@@ -2026,7 +3437,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_32b80dc6912d.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "学校へ行く",
+        "es": "ir a un lugar de educación",
+        "de": "zur Schule gehen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "子供たちは8時に学校へ行きます。",
+            "de": "Die Kinder gehen um 8:00 Uhr zur Schule."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1095,
@@ -2050,7 +3478,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_ec7f0ecc5003.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "仕事に行く",
+        "es": "ir a tu trabajo",
+        "de": "zur Arbeit gehen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私の両親は早く仕事に行きます。",
+            "de": "Meine Eltern gehen früh zur Arbeit."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1125,
@@ -2074,7 +3519,24 @@
       }
     ],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "仕事に行く",
+        "es": "ir a tu trabajo",
+        "de": "zur Arbeit gehen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私は朝8時に仕事に行きます。",
+            "de": "Ich gehe um 8 Uhr morgens zur Arbeit."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 995,
@@ -2092,7 +3554,17 @@
     ],
     "examples": [],
     "audioUrl": "/audio/en/vocabulary/vocabulary_e0466094b1cd.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "午後の挨拶",
+        "es": "saludo usado por la tarde",
+        "de": "Guten Tag (Nachmittagsgruß)"
+      },
+      "examples": []
+    }
   },
   {
     "id": 996,
@@ -2110,7 +3582,17 @@
     ],
     "examples": [],
     "audioUrl": "/audio/en/vocabulary/vocabulary_0fa14c6f0239.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "夕方や夜の挨拶",
+        "es": "saludo usado por la noche",
+        "de": "Guten Abend"
+      },
+      "examples": []
+    }
   },
   {
     "id": 994,
@@ -2134,7 +3616,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_2b849500e458.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "朝の挨拶",
+        "es": "saludo usado por la mañana",
+        "de": "Guten Morgen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "おはようございます、クラスの皆さん。",
+            "de": "Guten Morgen, Klasse."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 997,
@@ -2158,7 +3657,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_56b611281be1.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "夜の別れの挨拶、または寝る前の挨拶",
+        "es": "despedida usada por la noche o antes de dormir",
+        "de": "Gute Nacht"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "おやすみなさい、お母さん。",
+            "de": "Gute Nacht, Mama."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 992,
@@ -2182,7 +3698,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_69faab626835.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "別れの挨拶、さようなら",
+        "es": "una despedida al irse",
+        "de": "Auf Wiedersehen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "さようなら、また後で。",
+            "de": "Auf Wiedersehen, bis später."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1029,
@@ -2206,7 +3739,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_f308b616329f.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "祖父（そふ）または外祖父（がいそふ）",
+        "es": "el padre de tu padre o madre",
+        "de": "Großvater"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私の祖父はあなたの友達です。",
+            "de": "Mein Großvater ist dein Freund."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1028,
@@ -2230,7 +3780,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_95d81d92a91d.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "祖母（そぼ）またはおばあさん。父または母の母親のこと。",
+        "es": "la madre de tu padre o madre",
+        "de": "Großmutter"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "こちらは私の祖母です。",
+            "de": "Das ist meine Großmutter."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1040,
@@ -2254,7 +3821,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_56ab24c15b72.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "幸せな、嬉しい、楽しい",
+        "es": "sentir o mostrar placer o satisfacción",
+        "de": "glücklich"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私の姉は幸せです。",
+            "de": "Meine Schwester ist glücklich."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1140,
@@ -2303,7 +3887,50 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_b42dad5453b2.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "（食べ物や飲み物を）食べる、飲む",
+        "es": "comer o beber algo",
+        "de": "essen oder trinken"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "朝食にリンゴを食べます。",
+            "de": "Ich esse einen Apfel zum Frühstück."
+          }
+        },
+        {
+          "translation": {
+            "ja": "彼女は朝にコーヒーを飲みます。",
+            "de": "Sie trinkt morgens Kaffee."
+          }
+        },
+        {
+          "translation": {
+            "ja": "昼食にサンドイッチを食べます。"
+          }
+        },
+        {
+          "translation": {
+            "ja": "彼は毎晩紅茶を飲みます。"
+          }
+        },
+        {
+          "translation": {
+            "ja": "夕食に魚を食べます。"
+          }
+        },
+        {
+          "translation": {
+            "ja": "朝食にオレンジジュースを飲みます。"
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1102,
@@ -2327,7 +3954,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_b3f3866d1bf2.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "昼食をとる、昼ごはんを食べる",
+        "es": "comer la comida del mediodía",
+        "de": "zu Mittag essen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼は2時に昼食をとります。",
+            "de": "Er isst um zwei Uhr zu Mittag."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1005,
@@ -2351,7 +3995,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_6f96cfdfe5cc.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "彼（男性を指す代名詞）",
+        "es": "persona masculina",
+        "de": "er (männliche Person)"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼は彼女の先生です。",
+            "de": "Er ist ihr Lehrer."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1026,
@@ -2380,7 +4041,30 @@
       }
     ],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "三人称単数男性代名詞（彼）",
+        "es": "pronombre masculino de tercera persona singular",
+        "de": "er (männliches Personalpronomen in der dritten Person Singular)"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼は私の父です。",
+            "de": "Er ist mein Vater."
+          }
+        },
+        {
+          "translation": {
+            "ja": "彼は私の友達ではありません。",
+            "de": "Er ist nicht mein Freund."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 990,
@@ -2404,7 +4088,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_5d41402abc4b.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "こんにちは、挨拶の言葉",
+        "es": "un saludo usado al encontrarse con alguien",
+        "de": "Hallo"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "こんにちは、アンナ。",
+            "de": "Hallo, Anna."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1009,
@@ -2428,7 +4129,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_a43b4caa46fb.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "彼女の",
+        "es": "perteneciente a una mujer",
+        "de": "ihr (besitzanzeigend, weiblich)"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼は彼女の先生です。",
+            "de": "Er ist ihr Lehrer."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1037,
@@ -2452,7 +4170,24 @@
       }
     ],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "彼女の",
+        "es": "perteneciente a ella",
+        "de": "ihr (besitzanzeigend)"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼女の息子は学生です。",
+            "de": "Ihr Sohn ist Student."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1124,
@@ -2476,7 +4211,24 @@
       }
     ],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "彼女の",
+        "es": "perteneciente a ella",
+        "de": "gehörend zu ihr"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼女の兄はその後ゲームをしません。",
+            "de": "Ihr Bruder spielt danach keine Spiele."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1074,
@@ -2500,7 +4252,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_6c92285fa6d3.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "ここ",
+        "es": "en este lugar",
+        "de": "an diesem Ort"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "ここがリビングルームです。あそこがバスルームです。",
+            "de": "Hier ist das Wohnzimmer. Dort ist das Badezimmer."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1210,
@@ -2524,7 +4293,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_8c14ce125852.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "どうぞ（物を渡す時の丁寧な表現）",
+        "es": "una frase educada que se usa al darle algo a alguien",
+        "de": "eine höfliche Phrase, die verwendet wird, wenn man jemandem etwas gibt"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "どうぞ。お釣りは5ユーロです。",
+            "de": "Bitte schön. Ihr Wechselgeld beträgt fünf Euro."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 991,
@@ -2548,7 +4334,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_49f68a5c8493.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "やあ、こんにちは（カジュアルな挨拶）",
+        "es": "un saludo informal",
+        "de": "eine informelle Begrüßung"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "やあ、トムです。",
+            "de": "Hallo, ich bin Tom."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1008,
@@ -2572,7 +4375,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_65b50b04a6af.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "彼の",
+        "es": "perteneciente a un hombre",
+        "de": "gehörend zu einem Mann"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "おはようございます。こちらは彼の友達です。",
+            "de": "Guten Morgen. Das ist sein Freund."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1036,
@@ -2596,7 +4416,24 @@
       }
     ],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "彼の",
+        "es": "perteneciente a él",
+        "de": "gehörend zu ihm"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼の姉は背が低い。",
+            "de": "Seine Schwester ist klein."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1123,
@@ -2620,7 +4457,24 @@
       }
     ],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "彼の",
+        "es": "perteneciente a él",
+        "de": "gehörend zu ihm"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼の姉（妹）はたいてい夕方に本を読みます。",
+            "de": "Seine Schwester liest normalerweise abends ein Buch."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1087,
@@ -2644,7 +4498,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_106a6c241b87.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "家、住居、自宅",
+        "es": "el lugar donde alguien vive",
+        "de": "der Ort, an dem jemand wohnt"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私の家は広くてきれいです。",
+            "de": "Mein Zuhause ist groß und sauber."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1059,
@@ -2673,7 +4544,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_2ca63cddd54f.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "人々が住む建物",
+        "es": "un edificio donde vive gente",
+        "de": "ein Gebäude, in dem Menschen wohnen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "これは私の家です。",
+            "de": "Das ist mein Haus."
+          }
+        },
+        {
+          "translation": {
+            "ja": "家の中にベッドが三つあります。",
+            "de": "Drei Betten sind im Haus."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1015,
@@ -2702,7 +4596,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_655549fcf09f.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "相手の調子や様子を尋ねる一般的な挨拶",
+        "es": "un saludo común que pregunta sobre el bienestar de alguien",
+        "de": "eine häufige Begrüßung, die nach dem Wohlbefinden fragt"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "お元気ですか？",
+            "de": "Wie geht es dir?"
+          }
+        },
+        {
+          "translation": {
+            "ja": "おやすみなさい。お元気ですか？",
+            "de": "Gute Nacht. Wie geht es dir?"
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1068,
@@ -2726,7 +4643,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_13b5bfe96f3e.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "～の中に、～の中で",
+        "es": "dentro de algo",
+        "de": "innerhalb von etwas"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "息子は台所にいます。",
+            "de": "Mein Sohn ist in der Küche."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1107,
@@ -2750,7 +4684,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_473ff5b3756f.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "午後（ごご）に、午後（ごご）の間に",
+        "es": "durante el tiempo desde el mediodía hasta la tarde",
+        "de": "während der Zeit von Mittag bis zum Abend"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私たちは午後に昼食を食べます。",
+            "de": "Wir essen mittags zu Mittag."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1108,
@@ -2774,7 +4725,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_0a7b8bfaa807.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "夕方に、夜に",
+        "es": "durante la parte tardía del día antes de la noche",
+        "de": "während des späten Teils des Tages vor der Nacht"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼は夕方に家でテレビを見ます。",
+            "de": "Er schaut abends zu Hause fern."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1106,
@@ -2798,7 +4766,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_ab8cbc81258c.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "朝に、午前中に",
+        "es": "durante la parte temprana del día",
+        "de": "während des frühen Teils des Tages"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼女は朝に学校へ行きます。",
+            "de": "Sie geht morgens zur Schule."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1127,
@@ -2822,7 +4807,24 @@
       }
     ],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "朝に、午前中に",
+        "es": "durante la parte temprana del día",
+        "de": "während des frühen Teils des Tages"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私は朝8時に仕事に行きます。",
+            "de": "Ich gehe um 8 Uhr morgens zur Arbeit."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1216,
@@ -2846,7 +4848,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_fe88c03a1958.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "双方向の、相互作用的な",
+        "es": "que implica comunicación o acción entre personas",
+        "de": "Kommunikation oder Handlung zwischen Menschen beinhaltend"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "インタラクティブな学習ソフトウェアは、生徒の参加を促します。",
+            "de": "Ich kaufe normalerweise Brot im Laden."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1145,
@@ -2870,7 +4889,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_57f7e96f370e.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "果物や野菜から抽出された液体",
+        "es": "líquido de frutas o verduras",
+        "de": "Flüssigkeit aus Früchten oder Gemüse"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私はジュースと牛乳が好きです。",
+            "de": "Ich trinke gerne Saft und Milch."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1061,
@@ -2899,7 +4935,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_09228dac1556.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "台所、キッチン",
+        "es": "habitación para cocinar y preparar comida",
+        "de": "Raum zum Kochen und Zubereiten von Essen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "その台所は広いです。",
+            "de": "Die Küche ist groß."
+          }
+        },
+        {
+          "translation": {
+            "ja": "テーブルは台所にあります。",
+            "de": "Der Tisch ist in der Küche."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1147,
@@ -2933,7 +4992,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_be1ab1632e42.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "～が好きだ、～を好む",
+        "es": "disfrutar o tener un sentimiento positivo hacia algo",
+        "de": "etwas mögen oder positive Gefühle gegenüber etwas haben"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私はにんじんが好きです。",
+            "de": "Ich esse gerne Karotten."
+          }
+        },
+        {
+          "translation": {
+            "ja": "私はここのお茶が好きです。",
+            "de": "Ich trinke hier gerne Tee."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1064,
@@ -2962,7 +5044,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_595201ede490.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "リビングルーム（くつろいだり、客をもてなしたりする部屋）",
+        "es": "habitación para relajarse y recibir invitados",
+        "de": "Raum zum Entspannen und Unterhalten von Gästen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "リビングルームに椅子が二つあります。",
+            "de": "Zwei Stühle sind im Wohnzimmer."
+          }
+        },
+        {
+          "translation": {
+            "ja": "彼女はリビングルームにいます。",
+            "de": "Sie ist im Wohnzimmer."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1138,
@@ -2986,7 +5091,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_bba63abce25e.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "昼食、ランチ",
+        "es": "comida que se come a mediodía",
+        "de": "Mittagessen, Mahlzeit am Mittag"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼は12時に昼食を食べません。",
+            "de": "Er isst nicht um 12 Uhr zu Mittag."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1086,
@@ -3020,7 +5142,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_8cd283d8b7ba.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "多くの、たくさんの",
+        "es": "un gran número de",
+        "de": "viele, eine große Anzahl von"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "リビングルームにはたくさんの椅子があります。",
+            "de": "Es sind viele Stühle im Wohnzimmer."
+          }
+        },
+        {
+          "translation": {
+            "ja": "テーブルの上にあるたくさんのものは何ですか？",
+            "de": "Was sind die vielen Dinge auf dem Tisch?"
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1164,
@@ -3038,7 +5183,17 @@
     ],
     "examples": [],
     "audioUrl": "/audio/en/vocabulary/vocabulary_d9ed7694f0cd.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "食事、食事の機会、またはその時に食べられる食べ物",
+        "es": "una ocasión en la que se come, o la comida que se consume en tal ocasión",
+        "de": "Mahlzeit, eine Gelegenheit, bei der gegessen wird, oder das Essen, das bei einer solchen Gelegenheit gegessen wird"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1162,
@@ -3062,7 +5217,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_8d6ab84ca2af.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "レストランやカフェで提供される料理や飲み物の一覧表",
+        "es": "una lista de alimentos y bebidas disponibles en un restaurante o cafetería",
+        "de": "Speisekarte, eine Liste von Speisen und Getränken, die in einem Restaurant oder Café verfügbar sind"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "そのレストランのメニューにはケーキとクッキーがあります。私は食べ物を説明するのが好きです。",
+            "de": "Die Restaurantkarte hat Kuchen und Kekse. Ich beschreibe gerne Essen."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1135,
@@ -3086,7 +5258,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_ecbdb882ae86.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "牛から取れる白い液体で、飲み物として飲むもの",
+        "es": "líquido blanco de las vacas que se bebe",
+        "de": "Milch, weiße Flüssigkeit von Kühen, die man trinkt"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "牛乳がありません。",
+            "de": "Wir haben keine Milch."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1020,
@@ -3110,7 +5299,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_6ee6a213cb02.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "母（はは）、母親（ははおや）",
+        "es": "progenitora femenina",
+        "de": "Mutter, weibliches Elternteil"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼女は私の母です。",
+            "de": "Sie ist meine Mutter."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1001,
@@ -3139,7 +5345,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_6864f389d987.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "私の",
+        "es": "perteneciente a mí",
+        "de": "mein, mir gehörend"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "こんにちは、私の名前はトムです。",
+            "de": "Hallo, mein Name ist Tom."
+          }
+        },
+        {
+          "translation": {
+            "ja": "あなたは私の友達です。",
+            "de": "Du bist mein Freund."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1034,
@@ -3173,7 +5402,30 @@
       }
     ],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "私の",
+        "es": "perteneciente a mí",
+        "de": "mein, mir gehörend"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "これは私の祖母です。",
+            "de": "Das ist meine Großmutter."
+          }
+        },
+        {
+          "translation": {
+            "ja": "彼女は私の娘です。",
+            "de": "Sie ist meine Tochter."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1121,
@@ -3202,7 +5454,30 @@
       }
     ],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "私の",
+        "es": "perteneciente a mí",
+        "de": "mein, mir gehörend"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私の寝室は小さいです。",
+            "de": "Mein Schlafzimmer ist klein."
+          }
+        },
+        {
+          "translation": {
+            "ja": "まずシャワーを浴びますが、歯は浴室では磨きません。",
+            "de": "Zuerst dusche ich, aber ich putze meine Zähne nicht im Badezimmer."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1130,
@@ -3226,7 +5501,24 @@
       }
     ],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "私の",
+        "es": "perteneciente a mí",
+        "de": "mein, mir gehörend"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私のベッドはテーブルと椅子の隣にあります。",
+            "de": "Mein Bett steht neben dem Tisch und dem Stuhl."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1205,
@@ -3250,7 +5542,24 @@
       }
     ],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "私の",
+        "es": "perteneciente a mí",
+        "de": "mein, mir gehörend"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私のリンゴはいくらですか？",
+            "de": "Wie viel kostet mein Apfel?"
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1000,
@@ -3279,7 +5588,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_b068931cc450.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "名前、氏名、名称",
+        "es": "cómo se llama alguien",
+        "de": "Name, wie jemand genannt wird"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "こんにちは、私はアンナです。",
+            "de": "Hallo, ich bin Anna."
+          }
+        },
+        {
+          "translation": {
+            "ja": "こんにちは、私の名前はトムです。",
+            "de": "Hallo, mein Name ist Tom."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1072,
@@ -3303,7 +5635,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_c9e244f79983.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "～の隣に、～のそばに",
+        "es": "al lado o adyacente a algo",
+        "de": "neben, neben oder angrenzend an etwas"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "椅子はどこですか？ベッドの隣にあります。",
+            "de": "Wo ist der Stuhl? Er ist neben dem Bett."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1057,
@@ -3321,7 +5670,17 @@
     ],
     "examples": [],
     "audioUrl": "/audio/en/vocabulary/vocabulary_c785e1ed2950.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "9、九",
+        "es": "el número 9",
+        "de": "neun, die Zahl 9"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1183,
@@ -3339,7 +5698,17 @@
     ],
     "examples": [],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "9、九",
+        "es": "el número 9",
+        "de": "neun, die Zahl 9"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1193,
@@ -3357,7 +5726,17 @@
     ],
     "examples": [],
     "audioUrl": "/audio/en/vocabulary/vocabulary_1d56cec552bf.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "19、十九",
+        "es": "el número 19",
+        "de": "neunzehn, die Zahl 19"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1019,
@@ -3381,7 +5760,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_d529e941509e.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "否定を表すために使われる",
+        "es": "se usa para hacer una declaración negativa",
+        "de": "nicht, wird verwendet, um eine negative Aussage zu machen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼女は私の先生ではありません。",
+            "de": "Sie ist nicht meine Lehrerin."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1207,
@@ -3405,7 +5801,24 @@
       }
     ],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "否定を表すために使われる",
+        "es": "se usa para hacer una declaración negativa",
+        "de": "nicht, wird verwendet, um eine Aussage zu verneinen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "これはあなたのパンではありません。",
+            "de": "Das ist nicht dein Brot."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1048,
@@ -3429,7 +5842,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_149603e6c035.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "年を取った、年老いた",
+        "es": "que ha vivido durante mucho tiempo",
+        "de": "alt, lange gelebt habend"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私の両親は年を取っています。",
+            "de": "Meine Eltern sind alt."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1069,
@@ -3453,7 +5883,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_ed2b5c0139ce.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "上に、表面に接触して",
+        "es": "encima de o adherido a una superficie",
+        "de": "auf, auf oder an einer Oberfläche befestigt"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "本はテーブルの上にあります。",
+            "de": "Das Buch liegt auf dem Tisch."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1049,
@@ -3471,7 +5918,17 @@
     ],
     "examples": [],
     "audioUrl": "/audio/en/vocabulary/vocabulary_f97c5d29941b.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "数字の1",
+        "es": "el número 1",
+        "de": "die Zahl 1"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1175,
@@ -3489,7 +5946,17 @@
     ],
     "examples": [],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "数字の1",
+        "es": "el número 1",
+        "de": "die Zahl 1"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1133,
@@ -3513,7 +5980,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_fe01d67a002d.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "オレンジ（丸くて厚いオレンジ色の皮とジューシーな房を持つ柑橘類の果物）",
+        "es": "una fruta cítrica redonda con piel gruesa de color naranja y segmentos jugosos",
+        "de": "eine runde Zitrusfrucht mit dicker orangefarbener Schale und saftigen Segmenten"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼らはバナナとオレンジを食べます。",
+            "de": "Sie essen Bananen und Orangen."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1165,
@@ -3531,7 +6015,17 @@
     ],
     "examples": [],
     "audioUrl": "/audio/en/vocabulary/vocabulary_70a17ffa722a.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "注文する",
+        "es": "pedir comida o bebidas en un restaurante",
+        "de": "Essen oder Getränke in einem Restaurant bestellen"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1045,
@@ -3555,7 +6049,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_c68ad910ed49.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "両親（りょうしん）",
+        "es": "madre y padre",
+        "de": "Mutter und Vater"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私の両親は年をとっています。",
+            "de": "Meine Eltern sind alt."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1104,
@@ -3579,7 +6090,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_6a9595d8f23f.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "ゲームをする、遊ぶ",
+        "es": "participar en actividades por diversión o competencia",
+        "de": "sich an Aktivitäten zum Spaß oder im Wettbewerb beteiligen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼は放課後にゲームをします。",
+            "de": "Er spielt nach der Schule Spiele."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1203,
@@ -3603,7 +6131,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_6050ce63e4bc.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "お願いします（丁寧な依頼や要求を表す）",
+        "es": "usado para hacer una petición de manera educada",
+        "de": "wird verwendet, um eine Bitte höflich zu machen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "この本が欲しいです、お願いします。",
+            "de": "Ich möchte dieses Buch, bitte."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1143,
@@ -3621,7 +6166,17 @@
     ],
     "examples": [],
     "audioUrl": "/audio/en/vocabulary/vocabulary_8ee202798391.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "じゃがいも",
+        "es": "un vegetal con almidón, a menudo marrón o amarillo",
+        "de": "ein stärkehaltiges Gemüse, oft braun oder gelb"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1217,
@@ -3650,7 +6205,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_8c40400c0099.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "繰り返し行って上達すること",
+        "es": "hacer algo repetidamente para mejorar",
+        "de": "etwas wiederholt tun, um sich zu verbessern"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "この本はいくらですか？",
+            "de": "Wie viel kostet dieses Buch?"
+          }
+        },
+        {
+          "translation": {
+            "ja": "こちらがお釣りとレシートです。",
+            "de": "Hier ist Ihr Wechselgeld und die Quittung."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1197,
@@ -3674,7 +6252,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_78a5eb43deef.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "値段、価格",
+        "es": "la cantidad de dinero que cuesta algo",
+        "de": "der Geldbetrag, den etwas kostet"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "値段は15ドルです。",
+            "de": "Der Preis beträgt fünfzehn Dollar."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1103,
@@ -3698,7 +6293,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_5f8015dc9af7.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "本を読む",
+        "es": "mirar y entender palabras escritas en un libro",
+        "de": "geschriebene Wörter in einem Buch ansehen und verstehen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼女は夜に本を読みます。",
+            "de": "Sie liest abends ein Buch."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1212,
@@ -3722,7 +6334,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_1e11b989ba2f.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "領収書、レシート",
+        "es": "un papel que muestra prueba de compra",
+        "de": "ein Papier, das den Kaufnachweis zeigt"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "領収書をいただけますか？",
+            "de": "Kann ich bitte die Quittung haben?"
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1163,
@@ -3746,7 +6375,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_6d4b62960a6a.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "レストラン、飲食店",
+        "es": "un lugar donde puedes comprar y comer una comida",
+        "de": "ein Ort, an dem man eine Mahlzeit kaufen und essen kann"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "レストランのメニューにはケーキとクッキーがあります。私は食べ物を描写するのが好きです。",
+            "de": "Die Speisekarte des Restaurants enthält Kuchen und Kekse. Ich beschreibe gerne Essen."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1213,
@@ -3775,7 +6421,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_1c67665285fb.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "復習する、見直す",
+        "es": "mirar o estudiar de nuevo",
+        "de": "etwas erneut ansehen oder studieren"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私はそのリンゴが欲しいです。",
+            "de": "Ich möchte diesen Apfel, bitte."
+          }
+        },
+        {
+          "translation": {
+            "ja": "私はそれが欲しくありません。ありがとうございます。",
+            "de": "Das möchte ich nicht. Danke."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1157,
@@ -3799,7 +6468,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_3767b4508248.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "米、ご飯",
+        "es": "granos pequeños blancos de una planta, comidos como alimento",
+        "de": "kleine weiße Körner von einer Pflanze, die als Nahrung gegessen werden"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "ご飯をいただけますか。",
+            "de": "Ich hätte gerne etwas Reis, bitte."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1214,
@@ -3828,7 +6514,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_9558a4855348.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "役割を演じて状況を練習すること",
+        "es": "actuar una situación para practicar",
+        "de": "eine Situation nachspielen, um zu üben"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私はシャツを買います。はい、どうぞ。",
+            "de": "Ich kaufe das Hemd. Bitte schön."
+          }
+        },
+        {
+          "translation": {
+            "ja": "私はいつも土曜日に果物を買います。",
+            "de": "Ich kaufe immer samstags Obst."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1060,
@@ -3846,7 +6555,17 @@
     ],
     "examples": [],
     "audioUrl": "/audio/en/vocabulary/vocabulary_fef2576d54db.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "部屋",
+        "es": "una parte de una casa con paredes, piso y techo",
+        "de": "ein Teil eines Hauses mit Wänden, Boden und Decke"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1079,
@@ -3875,7 +6594,30 @@
       }
     ],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "部屋。家の中の一部で、寝室やリビングルームなどのこと。",
+        "es": "una parte de una casa, como un dormitorio o sala de estar",
+        "de": "ein Teil eines Hauses, wie ein Schlafzimmer oder Wohnzimmer"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "これは部屋です。",
+            "de": "Das ist ein Zimmer."
+          }
+        },
+        {
+          "translation": {
+            "ja": "彼の部屋はリビングルームです。",
+            "de": "Sein Zimmer ist das Wohnzimmer."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1084,
@@ -3899,7 +6641,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_cc9831b82399.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "複数の部屋",
+        "es": "más de una habitación",
+        "de": "mehr als ein Zimmer"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "多くの部屋の中で誰が幸せですか？",
+            "de": "Wer ist in den vielen Zimmern glücklich?"
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1041,
@@ -3923,7 +6682,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_49f0bad29968.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "悲しい",
+        "es": "sintiendo o mostrando tristeza; infeliz",
+        "de": "Trauer empfindend oder zeigend; unglücklich"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私の祖父は悲しいです。",
+            "de": "Mein Großvater ist traurig."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1215,
@@ -3947,7 +6723,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_ff002f20300f.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "シナリオ、筋書き、状況",
+        "es": "una situación o escena",
+        "de": "ein Szenario oder eine Situation"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "牛乳はありますか？",
+            "de": "Haben Sie Milch?"
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1209,
@@ -3971,7 +6764,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_8325324b47e1.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "売る",
+        "es": "dar algo a cambio de dinero",
+        "de": "etwas gegen Geld geben"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "ここでリンゴを売っています。",
+            "de": "Sie verkaufen hier Äpfel."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1055,
@@ -3989,7 +6799,17 @@
     ],
     "examples": [],
     "audioUrl": "/audio/en/vocabulary/vocabulary_bb3aec0fdcdb.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "七",
+        "es": "el número 7",
+        "de": "die Zahl 7"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1181,
@@ -4007,7 +6827,17 @@
     ],
     "examples": [],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "七（しち、なな）",
+        "es": "el número 7",
+        "de": "die Zahl 7"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1191,
@@ -4025,7 +6855,17 @@
     ],
     "examples": [],
     "audioUrl": "/audio/en/vocabulary/vocabulary_2e457d2f9f38.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "17、十七",
+        "es": "el número 17",
+        "de": "die Zahl 17"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1006,
@@ -4059,7 +6899,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_9eb0d040ef57.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "彼女（かのじょ）",
+        "es": "persona femenina",
+        "de": "weibliche Person"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼女は学生です。",
+            "de": "Sie ist Studentin."
+          }
+        },
+        {
+          "translation": {
+            "ja": "彼女は誰ですか？",
+            "de": "Wer ist sie?"
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1027,
@@ -4088,7 +6951,30 @@
       }
     ],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "三人称単数女性代名詞",
+        "es": "pronombre femenino de tercera persona singular",
+        "de": "weibliches Personalpronomen in der dritten Person Singular"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼女は私の姉（妹）です。",
+            "de": "Sie ist meine Schwester."
+          }
+        },
+        {
+          "translation": {
+            "ja": "彼女は私の母です。",
+            "de": "Sie ist meine Mutter."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1174,
@@ -4112,7 +6998,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_c9507f538a6e.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "上半身に着る衣服の一種",
+        "es": "una prenda de vestir para la parte superior del cuerpo",
+        "de": "ein Kleidungsstück für den Oberkörper"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "その洋服店にはシャツがあります。",
+            "de": "Das Bekleidungsgeschäft hat Hemden."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1167,
@@ -4141,7 +7044,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_fb54f3c5992b.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "物を買う場所",
+        "es": "un lugar donde compras cosas",
+        "de": "ein Ort, an dem man Dinge kauft"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "これはお店です。",
+            "de": "Das ist ein Geschäft."
+          }
+        },
+        {
+          "translation": {
+            "ja": "私は起きてお店に行くのが好きです。",
+            "de": "Ich stehe gerne auf und gehe zum Geschäft."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1033,
@@ -4165,7 +7091,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_4f09daa9d95b.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "背が低い",
+        "es": "que tiene una altura menor que el promedio",
+        "de": "eine geringere als die durchschnittliche Körpergröße haben"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼の姉は背が低い。",
+            "de": "Seine Schwester ist klein."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1011,
@@ -4189,7 +7132,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_daffd55e1b80.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "姉妹、妹、姉",
+        "es": "hermana",
+        "de": "weibliches Geschwisterkind"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "さようなら。彼女は私の姉（妹）です。",
+            "de": "Tschüss. Sie ist meine Schwester."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1023,
@@ -4213,7 +7173,24 @@
       }
     ],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "姉妹、姉、妹",
+        "es": "hermana",
+        "de": "weibliches Geschwisterkind"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼女は私の姉（妹）です。",
+            "de": "Sie ist meine Schwester."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1044,
@@ -4237,7 +7214,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_58394ab96a66.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "姉妹（複数）",
+        "es": "más de una hermana",
+        "de": "mehr als eine Schwester"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼女の姉妹たちは若いです。",
+            "de": "Ihre Schwestern sind jung."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1054,
@@ -4255,7 +7249,17 @@
     ],
     "examples": [],
     "audioUrl": "/audio/en/vocabulary/vocabulary_f52b5e449a23.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "6、六",
+        "es": "el número 6",
+        "de": "die Zahl 6"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1180,
@@ -4273,7 +7277,17 @@
     ],
     "examples": [],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "6、六",
+        "es": "el número 6",
+        "de": "die Zahl 6"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1190,
@@ -4291,7 +7305,17 @@
     ],
     "examples": [],
     "audioUrl": "/audio/en/vocabulary/vocabulary_bd2c775d9eaf.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "16、十六",
+        "es": "el número 16",
+        "de": "die Zahl 16"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1090,
@@ -4309,7 +7333,17 @@
     ],
     "examples": [],
     "audioUrl": "/audio/en/vocabulary/vocabulary_eb5c1399a871.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "小さい",
+        "es": "no grande en tamaño",
+        "de": "nicht groß in der Größe"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1146,
@@ -4333,7 +7367,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_ac95c3e7a5e1.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "炭酸飲料",
+        "es": "una bebida dulce con gas",
+        "de": "ein süßes, sprudelndes Getränk"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私はあそこのソーダが好きではありません。",
+            "de": "Ich mag dort keine Limonade."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1158,
@@ -4372,7 +7423,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_03d59e663c1a.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "いくらかの、ある程度の（不特定の量を表す）",
+        "es": "una cantidad de algo, no específica",
+        "de": "eine Menge von etwas, nicht spezifisch"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "夕食にチキンを少し食べます。",
+            "de": "Ich habe etwas Hühnchen zum Abendessen."
+          }
+        },
+        {
+          "translation": {
+            "ja": "ご飯を少しいただけますか。",
+            "de": "Ich hätte gerne etwas Reis, bitte."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1030,
@@ -4396,7 +7470,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_498d3c6bfa03.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "息子",
+        "es": "un hijo varón",
+        "de": "ein männliches Kind"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼女の息子は学生です。",
+            "de": "Ihr Sohn ist Student."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1012,
@@ -4420,7 +7511,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_cd7350282845.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "学生",
+        "es": "persona que estudia",
+        "de": "Person, die studiert"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼女は学生です。",
+            "de": "Sie ist Studentin."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1168,
@@ -4444,7 +7552,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_46d7115f4014.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "食料品や日用品などを販売する大型店舗",
+        "es": "una tienda grande que vende alimentos y otros productos",
+        "de": "ein großes Geschäft, das Lebensmittel und andere Waren verkauft"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "そのスーパーマーケットは清潔です。",
+            "de": "Der Supermarkt ist sauber."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1065,
@@ -4468,7 +7593,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_aab9e1de16f3.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "テーブル",
+        "es": "un mueble con una superficie plana y patas",
+        "de": "ein Möbelstück mit einer flachen Oberfläche und Beinen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "テーブルは台所にあります。",
+            "de": "Der Tisch ist in der Küche."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1080,
@@ -4502,7 +7644,30 @@
       }
     ],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "テーブル、机（平らな天板と脚のある家具）",
+        "es": "un mueble con una superficie plana y patas",
+        "de": "ein Möbelstück mit einer flachen Oberfläche und Beinen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "テーブルは台所にあります。",
+            "de": "Der Tisch ist in der Küche."
+          }
+        },
+        {
+          "translation": {
+            "ja": "椅子はテーブルの隣にあります。",
+            "de": "Der Stuhl steht neben dem Tisch."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1082,
@@ -4526,7 +7691,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_9ab2ec7ea4a2.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "複数のテーブル",
+        "es": "más de una mesa",
+        "de": "mehr als ein Tisch"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "家の中にテーブルが3つあります。",
+            "de": "Es gibt drei Tische im Haus."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1101,
@@ -4550,7 +7732,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_0b50efad1de7.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "シャワーを浴びる",
+        "es": "lavar el cuerpo con agua",
+        "de": "den Körper mit Wasser waschen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼女は朝7時にシャワーを浴びます。",
+            "de": "Sie duscht um 7 Uhr morgens."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1032,
@@ -4574,7 +7773,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_6ce1a133fa63.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "背が高い",
+        "es": "que tiene una altura mayor que el promedio",
+        "de": "eine größere als die durchschnittliche Höhe haben"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "あなたのお父さんは背が高いです。",
+            "de": "Dein Vater ist groß."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1144,
@@ -4598,7 +7814,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_7239ea2b5dc9.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "茶葉から作られる温かい飲み物",
+        "es": "una bebida caliente hecha de hojas",
+        "de": "ein heißes Getränk aus Blättern"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私はここのお茶が好きです。",
+            "de": "Ich trinke gerne Tee hier."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1004,
@@ -4622,7 +7855,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_8d7883854312.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "教師、先生",
+        "es": "una persona que enseña",
+        "de": "eine Person, die unterrichtet"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "さようなら、あなたは教師です。",
+            "de": "Auf Wiedersehen, Sie sind Lehrer."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1058,
@@ -4640,7 +7890,17 @@
     ],
     "examples": [],
     "audioUrl": "/audio/en/vocabulary/vocabulary_b1b9a972ccd8.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "10、十",
+        "es": "el número 10",
+        "de": "die Zahl 10"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1184,
@@ -4658,7 +7918,17 @@
     ],
     "examples": [],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "10、十",
+        "es": "el número 10",
+        "de": "die Zahl 10"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1017,
@@ -4682,7 +7952,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_455472b522fd.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "感謝の気持ちを表す言葉",
+        "es": "expresión de gratitud",
+        "de": "Ausdruck der Dankbarkeit"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "元気です、ありがとう。あなたは？",
+            "de": "Mir geht es gut, danke. Und dir?"
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1204,
@@ -4706,7 +7993,24 @@
       }
     ],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "感謝の気持ちを表す表現",
+        "es": "expresión de gratitud",
+        "de": "Ausdruck der Dankbarkeit"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "お値段をありがとうございます。",
+            "de": "Danke für den Preis."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1202,
@@ -4735,7 +8039,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_21582c6c30be.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "あれ、それ（話し手から遠いものを指す）",
+        "es": "se refiere a algo más alejado del hablante",
+        "de": "bezieht sich auf etwas, das weiter vom Sprecher entfernt ist"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "そのシャツはありますか？",
+            "de": "Hast du dieses Hemd?"
+          }
+        },
+        {
+          "translation": {
+            "ja": "あれは夜のパン屋さんのです。",
+            "de": "Das ist nachts von der Bäckerei."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1078,
@@ -4769,7 +8096,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_8fc42c6ddf99.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "特定の名詞や既知の名詞につく定冠詞",
+        "es": "artículo definido para sustantivos específicos o conocidos",
+        "de": "bestimmter Artikel für spezifische oder bekannte Substantive"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "そのテーブルは台所にあります。",
+            "de": "Der Tisch ist in der Küche."
+          }
+        },
+        {
+          "translation": {
+            "ja": "その椅子はテーブルの隣にあります。",
+            "de": "Der Stuhl steht neben dem Tisch."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1114,
@@ -4798,7 +8148,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_0e5243d99655.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "それから、次に、その後",
+        "es": "después de eso; luego",
+        "de": "danach; als nächstes"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "まず、私は9時に起きます。それから、朝食を食べます。その後、学校に行きます。最後に、10時に家に帰ります。",
+            "de": "Zuerst wache ich um neun Uhr auf. Dann frühstücke ich. Danach gehe ich zur Schule. Schließlich gehe ich um zehn Uhr nach Hause."
+          }
+        },
+        {
+          "translation": {
+            "ja": "まず、彼は起きます。次に、昼食を食べます。その後、本を読みます。最後に、寝ます。",
+            "de": "Zuerst steht er auf. Dann isst er zu Mittag. Danach liest er ein Buch. Schließlich geht er ins Bett."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1075,
@@ -4822,7 +8195,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_d850f04cdb48.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "そこ、あそこ、あちら",
+        "es": "en ese lugar",
+        "de": "an jenem Ort"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "こちらがリビングルームです。あちらがバスルームです。",
+            "de": "Hier ist das Wohnzimmer. Dort ist das Badezimmer."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1085,
@@ -4846,7 +8236,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_e64c3132023b.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "物、もの、事柄",
+        "es": "objetos o artículos",
+        "de": "Gegenstände oder Artikel"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "テーブルの上にあるたくさんのものは何ですか？",
+            "de": "Was sind die vielen Dinge auf dem Tisch?"
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1187,
@@ -4864,7 +8271,17 @@
     ],
     "examples": [],
     "audioUrl": "/audio/en/vocabulary/vocabulary_422ecc084f24.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "13、十三",
+        "es": "el número 13",
+        "de": "die Zahl 13"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1201,
@@ -4893,7 +8310,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_9e925e9341b4.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "話し手の近くにあるものや人を指す言葉",
+        "es": "se refiere a algo cerca del hablante",
+        "de": "bezieht sich auf etwas in der Nähe des Sprechers"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "この本をください。",
+            "de": "Ich möchte dieses Buch bitte."
+          }
+        },
+        {
+          "translation": {
+            "ja": "これはあなたのパンではありません。",
+            "de": "Das ist nicht dein Brot."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1007,
@@ -4922,7 +8362,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_2ab00a6ba120.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "（人を紹介するときに使う）こちらは",
+        "es": "se utiliza para presentar a alguien",
+        "de": "wird verwendet, um jemanden vorzustellen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "こちらは私の兄（弟）です。",
+            "de": "Das ist mein Bruder."
+          }
+        },
+        {
+          "translation": {
+            "ja": "おはようございます。こちらは彼の友達です。",
+            "de": "Guten Morgen. Das ist sein Freund."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1051,
@@ -4940,7 +8403,17 @@
     ],
     "examples": [],
     "audioUrl": "/audio/en/vocabulary/vocabulary_35d6d33467aa.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "3、三つ、三",
+        "es": "el número 3",
+        "de": "die Zahl 3"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1177,
@@ -4958,7 +8431,17 @@
     ],
     "examples": [],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "3、三",
+        "es": "el número 3",
+        "de": "die Zahl 3"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1142,
@@ -4982,7 +8465,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_006f87892f47.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "トマト（赤い果実で、野菜としてよく使われる）",
+        "es": "una fruta roja que a menudo se usa como verdura",
+        "de": "eine rote Frucht, die oft als Gemüse verwendet wird"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私はトマトが好きではありません。",
+            "de": "Ich mag keine Tomaten."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1186,
@@ -5000,7 +8500,17 @@
     ],
     "examples": [],
     "audioUrl": "/audio/en/vocabulary/vocabulary_15f6f8dc0365.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "12、十二",
+        "es": "el número 12",
+        "de": "die Zahl 12"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1194,
@@ -5018,7 +8528,17 @@
     ],
     "examples": [],
     "audioUrl": "/audio/en/vocabulary/vocabulary_ab389edaabf8.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "二十",
+        "es": "el número 20",
+        "de": "die Zahl 20"
+      },
+      "examples": []
+    }
   },
   {
     "id": 1050,
@@ -5042,7 +8562,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_b8a9f715dbb6.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "2、二つ、2つ",
+        "es": "el número 2",
+        "de": "die Zahl 2"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私には兄弟が二人います。",
+            "de": "Ich habe zwei Brüder."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1176,
@@ -5066,7 +8603,24 @@
       }
     ],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "2、二",
+        "es": "el número 2",
+        "de": "die Zahl 2"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "そのリンゴは2ユーロです。",
+            "de": "Der Apfel kostet zwei Euro."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1071,
@@ -5090,7 +8644,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_388fa2509025.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "〜の下に、〜の下で",
+        "es": "debajo o por debajo de algo",
+        "de": "unter oder unterhalb von etwas"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "鍵は本の下にあります。",
+            "de": "Die Schlüssel sind unter dem Buch."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1118,
@@ -5124,7 +8695,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_4a1dbf51be36.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "たいてい、通常は、普通は",
+        "es": "la mayor parte del tiempo; normalmente",
+        "de": "meistens; normalerweise"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼女はいつも朝に歯を磨きます。その後、たいていシャワーを浴びます。",
+            "de": "Sie putzt sich immer morgens die Zähne. Danach duscht sie normalerweise."
+          }
+        },
+        {
+          "translation": {
+            "ja": "私はたいてい夕方にテレビを見ます。夜はいつも夕食を作ります。",
+            "de": "Ich schaue normalerweise abends fern. Ich koche immer abends das Abendessen."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1092,
@@ -5148,7 +8742,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_4e604e908ec2.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "目を覚ます、起きる",
+        "es": "dejar de dormir",
+        "de": "aufhören zu schlafen; aufwachen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私は7時に起きます。",
+            "de": "Ich wache um 7:00 Uhr auf."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1098,
@@ -5172,7 +8783,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_c21e479f4e3c.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "テレビを見る",
+        "es": "mirar programas de televisión",
+        "de": "Fernsehprogramme anschauen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私は家に帰ってテレビを見ます。",
+            "de": "Ich gehe nach Hause und schaue fern."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1134,
@@ -5196,7 +8824,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_9460370bb0ca.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "透明な液体で、飲むことができるもの",
+        "es": "líquido transparente que se bebe",
+        "de": "klare Flüssigkeit, die man trinkt"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "夕食には水を飲みます。",
+            "de": "Du trinkst Wasser zu deinem Abendessen."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1013,
@@ -5220,7 +8865,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_4a2028eceac5.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "何、何を、何が",
+        "es": "se utiliza para preguntar sobre algo",
+        "de": "wird verwendet, um nach etwas zu fragen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "あなたの名前は何ですか？",
+            "de": "Wie ist dein Name?"
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1039,
@@ -5249,7 +8911,30 @@
       }
     ],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "何（なに）",
+        "es": "se utiliza para preguntar sobre cosas o información",
+        "de": "wird verwendet, um nach Dingen oder Informationen zu fragen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼の名前は何ですか？",
+            "de": "Wie ist sein Name?"
+          }
+        },
+        {
+          "translation": {
+            "ja": "あなたのお父さんは何をしていますか？",
+            "de": "Was macht dein Vater beruflich?"
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1111,
@@ -5278,7 +8963,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_df491a4de507.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "いつ（時間について尋ねる際に使用）",
+        "es": "se utiliza para preguntar sobre el tiempo",
+        "de": "wird verwendet, um nach der Zeit zu fragen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "あなたはいつ朝食を食べますか？",
+            "de": "Wann isst du Frühstück?"
+          }
+        },
+        {
+          "translation": {
+            "ja": "あなたはいつ歯を磨きますか？",
+            "de": "Wann putzt du dir die Zähne?"
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1073,
@@ -5302,7 +9010,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_567904efe9e6.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "どこ（に、で、へ）",
+        "es": "en qué lugar",
+        "de": "an welchem Ort"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "椅子はどこですか？ベッドの隣です。",
+            "de": "Wo ist der Stuhl? Er steht neben dem Bett."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1112,
@@ -5326,7 +9051,24 @@
       }
     ],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "どこ（場所や位置について尋ねる際に使う）",
+        "es": "se utiliza para preguntar sobre un lugar o ubicación",
+        "de": "wird verwendet, um nach einem Ort oder einer Lage zu fragen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼はどこでテレビを見ますか？",
+            "de": "Wo schaut er fern?"
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1014,
@@ -5350,7 +9092,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_53d670af9bb1.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "誰（だれ）",
+        "es": "se utiliza para preguntar sobre una persona",
+        "de": "wird verwendet, um nach einer Person zu fragen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼は誰ですか？",
+            "de": "Wer ist er?"
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1038,
@@ -5384,7 +9143,30 @@
       }
     ],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "誰（だれ）",
+        "es": "se utiliza para preguntar sobre una persona",
+        "de": "wird verwendet, um nach einer Person zu fragen"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "あなたのお母さんは誰ですか？",
+            "de": "Wer ist deine Mutter?"
+          }
+        },
+        {
+          "translation": {
+            "ja": "彼女の兄弟は誰ですか？",
+            "de": "Wer ist ihr Bruder?"
+          }
+        }
+      ]
+    }
   },
   {
     "id": 999,
@@ -5413,7 +9195,30 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_639bae9ac6b3.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "あなた（話し相手を指す二人称代名詞）",
+        "es": "la persona a la que se le habla",
+        "de": "die Person, die angesprochen wird"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "あなたは私の友達です。",
+            "de": "Du bist mein Freund."
+          }
+        },
+        {
+          "translation": {
+            "ja": "さようなら、あなたは先生です。",
+            "de": "Auf Wiedersehen, du bist ein Lehrer."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1025,
@@ -5442,7 +9247,30 @@
       }
     ],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "二人称単数または複数の代名詞（あなた、あなたたち、君、君たちなど）",
+        "es": "pronombre de segunda persona singular o plural",
+        "de": "Personalpronomen der zweiten Person Singular oder Plural"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "あなたは私の友達です。",
+            "de": "Du bist mein Freund."
+          }
+        },
+        {
+          "translation": {
+            "ja": "あなたは私の兄弟です。",
+            "de": "Du bist mein Bruder."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1200,
@@ -5466,7 +9294,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_46caea8789bc.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "持っているかどうかを尋ねる",
+        "es": "preguntar si alguien posee algo",
+        "de": "um zu fragen, ob jemand etwas besitzt"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "そのシャツを持っていますか？",
+            "de": "Hast du dieses Hemd?"
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1047,
@@ -5490,7 +9335,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_f6182f0359f7.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "若い",
+        "es": "no viejo; que ha vivido por poco tiempo",
+        "de": "nicht alt; nur kurze Zeit gelebt habend"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "彼女の姉妹たちは若いです。",
+            "de": "Ihre Schwestern sind jung."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1002,
@@ -5514,7 +9376,24 @@
       }
     ],
     "audioUrl": "/audio/en/vocabulary/vocabulary_62cc0b4ebb0b.mp3",
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "あなたの",
+        "es": "que te pertenece",
+        "de": "dir gehörend"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "私はあなたの友達です。",
+            "de": "Ich bin dein Freund."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1035,
@@ -5543,7 +9422,30 @@
       }
     ],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "あなたの、君の、お前の（所有を表す）",
+        "es": "que te pertenece",
+        "de": "dir gehörend"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "あなたのお父さんは背が高いです。",
+            "de": "Dein Vater ist groß."
+          }
+        },
+        {
+          "translation": {
+            "ja": "私の祖父はあなたの友達です。",
+            "de": "Mein Großvater ist dein Freund."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1122,
@@ -5567,7 +9469,24 @@
       }
     ],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "あなたの",
+        "es": "que te pertenece",
+        "de": "dir gehörend"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "あなたのバスルームはきれいです。",
+            "de": "Dein Badezimmer ist sauber."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1206,
@@ -5591,6 +9510,23 @@
       }
     ],
     "audioUrl": null,
-    "language_id": 6
+    "language_id": 6,
+    "content_translations": {
+      "title": {},
+      "explanation": {},
+      "meaning": {
+        "ja": "あなたの",
+        "es": "que te pertenece",
+        "de": "dir gehörend"
+      },
+      "examples": [
+        {
+          "translation": {
+            "ja": "これはあなたのパンではありません。",
+            "de": "Das ist nicht dein Brot."
+          }
+        }
+      ]
+    }
   }
 ]

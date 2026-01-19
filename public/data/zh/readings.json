@@ -10,36 +10,49 @@
       {
         "question": "What time does the speaker wake up?",
         "options": [
-          null
+          "5 o'clock",
+          "6 o'clock",
+          "7 o'clock",
+          "8 o'clock"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What does the speaker like to eat for breakfast?",
         "options": [
-          null
+          "Rice and tea",
+          "Bread and milk",
+          "Noodles and water",
+          "Eggs and juice"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "How many classes does the speaker have in the morning?",
         "options": [
-          null
+          "Two",
+          "Three",
+          "Four",
+          "Five"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "Where does the speaker go after school?",
         "options": [
-          null
+          "Home",
+          "Park",
+          "Library",
+          "Restaurant"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 20,
@@ -52,36 +65,49 @@
       {
         "question": "What is the speaker's name?",
         "options": [
-          null
+          "王伟",
+          "李明",
+          "张华",
+          "刘洋"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "How old is the speaker?",
         "options": [
-          null
+          "18 years old",
+          "19 years old",
+          "20 years old",
+          "21 years old"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What does the speaker study?",
         "options": [
-          null
+          "Chinese",
+          "English",
+          "Math",
+          "History"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Where does the speaker's family live?",
         "options": [
-          null
+          "Shanghai",
+          "Guangzhou",
+          "Beijing",
+          "Shenzhen"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 22,
@@ -94,36 +120,49 @@
       {
         "question": "What day is it?",
         "options": [
-          null
+          "Friday",
+          "Saturday",
+          "Sunday",
+          "Monday"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "How long did they wait?",
         "options": [
-          null
+          "5 minutes",
+          "10 minutes",
+          "15 minutes",
+          "20 minutes"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What did the speaker order?",
         "options": [
-          null
+          "Noodles and tea",
+          "Rice and braised pork",
+          "Dumplings and soup",
+          "Fried rice and vegetables"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "How much did they pay?",
         "options": [
-          null
+          "100 yuan",
+          "120 yuan",
+          "150 yuan",
+          "200 yuan"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 23,
@@ -136,36 +175,49 @@
       {
         "question": "How is the weather today?",
         "options": [
-          null
+          "Rainy",
+          "Cold",
+          "Nice",
+          "Hot"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What happened yesterday?",
         "options": [
-          null
+          "It was sunny",
+          "It rained",
+          "It snowed",
+          "It was windy"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "How long did they stay in the park?",
         "options": [
-          null
+          "One hour",
+          "Two hours",
+          "Three hours",
+          "Half an hour"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What will the weather be like tomorrow?",
         "options": [
-          null
+          "Sunny",
+          "Cloudy",
+          "Rainy",
+          "Snowy"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 24,
@@ -178,36 +230,49 @@
       {
         "question": "What are the speaker's hobbies?",
         "options": [
-          null
+          "Reading and writing",
+          "Painting and playing guitar",
+          "Singing and dancing",
+          "Swimming and running"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What does the speaker like to paint?",
         "options": [
-          null
+          "People and buildings",
+          "Landscapes and animals",
+          "Food and flowers",
+          "Cars and planes"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "When did the speaker start learning guitar?",
         "options": [
-          null
+          "This year",
+          "Last year",
+          "Two years ago",
+          "When they were young"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Why does the speaker think hobbies are important?",
         "options": [
-          null
+          "To make money",
+          "To be famous",
+          "To relax and meet friends",
+          "To stay healthy"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 25,
@@ -220,36 +285,49 @@
       {
         "question": "According to the passage, what problems affect our lives?",
         "options": [
-          null
+          "Economic problems",
+          "Air and water pollution",
+          "Traffic problems",
+          "Housing problems"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What transportation does the passage suggest using?",
         "options": [
-          null
+          "Private cars",
+          "Airplanes",
+          "Bicycles and public transport",
+          "Taxis"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What should we do when shopping?",
         "options": [
-          null
+          "Buy more things",
+          "Bring our own bags",
+          "Use more plastic bags",
+          "Shop online only"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "According to the passage, protecting the environment requires:",
         "options": [
-          null
+          "Government action only",
+          "Individual effort only",
+          "Everyone's joint effort",
+          "Technology development"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 26,
@@ -262,36 +340,49 @@
       {
         "question": "How has online shopping changed people's lives?",
         "options": [
-          null
+          "It's more expensive",
+          "You can buy things without leaving home",
+          "It's slower than before",
+          "You can only buy local products"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What has mobile payment changed?",
         "options": [
-          null
+          "Working habits",
+          "Eating habits",
+          "Consumption habits",
+          "Exercise habits"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What problem does phone addiction cause?",
         "options": [
-          null
+          "It costs too much money",
+          "It affects face-to-face communication",
+          "It makes people sick",
+          "It wastes electricity"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What is the author's attitude toward technology?",
         "options": [
-          null
+          "Completely against it",
+          "Completely supportive",
+          "We should use it reasonably",
+          "Technology is dangerous"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 27,
@@ -304,36 +395,49 @@
       {
         "question": "What does the Spring Festival represent?",
         "options": [
-          null
+          "Family reunion",
+          "Bidding farewell to the old and welcoming the new",
+          "Commemorating ancestors",
+          "Harvest season"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What do people do during the Mid-Autumn Festival?",
         "options": [
-          null
+          "Set off firecrackers",
+          "Race dragon boats",
+          "Admire the moon and eat mooncakes",
+          "Put up spring couplets"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "Who does the Dragon Boat Festival commemorate?",
         "options": [
-          null
+          "Confucius",
+          "Qu Yuan",
+          "Li Bai",
+          "Emperor Qin"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "According to the passage, what is the problem with traditional festivals today?",
         "options": [
-          null
+          "They cost too much money",
+          "Young people are losing interest",
+          "They are too complicated",
+          "They last too long"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 28,
@@ -346,36 +450,49 @@
       {
         "question": "According to the passage, what can cause anxiety and depression?",
         "options": [
-          null
+          "Low salary",
+          "Long working hours and complex relationships",
+          "Boring work",
+          "Bad weather"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What effects can long-term high pressure have?",
         "options": [
-          null
+          "Better performance",
+          "Promotion opportunities",
+          "Sleep and appetite problems",
+          "Higher income"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What do experts recommend for stress relief?",
         "options": [
-          null
+          "Work harder",
+          "Change jobs frequently",
+          "Exercise regularly and have hobbies",
+          "Avoid social activities"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What should companies do according to the passage?",
         "options": [
-          null
+          "Give more work to employees",
+          "Pay attention to employees' mental health",
+          "Reduce employees' salary",
+          "Make work more competitive"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 29,
@@ -388,36 +505,49 @@
       {
         "question": "According to the passage, which fields has AI penetrated?",
         "options": [
-          null
+          "Only technology companies",
+          "Only medical field",
+          "Various aspects of life",
+          "Only entertainment"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What is one benefit of AI mentioned in the passage?",
         "options": [
-          null
+          "It makes everything free",
+          "It improves production efficiency",
+          "It replaces all human work",
+          "It eliminates all diseases"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Who might be most affected by automation?",
         "options": [
-          null
+          "Creative workers",
+          "Workers doing simple repetitive tasks",
+          "Company executives",
+          "Government officials"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What does the author suggest we should do?",
         "options": [
-          null
+          "Stop developing AI completely",
+          "Let AI develop without restrictions",
+          "Establish ethical frameworks and laws",
+          "Only use AI in certain fields"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 30,
@@ -430,36 +560,49 @@
       {
         "question": "What is one positive effect of globalization on culture?",
         "options": [
-          null
+          "It eliminates all differences",
+          "It promotes cultural exchange",
+          "It makes all cultures the same",
+          "It stops cultural development"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What threat does globalization pose to minority cultures?",
         "options": [
-          null
+          "It makes them more popular",
+          "It threatens their survival space",
+          "It helps them spread globally",
+          "It makes them wealthier"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "According to experts, what does cultural confidence mean?",
         "options": [
-          null
+          "Rejecting all foreign cultures",
+          "Abandoning traditional culture",
+          "Dialogue with other cultures while understanding one's own",
+          "Copying dominant cultures"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What is the main challenge countries face according to the passage?",
         "options": [
-          null
+          "Stopping globalization",
+          "Finding balance between openness and protection",
+          "Adopting only one culture",
+          "Eliminating cultural diversity"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 32,
@@ -472,36 +615,49 @@
       {
         "question": "What is Sartre's main thesis mentioned in the passage?",
         "options": [
-          null
+          "Essence precedes existence",
+          "Existence precedes essence",
+          "Life is meaningless",
+          "Freedom is an illusion"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "According to Heidegger, what do people often do in daily life?",
         "options": [
-          null
+          "Question existence constantly",
+          "Fall into mundane routines and forget to question existence",
+          "Live meaningful lives",
+          "Reject consumerism"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What problem does the passage identify in contemporary society?",
         "options": [
-          null
+          "Material poverty",
+          "Material abundance but spiritual impoverishment",
+          "Too much philosophy",
+          "Lack of freedom"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What does the reference to Sisyphus represent?",
         "options": [
-          null
+          "The futility of life",
+          "Finding happiness despite life's absurdity",
+          "The need to escape reality",
+          "Physical strength"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 31,
@@ -514,35 +670,48 @@
       {
         "question": "What criticism does the passage make about modern readers?",
         "options": [
-          null
+          "They read too slowly",
+          "They read mostly for fame and fortune",
+          "They read too many books",
+          "They don't understand Chinese"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "According to the passage, what is the first step in proper reading?",
         "options": [
-          null
+          "Buy expensive books",
+          "Read as fast as possible",
+          "Clarify the purpose and know what you need",
+          "Read only classical texts"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What does 'ancient scholars studied for themselves' mean?",
         "options": [
-          null
+          "They were selfish",
+          "They internalized all learning in their hearts",
+          "They didn't share knowledge",
+          "They only read alone"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Who is quoted as an example of a true reader?",
         "options": [
-          null
+          "Confucius",
+          "Tao Yuanming",
+          "Li Bai",
+          "Mencius"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   }
 ]

@@ -119,8 +119,8 @@
     "typeReading": "Введите чтение...",
     "showInfo": "Показать информацию",
     "noKanji": "Нет доступных кандзи.",
-    "onyomi": "音読み",
-    "kunyomi": "訓読み",
+    "onyomi": "Онъёми",
+    "kunyomi": "Кунъёми",
     "pinyin": "Пиньинь",
     "filters": {
       "n5": "JLPT N5",

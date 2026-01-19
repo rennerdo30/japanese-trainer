@@ -6,8 +6,10 @@ import {
   isKokoroLoaded,
   isKokoroLoading,
   speakWithKokoro,
+  generateKokoroAudio,
   loadKokoroModel,
   checkKokoroSupport,
+  isKokoroSupportedLanguage,
 } from '@/lib/kokoroTTS';
 import { isMobileDevice } from '@/lib/mobileDetection';
 
@@ -31,6 +33,10 @@ type TTSTier = 'pregenerated' | 'kokoro' | 'webspeech';
 const audioPreloadCache = new Map<string, HTMLAudioElement>();
 const MAX_CACHE_SIZE = 50; // Limit cache to prevent memory issues
 
+// Kokoro audio cache (text -> blobUrl)
+const kokoroCache = new Map<string, string>();
+const MAX_KOKORO_CACHE_SIZE = 20;
+
 /**
  * Clean up old cache entries if cache exceeds max size
  */
@@ -40,6 +46,15 @@ function trimCache() {
     const keysToRemove = Array.from(audioPreloadCache.keys()).slice(0, 10);
     for (const key of keysToRemove) {
       audioPreloadCache.delete(key);
+    }
+  }
+
+  if (kokoroCache.size > MAX_KOKORO_CACHE_SIZE) {
+    const keysToRemove = Array.from(kokoroCache.keys()).slice(0, 5);
+    for (const key of keysToRemove) {
+      const url = kokoroCache.get(key);
+      if (url) URL.revokeObjectURL(url);
+      kokoroCache.delete(key);
     }
   }
 }
@@ -130,11 +145,33 @@ export function useTTS() {
   );
 
   /**
+   * Preload Kokoro audio for a given text
+   */
+  const preloadKokoro = useCallback(async (text: string, lang: string) => {
+    if (
+      typeof window === 'undefined' ||
+      !isKokoroLoaded() ||
+      !isKokoroSupportedLanguage(lang) ||
+      kokoroCache.has(text)
+    ) {
+      return;
+    }
+
+    try {
+      const url = await generateKokoroAudio(text);
+      kokoroCache.set(text, url);
+      trimCache();
+    } catch (error) {
+      console.warn('Failed to preload Kokoro audio:', error);
+    }
+  }, []);
+
+  /**
    * Preload multiple audio files in batch (e.g., next 5 vocabulary items)
    * This is useful for preloading upcoming content while user is viewing current content
    */
   const preloadBatch = useCallback(
-    (audioUrls: (string | undefined | null)[]): void => {
+    (audioUrls: (string | undefined | null)[], texts: string[] = [], lang?: string): void => {
       if (typeof window === 'undefined') {
         return;
       }
@@ -148,8 +185,18 @@ export function useTTS() {
       for (const url of urlsToPreload) {
         preloadAudio(url);
       }
+
+      // Preload Kokoro for texts if no audio URL is available
+      if (lang && isKokoroLoaded() && isKokoroSupportedLanguage(lang)) {
+        texts.forEach((text, index) => {
+          // Only preload kokoro if there is no audio URL for this item
+          if (!audioUrls[index]) {
+            preloadKokoro(text, lang);
+          }
+        });
+      }
     },
-    [preloadAudio]
+    [preloadAudio, preloadKokoro]
   );
 
   // Tier 1: Play pre-generated audio file (uses cache if available)
@@ -191,6 +238,33 @@ export function useTTS() {
     []
   );
 
+  // Helper to play a blob URL (for Kokoro)
+  const playBlobUrl = useCallback(
+    async (blobUrl: string, volume: number, rate: number): Promise<void> => {
+      return new Promise((resolve, reject) => {
+        const audio = new Audio(blobUrl);
+        audio.volume = volume;
+        // Note: playbackRate might need more handling for pitch correction if significantly altered,
+        // but for basic speed it works.
+        audio.playbackRate = rate;
+        audioRef.current = audio;
+
+        audio.onended = () => {
+          audioRef.current = null;
+          resolve();
+        };
+
+        audio.onerror = () => {
+          audioRef.current = null;
+          reject(new Error('Failed to play blob audio'));
+        };
+
+        audio.play().catch(reject);
+      });
+    },
+    []
+  );
+
   // Tier 3: Web Speech API fallback
   const speakWithWebSpeech = useCallback(
     (text: string, options: TTSOptions, defaultLang: string): Promise<void> => {
@@ -202,6 +276,9 @@ export function useTTS() {
           reject(new Error('Web Speech API not available'));
           return;
         }
+
+        // Cancel existing speech to prevent queueing weirdness
+        window.speechSynthesis.cancel();
 
         const utterance = new SpeechSynthesisUtterance(text);
         utterance.lang = options.lang || defaultLang;
@@ -216,7 +293,21 @@ export function useTTS() {
 
         utterance.onerror = (event) => {
           utteranceRef.current = null;
-          reject(new Error(`Web Speech error: ${event.error}`));
+
+          // Specific handling for "canceled" or "interrupted" error
+          // This often happens when we call cancel() or start a new speech, 
+          // effectively it's not a "failure" of the system, just this specific utterance.
+          if (event.error === 'canceled' || event.error === 'interrupted') {
+            // We resolve immediately because it was intentionally stopped.
+            // Or we could reject with a specific error code if we want the caller to know.
+            // In the context of a fallback chain, if it was canceled, we probably don't want to fallback further?
+            // Actually, if it was canceled, it means the USER stopped it or a new one started.
+            // So resolving is probably safest to stop the chain.
+            console.log('Web Speech canceled');
+            resolve();
+          } else {
+            reject(new Error(`Web Speech error: ${event.error}`));
+          }
         };
 
         utteranceRef.current = utterance;
@@ -245,12 +336,25 @@ export function useTTS() {
         }
       }
 
-      // Tier 2: Kokoro (if model loaded - English only)
-      if (isKokoroLoaded()) {
+      // Tier 2: Kokoro (if model loaded and supported)
+      if (isKokoroLoaded() && isKokoroSupportedLanguage(lang)) {
         try {
-          await speakWithKokoro(text, undefined, volume);
+          // Check cache first
+          if (kokoroCache.has(text)) {
+            await playBlobUrl(kokoroCache.get(text)!, volume, rate);
+            return 'kokoro';
+          }
+
+          // Generate and cache
+          const blobUrl = await generateKokoroAudio(text);
+          kokoroCache.set(text, blobUrl);
+          trimCache();
+
+          await playBlobUrl(blobUrl, volume, rate);
+
           return 'kokoro';
-        } catch {
+        } catch (e) {
+          console.warn('Kokoro generation failed, falling back', e);
           // Fall through to next tier
         }
       }
@@ -259,7 +363,7 @@ export function useTTS() {
       await speakWithWebSpeech(text, { ...options, volume }, lang);
       return 'webspeech';
     },
-    [playPregenerated, speakWithWebSpeech]
+    [playPregenerated, speakWithWebSpeech, playBlobUrl]
   );
 
   // Main speak function with 3-tier fallback
@@ -293,6 +397,10 @@ export function useTTS() {
           const tier = await executeTTSFallback(text, options, lang, volume, rate);
           setLastUsedTier(tier);
         } catch (error) {
+          // Only log legitimate errors, ignore expected cancellations if any bubble up
+          if (error instanceof Error && error.message.includes('canceled')) {
+            return;
+          }
           console.warn('All TTS tiers failed:', error);
         } finally {
           setIsPlaying(false);
@@ -331,6 +439,9 @@ export function useTTS() {
         const tier = await executeTTSFallback(text, options, lang, volume, rate);
         setLastUsedTier(tier);
       } catch (error) {
+        if (error instanceof Error && error.message.includes('canceled')) {
+          return;
+        }
         console.warn('All TTS tiers failed:', error);
       } finally {
         setIsPlaying(false);
@@ -359,7 +470,8 @@ export function useTTS() {
     speak,
     speakAndWait,
     preloadAudio,
-    preloadBatch,
+    preloadBatch, // Now supports Kokoro preloading implicitly if we add the logic
+    preloadKokoro, // Exposed for specific use cases
     cancel,
     stop,
     isPlaying,

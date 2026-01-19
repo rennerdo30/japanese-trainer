@@ -32,15 +32,18 @@
         "type": "fill-blank",
         "question": "Noi ___ due gatti.",
         "options": [
-          null
+          "ha",
+          "ho",
+          "abbiamo"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "level": "A1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 15,
@@ -76,15 +79,18 @@
         "type": "fill-blank",
         "question": "___ studente è bravo.",
         "options": [
-          null
+          "Il",
+          "Lo",
+          "La"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "A1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 19,
@@ -119,15 +125,18 @@
         "type": "fill-blank",
         "question": "Tu ___ simpatico.",
         "options": [
-          null
+          "è",
+          "sei",
+          "sono"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "A1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 17,
@@ -160,15 +169,18 @@
         "type": "fill-blank",
         "question": "___ macchina è rossa.",
         "options": [
-          null
+          "Il",
+          "La",
+          "Lo"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "A1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 16,
@@ -201,15 +213,18 @@
         "type": "fill-blank",
         "question": "Ho ___ idea!",
         "options": [
-          null
+          "un",
+          "una",
+          "un'"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "level": "A1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 21,
@@ -239,15 +254,18 @@
         "type": "fill-blank",
         "question": "Io ___ capisco.",
         "options": [
-          null
+          "no",
+          "non",
+          "niente"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "A1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 18,
@@ -279,15 +297,18 @@
         "type": "fill-blank",
         "question": "I ___ sono buoni. (libro)",
         "options": [
-          null
+          "libro",
+          "libri",
+          "libre"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "A1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 23,
@@ -321,15 +342,18 @@
         "type": "fill-blank",
         "question": "Il libro è ___ tavolo.",
         "options": [
-          null
+          "di",
+          "a",
+          "sul"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "level": "A1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 14,
@@ -361,7 +385,9 @@
         "type": "fill-blank",
         "question": "Io ___ italiano. (parlare)",
         "options": [
-          null
+          "parlo",
+          "parli",
+          "parla"
         ],
         "correct": 0
       }
@@ -369,7 +395,8 @@
     "level": "A1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 22,
@@ -401,7 +428,9 @@
         "type": "fill-blank",
         "question": "___ abiti?",
         "options": [
-          null
+          "Dove",
+          "Come",
+          "Quando"
         ],
         "correct": 0
       }
@@ -409,7 +438,8 @@
     "level": "A1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 234,
@@ -442,7 +472,9 @@
         "type": "fill-blank",
         "question": "Il libro? ___ presto domani. (to you)",
         "options": [
-          null
+          "Te lo",
+          "Ti lo",
+          "Lo ti"
         ],
         "correct": 0
       },
@@ -450,15 +482,18 @@
         "type": "fill-blank",
         "question": "La notizia? ___ dico subito. (to him)",
         "options": [
-          null
+          "Gli la",
+          "Gliela",
+          "Le lo"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "A2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 231,
@@ -491,7 +526,9 @@
         "type": "fill-blank",
         "question": "Il treno è più veloce ___ l'autobus.",
         "options": [
-          null
+          "di",
+          "che",
+          "come"
         ],
         "correct": 0
       },
@@ -499,15 +536,18 @@
         "type": "fill-blank",
         "question": "Questo libro è più interessante ___ lungo.",
         "options": [
-          null
+          "di",
+          "che",
+          "quanto"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "A2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 229,
@@ -539,7 +579,9 @@
         "type": "fill-blank",
         "question": "Il caffè? ___ bevo ogni mattina.",
         "options": [
-          null
+          "Lo",
+          "La",
+          "Li"
         ],
         "correct": 0
       },
@@ -547,15 +589,18 @@
         "type": "fill-blank",
         "question": "Le lettere? ___ ho spedite ieri.",
         "options": [
-          null
+          "Lo",
+          "Le",
+          "Li"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "A2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 233,
@@ -587,23 +632,28 @@
         "type": "fill-blank",
         "question": "L'estate prossima ___ (andare) in vacanza in Grecia.",
         "options": [
-          null
+          "vado",
+          "andrò",
+          "sono andato"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "type": "fill-blank",
         "question": "Quando ___ (finire) il corso?",
         "options": [
-          null
+          "finisco",
+          "ho finito",
+          "finirà"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "level": "A2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 227,
@@ -635,15 +685,19 @@
         "type": "fill-blank",
         "question": "Da bambino ___ (andare) sempre al mare d'estate.",
         "options": [
-          null
+          "sono andato",
+          "andavo",
+          "vado"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "type": "fill-blank",
         "question": "Mentre io ___ (dormire), ha suonato il telefono.",
         "options": [
-          null
+          "dormivo",
+          "ho dormito",
+          "dormirò"
         ],
         "correct": 0
       }
@@ -651,7 +705,8 @@
     "level": "A2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 230,
@@ -683,23 +738,28 @@
         "type": "fill-blank",
         "question": "Ho telefonato a Marco. ___ ho telefonato ieri.",
         "options": [
-          null
+          "Lo",
+          "Gli",
+          "Le"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "type": "fill-blank",
         "question": "Cosa ___ hai detto a Maria?",
         "options": [
-          null
+          "la",
+          "le",
+          "gli"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "A2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 225,
@@ -734,7 +794,9 @@
         "type": "fill-blank",
         "question": "Ieri ___ (mangiare) al ristorante.",
         "options": [
-          null
+          "ho mangiato",
+          "sono mangiato",
+          "mangiavo"
         ],
         "correct": 0
       },
@@ -742,15 +804,18 @@
         "type": "fill-blank",
         "question": "Maria ___ (comprare) un libro nuovo.",
         "options": [
-          null
+          "è comprata",
+          "ha comprato",
+          "comprava"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "A2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 226,
@@ -785,23 +850,28 @@
         "type": "fill-blank",
         "question": "Luca ___ (andare) a Roma.",
         "options": [
-          null
+          "ha andato",
+          "è andato",
+          "andava"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "type": "fill-blank",
         "question": "Le ragazze ___ (arrivare) in ritardo.",
         "options": [
-          null
+          "hanno arrivato",
+          "sono arrivate",
+          "arrivavano"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "A2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 228,
@@ -836,7 +906,9 @@
         "type": "fill-blank",
         "question": "La mattina ___ (alzarsi) sempre presto.",
         "options": [
-          null
+          "mi alzo",
+          "alzo",
+          "alzarmi"
         ],
         "correct": 0
       },
@@ -844,15 +916,18 @@
         "type": "fill-blank",
         "question": "Ieri sera loro ___ (addormentarsi) tardi.",
         "options": [
-          null
+          "hanno addormentato",
+          "si sono addormentati",
+          "addormentavano"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "A2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 232,
@@ -884,15 +959,19 @@
         "type": "fill-blank",
         "question": "Maria è ___ studentessa più brava della classe.",
         "options": [
-          null
+          "il",
+          "la",
+          "una"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "type": "fill-blank",
         "question": "Questa pizza è ___!",
         "options": [
-          null
+          "buonissima",
+          "più buona",
+          "la buona"
         ],
         "correct": 0
       }
@@ -900,7 +979,8 @@
     "level": "A2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 25,
@@ -932,15 +1012,18 @@
         "type": "fill-blank",
         "question": "___ venire con noi domani? (potere, tu)",
         "options": [
-          null
+          "Puoi",
+          "Potresti",
+          "Potevi"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "B1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 24,
@@ -973,15 +1056,18 @@
         "type": "fill-blank",
         "question": "Penso che Maria ___ molto brava. (essere)",
         "options": [
-          null
+          "è",
+          "sia",
+          "sono"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "B1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 27,
@@ -1014,7 +1100,9 @@
         "type": "fill-blank",
         "question": "Il quadro ___ dipinto da Michelangelo.",
         "options": [
-          null
+          "è",
+          "ha",
+          "sta"
         ],
         "correct": 0
       }
@@ -1022,7 +1110,8 @@
     "level": "B1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 26,
@@ -1054,7 +1143,9 @@
         "type": "fill-blank",
         "question": "La casa ___ ho comprato è grande.",
         "options": [
-          null
+          "che",
+          "cui",
+          "quale"
         ],
         "correct": 0
       }
@@ -1062,7 +1153,8 @@
     "level": "B1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 29,
@@ -1094,15 +1186,18 @@
         "type": "fill-blank",
         "question": "Se avessi studiato, ___ l'esame. (superare)",
         "options": [
-          null
+          "supero",
+          "avrei superato",
+          "superavo"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "B2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 28,
@@ -1134,15 +1229,18 @@
         "type": "fill-blank",
         "question": "Se io ___ ricco, comprerei una villa. (essere)",
         "options": [
-          null
+          "sono",
+          "fossi",
+          "sarò"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "B2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 30,
@@ -1176,7 +1274,9 @@
         "type": "fill-blank",
         "question": "___ piova, andremo al parco.",
         "options": [
-          null
+          "Benché",
+          "Perché",
+          "Quando"
         ],
         "correct": 0
       }
@@ -1184,7 +1284,8 @@
     "level": "B2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 31,
@@ -1217,15 +1318,18 @@
         "type": "fill-blank",
         "question": "Marco ha detto che ___ molto stanco. (essere)",
         "options": [
-          null
+          "è",
+          "era",
+          "sarà"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "B2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 32,
@@ -1258,7 +1362,9 @@
         "type": "fill-blank",
         "question": "Michelangelo ___ la Cappella Sistina. (dipingere)",
         "options": [
-          null
+          "dipinse",
+          "ha dipinto",
+          "dipingeva"
         ],
         "correct": 0
       }
@@ -1266,7 +1372,8 @@
     "level": "C1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 33,
@@ -1298,15 +1405,18 @@
         "type": "fill-blank",
         "question": "Se ___ prima, avrei finito il lavoro. (svegliarsi)",
         "options": [
-          null
+          "mi sveglio",
+          "mi fossi svegliato",
+          "mi svegliavo"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "C1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 34,
@@ -1339,7 +1449,9 @@
         "type": "fill-blank",
         "question": "___ molto stanco, decise di continuare.",
         "options": [
-          null
+          "Pur essendo",
+          "Quando era",
+          "Perché era"
         ],
         "correct": 0
       }
@@ -1347,7 +1459,8 @@
     "level": "C1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 35,
@@ -1379,15 +1492,18 @@
         "type": "fill-blank",
         "question": "Appena ___ mangiato, uscì. (avere, passato remoto)",
         "options": [
-          null
+          "aveva",
+          "ebbe",
+          "ha"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "C1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 38,
@@ -1420,15 +1536,18 @@
         "type": "fill-blank",
         "question": "La pizza, ___ mangiata tutta.",
         "options": [
-          null
+          "ho",
+          "l'ho",
+          "è"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "C2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 37,
@@ -1462,15 +1581,18 @@
         "type": "fill-blank",
         "question": "'___ fu' is the famous opening of Manzoni's poem about Napoleon.",
         "options": [
-          null
+          "Lui",
+          "Ei",
+          "Egli"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "C2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 36,
@@ -1503,7 +1625,9 @@
         "type": "fill-blank",
         "question": "___ di compilare il modulo in ogni sua parte.",
         "options": [
-          null
+          "Si prega",
+          "Preghiamo",
+          "Prego"
         ],
         "correct": 0
       }
@@ -1511,7 +1635,8 @@
     "level": "C2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 213,
@@ -1525,7 +1650,8 @@
     "level": "a1",
     "framework": null,
     "audioUrl": "",
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 201,
@@ -1539,7 +1665,8 @@
     "level": "a1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 214,
@@ -1553,7 +1680,8 @@
     "level": "a1",
     "framework": null,
     "audioUrl": "",
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 199,
@@ -1567,7 +1695,8 @@
     "level": "a1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 212,
@@ -1581,7 +1710,8 @@
     "level": "a1",
     "framework": null,
     "audioUrl": "",
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 200,
@@ -1595,7 +1725,8 @@
     "level": "a1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 216,
@@ -1609,7 +1740,8 @@
     "level": "a2",
     "framework": null,
     "audioUrl": "",
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 202,
@@ -1623,7 +1755,8 @@
     "level": "a2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 203,
@@ -1637,7 +1770,8 @@
     "level": "a2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 215,
@@ -1651,7 +1785,8 @@
     "level": "a2",
     "framework": null,
     "audioUrl": "",
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 218,
@@ -1665,7 +1800,8 @@
     "level": "b1",
     "framework": null,
     "audioUrl": "",
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 205,
@@ -1679,7 +1815,8 @@
     "level": "b1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 217,
@@ -1693,7 +1830,8 @@
     "level": "b1",
     "framework": null,
     "audioUrl": "",
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 204,
@@ -1707,7 +1845,8 @@
     "level": "b1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 220,
@@ -1721,7 +1860,8 @@
     "level": "b2",
     "framework": null,
     "audioUrl": "",
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 219,
@@ -1735,7 +1875,8 @@
     "level": "b2",
     "framework": null,
     "audioUrl": "",
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 206,
@@ -1749,7 +1890,8 @@
     "level": "b2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 207,
@@ -1763,7 +1905,8 @@
     "level": "b2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 222,
@@ -1777,7 +1920,8 @@
     "level": "c1",
     "framework": null,
     "audioUrl": "",
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 221,
@@ -1791,7 +1935,8 @@
     "level": "c1",
     "framework": null,
     "audioUrl": "",
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 208,
@@ -1805,7 +1950,8 @@
     "level": "c1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 209,
@@ -1819,7 +1965,8 @@
     "level": "c1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 210,
@@ -1833,7 +1980,8 @@
     "level": "c2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 211,
@@ -1847,7 +1995,8 @@
     "level": "c2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 224,
@@ -1861,7 +2010,8 @@
     "level": "c2",
     "framework": null,
     "audioUrl": "",
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 223,
@@ -1875,6 +2025,7 @@
     "level": "c2",
     "framework": null,
     "audioUrl": "",
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   }
 ]

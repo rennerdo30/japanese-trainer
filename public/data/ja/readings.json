@@ -10,22 +10,27 @@
       {
         "question": "社会構造の変化の原因は何ですか？",
         "options": [
-          null
+          "技術革新",
+          "デジタル化",
+          "両方"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "企業は何を確立する必要がありますか？",
         "options": [
-          null
+          "従来のモデル",
+          "新たな戦略",
+          "古いシステム"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "/audio/reading/465f5f9b.mp3",
-    "language_id": 1
+    "language_id": 1,
+    "content_translations": null
   },
   {
     "id": 5,
@@ -38,14 +43,18 @@
       {
         "question": "企業は何をすべきですか？",
         "options": [
-          null
+          "利益だけを追求する",
+          "社会的責任を果たす",
+          "環境を無視する"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "持続可能な発展のために何が必要ですか？",
         "options": [
-          null
+          "経済と環境のバランス",
+          "経済だけを重視する",
+          "環境だけを重視する"
         ],
         "correct": 0
       }
@@ -53,7 +62,8 @@
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "/audio/reading/21178b7b.mp3",
-    "language_id": 1
+    "language_id": 1,
+    "content_translations": null
   },
   {
     "id": 4,
@@ -66,14 +76,18 @@
       {
         "question": "環境問題の原因は何ですか？",
         "options": [
-          null
+          "リサイクル",
+          "地球温暖化",
+          "節約"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "何をする必要がありますか？",
         "options": [
-          null
+          "リサイクルを促進する",
+          "問題を無視する",
+          "何もしない"
         ],
         "correct": 0
       }
@@ -81,7 +95,8 @@
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "/audio/reading/13fa35fd.mp3",
-    "language_id": 1
+    "language_id": 1,
+    "content_translations": null
   },
   {
     "id": 3,
@@ -94,22 +109,27 @@
       {
         "question": "何を作りましたか？",
         "options": [
-          null
+          "中華料理",
+          "日本料理",
+          "イタリア料理"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "料理はどうでしたか？",
         "options": [
-          null
+          "簡単だった",
+          "難しかった",
+          "つまらなかった"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "/audio/reading/cc9e4692.mp3",
-    "language_id": 1
+    "language_id": 1,
+    "content_translations": null
   },
   {
     "id": 1,
@@ -122,29 +142,36 @@
       {
         "question": "何時に起きますか？",
         "options": [
-          null
+          "六時",
+          "七時",
+          "八時"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "学校で何を勉強しますか？",
         "options": [
-          null
+          "英語",
+          "日本語",
+          "数学"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "何時に寝ますか？",
         "options": [
-          null
+          "九時",
+          "十時",
+          "十一時"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "/audio/reading/eccb41e7.mp3",
-    "language_id": 1
+    "language_id": 1,
+    "content_translations": null
   },
   {
     "id": 2,
@@ -157,28 +184,35 @@
       {
         "question": "家族は何人ですか？",
         "options": [
-          null
+          "三人",
+          "四人",
+          "五人"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "父の仕事は何ですか？",
         "options": [
-          null
+          "先生",
+          "会社員",
+          "学生"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "兄は何ですか？",
         "options": [
-          null
+          "高校生",
+          "大学生",
+          "会社員"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "/audio/reading/a9819f6b.mp3",
-    "language_id": 1
+    "language_id": 1,
+    "content_translations": null
   }
 ]

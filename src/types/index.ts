@@ -48,12 +48,19 @@ export interface KoreanCharacter {
 
 // Lesson structure for alphabet learning
 export interface AlphabetLesson {
-  id: string;
+  id: string | number;
   name: string;
+  slug?: string;
+  type?: string;
   nameKey?: string;
-  characters: string[];
-  prerequisite: string | null;
-  estimatedMinutes: number;
+  content?: {
+    characters: string[];
+  };
+  characters?: string[]; // Legacy
+  prerequisite?: string | null;
+  prerequisite_slug?: string | null;
+  estimatedMinutes?: number;
+  estimated_minutes?: number;
 }
 
 // Alphabet lesson path configuration

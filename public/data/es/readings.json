@@ -10,43 +10,59 @@
       {
         "question": "What is the speaker's name?",
         "options": [
-          null
+          "María",
+          "Ana",
+          "Carmen",
+          "Laura"
         ],
         "correct": 0
       },
       {
         "question": "How old is María's father?",
         "options": [
-          null
+          "48 years old",
+          "50 years old",
+          "20 years old",
+          "45 years old"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What does Pedro do?",
         "options": [
-          null
+          "He works",
+          "He studies at university",
+          "He plays sports",
+          "He travels"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What is the name of the family dog?",
         "options": [
-          null
+          "Pedro",
+          "Carlos",
+          "Max",
+          "Luna"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What does Max like to do?",
         "options": [
-          null
+          "Sleep",
+          "Eat",
+          "Play in the park",
+          "Watch TV"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 67,
@@ -59,43 +75,59 @@
       {
         "question": "What time does the speaker wake up?",
         "options": [
-          null
+          "6:00 AM",
+          "7:00 AM",
+          "8:00 AM",
+          "9:00 AM"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "How does the speaker get to work?",
         "options": [
-          null
+          "By car",
+          "By bus",
+          "By train",
+          "On foot"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What does the speaker have for breakfast?",
         "options": [
-          null
+          "Eggs and bacon",
+          "Coffee with milk and toast",
+          "Cereal",
+          "Fruit"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Where does the speaker eat lunch?",
         "options": [
-          null
+          "At home",
+          "At the office",
+          "At a restaurant near work",
+          "At the gym"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "How often does the speaker go to the gym?",
         "options": [
-          null
+          "Every day",
+          "Once a week",
+          "Twice a week",
+          "Three times a week"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 70,
@@ -108,43 +140,59 @@
       {
         "question": "What type of food does the restaurant serve?",
         "options": [
-          null
+          "Italian",
+          "Spanish",
+          "Mexican",
+          "Chinese"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "Why did they have to wait?",
         "options": [
-          null
+          "The restaurant was closed",
+          "They didn't have a reservation",
+          "There was a problem in the kitchen",
+          "They arrived too early"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "How long did they wait?",
         "options": [
-          null
+          "5 minutes",
+          "15 minutes",
+          "30 minutes",
+          "1 hour"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What dessert did the waiter recommend?",
         "options": [
-          null
+          "Ice cream",
+          "Cake",
+          "Churros with chocolate",
+          "Flan"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "How much did the dinner cost?",
         "options": [
-          null
+          "40 euros",
+          "50 euros",
+          "60 euros",
+          "70 euros"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 68,
@@ -157,43 +205,59 @@
       {
         "question": "Where did the speaker go on vacation?",
         "options": [
-          null
+          "Madrid",
+          "Sevilla",
+          "Barcelona",
+          "Valencia"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "How did they travel?",
         "options": [
-          null
+          "By car",
+          "By train",
+          "By bus",
+          "By plane"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "question": "How long was the flight?",
         "options": [
-          null
+          "30 minutes",
+          "1 hour",
+          "1 hour and a half",
+          "2 hours"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What food does the speaker mention as especially delicious?",
         "options": [
-          null
+          "Pizza and pasta",
+          "Paella and seafood",
+          "Tacos and burritos",
+          "Hamburgers"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Where do they want to go next year?",
         "options": [
-          null
+          "Madrid",
+          "Barcelona",
+          "Sevilla",
+          "Valencia"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 69,
@@ -206,43 +270,59 @@
       {
         "question": "How long have the speaker and Luis been friends?",
         "options": [
-          null
+          "5 years",
+          "10 years",
+          "15 years",
+          "20 years"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What does Luis look like?",
         "options": [
-          null
+          "Short with blonde hair",
+          "Tall with black hair and brown eyes",
+          "Average height with blue eyes",
+          "Short with brown hair"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What instrument does Luis play?",
         "options": [
-          null
+          "Piano",
+          "Drums",
+          "Guitar",
+          "Violin"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What do they like to do on weekends?",
         "options": [
-          null
+          "Study and read",
+          "Play soccer or go to the movies",
+          "Travel and shop",
+          "Cook and clean"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What did they do for Luis's birthday?",
         "options": [
-          null
+          "Went to a restaurant",
+          "Had a surprise party",
+          "Traveled to the beach",
+          "Nothing special"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 71,
@@ -255,43 +335,59 @@
       {
         "question": "How much have average temperatures risen in the last 50 years?",
         "options": [
-          null
+          "0.5 degrees",
+          "1 degree",
+          "1.5 degrees",
+          "2 degrees"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "Which area of Spain will be most affected by heat waves?",
         "options": [
-          null
+          "The north",
+          "The south",
+          "The coast",
+          "The mountains"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "By how much have precipitations decreased since 1960?",
         "options": [
-          null
+          "10%",
+          "15%",
+          "20%",
+          "25%"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What does the government's action plan include?",
         "options": [
-          null
+          "Building more dams",
+          "Renewable energy and water efficiency",
+          "Moving populations",
+          "Importing water"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What do experts think about the government's plan?",
         "options": [
-          null
+          "It's perfect",
+          "It needs more ambitious measures",
+          "It's too expensive",
+          "It's not needed"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 72,
@@ -304,43 +400,59 @@
       {
         "question": "How much initial capital did Laura start with?",
         "options": [
-          null
+          "500 euros",
+          "1,000 euros",
+          "5,000 euros",
+          "10,000 euros"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "How many employees does her company have now?",
         "options": [
-          null
+          "About 20",
+          "About 30",
+          "More than 50",
+          "About 100"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "How many times did banks reject her loan application?",
         "options": [
-          null
+          "Once",
+          "Twice",
+          "Three times",
+          "Four times"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What was the turning point for Laura?",
         "options": [
-          null
+          "A bank loan",
+          "Winning an innovation contest",
+          "Family support",
+          "A government grant"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "According to Laura, what was the hardest part?",
         "options": [
-          null
+          "Getting money",
+          "Finding the right team",
+          "Learning technology",
+          "Marketing the product"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 74,
@@ -353,43 +465,59 @@
       {
         "question": "When was 'Cien años de soledad' published?",
         "options": [
-          null
+          "1957",
+          "1967",
+          "1977",
+          "1982"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "When did García Márquez receive the Nobel Prize in Literature?",
         "options": [
-          null
+          "1967",
+          "1975",
+          "1982",
+          "1990"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What is Macondo?",
         "options": [
-          null
+          "A real town in Colombia",
+          "The fictional town in the novel",
+          "García Márquez's birthplace",
+          "A publishing house"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What characterizes 'magical realism'?",
         "options": [
-          null
+          "Only realistic events",
+          "Fantasy without any realism",
+          "The extraordinary coexisting naturally with the everyday",
+          "Historical accuracy"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "Which writers are mentioned as influenced by García Márquez?",
         "options": [
-          null
+          "Hemingway and Faulkner",
+          "Salman Rushdie and Toni Morrison",
+          "Borges and Cortázar",
+          "Cervantes and Lorca"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 73,
@@ -402,43 +530,59 @@
       {
         "question": "By how much have rental prices risen in major cities over the last decade?",
         "options": [
-          null
+          "20%",
+          "30%",
+          "40%",
+          "50%"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "question": "What is the average age of leaving the parental home in Spain?",
         "options": [
-          null
+          "25.5 years",
+          "27.5 years",
+          "29.5 years",
+          "31.5 years"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What is 'gentrificación'?",
         "options": [
-          null
+          "Building new homes",
+          "Traditional residents being forced out due to rising costs",
+          "Government housing programs",
+          "Rural migration"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Which of the following is NOT mentioned as a cause of the crisis?",
         "options": [
-          null
+          "Tourist apartments",
+          "Real estate speculation",
+          "Immigration",
+          "Lack of public housing"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "How have citizen groups responded to this situation?",
         "options": [
-          null
+          "They have accepted it",
+          "They are organizing to demand stricter regulations",
+          "They have moved to other countries",
+          "They have started building their own homes"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 75,
@@ -451,43 +595,59 @@
       {
         "question": "What is challenging the traditional concept of citizenship?",
         "options": [
-          null
+          "Local governments",
+          "Globalization and transnational migration",
+          "Religious institutions",
+          "Scientific discoveries"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What is 'post-national citizenship'?",
         "options": [
-          null
+          "Citizenship without any rights",
+          "Rights granted regardless of country of origin through supranational institutions",
+          "Citizenship only for the wealthy",
+          "Ancient citizenship concepts"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What has digital activism created according to the text?",
         "options": [
-          null
+          "Economic inequality",
+          "Digital or networked citizenship",
+          "Environmental problems",
+          "Military conflicts"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Which of the following is mentioned as a regressive tendency?",
         "options": [
-          null
+          "Technological progress",
+          "Cultural exchange",
+          "Resurgence of exclusionary nationalisms",
+          "Scientific cooperation"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What question does the text raise about citizenship's future?",
         "options": [
-          null
+          "Will it become more expensive?",
+          "Will it guarantee equality?",
+          "Will it become digital only?",
+          "Will it disappear completely?"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 76,
@@ -500,43 +660,59 @@
       {
         "question": "What has reignited the philosophical debate mentioned in the text?",
         "options": [
-          null
+          "Space exploration",
+          "Advances in generative AI",
+          "Climate change",
+          "Political movements"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What does John Searle mean by 'syntax without semantics'?",
         "options": [
-          null
+          "Machines have meaning but no grammar",
+          "Machines process symbols without genuine understanding",
+          "Humans lack consciousness",
+          "Language is irrelevant"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What epistemological objection is raised against human exceptionalism?",
         "options": [
-          null
+          "Humans aren't intelligent",
+          "We can't prove other humans have consciousness either",
+          "Machines are superior",
+          "Philosophy is useless"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "How does the text suggest we might describe human cognition?",
         "options": [
-          null
+          "As purely spiritual",
+          "In computational terms",
+          "As inexplicable",
+          "As superior to everything"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What does the text suggest the relevant question might be?",
         "options": [
-          null
+          "Can machines feel emotions?",
+          "How to redefine our understanding of the mind",
+          "Should we ban AI?",
+          "Are humans obsolete?"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 77,
@@ -549,43 +725,59 @@
       {
         "question": "When was the first part of Don Quixote published?",
         "options": [
-          null
+          "1505",
+          "1605",
+          "1615",
+          "1705"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What literary genre does Cervantes parody?",
         "options": [
-          null
+          "Poetry",
+          "Drama",
+          "Chivalric romances",
+          "Historical chronicles"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What narrative technique does the text say Cervantes anticipated?",
         "options": [
-          null
+          "Stream of consciousness",
+          "Narrative self-awareness (metafiction)",
+          "First-person narration",
+          "Epistolary form"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What conflict does Don Quixote prefigure in the realist novel?",
         "options": [
-          null
+          "Good versus evil",
+          "Individual aspirations versus social restrictions",
+          "Nature versus technology",
+          "Past versus future"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Why does the text say Don Quixote remains relevant today?",
         "options": [
-          null
+          "It's short and easy to read",
+          "Its multiple levels of interpretation",
+          "It has been translated",
+          "It's required reading"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 78,
@@ -598,42 +790,58 @@
       {
         "question": "What paradox does the text identify in our era?",
         "options": [
-          null
+          "More technology but less happiness",
+          "Unlimited storage capacity coexisting with fragmented subjective memory",
+          "More communication but less understanding",
+          "More wealth but more poverty"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What does Bernard Stiegler mean by 'proletarianization of memory'?",
         "options": [
-          null
+          "Workers forgetting their skills",
+          "Externalizing cognitive capacities to technology, becoming dependent",
+          "Making memory democratic",
+          "Industrial memory loss"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "How does the text suggest the pessimistic view could be nuanced?",
         "options": [
-          null
+          "Technology will improve",
+          "Human memory has always been technically constituted",
+          "We can reject technology",
+          "Memory isn't important"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What transformation of memory does the text describe?",
         "options": [
-          null
+          "From digital to analog",
+          "From affective evocation to informational access",
+          "From external to internal",
+          "From collective to individual"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What contrast does the text draw at the end?",
         "options": [
-          null
+          "Old vs. young",
+          "Proustian reminiscence vs. algorithmic search",
+          "East vs. West",
+          "Past vs. future"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   }
 ]

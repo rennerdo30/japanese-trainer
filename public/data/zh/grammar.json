@@ -51,7 +51,8 @@
     "level": "Elementary",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_c12896b6160a.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 236,
@@ -105,7 +106,8 @@
     "level": "Elementary",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_85e46a402d3c.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 241,
@@ -159,7 +161,8 @@
     "level": "Elementary",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_e52d91cb3e6c.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 243,
@@ -213,7 +216,8 @@
     "level": "Elementary",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_7102d5c9a488.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 244,
@@ -267,7 +271,8 @@
     "level": "Elementary",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_8a6bf55da4a4.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 237,
@@ -321,7 +326,8 @@
     "level": "Elementary",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_ea7220b4a1be.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 262,
@@ -439,7 +445,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_21521eb86b72.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 254,
@@ -553,7 +560,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_737b98e842c3.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 272,
@@ -679,7 +687,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_abb8039a83a8.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 251,
@@ -801,7 +810,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_5ac5a8c59558.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 256,
@@ -963,7 +973,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_5ac5a8c59558.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 266,
@@ -1109,7 +1120,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_5ac5a8c59558.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 253,
@@ -1219,7 +1231,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_7b371b3de089.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 271,
@@ -1361,7 +1374,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_7b371b3de089.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 286,
@@ -1471,7 +1485,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_fe836203febb.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 287,
@@ -1589,7 +1604,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_32c86d3ae8c6.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 261,
@@ -1719,7 +1735,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_0ae1be18894e.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 285,
@@ -1853,7 +1870,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_0ae1be18894e.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 288,
@@ -2007,7 +2025,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_386bed88eaa7.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 289,
@@ -2161,7 +2180,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_79024a5bd7ea.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 279,
@@ -2323,7 +2343,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_9016125cc4c1.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 248,
@@ -2457,7 +2478,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_6ddbdecb39e5.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 267,
@@ -2599,7 +2621,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_6ddbdecb39e5.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 270,
@@ -2725,7 +2748,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_6ddbdecb39e5.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 276,
@@ -2871,7 +2895,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_6ddbdecb39e5.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 304,
@@ -3009,7 +3034,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_6ddbdecb39e5.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 292,
@@ -3143,7 +3169,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_130ff827f114.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 269,
@@ -3281,7 +3308,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_11580db46023.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 301,
@@ -3407,7 +3435,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_11580db46023.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 264,
@@ -3545,7 +3574,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_80a6b48dd3a7.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 283,
@@ -3691,7 +3721,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_955f40c96621.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 277,
@@ -3829,7 +3860,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_db9fa3f61021.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 258,
@@ -3967,7 +3999,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_5305fd12c301.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 247,
@@ -4105,7 +4138,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_7985c45fce36.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 257,
@@ -4247,7 +4281,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_7985c45fce36.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 273,
@@ -4405,7 +4440,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_7985c45fce36.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 260,
@@ -4559,7 +4595,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_22a3653c6b41.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 259,
@@ -4721,7 +4758,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_c2477f9a6a1a.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 252,
@@ -4843,7 +4881,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_d64b6028006e.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 255,
@@ -5001,7 +5040,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_d64b6028006e.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 265,
@@ -5151,7 +5191,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_d64b6028006e.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 284,
@@ -5301,7 +5342,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_d87e48074931.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 245,
@@ -5439,7 +5481,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_e82dc34af48a.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 303,
@@ -5581,7 +5624,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_e82dc34af48a.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 290,
@@ -5707,7 +5751,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_33877b29b554.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 246,
@@ -5841,7 +5886,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_6756848abadf.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 282,
@@ -5963,7 +6009,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_6756848abadf.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 268,
@@ -6109,7 +6156,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_eb024ff2d25b.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 281,
@@ -6235,7 +6283,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_72cddde88422.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 249,
@@ -6365,7 +6414,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_4b10e492b4d7.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 250,
@@ -6499,7 +6549,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_7d6ecaa2263f.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 293,
@@ -6633,7 +6684,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_7d6ecaa2263f.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 280,
@@ -6771,7 +6823,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_c35874e15006.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 263,
@@ -6909,7 +6962,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_22468594867d.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 291,
@@ -7035,7 +7089,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_a048ebea9af9.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 278,
@@ -7201,7 +7256,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_31ae492931bc.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 302,
@@ -7322,7 +7378,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 317,
@@ -7420,7 +7477,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_a7950df87092.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 320,
@@ -7533,7 +7591,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 296,
@@ -7659,7 +7718,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_6c787bcd9514.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 298,
@@ -7741,7 +7801,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_6c787bcd9514.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 314,
@@ -7878,7 +7939,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 294,
@@ -8008,7 +8070,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_b8d3bd0b8c47.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 295,
@@ -8138,7 +8201,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_8a158cff448f.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 297,
@@ -8216,7 +8280,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_c84899d93e8c.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 41,
@@ -8242,7 +8307,9 @@
         "type": "fill-blank",
         "question": "我___喜欢咖啡。",
         "options": [
-          null
+          "不",
+          "没",
+          "是"
         ],
         "correct": 0
       }
@@ -8250,7 +8317,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 299,
@@ -8340,7 +8408,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_8b3cdb78a2a2.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 45,
@@ -8366,7 +8435,9 @@
         "type": "fill-blank",
         "question": "我昨天看___电影。",
         "options": [
-          null
+          "了",
+          "过",
+          "着"
         ],
         "correct": 0
       }
@@ -8374,7 +8445,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 48,
@@ -8400,7 +8472,9 @@
         "type": "fill-blank",
         "question": "你喜欢___？",
         "options": [
-          null
+          "什么",
+          "吗",
+          "很"
         ],
         "correct": 0
       }
@@ -8408,7 +8482,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 42,
@@ -8434,7 +8509,9 @@
         "type": "fill-blank",
         "question": "你喜欢中国___？",
         "options": [
-          null
+          "吗",
+          "呢",
+          "吧"
         ],
         "correct": 0
       }
@@ -8442,7 +8519,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 43,
@@ -8469,7 +8547,9 @@
         "type": "fill-blank",
         "question": "我___工作。",
         "options": [
-          null
+          "在",
+          "是",
+          "很"
         ],
         "correct": 0
       }
@@ -8477,7 +8557,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 40,
@@ -8503,15 +8584,18 @@
         "type": "fill-blank",
         "question": "天气___冷。",
         "options": [
-          null
+          "是",
+          "很",
+          "有"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "HSK1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 46,
@@ -8537,7 +8621,9 @@
         "type": "fill-blank",
         "question": "我___学中文。",
         "options": [
-          null
+          "想",
+          "是",
+          "很"
         ],
         "correct": 0
       }
@@ -8545,7 +8631,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 39,
@@ -8571,7 +8658,9 @@
         "type": "fill-blank",
         "question": "我___老师。",
         "options": [
-          null
+          "是",
+          "很",
+          "在"
         ],
         "correct": 0
       }
@@ -8579,7 +8668,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 315,
@@ -8668,7 +8758,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 318,
@@ -8781,7 +8872,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 305,
@@ -8899,7 +8991,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_8876a97521c6.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 307,
@@ -8980,7 +9073,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 309,
@@ -9098,7 +9192,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_8876a97521c6.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 312,
@@ -9224,7 +9319,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_eb71f1793e41.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 316,
@@ -9313,7 +9409,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 313,
@@ -9450,7 +9547,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 319,
@@ -9563,7 +9661,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 308,
@@ -9693,7 +9792,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_c2de1afef9ea.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 310,
@@ -9815,7 +9915,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_c2de1afef9ea.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 300,
@@ -9905,7 +10006,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_f12823f2f91d.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 306,
@@ -9986,7 +10088,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 311,
@@ -10099,7 +10202,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 44,
@@ -10126,7 +10230,9 @@
         "type": "fill-blank",
         "question": "这是我___妈妈。",
         "options": [
-          null
+          "的",
+          "了",
+          "在"
         ],
         "correct": 0
       }
@@ -10134,7 +10240,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 47,
@@ -10160,7 +10267,9 @@
         "type": "fill-blank",
         "question": "你___帮我吗？",
         "options": [
-          null
+          "能",
+          "是",
+          "很"
         ],
         "correct": 0
       }
@@ -10168,7 +10277,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 275,
@@ -10322,7 +10432,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_84ab51f3a66c.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 274,
@@ -10472,7 +10583,8 @@
     "level": "HSK1",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_3f540f707037.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 52,
@@ -10498,7 +10610,9 @@
         "type": "fill-blank",
         "question": "他从楼下跑___来了。",
         "options": [
-          null
+          "上",
+          "下",
+          "进"
         ],
         "correct": 0
       }
@@ -10506,7 +10620,8 @@
     "level": "HSK3",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 49,
@@ -10532,7 +10647,9 @@
         "type": "fill-blank",
         "question": "我___作业做完了。",
         "options": [
-          null
+          "把",
+          "被",
+          "让"
         ],
         "correct": 0
       }
@@ -10540,7 +10657,8 @@
     "level": "HSK3",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 51,
@@ -10566,7 +10684,9 @@
         "type": "fill-blank",
         "question": "这本书___那本书有意思。",
         "options": [
-          null
+          "比",
+          "被",
+          "和"
         ],
         "correct": 0
       }
@@ -10574,7 +10694,8 @@
     "level": "HSK3",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 50,
@@ -10600,7 +10721,9 @@
         "type": "fill-blank",
         "question": "那本书___借走了。",
         "options": [
-          null
+          "被",
+          "把",
+          "让"
         ],
         "correct": 0
       }
@@ -10608,7 +10731,8 @@
     "level": "HSK3",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 55,
@@ -10634,7 +10758,9 @@
         "type": "fill-blank",
         "question": "她___聪明，而且很努力。",
         "options": [
-          null
+          "不但",
+          "虽然",
+          "因为"
         ],
         "correct": 0
       }
@@ -10642,7 +10768,8 @@
     "level": "HSK4",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 56,
@@ -10668,7 +10795,9 @@
         "type": "fill-blank",
         "question": "___天气怎么样，我都要去。",
         "options": [
-          null
+          "无论",
+          "虽然",
+          "如果"
         ],
         "correct": 0
       }
@@ -10676,7 +10805,8 @@
     "level": "HSK4",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 54,
@@ -10702,7 +10832,9 @@
         "type": "fill-blank",
         "question": "___你来了，就多待一会儿吧。",
         "options": [
-          null
+          "既然",
+          "虽然",
+          "如果"
         ],
         "correct": 0
       }
@@ -10710,7 +10842,8 @@
     "level": "HSK4",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 53,
@@ -10736,7 +10869,9 @@
         "type": "fill-blank",
         "question": "他___一口水都没喝。",
         "options": [
-          null
+          "连",
+          "和",
+          "跟"
         ],
         "correct": 0
       }
@@ -10744,7 +10879,8 @@
     "level": "HSK4",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 59,
@@ -10770,7 +10906,9 @@
         "type": "fill-blank",
         "question": "___在这里等，不如先回去。",
         "options": [
-          null
+          "与其",
+          "如果",
+          "虽然"
         ],
         "correct": 0
       }
@@ -10778,7 +10916,8 @@
     "level": "HSK5",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 58,
@@ -10804,7 +10943,9 @@
         "type": "fill-blank",
         "question": "他___没来，是因为生病了。",
         "options": [
-          null
+          "之所以",
+          "所以",
+          "因为"
         ],
         "correct": 0
       }
@@ -10812,7 +10953,8 @@
     "level": "HSK5",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 57,
@@ -10838,7 +10980,9 @@
         "type": "fill-blank",
         "question": "我们___客户满意为目标。",
         "options": [
-          null
+          "以",
+          "把",
+          "被"
         ],
         "correct": 0
       }
@@ -10846,7 +10990,8 @@
     "level": "HSK5",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 60,
@@ -10872,7 +11017,9 @@
         "type": "fill-blank",
         "question": "___他不来，我们也要开始。",
         "options": [
-          null
+          "即使",
+          "如果",
+          "因为"
         ],
         "correct": 0
       }
@@ -10880,7 +11027,8 @@
     "level": "HSK5",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 61,
@@ -10906,7 +11054,9 @@
         "type": "fill-blank",
         "question": "这本书___看不可。",
         "options": [
-          null
+          "非",
+          "不",
+          "没"
         ],
         "correct": 0
       }
@@ -10914,7 +11064,8 @@
     "level": "HSK5",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 63,
@@ -10940,7 +11091,9 @@
         "type": "fill-blank",
         "question": "此___正解。",
         "options": [
-          null
+          "乃",
+          "是",
+          "为"
         ],
         "correct": 0
       }
@@ -10948,7 +11101,8 @@
     "level": "HSK6",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 62,
@@ -10975,7 +11129,9 @@
         "type": "fill-blank",
         "question": "三分___一",
         "options": [
-          null
+          "之",
+          "的",
+          "得"
         ],
         "correct": 0
       }
@@ -10983,7 +11139,8 @@
     "level": "HSK6",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 65,
@@ -11009,7 +11166,9 @@
         "type": "fill-blank",
         "question": "___他不同意，则另想办法。",
         "options": [
-          null
+          "倘若",
+          "如果",
+          "因为"
         ],
         "correct": 0
       }
@@ -11017,7 +11176,8 @@
     "level": "HSK6",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 64,
@@ -11043,7 +11203,9 @@
         "type": "fill-blank",
         "question": "不过___尔",
         "options": [
-          null
+          "尔",
+          "而",
+          "耳"
         ],
         "correct": 0
       }
@@ -11051,7 +11213,8 @@
     "level": "HSK6",
     "framework": null,
     "audioUrl": null,
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 240,
@@ -11105,7 +11268,8 @@
     "level": "Intermediate",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_82d56cce1c1d.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 242,
@@ -11159,7 +11323,8 @@
     "level": "Intermediate",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_3e1700856e62.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 238,
@@ -11213,7 +11378,8 @@
     "level": "Intermediate",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_b9bad8de30f8.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   },
   {
     "id": 235,
@@ -11267,6 +11433,7 @@
     "level": "Intermediate",
     "framework": null,
     "audioUrl": "/audio/zh/grammar/grammar_eeb4f8583ee1.mp3",
-    "language_id": 4
+    "language_id": 4,
+    "content_translations": null
   }
 ]

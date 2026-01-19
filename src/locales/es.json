@@ -119,8 +119,8 @@
     "typeReading": "Escribe la lectura...",
     "showInfo": "Mostrar Info",
     "noKanji": "No hay kanji disponibles.",
-    "onyomi": "音読み",
-    "kunyomi": "訓読み",
+    "onyomi": "Onyomi",
+    "kunyomi": "Kunyomi",
     "pinyin": "Pinyin",
     "filters": {
       "n5": "JLPT N5",

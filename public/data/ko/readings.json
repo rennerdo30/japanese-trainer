@@ -10,28 +10,40 @@
       {
         "question": "What time does the speaker wake up?",
         "options": [
-          null
+          "7:00 AM",
+          "6:00 AM",
+          "8:00 AM",
+          "9:00 AM"
         ],
         "correct": 0
       },
       {
         "question": "Who does the speaker eat lunch with?",
         "options": [
-          null
+          "Friend",
+          "Family",
+          "Alone",
+          "Teacher"
         ],
         "correct": 0
       },
       {
         "question": "Where does the speaker study in the afternoon?",
         "options": [
-          null
+          "Library",
+          "School",
+          "Home",
+          "Cafe"
         ],
         "correct": 0
       },
       {
         "question": "What does the speaker do before sleeping?",
         "options": [
-          null
+          "Read a book",
+          "Watch TV",
+          "Study",
+          "Exercise"
         ],
         "correct": 0
       }
@@ -39,7 +51,8 @@
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": null,
-    "language_id": 3
+    "language_id": 3,
+    "content_translations": null
   },
   {
     "id": 60,
@@ -52,28 +65,40 @@
       {
         "question": "How does the speaker describe their room?",
         "options": [
-          null
+          "Small but good",
+          "Big and nice",
+          "Old but clean",
+          "New and big"
         ],
         "correct": 0
       },
       {
         "question": "What is next to the window?",
         "options": [
-          null
+          "Desk",
+          "Bed",
+          "Chair",
+          "Closet"
         ],
         "correct": 0
       },
       {
         "question": "What is on the bed?",
         "options": [
-          null
+          "Doll",
+          "Computer",
+          "Book",
+          "Phone"
         ],
         "correct": 0
       },
       {
         "question": "What does the speaker do every day?",
         "options": [
-          null
+          "Clean the room",
+          "Study",
+          "Exercise",
+          "Cook"
         ],
         "correct": 0
       }
@@ -81,7 +106,8 @@
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": null,
-    "language_id": 3
+    "language_id": 3,
+    "content_translations": null
   },
   {
     "id": 59,
@@ -94,28 +120,40 @@
       {
         "question": "How many people are in the family?",
         "options": [
-          null
+          "4",
+          "3",
+          "5",
+          "6"
         ],
         "correct": 0
       },
       {
         "question": "What does the father do?",
         "options": [
-          null
+          "Office worker",
+          "Teacher",
+          "Student",
+          "Doctor"
         ],
         "correct": 0
       },
       {
         "question": "What does the mother do?",
         "options": [
-          null
+          "Teacher",
+          "Office worker",
+          "Nurse",
+          "Cook"
         ],
         "correct": 0
       },
       {
         "question": "Where does the family live?",
         "options": [
-          null
+          "Seoul",
+          "Busan",
+          "Daegu",
+          "Incheon"
         ],
         "correct": 0
       }
@@ -123,7 +161,8 @@
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": null,
-    "language_id": 3
+    "language_id": 3,
+    "content_translations": null
   },
   {
     "id": 46,
@@ -136,28 +175,40 @@
       {
         "question": "What is the speaker's name?",
         "options": [
-          null
+          "김민수",
+          "이영희",
+          "박지훈",
+          "최수진"
         ],
         "correct": 0
       },
       {
         "question": "Where is the speaker from?",
         "options": [
-          null
+          "Seoul",
+          "Busan",
+          "Daegu",
+          "Incheon"
         ],
         "correct": 0
       },
       {
         "question": "What does the speaker study?",
         "options": [
-          null
+          "English",
+          "Korean",
+          "Music",
+          "Cooking"
         ],
         "correct": 0
       },
       {
         "question": "What are the speaker's hobbies?",
         "options": [
-          null
+          "Listening to music and cooking",
+          "Reading and sports",
+          "Traveling and shopping",
+          "Watching movies and gaming"
         ],
         "correct": 0
       }
@@ -165,7 +216,8 @@
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": null,
-    "language_id": 3
+    "language_id": 3,
+    "content_translations": null
   },
   {
     "id": 61,
@@ -178,28 +230,40 @@
       {
         "question": "What food does the speaker especially like?",
         "options": [
-          null
+          "Bulgogi and bibimbap",
+          "Pizza and pasta",
+          "Sushi and ramen",
+          "Fried chicken"
         ],
         "correct": 0
       },
       {
         "question": "How does the speaker describe bulgogi?",
         "options": [
-          null
+          "Sweet and delicious",
+          "Spicy and sour",
+          "Salty and hot",
+          "Bitter and cold"
         ],
         "correct": 0
       },
       {
         "question": "Why is bibimbap healthy?",
         "options": [
-          null
+          "It has many vegetables",
+          "It has no salt",
+          "It is organic",
+          "It has no oil"
         ],
         "correct": 0
       },
       {
         "question": "What does the speaker drink when food is too spicy?",
         "options": [
-          null
+          "Water",
+          "Milk",
+          "Juice",
+          "Soda"
         ],
         "correct": 0
       }
@@ -207,7 +271,8 @@
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": null,
-    "language_id": 3
+    "language_id": 3,
+    "content_translations": null
   },
   {
     "id": 48,
@@ -220,28 +285,40 @@
       {
         "question": "Where will the speaker go this weekend?",
         "options": [
-          null
+          "Seoul",
+          "Busan",
+          "Jeju",
+          "Daejeon"
         ],
         "correct": 0
       },
       {
         "question": "What will the speaker do in Myeongdong?",
         "options": [
-          null
+          "Shopping",
+          "Eating",
+          "Sightseeing",
+          "Walking"
         ],
         "correct": 0
       },
       {
         "question": "What food does the speaker want to eat?",
         "options": [
-          null
+          "Bulgogi and kimchi stew",
+          "Bibimbap and japchae",
+          "Fried chicken and pizza",
+          "Ramen and sushi"
         ],
         "correct": 0
       },
       {
         "question": "What will the speaker do on Sunday?",
         "options": [
-          null
+          "Rest at home",
+          "Go to Gyeongbokgung",
+          "Go shopping",
+          "Meet friends"
         ],
         "correct": 0
       }
@@ -249,7 +326,8 @@
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": null,
-    "language_id": 3
+    "language_id": 3,
+    "content_translations": null
   },
   {
     "id": 63,
@@ -262,28 +340,40 @@
       {
         "question": "What symptoms did the speaker have?",
         "options": [
-          null
+          "Headache and fever",
+          "Stomachache",
+          "Cough",
+          "Sore throat"
         ],
         "correct": 0
       },
       {
         "question": "What did the doctor ask?",
         "options": [
-          null
+          "Where does it hurt?",
+          "What did you eat?",
+          "How old are you?",
+          "When did it start?"
         ],
         "correct": 0
       },
       {
         "question": "What was the diagnosis?",
         "options": [
-          null
+          "Cold",
+          "Flu",
+          "Allergy",
+          "Food poisoning"
         ],
         "correct": 0
       },
       {
         "question": "How often should the medicine be taken?",
         "options": [
-          null
+          "Three times a day",
+          "Twice a day",
+          "Once a day",
+          "Four times a day"
         ],
         "correct": 0
       }
@@ -291,7 +381,8 @@
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": null,
-    "language_id": 3
+    "language_id": 3,
+    "content_translations": null
   },
   {
     "id": 62,
@@ -304,28 +395,40 @@
       {
         "question": "Where did the speaker go?",
         "options": [
-          null
+          "Department store",
+          "Supermarket",
+          "Market",
+          "Mall"
         ],
         "correct": 0
       },
       {
         "question": "What floor were the pants on?",
         "options": [
-          null
+          "2nd floor",
+          "1st floor",
+          "3rd floor",
+          "4th floor"
         ],
         "correct": 0
       },
       {
         "question": "How much were the pants?",
         "options": [
-          null
+          "50,000 won",
+          "30,000 won",
+          "80,000 won",
+          "40,000 won"
         ],
         "correct": 0
       },
       {
         "question": "How much did the speaker spend in total?",
         "options": [
-          null
+          "80,000 won",
+          "50,000 won",
+          "100,000 won",
+          "30,000 won"
         ],
         "correct": 0
       }
@@ -333,7 +436,8 @@
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": null,
-    "language_id": 3
+    "language_id": 3,
+    "content_translations": null
   },
   {
     "id": 50,
@@ -346,28 +450,40 @@
       {
         "question": "What year is the speaker in university?",
         "options": [
-          null
+          "3rd year",
+          "1st year",
+          "2nd year",
+          "4th year"
         ],
         "correct": 0
       },
       {
         "question": "What is the speaker's major?",
         "options": [
-          null
+          "Business administration",
+          "Economics",
+          "Law",
+          "Engineering"
         ],
         "correct": 0
       },
       {
         "question": "What languages is the speaker studying?",
         "options": [
-          null
+          "English and Chinese",
+          "Japanese and Chinese",
+          "English and Japanese",
+          "Korean and English"
         ],
         "correct": 0
       },
       {
         "question": "What is the speaker's dream?",
         "options": [
-          null
+          "Start their own company",
+          "Work at a trading company",
+          "Study abroad",
+          "Become a professor"
         ],
         "correct": 0
       }
@@ -375,7 +491,8 @@
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": null,
-    "language_id": 3
+    "language_id": 3,
+    "content_translations": null
   },
   {
     "id": 64,
@@ -388,28 +505,40 @@
       {
         "question": "What is the speaker's hobby?",
         "options": [
-          null
+          "Listening to music",
+          "Drawing",
+          "Playing soccer",
+          "Watching movies"
         ],
         "correct": 0
       },
       {
         "question": "What does Minji like to do?",
         "options": [
-          null
+          "Draw pictures",
+          "Listen to music",
+          "Play sports",
+          "Read books"
         ],
         "correct": 0
       },
       {
         "question": "When does Suho play soccer?",
         "options": [
-          null
+          "Every weekend",
+          "Every day",
+          "Once a month",
+          "Twice a week"
         ],
         "correct": 0
       },
       {
         "question": "What do the friends do together sometimes?",
         "options": [
-          null
+          "Watch movies",
+          "Play soccer",
+          "Draw",
+          "Listen to music"
         ],
         "correct": 0
       }
@@ -417,7 +546,8 @@
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": null,
-    "language_id": 3
+    "language_id": 3,
+    "content_translations": null
   },
   {
     "id": 49,
@@ -430,28 +560,40 @@
       {
         "question": "How long has the speaker been studying Korean?",
         "options": [
-          null
+          "6 months",
+          "1 year",
+          "3 months",
+          "2 years"
         ],
         "correct": 0
       },
       {
         "question": "What was difficult at first?",
         "options": [
-          null
+          "Hangeul",
+          "Grammar",
+          "Speaking",
+          "Listening"
         ],
         "correct": 0
       },
       {
         "question": "How does the speaker practice listening?",
         "options": [
-          null
+          "Watching Korean dramas",
+          "Listening to music",
+          "Using apps",
+          "Taking classes"
         ],
         "correct": 0
       },
       {
         "question": "What does the speaker want to do next year?",
         "options": [
-          null
+          "Go to Korea",
+          "Take TOPIK exam",
+          "Get a job",
+          "Study at university"
         ],
         "correct": 0
       }
@@ -459,7 +601,8 @@
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": null,
-    "language_id": 3
+    "language_id": 3,
+    "content_translations": null
   },
   {
     "id": 65,
@@ -472,28 +615,40 @@
       {
         "question": "What does the speaker check in the morning?",
         "options": [
-          null
+          "Time",
+          "Messages",
+          "News",
+          "Weather"
         ],
         "correct": 0
       },
       {
         "question": "What does the speaker do on the bus?",
         "options": [
-          null
+          "Listen to music",
+          "Play games",
+          "Read news",
+          "Send messages"
         ],
         "correct": 0
       },
       {
         "question": "What happens if you use the phone too much?",
         "options": [
-          null
+          "Eyes hurt",
+          "Head hurts",
+          "Hands hurt",
+          "Ears hurt"
         ],
         "correct": 0
       },
       {
         "question": "What does the speaker think about living without a phone?",
         "options": [
-          null
+          "Difficult",
+          "Easy",
+          "Fun",
+          "Better"
         ],
         "correct": 0
       }
@@ -501,7 +656,8 @@
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": null,
-    "language_id": 3
+    "language_id": 3,
+    "content_translations": null
   },
   {
     "id": 51,
@@ -514,28 +670,40 @@
       {
         "question": "How many hours of sleep is recommended for adults?",
         "options": [
-          null
+          "7-8 hours",
+          "5-6 hours",
+          "9-10 hours",
+          "6-7 hours"
         ],
         "correct": 0
       },
       {
         "question": "How much daily walking is mentioned as beneficial?",
         "options": [
-          null
+          "30 minutes",
+          "1 hour",
+          "15 minutes",
+          "45 minutes"
         ],
         "correct": 0
       },
       {
         "question": "What should be reduced according to the text?",
         "options": [
-          null
+          "Processed foods",
+          "Vegetables",
+          "Exercise",
+          "Sleep"
         ],
         "correct": 0
       },
       {
         "question": "What is suggested for stress management?",
         "options": [
-          null
+          "Meditation or hobbies",
+          "More sleep",
+          "Less work",
+          "More exercise"
         ],
         "correct": 0
       }
@@ -543,7 +711,8 @@
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": null,
-    "language_id": 3
+    "language_id": 3,
+    "content_translations": null
   },
   {
     "id": 52,
@@ -556,28 +725,40 @@
       {
         "question": "When is the rainy season in Korea?",
         "options": [
-          null
+          "July and August",
+          "May and June",
+          "September and October",
+          "March and April"
         ],
         "correct": 0
       },
       {
         "question": "What color does Korea turn in spring?",
         "options": [
-          null
+          "Pink (from cherry blossoms)",
+          "Red",
+          "Yellow",
+          "Green"
         ],
         "correct": 0
       },
       {
         "question": "Which mountains are mentioned for autumn foliage?",
         "options": [
-          null
+          "Seoraksan and Naejangsan",
+          "Hallasan and Bukhansan",
+          "Jirisan and Dobongsan",
+          "Gwanaksan and Mudeungsan"
         ],
         "correct": 0
       },
       {
         "question": "What activities are popular in winter?",
         "options": [
-          null
+          "Skiing and snowboarding",
+          "Swimming and surfing",
+          "Hiking and camping",
+          "Cycling and running"
         ],
         "correct": 0
       }
@@ -585,7 +766,8 @@
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": null,
-    "language_id": 3
+    "language_id": 3,
+    "content_translations": null
   },
   {
     "id": 53,
@@ -598,28 +780,40 @@
       {
         "question": "What is the main cause of generational conflict according to the text?",
         "options": [
-          null
+          "Lack of communication",
+          "Economic differences",
+          "Political disagreements",
+          "Educational gaps"
         ],
         "correct": 0
       },
       {
         "question": "What attitude is important for resolving conflicts?",
         "options": [
-          null
+          "Listening and respecting each other",
+          "Avoiding discussions",
+          "Changing one's values",
+          "Living separately"
         ],
         "correct": 0
       },
       {
         "question": "Where should open dialogue culture begin?",
         "options": [
-          null
+          "At home",
+          "At school",
+          "At work",
+          "In politics"
         ],
         "correct": 0
       },
       {
         "question": "What should be expanded at the social level?",
         "options": [
-          null
+          "Intergenerational exchange programs",
+          "Senior centers",
+          "Youth clubs",
+          "Online communities"
         ],
         "correct": 0
       }
@@ -627,7 +821,8 @@
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": null,
-    "language_id": 3
+    "language_id": 3,
+    "content_translations": null
   },
   {
     "id": 54,
@@ -640,28 +835,40 @@
       {
         "question": "What form of literature developed during the Three Kingdoms period?",
         "options": [
-          null
+          "Hyangga",
+          "Sijo",
+          "Pansori",
+          "Novel"
         ],
         "correct": 0
       },
       {
         "question": "Which work is considered the first Korean novel?",
         "options": [
-          null
+          "Honggildongjeon",
+          "Chunhyangjeon",
+          "Simcheongga",
+          "Heungbujeon"
         ],
         "correct": 0
       },
       {
         "question": "Which poet wrote 'Azaleas'?",
         "options": [
-          null
+          "Kim Sowol",
+          "Lee Gwangsu",
+          "Yun Dongju",
+          "Han Yongun"
         ],
         "correct": 0
       },
       {
         "question": "What recognition did Korean literature receive in 2024?",
         "options": [
-          null
+          "Nobel Prize in Literature",
+          "Booker Prize",
+          "Pulitzer Prize",
+          "Goncourt Prize"
         ],
         "correct": 0
       }
@@ -669,7 +876,8 @@
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": null,
-    "language_id": 3
+    "language_id": 3,
+    "content_translations": null
   },
   {
     "id": 55,
@@ -682,28 +890,40 @@
       {
         "question": "Which areas are mentioned as influenced by AI?",
         "options": [
-          null
+          "Autonomous vehicles, medical diagnosis, creative activities",
+          "Only transportation",
+          "Only healthcare",
+          "Only entertainment"
         ],
         "correct": 0
       },
       {
         "question": "What positive aspect of AI is mentioned in healthcare?",
         "options": [
-          null
+          "More accurate diagnosis",
+          "Lower costs",
+          "Faster treatment",
+          "Better bedside manner"
         ],
         "correct": 0
       },
       {
         "question": "What concerns are raised about AI?",
         "options": [
-          null
+          "Job loss, privacy invasion, algorithm bias",
+          "High costs only",
+          "Technical complexity only",
+          "Energy consumption only"
         ],
         "correct": 0
       },
       {
         "question": "What is considered essential for the future coexistence of humans and AI?",
         "options": [
-          null
+          "Establishing ethical standards",
+          "Banning AI development",
+          "Limiting AI use to specific fields",
+          "Complete automation"
         ],
         "correct": 0
       }
@@ -711,7 +931,8 @@
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": null,
-    "language_id": 3
+    "language_id": 3,
+    "content_translations": null
   },
   {
     "id": 56,
@@ -724,28 +945,40 @@
       {
         "question": "What environmental phenomena are mentioned as being observed globally?",
         "options": [
-          null
+          "Rising sea levels, extreme weather, ecosystem destruction",
+          "Only drought",
+          "Only flooding",
+          "Only air pollution"
         ],
         "correct": 0
       },
       {
         "question": "What target year has Korea set for carbon neutrality?",
         "options": [
-          null
+          "2050",
+          "2030",
+          "2040",
+          "2060"
         ],
         "correct": 0
       },
       {
         "question": "What individual actions are suggested?",
         "options": [
-          null
+          "Reducing disposable items, using public transport, saving energy",
+          "Only recycling",
+          "Only donating",
+          "Only protesting"
         ],
         "correct": 0
       },
       {
         "question": "What type of business practice is mentioned?",
         "options": [
-          null
+          "ESG management",
+          "Cost cutting",
+          "Outsourcing",
+          "Automation"
         ],
         "correct": 0
       }
@@ -753,7 +986,8 @@
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": null,
-    "language_id": 3
+    "language_id": 3,
+    "content_translations": null
   },
   {
     "id": 58,
@@ -766,28 +1000,40 @@
       {
         "question": "What does the Sapir-Whorf hypothesis suggest?",
         "options": [
-          null
+          "Language influences cognitive processes",
+          "Thought determines language",
+          "Language and thought are unrelated",
+          "All languages are identical"
         ],
         "correct": 0
       },
       {
         "question": "What example is given to support linguistic relativity?",
         "options": [
-          null
+          "Speakers with rich color vocabulary distinguish colors better",
+          "Mathematical ability varies by language",
+          "Memory is affected by grammar",
+          "Emotions are universal across languages"
         ],
         "correct": 0
       },
       {
         "question": "What does Chomsky's Universal Grammar theory propose?",
         "options": [
-          null
+          "A deep structure common to all languages exists",
+          "Each language is completely unique",
+          "Language is learned, not innate",
+          "Grammar is unnecessary for communication"
         ],
         "correct": 0
       },
       {
         "question": "What modern perspective does cognitive science tend to adopt?",
         "options": [
-          null
+          "Language and thought interact and shape each other",
+          "Language completely determines thought",
+          "Thought completely determines language",
+          "The two are completely separate"
         ],
         "correct": 0
       }
@@ -795,7 +1041,8 @@
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": null,
-    "language_id": 3
+    "language_id": 3,
+    "content_translations": null
   },
   {
     "id": 57,
@@ -808,28 +1055,40 @@
       {
         "question": "What natural phenomenon is illuminating the mountain path?",
         "options": [
-          null
+          "Full moon",
+          "Sunrise",
+          "Starlight",
+          "Lightning"
         ],
         "correct": 0
       },
       {
         "question": "How are the buckwheat flowers described?",
         "options": [
-          null
+          "Like scattered salt in the moonlight",
+          "Like fire",
+          "Like water",
+          "Like clouds"
         ],
         "correct": 0
       },
       {
         "question": "What animals are mentioned in the passage?",
         "options": [
-          null
+          "Donkeys",
+          "Horses",
+          "Cows",
+          "Dogs"
         ],
         "correct": 0
       },
       {
         "question": "What is the overall mood of this literary passage?",
         "options": [
-          null
+          "Serene and poetic",
+          "Tense and dramatic",
+          "Humorous and light",
+          "Angry and intense"
         ],
         "correct": 0
       }
@@ -837,6 +1096,7 @@
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": null,
-    "language_id": 3
+    "language_id": 3,
+    "content_translations": null
   }
 ]

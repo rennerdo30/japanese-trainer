@@ -10,22 +10,29 @@
       {
         "question": "What does the customer order?",
         "options": [
-          null
+          "Tea and cake",
+          "Espresso and cream croissant",
+          "Cappuccino and sandwich",
+          "Water and pizza"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "How much is the total?",
         "options": [
-          null
+          "2.50 euros",
+          "3.00 euros",
+          "3.50 euros",
+          "4.00 euros"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 9,
@@ -38,43 +45,59 @@
       {
         "question": "What is the name of the restaurant?",
         "options": [
-          null
+          "Da Mario",
+          "Da Luigi",
+          "Da Giovanni",
+          "Da Marco"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What is the restaurant famous for?",
         "options": [
-          null
+          "Pizza",
+          "Fresh pasta",
+          "Seafood",
+          "Meat"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What did they order to drink?",
         "options": [
-          null
+          "White wine",
+          "Red wine",
+          "Beer",
+          "Water"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What dessert did the speaker have?",
         "options": [
-          null
+          "Panna cotta",
+          "Gelato",
+          "Tiramisù",
+          "Cannoli"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "How much was the total bill?",
         "options": [
-          null
+          "30 euros",
+          "35 euros",
+          "40 euros",
+          "45 euros"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 102,
@@ -87,29 +110,39 @@
       {
         "question": "What is the person looking for?",
         "options": [
-          null
+          "A restaurant",
+          "A hotel",
+          "The train station",
+          "A museum"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What should they do at the traffic light?",
         "options": [
-          null
+          "Turn right",
+          "Turn left",
+          "Go straight",
+          "Stop"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "How long does it take to walk there?",
         "options": [
-          null
+          "5 minutes",
+          "10 minutes",
+          "15 minutes",
+          "20 minutes"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 7,
@@ -122,43 +155,59 @@
       {
         "question": "How old is Marco?",
         "options": [
-          null
+          "22 years old",
+          "25 years old",
+          "27 years old",
+          "30 years old"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What is Marco's sister's name?",
         "options": [
-          null
+          "Maria",
+          "Sofia",
+          "Giulia",
+          "Anna"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What is Marco's mother's job?",
         "options": [
-          null
+          "Doctor",
+          "Teacher",
+          "Office worker",
+          "Nurse"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What is the dog's name?",
         "options": [
-          null
+          "Briciola",
+          "Biscotto",
+          "Bruno",
+          "Bello"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "When does the family eat together at the grandparents' house?",
         "options": [
-          null
+          "Saturday",
+          "Sunday",
+          "Friday",
+          "Every day"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 100,
@@ -171,22 +220,29 @@
       {
         "question": "What is the speaker's name?",
         "options": [
-          null
+          "Maria",
+          "Lucia",
+          "Sofia",
+          "Anna"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Where is the speaker from?",
         "options": [
-          null
+          "Rome",
+          "Milan",
+          "Florence",
+          "Naples"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 8,
@@ -199,43 +255,59 @@
       {
         "question": "What time does the speaker wake up?",
         "options": [
-          null
+          "6:00",
+          "7:00",
+          "7:30",
+          "8:00"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What does the speaker have for breakfast?",
         "options": [
-          null
+          "Tea and toast",
+          "Coffee and a croissant",
+          "Milk and cookies",
+          "Juice and fruit"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "How does the speaker get to work?",
         "options": [
-          null
+          "By car",
+          "By bus",
+          "By train",
+          "On foot"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Where does the speaker have lunch?",
         "options": [
-          null
+          "At home",
+          "In the office",
+          "At a nearby restaurant",
+          "At a park"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What time does the speaker usually go to bed?",
         "options": [
-          null
+          "10:00",
+          "10:30",
+          "11:00",
+          "11:30"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 104,
@@ -248,36 +320,49 @@
       {
         "question": "What will the weather be like in the north?",
         "options": [
-          null
+          "Sunny",
+          "Cloudy",
+          "Rainy",
+          "Snowy"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What temperature is expected in the north?",
         "options": [
-          null
+          "10 degrees",
+          "15 degrees",
+          "20 degrees",
+          "25 degrees"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What will the weather be like in the south?",
         "options": [
-          null
+          "Rainy",
+          "Cloudy",
+          "Sunny",
+          "Windy"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What is the maximum temperature in the south?",
         "options": [
-          null
+          "15 degrees",
+          "20 degrees",
+          "25 degrees",
+          "30 degrees"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 10,
@@ -290,43 +375,59 @@
       {
         "question": "Where is the speaker going on vacation?",
         "options": [
-          null
+          "Sicily",
+          "Sardinia",
+          "Tuscany",
+          "Puglia"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "When do they depart?",
         "options": [
-          null
+          "July 10th",
+          "July 15th",
+          "July 20th",
+          "August 1st"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "How long will they stay?",
         "options": [
-          null
+          "One week",
+          "Two weeks",
+          "Three weeks",
+          "One month"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Where is the apartment located?",
         "options": [
-          null
+          "In the city center",
+          "In the mountains",
+          "Near the sea",
+          "In the countryside"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "Which cities do they want to visit?",
         "options": [
-          null
+          "Rome and Florence",
+          "Cagliari and Alghero",
+          "Naples and Palermo",
+          "Venice and Milan"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 11,
@@ -339,43 +440,59 @@
       {
         "question": "What is the most popular sport in Italy?",
         "options": [
-          null
+          "Basketball",
+          "Volleyball",
+          "Soccer",
+          "Tennis"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "When is the Giro d'Italia held?",
         "options": [
-          null
+          "April",
+          "May",
+          "June",
+          "July"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Which teams are mentioned as famous?",
         "options": [
-          null
+          "Only Juventus and Milan",
+          "Juventus, Milan, Inter, and Roma",
+          "Only northern teams",
+          "Only Roman teams"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What do many Italians do on Sundays?",
         "options": [
-          null
+          "Play soccer",
+          "Go to the gym",
+          "Watch matches on TV or go to the stadium",
+          "Run in the park"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "How do many Italians stay fit?",
         "options": [
-          null
+          "Only by playing soccer",
+          "By going to the gym or running in parks",
+          "Only by swimming",
+          "Only by cycling"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 103,
@@ -388,36 +505,49 @@
       {
         "question": "What is the name of the restaurant?",
         "options": [
-          null
+          "Bella Roma",
+          "Bella Italia",
+          "Bella Napoli",
+          "Bella Vista"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "For how many people is the reservation?",
         "options": [
-          null
+          "2",
+          "3",
+          "4",
+          "5"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What time is the reservation?",
         "options": [
-          null
+          "7:30",
+          "8:00",
+          "8:30",
+          "9:00"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What day is the reservation for?",
         "options": [
-          null
+          "Friday",
+          "Saturday",
+          "Sunday",
+          "Monday"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 106,
@@ -430,43 +560,59 @@
       {
         "question": "Which platform is the train arriving at?",
         "options": [
-          null
+          "Platform 1",
+          "Platform 2",
+          "Platform 3",
+          "Platform 4"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What is the final destination of the train?",
         "options": [
-          null
+          "Bologna",
+          "Florence",
+          "Roma Tiburtina",
+          "Roma Termini"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "question": "How much delay does the train have?",
         "options": [
-          null
+          "5 minutes",
+          "10 minutes",
+          "15 minutes",
+          "20 minutes"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "Where is the restaurant car located?",
         "options": [
-          null
+          "At the front",
+          "At the back",
+          "Between cars 6 and 7",
+          "Between cars 3 and 4"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What is prohibited on the train?",
         "options": [
-          null
+          "Eating",
+          "Using phones",
+          "Smoking",
+          "Sleeping"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 13,
@@ -479,43 +625,59 @@
       {
         "question": "When was the Italian National Health Service established?",
         "options": [
-          null
+          "1968",
+          "1978",
+          "1988",
+          "1998"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What is needed to access healthcare services?",
         "options": [
-          null
+          "Only a passport",
+          "A health card and regional registration",
+          "Private insurance",
+          "A work permit"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Who is the first point of contact for health problems?",
         "options": [
-          null
+          "A specialist",
+          "A hospital",
+          "A general practitioner (medico di base)",
+          "A pharmacist"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What is the 'ticket' in the Italian health system?",
         "options": [
-          null
+          "A bus pass",
+          "A cost-sharing payment for services",
+          "A doctor's prescription",
+          "A health card"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Who is exempt from paying the ticket?",
         "options": [
-          null
+          "Everyone under 30",
+          "Only foreigners",
+          "Low-income elderly and chronically ill patients",
+          "Only employed people"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 105,
@@ -528,43 +690,59 @@
       {
         "question": "How old was the chef when he started cooking?",
         "options": [
-          null
+          "10 years old",
+          "12 years old",
+          "15 years old",
+          "18 years old"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Who taught him traditional cooking?",
         "options": [
-          null
+          "His mother",
+          "His grandmother",
+          "A professional chef",
+          "His father"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Where did he study cooking?",
         "options": [
-          null
+          "Florence",
+          "Rome",
+          "Parma",
+          "Milan"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "How long ago did he open his restaurant?",
         "options": [
-          null
+          "Two years ago",
+          "Three years ago",
+          "Five years ago",
+          "Ten years ago"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What does he consider the secret to his success?",
         "options": [
-          null
+          "Low prices",
+          "Quality ingredients and passion",
+          "Location",
+          "Advertising"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 12,
@@ -577,43 +755,59 @@
       {
         "question": "Where did the travelers start their journey?",
         "options": [
-          null
+          "Rome",
+          "Florence",
+          "Milan",
+          "Siena"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "How long did it take to reach Florence?",
         "options": [
-          null
+          "Two hours",
+          "Three hours",
+          "Four hours",
+          "Five hours"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What is San Gimignano famous for?",
         "options": [
-          null
+          "Its beaches",
+          "Its towers",
+          "Its museums",
+          "Its wine"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What did they do on the last day?",
         "options": [
-          null
+          "Visited the Uffizi Gallery",
+          "Stayed at an agriturismo and tasted wine",
+          "Went to the beach",
+          "Returned to Milan"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What type of landscape did they see in the Tuscan countryside?",
         "options": [
-          null
+          "Mountains and lakes",
+          "Beaches and cliffs",
+          "Hills with vineyards and olive groves",
+          "Deserts and plains"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 108,
@@ -626,43 +820,59 @@
       {
         "question": "Where did the Renaissance originate?",
         "options": [
-          null
+          "Rome",
+          "Venice",
+          "Florence",
+          "Milan"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "Which family is mentioned as patrons of the arts?",
         "options": [
-          null
+          "The Borgia",
+          "The Medici",
+          "The Sforza",
+          "The Gonzaga"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What technique did Renaissance artists introduce?",
         "options": [
-          null
+          "Abstract art",
+          "Linear perspective",
+          "Impressionism",
+          "Cubism"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What became 'the measure of all things'?",
         "options": [
-          null
+          "God",
+          "Nature",
+          "Man",
+          "Art"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "Which artists are mentioned as representing the height of the Renaissance?",
         "options": [
-          null
+          "Caravaggio and Bernini",
+          "Leonardo, Michelangelo, and Raphael",
+          "Botticelli and Giotto",
+          "Titian and Tintoretto"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 107,
@@ -675,43 +885,59 @@
       {
         "question": "What is the topic of the debate?",
         "options": [
-          null
+          "Unemployment",
+          "Remote work",
+          "Office design",
+          "Salary increases"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "According to Dr. Bianchi, what does remote work increase?",
         "options": [
-          null
+          "Costs",
+          "Stress",
+          "Productivity",
+          "Commuting time"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What risk does Dr. Verdi mention?",
         "options": [
-          null
+          "Higher costs",
+          "Social isolation",
+          "Less vacation time",
+          "More meetings"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What does Dr. Verdi say about home workspaces?",
         "options": [
-          null
+          "Everyone has a good one",
+          "Not everyone has adequate space",
+          "They are better than offices",
+          "They are not important"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What solution does Dr. Verdi propose?",
         "options": [
-          null
+          "Full remote work",
+          "Full office work",
+          "A hybrid model",
+          "Shorter work hours"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 14,
@@ -724,43 +950,59 @@
       {
         "question": "What positive aspects of social media are mentioned?",
         "options": [
-          null
+          "Entertainment and gaming",
+          "Connection and democratization of information",
+          "Financial benefits",
+          "Physical health improvements"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What health issues are associated with excessive social media use?",
         "options": [
-          null
+          "Heart problems",
+          "Anxiety and depression",
+          "Vision problems",
+          "Sleep disorders only"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What are 'information bubbles' (bolle informative)?",
         "options": [
-          null
+          "Chat groups",
+          "Exposure mainly to similar opinions",
+          "Private messages",
+          "Advertising"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What effect can information bubbles have on society?",
         "options": [
-          null
+          "Improve communication",
+          "Polarize public debate",
+          "Increase privacy",
+          "Reduce fake news"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What solution is suggested in the text?",
         "options": [
-          null
+          "Ban social media",
+          "Develop critical thinking and digital education",
+          "Use social media more",
+          "Ignore the problems"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 15,
@@ -773,43 +1015,59 @@
       {
         "question": "Why is Italy particularly vulnerable to climate change?",
         "options": [
-          null
+          "It's a small country",
+          "Its Mediterranean position",
+          "It has many mountains",
+          "It lacks resources"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What problem does Venice face?",
         "options": [
-          null
+          "Earthquakes",
+          "Increasingly frequent high water",
+          "Air pollution only",
+          "Overpopulation"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "By when has Italy committed to achieving climate neutrality?",
         "options": [
-          null
+          "2030",
+          "2040",
+          "2050",
+          "2060"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What does the transition involve according to the text?",
         "options": [
-          null
+          "Only renewable energy",
+          "Renewable energy, building efficiency, and sustainable mobility",
+          "Only electric cars",
+          "Only recycling"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What do critics say about current policies?",
         "options": [
-          null
+          "They are too strict",
+          "They are sufficient",
+          "They are insufficient",
+          "They don't exist"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 110,
@@ -822,43 +1080,59 @@
       {
         "question": "What is the woman looking for?",
         "options": [
-          null
+          "A bus stop",
+          "A metro station",
+          "A taxi stand",
+          "A train station"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What landmark should she look for?",
         "options": [
-          null
+          "A church",
+          "A small square with a fountain",
+          "A statue",
+          "A market"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Why does the passerby suggest taking the bus instead?",
         "options": [
-          null
+          "It's cheaper",
+          "The metro is closed",
+          "The metro is very crowded at this hour",
+          "The bus is faster"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "Which bus should she take?",
         "options": [
-          null
+          "R1",
+          "R2",
+          "R3",
+          "B2"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "How often does the bus come?",
         "options": [
-          null
+          "Every 5 minutes",
+          "Every 10 minutes",
+          "Every 15 minutes",
+          "Every 20 minutes"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 109,
@@ -871,43 +1145,59 @@
       {
         "question": "Why is Giulia in a hurry?",
         "options": [
-          null
+          "She has a phone call",
+          "She has a meeting at 3",
+          "She needs to leave early",
+          "She has lunch plans"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What sales increase is being demanded?",
         "options": [
-          null
+          "10%",
+          "15%",
+          "20%",
+          "25%"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What complicates the situation according to Marco?",
         "options": [
-          null
+          "Budget cuts",
+          "Half the team on vacation in August",
+          "New competition",
+          "Technical problems"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Why does Giulia prefer a face-to-face meeting over email?",
         "options": [
-          null
+          "It's faster",
+          "Emails are easily misunderstood",
+          "The director doesn't read emails",
+          "She prefers talking"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What does Giulia offer to do?",
         "options": [
-          null
+          "Write the email",
+          "Talk to the director alone",
+          "Organize a meeting for tomorrow morning",
+          "Cancel the objectives"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 16,
@@ -920,43 +1210,59 @@
       {
         "question": "What does 'fuga dei cervelli' (brain drain) refer to?",
         "options": [
-          null
+          "Immigration to Italy",
+          "Young graduates leaving Italy for better opportunities abroad",
+          "University enrollment decline",
+          "Retirement of professors"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "How many graduates have left Italy in the last ten years according to the text?",
         "options": [
-          null
+          "Over 100,000",
+          "Over 250,000",
+          "Over 500,000",
+          "Over 1 million"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Which profiles predominate among those leaving?",
         "options": [
-          null
+          "Artistic profiles",
+          "Technical-scientific profiles",
+          "Legal profiles",
+          "Medical profiles only"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Which is NOT mentioned as a cause of brain drain?",
         "options": [
-          null
+          "Lower salaries",
+          "Lack of research investment",
+          "Climate conditions",
+          "Job insecurity"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What solutions are proposed?",
         "options": [
-          null
+          "Closing borders",
+          "Reducing university funding",
+          "Reforming recruitment, increasing research funds, supporting innovation",
+          "Lowering graduation requirements"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 17,
@@ -969,43 +1275,59 @@
       {
         "question": "Which philosophers are mentioned as having discussed justice?",
         "options": [
-          null
+          "Only modern philosophers",
+          "Plato, Aristotle, Thomas Aquinas, and Enlightenment thinkers",
+          "Only Italian philosophers",
+          "Only political theorists"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What is distributive justice concerned with?",
         "options": [
-          null
+          "Criminal punishment",
+          "Exchange between individuals",
+          "Fair distribution of resources",
+          "International relations"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What is identified as a major problem with the Italian judicial system?",
         "options": [
-          null
+          "Too many judges",
+          "Speed of trials",
+          "Slowness of trials",
+          "Lack of lawyers"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What affects access to legal services according to the text?",
         "options": [
-          null
+          "Geographic location only",
+          "Economic resources",
+          "Education level only",
+          "Age"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Why is judicial reform considered crucial?",
         "options": [
-          null
+          "To reduce taxes",
+          "For the full exercise of constitutional rights",
+          "To create more jobs",
+          "To simplify laws"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 18,
@@ -1018,43 +1340,59 @@
       {
         "question": "When did Leopardi live?",
         "options": [
-          null
+          "1698-1737",
+          "1798-1837",
+          "1898-1937",
+          "1758-1797"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What 20th-century philosophical movement did Leopardi anticipate?",
         "options": [
-          null
+          "Positivism",
+          "Existentialism",
+          "Marxism",
+          "Structuralism"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What physical element triggers the infinite experience in 'L'Infinito'?",
         "options": [
-          null
+          "The sea",
+          "A mountain",
+          "A hedge",
+          "The sky"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What is the Zibaldone?",
         "options": [
-          null
+          "A novel",
+          "A collection of poems",
+          "A diary of thoughts",
+          "A play"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "How is Leopardi's philosophical thought described?",
         "options": [
-          null
+          "Purely optimistic",
+          "Oscillating between materialism and idealism",
+          "Strictly religious",
+          "Politically focused"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 19,
@@ -1067,43 +1405,59 @@
       {
         "question": "When was the Kingdom of Italy proclaimed?",
         "options": [
-          null
+          "1848",
+          "1861",
+          "1870",
+          "1900"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What was the 'brigantaggio' mentioned in the text?",
         "options": [
-          null
+          "An artistic movement",
+          "A form of resistance that was repressed",
+          "A political party",
+          "An economic policy"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What early theories about southern underdevelopment have been discredited?",
         "options": [
-          null
+          "Economic theories",
+          "Geographic and racial theories",
+          "Political theories",
+          "Cultural theories"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What do modern analyses identify as the main causes of the divide?",
         "options": [
-          null
+          "Climate conditions",
+          "Political and economic choices",
+          "Genetic factors",
+          "Religious differences"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What indicators still show a gap today?",
         "options": [
-          null
+          "Tourism numbers",
+          "GDP per capita, employment, and public services",
+          "Population density",
+          "University rankings"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": null,
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 112,
@@ -1116,43 +1470,59 @@
       {
         "question": "This is the opening of which famous work?",
         "options": [
-          null
+          "Orlando Furioso",
+          "The Decameron",
+          "The Divine Comedy",
+          "The Prince"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "Where does the narrator find himself?",
         "options": [
-          null
+          "In a city",
+          "In a dark forest",
+          "On a mountain",
+          "By the sea"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What had happened to 'la diritta via' (the straight path)?",
         "options": [
-          null
+          "It was blocked",
+          "It was lost",
+          "It was destroyed",
+          "It was hidden"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "How does the narrator describe the forest?",
         "options": [
-          null
+          "Beautiful and peaceful",
+          "Wild, harsh, and strong",
+          "Small and pleasant",
+          "Bright and welcoming"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What state was the narrator in when he entered the forest?",
         "options": [
-          null
+          "Wide awake",
+          "Angry",
+          "Full of sleep/drowsy",
+          "Happy"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   },
   {
     "id": 111,
@@ -1165,42 +1535,58 @@
       {
         "question": "When was The Prince written?",
         "options": [
-          null
+          "1413",
+          "1513",
+          "1613",
+          "1713"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What was Italy experiencing when Machiavelli wrote?",
         "options": [
-          null
+          "Economic prosperity",
+          "Political instability",
+          "Religious reform",
+          "Cultural decline"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What does Machiavellian 'virtù' refer to?",
         "options": [
-          null
+          "Christian virtue",
+          "Moral goodness",
+          "Adaptability to circumstances",
+          "Military strength"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "What animals does Machiavelli use as metaphors for the prince?",
         "options": [
-          null
+          "Eagle and bear",
+          "Fox and lion",
+          "Wolf and lamb",
+          "Snake and dove"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "What does Machiavelli's work inaugurate according to the lecture?",
         "options": [
-          null
+          "Religious philosophy",
+          "Modern political science",
+          "Military strategy",
+          "Economic theory"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 7
+    "language_id": 7,
+    "content_translations": null
   }
 ]

@@ -2,9 +2,14 @@
   {
     "id": 13,
     "title": "〜に伴って",
+    "titleTranslations": {
+      "de": "im Zusammenhang mit"
+    },
     "rule": "〜に伴って means 'along with' or 'as a result of', indicating simultaneous change or consequence.",
     "explanation": "〜に伴って means 'along with' or 'as a result of', indicating simultaneous change or consequence.",
-    "explanations": null,
+    "explanations": {
+      "de": "Im Zusammenhang mit bedeutet 'zusammen mit' oder 'als Ergebnis von', und zeigt gleichzeitige Veränderung oder Konsequenz an."
+    },
     "patterns": [
       "Noun + に伴って"
     ],
@@ -23,7 +28,9 @@
         "type": "fill-blank",
         "question": "___に伴って変化が起きた",
         "options": [
-          null
+          "改革",
+          "改革は",
+          "改革が"
         ],
         "correct": 0
       }
@@ -32,14 +39,46 @@
     "jlpt": "N1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 1
+    "language_id": 1,
+    "content_translations": {
+      "title": {
+        "de": "im Zusammenhang mit"
+      },
+      "explanation": {
+        "de": "Im Zusammenhang mit bedeutet 'zusammen mit' oder 'als Ergebnis von', und zeigt gleichzeitige Veränderung oder Konsequenz an."
+      },
+      "examples": [
+        {
+          "translation": {
+            "de": "Umweltprobleme verschärften sich im Zusammenhang mit der wirtschaftlichen Entwicklung."
+          }
+        },
+        {
+          "translation": {
+            "de": "Das Leben wurde bequemer, als die Technologie fortschritt."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "question": {
+            "de": "___ im Zusammenhang mit Veränderungen stattfand"
+          }
+        }
+      ]
+    }
   },
   {
     "id": 12,
     "title": "〜を踏まえて",
+    "titleTranslations": {
+      "de": "basierend auf"
+    },
     "rule": "〜を踏まえて means 'based on' or 'taking into account', indicating consideration of something.",
     "explanation": "〜を踏まえて means 'based on' or 'taking into account', indicating consideration of something.",
-    "explanations": null,
+    "explanations": {
+      "de": "Basierend auf bedeutet 'basierend auf' oder 'mit Berücksichtigung von', und zeigt die Berücksichtigung etwas an."
+    },
     "patterns": [
       "Noun + を踏まえて"
     ],
@@ -58,7 +97,9 @@
         "type": "fill-blank",
         "question": "___を踏まえて決定する",
         "options": [
-          null
+          "データ",
+          "データは",
+          "データが"
         ],
         "correct": 0
       }
@@ -67,14 +108,46 @@
     "jlpt": "N1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 1
+    "language_id": 1,
+    "content_translations": {
+      "title": {
+        "de": "basierend auf"
+      },
+      "explanation": {
+        "de": "Basierend auf bedeutet 'basierend auf' oder 'mit Berücksichtigung von', und zeigt die Berücksichtigung etwas an."
+      },
+      "examples": [
+        {
+          "translation": {
+            "de": "Einen Plan zu erstellen, basierend auf die Ergebnisse der letzten Sitzung."
+          }
+        },
+        {
+          "translation": {
+            "de": "Eine Entscheidung zu treffen, mit Berücksichtigung der aktuellen Situation."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "question": {
+            "de": "___ basierend auf Entscheidungen treffen"
+          }
+        }
+      ]
+    }
   },
   {
     "id": 198,
     "title": "技術革新と社会変革",
+    "titleTranslations": {
+      "de": "Technologische Innovation und soziale Veränderungen"
+    },
     "rule": null,
     "explanation": "",
-    "explanations": null,
+    "explanations": {
+      "de": ""
+    },
     "patterns": [],
     "examples": [],
     "exercises": [],
@@ -82,14 +155,29 @@
     "jlpt": "N1",
     "framework": null,
     "audioUrl": "/audio/reading/465f5f9b.mp3",
-    "language_id": 1
+    "language_id": 1,
+    "content_translations": {
+      "title": {
+        "de": "Technologische Innovation und soziale Veränderungen"
+      },
+      "explanation": {
+        "de": ""
+      },
+      "examples": [],
+      "exercises": []
+    }
   },
   {
     "id": 11,
     "title": "〜に応じて",
+    "titleTranslations": {
+      "de": "nach"
+    },
     "rule": "〜に応じて means 'according to' or 'in response to', indicating adaptation to circumstances.",
     "explanation": "〜に応じて means 'according to' or 'in response to', indicating adaptation to circumstances.",
-    "explanations": null,
+    "explanations": {
+      "de": "Nach bedeutet 'nach' oder 'im Einklang mit', und zeigt die Anpassung an Umstände an."
+    },
     "patterns": [
       "Noun + に応じて"
     ],
@@ -108,7 +196,9 @@
         "type": "fill-blank",
         "question": "___に応じて対応する",
         "options": [
-          null
+          "状況",
+          "状況は",
+          "状況が"
         ],
         "correct": 0
       }
@@ -117,14 +207,46 @@
     "jlpt": "N2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 1
+    "language_id": 1,
+    "content_translations": {
+      "title": {
+        "de": "nach"
+      },
+      "explanation": {
+        "de": "Nach bedeutet 'nach' oder 'im Einklang mit', und zeigt die Anpassung an Umstände an."
+      },
+      "examples": [
+        {
+          "translation": {
+            "de": "Nach der Nachfrage produzieren."
+          }
+        },
+        {
+          "translation": {
+            "de": "Das Gehalt wird nach der Fähigkeit entschieden."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "question": {
+            "de": "___ nach Veränderungen reagieren"
+          }
+        }
+      ]
+    }
   },
   {
     "id": 10,
     "title": "〜に限って",
+    "titleTranslations": {
+      "de": "nur"
+    },
     "rule": "〜に限って means 'especially' or 'of all times/people', expressing emphasis on a particular case.",
     "explanation": "〜に限って means 'especially' or 'of all times/people', expressing emphasis on a particular case.",
-    "explanations": null,
+    "explanations": {
+      "de": "Nur bedeutet 'sogar' oder 'von allen Zeiten/Personen', und zeigt Betonung eines bestimmten Falls an."
+    },
     "patterns": [
       "Noun + に限って"
     ],
@@ -143,7 +265,9 @@
         "type": "fill-blank",
         "question": "___に限って雨が降った",
         "options": [
-          null
+          "今日",
+          "今日は",
+          "今日が"
         ],
         "correct": 0
       }
@@ -152,14 +276,46 @@
     "jlpt": "N2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 1
+    "language_id": 1,
+    "content_translations": {
+      "title": {
+        "de": "nur"
+      },
+      "explanation": {
+        "de": "Nur bedeutet 'sogar' oder 'von allen Zeiten/Personen', und zeigt Betonung eines bestimmten Falls an."
+      },
+      "examples": [
+        {
+          "translation": {
+            "de": "Heute, nur, zu spät gekommen."
+          }
+        },
+        {
+          "translation": {
+            "de": "Er, nur, würde so etwas nicht tun."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "question": {
+            "de": "___ nur regnete"
+          }
+        }
+      ]
+    }
   },
   {
     "id": 197,
     "title": "経済成長と社会",
+    "titleTranslations": {
+      "de": "Wirtschaftswachstum und Gesellschaft"
+    },
     "rule": null,
     "explanation": "",
-    "explanations": null,
+    "explanations": {
+      "de": ""
+    },
     "patterns": [],
     "examples": [],
     "exercises": [],
@@ -167,14 +323,29 @@
     "jlpt": "N2",
     "framework": null,
     "audioUrl": "/audio/reading/21178b7b.mp3",
-    "language_id": 1
+    "language_id": 1,
+    "content_translations": {
+      "title": {
+        "de": "Wirtschaftswachstum und Gesellschaft"
+      },
+      "explanation": {
+        "de": ""
+      },
+      "examples": [],
+      "exercises": []
+    }
   },
   {
     "id": 8,
     "title": "〜はずだ",
+    "titleTranslations": {
+      "de": "sollte"
+    },
     "rule": "〜はずだ expresses expectation or logical conclusion, meaning 'should' or 'supposed to'.",
     "explanation": "〜はずだ expresses expectation or logical conclusion, meaning 'should' or 'supposed to'.",
-    "explanations": null,
+    "explanations": {
+      "de": "Sollte drückt Erwartung oder logische Schlussfolgerung aus, bedeutet 'sollte' oder 'muss'.\n"
+    },
     "patterns": [
       "Verb/Adjective + はずだ"
     ],
@@ -193,7 +364,9 @@
         "type": "fill-blank",
         "question": "彼は___はずだ",
         "options": [
-          null
+          "来る",
+          "来た",
+          "来て"
         ],
         "correct": 0
       }
@@ -202,14 +375,46 @@
     "jlpt": "N3",
     "framework": null,
     "audioUrl": null,
-    "language_id": 1
+    "language_id": 1,
+    "content_translations": {
+      "title": {
+        "de": "sollte"
+      },
+      "explanation": {
+        "de": "Sollte drückt Erwartung oder logische Schlussfolgerung aus, bedeutet 'sollte' oder 'muss'.\n"
+      },
+      "examples": [
+        {
+          "translation": {
+            "de": "Er sollte kommen."
+          }
+        },
+        {
+          "translation": {
+            "de": "Dieses Buch sollte interessant sein."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "question": {
+            "de": "Er ___ sollte kommen."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 9,
     "title": "〜わけだ",
+    "titleTranslations": {
+      "de": "dass"
+    },
     "rule": "〜わけだ expresses a natural conclusion or reason, meaning 'that's why' or 'it means that'.",
     "explanation": "〜わけだ expresses a natural conclusion or reason, meaning 'that's why' or 'it means that'.",
-    "explanations": null,
+    "explanations": {
+      "de": "Dass drückt eine natürliche Schlussfolgerung oder Grund aus, bedeutet 'dass' oder 'es bedeutet, dass'.\n"
+    },
     "patterns": [
       "Verb/Adjective + わけだ"
     ],
@@ -228,23 +433,57 @@
         "type": "fill-blank",
         "question": "だから___わけだ",
         "options": [
-          null
+          "疲れる",
+          "疲れた",
+          "疲れている"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "level": "N3",
     "jlpt": "N3",
     "framework": null,
     "audioUrl": null,
-    "language_id": 1
+    "language_id": 1,
+    "content_translations": {
+      "title": {
+        "de": "dass"
+      },
+      "explanation": {
+        "de": "Dass drückt eine natürliche Schlussfolgerung oder Grund aus, bedeutet 'dass' oder 'es bedeutet, dass'.\n"
+      },
+      "examples": [
+        {
+          "translation": {
+            "de": "Deshalb bin ich müde."
+          }
+        },
+        {
+          "translation": {
+            "de": "Deshalb kommt er nicht."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "question": {
+            "de": "Deshalb ___ müde."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 196,
     "title": "環境問題",
+    "titleTranslations": {
+      "de": "Umweltprobleme"
+    },
     "rule": null,
     "explanation": "",
-    "explanations": null,
+    "explanations": {
+      "de": ""
+    },
     "patterns": [],
     "examples": [],
     "exercises": [],
@@ -252,14 +491,29 @@
     "jlpt": "N3",
     "framework": null,
     "audioUrl": "/audio/reading/13fa35fd.mp3",
-    "language_id": 1
+    "language_id": 1,
+    "content_translations": {
+      "title": {
+        "de": "Umweltprobleme"
+      },
+      "explanation": {
+        "de": ""
+      },
+      "examples": [],
+      "exercises": []
+    }
   },
   {
     "id": 7,
     "title": "〜かもしれない",
+    "titleTranslations": {
+      "de": "vielleicht"
+    },
     "rule": "〜かもしれない expresses possibility or uncertainty, meaning 'might' or 'maybe'.",
     "explanation": "〜かもしれない expresses possibility or uncertainty, meaning 'might' or 'maybe'.",
-    "explanations": null,
+    "explanations": {
+      "de": "Vielleicht drückt Möglichkeit oder Unsicherheit aus, bedeutet 'vielleicht' oder 'möglicherweise'.\n"
+    },
     "patterns": [
       "Verb/Adjective + かもしれない"
     ],
@@ -278,23 +532,57 @@
         "type": "fill-blank",
         "question": "明日は___かもしれない",
         "options": [
-          null
+          "雨",
+          "雨が",
+          "雨だ"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "level": "N4",
     "jlpt": "N4",
     "framework": null,
     "audioUrl": null,
-    "language_id": 1
+    "language_id": 1,
+    "content_translations": {
+      "title": {
+        "de": "vielleicht"
+      },
+      "explanation": {
+        "de": "Vielleicht drückt Möglichkeit oder Unsicherheit aus, bedeutet 'vielleicht' oder 'möglicherweise'.\n"
+      },
+      "examples": [
+        {
+          "translation": {
+            "de": "Es könnte regnen."
+          }
+        },
+        {
+          "translation": {
+            "de": "Er kommt vielleicht nicht."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "question": {
+            "de": "Morgen ___ regnen könnte."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 6,
     "title": "〜てみる",
+    "titleTranslations": {
+      "de": "probieren"
+    },
     "rule": "〜てみる means 'to try doing something' or 'to see what happens when you do something'.",
     "explanation": "〜てみる means 'to try doing something' or 'to see what happens when you do something'.",
-    "explanations": null,
+    "explanations": {
+      "de": "Probieren bedeutet 'versuchen, etwas zu tun' oder 'schauen, was passiert, wenn man etwas tut'.\n"
+    },
     "patterns": [
       "Verb (て form) + みる"
     ],
@@ -313,23 +601,57 @@
         "type": "fill-blank",
         "question": "この料理を___みてください",
         "options": [
-          null
+          "食べる",
+          "食べて",
+          "食べ"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "N4",
     "jlpt": "N4",
     "framework": null,
     "audioUrl": null,
-    "language_id": 1
+    "language_id": 1,
+    "content_translations": {
+      "title": {
+        "de": "probieren"
+      },
+      "explanation": {
+        "de": "Probieren bedeutet 'versuchen, etwas zu tun' oder 'schauen, was passiert, wenn man etwas tut'.\n"
+      },
+      "examples": [
+        {
+          "translation": {
+            "de": "Ich probiere dieses Buch zu lesen."
+          }
+        },
+        {
+          "translation": {
+            "de": "Probieren Sie es zu essen."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "question": {
+            "de": "Dieses Gericht ___ probieren."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 195,
     "title": "新しい経験",
+    "titleTranslations": {
+      "de": "Neue Erfahrungen"
+    },
     "rule": null,
     "explanation": "",
-    "explanations": null,
+    "explanations": {
+      "de": ""
+    },
     "patterns": [],
     "examples": [],
     "exercises": [],
@@ -337,14 +659,29 @@
     "jlpt": "N4",
     "framework": null,
     "audioUrl": "/audio/reading/cc9e4692.mp3",
-    "language_id": 1
+    "language_id": 1,
+    "content_translations": {
+      "title": {
+        "de": "Neue Erfahrungen"
+      },
+      "explanation": {
+        "de": ""
+      },
+      "examples": [],
+      "exercises": []
+    }
   },
   {
     "id": 2,
     "title": "が particle",
+    "titleTranslations": {
+      "de": "Partikel ga"
+    },
     "rule": "が marks the subject of a sentence. It is used to introduce new information or emphasize the subject.",
     "explanation": "が marks the subject of a sentence. It is used to introduce new information or emphasize the subject.",
-    "explanations": null,
+    "explanations": {
+      "de": "Ga markiert den Satzgegenstand einer Aussage. Es wird verwendet, um neue Informationen einzuführen oder den Satzgegenstand zu betonen.\n"
+    },
     "patterns": [
       "Subject + が + Verb"
     ],
@@ -363,23 +700,57 @@
         "type": "fill-blank",
         "question": "私___学生です。",
         "options": [
-          null
+          "は",
+          "が",
+          "を"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "N5",
     "jlpt": "N5",
     "framework": null,
     "audioUrl": null,
-    "language_id": 1
+    "language_id": 1,
+    "content_translations": {
+      "title": {
+        "de": "Partikel ga"
+      },
+      "explanation": {
+        "de": "Ga markiert den Satzgegenstand einer Aussage. Es wird verwendet, um neue Informationen einzuführen oder den Satzgegenstand zu betonen.\n"
+      },
+      "examples": [
+        {
+          "translation": {
+            "de": "Ich bin Student (betonend 'ich').\n"
+          }
+        },
+        {
+          "translation": {
+            "de": "Es regnet."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "question": {
+            "de": "Ich ___ Student bin."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 5,
     "title": "て form",
+    "titleTranslations": {
+      "de": "te-Form"
+    },
     "rule": "The て form is used to connect verbs, make requests, and express ongoing actions.",
     "explanation": "The て form is used to connect verbs, make requests, and express ongoing actions.",
-    "explanations": null,
+    "explanations": {
+      "de": "Die te-Form wird verwendet, um Verben zu verbinden, Anfragen zu stellen und laufende Aktionen auszudrücken.\n"
+    },
     "patterns": [
       "Verb (て form) + ください",
       "Verb (て form) + います"
@@ -399,23 +770,57 @@
         "type": "fill-blank",
         "question": "本を読___ください",
         "options": [
-          null
+          "む",
+          "んで",
+          "みる"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "N5",
     "jlpt": "N5",
     "framework": null,
     "audioUrl": null,
-    "language_id": 1
+    "language_id": 1,
+    "content_translations": {
+      "title": {
+        "de": "te-Form"
+      },
+      "explanation": {
+        "de": "Die te-Form wird verwendet, um Verben zu verbinden, Anfragen zu stellen und laufende Aktionen auszudrücken.\n"
+      },
+      "examples": [
+        {
+          "translation": {
+            "de": "Essen Sie."
+          }
+        },
+        {
+          "translation": {
+            "de": "Ich lese ein Buch."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "question": {
+            "de": "Buch ___ lesen."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 1,
     "title": "です (desu)",
+    "titleTranslations": {
+      "de": "ist (desu)"
+    },
     "rule": "です is a copula (linking verb) meaning 'to be'. It is used to make polite statements and questions.",
     "explanation": "です is a copula (linking verb) meaning 'to be'. It is used to make polite statements and questions.",
-    "explanations": null,
+    "explanations": {
+      "de": "Ist ist ein Verknüpfungsverbe (Linkswort), das 'zu sein' bedeutet. Es wird verwendet, um höfliche Aussagen und Fragen zu machen.\n"
+    },
     "patterns": [
       "Noun + です"
     ],
@@ -434,7 +839,9 @@
         "type": "fill-blank",
         "question": "私は___です。",
         "options": [
-          null
+          "学生",
+          "本",
+          "大きい"
         ],
         "correct": 0
       }
@@ -443,14 +850,46 @@
     "jlpt": "N5",
     "framework": null,
     "audioUrl": null,
-    "language_id": 1
+    "language_id": 1,
+    "content_translations": {
+      "title": {
+        "de": "ist (desu)"
+      },
+      "explanation": {
+        "de": "Ist ist ein Verknüpfungsverbe (Linkswort), das 'zu sein' bedeutet. Es wird verwendet, um höfliche Aussagen und Fragen zu machen.\n"
+      },
+      "examples": [
+        {
+          "translation": {
+            "de": "Ich bin Student."
+          }
+        },
+        {
+          "translation": {
+            "de": "Dies ist ein Buch."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "question": {
+            "de": "Ich bin ___."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 4,
     "title": "に particle (direction)",
+    "titleTranslations": {
+      "de": "Partikel ni (Richtung)"
+    },
     "rule": "に indicates direction or destination. It shows where someone or something is going.",
     "explanation": "に indicates direction or destination. It shows where someone or something is going.",
-    "explanations": null,
+    "explanations": {
+      "de": "Ni gibt die Richtung oder Ziel an. Es zeigt an, wohin jemand oder etwas geht.\n"
+    },
     "patterns": [
       "Place + に + Movement Verb"
     ],
@@ -469,23 +908,57 @@
         "type": "fill-blank",
         "question": "学校___行く",
         "options": [
-          null
+          "は",
+          "に",
+          "を"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "N5",
     "jlpt": "N5",
     "framework": null,
     "audioUrl": null,
-    "language_id": 1
+    "language_id": 1,
+    "content_translations": {
+      "title": {
+        "de": "Partikel ni (Richtung)"
+      },
+      "explanation": {
+        "de": "Ni gibt die Richtung oder Ziel an. Es zeigt an, wohin jemand oder etwas geht.\n"
+      },
+      "examples": [
+        {
+          "translation": {
+            "de": "Zur Schule gehen."
+          }
+        },
+        {
+          "translation": {
+            "de": "Nach Japan kommen."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "question": {
+            "de": "Zur Schule ___ gehen."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 3,
     "title": "を particle",
+    "titleTranslations": {
+      "de": "Partikel wo"
+    },
     "rule": "を marks the direct object of a verb. It indicates what receives the action of the verb.",
     "explanation": "を marks the direct object of a verb. It indicates what receives the action of the verb.",
-    "explanations": null,
+    "explanations": {
+      "de": "Wo markiert das direkte Objekt eines Verbs. Es zeigt an, was die Aktion des Verbs erhält.\n"
+    },
     "patterns": [
       "Object + を + Verb"
     ],
@@ -504,23 +977,57 @@
         "type": "fill-blank",
         "question": "本___読む",
         "options": [
-          null
+          "は",
+          "が",
+          "を"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "level": "N5",
     "jlpt": "N5",
     "framework": null,
     "audioUrl": null,
-    "language_id": 1
+    "language_id": 1,
+    "content_translations": {
+      "title": {
+        "de": "Partikel wo"
+      },
+      "explanation": {
+        "de": "Wo markiert das direkte Objekt eines Verbs. Es zeigt an, was die Aktion des Verbs erhält.\n"
+      },
+      "examples": [
+        {
+          "translation": {
+            "de": "Ein Buch lesen."
+          }
+        },
+        {
+          "translation": {
+            "de": "Wasser trinken."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "question": {
+            "de": "Ein Buch ___ lesen."
+          }
+        }
+      ]
+    }
   },
   {
     "id": 193,
     "title": "私の一日",
+    "titleTranslations": {
+      "de": "Mein Tag"
+    },
     "rule": null,
     "explanation": "",
-    "explanations": null,
+    "explanations": {
+      "de": ""
+    },
     "patterns": [],
     "examples": [],
     "exercises": [],
@@ -528,14 +1035,29 @@
     "jlpt": "N5",
     "framework": null,
     "audioUrl": "/audio/reading/eccb41e7.mp3",
-    "language_id": 1
+    "language_id": 1,
+    "content_translations": {
+      "title": {
+        "de": "Mein Tag"
+      },
+      "explanation": {
+        "de": ""
+      },
+      "examples": [],
+      "exercises": []
+    }
   },
   {
     "id": 194,
     "title": "私の家族",
+    "titleTranslations": {
+      "de": "Meine Familie"
+    },
     "rule": null,
     "explanation": "",
-    "explanations": null,
+    "explanations": {
+      "de": ""
+    },
     "patterns": [],
     "examples": [],
     "exercises": [],
@@ -543,6 +1065,16 @@
     "jlpt": "N5",
     "framework": null,
     "audioUrl": "/audio/reading/a9819f6b.mp3",
-    "language_id": 1
+    "language_id": 1,
+    "content_translations": {
+      "title": {
+        "de": "Meine Familie"
+      },
+      "explanation": {
+        "de": ""
+      },
+      "examples": [],
+      "exercises": []
+    }
   }
 ]

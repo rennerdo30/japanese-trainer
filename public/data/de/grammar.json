@@ -29,15 +29,18 @@
         "type": "fill-blank",
         "question": "Ich kaufe ___ Buch.",
         "options": [
-          null
+          "der",
+          "das",
+          "den"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "A1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 67,
@@ -70,15 +73,18 @@
         "type": "fill-blank",
         "question": "___ Buch ist interessant.",
         "options": [
-          null
+          "Der",
+          "Die",
+          "Das"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "level": "A1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 68,
@@ -110,7 +116,9 @@
         "type": "fill-blank",
         "question": "Das ist ___ Apfel.",
         "options": [
-          null
+          "ein",
+          "eine",
+          "einen"
         ],
         "correct": 0
       }
@@ -118,7 +126,8 @@
     "level": "A1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 73,
@@ -148,7 +157,9 @@
         "type": "fill-blank",
         "question": "Ich ___ heute nicht kommen.",
         "options": [
-          null
+          "kann",
+          "kannst",
+          "können"
         ],
         "correct": 0
       }
@@ -156,7 +167,8 @@
     "level": "A1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 69,
@@ -187,15 +199,18 @@
         "type": "fill-blank",
         "question": "Ich habe ___ Geld.",
         "options": [
-          null
+          "nicht",
+          "kein",
+          "keine"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "A1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 74,
@@ -227,15 +242,18 @@
         "type": "fill-blank",
         "question": "Das ist ___ Mutter.",
         "options": [
-          null
+          "mein",
+          "meine",
+          "meinen"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "A1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 66,
@@ -270,7 +288,9 @@
         "type": "fill-blank",
         "question": "Ich ___ Deutsch. (lernen)",
         "options": [
-          null
+          "lerne",
+          "lernst",
+          "lernt"
         ],
         "correct": 0
       }
@@ -278,7 +298,8 @@
     "level": "A1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 75,
@@ -310,7 +331,9 @@
         "type": "fill-blank",
         "question": "Der Zug fährt um 8 Uhr ___.",
         "options": [
-          null
+          "ab",
+          "an",
+          "auf"
         ],
         "correct": 0
       }
@@ -318,7 +341,8 @@
     "level": "A1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 70,
@@ -348,7 +372,9 @@
         "type": "fill-blank",
         "question": "Morgen ___ ich nach Berlin.",
         "options": [
-          null
+          "fahre",
+          "fährt",
+          "fahren"
         ],
         "correct": 0
       }
@@ -356,7 +382,8 @@
     "level": "A1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 71,
@@ -386,7 +413,9 @@
         "type": "fill-blank",
         "question": "___ du Kaffee?",
         "options": [
-          null
+          "Trinkst",
+          "Trinke",
+          "Trinken"
         ],
         "correct": 0
       }
@@ -394,7 +423,8 @@
     "level": "A1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 76,
@@ -426,15 +456,18 @@
         "type": "fill-blank",
         "question": "Wenn ich Zeit ___, würde ich dich besuchen.",
         "options": [
-          null
+          "habe",
+          "hätte",
+          "hatte"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "B1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 77,
@@ -466,7 +499,9 @@
         "type": "fill-blank",
         "question": "Das Auto ___ repariert.",
         "options": [
-          null
+          "wird",
+          "ist",
+          "hat"
         ],
         "correct": 0
       }
@@ -474,7 +509,8 @@
     "level": "B1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 79,
@@ -506,15 +542,18 @@
         "type": "fill-blank",
         "question": "Nachdem er ___ war, rief er mich an.",
         "options": [
-          null
+          "ankommen",
+          "angekommen",
+          "ankommt"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "B1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 78,
@@ -546,15 +585,18 @@
         "type": "fill-blank",
         "question": "Das ist das Haus, ___ ich gekauft habe.",
         "options": [
-          null
+          "der",
+          "die",
+          "das"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "level": "B1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 81,
@@ -586,15 +628,18 @@
         "type": "fill-blank",
         "question": "Das von ihm ___ Buch ist ein Bestseller.",
         "options": [
-          null
+          "geschrieben",
+          "geschriebene",
+          "schreibende"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "B2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 80,
@@ -627,15 +672,18 @@
         "type": "fill-blank",
         "question": "Er behauptete, er ___ unschuldig.",
         "options": [
-          null
+          "ist",
+          "sei",
+          "war"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "B2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 82,
@@ -667,7 +715,9 @@
         "type": "fill-blank",
         "question": "___ verließ er das Gebäude.",
         "options": [
-          null
+          "Singend",
+          "Gesungen",
+          "Singt"
         ],
         "correct": 0
       }
@@ -675,7 +725,8 @@
     "level": "B2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 84,
@@ -707,15 +758,18 @@
         "type": "fill-blank",
         "question": "Er fragte, ob ich wüsste, wann der Zug ___.",
         "options": [
-          null
+          "fährt",
+          "abfährt",
+          "abfahren wird"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "C1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 85,
@@ -751,15 +805,18 @@
         "type": "fill-blank",
         "question": "Wir müssen eine Entscheidung ___.",
         "options": [
-          null
+          "machen",
+          "treffen",
+          "nehmen"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "C1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 88,
@@ -791,15 +848,18 @@
         "type": "fill-blank",
         "question": "Trotz ___ schlechten Wetters gingen wir spazieren.",
         "options": [
-          null
+          "dem",
+          "des",
+          "der"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "C1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 90,
@@ -831,15 +891,18 @@
         "type": "fill-blank",
         "question": "___ die Kosten hoch sind, sollten wir investieren.",
         "options": [
-          null
+          "Weil",
+          "Obwohl",
+          "Wenngleich"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "level": "C1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 83,
@@ -871,15 +934,18 @@
         "type": "fill-blank",
         "question": "Die ___ des Problems erfordert Zeit.",
         "options": [
-          null
+          "Lösen",
+          "Lösung",
+          "lösen"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "C1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 89,
@@ -911,15 +977,18 @@
         "type": "fill-blank",
         "question": "Er sagte, er ___ das Buch schon gelesen.",
         "options": [
-          null
+          "hat",
+          "habe",
+          "hatte"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "C2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 87,
@@ -951,15 +1020,18 @@
         "type": "fill-blank",
         "question": "The archaic past tense of 'werden' is ___.",
         "options": [
-          null
+          "wurde",
+          "ward",
+          "geworden"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "C2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 86,
@@ -991,14 +1063,17 @@
         "type": "fill-blank",
         "question": "Which is more formal: 'Ich bitte Sie, ...' or 'Ich möchte, dass...'?",
         "options": [
-          null
+          "Ich möchte, dass...",
+          "Ich bitte Sie, ...",
+          "Both are equal"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "C2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   }
 ]

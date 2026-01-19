@@ -810,6 +810,34 @@ export function unloadKokoroModel(): void {
 }
 
 /**
+ * Generate audio blob URL using the Kokoro model
+ * Does NOT play the audio, just returns the URL
+ */
+export async function generateKokoroAudio(
+  text: string,
+  voice?: KokoroVoice
+): Promise<string> {
+  if (!ttsInstance) {
+    throw new Error('Kokoro model not loaded. Call loadKokoroModel() first.');
+  }
+
+  const selectedVoice = voice ?? getSavedVoice();
+
+  // Generate audio using kokoro-js
+  // Cast options to bypass kokoro-js types which don't include all supported voices
+  const output = await ttsInstance.generate(text, {
+    voice: selectedVoice,
+  } as Parameters<typeof ttsInstance.generate>[1]);
+
+  // Convert Float32Array to audio blob
+  const audioBlob = float32ToWavBlob(
+    output.audio as Float32Array,
+    output.sampling_rate
+  );
+  return URL.createObjectURL(audioBlob);
+}
+
+/**
  * Speak text using the Kokoro model
  * Model must be loaded first via loadKokoroModel()
  * @param text Text to speak
@@ -821,22 +849,7 @@ export async function speakWithKokoro(
   voice?: KokoroVoice,
   volume = 0.8
 ): Promise<void> {
-  if (!ttsInstance) {
-    throw new Error('Kokoro model not loaded. Call loadKokoroModel() first.');
-  }
-
-  const selectedVoice = voice ?? getSavedVoice();
-
-  // Generate audio using kokoro-js
-  // Cast options to bypass kokoro-js types which don't include all supported voices
-  const output = await ttsInstance.generate(text, { voice: selectedVoice } as Parameters<typeof ttsInstance.generate>[1]);
-
-  // Convert Float32Array to audio blob
-  const audioBlob = float32ToWavBlob(
-    output.audio as Float32Array,
-    output.sampling_rate
-  );
-  const audioUrl = URL.createObjectURL(audioBlob);
+  const audioUrl = await generateKokoroAudio(text, voice);
   const audio = new Audio(audioUrl);
   audio.volume = volume;
 

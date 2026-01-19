@@ -36,36 +36,49 @@
       {
         "question": "Complete: Yo ___ veinte años.",
         "options": [
-          null
+          "tengo",
+          "tienes",
+          "tiene",
+          "tienen"
         ],
         "correct": 0
       },
       {
         "question": "Complete: Nosotros ___ al cine.",
         "options": [
-          null
+          "voy",
+          "vas",
+          "va",
+          "vamos"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "question": "Complete: Ella ___ ejercicio todos los días.",
         "options": [
-          null
+          "hago",
+          "haces",
+          "hace",
+          "hacen"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "Complete: ¿Tú ___ a la fiesta?",
         "options": [
-          null
+          "voy",
+          "vas",
+          "va",
+          "vamos"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "a1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 130,
@@ -104,36 +117,49 @@
       {
         "question": "Complete: ___ profesor es simpático.",
         "options": [
-          null
+          "El",
+          "La",
+          "Un",
+          "Una"
         ],
         "correct": 0
       },
       {
         "question": "Complete: Quiero ___ café, por favor.",
         "options": [
-          null
+          "el",
+          "la",
+          "un",
+          "una"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "Complete: ___ ventanas están abiertas.",
         "options": [
-          null
+          "El",
+          "La",
+          "Los",
+          "Las"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "question": "Complete: Hay ___ flores en el jardín.",
         "options": [
-          null
+          "un",
+          "una",
+          "unos",
+          "unas"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "level": "a1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 128,
@@ -172,36 +198,49 @@
       {
         "question": "Complete: La chica es muy ___.",
         "options": [
-          null
+          "alto",
+          "alta",
+          "altos",
+          "altas"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Complete: Los perros son ___.",
         "options": [
-          null
+          "grande",
+          "grandes",
+          "granda",
+          "grandas"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Complete: ___ manzana roja.",
         "options": [
-          null
+          "El",
+          "La",
+          "Los",
+          "Las"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Complete: Tengo dos hermanas ___.",
         "options": [
-          null
+          "mayor",
+          "mayores",
+          "mayora",
+          "mayoras"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "a1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 135,
@@ -240,36 +279,49 @@
       {
         "question": "Complete: Yo ___ hablo italiano.",
         "options": [
-          null
+          "no",
+          "nada",
+          "nunca",
+          "nadie"
         ],
         "correct": 0
       },
       {
         "question": "Complete: No hay ___ en la nevera.",
         "options": [
-          null
+          "no",
+          "nada",
+          "nunca",
+          "nadie"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Complete: ___ voy al gimnasio.",
         "options": [
-          null
+          "No",
+          "Nada",
+          "Nunca",
+          "Nadie"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "Complete: No conozco a ___ aquí.",
         "options": [
-          null
+          "no",
+          "nada",
+          "nunca",
+          "nadie"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "level": "a1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 133,
@@ -308,36 +360,49 @@
       {
         "question": "Complete: ___ madre es profesora.",
         "options": [
-          null
+          "Mi",
+          "Mis",
+          "Tu",
+          "Tus"
         ],
         "correct": 0
       },
       {
         "question": "Complete: ¿Dónde están ___ zapatos?",
         "options": [
-          null
+          "mi",
+          "mis",
+          "tu",
+          "su"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Complete: ___ padres viven en España.",
         "options": [
-          null
+          "Nuestro",
+          "Nuestra",
+          "Nuestros",
+          "Nuestras"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "Complete: Ella perdió ___ teléfono.",
         "options": [
-          null
+          "mi",
+          "tu",
+          "su",
+          "sus"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "level": "a1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 129,
@@ -376,36 +441,49 @@
       {
         "question": "Complete: Yo ___ música. (escuchar)",
         "options": [
-          null
+          "escucho",
+          "escuchas",
+          "escucha",
+          "escuchan"
         ],
         "correct": 0
       },
       {
         "question": "Complete: Tú ___ en el parque. (correr)",
         "options": [
-          null
+          "corro",
+          "corres",
+          "corre",
+          "corren"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Complete: Nosotros ___ libros. (leer)",
         "options": [
-          null
+          "leo",
+          "lees",
+          "lee",
+          "leemos"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "question": "Complete: Ellos ___ la puerta. (abrir)",
         "options": [
-          null
+          "abro",
+          "abres",
+          "abre",
+          "abren"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "level": "a1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 132,
@@ -444,36 +522,49 @@
       {
         "question": "Complete: ¿___ está el baño?",
         "options": [
-          null
+          "Qué",
+          "Quién",
+          "Dónde",
+          "Cuándo"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "Complete: ¿___ cuesta esto?",
         "options": [
-          null
+          "Qué",
+          "Cuánto",
+          "Cómo",
+          "Cuál"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Complete: ¿___ es tu cumpleaños?",
         "options": [
-          null
+          "Qué",
+          "Quién",
+          "Dónde",
+          "Cuándo"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "question": "Complete: ¿___ no viniste ayer?",
         "options": [
-          null
+          "Qué",
+          "Por qué",
+          "Cómo",
+          "Cuál"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "a1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 127,
@@ -512,36 +603,49 @@
       {
         "question": "Complete: Yo ___ de España.",
         "options": [
-          null
+          "soy",
+          "estoy",
+          "tengo",
+          "voy"
         ],
         "correct": 0
       },
       {
         "question": "Complete: Ella ___ muy feliz hoy.",
         "options": [
-          null
+          "es",
+          "está",
+          "tiene",
+          "va"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Complete: Nosotros ___ profesores.",
         "options": [
-          null
+          "estamos",
+          "somos",
+          "tenemos",
+          "vamos"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Complete: El libro ___ en la mesa.",
         "options": [
-          null
+          "es",
+          "está",
+          "tiene",
+          "hay"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "a1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 136,
@@ -576,36 +680,49 @@
       {
         "question": "Replace 'el libro': Yo leo ___.",
         "options": [
-          null
+          "lo",
+          "la",
+          "los",
+          "las"
         ],
         "correct": 0
       },
       {
         "question": "Replace 'las flores': María ___ compra.",
         "options": [
-          null
+          "lo",
+          "la",
+          "los",
+          "las"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "question": "Replace 'a Juan': Yo ___ veo todos los días.",
         "options": [
-          null
+          "lo",
+          "la",
+          "los",
+          "las"
         ],
         "correct": 0
       },
       {
         "question": "Replace 'la película': Nosotros ___ vemos esta noche.",
         "options": [
-          null
+          "lo",
+          "la",
+          "los",
+          "las"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "a2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 134,
@@ -644,36 +761,49 @@
       {
         "question": "Complete: Me ___ el café.",
         "options": [
-          null
+          "gusto",
+          "gusta",
+          "gustan",
+          "gustas"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Complete: A ella le ___ los gatos.",
         "options": [
-          null
+          "gusta",
+          "gustan",
+          "gusto",
+          "gustas"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Complete: ¿Te ___ cocinar?",
         "options": [
-          null
+          "gusta",
+          "gustan",
+          "gusto",
+          "gustamos"
         ],
         "correct": 0
       },
       {
         "question": "Complete: No ___ gusta el frío.",
         "options": [
-          null
+          "me",
+          "te",
+          "nos",
+          "les"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "level": "a2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 138,
@@ -708,36 +838,49 @@
       {
         "question": "Complete: Yo ___ ir al cine, pero no tengo tiempo. (querer)",
         "options": [
-          null
+          "quiero",
+          "querría",
+          "quería",
+          "quisiera"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Complete: ¿___ cerrar la ventana? (poder, tú)",
         "options": [
-          null
+          "Puedes",
+          "Podrías",
+          "Pudiste",
+          "Podías"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Complete: Ellos ___ a las ocho. (llegar)",
         "options": [
-          null
+          "llegan",
+          "llegarán",
+          "llegarían",
+          "llegaron"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "Complete: Nosotros ___ mucho dinero si ganáramos la lotería. (tener)",
         "options": [
-          null
+          "tenemos",
+          "tendríamos",
+          "teníamos",
+          "tuvimos"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "b1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 140,
@@ -772,36 +915,49 @@
       {
         "question": "Complete: La carta ___ por mi hermano. (escribir, pasado)",
         "options": [
-          null
+          "escribió",
+          "fue escrita",
+          "está escrita",
+          "ha escrito"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Complete: Los premios ___ mañana. (entregar, futuro)",
         "options": [
-          null
+          "entregarán",
+          "serán entregados",
+          "son entregados",
+          "fueron entregados"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Complete: El cuadro ___ por Picasso. (pintar, pasado)",
         "options": [
-          null
+          "pintó",
+          "fue pintado",
+          "es pintado",
+          "será pintado"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Complete: Las noticias ___ en la radio cada hora. (transmitir)",
         "options": [
-          null
+          "transmiten",
+          "son transmitidas",
+          "fueron transmitidas",
+          "serán transmitidas"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "b1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 137,
@@ -836,36 +992,49 @@
       {
         "question": "Complete: Quiero que tú ___ temprano. (llegar)",
         "options": [
-          null
+          "llegas",
+          "llegues",
+          "llega",
+          "llegue"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Complete: Espero que ella ___ la verdad. (decir)",
         "options": [
-          null
+          "dice",
+          "diga",
+          "dices",
+          "digas"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Complete: Desean que nosotros ___ con ellos. (ir)",
         "options": [
-          null
+          "vamos",
+          "vayamos",
+          "iremos",
+          "fuimos"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Complete: Mi jefe quiere que yo ___ el informe. (escribir)",
         "options": [
-          null
+          "escribo",
+          "escriba",
+          "escribes",
+          "escribas"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "b1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 139,
@@ -900,28 +1069,40 @@
       {
         "question": "Complete: El restaurante ___ visitamos era excelente.",
         "options": [
-          null
+          "que",
+          "quien",
+          "cual",
+          "cuyo"
         ],
         "correct": 0
       },
       {
         "question": "Complete: La persona con ___ trabajo es muy amable.",
         "options": [
-          null
+          "que",
+          "quien",
+          "cual",
+          "cuyo"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Complete: El artista ___ obra admiro es español.",
         "options": [
-          null
+          "que",
+          "quien",
+          "cual",
+          "cuya"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "question": "Complete: Los estudiantes ___ aprobaron celebraron.",
         "options": [
-          null
+          "que",
+          "quien",
+          "cuales",
+          "cuyos"
         ],
         "correct": 0
       }
@@ -929,7 +1110,8 @@
     "level": "b1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 143,
@@ -964,36 +1146,49 @@
       {
         "question": "Complete: ___ llueva, iremos al parque.",
         "options": [
-          null
+          "Porque",
+          "Aunque",
+          "Cuando",
+          "Si"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Complete: ___ no hay más preguntas, podemos terminar.",
         "options": [
-          null
+          "Aunque",
+          "Porque",
+          "Dado que",
+          "Para que"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "Complete: Te ayudo ___ me prometas estudiar.",
         "options": [
-          null
+          "porque",
+          "aunque",
+          "con tal de que",
+          "dado que"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "Complete: Habla más alto ___ todos te oigan.",
         "options": [
-          null
+          "porque",
+          "aunque",
+          "dado que",
+          "para que"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "level": "b2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 142,
@@ -1028,36 +1223,49 @@
       {
         "question": "Complete: Yo ___ ir, pero estaba enfermo. (preferir)",
         "options": [
-          null
+          "preferiría",
+          "habría preferido",
+          "había preferido",
+          "preferí"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Complete: Si hubieras estudiado, ___ el examen. (aprobar)",
         "options": [
-          null
+          "aprobarás",
+          "aprobarías",
+          "habrías aprobado",
+          "aprobaste"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "Complete: Ellos ___ más tiempo si hubieran salido antes. (tener)",
         "options": [
-          null
+          "tendrían",
+          "habrían tenido",
+          "hubieran tenido",
+          "tuvieron"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Complete: ¿___ tú lo mismo en mi lugar? (hacer)",
         "options": [
-          null
+          "Harías",
+          "Habrías hecho",
+          "Hiciste",
+          "Hacías"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "b2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 141,
@@ -1092,36 +1300,49 @@
       {
         "question": "Complete: Si yo ___ más tiempo, estudiaría español. (tener)",
         "options": [
-          null
+          "tengo",
+          "tendré",
+          "tuviera",
+          "tenía"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "Complete: Quería que tú ___ a mi fiesta. (venir)",
         "options": [
-          null
+          "vienes",
+          "vengas",
+          "vinieras",
+          "vendrías"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "Complete: Si ella ___ aquí, estaría feliz. (estar)",
         "options": [
-          null
+          "está",
+          "estuviera",
+          "esté",
+          "estaría"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Complete: Me gustaría que ellos ___ la verdad. (saber)",
         "options": [
-          null
+          "saben",
+          "sepan",
+          "supieran",
+          "sabrían"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "level": "b2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 144,
@@ -1156,36 +1377,49 @@
       {
         "question": "Complete: Si yo lo ___, te lo habría dicho. (saber)",
         "options": [
-          null
+          "sabía",
+          "supiera",
+          "hubiera sabido",
+          "habría sabido"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "Complete: Ojalá ___ más cuidado. (tener, nosotros)",
         "options": [
-          null
+          "tuviéramos",
+          "hubiéramos tenido",
+          "tendríamos",
+          "habríamos tenido"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Complete: Si ella ___ antes, todo sería diferente. (llegar)",
         "options": [
-          null
+          "llegara",
+          "hubiera llegado",
+          "habría llegado",
+          "llegó"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Complete: Me alegro de que ___ tiempo de vernos. (haber)",
         "options": [
-          null
+          "haya",
+          "hubiera habido",
+          "habría",
+          "hubo"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "b2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 146,
@@ -1216,36 +1450,49 @@
       {
         "question": "Identify the type of clause: 'Es necesario que vengas'",
         "options": [
-          null
+          "Adverbial",
+          "Noun clause (subject)",
+          "Relative",
+          "Conditional"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Complete: Es posible que ___ que no ___ tiempo.",
         "options": [
-          null
+          "digan / tienen",
+          "digan / tengan",
+          "dicen / tienen",
+          "dicen / tengan"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "In complex sentences, subordinate clauses can:",
         "options": [
-          null
+          "Only be at the end",
+          "Never contain subjunctive",
+          "Be nested within each other",
+          "Never modify nouns"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "Complete: El libro ___ autor ___ obra ganó el premio...",
         "options": [
-          null
+          "que / cuyo",
+          "cuyo / cuya",
+          "quien / que",
+          "que / que"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "c1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 147,
@@ -1280,36 +1527,49 @@
       {
         "question": "Choose the connector for contrast: '___, algunos expertos opinan diferente.'",
         "options": [
-          null
+          "Además",
+          "No obstante",
+          "Es decir",
+          "En primer lugar"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Choose the connector for conclusion: '___, todos los argumentos apoyan la teoría.'",
         "options": [
-          null
+          "Sin embargo",
+          "Asimismo",
+          "En definitiva",
+          "Por añadidura"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "Choose the connector for reformulation: 'El proyecto fracasó, ___, no alcanzó sus objetivos.'",
         "options": [
-          null
+          "no obstante",
+          "es decir",
+          "además",
+          "por último"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Choose the connector for addition: '___, debemos considerar el impacto ambiental.'",
         "options": [
-          null
+          "Sin embargo",
+          "En resumen",
+          "Asimismo",
+          "Ahora bien"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "level": "c1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 145,
@@ -1344,36 +1604,49 @@
       {
         "question": "The future subjunctive is most commonly found in:",
         "options": [
-          null
+          "Everyday conversation",
+          "Legal and literary texts",
+          "Informal writing",
+          "Children's books"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Complete the proverb: Donde ___, haz lo que vieres.",
         "options": [
-          null
+          "vas",
+          "fueras",
+          "fueres",
+          "irás"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "The future subjunctive 'tuviere' comes from which verb?",
         "options": [
-          null
+          "Tener",
+          "Estar",
+          "Ser",
+          "Ir"
         ],
         "correct": 0
       },
       {
         "question": "In modern Spanish, the future subjunctive is usually replaced by:",
         "options": [
-          null
+          "Future indicative only",
+          "Present subjunctive or indicative",
+          "Imperfect subjunctive only",
+          "Conditional"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "c1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 148,
@@ -1404,36 +1677,49 @@
       {
         "question": "Which register uses 'usted' and passive voice?",
         "options": [
-          null
+          "Informal",
+          "Formal",
+          "Colloquial",
+          "Slang"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Which sentence is in formal register?",
         "options": [
-          null
+          "¿Qué onda, güey?",
+          "Le ruego me disculpe",
+          "¡Mola mucho!",
+          "¿Qué tal?"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Academic register often uses:",
         "options": [
-          null
+          "Slang and colloquialisms",
+          "Impersonal constructions and hedging",
+          "Only simple sentences",
+          "Informal pronouns"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Which is a literary stylistic device?",
         "options": [
-          null
+          "Using 'tú'",
+          "Inverted syntax and metaphor",
+          "Simple vocabulary",
+          "Short sentences only"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "c1",
     "framework": null,
     "audioUrl": null,
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 149,
@@ -1468,36 +1754,49 @@
       {
         "question": "'Decidme' is an archaic form of:",
         "options": [
-          null
+          "Decimos",
+          "Decidnos",
+          "Decidme (vosotros imperative + me)",
+          "Dígame"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "The archaic 'vos' pronoun used unique conjugations. True or false?",
         "options": [
-          null
+          "True",
+          "False",
+          "Only in writing",
+          "Only in speech"
         ],
         "correct": 0
       },
       {
         "question": "'Pluguiera' is an archaic form of which verb?",
         "options": [
-          null
+          "Plegar",
+          "Placer",
+          "Lugar",
+          "Llegar"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "These archaic forms are most commonly found in:",
         "options": [
-          null
+          "Text messages",
+          "News reports",
+          "Classical literature and legal texts",
+          "Children's cartoons"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "level": "c2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 151,
@@ -1532,36 +1831,49 @@
       {
         "question": "'Debe de estar en casa' expresses:",
         "options": [
-          null
+          "Strong obligation",
+          "Probability/conjecture",
+          "Command",
+          "Past action"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "'Cabría pensar que...' is used for:",
         "options": [
-          null
+          "Direct statement",
+          "Academic hedging",
+          "Informal speech",
+          "Commands"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Which expresses higher certainty?",
         "options": [
-          null
+          "Es probable que venga",
+          "Puede que venga",
+          "Es seguro que viene",
+          "Tal vez venga"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "'Haber de' + infinitive is:",
         "options": [
-          null
+          "Colloquial",
+          "Literary/formal obligation",
+          "Incorrect",
+          "Only for questions"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "level": "c2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   },
   {
     "id": 150,
@@ -1596,28 +1908,40 @@
       {
         "question": "Voseo is primarily used in:",
         "options": [
-          null
+          "Spain only",
+          "Argentina and Central America",
+          "Portugal",
+          "France"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "'Le vi ayer' (referring to a man) is an example of:",
         "options": [
-          null
+          "Standard usage",
+          "Leísmo",
+          "Laísmo",
+          "Loísmo"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "In most of Latin America, 'vosotros' is replaced by:",
         "options": [
-          null
+          "Tú",
+          "Vos",
+          "Ustedes",
+          "Ellos"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "The present perfect is used differently in Spain vs Latin America. True or false?",
         "options": [
-          null
+          "True",
+          "False",
+          "Only in formal contexts",
+          "Only in informal contexts"
         ],
         "correct": 0
       }
@@ -1625,6 +1949,7 @@
     "level": "c2",
     "framework": null,
     "audioUrl": null,
-    "language_id": 2
+    "language_id": 2,
+    "content_translations": null
   }
 ]

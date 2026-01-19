@@ -21,7 +21,7 @@ import { toKatakana } from 'wanakana';
 import styles from './alphabet.module.css';
 
 // Import character data for each language
-import jaCharactersJson from '@/data/ja/characters.json';
+// import jaCharactersJson from '@/data/ja/characters.json';
 import koCharactersJson from '@/data/ko/characters.json';
 
 const TIME_PER_CHARACTER = 5;
@@ -69,24 +69,27 @@ const normalizeKoreanCharacter = (char: KoreanCharacterData): Character => ({
     mnemonic: char.mnemonic,
 });
 
-// Get characters based on target language
-const getCharacterData = (lang: string): Character[] => {
+// Normalize Japanese characters to match the Character interface
+// The JSON has 'char' and 'romanization' instead of 'hiragana' and 'romaji'
+const normalizeJapaneseCharacter = (char: any): Character => ({
+    romaji: char.romanization || char.romaji || '',
+    hiragana: char.char || char.hiragana || '',
+    type: char.type,
+    audioUrl: char.audioUrl,
+    group: char.group,
+    order: char.order,
+    name: char.name,
+    mnemonic: char.mnemonic,
+});
+
+// Get characters based on target language (Static fallback)
+const getStaticCharacterData = (lang: string): Character[] => {
     switch (lang) {
         case 'ko':
             return (koCharactersJson as KoreanCharacterData[]).map(normalizeKoreanCharacter);
-        case 'ja':
         default:
-            // Cast through unknown as the JSON structure differs from Character type
-            return jaCharactersJson as unknown as Character[];
+            return [];
     }
-};
-
-// Get lesson data based on target language
-// Note: Alphabet lessons are now part of AI-generated curriculum.
-// This function returns empty until lessons are loaded dynamically.
-const getLessonData = (lang: string): AlphabetLesson[] => {
-    // TODO: Load from AI-generated curriculum via /data/{lang}/lessons.json
-    return [];
 };
 
 // Filter configurations per language
@@ -168,9 +171,59 @@ export default function AlphabetPage() {
     const [selectedMultipleChoiceIndex, setSelectedMultipleChoiceIndex] = useState<number | null>(null);
     const inputRef = useRef<HTMLInputElement>(null);
 
-    // Get characters and filter configuration for current language
-    const characters = useMemo(() => getCharacterData(targetLanguage), [targetLanguage]);
-    const lessons = useMemo(() => getLessonData(targetLanguage), [targetLanguage]);
+    // State for characters and lessons
+    const [characters, setCharacters] = useState<Character[]>([]);
+    const [lessons, setLessons] = useState<AlphabetLesson[]>([]);
+
+    // Fetch data
+    useEffect(() => {
+        const loadData = async () => {
+            // For Japanese, try to load from the generated JSON in public/data
+            if (targetLanguage === 'ja') {
+                try {
+                    // Load characters
+                    const charRes = await fetch(`/data/${targetLanguage}/characters.json`);
+                    if (charRes.ok) {
+                        const data = await charRes.json();
+                        // 1. Normalize
+                        const normalized = data.map(normalizeJapaneseCharacter);
+                        // 2. Strict Filter: ONLY keep native Hiragana characters
+                        // This removes:
+                        // - Kanji (\u4E00-\u9FAF)
+                        // - Katakana (\u30A0-\u30FF) - removes duplicates, we convert on fly
+                        // - Romaji/Symbols
+                        const hiraganaOnly = normalized.filter((c: Character) =>
+                            /[\u3040-\u309F]/.test(c.hiragana)
+                        );
+                        setCharacters(hiraganaOnly);
+                    } else {
+                        console.error('Failed to load character data');
+                        setCharacters([]);
+                    }
+
+                    // Load lessons
+                    const lessonRes = await fetch(`/data/${targetLanguage}/lessons.json`);
+                    if (lessonRes.ok) {
+                        const data = await lessonRes.json();
+                        setLessons(data);
+                    } else {
+                        console.error('Failed to load lesson data');
+                        setLessons([]);
+                    }
+                    return;
+                } catch (error) {
+                    console.error('Failed to load data:', error);
+                }
+            }
+
+            // Fallback to static data (mostly for Korean or if fetch fails)
+            setCharacters(getStaticCharacterData(targetLanguage));
+            setLessons([]); // No static lessons for now
+        };
+
+        loadData();
+    }, [targetLanguage]);
+
     const filterConfig = useMemo(() => FILTER_CONFIGS[targetLanguage] || FILTER_CONFIGS.ja, [targetLanguage]);
     const toggleConfig = useMemo(() => TOGGLE_CONFIGS[targetLanguage] || TOGGLE_CONFIGS.ja, [targetLanguage]);
 
@@ -178,7 +231,10 @@ export default function AlphabetPage() {
     const currentLesson = useMemo(() => lessons[currentLessonIndex], [lessons, currentLessonIndex]);
     const lessonCharacters = useMemo(() => {
         if (!currentLesson) return [];
-        return currentLesson.characters
+        // Handle both new structure (content.characters) and legacy structure (characters)
+        const chars = currentLesson.content?.characters || currentLesson.characters || [];
+
+        return chars
             .map(romaji => characters.find(c => c.romaji === romaji))
             .filter((c): c is Character => c !== undefined);
     }, [currentLesson, characters]);
@@ -237,14 +293,27 @@ export default function AlphabetPage() {
     }, []);
 
     const getAvailableCharacters = useCallback((): Character[] => {
+        // Collect all valid types for this language from config
+        const allValidTypes = filterConfig.flatMap(fc => fc.types);
+
+        // Check if any filters are checked
+        const anyFilterChecked = filterConfig.some(fc => filters[fc.id]?.checked);
+
+        // Determine which types we are allowed to show
+        let allowedTypes: string[] = [];
+        if (!anyFilterChecked) {
+            // If no filters checked, show ALL valid alphabet types (exclude kanji etc)
+            allowedTypes = allValidTypes;
+        } else {
+            // Otherwise show only checked types
+            allowedTypes = filterConfig
+                .filter(fc => filters[fc.id]?.checked)
+                .flatMap(fc => fc.types);
+        }
+
         return characters.filter(char => {
-            // Check each filter configuration for the current language
-            for (const fc of filterConfig) {
-                if (filters[fc.id]?.checked && fc.types.includes(char.type)) {
-                    return true;
-                }
-            }
-            return false;
+            const effectiveType = char.type || 'gojuon';
+            return allowedTypes.includes(effectiveType);
         });
     }, [filters, filterConfig, characters]);
 
@@ -460,7 +529,7 @@ export default function AlphabetPage() {
             nextCharacter();
             start();
         }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [mode, filterStates, useHiragana, targetLanguage]);
 
     useEffect(() => {
@@ -617,22 +686,22 @@ export default function AlphabetPage() {
 
     return (
         <ErrorBoundary>
-        <LanguageContentGuard moduleName="alphabet">
-            <Container variant="centered" streak={mode === 'practice' ? streak : 0}>
-                <Navigation />
+            <LanguageContentGuard moduleName="alphabet">
+                <Container variant="centered" streak={mode === 'practice' ? streak : 0}>
+                    <Navigation />
 
-                <div className={styles.modeToggleWrapper}>
-                    <LearnModeToggle
-                        mode={mode}
-                        onChange={setMode}
-                        learnLabel={t('learnMode.learn') || 'Learn'}
-                        practiceLabel={t('learnMode.practice') || 'Practice'}
-                    />
-                </div>
+                    <div className={styles.modeToggleWrapper}>
+                        <LearnModeToggle
+                            mode={mode}
+                            onChange={setMode}
+                            learnLabel={t('learnMode.learn') || 'Learn'}
+                            practiceLabel={t('learnMode.practice') || 'Practice'}
+                        />
+                    </div>
 
-                {mode === 'learn' ? renderLearnMode() : renderPracticeMode()}
-            </Container>
-        </LanguageContentGuard>
+                    {mode === 'learn' ? renderLearnMode() : renderPracticeMode()}
+                </Container>
+            </LanguageContentGuard>
         </ErrorBoundary>
     );
 }

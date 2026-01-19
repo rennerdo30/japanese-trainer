@@ -10,29 +10,39 @@
       {
         "question": "Wie heißt das Restaurant?",
         "options": [
-          null
+          "Zum goldenen Löwen",
+          "Zum goldenen Hirsch",
+          "Zum goldenen Adler",
+          "Zum goldenen Bär"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Was bestellt Thomas?",
         "options": [
-          null
+          "Suppe und Fisch",
+          "Schnitzel und Salat",
+          "Pizza und Salat",
+          "Hamburger und Pommes"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Wie viel kostet das Essen?",
         "options": [
-          null
+          "35 Euro",
+          "40 Euro",
+          "45 Euro",
+          "50 Euro"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 35,
@@ -45,29 +55,39 @@
       {
         "question": "Wann steht die Person auf?",
         "options": [
-          null
+          "Um 6:00 Uhr",
+          "Um 6:30 Uhr",
+          "Um 7:00 Uhr",
+          "Um 7:30 Uhr"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Wie fährt die Person zur Arbeit?",
         "options": [
-          null
+          "Mit dem Auto",
+          "Mit dem Zug",
+          "Mit dem Bus",
+          "Mit dem Fahrrad"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "Wann geht die Person ins Bett?",
         "options": [
-          null
+          "Um 22 Uhr",
+          "Um 23 Uhr",
+          "Um 24 Uhr",
+          "Um 21 Uhr"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 33,
@@ -80,29 +100,39 @@
       {
         "question": "Wie alt ist Thomas?",
         "options": [
-          null
+          "25 Jahre alt",
+          "28 Jahre alt",
+          "32 Jahre alt",
+          "30 Jahre alt"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Was studiert Anna?",
         "options": [
-          null
+          "Ingenieurwesen",
+          "Medizin",
+          "Mathematik",
+          "Kunst"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Was ist der Beruf des Vaters?",
         "options": [
-          null
+          "Arzt",
+          "Ingenieur",
+          "Lehrer",
+          "Rechtsanwalt"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 36,
@@ -115,29 +145,39 @@
       {
         "question": "Was ist Markus von Beruf?",
         "options": [
-          null
+          "Lehrer",
+          "Arzt",
+          "Softwareentwickler",
+          "Ingenieur"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "Wo liegt die neue Wohnung?",
         "options": [
-          null
+          "Am Stadtrand",
+          "Im Stadtzentrum",
+          "Auf dem Land",
+          "Im Vorort"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Was möchte Markus mit Peter machen?",
         "options": [
-          null
+          "Ins Kino gehen",
+          "Die Stadt erkunden",
+          "Fußball spielen",
+          "Einkaufen gehen"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 37,
@@ -150,29 +190,39 @@
       {
         "question": "Welcher Komponist wurde in Österreich geboren?",
         "options": [
-          null
+          "Bach",
+          "Beethoven",
+          "Mozart",
+          "Schiller"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "Was ist das größte Volksfest der Welt?",
         "options": [
-          null
+          "Karneval",
+          "Weihnachtsmarkt",
+          "Oktoberfest",
+          "Maifest"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "Welche Gerichte sind im Norden Deutschlands beliebter?",
         "options": [
-          null
+          "Schweinshaxe",
+          "Knödel",
+          "Fischgerichte",
+          "Lebkuchen"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 38,
@@ -185,29 +235,39 @@
       {
         "question": "Bis wann will Deutschland klimaneutral sein?",
         "options": [
-          null
+          "2030",
+          "2040",
+          "2045",
+          "2050"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "Was bekommt man zurück, wenn man leere Flaschen zurückbringt?",
         "options": [
-          null
+          "Nichts",
+          "Das Pfand",
+          "Einen Gutschein",
+          "Eine neue Flasche"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Welche Stadt wird als fahrradfreundlich genannt?",
         "options": [
-          null
+          "Berlin",
+          "Hamburg",
+          "Münster",
+          "Frankfurt"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 39,
@@ -220,29 +280,39 @@
       {
         "question": "Was hat sich als Alternative zum Büroalltag etabliert?",
         "options": [
-          null
+          "Teilzeitarbeit",
+          "Homeoffice",
+          "Selbstständigkeit",
+          "Frührente"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Wovor warnen Kritiker der Digitalisierung?",
         "options": [
-          null
+          "Höheren Kosten",
+          "Sozialen Auswirkungen",
+          "Weniger Urlaub",
+          "Längeren Arbeitszeiten"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Welche Chance bietet die Digitalisierung für ländliche Regionen?",
         "options": [
-          null
+          "Mehr Tourismus",
+          "Ortsunabhängiges Arbeiten",
+          "Neue Fabriken",
+          "Bessere Straßen"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 40,
@@ -255,29 +325,39 @@
       {
         "question": "Was wird der Generation Z oft vorgeworfen?",
         "options": [
-          null
+          "Zu viel zu arbeiten",
+          "Arbeitsscheu zu sein",
+          "Zu viel zu verdienen",
+          "Zu früh in Rente zu gehen"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Was ist laut dem Autor wichtiger für die Generation Z?",
         "options": [
-          null
+          "Hohe Gehälter",
+          "Schnelle Karriere",
+          "Work-Life-Balance",
+          "Große Büros"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "question": "Was fordert der Autor am Ende des Textes?",
         "options": [
-          null
+          "Strengere Regeln für junge Arbeitnehmer",
+          "Anerkennung der Veränderungsbedürfnisse",
+          "Rückkehr zu traditionellen Werten",
+          "Mehr Kritik an der Jugend"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 41,
@@ -290,29 +370,39 @@
       {
         "question": "Welchen Vorteil zeigt KI im Gesundheitswesen?",
         "options": [
-          null
+          "Niedrigere Kosten",
+          "Bessere Tumorerkennung",
+          "Mehr Personal",
+          "Schnellere Termine"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Welches ethische Problem wird im Text angesprochen?",
         "options": [
-          null
+          "Zu hohe Energiekosten",
+          "Verantwortung bei Unfällen",
+          "Mangel an Programmierern",
+          "Fehlende Internetverbindung"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Was fordert der Autor zur Lösung der globalen Herausforderungen?",
         "options": [
-          null
+          "Mehr Wettbewerb",
+          "Internationale Kooperation",
+          "Weniger Regulierung",
+          "Schnellere Entwicklung"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 42,
@@ -325,29 +415,39 @@
       {
         "question": "Was versteht man unter Neuroplastizität?",
         "options": [
-          null
+          "Die Größe des Gehirns",
+          "Die Veränderungsfähigkeit des Gehirns",
+          "Die Farbe der Neuronen",
+          "Die Anzahl der Nervenzellen"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "In welcher Hirnregion können lebenslang neue Nervenzellen gebildet werden?",
         "options": [
-          null
+          "Frontallappen",
+          "Hippocampus",
+          "Kleinhirn",
+          "Stammhirn"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Was ist laut dem Text Voraussetzung für Lernen im Alter?",
         "options": [
-          null
+          "Genetische Veranlagung",
+          "Regelmäßige kognitive Stimulation",
+          "Spezielle Medikamente",
+          "Viel Schlaf"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 45,
@@ -360,29 +460,39 @@
       {
         "question": "Was markiert der 3. Oktober 1990?",
         "options": [
-          null
+          "Den Bau der Berliner Mauer",
+          "Die Wiedervereinigung Deutschlands",
+          "Den Beginn des Zweiten Weltkriegs",
+          "Die Gründung der EU"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Was ist laut dem Redner wahrhafte Einheit?",
         "options": [
-          null
+          "Ein Zustand",
+          "Ein immerwährender Prozess",
+          "Ein Gesetz",
+          "Eine Institution"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Was verbindet laut dem Text Ost und West unauflöslich?",
         "options": [
-          null
+          "Das Wirtschaftssystem",
+          "Die gemeinsame Sprache und Kultur",
+          "Die gemeinsamen Feinde",
+          "Die gemeinsame Regierung"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 43,
@@ -395,29 +505,39 @@
       {
         "question": "Warum sollte Hans Castorp nach Davos reisen?",
         "options": [
-          null
+          "Für eine Hochzeit",
+          "Wegen seiner Gesundheit",
+          "Für einen Job",
+          "Um Freunde zu besuchen"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Wie lange war der geplante Aufenthalt?",
         "options": [
-          null
+          "Eine Woche",
+          "Drei Wochen",
+          "Ein Monat",
+          "Ein Jahr"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Wie lange blieb Hans Castorp tatsächlich?",
         "options": [
-          null
+          "Drei Wochen",
+          "Drei Monate",
+          "Drei Jahre",
+          "Sieben Jahre"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   },
   {
     "id": 44,
@@ -430,28 +550,38 @@
       {
         "question": "Was behauptet der strenge Determinismus?",
         "options": [
-          null
+          "Alle Handlungen sind frei",
+          "Alle Ereignisse sind notwendige Folgen vorheriger Ereignisse",
+          "Es gibt keinen Zufall",
+          "Menschen sind immer verantwortlich"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Was ist das Problem der libertarischen Position?",
         "options": [
-          null
+          "Sie ist zu einfach",
+          "Sie kann undeterminierte Entscheidungen nicht erklären ohne Zufall",
+          "Sie widerspricht der Religion",
+          "Sie ist zu populär"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "question": "Was behauptet der Kompatibilismus?",
         "options": [
-          null
+          "Freiheit existiert nicht",
+          "Determinismus ist falsch",
+          "Freiheit und Determinismus sind vereinbar",
+          "Zufall bestimmt alles"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "vocabulary_ids": null,
     "grammar_ids": null,
     "audioUrl": "",
-    "language_id": 5
+    "language_id": 5,
+    "content_translations": null
   }
 ]
