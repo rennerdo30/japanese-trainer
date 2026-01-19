@@ -43,17 +43,17 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <html lang="en">
       <body>
         <Providers>
-          <LanguageProvider>
-            <TargetLanguageProvider>
-              <SettingsProvider>
+          <SettingsProvider>
+            <LanguageProvider>
+              <TargetLanguageProvider>
                 <ProgressProvider>
                   <ClientLayout>
                     {children}
                   </ClientLayout>
                 </ProgressProvider>
-              </SettingsProvider>
-            </TargetLanguageProvider>
-          </LanguageProvider>
+              </TargetLanguageProvider>
+            </LanguageProvider>
+          </SettingsProvider>
         </Providers>
       </body>
     </html>
