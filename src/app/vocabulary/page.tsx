@@ -28,7 +28,7 @@ export default function VocabularyPage() {
     const { t } = useLanguage();
     const { targetLanguage, levels } = useTargetLanguage();
     const { getMeaning } = useContentTranslation();
-    const { speak } = useTTS();
+    const { speak, preloadBatch } = useTTS();
     const {
         allLearned,
         isContentLearned,
@@ -127,6 +127,16 @@ export default function VocabularyPage() {
 
         return items.slice(0, 50); // Limit for performance
     }, [vocabulary, searchQuery, selectedLevel, getDisplayMeaning]);
+
+    // Preload audio for visible vocabulary items (first 10)
+    useEffect(() => {
+        if (activeTab === 'all' && filteredVocabulary.length > 0) {
+            const audioUrls = filteredVocabulary
+                .slice(0, 10)
+                .map(v => v.audioUrl);
+            preloadBatch(audioUrls);
+        }
+    }, [activeTab, filteredVocabulary, preloadBatch]);
 
     // Tab configuration
     const tabs = useMemo(() => [

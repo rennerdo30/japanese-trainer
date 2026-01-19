@@ -1,11 +1,14 @@
 'use client';
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import { Card, Text, Button } from '@/components/ui';
 import LessonIntro from './LessonIntro';
 import LessonCard from './LessonCard';
 import LessonProgressBar from './LessonProgress';
 import { FillBlank } from '@/components/exercises';
+import { useTTS } from '@/hooks/useTTS';
+import { getVocabularyData } from '@/lib/dataLoader';
+import { useTargetLanguage } from '@/hooks/useTargetLanguage';
 import type { CurriculumLesson, LessonContext } from '@/types/curriculum';
 import type { FillBlankExercise } from '@/types/exercises';
 import { IoArrowBack, IoArrowForward, IoCheckmark } from 'react-icons/io5';
@@ -40,6 +43,8 @@ export default function LessonView({
 }: LessonViewProps) {
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
   const [exerciseAnswers, setExerciseAnswers] = useState<boolean[]>([]);
+  const { preloadBatch } = useTTS();
+  const { targetLanguage } = useTargetLanguage();
 
   // Generate learning cards from lesson content
   const learningCards: LearningCard[] = [
@@ -68,6 +73,44 @@ export default function LessonView({
       content: note,
     })),
   ];
+
+  // Preload audio for vocabulary items in this lesson (non-blocking)
+  // Runs after initial render to avoid blocking
+  useEffect(() => {
+    // Skip if no vocab focus or preloadBatch not available
+    if (!lesson.content.vocab_focus || lesson.content.vocab_focus.length === 0) {
+      return;
+    }
+
+    // Use requestIdleCallback if available, otherwise setTimeout
+    const schedulePreload = () => {
+      const vocabularyData = getVocabularyData(targetLanguage);
+      if (vocabularyData.length === 0) {
+        // Data not loaded yet, retry after a delay
+        return;
+      }
+
+      // Match vocabulary strings to vocabulary items and get their audio URLs
+      const audioUrls = lesson.content.vocab_focus
+        .map(vocabWord => {
+          const item = vocabularyData.find(
+            v => v.word?.toLowerCase() === vocabWord.toLowerCase() ||
+                 v.reading?.toLowerCase() === vocabWord.toLowerCase()
+          );
+          return item?.audioUrl;
+        })
+        .filter((url): url is string => !!url);
+
+      if (audioUrls.length > 0) {
+        preloadBatch(audioUrls);
+      }
+    };
+
+    // Delay preloading significantly to not interfere with page load
+    const timeoutId = setTimeout(schedulePreload, 500);
+
+    return () => clearTimeout(timeoutId);
+  }, [lesson.content.vocab_focus, targetLanguage, preloadBatch]);
 
   const totalLearningCards = learningCards.length;
   const totalExerciseCards = lesson.exercises?.length || 0;

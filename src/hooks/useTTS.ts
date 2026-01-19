@@ -27,6 +27,23 @@ interface TTSOptions {
  */
 type TTSTier = 'pregenerated' | 'kokoro' | 'webspeech';
 
+// Global audio preload cache (shared across hook instances)
+const audioPreloadCache = new Map<string, HTMLAudioElement>();
+const MAX_CACHE_SIZE = 50; // Limit cache to prevent memory issues
+
+/**
+ * Clean up old cache entries if cache exceeds max size
+ */
+function trimCache() {
+  if (audioPreloadCache.size > MAX_CACHE_SIZE) {
+    // Remove oldest entries (first ones added)
+    const keysToRemove = Array.from(audioPreloadCache.keys()).slice(0, 10);
+    for (const key of keysToRemove) {
+      audioPreloadCache.delete(key);
+    }
+  }
+}
+
 export function useTTS() {
   const { ttsVoice } = useTargetLanguage();
   const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
@@ -80,15 +97,29 @@ export function useTTS() {
     };
   }, []);
 
+  /**
+   * Preload a single audio file into the cache
+   */
   const preloadAudio = useCallback(
     (audioUrl: string): HTMLAudioElement | null => {
-      if (typeof window === 'undefined') {
+      if (typeof window === 'undefined' || !audioUrl) {
         return null;
       }
+
+      // Check if already in cache
+      if (audioPreloadCache.has(audioUrl)) {
+        return audioPreloadCache.get(audioUrl) || null;
+      }
+
       try {
         const audio = new Audio(audioUrl);
         audio.preload = 'auto';
         audio.load();
+
+        // Add to cache
+        audioPreloadCache.set(audioUrl, audio);
+        trimCache();
+
         return audio;
       } catch (error) {
         console.warn('Failed to preload audio:', error);
@@ -98,11 +129,46 @@ export function useTTS() {
     []
   );
 
-  // Tier 1: Play pre-generated audio file
+  /**
+   * Preload multiple audio files in batch (e.g., next 5 vocabulary items)
+   * This is useful for preloading upcoming content while user is viewing current content
+   */
+  const preloadBatch = useCallback(
+    (audioUrls: (string | undefined | null)[]): void => {
+      if (typeof window === 'undefined') {
+        return;
+      }
+
+      // Filter out undefined/null and already cached URLs
+      const urlsToPreload = audioUrls.filter(
+        (url): url is string => !!url && !audioPreloadCache.has(url)
+      );
+
+      // Preload each URL
+      for (const url of urlsToPreload) {
+        preloadAudio(url);
+      }
+    },
+    [preloadAudio]
+  );
+
+  // Tier 1: Play pre-generated audio file (uses cache if available)
   const playPregenerated = useCallback(
     async (audioUrl: string, volume: number, rate: number): Promise<void> => {
       return new Promise((resolve, reject) => {
-        const audio = new Audio(audioUrl);
+        // Check cache first for instant playback
+        let audio = audioPreloadCache.get(audioUrl);
+
+        if (audio) {
+          // Use cached audio - reset to beginning
+          audio.currentTime = 0;
+        } else {
+          // Create new audio element and add to cache
+          audio = new Audio(audioUrl);
+          audioPreloadCache.set(audioUrl, audio);
+          trimCache();
+        }
+
         audio.volume = volume;
         audio.playbackRate = rate;
         audioRef.current = audio;
@@ -114,6 +180,8 @@ export function useTTS() {
 
         audio.onerror = () => {
           audioRef.current = null;
+          // Remove failed audio from cache
+          audioPreloadCache.delete(audioUrl);
           reject(new Error('Failed to play pre-generated audio'));
         };
 
@@ -291,6 +359,7 @@ export function useTTS() {
     speak,
     speakAndWait,
     preloadAudio,
+    preloadBatch,
     cancel,
     stop,
     isPlaying,
