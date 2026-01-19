@@ -10,7 +10,7 @@ import { Container, Card, Text, Button, Toggle, Animated } from '@/components/ui
 import { useLanguage } from '@/context/LanguageProvider';
 import { useTargetLanguage } from '@/context/TargetLanguageProvider';
 import { useSettings } from '@/context/SettingsProvider';
-import { ThemeOverride } from '@/types/context';
+import { ThemeOverride, Settings } from '@/types/context';
 import { useMobile } from '@/hooks/useMobile';
 import { useKokoroVoice } from '@/hooks/useKokoroVoice';
 import {
@@ -670,13 +670,13 @@ export default function SettingsPage() {
         <div className={styles.customColorsSection}>
           <div className={styles.overridesHeader}>
             <div>
-              <Text variant="h4" className={styles.overridesTitle}>{t('settings.appearance.customColors')}</Text>
+              <Text variant="h3" className={styles.overridesTitle}>{t('settings.appearance.customColors')}</Text>
               <Text variant="label" color="muted" className={styles.overridesSubtitle}>
                 {t('settings.appearance.customColorsDescription')}
               </Text>
             </div>
             <Button
-              variant="outline"
+              variant="secondary"
               size="sm"
               onClick={handleResetColors}
               className={styles.resetButton}
