@@ -541,7 +541,10 @@
     },
     "appearance": {
       "title": "Appearance",
-      "comingSoon": "Theme settings coming soon"
+      "subtitle": "Customize the look and feel",
+      "themeOverride": "Theme Override",
+      "themeDescription": "Choose a specific theme or follow the language",
+      "auto": "Auto (Follow Language)"
     },
     "backToDashboard": "Back to Dashboard"
   },

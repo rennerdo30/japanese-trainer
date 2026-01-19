@@ -230,19 +230,23 @@ export function getAllSavedEdgeVoices(): Record<string, string> {
     return result;
 }
 
+// Default Worker URL if environment variable is not set
+const DEFAULT_WORKER_URL = 'https://edge-tts-proxy.rennerdev.workers.dev';
+
 // Check if Edge TTS supports a language
-// Requires NEXT_PUBLIC_EDGE_TTS_WORKER_URL to be configured for browser use
 export function isEdgeTTSSupported(lang: string): boolean {
-    // In browser environment, check if Worker URL is configured
-    if (typeof window !== 'undefined') {
-        const workerUrl = process.env.NEXT_PUBLIC_EDGE_TTS_WORKER_URL;
-        if (!workerUrl) {
-            // No Worker configured, Edge TTS won't work in browser
-            return false;
-        }
-    }
     const baseLang = normalizeLanguage(lang);
-    return baseLang in EDGE_VOICES;
+
+    // Check if language is supported
+    if (!(baseLang in EDGE_VOICES)) return false;
+
+    // In browser environment, check if Worker URL is available (env var or default)
+    if (typeof window !== 'undefined') {
+        const workerUrl = process.env.NEXT_PUBLIC_EDGE_TTS_WORKER_URL || DEFAULT_WORKER_URL;
+        return !!workerUrl;
+    }
+
+    return true;
 }
 
 // Get default voice for a language
@@ -312,7 +316,7 @@ function trimCache() {
  * 
  * Set EDGE_TTS_WORKER_URL environment variable or update the constant below
  */
-const EDGE_TTS_WORKER_URL = process.env.NEXT_PUBLIC_EDGE_TTS_WORKER_URL || '';
+const EDGE_TTS_WORKER_URL = process.env.NEXT_PUBLIC_EDGE_TTS_WORKER_URL || DEFAULT_WORKER_URL;
 
 export async function generateEdgeTTSAudio(
     text: string,

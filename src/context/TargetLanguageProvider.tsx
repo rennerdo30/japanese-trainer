@@ -23,6 +23,7 @@ import {
   getTTSVoices,
   isLanguageAvailable,
 } from '@/lib/language';
+import { useSettings } from './SettingsProvider';
 
 const TARGET_LANGUAGE_KEY = 'murmura_target_language';
 
@@ -57,6 +58,7 @@ interface TargetLanguageProviderProps {
 }
 
 export function TargetLanguageProvider({ children }: TargetLanguageProviderProps) {
+  const { settings } = useSettings();
   const [targetLanguage, setTargetLanguageState] = useState<LanguageCode>(getDefaultLanguage());
   const [isLoading, setIsLoading] = useState(true);
 
@@ -75,11 +77,13 @@ export function TargetLanguageProvider({ children }: TargetLanguageProviderProps
   }, []);
 
   // Apply theme based on target language (for dynamic theme switching)
+  // Or override if user has selected a specific theme
   useEffect(() => {
     if (typeof document !== 'undefined') {
-      document.documentElement.setAttribute('data-theme', targetLanguage);
+      const themeToApply = settings.themeOverride === 'auto' ? targetLanguage : settings.themeOverride;
+      document.documentElement.setAttribute('data-theme', themeToApply);
     }
-  }, [targetLanguage]);
+  }, [targetLanguage, settings.themeOverride]);
 
   // Set and persist target language
   const setTargetLanguage = useCallback((code: LanguageCode) => {

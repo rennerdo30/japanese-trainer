@@ -9,6 +9,8 @@ import Navigation from '@/components/common/Navigation';
 import { Container, Card, Text, Button, Toggle, Animated } from '@/components/ui';
 import { useLanguage } from '@/context/LanguageProvider';
 import { useTargetLanguage } from '@/context/TargetLanguageProvider';
+import { useSettings } from '@/context/SettingsProvider';
+import { ThemeOverride } from '@/types/context';
 import { useMobile } from '@/hooks/useMobile';
 import { useKokoroVoice } from '@/hooks/useKokoroVoice';
 import {
@@ -79,6 +81,7 @@ export default function SettingsPage() {
   const router = useRouter();
   const { t } = useLanguage();
   const { targetLanguage } = useTargetLanguage();
+  const { settings, updateSetting } = useSettings();
   const isMobile = useMobile();
 
   // Leaderboard visibility
@@ -207,6 +210,10 @@ export default function SettingsPage() {
       setKokoroMessage('');
     }
   }, []);
+
+  const handleThemeChange = useCallback((theme: string) => {
+    updateSetting('themeOverride', theme as ThemeOverride);
+  }, [updateSetting]);
 
   const handleVoiceChange = useCallback((voiceId: KokoroVoice) => {
     setSelectedVoice(voiceId);
@@ -580,8 +587,29 @@ export default function SettingsPage() {
           <IoColorPalette className={styles.sectionIcon} />
           <Text variant="h3">{t('settings.appearance.title')}</Text>
         </div>
-        <div className={styles.comingSoon}>
-          <Text color="muted">{t('settings.appearance.comingSoon')}</Text>
+        <div className={styles.settingRow}>
+          <div className={styles.settingInfo}>
+            <Text className={styles.settingLabel}>{t('settings.appearance.themeOverride')}</Text>
+            <Text variant="label" color="muted">
+              {t('settings.appearance.themeDescription')}
+            </Text>
+          </div>
+          <div className={styles.settingControl}>
+            <select
+              className={styles.voiceSelect}
+              value={settings.themeOverride}
+              onChange={(e) => handleThemeChange(e.target.value)}
+            >
+              <option value="auto">{t('settings.appearance.auto')}</option>
+              <option value="ja">Japanese (Zen Garden)</option>
+              <option value="zh">Chinese (Silk Road)</option>
+              <option value="ko">Korean (Hanok)</option>
+              <option value="es">Spanish (Sol y Sombra)</option>
+              <option value="fr">French (Château)</option>
+              <option value="it">Italian (Rinascimento)</option>
+              <option value="en">English (Oxford Library)</option>
+            </select>
+          </div>
         </div>
       </Card>
 

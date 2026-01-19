@@ -79,6 +79,9 @@
 .settingsLink {
   display: block;
   text-decoration: none;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto 1rem;
 }
 
 .linkContent {
@@ -148,8 +151,15 @@
 }
 
 @keyframes pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.5; }
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
 }
 
 .progressBar {
