@@ -284,6 +284,56 @@ export default defineSchema({
     .index("by_userId_type", ["userId", "itemType"])
     .index("by_userId_item", ["userId", "itemId"]),
 
+  // Learned Content - tracks content learned from completed lessons
+  // Feeds into the user's review deck with SRS scheduling
+  learnedContent: defineTable({
+    userId: v.string(),
+    contentType: v.union(
+      v.literal('vocabulary'),
+      v.literal('grammar'),
+      v.literal('character'),
+      v.literal('reading'),
+      v.literal('listening')
+    ),
+    contentId: v.string(),     // Reference to content item
+    languageCode: v.string(),
+    fromLessonId: v.string(),  // Which lesson taught this content
+    learnedAt: v.number(),     // Timestamp when learned
+    // SRS fields (initialized when added to deck)
+    nextReviewAt: v.number(),
+    easeFactor: v.number(),    // SM-2 ease factor (default 2.5)
+    interval: v.number(),      // Days until next review
+    repetitions: v.number(),   // Successful review count
+    // Preview data for quick display
+    preview: v.object({
+      front: v.string(),       // Word/character/title
+      back: v.string(),        // Meaning/explanation
+      reading: v.optional(v.string()),
+      audioUrl: v.optional(v.string()),
+    }),
+  })
+    .index("by_userId", ["userId"])
+    .index("by_userId_type", ["userId", "contentType"])
+    .index("by_userId_language", ["userId", "languageCode"])
+    .index("by_userId_due", ["userId", "nextReviewAt"])
+    .index("by_userId_content", ["userId", "contentId"]),
+
+  // Learning Preferences - user's progression mode settings
+  learningPreferences: defineTable({
+    userId: v.string(),
+    languageCode: v.string(),
+    progressionMode: v.union(
+      v.literal('linear'),     // Complete lessons in order
+      v.literal('flexible'),   // Some flexibility with placement test
+      v.literal('open')        // All content unlocked
+    ),
+    placementLevel: v.optional(v.string()),  // Level determined by placement test
+    placementTakenAt: v.optional(v.number()),
+    skipToLevel: v.optional(v.string()),     // If user skipped ahead
+  })
+    .index("by_userId", ["userId"])
+    .index("by_userId_language", ["userId", "languageCode"]),
+
   // Weekly Reports - generated weekly summary reports
   weeklyReports: defineTable({
     userId: v.string(),

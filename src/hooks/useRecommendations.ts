@@ -5,6 +5,10 @@ import { useProgressContext } from '@/context/ProgressProvider';
 import { useStorage } from './useStorage';
 import { useTargetLanguage } from '@/hooks/useTargetLanguage';
 import {
+  loadLearningPathsData,
+  LearningPathsData,
+} from '@/lib/dataLoader';
+import {
   Recommendation,
   PathProgress,
   AdaptivePathRecommendation,
@@ -18,6 +22,8 @@ import {
   getLinearPathIdForLanguage,
   getTopicTrackProgress,
   getStreakInfo,
+  setDynamicPathsData,
+  hasPathsData,
 } from '@/lib/recommendations';
 import {
   getReviewQueue,
@@ -40,6 +46,7 @@ interface UseRecommendationsReturn {
   // Path progress
   paths: Array<PathProgress & { description: string; difficulty: string; tags?: string[] }>;
   jlptProgress: PathProgress | null;
+  hasPathsData: boolean;
 
   // Adaptive recommendations
   adaptiveRecommendations: AdaptivePathRecommendation | null;
@@ -156,6 +163,25 @@ export function useRecommendations(): UseRecommendationsReturn {
     }
   }, [buildUserProgress, srsSettings, enabledModules]);
 
+  // Load dynamic paths data for the current language
+  useEffect(() => {
+    async function loadDynamicPaths() {
+      if (!targetLanguage) return;
+
+      try {
+        const dynamicPaths = await loadLearningPathsData(targetLanguage);
+        if (dynamicPaths) {
+          // Set dynamic paths for use in recommendations
+          setDynamicPathsData(dynamicPaths);
+        }
+      } catch (error) {
+        console.log('Using static learning paths (no dynamic data)');
+      }
+    }
+
+    loadDynamicPaths();
+  }, [targetLanguage]);
+
   // Initial calculation
   useEffect(() => {
     if (!storageLoading) {
@@ -217,6 +243,7 @@ export function useRecommendations(): UseRecommendationsReturn {
     reviewQueue,
     paths,
     jlptProgress,
+    hasPathsData: hasPathsData(),
     adaptiveRecommendations,
     streakInfo,
     refresh: calculateRecommendations,

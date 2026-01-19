@@ -1,0 +1,1703 @@
+[
+  {
+    "id": 250,
+    "word": "Arbeit",
+    "meaning": "work, job",
+    "meanings": null,
+    "reading": "Arbeit",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "work",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 239,
+    "word": "Brot",
+    "meaning": "bread",
+    "meanings": null,
+    "reading": "Brot",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 235,
+    "word": "Freund",
+    "meaning": "friend",
+    "meanings": null,
+    "reading": "Freund",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "people",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 251,
+    "word": "Geld",
+    "meaning": "money",
+    "meanings": null,
+    "reading": "Geld",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "basic",
+      "shopping"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 254,
+    "word": "Hallo",
+    "meaning": "hello",
+    "meanings": null,
+    "reading": "Hallo",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "expression",
+    "tags": [
+      "greetings",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 237,
+    "word": "Haus",
+    "meaning": "house, home",
+    "meanings": null,
+    "reading": "Haus",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "places",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 249,
+    "word": "Land",
+    "meaning": "country, land",
+    "meanings": null,
+    "reading": "Land",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "places",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 234,
+    "word": "Liebe",
+    "meaning": "love",
+    "meanings": null,
+    "reading": "Liebe",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "emotions",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 240,
+    "word": "Mensch",
+    "meaning": "person, human",
+    "meanings": null,
+    "reading": "Mensch",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "people",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 248,
+    "word": "Name",
+    "meaning": "name",
+    "meanings": null,
+    "reading": "Name",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "basic",
+      "introductions"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 236,
+    "word": "Schule",
+    "meaning": "school",
+    "meanings": null,
+    "reading": "Schule",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "education",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 238,
+    "word": "Wasser",
+    "meaning": "water",
+    "meanings": null,
+    "reading": "Wasser",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 252,
+    "word": "Zeit",
+    "meaning": "time",
+    "meanings": null,
+    "reading": "Zeit",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 225,
+    "word": "essen",
+    "meaning": "to eat",
+    "meanings": null,
+    "reading": "essen",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 227,
+    "word": "gehen",
+    "meaning": "to go",
+    "meanings": null,
+    "reading": "gehen",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "movement",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 243,
+    "word": "gestern",
+    "meaning": "yesterday",
+    "meanings": null,
+    "reading": "gestern",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 245,
+    "word": "groß",
+    "meaning": "big, tall",
+    "meanings": null,
+    "reading": "groß",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 244,
+    "word": "gut",
+    "meaning": "good",
+    "meanings": null,
+    "reading": "gut",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 241,
+    "word": "heute",
+    "meaning": "today",
+    "meanings": null,
+    "reading": "heute",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 230,
+    "word": "hören",
+    "meaning": "to hear",
+    "meanings": null,
+    "reading": "hören",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "senses",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 640,
+    "word": "ich",
+    "meaning": "I",
+    "meanings": null,
+    "reading": "ɪç",
+    "romaji": "ich",
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "Personalpronomen",
+    "tags": null,
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      },
+      {
+        "sentence": "",
+        "translation": ""
+      },
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 246,
+    "word": "klein",
+    "meaning": "small, little",
+    "meanings": null,
+    "reading": "klein",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 228,
+    "word": "kommen",
+    "meaning": "to come",
+    "meanings": null,
+    "reading": "kommen",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "movement",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 253,
+    "word": "lernen",
+    "meaning": "to learn",
+    "meanings": null,
+    "reading": "lernen",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "education",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 232,
+    "word": "lesen",
+    "meaning": "to read",
+    "meanings": null,
+    "reading": "lesen",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "study",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 242,
+    "word": "morgen",
+    "meaning": "tomorrow",
+    "meanings": null,
+    "reading": "morgen",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 233,
+    "word": "schreiben",
+    "meaning": "to write",
+    "meanings": null,
+    "reading": "schreiben",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "study",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 229,
+    "word": "sehen",
+    "meaning": "to see",
+    "meanings": null,
+    "reading": "sehen",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "senses",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 231,
+    "word": "sprechen",
+    "meaning": "to speak",
+    "meanings": null,
+    "reading": "sprechen",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "communication",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 226,
+    "word": "trinken",
+    "meaning": "to drink",
+    "meanings": null,
+    "reading": "trinken",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 247,
+    "word": "viel",
+    "meaning": "much, many",
+    "meanings": null,
+    "reading": "viel",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 259,
+    "word": "Entscheidung",
+    "meaning": "decision",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "abstract",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 260,
+    "word": "Entwicklung",
+    "meaning": "development",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "business",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 256,
+    "word": "Erfahrung",
+    "meaning": "experience",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "work",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 255,
+    "word": "Gefühl",
+    "meaning": "feeling, emotion",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "emotions",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 261,
+    "word": "Gelegenheit",
+    "meaning": "opportunity",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "work",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 257,
+    "word": "Gesundheit",
+    "meaning": "health",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "health",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 262,
+    "word": "Unterkunft",
+    "meaning": "accommodation",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "travel",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 258,
+    "word": "Verantwortung",
+    "meaning": "responsibility",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "work",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 263,
+    "word": "Vorschlag",
+    "meaning": "suggestion, proposal",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "communication",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 265,
+    "word": "begeistert",
+    "meaning": "enthusiastic, excited",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "emotions",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 264,
+    "word": "enttäuscht",
+    "meaning": "disappointed",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "emotions",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 270,
+    "word": "Ansicht",
+    "meaning": "view, opinion",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "abstract",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 267,
+    "word": "Auswirkung",
+    "meaning": "effect, impact",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "abstract",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 269,
+    "word": "Hinsicht",
+    "meaning": "respect, regard",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "abstract",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 274,
+    "word": "Ins Fettnäpfchen treten",
+    "meaning": "to put one's foot in it (idiom)",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "idiom",
+    "tags": [
+      "idiom",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 295,
+    "word": "Schadenfreude",
+    "meaning": "pleasure derived from another's misfortune",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "emotions",
+      "cultural",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 271,
+    "word": "Stellungnahme",
+    "meaning": "statement, position",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "business",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 268,
+    "word": "Voraussetzung",
+    "meaning": "prerequisite, requirement",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "business",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 296,
+    "word": "Wanderlust",
+    "meaning": "desire to travel",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "emotions",
+      "travel",
+      "cultural"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 266,
+    "word": "Zusammenhang",
+    "meaning": "context, connection",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "abstract",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 272,
+    "word": "angeblich",
+    "meaning": "allegedly, supposedly",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [
+      "abstract",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 275,
+    "word": "jemandem auf den Leim gehen",
+    "meaning": "to fall for something (idiom)",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "idiom",
+    "tags": [
+      "idiom",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 273,
+    "word": "offensichtlich",
+    "meaning": "obvious, evidently",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [
+      "abstract",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 278,
+    "word": "Begebenheit",
+    "meaning": "occurrence, incident",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "formal",
+      "literary",
+      "sophisticated"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 280,
+    "word": "Betrachtung",
+    "meaning": "contemplation, consideration",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "formal",
+      "academic",
+      "sophisticated"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 279,
+    "word": "Erörterung",
+    "meaning": "discussion, examination",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "formal",
+      "academic",
+      "sophisticated"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 276,
+    "word": "Gegebenheit",
+    "meaning": "circumstance, condition",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "formal",
+      "sophisticated"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 277,
+    "word": "Sachverhalt",
+    "meaning": "state of affairs, facts",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "formal",
+      "legal",
+      "sophisticated"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 293,
+    "word": "Weltanschauung",
+    "meaning": "worldview, philosophy of life",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "philosophical",
+      "sophisticated"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 294,
+    "word": "Zeitgeist",
+    "meaning": "spirit of the times",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "philosophical",
+      "cultural",
+      "sophisticated"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 292,
+    "word": "ergo",
+    "meaning": "therefore, hence",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [
+      "formal",
+      "philosophical",
+      "sophisticated"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 281,
+    "word": "inwieweit",
+    "meaning": "to what extent",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [
+      "formal",
+      "academic",
+      "sophisticated"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 284,
+    "word": "mutmaßlich",
+    "meaning": "presumable, alleged",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "legal",
+      "formal",
+      "sophisticated"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 282,
+    "word": "nichtsdestotrotz",
+    "meaning": "nevertheless, nonetheless",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [
+      "formal",
+      "sophisticated"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 283,
+    "word": "ungeachtet",
+    "meaning": "regardless of, notwithstanding",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "preposition",
+    "tags": [
+      "formal",
+      "sophisticated"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 287,
+    "word": "Gebrechen",
+    "meaning": "affliction, infirmity",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "literary",
+      "formal",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 285,
+    "word": "Gemach",
+    "meaning": "chamber, room (archaic)",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "literary",
+      "archaic",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 288,
+    "word": "Unbill",
+    "meaning": "adversity, hardship",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "literary",
+      "archaic",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 286,
+    "word": "Wehmut",
+    "meaning": "melancholy, wistfulness",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "literary",
+      "emotions",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 289,
+    "word": "alsdann",
+    "meaning": "then, thereupon (archaic)",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [
+      "literary",
+      "archaic",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 291,
+    "word": "anheimstellen",
+    "meaning": "to leave to someone's discretion",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "formal",
+      "literary",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 290,
+    "word": "fürderhin",
+    "meaning": "henceforth, from now on (archaic)",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [
+      "literary",
+      "archaic",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 5
+  }
+]

@@ -234,6 +234,13 @@ export function useCurriculum(): UseCurriculumReturn {
         return 'available';
       }
 
+      // Check if this is a lesson from lessonData (AI-generated lessons)
+      // AI lessons are available by default to allow users to start learning
+      const isAILesson = lessonData.some((l) => l.id === lessonId);
+      if (isAILesson) {
+        return 'available';
+      }
+
       // Check if previous lesson is completed
       const lessonIndex = lessons.findIndex((l) => l.lesson.id === lessonId);
       if (lessonIndex > 0) {
@@ -246,7 +253,7 @@ export function useCurriculum(): UseCurriculumReturn {
 
       return 'locked';
     },
-    [lessonProgress, lessons]
+    [lessonProgress, lessons, lessonData]
   );
 
   // Start lesson action

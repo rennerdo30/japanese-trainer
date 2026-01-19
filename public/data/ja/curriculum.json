@@ -1,10 +1,49 @@
 [
   {
     "path": {
+      "id": 12,
+      "slug": "anime-manga",
+      "name": "Anime & Manga Japanese",
+      "description": "Learn the Japanese commonly used in anime and manga. Includes casual speech, expressions, and character archetypes.",
+      "type": "topic",
+      "estimated_hours": 10,
+      "difficulty": "intermediate",
+      "language_id": 1
+    },
+    "milestones": []
+  },
+  {
+    "path": {
+      "id": 10,
+      "slug": "business-japanese",
+      "name": "Business Japanese",
+      "description": "Professional Japanese for the workplace. Learn keigo (polite language), business vocabulary, and email etiquette.",
+      "type": "topic",
+      "estimated_hours": 12,
+      "difficulty": "intermediate",
+      "language_id": 1
+    },
+    "milestones": []
+  },
+  {
+    "path": {
+      "id": 11,
+      "slug": "daily-conversation",
+      "name": "Daily Conversation",
+      "description": "Everyday Japanese for casual conversations. Learn to introduce yourself, talk about hobbies, and make friends.",
+      "type": "topic",
+      "estimated_hours": 8,
+      "difficulty": "beginner",
+      "language_id": 1
+    },
+    "milestones": []
+  },
+  {
+    "path": {
       "id": 1,
       "slug": "jlpt-mastery",
       "name": "JLPT Mastery Path",
-      "description": "Master Japanese systematically through JLPT levels, from N5 to N1.",
+      "description": "Complete structured progression from N5 to N1. Master Japanese systematically through all JLPT levels.",
       "type": "linear",
       "estimated_hours": 400,
       "difficulty": "beginner-to-advanced",
@@ -12,12 +51,177 @@
     },
     "milestones": [
       {
+        "id": 13,
+        "slug": "n1-vocabulary",
+        "level": "N1",
+        "name": "N1 Complete Vocabulary",
+        "description": "Master 10000 words for native-level comprehension",
+        "module": "vocabulary",
+        "requirement": {
+          "type": "master-percentage",
+          "value": 70
+        },
+        "estimated_hours": 80,
+        "path_id": 1
+      },
+      {
+        "id": 14,
+        "slug": "n1-kanji",
+        "level": "N1",
+        "name": "N1 Kanji Mastery",
+        "description": "Master 2000+ kanji characters",
+        "module": "kanji",
+        "requirement": {
+          "type": "master-percentage",
+          "value": 70
+        },
+        "estimated_hours": 70,
+        "path_id": 1
+      },
+      {
+        "id": 11,
+        "slug": "n2-vocabulary",
+        "level": "N2",
+        "name": "N2 Advanced Vocabulary",
+        "description": "Master 6000 words for N2 proficiency",
+        "module": "vocabulary",
+        "requirement": {
+          "type": "master-percentage",
+          "value": 70
+        },
+        "estimated_hours": 60,
+        "path_id": 1
+      },
+      {
+        "id": 12,
+        "slug": "n2-kanji",
+        "level": "N2",
+        "name": "N2 Kanji Excellence",
+        "description": "Master 1000 kanji characters",
+        "module": "kanji",
+        "requirement": {
+          "type": "master-percentage",
+          "value": 70
+        },
+        "estimated_hours": 50,
+        "path_id": 1
+      },
+      {
+        "id": 10,
+        "slug": "n3-kanji",
+        "level": "N3",
+        "name": "N3 Kanji Proficiency",
+        "description": "Master 650 kanji characters",
+        "module": "kanji",
+        "requirement": {
+          "type": "master-percentage",
+          "value": 70
+        },
+        "estimated_hours": 40,
+        "path_id": 1
+      },
+      {
+        "id": 9,
+        "slug": "n3-vocabulary",
+        "level": "N3",
+        "name": "N3 Vocabulary Building",
+        "description": "Build vocabulary to N3 level (3500 words)",
+        "module": "vocabulary",
+        "requirement": {
+          "type": "master-percentage",
+          "value": 70
+        },
+        "estimated_hours": 40,
+        "path_id": 1
+      },
+      {
+        "id": 8,
+        "slug": "n4-grammar",
+        "level": "N4",
+        "name": "N4 Grammar Structures",
+        "description": "Master intermediate grammar patterns",
+        "module": "grammar",
+        "requirement": {
+          "type": "complete-all"
+        },
+        "estimated_hours": 20,
+        "path_id": 1
+      },
+      {
+        "id": 7,
+        "slug": "n4-kanji",
+        "level": "N4",
+        "name": "N4 Kanji Mastery",
+        "description": "Learn 300 kanji characters",
+        "module": "kanji",
+        "requirement": {
+          "type": "master-percentage",
+          "value": 70
+        },
+        "estimated_hours": 25,
+        "path_id": 1
+      },
+      {
+        "id": 6,
+        "slug": "n4-vocabulary",
+        "level": "N4",
+        "name": "N4 Vocabulary Expansion",
+        "description": "Expand vocabulary to N4 level (1500 words total)",
+        "module": "vocabulary",
+        "requirement": {
+          "type": "master-percentage",
+          "value": 70
+        },
+        "estimated_hours": 30,
+        "path_id": 1
+      },
+      {
         "id": 1,
         "slug": "n5-alphabet",
         "level": "N5",
-        "name": "Master Hiragana & Katakana",
-        "description": "Learn all Japanese phonetic characters",
+        "name": "Master the Japanese Alphabets",
+        "description": "Learn all Hiragana and Katakana characters",
         "module": "alphabet",
+        "requirement": {
+          "type": "complete-all"
+        },
+        "estimated_hours": 10,
+        "path_id": 1
+      },
+      {
+        "id": 4,
+        "slug": "n5-grammar",
+        "level": "N5",
+        "name": "N5 Grammar Patterns",
+        "description": "Learn fundamental grammar structures",
+        "module": "grammar",
+        "requirement": {
+          "type": "complete-all"
+        },
+        "estimated_hours": 15,
+        "path_id": 1
+      },
+      {
+        "id": 3,
+        "slug": "n5-kanji",
+        "level": "N5",
+        "name": "N5 Kanji Basics",
+        "description": "Master 100 essential kanji characters",
+        "module": "kanji",
+        "requirement": {
+          "type": "master-percentage",
+          "value": 70
+        },
+        "estimated_hours": 15,
+        "path_id": 1
+      },
+      {
+        "id": 5,
+        "slug": "n5-reading",
+        "level": "N5",
+        "name": "N5 Reading Comprehension",
+        "description": "Practice reading simple texts",
+        "module": "reading",
         "requirement": {
           "type": "complete-all"
         },
@@ -37,88 +241,33 @@
         },
         "estimated_hours": 20,
         "path_id": 1
-      },
-      {
-        "id": 3,
-        "slug": "n5-kanji",
-        "level": "N5",
-        "name": "N5 Kanji Basics",
-        "description": "Master 100 essential kanji characters",
-        "module": "kanji",
-        "requirement": {
-          "type": "master-percentage",
-          "value": 70
-        },
-        "estimated_hours": 15,
-        "path_id": 1
-      },
-      {
-        "id": 4,
-        "slug": "n5-grammar",
-        "level": "N5",
-        "name": "N5 Grammar Patterns",
-        "description": "Learn fundamental grammar structures",
-        "module": "grammar",
-        "requirement": {
-          "type": "complete-all"
-        },
-        "estimated_hours": 15,
-        "path_id": 1
-      },
-      {
-        "id": 5,
-        "slug": "n5-reading",
-        "level": "N5",
-        "name": "N5 Reading Comprehension",
-        "description": "Practice reading simple texts",
-        "module": "reading",
-        "requirement": {
-          "type": "complete-all"
-        },
-        "estimated_hours": 10,
-        "path_id": 1
-      },
-      {
-        "id": 6,
-        "slug": "n4-vocabulary",
-        "level": "N4",
-        "name": "N4 Vocabulary Expansion",
-        "description": "Expand vocabulary to N4 level (1500 words total)",
-        "module": "vocabulary",
-        "requirement": {
-          "type": "master-percentage",
-          "value": 70
-        },
-        "estimated_hours": 30,
-        "path_id": 1
-      },
-      {
-        "id": 7,
-        "slug": "n4-kanji",
-        "level": "N4",
-        "name": "N4 Kanji Mastery",
-        "description": "Learn 300 kanji characters",
-        "module": "kanji",
-        "requirement": {
-          "type": "master-percentage",
-          "value": 70
-        },
-        "estimated_hours": 25,
-        "path_id": 1
-      },
-      {
-        "id": 8,
-        "slug": "n4-grammar",
-        "level": "N4",
-        "name": "N4 Grammar Structures",
-        "description": "Master intermediate grammar patterns",
-        "module": "grammar",
-        "requirement": {
-          "type": "complete-all"
-        },
-        "estimated_hours": 20,
-        "path_id": 1
       }
     ]
+  },
+  {
+    "path": {
+      "id": 8,
+      "slug": "restaurant-japanese",
+      "name": "Restaurant Japanese",
+      "description": "Learn essential vocabulary and phrases for dining out in Japan. Perfect for travelers and food lovers.",
+      "type": "topic",
+      "estimated_hours": 4,
+      "difficulty": "beginner",
+      "language_id": 1
+    },
+    "milestones": []
+  },
+  {
+    "path": {
+      "id": 9,
+      "slug": "travel-essentials",
+      "name": "Travel Essentials",
+      "description": "Essential phrases for navigating Japan. Covers transportation, directions, hotels, and emergency situations.",
+      "type": "topic",
+      "estimated_hours": 6,
+      "difficulty": "beginner",
+      "language_id": 1
+    },
+    "milestones": []
   }
 ]

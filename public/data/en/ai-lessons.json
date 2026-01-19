@@ -1,0 +1,1049 @@
+[
+  {
+    "id": 1,
+    "slug": "a1-u1-l1",
+    "name": "Introduction to Daily Activities",
+    "type": "general",
+    "content": {
+      "description": "Learn basic daily routine vocabulary and simple present tense with 'I' for personal routines.",
+      "objectives": [
+        "Learn 8 vocabulary items",
+        "Master 2 grammar patterns"
+      ],
+      "vocabulary": [
+        "wake up",
+        "get up",
+        "eat breakfast",
+        "go to work",
+        "go to school",
+        "go home",
+        "watch TV",
+        "go to bed"
+      ],
+      "grammar": [
+        "I + present tense verb (e.g., I wake up)",
+        "Subject + Verb + Object (SVO) structure"
+      ]
+    },
+    "prerequisite_slug": "a1-u1-l5",
+    "estimated_minutes": 36,
+    "language_id": 6,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 2,
+    "slug": "a1-u1-l1",
+    "name": "Food and Drink Basics",
+    "type": "general",
+    "content": {
+      "description": "Introduce common food and drink vocabulary and the verb 'to have' in present tense for basic statements.",
+      "objectives": [
+        "Learn 10 vocabulary items",
+        "Master 2 grammar patterns"
+      ],
+      "vocabulary": [
+        "apple",
+        "banana",
+        "orange",
+        "water",
+        "milk",
+        "coffee",
+        "breakfast",
+        "lunch",
+        "dinner",
+        "have"
+      ],
+      "grammar": [
+        "Subject + have/has + food/drink",
+        "Subject + don't/doesn't + have + food/drink"
+      ]
+    },
+    "prerequisite_slug": "a1-u1-l5",
+    "estimated_minutes": 40,
+    "language_id": 6,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 3,
+    "slug": "a1-u1-l1",
+    "name": "Hello and Goodbye",
+    "type": "general",
+    "content": {
+      "description": "Introduces basic greetings and farewells in everyday contexts, focusing on simple phrases and common responses.",
+      "objectives": [
+        "Learn 8 vocabulary items",
+        "Master 2 grammar patterns"
+      ],
+      "vocabulary": [
+        "hello",
+        "hi",
+        "goodbye",
+        "bye",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "good night"
+      ],
+      "grammar": [
+        "Greeting + Name",
+        "Greeting + I am + Name"
+      ]
+    },
+    "prerequisite_slug": "a1-u1-l5",
+    "estimated_minutes": 36,
+    "language_id": 6,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 4,
+    "slug": "a1-u1-l1",
+    "name": "My Home",
+    "type": "general",
+    "content": {
+      "description": "Introduce basic vocabulary for rooms and furniture in a home, using simple sentences with 'is' and 'are'.",
+      "objectives": [
+        "Learn 9 vocabulary items",
+        "Master 3 grammar patterns"
+      ],
+      "vocabulary": [
+        "house",
+        "room",
+        "kitchen",
+        "bedroom",
+        "bathroom",
+        "living room",
+        "table",
+        "chair",
+        "bed"
+      ],
+      "grammar": [
+        "Present tense of 'be' with singular subjects",
+        "Present tense of 'be' with plural subjects",
+        "Basic sentence structure with 'be'"
+      ]
+    },
+    "prerequisite_slug": "a1-u1-l5",
+    "estimated_minutes": 43,
+    "language_id": 6,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 5,
+    "slug": "a1-u1-l1",
+    "name": "Introducing Myself and Family",
+    "type": "general",
+    "content": {
+      "description": "Teaches basic self-introduction and family member vocabulary using simple sentences with 'to be'.",
+      "objectives": [
+        "Learn 8 vocabulary items",
+        "Master 3 grammar patterns"
+      ],
+      "vocabulary": [
+        "mother",
+        "father",
+        "brother",
+        "sister",
+        "I",
+        "you",
+        "he",
+        "she"
+      ],
+      "grammar": [
+        "I am [name/family member]",
+        "You are [name/family member]",
+        "He/She is [name/family member]"
+      ]
+    },
+    "prerequisite_slug": "a1-u1-l5",
+    "estimated_minutes": 41,
+    "language_id": 6,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 6,
+    "slug": "a1-u1-l1",
+    "name": "Shopping Places and Items",
+    "type": "general",
+    "content": {
+      "description": "Introduces basic shopping vocabulary for places and common items, using simple sentences with 'be' and 'have'.",
+      "objectives": [
+        "Learn 8 vocabulary items",
+        "Master 2 grammar patterns"
+      ],
+      "vocabulary": [
+        "shop",
+        "supermarket",
+        "bakery",
+        "clothes shop",
+        "book",
+        "apple",
+        "bread",
+        "shirt"
+      ],
+      "grammar": [
+        "Subject + be (is/are) + noun/adjective",
+        "Subject + have/has + noun"
+      ]
+    },
+    "prerequisite_slug": "a1-u1-l5",
+    "estimated_minutes": 36,
+    "language_id": 6,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 7,
+    "slug": "a1-u1-l2",
+    "name": "Talking About Others' Routines",
+    "type": "general",
+    "content": {
+      "description": "Extend vocabulary to include more activities and use personal pronouns (he, she) with present tense verbs.",
+      "objectives": [
+        "Learn 6 vocabulary items",
+        "Master 2 grammar patterns"
+      ],
+      "vocabulary": [
+        "brush teeth",
+        "take a shower",
+        "have lunch",
+        "read a book",
+        "play games",
+        "cook dinner"
+      ],
+      "grammar": [
+        "Personal pronouns (he, she)",
+        "Present tense with third person singular (e.g., He eats breakfast)"
+      ]
+    },
+    "prerequisite_slug": "a1-u1-l1",
+    "estimated_minutes": 32,
+    "language_id": 6,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 8,
+    "slug": "a1-u1-l2",
+    "name": "Expressing Likes and Dislikes",
+    "type": "general",
+    "content": {
+      "description": "Teach how to express likes and dislikes with food and drink using 'like' and 'don't like', building on vocabulary from Lesson 1.",
+      "objectives": [
+        "Learn 8 vocabulary items",
+        "Master 2 grammar patterns"
+      ],
+      "vocabulary": [
+        "carrot",
+        "tomato",
+        "potato",
+        "tea",
+        "juice",
+        "soda",
+        "like",
+        "don't like"
+      ],
+      "grammar": [
+        "I like + food/drink",
+        "I don't like + food/drink"
+      ]
+    },
+    "prerequisite_slug": "a1-u1-l1",
+    "estimated_minutes": 36,
+    "language_id": 6,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 9,
+    "slug": "a1-u1-l2",
+    "name": "Introducing Yourself",
+    "type": "general",
+    "content": {
+      "description": "Teaches how to introduce oneself using personal pronouns and the verb 'to be' in simple sentences.",
+      "objectives": [
+        "Learn 7 vocabulary items",
+        "Master 2 grammar patterns"
+      ],
+      "vocabulary": [
+        "I",
+        "you",
+        "name",
+        "my",
+        "your",
+        "friend",
+        "teacher"
+      ],
+      "grammar": [
+        "I am + name",
+        "You are + name"
+      ]
+    },
+    "prerequisite_slug": "a1-u1-l1",
+    "estimated_minutes": 34,
+    "language_id": 6,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 10,
+    "slug": "a1-u1-l2",
+    "name": "Where Is It?",
+    "type": "general",
+    "content": {
+      "description": "Learn prepositions (in, on, at) to describe locations of objects in a room, building on vocabulary from Lesson 1.",
+      "objectives": [
+        "Learn 8 vocabulary items",
+        "Master 2 grammar patterns"
+      ],
+      "vocabulary": [
+        "in",
+        "on",
+        "at",
+        "under",
+        "next to",
+        "where",
+        "here",
+        "there"
+      ],
+      "grammar": [
+        "Prepositions (in, on, at) for location",
+        "Simple location descriptions with prepositions"
+      ]
+    },
+    "prerequisite_slug": "a1-u1-l1",
+    "estimated_minutes": 36,
+    "language_id": 6,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 11,
+    "slug": "a1-u1-l2",
+    "name": "Describing Family with Possessive Adjectives",
+    "type": "general",
+    "content": {
+      "description": "Introduces possessive adjectives to describe family relationships and builds on family vocabulary.",
+      "objectives": [
+        "Learn 10 vocabulary items",
+        "Master 2 grammar patterns"
+      ],
+      "vocabulary": [
+        "grandmother",
+        "grandfather",
+        "son",
+        "daughter",
+        "tall",
+        "short",
+        "my",
+        "your",
+        "his",
+        "her"
+      ],
+      "grammar": [
+        "Possessive adjectives: my, your, his, her",
+        "Describing family with adjectives"
+      ]
+    },
+    "prerequisite_slug": "a1-u1-l1",
+    "estimated_minutes": 40,
+    "language_id": 6,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 12,
+    "slug": "a1-u1-l2",
+    "name": "Numbers and Prices",
+    "type": "general",
+    "content": {
+      "description": "Teaches numbers 1-20 and how to ask and state prices using 'how much' and simple prepositions.",
+      "objectives": [
+        "Learn 24 vocabulary items",
+        "Master 3 grammar patterns"
+      ],
+      "vocabulary": [
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "six",
+        "seven",
+        "eight",
+        "nine",
+        "ten",
+        "eleven",
+        "twelve",
+        "thirteen",
+        "fourteen",
+        "fifteen",
+        "sixteen",
+        "seventeen",
+        "eighteen",
+        "nineteen",
+        "twenty",
+        "euro",
+        "dollar",
+        "price",
+        "cost"
+      ],
+      "grammar": [
+        "How much + is/are + item?",
+        "Item + is/are + number + currency",
+        "Preposition 'to' for destination, 'from' for origin"
+      ]
+    },
+    "prerequisite_slug": "a1-u1-l1",
+    "estimated_minutes": 73,
+    "language_id": 6,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 13,
+    "slug": "a1-u1-l3",
+    "name": "Time Expressions and Simple Questions",
+    "type": "general",
+    "content": {
+      "description": "Introduce time expressions (morning, afternoon, evening) and question words (when, where) for asking about routines.",
+      "objectives": [
+        "Learn 7 vocabulary items",
+        "Master 2 grammar patterns"
+      ],
+      "vocabulary": [
+        "in the morning",
+        "in the afternoon",
+        "in the evening",
+        "at night",
+        "at 7 o'clock",
+        "when",
+        "where"
+      ],
+      "grammar": [
+        "When do you + verb?",
+        "Where does he/she + verb?"
+      ]
+    },
+    "prerequisite_slug": "a1-u1-l2",
+    "estimated_minutes": 34,
+    "language_id": 6,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 14,
+    "slug": "a1-u1-l3",
+    "name": "Asking and Answering About Food",
+    "type": "general",
+    "content": {
+      "description": "Introduce question forms with 'do' to ask about food preferences and practice short answers.",
+      "objectives": [
+        "Learn 6 vocabulary items",
+        "Master 2 grammar patterns"
+      ],
+      "vocabulary": [
+        "bread",
+        "cheese",
+        "egg",
+        "chocolate",
+        "cake",
+        "cookie"
+      ],
+      "grammar": [
+        "Do you like + food?",
+        "Yes, I do / No, I don't"
+      ]
+    },
+    "prerequisite_slug": "a1-u1-l2",
+    "estimated_minutes": 32,
+    "language_id": 6,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 15,
+    "slug": "a1-u1-l3",
+    "name": "Introducing Others",
+    "type": "general",
+    "content": {
+      "description": "Expands introductions to include others using third-person pronouns and basic questions.",
+      "objectives": [
+        "Learn 8 vocabulary items",
+        "Master 3 grammar patterns"
+      ],
+      "vocabulary": [
+        "he",
+        "she",
+        "this is",
+        "his",
+        "her",
+        "brother",
+        "sister",
+        "student"
+      ],
+      "grammar": [
+        "Personal pronouns (he, she)",
+        "Verb 'to be' (is)",
+        "Basic questions with 'who'"
+      ]
+    },
+    "prerequisite_slug": "a1-u1-l2",
+    "estimated_minutes": 41,
+    "language_id": 6,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 16,
+    "slug": "a1-u1-l3",
+    "name": "A Room or The Room?",
+    "type": "general",
+    "content": {
+      "description": "Introduce articles (definite and indefinite) to specify objects, combined with vocabulary from previous lessons.",
+      "objectives": [
+        "Learn 5 vocabulary items",
+        "Master 2 grammar patterns"
+      ],
+      "vocabulary": [
+        "a",
+        "an",
+        "the",
+        "room",
+        "table"
+      ],
+      "grammar": [
+        "a/an + singular noun",
+        "the + noun"
+      ]
+    },
+    "prerequisite_slug": "a1-u1-l2",
+    "estimated_minutes": 30,
+    "language_id": 6,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 17,
+    "slug": "a1-u1-l3",
+    "name": "Asking and Answering About Family",
+    "type": "general",
+    "content": {
+      "description": "Teaches how to ask and answer questions about family using question words and possessive adjectives.",
+      "objectives": [
+        "Learn 5 vocabulary items",
+        "Master 2 grammar patterns"
+      ],
+      "vocabulary": [
+        "who",
+        "what",
+        "happy",
+        "sad",
+        "family"
+      ],
+      "grammar": [
+        "Question formation with 'to be': Who is? What is?",
+        "Using possessive adjectives in questions and answers"
+      ]
+    },
+    "prerequisite_slug": "a1-u1-l2",
+    "estimated_minutes": 30,
+    "language_id": 6,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 18,
+    "slug": "a1-u1-l3",
+    "name": "Asking for Items and Prices",
+    "type": "general",
+    "content": {
+      "description": "Focuses on forming questions to ask for items and their prices in a shop, using personal pronouns and possessive adjectives.",
+      "objectives": [
+        "Learn 9 vocabulary items",
+        "Master 3 grammar patterns"
+      ],
+      "vocabulary": [
+        "I want",
+        "you have",
+        "this",
+        "that",
+        "please",
+        "thank you",
+        "my",
+        "your",
+        "not"
+      ],
+      "grammar": [
+        "Personal pronouns (I, you)",
+        "Possessive adjectives (my, your)",
+        "Simple negation with 'not'"
+      ]
+    },
+    "prerequisite_slug": "a1-u1-l2",
+    "estimated_minutes": 43,
+    "language_id": 6,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 19,
+    "slug": "a1-u1-l4",
+    "name": "Describing Full Routines",
+    "type": "general",
+    "content": {
+      "description": "Combine vocabulary and grammar to describe complete daily routines using time expressions and sequence words.",
+      "objectives": [
+        "Learn 6 vocabulary items",
+        "Master 2 grammar patterns"
+      ],
+      "vocabulary": [
+        "first",
+        "then",
+        "after that",
+        "finally",
+        "always",
+        "usually"
+      ],
+      "grammar": [
+        "First + action, then + action, after that + action, finally + action",
+        "Subject + always/usually + verb"
+      ]
+    },
+    "prerequisite_slug": "a1-u1-l3",
+    "estimated_minutes": 32,
+    "language_id": 6,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 20,
+    "slug": "a1-u1-l4",
+    "name": "Quantifiers and Ordering Basics",
+    "type": "general",
+    "content": {
+      "description": "Teach basic quantifiers 'some' and 'any' for food and drink, and simple phrases for ordering in a café.",
+      "objectives": [
+        "Learn 7 vocabulary items",
+        "Master 3 grammar patterns"
+      ],
+      "vocabulary": [
+        "chicken",
+        "fish",
+        "rice",
+        "some",
+        "any",
+        "I'd like",
+        "Can I have"
+      ],
+      "grammar": [
+        "Subject + have/has + some + food/drink",
+        "Do/Does + subject + have + any + food/drink?",
+        "I'd like + some + food/drink / Can I have + some + food/drink?"
+      ]
+    },
+    "prerequisite_slug": "a1-u1-l3",
+    "estimated_minutes": 39,
+    "language_id": 6,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 21,
+    "slug": "a1-u1-l4",
+    "name": "Asking and Answering Simple Questions",
+    "type": "general",
+    "content": {
+      "description": "Focuses on forming and responding to basic questions about names and identities using learned vocabulary and grammar.",
+      "objectives": [
+        "Learn 7 vocabulary items",
+        "Master 3 grammar patterns"
+      ],
+      "vocabulary": [
+        "what",
+        "who",
+        "how are you",
+        "fine",
+        "thank you",
+        "and you",
+        "not"
+      ],
+      "grammar": [
+        "Question words (what, who)",
+        "Verb 'to be' in questions (am, is, are)",
+        "Simple negation with 'not'"
+      ]
+    },
+    "prerequisite_slug": "a1-u1-l3",
+    "estimated_minutes": 39,
+    "language_id": 6,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 22,
+    "slug": "a1-u1-l4",
+    "name": "Many Things",
+    "type": "general",
+    "content": {
+      "description": "Teach regular plural nouns to describe multiple items in a home, using vocabulary from earlier lessons.",
+      "objectives": [
+        "Learn 6 vocabulary items",
+        "Master 2 grammar patterns"
+      ],
+      "vocabulary": [
+        "chairs",
+        "tables",
+        "beds",
+        "rooms",
+        "things",
+        "many"
+      ],
+      "grammar": [
+        "Regular plural nouns",
+        "There are + plural noun"
+      ]
+    },
+    "prerequisite_slug": "a1-u1-l3",
+    "estimated_minutes": 32,
+    "language_id": 6,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 23,
+    "slug": "a1-u1-l4",
+    "name": "Talking About Family Members' Characteristics",
+    "type": "general",
+    "content": {
+      "description": "Expands on describing people with more adjectives and introduces basic plural forms for family members.",
+      "objectives": [
+        "Learn 6 vocabulary items",
+        "Master 2 grammar patterns"
+      ],
+      "vocabulary": [
+        "brothers",
+        "sisters",
+        "parents",
+        "children",
+        "young",
+        "old"
+      ],
+      "grammar": [
+        "Plural forms of nouns (regular): adding -s",
+        "Using adjectives with plural subjects"
+      ]
+    },
+    "prerequisite_slug": "a1-u1-l3",
+    "estimated_minutes": 32,
+    "language_id": 6,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 24,
+    "slug": "a1-u1-l4",
+    "name": "Simple Transaction Dialogues",
+    "type": "general",
+    "content": {
+      "description": "Practices short dialogues for buying items, including stating prices and using polite phrases.",
+      "objectives": [
+        "Learn 5 vocabulary items",
+        "Master 2 grammar patterns"
+      ],
+      "vocabulary": [
+        "buy",
+        "sell",
+        "here you are",
+        "change",
+        "receipt"
+      ],
+      "grammar": [
+        "Subject + buy/sell + article + item",
+        "Here you are + change/receipt"
+      ]
+    },
+    "prerequisite_slug": "a1-u1-l3",
+    "estimated_minutes": 30,
+    "language_id": 6,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 25,
+    "slug": "a1-u1-l5",
+    "name": "Negation and Possessive Adjectives",
+    "type": "general",
+    "content": {
+      "description": "Learn to form negative sentences and use possessive adjectives (my, your, his, her) in routine contexts.",
+      "objectives": [
+        "Learn 6 vocabulary items",
+        "Master 2 grammar patterns"
+      ],
+      "vocabulary": [
+        "don't",
+        "doesn't",
+        "my",
+        "your",
+        "his",
+        "her"
+      ],
+      "grammar": [
+        "Subject + don't/doesn't + base verb",
+        "Possessive adjective + noun"
+      ]
+    },
+    "prerequisite_slug": "a1-u1-l4",
+    "estimated_minutes": 32,
+    "language_id": 6,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 26,
+    "slug": "a1-u1-l5",
+    "name": "Review and Practice",
+    "type": "general",
+    "content": {
+      "description": "Review all vocabulary and grammar from the unit through interactive activities like role-plays and simple dialogues.",
+      "objectives": [
+        "Learn 5 vocabulary items",
+        "Master 2 grammar patterns"
+      ],
+      "vocabulary": [
+        "menu",
+        "restaurant",
+        "meal",
+        "order",
+        "drink"
+      ],
+      "grammar": [
+        "Review: Expressing likes and ordering food",
+        "Review: Quantifiers with food"
+      ]
+    },
+    "prerequisite_slug": "a1-u1-l4",
+    "estimated_minutes": 30,
+    "language_id": 6,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 27,
+    "slug": "a1-u1-l5",
+    "name": "Describe Your Home",
+    "type": "general",
+    "content": {
+      "description": "Practice describing a home using all learned vocabulary and grammar, focusing on simple location descriptions.",
+      "objectives": [
+        "Learn 5 vocabulary items",
+        "Master 2 grammar patterns"
+      ],
+      "vocabulary": [
+        "home",
+        "describe",
+        "big",
+        "small",
+        "clean"
+      ],
+      "grammar": [
+        "There is/are + noun + preposition + location",
+        "Noun + is/are + adjective"
+      ]
+    },
+    "prerequisite_slug": "a1-u1-l4",
+    "estimated_minutes": 30,
+    "language_id": 6,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 28,
+    "slug": "a1-u1-l5",
+    "name": "Review and Practice: My Family Story",
+    "type": "general",
+    "content": {
+      "description": "Reviews all unit content through integrated practice, encouraging students to create simple descriptions of their family.",
+      "objectives": [
+        "Learn 10 vocabulary items",
+        "Master 3 grammar patterns"
+      ],
+      "vocabulary": [
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "six",
+        "seven",
+        "eight",
+        "nine",
+        "ten"
+      ],
+      "grammar": [
+        "Review: sentences with 'to be'",
+        "Review: possessive adjectives",
+        "Review: plural forms of nouns"
+      ]
+    },
+    "prerequisite_slug": "a1-u1-l4",
+    "estimated_minutes": 45,
+    "language_id": 6,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 29,
+    "slug": "a1-u1-l5",
+    "name": "Review and Role-Play",
+    "type": "general",
+    "content": {
+      "description": "Reinforces all vocabulary and grammar from the unit through interactive role-play activities in shopping scenarios.",
+      "objectives": [
+        "Learn 5 vocabulary items",
+        "Master 2 grammar patterns"
+      ],
+      "vocabulary": [
+        "review",
+        "role-play",
+        "scenario",
+        "interactive",
+        "practice"
+      ],
+      "grammar": [
+        "Review: Asking for items and prices",
+        "Review: Simple transaction dialogues"
+      ]
+    },
+    "prerequisite_slug": "a1-u1-l4",
+    "estimated_minutes": 30,
+    "language_id": 6,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 30,
+    "slug": "a1-u1-l6",
+    "name": "Review and Practice: My Daily Routine",
+    "type": "general",
+    "content": {
+      "description": "Review all unit content through interactive activities, focusing on describing personal and others' routines with full sentences.",
+      "objectives": [
+        "Learn 6 vocabulary items",
+        "Master 3 grammar patterns"
+      ],
+      "vocabulary": [
+        "go to work",
+        "brush teeth",
+        "in the morning",
+        "first",
+        "don't",
+        "my"
+      ],
+      "grammar": [
+        "Subject + present tense verb + object",
+        "Subject + don't/doesn't + base verb",
+        "Possessive adjective + noun"
+      ]
+    },
+    "prerequisite_slug": "a1-u1-l5",
+    "estimated_minutes": 37,
+    "language_id": 6,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  }
+]

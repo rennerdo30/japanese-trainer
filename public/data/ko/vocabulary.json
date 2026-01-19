@@ -1,0 +1,3719 @@
+[
+  {
+    "id": 299,
+    "word": "가다",
+    "meaning": "to go",
+    "meanings": null,
+    "reading": "gada",
+    "romaji": "gada",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "movement",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 390,
+    "word": "검은색",
+    "meaning": "black",
+    "meanings": null,
+    "reading": "geomeunsaek",
+    "romaji": "geomeunsaek",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "colors",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 404,
+    "word": "고기",
+    "meaning": "meat",
+    "meanings": null,
+    "reading": "gogi",
+    "romaji": "gogi",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 325,
+    "word": "공부하다",
+    "meaning": "to study",
+    "meanings": null,
+    "reading": "gongbuhada",
+    "romaji": "gongbuhada",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "education",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 383,
+    "word": "귀",
+    "meaning": "ear",
+    "meanings": null,
+    "reading": "gwi",
+    "romaji": "gwi",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "body",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 395,
+    "word": "금요일",
+    "meaning": "Friday",
+    "meanings": null,
+    "reading": "geumyoil",
+    "romaji": "geumyoil",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "days",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 321,
+    "word": "나라",
+    "meaning": "country",
+    "meanings": null,
+    "reading": "nara",
+    "romaji": "nara",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "places",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 314,
+    "word": "내일",
+    "meaning": "tomorrow",
+    "meanings": null,
+    "reading": "naeil",
+    "romaji": "naeil",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 370,
+    "word": "넷",
+    "meaning": "four (native Korean)",
+    "meanings": null,
+    "reading": "net",
+    "romaji": "net",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "number",
+    "tags": [
+      "numbers",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 388,
+    "word": "노란색",
+    "meaning": "yellow",
+    "meanings": null,
+    "reading": "noransaek",
+    "romaji": "noransaek",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "colors",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 375,
+    "word": "누나",
+    "meaning": "older sister (male speaker)",
+    "meanings": null,
+    "reading": "nuna",
+    "romaji": "nuna",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "family",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 380,
+    "word": "눈",
+    "meaning": "eye, snow",
+    "meanings": null,
+    "reading": "nun",
+    "romaji": "nun",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "body",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 371,
+    "word": "다섯",
+    "meaning": "five (native Korean)",
+    "meanings": null,
+    "reading": "daseot",
+    "romaji": "daseot",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "number",
+    "tags": [
+      "numbers",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 323,
+    "word": "돈",
+    "meaning": "money",
+    "meanings": null,
+    "reading": "don",
+    "romaji": "don",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "basic",
+      "shopping"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 378,
+    "word": "동생",
+    "meaning": "younger sibling",
+    "meanings": null,
+    "reading": "dongsaeng",
+    "romaji": "dongsaeng",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "family",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 368,
+    "word": "둘",
+    "meaning": "two (native Korean)",
+    "meanings": null,
+    "reading": "dul",
+    "romaji": "dul",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "number",
+    "tags": [
+      "numbers",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 302,
+    "word": "듣다",
+    "meaning": "to listen, to hear",
+    "meanings": null,
+    "reading": "deutda",
+    "romaji": "deutda",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "senses",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 298,
+    "word": "마시다",
+    "meaning": "to drink",
+    "meanings": null,
+    "reading": "masida",
+    "romaji": "masida",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 319,
+    "word": "많다",
+    "meaning": "to be many, to be much",
+    "meanings": null,
+    "reading": "manta",
+    "romaji": "manta",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 303,
+    "word": "말하다",
+    "meaning": "to speak, to talk",
+    "meanings": null,
+    "reading": "malhada",
+    "romaji": "malhada",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "communication",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 379,
+    "word": "머리",
+    "meaning": "head, hair",
+    "meanings": null,
+    "reading": "meori",
+    "romaji": "meori",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "body",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 297,
+    "word": "먹다",
+    "meaning": "to eat",
+    "meanings": null,
+    "reading": "meokda",
+    "romaji": "meokda",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 394,
+    "word": "목요일",
+    "meaning": "Thursday",
+    "meanings": null,
+    "reading": "mogyoil",
+    "romaji": "mogyoil",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "days",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 310,
+    "word": "물",
+    "meaning": "water",
+    "meanings": null,
+    "reading": "mul",
+    "romaji": "mul",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 385,
+    "word": "발",
+    "meaning": "foot",
+    "meanings": null,
+    "reading": "bal",
+    "romaji": "bal",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "body",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 401,
+    "word": "밤",
+    "meaning": "night",
+    "meanings": null,
+    "reading": "bam",
+    "romaji": "bam",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 311,
+    "word": "밥",
+    "meaning": "rice, meal",
+    "meanings": null,
+    "reading": "bap",
+    "romaji": "bap",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 301,
+    "word": "보다",
+    "meaning": "to see, to watch",
+    "meanings": null,
+    "reading": "boda",
+    "romaji": "boda",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "senses",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 386,
+    "word": "빨간색",
+    "meaning": "red",
+    "meanings": null,
+    "reading": "ppalgansaek",
+    "romaji": "ppalgansaek",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "colors",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 312,
+    "word": "사람",
+    "meaning": "person, people",
+    "meanings": null,
+    "reading": "saram",
+    "romaji": "saram",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "people",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 306,
+    "word": "사랑",
+    "meaning": "love",
+    "meanings": null,
+    "reading": "sarang",
+    "romaji": "sarang",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "emotions",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 405,
+    "word": "생선",
+    "meaning": "fish (for eating)",
+    "meanings": null,
+    "reading": "saengseon",
+    "romaji": "saengseon",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 369,
+    "word": "셋",
+    "meaning": "three (native Korean)",
+    "meanings": null,
+    "reading": "set",
+    "romaji": "set",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "number",
+    "tags": [
+      "numbers",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 384,
+    "word": "손",
+    "meaning": "hand",
+    "meanings": null,
+    "reading": "son",
+    "romaji": "son",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "body",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 393,
+    "word": "수요일",
+    "meaning": "Wednesday",
+    "meanings": null,
+    "reading": "suyoil",
+    "romaji": "suyoil",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "days",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 324,
+    "word": "시간",
+    "meaning": "time, hour",
+    "meanings": null,
+    "reading": "sigan",
+    "romaji": "sigan",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 305,
+    "word": "쓰다",
+    "meaning": "to write",
+    "meanings": null,
+    "reading": "sseuda",
+    "romaji": "sseuda",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "study",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 372,
+    "word": "아버지",
+    "meaning": "father",
+    "meanings": null,
+    "reading": "abeoji",
+    "romaji": "abeoji",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "family",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 398,
+    "word": "아침",
+    "meaning": "morning, breakfast",
+    "meanings": null,
+    "reading": "achim",
+    "romaji": "achim",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 326,
+    "word": "안녕하세요",
+    "meaning": "hello",
+    "meanings": null,
+    "reading": "annyeonghaseyo",
+    "romaji": "annyeonghaseyo",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "expression",
+    "tags": [
+      "greetings",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 406,
+    "word": "야채",
+    "meaning": "vegetables",
+    "meanings": null,
+    "reading": "yachae",
+    "romaji": "yachae",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 373,
+    "word": "어머니",
+    "meaning": "mother",
+    "meanings": null,
+    "reading": "eomeoni",
+    "romaji": "eomeoni",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "family",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 315,
+    "word": "어제",
+    "meaning": "yesterday",
+    "meanings": null,
+    "reading": "eoje",
+    "romaji": "eoje",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 377,
+    "word": "언니",
+    "meaning": "older sister (female speaker)",
+    "meanings": null,
+    "reading": "eonni",
+    "romaji": "eonni",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "family",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 313,
+    "word": "오늘",
+    "meaning": "today",
+    "meanings": null,
+    "reading": "oneul",
+    "romaji": "oneul",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 300,
+    "word": "오다",
+    "meaning": "to come",
+    "meanings": null,
+    "reading": "oda",
+    "romaji": "oda",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "movement",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 376,
+    "word": "오빠",
+    "meaning": "older brother (female speaker)",
+    "meanings": null,
+    "reading": "oppa",
+    "romaji": "oppa",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "family",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 391,
+    "word": "월요일",
+    "meaning": "Monday",
+    "meanings": null,
+    "reading": "woryoil",
+    "romaji": "woryoil",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "days",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 320,
+    "word": "이름",
+    "meaning": "name",
+    "meanings": null,
+    "reading": "ireum",
+    "romaji": "ireum",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "basic",
+      "introductions"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 322,
+    "word": "일",
+    "meaning": "work, matter, thing",
+    "meanings": null,
+    "reading": "il",
+    "romaji": "il",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "work",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 397,
+    "word": "일요일",
+    "meaning": "Sunday",
+    "meanings": null,
+    "reading": "iryoil",
+    "romaji": "iryoil",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "days",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 304,
+    "word": "읽다",
+    "meaning": "to read",
+    "meanings": null,
+    "reading": "ikda",
+    "romaji": "ikda",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "study",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 382,
+    "word": "입",
+    "meaning": "mouth",
+    "meanings": null,
+    "reading": "ip",
+    "romaji": "ip",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "body",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 318,
+    "word": "작다",
+    "meaning": "to be small",
+    "meanings": null,
+    "reading": "jakda",
+    "romaji": "jakda",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 400,
+    "word": "저녁",
+    "meaning": "evening, dinner",
+    "meanings": null,
+    "reading": "jeonyeok",
+    "romaji": "jeonyeok",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "food",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 399,
+    "word": "점심",
+    "meaning": "lunch, noon",
+    "meanings": null,
+    "reading": "jeomsim",
+    "romaji": "jeomsim",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "food",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 316,
+    "word": "좋다",
+    "meaning": "to be good, to like",
+    "meanings": null,
+    "reading": "jota",
+    "romaji": "jota",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 309,
+    "word": "집",
+    "meaning": "house, home",
+    "meanings": null,
+    "reading": "jip",
+    "romaji": "jip",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "places",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 403,
+    "word": "차",
+    "meaning": "tea, car",
+    "meanings": null,
+    "reading": "cha",
+    "romaji": "cha",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "food",
+      "drinks",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 307,
+    "word": "친구",
+    "meaning": "friend",
+    "meanings": null,
+    "reading": "chingu",
+    "romaji": "chingu",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "people",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 402,
+    "word": "커피",
+    "meaning": "coffee",
+    "meanings": null,
+    "reading": "keopi",
+    "romaji": "keopi",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "food",
+      "drinks",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 381,
+    "word": "코",
+    "meaning": "nose",
+    "meanings": null,
+    "reading": "ko",
+    "romaji": "ko",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "body",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 317,
+    "word": "크다",
+    "meaning": "to be big, to be large",
+    "meanings": null,
+    "reading": "keuda",
+    "romaji": "keuda",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 396,
+    "word": "토요일",
+    "meaning": "Saturday",
+    "meanings": null,
+    "reading": "toyoil",
+    "romaji": "toyoil",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "days",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 387,
+    "word": "파란색",
+    "meaning": "blue",
+    "meanings": null,
+    "reading": "paransaek",
+    "romaji": "paransaek",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "colors",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 367,
+    "word": "하나",
+    "meaning": "one (native Korean)",
+    "meanings": null,
+    "reading": "hana",
+    "romaji": "hana",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "number",
+    "tags": [
+      "numbers",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 389,
+    "word": "하얀색",
+    "meaning": "white",
+    "meanings": null,
+    "reading": "hayansaek",
+    "romaji": "hayansaek",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "colors",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 308,
+    "word": "학교",
+    "meaning": "school",
+    "meanings": null,
+    "reading": "hakgyo",
+    "romaji": "hakgyo",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "education",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 374,
+    "word": "형",
+    "meaning": "older brother (male speaker)",
+    "meanings": null,
+    "reading": "hyeong",
+    "romaji": "hyeong",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "family",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 392,
+    "word": "화요일",
+    "meaning": "Tuesday",
+    "meanings": null,
+    "reading": "hwayoil",
+    "romaji": "hwayoil",
+    "level": "TOPIK1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "days",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 413,
+    "word": "가르치다",
+    "meaning": "to teach",
+    "meanings": null,
+    "reading": "gareuchida",
+    "romaji": "gareuchida",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "education",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 452,
+    "word": "가을",
+    "meaning": "autumn, fall",
+    "meanings": null,
+    "reading": "gaeul",
+    "romaji": "gaeul",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "seasons",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 453,
+    "word": "겨울",
+    "meaning": "winter",
+    "meanings": null,
+    "reading": "gyeoul",
+    "romaji": "gyeoul",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "seasons",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 440,
+    "word": "공항",
+    "meaning": "airport",
+    "meanings": null,
+    "reading": "gonghang",
+    "romaji": "gonghang",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "travel",
+      "places",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 449,
+    "word": "구름",
+    "meaning": "cloud",
+    "meanings": null,
+    "reading": "gureum",
+    "romaji": "gureum",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "weather",
+      "nature",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 410,
+    "word": "기다리다",
+    "meaning": "to wait",
+    "meanings": null,
+    "reading": "gidarida",
+    "romaji": "gidarida",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "basic",
+      "action"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 454,
+    "word": "꽃",
+    "meaning": "flower",
+    "meanings": null,
+    "reading": "kkot",
+    "romaji": "kkot",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "nature",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 455,
+    "word": "나무",
+    "meaning": "tree",
+    "meanings": null,
+    "reading": "namu",
+    "romaji": "namu",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "nature",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 446,
+    "word": "날씨",
+    "meaning": "weather",
+    "meanings": null,
+    "reading": "nalssi",
+    "romaji": "nalssi",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "weather",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 425,
+    "word": "느리다",
+    "meaning": "to be slow",
+    "meanings": null,
+    "reading": "neurida",
+    "romaji": "neurida",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 432,
+    "word": "덥다",
+    "meaning": "to be hot (weather)",
+    "meanings": null,
+    "reading": "deopda",
+    "romaji": "deopda",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "weather",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 411,
+    "word": "만나다",
+    "meaning": "to meet",
+    "meanings": null,
+    "reading": "mannada",
+    "romaji": "mannada",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "basic",
+      "social"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 409,
+    "word": "모르다",
+    "meaning": "to not know",
+    "meanings": null,
+    "reading": "moreuda",
+    "romaji": "moreuda",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "basic",
+      "mental"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 435,
+    "word": "목마르다",
+    "meaning": "to be thirsty",
+    "meanings": null,
+    "reading": "mongmareuda",
+    "romaji": "mongmareuda",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "body",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 434,
+    "word": "배고프다",
+    "meaning": "to be hungry",
+    "meanings": null,
+    "reading": "baegoppeuda",
+    "romaji": "baegoppeuda",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "body",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 412,
+    "word": "배우다",
+    "meaning": "to learn",
+    "meanings": null,
+    "reading": "baeuda",
+    "romaji": "baeuda",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "education",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 442,
+    "word": "버스",
+    "meaning": "bus",
+    "meanings": null,
+    "reading": "beoseu",
+    "romaji": "beoseu",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "transportation",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 438,
+    "word": "병원",
+    "meaning": "hospital",
+    "meanings": null,
+    "reading": "byeongwon",
+    "romaji": "byeongwon",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "health",
+      "places",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 450,
+    "word": "봄",
+    "meaning": "spring",
+    "meanings": null,
+    "reading": "bom",
+    "romaji": "bom",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "seasons",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 447,
+    "word": "비",
+    "meaning": "rain",
+    "meanings": null,
+    "reading": "bi",
+    "romaji": "bi",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "weather",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 428,
+    "word": "비싸다",
+    "meaning": "to be expensive",
+    "meanings": null,
+    "reading": "bissada",
+    "romaji": "bissada",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "shopping",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 445,
+    "word": "비행기",
+    "meaning": "airplane",
+    "meanings": null,
+    "reading": "bihaenggi",
+    "romaji": "bihaenggi",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "transportation",
+      "travel",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 424,
+    "word": "빠르다",
+    "meaning": "to be fast",
+    "meanings": null,
+    "reading": "ppareuda",
+    "romaji": "ppareuda",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 418,
+    "word": "사다",
+    "meaning": "to buy",
+    "meanings": null,
+    "reading": "sada",
+    "romaji": "sada",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "shopping",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 456,
+    "word": "산",
+    "meaning": "mountain",
+    "meanings": null,
+    "reading": "san",
+    "romaji": "san",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "nature",
+      "places",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 407,
+    "word": "생각하다",
+    "meaning": "to think",
+    "meanings": null,
+    "reading": "saenggakhada",
+    "romaji": "saenggakhada",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "basic",
+      "mental"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 415,
+    "word": "쉬다",
+    "meaning": "to rest",
+    "meanings": null,
+    "reading": "swida",
+    "romaji": "swida",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "daily",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 426,
+    "word": "쉽다",
+    "meaning": "to be easy",
+    "meanings": null,
+    "reading": "swipda",
+    "romaji": "swipda",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 429,
+    "word": "싸다",
+    "meaning": "to be cheap",
+    "meanings": null,
+    "reading": "ssada",
+    "romaji": "ssada",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "shopping",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 408,
+    "word": "알다",
+    "meaning": "to know",
+    "meanings": null,
+    "reading": "alda",
+    "romaji": "alda",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "basic",
+      "mental"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 427,
+    "word": "어렵다",
+    "meaning": "to be difficult",
+    "meanings": null,
+    "reading": "eoryeopda",
+    "romaji": "eoryeopda",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 451,
+    "word": "여름",
+    "meaning": "summer",
+    "meanings": null,
+    "reading": "yeoreum",
+    "romaji": "yeoreum",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "seasons",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 441,
+    "word": "역",
+    "meaning": "station",
+    "meanings": null,
+    "reading": "yeok",
+    "romaji": "yeok",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "travel",
+      "places",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 422,
+    "word": "요리하다",
+    "meaning": "to cook",
+    "meanings": null,
+    "reading": "yorihada",
+    "romaji": "yorihada",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "food",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 448,
+    "word": "우산",
+    "meaning": "umbrella",
+    "meanings": null,
+    "reading": "usan",
+    "romaji": "usan",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "items",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 421,
+    "word": "운동하다",
+    "meaning": "to exercise",
+    "meanings": null,
+    "reading": "undonghada",
+    "romaji": "undonghada",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "health",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 439,
+    "word": "은행",
+    "meaning": "bank",
+    "meanings": null,
+    "reading": "eunhaeng",
+    "romaji": "eunhaeng",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "places",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 417,
+    "word": "일어나다",
+    "meaning": "to wake up, to get up",
+    "meanings": null,
+    "reading": "ireonada",
+    "romaji": "ireonada",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "daily",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 414,
+    "word": "일하다",
+    "meaning": "to work",
+    "meanings": null,
+    "reading": "ilhada",
+    "romaji": "ilhada",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "work",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 416,
+    "word": "자다",
+    "meaning": "to sleep",
+    "meanings": null,
+    "reading": "jada",
+    "romaji": "jada",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "daily",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 431,
+    "word": "재미없다",
+    "meaning": "to be boring",
+    "meanings": null,
+    "reading": "jaemieoptda",
+    "romaji": "jaemieoptda",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 430,
+    "word": "재미있다",
+    "meaning": "to be fun, interesting",
+    "meanings": null,
+    "reading": "jaemiitda",
+    "romaji": "jaemiitda",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 420,
+    "word": "전화하다",
+    "meaning": "to call (phone)",
+    "meanings": null,
+    "reading": "jeonhwahada",
+    "romaji": "jeonhwahada",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "communication",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 443,
+    "word": "지하철",
+    "meaning": "subway",
+    "meanings": null,
+    "reading": "jihacheol",
+    "romaji": "jihacheol",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "transportation",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 423,
+    "word": "청소하다",
+    "meaning": "to clean",
+    "meanings": null,
+    "reading": "cheongsohada",
+    "romaji": "cheongsohada",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "daily",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 433,
+    "word": "춥다",
+    "meaning": "to be cold (weather)",
+    "meanings": null,
+    "reading": "chupda",
+    "romaji": "chupda",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "weather",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 444,
+    "word": "택시",
+    "meaning": "taxi",
+    "meanings": null,
+    "reading": "taeksi",
+    "romaji": "taeksi",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "transportation",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 419,
+    "word": "팔다",
+    "meaning": "to sell",
+    "meanings": null,
+    "reading": "palda",
+    "romaji": "palda",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "shopping",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 436,
+    "word": "피곤하다",
+    "meaning": "to be tired",
+    "meanings": null,
+    "reading": "pigonhada",
+    "romaji": "pigonhada",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "body",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 437,
+    "word": "회사",
+    "meaning": "company",
+    "meanings": null,
+    "reading": "hoesa",
+    "romaji": "hoesa",
+    "level": "TOPIK2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "work",
+      "places",
+      "elementary"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 327,
+    "word": "감정",
+    "meaning": "emotion, feeling",
+    "meanings": null,
+    "reading": "gamjeong",
+    "romaji": "gamjeong",
+    "level": "TOPIK3",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "emotions",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 332,
+    "word": "건강",
+    "meaning": "health",
+    "meanings": null,
+    "reading": "geongang",
+    "romaji": "geongang",
+    "level": "TOPIK3",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "health",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 334,
+    "word": "경험",
+    "meaning": "experience",
+    "meanings": null,
+    "reading": "gyeongheom",
+    "romaji": "gyeongheom",
+    "level": "TOPIK3",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "work",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 335,
+    "word": "관심",
+    "meaning": "interest, attention",
+    "meanings": null,
+    "reading": "gwansim",
+    "romaji": "gwansim",
+    "level": "TOPIK3",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "emotions",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 336,
+    "word": "긴장하다",
+    "meaning": "to be nervous, tense",
+    "meanings": null,
+    "reading": "ginjjanghada",
+    "romaji": "ginjjanghada",
+    "level": "TOPIK3",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "emotions",
+      "work",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 328,
+    "word": "실망하다",
+    "meaning": "to be disappointed",
+    "meanings": null,
+    "reading": "silmanghada",
+    "romaji": "silmanghada",
+    "level": "TOPIK3",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "emotions",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 331,
+    "word": "예약하다",
+    "meaning": "to make a reservation",
+    "meanings": null,
+    "reading": "yeyakhada",
+    "romaji": "yeyakhada",
+    "level": "TOPIK3",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "travel",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 333,
+    "word": "증상",
+    "meaning": "symptom",
+    "meanings": null,
+    "reading": "jeungsang",
+    "romaji": "jeungsang",
+    "level": "TOPIK3",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "health",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 329,
+    "word": "직장",
+    "meaning": "workplace, job",
+    "meanings": null,
+    "reading": "jikjang",
+    "romaji": "jikjang",
+    "level": "TOPIK3",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "work",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 330,
+    "word": "출장",
+    "meaning": "business trip",
+    "meanings": null,
+    "reading": "chuljang",
+    "romaji": "chuljang",
+    "level": "TOPIK3",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "work",
+      "travel",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 337,
+    "word": "개념",
+    "meaning": "concept, notion",
+    "meanings": null,
+    "reading": "gaenyeom",
+    "romaji": "gaenyeom",
+    "level": "TOPIK4",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "abstract",
+      "upper-intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 341,
+    "word": "계약서",
+    "meaning": "contract document",
+    "meanings": null,
+    "reading": "gyeyakseo",
+    "romaji": "gyeyakseo",
+    "level": "TOPIK4",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "business",
+      "upper-intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 338,
+    "word": "논리",
+    "meaning": "logic",
+    "meanings": null,
+    "reading": "nolli",
+    "romaji": "nolli",
+    "level": "TOPIK4",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "abstract",
+      "upper-intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 340,
+    "word": "눈치를 보다",
+    "meaning": "to read the room, gauge someone's mood (idiom)",
+    "meanings": null,
+    "reading": "nunchireul boda",
+    "romaji": "nunchireul boda",
+    "level": "TOPIK4",
+    "framework": null,
+    "part_of_speech": "idiom",
+    "tags": [
+      "idiom",
+      "social",
+      "upper-intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 344,
+    "word": "맥락",
+    "meaning": "context",
+    "meanings": null,
+    "reading": "maengnak",
+    "romaji": "maengnak",
+    "level": "TOPIK4",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "abstract",
+      "academic",
+      "upper-intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 339,
+    "word": "발을 빼다",
+    "meaning": "to back out, withdraw (idiom)",
+    "meanings": null,
+    "reading": "bareul ppaeda",
+    "romaji": "bareul ppaeda",
+    "level": "TOPIK4",
+    "framework": null,
+    "part_of_speech": "idiom",
+    "tags": [
+      "idiom",
+      "business",
+      "upper-intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 343,
+    "word": "분석",
+    "meaning": "analysis",
+    "meanings": null,
+    "reading": "bunseok",
+    "romaji": "bunseok",
+    "level": "TOPIK4",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "business",
+      "academic",
+      "upper-intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 345,
+    "word": "사고방식",
+    "meaning": "way of thinking, mindset",
+    "meanings": null,
+    "reading": "sagobangshik",
+    "romaji": "sagobangshik",
+    "level": "TOPIK4",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "abstract",
+      "upper-intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 346,
+    "word": "손해를 보다",
+    "meaning": "to suffer a loss",
+    "meanings": null,
+    "reading": "sonhaereul boda",
+    "romaji": "sonhaereul boda",
+    "level": "TOPIK4",
+    "framework": null,
+    "part_of_speech": "idiom",
+    "tags": [
+      "idiom",
+      "business",
+      "upper-intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 342,
+    "word": "협상하다",
+    "meaning": "to negotiate",
+    "meanings": null,
+    "reading": "hyeopsanghada",
+    "romaji": "hyeopsanghada",
+    "level": "TOPIK4",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "business",
+      "upper-intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 356,
+    "word": "간과하다",
+    "meaning": "to overlook, disregard",
+    "meanings": null,
+    "reading": "gangwahada",
+    "romaji": "gangwahada",
+    "level": "TOPIK5",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "formal",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 350,
+    "word": "기여하다",
+    "meaning": "to contribute",
+    "meanings": null,
+    "reading": "giyeohada",
+    "romaji": "giyeohada",
+    "level": "TOPIK5",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "formal",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 348,
+    "word": "명료하다",
+    "meaning": "to be clear, lucid",
+    "meanings": null,
+    "reading": "myeongnyohada",
+    "romaji": "myeongnyohada",
+    "level": "TOPIK5",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "formal",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 354,
+    "word": "방대하다",
+    "meaning": "to be vast, extensive",
+    "meanings": null,
+    "reading": "bangdaehada",
+    "romaji": "bangdaehada",
+    "level": "TOPIK5",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "formal",
+      "academic",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 352,
+    "word": "시사하다",
+    "meaning": "to imply, suggest",
+    "meanings": null,
+    "reading": "sisahada",
+    "romaji": "sisahada",
+    "level": "TOPIK5",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "formal",
+      "academic",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 349,
+    "word": "축적하다",
+    "meaning": "to accumulate",
+    "meanings": null,
+    "reading": "chukjeokhada",
+    "romaji": "chukjeokhada",
+    "level": "TOPIK5",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "formal",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 351,
+    "word": "통찰력",
+    "meaning": "insight",
+    "meanings": null,
+    "reading": "tongchallyeok",
+    "romaji": "tongchallyeok",
+    "level": "TOPIK5",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "formal",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 355,
+    "word": "파생되다",
+    "meaning": "to be derived",
+    "meanings": null,
+    "reading": "pasaengdoeda",
+    "romaji": "pasaengdoeda",
+    "level": "TOPIK5",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "formal",
+      "academic",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 347,
+    "word": "함축",
+    "meaning": "implication, connotation",
+    "meanings": null,
+    "reading": "hamchuk",
+    "romaji": "hamchuk",
+    "level": "TOPIK5",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "academic",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 353,
+    "word": "획기적",
+    "meaning": "groundbreaking, epoch-making",
+    "meanings": null,
+    "reading": "hoekgijeok",
+    "romaji": "hoekgijeok",
+    "level": "TOPIK5",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "formal",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 357,
+    "word": "고찰",
+    "meaning": "consideration, contemplation (academic)",
+    "meanings": null,
+    "reading": "gochal",
+    "romaji": "gochal",
+    "level": "TOPIK6",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "literary",
+      "academic",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 360,
+    "word": "금상첨화",
+    "meaning": "icing on the cake (four-character idiom)",
+    "meanings": null,
+    "reading": "geumsangcheomhwa",
+    "romaji": "geumsangcheomhwa",
+    "level": "TOPIK6",
+    "framework": null,
+    "part_of_speech": "idiom",
+    "tags": [
+      "idiom",
+      "four-character",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 358,
+    "word": "기인하다",
+    "meaning": "to be attributed to, stem from",
+    "meanings": null,
+    "reading": "giinhada",
+    "romaji": "giinhada",
+    "level": "TOPIK6",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "literary",
+      "academic",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 364,
+    "word": "등한시하다",
+    "meaning": "to neglect, treat lightly",
+    "meanings": null,
+    "reading": "deunghansihada",
+    "romaji": "deunghansihada",
+    "level": "TOPIK6",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "formal",
+      "literary",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 361,
+    "word": "백미",
+    "meaning": "highlight, the best part (literary)",
+    "meanings": null,
+    "reading": "baekmi",
+    "romaji": "baekmi",
+    "level": "TOPIK6",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "literary",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 366,
+    "word": "새옹지마",
+    "meaning": "a blessing in disguise (four-character idiom)",
+    "meanings": null,
+    "reading": "saeongzima",
+    "romaji": "saeongzima",
+    "level": "TOPIK6",
+    "framework": null,
+    "part_of_speech": "idiom",
+    "tags": [
+      "idiom",
+      "four-character",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 362,
+    "word": "소멸하다",
+    "meaning": "to extinguish, become extinct",
+    "meanings": null,
+    "reading": "somyeolhada",
+    "romaji": "somyeolhada",
+    "level": "TOPIK6",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "formal",
+      "literary",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 365,
+    "word": "역설적",
+    "meaning": "paradoxical",
+    "meanings": null,
+    "reading": "yeokseoljeok",
+    "romaji": "yeokseoljeok",
+    "level": "TOPIK6",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "academic",
+      "literary",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 359,
+    "word": "일맥상통하다",
+    "meaning": "to be in accord with, have something in common (idiom)",
+    "meanings": null,
+    "reading": "ilmaeksangtonghada",
+    "romaji": "ilmaeksangtonghada",
+    "level": "TOPIK6",
+    "framework": null,
+    "part_of_speech": "idiom",
+    "tags": [
+      "idiom",
+      "literary",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 363,
+    "word": "침묵을 지키다",
+    "meaning": "to keep silent",
+    "meanings": null,
+    "reading": "chimmugeul jikida",
+    "romaji": "chimmugeul jikida",
+    "level": "TOPIK6",
+    "framework": null,
+    "part_of_speech": "idiom",
+    "tags": [
+      "idiom",
+      "literary",
+      "near-native"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3
+  }
+]

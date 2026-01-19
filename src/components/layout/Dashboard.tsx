@@ -197,12 +197,57 @@ function Dashboard() {
             <header className={styles.header}>
                 <div className={styles.headerContent}>
                     <div>
-                        <Text variant="h1" align="center" className={styles.title}>
-                            {t('dashboard.title')}
-                        </Text>
-                        <Text variant="body" color="secondary" align="center" className={styles.subtitle}>
-                            {t('dashboard.subtitle')}
-                        </Text>
+  
+  
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" role="img" aria-label="Murmura wordmark">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#0f0f1a"/>
+    </linearGradient>
+    <linearGradient id="ringGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c41e3a"/>
+      <stop offset="50%" stop-color="#d4a574"/>
+      <stop offset="100%" stop-color="#c41e3a"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(80,110)">
+    <circle r="70" fill="url(#bgGradient)" stroke="url(#ringGradient)" stroke-width="4"/>
+    <text x="0" y="0"
+          text-anchor="middle"
+          dominant-baseline="central"
+          font-size="68"
+          font-weight="700"
+          fill="#f5f0e8"
+          font-family="'Noto Sans JP','Hiragino Sans','Yu Gothic',system-ui,sans-serif">学</text>
+  </g>
+
+  <g transform="translate(190,0)">
+    <text x="0" y="118"
+          font-size="120"
+          font-weight="700"
+          fill="#f5f0e8"
+          letter-spacing="1.2"
+          font-family="'Playfair Display','Libre Baskerville','Georgia',serif">Murmura</text>
+
+    <g transform="translate(12,145)" fill="none" stroke="#d4a574" stroke-linecap="round" opacity="0.40">
+      <path d="M0 0 C45 -24, 95 -24, 140 0 S235 24, 280 0" stroke-width="4"/>
+      <path d="M0 18 C45 -6, 95 -6, 140 18 S235 42, 280 18" stroke-width="3" opacity="0.6"/>
+    </g>
+
+    <text x="12" y="196"
+          font-size="30"
+          fill="#d4a574"
+          opacity="0.85"
+          letter-spacing="2.2"
+          font-family="system-ui,-apple-system,'Segoe UI',Roboto,'Fira Sans',sans-serif">From whispers to fluency</text>
+  </g>
+</svg>
+
+
+
+
                     </div>
                     <div className={styles.headerActions}>
                         <TargetLanguageSelector />

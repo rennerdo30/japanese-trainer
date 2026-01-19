@@ -1,0 +1,1004 @@
+[
+  {
+    "id": 72,
+    "title": "Accusative Case",
+    "rule": "The accusative case is used for direct objects. Only masculine articles change: der→den, ein→einen.",
+    "explanation": "The accusative case is used for direct objects. Only masculine articles change: der→den, ein→einen.",
+    "explanations": null,
+    "patterns": [
+      "der → den (masculine)",
+      "ein → einen (masculine)",
+      "die, das, eine stay the same"
+    ],
+    "examples": [
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Ich kaufe ___ Buch.",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "level": "A1",
+    "framework": null,
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 67,
+    "title": "Definite Articles (der, die, das)",
+    "rule": "German has three genders: masculine (der), feminine (die), and neuter (das). The article must match the noun's gender.",
+    "explanation": "German has three genders: masculine (der), feminine (die), and neuter (das). The article must match the noun's gender.",
+    "explanations": null,
+    "patterns": [
+      "der + masculine noun",
+      "die + feminine noun",
+      "das + neuter noun",
+      "die + all plural nouns"
+    ],
+    "examples": [
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "___ Buch ist interessant.",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "level": "A1",
+    "framework": null,
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 68,
+    "title": "Indefinite Articles (ein, eine)",
+    "rule": "Indefinite articles also change based on gender: ein (masculine/neuter) and eine (feminine). There is no plural indefinite article.",
+    "explanation": "Indefinite articles also change based on gender: ein (masculine/neuter) and eine (feminine). There is no plural indefinite article.",
+    "explanations": null,
+    "patterns": [
+      "ein + masculine noun",
+      "eine + feminine noun",
+      "ein + neuter noun"
+    ],
+    "examples": [
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Das ist ___ Apfel.",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "level": "A1",
+    "framework": null,
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 73,
+    "title": "Modal Verbs: können, müssen, wollen",
+    "rule": "Modal verbs express ability (können), necessity (müssen), or desire (wollen). The main verb goes to the end in infinitive form.",
+    "explanation": "Modal verbs express ability (können), necessity (müssen), or desire (wollen). The main verb goes to the end in infinitive form.",
+    "explanations": null,
+    "patterns": [
+      "Subject + Modal verb + ... + Infinitive"
+    ],
+    "examples": [
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Ich ___ heute nicht kommen.",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "level": "A1",
+    "framework": null,
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 69,
+    "title": "Negation with 'nicht' and 'kein'",
+    "rule": "'Nicht' negates verbs, adjectives, and adverbs. 'Kein' negates nouns (like 'not a' or 'no').",
+    "explanation": "'Nicht' negates verbs, adjectives, and adverbs. 'Kein' negates nouns (like 'not a' or 'no').",
+    "explanations": null,
+    "patterns": [
+      "nicht + verb/adjective/adverb",
+      "kein/keine + noun"
+    ],
+    "examples": [
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Ich habe ___ Geld.",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "level": "A1",
+    "framework": null,
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 74,
+    "title": "Possessive Pronouns",
+    "rule": "Possessive pronouns show ownership and must agree with the gender of the noun they describe.",
+    "explanation": "Possessive pronouns show ownership and must agree with the gender of the noun they describe.",
+    "explanations": null,
+    "patterns": [
+      "mein/dein/sein/ihr/unser/euer/ihr + noun",
+      "Add -e for feminine: meine, deine, etc.",
+      "Add -e for plural: meine Bücher"
+    ],
+    "examples": [
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Das ist ___ Mutter.",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "level": "A1",
+    "framework": null,
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 66,
+    "title": "Present Tense (Präsens)",
+    "rule": "German verbs conjugate based on the subject. Regular verbs follow a predictable pattern: remove -en from the infinitive and add the appropriate ending.",
+    "explanation": "German verbs conjugate based on the subject. Regular verbs follow a predictable pattern: remove -en from the infinitive and add the appropriate ending.",
+    "explanations": null,
+    "patterns": [
+      "ich -e (lerne)",
+      "du -st (lernst)",
+      "er/sie/es -t (lernt)",
+      "wir -en (lernen)",
+      "ihr -t (lernt)",
+      "sie/Sie -en (lernen)"
+    ],
+    "examples": [
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Ich ___ Deutsch. (lernen)",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "level": "A1",
+    "framework": null,
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 75,
+    "title": "Separable Verbs",
+    "rule": "Many German verbs have separable prefixes (auf-, an-, mit-, etc.). In main clauses, the prefix goes to the end.",
+    "explanation": "Many German verbs have separable prefixes (auf-, an-, mit-, etc.). In main clauses, the prefix goes to the end.",
+    "explanations": null,
+    "patterns": [
+      "Subject + Verb stem + ... + Prefix",
+      "aufstehen → Ich stehe ... auf",
+      "mitkommen → Kommst du mit?"
+    ],
+    "examples": [
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Der Zug fährt um 8 Uhr ___.",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "level": "A1",
+    "framework": null,
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 70,
+    "title": "Word Order in Statements",
+    "rule": "In German statements, the conjugated verb is always in the second position. The subject can move, but the verb stays in position 2.",
+    "explanation": "In German statements, the conjugated verb is always in the second position. The subject can move, but the verb stays in position 2.",
+    "explanations": null,
+    "patterns": [
+      "Position 1 + Verb + Subject (if not in pos. 1) + Rest"
+    ],
+    "examples": [
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Morgen ___ ich nach Berlin.",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "level": "A1",
+    "framework": null,
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 71,
+    "title": "Yes/No Questions",
+    "rule": "For yes/no questions, the verb moves to the first position, and the subject follows immediately after.",
+    "explanation": "For yes/no questions, the verb moves to the first position, and the subject follows immediately after.",
+    "explanations": null,
+    "patterns": [
+      "Verb + Subject + Rest + ?"
+    ],
+    "examples": [
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "___ du Kaffee?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "level": "A1",
+    "framework": null,
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 76,
+    "title": "Konjunktiv II (Subjunctive II)",
+    "rule": "Konjunktiv II is used for hypothetical situations, polite requests, and wishes. It's formed using 'würde + infinitive' or special verb forms.",
+    "explanation": "Konjunktiv II is used for hypothetical situations, polite requests, and wishes. It's formed using 'würde + infinitive' or special verb forms.",
+    "explanations": null,
+    "patterns": [
+      "würde + infinitive (general form)",
+      "wäre, hätte, könnte, müsste (common irregular forms)",
+      "Wenn + Konjunktiv II, ... + Konjunktiv II"
+    ],
+    "examples": [
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Wenn ich Zeit ___, würde ich dich besuchen.",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "level": "B1",
+    "framework": null,
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 77,
+    "title": "Passiv (Passive Voice)",
+    "rule": "The passive voice emphasizes the action rather than who performs it. It is formed with 'werden' + past participle.",
+    "explanation": "The passive voice emphasizes the action rather than who performs it. It is formed with 'werden' + past participle.",
+    "explanations": null,
+    "patterns": [
+      "Präsens Passiv: werden + Partizip II",
+      "Präteritum Passiv: wurde + Partizip II",
+      "Perfekt Passiv: sein + Partizip II + worden"
+    ],
+    "examples": [
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Das Auto ___ repariert.",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "level": "B1",
+    "framework": null,
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 79,
+    "title": "Plusquamperfekt (Past Perfect)",
+    "rule": "Plusquamperfekt describes an action that occurred before another past action. It is formed with 'hatte/war' + past participle.",
+    "explanation": "Plusquamperfekt describes an action that occurred before another past action. It is formed with 'hatte/war' + past participle.",
+    "explanations": null,
+    "patterns": [
+      "hatte + Partizip II (most verbs)",
+      "war + Partizip II (movement/state change verbs)",
+      "Nachdem + Plusquamperfekt, ... + Präteritum"
+    ],
+    "examples": [
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Nachdem er ___ war, rief er mich an.",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "level": "B1",
+    "framework": null,
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 78,
+    "title": "Relativsätze (Relative Clauses)",
+    "rule": "Relative clauses provide additional information about a noun. They are introduced by relative pronouns (der, die, das, etc.) and the verb goes to the end.",
+    "explanation": "Relative clauses provide additional information about a noun. They are introduced by relative pronouns (der, die, das, etc.) and the verb goes to the end.",
+    "explanations": null,
+    "patterns": [
+      "Nominative: der/die/das + verb at end",
+      "Accusative: den/die/das + verb at end",
+      "Dative: dem/der/dem + verb at end"
+    ],
+    "examples": [
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Das ist das Haus, ___ ich gekauft habe.",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "level": "B1",
+    "framework": null,
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 81,
+    "title": "Extended Adjective Constructions",
+    "rule": "German allows complex adjective phrases before nouns, especially in formal writing. These constructions place all modifying information before the noun.",
+    "explanation": "German allows complex adjective phrases before nouns, especially in formal writing. These constructions place all modifying information before the noun.",
+    "explanations": null,
+    "patterns": [
+      "Artikel + [modifiers + participle] + Noun",
+      "der [gestern geschriebene] Brief",
+      "die [schnell wachsende] Stadt"
+    ],
+    "examples": [
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Das von ihm ___ Buch ist ein Bestseller.",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "level": "B2",
+    "framework": null,
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 80,
+    "title": "Konjunktiv I (Reported Speech)",
+    "rule": "Konjunktiv I is primarily used for indirect/reported speech, especially in formal and journalistic contexts.",
+    "explanation": "Konjunktiv I is primarily used for indirect/reported speech, especially in formal and journalistic contexts.",
+    "explanations": null,
+    "patterns": [
+      "sein → sei, seien",
+      "haben → habe, haben",
+      "können → könne, könnten",
+      "If Konjunktiv I = Indikativ, use Konjunktiv II instead"
+    ],
+    "examples": [
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Er behauptete, er ___ unschuldig.",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "level": "B2",
+    "framework": null,
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 82,
+    "title": "Partizipialkonstruktionen (Participial Phrases)",
+    "rule": "Participial constructions allow concise expression of simultaneous or preceding actions, common in literary and formal texts.",
+    "explanation": "Participial constructions allow concise expression of simultaneous or preceding actions, common in literary and formal texts.",
+    "explanations": null,
+    "patterns": [
+      "Partizip I (present): verb stem + d (lächelnd)",
+      "Partizip II (past): ge- + stem + t/en (erschöpft)",
+      "Participial phrase + comma + main clause"
+    ],
+    "examples": [
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "___ verließ er das Gebäude.",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "level": "B2",
+    "framework": null,
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 84,
+    "title": "Complex Sentence Structures with Multiple Subordinate Clauses",
+    "rule": "Advanced German uses multiple subordinate clauses nested within each other. Understanding the hierarchy and verb placement is essential.",
+    "explanation": "Advanced German uses multiple subordinate clauses nested within each other. Understanding the hierarchy and verb placement is essential.",
+    "explanations": null,
+    "patterns": [
+      "Main clause + dass/weil/wenn + subordinate clause",
+      "Subordinate clauses can contain other subordinate clauses",
+      "Each subordinate clause has verb at the end"
+    ],
+    "examples": [
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Er fragte, ob ich wüsste, wann der Zug ___.",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "level": "C1",
+    "framework": null,
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 85,
+    "title": "Funktionsverbgefüge (Light Verb Constructions)",
+    "rule": "These are fixed combinations of a 'light' verb with a noun, common in formal and bureaucratic German. The noun carries the main meaning.",
+    "explanation": "These are fixed combinations of a 'light' verb with a noun, common in formal and bureaucratic German. The noun carries the main meaning.",
+    "explanations": null,
+    "patterns": [
+      "Noun + verb: Abschied nehmen, Stellung nehmen",
+      "Preposition + Noun + verb: in Frage stellen, zur Verfügung stellen",
+      "Often more formal than simple verbs"
+    ],
+    "examples": [
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Wir müssen eine Entscheidung ___.",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "level": "C1",
+    "framework": null,
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 88,
+    "title": "Genitiv in gehobener Sprache (Genitive in Elevated Language)",
+    "rule": "While genitive is declining in spoken German, it remains essential in formal and literary contexts, especially with certain prepositions.",
+    "explanation": "While genitive is declining in spoken German, it remains essential in formal and literary contexts, especially with certain prepositions.",
+    "explanations": null,
+    "patterns": [
+      "Genitive prepositions: angesichts, kraft, ungeachtet, infolge",
+      "Genitive in formal phrases: meines Erachtens, meiner Meinung nach",
+      "Genitive with verbs: sich bedienen, sich annehmen"
+    ],
+    "examples": [
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Trotz ___ schlechten Wetters gingen wir spazieren.",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "level": "C1",
+    "framework": null,
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 90,
+    "title": "Konnektoren für komplexe Argumentation",
+    "rule": "Advanced connectors allow for sophisticated argumentation and logical structuring in academic and professional writing.",
+    "explanation": "Advanced connectors allow for sophisticated argumentation and logical structuring in academic and professional writing.",
+    "explanations": null,
+    "patterns": [
+      "Concessive: gleichwohl, nichtsdestoweniger, wenngleich",
+      "Conditional: insofern als, sofern, vorausgesetzt dass",
+      "Consecutive: folglich, demzufolge, infolgedessen"
+    ],
+    "examples": [
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "___ die Kosten hoch sind, sollten wir investieren.",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "level": "C1",
+    "framework": null,
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 83,
+    "title": "Nominalisierung (Nominalization)",
+    "rule": "Nominalization transforms verbs and adjectives into nouns, creating a more formal and abstract style typical of academic and official German.",
+    "explanation": "Nominalization transforms verbs and adjectives into nouns, creating a more formal and abstract style typical of academic and official German.",
+    "explanations": null,
+    "patterns": [
+      "Verb → Noun: durchführen → die Durchführung",
+      "Adjective → Noun: schön → die Schönheit",
+      "Infinitive as noun: das Lesen, das Schreiben"
+    ],
+    "examples": [
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Die ___ des Problems erfordert Zeit.",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "level": "C1",
+    "framework": null,
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 89,
+    "title": "Indirekte Rede mit komplexen Zeitverhältnissen",
+    "rule": "In advanced reported speech, maintaining correct temporal relationships requires sophisticated use of Konjunktiv I and II.",
+    "explanation": "In advanced reported speech, maintaining correct temporal relationships requires sophisticated use of Konjunktiv I and II.",
+    "explanations": null,
+    "patterns": [
+      "Konjunktiv I Perfekt for prior events",
+      "Konjunktiv I + werden for future in past",
+      "Switching between Konjunktiv I and II as needed"
+    ],
+    "examples": [
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Er sagte, er ___ das Buch schon gelesen.",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "level": "C2",
+    "framework": null,
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 87,
+    "title": "Literarisches Deutsch (Literary German)",
+    "rule": "Literary German includes archaic forms, poetic structures, and stylistic devices not found in everyday speech.",
+    "explanation": "Literary German includes archaic forms, poetic structures, and stylistic devices not found in everyday speech.",
+    "explanations": null,
+    "patterns": [
+      "Archaic forms: ward (wurde), wohlan, alsbald",
+      "Inverted word order for emphasis",
+      "Subjunctive I for wishes: Es lebe der König!"
+    ],
+    "examples": [
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "The archaic past tense of 'werden' is ___.",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "level": "C2",
+    "framework": null,
+    "audioUrl": null,
+    "language_id": 5
+  },
+  {
+    "id": 86,
+    "title": "Stilistische Variationen (Stylistic Variations)",
+    "rule": "At C2 level, understanding different registers and stylistic choices becomes essential. This includes formal vs. informal, literary vs. colloquial language.",
+    "explanation": "At C2 level, understanding different registers and stylistic choices becomes essential. This includes formal vs. informal, literary vs. colloquial language.",
+    "explanations": null,
+    "patterns": [
+      "Register awareness: formal, informal, literary, bureaucratic",
+      "Euphemisms and indirect expressions",
+      "Word choice reflects social context"
+    ],
+    "examples": [
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      },
+      {
+        "english": "",
+        "german": ""
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill-blank",
+        "question": "Which is more formal: 'Ich bitte Sie, ...' or 'Ich möchte, dass...'?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "level": "C2",
+    "framework": null,
+    "audioUrl": null,
+    "language_id": 5
+  }
+]

@@ -1,124 +1,138 @@
 [
   {
     "path": {
-      "id": 3,
+      "id": 7,
       "slug": "hsk-chinese",
-      "name": "HSK Chinese Path",
-      "description": "Master Mandarin Chinese systematically through HSK levels.",
+      "name": "Chinese HSK Path",
+      "description": "Learn Chinese from beginner level following the HSK framework. Master essential Hanzi and vocabulary.",
       "type": "linear",
-      "estimated_hours": 450,
-      "difficulty": "beginner-to-advanced",
-      "language_id": 3
+      "estimated_hours": 200,
+      "difficulty": "beginner",
+      "language_id": 4
     },
     "milestones": [
       {
-        "id": 1,
-        "slug": "hsk1-vocabulary",
-        "level": "HSK 1",
-        "name": "HSK 1 Vocabulary Foundation",
-        "description": "Learn essential HSK 1 vocabulary (150 words)",
-        "module": "vocabulary",
-        "requirement": {
-          "type": "master-percentage",
-          "value": 70
-        },
-        "estimated_hours": 10,
-        "path_id": 3
-      },
-      {
-        "id": 2,
-        "slug": "hsk1-hanzi",
-        "level": "HSK 1",
-        "name": "HSK 1 Chinese Characters",
-        "description": "Master 174 essential Hanzi characters",
-        "module": "kanji",
-        "requirement": {
-          "type": "master-percentage",
-          "value": 70
-        },
-        "estimated_hours": 15,
-        "path_id": 3
-      },
-      {
-        "id": 3,
-        "slug": "hsk1-grammar",
-        "level": "HSK 1",
-        "name": "HSK 1 Grammar Basics",
-        "description": "Learn fundamental Chinese grammar patterns",
+        "id": 57,
+        "slug": "zh-hsk1-grammar",
+        "level": "HSK1",
+        "name": "HSK 1 Grammar",
+        "description": "Master basic sentence structure and particles",
         "module": "grammar",
         "requirement": {
-          "type": "complete-all"
-        },
-        "estimated_hours": 10,
-        "path_id": 3
-      },
-      {
-        "id": 4,
-        "slug": "hsk1-listening",
-        "level": "HSK 1",
-        "name": "HSK 1 Listening Skills",
-        "description": "Develop basic listening comprehension",
-        "module": "listening",
-        "requirement": {
-          "type": "complete-all"
-        },
-        "estimated_hours": 8,
-        "path_id": 3
-      },
-      {
-        "id": 5,
-        "slug": "hsk2-vocabulary",
-        "level": "HSK 2",
-        "name": "HSK 2 Vocabulary Expansion",
-        "description": "Expand vocabulary to HSK 2 level (300 words total)",
-        "module": "vocabulary",
-        "requirement": {
           "type": "master-percentage",
           "value": 70
         },
-        "estimated_hours": 15,
-        "path_id": 3
+        "estimated_hours": 20,
+        "path_id": 7
       },
       {
-        "id": 6,
-        "slug": "hsk2-hanzi",
-        "level": "HSK 2",
-        "name": "HSK 2 Chinese Characters",
-        "description": "Learn 347 Hanzi characters",
+        "id": 55,
+        "slug": "zh-hsk1-hanzi",
+        "level": "HSK1",
+        "name": "HSK 1 Hanzi",
+        "description": "Learn 150 essential Chinese characters",
         "module": "kanji",
         "requirement": {
           "type": "master-percentage",
           "value": 70
         },
         "estimated_hours": 20,
-        "path_id": 3
+        "path_id": 7
       },
       {
-        "id": 7,
-        "slug": "hsk2-grammar",
-        "level": "HSK 2",
-        "name": "HSK 2 Grammar Patterns",
-        "description": "Master elementary grammar structures",
-        "module": "grammar",
+        "id": 59,
+        "slug": "zh-hsk1-listening",
+        "level": "HSK1",
+        "name": "HSK 1 Listening",
+        "description": "Understand basic Chinese conversations",
+        "module": "listening",
         "requirement": {
           "type": "complete-all"
         },
         "estimated_hours": 15,
-        "path_id": 3
+        "path_id": 7
       },
       {
-        "id": 8,
-        "slug": "hsk3-vocabulary",
-        "level": "HSK 3",
-        "name": "HSK 3 Vocabulary Expansion",
-        "description": "Expand vocabulary to HSK 3 level (600 words total)",
+        "id": 58,
+        "slug": "zh-hsk1-reading",
+        "level": "HSK1",
+        "name": "HSK 1 Reading",
+        "description": "Read simple Chinese texts",
+        "module": "reading",
+        "requirement": {
+          "type": "complete-all"
+        },
+        "estimated_hours": 15,
+        "path_id": 7
+      },
+      {
+        "id": 56,
+        "slug": "zh-hsk1-vocabulary",
+        "level": "HSK1",
+        "name": "HSK 1 Vocabulary",
+        "description": "Learn 150 essential Chinese words",
+        "module": "vocabulary",
+        "requirement": {
+          "type": "master-percentage",
+          "value": 70
+        },
+        "estimated_hours": 20,
+        "path_id": 7
+      },
+      {
+        "id": 62,
+        "slug": "zh-hsk2-grammar",
+        "level": "HSK2",
+        "name": "HSK 2 Grammar",
+        "description": "Learn comparison, complement structures",
+        "module": "grammar",
+        "requirement": {
+          "type": "master-percentage",
+          "value": 70
+        },
+        "estimated_hours": 30,
+        "path_id": 7
+      },
+      {
+        "id": 60,
+        "slug": "zh-hsk2-hanzi",
+        "level": "HSK2",
+        "name": "HSK 2 Hanzi",
+        "description": "Learn 300 Chinese characters total",
+        "module": "kanji",
+        "requirement": {
+          "type": "master-percentage",
+          "value": 70
+        },
+        "estimated_hours": 25,
+        "path_id": 7
+      },
+      {
+        "id": 63,
+        "slug": "zh-hsk2-reading",
+        "level": "HSK2",
+        "name": "HSK 2 Reading",
+        "description": "Read short articles and dialogues",
+        "module": "reading",
+        "requirement": {
+          "type": "complete-all"
+        },
+        "estimated_hours": 15,
+        "path_id": 7
+      },
+      {
+        "id": 61,
+        "slug": "zh-hsk2-vocabulary",
+        "level": "HSK2",
+        "name": "HSK 2 Vocabulary",
+        "description": "Expand vocabulary to 300 words",
         "module": "vocabulary",
         "requirement": {
           "type": "master-percentage",
           "value": 70
         },
         "estimated_hours": 25,
-        "path_id": 3
+        "path_id": 7
       }
     ]
   }

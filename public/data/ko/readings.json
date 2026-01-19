@@ -1,0 +1,842 @@
+[
+  {
+    "id": 47,
+    "title": "나의 하루 (My Day)",
+    "level": "topik1",
+    "framework": null,
+    "text": "저는 아침 7시에 일어나요. 아침을 먹고 학교에 가요. 학교에서 수업을 들어요. 점심에는 친구와 같이 밥을 먹어요. 오후에는 도서관에서 공부해요. 저녁에 집에 와서 가족과 저녁을 먹어요. 밤에는 책을 읽고 11시에 자요.",
+    "translation": null,
+    "questions": [
+      {
+        "question": "What time does the speaker wake up?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Who does the speaker eat lunch with?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Where does the speaker study in the afternoon?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What does the speaker do before sleeping?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 60,
+    "title": "내 방 (My Room)",
+    "level": "topik1",
+    "framework": null,
+    "text": "제 방은 작지만 좋아요. 창문 옆에 책상이 있어요. 책상 위에 컴퓨터가 있어요. 책상 옆에 침대가 있어요. 침대 위에 인형이 있어요. 벽에 사진이 많아요. 저는 매일 방을 청소해요. 깨끗한 방이 좋아요.",
+    "translation": null,
+    "questions": [
+      {
+        "question": "How does the speaker describe their room?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What is next to the window?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What is on the bed?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What does the speaker do every day?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 59,
+    "title": "우리 가족 (My Family)",
+    "level": "topik1",
+    "framework": null,
+    "text": "저는 네 명 가족이에요. 아버지, 어머니, 언니, 그리고 저예요. 아버지는 회사원이에요. 어머니는 선생님이에요. 언니는 대학생이에요. 저는 고등학생이에요. 우리 가족은 서울에 살아요. 주말에 우리는 같이 밥을 먹어요. 가족과 시간을 보내는 것이 좋아요.",
+    "translation": null,
+    "questions": [
+      {
+        "question": "How many people are in the family?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What does the father do?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What does the mother do?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Where does the family live?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 46,
+    "title": "자기소개 (Self-Introduction)",
+    "level": "topik1",
+    "framework": null,
+    "text": "안녕하세요. 저는 김민수입니다. 저는 한국 사람이에요. 서울에서 왔어요. 저는 스물다섯 살이에요. 대학교에서 영어를 공부해요. 취미는 음악 듣기와 요리하기예요. 만나서 반갑습니다.",
+    "translation": null,
+    "questions": [
+      {
+        "question": "What is the speaker's name?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Where is the speaker from?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What does the speaker study?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What are the speaker's hobbies?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 61,
+    "title": "좋아하는 음식 (Favorite Food)",
+    "level": "topik1",
+    "framework": null,
+    "text": "저는 한국 음식을 좋아해요. 특히 불고기와 비빔밥을 좋아해요. 불고기는 달고 맛있어요. 비빔밥은 야채가 많아서 건강해요. 저는 매운 음식도 좋아해요. 김치찌개를 자주 먹어요. 하지만 너무 매우면 물을 많이 마셔요. 한국 음식은 정말 맛있어요!",
+    "translation": null,
+    "questions": [
+      {
+        "question": "What food does the speaker especially like?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "How does the speaker describe bulgogi?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Why is bibimbap healthy?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What does the speaker drink when food is too spicy?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 48,
+    "title": "주말 계획 (Weekend Plans)",
+    "level": "topik1",
+    "framework": null,
+    "text": "이번 주말에 친구들과 서울에 갈 거예요. 토요일 아침에 출발해서 명동에서 쇼핑할 거예요. 점심에는 한국 음식을 먹을 거예요. 불고기와 김치찌개를 먹고 싶어요. 오후에는 경복궁에 갈 거예요. 저녁에는 한강 공원에서 산책할 거예요. 일요일에는 집에서 쉴 거예요.",
+    "translation": null,
+    "questions": [
+      {
+        "question": "Where will the speaker go this weekend?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What will the speaker do in Myeongdong?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What food does the speaker want to eat?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What will the speaker do on Sunday?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 63,
+    "title": "병원에서 (At the Hospital)",
+    "level": "topik2",
+    "framework": null,
+    "text": "오늘 아침에 머리가 아팠어요. 열도 있었어요. 그래서 병원에 갔어요. 의사 선생님이 물었어요. '어디가 아프세요?' 저는 '머리가 아프고 열이 나요'라고 말했어요. 의사 선생님이 검사를 했어요. 감기였어요. 의사 선생님이 약을 처방해 주셨어요. 약국에서 약을 샀어요. 하루에 세 번 먹어야 해요. 이제 집에서 쉴 거예요.",
+    "translation": null,
+    "questions": [
+      {
+        "question": "What symptoms did the speaker have?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What did the doctor ask?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What was the diagnosis?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "How often should the medicine be taken?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 62,
+    "title": "쇼핑하기 (Shopping)",
+    "level": "topik2",
+    "framework": null,
+    "text": "어제 백화점에 갔어요. 새 옷을 사고 싶었어요. 먼저 2층에 가서 바지를 봤어요. 검은색 바지가 예뻤어요. 가격이 50,000원이었어요. 조금 비쌌지만 샀어요. 그 다음에 3층에 가서 셔츠를 봤어요. 하얀색 셔츠를 샀어요. 30,000원이었어요. 모두 80,000원을 썼어요.",
+    "translation": null,
+    "questions": [
+      {
+        "question": "Where did the speaker go?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What floor were the pants on?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "How much were the pants?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "How much did the speaker spend in total?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 50,
+    "title": "직업과 꿈 (Career and Dreams)",
+    "level": "topik2",
+    "framework": null,
+    "text": "저는 대학교 3학년이에요. 경영학을 전공하고 있어요. 졸업 후에 무역 회사에서 일하고 싶어요. 외국어를 잘하면 좋은 직장을 구할 수 있기 때문에 영어와 중국어를 공부하고 있어요. 나중에 자신의 회사를 만드는 것이 저의 꿈이에요. 성공하기 위해서 열심히 노력하고 있어요.",
+    "translation": null,
+    "questions": [
+      {
+        "question": "What year is the speaker in university?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What is the speaker's major?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What languages is the speaker studying?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What is the speaker's dream?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 64,
+    "title": "취미 (Hobbies)",
+    "level": "topik2",
+    "framework": null,
+    "text": "사람마다 취미가 달라요. 저는 음악 듣기를 좋아해요. K-pop을 많이 들어요. 친구 민지는 그림 그리기를 좋아해요. 민지는 그림을 잘 그려요. 친구 수호는 운동을 좋아해요. 특히 축구를 잘해요. 주말마다 축구를 해요. 우리는 취미가 다르지만 좋은 친구예요. 가끔 같이 영화를 봐요.",
+    "translation": null,
+    "questions": [
+      {
+        "question": "What is the speaker's hobby?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What does Minji like to do?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "When does Suho play soccer?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What do the friends do together sometimes?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 49,
+    "title": "한국어 공부 (Studying Korean)",
+    "level": "topik2",
+    "framework": null,
+    "text": "저는 6개월 전부터 한국어를 공부하고 있어요. 처음에는 한글이 어려웠어요. 하지만 매일 연습해서 지금은 한글을 읽을 수 있어요. 한국 드라마를 보면서 듣기 연습을 해요. 한국 친구도 있어서 같이 이야기해요. 내년에 한국에 가고 싶어요. 한국어로 말하고 싶어요.",
+    "translation": null,
+    "questions": [
+      {
+        "question": "How long has the speaker been studying Korean?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What was difficult at first?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "How does the speaker practice listening?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What does the speaker want to do next year?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 65,
+    "title": "휴대폰 사용 (Using a Mobile Phone)",
+    "level": "topik2",
+    "framework": null,
+    "text": "요즘 사람들은 휴대폰을 많이 사용해요. 저도 매일 휴대폰을 써요. 아침에 일어나서 휴대폰으로 시간을 확인해요. 버스에서 음악을 들어요. 친구들과 메시지를 보내요. 사진도 찍어요. 인터넷으로 뉴스를 읽어요. 게임도 해요. 휴대폰 없이 살기 어려워요. 하지만 너무 많이 쓰면 눈이 아파요.",
+    "translation": null,
+    "questions": [
+      {
+        "question": "What does the speaker check in the morning?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What does the speaker do on the bus?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What happens if you use the phone too much?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What does the speaker think about living without a phone?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 51,
+    "title": "건강한 생활 습관 (Healthy Lifestyle Habits)",
+    "level": "topik3",
+    "framework": null,
+    "text": "현대인들은 바쁜 일상 속에서 건강을 소홀히 하기 쉽습니다. 하지만 작은 습관의 변화로도 건강을 크게 개선할 수 있습니다. 첫째, 충분한 수면을 취하는 것이 중요합니다. 성인의 경우 하루 7-8시간의 수면이 권장됩니다. 둘째, 규칙적인 운동이 필요합니다. 매일 30분씩 걷기만 해도 심장 건강에 도움이 됩니다. 셋째, 균형 잡힌 식단을 유지해야 합니다. 채소와 과일을 충분히 섭취하고, 가공식품 섭취를 줄이는 것이 좋습니다. 마지막으로, 스트레스 관리도 빼놓을 수 없습니다. 명상이나 취미 활동을 통해 정신 건강을 관리하세요.",
+    "translation": null,
+    "questions": [
+      {
+        "question": "How many hours of sleep is recommended for adults?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "How much daily walking is mentioned as beneficial?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What should be reduced according to the text?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What is suggested for stress management?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 52,
+    "title": "한국의 계절 (Korean Seasons)",
+    "level": "topik3",
+    "framework": null,
+    "text": "한국은 사계절이 뚜렷한 나라입니다. 봄에는 벚꽃이 피어 전국이 분홍빛으로 물듭니다. 특히 진해와 여의도의 벚꽃 축제가 유명합니다. 여름은 덥고 습하며, 7월과 8월에는 장마철이 있습니다. 이 시기에는 비가 자주 내리므로 우산을 항상 준비해야 합니다. 가을은 단풍으로 유명합니다. 설악산, 내장산 등의 산들이 붉은색과 노란색으로 물들어 장관을 이룹니다. 겨울에는 눈이 많이 오고 영하의 날씨가 계속됩니다. 스키와 스노보드를 즐기는 사람들이 많습니다.",
+    "translation": null,
+    "questions": [
+      {
+        "question": "When is the rainy season in Korea?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What color does Korea turn in spring?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Which mountains are mentioned for autumn foliage?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What activities are popular in winter?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 53,
+    "title": "세대 간 소통의 중요성 (Importance of Intergenerational Communication)",
+    "level": "topik4",
+    "framework": null,
+    "text": "오늘날 세대 간 갈등은 심각한 사회 문제로 대두되고 있습니다. 기성세대는 젊은 세대의 가치관을 이해하기 어려워하고, 젊은 세대 역시 기성세대의 사고방식에 답답함을 느끼기도 합니다. 이러한 갈등의 근본적인 원인은 소통 부재에 있습니다. 서로 다른 시대를 살아온 만큼 가치관의 차이가 있는 것은 당연합니다. 중요한 것은 서로의 입장을 경청하고 존중하는 자세입니다. 가정에서부터 열린 대화의 문화를 형성하고, 사회적으로도 세대 간 교류 프로그램을 확대해 나가야 합니다. 이를 통해 서로를 이해하고 배려하는 사회를 만들어 나갈 수 있을 것입니다.",
+    "translation": null,
+    "questions": [
+      {
+        "question": "What is the main cause of generational conflict according to the text?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What attitude is important for resolving conflicts?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Where should open dialogue culture begin?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What should be expanded at the social level?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 54,
+    "title": "한국 문학의 발자취 (The Footsteps of Korean Literature)",
+    "level": "topik4",
+    "framework": null,
+    "text": "한국 문학은 고대부터 현대까지 다양한 형태로 발전해 왔습니다. 삼국시대에는 향가가 발달했으며, 고려시대에는 시조가 등장했습니다. 조선시대에는 판소리와 한글 소설이 꽃피었습니다. 특히 허균의 '홍길동전'은 최초의 한글 소설로 평가받습니다. 근대에 들어서는 이광수, 김소월 등의 작가들이 한국 문학의 새로운 장을 열었습니다. 김소월의 '진달래꽃'은 한국인이라면 누구나 아는 시입니다. 현대에 이르러 한강 작가가 2024년 노벨 문학상을 수상하면서 한국 문학이 세계적으로 주목받게 되었습니다.",
+    "translation": null,
+    "questions": [
+      {
+        "question": "What form of literature developed during the Three Kingdoms period?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Which work is considered the first Korean novel?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Which poet wrote 'Azaleas'?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What recognition did Korean literature receive in 2024?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 55,
+    "title": "인공지능과 미래 사회 (Artificial Intelligence and Future Society)",
+    "level": "topik5",
+    "framework": null,
+    "text": "인공지능 기술의 급속한 발전은 우리 사회에 전례 없는 변화를 가져오고 있습니다. 자율주행 자동차, 의료 진단 시스템, 창작 활동에 이르기까지 AI의 영향력은 날로 확대되고 있습니다. 그러나 이러한 기술 발전에는 명암이 존재합니다. 긍정적인 측면에서 AI는 인간의 노동력을 대체하여 생산성을 높이고, 의료 분야에서는 더욱 정확한 진단을 가능하게 합니다. 반면, 일자리 감소와 개인정보 침해, 알고리즘 편향성 등의 우려도 제기되고 있습니다. 따라서 기술 발전의 혜택을 극대화하면서 부작용을 최소화하기 위한 사회적 논의와 제도 정비가 시급합니다. 인간과 AI가 공존하는 미래를 위해서는 기술 발전과 함께 윤리적 기준 마련이 필수적입니다.",
+    "translation": null,
+    "questions": [
+      {
+        "question": "Which areas are mentioned as influenced by AI?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What positive aspect of AI is mentioned in healthcare?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What concerns are raised about AI?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What is considered essential for the future coexistence of humans and AI?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 56,
+    "title": "환경 위기와 지속 가능한 발전 (Environmental Crisis and Sustainable Development)",
+    "level": "topik5",
+    "framework": null,
+    "text": "지구 온난화로 인한 기후 변화는 더 이상 미래의 문제가 아닌 현재 진행형의 위기입니다. 해수면 상승, 극단적 기상 현상의 증가, 생태계 파괴 등이 전 세계적으로 관찰되고 있습니다. 이에 대응하기 위해 국제 사회는 탄소 중립 목표를 설정하고 재생에너지 전환을 가속화하고 있습니다. 한국 역시 2050년 탄소 중립을 선언하고 다양한 정책을 추진 중입니다. 그러나 정부의 노력만으로는 한계가 있습니다. 기업의 ESG 경영 실천, 개인의 일상에서의 친환경 실천이 병행되어야 합니다. 일회용품 사용 줄이기, 대중교통 이용, 에너지 절약 등 작은 실천이 모여 큰 변화를 만들 수 있습니다. 지속 가능한 발전은 현 세대뿐 아니라 미래 세대를 위한 우리의 책임입니다.",
+    "translation": null,
+    "questions": [
+      {
+        "question": "What environmental phenomena are mentioned as being observed globally?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What target year has Korea set for carbon neutrality?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What individual actions are suggested?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What type of business practice is mentioned?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 58,
+    "title": "언어와 사고의 관계에 대한 고찰 (A Contemplation on the Relationship Between Language and Thought)",
+    "level": "topik6",
+    "framework": null,
+    "text": "언어가 사고를 결정하는가, 아니면 사고가 언어를 결정하는가? 이 철학적 질문은 수세기에 걸쳐 언어학자, 심리학자, 철학자들의 논쟁 대상이 되어 왔습니다. 사피어-워프 가설로 알려진 언어 상대성 이론은 언어가 인지 과정에 영향을 미친다고 주장합니다. 예를 들어, 색채 어휘가 풍부한 언어의 화자들이 색을 더 세밀하게 구분할 수 있다는 연구 결과가 있습니다. 반면, 촘스키의 보편 문법 이론은 모든 언어에 공통되는 심층 구조가 존재하며, 이는 인간의 선천적 인지 능력을 반영한다고 봅니다. 현대 인지과학은 이 두 관점을 절충하여, 언어와 사고가 상호작용하며 서로를 형성한다는 입장을 취하는 경향이 있습니다. 이 논의는 인공지능이 자연어를 처리하고 '사고'할 수 있는지에 대한 질문으로까지 확장되고 있습니다.",
+    "translation": null,
+    "questions": [
+      {
+        "question": "What does the Sapir-Whorf hypothesis suggest?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What example is given to support linguistic relativity?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What does Chomsky's Universal Grammar theory propose?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What modern perspective does cognitive science tend to adopt?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": null,
+    "language_id": 3
+  },
+  {
+    "id": 57,
+    "title": "이효석의 메밀꽃 필 무렵 (When the Buckwheat Flowers Bloom by Lee Hyo-seok)",
+    "level": "topik6",
+    "framework": null,
+    "text": "달은 아직 산마루에 걸려 있었다. 충주댁이 따라나선 것은 아이 낳고 보름째 되는 날이었다. 보름달이 봉평에서 대화까지의 산길을 휘영청 밝게 비추어 주었다. 길은 지금 긴 산허리에 걸려 있다. 밤중을 지난 무렵인지 죽은 듯이 고요한 속에서 짐승 같은 달의 숨소리가 손에 잡힐 듯이 들리며, 콩포기와 옥수수 잎새가 한층 달에 푸르게 젖었다. 산허리는 온통 메밀밭이어서 피기 시작한 꽃이 소금을 뿌린 듯이 흐붓한 달빛에 숨이 막힐 지경이다. 붉은 대궁이 향기같이 애잔하고 나귀들의 걸음도 시원하다.",
+    "translation": null,
+    "questions": [
+      {
+        "question": "What natural phenomenon is illuminating the mountain path?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "How are the buckwheat flowers described?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What animals are mentioned in the passage?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What is the overall mood of this literary passage?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": null,
+    "language_id": 3
+  }
+]

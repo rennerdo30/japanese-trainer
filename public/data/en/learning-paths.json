@@ -1,0 +1,127 @@
+{
+  "paths": {
+    "en-a1": {
+      "id": "en-a1",
+      "type": "linear",
+      "name": "A1 Breakthrough",
+      "description": "Complete A1 course with 6 units",
+      "icon": "graduation",
+      "language": "en",
+      "estimatedHours": 13,
+      "difficulty": "beginner",
+      "milestones": [
+        {
+          "id": "a1-unit-1",
+          "level": "A1",
+          "name": "Greetings and Introductions",
+          "description": "After completing this unit, students will be able to greet others, introduce themselves and others, use personal pronouns and the verb 'to be' in simple sentences, and ask and answer basic questions about names and identities in everyday contexts.",
+          "module": "lessons",
+          "requirement": {
+            "type": "complete-all"
+          },
+          "estimatedHours": 1.7,
+          "lessons": [
+            "a1-u1-l1",
+            "a1-u1-l2",
+            "a1-u1-l3",
+            "a1-u1-l4"
+          ]
+        },
+        {
+          "id": "a1-unit-1",
+          "level": "A1",
+          "name": "Self and Family",
+          "description": "After completing this unit, students will be able to introduce themselves and family members, use possessive adjectives to describe relationships, ask and answer simple questions about family, describe people with basic adjectives, and form simple sentences with 'to be' in present tense.",
+          "module": "lessons",
+          "requirement": {
+            "type": "complete-all"
+          },
+          "estimatedHours": 2.2,
+          "lessons": [
+            "a1-u1-l1",
+            "a1-u1-l2",
+            "a1-u1-l3",
+            "a1-u1-l4",
+            "a1-u1-l5"
+          ]
+        },
+        {
+          "id": "a1-unit-1",
+          "level": "A1",
+          "name": "Home and Living",
+          "description": "After completing this unit, students will be able to name common rooms and furniture in a home, use prepositions to describe object locations, apply articles correctly, form regular plurals, and construct simple sentences to describe their living spaces.",
+          "module": "lessons",
+          "requirement": {
+            "type": "complete-all"
+          },
+          "estimatedHours": 2,
+          "lessons": [
+            "a1-u1-l1",
+            "a1-u1-l2",
+            "a1-u1-l3",
+            "a1-u1-l4",
+            "a1-u1-l5"
+          ]
+        },
+        {
+          "id": "a1-unit-1",
+          "level": "A1",
+          "name": "Daily Routine",
+          "description": "After completing this unit, students will be able to describe basic daily routines using present tense verbs, personal pronouns, time expressions, and simple questions. They can talk about their own activities and those of others, use negation and possessive adjectives, and sequence events in a routine context.",
+          "module": "lessons",
+          "requirement": {
+            "type": "complete-all"
+          },
+          "estimatedHours": 2.8,
+          "lessons": [
+            "a1-u1-l1",
+            "a1-u1-l2",
+            "a1-u1-l3",
+            "a1-u1-l4",
+            "a1-u1-l5",
+            "a1-u1-l6"
+          ]
+        },
+        {
+          "id": "a1-unit-1",
+          "level": "A1",
+          "name": "Food and Drink",
+          "description": "After completing this unit, students will be able to name common food and drink items, use 'have' and 'like' to talk about preferences, ask and answer simple questions about food, use 'some' and 'any' in basic contexts, and make simple orders in places like cafés.",
+          "module": "lessons",
+          "requirement": {
+            "type": "complete-all"
+          },
+          "estimatedHours": 2.2,
+          "lessons": [
+            "a1-u1-l1",
+            "a1-u1-l2",
+            "a1-u1-l3",
+            "a1-u1-l4",
+            "a1-u1-l5"
+          ]
+        },
+        {
+          "id": "a1-unit-1",
+          "level": "A1",
+          "name": "Shopping Basics",
+          "description": "After completing this unit, students will be able to identify common shopping places and items, use numbers 1-20 to state prices, ask 'how much' questions, use basic prepositions and pronouns, and engage in simple transaction dialogues for buying items in everyday contexts.",
+          "module": "lessons",
+          "requirement": {
+            "type": "complete-all"
+          },
+          "estimatedHours": 2.2,
+          "lessons": [
+            "a1-u1-l1",
+            "a1-u1-l2",
+            "a1-u1-l3",
+            "a1-u1-l4",
+            "a1-u1-l5"
+          ]
+        }
+      ]
+    }
+  },
+  "pathOrder": [
+    "en-a1"
+  ]
+}

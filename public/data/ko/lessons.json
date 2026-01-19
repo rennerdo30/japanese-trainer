@@ -1,0 +1,186 @@
+[
+  {
+    "id": 26,
+    "slug": "hangul-aspirated-consonants",
+    "name": "Aspirated Consonants",
+    "type": "alphabet",
+    "content": {
+      "characters": [
+        "k",
+        "t",
+        "p",
+        "h"
+      ]
+    },
+    "prerequisite_slug": "hangul-basic-consonants-2",
+    "estimated_minutes": 12,
+    "language_id": 3,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 24,
+    "slug": "hangul-basic-consonants-1",
+    "name": "Basic Consonants (Part 1)",
+    "type": "alphabet",
+    "content": {
+      "characters": [
+        "g/k",
+        "n",
+        "d/t",
+        "r/l",
+        "m"
+      ]
+    },
+    "prerequisite_slug": null,
+    "estimated_minutes": 15,
+    "language_id": 3,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 25,
+    "slug": "hangul-basic-consonants-2",
+    "name": "Basic Consonants (Part 2)",
+    "type": "alphabet",
+    "content": {
+      "characters": [
+        "b/p",
+        "s",
+        "ng/-",
+        "j",
+        "ch"
+      ]
+    },
+    "prerequisite_slug": "hangul-basic-consonants-1",
+    "estimated_minutes": 15,
+    "language_id": 3,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 27,
+    "slug": "hangul-basic-vowels",
+    "name": "Basic Vowels",
+    "type": "alphabet",
+    "content": {
+      "characters": [
+        "a",
+        "eo",
+        "o",
+        "u",
+        "eu",
+        "i"
+      ]
+    },
+    "prerequisite_slug": "hangul-aspirated-consonants",
+    "estimated_minutes": 15,
+    "language_id": 3,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 30,
+    "slug": "hangul-compound-vowels-1",
+    "name": "Compound Vowels (Part 1)",
+    "type": "alphabet",
+    "content": {
+      "characters": [
+        "ae",
+        "yae",
+        "e",
+        "ye"
+      ]
+    },
+    "prerequisite_slug": "hangul-double-consonants",
+    "estimated_minutes": 12,
+    "language_id": 3,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 31,
+    "slug": "hangul-compound-vowels-2",
+    "name": "Compound Vowels (Part 2)",
+    "type": "alphabet",
+    "content": {
+      "characters": [
+        "wa",
+        "wae",
+        "oe",
+        "wo",
+        "we",
+        "wi",
+        "ui"
+      ]
+    },
+    "prerequisite_slug": "hangul-compound-vowels-1",
+    "estimated_minutes": 18,
+    "language_id": 3,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 29,
+    "slug": "hangul-double-consonants",
+    "name": "Double Consonants",
+    "type": "alphabet",
+    "content": {
+      "characters": [
+        "kk",
+        "tt",
+        "pp",
+        "ss",
+        "jj"
+      ]
+    },
+    "prerequisite_slug": "hangul-y-vowels",
+    "estimated_minutes": 15,
+    "language_id": 3,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  },
+  {
+    "id": 28,
+    "slug": "hangul-y-vowels",
+    "name": "Y-Vowels",
+    "type": "alphabet",
+    "content": {
+      "characters": [
+        "ya",
+        "yeo",
+        "yo",
+        "yu"
+      ]
+    },
+    "prerequisite_slug": "hangul-basic-vowels",
+    "estimated_minutes": 12,
+    "language_id": 3,
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "character_ids": null,
+    "reading_ids": null,
+    "listening_ids": null
+  }
+]

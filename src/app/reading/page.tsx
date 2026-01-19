@@ -5,21 +5,31 @@ import Navigation from '@/components/common/Navigation';
 import StatsPanel from '@/components/common/StatsPanel';
 import LanguageContentGuard from '@/components/common/LanguageContentGuard';
 import ErrorBoundary from '@/components/common/ErrorBoundary';
-import { Container, Card, Text, Button, Chip, Toggle, OptionsPanel, Animated } from '@/components/ui';
+import TabSelector from '@/components/common/TabSelector';
+import { Container, Card, Text, Button, Chip, Toggle, OptionsPanel, Input, Animated } from '@/components/ui';
 import optionsStyles from '@/components/ui/OptionsPanel.module.css';
 import { useProgressContext } from '@/context/ProgressProvider';
 import { useLanguage } from '@/context/LanguageProvider';
 import { useTargetLanguage } from '@/hooks/useTargetLanguage';
+import { useContentTranslation } from '@/hooks/useContentTranslation';
+import { useLearnedContent } from '@/hooks/useLearnedContent';
 import { useTTS } from '@/hooks/useTTS';
 import { ReadingItem, Filter } from '@/types';
 import { IoVolumeHigh, IoCheckmark, IoClose, IoStop } from 'react-icons/io5';
+import { FiBookOpen, FiCheck, FiSearch } from 'react-icons/fi';
 import styles from './reading.module.css';
+
+type TabType = 'myCards' | 'all';
 
 export default function ReadingPage() {
     const { getModuleData: getModule, updateModuleStats: updateStats } = useProgressContext();
     const { t } = useLanguage();
     const { targetLanguage, levels, getDataUrl } = useTargetLanguage();
+    const { getText, getQuestion } = useContentTranslation();
     const { speak, stop, isPlaying } = useTTS();
+    const { allLearned, stats: learnedStats, isContentLearned } = useLearnedContent();
+
+    const [activeTab, setActiveTab] = useState<TabType>('myCards');
     const [readings, setReadings] = useState<ReadingItem[]>([]);
     const [currentReading, setCurrentReading] = useState<ReadingItem | null>(null);
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -27,6 +37,8 @@ export default function ReadingPage() {
     const [showQuestions, setShowQuestions] = useState(false);
     const [questionAnswers, setQuestionAnswers] = useState<Record<number, number>>({});
     const [showCorrectness, setShowCorrectness] = useState(false);
+    const [searchQuery, setSearchQuery] = useState('');
+    const [selectedLevel, setSelectedLevel] = useState<string | null>(null);
     const [stats, setStats] = useState({
         correct: 0,
         total: 0,
@@ -60,21 +72,69 @@ export default function ReadingPage() {
         setFilters(newFilters);
     }, [targetLanguage, displayLevels]);
 
-    // Filter readings based on selected level filters
+    // Get learned reading IDs
+    const learnedReadingIds = useMemo(() => {
+        return new Set(
+            allLearned
+                .filter((item: { contentType: string; languageCode: string }) =>
+                    item.contentType === 'reading' && item.languageCode === targetLanguage)
+                .map((item: { contentId: string }) => item.contentId)
+        );
+    }, [allLearned, targetLanguage]);
+
+    // Get my readings (learned ones)
+    const myReadingItems = useMemo(() => {
+        return readings.filter(r => learnedReadingIds.has(r.id));
+    }, [readings, learnedReadingIds]);
+
+    // Filter readings based on selected level filters (for practice mode)
     const filteredReadings = useMemo(() => {
         const activeFilters = Object.values(filters)
             .filter(f => f.checked)
             .map(f => f.id);
 
         // If no filters selected, show all readings
-        if (activeFilters.length === 0) return readings;
+        if (activeFilters.length === 0) return myReadingItems;
 
-        return readings.filter(reading => {
+        return myReadingItems.filter(reading => {
             // Handle various level formats (n5, N5, etc.)
             const readingLevel = reading.level?.toLowerCase();
             return activeFilters.some(f => f.toLowerCase() === readingLevel);
         });
-    }, [readings, filters]);
+    }, [myReadingItems, filters]);
+
+    // Browse items for "All" tab
+    const browseItems = useMemo(() => {
+        let items = [...readings];
+
+        if (searchQuery) {
+            const query = searchQuery.toLowerCase();
+            items = items.filter(r =>
+                r.title?.toLowerCase().includes(query) ||
+                r.text?.toLowerCase().includes(query)
+            );
+        }
+
+        if (selectedLevel) {
+            items = items.filter(r => r.level === selectedLevel);
+        }
+
+        return items.slice(0, 30);
+    }, [readings, searchQuery, selectedLevel]);
+
+    // Tab configuration
+    const tabs = useMemo(() => [
+        {
+            id: 'myCards' as TabType,
+            label: 'My Readings',
+            badge: myReadingItems.length > 0 ? myReadingItems.length : undefined
+        },
+        {
+            id: 'all' as TabType,
+            label: 'All Readings',
+            badge: readings.length
+        },
+    ], [myReadingItems.length, readings.length]);
 
     // Update current reading when filters change
     useEffect(() => {
@@ -220,124 +280,238 @@ export default function ReadingPage() {
         setShowQuestions(false);
     }, [currentIndex, filteredReadings]);
 
-    if (!currentReading) {
+    const byTypeStats = learnedStats.byType as Record<string, number>;
+
+    // Render My Cards tab - practice view
+    const renderMyCardsTab = () => {
+        if (myReadingItems.length === 0) {
+            return (
+                <div className={styles.emptyState}>
+                    <FiBookOpen className={styles.emptyIcon} />
+                    <Text variant="h3" style={{ marginBottom: '0.5rem' }}>No readings yet</Text>
+                    <Text color="muted" style={{ marginBottom: '1rem' }}>
+                        Complete lessons to add readings to your collection
+                    </Text>
+                    <Button variant="primary" onClick={() => setActiveTab('all')}>
+                        Browse All Readings
+                    </Button>
+                </div>
+            );
+        }
+
+        if (!currentReading) {
+            return (
+                <div className={styles.emptyState}>
+                    <Text>No readings match current filters.</Text>
+                </div>
+            );
+        }
+
         return (
-            <ErrorBoundary>
-            <LanguageContentGuard moduleName="reading">
-                <Container variant="centered">
-                    <Navigation />
-                    <Text>{t('reading.noReadings') || 'No readings available.'}</Text>
-                </Container>
-            </LanguageContentGuard>
-            </ErrorBoundary>
-        );
-    }
-
-    return (
-        <ErrorBoundary>
-        <LanguageContentGuard moduleName="reading">
-            <Container variant="centered" streak={stats.streak}>
-                <Navigation />
-
-            <OptionsPanel>
-                {showFuriganaOption && (
-                    <div className={optionsStyles.toggleContainer}>
-                        <Text variant="label" color="muted">{t('reading.showFurigana')}</Text>
-                        <Toggle
-                            options={[
-                                { id: 'show', label: t('reading.show') },
-                                { id: 'hide', label: t('reading.hide') }
-                            ]}
-                            value={showFurigana ? 'show' : 'hide'}
-                            onChange={(val) => setShowFurigana(val === 'show')}
-                            name="reading-furigana"
-                        />
+            <>
+                <OptionsPanel>
+                    {showFuriganaOption && (
+                        <div className={optionsStyles.toggleContainer}>
+                            <Text variant="label" color="muted">{t('reading.showFurigana')}</Text>
+                            <Toggle
+                                options={[
+                                    { id: 'show', label: t('reading.show') },
+                                    { id: 'hide', label: t('reading.hide') }
+                                ]}
+                                value={showFurigana ? 'show' : 'hide'}
+                                onChange={(val) => setShowFurigana(val === 'show')}
+                                name="reading-furigana"
+                            />
+                        </div>
+                    )}
+                    <div className={optionsStyles.group}>
+                        <Text variant="label" color="muted">Level</Text>
+                        {Object.values(filters).map((filter) => (
+                            <Chip
+                                key={filter.id}
+                                id={filter.id}
+                                label={filter.label}
+                                checked={filter.checked}
+                                onChange={(checked) => handleFilterChange(filter.id, checked)}
+                            />
+                        ))}
                     </div>
+                </OptionsPanel>
+
+                <Card className={styles.readingCard} variant="glass">
+                    <Text variant="h2" color="gold" className={styles.readingTitle}>
+                        {getText(currentReading.titleTranslations, currentReading.title)}
+                    </Text>
+
+                    <div className={`${styles.readingText} ${showFurigana ? styles.withFurigana : styles.noFurigana}`}>
+                        {currentReading.text}
+                    </div>
+
+                    <div className="mt-8 flex justify-center gap-4">
+                        {isPlaying ? (
+                            <Button onClick={stop} variant="danger">
+                                <IoStop style={{ marginRight: '0.5rem' }} /> {t('common.stop') || 'Stop'}
+                            </Button>
+                        ) : (
+                            <Button onClick={handlePlayReading} variant="secondary">
+                                <IoVolumeHigh style={{ marginRight: '0.5rem' }} /> {t('listening.playAudio')}
+                            </Button>
+                        )}
+                        {currentReading.questions && (
+                            <Button onClick={() => setShowQuestions(!showQuestions)} variant="primary">
+                                {t('reading.showQuestions')}
+                            </Button>
+                        )}
+                    </div>
+                </Card>
+
+                {showQuestions && currentReading.questions && (
+                    <Card className={styles.questionsSection} variant="glass">
+                        <Text variant="h2" className={styles.questionsTitle}>{t('reading.comprehensionQuestions')}</Text>
+                        <div className={styles.questionsList}>
+                            {currentReading.questions.map((q, index) => (
+                                <div key={index} className={styles.questionItem}>
+                                    <Text variant="h3" className={styles.questionText}>
+                                        {index + 1}. {getQuestion(q.question, q.questionTranslations)}
+                                    </Text>
+                                    <div className={styles.optionsGrid}>
+                                        {q.options.map((opt, optIndex) => (
+                                            <Button
+                                                key={optIndex}
+                                                variant={questionAnswers[index] === optIndex ? 'primary' : 'ghost'}
+                                                onClick={() => setQuestionAnswers(prev => ({ ...prev, [index]: optIndex }))}
+                                                className={styles.optionButton}
+                                                disabled={showCorrectness}
+                                            >
+                                                {opt}
+                                                {showCorrectness && optIndex === q.correct && <IoCheckmark style={{ marginLeft: '0.5rem', color: 'var(--success)' }} />}
+                                                {showCorrectness && questionAnswers[index] === optIndex && optIndex !== q.correct && <IoClose style={{ marginLeft: '0.5rem', color: 'var(--error)' }} />}
+                                            </Button>
+                                        ))}
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                        {!showCorrectness ? (
+                            <Button onClick={handleCheckAnswers} fullWidth className="mt-6">
+                                {t('reading.checkAnswers')}
+                            </Button>
+                        ) : (
+                            <Button onClick={nextReading} fullWidth className="mt-6">
+                                {t('common.next')}
+                            </Button>
+                        )}
+                    </Card>
                 )}
-                <div className={optionsStyles.group}>
-                    <Text variant="label" color="muted">Level</Text>
-                    {Object.values(filters).map((filter) => (
+
+                <StatsPanel correct={stats.correct} total={stats.total} streak={stats.streak} />
+            </>
+        );
+    };
+
+    // Render All tab - browse view
+    const renderAllTab = () => {
+        return (
+            <>
+                {/* Stats Row */}
+                <div className={styles.statsRow}>
+                    <div className={styles.statCard}>
+                        <span className={styles.statValue}>{byTypeStats?.reading || 0}</span>
+                        <span className={styles.statLabel}>Learned</span>
+                    </div>
+                    <div className={styles.statCard}>
+                        <span className={styles.statValue}>{readings.length}</span>
+                        <span className={styles.statLabel}>Total Readings</span>
+                    </div>
+                    <div className={styles.statCard}>
+                        <span className={styles.statValue}>{stats.comprehensionScore}%</span>
+                        <span className={styles.statLabel}>Comprehension</span>
+                    </div>
+                </div>
+
+                {/* Filter section */}
+                <div className={styles.filterSection}>
+                    <Input
+                        type="text"
+                        placeholder="Search readings..."
+                        value={searchQuery}
+                        onChange={(e) => setSearchQuery(e.target.value)}
+                        className={styles.searchInput}
+                    />
+                    {displayLevels.map((level) => (
                         <Chip
-                            key={filter.id}
-                            id={filter.id}
-                            label={filter.label}
-                            checked={filter.checked}
-                            onChange={(checked) => handleFilterChange(filter.id, checked)}
+                            key={level.id}
+                            id={level.id}
+                            label={level.name}
+                            checked={selectedLevel === level.id}
+                            onChange={(checked) => setSelectedLevel(checked ? level.id : null)}
                         />
                     ))}
                 </div>
-            </OptionsPanel>
 
-            <Card className={styles.readingCard} variant="glass">
-                <Text variant="h2" color="gold" className={styles.readingTitle}>
-                    {currentReading.title}
-                </Text>
-
-                <div className={`${styles.readingText} ${showFurigana ? styles.withFurigana : styles.noFurigana}`}>
-                    {currentReading.text}
-                </div>
-
-                <div className="mt-8 flex justify-center gap-4">
-                    {isPlaying ? (
-                        <Button onClick={stop} variant="danger">
-                            <IoStop style={{ marginRight: '0.5rem' }} /> {t('common.stop') || 'Stop'}
-                        </Button>
-                    ) : (
-                        <Button onClick={handlePlayReading} variant="secondary">
-                            <IoVolumeHigh style={{ marginRight: '0.5rem' }} /> {t('listening.playAudio')}
-                        </Button>
-                    )}
-                    {currentReading.questions && (
-                        <Button onClick={() => setShowQuestions(!showQuestions)} variant="primary">
-                            {t('reading.showQuestions')}
-                        </Button>
-                    )}
-                </div>
-            </Card>
-
-            {showQuestions && currentReading.questions && (
-                <Card className={styles.questionsSection} variant="glass">
-                    <Text variant="h2" className={styles.questionsTitle}>{t('reading.comprehensionQuestions')}</Text>
-                    <div className={styles.questionsList}>
-                        {currentReading.questions.map((q, index) => (
-                            <div key={index} className={styles.questionItem}>
-                                <Text variant="h3" className={styles.questionText}>
-                                    {index + 1}. {q.question}
-                                </Text>
-                                <div className={styles.optionsGrid}>
-                                    {q.options.map((opt, optIndex) => (
-                                        <Button
-                                            key={optIndex}
-                                            variant={questionAnswers[index] === optIndex ? 'primary' : 'ghost'}
-                                            onClick={() => setQuestionAnswers(prev => ({ ...prev, [index]: optIndex }))}
-                                            className={styles.optionButton}
-                                            disabled={showCorrectness}
-                                        >
-                                            {opt}
-                                            {showCorrectness && optIndex === q.correct && <IoCheckmark style={{ marginLeft: '0.5rem', color: 'var(--success)' }} />}
-                                            {showCorrectness && questionAnswers[index] === optIndex && optIndex !== q.correct && <IoClose style={{ marginLeft: '0.5rem', color: 'var(--error)' }} />}
+                {/* Browse grid */}
+                <div className={styles.browseGrid}>
+                    {browseItems.map((reading) => {
+                        const isLearned = learnedReadingIds.has(reading.id);
+                        return (
+                            <div
+                                key={reading.id}
+                                className={`${styles.readingBrowseCard} ${isLearned ? styles.learned : ''}`}
+                            >
+                                <div className={styles.readingHeader}>
+                                    <div className={styles.readingItemTitle}>
+                                        {getText(reading.titleTranslations, reading.title)}
+                                    </div>
+                                    <span className={styles.readingLevel}>
+                                        {reading.level || 'N/A'}
+                                    </span>
+                                </div>
+                                <div className={styles.readingPreview}>
+                                    {reading.text?.substring(0, 150)}...
+                                </div>
+                                <div className={styles.readingActions}>
+                                    {isLearned ? (
+                                        <span className={styles.learnedBadge}>
+                                            <FiCheck size={12} /> Learned
+                                        </span>
+                                    ) : (
+                                        <Button variant="ghost" size="sm">
+                                            View Lesson
                                         </Button>
-                                    ))}
+                                    )}
                                 </div>
                             </div>
-                        ))}
-                    </div>
-                    {!showCorrectness ? (
-                        <Button onClick={handleCheckAnswers} fullWidth className="mt-6">
-                            {t('reading.checkAnswers')}
-                        </Button>
-                    ) : (
-                        <Button onClick={nextReading} fullWidth className="mt-6">
-                            {t('common.next')}
-                        </Button>
-                    )}
-                </Card>
-            )}
+                        );
+                    })}
+                </div>
 
-            <StatsPanel correct={stats.correct} total={stats.total} streak={stats.streak} />
-            </Container>
-        </LanguageContentGuard>
+                {browseItems.length === 0 && (
+                    <div className={styles.emptyState}>
+                        <FiSearch className={styles.emptyIcon} />
+                        <Text variant="h3">No readings found</Text>
+                        <Text color="muted">Try adjusting your search or filters</Text>
+                    </div>
+                )}
+            </>
+        );
+    };
+
+    return (
+        <ErrorBoundary>
+            <LanguageContentGuard moduleName="reading">
+                <Container variant="centered" streak={stats.streak}>
+                    <Navigation />
+
+                    <TabSelector
+                        tabs={tabs}
+                        activeTab={activeTab}
+                        onTabChange={(tabId) => setActiveTab(tabId as TabType)}
+                    />
+
+                    {activeTab === 'myCards' && renderMyCardsTab()}
+                    {activeTab === 'all' && renderAllTab()}
+                </Container>
+            </LanguageContentGuard>
         </ErrorBoundary>
     );
 }
-

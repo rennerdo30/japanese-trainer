@@ -39,7 +39,7 @@ const PATH_ICONS: Record<string, React.ReactNode> = {
 
 export default function PathsPage() {
   const { t } = useLanguage();
-  const { paths, adaptiveRecommendations, isLoading } = useRecommendations();
+  const { paths, adaptiveRecommendations, isLoading, hasPathsData } = useRecommendations();
   const { isEnrolled, enrollInPath, checkPrerequisites } = usePathProgress();
 
   const [typeFilter, setTypeFilter] = useState<PathType>('all');
@@ -327,8 +327,19 @@ export default function PathsPage() {
         </section>
       )}
 
-      {/* Empty State */}
-      {filteredPaths.length === 0 && (
+      {/* Empty State - No paths available for this language */}
+      {!hasPathsData && !isLoading && (
+        <Card variant="glass" className={styles.emptyState}>
+          <IoSparkles style={{ fontSize: '3rem', color: 'var(--accent-gold)', marginBottom: '1rem' }} />
+          <Text variant="h3" color="muted">No Learning Paths Yet</Text>
+          <Text variant="body" color="muted" style={{ marginTop: '0.5rem', maxWidth: '400px', textAlign: 'center' }}>
+            Learning paths for this language are coming soon. Generate curriculum in the admin panel to create structured learning paths.
+          </Text>
+        </Card>
+      )}
+
+      {/* Empty State - No matches */}
+      {hasPathsData && filteredPaths.length === 0 && (
         <Card variant="glass" className={styles.emptyState}>
           <Text variant="h3" color="muted">No paths match your filters</Text>
           <Button variant="ghost" onClick={() => {

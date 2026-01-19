@@ -1,0 +1,639 @@
+[
+  {
+    "id": 66,
+    "title": "Mi familia",
+    "level": "a1",
+    "framework": null,
+    "text": "Hola, me llamo María. Tengo una familia pequeña. Mi padre se llama Carlos y tiene cincuenta años. Mi madre se llama Ana y tiene cuarenta y ocho años. Tengo un hermano que se llama Pedro. Él tiene veinte años y estudia en la universidad. También tenemos un perro que se llama Max. Es muy simpático y le gusta jugar en el parque. Vivimos en una casa grande con un jardín bonito. Me gusta mucho mi familia.",
+    "translation": null,
+    "questions": [
+      {
+        "question": "What is the speaker's name?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "How old is María's father?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What does Pedro do?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What is the name of the family dog?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What does Max like to do?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": "",
+    "language_id": 2
+  },
+  {
+    "id": 67,
+    "title": "Un día típico",
+    "level": "a1",
+    "framework": null,
+    "text": "Me despierto a las siete de la mañana todos los días. Primero, me ducho y me visto. Después, desayuno café con leche y tostadas en la cocina. A las ocho, salgo de casa y voy al trabajo en autobús. Trabajo en una oficina en el centro de la ciudad. A la una de la tarde, almuerzo con mis compañeros en un restaurante cerca del trabajo. Por la tarde, continúo trabajando hasta las seis. Después del trabajo, voy al gimnasio dos veces por semana. Por la noche, ceno con mi familia, veo la televisión un poco y me acuesto a las once.",
+    "translation": null,
+    "questions": [
+      {
+        "question": "What time does the speaker wake up?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "How does the speaker get to work?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What does the speaker have for breakfast?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Where does the speaker eat lunch?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "How often does the speaker go to the gym?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": "",
+    "language_id": 2
+  },
+  {
+    "id": 70,
+    "title": "El restaurante nuevo",
+    "level": "a2",
+    "framework": null,
+    "text": "Ayer por la noche, mi esposa y yo fuimos a un restaurante nuevo en el centro de la ciudad. Se llama 'La Casa del Sol' y sirven comida mexicana. Llegamos a las ocho y tuvimos que esperar quince minutos porque no teníamos reservación. El restaurante estaba decorado con colores brillantes y música tradicional mexicana. Pedimos tacos, enchiladas y guacamole para compartir. Todo estaba muy rico y las porciones eran grandes. El camarero fue muy amable y nos recomendó un postre especial: churros con chocolate. Pagamos sesenta euros por la cena completa. Definitivamente vamos a volver pronto.",
+    "translation": null,
+    "questions": [
+      {
+        "question": "What type of food does the restaurant serve?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Why did they have to wait?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "How long did they wait?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What dessert did the waiter recommend?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "How much did the dinner cost?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": "",
+    "language_id": 2
+  },
+  {
+    "id": 68,
+    "title": "Las vacaciones",
+    "level": "a2",
+    "framework": null,
+    "text": "El verano pasado, fui de vacaciones a Barcelona con mi familia. Viajamos en avión desde Madrid. El vuelo duró una hora y media. Nos quedamos en un hotel muy bonito cerca de la playa. Visitamos muchos lugares interesantes como la Sagrada Familia, el Parque Güell y Las Ramblas. La comida era deliciosa, especialmente la paella y los mariscos. También nadamos en el mar Mediterráneo todos los días. El tiempo fue perfecto: hacía sol y calor. Fueron las mejores vacaciones de mi vida. El próximo año queremos visitar Sevilla.",
+    "translation": null,
+    "questions": [
+      {
+        "question": "Where did the speaker go on vacation?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "How did they travel?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "How long was the flight?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What food does the speaker mention as especially delicious?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Where do they want to go next year?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": "",
+    "language_id": 2
+  },
+  {
+    "id": 69,
+    "title": "Mi mejor amigo",
+    "level": "a2",
+    "framework": null,
+    "text": "Mi mejor amigo se llama Luis. Nos conocemos desde hace diez años. Él es muy alto y tiene el pelo negro y los ojos marrones. Luis es una persona muy simpática y siempre me hace reír. Trabajamos juntos en la misma empresa. Los fines de semana, nos gusta jugar al fútbol en el parque o ir al cine. A Luis le encanta la música y toca la guitarra muy bien. También le gusta cocinar y prepara platos deliciosos. El mes pasado, celebramos su cumpleaños con una fiesta sorpresa. Invitamos a todos nuestros amigos y lo pasamos muy bien. Estoy muy contento de tener un amigo como Luis.",
+    "translation": null,
+    "questions": [
+      {
+        "question": "How long have the speaker and Luis been friends?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What does Luis look like?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What instrument does Luis play?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What do they like to do on weekends?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What did they do for Luis's birthday?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": "",
+    "language_id": 2
+  },
+  {
+    "id": 71,
+    "title": "El cambio climático afecta a España",
+    "level": "b1",
+    "framework": null,
+    "text": "Según un informe publicado recientemente por el Ministerio de Medio Ambiente, España es uno de los países europeos más vulnerables al cambio climático. Las temperaturas medias han aumentado 1,5 grados centígrados en los últimos cincuenta años, y se espera que esta tendencia continúe. Los científicos advierten que las olas de calor serán más frecuentes e intensas, especialmente en el sur del país. Además, la escasez de agua se convertirá en un problema grave, ya que las precipitaciones han disminuido un 20% desde 1960. El gobierno ha anunciado un plan de acción que incluye inversiones en energías renovables y mejoras en la eficiencia del uso del agua. Sin embargo, los expertos señalan que se necesitan medidas más ambiciosas para adaptarse a los cambios que ya son inevitables.",
+    "translation": null,
+    "questions": [
+      {
+        "question": "How much have average temperatures risen in the last 50 years?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Which area of Spain will be most affected by heat waves?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "By how much have precipitations decreased since 1960?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What does the government's action plan include?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What do experts think about the government's plan?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": "",
+    "language_id": 2
+  },
+  {
+    "id": 72,
+    "title": "Entrevista con una emprendedora",
+    "level": "b1",
+    "framework": null,
+    "text": "Laura Martínez fundó su empresa de tecnología hace cinco años con solo mil euros de capital inicial. Hoy, su startup de inteligencia artificial tiene más de cincuenta empleados y ha conseguido financiación de inversores internacionales. En esta entrevista, nos cuenta su historia. 'Al principio, nadie creía en mi proyecto. Los bancos rechazaron mi solicitud de préstamo tres veces. Pero yo sabía que la idea tenía potencial, así que seguí adelante trabajando desde casa.' El momento decisivo llegó cuando ganó un concurso de innovación que le proporcionó contactos importantes. 'Lo más difícil no fue conseguir el dinero, sino encontrar un equipo que compartiera mi visión', explica. Su consejo para otros emprendedores es claro: 'No tengas miedo de fracasar. Cada error es una oportunidad para aprender. Y sobre todo, rodéate de personas que te apoyen y te desafíen a mejorar.'",
+    "translation": null,
+    "questions": [
+      {
+        "question": "How much initial capital did Laura start with?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "How many employees does her company have now?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "How many times did banks reject her loan application?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What was the turning point for Laura?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "According to Laura, what was the hardest part?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": "",
+    "language_id": 2
+  },
+  {
+    "id": 74,
+    "title": "El legado de García Márquez en la literatura mundial",
+    "level": "b2",
+    "framework": null,
+    "text": "La publicación de 'Cien años de soledad' en 1967 marcó un antes y un después en la literatura universal. Gabriel García Márquez, el escritor colombiano que recibiría el Premio Nobel de Literatura en 1982, consiguió con esta obra consolidar el llamado 'realismo mágico' como un movimiento literario reconocido internacionalmente. En Macondo, el pueblo ficticio donde transcurre la saga de la familia Buendía, lo extraordinario convive con lo cotidiano de manera natural: personajes que levitan, lluvias de flores amarillas y muertes anunciadas forman parte del tejido narrativo sin provocar asombro en sus habitantes. Esta técnica, que hunde sus raíces tanto en las tradiciones orales latinoamericanas como en las vanguardias europeas, permitió a García Márquez explorar temas universales —la soledad, el poder, el amor, la memoria— desde una perspectiva genuinamente latinoamericana. Su influencia se extiende más allá de la literatura hispanohablante: escritores de todo el mundo han reconocido su deuda con el maestro colombiano, desde Salman Rushdie hasta Toni Morrison.",
+    "translation": null,
+    "questions": [
+      {
+        "question": "When was 'Cien años de soledad' published?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "When did García Márquez receive the Nobel Prize in Literature?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What is Macondo?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What characterizes 'magical realism'?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Which writers are mentioned as influenced by García Márquez?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": "",
+    "language_id": 2
+  },
+  {
+    "id": 73,
+    "title": "La crisis de la vivienda en las ciudades españolas",
+    "level": "b2",
+    "framework": null,
+    "text": "El acceso a la vivienda se ha convertido en uno de los problemas más acuciantes de la sociedad española contemporánea. En ciudades como Madrid y Barcelona, los precios del alquiler han experimentado subidas de hasta el 50% en la última década, mientras que los salarios apenas han crecido un 10%. Esta situación ha generado un fenómeno conocido como 'gentrificación', por el cual los residentes tradicionales de ciertos barrios se ven obligados a abandonarlos debido al encarecimiento. Los jóvenes son particularmente afectados: según datos del Instituto Nacional de Estadística, la edad media de emancipación en España es de 29,5 años, una de las más altas de Europa. Las causas de esta crisis son múltiples: la proliferación de pisos turísticos, la especulación inmobiliaria, la falta de vivienda pública y las políticas que favorecen la compra frente al alquiler. Diversos colectivos ciudadanos han comenzado a organizarse para exigir regulaciones más estrictas del mercado inmobiliario.",
+    "translation": null,
+    "questions": [
+      {
+        "question": "By how much have rental prices risen in major cities over the last decade?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What is the average age of leaving the parental home in Spain?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What is 'gentrificación'?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Which of the following is NOT mentioned as a cause of the crisis?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "How have citizen groups responded to this situation?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": "",
+    "language_id": 2
+  },
+  {
+    "id": 75,
+    "title": "La evolución del concepto de ciudadanía en el siglo XXI",
+    "level": "c1",
+    "framework": null,
+    "text": "El concepto tradicional de ciudadanía, vinculado estrechamente al Estado-nación y definido por la pertenencia a una comunidad política delimitada territorialmente, está siendo sometido a una profunda revisión en el contexto de la globalización. Por un lado, los flujos migratorios transnacionales han multiplicado los casos de doble o múltiple nacionalidad, desafiando la noción de lealtad exclusiva a un único Estado. Por otro, la emergencia de instituciones supranacionales como la Unión Europea ha dado lugar a formas de ciudadanía posnacional que otorgan derechos independientemente del país de origen. Paralelamente, el activismo digital y las redes sociales han reconfigurado las formas de participación política, creando lo que algunos teóricos denominan 'ciudadanía digital' o 'ciudadanía en red'. No obstante, estas transformaciones coexisten con tendencias regresivas: el resurgimiento de nacionalismos excluyentes, el endurecimiento de las políticas migratorias y la creciente desigualdad en el acceso a derechos fundamentales plantean interrogantes sobre el futuro de la ciudadanía como institución garante de igualdad.",
+    "translation": null,
+    "questions": [
+      {
+        "question": "What is challenging the traditional concept of citizenship?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What is 'post-national citizenship'?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What has digital activism created according to the text?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Which of the following is mentioned as a regressive tendency?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What question does the text raise about citizenship's future?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": "",
+    "language_id": 2
+  },
+  {
+    "id": 76,
+    "title": "Reflexiones sobre la inteligencia artificial y la condición humana",
+    "level": "c1",
+    "framework": null,
+    "text": "Los recientes avances en inteligencia artificial generativa han reavivado el sempiterno debate filosófico sobre la especificidad de la cognición humana. Cuando un modelo de lenguaje es capaz de producir textos que resultan indistinguibles de los escritos por humanos, surge inevitablemente la pregunta: ¿en qué consiste, si es que existe, la singularidad del pensamiento humano? Los defensores del excepcionalismo humano argumentan que, por sofisticados que sean, estos sistemas carecen de conciencia, intencionalidad y comprensión genuina; serían, en palabras del filósofo John Searle, 'sintaxis sin semántica'. Sin embargo, esta postura se enfrenta a objeciones epistemológicas: ¿cómo podemos estar seguros de que otros humanos poseen conciencia si solo tenemos acceso a sus manifestaciones externas, igual que con las máquinas? La cuestión se complica aún más cuando consideramos que nuestra propia cognición está condicionada por estructuras biológicas que también podrían describirse en términos computacionales. Quizás la pregunta relevante no sea si las máquinas pueden pensar, sino cómo redefinir nuestra comprensión de la mente en un mundo donde las fronteras entre lo natural y lo artificial se difuminan progresivamente.",
+    "translation": null,
+    "questions": [
+      {
+        "question": "What has reignited the philosophical debate mentioned in the text?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What does John Searle mean by 'syntax without semantics'?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What epistemological objection is raised against human exceptionalism?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "How does the text suggest we might describe human cognition?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What does the text suggest the relevant question might be?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": "",
+    "language_id": 2
+  },
+  {
+    "id": 77,
+    "title": "El Quijote y la invención de la novela moderna",
+    "level": "c2",
+    "framework": null,
+    "text": "Cuando Miguel de Cervantes publicó la primera parte de 'El ingenioso hidalgo don Quijote de la Mancha' en 1605, difícilmente podía anticipar que estaba sentando las bases de lo que posteriormente se reconocería como la novela moderna. La obra cervantina representa una ruptura radical con las convenciones literarias de su época: mientras los libros de caballerías —género que Cervantes parodia— presentaban héroes idealizados en mundos fantásticos, el Quijote nos ofrece un protagonista profundamente humano, contradictorio y, sobre todo, consciente de su propia ficcionalidad. Esta autoconciencia narrativa, mediante la cual los personajes discuten sus propias aventuras y cuestionan la veracidad de lo narrado, anticipa técnicas que no se generalizarían hasta el siglo XX. Asimismo, la tensión entre la realidad prosaica y los ideales caballerescos de don Quijote prefigura el conflicto central de la novela realista: la colisión entre las aspiraciones individuales y las restricciones del mundo social. Los múltiples niveles de lectura —la obra puede interpretarse como comedia, como tragedia, como crítica social o como meditación sobre la naturaleza de la ficción— garantizan su inagotable vigencia cuatro siglos después de su publicación.",
+    "translation": null,
+    "questions": [
+      {
+        "question": "When was the first part of Don Quixote published?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What literary genre does Cervantes parody?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What narrative technique does the text say Cervantes anticipated?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What conflict does Don Quixote prefigure in the realist novel?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Why does the text say Don Quixote remains relevant today?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": "",
+    "language_id": 2
+  },
+  {
+    "id": 78,
+    "title": "La fenomenología del olvido en la era digital",
+    "level": "c2",
+    "framework": null,
+    "text": "La paradoja fundamental de nuestra era reside en la coexistencia de una capacidad de almacenamiento de información sin precedentes con una experiencia subjetiva de fragmentación y dispersión de la memoria. Mientras los archivos digitales prometen una retención ilimitada —cada fotografía, cada mensaje, cada interacción queda potencialmente registrada para siempre—, nuestra memoria vivida parece empobrecerse, delegando en dispositivos externos funciones que antaño ejercíamos internamente. El filósofo Bernard Stiegler denominó a este fenómeno 'proletarización de la memoria': así como el trabajador industrial perdió el dominio de sus habilidades manuales al cederlas a la máquina, el sujeto contemporáneo externaliza sus capacidades cognitivas, volviéndose dependiente de prótesis tecnológicas. Sin embargo, esta perspectiva pesimista podría matizarse si atendemos a la naturaleza constitutivamente técnica de la memoria humana: desde la escritura hasta la imprenta, cada nueva tecnología ha reconfigurado nuestras facultades mnémicas sin por ello abolirlas. Lo que quizás esté en juego no sea tanto la pérdida de la memoria como su transformación cualitativa: del recuerdo como evocación afectiva a la memoria como acceso informacional; de la reminiscencia proustiana a la búsqueda algorítmica.",
+    "translation": null,
+    "questions": [
+      {
+        "question": "What paradox does the text identify in our era?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What does Bernard Stiegler mean by 'proletarianization of memory'?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "How does the text suggest the pessimistic view could be nuanced?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What transformation of memory does the text describe?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What contrast does the text draw at the end?",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": "",
+    "language_id": 2
+  }
+]

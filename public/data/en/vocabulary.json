@@ -1,0 +1,5596 @@
+[
+  {
+    "id": 1161,
+    "word": "Can I have",
+    "meaning": "a polite way to ask for something",
+    "meanings": null,
+    "reading": "/kæn aɪ hæv/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "phrase",
+    "tags": [
+      "Food and Drink",
+      "Quantifiers and Ordering Basics"
+    ],
+    "examples": [
+      {
+        "sentence": "Can I have some water?",
+        "translation": "Can I have some water?",
+        "romaji": "/kæn aɪ hæv sʌm ˈwɔtər/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 998,
+    "word": "I",
+    "meaning": "the person speaking",
+    "meanings": null,
+    "reading": "/aɪ/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "pronoun",
+    "tags": [
+      "Greetings and Introductions",
+      "Introducing Yourself"
+    ],
+    "examples": [
+      {
+        "sentence": "Hello, I am Anna.",
+        "translation": "Hello, I am Anna.",
+        "romaji": "/həˈloʊ, aɪ æm ˈænə/"
+      },
+      {
+        "sentence": "I am your friend.",
+        "translation": "I am your friend.",
+        "romaji": "/aɪ æm jɔːr frend/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1024,
+    "word": "I",
+    "meaning": "first person singular pronoun",
+    "meanings": null,
+    "reading": "/aɪ/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "pronoun",
+    "tags": [
+      "Self and Family",
+      "Introducing Myself and Family"
+    ],
+    "examples": [
+      {
+        "sentence": "I am Anna.",
+        "translation": "I am Anna.",
+        "romaji": "/aɪ æm ˈænə/"
+      },
+      {
+        "sentence": "I am not a teacher.",
+        "translation": "I am not a teacher.",
+        "romaji": "/aɪ æm nɒt ə ˈtiːtʃər/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1199,
+    "word": "I want",
+    "meaning": "to express a desire for something",
+    "meanings": null,
+    "reading": "/aɪ wɒnt/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb phrase",
+    "tags": [
+      "Shopping Basics",
+      "Asking for Items and Prices"
+    ],
+    "examples": [
+      {
+        "sentence": "I want this book, please.",
+        "translation": "I want this book, please.",
+        "romaji": "/aɪ wɒnt ðɪs bʊk, pliːz/"
+      },
+      {
+        "sentence": "I want to go to the shop at 7 o'clock.",
+        "translation": "I want to go to the shop at 7 o'clock.",
+        "romaji": "/aɪ wɒnt tuː ɡoʊ tuː ðə ʃɒp æt ˈsevən əˈklɒk/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1160,
+    "word": "I'd like",
+    "meaning": "a polite way to say what you want",
+    "meanings": null,
+    "reading": "/aɪd laɪk/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "phrase",
+    "tags": [
+      "Food and Drink",
+      "Quantifiers and Ordering Basics"
+    ],
+    "examples": [
+      {
+        "sentence": "I'd like some rice, please.",
+        "translation": "I'd like some rice, please.",
+        "romaji": "/aɪd laɪk sʌm raɪs pliz/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1076,
+    "word": "a",
+    "meaning": "indefinite article for singular nouns (general or first mention)",
+    "meanings": null,
+    "reading": "/ə/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "article",
+    "tags": [
+      "Home and Living",
+      "A Room or The Room?"
+    ],
+    "examples": [
+      {
+        "sentence": "This is a room.",
+        "translation": "This is a room.",
+        "romaji": "/ðɪs ɪz ə ruːm/"
+      },
+      {
+        "sentence": "Her bed is in a bedroom.",
+        "translation": "Her bed is in a bedroom.",
+        "romaji": "/hɜːr bɛd ɪz ɪn ə ˈbɛdruːm/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1115,
+    "word": "after that",
+    "meaning": "following that; subsequently",
+    "meanings": null,
+    "reading": "/ˈæftər ðæt/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adverb phrase",
+    "tags": [
+      "Daily Routine",
+      "Describing Full Routines"
+    ],
+    "examples": [
+      {
+        "sentence": "First, I wake up at nine o'clock. Then, I eat breakfast. After that, I go to school. Finally, I go home at ten o'clock.",
+        "translation": "First, I wake up at nine o'clock. Then, I eat breakfast. After that, I go to school. Finally, I go home at ten o'clock.",
+        "romaji": "/fɜːrst, aɪ weɪk ʌp æt naɪn ə'klɒk. ðen, aɪ iːt 'brekfəst. 'æftər ðæt, aɪ ɡoʊ tə skuːl. 'faɪnəli, aɪ ɡoʊ hoʊm æt ten ə'klɒk./"
+      },
+      {
+        "sentence": "She always brushes her teeth in the morning. She usually takes a shower after that.",
+        "translation": "She always brushes her teeth in the morning. She usually takes a shower after that.",
+        "romaji": "/ʃi 'ɔːlweɪz 'brʌʃɪz hɜː tiːθ ɪn ðə 'mɔːnɪŋ. ʃi 'juːʒuəli teɪks ə 'ʃaʊər 'æftər ðæt./"
+      },
+      {
+        "sentence": "First, he gets up. Then, he has lunch. After that, he reads a book. Finally, he goes to bed.",
+        "translation": "First, he gets up. Then, he has lunch. After that, he reads a book. Finally, he goes to bed.",
+        "romaji": "/fɜːrst, hi ɡets ʌp. ðen, hi hæz lʌntʃ. 'æftər ðæt, hi riːdz ə bʊk. 'faɪnəli, hi ɡoʊz tə bed./"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1117,
+    "word": "always",
+    "meaning": "every time; without exception",
+    "meanings": null,
+    "reading": "/ˈɔːlweɪz/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [
+      "Daily Routine",
+      "Describing Full Routines"
+    ],
+    "examples": [
+      {
+        "sentence": "She always brushes her teeth in the morning. She usually takes a shower after that.",
+        "translation": "She always brushes her teeth in the morning. She usually takes a shower after that.",
+        "romaji": "/ʃi 'ɔːlweɪz 'brʌʃɪz hɜː tiːθ ɪn ðə 'mɔːnɪŋ. ʃi 'juːʒuəli teɪks ə 'ʃaʊər 'æftər ðæt./"
+      },
+      {
+        "sentence": "I usually watch TV in the evening. I always cook dinner at night.",
+        "translation": "I usually watch TV in the evening. I always cook dinner at night.",
+        "romaji": "/aɪ 'juːʒuəli wɒtʃ tiː'viː ɪn ði 'iːvnɪŋ. aɪ 'ɔːlweɪz kʊk 'dɪnər æt naɪt./"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1077,
+    "word": "an",
+    "meaning": "indefinite article for singular nouns starting with vowel sounds",
+    "meanings": null,
+    "reading": "/ən/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "article",
+    "tags": [
+      "Home and Living",
+      "A Room or The Room?"
+    ],
+    "examples": [
+      {
+        "sentence": "Your book is on an old table.",
+        "translation": "Your book is on an old table.",
+        "romaji": "/jɔːr bʊk ɪz ɒn ən oʊld ˈteɪbəl/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1018,
+    "word": "and you",
+    "meaning": "used to return a question to the other person",
+    "meanings": null,
+    "reading": "/ænd juː/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "phrase",
+    "tags": [
+      "Greetings and Introductions",
+      "Asking and Answering Simple Questions"
+    ],
+    "examples": [
+      {
+        "sentence": "I am fine, thank you. And you?",
+        "translation": "I am fine, thank you. And you?",
+        "romaji": "/aɪ æm faɪn, θæŋk juː. ænd juː/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1159,
+    "word": "any",
+    "meaning": "used in questions and negative sentences",
+    "meanings": null,
+    "reading": "/ˈɛni/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "determiner",
+    "tags": [
+      "Food and Drink",
+      "Quantifiers and Ordering Basics"
+    ],
+    "examples": [
+      {
+        "sentence": "Do you have any fish?",
+        "translation": "Do you have any fish?",
+        "romaji": "/du ju hæv ˈɛni fɪʃ/"
+      },
+      {
+        "sentence": "She doesn't have any bread.",
+        "translation": "She doesn't have any bread.",
+        "romaji": "/ʃi ˈdʌzənt hæv ˈɛni brɛd/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1131,
+    "word": "apple",
+    "meaning": "a round fruit with red, green, or yellow skin and white flesh",
+    "meanings": null,
+    "reading": "/ˈæp.əl/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Food and Drink",
+      "Food and Drink Basics"
+    ],
+    "examples": [
+      {
+        "sentence": "I have an apple for breakfast.",
+        "translation": "I eat an apple for breakfast.",
+        "romaji": "/aɪ hæv ən ˈæp.əl fɔːr ˈbrek.fəst/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1172,
+    "word": "apple",
+    "meaning": "a round fruit, often red or green",
+    "meanings": null,
+    "reading": "/ˈæpl/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Shopping Places and Items"
+    ],
+    "examples": [
+      {
+        "sentence": "I have a small apple.",
+        "translation": "I have a small apple.",
+        "romaji": "/aɪ hæv ə smɔːl ˈæpl/"
+      },
+      {
+        "sentence": "Do you like apples?",
+        "translation": "Do you like apples?",
+        "romaji": "/duː juː laɪk ˈæplz/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1070,
+    "word": "at",
+    "meaning": "at a specific point or location",
+    "meanings": null,
+    "reading": "/æt/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "preposition",
+    "tags": [
+      "Home and Living",
+      "Where Is It?"
+    ],
+    "examples": [
+      {
+        "sentence": "The tall daughter is at home.",
+        "translation": "The tall daughter is at home.",
+        "romaji": "/ðə tɔːl ˈdɔːtər ɪz æt həʊm/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1110,
+    "word": "at 7 o'clock",
+    "meaning": "at the specific time of seven",
+    "meanings": null,
+    "reading": "/æt ˈsevən əˈklɒk/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "phrase",
+    "tags": [
+      "Daily Routine",
+      "Time Expressions and Simple Questions"
+    ],
+    "examples": [
+      {
+        "sentence": "I eat breakfast at 7 o'clock.",
+        "translation": "I eat breakfast at seven.",
+        "romaji": "/aɪ iːt ˈbrekfəst æt ˈsevən əˈklɒk/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1109,
+    "word": "at night",
+    "meaning": "during the nighttime",
+    "meanings": null,
+    "reading": "/æt naɪt/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "phrase",
+    "tags": [
+      "Daily Routine",
+      "Time Expressions and Simple Questions"
+    ],
+    "examples": [
+      {
+        "sentence": "They go to bed at night.",
+        "translation": "They go to sleep during the night.",
+        "romaji": "/ðeɪ ɡoʊ tuː bed æt naɪt/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1169,
+    "word": "bakery",
+    "meaning": "a shop that sells bread and cakes",
+    "meanings": null,
+    "reading": "/ˈbeɪkəri/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Shopping Places and Items"
+    ],
+    "examples": [
+      {
+        "sentence": "The bakery has bread.",
+        "translation": "The bakery has bread.",
+        "romaji": "/ðə ˈbeɪkəri hæz bred/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1132,
+    "word": "banana",
+    "meaning": "a long curved fruit with yellow skin and soft sweet flesh",
+    "meanings": null,
+    "reading": "/bəˈnæn.ə/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Food and Drink",
+      "Food and Drink Basics"
+    ],
+    "examples": [
+      {
+        "sentence": "They have bananas and oranges.",
+        "translation": "They eat bananas and oranges.",
+        "romaji": "/ðeɪ hæv bəˈnæn.əz ənd ˈɔːr.ɪndʒ.ɪz/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1063,
+    "word": "bathroom",
+    "meaning": "room with toilet and bath/shower",
+    "meanings": null,
+    "reading": "/ˈbɑːθruːm/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Home and Living",
+      "My Home"
+    ],
+    "examples": [
+      {
+        "sentence": "You are in the bathroom.",
+        "translation": "You are in the bathroom.",
+        "romaji": "/juː ɑːr ɪn ðə ˈbɑːθruːm/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1067,
+    "word": "bed",
+    "meaning": "a piece of furniture for sleeping on",
+    "meanings": null,
+    "reading": "/bed/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Home and Living",
+      "My Home"
+    ],
+    "examples": [
+      {
+        "sentence": "Three beds are in the house.",
+        "translation": "Three beds are in the house.",
+        "romaji": "/θriː bedz ɑːr ɪn ðə haʊs/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1062,
+    "word": "bedroom",
+    "meaning": "room for sleeping",
+    "meanings": null,
+    "reading": "/ˈbedruːm/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Home and Living",
+      "My Home"
+    ],
+    "examples": [
+      {
+        "sentence": "He is in the bedroom.",
+        "translation": "He is in the bedroom.",
+        "romaji": "/hiː ɪz ɪn ðə ˈbedruːm/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1083,
+    "word": "beds",
+    "meaning": "more than one bed",
+    "meanings": null,
+    "reading": "/bɛdz/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Home and Living",
+      "Many Things"
+    ],
+    "examples": [
+      {
+        "sentence": "The beds are in the bedroom.",
+        "translation": "The beds are in the bedroom.",
+        "romaji": "/ðə bɛdz ɑr ɪn ðə ˈbɛdruːm/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1089,
+    "word": "big",
+    "meaning": "large in size",
+    "meanings": null,
+    "reading": "/bɪɡ/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "Home and Living",
+      "Describe Your Home"
+    ],
+    "examples": [
+      {
+        "sentence": "My home is big and clean.",
+        "translation": "My home is big and clean.",
+        "romaji": "/maɪ hoʊm ɪz bɪɡ ænd kliːn/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1171,
+    "word": "book",
+    "meaning": "something you read with pages",
+    "meanings": null,
+    "reading": "/bʊk/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Shopping Places and Items"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1149,
+    "word": "bread",
+    "meaning": "a food made from flour, water, and yeast",
+    "meanings": null,
+    "reading": "/bred/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Food and Drink",
+      "Asking and Answering About Food"
+    ],
+    "examples": [
+      {
+        "sentence": "Do you like bread?",
+        "translation": "Do you like bread?",
+        "romaji": "/duː juː laɪk bred/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1173,
+    "word": "bread",
+    "meaning": "food made from flour, baked",
+    "meanings": null,
+    "reading": "/bred/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Shopping Places and Items"
+    ],
+    "examples": [
+      {
+        "sentence": "The bakery has bread.",
+        "translation": "The bakery has bread.",
+        "romaji": "/ðə ˈbeɪkəri hæz bred/"
+      },
+      {
+        "sentence": "Can I have some bread?",
+        "translation": "Can I have some bread?",
+        "romaji": "/kæn aɪ hæv sʌm bred/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1137,
+    "word": "breakfast",
+    "meaning": "first meal of the day, eaten in the morning",
+    "meanings": null,
+    "reading": "/ˈbrek.fəst/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Food and Drink",
+      "Food and Drink Basics"
+    ],
+    "examples": [
+      {
+        "sentence": "I have an apple for breakfast.",
+        "translation": "I eat an apple for breakfast.",
+        "romaji": "/aɪ hæv ən ˈæp.əl fɔːr ˈbrek.fəst/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1010,
+    "word": "brother",
+    "meaning": "male sibling",
+    "meanings": null,
+    "reading": "/ˈbrʌðər/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Greetings and Introductions",
+      "Introducing Others"
+    ],
+    "examples": [
+      {
+        "sentence": "This is my brother.",
+        "translation": "This is my brother.",
+        "romaji": "/ðɪs ɪz maɪ ˈbrʌðər/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1022,
+    "word": "brother",
+    "meaning": "male sibling",
+    "meanings": null,
+    "reading": "/ˈbrʌðər/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Self and Family",
+      "Introducing Myself and Family"
+    ],
+    "examples": [
+      {
+        "sentence": "You are my brother.",
+        "translation": "You are my brother.",
+        "romaji": "/juː ɑːr maɪ ˈbrʌðər/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1043,
+    "word": "brothers",
+    "meaning": "more than one brother",
+    "meanings": null,
+    "reading": "/ˈbrʌðərz/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Self and Family",
+      "Talking About Family Members' Characteristics"
+    ],
+    "examples": [
+      {
+        "sentence": "My brothers are tall.",
+        "translation": "My brothers are tall.",
+        "romaji": "/maɪ ˈbrʌðərz ɑr tɔl/"
+      },
+      {
+        "sentence": "Who are your brothers?",
+        "translation": "Who are your brothers?",
+        "romaji": "/hu ɑr jʊr ˈbrʌðərz?/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1100,
+    "word": "brush teeth",
+    "meaning": "to clean teeth with a toothbrush",
+    "meanings": null,
+    "reading": "/brʌʃ tiːθ/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb phrase",
+    "tags": [
+      "Daily Routine",
+      "Talking About Others' Routines"
+    ],
+    "examples": [
+      {
+        "sentence": "He brushes his teeth in the morning.",
+        "translation": "He brushes his teeth in the morning.",
+        "romaji": "/hiː ˈbrʌʃɪz hɪz tiːθ ɪn ðə ˈmɔːrnɪŋ/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1126,
+    "word": "brush teeth",
+    "meaning": "to clean teeth with a brush",
+    "meanings": null,
+    "reading": "/brʌʃ tiːθ/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb phrase",
+    "tags": [
+      "Daily Routine",
+      "Review and Practice: My Daily Routine"
+    ],
+    "examples": [
+      {
+        "sentence": "She brushes her teeth first, then she eats breakfast.",
+        "translation": "She brushes her teeth first, then she eats breakfast.",
+        "romaji": "/ʃiː ˈbrʌʃɪz hɜːr tiːθ fɜːrst, ðen ʃiː iːts ˈbrekfəst/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1208,
+    "word": "buy",
+    "meaning": "to get something by paying money",
+    "meanings": null,
+    "reading": "/baɪ/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "Shopping Basics",
+      "Simple Transaction Dialogues"
+    ],
+    "examples": [
+      {
+        "sentence": "I want to buy a book.",
+        "translation": "I want to buy a book.",
+        "romaji": "/aɪ wɒnt tu baɪ ə bʊk/"
+      },
+      {
+        "sentence": "I do not buy that. It is not my book.",
+        "translation": "I do not buy that. It is not my book.",
+        "romaji": "/aɪ du nɒt baɪ ðæt ɪt ɪz nɒt maɪ bʊk/"
+      },
+      {
+        "sentence": "First, I buy milk. Then, I buy bread. After that, I buy eggs. Finally, I pay.",
+        "translation": "First, I buy milk. Then, I buy bread. After that, I buy eggs. Finally, I pay.",
+        "romaji": "/fɜrst aɪ baɪ mɪlk ðɛn aɪ baɪ brɛd ˈæftər ðæt aɪ baɪ ɛgz ˈfaɪnəli aɪ peɪ/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 993,
+    "word": "bye",
+    "meaning": "a casual farewell",
+    "meanings": null,
+    "reading": "/baɪ/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "interjection",
+    "tags": [
+      "Greetings and Introductions",
+      "Hello and Goodbye"
+    ],
+    "examples": [
+      {
+        "sentence": "Bye, have a nice day.",
+        "translation": "Bye, have a nice day.",
+        "romaji": "/baɪ, hæv ə naɪs deɪ/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1153,
+    "word": "cake",
+    "meaning": "a sweet baked dessert",
+    "meanings": null,
+    "reading": "/keɪk/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Food and Drink",
+      "Asking and Answering About Food"
+    ],
+    "examples": [
+      {
+        "sentence": "Do you like cake?",
+        "translation": "Do you like cake?",
+        "romaji": "/duː juː laɪk keɪk/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1141,
+    "word": "carrot",
+    "meaning": "a long orange vegetable",
+    "meanings": null,
+    "reading": "/ˈkærət/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Food and Drink",
+      "Expressing Likes and Dislikes"
+    ],
+    "examples": [
+      {
+        "sentence": "I like carrots.",
+        "translation": "I enjoy eating carrots.",
+        "romaji": "/aɪ laɪk ˈkærəts/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1066,
+    "word": "chair",
+    "meaning": "a piece of furniture for sitting on",
+    "meanings": null,
+    "reading": "/tʃeər/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Home and Living",
+      "My Home"
+    ],
+    "examples": [
+      {
+        "sentence": "Two chairs are in the living room.",
+        "translation": "Two chairs are in the living room.",
+        "romaji": "/tuː tʃeərz ɑːr ɪn ðə ˈlɪvɪŋ ruːm/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1081,
+    "word": "chairs",
+    "meaning": "more than one chair",
+    "meanings": null,
+    "reading": "/tʃɛrz/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Home and Living",
+      "Many Things"
+    ],
+    "examples": [
+      {
+        "sentence": "There are many chairs in the living room.",
+        "translation": "There are many chairs in the living room.",
+        "romaji": "/ðɛr ɑr ˈmɛni tʃɛrz ɪn ðə ˈlɪvɪŋ ruːm/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1211,
+    "word": "change",
+    "meaning": "the money returned when payment is more than the price",
+    "meanings": null,
+    "reading": "/tʃeɪndʒ/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Simple Transaction Dialogues"
+    ],
+    "examples": [
+      {
+        "sentence": "Here you are. Your change is five euros.",
+        "translation": "Here you are. Your change is five euros.",
+        "romaji": "/hɪr ju ɑr jɔr tʃeɪndʒ ɪz faɪv ˈjʊroʊz/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1150,
+    "word": "cheese",
+    "meaning": "a food made from milk",
+    "meanings": null,
+    "reading": "/tʃiːz/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Food and Drink",
+      "Asking and Answering About Food"
+    ],
+    "examples": [
+      {
+        "sentence": "Yes, I do. I like cheese on the table.",
+        "translation": "Yes, I do. I like cheese on the table.",
+        "romaji": "/jes aɪ duː aɪ laɪk tʃiːz ɒn ðə ˈteɪ.bəl/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1155,
+    "word": "chicken",
+    "meaning": "a type of meat from a bird",
+    "meanings": null,
+    "reading": "/ˈtʃɪkɪn/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Food and Drink",
+      "Quantifiers and Ordering Basics"
+    ],
+    "examples": [
+      {
+        "sentence": "I have some chicken for dinner.",
+        "translation": "I have some chicken for dinner.",
+        "romaji": "/aɪ hæv sʌm ˈtʃɪkɪn fɔr ˈdɪnər/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1046,
+    "word": "children",
+    "meaning": "more than one child (sons and daughters)",
+    "meanings": null,
+    "reading": "/ˈtʃɪldrən/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Self and Family",
+      "Talking About Family Members' Characteristics"
+    ],
+    "examples": [
+      {
+        "sentence": "The children are happy.",
+        "translation": "The children are happy.",
+        "romaji": "/ðə ˈtʃɪldrən ɑr ˈhæpi/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1152,
+    "word": "chocolate",
+    "meaning": "a sweet brown food",
+    "meanings": null,
+    "reading": "/ˈtʃɒk.lət/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Food and Drink",
+      "Asking and Answering About Food"
+    ],
+    "examples": [
+      {
+        "sentence": "No, I don't. I don't like chocolate in my room.",
+        "translation": "No, I don't. I don't like chocolate in my room.",
+        "romaji": "/nəʊ aɪ dəʊnt aɪ dəʊnt laɪk ˈtʃɒk.lət ɪn maɪ ruːm/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1091,
+    "word": "clean",
+    "meaning": "not dirty",
+    "meanings": null,
+    "reading": "/kliːn/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "Home and Living",
+      "Describe Your Home"
+    ],
+    "examples": [
+      {
+        "sentence": "My home is big and clean.",
+        "translation": "My home is big and clean.",
+        "romaji": "/maɪ hoʊm ɪz bɪɡ ænd kliːn/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1170,
+    "word": "clothes shop",
+    "meaning": "a store that sells clothing",
+    "meanings": null,
+    "reading": "/kləʊðz ʃɒp/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Shopping Places and Items"
+    ],
+    "examples": [
+      {
+        "sentence": "The clothes shop has shirts.",
+        "translation": "The clothes shop has shirts.",
+        "romaji": "/ðə kləʊðz ʃɒp hæz ʃɜːts/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1136,
+    "word": "coffee",
+    "meaning": "hot drink made from coffee beans",
+    "meanings": null,
+    "reading": "/ˈkɑː.fi/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Food and Drink",
+      "Food and Drink Basics"
+    ],
+    "examples": [
+      {
+        "sentence": "She has coffee in the morning.",
+        "translation": "She drinks coffee in the morning.",
+        "romaji": "/ʃi hæz ˈkɑː.fi ɪn ðə ˈmɔːr.nɪŋ/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1105,
+    "word": "cook dinner",
+    "meaning": "to prepare the evening meal",
+    "meanings": null,
+    "reading": "/kʊk ˈdɪnər/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb phrase",
+    "tags": [
+      "Daily Routine",
+      "Talking About Others' Routines"
+    ],
+    "examples": [
+      {
+        "sentence": "She cooks dinner at three.",
+        "translation": "She cooks dinner at three.",
+        "romaji": "/ʃiː kʊks ˈdɪnər æt θriː/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1154,
+    "word": "cookie",
+    "meaning": "a small sweet baked food",
+    "meanings": null,
+    "reading": "/ˈkʊk.i/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Food and Drink",
+      "Asking and Answering About Food"
+    ],
+    "examples": [
+      {
+        "sentence": "Yes, I do. I like cookies on the chairs.",
+        "translation": "Yes, I do. I like cookies on the chairs.",
+        "romaji": "/jes aɪ duː aɪ laɪk ˈkʊk.iz ɒn ðə tʃeəz/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1198,
+    "word": "cost",
+    "meaning": "the price of something",
+    "meanings": null,
+    "reading": "/kɔːst/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb/noun",
+    "tags": [
+      "Shopping Basics",
+      "Numbers and Prices"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1031,
+    "word": "daughter",
+    "meaning": "a female child",
+    "meanings": null,
+    "reading": "daw-tur",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Self and Family",
+      "Describing Family with Possessive Adjectives"
+    ],
+    "examples": [
+      {
+        "sentence": "She is my daughter.",
+        "translation": "She is my daughter.",
+        "romaji": "She is my daw-tur."
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1088,
+    "word": "describe",
+    "meaning": "to say what something is like",
+    "meanings": null,
+    "reading": "/dɪˈskraɪb/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "Home and Living",
+      "Describe Your Home"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1139,
+    "word": "dinner",
+    "meaning": "main meal of the day, usually eaten in the evening",
+    "meanings": null,
+    "reading": "/ˈdɪn.ɚ/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Food and Drink",
+      "Food and Drink Basics"
+    ],
+    "examples": [
+      {
+        "sentence": "You have water with your dinner.",
+        "translation": "You drink water with your dinner.",
+        "romaji": "/ju hæv ˈwɔː.t̬ɚ wɪð jɔːr ˈdɪn.ɚ/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1120,
+    "word": "doesn't",
+    "meaning": "does not (used with he, she, it)",
+    "meanings": null,
+    "reading": "/ˈdʌzənt/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "contraction",
+    "tags": [
+      "Daily Routine",
+      "Negation and Possessive Adjectives"
+    ],
+    "examples": [
+      {
+        "sentence": "She doesn't go to work at 7 o'clock.",
+        "translation": "She does not go to work at 7 o'clock.",
+        "romaji": "/ʃi ˈdʌzənt ɡoʊ tu wɜːrk æt ˈsevən əˈklɒk/"
+      },
+      {
+        "sentence": "Her brother doesn't play games after that.",
+        "translation": "Her brother does not play games after that.",
+        "romaji": "/hɜːr ˈbrʌðər ˈdʌzənt pleɪ ɡeɪmz ˈæftər ðæt/"
+      },
+      {
+        "sentence": "He always goes home, but he doesn't watch TV finally.",
+        "translation": "He always goes home, but he does not watch TV finally.",
+        "romaji": "/hi ˈɔːlweɪz ɡoʊz hoʊm, bət hi ˈdʌzənt wɒtʃ ˌtiː ˈviː ˈfaɪnəli/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1196,
+    "word": "dollar",
+    "meaning": "currency used in the US and other countries",
+    "meanings": null,
+    "reading": "/ˈdɑː.lɚ/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Numbers and Prices"
+    ],
+    "examples": [
+      {
+        "sentence": "The price is fifteen dollars.",
+        "translation": "The cost is fifteen dollars.",
+        "romaji": "/ðə praɪs ɪz ˌfɪfˈtiːn ˈdɑː.lɚz/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1119,
+    "word": "don't",
+    "meaning": "do not (used with I, you, we, they)",
+    "meanings": null,
+    "reading": "/doʊnt/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "contraction",
+    "tags": [
+      "Daily Routine",
+      "Negation and Possessive Adjectives"
+    ],
+    "examples": [
+      {
+        "sentence": "I don't eat breakfast in the kitchen.",
+        "translation": "I do not eat breakfast in the kitchen.",
+        "romaji": "/aɪ doʊnt iːt ˈbrekfəst ɪn ðə ˈkɪtʃən/"
+      },
+      {
+        "sentence": "First, I take a shower, but I don't brush my teeth in the bathroom.",
+        "translation": "First, I take a shower, but I do not brush my teeth in the bathroom.",
+        "romaji": "/fɜːrst, aɪ teɪk ə ˈʃaʊər, bət aɪ doʊnt brʌʃ maɪ tiːθ ɪn ðə ˈbæθruːm/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1129,
+    "word": "don't",
+    "meaning": "do not",
+    "meanings": null,
+    "reading": "/doʊnt/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "contraction",
+    "tags": [
+      "Daily Routine",
+      "Review and Practice: My Daily Routine"
+    ],
+    "examples": [
+      {
+        "sentence": "He doesn't watch TV in the evening; he reads a book.",
+        "translation": "He doesn't watch TV in the evening; he reads a book.",
+        "romaji": "/hiː ˈdʌzənt wɒtʃ ˌtiːˈviː ɪn ði ˈiːvnɪŋ; hiː riːdz ə bʊk/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1148,
+    "word": "don't like",
+    "meaning": "to not enjoy or have a negative feeling towards something",
+    "meanings": null,
+    "reading": "/doʊnt laɪk/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb phrase",
+    "tags": [
+      "Food and Drink",
+      "Expressing Likes and Dislikes"
+    ],
+    "examples": [
+      {
+        "sentence": "I don't like tomatoes.",
+        "translation": "I do not enjoy eating tomatoes.",
+        "romaji": "/aɪ doʊnt laɪk təˈmeɪtoʊz/"
+      },
+      {
+        "sentence": "I don't like soda there.",
+        "translation": "I do not enjoy drinking soda in that place.",
+        "romaji": "/aɪ doʊnt laɪk ˈsoʊdə ðer/"
+      },
+      {
+        "sentence": "I don't like coffee.",
+        "translation": "I do not enjoy drinking coffee.",
+        "romaji": "/aɪ doʊnt laɪk ˈkɔːfi/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1166,
+    "word": "drink",
+    "meaning": "a liquid that you can swallow",
+    "meanings": null,
+    "reading": "/drɪŋk/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Food and Drink",
+      "Review and Practice"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1094,
+    "word": "eat breakfast",
+    "meaning": "to have the morning meal",
+    "meanings": null,
+    "reading": "/iːt ˈbrekfəst/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb phrase",
+    "tags": [
+      "Daily Routine",
+      "Introduction to Daily Activities"
+    ],
+    "examples": [
+      {
+        "sentence": "I eat breakfast in the kitchen.",
+        "translation": "I have the morning meal in the kitchen.",
+        "romaji": "/aɪ iːt ˈbrekfəst ɪn ðə ˈkɪtʃən/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1151,
+    "word": "egg",
+    "meaning": "an oval object from birds, used as food",
+    "meanings": null,
+    "reading": "/eɡ/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Food and Drink",
+      "Asking and Answering About Food"
+    ],
+    "examples": [
+      {
+        "sentence": "Do you like eggs?",
+        "translation": "Do you like eggs?",
+        "romaji": "/duː juː laɪk eɡz/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1056,
+    "word": "eight",
+    "meaning": "the number 8",
+    "meanings": null,
+    "reading": "/eɪt/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun/adjective",
+    "tags": [
+      "Self and Family",
+      "Review and Practice: My Family Story"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1182,
+    "word": "eight",
+    "meaning": "the number 8",
+    "meanings": null,
+    "reading": "/eɪt/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Numbers and Prices"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1192,
+    "word": "eighteen",
+    "meaning": "the number 18",
+    "meanings": null,
+    "reading": "/ˌeɪˈtiːn/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Numbers and Prices"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1185,
+    "word": "eleven",
+    "meaning": "the number 11",
+    "meanings": null,
+    "reading": "/ɪˈlev.ən/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Numbers and Prices"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1195,
+    "word": "euro",
+    "meaning": "currency used in many European countries",
+    "meanings": null,
+    "reading": "/ˈjʊr.oʊ/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Numbers and Prices"
+    ],
+    "examples": [
+      {
+        "sentence": "The apple is two euros.",
+        "translation": "The apple costs two euros.",
+        "romaji": "/ði ˈæp.əl ɪz tuː ˈjʊr.oʊz/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1042,
+    "word": "family",
+    "meaning": "a group of people related by blood or marriage",
+    "meanings": null,
+    "reading": "/ˈfæməli/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Self and Family",
+      "Asking and Answering About Family"
+    ],
+    "examples": [
+      {
+        "sentence": "Who is your mother?",
+        "translation": "Who is your mother?",
+        "romaji": "/huː ɪz jɔːr ˈmʌðər/"
+      },
+      {
+        "sentence": "Who is her brother?",
+        "translation": "Who is her brother?",
+        "romaji": "/huː ɪz hɜːr ˈbrʌðər/"
+      },
+      {
+        "sentence": "Who is my sister?",
+        "translation": "Who is my sister?",
+        "romaji": "/huː ɪz maɪ ˈsɪstər/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1021,
+    "word": "father",
+    "meaning": "male parent",
+    "meanings": null,
+    "reading": "/ˈfɑːðər/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Self and Family",
+      "Introducing Myself and Family"
+    ],
+    "examples": [
+      {
+        "sentence": "He is my father.",
+        "translation": "He is my father.",
+        "romaji": "/hiː ɪz maɪ ˈfɑːðər/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1189,
+    "word": "fifteen",
+    "meaning": "the number 15",
+    "meanings": null,
+    "reading": "/ˌfɪfˈtiːn/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Numbers and Prices"
+    ],
+    "examples": [
+      {
+        "sentence": "The price is fifteen dollars.",
+        "translation": "The cost is fifteen dollars.",
+        "romaji": "/ðə praɪs ɪz ˌfɪfˈtiːn ˈdɑː.lɚz/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1116,
+    "word": "finally",
+    "meaning": "at the end; last",
+    "meanings": null,
+    "reading": "/ˈfaɪnəli/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [
+      "Daily Routine",
+      "Describing Full Routines"
+    ],
+    "examples": [
+      {
+        "sentence": "First, I wake up at nine o'clock. Then, I eat breakfast. After that, I go to school. Finally, I go home at ten o'clock.",
+        "translation": "First, I wake up at nine o'clock. Then, I eat breakfast. After that, I go to school. Finally, I go home at ten o'clock.",
+        "romaji": "/fɜːrst, aɪ weɪk ʌp æt naɪn ə'klɒk. ðen, aɪ iːt 'brekfəst. 'æftər ðæt, aɪ ɡoʊ tə skuːl. 'faɪnəli, aɪ ɡoʊ hoʊm æt ten ə'klɒk./"
+      },
+      {
+        "sentence": "First, he gets up. Then, he has lunch. After that, he reads a book. Finally, he goes to bed.",
+        "translation": "First, he gets up. Then, he has lunch. After that, he reads a book. Finally, he goes to bed.",
+        "romaji": "/fɜːrst, hi ɡets ʌp. ðen, hi hæz lʌntʃ. 'æftər ðæt, hi riːdz ə bʊk. 'faɪnəli, hi ɡoʊz tə bed./"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1016,
+    "word": "fine",
+    "meaning": "good, okay, well",
+    "meanings": null,
+    "reading": "/faɪn/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "Greetings and Introductions",
+      "Asking and Answering Simple Questions"
+    ],
+    "examples": [
+      {
+        "sentence": "I am fine, thank you. And you?",
+        "translation": "I am fine, thank you. And you?",
+        "romaji": "/aɪ æm faɪn, θæŋk juː. ænd juː/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1113,
+    "word": "first",
+    "meaning": "at the beginning; before anything else",
+    "meanings": null,
+    "reading": "/fɜːrst/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [
+      "Daily Routine",
+      "Describing Full Routines"
+    ],
+    "examples": [
+      {
+        "sentence": "First, I wake up at nine o'clock. Then, I eat breakfast. After that, I go to school. Finally, I go home at ten o'clock.",
+        "translation": "First, I wake up at nine o'clock. Then, I eat breakfast. After that, I go to school. Finally, I go home at ten o'clock.",
+        "romaji": "/fɜːrst, aɪ weɪk ʌp æt naɪn ə'klɒk. ðen, aɪ iːt 'brekfəst. 'æftər ðæt, aɪ ɡoʊ tə skuːl. 'faɪnəli, aɪ ɡoʊ hoʊm æt ten ə'klɒk./"
+      },
+      {
+        "sentence": "First, he gets up. Then, he has lunch. After that, he reads a book. Finally, he goes to bed.",
+        "translation": "First, he gets up. Then, he has lunch. After that, he reads a book. Finally, he goes to bed.",
+        "romaji": "/fɜːrst, hi ɡets ʌp. ðen, hi hæz lʌntʃ. 'æftər ðæt, hi riːdz ə bʊk. 'faɪnəli, hi ɡoʊz tə bed./"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1128,
+    "word": "first",
+    "meaning": "before anything else",
+    "meanings": null,
+    "reading": "/fɜːrst/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [
+      "Daily Routine",
+      "Review and Practice: My Daily Routine"
+    ],
+    "examples": [
+      {
+        "sentence": "She brushes her teeth first, then she eats breakfast.",
+        "translation": "She brushes her teeth first, then she eats breakfast.",
+        "romaji": "/ʃiː ˈbrʌʃɪz hɜːr tiːθ fɜːrst, ðen ʃiː iːts ˈbrekfəst/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1156,
+    "word": "fish",
+    "meaning": "an animal that lives in water, eaten as food",
+    "meanings": null,
+    "reading": "/fɪʃ/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Food and Drink",
+      "Quantifiers and Ordering Basics"
+    ],
+    "examples": [
+      {
+        "sentence": "Do you have any fish?",
+        "translation": "Do you have any fish?",
+        "romaji": "/du ju hæv ˈɛni fɪʃ/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1053,
+    "word": "five",
+    "meaning": "the number 5",
+    "meanings": null,
+    "reading": "/faɪv/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun/adjective",
+    "tags": [
+      "Self and Family",
+      "Review and Practice: My Family Story"
+    ],
+    "examples": [
+      {
+        "sentence": "We are a family of five.",
+        "translation": "We are a family of five.",
+        "romaji": "/wiː ɑːr ə ˈfæməli əv faɪv/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1179,
+    "word": "five",
+    "meaning": "the number 5",
+    "meanings": null,
+    "reading": "/faɪv/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Numbers and Prices"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1052,
+    "word": "four",
+    "meaning": "the number 4",
+    "meanings": null,
+    "reading": "/fɔːr/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun/adjective",
+    "tags": [
+      "Self and Family",
+      "Review and Practice: My Family Story"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1178,
+    "word": "four",
+    "meaning": "the number 4",
+    "meanings": null,
+    "reading": "/fɔːr/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Numbers and Prices"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1188,
+    "word": "fourteen",
+    "meaning": "the number 14",
+    "meanings": null,
+    "reading": "/ˌfɔːrˈtiːn/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Numbers and Prices"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1003,
+    "word": "friend",
+    "meaning": "a person you like and trust",
+    "meanings": null,
+    "reading": "/frend/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Greetings and Introductions",
+      "Introducing Yourself"
+    ],
+    "examples": [
+      {
+        "sentence": "You are my friend.",
+        "translation": "You are my friend.",
+        "romaji": "/juː ɑːr maɪ frend/"
+      },
+      {
+        "sentence": "I am your friend.",
+        "translation": "I am your friend.",
+        "romaji": "/aɪ æm jɔːr frend/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1093,
+    "word": "get up",
+    "meaning": "to leave your bed",
+    "meanings": null,
+    "reading": "/ɡet ʌp/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb phrase",
+    "tags": [
+      "Daily Routine",
+      "Introduction to Daily Activities"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1097,
+    "word": "go home",
+    "meaning": "to return to your house",
+    "meanings": null,
+    "reading": "/ɡoʊ hoʊm/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb phrase",
+    "tags": [
+      "Daily Routine",
+      "Introduction to Daily Activities"
+    ],
+    "examples": [
+      {
+        "sentence": "I go home and watch TV.",
+        "translation": "I return to my house and look at television programs.",
+        "romaji": "/aɪ ɡoʊ hoʊm ænd wɒtʃ ˌtiː ˈviː/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1099,
+    "word": "go to bed",
+    "meaning": "to get into bed to sleep",
+    "meanings": null,
+    "reading": "/ɡoʊ tu bed/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb phrase",
+    "tags": [
+      "Daily Routine",
+      "Introduction to Daily Activities"
+    ],
+    "examples": [
+      {
+        "sentence": "My bed is small, but I go to bed at 10:00.",
+        "translation": "My bed is not large, but I get into bed to sleep at 10:00.",
+        "romaji": "/maɪ bed ɪz smɔːl, bʌt aɪ ɡoʊ tu bed æt ten/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1096,
+    "word": "go to school",
+    "meaning": "to travel to a place of education",
+    "meanings": null,
+    "reading": "/ɡoʊ tu skuːl/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb phrase",
+    "tags": [
+      "Daily Routine",
+      "Introduction to Daily Activities"
+    ],
+    "examples": [
+      {
+        "sentence": "The children go to school at 8:00.",
+        "translation": "The children travel to a place of education at 8:00.",
+        "romaji": "/ðə ˈtʃɪldrən ɡoʊ tu skuːl æt eɪt/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1095,
+    "word": "go to work",
+    "meaning": "to travel to your job",
+    "meanings": null,
+    "reading": "/ɡoʊ tu wɜːrk/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb phrase",
+    "tags": [
+      "Daily Routine",
+      "Introduction to Daily Activities"
+    ],
+    "examples": [
+      {
+        "sentence": "My parents go to work early.",
+        "translation": "My parents travel to their jobs early.",
+        "romaji": "/maɪ ˈperənts ɡoʊ tu wɜːrk ˈɜːrli/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1125,
+    "word": "go to work",
+    "meaning": "to travel to your job",
+    "meanings": null,
+    "reading": "/ɡoʊ tu wɜːrk/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb phrase",
+    "tags": [
+      "Daily Routine",
+      "Review and Practice: My Daily Routine"
+    ],
+    "examples": [
+      {
+        "sentence": "I go to work at 8 o'clock in the morning.",
+        "translation": "I go to work at 8 o'clock in the morning.",
+        "romaji": "/aɪ ɡoʊ tu wɜːrk æt eɪt əˈklɒk ɪn ðə ˈmɔːrnɪŋ/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 995,
+    "word": "good afternoon",
+    "meaning": "greeting used in the afternoon",
+    "meanings": null,
+    "reading": "/ɡʊd ˌæftərˈnuːn/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "phrase",
+    "tags": [
+      "Greetings and Introductions",
+      "Hello and Goodbye"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 996,
+    "word": "good evening",
+    "meaning": "greeting used in the evening",
+    "meanings": null,
+    "reading": "/ɡʊd ˈiːvnɪŋ/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "phrase",
+    "tags": [
+      "Greetings and Introductions",
+      "Hello and Goodbye"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 994,
+    "word": "good morning",
+    "meaning": "greeting used in the morning",
+    "meanings": null,
+    "reading": "/ɡʊd ˈmɔːrnɪŋ/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "phrase",
+    "tags": [
+      "Greetings and Introductions",
+      "Hello and Goodbye"
+    ],
+    "examples": [
+      {
+        "sentence": "Good morning, class.",
+        "translation": "Good morning, class.",
+        "romaji": "/ɡʊd ˈmɔːrnɪŋ, klæs/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 997,
+    "word": "good night",
+    "meaning": "farewell used at night or before sleep",
+    "meanings": null,
+    "reading": "/ɡʊd naɪt/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "phrase",
+    "tags": [
+      "Greetings and Introductions",
+      "Hello and Goodbye"
+    ],
+    "examples": [
+      {
+        "sentence": "Good night, Mom.",
+        "translation": "Good night, Mom.",
+        "romaji": "/ɡʊd naɪt, mɒm/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 992,
+    "word": "goodbye",
+    "meaning": "a farewell when leaving",
+    "meanings": null,
+    "reading": "/ɡʊdˈbaɪ/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "interjection",
+    "tags": [
+      "Greetings and Introductions",
+      "Hello and Goodbye"
+    ],
+    "examples": [
+      {
+        "sentence": "Goodbye, see you later.",
+        "translation": "Goodbye, see you later.",
+        "romaji": "/ɡʊdˈbaɪ, siː juː ˈleɪtər/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1029,
+    "word": "grandfather",
+    "meaning": "the father of your father or mother",
+    "meanings": null,
+    "reading": "gran-fah-thur",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Self and Family",
+      "Describing Family with Possessive Adjectives"
+    ],
+    "examples": [
+      {
+        "sentence": "My grandfather is your friend.",
+        "translation": "My grandfather is your friend.",
+        "romaji": "My gran-fah-thur is your frend."
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1028,
+    "word": "grandmother",
+    "meaning": "the mother of your father or mother",
+    "meanings": null,
+    "reading": "gran-muh-thur",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Self and Family",
+      "Describing Family with Possessive Adjectives"
+    ],
+    "examples": [
+      {
+        "sentence": "This is my grandmother.",
+        "translation": "This is my grandmother.",
+        "romaji": "This is my gran-muh-thur."
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1040,
+    "word": "happy",
+    "meaning": "feeling or showing pleasure or contentment",
+    "meanings": null,
+    "reading": "/ˈhæpi/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "Self and Family",
+      "Asking and Answering About Family"
+    ],
+    "examples": [
+      {
+        "sentence": "My sister is happy.",
+        "translation": "My sister is happy.",
+        "romaji": "/maɪ ˈsɪstər ɪz ˈhæpi/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1140,
+    "word": "have",
+    "meaning": "to eat or drink something",
+    "meanings": null,
+    "reading": "/hæv/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "Food and Drink",
+      "Food and Drink Basics"
+    ],
+    "examples": [
+      {
+        "sentence": "I have an apple for breakfast.",
+        "translation": "I eat an apple for breakfast.",
+        "romaji": "/aɪ hæv ən ˈæp.əl fɔːr ˈbrek.fəst/"
+      },
+      {
+        "sentence": "She has coffee in the morning.",
+        "translation": "She drinks coffee in the morning.",
+        "romaji": "/ʃi hæz ˈkɑː.fi ɪn ðə ˈmɔːr.nɪŋ/"
+      },
+      {
+        "sentence": "We don't have milk.",
+        "translation": "We do not have milk.",
+        "romaji": "/wi doʊnt hæv mɪlk/"
+      },
+      {
+        "sentence": "He doesn't have lunch at 12 o'clock.",
+        "translation": "He does not eat lunch at 12 o'clock.",
+        "romaji": "/hi ˈdʌz.ənt hæv lʌntʃ æt twɛlv əˈklɑːk/"
+      },
+      {
+        "sentence": "You have water with your dinner.",
+        "translation": "You drink water with your dinner.",
+        "romaji": "/ju hæv ˈwɔː.t̬ɚ wɪð jɔːr ˈdɪn.ɚ/"
+      },
+      {
+        "sentence": "They have bananas and oranges.",
+        "translation": "They eat bananas and oranges.",
+        "romaji": "/ðeɪ hæv bəˈnæn.əz ənd ˈɔːr.ɪndʒ.ɪz/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1102,
+    "word": "have lunch",
+    "meaning": "to eat the midday meal",
+    "meanings": null,
+    "reading": "/hæv lʌntʃ/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb phrase",
+    "tags": [
+      "Daily Routine",
+      "Talking About Others' Routines"
+    ],
+    "examples": [
+      {
+        "sentence": "He has lunch at two o'clock.",
+        "translation": "He has lunch at two o'clock.",
+        "romaji": "/hiː hæz lʌntʃ æt tuː əˈklɒk/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1005,
+    "word": "he",
+    "meaning": "male person",
+    "meanings": null,
+    "reading": "/hiː/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "pronoun",
+    "tags": [
+      "Greetings and Introductions",
+      "Introducing Others"
+    ],
+    "examples": [
+      {
+        "sentence": "He is her teacher.",
+        "translation": "He is her teacher.",
+        "romaji": "/hiː ɪz hɜːr ˈtiːtʃər/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1026,
+    "word": "he",
+    "meaning": "third person singular masculine pronoun",
+    "meanings": null,
+    "reading": "/hiː/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "pronoun",
+    "tags": [
+      "Self and Family",
+      "Introducing Myself and Family"
+    ],
+    "examples": [
+      {
+        "sentence": "He is my father.",
+        "translation": "He is my father.",
+        "romaji": "/hiː ɪz maɪ ˈfɑːðər/"
+      },
+      {
+        "sentence": "He is not my friend.",
+        "translation": "He is not my friend.",
+        "romaji": "/hiː ɪz nɒt maɪ frend/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 990,
+    "word": "hello",
+    "meaning": "a greeting used when meeting someone",
+    "meanings": null,
+    "reading": "/həˈloʊ/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "interjection",
+    "tags": [
+      "Greetings and Introductions",
+      "Hello and Goodbye"
+    ],
+    "examples": [
+      {
+        "sentence": "Hello, Anna.",
+        "translation": "Hello, Anna.",
+        "romaji": "/həˈloʊ, ˈænə/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1009,
+    "word": "her",
+    "meaning": "belonging to a female",
+    "meanings": null,
+    "reading": "/hɜːr/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "pronoun",
+    "tags": [
+      "Greetings and Introductions",
+      "Introducing Others"
+    ],
+    "examples": [
+      {
+        "sentence": "He is her teacher.",
+        "translation": "He is her teacher.",
+        "romaji": "/hiː ɪz hɜːr ˈtiːtʃər/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1037,
+    "word": "her",
+    "meaning": "belonging to her",
+    "meanings": null,
+    "reading": "hur",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "possessive adjective",
+    "tags": [
+      "Self and Family",
+      "Describing Family with Possessive Adjectives"
+    ],
+    "examples": [
+      {
+        "sentence": "Her son is a student.",
+        "translation": "Her son is a student.",
+        "romaji": "Her suhn is a stoo-dent."
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1124,
+    "word": "her",
+    "meaning": "belonging to her",
+    "meanings": null,
+    "reading": "/hɜːr/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "possessive adjective",
+    "tags": [
+      "Daily Routine",
+      "Negation and Possessive Adjectives"
+    ],
+    "examples": [
+      {
+        "sentence": "Her brother doesn't play games after that.",
+        "translation": "Her brother does not play games after that.",
+        "romaji": "/hɜːr ˈbrʌðər ˈdʌzənt pleɪ ɡeɪmz ˈæftər ðæt/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1074,
+    "word": "here",
+    "meaning": "in this place",
+    "meanings": null,
+    "reading": "/hɪər/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [
+      "Home and Living",
+      "Where Is It?"
+    ],
+    "examples": [
+      {
+        "sentence": "Here is the living room. There is the bathroom.",
+        "translation": "Here is the living room. There is the bathroom.",
+        "romaji": "/hɪər ɪz ðə ˈlɪvɪŋ ruːm. ðeər ɪz ðə ˈbɑːθruːm/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1210,
+    "word": "here you are",
+    "meaning": "a polite phrase used when giving something to someone",
+    "meanings": null,
+    "reading": "/hɪr ju ɑr/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "phrase",
+    "tags": [
+      "Shopping Basics",
+      "Simple Transaction Dialogues"
+    ],
+    "examples": [
+      {
+        "sentence": "Here you are. Your change is five euros.",
+        "translation": "Here you are. Your change is five euros.",
+        "romaji": "/hɪr ju ɑr jɔr tʃeɪndʒ ɪz faɪv ˈjʊroʊz/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 991,
+    "word": "hi",
+    "meaning": "a casual greeting",
+    "meanings": null,
+    "reading": "/haɪ/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "interjection",
+    "tags": [
+      "Greetings and Introductions",
+      "Hello and Goodbye"
+    ],
+    "examples": [
+      {
+        "sentence": "Hi, I am Tom.",
+        "translation": "Hi, I am Tom.",
+        "romaji": "/haɪ, aɪ æm tɒm/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1008,
+    "word": "his",
+    "meaning": "belonging to a male",
+    "meanings": null,
+    "reading": "/hɪz/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "pronoun",
+    "tags": [
+      "Greetings and Introductions",
+      "Introducing Others"
+    ],
+    "examples": [
+      {
+        "sentence": "Good morning. This is his friend.",
+        "translation": "Good morning. This is his friend.",
+        "romaji": "/ɡʊd ˈmɔːrnɪŋ. ðɪs ɪz hɪz frend/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1036,
+    "word": "his",
+    "meaning": "belonging to him",
+    "meanings": null,
+    "reading": "hiz",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "possessive adjective",
+    "tags": [
+      "Self and Family",
+      "Describing Family with Possessive Adjectives"
+    ],
+    "examples": [
+      {
+        "sentence": "His sister is short.",
+        "translation": "His sister is short.",
+        "romaji": "His sis-tur is short."
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1123,
+    "word": "his",
+    "meaning": "belonging to him",
+    "meanings": null,
+    "reading": "/hɪz/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "possessive adjective",
+    "tags": [
+      "Daily Routine",
+      "Negation and Possessive Adjectives"
+    ],
+    "examples": [
+      {
+        "sentence": "His sister usually reads a book in the evening.",
+        "translation": "His sister usually reads a book in the evening.",
+        "romaji": "/hɪz ˈsɪstər ˈjuːʒuəli riːdz ə bʊk ɪn ðə ˈiːvnɪŋ/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1087,
+    "word": "home",
+    "meaning": "the place where someone lives",
+    "meanings": null,
+    "reading": "/hoʊm/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Home and Living",
+      "Describe Your Home"
+    ],
+    "examples": [
+      {
+        "sentence": "My home is big and clean.",
+        "translation": "My home is big and clean.",
+        "romaji": "/maɪ hoʊm ɪz bɪɡ ænd kliːn/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1059,
+    "word": "house",
+    "meaning": "a building where people live",
+    "meanings": null,
+    "reading": "/haʊs/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Home and Living",
+      "My Home"
+    ],
+    "examples": [
+      {
+        "sentence": "This is my house.",
+        "translation": "This is my house.",
+        "romaji": "/ðɪs ɪz maɪ haʊs/"
+      },
+      {
+        "sentence": "Three beds are in the house.",
+        "translation": "Three beds are in the house.",
+        "romaji": "/θriː bedz ɑːr ɪn ðə haʊs/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1015,
+    "word": "how are you",
+    "meaning": "a common greeting asking about someone's well-being",
+    "meanings": null,
+    "reading": "/haʊ ɑː juː/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "phrase",
+    "tags": [
+      "Greetings and Introductions",
+      "Asking and Answering Simple Questions"
+    ],
+    "examples": [
+      {
+        "sentence": "How are you?",
+        "translation": "How are you?",
+        "romaji": "/haʊ ɑː juː/"
+      },
+      {
+        "sentence": "Good night. How are you?",
+        "translation": "Good night. How are you?",
+        "romaji": "/ɡʊd naɪt. haʊ ɑː juː/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1068,
+    "word": "in",
+    "meaning": "inside something",
+    "meanings": null,
+    "reading": "/ɪn/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "preposition",
+    "tags": [
+      "Home and Living",
+      "Where Is It?"
+    ],
+    "examples": [
+      {
+        "sentence": "My son is in the kitchen.",
+        "translation": "My son is in the kitchen.",
+        "romaji": "/maɪ sʌn ɪz ɪn ðə ˈkɪtʃɪn/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1107,
+    "word": "in the afternoon",
+    "meaning": "during the time from noon until evening",
+    "meanings": null,
+    "reading": "/ɪn ðə ˌæftərˈnuːn/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "phrase",
+    "tags": [
+      "Daily Routine",
+      "Time Expressions and Simple Questions"
+    ],
+    "examples": [
+      {
+        "sentence": "We have lunch in the afternoon.",
+        "translation": "We eat lunch during the afternoon.",
+        "romaji": "/wiː hæv lʌntʃ ɪn ðə ˌæftərˈnuːn/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1108,
+    "word": "in the evening",
+    "meaning": "during the late part of the day before night",
+    "meanings": null,
+    "reading": "/ɪn ðə ˈiːvnɪŋ/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "phrase",
+    "tags": [
+      "Daily Routine",
+      "Time Expressions and Simple Questions"
+    ],
+    "examples": [
+      {
+        "sentence": "He watches TV at home in the evening.",
+        "translation": "He watches TV at home during the evening.",
+        "romaji": "/hiː ˈwɒtʃɪz ˌtiːˈviː æt hoʊm ɪn ðə ˈiːvnɪŋ/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1106,
+    "word": "in the morning",
+    "meaning": "during the early part of the day",
+    "meanings": null,
+    "reading": "/ɪn ðə ˈmɔːrnɪŋ/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "phrase",
+    "tags": [
+      "Daily Routine",
+      "Time Expressions and Simple Questions"
+    ],
+    "examples": [
+      {
+        "sentence": "She goes to school in the morning.",
+        "translation": "She goes to school during the morning.",
+        "romaji": "/ʃiː ɡoʊz tuː skuːl ɪn ðə ˈmɔːrnɪŋ/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1127,
+    "word": "in the morning",
+    "meaning": "during the early part of the day",
+    "meanings": null,
+    "reading": "/ɪn ðə ˈmɔːrnɪŋ/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adverbial phrase",
+    "tags": [
+      "Daily Routine",
+      "Review and Practice: My Daily Routine"
+    ],
+    "examples": [
+      {
+        "sentence": "I go to work at 8 o'clock in the morning.",
+        "translation": "I go to work at 8 o'clock in the morning.",
+        "romaji": "/aɪ ɡoʊ tu wɜːrk æt eɪt əˈklɒk ɪn ðə ˈmɔːrnɪŋ/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1216,
+    "word": "interactive",
+    "meaning": "involving communication or action between people",
+    "meanings": null,
+    "reading": "/ˌɪntərˈæktɪv/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "Shopping Basics",
+      "Review and Role-Play"
+    ],
+    "examples": [
+      {
+        "sentence": "I usually buy bread at the store.",
+        "translation": "I usually buy bread at the store.",
+        "romaji": "/aɪ ˈjuːʒuəli baɪ bred æt ðə stɔːr/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1145,
+    "word": "juice",
+    "meaning": "liquid from fruits or vegetables",
+    "meanings": null,
+    "reading": "/dʒuːs/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Food and Drink",
+      "Expressing Likes and Dislikes"
+    ],
+    "examples": [
+      {
+        "sentence": "I like juice and milk.",
+        "translation": "I enjoy drinking juice and milk.",
+        "romaji": "/aɪ laɪk dʒuːs ənd mɪlk/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1061,
+    "word": "kitchen",
+    "meaning": "room for cooking and preparing food",
+    "meanings": null,
+    "reading": "/ˈkɪtʃɪn/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Home and Living",
+      "My Home"
+    ],
+    "examples": [
+      {
+        "sentence": "The kitchen is big.",
+        "translation": "The kitchen is big.",
+        "romaji": "/ðə ˈkɪtʃɪn ɪz bɪɡ/"
+      },
+      {
+        "sentence": "The table is in the kitchen.",
+        "translation": "The table is in the kitchen.",
+        "romaji": "/ðə ˈteɪbəl ɪz ɪn ðə ˈkɪtʃɪn/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1147,
+    "word": "like",
+    "meaning": "to enjoy or have a positive feeling towards something",
+    "meanings": null,
+    "reading": "/laɪk/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "Food and Drink",
+      "Expressing Likes and Dislikes"
+    ],
+    "examples": [
+      {
+        "sentence": "I like carrots.",
+        "translation": "I enjoy eating carrots.",
+        "romaji": "/aɪ laɪk ˈkærəts/"
+      },
+      {
+        "sentence": "I like tea here.",
+        "translation": "I enjoy drinking tea in this place.",
+        "romaji": "/aɪ laɪk tiː hɪr/"
+      },
+      {
+        "sentence": "I like juice and milk.",
+        "translation": "I enjoy drinking juice and milk.",
+        "romaji": "/aɪ laɪk dʒuːs ənd mɪlk/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1064,
+    "word": "living room",
+    "meaning": "room for relaxing and entertaining guests",
+    "meanings": null,
+    "reading": "/ˈlɪvɪŋ ruːm/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Home and Living",
+      "My Home"
+    ],
+    "examples": [
+      {
+        "sentence": "Two chairs are in the living room.",
+        "translation": "Two chairs are in the living room.",
+        "romaji": "/tuː tʃeərz ɑːr ɪn ðə ˈlɪvɪŋ ruːm/"
+      },
+      {
+        "sentence": "She is in the living room.",
+        "translation": "She is in the living room.",
+        "romaji": "/ʃiː ɪz ɪn ðə ˈlɪvɪŋ ruːm/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1138,
+    "word": "lunch",
+    "meaning": "meal eaten in the middle of the day",
+    "meanings": null,
+    "reading": "/lʌntʃ/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Food and Drink",
+      "Food and Drink Basics"
+    ],
+    "examples": [
+      {
+        "sentence": "He doesn't have lunch at 12 o'clock.",
+        "translation": "He does not eat lunch at 12 o'clock.",
+        "romaji": "/hi ˈdʌz.ənt hæv lʌntʃ æt twɛlv əˈklɑːk/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1086,
+    "word": "many",
+    "meaning": "a large number of",
+    "meanings": null,
+    "reading": "/ˈmɛni/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "Home and Living",
+      "Many Things"
+    ],
+    "examples": [
+      {
+        "sentence": "There are many chairs in the living room.",
+        "translation": "There are many chairs in the living room.",
+        "romaji": "/ðɛr ɑr ˈmɛni tʃɛrz ɪn ðə ˈlɪvɪŋ ruːm/"
+      },
+      {
+        "sentence": "What are the many things on the table?",
+        "translation": "What are the many things on the table?",
+        "romaji": "/wʌt ɑr ðə ˈmɛni θɪŋz ɒn ðə ˈteɪbəl/"
+      },
+      {
+        "sentence": "Who is happy in the many rooms?",
+        "translation": "Who is happy in the many rooms?",
+        "romaji": "/huː ɪz ˈhæpi ɪn ðə ˈmɛni ruːmz/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1164,
+    "word": "meal",
+    "meaning": "an occasion when food is eaten, or the food that is eaten on such an occasion",
+    "meanings": null,
+    "reading": "/miːl/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Food and Drink",
+      "Review and Practice"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1162,
+    "word": "menu",
+    "meaning": "a list of food and drinks available at a restaurant or cafe",
+    "meanings": null,
+    "reading": "/ˈmen.juː/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Food and Drink",
+      "Review and Practice"
+    ],
+    "examples": [
+      {
+        "sentence": "The restaurant menu has cake and cookies. I like to describe food.",
+        "translation": "The restaurant menu has cake and cookies. I like to describe food.",
+        "romaji": "/ðə ˈres.trɒnt ˈmen.juː hæz keɪk ænd ˈkʊk.iz aɪ laɪk tə dɪˈskraɪb fuːd/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1135,
+    "word": "milk",
+    "meaning": "white liquid from cows that you drink",
+    "meanings": null,
+    "reading": "/mɪlk/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Food and Drink",
+      "Food and Drink Basics"
+    ],
+    "examples": [
+      {
+        "sentence": "We don't have milk.",
+        "translation": "We do not have milk.",
+        "romaji": "/wi doʊnt hæv mɪlk/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1020,
+    "word": "mother",
+    "meaning": "female parent",
+    "meanings": null,
+    "reading": "/ˈmʌðər/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Self and Family",
+      "Introducing Myself and Family"
+    ],
+    "examples": [
+      {
+        "sentence": "She is my mother.",
+        "translation": "She is my mother.",
+        "romaji": "/ʃiː ɪz maɪ ˈmʌðər/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1001,
+    "word": "my",
+    "meaning": "belonging to me",
+    "meanings": null,
+    "reading": "/maɪ/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "pronoun",
+    "tags": [
+      "Greetings and Introductions",
+      "Introducing Yourself"
+    ],
+    "examples": [
+      {
+        "sentence": "Hi, my name is Tom.",
+        "translation": "Hi, my name is Tom.",
+        "romaji": "/haɪ, maɪ neɪm ɪz tɒm/"
+      },
+      {
+        "sentence": "You are my friend.",
+        "translation": "You are my friend.",
+        "romaji": "/juː ɑːr maɪ frend/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1034,
+    "word": "my",
+    "meaning": "belonging to me",
+    "meanings": null,
+    "reading": "my",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "possessive adjective",
+    "tags": [
+      "Self and Family",
+      "Describing Family with Possessive Adjectives"
+    ],
+    "examples": [
+      {
+        "sentence": "This is my grandmother.",
+        "translation": "This is my grandmother.",
+        "romaji": "This is my gran-muh-thur."
+      },
+      {
+        "sentence": "She is my daughter.",
+        "translation": "She is my daughter.",
+        "romaji": "She is my daw-tur."
+      },
+      {
+        "sentence": "My grandfather is your friend.",
+        "translation": "My grandfather is your friend.",
+        "romaji": "My gran-fah-thur is your frend."
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1121,
+    "word": "my",
+    "meaning": "belonging to me",
+    "meanings": null,
+    "reading": "/maɪ/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "possessive adjective",
+    "tags": [
+      "Daily Routine",
+      "Negation and Possessive Adjectives"
+    ],
+    "examples": [
+      {
+        "sentence": "My bedroom is small.",
+        "translation": "My bedroom is small.",
+        "romaji": "/maɪ ˈbedruːm ɪz smɔːl/"
+      },
+      {
+        "sentence": "First, I take a shower, but I don't brush my teeth in the bathroom.",
+        "translation": "First, I take a shower, but I do not brush my teeth in the bathroom.",
+        "romaji": "/fɜːrst, aɪ teɪk ə ˈʃaʊər, bət aɪ doʊnt brʌʃ maɪ tiːθ ɪn ðə ˈbæθruːm/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1130,
+    "word": "my",
+    "meaning": "belonging to me",
+    "meanings": null,
+    "reading": "/maɪ/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "possessive adjective",
+    "tags": [
+      "Daily Routine",
+      "Review and Practice: My Daily Routine"
+    ],
+    "examples": [
+      {
+        "sentence": "My bed is next to the table and chair.",
+        "translation": "My bed is next to the table and chair.",
+        "romaji": "/maɪ bed ɪz nekst tu ðə ˈteɪbəl ænd tʃer/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1205,
+    "word": "my",
+    "meaning": "belonging to me",
+    "meanings": null,
+    "reading": "/maɪ/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "possessive adjective",
+    "tags": [
+      "Shopping Basics",
+      "Asking for Items and Prices"
+    ],
+    "examples": [
+      {
+        "sentence": "How much is my apple?",
+        "translation": "How much is my apple?",
+        "romaji": "/haʊ mʌtʃ ɪz maɪ ˈæpəl/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1000,
+    "word": "name",
+    "meaning": "what someone is called",
+    "meanings": null,
+    "reading": "/neɪm/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Greetings and Introductions",
+      "Introducing Yourself"
+    ],
+    "examples": [
+      {
+        "sentence": "Hello, I am Anna.",
+        "translation": "Hello, I am Anna.",
+        "romaji": "/həˈloʊ, aɪ æm ˈænə/"
+      },
+      {
+        "sentence": "Hi, my name is Tom.",
+        "translation": "Hi, my name is Tom.",
+        "romaji": "/haɪ, maɪ neɪm ɪz tɒm/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1072,
+    "word": "next to",
+    "meaning": "beside or adjacent to something",
+    "meanings": null,
+    "reading": "/ˈnekst tuː/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "preposition",
+    "tags": [
+      "Home and Living",
+      "Where Is It?"
+    ],
+    "examples": [
+      {
+        "sentence": "Where is the chair? It is next to the bed.",
+        "translation": "Where is the chair? It is next to the bed.",
+        "romaji": "/weər ɪz ðə tʃeər? ɪt ɪz ˈnekst tuː ðə bed/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1057,
+    "word": "nine",
+    "meaning": "the number 9",
+    "meanings": null,
+    "reading": "/naɪn/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun/adjective",
+    "tags": [
+      "Self and Family",
+      "Review and Practice: My Family Story"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1183,
+    "word": "nine",
+    "meaning": "the number 9",
+    "meanings": null,
+    "reading": "/naɪn/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Numbers and Prices"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1193,
+    "word": "nineteen",
+    "meaning": "the number 19",
+    "meanings": null,
+    "reading": "/ˌnaɪnˈtiːn/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Numbers and Prices"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1019,
+    "word": "not",
+    "meaning": "used to make a negative statement",
+    "meanings": null,
+    "reading": "/nɒt/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [
+      "Greetings and Introductions",
+      "Asking and Answering Simple Questions"
+    ],
+    "examples": [
+      {
+        "sentence": "She is not my teacher.",
+        "translation": "She is not my teacher.",
+        "romaji": "/ʃiː ɪz nɒt maɪ ˈtiːtʃə/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1207,
+    "word": "not",
+    "meaning": "used to make a statement negative",
+    "meanings": null,
+    "reading": "/nɒt/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [
+      "Shopping Basics",
+      "Asking for Items and Prices"
+    ],
+    "examples": [
+      {
+        "sentence": "This is not your bread.",
+        "translation": "This is not your bread.",
+        "romaji": "/ðɪs ɪz nɒt jɔːr bred/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1048,
+    "word": "old",
+    "meaning": "having lived for a long time",
+    "meanings": null,
+    "reading": "/oʊld/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "Self and Family",
+      "Talking About Family Members' Characteristics"
+    ],
+    "examples": [
+      {
+        "sentence": "My parents are old.",
+        "translation": "My parents are old.",
+        "romaji": "/maɪ ˈpɛrənts ɑr oʊld/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1069,
+    "word": "on",
+    "meaning": "on top of or attached to a surface",
+    "meanings": null,
+    "reading": "/ɒn/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "preposition",
+    "tags": [
+      "Home and Living",
+      "Where Is It?"
+    ],
+    "examples": [
+      {
+        "sentence": "The book is on the table.",
+        "translation": "The book is on the table.",
+        "romaji": "/ðə bʊk ɪz ɒn ðə ˈteɪbəl/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1049,
+    "word": "one",
+    "meaning": "the number 1",
+    "meanings": null,
+    "reading": "/wʌn/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun/adjective",
+    "tags": [
+      "Self and Family",
+      "Review and Practice: My Family Story"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1175,
+    "word": "one",
+    "meaning": "the number 1",
+    "meanings": null,
+    "reading": "/wʌn/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Numbers and Prices"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1133,
+    "word": "orange",
+    "meaning": "a round citrus fruit with thick orange skin and juicy segments",
+    "meanings": null,
+    "reading": "/ˈɔːr.ɪndʒ/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Food and Drink",
+      "Food and Drink Basics"
+    ],
+    "examples": [
+      {
+        "sentence": "They have bananas and oranges.",
+        "translation": "They eat bananas and oranges.",
+        "romaji": "/ðeɪ hæv bəˈnæn.əz ənd ˈɔːr.ɪndʒ.ɪz/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1165,
+    "word": "order",
+    "meaning": "to ask for food or drinks in a restaurant",
+    "meanings": null,
+    "reading": "/ˈɔː.dər/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "Food and Drink",
+      "Review and Practice"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1045,
+    "word": "parents",
+    "meaning": "mother and father",
+    "meanings": null,
+    "reading": "/ˈpɛrənts/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Self and Family",
+      "Talking About Family Members' Characteristics"
+    ],
+    "examples": [
+      {
+        "sentence": "My parents are old.",
+        "translation": "My parents are old.",
+        "romaji": "/maɪ ˈpɛrənts ɑr oʊld/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1104,
+    "word": "play games",
+    "meaning": "to engage in activities for fun or competition",
+    "meanings": null,
+    "reading": "/pleɪ ɡeɪmz/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb phrase",
+    "tags": [
+      "Daily Routine",
+      "Talking About Others' Routines"
+    ],
+    "examples": [
+      {
+        "sentence": "He plays games after school.",
+        "translation": "He plays games after school.",
+        "romaji": "/hiː pleɪz ɡeɪmz ˈæftər skuːl/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1203,
+    "word": "please",
+    "meaning": "used to make a request polite",
+    "meanings": null,
+    "reading": "/pliːz/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [
+      "Shopping Basics",
+      "Asking for Items and Prices"
+    ],
+    "examples": [
+      {
+        "sentence": "I want this book, please.",
+        "translation": "I want this book, please.",
+        "romaji": "/aɪ wɒnt ðɪs bʊk, pliːz/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1143,
+    "word": "potato",
+    "meaning": "a starchy vegetable, often brown or yellow",
+    "meanings": null,
+    "reading": "/pəˈteɪtoʊ/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Food and Drink",
+      "Expressing Likes and Dislikes"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1217,
+    "word": "practice",
+    "meaning": "to do something repeatedly to improve",
+    "meanings": null,
+    "reading": "/ˈpræktɪs/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun/verb",
+    "tags": [
+      "Shopping Basics",
+      "Review and Role-Play"
+    ],
+    "examples": [
+      {
+        "sentence": "How much is this book?",
+        "translation": "How much is this book?",
+        "romaji": "/haʊ mʌtʃ ɪz ðɪs bʊk/"
+      },
+      {
+        "sentence": "Here is your change and receipt.",
+        "translation": "Here is your change and receipt.",
+        "romaji": "/hɪr ɪz jɔːr tʃeɪndʒ ənd rɪˈsiːt/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1197,
+    "word": "price",
+    "meaning": "the amount of money something costs",
+    "meanings": null,
+    "reading": "/praɪs/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Numbers and Prices"
+    ],
+    "examples": [
+      {
+        "sentence": "The price is fifteen dollars.",
+        "translation": "The cost is fifteen dollars.",
+        "romaji": "/ðə praɪs ɪz ˌfɪfˈtiːn ˈdɑː.lɚz/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1103,
+    "word": "read a book",
+    "meaning": "to look at and understand written words in a book",
+    "meanings": null,
+    "reading": "/riːd ə bʊk/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb phrase",
+    "tags": [
+      "Daily Routine",
+      "Talking About Others' Routines"
+    ],
+    "examples": [
+      {
+        "sentence": "She reads a book in the evening.",
+        "translation": "She reads a book in the evening.",
+        "romaji": "/ʃiː riːdz ə bʊk ɪn ðə ˈiːvnɪŋ/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1212,
+    "word": "receipt",
+    "meaning": "a paper that shows proof of purchase",
+    "meanings": null,
+    "reading": "/rɪˈsiːt/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Simple Transaction Dialogues"
+    ],
+    "examples": [
+      {
+        "sentence": "Can I have the receipt, please?",
+        "translation": "Can I have the receipt, please?",
+        "romaji": "/kæn aɪ hæv ðə rɪˈsiːt pliz/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1163,
+    "word": "restaurant",
+    "meaning": "a place where you can buy and eat a meal",
+    "meanings": null,
+    "reading": "/ˈres.trɒnt/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Food and Drink",
+      "Review and Practice"
+    ],
+    "examples": [
+      {
+        "sentence": "The restaurant menu has cake and cookies. I like to describe food.",
+        "translation": "The restaurant menu has cake and cookies. I like to describe food.",
+        "romaji": "/ðə ˈres.trɒnt ˈmen.juː hæz keɪk ænd ˈkʊk.iz aɪ laɪk tə dɪˈskraɪb fuːd/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1213,
+    "word": "review",
+    "meaning": "to look at or study again",
+    "meanings": null,
+    "reading": "/rɪˈvjuː/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun/verb",
+    "tags": [
+      "Shopping Basics",
+      "Review and Role-Play"
+    ],
+    "examples": [
+      {
+        "sentence": "I want that apple, please.",
+        "translation": "I want that apple, please.",
+        "romaji": "/aɪ wɒnt ðæt ˈæpl̩ pliːz/"
+      },
+      {
+        "sentence": "I don't want that. Thank you.",
+        "translation": "I don't want that. Thank you.",
+        "romaji": "/aɪ doʊnt wɒnt ðæt θæŋk juː/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1157,
+    "word": "rice",
+    "meaning": "small white grains from a plant, eaten as food",
+    "meanings": null,
+    "reading": "/raɪs/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Food and Drink",
+      "Quantifiers and Ordering Basics"
+    ],
+    "examples": [
+      {
+        "sentence": "I'd like some rice, please.",
+        "translation": "I'd like some rice, please.",
+        "romaji": "/aɪd laɪk sʌm raɪs pliz/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1214,
+    "word": "role-play",
+    "meaning": "acting out a situation to practice",
+    "meanings": null,
+    "reading": "/ˈroʊl pleɪ/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Review and Role-Play"
+    ],
+    "examples": [
+      {
+        "sentence": "I buy the shirt. Here you are.",
+        "translation": "I buy the shirt. Here you are.",
+        "romaji": "/aɪ baɪ ðə ʃɜːrt hɪr juː ɑːr/"
+      },
+      {
+        "sentence": "I always buy fruit on Saturdays.",
+        "translation": "I always buy fruit on Saturdays.",
+        "romaji": "/aɪ ˈɔːlweɪz baɪ fruːt ɒn ˈsætərdeɪz/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1060,
+    "word": "room",
+    "meaning": "a part of a house with walls, floor, and ceiling",
+    "meanings": null,
+    "reading": "/ruːm/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Home and Living",
+      "My Home"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1079,
+    "word": "room",
+    "meaning": "a part of a house, like a bedroom or living room",
+    "meanings": null,
+    "reading": "/ruːm/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Home and Living",
+      "A Room or The Room?"
+    ],
+    "examples": [
+      {
+        "sentence": "This is a room.",
+        "translation": "This is a room.",
+        "romaji": "/ðɪs ɪz ə ruːm/"
+      },
+      {
+        "sentence": "His room is the living room.",
+        "translation": "His room is the living room.",
+        "romaji": "/hɪz ruːm ɪz ðə ˈlɪvɪŋ ruːm/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1084,
+    "word": "rooms",
+    "meaning": "more than one room",
+    "meanings": null,
+    "reading": "/ruːmz/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Home and Living",
+      "Many Things"
+    ],
+    "examples": [
+      {
+        "sentence": "Who is happy in the many rooms?",
+        "translation": "Who is happy in the many rooms?",
+        "romaji": "/huː ɪz ˈhæpi ɪn ðə ˈmɛni ruːmz/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1041,
+    "word": "sad",
+    "meaning": "feeling or showing sorrow; unhappy",
+    "meanings": null,
+    "reading": "/sæd/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "Self and Family",
+      "Asking and Answering About Family"
+    ],
+    "examples": [
+      {
+        "sentence": "My grandfather is sad.",
+        "translation": "My grandfather is sad.",
+        "romaji": "/maɪ ˈɡrænfɑːðər ɪz sæd/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1215,
+    "word": "scenario",
+    "meaning": "a situation or scene",
+    "meanings": null,
+    "reading": "/sɪˈnɑːrioʊ/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Review and Role-Play"
+    ],
+    "examples": [
+      {
+        "sentence": "Do you have any milk?",
+        "translation": "Do you have any milk?",
+        "romaji": "/duː juː hæv ˈeni mɪlk/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1209,
+    "word": "sell",
+    "meaning": "to give something in exchange for money",
+    "meanings": null,
+    "reading": "/sɛl/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "Shopping Basics",
+      "Simple Transaction Dialogues"
+    ],
+    "examples": [
+      {
+        "sentence": "You sell apples here.",
+        "translation": "You sell apples here.",
+        "romaji": "/ju sɛl ˈæpəlz hɪr/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1055,
+    "word": "seven",
+    "meaning": "the number 7",
+    "meanings": null,
+    "reading": "/ˈsev.ən/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun/adjective",
+    "tags": [
+      "Self and Family",
+      "Review and Practice: My Family Story"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1181,
+    "word": "seven",
+    "meaning": "the number 7",
+    "meanings": null,
+    "reading": "/ˈsev.ən/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Numbers and Prices"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1191,
+    "word": "seventeen",
+    "meaning": "the number 17",
+    "meanings": null,
+    "reading": "/ˌsev.ənˈtiːn/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Numbers and Prices"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1006,
+    "word": "she",
+    "meaning": "female person",
+    "meanings": null,
+    "reading": "/ʃiː/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "pronoun",
+    "tags": [
+      "Greetings and Introductions",
+      "Introducing Others"
+    ],
+    "examples": [
+      {
+        "sentence": "She is a student.",
+        "translation": "She is a student.",
+        "romaji": "/ʃiː ɪz ə ˈstuːdənt/"
+      },
+      {
+        "sentence": "Who is she?",
+        "translation": "Who is she?",
+        "romaji": "/huː ɪz ʃiː/"
+      },
+      {
+        "sentence": "Bye. She is my sister.",
+        "translation": "Bye. She is my sister.",
+        "romaji": "/baɪ. ʃiː ɪz maɪ ˈsɪstər/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1027,
+    "word": "she",
+    "meaning": "third person singular feminine pronoun",
+    "meanings": null,
+    "reading": "/ʃiː/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "pronoun",
+    "tags": [
+      "Self and Family",
+      "Introducing Myself and Family"
+    ],
+    "examples": [
+      {
+        "sentence": "She is my sister.",
+        "translation": "She is my sister.",
+        "romaji": "/ʃiː ɪz maɪ ˈsɪstər/"
+      },
+      {
+        "sentence": "She is my mother.",
+        "translation": "She is my mother.",
+        "romaji": "/ʃiː ɪz maɪ ˈmʌðər/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1174,
+    "word": "shirt",
+    "meaning": "a piece of clothing for the upper body",
+    "meanings": null,
+    "reading": "/ʃɜːt/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Shopping Places and Items"
+    ],
+    "examples": [
+      {
+        "sentence": "The clothes shop has shirts.",
+        "translation": "The clothes shop has shirts.",
+        "romaji": "/ðə kləʊðz ʃɒp hæz ʃɜːts/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1167,
+    "word": "shop",
+    "meaning": "a place where you buy things",
+    "meanings": null,
+    "reading": "/ʃɒp/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Shopping Places and Items"
+    ],
+    "examples": [
+      {
+        "sentence": "This is a shop.",
+        "translation": "This is a shop.",
+        "romaji": "/ðɪs ɪz ə ʃɒp/"
+      },
+      {
+        "sentence": "I like to wake up and go to the shop.",
+        "translation": "I like to wake up and go to the shop.",
+        "romaji": "/aɪ laɪk tə weɪk ʌp ənd ɡəʊ tə ðə ʃɒp/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1033,
+    "word": "short",
+    "meaning": "having a less than average height",
+    "meanings": null,
+    "reading": "short",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "Self and Family",
+      "Describing Family with Possessive Adjectives"
+    ],
+    "examples": [
+      {
+        "sentence": "His sister is short.",
+        "translation": "His sister is short.",
+        "romaji": "His sis-tur is short."
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1011,
+    "word": "sister",
+    "meaning": "female sibling",
+    "meanings": null,
+    "reading": "/ˈsɪstər/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Greetings and Introductions",
+      "Introducing Others"
+    ],
+    "examples": [
+      {
+        "sentence": "Bye. She is my sister.",
+        "translation": "Bye. She is my sister.",
+        "romaji": "/baɪ. ʃiː ɪz maɪ ˈsɪstər/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1023,
+    "word": "sister",
+    "meaning": "female sibling",
+    "meanings": null,
+    "reading": "/ˈsɪstər/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Self and Family",
+      "Introducing Myself and Family"
+    ],
+    "examples": [
+      {
+        "sentence": "She is my sister.",
+        "translation": "She is my sister.",
+        "romaji": "/ʃiː ɪz maɪ ˈsɪstər/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1044,
+    "word": "sisters",
+    "meaning": "more than one sister",
+    "meanings": null,
+    "reading": "/ˈsɪstərz/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Self and Family",
+      "Talking About Family Members' Characteristics"
+    ],
+    "examples": [
+      {
+        "sentence": "Her sisters are young.",
+        "translation": "Her sisters are young.",
+        "romaji": "/hɜr ˈsɪstərz ɑr jʌŋ/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1054,
+    "word": "six",
+    "meaning": "the number 6",
+    "meanings": null,
+    "reading": "/sɪks/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun/adjective",
+    "tags": [
+      "Self and Family",
+      "Review and Practice: My Family Story"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1180,
+    "word": "six",
+    "meaning": "the number 6",
+    "meanings": null,
+    "reading": "/sɪks/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Numbers and Prices"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1190,
+    "word": "sixteen",
+    "meaning": "the number 16",
+    "meanings": null,
+    "reading": "/ˌsɪkˈstiːn/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Numbers and Prices"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1090,
+    "word": "small",
+    "meaning": "not large in size",
+    "meanings": null,
+    "reading": "/smɔːl/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "Home and Living",
+      "Describe Your Home"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1146,
+    "word": "soda",
+    "meaning": "a sweet fizzy drink",
+    "meanings": null,
+    "reading": "/ˈsoʊdə/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Food and Drink",
+      "Expressing Likes and Dislikes"
+    ],
+    "examples": [
+      {
+        "sentence": "I don't like soda there.",
+        "translation": "I do not enjoy drinking soda in that place.",
+        "romaji": "/aɪ doʊnt laɪk ˈsoʊdə ðer/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1158,
+    "word": "some",
+    "meaning": "an amount of something, not specific",
+    "meanings": null,
+    "reading": "/sʌm/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "determiner",
+    "tags": [
+      "Food and Drink",
+      "Quantifiers and Ordering Basics"
+    ],
+    "examples": [
+      {
+        "sentence": "I have some chicken for dinner.",
+        "translation": "I have some chicken for dinner.",
+        "romaji": "/aɪ hæv sʌm ˈtʃɪkɪn fɔr ˈdɪnər/"
+      },
+      {
+        "sentence": "I'd like some rice, please.",
+        "translation": "I'd like some rice, please.",
+        "romaji": "/aɪd laɪk sʌm raɪs pliz/"
+      },
+      {
+        "sentence": "Can I have some water?",
+        "translation": "Can I have some water?",
+        "romaji": "/kæn aɪ hæv sʌm ˈwɔtər/"
+      },
+      {
+        "sentence": "We have some things in the rooms.",
+        "translation": "We have some things in the rooms.",
+        "romaji": "/wi hæv sʌm θɪŋz ɪn ðə rumz/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1030,
+    "word": "son",
+    "meaning": "a male child",
+    "meanings": null,
+    "reading": "suhn",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Self and Family",
+      "Describing Family with Possessive Adjectives"
+    ],
+    "examples": [
+      {
+        "sentence": "Her son is a student.",
+        "translation": "Her son is a student.",
+        "romaji": "Her suhn is a stoo-dent."
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1012,
+    "word": "student",
+    "meaning": "person who studies",
+    "meanings": null,
+    "reading": "/ˈstuːdənt/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Greetings and Introductions",
+      "Introducing Others"
+    ],
+    "examples": [
+      {
+        "sentence": "She is a student.",
+        "translation": "She is a student.",
+        "romaji": "/ʃiː ɪz ə ˈstuːdənt/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1168,
+    "word": "supermarket",
+    "meaning": "a large store that sells food and other goods",
+    "meanings": null,
+    "reading": "/ˈsuːpəmɑːkɪt/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Shopping Places and Items"
+    ],
+    "examples": [
+      {
+        "sentence": "The supermarket is clean.",
+        "translation": "The supermarket is clean.",
+        "romaji": "/ðə ˈsuːpəmɑːkɪt ɪz kliːn/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1065,
+    "word": "table",
+    "meaning": "a piece of furniture with a flat top and legs",
+    "meanings": null,
+    "reading": "/ˈteɪbəl/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Home and Living",
+      "My Home"
+    ],
+    "examples": [
+      {
+        "sentence": "The table is in the kitchen.",
+        "translation": "The table is in the kitchen.",
+        "romaji": "/ðə ˈteɪbəl ɪz ɪn ðə ˈkɪtʃɪn/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1080,
+    "word": "table",
+    "meaning": "a piece of furniture with a flat top and legs",
+    "meanings": null,
+    "reading": "/ˈteɪbəl/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Home and Living",
+      "A Room or The Room?"
+    ],
+    "examples": [
+      {
+        "sentence": "The table is in the kitchen.",
+        "translation": "The table is in the kitchen.",
+        "romaji": "/ðə ˈteɪbəl ɪz ɪn ðə ˈkɪtʃən/"
+      },
+      {
+        "sentence": "The chair is next to the table.",
+        "translation": "The chair is next to the table.",
+        "romaji": "/ðə tʃeər ɪz nɛkst tu ðə ˈteɪbəl/"
+      },
+      {
+        "sentence": "Your book is on an old table.",
+        "translation": "Your book is on an old table.",
+        "romaji": "/jɔːr bʊk ɪz ɒn ən oʊld ˈteɪbəl/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1082,
+    "word": "tables",
+    "meaning": "more than one table",
+    "meanings": null,
+    "reading": "/ˈteɪbəlz/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Home and Living",
+      "Many Things"
+    ],
+    "examples": [
+      {
+        "sentence": "There are three tables in the house.",
+        "translation": "There are three tables in the house.",
+        "romaji": "/ðɛr ɑr θriː ˈteɪbəlz ɪn ðə haʊs/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1101,
+    "word": "take a shower",
+    "meaning": "to wash the body with water",
+    "meanings": null,
+    "reading": "/teɪk ə ˈʃaʊər/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb phrase",
+    "tags": [
+      "Daily Routine",
+      "Talking About Others' Routines"
+    ],
+    "examples": [
+      {
+        "sentence": "She takes a shower at 7 AM.",
+        "translation": "She takes a shower at 7 AM.",
+        "romaji": "/ʃiː teɪks ə ˈʃaʊər æt ˈsevən eɪ ˈem/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1032,
+    "word": "tall",
+    "meaning": "having a greater than average height",
+    "meanings": null,
+    "reading": "tawl",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "Self and Family",
+      "Describing Family with Possessive Adjectives"
+    ],
+    "examples": [
+      {
+        "sentence": "Your father is tall.",
+        "translation": "Your father is tall.",
+        "romaji": "Your fah-thur is tawl."
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1144,
+    "word": "tea",
+    "meaning": "a hot drink made from leaves",
+    "meanings": null,
+    "reading": "/tiː/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Food and Drink",
+      "Expressing Likes and Dislikes"
+    ],
+    "examples": [
+      {
+        "sentence": "I like tea here.",
+        "translation": "I enjoy drinking tea in this place.",
+        "romaji": "/aɪ laɪk tiː hɪr/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1004,
+    "word": "teacher",
+    "meaning": "a person who teaches",
+    "meanings": null,
+    "reading": "/ˈtiːtʃər/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Greetings and Introductions",
+      "Introducing Yourself"
+    ],
+    "examples": [
+      {
+        "sentence": "Goodbye, you are a teacher.",
+        "translation": "Goodbye, you are a teacher.",
+        "romaji": "/ˌɡʊdˈbaɪ, juː ɑːr ə ˈtiːtʃər/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1058,
+    "word": "ten",
+    "meaning": "the number 10",
+    "meanings": null,
+    "reading": "/ten/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun/adjective",
+    "tags": [
+      "Self and Family",
+      "Review and Practice: My Family Story"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1184,
+    "word": "ten",
+    "meaning": "the number 10",
+    "meanings": null,
+    "reading": "/ten/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Numbers and Prices"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1017,
+    "word": "thank you",
+    "meaning": "expression of gratitude",
+    "meanings": null,
+    "reading": "/θæŋk juː/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "phrase",
+    "tags": [
+      "Greetings and Introductions",
+      "Asking and Answering Simple Questions"
+    ],
+    "examples": [
+      {
+        "sentence": "I am fine, thank you. And you?",
+        "translation": "I am fine, thank you. And you?",
+        "romaji": "/aɪ æm faɪn, θæŋk juː. ænd juː/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1204,
+    "word": "thank you",
+    "meaning": "expression of gratitude",
+    "meanings": null,
+    "reading": "/θæŋk juː/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "phrase",
+    "tags": [
+      "Shopping Basics",
+      "Asking for Items and Prices"
+    ],
+    "examples": [
+      {
+        "sentence": "Thank you for the price.",
+        "translation": "Thank you for the price.",
+        "romaji": "/θæŋk juː fɔːr ðə praɪs/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1202,
+    "word": "that",
+    "meaning": "refers to something farther from the speaker",
+    "meanings": null,
+    "reading": "/ðæt/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "pronoun/determiner",
+    "tags": [
+      "Shopping Basics",
+      "Asking for Items and Prices"
+    ],
+    "examples": [
+      {
+        "sentence": "Do you have that shirt?",
+        "translation": "Do you have that shirt?",
+        "romaji": "/duː juː hæv ðæt ʃɜːrt/"
+      },
+      {
+        "sentence": "That is from the bakery at night.",
+        "translation": "That is from the bakery at night.",
+        "romaji": "/ðæt ɪz frɒm ðə ˈbeɪkəri æt naɪt/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1078,
+    "word": "the",
+    "meaning": "definite article for specific or known nouns",
+    "meanings": null,
+    "reading": "/ðə/ or /ðiː/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "article",
+    "tags": [
+      "Home and Living",
+      "A Room or The Room?"
+    ],
+    "examples": [
+      {
+        "sentence": "The table is in the kitchen.",
+        "translation": "The table is in the kitchen.",
+        "romaji": "/ðə ˈteɪbəl ɪz ɪn ðə ˈkɪtʃən/"
+      },
+      {
+        "sentence": "The chair is next to the table.",
+        "translation": "The chair is next to the table.",
+        "romaji": "/ðə tʃeər ɪz nɛkst tu ðə ˈteɪbəl/"
+      },
+      {
+        "sentence": "His room is the living room.",
+        "translation": "His room is the living room.",
+        "romaji": "/hɪz ruːm ɪz ðə ˈlɪvɪŋ ruːm/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1114,
+    "word": "then",
+    "meaning": "after that; next",
+    "meanings": null,
+    "reading": "/ðen/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [
+      "Daily Routine",
+      "Describing Full Routines"
+    ],
+    "examples": [
+      {
+        "sentence": "First, I wake up at nine o'clock. Then, I eat breakfast. After that, I go to school. Finally, I go home at ten o'clock.",
+        "translation": "First, I wake up at nine o'clock. Then, I eat breakfast. After that, I go to school. Finally, I go home at ten o'clock.",
+        "romaji": "/fɜːrst, aɪ weɪk ʌp æt naɪn ə'klɒk. ðen, aɪ iːt 'brekfəst. 'æftər ðæt, aɪ ɡoʊ tə skuːl. 'faɪnəli, aɪ ɡoʊ hoʊm æt ten ə'klɒk./"
+      },
+      {
+        "sentence": "First, he gets up. Then, he has lunch. After that, he reads a book. Finally, he goes to bed.",
+        "translation": "First, he gets up. Then, he has lunch. After that, he reads a book. Finally, he goes to bed.",
+        "romaji": "/fɜːrst, hi ɡets ʌp. ðen, hi hæz lʌntʃ. 'æftər ðæt, hi riːdz ə bʊk. 'faɪnəli, hi ɡoʊz tə bed./"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1075,
+    "word": "there",
+    "meaning": "in that place",
+    "meanings": null,
+    "reading": "/ðeər/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [
+      "Home and Living",
+      "Where Is It?"
+    ],
+    "examples": [
+      {
+        "sentence": "Here is the living room. There is the bathroom.",
+        "translation": "Here is the living room. There is the bathroom.",
+        "romaji": "/hɪər ɪz ðə ˈlɪvɪŋ ruːm. ðeər ɪz ðə ˈbɑːθruːm/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1085,
+    "word": "things",
+    "meaning": "objects or items",
+    "meanings": null,
+    "reading": "/θɪŋz/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Home and Living",
+      "Many Things"
+    ],
+    "examples": [
+      {
+        "sentence": "What are the many things on the table?",
+        "translation": "What are the many things on the table?",
+        "romaji": "/wʌt ɑr ðə ˈmɛni θɪŋz ɒn ðə ˈteɪbəl/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1187,
+    "word": "thirteen",
+    "meaning": "the number 13",
+    "meanings": null,
+    "reading": "/ˌθɜːrˈtiːn/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Numbers and Prices"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1201,
+    "word": "this",
+    "meaning": "refers to something near the speaker",
+    "meanings": null,
+    "reading": "/ðɪs/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "pronoun/determiner",
+    "tags": [
+      "Shopping Basics",
+      "Asking for Items and Prices"
+    ],
+    "examples": [
+      {
+        "sentence": "I want this book, please.",
+        "translation": "I want this book, please.",
+        "romaji": "/aɪ wɒnt ðɪs bʊk, pliːz/"
+      },
+      {
+        "sentence": "This is not your bread.",
+        "translation": "This is not your bread.",
+        "romaji": "/ðɪs ɪz nɒt jɔːr bred/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1007,
+    "word": "this is",
+    "meaning": "used to introduce someone",
+    "meanings": null,
+    "reading": "/ðɪs ɪz/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "phrase",
+    "tags": [
+      "Greetings and Introductions",
+      "Introducing Others"
+    ],
+    "examples": [
+      {
+        "sentence": "This is my brother.",
+        "translation": "This is my brother.",
+        "romaji": "/ðɪs ɪz maɪ ˈbrʌðər/"
+      },
+      {
+        "sentence": "Good morning. This is his friend.",
+        "translation": "Good morning. This is his friend.",
+        "romaji": "/ɡʊd ˈmɔːrnɪŋ. ðɪs ɪz hɪz frend/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1051,
+    "word": "three",
+    "meaning": "the number 3",
+    "meanings": null,
+    "reading": "/θriː/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun/adjective",
+    "tags": [
+      "Self and Family",
+      "Review and Practice: My Family Story"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1177,
+    "word": "three",
+    "meaning": "the number 3",
+    "meanings": null,
+    "reading": "/θriː/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Numbers and Prices"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1142,
+    "word": "tomato",
+    "meaning": "a red fruit often used as a vegetable",
+    "meanings": null,
+    "reading": "/təˈmeɪtoʊ/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Food and Drink",
+      "Expressing Likes and Dislikes"
+    ],
+    "examples": [
+      {
+        "sentence": "I don't like tomatoes.",
+        "translation": "I do not enjoy eating tomatoes.",
+        "romaji": "/aɪ doʊnt laɪk təˈmeɪtoʊz/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1186,
+    "word": "twelve",
+    "meaning": "the number 12",
+    "meanings": null,
+    "reading": "/twelv/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Numbers and Prices"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1194,
+    "word": "twenty",
+    "meaning": "the number 20",
+    "meanings": null,
+    "reading": "/ˈtwen.ti/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Numbers and Prices"
+    ],
+    "examples": [],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1050,
+    "word": "two",
+    "meaning": "the number 2",
+    "meanings": null,
+    "reading": "/tuː/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun/adjective",
+    "tags": [
+      "Self and Family",
+      "Review and Practice: My Family Story"
+    ],
+    "examples": [
+      {
+        "sentence": "I have two brothers.",
+        "translation": "I have two brothers.",
+        "romaji": "/aɪ hæv tuː ˈbrʌðərz/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1176,
+    "word": "two",
+    "meaning": "the number 2",
+    "meanings": null,
+    "reading": "/tuː/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Shopping Basics",
+      "Numbers and Prices"
+    ],
+    "examples": [
+      {
+        "sentence": "The apple is two euros.",
+        "translation": "The apple costs two euros.",
+        "romaji": "/ði ˈæp.əl ɪz tuː ˈjʊr.oʊz/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1071,
+    "word": "under",
+    "meaning": "below or beneath something",
+    "meanings": null,
+    "reading": "/ˈʌndər/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "preposition",
+    "tags": [
+      "Home and Living",
+      "Where Is It?"
+    ],
+    "examples": [
+      {
+        "sentence": "The keys are under the book.",
+        "translation": "The keys are under the book.",
+        "romaji": "/ðə kiːz ɑːr ˈʌndər ðə bʊk/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1118,
+    "word": "usually",
+    "meaning": "most of the time; normally",
+    "meanings": null,
+    "reading": "/ˈjuːʒuəli/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [
+      "Daily Routine",
+      "Describing Full Routines"
+    ],
+    "examples": [
+      {
+        "sentence": "She always brushes her teeth in the morning. She usually takes a shower after that.",
+        "translation": "She always brushes her teeth in the morning. She usually takes a shower after that.",
+        "romaji": "/ʃi 'ɔːlweɪz 'brʌʃɪz hɜː tiːθ ɪn ðə 'mɔːnɪŋ. ʃi 'juːʒuəli teɪks ə 'ʃaʊər 'æftər ðæt./"
+      },
+      {
+        "sentence": "I usually watch TV in the evening. I always cook dinner at night.",
+        "translation": "I usually watch TV in the evening. I always cook dinner at night.",
+        "romaji": "/aɪ 'juːʒuəli wɒtʃ tiː'viː ɪn ði 'iːvnɪŋ. aɪ 'ɔːlweɪz kʊk 'dɪnər æt naɪt./"
+      },
+      {
+        "sentence": "Where does she usually go after school? She usually goes to her house.",
+        "translation": "Where does she usually go after school? She usually goes to her house.",
+        "romaji": "/weər dʌz ʃi 'juːʒuəli ɡoʊ 'æftər skuːl? ʃi 'juːʒuəli ɡoʊz tə hɜː haʊs./"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1092,
+    "word": "wake up",
+    "meaning": "to stop sleeping",
+    "meanings": null,
+    "reading": "/weɪk ʌp/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb phrase",
+    "tags": [
+      "Daily Routine",
+      "Introduction to Daily Activities"
+    ],
+    "examples": [
+      {
+        "sentence": "I wake up at 7:00.",
+        "translation": "I stop sleeping at 7:00.",
+        "romaji": "/aɪ weɪk ʌp æt ˈsevən/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1098,
+    "word": "watch TV",
+    "meaning": "to look at television programs",
+    "meanings": null,
+    "reading": "/wɒtʃ ˌtiː ˈviː/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb phrase",
+    "tags": [
+      "Daily Routine",
+      "Introduction to Daily Activities"
+    ],
+    "examples": [
+      {
+        "sentence": "I go home and watch TV.",
+        "translation": "I return to my house and look at television programs.",
+        "romaji": "/aɪ ɡoʊ hoʊm ænd wɒtʃ ˌtiː ˈviː/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1134,
+    "word": "water",
+    "meaning": "clear liquid that you drink",
+    "meanings": null,
+    "reading": "/ˈwɔː.t̬ɚ/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "Food and Drink",
+      "Food and Drink Basics"
+    ],
+    "examples": [
+      {
+        "sentence": "You have water with your dinner.",
+        "translation": "You drink water with your dinner.",
+        "romaji": "/ju hæv ˈwɔː.t̬ɚ wɪð jɔːr ˈdɪn.ɚ/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1013,
+    "word": "what",
+    "meaning": "used to ask about something",
+    "meanings": null,
+    "reading": "/wɒt/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "pronoun",
+    "tags": [
+      "Greetings and Introductions",
+      "Asking and Answering Simple Questions"
+    ],
+    "examples": [
+      {
+        "sentence": "What is your name?",
+        "translation": "What is your name?",
+        "romaji": "/wɒt ɪz jɔː neɪm/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1039,
+    "word": "what",
+    "meaning": "used to ask about things or information",
+    "meanings": null,
+    "reading": "/wɒt/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "pronoun",
+    "tags": [
+      "Self and Family",
+      "Asking and Answering About Family"
+    ],
+    "examples": [
+      {
+        "sentence": "What is his name?",
+        "translation": "What is his name?",
+        "romaji": "/wɒt ɪz hɪz neɪm/"
+      },
+      {
+        "sentence": "What is your father?",
+        "translation": "What is your father?",
+        "romaji": "/wɒt ɪz jɔːr ˈfɑːðər/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1111,
+    "word": "when",
+    "meaning": "used to ask about time",
+    "meanings": null,
+    "reading": "/wen/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "question word",
+    "tags": [
+      "Daily Routine",
+      "Time Expressions and Simple Questions"
+    ],
+    "examples": [
+      {
+        "sentence": "When do you eat breakfast?",
+        "translation": "At what time do you eat breakfast?",
+        "romaji": "/wen duː juː iːt ˈbrekfəst/"
+      },
+      {
+        "sentence": "When do you brush your teeth?",
+        "translation": "At what time do you brush your teeth?",
+        "romaji": "/wen duː juː brʌʃ jɔːr tiːθ/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1073,
+    "word": "where",
+    "meaning": "in or at what place",
+    "meanings": null,
+    "reading": "/weər/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [
+      "Home and Living",
+      "Where Is It?"
+    ],
+    "examples": [
+      {
+        "sentence": "Where is the chair? It is next to the bed.",
+        "translation": "Where is the chair? It is next to the bed.",
+        "romaji": "/weər ɪz ðə tʃeər? ɪt ɪz ˈnekst tuː ðə bed/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1112,
+    "word": "where",
+    "meaning": "used to ask about place or location",
+    "meanings": null,
+    "reading": "/wer/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "question word",
+    "tags": [
+      "Daily Routine",
+      "Time Expressions and Simple Questions"
+    ],
+    "examples": [
+      {
+        "sentence": "Where does he watch TV?",
+        "translation": "At what place does he watch TV?",
+        "romaji": "/wer dʌz hiː wɒtʃ ˌtiːˈviː/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1014,
+    "word": "who",
+    "meaning": "used to ask about a person",
+    "meanings": null,
+    "reading": "/huː/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "pronoun",
+    "tags": [
+      "Greetings and Introductions",
+      "Asking and Answering Simple Questions"
+    ],
+    "examples": [
+      {
+        "sentence": "Who is he?",
+        "translation": "Who is he?",
+        "romaji": "/huː ɪz hiː/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1038,
+    "word": "who",
+    "meaning": "used to ask about a person",
+    "meanings": null,
+    "reading": "/huː/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "pronoun",
+    "tags": [
+      "Self and Family",
+      "Asking and Answering About Family"
+    ],
+    "examples": [
+      {
+        "sentence": "Who is your mother?",
+        "translation": "Who is your mother?",
+        "romaji": "/huː ɪz jɔːr ˈmʌðər/"
+      },
+      {
+        "sentence": "Who is her brother?",
+        "translation": "Who is her brother?",
+        "romaji": "/huː ɪz hɜːr ˈbrʌðər/"
+      },
+      {
+        "sentence": "Who is my sister?",
+        "translation": "Who is my sister?",
+        "romaji": "/huː ɪz maɪ ˈsɪstər/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 999,
+    "word": "you",
+    "meaning": "the person being spoken to",
+    "meanings": null,
+    "reading": "/juː/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "pronoun",
+    "tags": [
+      "Greetings and Introductions",
+      "Introducing Yourself"
+    ],
+    "examples": [
+      {
+        "sentence": "You are my friend.",
+        "translation": "You are my friend.",
+        "romaji": "/juː ɑːr maɪ frend/"
+      },
+      {
+        "sentence": "Goodbye, you are a teacher.",
+        "translation": "Goodbye, you are a teacher.",
+        "romaji": "/ˌɡʊdˈbaɪ, juː ɑːr ə ˈtiːtʃər/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1025,
+    "word": "you",
+    "meaning": "second person singular or plural pronoun",
+    "meanings": null,
+    "reading": "/juː/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "pronoun",
+    "tags": [
+      "Self and Family",
+      "Introducing Myself and Family"
+    ],
+    "examples": [
+      {
+        "sentence": "You are my friend.",
+        "translation": "You are my friend.",
+        "romaji": "/juː ɑːr maɪ frend/"
+      },
+      {
+        "sentence": "You are my brother.",
+        "translation": "You are my brother.",
+        "romaji": "/juː ɑːr maɪ ˈbrʌðər/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1200,
+    "word": "you have",
+    "meaning": "to ask if someone possesses something",
+    "meanings": null,
+    "reading": "/juː hæv/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb phrase",
+    "tags": [
+      "Shopping Basics",
+      "Asking for Items and Prices"
+    ],
+    "examples": [
+      {
+        "sentence": "Do you have that shirt?",
+        "translation": "Do you have that shirt?",
+        "romaji": "/duː juː hæv ðæt ʃɜːrt/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1047,
+    "word": "young",
+    "meaning": "not old; having lived for a short time",
+    "meanings": null,
+    "reading": "/jʌŋ/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "Self and Family",
+      "Talking About Family Members' Characteristics"
+    ],
+    "examples": [
+      {
+        "sentence": "Her sisters are young.",
+        "translation": "Her sisters are young.",
+        "romaji": "/hɜr ˈsɪstərz ɑr jʌŋ/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1002,
+    "word": "your",
+    "meaning": "belonging to you",
+    "meanings": null,
+    "reading": "/jɔːr/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "pronoun",
+    "tags": [
+      "Greetings and Introductions",
+      "Introducing Yourself"
+    ],
+    "examples": [
+      {
+        "sentence": "I am your friend.",
+        "translation": "I am your friend.",
+        "romaji": "/aɪ æm jɔːr frend/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1035,
+    "word": "your",
+    "meaning": "belonging to you",
+    "meanings": null,
+    "reading": "yoor",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "possessive adjective",
+    "tags": [
+      "Self and Family",
+      "Describing Family with Possessive Adjectives"
+    ],
+    "examples": [
+      {
+        "sentence": "Your father is tall.",
+        "translation": "Your father is tall.",
+        "romaji": "Your fah-thur is tawl."
+      },
+      {
+        "sentence": "My grandfather is your friend.",
+        "translation": "My grandfather is your friend.",
+        "romaji": "My gran-fah-thur is your frend."
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1122,
+    "word": "your",
+    "meaning": "belonging to you",
+    "meanings": null,
+    "reading": "/jɔːr/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "possessive adjective",
+    "tags": [
+      "Daily Routine",
+      "Negation and Possessive Adjectives"
+    ],
+    "examples": [
+      {
+        "sentence": "Your bathroom is clean.",
+        "translation": "Your bathroom is clean.",
+        "romaji": "/jɔːr ˈbæθruːm ɪz kliːn/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  },
+  {
+    "id": 1206,
+    "word": "your",
+    "meaning": "belonging to you",
+    "meanings": null,
+    "reading": "/jɔːr/",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "possessive adjective",
+    "tags": [
+      "Shopping Basics",
+      "Asking for Items and Prices"
+    ],
+    "examples": [
+      {
+        "sentence": "This is not your bread.",
+        "translation": "This is not your bread.",
+        "romaji": "/ðɪs ɪz nɒt jɔːr bred/"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 6
+  }
+]

@@ -1,364 +1,184 @@
 [
   {
-    "id": "reading-1",
-    "title": "私の一日",
-    "level": "N5",
-    "text": "私は毎朝七時に起きます。朝ごはんを食べて、学校に行きます。学校で日本語を勉強します。午後三時に家に帰ります。家で本を読みます。夜ごはんを食べて、テレビを見ます。十時に寝ます。",
-    "vocabulary": [
-      {
-        "word": "毎朝",
-        "reading": "まいあさ",
-        "meaning": "every morning"
-      },
-      {
-        "word": "起きます",
-        "reading": "おきます",
-        "meaning": "to wake up"
-      },
-      {
-        "word": "朝ごはん",
-        "reading": "あさごはん",
-        "meaning": "breakfast"
-      },
-      {
-        "word": "午後",
-        "reading": "ごご",
-        "meaning": "afternoon"
-      },
-      {
-        "word": "夜ごはん",
-        "reading": "よるごはん",
-        "meaning": "dinner"
-      },
-      {
-        "word": "寝ます",
-        "reading": "ねます",
-        "meaning": "to sleep"
-      }
-    ],
-    "questions": [
-      {
-        "question": "何時に起きますか？",
-        "options": [
-          "六時",
-          "七時",
-          "八時"
-        ],
-        "correct": 1
-      },
-      {
-        "question": "学校で何を勉強しますか？",
-        "options": [
-          "英語",
-          "日本語",
-          "数学"
-        ],
-        "correct": 1
-      },
-      {
-        "question": "何時に寝ますか？",
-        "options": [
-          "九時",
-          "十時",
-          "十一時"
-        ],
-        "correct": 1
-      }
-    ],
-    "audioUrl": "/audio/reading/eccb41e7.mp3"
-  },
-  {
-    "id": "reading-2",
-    "title": "私の家族",
-    "level": "N5",
-    "text": "私の家族は四人です。父と母と兄と私です。父は会社員です。母は先生です。兄は大学生です。私は高校生です。家族はみんな日本語を話します。",
-    "vocabulary": [
-      {
-        "word": "家族",
-        "reading": "かぞく",
-        "meaning": "family"
-      },
-      {
-        "word": "父",
-        "reading": "ちち",
-        "meaning": "father"
-      },
-      {
-        "word": "母",
-        "reading": "はは",
-        "meaning": "mother"
-      },
-      {
-        "word": "兄",
-        "reading": "あに",
-        "meaning": "older brother"
-      },
-      {
-        "word": "会社員",
-        "reading": "かいしゃいん",
-        "meaning": "company employee"
-      },
-      {
-        "word": "大学生",
-        "reading": "だいがくせい",
-        "meaning": "university student"
-      },
-      {
-        "word": "高校生",
-        "reading": "こうこうせい",
-        "meaning": "high school student"
-      }
-    ],
-    "questions": [
-      {
-        "question": "家族は何人ですか？",
-        "options": [
-          "三人",
-          "四人",
-          "五人"
-        ],
-        "correct": 1
-      },
-      {
-        "question": "父の仕事は何ですか？",
-        "options": [
-          "先生",
-          "会社員",
-          "学生"
-        ],
-        "correct": 1
-      },
-      {
-        "question": "兄は何ですか？",
-        "options": [
-          "高校生",
-          "大学生",
-          "会社員"
-        ],
-        "correct": 1
-      }
-    ],
-    "audioUrl": "/audio/reading/a9819f6b.mp3"
-  },
-  {
-    "id": "reading-3",
-    "title": "新しい経験",
-    "level": "N4",
-    "text": "先週、私は初めて日本料理を作りました。レシピを読んで、材料を準備しました。料理は難しかったですが、とても楽しかったです。友達に食べてもらって、美味しいと言ってもらいました。今度はもっと難しい料理に挑戦したいです。",
-    "vocabulary": [
-      {
-        "word": "先週",
-        "reading": "せんしゅう",
-        "meaning": "last week"
-      },
-      {
-        "word": "初めて",
-        "reading": "はじめて",
-        "meaning": "for the first time"
-      },
-      {
-        "word": "レシピ",
-        "reading": "れしぴ",
-        "meaning": "recipe"
-      },
-      {
-        "word": "材料",
-        "reading": "ざいりょう",
-        "meaning": "ingredients"
-      },
-      {
-        "word": "挑戦",
-        "reading": "ちょうせん",
-        "meaning": "challenge"
-      }
-    ],
-    "questions": [
-      {
-        "question": "何を作りましたか？",
-        "options": [
-          "中華料理",
-          "日本料理",
-          "イタリア料理"
-        ],
-        "correct": 1
-      },
-      {
-        "question": "料理はどうでしたか？",
-        "options": [
-          "簡単だった",
-          "難しかった",
-          "つまらなかった"
-        ],
-        "correct": 1
-      }
-    ],
-    "audioUrl": "/audio/reading/08c8b5a2.mp3"
-  },
-  {
-    "id": "reading-4",
-    "title": "環境問題",
-    "level": "N3",
-    "text": "近年、環境問題が深刻化しています。地球温暖化の影響で、気候変動が起きています。私たちは環境を守るために、リサイクルを促進したり、エネルギーを節約したりする必要があります。一人一人の努力が大切です。",
-    "vocabulary": [
-      {
-        "word": "近年",
-        "reading": "きんねん",
-        "meaning": "recent years"
-      },
-      {
-        "word": "深刻化",
-        "reading": "しんこくか",
-        "meaning": "worsening"
-      },
-      {
-        "word": "地球温暖化",
-        "reading": "ちきゅうおんだんか",
-        "meaning": "global warming"
-      },
-      {
-        "word": "気候変動",
-        "reading": "きこうへんどう",
-        "meaning": "climate change"
-      },
-      {
-        "word": "リサイクル",
-        "reading": "りさいくる",
-        "meaning": "recycling"
-      }
-    ],
-    "questions": [
-      {
-        "question": "環境問題の原因は何ですか？",
-        "options": [
-          "リサイクル",
-          "地球温暖化",
-          "節約"
-        ],
-        "correct": 1
-      },
-      {
-        "question": "何をする必要がありますか？",
-        "options": [
-          "リサイクルを促進する",
-          "問題を無視する",
-          "何もしない"
-        ],
-        "correct": 0
-      }
-    ],
-    "audioUrl": "/audio/reading/13fa35fd.mp3"
-  },
-  {
-    "id": "reading-5",
-    "title": "経済成長と社会",
-    "level": "N2",
-    "text": "経済成長を促進することは重要ですが、同時に社会の安定を維持する必要があります。企業は利益を追求するだけでなく、社会的責任を果たすべきです。持続可能な発展を実現するためには、経済と環境のバランスを取ることが不可欠です。",
-    "vocabulary": [
-      {
-        "word": "経済成長",
-        "reading": "けいざいせいちょう",
-        "meaning": "economic growth"
-      },
-      {
-        "word": "促進",
-        "reading": "そくしん",
-        "meaning": "promotion"
-      },
-      {
-        "word": "維持",
-        "reading": "いじ",
-        "meaning": "maintenance"
-      },
-      {
-        "word": "社会的責任",
-        "reading": "しゃかいてきせきにん",
-        "meaning": "social responsibility"
-      },
-      {
-        "word": "持続可能",
-        "reading": "じぞくかのう",
-        "meaning": "sustainable"
-      }
-    ],
-    "questions": [
-      {
-        "question": "企業は何をすべきですか？",
-        "options": [
-          "利益だけを追求する",
-          "社会的責任を果たす",
-          "環境を無視する"
-        ],
-        "correct": 1
-      },
-      {
-        "question": "持続可能な発展のために何が必要ですか？",
-        "options": [
-          "経済と環境のバランス",
-          "経済だけを重視する",
-          "環境だけを重視する"
-        ],
-        "correct": 0
-      }
-    ],
-    "audioUrl": "/audio/reading/ecdf7afb.mp3"
-  },
-  {
-    "id": "reading-6",
+    "id": 6,
     "title": "技術革新と社会変革",
     "level": "N1",
+    "framework": null,
     "text": "技術革新に伴って、社会構造は大きく変化しています。デジタル化の進展により、従来のビジネスモデルが変革を迫られています。このような変化を踏まえて、企業は新たな戦略を確立する必要があります。最適化されたシステムを統合し、効率的な運営を実現することが求められています。",
-    "vocabulary": [
-      {
-        "word": "技術革新",
-        "reading": "ぎじゅつかくしん",
-        "meaning": "technological innovation"
-      },
-      {
-        "word": "社会構造",
-        "reading": "しゃかいこうぞう",
-        "meaning": "social structure"
-      },
-      {
-        "word": "デジタル化",
-        "reading": "でじたるか",
-        "meaning": "digitalization"
-      },
-      {
-        "word": "変革",
-        "reading": "へんかく",
-        "meaning": "transformation"
-      },
-      {
-        "word": "戦略",
-        "reading": "せんりゃく",
-        "meaning": "strategy"
-      },
-      {
-        "word": "最適化",
-        "reading": "さいてきか",
-        "meaning": "optimization"
-      }
-    ],
+    "translation": null,
     "questions": [
       {
         "question": "社会構造の変化の原因は何ですか？",
         "options": [
-          "技術革新",
-          "デジタル化",
-          "両方"
+          null
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "question": "企業は何を確立する必要がありますか？",
         "options": [
-          "従来のモデル",
-          "新たな戦略",
-          "古いシステム"
+          null
         ],
-        "correct": 1
+        "correct": 0
       }
     ],
-    "audioUrl": "/audio/reading/f1c50cce.mp3"
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": "/audio/reading/465f5f9b.mp3",
+    "language_id": 1
+  },
+  {
+    "id": 5,
+    "title": "経済成長と社会",
+    "level": "N2",
+    "framework": null,
+    "text": "経済成長を促進することは重要ですが、同時に社会の安定を維持する必要があります。企業は利益を追求するだけでなく、社会的責任を果たすべきです。持続可能な発展を実現するためには、経済と環境のバランスを取ることが不可欠です。",
+    "translation": null,
+    "questions": [
+      {
+        "question": "企業は何をすべきですか？",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "持続可能な発展のために何が必要ですか？",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": "/audio/reading/21178b7b.mp3",
+    "language_id": 1
+  },
+  {
+    "id": 4,
+    "title": "環境問題",
+    "level": "N3",
+    "framework": null,
+    "text": "近年、環境問題が深刻化しています。地球温暖化の影響で、気候変動が起きています。私たちは環境を守るために、リサイクルを促進したり、エネルギーを節約したりする必要があります。一人一人の努力が大切です。",
+    "translation": null,
+    "questions": [
+      {
+        "question": "環境問題の原因は何ですか？",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "何をする必要がありますか？",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": "/audio/reading/13fa35fd.mp3",
+    "language_id": 1
+  },
+  {
+    "id": 3,
+    "title": "新しい経験",
+    "level": "N4",
+    "framework": null,
+    "text": "先週、私は初めて日本料理を作りました。レシピを読んで、材料を準備しました。料理は難しかったですが、とても楽しかったです。友達に食べてもらって、美味しいと言ってもらいました。今度はもっと難しい料理に挑戦したいです。",
+    "translation": null,
+    "questions": [
+      {
+        "question": "何を作りましたか？",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "料理はどうでしたか？",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": "/audio/reading/cc9e4692.mp3",
+    "language_id": 1
+  },
+  {
+    "id": 1,
+    "title": "私の一日",
+    "level": "N5",
+    "framework": null,
+    "text": "私は毎朝七時に起きます。朝ごはんを食べて、学校に行きます。学校で日本語を勉強します。午後三時に家に帰ります。家で本を読みます。夜ごはんを食べて、テレビを見ます。十時に寝ます。",
+    "translation": null,
+    "questions": [
+      {
+        "question": "何時に起きますか？",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "学校で何を勉強しますか？",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "何時に寝ますか？",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": "/audio/reading/eccb41e7.mp3",
+    "language_id": 1
+  },
+  {
+    "id": 2,
+    "title": "私の家族",
+    "level": "N5",
+    "framework": null,
+    "text": "私の家族は四人です。父と母と兄と私です。父は会社員です。母は先生です。兄は大学生です。私は高校生です。家族はみんな日本語を話します。",
+    "translation": null,
+    "questions": [
+      {
+        "question": "家族は何人ですか？",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "父の仕事は何ですか？",
+        "options": [
+          null
+        ],
+        "correct": 0
+      },
+      {
+        "question": "兄は何ですか？",
+        "options": [
+          null
+        ],
+        "correct": 0
+      }
+    ],
+    "vocabulary_ids": null,
+    "grammar_ids": null,
+    "audioUrl": "/audio/reading/a9819f6b.mp3",
+    "language_id": 1
   }
 ]

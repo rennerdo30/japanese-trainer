@@ -13,7 +13,54 @@ import {
   UserProgress,
 } from './prerequisites';
 import { ReviewQueue, SRSSettings, DEFAULT_SRS_SETTINGS } from './reviewQueue';
-import learningPathsData from '@/data/learning-paths.json';
+// Dynamic paths data storage - loaded from per-language learning-paths.json
+let dynamicPathsData: {
+  paths: Record<string, LinearPath | TopicTrack>;
+  pathOrder: string[];
+} | null = null;
+
+// Empty paths data for when no curriculum is available
+const EMPTY_PATHS_DATA = {
+  paths: {} as Record<string, LinearPath | TopicTrack>,
+  pathOrder: [] as string[],
+};
+
+/**
+ * Set dynamic paths data from AI-generated curriculum.
+ * This is called by useRecommendations when dynamic paths are loaded.
+ */
+export function setDynamicPathsData(data: {
+  paths: Record<string, unknown>;
+  pathOrder: string[];
+} | null): void {
+  if (data) {
+    dynamicPathsData = data as {
+      paths: Record<string, LinearPath | TopicTrack>;
+      pathOrder: string[];
+    };
+  } else {
+    dynamicPathsData = null;
+  }
+}
+
+/**
+ * Get the current paths data.
+ * Returns empty data structure if no dynamic data is loaded.
+ * AI-generated curriculum must be exported before paths will appear.
+ */
+function getPathsData(): {
+  paths: Record<string, LinearPath | TopicTrack>;
+  pathOrder: string[];
+} {
+  return dynamicPathsData || EMPTY_PATHS_DATA;
+}
+
+/**
+ * Check if paths data is available for the current language.
+ */
+export function hasPathsData(): boolean {
+  return dynamicPathsData !== null && Object.keys(dynamicPathsData.paths).length > 0;
+}
 
 // Types
 export type RecommendationType = 'review' | 'new-lesson' | 'path-milestone' | 'weak-area' | 'topic-track' | 'daily-goal';
@@ -123,11 +170,6 @@ interface LinearPath {
   milestones: PathMilestone[];
 }
 
-const pathsData = learningPathsData as {
-  paths: Record<string, LinearPath | TopicTrack>;
-  pathOrder: string[];
-};
-
 // Constants
 const REVIEW_PRIORITY_THRESHOLD = 20; // Prioritize reviews when more than this many are due
 const WEAK_AREA_THRESHOLD = 0.5; // 50% mastery considered weak
@@ -225,7 +267,7 @@ export function getLinearPathProgress(
   pathId: string,
   userProgress: UserProgress
 ): PathProgress | null {
-  const path = pathsData.paths[pathId];
+  const path = getPathsData().paths[pathId];
   if (!path || path.type !== 'linear') return null;
 
   const linearPath = path as LinearPath;
@@ -310,7 +352,7 @@ export function getTopicTrackProgress(
   trackId: string,
   userProgress: UserProgress
 ): PathProgress | null {
-  const track = pathsData.paths[trackId];
+  const track = getPathsData().paths[trackId];
   if (!track || track.type !== 'topic') return null;
 
   const topicTrack = track as TopicTrack;
@@ -530,7 +572,7 @@ export function getRecommendations(
   }
 
   // 4. TOPIC TRACKS - Recommend relevant themed paths (filtered by language)
-  const topicTracks = Object.values(pathsData.paths).filter(
+  const topicTracks = Object.values(getPathsData().paths).filter(
     (p): p is TopicTrack => p.type === 'topic' &&
       (!targetLanguage || p.language === targetLanguage)
   );
@@ -609,8 +651,8 @@ export function getAllPathsWithProgress(
 ): Array<PathProgress & { description: string; difficulty: string; tags?: string[] }> {
   const paths: Array<PathProgress & { description: string; difficulty: string; tags?: string[] }> = [];
 
-  for (const pathId of pathsData.pathOrder) {
-    const pathData = pathsData.paths[pathId];
+  for (const pathId of getPathsData().pathOrder) {
+    const pathData = getPathsData().paths[pathId];
     if (!pathData) continue;
 
     // Filter by language if specified
@@ -652,7 +694,7 @@ export function checkTopicTrackPrerequisites(
   trackId: string,
   userProgress: UserProgress
 ): { met: boolean; missing: string[] } {
-  const track = pathsData.paths[trackId];
+  const track = getPathsData().paths[trackId];
   if (!track || track.type !== 'topic') return { met: true, missing: [] };
 
   const topicTrack = track as TopicTrack;
@@ -663,13 +705,13 @@ export function checkTopicTrackPrerequisites(
     // Check if the prerequisite milestone is complete
     const jlptProgress = getLinearPathProgress('jlpt-mastery', userProgress);
     if (jlptProgress) {
-      const completedMilestones = (pathsData.paths['jlpt-mastery'] as LinearPath)
+      const completedMilestones = (getPathsData().paths['jlpt-mastery'] as LinearPath)
         .milestones
         .slice(0, jlptProgress.completedMilestones)
         .map(m => m.id);
 
       if (!completedMilestones.includes(prereqId)) {
-        const milestone = (pathsData.paths['jlpt-mastery'] as LinearPath)
+        const milestone = (getPathsData().paths['jlpt-mastery'] as LinearPath)
           .milestones
           .find(m => m.id === prereqId);
         if (milestone) {

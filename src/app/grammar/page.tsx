@@ -1,22 +1,28 @@
 'use client'
 
 import { useState, useEffect, useCallback, useMemo, useRef } from 'react';
+import Link from 'next/link';
+import { FiBook, FiList, FiCheck, FiClock } from 'react-icons/fi';
+import { IoCheckmark } from 'react-icons/io5';
 import Navigation from '@/components/common/Navigation';
 import StatsPanel from '@/components/common/StatsPanel';
+import TabSelector from '@/components/common/TabSelector';
 import LanguageContentGuard from '@/components/common/LanguageContentGuard';
 import ErrorBoundary from '@/components/common/ErrorBoundary';
-import { Container, Card, Text, Button, Chip, Animated, OptionsPanel } from '@/components/ui';
+import { Container, Card, Text, Button, Chip, Animated, OptionsPanel, Input } from '@/components/ui';
 import optionsStyles from '@/components/ui/OptionsPanel.module.css';
 import { useProgressContext } from '@/context/ProgressProvider';
 import { useLanguage } from '@/context/LanguageProvider';
 import { useTargetLanguage } from '@/hooks/useTargetLanguage';
+import { useContentTranslation } from '@/hooks/useContentTranslation';
+import { useLearnedContent } from '@/hooks/useLearnedContent';
 import { GrammarItem, Filter } from '@/types';
-import { IoCheckmark } from 'react-icons/io5';
 import styles from './grammar.module.css';
+
+type TabType = 'myCards' | 'all';
 
 // Helper to get example text - handles different language data structures
 function getExampleText(example: Record<string, unknown>): { primary: string; secondary: string } {
-    // Try language-specific fields first, then fall back to generic
     const primary = (example.japanese || example.korean || example.chinese ||
                     example.spanish || example.german || example.italian ||
                     example.english || '') as string;
@@ -28,6 +34,19 @@ export default function GrammarPage() {
     const { getModuleData: getModule, updateModuleStats: updateStats } = useProgressContext();
     const { t } = useLanguage();
     const { targetLanguage, levels, getDataUrl } = useTargetLanguage();
+    const { getText, getQuestion } = useContentTranslation();
+    const {
+        isContentLearned,
+        getLearnedByType,
+        stats: learnedStats,
+        dueCount,
+        isReady: learnedReady
+    } = useLearnedContent();
+
+    // Tab state
+    const [activeTab, setActiveTab] = useState<TabType>('myCards');
+
+    // Data state
     const [grammarPoints, setGrammarPoints] = useState<GrammarItem[]>([]);
     const [currentGrammar, setCurrentGrammar] = useState<GrammarItem | null>(null);
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -41,7 +60,10 @@ export default function GrammarPage() {
         pointsMastered: 0
     });
 
-    // Use ref to track current stats values and prevent stale closures
+    // Browse mode state
+    const [searchQuery, setSearchQuery] = useState('');
+    const [selectedLevel, setSelectedLevel] = useState<string | null>(null);
+
     const statsRef = useRef(stats);
     useEffect(() => {
         statsRef.current = stats;
@@ -55,18 +77,18 @@ export default function GrammarPage() {
     // Update filters when language changes
     useEffect(() => {
         const newFilters: Record<string, Filter> = {};
-        displayLevels.forEach((level, index) => {
+        displayLevels.forEach((level) => {
             newFilters[level.id] = {
                 id: level.id,
                 label: level.name,
-                checked: true, // Both levels checked by default for grammar
+                checked: true,
                 type: 'checkbox'
             };
         });
         setFilters(newFilters);
     }, [targetLanguage, displayLevels]);
 
-    // Load grammar data when language changes (with AbortController to prevent race conditions)
+    // Load grammar data
     useEffect(() => {
         const abortController = new AbortController();
 
@@ -77,7 +99,6 @@ export default function GrammarPage() {
                 });
                 const data = await response.json();
 
-                // Only update state if this request wasn't aborted
                 if (!abortController.signal.aborted) {
                     setGrammarPoints(data);
                     setCurrentIndex(0);
@@ -88,7 +109,6 @@ export default function GrammarPage() {
                     }
                 }
             } catch (error) {
-                // Ignore abort errors - they're expected when switching languages rapidly
                 if (error instanceof Error && error.name === 'AbortError') {
                     return;
                 }
@@ -102,12 +122,12 @@ export default function GrammarPage() {
 
         loadData();
 
-        // Cleanup: abort fetch if language changes before fetch completes
         return () => {
             abortController.abort();
         };
     }, [targetLanguage, getDataUrl]);
 
+    // Load stats
     useEffect(() => {
         const moduleData = getModule('grammar');
         if (moduleData?.stats) {
@@ -123,6 +143,53 @@ export default function GrammarPage() {
         }
     }, [getModule]);
 
+    // Get learned grammar items
+    const learnedGrammar = useMemo(() => {
+        return getLearnedByType('grammar');
+    }, [getLearnedByType]);
+
+    // Get grammar items that match learned content
+    const myGrammarItems = useMemo(() => {
+        const learnedIds = new Set(learnedGrammar.map(l => l.contentId));
+        return grammarPoints.filter(g => {
+            const grammarId = `${targetLanguage}-grammar-${g.id}`;
+            return learnedIds.has(grammarId) || isContentLearned(grammarId);
+        });
+    }, [grammarPoints, learnedGrammar, targetLanguage, isContentLearned]);
+
+    // Filtered grammar for browse view
+    const filteredGrammar = useMemo(() => {
+        let items = grammarPoints;
+
+        if (searchQuery) {
+            const query = searchQuery.toLowerCase();
+            items = items.filter(g =>
+                g.title?.toLowerCase().includes(query) ||
+                g.explanation?.toLowerCase().includes(query)
+            );
+        }
+
+        if (selectedLevel) {
+            items = items.filter(g => g.jlpt === selectedLevel);
+        }
+
+        return items.slice(0, 30);
+    }, [grammarPoints, searchQuery, selectedLevel]);
+
+    // Tab configuration
+    const tabs = useMemo(() => [
+        {
+            id: 'myCards' as TabType,
+            label: 'My Grammar',
+            badge: myGrammarItems.length > 0 ? myGrammarItems.length : undefined
+        },
+        {
+            id: 'all' as TabType,
+            label: 'All Grammar',
+            badge: grammarPoints.length
+        },
+    ], [myGrammarItems.length, grammarPoints.length]);
+
     const handleFilterChange = useCallback((id: string, checked: boolean) => {
         setFilters(prev => ({ ...prev, [id]: { ...prev[id], checked } }));
     }, []);
@@ -133,14 +200,11 @@ export default function GrammarPage() {
         setShowFeedback(true);
 
         const isCorrect = index === currentGrammar.exercises[0].correct;
-
-        // Use ref to get current stats values (prevents stale closure)
         const currentStats = statsRef.current;
         const newCorrect = currentStats.correct + (isCorrect ? 1 : 0);
         const newTotal = currentStats.total + 1;
         const newStreak = isCorrect ? currentStats.streak + 1 : 0;
         const newBestStreak = Math.max(currentStats.bestStreak, newStreak);
-        // Increment pointsMastered when a grammar point is answered correctly
         const newPointsMastered = isCorrect
             ? currentStats.pointsMastered + 1
             : currentStats.pointsMastered;
@@ -153,122 +217,272 @@ export default function GrammarPage() {
             pointsMastered: newPointsMastered
         };
 
-        // Update ref immediately for fast consecutive answers
         statsRef.current = newStats;
         setStats(newStats);
         updateStats('grammar', newStats);
     }, [showFeedback, currentGrammar, updateStats]);
 
     const nextGrammar = useCallback(() => {
-        if (grammarPoints.length === 0) return;
-        const nextIndex = (currentIndex + 1) % grammarPoints.length;
+        const availableGrammar = activeTab === 'myCards' && myGrammarItems.length > 0
+            ? myGrammarItems
+            : grammarPoints;
+
+        if (availableGrammar.length === 0) return;
+
+        const nextIndex = (currentIndex + 1) % availableGrammar.length;
         setCurrentIndex(nextIndex);
-        setCurrentGrammar(grammarPoints[nextIndex]);
+        setCurrentGrammar(availableGrammar[nextIndex]);
         setSelectedAnswer(null);
         setShowFeedback(false);
-    }, [currentIndex, grammarPoints]);
+    }, [currentIndex, grammarPoints, myGrammarItems, activeTab]);
 
-    if (!currentGrammar) {
+    // Reset to first grammar when tab changes
+    useEffect(() => {
+        const availableGrammar = activeTab === 'myCards' && myGrammarItems.length > 0
+            ? myGrammarItems
+            : grammarPoints;
+
+        if (availableGrammar.length > 0) {
+            setCurrentIndex(0);
+            setCurrentGrammar(availableGrammar[0]);
+            setSelectedAnswer(null);
+            setShowFeedback(false);
+        }
+    }, [activeTab, myGrammarItems, grammarPoints]);
+
+    // Render browse view
+    const renderBrowseView = () => (
+        <>
+            <div className={styles.filterSection}>
+                <Input
+                    type="text"
+                    placeholder="Search grammar..."
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                    className={styles.searchInput}
+                />
+                {displayLevels.map(level => (
+                    <Chip
+                        key={level.id}
+                        id={level.id}
+                        label={level.name}
+                        checked={selectedLevel === level.id}
+                        onChange={(checked) => setSelectedLevel(checked ? level.id : null)}
+                    />
+                ))}
+            </div>
+
+            <div className={styles.browseGrid}>
+                {filteredGrammar.map((grammar) => {
+                    const grammarId = `${targetLanguage}-grammar-${grammar.id}`;
+                    const isLearned = isContentLearned(grammarId);
+
+                    return (
+                        <div
+                            key={grammar.id}
+                            className={`${styles.grammarBrowseCard} ${isLearned ? styles.learned : ''}`}
+                        >
+                            <div className={styles.grammarHeader}>
+                                <div className={styles.grammarPointTitle}>{grammar.title}</div>
+                                <span className={styles.grammarLevel}>
+                                    {grammar.jlpt || 'N/A'}
+                                </span>
+                            </div>
+                            <div className={styles.grammarExplanation}>
+                                {getText(grammar.explanations, grammar.explanation)}
+                            </div>
+                            <div className={styles.grammarActions}>
+                                {isLearned ? (
+                                    <span className={styles.learnedBadge}>
+                                        <FiCheck size={12} /> Learned
+                                    </span>
+                                ) : (
+                                    <Link href="/paths">
+                                        <Button variant="ghost" size="sm">
+                                            <FiBook size={14} /> Learn in Lessons
+                                        </Button>
+                                    </Link>
+                                )}
+                            </div>
+                        </div>
+                    );
+                })}
+            </div>
+
+            {filteredGrammar.length === 0 && (
+                <div className={styles.emptyState}>
+                    <FiList className={styles.emptyIcon} />
+                    <Text variant="h3">No grammar found</Text>
+                    <Text color="muted">Try adjusting your search or filters</Text>
+                </div>
+            )}
+        </>
+    );
+
+    // Render practice view
+    const renderPracticeView = () => {
+        // No learned grammar yet
+        if (myGrammarItems.length === 0 && learnedReady) {
+            return (
+                <div className={styles.emptyState}>
+                    <FiBook className={styles.emptyIcon} />
+                    <Text variant="h3">No grammar cards yet</Text>
+                    <Text color="muted">Complete lessons to add grammar to your deck</Text>
+                    <Link href="/paths">
+                        <Button variant="primary" className="mt-4">
+                            Go to Lessons
+                        </Button>
+                    </Link>
+                </div>
+            );
+        }
+
+        if (!currentGrammar) {
+            return (
+                <div className={styles.emptyState}>
+                    <Text variant="h3">{t('grammar.noGrammar')}</Text>
+                    <Text color="muted">Complete more lessons to unlock grammar practice</Text>
+                </div>
+            );
+        }
+
+        const exercise = currentGrammar.exercises?.[0];
+
         return (
-            <ErrorBoundary>
-            <LanguageContentGuard moduleName="grammar">
-                <Container variant="centered">
-                    <Navigation />
-                    <Text>{t('grammar.noGrammar')}</Text>
-                </Container>
-            </LanguageContentGuard>
-            </ErrorBoundary>
-        );
-    }
+            <>
+                <OptionsPanel>
+                    <div className={optionsStyles.toggleContainer}>
+                        <Text variant="label" color="muted">Level</Text>
+                        <div className={optionsStyles.group}>
+                            {Object.values(filters).map((filter) => (
+                                <Chip
+                                    key={filter.id}
+                                    id={filter.id}
+                                    label={filter.label}
+                                    checked={filter.checked}
+                                    onChange={(checked) => handleFilterChange(filter.id, checked)}
+                                />
+                            ))}
+                        </div>
+                    </div>
+                </OptionsPanel>
 
-    const exercise = currentGrammar.exercises?.[0];
+                <Card className={styles.grammarCard} variant="glass">
+                    <Text variant="h2" color="gold" className={styles.grammarTitle}>
+                        {currentGrammar.title}
+                    </Text>
+                    <div className={styles.explanationSection}>
+                        <Text className={styles.explanationText}>
+                            {getText(currentGrammar.explanations, currentGrammar.explanation)}
+                        </Text>
+                    </div>
+
+                    <div className={styles.examplesList}>
+                        {currentGrammar.examples.slice(0, 2).map((example, i) => {
+                            const { primary, secondary } = getExampleText(example as Record<string, unknown>);
+                            return (
+                                <div key={i} className={styles.exampleItem}>
+                                    <Text color="primary" className={styles.exampleJa}>{primary}</Text>
+                                    <Text color="secondary" className={styles.exampleEn}>{secondary}</Text>
+                                </div>
+                            );
+                        })}
+                    </div>
+                </Card>
+
+                {exercise && (
+                    <Card className={styles.exerciseSection} variant="glass">
+                        <Text variant="h3" className={styles.exerciseQuestion}>
+                            {getQuestion(exercise.question, exercise.questionTranslations)}
+                        </Text>
+                        <div className={styles.optionsGrid}>
+                            {exercise.options.map((option, i) => (
+                                <Button
+                                    key={i}
+                                    variant={selectedAnswer === i ? (selectedAnswer === exercise.correct ? 'success' : 'danger') : 'ghost'}
+                                    onClick={() => handleAnswerSelect(i)}
+                                    disabled={showFeedback}
+                                    className={styles.optionButton}
+                                >
+                                    {option}
+                                </Button>
+                            ))}
+                        </div>
+                        {showFeedback && (
+                            <Animated animation="fadeInUp">
+                                <Text
+                                    variant="h3"
+                                    color={selectedAnswer === exercise.correct ? 'success' : 'error'}
+                                    className={styles.exerciseFeedback}
+                                >
+                                    {selectedAnswer === exercise.correct
+                                        ? <>{t('common.correct')}! <IoCheckmark style={{ display: 'inline-block', verticalAlign: 'middle' }} /></>
+                                        : `${t('common.incorrect')}. ${t('common.correct')}: ${exercise.options[exercise.correct]}`}
+                                </Text>
+                                <Button onClick={nextGrammar} className="mt-4" fullWidth>
+                                    {t('common.next')}
+                                </Button>
+                            </Animated>
+                        )}
+                    </Card>
+                )}
+
+                <StatsPanel correct={stats.correct} total={stats.total} streak={stats.streak} />
+            </>
+        );
+    };
 
     return (
         <ErrorBoundary>
-        <LanguageContentGuard moduleName="grammar">
-            <Container variant="centered" streak={stats.streak}>
-                <Navigation />
+            <LanguageContentGuard moduleName="grammar">
+                <Container variant="centered" streak={activeTab === 'myCards' ? stats.streak : 0}>
+                    <Navigation />
 
-            <OptionsPanel>
-                <div className={optionsStyles.toggleContainer}>
-                    <Text variant="label" color="muted">Level</Text>
-                    <div className={optionsStyles.group}>
-                        {Object.values(filters).map((filter) => (
-                            <Chip
-                                key={filter.id}
-                                id={filter.id}
-                                label={filter.label}
-                                checked={filter.checked}
-                                onChange={(checked) => handleFilterChange(filter.id, checked)}
-                            />
-                        ))}
+                    {/* Page Header */}
+                    <div className={styles.pageHeader}>
+                        <Text variant="h1">Grammar</Text>
+                        {dueCount > 0 && (
+                            <Button variant="primary" size="sm" className={styles.reviewButton}>
+                                <FiClock />
+                                Review
+                                <span className={styles.reviewCount}>{dueCount}</span>
+                            </Button>
+                        )}
                     </div>
-                </div>
-            </OptionsPanel>
 
-            <Card className={styles.grammarCard} variant="glass">
-                <Text variant="h2" color="gold" className={styles.grammarTitle}>
-                    {currentGrammar.title}
-                </Text>
-                <div className={styles.explanationSection}>
-                    <Text className={styles.explanationText}>
-                        {currentGrammar.explanations?.en || currentGrammar.explanation}
-                    </Text>
-                </div>
-
-                <div className={styles.examplesList}>
-                    {currentGrammar.examples.slice(0, 2).map((example, i) => {
-                        const { primary, secondary } = getExampleText(example as Record<string, unknown>);
-                        return (
-                            <div key={i} className={styles.exampleItem}>
-                                <Text color="primary" className={styles.exampleJa}>{primary}</Text>
-                                <Text color="secondary" className={styles.exampleEn}>{secondary}</Text>
+                    {/* Stats Row */}
+                    {activeTab === 'myCards' && (
+                        <div className={styles.statsRow}>
+                            <div className={styles.statCard}>
+                                <span className={styles.statValue}>
+                                    {(learnedStats.byType as Record<string, number>)?.grammar || myGrammarItems.length}
+                                </span>
+                                <span className={styles.statLabel}>Points Learned</span>
                             </div>
-                        );
-                    })}
-                </div>
-            </Card>
-
-            {exercise && (
-                <Card className={styles.exerciseSection} variant="glass">
-                    <Text variant="h3" className={styles.exerciseQuestion}>
-                        {exercise.question}
-                    </Text>
-                    <div className={styles.optionsGrid}>
-                        {exercise.options.map((option, i) => (
-                            <Button
-                                key={i}
-                                variant={selectedAnswer === i ? (selectedAnswer === exercise.correct ? 'success' : 'danger') : 'ghost'}
-                                onClick={() => handleAnswerSelect(i)}
-                                disabled={showFeedback}
-                                className={styles.optionButton}
-                            >
-                                {option}
-                            </Button>
-                        ))}
-                    </div>
-                    {showFeedback && (
-                        <Animated animation="fadeInUp">
-                            <Text
-                                variant="h3"
-                                color={selectedAnswer === exercise.correct ? 'success' : 'error'}
-                                className={styles.exerciseFeedback}
-                            >
-                                {selectedAnswer === exercise.correct
-                                    ? <>{t('common.correct')}! <IoCheckmark style={{ display: 'inline-block', verticalAlign: 'middle' }} /></>
-                                    : `${t('common.incorrect')}. ${t('common.correct')}: ${exercise.options[exercise.correct]}`}
-                            </Text>
-                            <Button onClick={nextGrammar} className="mt-4" fullWidth>
-                                {t('common.next')}
-                            </Button>
-                        </Animated>
+                            <div className={styles.statCard}>
+                                <span className={styles.statValue}>{stats.pointsMastered}</span>
+                                <span className={styles.statLabel}>Mastered</span>
+                            </div>
+                            <div className={styles.statCard}>
+                                <span className={styles.statValue}>
+                                    {stats.total > 0 ? Math.round((stats.correct / stats.total) * 100) : 0}%
+                                </span>
+                                <span className={styles.statLabel}>Accuracy</span>
+                            </div>
+                        </div>
                     )}
-                </Card>
-            )}
 
-            <StatsPanel correct={stats.correct} total={stats.total} streak={stats.streak} />
-            </Container>
-        </LanguageContentGuard>
+                    {/* Tabs */}
+                    <TabSelector
+                        tabs={tabs}
+                        activeTab={activeTab}
+                        onTabChange={(tab) => setActiveTab(tab as TabType)}
+                    />
+
+                    {/* Tab Content */}
+                    {activeTab === 'myCards' ? renderPracticeView() : renderBrowseView()}
+                </Container>
+            </LanguageContentGuard>
         </ErrorBoundary>
     );
 }

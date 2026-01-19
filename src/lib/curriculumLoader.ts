@@ -27,6 +27,39 @@ const lessonsLoadingPromises = new Map<string, Promise<CurriculumLesson[]>>();
 // Allowed language codes whitelist to prevent path traversal attacks
 const ALLOWED_LANGUAGE_CODES = ['ja', 'ko', 'zh', 'es', 'de', 'en', 'it', 'fr', 'pt', 'hi', 'ar', 'ru'] as const;
 
+// AI-generated lesson format (from ai-lessons.json)
+interface AILesson {
+  id: number;
+  slug: string;
+  name: string;
+  type?: string;
+  content: {
+    description?: string;
+    objectives?: string[];
+    vocabulary?: string[];
+    grammar?: string[];
+  };
+  prerequisite_slug?: string;
+  estimated_minutes?: number;
+}
+
+/**
+ * Transform AI-generated lesson format to CurriculumLesson format
+ */
+function transformAILesson(aiLesson: AILesson): CurriculumLesson {
+  return {
+    id: aiLesson.slug,
+    title: aiLesson.name,
+    description: aiLesson.content?.description || '',
+    content: {
+      topics: aiLesson.content?.objectives || [],
+      vocab_focus: aiLesson.content?.vocabulary || [],
+      grammar_focus: aiLesson.content?.grammar || [],
+    },
+    estimatedMinutes: aiLesson.estimated_minutes,
+  };
+}
+
 /**
  * Validate that a language code is in the allowed whitelist
  */
@@ -183,7 +216,7 @@ export async function loadCurriculum(langCode: string): Promise<Curriculum | nul
 }
 
 /**
- * Load lessons data for a language from lessons.json
+ * Load lessons data for a language from lessons.json and ai-lessons.json
  * Uses request deduplication to prevent duplicate concurrent requests.
  *
  * @param langCode - Language code (e.g., 'es', 'ja')
@@ -208,24 +241,38 @@ export async function loadLessons(langCode: string): Promise<CurriculumLesson[]>
 
   // Create and store the loading promise
   const loadPromise = (async (): Promise<CurriculumLesson[]> => {
+    const allLessons: CurriculumLesson[] = [];
+
     try {
-      const response = await fetch(`/data/${langCode}/lessons.json`);
-
-      if (!response.ok) {
-        lessonsCache.set(langCode, []);
-        return [];
+      // Try to load legacy lessons.json
+      const legacyResponse = await fetch(`/data/${langCode}/lessons.json`);
+      if (legacyResponse.ok) {
+        const legacyLessons = await legacyResponse.json() as CurriculumLesson[];
+        if (Array.isArray(legacyLessons)) {
+          allLessons.push(...legacyLessons);
+        }
       }
-
-      const lessons = await response.json() as CurriculumLesson[];
-      lessonsCache.set(langCode, lessons);
-      return lessons;
     } catch (error) {
-      console.error(`Failed to load lessons for ${langCode}:`, error);
-      lessonsCache.set(langCode, []);
-      return [];
-    } finally {
-      lessonsLoadingPromises.delete(langCode);
+      console.warn(`Failed to load legacy lessons for ${langCode}:`, error);
     }
+
+    try {
+      // Try to load AI-generated lessons
+      const aiResponse = await fetch(`/data/${langCode}/ai-lessons.json`);
+      if (aiResponse.ok) {
+        const aiLessons = await aiResponse.json() as AILesson[];
+        if (Array.isArray(aiLessons)) {
+          // Transform AI lessons to CurriculumLesson format
+          const transformedLessons = aiLessons.map(transformAILesson);
+          allLessons.push(...transformedLessons);
+        }
+      }
+    } catch (error) {
+      console.warn(`Failed to load AI lessons for ${langCode}:`, error);
+    }
+
+    lessonsCache.set(langCode, allLessons);
+    return allLessons;
   })();
 
   lessonsLoadingPromises.set(langCode, loadPromise);

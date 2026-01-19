@@ -1,14 +1,15 @@
 'use client';
 
 import { useParams, useRouter } from 'next/navigation';
-import { useMemo } from 'react';
+import { useMemo, useState, useEffect } from 'react';
 import Link from 'next/link';
 import Navigation from '@/components/common/Navigation';
 import { Container, Card, Text, Button, Animated } from '@/components/ui';
 import { useRecommendations } from '@/hooks/useRecommendations';
 import { usePathProgress } from '@/hooks/usePathProgress';
 import { useLanguage } from '@/context/LanguageProvider';
-import learningPathsData from '@/data/learning-paths.json';
+import { useTargetLanguage } from '@/hooks/useTargetLanguage';
+import { loadLearningPathsData, LearningPathsData, LearningPath } from '@/lib/dataLoader';
 import {
   IoArrowBack,
   IoCheckmarkCircle,
@@ -57,6 +58,7 @@ interface PathMilestone {
     value?: number;
   };
   estimatedHours: number;
+  lessons?: string[];
 }
 
 interface TopicTrack {
@@ -87,21 +89,32 @@ interface LinearPath {
   estimatedHours: number;
 }
 
-const pathsData = learningPathsData as {
-  paths: Record<string, LinearPath | TopicTrack>;
-  pathOrder: string[];
-};
-
 export default function PathDetailContent() {
   const params = useParams();
   const router = useRouter();
   const pathId = params.pathId as string;
 
   const { t } = useLanguage();
-  const { getPathProgress } = useRecommendations();
+  const { targetLanguage } = useTargetLanguage();
+  const { getPathProgress, isLoading: recsLoading } = useRecommendations();
   const { isEnrolled, enrollInPath, unenrollFromPath, checkPrerequisites } = usePathProgress();
 
-  const pathData = pathsData.paths[pathId];
+  // Load path data dynamically
+  const [pathsData, setPathsData] = useState<LearningPathsData | null>(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    async function loadPaths() {
+      if (!targetLanguage) return;
+      setLoading(true);
+      const data = await loadLearningPathsData(targetLanguage);
+      setPathsData(data);
+      setLoading(false);
+    }
+    loadPaths();
+  }, [targetLanguage]);
+
+  const pathData = pathsData?.paths[pathId] as LinearPath | TopicTrack | undefined;
   const progress = getPathProgress(pathId);
   const enrolled = isEnrolled(pathId);
 
@@ -113,13 +126,24 @@ export default function PathDetailContent() {
     return { met: true, missing: [] };
   }, [pathId, pathData, checkPrerequisites]);
 
+  if (loading || recsLoading) {
+    return (
+      <Container variant="centered">
+        <Navigation />
+        <Card variant="glass" className={styles.notFound}>
+          <Text variant="body" color="muted">Loading path...</Text>
+        </Card>
+      </Container>
+    );
+  }
+
   if (!pathData) {
     return (
       <Container variant="centered">
         <Navigation />
         <Card variant="glass" className={styles.notFound}>
           <Text variant="h2">Path Not Found</Text>
-          <Text color="muted">The learning path you&apos;re looking for doesn&apos;t exist.</Text>
+          <Text color="muted">The learning path you&apos;re looking for doesn&apos;t exist or hasn&apos;t been generated yet.</Text>
           <Button variant="ghost" onClick={() => router.push('/paths')}>
             <IoArrowBack /> Back to Paths
           </Button>
@@ -310,14 +334,14 @@ export default function PathDetailContent() {
                           />
                         </div>
                         <div className={styles.milestoneActions}>
-                          <Link href={`/paths/${pathId}/${milestone.id}`}>
+                          <Link href={`/paths/${pathId}/${milestone.lessons?.[0] || milestone.id}`}>
                             <Button size="sm">
                               <IoPlay /> Start Lesson
                             </Button>
                           </Link>
-                          <Link href={`/${milestone.module}`}>
+                          <Link href="/review">
                             <Button size="sm" variant="ghost">
-                              Practice {milestone.module}
+                              Review Progress
                             </Button>
                           </Link>
                         </div>

@@ -1,0 +1,2572 @@
+[
+  {
+    "id": 98,
+    "word": "acqua",
+    "meaning": "water",
+    "meanings": null,
+    "reading": "acqua",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 95,
+    "word": "amico",
+    "meaning": "friend",
+    "meanings": null,
+    "reading": "amico",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "people",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 94,
+    "word": "amore",
+    "meaning": "love",
+    "meanings": null,
+    "reading": "amore",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "emotions",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 87,
+    "word": "andare",
+    "meaning": "to go",
+    "meanings": null,
+    "reading": "andare",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "movement",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 108,
+    "word": "bello",
+    "meaning": "beautiful, nice",
+    "meanings": null,
+    "reading": "bello",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 86,
+    "word": "bere",
+    "meaning": "to drink",
+    "meanings": null,
+    "reading": "bere",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 105,
+    "word": "buono",
+    "meaning": "good",
+    "meanings": null,
+    "reading": "buono",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 97,
+    "word": "casa",
+    "meaning": "house, home",
+    "meanings": null,
+    "reading": "casa",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "places",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 109,
+    "word": "ciao",
+    "meaning": "hello, goodbye",
+    "meanings": null,
+    "reading": "ciao",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "interjection",
+    "tags": [
+      "greetings",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 103,
+    "word": "domani",
+    "meaning": "tomorrow",
+    "meanings": null,
+    "reading": "domani",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 101,
+    "word": "donna",
+    "meaning": "woman",
+    "meanings": null,
+    "reading": "donna",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "people",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 96,
+    "word": "famiglia",
+    "meaning": "family",
+    "meanings": null,
+    "reading": "famiglia",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "people",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 106,
+    "word": "grande",
+    "meaning": "big, great",
+    "meanings": null,
+    "reading": "grande",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 110,
+    "word": "grazie",
+    "meaning": "thank you",
+    "meanings": null,
+    "reading": "grazie",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "interjection",
+    "tags": [
+      "polite",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 104,
+    "word": "ieri",
+    "meaning": "yesterday",
+    "meanings": null,
+    "reading": "ieri",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 114,
+    "word": "imparare",
+    "meaning": "to learn",
+    "meanings": null,
+    "reading": "imparare",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "education",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 112,
+    "word": "lavoro",
+    "meaning": "work, job",
+    "meanings": null,
+    "reading": "lavoro",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "work",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 92,
+    "word": "leggere",
+    "meaning": "to read",
+    "meanings": null,
+    "reading": "leggere",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "study",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 85,
+    "word": "mangiare",
+    "meaning": "to eat",
+    "meanings": null,
+    "reading": "mangiare",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 102,
+    "word": "oggi",
+    "meaning": "today",
+    "meanings": null,
+    "reading": "oggi",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 99,
+    "word": "pane",
+    "meaning": "bread",
+    "meanings": null,
+    "reading": "pane",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 91,
+    "word": "parlare",
+    "meaning": "to speak",
+    "meanings": null,
+    "reading": "parlare",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "communication",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 107,
+    "word": "piccolo",
+    "meaning": "small, little",
+    "meanings": null,
+    "reading": "piccolo",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "descriptive",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 93,
+    "word": "scrivere",
+    "meaning": "to write",
+    "meanings": null,
+    "reading": "scrivere",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "study",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 111,
+    "word": "scuola",
+    "meaning": "school",
+    "meanings": null,
+    "reading": "scuola",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "education",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 90,
+    "word": "sentire",
+    "meaning": "to hear, to feel",
+    "meanings": null,
+    "reading": "sentire",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "senses",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 113,
+    "word": "tempo",
+    "meaning": "time, weather",
+    "meanings": null,
+    "reading": "tempo",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 100,
+    "word": "uomo",
+    "meaning": "man",
+    "meanings": null,
+    "reading": "uomo",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "people",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 89,
+    "word": "vedere",
+    "meaning": "to see",
+    "meanings": null,
+    "reading": "vedere",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "senses",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 88,
+    "word": "venire",
+    "meaning": "to come",
+    "meanings": null,
+    "reading": "venire",
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "movement",
+      "basic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 644,
+    "word": "addormentarsi",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 661,
+    "word": "alto",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 662,
+    "word": "basso",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 682,
+    "word": "capire",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 647,
+    "word": "comprare",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 675,
+    "word": "correre",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 677,
+    "word": "cucinare",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 684,
+    "word": "decidere",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 680,
+    "word": "dimenticare",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 676,
+    "word": "dipingere",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 664,
+    "word": "grasso",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 665,
+    "word": "i capelli",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 688,
+    "word": "i pantaloni",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 654,
+    "word": "il biglietto",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 670,
+    "word": "il dottore",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 645,
+    "word": "il negozio",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 650,
+    "word": "il prezzo",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 672,
+    "word": "il raffreddore",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 656,
+    "word": "il sole",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 646,
+    "word": "il supermercato",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 659,
+    "word": "il vento",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 686,
+    "word": "il vestito",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 651,
+    "word": "il viaggio",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 655,
+    "word": "l'aeroporto",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 685,
+    "word": "la borsa",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 687,
+    "word": "la camicia",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 671,
+    "word": "la febbre",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 673,
+    "word": "la medicina",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 658,
+    "word": "la neve",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 657,
+    "word": "la pioggia",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 669,
+    "word": "la salute",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 652,
+    "word": "la valigia",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 643,
+    "word": "lavarsi",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 649,
+    "word": "lo sconto",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 663,
+    "word": "magro",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 674,
+    "word": "nuotare",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 660,
+    "word": "nuvoloso",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 666,
+    "word": "partire",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 653,
+    "word": "prenotare",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 683,
+    "word": "provare",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 679,
+    "word": "ricordare",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 668,
+    "word": "rimanere",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 681,
+    "word": "spiegare",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 678,
+    "word": "suonare",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 641,
+    "word": "svegliarsi",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 667,
+    "word": "tornare",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 648,
+    "word": "vendere",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 642,
+    "word": "vestirsi",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 116,
+    "word": "arrabbiato",
+    "meaning": "angry",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "emotions",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 122,
+    "word": "bagaglio",
+    "meaning": "luggage, baggage",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "travel",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 118,
+    "word": "colloquio",
+    "meaning": "interview, meeting",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "work",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 117,
+    "word": "deluso",
+    "meaning": "disappointed",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "emotions",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 125,
+    "word": "guarire",
+    "meaning": "to heal, to recover",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "health",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 120,
+    "word": "prenotazione",
+    "meaning": "reservation, booking",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "travel",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 115,
+    "word": "preoccupato",
+    "meaning": "worried, concerned",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "emotions",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 124,
+    "word": "ricetta",
+    "meaning": "prescription, recipe",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "health",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 123,
+    "word": "sintomo",
+    "meaning": "symptom",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "health",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 119,
+    "word": "stipendio",
+    "meaning": "salary, wage",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "work",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 121,
+    "word": "volo",
+    "meaning": "flight",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "travel",
+      "intermediate"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 126,
+    "word": "affidabile",
+    "meaning": "reliable, trustworthy",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "personality",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 127,
+    "word": "ambizioso",
+    "meaning": "ambitious",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "personality",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 132,
+    "word": "andare d'accordo",
+    "meaning": "to get along",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "expression",
+    "tags": [
+      "idioms",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 135,
+    "word": "concorrenza",
+    "meaning": "competition",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "business",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 128,
+    "word": "consapevole",
+    "meaning": "aware, conscious",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "abstract",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 133,
+    "word": "fatturato",
+    "meaning": "turnover, revenue",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "business",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 131,
+    "word": "prendere in giro",
+    "meaning": "to make fun of, to tease",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "expression",
+    "tags": [
+      "idioms",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 134,
+    "word": "sede",
+    "meaning": "headquarters, office",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "business",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 129,
+    "word": "sostenibile",
+    "meaning": "sustainable",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "environment",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 130,
+    "word": "valere la pena",
+    "meaning": "to be worth it",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "expression",
+    "tags": [
+      "idioms",
+      "advanced"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 142,
+    "word": "adempiere",
+    "meaning": "to fulfill, to carry out",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "formal",
+      "technical"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 143,
+    "word": "avvicendamento",
+    "meaning": "rotation, turnover",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "business",
+      "sophisticated"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 139,
+    "word": "fattispecie",
+    "meaning": "case, instance (legal term)",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "legal",
+      "technical"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 140,
+    "word": "giurisprudenza",
+    "meaning": "jurisprudence, case law",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "legal",
+      "technical"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 138,
+    "word": "imprescindibile",
+    "meaning": "essential, indispensable",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "formal",
+      "sophisticated"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 136,
+    "word": "inconfutabile",
+    "meaning": "irrefutable, undeniable",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "formal",
+      "sophisticated"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 137,
+    "word": "inesorabile",
+    "meaning": "inexorable, relentless",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "formal",
+      "sophisticated"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 141,
+    "word": "ottemperare",
+    "meaning": "to comply with",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "formal",
+      "technical"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 154,
+    "word": "abbiocco",
+    "meaning": "drowsiness after eating",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "colloquial",
+      "Italian-specific"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 148,
+    "word": "aulico",
+    "meaning": "courtly, elevated (style)",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "literary",
+      "archaic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 150,
+    "word": "beccaccino",
+    "meaning": "snipe (bird)",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "nature",
+      "rare"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 147,
+    "word": "crepuscolare",
+    "meaning": "twilight, crepuscular",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "literary",
+      "poetic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 152,
+    "word": "garbare",
+    "meaning": "to please, to like (regional)",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "regional",
+      "Tuscan"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 151,
+    "word": "madornale",
+    "meaning": "enormous, egregious",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "formal",
+      "rare"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 149,
+    "word": "periglio",
+    "meaning": "peril, danger (archaic)",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "literary",
+      "archaic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 146,
+    "word": "rimembranza",
+    "meaning": "remembrance, recollection",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [
+      "literary",
+      "poetic"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 153,
+    "word": "sciamannato",
+    "meaning": "scruffy, sloppy (regional)",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "regional",
+      "colloquial"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 145,
+    "word": "struggente",
+    "meaning": "heartrending, poignant",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [
+      "literary",
+      "emotional"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  },
+  {
+    "id": 144,
+    "word": "vagheggiare",
+    "meaning": "to dream of, to yearn for",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [
+      "literary",
+      "rare"
+    ],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 7
+  }
+]

@@ -1,0 +1,1422 @@
+[
+  {
+    "id": 462,
+    "word": "agua",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 465,
+    "word": "amigo",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 481,
+    "word": "beber",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 470,
+    "word": "bueno",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 464,
+    "word": "casa",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 480,
+    "word": "comer",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 463,
+    "word": "comida",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 469,
+    "word": "dinero",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 484,
+    "word": "escribir",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 475,
+    "word": "estar",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 466,
+    "word": "familia",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 458,
+    "word": "gracias",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "interjection",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 472,
+    "word": "grande",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 482,
+    "word": "hablar",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 477,
+    "word": "hacer",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 457,
+    "word": "hola",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "interjection",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 485,
+    "word": "hoy",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 478,
+    "word": "ir",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 483,
+    "word": "leer",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 471,
+    "word": "malo",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 486,
+    "word": "mañana",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun/adverb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 460,
+    "word": "no",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 473,
+    "word": "pequeño",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 461,
+    "word": "por favor",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "phrase",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 474,
+    "word": "ser",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 459,
+    "word": "sí",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 476,
+    "word": "tener",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 468,
+    "word": "tiempo",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 467,
+    "word": "trabajo",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 479,
+    "word": "venir",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "A1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 487,
+    "word": "alegría",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 495,
+    "word": "conseguir",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 496,
+    "word": "desarrollar",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 489,
+    "word": "empresa",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 492,
+    "word": "enfermedad",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 497,
+    "word": "exitoso",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 494,
+    "word": "preocupación",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 490,
+    "word": "reunión",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 493,
+    "word": "salud",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 488,
+    "word": "tristeza",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 491,
+    "word": "vuelo",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 506,
+    "word": "abrumador",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 500,
+    "word": "aprovechar",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 502,
+    "word": "dar igual",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "phrase",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 501,
+    "word": "echar de menos",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "phrase",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 503,
+    "word": "hacer falta",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "phrase",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 504,
+    "word": "hipótesis",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 499,
+    "word": "paradigma",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 498,
+    "word": "rentable",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 505,
+    "word": "índole",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "B2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 513,
+    "word": "a medida que",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "phrase",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 511,
+    "word": "cabe destacar",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "phrase",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 508,
+    "word": "conllevar",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 510,
+    "word": "desempeñar",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 512,
+    "word": "en aras de",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "phrase",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 514,
+    "word": "idiosincrasia",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 509,
+    "word": "imprescindible",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 507,
+    "word": "matiz",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 516,
+    "word": "subyacente",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 515,
+    "word": "verosímil",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C1",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 518,
+    "word": "acervo",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 522,
+    "word": "aducir",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 524,
+    "word": "antaño",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "adverb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 519,
+    "word": "atisbo",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "noun",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 527,
+    "word": "atávico",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 526,
+    "word": "efímero",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 521,
+    "word": "escrutar",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 523,
+    "word": "menoscabar",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 517,
+    "word": "proclive",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 525,
+    "word": "sempiterno",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "adjective",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  },
+  {
+    "id": 520,
+    "word": "vislumbrar",
+    "meaning": "",
+    "meanings": null,
+    "reading": null,
+    "romaji": null,
+    "level": "C2",
+    "framework": null,
+    "part_of_speech": "verb",
+    "tags": [],
+    "examples": [
+      {
+        "sentence": "",
+        "translation": ""
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 2
+  }
+]

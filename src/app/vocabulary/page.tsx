@@ -1,9 +1,12 @@
 'use client'
 
 import { useState, useEffect, useCallback, useMemo, useRef } from 'react';
+import Link from 'next/link';
+import { FiBook, FiList, FiCheck, FiVolume2, FiClock } from 'react-icons/fi';
 import Navigation from '@/components/common/Navigation';
 import StatsPanel from '@/components/common/StatsPanel';
 import MultipleChoice from '@/components/common/MultipleChoice';
+import TabSelector from '@/components/common/TabSelector';
 import LanguageContentGuard from '@/components/common/LanguageContentGuard';
 import ErrorBoundary from '@/components/common/ErrorBoundary';
 import { Container, CharacterCard, InputSection, Input, OptionsPanel, Text, Toggle, Chip, CharacterDisplay, Animated, Button } from '@/components/ui';
@@ -11,51 +14,74 @@ import optionsStyles from '@/components/ui/OptionsPanel.module.css';
 import { useProgressContext } from '@/context/ProgressProvider';
 import { useLanguage } from '@/context/LanguageProvider';
 import { useTargetLanguage } from '@/hooks/useTargetLanguage';
+import { useContentTranslation } from '@/hooks/useContentTranslation';
+import { useLearnedContent } from '@/hooks/useLearnedContent';
 import { useTTS } from '@/hooks/useTTS';
 import { getVocabularyData, getItemLevel } from '@/lib/dataLoader';
 import { VocabularyItem, Filter } from '@/types';
 import styles from './vocabulary.module.css';
 
+type TabType = 'myCards' | 'all';
+
 export default function VocabularyPage() {
     const { updateModuleStats: updateStats, getModuleData } = useProgressContext();
     const { t } = useLanguage();
     const { targetLanguage, levels } = useTargetLanguage();
+    const { getMeaning } = useContentTranslation();
     const { speak } = useTTS();
+    const {
+        allLearned,
+        isContentLearned,
+        getLearnedByType,
+        stats: learnedStats,
+        dueCount,
+        isReady: learnedReady
+    } = useLearnedContent();
+
+    // Tab state
+    const [activeTab, setActiveTab] = useState<TabType>('myCards');
+
+    // Helper to get the display meaning for a vocabulary item
+    const getDisplayMeaning = useCallback((word: VocabularyItem): string => {
+        return getMeaning(word.meanings, word.meaning);
+    }, [getMeaning]);
+
+    // Practice mode state
     const [currentWord, setCurrentWord] = useState<VocabularyItem | null>(null);
     const [correct, setCorrect] = useState(0);
     const [total, setTotal] = useState(0);
     const [streak, setStreak] = useState(0);
-
-    // Use refs to track current stats values for updateStats to avoid stale closures
     const statsRef = useRef({ correct: 0, total: 0, streak: 0, bestStreak: 0 });
     const inputRef = useRef<HTMLInputElement>(null);
     const [isProcessing, setIsProcessing] = useState(false);
     const [inputValue, setInputValue] = useState('');
-    const [practiceMode, setPracticeMode] = useState(false); // false = meaning, true = multiple choice
+    const [practiceMode, setPracticeMode] = useState(false);
     const [multipleChoiceOptions, setMultipleChoiceOptions] = useState<string[]>([]);
     const [isCharacterEntering, setIsCharacterEntering] = useState(false);
     const [isCorrect, setIsCorrect] = useState(false);
     const [inputState, setInputState] = useState<'default' | 'success' | 'error'>('default');
     const [showHint, setShowHint] = useState(false);
 
-    // Get vocabulary data for the current language (from centralized data loader)
+    // Browse mode state
+    const [searchQuery, setSearchQuery] = useState('');
+    const [selectedLevel, setSelectedLevel] = useState<string | null>(null);
+
+    // Get vocabulary data
     const vocabulary = useMemo(() => getVocabularyData(targetLanguage), [targetLanguage]);
 
-    // Get first 2 levels from language config (for initial filters)
-    // Levels come from language-configs.json - no hardcoding needed!
+    // Get first 2 levels from language config
     const displayLevels = useMemo(() => levels.slice(0, 2), [levels]);
 
-    // Initialize filters based on language-specific levels from config
+    // Initialize filters
     const [filters, setFilters] = useState<Record<string, Filter>>({});
 
-    // Update filters when language changes
     useEffect(() => {
         const newFilters: Record<string, Filter> = {};
         displayLevels.forEach((level, index) => {
             newFilters[level.id] = {
                 id: level.id,
                 label: level.name,
-                checked: index === 0, // First level is checked by default
+                checked: index === 0,
                 type: 'checkbox'
             };
         });
@@ -68,6 +94,55 @@ export default function VocabularyPage() {
         setFilters(newFilters);
     }, [targetLanguage, displayLevels, t]);
 
+    // Get learned vocabulary items
+    const learnedVocabulary = useMemo(() => {
+        return getLearnedByType('vocabulary');
+    }, [getLearnedByType]);
+
+    // Get vocabulary items that match learned content
+    const myVocabularyItems = useMemo(() => {
+        const learnedIds = new Set(learnedVocabulary.map(l => l.contentId));
+        return vocabulary.filter(v => {
+            const vocabId = `${targetLanguage}-vocab-${v.id}`;
+            return learnedIds.has(vocabId) || isContentLearned(vocabId);
+        });
+    }, [vocabulary, learnedVocabulary, targetLanguage, isContentLearned]);
+
+    // Filtered vocabulary for browse view
+    const filteredVocabulary = useMemo(() => {
+        let items = vocabulary;
+
+        if (searchQuery) {
+            const query = searchQuery.toLowerCase();
+            items = items.filter(v =>
+                v.word?.toLowerCase().includes(query) ||
+                v.reading?.toLowerCase().includes(query) ||
+                getDisplayMeaning(v).toLowerCase().includes(query)
+            );
+        }
+
+        if (selectedLevel) {
+            items = items.filter(v => getItemLevel(v) === selectedLevel);
+        }
+
+        return items.slice(0, 50); // Limit for performance
+    }, [vocabulary, searchQuery, selectedLevel, getDisplayMeaning]);
+
+    // Tab configuration
+    const tabs = useMemo(() => [
+        {
+            id: 'myCards' as TabType,
+            label: 'My Cards',
+            badge: myVocabularyItems.length > 0 ? myVocabularyItems.length : undefined
+        },
+        {
+            id: 'all' as TabType,
+            label: 'All Vocabulary',
+            badge: vocabulary.length
+        },
+    ], [myVocabularyItems.length, vocabulary.length]);
+
+    // Practice mode functions
     const generateMultipleChoice = useCallback((correctWord: VocabularyItem, available: VocabularyItem[]) => {
         const incorrect = available
             .filter(v => v.id !== correctWord.id)
@@ -76,20 +151,23 @@ export default function VocabularyPage() {
 
         const options = [correctWord, ...incorrect]
             .sort(() => Math.random() - 0.5)
-            .map(v => v.meaning);
+            .map(v => getDisplayMeaning(v));
 
         setMultipleChoiceOptions(options);
-    }, []);
+    }, [getDisplayMeaning]);
 
     const getAvailableVocabulary = useCallback(() => {
+        // In My Cards tab, use learned vocabulary; otherwise use filtered vocabulary
+        if (activeTab === 'myCards' && myVocabularyItems.length > 0) {
+            return myVocabularyItems;
+        }
         return vocabulary.filter(word => {
             const wordLevel = getItemLevel(word);
-            // Check if any of the active level filters match
             return displayLevels.some(level =>
                 filters[level.id]?.checked && wordLevel === level.id
             );
         });
-    }, [filters, vocabulary, displayLevels]);
+    }, [activeTab, myVocabularyItems, vocabulary, filters, displayLevels]);
 
     const nextWord = useCallback(() => {
         const available = getAvailableVocabulary();
@@ -125,18 +203,15 @@ export default function VocabularyPage() {
         setIsCorrect(true);
         setInputState('success');
 
-        // Update state using functional updates
         setCorrect(prev => prev + 1);
         setTotal(prev => prev + 1);
         setStreak(prev => prev + 1);
 
-        // Calculate new values from ref (current values) for updateStats
         const newCorrect = statsRef.current.correct + 1;
         const newTotal = statsRef.current.total + 1;
         const newStreak = statsRef.current.streak + 1;
         const newBestStreak = Math.max(statsRef.current.bestStreak, newStreak);
 
-        // Update ref immediately
         statsRef.current = { correct: newCorrect, total: newTotal, streak: newStreak, bestStreak: newBestStreak };
 
         speak(currentWord.word, { audioUrl: currentWord.audioUrl });
@@ -145,7 +220,6 @@ export default function VocabularyPage() {
         setTimeout(() => {
             nextWord();
             setIsProcessing(false);
-            // Focus the input field after moving to next word
             setTimeout(() => inputRef.current?.focus(), 100);
         }, 1000);
     }, [currentWord, speak, updateStats, nextWord]);
@@ -155,14 +229,10 @@ export default function VocabularyPage() {
         setIsProcessing(true);
         setInputState('error');
 
-        // Update state using functional updates
         setTotal(prev => prev + 1);
         setStreak(0);
 
-        // Calculate new values from ref (current values) for updateStats
         const newTotal = statsRef.current.total + 1;
-
-        // Update ref immediately
         statsRef.current = { ...statsRef.current, total: newTotal, streak: 0 };
 
         speak(currentWord.word, { audioUrl: currentWord.audioUrl });
@@ -171,7 +241,6 @@ export default function VocabularyPage() {
         setTimeout(() => {
             nextWord();
             setIsProcessing(false);
-            // Focus the input field after moving to next word
             setTimeout(() => inputRef.current?.focus(), 100);
         }, 2000);
     }, [currentWord, speak, updateStats, nextWord]);
@@ -179,15 +248,15 @@ export default function VocabularyPage() {
     const checkInput = useCallback((value: string) => {
         if (isProcessing || !currentWord) return;
         const normalizedInput = value.toLowerCase().trim();
-        const normalizedMeaning = currentWord.meaning.toLowerCase().trim();
+        const displayMeaning = getDisplayMeaning(currentWord);
+        const normalizedMeaning = displayMeaning.toLowerCase().trim();
 
-        // Only accept meaning as correct answer (not romaji)
         if (normalizedInput === normalizedMeaning) {
             handleCorrect();
         }
-    }, [isProcessing, currentWord, handleCorrect]);
+    }, [isProcessing, currentWord, handleCorrect, getDisplayMeaning]);
 
-    // Load initial stats from module data and sync to ref
+    // Load initial stats
     useEffect(() => {
         const moduleData = getModuleData('vocabulary');
         const initialCorrect = moduleData?.stats?.correct || 0;
@@ -199,7 +268,6 @@ export default function VocabularyPage() {
         setTotal(initialTotal);
         setStreak(initialStreak);
 
-        // Initialize ref with loaded values
         statsRef.current = {
             correct: initialCorrect,
             total: initialTotal,
@@ -208,18 +276,18 @@ export default function VocabularyPage() {
         };
     }, [getModuleData]);
 
-    // Create a stable string of filter states for dependency tracking
+    // Initialize practice when filters or tab changes
     const filterStates = Object.entries(filters)
         .filter(([key]) => key !== 'practiceMode')
         .map(([key, f]) => `${key}:${f.checked}`)
         .join(',');
 
     useEffect(() => {
-        if (vocabulary.length > 0 && Object.keys(filters).length > 0) {
+        if (vocabulary.length > 0 && Object.keys(filters).length > 0 && activeTab === 'myCards') {
             nextWord();
         }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [filterStates, practiceMode, targetLanguage]);
+    }, [filterStates, practiceMode, targetLanguage, activeTab]);
 
     const handleFilterChange = useCallback((id: string, checked: boolean) => {
         if (id === 'practice-mode') {
@@ -229,126 +297,268 @@ export default function VocabularyPage() {
         }
     }, []);
 
-    // Generate hint: show first 2 characters of meaning + ...
     const getHint = useCallback(() => {
         if (!currentWord) return '';
-        const meaning = currentWord.meaning;
+        const meaning = getDisplayMeaning(currentWord);
         if (meaning.length <= 3) return meaning.charAt(0) + '...';
         return meaning.substring(0, 2) + '...';
-    }, [currentWord]);
+    }, [currentWord, getDisplayMeaning]);
 
+    // Render browse view (All Vocabulary tab)
+    const renderBrowseView = () => (
+        <>
+            {/* Filter Section */}
+            <div className={styles.filterSection}>
+                <Input
+                    type="text"
+                    placeholder="Search vocabulary..."
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                    className={styles.searchInput}
+                />
+                {displayLevels.map(level => (
+                    <Chip
+                        key={level.id}
+                        id={level.id}
+                        label={level.name}
+                        checked={selectedLevel === level.id}
+                        onChange={(checked) => setSelectedLevel(checked ? level.id : null)}
+                    />
+                ))}
+            </div>
 
-    if (!currentWord) {
+            {/* Vocabulary Grid */}
+            <div className={styles.browseGrid}>
+                {filteredVocabulary.map((vocab) => {
+                    const vocabId = `${targetLanguage}-vocab-${vocab.id}`;
+                    const isLearned = isContentLearned(vocabId);
+
+                    return (
+                        <div
+                            key={vocab.id}
+                            className={`${styles.vocabCard} ${isLearned ? styles.learned : ''}`}
+                        >
+                            <div className={styles.vocabHeader}>
+                                <div>
+                                    <div className={styles.vocabWord}>{vocab.word}</div>
+                                    {vocab.reading && (
+                                        <div className={styles.vocabReading}>{vocab.reading}</div>
+                                    )}
+                                </div>
+                                <span className={styles.vocabLevel}>{getItemLevel(vocab)}</span>
+                            </div>
+                            <div className={styles.vocabMeaning}>
+                                {getDisplayMeaning(vocab)}
+                            </div>
+                            <div className={styles.vocabActions}>
+                                {isLearned ? (
+                                    <span className={styles.learnedBadge}>
+                                        <FiCheck size={12} /> Learned
+                                    </span>
+                                ) : (
+                                    <Link href="/paths">
+                                        <Button variant="ghost" size="sm">
+                                            <FiBook size={14} /> Learn in Lessons
+                                        </Button>
+                                    </Link>
+                                )}
+                                <Button
+                                    variant="ghost"
+                                    size="sm"
+                                    onClick={() => speak(vocab.word, { audioUrl: vocab.audioUrl })}
+                                >
+                                    <FiVolume2 size={14} />
+                                </Button>
+                            </div>
+                        </div>
+                    );
+                })}
+            </div>
+
+            {filteredVocabulary.length === 0 && (
+                <div className={styles.emptyState}>
+                    <FiList className={styles.emptyIcon} />
+                    <Text variant="h3">No vocabulary found</Text>
+                    <Text color="muted">Try adjusting your search or filters</Text>
+                </div>
+            )}
+        </>
+    );
+
+    // Render practice view (My Cards tab)
+    const renderPracticeView = () => {
+        // No learned vocabulary yet
+        if (myVocabularyItems.length === 0 && learnedReady) {
+            return (
+                <div className={styles.emptyState}>
+                    <FiBook className={styles.emptyIcon} />
+                    <Text variant="h3">No vocabulary cards yet</Text>
+                    <Text color="muted">Complete lessons to add vocabulary to your deck</Text>
+                    <Link href="/paths">
+                        <Button variant="primary" className="mt-4">
+                            Go to Lessons
+                        </Button>
+                    </Link>
+                </div>
+            );
+        }
+
+        // No current word (filters too restrictive)
+        if (!currentWord) {
+            return (
+                <div className={styles.emptyState}>
+                    <Text variant="h3">{t('vocabulary.noWords')}</Text>
+                    <Text color="muted">Adjust your level filters or complete more lessons</Text>
+                </div>
+            );
+        }
+
         return (
-            <ErrorBoundary>
-                <LanguageContentGuard moduleName="vocabulary">
-                    <Container variant="centered">
-                        <Navigation />
-                        <div>{t('vocabulary.noWords')}</div>
-                    </Container>
-                </LanguageContentGuard>
-            </ErrorBoundary>
+            <>
+                <OptionsPanel>
+                    <div className={optionsStyles.toggleContainer}>
+                        <Text variant="label" color="muted">{t('vocabulary.practiceMode')}</Text>
+                        <Toggle
+                            options={[
+                                { id: 'meaning', label: t('vocabulary.typeMeaning') },
+                                { id: 'practice', label: t('vocabulary.practiceMode') }
+                            ]}
+                            value={practiceMode ? 'practice' : 'meaning'}
+                            onChange={(val) => {
+                                setPracticeMode(val === 'practice');
+                                setFilters(prev => ({ ...prev, practiceMode: { ...prev.practiceMode, checked: val === 'practice' } }));
+                            }}
+                            name="vocabulary-mode"
+                        />
+                    </div>
+                    <div className={optionsStyles.group}>
+                        {Object.values(filters)
+                            .filter(f => f.id !== 'practice-mode')
+                            .map((filter) => (
+                                <Chip
+                                    key={filter.id}
+                                    id={filter.id}
+                                    label={filter.label}
+                                    checked={filter.checked}
+                                    onChange={(checked) => handleFilterChange(filter.id, checked)}
+                                />
+                            ))}
+                    </div>
+                </OptionsPanel>
+
+                <CharacterCard entering={isCharacterEntering} correct={isCorrect}>
+                    <CharacterDisplay
+                        character={currentWord.word}
+                        entering={isCharacterEntering}
+                        correct={isCorrect}
+                        subtext={currentWord.reading}
+                        variant="word"
+                    />
+                </CharacterCard>
+
+                <div className="mt-8 mb-4">
+                    <Animated animation="pulse" key={currentWord.id}>
+                        <Text variant="h2" color="gold">
+                            {isCorrect ? getDisplayMeaning(currentWord) : (showHint ? getHint() : '???')}
+                        </Text>
+                    </Animated>
+                    {!isCorrect && !practiceMode && (
+                        <Button
+                            variant="ghost"
+                            size="sm"
+                            onClick={() => setShowHint(true)}
+                            disabled={showHint}
+                            className="mt-2"
+                        >
+                            {showHint ? t('vocabulary.hintShown') : t('vocabulary.showHint')}
+                        </Button>
+                    )}
+                </div>
+
+                <InputSection>
+                    {practiceMode ? (
+                        <MultipleChoice
+                            options={multipleChoiceOptions}
+                            onSelect={(selected) => {
+                                if (selected === getDisplayMeaning(currentWord)) handleCorrect();
+                                else handleIncorrect();
+                            }}
+                            disabled={isProcessing}
+                        />
+                    ) : (
+                        <Input
+                            ref={inputRef}
+                            type="text"
+                            value={inputValue}
+                            onChange={(e) => {
+                                setInputValue(e.target.value);
+                                checkInput(e.target.value);
+                            }}
+                            placeholder={t('vocabulary.typeMeaning')}
+                            autoComplete="off"
+                            disabled={isProcessing}
+                            variant={inputState}
+                            size="lg"
+                            fullWidth
+                        />
+                    )}
+                    <StatsPanel correct={correct} total={total} streak={streak} />
+                </InputSection>
+            </>
         );
-    }
+    };
 
     return (
         <ErrorBoundary>
-        <LanguageContentGuard moduleName="vocabulary">
-            <Container variant="centered" streak={streak}>
-                <Navigation />
+            <LanguageContentGuard moduleName="vocabulary">
+                <Container variant="centered" streak={activeTab === 'myCards' ? streak : 0}>
+                    <Navigation />
 
-            <OptionsPanel>
-                <div className={optionsStyles.toggleContainer}>
-                    <Text variant="label" color="muted">{t('vocabulary.practiceMode')}</Text>
-                    <Toggle
-                        options={[
-                            { id: 'meaning', label: t('vocabulary.typeMeaning') },
-                            { id: 'practice', label: t('vocabulary.practiceMode') }
-                        ]}
-                        value={practiceMode ? 'practice' : 'meaning'}
-                        onChange={(val) => {
-                            setPracticeMode(val === 'practice');
-                            setFilters(prev => ({ ...prev, practiceMode: { ...prev.practiceMode, checked: val === 'practice' } }));
-                        }}
-                        name="vocabulary-mode"
+                    {/* Page Header */}
+                    <div className={styles.pageHeader}>
+                        <Text variant="h1">Vocabulary</Text>
+                        {dueCount > 0 && (
+                            <Button variant="primary" size="sm" className={styles.reviewButton}>
+                                <FiClock />
+                                Review
+                                <span className={styles.reviewCount}>{dueCount}</span>
+                            </Button>
+                        )}
+                    </div>
+
+                    {/* Stats Row */}
+                    {activeTab === 'myCards' && (
+                        <div className={styles.statsRow}>
+                            <div className={styles.statCard}>
+                                <span className={styles.statValue}>
+                                    {(learnedStats.byType as Record<string, number>)?.vocabulary || myVocabularyItems.length}
+                                </span>
+                                <span className={styles.statLabel}>Words Learned</span>
+                            </div>
+                            <div className={styles.statCard}>
+                                <span className={styles.statValue}>{dueCount}</span>
+                                <span className={styles.statLabel}>Due for Review</span>
+                            </div>
+                            <div className={styles.statCard}>
+                                <span className={styles.statValue}>
+                                    {total > 0 ? Math.round((correct / total) * 100) : 0}%
+                                </span>
+                                <span className={styles.statLabel}>Accuracy</span>
+                            </div>
+                        </div>
+                    )}
+
+                    {/* Tabs */}
+                    <TabSelector
+                        tabs={tabs}
+                        activeTab={activeTab}
+                        onTabChange={(tab) => setActiveTab(tab as TabType)}
                     />
-                </div>
-                <div className={optionsStyles.group}>
-                    {Object.values(filters)
-                        .filter(f => f.id !== 'practice-mode')
-                        .map((filter) => (
-                            <Chip
-                                key={filter.id}
-                                id={filter.id}
-                                label={filter.label}
-                                checked={filter.checked}
-                                onChange={(checked) => handleFilterChange(filter.id, checked)}
-                            />
-                        ))}
-                </div>
-            </OptionsPanel>
 
-            <CharacterCard entering={isCharacterEntering} correct={isCorrect}>
-                <CharacterDisplay
-                    character={currentWord.word}
-                    entering={isCharacterEntering}
-                    correct={isCorrect}
-                    subtext={currentWord.reading}
-                    variant="word"
-                />
-            </CharacterCard>
-
-            <div className="mt-8 mb-4">
-                <Animated animation="pulse" key={currentWord.id}>
-                    <Text variant="h2" color="gold">
-                        {isCorrect ? currentWord.meaning : (showHint ? getHint() : '???')}
-                    </Text>
-                </Animated>
-                {!isCorrect && !practiceMode && (
-                    <Button
-                        variant="ghost"
-                        size="sm"
-                        onClick={() => setShowHint(true)}
-                        disabled={showHint}
-                        className="mt-2"
-                    >
-                        {showHint ? t('vocabulary.hintShown') : t('vocabulary.showHint')}
-                    </Button>
-                )}
-            </div>
-
-            <InputSection>
-                {practiceMode ? (
-                    <MultipleChoice
-                        options={multipleChoiceOptions}
-                        onSelect={(selected, index) => {
-                            if (selected === currentWord.meaning) handleCorrect();
-                            else handleIncorrect();
-                        }}
-                        disabled={isProcessing}
-                    />
-                ) : (
-                    <Input
-                        ref={inputRef}
-                        type="text"
-                        value={inputValue}
-                        onChange={(e) => {
-                            setInputValue(e.target.value);
-                            checkInput(e.target.value);
-                        }}
-                        placeholder={t('vocabulary.typeMeaning')}
-                        autoComplete="off"
-                        disabled={isProcessing}
-                        variant={inputState}
-                        size="lg"
-                        fullWidth
-                    />
-                )}
-                <StatsPanel correct={correct} total={total} streak={streak} />
-            </InputSection>
-            </Container>
-        </LanguageContentGuard>
+                    {/* Tab Content */}
+                    {activeTab === 'myCards' ? renderPracticeView() : renderBrowseView()}
+                </Container>
+            </LanguageContentGuard>
         </ErrorBoundary>
     );
 }
-

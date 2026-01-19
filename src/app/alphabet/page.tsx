@@ -23,7 +23,6 @@ import styles from './alphabet.module.css';
 // Import character data for each language
 import jaCharactersJson from '@/data/ja/characters.json';
 import koCharactersJson from '@/data/ko/characters.json';
-import learningPathsJson from '@/data/learning-paths.json';
 
 const TIME_PER_CHARACTER = 5;
 
@@ -77,14 +76,17 @@ const getCharacterData = (lang: string): Character[] => {
             return (koCharactersJson as KoreanCharacterData[]).map(normalizeKoreanCharacter);
         case 'ja':
         default:
-            return jaCharactersJson as Character[];
+            // Cast through unknown as the JSON structure differs from Character type
+            return jaCharactersJson as unknown as Character[];
     }
 };
 
 // Get lesson data based on target language
+// Note: Alphabet lessons are now part of AI-generated curriculum.
+// This function returns empty until lessons are loaded dynamically.
 const getLessonData = (lang: string): AlphabetLesson[] => {
-    const alphabetLessons = (learningPathsJson as { alphabetLessons: Record<string, { lessons: AlphabetLesson[] }> }).alphabetLessons;
-    return alphabetLessons[lang]?.lessons || alphabetLessons['ja']?.lessons || [];
+    // TODO: Load from AI-generated curriculum via /data/{lang}/lessons.json
+    return [];
 };
 
 // Filter configurations per language

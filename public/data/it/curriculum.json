@@ -1,109 +1,123 @@
 [
   {
     "path": {
-      "id": 6,
+      "id": 4,
       "slug": "cefr-italian",
-      "name": "CEFR Italian Path",
-      "description": "Master Italian systematically through CEFR levels, from A1 to B2.",
+      "name": "Italian CEFR Path",
+      "description": "Learn Italian from beginner to elementary level following the CEFR framework.",
       "type": "linear",
-      "estimated_hours": 280,
-      "difficulty": "beginner-to-intermediate",
-      "language_id": 6
+      "estimated_hours": 150,
+      "difficulty": "beginner",
+      "language_id": 7
     },
     "milestones": [
       {
-        "id": 1,
-        "slug": "a1-vocabulary-it",
+        "id": 31,
+        "slug": "it-a1-vocabulary",
         "level": "A1",
-        "name": "A1 Vocabulary Foundation",
-        "description": "Learn essential A1 vocabulary (500 words)",
+        "name": "A1 Core Vocabulary",
+        "description": "Learn 500 essential Italian words for basic communication",
         "module": "vocabulary",
         "requirement": {
           "type": "master-percentage",
           "value": 70
         },
-        "estimated_hours": 12,
-        "path_id": 6
+        "estimated_hours": 15,
+        "path_id": 4
       },
       {
-        "id": 2,
-        "slug": "a1-grammar-it",
+        "id": 32,
+        "slug": "it-a1-grammar",
         "level": "A1",
         "name": "A1 Grammar Basics",
-        "description": "Learn fundamental Italian grammar including verb conjugation and articles",
+        "description": "Master present tense, articles, and basic sentence structure",
         "module": "grammar",
         "requirement": {
-          "type": "complete-all"
+          "type": "master-percentage",
+          "value": 70
         },
-        "estimated_hours": 14,
-        "path_id": 6
+        "estimated_hours": 20,
+        "path_id": 4
       },
       {
-        "id": 3,
-        "slug": "a1-listening-it",
+        "id": 34,
+        "slug": "it-a1-listening",
         "level": "A1",
         "name": "A1 Listening Skills",
-        "description": "Develop basic listening comprehension",
+        "description": "Understand slow, clear speech on familiar topics",
         "module": "listening",
         "requirement": {
           "type": "complete-all"
         },
-        "estimated_hours": 8,
-        "path_id": 6
+        "estimated_hours": 10,
+        "path_id": 4
       },
       {
-        "id": 4,
-        "slug": "a2-vocabulary-it",
-        "level": "A2",
-        "name": "A2 Vocabulary Expansion",
-        "description": "Expand vocabulary to A2 level (1000 words total)",
-        "module": "vocabulary",
-        "requirement": {
-          "type": "master-percentage",
-          "value": 70
-        },
-        "estimated_hours": 18,
-        "path_id": 6
-      },
-      {
-        "id": 5,
-        "slug": "a2-grammar-it",
-        "level": "A2",
-        "name": "A2 Grammar Patterns",
-        "description": "Master elementary grammar including past tenses and pronouns",
-        "module": "grammar",
+        "id": 33,
+        "slug": "it-a1-reading",
+        "level": "A1",
+        "name": "A1 Reading Practice",
+        "description": "Read simple texts about everyday topics",
+        "module": "reading",
         "requirement": {
           "type": "complete-all"
         },
-        "estimated_hours": 15,
-        "path_id": 6
+        "estimated_hours": 10,
+        "path_id": 4
       },
       {
-        "id": 6,
-        "slug": "b1-vocabulary-it",
-        "level": "B1",
-        "name": "B1 Vocabulary Building",
-        "description": "Build vocabulary to intermediate level (2000 words total)",
+        "id": 35,
+        "slug": "it-a2-vocabulary",
+        "level": "A2",
+        "name": "A2 Expanded Vocabulary",
+        "description": "Build vocabulary to 1000+ words for daily situations",
         "module": "vocabulary",
         "requirement": {
           "type": "master-percentage",
           "value": 70
         },
         "estimated_hours": 25,
-        "path_id": 6
+        "path_id": 4
       },
       {
-        "id": 7,
-        "slug": "b1-grammar-it",
-        "level": "B1",
-        "name": "B1 Grammar Mastery",
-        "description": "Master intermediate grammar including subjunctive and conditional",
+        "id": 36,
+        "slug": "it-a2-grammar",
+        "level": "A2",
+        "name": "A2 Grammar Expansion",
+        "description": "Learn past tenses, reflexive verbs, and pronouns",
         "module": "grammar",
+        "requirement": {
+          "type": "master-percentage",
+          "value": 70
+        },
+        "estimated_hours": 30,
+        "path_id": 4
+      },
+      {
+        "id": 38,
+        "slug": "it-a2-listening",
+        "level": "A2",
+        "name": "A2 Listening Practice",
+        "description": "Understand conversations on everyday matters",
+        "module": "listening",
         "requirement": {
           "type": "complete-all"
         },
-        "estimated_hours": 20,
-        "path_id": 6
+        "estimated_hours": 15,
+        "path_id": 4
+      },
+      {
+        "id": 37,
+        "slug": "it-a2-reading",
+        "level": "A2",
+        "name": "A2 Reading Comprehension",
+        "description": "Read short articles and simple stories",
+        "module": "reading",
+        "requirement": {
+          "type": "complete-all"
+        },
+        "estimated_hours": 15,
+        "path_id": 4
       }
     ]
   }
