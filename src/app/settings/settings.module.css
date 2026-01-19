@@ -434,8 +434,78 @@
   border-color: var(--accent-gold, #d4a574);
 }
 
+.customColorsSection {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 2px solid var(--border, #333);
+}
+
+.overridesHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  gap: 1rem;
+}
+
+.resetButton {
+  flex-shrink: 0;
+}
+
+.colorGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+}
+
+.colorRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  background: var(--bg-tertiary, rgba(255, 255, 255, 0.03));
+  border-radius: 0.5rem;
+  border: 1px solid var(--border-subtle, rgba(255, 255, 255, 0.05));
+}
+
+.colorLabel {
+  font-weight: 500;
+  color: var(--text-primary, #fff);
+}
+
+.colorPicker {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 2px solid var(--border, #444);
+  border-radius: 50%;
+  background: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.colorPicker::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+.colorPicker::-webkit-color-swatch {
+  border: none;
+  border-radius: 50%;
+}
+
 @media (min-width: 641px) {
-  .overridesGrid {
+  .colorGrid {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .overridesHeader {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .resetButton {
+    width: 100%;
   }
 }

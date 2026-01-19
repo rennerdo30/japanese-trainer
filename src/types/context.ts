@@ -20,6 +20,13 @@ export type ThemeOverride = 'auto' | 'ja' | 'es' | 'de' | 'en' | 'it' | 'ko' | '
 export interface Settings {
     globalTheme: ThemeOverride;
     languageThemes: Record<string, ThemeOverride>;
+    customColors: {
+        bgPrimary?: string;
+        bgSecondary?: string;
+        textPrimary?: string;
+        accentPrimary?: string;
+        accentGold?: string;
+    };
     soundEnabled: boolean;
     ttsEnabled: boolean;
     ttsRate: number;

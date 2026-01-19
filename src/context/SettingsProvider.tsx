@@ -8,6 +8,7 @@ const SettingsContext = createContext<SettingsContextValue | null>(null);
 const DEFAULT_SETTINGS: Settings = {
     globalTheme: 'auto',
     languageThemes: {},
+    customColors: {},
     soundEnabled: true,
     ttsEnabled: true,
     ttsRate: 0.9,

@@ -1,1 +1,1644 @@
-[]
+[
+  {
+    "id": 2086,
+    "char": "ㄱ",
+    "meaning": "Looks like a gun pointing to the right, making a 'g' sound when fired.",
+    "meanings": [
+      "g/k sound",
+      "consonant"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "g/k",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 2,
+    "radicals": [
+      "none"
+    ],
+    "examples": [
+      {
+        "word": "가다",
+        "reading": "gada",
+        "meaning": "to go"
+      },
+      {
+        "word": "고기",
+        "reading": "gogi",
+        "meaning": "meat"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "consonants",
+    "order": 1,
+    "mnemonic": {
+      "en": "Looks like a gun pointing to the right, making a 'g' sound when fired."
+    }
+  },
+  {
+    "id": 2080,
+    "char": "ㄲ",
+    "meaning": "Picture two keys (ㄱ) stacked, like double keys, making a tight 'kk' sound when turned together.",
+    "meanings": [
+      "kk sound (tense)"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "kk",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 2,
+    "radicals": [
+      "ㄱ",
+      "ㄱ"
+    ],
+    "examples": [
+      {
+        "word": "꽃",
+        "reading": "kkot",
+        "meaning": "flower"
+      },
+      {
+        "word": "꿈",
+        "reading": "kkum",
+        "meaning": "dream"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "consonants",
+    "order": 15,
+    "mnemonic": {
+      "en": "Picture two keys (ㄱ) stacked, like double keys, making a tight 'kk' sound when turned together."
+    }
+  },
+  {
+    "id": 2087,
+    "char": "ㄴ",
+    "meaning": "Resembles a nose in profile, making the 'n' sound as in 'nose'.",
+    "meanings": [
+      "n sound",
+      "consonant"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "n",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 2,
+    "radicals": [
+      "none"
+    ],
+    "examples": [
+      {
+        "word": "나무",
+        "reading": "namu",
+        "meaning": "tree"
+      },
+      {
+        "word": "너",
+        "reading": "neo",
+        "meaning": "you"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "consonants",
+    "order": 2,
+    "mnemonic": {
+      "en": "Resembles a nose in profile, making the 'n' sound as in 'nose'."
+    }
+  },
+  {
+    "id": 2088,
+    "char": "ㄷ",
+    "meaning": "Looks like a door with a handle, opening with a 'd' sound.",
+    "meanings": [
+      "d/t sound",
+      "consonant"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "d/t",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 3,
+    "radicals": [
+      "none"
+    ],
+    "examples": [
+      {
+        "word": "다리",
+        "reading": "dari",
+        "meaning": "leg"
+      },
+      {
+        "word": "도시",
+        "reading": "dosi",
+        "meaning": "city"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "consonants",
+    "order": 3,
+    "mnemonic": {
+      "en": "Looks like a door with a handle, opening with a 'd' sound."
+    }
+  },
+  {
+    "id": 2081,
+    "char": "ㄸ",
+    "meaning": "Imagine two doors (ㄷ) side by side, like double doors, making a firm 'tt' sound when slammed shut.",
+    "meanings": [
+      "tt sound (tense)"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "tt",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 2,
+    "radicals": [
+      "ㄷ",
+      "ㄷ"
+    ],
+    "examples": [
+      {
+        "word": "딸",
+        "reading": "ttal",
+        "meaning": "daughter"
+      },
+      {
+        "word": "땅",
+        "reading": "ttang",
+        "meaning": "ground"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "consonants",
+    "order": 16,
+    "mnemonic": {
+      "en": "Imagine two doors (ㄷ) side by side, like double doors, making a firm 'tt' sound when slammed shut."
+    }
+  },
+  {
+    "id": 2089,
+    "char": "ㄹ",
+    "meaning": "Shaped like a rolling wave, representing the rolling 'r' sound.",
+    "meanings": [
+      "r/l sound",
+      "consonant"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "r/l",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 3,
+    "radicals": [
+      "none"
+    ],
+    "examples": [
+      {
+        "word": "라디오",
+        "reading": "radio",
+        "meaning": "radio"
+      },
+      {
+        "word": "물",
+        "reading": "mul",
+        "meaning": "water"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "consonants",
+    "order": 4,
+    "mnemonic": {
+      "en": "Shaped like a rolling wave, representing the rolling 'r' sound."
+    }
+  },
+  {
+    "id": 2090,
+    "char": "ㅁ",
+    "meaning": "Looks like a mouth, making the 'm' sound as in 'mouth'.",
+    "meanings": [
+      "m sound",
+      "consonant"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "m",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 4,
+    "radicals": [
+      "none"
+    ],
+    "examples": [
+      {
+        "word": "마음",
+        "reading": "maeum",
+        "meaning": "heart/mind"
+      },
+      {
+        "word": "머리",
+        "reading": "meori",
+        "meaning": "head"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "consonants",
+    "order": 5,
+    "mnemonic": {
+      "en": "Looks like a mouth, making the 'm' sound as in 'mouth'."
+    }
+  },
+  {
+    "id": 2091,
+    "char": "ㅂ",
+    "meaning": "Resembles a box with a lid, opening with a 'b' sound.",
+    "meanings": [
+      "b/p sound",
+      "consonant"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "b/p",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 4,
+    "radicals": [
+      "none"
+    ],
+    "examples": [
+      {
+        "word": "바다",
+        "reading": "bada",
+        "meaning": "sea"
+      },
+      {
+        "word": "밥",
+        "reading": "bap",
+        "meaning": "rice/meal"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "consonants",
+    "order": 6,
+    "mnemonic": {
+      "en": "Resembles a box with a lid, opening with a 'b' sound."
+    }
+  },
+  {
+    "id": 2082,
+    "char": "ㅃ",
+    "meaning": "Think of two bowls (ㅂ) stacked, like double bowls, making a popping 'pp' sound when clapped together.",
+    "meanings": [
+      "pp sound (tense)"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "pp",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 2,
+    "radicals": [
+      "ㅂ",
+      "ㅂ"
+    ],
+    "examples": [
+      {
+        "word": "빵",
+        "reading": "ppang",
+        "meaning": "bread"
+      },
+      {
+        "word": "뼈",
+        "reading": "ppyeo",
+        "meaning": "bone"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "consonants",
+    "order": 17,
+    "mnemonic": {
+      "en": "Think of two bowls (ㅂ) stacked, like double bowls, making a popping 'pp' sound when clapped together."
+    }
+  },
+  {
+    "id": 2092,
+    "char": "ㅅ",
+    "meaning": "Looks like a snake, hissing with an 's' sound.",
+    "meanings": [
+      "s sound",
+      "consonant"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "s",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 2,
+    "radicals": [
+      "none"
+    ],
+    "examples": [
+      {
+        "word": "사람",
+        "reading": "saram",
+        "meaning": "person"
+      },
+      {
+        "word": "소리",
+        "reading": "sori",
+        "meaning": "sound"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "consonants",
+    "order": 7,
+    "mnemonic": {
+      "en": "Looks like a snake, hissing with an 's' sound."
+    }
+  },
+  {
+    "id": 2083,
+    "char": "ㅆ",
+    "meaning": "Picture two teeth (ㅅ) side by side, like sharp teeth, making a hissing 'ss' sound when biting.",
+    "meanings": [
+      "ss sound (tense)"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "ss",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 2,
+    "radicals": [
+      "ㅅ",
+      "ㅅ"
+    ],
+    "examples": [
+      {
+        "word": "씨",
+        "reading": "ssi",
+        "meaning": "seed"
+      },
+      {
+        "word": "쓰다",
+        "reading": "sseuda",
+        "meaning": "to write"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "consonants",
+    "order": 18,
+    "mnemonic": {
+      "en": "Picture two teeth (ㅅ) side by side, like sharp teeth, making a hissing 'ss' sound when biting."
+    }
+  },
+  {
+    "id": 2093,
+    "char": "ㅇ",
+    "meaning": "Shaped like a circle or zero, representing silence or the 'ng' sound at the end of syllables.",
+    "meanings": [
+      "silent/ng sound",
+      "consonant"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "silent/ng",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 1,
+    "radicals": [
+      "none"
+    ],
+    "examples": [
+      {
+        "word": "아이",
+        "reading": "ai",
+        "meaning": "child"
+      },
+      {
+        "word": "강",
+        "reading": "gang",
+        "meaning": "river"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "consonants",
+    "order": 8,
+    "mnemonic": {
+      "en": "Shaped like a circle or zero, representing silence or the 'ng' sound at the end of syllables."
+    }
+  },
+  {
+    "id": 2094,
+    "char": "ㅈ",
+    "meaning": "Looks like a jar with a lid, making a 'j' sound when opened.",
+    "meanings": [
+      "j sound",
+      "consonant"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "j",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 3,
+    "radicals": [
+      "none"
+    ],
+    "examples": [
+      {
+        "word": "자동차",
+        "reading": "jadongcha",
+        "meaning": "car"
+      },
+      {
+        "word": "저",
+        "reading": "jeo",
+        "meaning": "I/me (humble)"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "consonants",
+    "order": 9,
+    "mnemonic": {
+      "en": "Looks like a jar with a lid, making a 'j' sound when opened."
+    }
+  },
+  {
+    "id": 2084,
+    "char": "ㅉ",
+    "meaning": "Imagine two zigzags (ㅈ) stacked, like double zigzags, making a buzzing 'jj' sound when rubbed together.",
+    "meanings": [
+      "jj sound (tense)"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "jj",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 2,
+    "radicals": [
+      "ㅈ",
+      "ㅈ"
+    ],
+    "examples": [
+      {
+        "word": "짜다",
+        "reading": "jjada",
+        "meaning": "to be salty"
+      },
+      {
+        "word": "쭉",
+        "reading": "jjuk",
+        "meaning": "straight"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "consonants",
+    "order": 19,
+    "mnemonic": {
+      "en": "Imagine two zigzags (ㅈ) stacked, like double zigzags, making a buzzing 'jj' sound when rubbed together."
+    }
+  },
+  {
+    "id": 2095,
+    "char": "ㅊ",
+    "meaning": "Resembles a chimney puffing out smoke, making a 'ch' sound.",
+    "meanings": [
+      "ch sound",
+      "consonant"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "ch",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 4,
+    "radicals": [
+      "none"
+    ],
+    "examples": [
+      {
+        "word": "차",
+        "reading": "cha",
+        "meaning": "car/tea"
+      },
+      {
+        "word": "친구",
+        "reading": "chingu",
+        "meaning": "friend"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "consonants",
+    "order": 10,
+    "mnemonic": {
+      "en": "Resembles a chimney puffing out smoke, making a 'ch' sound."
+    }
+  },
+  {
+    "id": 2076,
+    "char": "ㅋ",
+    "meaning": "Imagine a key (ㄱ) with a horizontal line (ㅡ) on top, like a key with a flat head, making a sharp 'k' sound when turned.",
+    "meanings": [
+      "k sound (aspirated)"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "k",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 3,
+    "radicals": [
+      "ㄱ",
+      "ㅡ"
+    ],
+    "examples": [
+      {
+        "word": "코",
+        "reading": "ko",
+        "meaning": "nose"
+      },
+      {
+        "word": "키",
+        "reading": "ki",
+        "meaning": "height"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "consonants",
+    "order": 11,
+    "mnemonic": {
+      "en": "Imagine a key (ㄱ) with a horizontal line (ㅡ) on top, like a key with a flat head, making a sharp 'k' sound when turned."
+    }
+  },
+  {
+    "id": 2077,
+    "char": "ㅌ",
+    "meaning": "Picture a door (ㄷ) with a horizontal line (ㅡ) on top, like a door with a flat lintel, making a strong 't' sound when knocked.",
+    "meanings": [
+      "t sound (aspirated)"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "t",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 4,
+    "radicals": [
+      "ㄷ",
+      "ㅡ"
+    ],
+    "examples": [
+      {
+        "word": "토끼",
+        "reading": "tokki",
+        "meaning": "rabbit"
+      },
+      {
+        "word": "타다",
+        "reading": "tada",
+        "meaning": "to ride"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "consonants",
+    "order": 12,
+    "mnemonic": {
+      "en": "Picture a door (ㄷ) with a horizontal line (ㅡ) on top, like a door with a flat lintel, making a strong 't' sound when knocked."
+    }
+  },
+  {
+    "id": 2078,
+    "char": "ㅍ",
+    "meaning": "Think of a bowl (ㅂ) with a horizontal line (ㅡ) on top, like a bowl with a flat rim, making a puffing 'p' sound when blown on.",
+    "meanings": [
+      "p sound (aspirated)"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "p",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 4,
+    "radicals": [
+      "ㅂ",
+      "ㅡ"
+    ],
+    "examples": [
+      {
+        "word": "파",
+        "reading": "pa",
+        "meaning": "green onion"
+      },
+      {
+        "word": "피",
+        "reading": "pi",
+        "meaning": "blood"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "consonants",
+    "order": 13,
+    "mnemonic": {
+      "en": "Think of a bowl (ㅂ) with a horizontal line (ㅡ) on top, like a bowl with a flat rim, making a puffing 'p' sound when blown on."
+    }
+  },
+  {
+    "id": 2079,
+    "char": "ㅎ",
+    "meaning": "Imagine a circle (ㅇ) with a horizontal line (ㅡ) on top, like a hat on a head, making a soft 'h' sound when exhaled.",
+    "meanings": [
+      "h sound"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "h",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 3,
+    "radicals": [
+      "ㅇ",
+      "ㅡ"
+    ],
+    "examples": [
+      {
+        "word": "하늘",
+        "reading": "haneul",
+        "meaning": "sky"
+      },
+      {
+        "word": "호랑이",
+        "reading": "horangi",
+        "meaning": "tiger"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "consonants",
+    "order": 14,
+    "mnemonic": {
+      "en": "Imagine a circle (ㅇ) with a horizontal line (ㅡ) on top, like a hat on a head, making a soft 'h' sound when exhaled."
+    }
+  },
+  {
+    "id": 2085,
+    "char": "ㅏ",
+    "meaning": "Picture a vertical line (ㅣ) with a horizontal line (ㅡ) on the right, like a person (ㅣ) with an arm (ㅡ) raised, making an 'ah' sound of surprise.",
+    "meanings": [
+      "a sound"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "a",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 2,
+    "radicals": [
+      "ㅣ",
+      "ㅡ"
+    ],
+    "examples": [
+      {
+        "word": "아이",
+        "reading": "ai",
+        "meaning": "child"
+      },
+      {
+        "word": "아침",
+        "reading": "achim",
+        "meaning": "morning"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "vowels",
+    "order": 20,
+    "mnemonic": {
+      "en": "Picture a vertical line (ㅣ) with a horizontal line (ㅡ) on the right, like a person (ㅣ) with an arm (ㅡ) raised, making an 'ah' sound of surprise."
+    }
+  },
+  {
+    "id": 2096,
+    "char": "ㅐ",
+    "meaning": "Imagine a person with arms wide open (ㅏ) and a straight line (ㅣ) for a body, shouting 'ae!' in surprise.",
+    "meanings": [
+      "ae (vowel sound)"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "ae",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 2,
+    "radicals": [
+      "ㅏ",
+      "ㅣ"
+    ],
+    "examples": [
+      {
+        "word": "개",
+        "reading": "gae",
+        "meaning": "dog"
+      },
+      {
+        "word": "해",
+        "reading": "hae",
+        "meaning": "sun"
+      },
+      {
+        "word": "내",
+        "reading": "nae",
+        "meaning": "my"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "vowels",
+    "order": 21,
+    "mnemonic": {
+      "en": "Imagine a person with arms wide open (ㅏ) and a straight line (ㅣ) for a body, shouting 'ae!' in surprise."
+    }
+  },
+  {
+    "id": 2097,
+    "char": "ㅑ",
+    "meaning": "Picture a person (ㅏ) with a dot (·) on their head, saying 'ya!' as they point upward.",
+    "meanings": [
+      "ya (vowel sound)"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "ya",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 2,
+    "radicals": [
+      "ㅏ",
+      "·"
+    ],
+    "examples": [
+      {
+        "word": "야",
+        "reading": "ya",
+        "meaning": "hey"
+      },
+      {
+        "word": "야채",
+        "reading": "yachae",
+        "meaning": "vegetables"
+      },
+      {
+        "word": "야구",
+        "reading": "yagu",
+        "meaning": "baseball"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "vowels",
+    "order": 22,
+    "mnemonic": {
+      "en": "Picture a person (ㅏ) with a dot (·) on their head, saying 'ya!' as they point upward."
+    }
+  },
+  {
+    "id": 2098,
+    "char": "ㅒ",
+    "meaning": "Think of a person with arms open and a dot (ㅑ) combined with a straight line (ㅣ), yelling 'yae!' in excitement.",
+    "meanings": [
+      "yae (vowel sound)"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "yae",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 3,
+    "radicals": [
+      "ㅑ",
+      "ㅣ"
+    ],
+    "examples": [
+      {
+        "word": "얘",
+        "reading": "yae",
+        "meaning": "this person (informal)"
+      },
+      {
+        "word": "얘기",
+        "reading": "yaegi",
+        "meaning": "story"
+      },
+      {
+        "word": "얘들아",
+        "reading": "yaedeura",
+        "meaning": "hey guys"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "vowels",
+    "order": 23,
+    "mnemonic": {
+      "en": "Think of a person with arms open and a dot (ㅑ) combined with a straight line (ㅣ), yelling 'yae!' in excitement."
+    }
+  },
+  {
+    "id": 2099,
+    "char": "ㅓ",
+    "meaning": "Visualize a person (ㅏ) turned to the left, saying 'eo!' as if confused or looking back.",
+    "meanings": [
+      "eo (vowel sound)"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "eo",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 2,
+    "radicals": [
+      "ㅏ"
+    ],
+    "examples": [
+      {
+        "word": "어",
+        "reading": "eo",
+        "meaning": "uh (interjection)"
+      },
+      {
+        "word": "어디",
+        "reading": "eodi",
+        "meaning": "where"
+      },
+      {
+        "word": "어머니",
+        "reading": "eomeoni",
+        "meaning": "mother"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "vowels",
+    "order": 24,
+    "mnemonic": {
+      "en": "Visualize a person (ㅏ) turned to the left, saying 'eo!' as if confused or looking back."
+    }
+  },
+  {
+    "id": 2100,
+    "char": "ㅔ",
+    "meaning": "Imagine a person turned left (ㅓ) with a straight line (ㅣ), saying 'e!' in a short, sharp tone.",
+    "meanings": [
+      "e (vowel sound)"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "e",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 2,
+    "radicals": [
+      "ㅓ",
+      "ㅣ"
+    ],
+    "examples": [
+      {
+        "word": "에",
+        "reading": "e",
+        "meaning": "at (particle)"
+      },
+      {
+        "word": "게",
+        "reading": "ge",
+        "meaning": "crab"
+      },
+      {
+        "word": "네",
+        "reading": "ne",
+        "meaning": "yes"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "vowels",
+    "order": 25,
+    "mnemonic": {
+      "en": "Imagine a person turned left (ㅓ) with a straight line (ㅣ), saying 'e!' in a short, sharp tone."
+    }
+  },
+  {
+    "id": 2101,
+    "char": "ㅕ",
+    "meaning": "Picture a person turned left (ㅓ) with a dot (·) on their head, saying 'yeo!' while gesturing.",
+    "meanings": [
+      "yeo (vowel sound)"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "yeo",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 2,
+    "radicals": [
+      "ㅓ",
+      "·"
+    ],
+    "examples": [
+      {
+        "word": "여",
+        "reading": "yeo",
+        "meaning": "female"
+      },
+      {
+        "word": "여기",
+        "reading": "yeogi",
+        "meaning": "here"
+      },
+      {
+        "word": "여자",
+        "reading": "yeoja",
+        "meaning": "woman"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "vowels",
+    "order": 26,
+    "mnemonic": {
+      "en": "Picture a person turned left (ㅓ) with a dot (·) on their head, saying 'yeo!' while gesturing."
+    }
+  },
+  {
+    "id": 2102,
+    "char": "ㅖ",
+    "meaning": "Think of a person turned left with a dot (ㅕ) combined with a straight line (ㅣ), exclaiming 'ye!' in agreement.",
+    "meanings": [
+      "ye (vowel sound)"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "ye",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 3,
+    "radicals": [
+      "ㅕ",
+      "ㅣ"
+    ],
+    "examples": [
+      {
+        "word": "예",
+        "reading": "ye",
+        "meaning": "yes (polite)"
+      },
+      {
+        "word": "예술",
+        "reading": "yesul",
+        "meaning": "art"
+      },
+      {
+        "word": "예쁘다",
+        "reading": "yeppeuda",
+        "meaning": "pretty"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "vowels",
+    "order": 27,
+    "mnemonic": {
+      "en": "Think of a person turned left with a dot (ㅕ) combined with a straight line (ㅣ), exclaiming 'ye!' in agreement."
+    }
+  },
+  {
+    "id": 2103,
+    "char": "ㅗ",
+    "meaning": "Visualize a person (ㅏ) with arms raised high, shouting 'o!' in surprise or joy.",
+    "meanings": [
+      "o (vowel sound)"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "o",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 2,
+    "radicals": [
+      "ㅏ"
+    ],
+    "examples": [
+      {
+        "word": "오",
+        "reading": "o",
+        "meaning": "five"
+      },
+      {
+        "word": "오늘",
+        "reading": "oneul",
+        "meaning": "today"
+      },
+      {
+        "word": "오빠",
+        "reading": "oppa",
+        "meaning": "older brother (female speaking)"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "vowels",
+    "order": 28,
+    "mnemonic": {
+      "en": "Visualize a person (ㅏ) with arms raised high, shouting 'o!' in surprise or joy."
+    }
+  },
+  {
+    "id": 2104,
+    "char": "ㅘ",
+    "meaning": "Imagine a person with arms high (ㅗ) meeting another with arms open (ㅏ), together saying 'wa!' in wonder.",
+    "meanings": [
+      "wa (vowel sound)"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "wa",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 3,
+    "radicals": [
+      "ㅗ",
+      "ㅏ"
+    ],
+    "examples": [
+      {
+        "word": "과",
+        "reading": "gwa",
+        "meaning": "and (with)"
+      },
+      {
+        "word": "과일",
+        "reading": "gwail",
+        "meaning": "fruit"
+      },
+      {
+        "word": "사과",
+        "reading": "sagwa",
+        "meaning": "apple"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "vowels",
+    "order": 29,
+    "mnemonic": {
+      "en": "Imagine a person with arms high (ㅗ) meeting another with arms open (ㅏ), together saying 'wa!' in wonder."
+    }
+  },
+  {
+    "id": 2105,
+    "char": "ㅙ",
+    "meaning": "Think of a person with arms high (ㅗ) combined with an open-armed line (ㅐ), crying 'wae!' meaning 'why'.",
+    "meanings": [
+      "wae (vowel sound)"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "wae",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 4,
+    "radicals": [
+      "ㅗ",
+      "ㅐ"
+    ],
+    "examples": [
+      {
+        "word": "왜",
+        "reading": "wae",
+        "meaning": "why"
+      },
+      {
+        "word": "쾌",
+        "reading": "kwae",
+        "meaning": "refreshment"
+      },
+      {
+        "word": "왜냐하면",
+        "reading": "waenyahamyeon",
+        "meaning": "because"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "vowels",
+    "order": 30,
+    "mnemonic": {
+      "en": "Think of a person with arms high (ㅗ) combined with an open-armed line (ㅐ), crying 'wae!' meaning 'why'."
+    }
+  },
+  {
+    "id": 2106,
+    "char": "ㅚ",
+    "meaning": "A wide mouth (ㅗ) with a vertical line (ㅣ) inside, like a surprised face saying 'oe'.",
+    "meanings": [
+      "vowel"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "oe",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 2,
+    "radicals": [
+      "ㅗ",
+      "ㅣ"
+    ],
+    "examples": [
+      {
+        "word": "외국",
+        "reading": "oeguk",
+        "meaning": "foreign country"
+      },
+      {
+        "word": "외로움",
+        "reading": "oeroum",
+        "meaning": "loneliness"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "vowels",
+    "order": 31,
+    "mnemonic": {
+      "en": "A wide mouth (ㅗ) with a vertical line (ㅣ) inside, like a surprised face saying 'oe'."
+    }
+  },
+  {
+    "id": 2107,
+    "char": "ㅛ",
+    "meaning": "A wide mouth (ㅗ) with a vertical line (ㅣ) on top, like a person yelling 'yo!' with arms raised.",
+    "meanings": [
+      "vowel"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "yo",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 2,
+    "radicals": [
+      "ㅗ",
+      "ㅣ"
+    ],
+    "examples": [
+      {
+        "word": "요리",
+        "reading": "yori",
+        "meaning": "cooking"
+      },
+      {
+        "word": "요일",
+        "reading": "yoil",
+        "meaning": "day of the week"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "vowels",
+    "order": 32,
+    "mnemonic": {
+      "en": "A wide mouth (ㅗ) with a vertical line (ㅣ) on top, like a person yelling 'yo!' with arms raised."
+    }
+  },
+  {
+    "id": 2108,
+    "char": "ㅜ",
+    "meaning": "A horizontal line (ㅡ) with a vertical line (ㅣ) below, like a sad face with a tear dropping down, saying 'u'.",
+    "meanings": [
+      "vowel"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "u",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 2,
+    "radicals": [
+      "ㅡ",
+      "ㅣ"
+    ],
+    "examples": [
+      {
+        "word": "우리",
+        "reading": "uri",
+        "meaning": "we, our"
+      },
+      {
+        "word": "우유",
+        "reading": "uyu",
+        "meaning": "milk"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "vowels",
+    "order": 33,
+    "mnemonic": {
+      "en": "A horizontal line (ㅡ) with a vertical line (ㅣ) below, like a sad face with a tear dropping down, saying 'u'."
+    }
+  },
+  {
+    "id": 2109,
+    "char": "ㅝ",
+    "meaning": "A sad face (ㅜ) with an extra line (ㅓ) added, like a person saying 'wo' with a surprised expression.",
+    "meanings": [
+      "vowel"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "wo",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 3,
+    "radicals": [
+      "ㅜ",
+      "ㅓ"
+    ],
+    "examples": [
+      {
+        "word": "원",
+        "reading": "won",
+        "meaning": "won (Korean currency)"
+      },
+      {
+        "word": "월",
+        "reading": "wol",
+        "meaning": "month"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "vowels",
+    "order": 34,
+    "mnemonic": {
+      "en": "A sad face (ㅜ) with an extra line (ㅓ) added, like a person saying 'wo' with a surprised expression."
+    }
+  },
+  {
+    "id": 2110,
+    "char": "ㅞ",
+    "meaning": "A sad face (ㅜ) with a vertical line (ㅔ) added, like a person saying 'we' with a questioning look.",
+    "meanings": [
+      "vowel"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "we",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 3,
+    "radicals": [
+      "ㅜ",
+      "ㅔ"
+    ],
+    "examples": [
+      {
+        "word": "웨이터",
+        "reading": "weiteo",
+        "meaning": "waiter"
+      },
+      {
+        "word": "웨딩",
+        "reading": "weding",
+        "meaning": "wedding"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "vowels",
+    "order": 35,
+    "mnemonic": {
+      "en": "A sad face (ㅜ) with a vertical line (ㅔ) added, like a person saying 'we' with a questioning look."
+    }
+  },
+  {
+    "id": 2111,
+    "char": "ㅟ",
+    "meaning": "A sad face (ㅜ) with a vertical line (ㅣ) inside, like a person saying 'wi' with a surprised expression.",
+    "meanings": [
+      "vowel"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "wi",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 3,
+    "radicals": [
+      "ㅜ",
+      "ㅣ"
+    ],
+    "examples": [
+      {
+        "word": "위",
+        "reading": "wi",
+        "meaning": "stomach, above"
+      },
+      {
+        "word": "위험",
+        "reading": "wiheom",
+        "meaning": "danger"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "vowels",
+    "order": 36,
+    "mnemonic": {
+      "en": "A sad face (ㅜ) with a vertical line (ㅣ) inside, like a person saying 'wi' with a surprised expression."
+    }
+  },
+  {
+    "id": 2112,
+    "char": "ㅠ",
+    "meaning": "A horizontal line (ㅡ) with two vertical lines (ㅣ) below, like a person saying 'yu' with arms raised.",
+    "meanings": [
+      "vowel"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "yu",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 2,
+    "radicals": [
+      "ㅡ",
+      "ㅣ"
+    ],
+    "examples": [
+      {
+        "word": "유리",
+        "reading": "yuri",
+        "meaning": "glass"
+      },
+      {
+        "word": "유명",
+        "reading": "yumyeong",
+        "meaning": "famous"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "vowels",
+    "order": 37,
+    "mnemonic": {
+      "en": "A horizontal line (ㅡ) with two vertical lines (ㅣ) below, like a person saying 'yu' with arms raised."
+    }
+  },
+  {
+    "id": 2113,
+    "char": "ㅡ",
+    "meaning": "A straight horizontal line, like a flat surface or a neutral mouth saying 'eu'.",
+    "meanings": [
+      "vowel"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "eu",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 1,
+    "radicals": [],
+    "examples": [
+      {
+        "word": "음식",
+        "reading": "eumsik",
+        "meaning": "food"
+      },
+      {
+        "word": "은행",
+        "reading": "eunhaeng",
+        "meaning": "bank"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "vowels",
+    "order": 38,
+    "mnemonic": {
+      "en": "A straight horizontal line, like a flat surface or a neutral mouth saying 'eu'."
+    }
+  },
+  {
+    "id": 2114,
+    "char": "ㅢ",
+    "meaning": "A horizontal line (ㅡ) with a vertical line (ㅣ) attached, like a person saying 'ui' with a questioning tone.",
+    "meanings": [
+      "vowel"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "ui",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 2,
+    "radicals": [
+      "ㅡ",
+      "ㅣ"
+    ],
+    "examples": [
+      {
+        "word": "의사",
+        "reading": "uisa",
+        "meaning": "doctor"
+      },
+      {
+        "word": "의미",
+        "reading": "uimi",
+        "meaning": "meaning"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "vowels",
+    "order": 39,
+    "mnemonic": {
+      "en": "A horizontal line (ㅡ) with a vertical line (ㅣ) attached, like a person saying 'ui' with a questioning tone."
+    }
+  },
+  {
+    "id": 2115,
+    "char": "ㅣ",
+    "meaning": "A straight vertical line, like a standing person or a simple sound saying 'i'.",
+    "meanings": [
+      "vowel"
+    ],
+    "onyomi": [],
+    "kunyomi": [],
+    "romanization": "i",
+    "type": "alphabet",
+    "level": "appropriate",
+    "framework": null,
+    "strokes": 1,
+    "radicals": [],
+    "examples": [
+      {
+        "word": "이름",
+        "reading": "ireum",
+        "meaning": "name"
+      },
+      {
+        "word": "이것",
+        "reading": "igeot",
+        "meaning": "this thing"
+      }
+    ],
+    "audioUrl": null,
+    "language_id": 3,
+    "script_id": null,
+    "content_translations": null,
+    "group": "vowels",
+    "order": 40,
+    "mnemonic": {
+      "en": "A straight vertical line, like a standing person or a simple sound saying 'i'."
+    }
+  }
+]

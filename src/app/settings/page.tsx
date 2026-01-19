@@ -225,6 +225,15 @@ export default function SettingsPage() {
     updateSetting('languageThemes', newLanguageThemes);
   }, [settings.languageThemes, updateSetting]);
 
+  const handleColorChange = useCallback((key: keyof Settings['customColors'], value: string) => {
+    const newCustomColors = { ...settings.customColors, [key]: value };
+    updateSetting('customColors', newCustomColors);
+  }, [settings.customColors, updateSetting]);
+
+  const handleResetColors = useCallback(() => {
+    updateSetting('customColors', {});
+  }, [updateSetting]);
+
   const handleVoiceChange = useCallback((voiceId: KokoroVoice) => {
     setSelectedVoice(voiceId);
   }, [setSelectedVoice]);
@@ -654,6 +663,74 @@ export default function SettingsPage() {
                 </div>
               );
             })}
+          </div>
+        </div>
+
+        {/* Custom Colors Section */}
+        <div className={styles.customColorsSection}>
+          <div className={styles.overridesHeader}>
+            <div>
+              <Text variant="h4" className={styles.overridesTitle}>{t('settings.appearance.customColors')}</Text>
+              <Text variant="label" color="muted" className={styles.overridesSubtitle}>
+                {t('settings.appearance.customColorsDescription')}
+              </Text>
+            </div>
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={handleResetColors}
+              className={styles.resetButton}
+            >
+              {t('settings.appearance.resetColors')}
+            </Button>
+          </div>
+
+          <div className={styles.colorGrid}>
+            <div className={styles.colorRow}>
+              <Text className={styles.colorLabel}>{t('settings.appearance.colors.bgPrimary')}</Text>
+              <input
+                type="color"
+                className={styles.colorPicker}
+                value={settings.customColors?.bgPrimary || '#0a0a0a'}
+                onChange={(e) => handleColorChange('bgPrimary', e.target.value)}
+              />
+            </div>
+            <div className={styles.colorRow}>
+              <Text className={styles.colorLabel}>{t('settings.appearance.colors.bgSecondary')}</Text>
+              <input
+                type="color"
+                className={styles.colorPicker}
+                value={settings.customColors?.bgSecondary || '#1a1a1a'}
+                onChange={(e) => handleColorChange('bgSecondary', e.target.value)}
+              />
+            </div>
+            <div className={styles.colorRow}>
+              <Text className={styles.colorLabel}>{t('settings.appearance.colors.textPrimary')}</Text>
+              <input
+                type="color"
+                className={styles.colorPicker}
+                value={settings.customColors?.textPrimary || '#ffffff'}
+                onChange={(e) => handleColorChange('textPrimary', e.target.value)}
+              />
+            </div>
+            <div className={styles.colorRow}>
+              <Text className={styles.colorLabel}>{t('settings.appearance.colors.accentPrimary')}</Text>
+              <input
+                type="color"
+                className={styles.colorPicker}
+                value={settings.customColors?.accentPrimary || '#d4a574'}
+                onChange={(e) => handleColorChange('accentPrimary', e.target.value)}
+              />
+            </div>
+            <div className={styles.colorRow}>
+              <Text className={styles.colorLabel}>{t('settings.appearance.colors.accentGold')}</Text>
+              <input
+                type="color"
+                className={styles.colorPicker}
+                value={settings.customColors?.accentGold || '#d4a574'}
+                onChange={(e) => handleColorChange('accentGold', e.target.value)}
+              />
+            </div>
           </div>
         </div>
       </Card>

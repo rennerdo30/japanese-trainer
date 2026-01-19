@@ -57,27 +57,37 @@ interface JapaneseCharacterData {
     audioUrl?: string;
 }
 
-// Normalize Korean characters to match the Character interface
-const normalizeKoreanCharacter = (char: KoreanCharacterData): Character => ({
-    romaji: char.romaji,
-    hiragana: char.character, // Use 'hiragana' field for the character display
-    type: char.type,
-    audioUrl: char.audioUrl,
-    group: char.group,
-    order: char.order,
-    name: char.name,
-    mnemonic: char.mnemonic,
-});
+// Normalize Korean characters 
+const normalizeKoreanCharacter = (char: any): Character => {
+    const rawType = char.type === 'alphabet' ? char.group : char.type;
+    // Map plural groups to singular types expected by filters
+    const typeMapping: Record<string, string> = {
+        'consonants': 'consonant',
+        'vowels': 'vowel',
+        'double_consonants': 'double_consonant',
+        'compound_vowels': 'compound_vowel'
+    };
 
-// Normalize Japanese characters to match the Character interface
-// The JSON has 'char' and 'romanization' instead of 'hiragana' and 'romaji'
+    return {
+        romaji: char.romaji || char.romanization || '',
+        hiragana: char.hiragana || char.character || char.char || '',
+        type: typeMapping[rawType] || rawType || 'consonant',
+        audioUrl: char.audioUrl || char.audio_url,
+        group: char.group,
+        order: char.order || char.sort_order,
+        name: char.name,
+        mnemonic: char.mnemonic,
+    };
+};
+
+// Normalize Japanese characters
 const normalizeJapaneseCharacter = (char: any): Character => ({
-    romaji: char.romanization || char.romaji || '',
-    hiragana: char.char || char.hiragana || '',
-    type: char.type,
+    romaji: char.romaji || char.romanization || '',
+    hiragana: char.hiragana || char.char || '',
+    type: char.type || 'gojuon',
     audioUrl: char.audioUrl || char.audio_url,
     group: char.group,
-    order: char.order,
+    order: char.order || char.sort_order,
     name: char.name,
     mnemonic: char.mnemonic,
 });
@@ -178,42 +188,42 @@ export default function AlphabetPage() {
     // Fetch data
     useEffect(() => {
         const loadData = async () => {
-            // For Japanese, try to load from the generated JSON in public/data
-            if (targetLanguage === 'ja') {
-                try {
-                    // Load characters
-                    const charRes = await fetch(`/data/${targetLanguage}/characters.json`);
-                    if (charRes.ok) {
-                        const data = await charRes.json();
-                        // 1. Normalize
-                        const normalized = data.map(normalizeJapaneseCharacter);
-                        // 2. Strict Filter: ONLY keep native Hiragana characters
-                        // This removes:
-                        // - Kanji (\u4E00-\u9FAF)
-                        // - Katakana (\u30A0-\u30FF) - removes duplicates, we convert on fly
-                        // - Romaji/Symbols
-                        const hiraganaOnly = normalized.filter((c: Character) =>
-                            /[\u3040-\u309F]/.test(c.hiragana)
-                        );
-                        setCharacters(hiraganaOnly);
+            // Try to load from generated JSON in public/data for the target language
+            try {
+                // Load characters
+                const charRes = await fetch(`/data/${targetLanguage}/characters.json`);
+                if (charRes.ok) {
+                    const data = await charRes.json();
+
+                    // Normalize based on language
+                    let normalized: Character[];
+                    if (targetLanguage === 'ko') {
+                        normalized = data.map(normalizeKoreanCharacter);
                     } else {
-                        console.error('Failed to load character data');
-                        setCharacters([]);
+                        normalized = data.map(normalizeJapaneseCharacter);
                     }
 
-                    // Load lessons
+                    // For Japanese, apply strict Hiragana filter
+                    if (targetLanguage === 'ja') {
+                        normalized = normalized.filter((c: Character) =>
+                            /[\u3040-\u309F]/.test(c.hiragana)
+                        );
+                    }
+
+                    setCharacters(normalized);
+
+                    // If we successfully loaded characters, also try to load lessons
                     const lessonRes = await fetch(`/data/${targetLanguage}/lessons.json`);
                     if (lessonRes.ok) {
-                        const data = await lessonRes.json();
-                        setLessons(data);
+                        const lessonData = await lessonRes.json();
+                        setLessons(lessonData);
                     } else {
-                        console.error('Failed to load lesson data');
                         setLessons([]);
                     }
                     return;
-                } catch (error) {
-                    console.error('Failed to load data:', error);
                 }
+            } catch (error) {
+                console.warn(`Failed to load dynamic data for ${targetLanguage}, falling back to static:`, error);
             }
 
             // Fallback to static data (mostly for Korean or if fetch fails)

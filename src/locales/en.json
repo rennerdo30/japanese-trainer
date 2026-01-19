@@ -546,6 +546,16 @@
       "themeDescription": "Applies this theme across all languages (overrides per-language settings)",
       "languageOverrides": "Per-Language Themes",
       "languageOverridesDescription": "Customize the appearance for each language independently",
+      "customColors": "Advanced Color Customization",
+      "customColorsDescription": "Directly override CSS color variables for maximum personalization",
+      "resetColors": "Reset Colors",
+      "colors": {
+        "bgPrimary": "Background (Primary)",
+        "bgSecondary": "Surface (Secondary)",
+        "textPrimary": "Main Text Color",
+        "accentPrimary": "Accent Color",
+        "accentGold": "Accent Gold"
+      },
       "auto": "Follow Language (Default)"
     },
     "backToDashboard": "Back to Dashboard"

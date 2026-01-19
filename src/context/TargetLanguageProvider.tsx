@@ -92,8 +92,28 @@ export function TargetLanguageProvider({ children }: TargetLanguageProviderProps
       }
 
       document.documentElement.setAttribute('data-theme', themeToApply);
+
+      // 3. Apply custom colors if any
+      const root = document.documentElement;
+      const colors = settings.customColors || {};
+
+      const colorMap: Record<string, string | undefined> = {
+        '--bg-primary': colors.bgPrimary,
+        '--bg-secondary': colors.bgSecondary,
+        '--text-primary': colors.textPrimary,
+        '--accent-primary': colors.accentPrimary,
+        '--accent-gold': colors.accentGold,
+      };
+
+      Object.entries(colorMap).forEach(([variable, value]) => {
+        if (value) {
+          root.style.setProperty(variable, value);
+        } else {
+          root.style.removeProperty(variable);
+        }
+      });
     }
-  }, [targetLanguage, settings.globalTheme, settings.languageThemes]);
+  }, [targetLanguage, settings.globalTheme, settings.languageThemes, settings.customColors]);
 
   // Set and persist target language
   const setTargetLanguage = useCallback((code: LanguageCode) => {
