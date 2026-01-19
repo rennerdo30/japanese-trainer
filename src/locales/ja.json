@@ -13,12 +13,41 @@
     "incorrect": "不正解",
     "total": "合計",
     "streak": "連続",
-    "stop": "已吃"
+    "stop": "已吃",
+    "continue": "続ける",
+    "changeLanguage": "言語を変更",
+    "selectLanguage": "言語を選択",
+    "close": "閉じる",
+    "listen": "聞く",
+    "show": "表示",
+    "hide": "非表示",
+    "iKnowThis": "これは知っている",
+    "tapToContinue": "タップして続ける",
+    "hint": "ヒント",
+    "demo": "デモ",
+    "guide": "ガイド",
+    "clear": "クリア",
+    "gotIt": "了解",
+    "days": {
+      "sun": "日",
+      "mon": "月",
+      "tue": "火",
+      "wed": "水",
+      "thu": "木",
+      "fri": "金",
+      "sat": "土"
+    },
+    "errorBoundary": {
+      "title": "エラーが発生しました",
+      "message": "予期しないエラーが発生しました。ページを更新してください。",
+      "tryAgain": "再試行"
+    }
   },
   "modules": {
     "alphabet": {
       "title": "アルファベット",
-      "description": "ひらがなとカタカナをマスター"
+      "description": "ひらがなとカタカナをマスター",
+      "title_ko": "ハングル"
     },
     "vocabulary": {
       "title": "語彙",
@@ -26,7 +55,9 @@
     },
     "kanji": {
       "title": "漢字",
-      "description": "漢字をマスター"
+      "description": "漢字をマスター",
+      "title_ja": "漢字",
+      "title_zh": "漢字"
     },
     "grammar": {
       "title": "文法",
@@ -137,11 +168,446 @@
     "dayStreak": "連続日数",
     "wordsLearned": "学習した単語",
     "kanjiMastered": "マスターした漢字",
-    "studyTime": "学習時間（分）"
+    "studyTime": "学習時間（分）",
+    "continueLearning": "学習を続ける",
+    "browsePaths": "学習パスを閲覧",
+    "reviewDashboardStat": "レビューダッシュボード",
+    "leaderboardStat": "リーダーボード",
+    "settingsStat": "設定",
+    "hanziMastered": "漢字マスター",
+    "hangulMastered": "ハングルマスター",
+    "charactersLearned": "学習済み文字",
+    "weeklyProgress": {
+      "thisWeek": "今週",
+      "fullReport": "詳細レポート"
+    },
+    "lessons": "レッスン",
+    "xpEarned": "獲得XP",
+    "activeDays": "アクティブ日数",
+    "accuracy": "正確性",
+    "targetLanguage": {
+      "title": "学習目標",
+      "selectLabel": "目標言語を選択",
+      "levelsAvailable": "{count}レベル利用可能"
+    },
+    "pathProgress": {
+      "nextUp": "次へ",
+      "lessonsCount": "{completed} / {total} レッスン"
+    },
+    "goalEstimator": {
+      "title": "目標推定",
+      "daysLeft": "残り日数",
+      "minPerDay": "分/日",
+      "hoursLeft": "残り時間",
+      "estimatedCompletion": "推定完了日",
+      "toLevel": "{level}まで",
+      "learnedItemsInfo": "{learned} / {total} 項目学習済み",
+      "milestones": "マイルストーン",
+      "atMinutesPerDay": "{count} 分/日で"
+    },
+    "library": {
+      "viewAll": "すべて表示",
+      "title": "ライブラリ"
+    },
+    "activity": {
+      "title": "アクティビティ",
+      "less": "少ない",
+      "more": "多い",
+      "current": "現在",
+      "best": "最高",
+      "totalHrs": "合計時間",
+      "dayStreakStatus": "{count}日連続",
+      "minTooltip": "{count} 分"
+    },
+    "compass": {
+      "title": "学習コンパス",
+      "nextUp": "次へ",
+      "reviewsDue": "{count} レビュー予定",
+      "min": "{count} 分",
+      "modules": {
+        "alphabet": "Alphabet",
+        "vocabulary": "Vocabulary",
+        "kanji": "Characters",
+        "grammar": "Grammar",
+        "reading": "Reading",
+        "listening": "Listening"
+      }
+    },
+    "heatmap": {
+      "title": "習熟度ヒートマップ"
+    },
+    "greetings": {
+      "goodMorning": "おはようございます",
+      "goodAfternoon": "こんにちは",
+      "goodEvening": "こんばんは",
+      "goodNight": "おやすみなさい"
+    },
+    "notifications": "通知"
   },
   "stats": {
     "correct": "正解",
     "total": "合計",
     "streak": "連続"
+  },
+  "auth": {
+    "signIn": "サインイン",
+    "signOut": "サインアウト",
+    "user": "ユーザー",
+    "loading": "読み込み中...",
+    "loginDialog": {
+      "title": {
+        "signIn": "サインイン",
+        "createAccount": "アカウント作成",
+        "continueAnonymously": "匿名で続ける"
+      },
+      "emailPassword": {
+        "title": "メールとパスワード",
+        "description": "メールとパスワードでサインイン。どのデバイスからでもアカウントにアクセスできます。"
+      },
+      "anonymous": {
+        "title": "匿名で続ける",
+        "description": "アプリをすぐに使い始められます。セッションはこのデバイスのみに紐づきます。"
+      },
+      "form": {
+        "email": "メールアドレス",
+        "password": "パスワード",
+        "emailPlaceholder": "your@email.com",
+        "passwordPlaceholderNew": "8文字以上",
+        "passwordPlaceholderExisting": "パスワードを入力",
+        "back": "戻る",
+        "signUp": "新規登録",
+        "alreadyHaveAccount": "アカウントをお持ちですか？ログイン",
+        "dontHaveAccount": "アカウントをお持ちでないですか？新規登録"
+      },
+      "signingIn": "ログイン中...",
+      "errors": {
+        "invalidCredentials": "メールアドレスまたはパスワードが無効です。認証情報を確認して再試行してください。",
+        "accountExists": "このメールアドレスのアカウントは既に存在します。代わりにログインしてください。",
+        "invalidEmail": "有効なメールアドレスを入力してください。",
+        "passwordWeak": "パスワードは8文字以上である必要があります。",
+        "rateLimit": "試行回数が多すぎます。しばらく待ってから再試行してください。",
+        "network": "接続エラー。インターネット接続を確認して再試行してください。",
+        "generic": "認証に失敗しました。再試行してください。"
+      }
+    }
+  },
+  "gamification": {
+    "levelUp": {
+      "title": "レベルアップ！",
+      "message": "{tier}レベル{level}に到達しました"
+    },
+    "achievements": {
+      "title": "実績（{percentage}%）",
+      "unlockedCount": "{unlocked} / {total}",
+      "unlockedLabel": "実績解除！",
+      "empty": "実績が見つかりません",
+      "secret": {
+        "name": "？？？",
+        "description": "この秘密の実績を完了して明らかにする"
+      },
+      "categories": {
+        "all": "すべて",
+        "learning": "学習",
+        "streak": "連続記録",
+        "mastery": "習熟",
+        "explorer": "探検",
+        "special": "特別"
+      },
+      "status": {
+        "all": "すべて",
+        "unlocked": "解除済み",
+        "locked": "ロック中"
+      }
+    }
+  },
+  "settings": {
+    "title": "設定",
+    "subtitle": "学習体験をカスタマイズ",
+    "leaderboard": {
+      "title": "リーダーボード",
+      "showOnLeaderboard": "リーダーボードに表示",
+      "showOnLeaderboardDescription": "無効にすると、進捗が公開ランキングに表示されません",
+      "visible": "表示",
+      "hidden": "非表示",
+      "anonymousName": "匿名名",
+      "anonymousNameDescription": "リーダーボードでの表示名"
+    },
+    "srs": {
+      "title": "間隔反復",
+      "description": "復習スケジュールと難易度をカスタマイズ"
+    },
+    "audio": {
+      "title": "音声＆TTS",
+      "offlineTTS": "オフラインTTS（Kokoro）",
+      "offlineTTSDescription": "オフライン音声合成用に約{{size}}MBモデルをダウンロード",
+      "notSupported": "サポートされていません：{{reason}}",
+      "off": "オフ",
+      "on": "オン",
+      "desktopNotice": "デスクトップではKokoro TTSが自動的に読み込まれます",
+      "readyNotice": "オフラインTTS準備完了 - インターネットなしで動作",
+      "loadError": "オフラインTTSの読み込みに失敗しました",
+      "voiceSelection": "音声選択（{{language}}）",
+      "notSupportedWarning": "Kokoroは{{language}}をサポートしていません。ブラウザ音声合成または事前生成音声を使用します。",
+      "noVoicesWarning": "{{language}}用の音声が利用できません。",
+      "voiceSelectionNote": "{{language}}音声合成用の音声を選択。事前生成音声が利用可能な場合は使用されます。",
+      "playing": "再生中...",
+      "test": "テスト",
+      "voiceDetail": "{{language}}・{{gender}}・品質：{{quality}}",
+      "priorityTitle": "音声再生優先順位：",
+      "priority1": "事前生成音声（最高品質）",
+      "priority2": "Kokoro TTS（{{status}}、{{support}}）",
+      "ifEnabled": "有効の場合",
+      "autoLoaded": "自動読み込み",
+      "englishOnly": "英語のみ",
+      "priority3": "ブラウザ音声合成（フォールバック）"
+    },
+    "appearance": {
+      "title": "外観",
+      "comingSoon": "テーマ設定近日公開"
+    },
+    "backToDashboard": "ダッシュボードに戻る"
+  },
+  "srs": {
+    "title": "SRS設定",
+    "subtitle": "間隔反復体験をカスタマイズ",
+    "scheduling": {
+      "title": "復習スケジュール",
+      "newItemsLimit": "日次新規項目制限",
+      "newItemsDescription": "1日に学習する最大新規項目数",
+      "reviewLimit": "日次復習制限",
+      "reviewLimitDescription": "1日の最大復習数（0 = 無制限）",
+      "threshold": "復習閾値",
+      "thresholdDescription": "SRSスケジュールの厳格さ",
+      "thresholdStrict": "厳格",
+      "thresholdModerate": "中程度",
+      "thresholdRelaxed": "緩やか"
+    },
+    "difficulty": {
+      "title": "難易度調整",
+      "easeBonus": "容易ボーナス",
+      "easeBonusDescription": "間隔の成長速度を調整（{{value}}%）",
+      "intervalMultiplier": "間隔乗数",
+      "intervalMultiplierDescription": "すべての間隔をこの係数でスケーリング",
+      "lapseInterval": "失敗時新間隔",
+      "lapseIntervalDescription": "失敗時に、前の間隔のこの%にリセット"
+    },
+    "options": {
+      "title": "復習オプション",
+      "autoplayAudio": "音声自動再生",
+      "autoplayAudioDescription": "カード表示時に音声を自動再生",
+      "showReadingHints": "読みヒント表示",
+      "readingHintsDescription": "発音のふりがなまたはピンインのヒントを表示",
+      "accuracy": "必要精度",
+      "accuracyDescription": "習熟の目標精度（{{value}}%）"
+    },
+    "notifications": {
+      "title": "通知",
+      "reminders": "復習リマインダー",
+      "remindersDescription": "復習期限時に通知を受け取る",
+      "reminderTime": "リマインダー時間",
+      "reminderTimeDescription": "毎日のリマインダーを送信する時間",
+      "reminderThreshold": "リマインダー閾値",
+      "reminderThresholdDescription": "この数を超えたレビューのみ通知"
+    },
+    "actions": {
+      "reset": "デフォルトにリセット",
+      "save": "設定を保存",
+      "saved": "保存しました！",
+      "backToSettings": "設定に戻る"
+    }
+  },
+  "languages": {
+    "ja": "日本語",
+    "zh": "中国語",
+    "ko": "韓国語",
+    "es": "スペイン語",
+    "fr": "フランス語",
+    "hi": "ヒンディー語",
+    "it": "イタリア語",
+    "pt": "ポルトガル語",
+    "en": "英語"
+  },
+  "lessons": {
+    "view": {
+      "noContent": "利用可能なコンテンツがありません",
+      "noExercises": "このレッスンには利用可能な練習問題がありません。",
+      "previous": "前へ",
+      "next": "次へ",
+      "startExercises": "練習問題を開始",
+      "completeLesson": "レッスンを完了",
+      "topic": "トピック",
+      "vocabulary": "語彙",
+      "grammar": "文法",
+      "culturalNote": "文化メモ",
+      "exerciseStep": "練習問題 {current} / {total}",
+      "culturalNotes": "文化メモ",
+      "learning": "学習中",
+      "practice": "練習",
+      "stop": "停止",
+      "tapToContinueHint": "タップまたはスワイプで続行"
+    },
+    "vocabulary": {
+      "examples": "例文"
+    },
+    "grammar": {
+      "examples": "例文",
+      "usageNotes": "使用上の注意",
+      "hideExplanation": "説明を隠す",
+      "showExplanation": "説明を表示",
+      "iUnderstand": "理解しました"
+    },
+    "character": {
+      "strokeOrder": "筆順",
+      "memoryTip": "記憶のコツ"
+    },
+    "intro": {
+      "minutes": "分",
+      "items": "項目",
+      "vocabulary": "語彙",
+      "back": "戻る",
+      "whatYoullLearn": "学習内容：",
+      "vocabularyWords": "{count} 語の語彙",
+      "grammarPoints": "{count} 個の文法ポイント",
+      "culturalNotes": "{count} 個の文化メモ",
+      "startLesson": "レッスンを開始"
+    },
+    "summary": {
+      "levelUp": "レベルアップ！",
+      "perfect": "完璧！",
+      "lessonComplete": "レッスン完了！",
+      "correctCount": "{correct} / {total} 正解",
+      "xpTotal": "+{xp} XP",
+      "xpBase": "基本：+{xp}",
+      "xpPerfect": "完璧：+{xp}",
+      "xpStreak": "連続：+{xp}",
+      "newLevel": "レベル {level} に到達しました",
+      "nextLesson": "次のレッスン",
+      "pathComplete": "パス完了",
+      "backToPath": "パスに戻る",
+      "upNext": "次は"
+    }
+  },
+  "exercises": {
+    "correct": "正解！",
+    "common": {
+      "checkAnswer": "答えを確認",
+      "answerOptions": "回答オプション",
+      "optionLabelWithStatus": "オプション {index}: {option}{status}",
+      "correctAnswerStatus": "、正解",
+      "incorrectStatus": "、不正解",
+      "quitSession": "セッションを終了",
+      "quitConfirmTitle": "セッションを終了しますか？",
+      "quitConfirmMessage": "このセッションの進捗は失われます。",
+      "confirmQuit": "終了",
+      "cancel": "キャンセル",
+      "unsupported": "この練習問題タイプはまだサポートされていません"
+    },
+    "matching": {
+      "success": "すべてのペアが正しく一致しました！",
+      "error": "一部の一致が不正解です。ハイライトされたペアを確認してください。",
+      "title": "ペアを一致させてください",
+      "leftColumnLabel": "左列 - 一致させる項目を選択",
+      "rightColumnLabel": "右列 - 一致を完了するために選択",
+      "leftItemLabel": "{item}{matched}{status}",
+      "matchedStatus": "、一致済み",
+      "correctMatchStatus": "、正しい一致",
+      "incorrectMatchStatus": "、不正解の一致",
+      "rightItemLabel": "{item}{matched}{available}",
+      "alreadyMatchedStatus": "、すでに一致済み",
+      "availableToMatchStatus": "、一致可能",
+      "checkMatches": "一致を確認 ({count}/{total})"
+    },
+    "fillBlank": {
+      "correctAnswerIs": "正解は："
+    },
+    "translation": {
+      "correctAnswer": "正しい翻訳：",
+      "translateTo": "{language} に翻訳",
+      "checkTranslation": "翻訳を確認",
+      "placeholder": "翻訳を入力..."
+    },
+    "typing": {
+      "correctAnswer": "正解：",
+      "instruction": "翻訳を入力してください",
+      "placeholder": "答えを入力...",
+      "expectedLength": "予想：{count} 文字"
+    },
+    "strokeOrder": {
+      "strokesCount": "{count} 画",
+      "strokesProgress": "画：{current} / {total}",
+      "feedbackIncorrect": "練習を続けてください！この文字は {count} 画です。",
+      "checkCharacter": "文字を確認"
+    },
+    "wordOrder": {
+      "placeholder": "単語をタップして文を作成"
+    },
+    "listening": {
+      "playing": "再生中...",
+      "playAudio": "音声を再生",
+      "playCount": "{count}回再生",
+      "transcriptShow": "トランスクリプトを表示",
+      "transcriptHide": "トランスクリプトを非表示"
+    }
+  },
+  "review": {
+    "config": {
+      "title": "復習セッション",
+      "selectModules": "モジュールを選択",
+      "numberOfItems": "項目数",
+      "onlyItemsAvailable": "利用可能な項目は{count}個のみ",
+      "selectedModules": "選択されたモジュール:",
+      "itemsToReview": "復習する項目:",
+      "startReview": "復習を開始",
+      "noItemsDue": "復習期限の項目はありません。よく頑張りました！",
+      "due": "{count}個期限"
+    },
+    "modules": {
+      "vocabulary": "語彙",
+      "kanji": "文字",
+      "grammar": "文法"
+    },
+    "progress": {
+      "accuracy": "正答率:"
+    },
+    "card": {
+      "showAnswer": "答えを表示",
+      "questionRating": "どのくらい覚えていましたか？",
+      "rating": {
+        "again": "もう一度",
+        "hard": "難しい",
+        "good": "良い",
+        "easy": "簡単",
+        "perfect": "完璧",
+        "againDesc": "完全に忘れた",
+        "hardDesc": "思い出すのに苦労した",
+        "goodDesc": "努力して正解",
+        "easyDesc": "簡単に思い出せた",
+        "perfectDesc": "瞬時に思い出せた"
+      }
+    },
+    "mastery": {
+      "new": "新規",
+      "learning": "学習中",
+      "review": "復習",
+      "mastered": "習得済み"
+    },
+    "stats": {
+      "title": "復習セッション",
+      "sessionComplete": "セッション完了！",
+      "accuracy": "正答率",
+      "correct": "正解",
+      "incorrect": "不正解",
+      "duration": "所要時間",
+      "moduleBreakdown": "モジュール内訳",
+      "avgTimePerItem": "項目あたりの平均時間: {time}秒",
+      "reviewMore": "さらに復習",
+      "backToDashboard": "ダッシュボードに戻る",
+      "performance": {
+        "excellent": "素晴らしい！この調子で続けましょう！",
+        "good": "よくできました！進歩しています。",
+        "okay": "悪くない！練習を続けましょう。",
+        "needsWork": "続けましょう！練習が完璧を生みます。"
+      }
+    }
   }
 }

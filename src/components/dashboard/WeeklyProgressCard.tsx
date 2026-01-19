@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { Text, Card } from '@/components/ui';
+import { useLanguage } from '@/context/LanguageProvider';
 import { IoCalendar, IoTrendingUp, IoTrendingDown, IoRemove } from 'react-icons/io5';
 import styles from './WeeklyProgressCard.module.css';
 
@@ -25,6 +26,8 @@ export default function WeeklyProgressCard({
   streakDays,
   comparison,
 }: WeeklyProgressCardProps) {
+  const { t } = useLanguage();
+
   const formatTime = (minutes: number) => {
     if (minutes < 60) return `${minutes}m`;
     const hours = Math.floor(minutes / 60);
@@ -43,10 +46,10 @@ export default function WeeklyProgressCard({
       <div className={styles.header}>
         <div className={styles.titleRow}>
           <IoCalendar className={styles.icon} />
-          <Text variant="h3" className={styles.titleText}>This Week</Text>
+          <Text variant="h3" className={styles.titleText}>{t('dashboard.weeklyProgress.thisWeek')}</Text>
         </div>
         <Link href="/weekly-report" className={styles.viewReport}>
-          <Text variant="caption" color="muted">Full Report</Text>
+          <Text variant="caption" color="muted">{t('dashboard.weeklyProgress.fullReport')}</Text>
         </Link>
       </div>
 
@@ -55,7 +58,7 @@ export default function WeeklyProgressCard({
           <Text variant="h3" className={styles.statValue}>
             {formatTime(studyTimeMinutes)}
           </Text>
-          <Text variant="caption" color="muted">Study Time</Text>
+          <Text variant="caption" color="muted">{t('dashboard.studyTime')}</Text>
           {comparison && (
             <div className={styles.trend}>
               {getTrendIcon(comparison.studyTimeChange)}
@@ -71,7 +74,7 @@ export default function WeeklyProgressCard({
           <Text variant="h3" className={styles.statValue}>
             {lessonsCompleted}
           </Text>
-          <Text variant="caption" color="muted">Lessons</Text>
+          <Text variant="caption" color="muted">{t('dashboard.lessons')}</Text>
           {comparison && (
             <div className={styles.trend}>
               {getTrendIcon(comparison.lessonsChange)}
@@ -87,26 +90,26 @@ export default function WeeklyProgressCard({
           <Text variant="h3" className={styles.statValue}>
             {xpEarned}
           </Text>
-          <Text variant="caption" color="muted">XP Earned</Text>
+          <Text variant="caption" color="muted">{t('dashboard.xpEarned')}</Text>
         </div>
 
         <div className={styles.statItem}>
           <Text variant="h3" className={styles.statValue}>
             {streakDays}/7
           </Text>
-          <Text variant="caption" color="muted">Active Days</Text>
+          <Text variant="caption" color="muted">{t('dashboard.activeDays')}</Text>
         </div>
       </div>
 
       {accuracy > 0 && (
         <div className={styles.accuracyBar}>
           <div className={styles.accuracyHeader}>
-            <Text variant="caption" color="muted">Accuracy</Text>
+            <Text variant="caption" color="muted">{t('dashboard.accuracy')}</Text>
             <Text variant="label" className={styles.accuracyValue}>
               {accuracy}%
             </Text>
           </div>
-          <div className={styles.accuracyTrack}>
+          <div className={accuracyTrack}>
             <div
               className={styles.accuracyFill}
               style={{ width: `${accuracy}%` }}

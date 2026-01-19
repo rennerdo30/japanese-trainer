@@ -63,10 +63,10 @@ export default function SRSSettingsPage() {
 
       <Animated animation="fadeInDown">
         <Text variant="h1" color="gold" className={styles.pageTitle}>
-          SRS Settings
+          {t('srs.title')}
         </Text>
         <Text color="muted" className={styles.pageSubtitle}>
-          Customize your spaced repetition experience
+          {t('srs.subtitle')}
         </Text>
       </Animated>
 
@@ -74,13 +74,13 @@ export default function SRSSettingsPage() {
       <Card variant="glass" className={styles.settingsSection}>
         <div className={styles.sectionHeader}>
           <IoTime className={styles.sectionIcon} />
-          <Text variant="h3">Review Scheduling</Text>
+          <Text variant="h3">{t('srs.scheduling.title')}</Text>
         </div>
 
         <div className={styles.settingRow}>
           <div className={styles.settingInfo}>
-            <Text className={styles.settingLabel}>Daily New Items Limit</Text>
-            <Text variant="label" color="muted">Maximum new items to learn per day</Text>
+            <Text className={styles.settingLabel}>{t('srs.scheduling.newItemsLimit')}</Text>
+            <Text variant="label" color="muted">{t('srs.scheduling.newItemsDescription')}</Text>
           </div>
           <div className={styles.settingControl}>
             <input
@@ -97,8 +97,8 @@ export default function SRSSettingsPage() {
 
         <div className={styles.settingRow}>
           <div className={styles.settingInfo}>
-            <Text className={styles.settingLabel}>Daily Review Limit</Text>
-            <Text variant="label" color="muted">Maximum reviews per day (0 = unlimited)</Text>
+            <Text className={styles.settingLabel}>{t('srs.scheduling.reviewLimit')}</Text>
+            <Text variant="label" color="muted">{t('srs.scheduling.reviewLimitDescription')}</Text>
           </div>
           <div className={styles.settingControl}>
             <input
@@ -118,8 +118,8 @@ export default function SRSSettingsPage() {
 
         <div className={styles.settingRow}>
           <div className={styles.settingInfo}>
-            <Text className={styles.settingLabel}>Review Threshold</Text>
-            <Text variant="label" color="muted">How strict the SRS scheduling is</Text>
+            <Text className={styles.settingLabel}>{t('srs.scheduling.threshold')}</Text>
+            <Text variant="label" color="muted">{t('srs.scheduling.thresholdDescription')}</Text>
           </div>
           <div className={styles.settingControl}>
             <div className={styles.buttonGroup}>
@@ -130,7 +130,7 @@ export default function SRSSettingsPage() {
                   className={`${styles.optionButton} ${settings.reviewThreshold === option ? styles.active : ''}`}
                   onClick={() => updateSetting('reviewThreshold', option)}
                 >
-                  {option.charAt(0).toUpperCase() + option.slice(1)}
+                  {t(`srs.scheduling.threshold${option.charAt(0).toUpperCase() + option.slice(1)}`)}
                 </button>
               ))}
             </div>
@@ -142,14 +142,14 @@ export default function SRSSettingsPage() {
       <Card variant="glass" className={styles.settingsSection}>
         <div className={styles.sectionHeader}>
           <IoSpeedometer className={styles.sectionIcon} />
-          <Text variant="h3">Difficulty Adjustments</Text>
+          <Text variant="h3">{t('srs.difficulty.title')}</Text>
         </div>
 
         <div className={styles.settingRow}>
           <div className={styles.settingInfo}>
-            <Text className={styles.settingLabel}>Ease Bonus</Text>
+            <Text className={styles.settingLabel}>{t('srs.difficulty.easeBonus')}</Text>
             <Text variant="label" color="muted">
-              Adjust how quickly intervals grow ({settings.easeBonus >= 0 ? '+' : ''}{Math.round(settings.easeBonus * 100)}%)
+              {t('srs.difficulty.easeBonusDescription', { value: `${settings.easeBonus >= 0 ? '+' : ''}${Math.round(settings.easeBonus * 100)}` })}
             </Text>
           </div>
           <div className={styles.settingControl}>
@@ -169,8 +169,8 @@ export default function SRSSettingsPage() {
 
         <div className={styles.settingRow}>
           <div className={styles.settingInfo}>
-            <Text className={styles.settingLabel}>Interval Multiplier</Text>
-            <Text variant="label" color="muted">Scale all intervals by this factor</Text>
+            <Text className={styles.settingLabel}>{t('srs.difficulty.intervalMultiplier')}</Text>
+            <Text variant="label" color="muted">{t('srs.difficulty.intervalMultiplierDescription')}</Text>
           </div>
           <div className={styles.settingControl}>
             <input
@@ -187,8 +187,8 @@ export default function SRSSettingsPage() {
 
         <div className={styles.settingRow}>
           <div className={styles.settingInfo}>
-            <Text className={styles.settingLabel}>Lapse New Interval</Text>
-            <Text variant="label" color="muted">When you fail, reset interval to this % of previous</Text>
+            <Text className={styles.settingLabel}>{t('srs.difficulty.lapseInterval')}</Text>
+            <Text variant="label" color="muted">{t('srs.difficulty.lapseIntervalDescription')}</Text>
           </div>
           <div className={styles.settingControl}>
             <input
@@ -208,19 +208,19 @@ export default function SRSSettingsPage() {
       <Card variant="glass" className={styles.settingsSection}>
         <div className={styles.sectionHeader}>
           <IoVolumeHigh className={styles.sectionIcon} />
-          <Text variant="h3">Review Options</Text>
+          <Text variant="h3">{t('srs.options.title')}</Text>
         </div>
 
         <div className={styles.settingRow}>
           <div className={styles.settingInfo}>
-            <Text className={styles.settingLabel}>Autoplay Audio</Text>
-            <Text variant="label" color="muted">Play audio when showing answer</Text>
+            <Text className={styles.settingLabel}>{t('srs.options.autoplayAudio')}</Text>
+            <Text variant="label" color="muted">{t('srs.options.autoplayAudioDescription')}</Text>
           </div>
           <div className={styles.settingControl}>
             <Toggle
               options={[
-                { id: 'on', label: 'On' },
-                { id: 'off', label: 'Off' },
+                { id: 'on', label: t('settings.audio.on') },
+                { id: 'off', label: t('settings.audio.off') },
               ]}
               value={settings.autoplayAudio ? 'on' : 'off'}
               onChange={(value) => updateSetting('autoplayAudio', value === 'on')}
@@ -231,14 +231,14 @@ export default function SRSSettingsPage() {
 
         <div className={styles.settingRow}>
           <div className={styles.settingInfo}>
-            <Text className={styles.settingLabel}>Show Reading Hints</Text>
-            <Text variant="label" color="muted">Display reading hints for kanji</Text>
+            <Text className={styles.settingLabel}>{t('srs.options.showReadingHints')}</Text>
+            <Text variant="label" color="muted">{t('srs.options.readingHintsDescription')}</Text>
           </div>
           <div className={styles.settingControl}>
             <Toggle
               options={[
-                { id: 'on', label: 'On' },
-                { id: 'off', label: 'Off' },
+                { id: 'on', label: t('settings.audio.on') },
+                { id: 'off', label: t('settings.audio.off') },
               ]}
               value={settings.showReadingHints ? 'on' : 'off'}
               onChange={(value) => updateSetting('showReadingHints', value === 'on')}
@@ -249,8 +249,8 @@ export default function SRSSettingsPage() {
 
         <div className={styles.settingRow}>
           <div className={styles.settingInfo}>
-            <Text className={styles.settingLabel}>Required Accuracy</Text>
-            <Text variant="label" color="muted">Target accuracy for mastery ({Math.round(settings.requiredAccuracy * 100)}%)</Text>
+            <Text className={styles.settingLabel}>{t('srs.options.accuracy')}</Text>
+            <Text variant="label" color="muted">{t('srs.options.accuracyDescription', { value: Math.round(settings.requiredAccuracy * 100) })}</Text>
           </div>
           <div className={styles.settingControl}>
             <input
@@ -270,19 +270,19 @@ export default function SRSSettingsPage() {
       <Card variant="glass" className={styles.settingsSection}>
         <div className={styles.sectionHeader}>
           <IoNotifications className={styles.sectionIcon} />
-          <Text variant="h3">Notifications</Text>
+          <Text variant="h3">{t('srs.notifications.title')}</Text>
         </div>
 
         <div className={styles.settingRow}>
           <div className={styles.settingInfo}>
-            <Text className={styles.settingLabel}>Review Reminders</Text>
-            <Text variant="label" color="muted">Get notified when you have reviews due</Text>
+            <Text className={styles.settingLabel}>{t('srs.notifications.reminders')}</Text>
+            <Text variant="label" color="muted">{t('srs.notifications.remindersDescription')}</Text>
           </div>
           <div className={styles.settingControl}>
             <Toggle
               options={[
-                { id: 'on', label: 'On' },
-                { id: 'off', label: 'Off' },
+                { id: 'on', label: t('settings.audio.on') },
+                { id: 'off', label: t('settings.audio.off') },
               ]}
               value={settings.reviewReminders ? 'on' : 'off'}
               onChange={(value) => updateSetting('reviewReminders', value === 'on')}
@@ -295,8 +295,8 @@ export default function SRSSettingsPage() {
           <>
             <div className={styles.settingRow}>
               <div className={styles.settingInfo}>
-                <Text className={styles.settingLabel}>Reminder Time</Text>
-                <Text variant="label" color="muted">When to send daily reminder</Text>
+                <Text className={styles.settingLabel}>{t('srs.notifications.reminderTime')}</Text>
+                <Text variant="label" color="muted">{t('srs.notifications.reminderTimeDescription')}</Text>
               </div>
               <div className={styles.settingControl}>
                 <input
@@ -310,8 +310,8 @@ export default function SRSSettingsPage() {
 
             <div className={styles.settingRow}>
               <div className={styles.settingInfo}>
-                <Text className={styles.settingLabel}>Reminder Threshold</Text>
-                <Text variant="label" color="muted">Only notify when reviews exceed this number</Text>
+                <Text className={styles.settingLabel}>{t('srs.notifications.reminderThreshold')}</Text>
+                <Text variant="label" color="muted">{t('srs.notifications.reminderThresholdDescription')}</Text>
               </div>
               <div className={styles.settingControl}>
                 <input
@@ -332,15 +332,15 @@ export default function SRSSettingsPage() {
       {/* Action Buttons */}
       <div className={styles.actionButtons}>
         <Button onClick={handleReset} variant="ghost">
-          <IoRefresh /> Reset to Defaults
+          <IoRefresh /> {t('srs.actions.reset')}
         </Button>
         <Button onClick={handleSave} disabled={isSaving}>
-          <IoSave /> {saved ? 'Saved!' : 'Save Settings'}
+          <IoSave /> {saved ? t('srs.actions.saved') : t('srs.actions.save')}
         </Button>
       </div>
 
       <Button variant="ghost" onClick={() => router.push('/settings')} className={styles.backButton}>
-        Back to Settings
+        {t('srs.actions.backToSettings')}
       </Button>
     </Container>
   );

@@ -2,6 +2,7 @@
 
 import { useState, useCallback } from 'react';
 import { Text, Button } from '@/components/ui';
+import { useLanguage } from '@/context/LanguageProvider';
 import { IoCheckmark, IoClose, IoArrowUndo } from 'react-icons/io5';
 import type { WordOrderExercise } from '@/types/exercises';
 import styles from './WordOrder.module.css';
@@ -12,6 +13,7 @@ interface WordOrderProps {
 }
 
 export default function WordOrder({ exercise, onAnswer }: WordOrderProps) {
+  const { t } = useLanguage();
   const [selectedWords, setSelectedWords] = useState<number[]>([]);
   const [feedback, setFeedback] = useState<'correct' | 'incorrect' | null>(null);
   const [submitted, setSubmitted] = useState(false);
@@ -63,7 +65,7 @@ export default function WordOrder({ exercise, onAnswer }: WordOrderProps) {
       <div className={`${styles.sentenceArea} ${feedback ? styles[feedback] : ''}`}>
         {selectedWords.length === 0 ? (
           <Text color="muted" className={styles.placeholder}>
-            Tap words to build the sentence
+            {t('exercises.wordOrder.placeholder')}
           </Text>
         ) : (
           <div className={styles.selectedWords}>
@@ -86,13 +88,13 @@ export default function WordOrder({ exercise, onAnswer }: WordOrderProps) {
           {feedback === 'correct' ? (
             <>
               <IoCheckmark className={styles.feedbackIcon} />
-              <Text>Correct!</Text>
+              <Text>{t('exercises.correct')}</Text>
             </>
           ) : (
             <>
               <IoClose className={styles.feedbackIcon} />
               <Text>
-                Correct answer: <strong>{getCorrectSentence()}</strong>
+                {t('exercises.translation.correctAnswer')} <strong>{getCorrectSentence()}</strong>
               </Text>
             </>
           )}
@@ -121,7 +123,7 @@ export default function WordOrder({ exercise, onAnswer }: WordOrderProps) {
         <div className={styles.actions}>
           {selectedWords.length > 0 && (
             <Button variant="ghost" size="sm" onClick={handleClear}>
-              <IoArrowUndo /> Clear
+              <IoArrowUndo /> {t('common.clear')}
             </Button>
           )}
           <Button
@@ -129,7 +131,7 @@ export default function WordOrder({ exercise, onAnswer }: WordOrderProps) {
             disabled={selectedWords.length !== exercise.words.length}
             fullWidth
           >
-            Check Answer
+            {t('exercises.common.checkAnswer')}
           </Button>
         </div>
       )}

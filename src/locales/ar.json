@@ -13,12 +13,41 @@
     "incorrect": "خطأ",
     "total": "الإجمالي",
     "streak": "سلسلة",
-    "stop": "السحب"
+    "stop": "السحب",
+    "continue": "متابعة",
+    "changeLanguage": "تغيير اللغة",
+    "selectLanguage": "اختر اللغة",
+    "close": "إغلاق",
+    "listen": "استمع",
+    "show": "عرض",
+    "hide": "إخفاء",
+    "iKnowThis": "أعرف هذا",
+    "tapToContinue": "انقر للمتابعة",
+    "hint": "تلميح",
+    "demo": "عرض تجريبي",
+    "guide": "دليل",
+    "clear": "مسح",
+    "gotIt": "فهمت",
+    "days": {
+      "sun": "الأحد",
+      "mon": "الاثنين",
+      "tue": "الثلاثاء",
+      "wed": "الأربعاء",
+      "thu": "الخميس",
+      "fri": "الجمعة",
+      "sat": "السبت"
+    },
+    "errorBoundary": {
+      "title": "حدث خطأ ما",
+      "message": "حدث خطأ غير متوقع. يرجى محاولة تحديث الصفحة.",
+      "tryAgain": "حاول مرة أخرى"
+    }
   },
   "modules": {
     "alphabet": {
       "title": "الأبجدية",
-      "description": "أتقن الهيراغانا والكاتاكانا"
+      "description": "أتقن الهيراغانا والكاتاكانا",
+      "title_ko": "الهانغول"
     },
     "vocabulary": {
       "title": "المفردات",
@@ -26,7 +55,9 @@
     },
     "kanji": {
       "title": "الكانجي",
-      "description": "أتقن الأحرف الصينية"
+      "description": "أتقن الأحرف الصينية",
+      "title_ja": "الكانجي",
+      "title_zh": "الهانزي"
     },
     "grammar": {
       "title": "القواعد",
@@ -132,16 +163,451 @@
     "noExercises": "لا توجد تمارين متاحة."
   },
   "dashboard": {
-    "title": "Murmura",
+    "title": "مورمورا",
     "subtitle": "من الهمسات إلى الطلاقة",
     "dayStreak": "سلسلة الأيام",
     "wordsLearned": "الكلمات المتعلمة",
     "kanjiMastered": "الكانجي المتقنة",
-    "studyTime": "وقت الدراسة (دقيقة)"
+    "studyTime": "وقت الدراسة (دقيقة)",
+    "continueLearning": "استمر في التعلم",
+    "browsePaths": "تصفح مسارات التعلم",
+    "reviewDashboardStat": "لوحة المراجعة",
+    "leaderboardStat": "لوحة المتصدرين",
+    "settingsStat": "الإعدادات",
+    "hanziMastered": "الهانزي المتقن",
+    "hangulMastered": "الهانغول المتقن",
+    "charactersLearned": "الحروف المتعلمة",
+    "weeklyProgress": {
+      "thisWeek": "هذا الأسبوع",
+      "fullReport": "التقرير الكامل"
+    },
+    "lessons": "الدروس",
+    "xpEarned": "النقاط المكتسبة",
+    "activeDays": "الأيام النشطة",
+    "accuracy": "الدقة",
+    "targetLanguage": {
+      "title": "الهدف التعليمي",
+      "selectLabel": "اختر اللغة المستهدفة",
+      "levelsAvailable": "{count} مستويات متاحة"
+    },
+    "pathProgress": {
+      "nextUp": "التالي",
+      "lessonsCount": "{completed} / {total} دروس"
+    },
+    "goalEstimator": {
+      "title": "مقدر الهدف",
+      "daysLeft": "أيام متبقية",
+      "minPerDay": "دقيقة/يوم",
+      "hoursLeft": "ساعات متبقية",
+      "estimatedCompletion": "الانتهاء المتوقع",
+      "toLevel": "إلى المستوى {level}",
+      "learnedItemsInfo": "{learned} / {total} عناصر متعلمة",
+      "milestones": "معالم",
+      "atMinutesPerDay": "عند {count} دقيقة/يوم"
+    },
+    "library": {
+      "viewAll": "عرض الكل",
+      "title": "المكتبة"
+    },
+    "activity": {
+      "title": "النشاط",
+      "less": "أقل",
+      "more": "أكثر",
+      "current": "الحالي",
+      "best": "الأفضل",
+      "totalHrs": "إجمالي الساعات",
+      "dayStreakStatus": "سلسلة {count} يوم",
+      "minTooltip": "{count} دقيقة"
+    },
+    "compass": {
+      "title": "بوصلة التعلم",
+      "nextUp": "التالي",
+      "reviewsDue": "{count} مراجعات مستحقة",
+      "min": "{count} دقيقة",
+      "modules": {
+        "alphabet": "Alphabet",
+        "vocabulary": "Vocabulary",
+        "kanji": "Characters",
+        "grammar": "Grammar",
+        "reading": "Reading",
+        "listening": "Listening"
+      }
+    },
+    "heatmap": {
+      "title": "خريطة الإتقان الحرارية"
+    },
+    "greetings": {
+      "goodMorning": "صباح الخير",
+      "goodAfternoon": "مساء الخير",
+      "goodEvening": "مساء الخير",
+      "goodNight": "تصبح على خير"
+    },
+    "notifications": "الإشعارات"
   },
   "stats": {
     "correct": "صحيح",
     "total": "الإجمالي",
     "streak": "سلسلة"
+  },
+  "auth": {
+    "signIn": "تسجيل الدخول",
+    "signOut": "تسجيل الخروج",
+    "user": "المستخدم",
+    "loading": "جاري التحميل...",
+    "loginDialog": {
+      "title": {
+        "signIn": "تسجيل الدخول",
+        "createAccount": "إنشاء حساب",
+        "continueAnonymously": "المتابعة بشكل مجهول"
+      },
+      "emailPassword": {
+        "title": "البريد الإلكتروني وكلمة المرور",
+        "description": "سجل الدخول باستخدام بريدك الإلكتروني وكلمة المرور. يمكنك الوصول إلى حسابك من أي جهاز."
+      },
+      "anonymous": {
+        "title": "المتابعة بشكل مجهول",
+        "description": "ابدأ استخدام التطبيق فورًا. جلسة العمل الخاصة بك مرتبطة بهذا الجهاز فقط."
+      },
+      "form": {
+        "email": "البريد الإلكتروني",
+        "password": "كلمة المرور",
+        "emailPlaceholder": "your@email.com",
+        "passwordPlaceholderNew": "8 أحرف على الأقل",
+        "passwordPlaceholderExisting": "أدخل كلمة المرور",
+        "back": "رجوع",
+        "signUp": "إنشاء حساب",
+        "alreadyHaveAccount": "لديك حساب بالفعل؟ سجل الدخول",
+        "dontHaveAccount": "ليس لديك حساب؟ سجل الآن"
+      },
+      "signingIn": "جاري تسجيل الدخول...",
+      "errors": {
+        "invalidCredentials": "بريد إلكتروني أو كلمة مرور غير صحيحة. يرجى التحقق من بيانات الاعتماد والمحاولة مرة أخرى.",
+        "accountExists": "يوجد حساب بهذا البريد الإلكتروني بالفعل. حاول تسجيل الدخول بدلاً من ذلك.",
+        "invalidEmail": "يرجى إدخال عنوان بريد إلكتروني صالح.",
+        "passwordWeak": "يجب أن تكون كلمة المرور مكونة من 8 أحرف على الأقل.",
+        "rateLimit": "محاولات كثيرة جداً. يرجى الانتظار قليلاً والمحاولة مرة أخرى.",
+        "network": "خطأ في الاتصال. يرجى التحقق من الإنترنت والمحاولة مرة أخرى.",
+        "generic": "فشل المصادقة. يرجى المحاولة مرة أخرى."
+      }
+    }
+  },
+  "gamification": {
+    "levelUp": {
+      "title": "ارتقِ مستوى!",
+      "message": "لقد وصلت إلى المستوى {level} من الفئة {tier}"
+    },
+    "achievements": {
+      "title": "الإنجازات ({percentage}%)",
+      "unlockedCount": "{unlocked} / {total}",
+      "unlockedLabel": "تم فتح الإنجاز!",
+      "empty": "لم يتم العثور على إنجازات",
+      "secret": {
+        "name": "؟؟؟",
+        "description": "أكمل هذا الإنجاز السري لكشفه"
+      },
+      "categories": {
+        "all": "الكل",
+        "learning": "التعلم",
+        "streak": "التتابع",
+        "mastery": "الإتقان",
+        "explorer": "المستكشف",
+        "special": "خاص"
+      },
+      "status": {
+        "all": "الكل",
+        "unlocked": "مفتوح",
+        "locked": "مقفل"
+      }
+    }
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "subtitle": "خصص تجربة التعلم الخاصة بك",
+    "leaderboard": {
+      "title": "لوحة المتصدرين",
+      "showOnLeaderboard": "عرض على لوحة المتصدرين",
+      "showOnLeaderboardDescription": "عند التعطيل، لن يظهر تقدمك في التصنيفات العامة",
+      "visible": "مرئي",
+      "hidden": "مخفي",
+      "anonymousName": "اسمك المجهول",
+      "anonymousNameDescription": "هذا هو كيف تظهر على لوحة المتصدرين"
+    },
+    "srs": {
+      "title": "التكرار المتباعد",
+      "description": "خصص جدولة المراجعة والصعوبة"
+    },
+    "audio": {
+      "title": "الصوت وتحويل النص إلى كلام",
+      "offlineTTS": "تحويل النص إلى كلام دون اتصال (Kokoro)",
+      "offlineTTSDescription": "نزّل نموذج بحجم ~{{size}} ميغابايت لتحويل النص إلى كلام دون اتصال",
+      "notSupported": "غير مدعوم: {{reason}}",
+      "off": "إيقاف",
+      "on": "تشغيل",
+      "desktopNotice": "يتم تحميل Kokoro TTS تلقائياً على سطح المكتب",
+      "readyNotice": "تحويل النص إلى كلام دون اتصال جاهز - يعمل بدون إنترنت",
+      "loadError": "فشل تحميل تحويل النص إلى كلام دون اتصال",
+      "voiceSelection": "اختيار الصوت ({{language}})",
+      "notSupportedWarning": "Kokoro لا يدعم {{language}}. يتم استخدام توليف الكلام في المتصفح أو الصوت المُولد مسبقاً بدلاً من ذلك.",
+      "noVoicesWarning": "لا توجد أصوات متاحة لـ {{language}}.",
+      "voiceSelectionNote": "اختر صوتاً لتحويل النص إلى كلام لـ {{language}}. يتم استخدام الصوت المُولد مسبقاً عند التوفر.",
+      "playing": "جاري التشغيل...",
+      "test": "اختبار",
+      "voiceDetail": "{{language}} • {{gender}} • الجودة: {{quality}}",
+      "priorityTitle": "أولوية تشغيل الصوت:",
+      "priority1": "الصوت المُولد مسبقاً (أفضل جودة)",
+      "priority2": "Kokoro TTS ({{status}}, {{support}})",
+      "ifEnabled": "إذا تم التمكين",
+      "autoLoaded": "تم التحميل تلقائياً",
+      "englishOnly": "الإنجليزية فقط",
+      "priority3": "توليف الكلام في المتصفح (احتياطي)"
+    },
+    "appearance": {
+      "title": "المظهر",
+      "comingSoon": "إعدادات السمة قريباً"
+    },
+    "backToDashboard": "العودة إلى لوحة التحكم"
+  },
+  "srs": {
+    "title": "إعدادات SRS",
+    "subtitle": "خصص تجربة التكرار المتباعد الخاصة بك",
+    "scheduling": {
+      "title": "جدولة المراجعة",
+      "newItemsLimit": "حد العناصر الجديدة اليومي",
+      "newItemsDescription": "الحد الأقصى للعناصر الجديدة للتعلم يومياً",
+      "reviewLimit": "حد المراجعات اليومي",
+      "reviewLimitDescription": "الحد الأقصى للمراجعات يومياً (0 = غير محدود)",
+      "threshold": "عتبة المراجعة",
+      "thresholdDescription": "مدى صرامة جدولة SRS",
+      "thresholdStrict": "صارم",
+      "thresholdModerate": "معتدل",
+      "thresholdRelaxed": "مرن"
+    },
+    "difficulty": {
+      "title": "تعديلات الصعوبة",
+      "easeBonus": "مكافأة السهولة",
+      "easeBonusDescription": "اضبط سرعة نمو الفواصل الزمنية ({{value}}%)",
+      "intervalMultiplier": "مضاعف الفاصل الزمني",
+      "intervalMultiplierDescription": "قياس جميع الفواصل الزمنية بهذا العامل",
+      "lapseInterval": "فاصل زمني جديد للفشل",
+      "lapseIntervalDescription": "عند الفشل، إعادة تعيين الفاصل الزمني إلى هذه النسبة المئوية من السابق"
+    },
+    "options": {
+      "title": "خيارات المراجعة",
+      "autoplayAudio": "التشغيل التلقائي للصوت",
+      "autoplayAudioDescription": "تشغيل الصوت تلقائياً عند كشف البطاقة",
+      "showReadingHints": "عرض تلميحات القراءة",
+      "readingHintsDescription": "عرض تلميحات الفوريغانا أو بينيين للنطق",
+      "accuracy": "الدقة المطلوبة",
+      "accuracyDescription": "الدقة المستهدفة للإتقان ({{value}}%)"
+    },
+    "notifications": {
+      "title": "الإشعارات",
+      "reminders": "تذكيرات المراجعة",
+      "remindersDescription": "تلقي إشعارات عند استحقاق المراجعات",
+      "reminderTime": "وقت التذكير",
+      "reminderTimeDescription": "متى يتم إرسال التذكير اليومي",
+      "reminderThreshold": "حد التذكير",
+      "reminderThresholdDescription": "الإشعار فقط عندما تتجاوز المراجعات هذا العدد"
+    },
+    "actions": {
+      "reset": "إعادة التعيين إلى الإعدادات الافتراضية",
+      "save": "حفظ الإعدادات",
+      "saved": "تم الحفظ!",
+      "backToSettings": "العودة إلى الإعدادات"
+    }
+  },
+  "languages": {
+    "ja": "اليابانية",
+    "zh": "الصينية",
+    "ko": "الكورية",
+    "es": "الإسبانية",
+    "fr": "الفرنسية",
+    "hi": "الهندية",
+    "it": "الإيطالية",
+    "pt": "البرتغالية",
+    "en": "الإنجليزية"
+  },
+  "lessons": {
+    "view": {
+      "noContent": "لا يوجد محتوى متاح",
+      "noExercises": "لا توجد تمارين متاحة لهذا الدرس.",
+      "previous": "السابق",
+      "next": "التالي",
+      "startExercises": "بدء التمارين",
+      "completeLesson": "إكمال الدرس",
+      "topic": "الموضوع",
+      "vocabulary": "المفردات",
+      "grammar": "القواعد",
+      "culturalNote": "ملاحظة ثقافية",
+      "exerciseStep": "تمرين {current} من {total}",
+      "culturalNotes": "ملاحظات ثقافية",
+      "learning": "التعلم",
+      "practice": "الممارسة",
+      "stop": "إيقاف",
+      "tapToContinueHint": "انقر أو اسحب للمتابعة"
+    },
+    "vocabulary": {
+      "examples": "أمثلة"
+    },
+    "grammar": {
+      "examples": "أمثلة",
+      "usageNotes": "ملاحظات الاستخدام",
+      "hideExplanation": "إخفاء الشرح",
+      "showExplanation": "عرض الشرح",
+      "iUnderstand": "أفهم"
+    },
+    "character": {
+      "strokeOrder": "ترتيب الخطوط",
+      "memoryTip": "نصيحة للحفظ"
+    },
+    "intro": {
+      "minutes": "دقائق",
+      "items": "عناصر",
+      "vocabulary": "مفردات",
+      "back": "رجوع",
+      "whatYoullLearn": "ما ستتعلمه:",
+      "vocabularyWords": "{count} كلمة مفردات",
+      "grammarPoints": "{count} نقطة قواعد",
+      "culturalNotes": "{count} ملاحظة ثقافية",
+      "startLesson": "بدء الدرس"
+    },
+    "summary": {
+      "levelUp": "ارتقِ مستوى!",
+      "perfect": "ممتاز!",
+      "lessonComplete": "اكتمل الدرس!",
+      "correctCount": "{correct} / {total} صحيحة",
+      "xpTotal": "+{xp} نقطة خبرة",
+      "xpBase": "الأساسي: +{xp}",
+      "xpPerfect": "ممتاز: +{xp}",
+      "xpStreak": "التسلسل: +{xp}",
+      "newLevel": "لقد وصلت إلى المستوى {level}",
+      "nextLesson": "الدرس التالي",
+      "pathComplete": "اكتمل المسار",
+      "backToPath": "العودة إلى المسار",
+      "upNext": "التالي"
+    }
+  },
+  "exercises": {
+    "correct": "صحيح!",
+    "common": {
+      "checkAnswer": "تحقق من الإجابة",
+      "answerOptions": "خيارات الإجابة",
+      "optionLabelWithStatus": "الخيار {index}: {option}{status}",
+      "correctAnswerStatus": "، الإجابة الصحيحة",
+      "incorrectStatus": "، غير صحيحة",
+      "quitSession": "إنهاء الجلسة",
+      "quitConfirmTitle": "إنهاء الجلسة؟",
+      "quitConfirmMessage": "سيتم فقدان تقدمك في هذه الجلسة.",
+      "confirmQuit": "إنهاء",
+      "cancel": "إلغاء",
+      "unsupported": "نوع التمرين غير مدعوم بعد"
+    },
+    "matching": {
+      "success": "تمت مطابقة جميع الأزواج بشكل صحيح!",
+      "error": "بعض المطابقات كانت غير صحيحة. راجع الأزواج المميزة.",
+      "title": "طابق الأزواج",
+      "leftColumnLabel": "العمود الأيسر - اختر عنصرًا للمطابقة",
+      "rightColumnLabel": "العمود الأيمن - اختر لإكمال المطابقة",
+      "leftItemLabel": "{item}{matched}{status}",
+      "matchedStatus": "، متطابق",
+      "correctMatchStatus": "، مطابقة صحيحة",
+      "incorrectMatchStatus": "، مطابقة غير صحيحة",
+      "rightItemLabel": "{item}{matched}{available}",
+      "alreadyMatchedStatus": "، تمت مطابقته بالفعل",
+      "availableToMatchStatus": "، متاح للمطابقة",
+      "checkMatches": "تحقق من المطابقات ({count}/{total})"
+    },
+    "fillBlank": {
+      "correctAnswerIs": "الإجابة الصحيحة هي:"
+    },
+    "translation": {
+      "correctAnswer": "الترجمة الصحيحة:",
+      "translateTo": "ترجم إلى {language}",
+      "checkTranslation": "تحقق من الترجمة",
+      "placeholder": "اكتب ترجمتك..."
+    },
+    "typing": {
+      "correctAnswer": "الإجابة الصحيحة:",
+      "instruction": "اكتب الترجمة",
+      "placeholder": "اكتب إجابتك...",
+      "expectedLength": "المتوقع: {count} حرفًا"
+    },
+    "strokeOrder": {
+      "strokesCount": "{count} خط",
+      "strokesProgress": "الخطوط: {current} / {total}",
+      "feedbackIncorrect": "استمر في الممارسة! الحرف يحتوي على {count} خط.",
+      "checkCharacter": "تحقق من الحرف"
+    },
+    "wordOrder": {
+      "placeholder": "انقر على الكلمات لبناء الجملة"
+    },
+    "listening": {
+      "playing": "جاري التشغيل...",
+      "playAudio": "تشغيل الصوت",
+      "playCount": "تم التشغيل {count} {count, plural, one {مرة} other {مرات}}",
+      "transcriptShow": "عرض النص",
+      "transcriptHide": "إخفاء النص"
+    }
+  },
+  "review": {
+    "config": {
+      "title": "جلسة المراجعة",
+      "selectModules": "اختر الوحدات",
+      "numberOfItems": "عدد العناصر",
+      "onlyItemsAvailable": "فقط {count} عنصر متاح",
+      "selectedModules": "الوحدات المختارة:",
+      "itemsToReview": "العناصر للمراجعة:",
+      "startReview": "بدء المراجعة",
+      "noItemsDue": "لا توجد عناصر مستحقة للمراجعة. عمل رائع في المتابعة!",
+      "due": "{count} مستحق"
+    },
+    "modules": {
+      "vocabulary": "المفردات",
+      "kanji": "الحروف",
+      "grammar": "القواعد"
+    },
+    "progress": {
+      "accuracy": "الدقة:"
+    },
+    "card": {
+      "showAnswer": "عرض الإجابة",
+      "questionRating": "ما مدى تذكرك؟",
+      "rating": {
+        "again": "مرة أخرى",
+        "hard": "صعب",
+        "good": "جيد",
+        "easy": "سهل",
+        "perfect": "ممتاز",
+        "againDesc": "نسيت تمامًا",
+        "hardDesc": "واجهت صعوبة في التذكر",
+        "goodDesc": "صحيح مع جهد",
+        "easyDesc": "تذكرت بسهولة",
+        "perfectDesc": "استرجاع فوري"
+      }
+    },
+    "mastery": {
+      "new": "جديد",
+      "learning": "جاري التعلم",
+      "review": "مراجعة",
+      "mastered": "تم الإتقان"
+    },
+    "stats": {
+      "title": "جلسة المراجعة",
+      "sessionComplete": "اكتملت الجلسة!",
+      "accuracy": "الدقة",
+      "correct": "صحيح",
+      "incorrect": "غير صحيح",
+      "duration": "المدة",
+      "moduleBreakdown": "تفصيل الوحدات",
+      "avgTimePerItem": "متوسط الوقت لكل عنصر: {time} ثانية",
+      "reviewMore": "مراجعة المزيد من العناصر",
+      "backToDashboard": "العودة إلى لوحة التحكم",
+      "performance": {
+        "excellent": "عمل ممتاز! استمر في ذلك!",
+        "good": "عمل جيد! أنت تحقق تقدمًا.",
+        "okay": "ليس سيئًا! استمر في الممارسة.",
+        "needsWork": "استمر! الممارسة تؤدي إلى الإتقان."
+      }
+    }
   }
 }

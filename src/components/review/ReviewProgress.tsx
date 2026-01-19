@@ -46,7 +46,7 @@ export default function ReviewProgress({
             <span>{incorrect}</span>
           </div>
           <div className={styles.statItem}>
-            <span className={styles.accuracyLabel}>Accuracy:</span>
+            <span className={styles.accuracyLabel}>{t('review.progress.accuracy')}</span>
             <span className={styles.accuracyValue}>{Math.round(accuracy)}%</span>
           </div>
         </div>

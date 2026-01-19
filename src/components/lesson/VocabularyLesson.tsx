@@ -1,7 +1,6 @@
-'use client';
-
 import { useCallback, useState } from 'react';
 import { Text, Button } from '@/components/ui';
+import { useLanguage } from '@/context/LanguageProvider';
 import { IoVolumeHigh, IoStop, IoEye, IoEyeOff, IoCheckmark } from 'react-icons/io5';
 import { useTTS } from '@/hooks/useTTS';
 import styles from './VocabularyLesson.module.css';
@@ -29,6 +28,7 @@ export default function VocabularyLesson({
   audioUrl,
   onMastered,
 }: VocabularyLessonProps) {
+  const { t } = useLanguage();
   const { speak, stop, isPlaying } = useTTS();
   const [showMeaning, setShowMeaning] = useState(true);
   const [activeExample, setActiveExample] = useState<number | null>(null);
@@ -69,10 +69,10 @@ export default function VocabularyLesson({
           size="md"
           onClick={handleSpeak}
           className={styles.audioButton}
-          aria-label={isPlaying ? 'Stop audio' : 'Play pronunciation'}
+          aria-label={isPlaying && activeExample === null ? t('common.stop') : t('common.listen')}
         >
           {isPlaying && activeExample === null ? <IoStop /> : <IoVolumeHigh />}
-          <span>{isPlaying && activeExample === null ? 'Stop' : 'Listen'}</span>
+          <span>{isPlaying && activeExample === null ? t('common.stop') : t('common.listen')}</span>
         </Button>
 
         <Button
@@ -80,10 +80,10 @@ export default function VocabularyLesson({
           size="md"
           onClick={() => setShowMeaning(!showMeaning)}
           className={styles.toggleButton}
-          aria-label={showMeaning ? 'Hide meaning' : 'Show meaning'}
+          aria-label={showMeaning ? t('common.hide') : t('common.show')}
         >
           {showMeaning ? <IoEyeOff /> : <IoEye />}
-          <span>{showMeaning ? 'Hide' : 'Show'}</span>
+          <span>{showMeaning ? t('common.hide') : t('common.show')}</span>
         </Button>
       </div>
 
@@ -100,7 +100,7 @@ export default function VocabularyLesson({
 
       {examples && examples.length > 0 && (
         <div className={styles.examplesSection}>
-          <Text variant="label" color="muted">Examples</Text>
+          <Text variant="label" color="muted">{t('lessons.vocabulary.examples')}</Text>
           <div className={styles.examples}>
             {examples.map((example, idx) => (
               <div key={idx} className={styles.example}>
@@ -113,7 +113,7 @@ export default function VocabularyLesson({
                     size="sm"
                     onClick={() => handleExampleSpeak(idx)}
                     className={styles.exampleAudio}
-                    aria-label="Play example"
+                    aria-label={t('common.listen')}
                   >
                     {activeExample === idx && isPlaying ? <IoStop /> : <IoVolumeHigh />}
                   </Button>
@@ -134,14 +134,14 @@ export default function VocabularyLesson({
             onClick={onMastered}
             className={styles.masteredButton}
           >
-            <IoCheckmark /> I Know This
+            <IoCheckmark /> {t('common.iKnowThis')}
           </Button>
         </div>
       )}
 
       <div className={styles.footer}>
         <Text variant="caption" color="muted">
-          Tap to continue
+          {t('common.tapToContinue')}
         </Text>
       </div>
     </div>

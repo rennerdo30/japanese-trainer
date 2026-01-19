@@ -1,6 +1,7 @@
 'use client';
 
 import { Card, Text, Button, Animated } from '@/components/ui';
+import { useLanguage } from '@/context/LanguageProvider';
 import { IoCheckmarkCircle, IoCloseCircle, IoTime, IoBook, IoSchool, IoDocumentText, IoTrophy } from 'react-icons/io5';
 import { ReviewModuleName } from '@/lib/reviewQueue';
 import styles from './ReviewStats.module.css';
@@ -25,12 +26,6 @@ const moduleIcons = {
   grammar: IoDocumentText,
 };
 
-const moduleLabels = {
-  vocabulary: 'Vocabulary',
-  kanji: 'Kanji',
-  grammar: 'Grammar',
-};
-
 function formatDuration(ms: number): string {
   const seconds = Math.floor(ms / 1000);
   const minutes = Math.floor(seconds / 60);
@@ -47,6 +42,7 @@ export default function ReviewStats({
   onBackToDashboard,
   onAnotherSession,
 }: ReviewStatsProps) {
+  const { t } = useLanguage();
   const accuracyPercent = Math.round(stats.accuracy * 100);
 
   // Determine performance level
@@ -56,20 +52,13 @@ export default function ReviewStats({
   else if (accuracyPercent >= 50) performanceLevel = 'okay';
   else performanceLevel = 'needsWork';
 
-  const performanceMessages = {
-    excellent: 'Excellent work! Keep it up!',
-    good: 'Good job! You\'re making progress.',
-    okay: 'Not bad! Keep practicing.',
-    needsWork: 'Keep going! Practice makes perfect.',
-  };
-
   return (
     <Card variant="glass" className={styles.statsCard}>
       <Animated animation="fadeInDown">
         <div className={styles.header}>
           <IoTrophy className={styles.trophyIcon} />
           <Text variant="h1" color="gold">
-            Session Complete!
+            {t('review.stats.sessionComplete')}
           </Text>
         </div>
       </Animated>
@@ -81,7 +70,7 @@ export default function ReviewStats({
             <div className={`${styles.accuracyRing} ${styles[performanceLevel]}`}>
               <span className={styles.accuracyValue}>{accuracyPercent}%</span>
             </div>
-            <Text color="muted">Accuracy</Text>
+            <Text color="muted">{t('review.stats.accuracy')}</Text>
           </div>
 
           <div className={styles.sideStats}>
@@ -89,7 +78,7 @@ export default function ReviewStats({
               <IoCheckmarkCircle className={styles.correctIcon} />
               <div>
                 <Text variant="h3">{stats.correct}</Text>
-                <Text variant="label" color="muted">Correct</Text>
+                <Text variant="label" color="muted">{t('review.stats.correct')}</Text>
               </div>
             </div>
 
@@ -97,7 +86,7 @@ export default function ReviewStats({
               <IoCloseCircle className={styles.incorrectIcon} />
               <div>
                 <Text variant="h3">{stats.incorrect}</Text>
-                <Text variant="label" color="muted">Incorrect</Text>
+                <Text variant="label" color="muted">{t('review.stats.incorrect')}</Text>
               </div>
             </div>
 
@@ -105,7 +94,7 @@ export default function ReviewStats({
               <IoTime className={styles.timeIcon} />
               <div>
                 <Text variant="h3">{formatDuration(stats.duration)}</Text>
-                <Text variant="label" color="muted">Duration</Text>
+                <Text variant="label" color="muted">{t('review.stats.duration')}</Text>
               </div>
             </div>
           </div>
@@ -113,13 +102,13 @@ export default function ReviewStats({
 
         {/* Performance message */}
         <div className={`${styles.performanceMessage} ${styles[performanceLevel]}`}>
-          <Text>{performanceMessages[performanceLevel]}</Text>
+          <Text>{t(`review.stats.performance.${performanceLevel}`)}</Text>
         </div>
 
         {/* Module breakdown */}
         <div className={styles.moduleBreakdown}>
           <Text variant="label" color="muted" className={styles.breakdownLabel}>
-            Module Breakdown
+            {t('review.stats.moduleBreakdown')}
           </Text>
 
           <div className={styles.moduleList}>
@@ -134,7 +123,7 @@ export default function ReviewStats({
                   <div key={module} className={styles.moduleItem}>
                     <div className={styles.moduleInfo}>
                       <ModuleIcon className={styles.moduleIcon} />
-                      <Text>{moduleLabels[module]}</Text>
+                      <Text>{t(`review.modules.${module === 'kanji' ? 'kanji' : module}`)}</Text>
                     </div>
                     <div className={styles.moduleStats}>
                       <span>{data.correct}/{data.reviewed}</span>
@@ -150,17 +139,17 @@ export default function ReviewStats({
         {/* Average time */}
         <div className={styles.avgTime}>
           <Text color="muted">
-            Average time per item: {(stats.avgTimePerItem / 1000).toFixed(1)}s
+            {t('review.stats.avgTimePerItem', { time: (stats.avgTimePerItem / 1000).toFixed(1) })}
           </Text>
         </div>
 
         {/* Action buttons */}
         <div className={styles.actions}>
           <Button onClick={onAnotherSession} size="lg" fullWidth>
-            Review More Items
+            {t('review.stats.reviewMore')}
           </Button>
           <Button onClick={onBackToDashboard} variant="ghost" fullWidth>
-            Back to Dashboard
+            {t('review.stats.backToDashboard')}
           </Button>
         </div>
       </Animated>

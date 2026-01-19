@@ -2,6 +2,7 @@
 
 import { useState, useCallback } from 'react';
 import { Text, Button } from '@/components/ui';
+import { useLanguage } from '@/context/LanguageProvider';
 import { IoCheckmark, IoClose, IoHelpCircle } from 'react-icons/io5';
 import type { TranslationExercise } from '@/types/exercises';
 import styles from './Translation.module.css';
@@ -12,6 +13,7 @@ interface TranslationProps {
 }
 
 export default function Translation({ exercise, onAnswer }: TranslationProps) {
+  const { t } = useLanguage();
   const [userInput, setUserInput] = useState('');
   const [feedback, setFeedback] = useState<'correct' | 'incorrect' | null>(null);
   const [submitted, setSubmitted] = useState(false);
@@ -50,13 +52,13 @@ export default function Translation({ exercise, onAnswer }: TranslationProps) {
 
       <div className={styles.targetSection}>
         <Text variant="caption" color="muted" className={styles.languageLabel}>
-          Translate to {exercise.targetLanguage}
+          {t('exercises.translation.translateTo', { language: exercise.targetLanguage })}
         </Text>
         <textarea
           value={userInput}
           onChange={(e) => setUserInput(e.target.value)}
           onKeyDown={handleKeyDown}
-          placeholder="Type your translation..."
+          placeholder={t('exercises.translation.placeholder')}
           className={`${styles.input} ${feedback ? styles[feedback] : ''}`}
           disabled={submitted}
           rows={3}
@@ -69,13 +71,13 @@ export default function Translation({ exercise, onAnswer }: TranslationProps) {
           {feedback === 'correct' ? (
             <>
               <IoCheckmark className={styles.feedbackIcon} />
-              <Text>Correct!</Text>
+              <Text>{t('exercises.correct')}</Text>
             </>
           ) : (
             <>
               <IoClose className={styles.feedbackIcon} />
               <div className={styles.feedbackContent}>
-                <Text>Correct translation:</Text>
+                <Text>{t('exercises.translation.correctAnswer')}</Text>
                 <Text color="gold" className={styles.correctAnswer}>
                   {exercise.correctTranslation}
                 </Text>
@@ -91,7 +93,7 @@ export default function Translation({ exercise, onAnswer }: TranslationProps) {
           disabled={!userInput.trim()}
           fullWidth
         >
-          Check Translation
+          {t('exercises.translation.checkTranslation')}
         </Button>
       )}
     </div>

@@ -2,6 +2,7 @@
 
 import { useState, useCallback } from 'react';
 import { Card, Text, Button } from '@/components/ui';
+import { useLanguage } from '@/context/LanguageProvider';
 import { IoInformationCircle, IoChevronDown, IoChevronUp, IoGlobe, IoSparkles } from 'react-icons/io5';
 import styles from './CulturalNote.module.css';
 
@@ -22,14 +23,17 @@ const ICON_MAP = {
 
 export default function CulturalNote({
   note,
-  title = 'Cultural Note',
+  title,
   expanded: initialExpanded = false,
   icon = 'info',
   variant = 'card',
   onDismiss,
 }: CulturalNoteProps) {
+  const { t } = useLanguage();
   const [isExpanded, setIsExpanded] = useState(initialExpanded);
   const IconComponent = ICON_MAP[icon];
+
+  const displayTitle = title || t('lessons.view.culturalNote');
 
   const toggleExpanded = useCallback(() => {
     setIsExpanded((prev) => !prev);
@@ -59,7 +63,7 @@ export default function CulturalNote({
             <IconComponent className={styles.icon} />
           </div>
           <Text variant="label" className={styles.title}>
-            {title}
+            {displayTitle}
           </Text>
         </div>
         <div className={styles.headerRight}>
@@ -86,7 +90,7 @@ export default function CulturalNote({
               onClick={onDismiss}
               className={styles.dismissButton}
             >
-              Got it
+              {t('common.gotIt')}
             </Button>
           )}
         </div>
@@ -101,19 +105,22 @@ interface CulturalNotesListProps {
   title?: string;
 }
 
-export function CulturalNotesList({ notes, title = 'Cultural Notes' }: CulturalNotesListProps) {
+export function CulturalNotesList({ notes, title }: CulturalNotesListProps) {
+  const { t } = useLanguage();
   const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
+
+  const displayTitle = title || t('lessons.view.culturalNotes');
 
   if (notes.length === 0) return null;
 
   if (notes.length === 1) {
-    return <CulturalNote note={notes[0]} title={title} />;
+    return <CulturalNote note={notes[0]} title={displayTitle} />;
   }
 
   return (
     <div className={styles.notesList}>
       <Text variant="label" color="gold" className={styles.notesListTitle}>
-        {title} ({notes.length})
+        {displayTitle} ({notes.length})
       </Text>
       <div className={styles.notesGrid}>
         {notes.map((note, index) => (

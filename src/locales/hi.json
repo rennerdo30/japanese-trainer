@@ -13,12 +13,41 @@
     "incorrect": "गलत",
     "total": "कुल",
     "streak": "श्रृंखला",
-    "stop": "स्गां"
+    "stop": "स्गां",
+    "continue": "जारी रखें",
+    "changeLanguage": "भाषा बदलें",
+    "selectLanguage": "भाषा चुनें",
+    "close": "बंद करें",
+    "listen": "सुनें",
+    "show": "दिखाएं",
+    "hide": "छिपाएं",
+    "iKnowThis": "मुझे यह पता है",
+    "tapToContinue": "जारी रखने के लिए टैप करें",
+    "hint": "संकेत",
+    "demo": "डेमो",
+    "guide": "मार्गदर्शिका",
+    "clear": "साफ करें",
+    "gotIt": "समझ गया",
+    "days": {
+      "sun": "रवि",
+      "mon": "सोम",
+      "tue": "मंगल",
+      "wed": "बुध",
+      "thu": "गुरु",
+      "fri": "शुक्र",
+      "sat": "शनि"
+    },
+    "errorBoundary": {
+      "title": "कुछ गलत हो गया",
+      "message": "एक अप्रत्याशित त्रुटि हुई। कृपया पृष्ठ को ताज़ा करने का प्रयास करें।",
+      "tryAgain": "फिर से प्रयास करें"
+    }
   },
   "modules": {
     "alphabet": {
       "title": "वर्णमाला",
-      "description": "हिरागाना और काटाकाना में महारत हासिल करें"
+      "description": "हिरागाना और काटाकाना में महारत हासिल करें",
+      "title_ko": "हंगुल"
     },
     "vocabulary": {
       "title": "शब्दावली",
@@ -26,7 +55,9 @@
     },
     "kanji": {
       "title": "कांजी",
-      "description": "चीनी वर्णों में महारत हासिल करें"
+      "description": "चीनी वर्णों में महारत हासिल करें",
+      "title_ja": "कांजी",
+      "title_zh": "हान्ज़ी"
     },
     "grammar": {
       "title": "व्याकरण",
@@ -88,21 +119,21 @@
     "typeReading": "पढ़ना टाइप करें...",
     "showInfo": "जानकारी दिखाएं",
     "noKanji": "कोई कांजी उपलब्ध नहीं है।",
-    "onyomi": "音読み",
-    "kunyomi": "訓読み",
+    "onyomi": "ओन्योमी",
+    "kunyomi": "कुन्योमी",
     "pinyin": "पिनयिन",
     "filters": {
-      "n5": "JLPT N5",
-      "n4": "JLPT N4",
-      "n3": "JLPT N3",
-      "n2": "JLPT N2",
-      "n1": "JLPT N1",
-      "hsk1": "HSK 1",
-      "hsk2": "HSK 2",
-      "hsk3": "HSK 3",
-      "hsk4": "HSK 4",
-      "hsk5": "HSK 5",
-      "hsk6": "HSK 6"
+      "n5": "जेएलपीटी एन5",
+      "n4": "जेएलपीटी एन4",
+      "n3": "जेएलपीटी एन3",
+      "n2": "जेएलपीटी एन2",
+      "n1": "जेएलपीटी एन1",
+      "hsk1": "एचएसके 1",
+      "hsk2": "एचएसके 2",
+      "hsk3": "एचएसके 3",
+      "hsk4": "एचएसके 4",
+      "hsk5": "एचएसके 5",
+      "hsk6": "एचएसके 6"
     }
   },
   "grammar": {
@@ -132,16 +163,451 @@
     "noExercises": "कोई अभ्यास उपलब्ध नहीं है।"
   },
   "dashboard": {
-    "title": "Murmura",
+    "title": "मरमुरा",
     "subtitle": "फुसफुसाहट से प्रवाह तक",
     "dayStreak": "दैनिक श्रृंखला",
     "wordsLearned": "सीखे गए शब्द",
     "kanjiMastered": "महारत हासिल कांजी",
-    "studyTime": "अध्ययन समय (मिनट)"
+    "studyTime": "अध्ययन समय (मिनट)",
+    "continueLearning": "सीखना जारी रखें",
+    "browsePaths": "सीखने के पथ ब्राउज़ करें",
+    "reviewDashboardStat": "समीक्षा डैशबोर्ड",
+    "leaderboardStat": "लीडरबोर्ड",
+    "settingsStat": "सेटिंग्स",
+    "hanziMastered": "हान्ज़ी में महारत",
+    "hangulMastered": "हंगुल में महारत",
+    "charactersLearned": "वर्ण सीखे गए",
+    "weeklyProgress": {
+      "thisWeek": "इस सप्ताह",
+      "fullReport": "पूरी रिपोर्ट"
+    },
+    "lessons": "पाठ",
+    "xpEarned": "एक्सपी अर्जित",
+    "activeDays": "सक्रिय दिन",
+    "accuracy": "सटीकता",
+    "targetLanguage": {
+      "title": "सीखने का लक्ष्य",
+      "selectLabel": "लक्ष्य भाषा चुनें",
+      "levelsAvailable": "{count} स्तर उपलब्ध"
+    },
+    "pathProgress": {
+      "nextUp": "अगला",
+      "lessonsCount": "{completed} / {total} पाठ"
+    },
+    "goalEstimator": {
+      "title": "लक्ष्य अनुमानक",
+      "daysLeft": "दिन बचे",
+      "minPerDay": "मिनट/दिन",
+      "hoursLeft": "घंटे बचे",
+      "estimatedCompletion": "अनुमानित पूर्णता",
+      "toLevel": "{level} तक",
+      "learnedItemsInfo": "{learned} / {total} आइटम सीखे गए",
+      "milestones": "मील के पत्थर",
+      "atMinutesPerDay": "{count} मिनट/दिन पर"
+    },
+    "library": {
+      "viewAll": "सभी देखें",
+      "title": "लाइब्रेरी"
+    },
+    "activity": {
+      "title": "गतिविधि",
+      "less": "कम",
+      "more": "अधिक",
+      "current": "वर्तमान",
+      "best": "सर्वश्रेष्ठ",
+      "totalHrs": "कुल घंटे",
+      "dayStreakStatus": "{count} दिन की लकीर",
+      "minTooltip": "{count} मिनट"
+    },
+    "compass": {
+      "title": "सीखने का कम्पास",
+      "nextUp": "अगला",
+      "reviewsDue": "{count} समीक्षाएं बकाया",
+      "min": "{count} मिनट",
+      "modules": {
+        "alphabet": "Alphabet",
+        "vocabulary": "Vocabulary",
+        "kanji": "Characters",
+        "grammar": "Grammar",
+        "reading": "Reading",
+        "listening": "Listening"
+      }
+    },
+    "heatmap": {
+      "title": "महारत हीटमैप"
+    },
+    "greetings": {
+      "goodMorning": "सुप्रभात",
+      "goodAfternoon": "नमस्कार",
+      "goodEvening": "शुभ संध्या",
+      "goodNight": "शुभ रात्रि"
+    },
+    "notifications": "सूचनाएं"
   },
   "stats": {
     "correct": "सही",
     "total": "कुल",
     "streak": "श्रृंखला"
+  },
+  "auth": {
+    "signIn": "साइन इन करें",
+    "signOut": "साइन आउट करें",
+    "user": "उपयोगकर्ता",
+    "loading": "लोड हो रहा है...",
+    "loginDialog": {
+      "title": {
+        "signIn": "साइन इन करें",
+        "createAccount": "खाता बनाएं",
+        "continueAnonymously": "अनाम रूप से जारी रखें"
+      },
+      "emailPassword": {
+        "title": "ईमेल और पासवर्ड",
+        "description": "अपने ईमेल और पासवर्ड से साइन इन करें। किसी भी डिवाइस से अपने खाते तक पहुंचें।"
+      },
+      "anonymous": {
+        "title": "अनाम रूप से जारी रखें",
+        "description": "ऐप का तुरंत उपयोग शुरू करें। आपका सत्र केवल इस डिवाइस से जुड़ा है।"
+      },
+      "form": {
+        "email": "ईमेल",
+        "password": "पासवर्ड",
+        "emailPlaceholder": "आपका@ईमेल.कॉम",
+        "passwordPlaceholderNew": "कम से कम 8 वर्ण",
+        "passwordPlaceholderExisting": "अपना पासवर्ड दर्ज करें",
+        "back": "वापस",
+        "signUp": "साइन अप करें",
+        "alreadyHaveAccount": "पहले से खाता है? साइन इन करें",
+        "dontHaveAccount": "खाता नहीं है? साइन अप करें"
+      },
+      "signingIn": "साइन इन हो रहा है...",
+      "errors": {
+        "invalidCredentials": "अमान्य ईमेल या पासवर्ड। कृपया अपनी साख जांचें और पुनः प्रयास करें।",
+        "accountExists": "इस ईमेल से पहले से एक खाता मौजूद है। बजाय साइन इन करने का प्रयास करें।",
+        "invalidEmail": "कृपया एक मान्य ईमेल पता दर्ज करें।",
+        "passwordWeak": "पासवर्ड कम से कम 8 वर्ण लंबा होना चाहिए।",
+        "rateLimit": "बहुत अधिक प्रयास। कृपया कुछ क्षण प्रतीक्षा करें और पुनः प्रयास करें।",
+        "network": "कनेक्शन त्रुटि। कृपया अपना इंटरनेट जांचें और पुनः प्रयास करें।",
+        "generic": "प्रमाणीकरण विफल। कृपया पुनः प्रयास करें।"
+      }
+    }
+  },
+  "gamification": {
+    "levelUp": {
+      "title": "स्तर ऊपर!",
+      "message": "आपने {tier} स्तर {level} तक पहुँच गए हैं"
+    },
+    "achievements": {
+      "title": "उपलब्धियाँ ({percentage}%)",
+      "unlockedCount": "{unlocked} / {total}",
+      "unlockedLabel": "उपलब्धि अनलॉक हुई!",
+      "empty": "कोई उपलब्धि नहीं मिली",
+      "secret": {
+        "name": "???",
+        "description": "इस गुप्त उपलब्धि को प्रकट करने के लिए इसे पूरा करें"
+      },
+      "categories": {
+        "all": "सभी",
+        "learning": "सीखना",
+        "streak": "लगातार",
+        "mastery": "निपुणता",
+        "explorer": "खोजकर्ता",
+        "special": "विशेष"
+      },
+      "status": {
+        "all": "सभी",
+        "unlocked": "अनलॉक",
+        "locked": "लॉक"
+      }
+    }
+  },
+  "settings": {
+    "title": "सेटिंग्स",
+    "subtitle": "अपना सीखने का अनुभव अनुकूलित करें",
+    "leaderboard": {
+      "title": "लीडरबोर्ड",
+      "showOnLeaderboard": "लीडरबोर्ड पर दिखाएँ",
+      "showOnLeaderboardDescription": "अक्षम होने पर, आपकी प्रगति सार्वजनिक रैंकिंग में नहीं दिखेगी",
+      "visible": "दृश्यमान",
+      "hidden": "छिपा हुआ",
+      "anonymousName": "आपका गुमनाम नाम",
+      "anonymousNameDescription": "यह आप लीडरबोर्ड पर कैसे दिखते हैं"
+    },
+    "srs": {
+      "title": "स्पेस्ड रिपीटिशन",
+      "description": "समीक्षा शेड्यूलिंग और कठिनाई अनुकूलित करें"
+    },
+    "audio": {
+      "title": "ऑडियो और टीटीएस",
+      "offlineTTS": "ऑफ़लाइन टीटीएस (कोकोरो)",
+      "offlineTTSDescription": "ऑफ़लाइन टेक्स्ट-टू-स्पीच के लिए ~{{size}}MB मॉडल डाउनलोड करें",
+      "notSupported": "समर्थित नहीं: {{reason}}",
+      "off": "बंद",
+      "on": "चालू",
+      "desktopNotice": "कोकोरो टीटीएस डेस्कटॉप पर स्वचालित रूप से लोड होता है",
+      "readyNotice": "ऑफ़लाइन टीटीएस तैयार - इंटरनेट के बिना काम करता है",
+      "loadError": "ऑफ़लाइन टीटीएस लोड करने में विफल",
+      "voiceSelection": "आवाज़ चयन ({{language}})",
+      "notSupportedWarning": "कोकोरो {{language}} का समर्थन नहीं करता। ब्राउज़र स्पीच सिंथेसिस या पूर्व-जनरेटेड ऑडियो का उपयोग कर रहा है।",
+      "noVoicesWarning": "{{language}} के लिए कोई आवाज़ उपलब्ध नहीं है।",
+      "voiceSelectionNote": "{{language}} टेक्स्ट-टू-स्पीच के लिए एक आवाज़ चुनें। उपलब्ध होने पर पूर्व-जनरेटेड ऑडियो का उपयोग किया जाता है।",
+      "playing": "चल रहा है...",
+      "test": "परीक्षण",
+      "voiceDetail": "{{language}} • {{gender}} • गुणवत्ता: {{quality}}",
+      "priorityTitle": "ऑडियो प्लेबैक प्राथमिकता:",
+      "priority1": "पूर्व-जनरेटेड ऑडियो (सर्वोत्तम गुणवत्ता)",
+      "priority2": "कोकोरो टीटीएस ({{status}}, {{support}})",
+      "ifEnabled": "यदि सक्षम",
+      "autoLoaded": "स्वचालित रूप से लोड",
+      "englishOnly": "केवल अंग्रेज़ी",
+      "priority3": "ब्राउज़र स्पीच सिंथेसिस (फ़ॉलबैक)"
+    },
+    "appearance": {
+      "title": "दिखावट",
+      "comingSoon": "थीम सेटिंग्स जल्द ही आ रही हैं"
+    },
+    "backToDashboard": "डैशबोर्ड पर वापस"
+  },
+  "srs": {
+    "title": "एसआरएस सेटिंग्स",
+    "subtitle": "अपना स्पेस्ड रिपीटिशन अनुभव अनुकूलित करें",
+    "scheduling": {
+      "title": "समीक्षा शेड्यूलिंग",
+      "newItemsLimit": "दैनिक नए आइटम सीमा",
+      "newItemsDescription": "प्रतिदिन सीखने के लिए अधिकतम नए आइटम",
+      "reviewLimit": "दैनिक समीक्षा सीमा",
+      "reviewLimitDescription": "प्रतिदिन अधिकतम समीक्षाएँ (0 = असीमित)",
+      "threshold": "समीक्षा सीमा",
+      "thresholdDescription": "एसआरएस शेड्यूलिंग कितनी सख्त है",
+      "thresholdStrict": "सख्त",
+      "thresholdModerate": "मध्यम",
+      "thresholdRelaxed": "ढीला"
+    },
+    "difficulty": {
+      "title": "कठिनाई समायोजन",
+      "easeBonus": "आसानी बोनस",
+      "easeBonusDescription": "समायोजित करें कि अंतराल कितनी तेज़ी से बढ़ते हैं ({{value}}%)",
+      "intervalMultiplier": "अंतराल गुणक",
+      "intervalMultiplierDescription": "सभी अंतरालों को इस कारक से स्केल करें",
+      "lapseInterval": "लैप्स नया अंतराल",
+      "lapseIntervalDescription": "जब आप विफल होते हैं, तो अंतराल को पिछले के इस % पर रीसेट करें"
+    },
+    "options": {
+      "title": "समीक्षा विकल्प",
+      "autoplayAudio": "ऑटोप्ले ऑडियो",
+      "autoplayAudioDescription": "कार्ड प्रकट होने पर स्वचालित रूप से ऑडियो चलाएँ",
+      "showReadingHints": "पढ़ने के संकेत दिखाएँ",
+      "readingHintsDescription": "उच्चारण के लिए फुरिगाना या पिनयिन संकेत दिखाएँ",
+      "accuracy": "आवश्यक सटीकता",
+      "accuracyDescription": "निपुणता के लिए लक्ष्य सटीकता ({{value}}%)"
+    },
+    "notifications": {
+      "title": "सूचनाएँ",
+      "reminders": "समीक्षा अनुस्मारक",
+      "remindersDescription": "सूचित हों जब आपकी समीक्षाएँ देय हों",
+      "reminderTime": "अनुस्मारक समय",
+      "reminderTimeDescription": "दैनिक अनुस्मारक कब भेजना है",
+      "reminderThreshold": "अनुस्मारक सीमा",
+      "reminderThresholdDescription": "केवल तभी सूचित करें जब समीक्षाएं इस संख्या से अधिक हों"
+    },
+    "actions": {
+      "reset": "डिफ़ॉल्ट पर रीसेट करें",
+      "save": "सेटिंग्स सहेजें",
+      "saved": "सहेजा गया!",
+      "backToSettings": "सेटिंग्स पर वापस जाएं"
+    }
+  },
+  "languages": {
+    "ja": "जापानी",
+    "zh": "चीनी",
+    "ko": "कोरियाई",
+    "es": "स्पेनिश",
+    "fr": "फ्रेंच",
+    "hi": "हिंदी",
+    "it": "इतालवी",
+    "pt": "पुर्तगाली",
+    "en": "अंग्रेज़ी"
+  },
+  "lessons": {
+    "view": {
+      "noContent": "कोई सामग्री उपलब्ध नहीं है",
+      "noExercises": "इस पाठ के लिए कोई अभ्यास उपलब्ध नहीं है।",
+      "previous": "पिछला",
+      "next": "अगला",
+      "startExercises": "अभ्यास शुरू करें",
+      "completeLesson": "पाठ पूरा करें",
+      "topic": "विषय",
+      "vocabulary": "शब्दावली",
+      "grammar": "व्याकरण",
+      "culturalNote": "सांस्कृतिक नोट",
+      "exerciseStep": "अभ्यास {current} / {total}",
+      "culturalNotes": "सांस्कृतिक नोट्स",
+      "learning": "सीखना",
+      "practice": "अभ्यास",
+      "stop": "रोकें",
+      "tapToContinueHint": "जारी रखने के लिए टैप या स्वाइप करें"
+    },
+    "vocabulary": {
+      "examples": "उदाहरण"
+    },
+    "grammar": {
+      "examples": "उदाहरण",
+      "usageNotes": "उपयोग नोट्स",
+      "hideExplanation": "स्पष्टीकरण छिपाएं",
+      "showExplanation": "स्पष्टीकरण दिखाएं",
+      "iUnderstand": "मैं समझ गया"
+    },
+    "character": {
+      "strokeOrder": "स्ट्रोक क्रम",
+      "memoryTip": "याद रखने की टिप"
+    },
+    "intro": {
+      "minutes": "मिनट",
+      "items": "आइटम",
+      "vocabulary": "शब्दावली",
+      "back": "वापस",
+      "whatYoullLearn": "आप क्या सीखेंगे:",
+      "vocabularyWords": "{count} शब्दावली शब्द",
+      "grammarPoints": "{count} व्याकरण बिंदु",
+      "culturalNotes": "{count} सांस्कृतिक नोट्स",
+      "startLesson": "पाठ शुरू करें"
+    },
+    "summary": {
+      "levelUp": "स्तर बढ़ा!",
+      "perfect": "उत्तम!",
+      "lessonComplete": "पाठ पूरा!",
+      "correctCount": "{correct} / {total} सही",
+      "xpTotal": "+{xp} XP",
+      "xpBase": "आधार: +{xp}",
+      "xpPerfect": "उत्तम: +{xp}",
+      "xpStreak": "लगातार: +{xp}",
+      "newLevel": "आप स्तर {level} तक पहुँच गए",
+      "nextLesson": "अगला पाठ",
+      "pathComplete": "पथ पूरा",
+      "backToPath": "पथ पर वापस जाएं",
+      "upNext": "आगे क्या है"
+    }
+  },
+  "exercises": {
+    "correct": "सही!",
+    "common": {
+      "checkAnswer": "उत्तर जांचें",
+      "answerOptions": "उत्तर विकल्प",
+      "optionLabelWithStatus": "विकल्प {index}: {option}{status}",
+      "correctAnswerStatus": ", सही उत्तर",
+      "incorrectStatus": ", गलत",
+      "quitSession": "सत्र छोड़ें",
+      "quitConfirmTitle": "सत्र छोड़ें?",
+      "quitConfirmMessage": "इस सत्र में आपकी प्रगति खो जाएगी।",
+      "confirmQuit": "छोड़ें",
+      "cancel": "रद्द करें",
+      "unsupported": "अभ्यास प्रकार अभी समर्थित नहीं है"
+    },
+    "matching": {
+      "success": "सभी जोड़े सही मिले!",
+      "error": "कुछ मिलान गलत थे। हाइलाइट किए गए जोड़ों की समीक्षा करें।",
+      "title": "जोड़े मिलाएं",
+      "leftColumnLabel": "बाएं कॉलम - मिलान के लिए एक आइटम चुनें",
+      "rightColumnLabel": "दाएं कॉलम - मिलान पूरा करने के लिए चुनें",
+      "leftItemLabel": "{item}{matched}{status}",
+      "matchedStatus": ", मिला हुआ",
+      "correctMatchStatus": ", सही मिलान",
+      "incorrectMatchStatus": ", गलत मिलान",
+      "rightItemLabel": "{item}{matched}{available}",
+      "alreadyMatchedStatus": ", पहले से मिला हुआ",
+      "availableToMatchStatus": ", मिलान के लिए उपलब्ध",
+      "checkMatches": "मिलान जांचें ({count}/{total})"
+    },
+    "fillBlank": {
+      "correctAnswerIs": "सही उत्तर है:"
+    },
+    "translation": {
+      "correctAnswer": "सही अनुवाद:",
+      "translateTo": "{language} में अनुवाद करें",
+      "checkTranslation": "अनुवाद जांचें",
+      "placeholder": "अपना अनुवाद टाइप करें..."
+    },
+    "typing": {
+      "correctAnswer": "सही उत्तर:",
+      "instruction": "अनुवाद टाइप करें",
+      "placeholder": "अपना उत्तर टाइप करें...",
+      "expectedLength": "अपेक्षित: {count} अक्षर"
+    },
+    "strokeOrder": {
+      "strokesCount": "{count} स्ट्रोक",
+      "strokesProgress": "स्ट्रोक: {current} / {total}",
+      "feedbackIncorrect": "अभ्यास जारी रखें! इस चरित्र में {count} स्ट्रोक हैं।",
+      "checkCharacter": "वर्ण जाँचें"
+    },
+    "wordOrder": {
+      "placeholder": "वाक्य बनाने के लिए शब्दों पर टैप करें"
+    },
+    "listening": {
+      "playing": "चल रहा है...",
+      "playAudio": "ऑडियो चलाएँ",
+      "playCount": "{count} {count, plural, one {बार} other {बार}} चलाया गया",
+      "transcriptShow": "ट्रांसक्रिप्ट दिखाएँ",
+      "transcriptHide": "ट्रांसक्रिप्ट छिपाएँ"
+    }
+  },
+  "review": {
+    "config": {
+      "title": "समीक्षा सत्र",
+      "selectModules": "मॉड्यूल चुनें",
+      "numberOfItems": "आइटमों की संख्या",
+      "onlyItemsAvailable": "केवल {count} आइटम उपलब्ध हैं",
+      "selectedModules": "चुने गए मॉड्यूल:",
+      "itemsToReview": "समीक्षा के लिए आइटम:",
+      "startReview": "समीक्षा शुरू करें",
+      "noItemsDue": "समीक्षा के लिए कोई आइटम नहीं है। बढ़िया काम जारी रखें!",
+      "due": "{count} बकाया"
+    },
+    "modules": {
+      "vocabulary": "शब्दावली",
+      "kanji": "वर्ण",
+      "grammar": "व्याकरण"
+    },
+    "progress": {
+      "accuracy": "सटीकता:"
+    },
+    "card": {
+      "showAnswer": "उत्तर दिखाएँ",
+      "questionRating": "आपको कितनी अच्छी तरह याद था?",
+      "rating": {
+        "again": "फिर से",
+        "hard": "कठिन",
+        "good": "अच्छा",
+        "easy": "आसान",
+        "perfect": "उत्तम",
+        "againDesc": "पूरी तरह भूल गए",
+        "hardDesc": "याद करने में संघर्ष किया",
+        "goodDesc": "प्रयास से सही",
+        "easyDesc": "आसानी से याद आया",
+        "perfectDesc": "तुरंत याद आया"
+      }
+    },
+    "mastery": {
+      "new": "नया",
+      "learning": "सीख रहे हैं",
+      "review": "समीक्षा",
+      "mastered": "मास्टर किया"
+    },
+    "stats": {
+      "title": "समीक्षा सत्र",
+      "sessionComplete": "सत्र पूरा हुआ!",
+      "accuracy": "सटीकता",
+      "correct": "सही",
+      "incorrect": "गलत",
+      "duration": "अवधि",
+      "moduleBreakdown": "मॉड्यूल विवरण",
+      "avgTimePerItem": "प्रति आइटम औसत समय: {time} सेकंड",
+      "reviewMore": "और आइटम समीक्षा करें",
+      "backToDashboard": "डैशबोर्ड पर वापस जाएँ",
+      "performance": {
+        "excellent": "उत्कृष्ट काम! इसे जारी रखें!",
+        "good": "अच्छा काम! आप प्रगति कर रहे हैं।",
+        "okay": "बुरा नहीं! अभ्यास जारी रखें।",
+        "needsWork": "जारी रखें! अभ्यास परिपूर्ण बनाता है।"
+      }
+    }
   }
 }

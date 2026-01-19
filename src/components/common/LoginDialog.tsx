@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { useAuthActions } from '@convex-dev/auth/react';
+import { useLanguage } from '@/context/LanguageProvider';
 import { IoMail, IoPerson } from 'react-icons/io5';
 import styles from './LoginDialog.module.css';
 
@@ -13,46 +14,47 @@ interface LoginDialogProps {
 type AuthMode = 'select' | 'email-password' | 'anonymous';
 
 // Convert Convex auth errors to user-friendly messages
-function getAuthErrorMessage(error: unknown): string {
+function getAuthErrorMessage(error: unknown, t: (key: string) => string): string {
     const errorObj = error as { message?: string } | null;
     const message = errorObj?.message || String(error);
 
     // Invalid credentials / account not found
     if (message.includes('InvalidAccountId') || message.includes('InvalidSecret')) {
-        return 'Invalid email or password. Please check your credentials and try again.';
+        return t('auth.loginDialog.errors.invalidCredentials');
     }
 
     // Account already exists
     if (message.includes('AccountAlreadyExists') || message.includes('already exists')) {
-        return 'An account with this email already exists. Try signing in instead.';
+        return t('auth.loginDialog.errors.accountExists');
     }
 
     // Invalid email format
     if (message.includes('InvalidEmail') || message.includes('invalid email')) {
-        return 'Please enter a valid email address.';
+        return t('auth.loginDialog.errors.invalidEmail');
     }
 
     // Password too short/weak
     if (message.includes('password') && (message.includes('short') || message.includes('weak'))) {
-        return 'Password must be at least 8 characters long.';
+        return t('auth.loginDialog.errors.passwordWeak');
     }
 
     // Rate limiting
     if (message.includes('rate') || message.includes('too many')) {
-        return 'Too many attempts. Please wait a moment and try again.';
+        return t('auth.loginDialog.errors.rateLimit');
     }
 
     // Network errors
     if (message.includes('network') || message.includes('fetch')) {
-        return 'Connection error. Please check your internet and try again.';
+        return t('auth.loginDialog.errors.network');
     }
 
     // Generic fallback
-    return 'Authentication failed. Please try again.';
+    return t('auth.loginDialog.errors.generic');
 }
 
 export default function LoginDialog({ isOpen, onClose }: LoginDialogProps) {
     const { signIn } = useAuthActions();
+    const { t } = useLanguage();
     const [mode, setMode] = useState<AuthMode>('select');
     const [isSignUp, setIsSignUp] = useState(false);
     const [email, setEmail] = useState('');
@@ -154,7 +156,7 @@ export default function LoginDialog({ isOpen, onClose }: LoginDialogProps) {
             setEmail('');
             setPassword('');
         } catch (err: unknown) {
-            setError(getAuthErrorMessage(err));
+            setError(getAuthErrorMessage(err, t));
         } finally {
             setLoading(false);
         }
@@ -168,7 +170,7 @@ export default function LoginDialog({ isOpen, onClose }: LoginDialogProps) {
             await signIn('anonymous', {});
             onClose();
         } catch (err: unknown) {
-            setError(getAuthErrorMessage(err));
+            setError(getAuthErrorMessage(err, t));
         } finally {
             setLoading(false);
         }
@@ -187,15 +189,15 @@ export default function LoginDialog({ isOpen, onClose }: LoginDialogProps) {
                 <button
                     className={styles.close}
                     onClick={onClose}
-                    aria-label="Close dialog"
+                    aria-label={t('common.close')}
                 >
                     ×
                 </button>
 
                 <h2 id="login-dialog-title" className={styles.title}>
-                    {mode === 'select' && 'Sign In'}
-                    {mode === 'email-password' && (isSignUp ? 'Create Account' : 'Sign In')}
-                    {mode === 'anonymous' && 'Continue Anonymously'}
+                    {mode === 'select' && t('auth.signIn')}
+                    {mode === 'email-password' && (isSignUp ? t('auth.loginDialog.title.createAccount') : t('auth.signIn'))}
+                    {mode === 'anonymous' && t('auth.loginDialog.title.continueAnonymously')}
                 </h2>
 
                 {error && (
@@ -212,9 +214,9 @@ export default function LoginDialog({ isOpen, onClose }: LoginDialogProps) {
                             disabled={loading}
                         >
                             <div className={styles.optionIcon}><IoMail /></div>
-                            <div className={styles.optionTitle}>Email & Password</div>
+                            <div className={styles.optionTitle}>{t('auth.loginDialog.emailPassword.title')}</div>
                             <div className={styles.optionDescription}>
-                                Sign in with your email and password. Access your account from any device.
+                                {t('auth.loginDialog.emailPassword.description')}
                             </div>
                         </button>
 
@@ -224,9 +226,9 @@ export default function LoginDialog({ isOpen, onClose }: LoginDialogProps) {
                             disabled={loading}
                         >
                             <div className={styles.optionIcon}><IoPerson /></div>
-                            <div className={styles.optionTitle}>Continue Anonymously</div>
+                            <div className={styles.optionTitle}>{t('auth.loginDialog.anonymous.title')}</div>
                             <div className={styles.optionDescription}>
-                                Start using the app immediately. Your session is tied to this device only.
+                                {t('auth.loginDialog.anonymous.description')}
                             </div>
                         </button>
                     </div>
@@ -235,11 +237,11 @@ export default function LoginDialog({ isOpen, onClose }: LoginDialogProps) {
                 {mode === 'email-password' && (
                     <form onSubmit={handleEmailPasswordSubmit} className={styles.form}>
                         <div className={styles.formGroup}>
-                            <label htmlFor="email" className={styles.label}>Email</label>
+                            <label htmlFor="email" className={styles.label}>{t('auth.loginDialog.form.email')}</label>
                             <input
                                 id="email"
                                 type="email"
-                                placeholder="your@email.com"
+                                placeholder={t('auth.loginDialog.form.emailPlaceholder')}
                                 value={email}
                                 onChange={(e) => setEmail(e.target.value)}
                                 required
@@ -249,11 +251,11 @@ export default function LoginDialog({ isOpen, onClose }: LoginDialogProps) {
                         </div>
 
                         <div className={styles.formGroup}>
-                            <label htmlFor="password" className={styles.label}>Password</label>
+                            <label htmlFor="password" className={styles.label}>{t('auth.loginDialog.form.password')}</label>
                             <input
                                 id="password"
                                 type="password"
-                                placeholder={isSignUp ? "At least 8 characters" : "Enter your password"}
+                                placeholder={isSignUp ? t('auth.loginDialog.form.passwordPlaceholderNew') : t('auth.loginDialog.form.passwordPlaceholderExisting')}
                                 value={password}
                                 onChange={(e) => setPassword(e.target.value)}
                                 required
@@ -269,14 +271,14 @@ export default function LoginDialog({ isOpen, onClose }: LoginDialogProps) {
                                 onClick={() => setMode('select')}
                                 disabled={loading}
                             >
-                                Back
+                                {t('auth.loginDialog.form.back')}
                             </button>
                             <button
                                 type="submit"
                                 className={`${styles.button} ${styles.primary}`}
                                 disabled={loading}
                             >
-                                {loading ? 'Loading...' : (isSignUp ? 'Sign Up' : 'Sign In')}
+                                {loading ? t('auth.loading') : (isSignUp ? t('auth.loginDialog.form.signUp') : t('auth.signIn'))}
                             </button>
                         </div>
 
@@ -288,7 +290,7 @@ export default function LoginDialog({ isOpen, onClose }: LoginDialogProps) {
                                 setError('');
                             }}
                         >
-                            {isSignUp ? 'Already have an account? Sign in' : "Don't have an account? Sign up"}
+                            {isSignUp ? t('auth.loginDialog.form.alreadyHaveAccount') : t('auth.loginDialog.form.dontHaveAccount')}
                         </button>
                     </form>
                 )}
@@ -296,7 +298,7 @@ export default function LoginDialog({ isOpen, onClose }: LoginDialogProps) {
                 {loading && mode === 'anonymous' && (
                     <div className={styles.loading}>
                         <div className={styles.spinner}></div>
-                        <p>Signing in...</p>
+                        <p>{t('auth.loginDialog.signingIn')}</p>
                     </div>
                 )}
             </div>

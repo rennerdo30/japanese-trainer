@@ -1,6 +1,7 @@
 'use client';
 
 import { Text } from '@/components/ui';
+import { useLanguage } from '@/context/LanguageProvider';
 import styles from './LessonProgress.module.css';
 
 interface LessonProgressProps {
@@ -14,13 +15,14 @@ export default function LessonProgressBar({
   total,
   phase,
 }: LessonProgressProps) {
+  const { t } = useLanguage();
   const progress = total > 0 ? (current / total) * 100 : 0;
 
   return (
     <div className={styles.container}>
       <div className={styles.header}>
         <Text variant="label" color="muted" className={styles.phaseLabel}>
-          {phase === 'learning' ? 'Learning' : 'Practice'}
+          {phase === 'learning' ? t('lessons.view.learning') : t('lessons.view.practice')}
         </Text>
         <Text variant="caption" color="muted">
           {current} / {total}

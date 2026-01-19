@@ -2,6 +2,7 @@
 
 import { useCallback, useState } from 'react';
 import { Text, Button } from '@/components/ui';
+import { useLanguage } from '@/context/LanguageProvider';
 import { IoVolumeHigh, IoStop, IoRefresh, IoCheckmark } from 'react-icons/io5';
 import { useTTS } from '@/hooks/useTTS';
 import styles from './CharacterLesson.module.css';
@@ -25,6 +26,7 @@ export default function CharacterLesson({
   audioUrl,
   onMastered,
 }: CharacterLessonProps) {
+  const { t } = useLanguage();
   const { speak, stop, isPlaying } = useTTS();
   const [showMnemonic, setShowMnemonic] = useState(false);
 
@@ -54,16 +56,16 @@ export default function CharacterLesson({
           size="md"
           onClick={handleSpeak}
           className={styles.audioButton}
-          aria-label={isPlaying ? 'Stop audio' : 'Play pronunciation'}
+          aria-label={isPlaying ? t('common.stop') : t('common.listen')}
         >
           {isPlaying ? <IoStop /> : <IoVolumeHigh />}
-          <span>{isPlaying ? 'Stop' : 'Listen'}</span>
+          <span>{isPlaying ? t('common.stop') : t('common.listen')}</span>
         </Button>
       </div>
 
       {strokeHints && strokeHints.length > 0 && (
         <div className={styles.strokeSection}>
-          <Text variant="label" color="muted">Stroke Order</Text>
+          <Text variant="label" color="muted">{t('lessons.character.strokeOrder')}</Text>
           <div className={styles.strokeHints}>
             {strokeHints.map((hint, idx) => (
               <div key={idx} className={styles.strokeHint}>
@@ -83,7 +85,7 @@ export default function CharacterLesson({
             onClick={() => setShowMnemonic(!showMnemonic)}
             className={styles.mnemonicToggle}
           >
-            {showMnemonic ? 'Hide' : 'Show'} Memory Tip
+            {showMnemonic ? t('common.hide') : t('common.show')} {t('lessons.character.memoryTip')}
           </Button>
           {showMnemonic && (
             <div className={styles.mnemonic}>
@@ -100,14 +102,14 @@ export default function CharacterLesson({
             onClick={onMastered}
             className={styles.masteredButton}
           >
-            <IoCheckmark /> I Know This
+            <IoCheckmark /> {t('common.iKnowThis')}
           </Button>
         </div>
       )}
 
       <div className={styles.footer}>
         <Text variant="caption" color="muted">
-          Tap to continue
+          {t('common.tapToContinue')}
         </Text>
       </div>
     </div>

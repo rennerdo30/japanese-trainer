@@ -13,12 +13,41 @@
     "incorrect": "错误",
     "total": "总计",
     "streak": "连胜",
-    "stop": "悸得"
+    "stop": "悸得",
+    "continue": "继续",
+    "changeLanguage": "更改语言",
+    "selectLanguage": "选择语言",
+    "close": "关闭",
+    "listen": "听",
+    "show": "显示",
+    "hide": "隐藏",
+    "iKnowThis": "我认识这个",
+    "tapToContinue": "点击继续",
+    "hint": "提示",
+    "demo": "演示",
+    "guide": "指南",
+    "clear": "清除",
+    "gotIt": "明白了",
+    "days": {
+      "sun": "周日",
+      "mon": "周一",
+      "tue": "周二",
+      "wed": "周三",
+      "thu": "周四",
+      "fri": "周五",
+      "sat": "周六"
+    },
+    "errorBoundary": {
+      "title": "出错了",
+      "message": "发生意外错误。请尝试刷新页面。",
+      "tryAgain": "重试"
+    }
   },
   "modules": {
     "alphabet": {
       "title": "字母表",
-      "description": "掌握平假名和片假名"
+      "description": "掌握平假名和片假名",
+      "title_ko": "韩文"
     },
     "vocabulary": {
       "title": "词汇",
@@ -26,7 +55,9 @@
     },
     "kanji": {
       "title": "汉字",
-      "description": "掌握汉字"
+      "description": "掌握汉字",
+      "title_ja": "汉字",
+      "title_zh": "汉字"
     },
     "grammar": {
       "title": "语法",
@@ -137,11 +168,446 @@
     "dayStreak": "连续天数",
     "wordsLearned": "已学单词",
     "kanjiMastered": "已掌握汉字",
-    "studyTime": "学习时间（分钟）"
+    "studyTime": "学习时间（分钟）",
+    "continueLearning": "继续学习",
+    "browsePaths": "浏览学习路径",
+    "reviewDashboardStat": "复习仪表板",
+    "leaderboardStat": "排行榜",
+    "settingsStat": "设置",
+    "hanziMastered": "已掌握汉字",
+    "hangulMastered": "已掌握韩文",
+    "charactersLearned": "已学习字符",
+    "weeklyProgress": {
+      "thisWeek": "本周",
+      "fullReport": "完整报告"
+    },
+    "lessons": "课程",
+    "xpEarned": "获得经验值",
+    "activeDays": "活跃天数",
+    "accuracy": "准确率",
+    "targetLanguage": {
+      "title": "学习目标",
+      "selectLabel": "选择目标语言",
+      "levelsAvailable": "{count} 个级别可用"
+    },
+    "pathProgress": {
+      "nextUp": "接下来",
+      "lessonsCount": "{completed} / {total} 课程"
+    },
+    "goalEstimator": {
+      "title": "目标估算器",
+      "daysLeft": "剩余天数",
+      "minPerDay": "分钟/天",
+      "hoursLeft": "剩余小时",
+      "estimatedCompletion": "预计完成时间",
+      "toLevel": "至 {level}",
+      "learnedItemsInfo": "{learned} / {total} 项目已学习",
+      "milestones": "里程碑",
+      "atMinutesPerDay": "以 {count} 分钟/天"
+    },
+    "library": {
+      "viewAll": "查看全部",
+      "title": "库"
+    },
+    "activity": {
+      "title": "活动",
+      "less": "较少",
+      "more": "更多",
+      "current": "当前",
+      "best": "最佳",
+      "totalHrs": "总小时数",
+      "dayStreakStatus": "{count} 天连胜",
+      "minTooltip": "{count} 分钟"
+    },
+    "compass": {
+      "title": "学习指南针",
+      "nextUp": "接下来",
+      "reviewsDue": "{count} 个复习待处理",
+      "min": "{count} 分钟",
+      "modules": {
+        "alphabet": "Alphabet",
+        "vocabulary": "Vocabulary",
+        "kanji": "Characters",
+        "grammar": "Grammar",
+        "reading": "Reading",
+        "listening": "Listening"
+      }
+    },
+    "heatmap": {
+      "title": "掌握热图"
+    },
+    "greetings": {
+      "goodMorning": "早上好",
+      "goodAfternoon": "下午好",
+      "goodEvening": "晚上好",
+      "goodNight": "晚安"
+    },
+    "notifications": "通知"
   },
   "stats": {
     "correct": "正确",
     "total": "总计",
     "streak": "连胜"
+  },
+  "auth": {
+    "signIn": "登录",
+    "signOut": "退出登录",
+    "user": "用户",
+    "loading": "加载中...",
+    "loginDialog": {
+      "title": {
+        "signIn": "登录",
+        "createAccount": "创建账户",
+        "continueAnonymously": "匿名继续"
+      },
+      "emailPassword": {
+        "title": "邮箱和密码",
+        "description": "使用邮箱和密码登录。从任何设备访问您的账户。"
+      },
+      "anonymous": {
+        "title": "匿名继续",
+        "description": "立即开始使用应用。您的会话仅绑定到此设备。"
+      },
+      "form": {
+        "email": "邮箱",
+        "password": "密码",
+        "emailPlaceholder": "your@email.com",
+        "passwordPlaceholderNew": "至少8个字符",
+        "passwordPlaceholderExisting": "输入密码",
+        "back": "返回",
+        "signUp": "注册",
+        "alreadyHaveAccount": "已有账户？登录",
+        "dontHaveAccount": "没有账户？注册"
+      },
+      "signingIn": "登录中...",
+      "errors": {
+        "invalidCredentials": "邮箱或密码无效。请检查凭据后重试。",
+        "accountExists": "此邮箱已注册账户。请尝试登录。",
+        "invalidEmail": "请输入有效的邮箱地址。",
+        "passwordWeak": "密码长度至少为8个字符。",
+        "rateLimit": "尝试次数过多。请稍等后重试。",
+        "network": "连接错误。请检查网络后重试。",
+        "generic": "认证失败。请重试。"
+      }
+    }
+  },
+  "gamification": {
+    "levelUp": {
+      "title": "升级！",
+      "message": "您已达到{level}级{tier}"
+    },
+    "achievements": {
+      "title": "成就（{percentage}%）",
+      "unlockedCount": "{unlocked} / {total}",
+      "unlockedLabel": "成就已解锁！",
+      "empty": "未找到成就",
+      "secret": {
+        "name": "???",
+        "description": "完成此秘密成就以解锁"
+      },
+      "categories": {
+        "all": "全部",
+        "learning": "学习",
+        "streak": "连续",
+        "mastery": "精通",
+        "explorer": "探索",
+        "special": "特殊"
+      },
+      "status": {
+        "all": "全部",
+        "unlocked": "已解锁",
+        "locked": "已锁定"
+      }
+    }
+  },
+  "settings": {
+    "title": "设置",
+    "subtitle": "自定义学习体验",
+    "leaderboard": {
+      "title": "排行榜",
+      "showOnLeaderboard": "在排行榜显示",
+      "showOnLeaderboardDescription": "禁用后，您的进度不会出现在公开排名中",
+      "visible": "可见",
+      "hidden": "隐藏",
+      "anonymousName": "您的匿名名称",
+      "anonymousNameDescription": "这是您在排行榜上的显示名称"
+    },
+    "srs": {
+      "title": "间隔重复",
+      "description": "自定义复习计划和难度"
+    },
+    "audio": {
+      "title": "音频与语音合成",
+      "offlineTTS": "离线语音合成（Kokoro）",
+      "offlineTTSDescription": "下载约{{size}}MB模型以离线使用文本转语音",
+      "notSupported": "不支持：{{reason}}",
+      "off": "关",
+      "on": "开",
+      "desktopNotice": "桌面版自动加载Kokoro语音合成",
+      "readyNotice": "离线语音合成就绪 - 无需网络",
+      "loadError": "加载离线语音合成失败",
+      "voiceSelection": "语音选择（{{language}}）",
+      "notSupportedWarning": "Kokoro不支持{{language}}。使用浏览器语音合成或预生成音频替代。",
+      "noVoicesWarning": "{{language}}无可用语音。",
+      "voiceSelectionNote": "为{{language}}文本转语音选择语音。有预生成音频时优先使用。",
+      "playing": "播放中...",
+      "test": "测试",
+      "voiceDetail": "{{language}} • {{gender}} • 质量：{{quality}}",
+      "priorityTitle": "音频播放优先级：",
+      "priority1": "预生成音频（最佳质量）",
+      "priority2": "Kokoro语音合成（{{status}}，{{support}}）",
+      "ifEnabled": "若启用",
+      "autoLoaded": "自动加载",
+      "englishOnly": "仅英语",
+      "priority3": "浏览器语音合成（备用）"
+    },
+    "appearance": {
+      "title": "外观",
+      "comingSoon": "主题设置即将推出"
+    },
+    "backToDashboard": "返回仪表板"
+  },
+  "srs": {
+    "title": "间隔重复设置",
+    "subtitle": "自定义间隔重复体验",
+    "scheduling": {
+      "title": "复习计划",
+      "newItemsLimit": "每日新项目限制",
+      "newItemsDescription": "每日最多学习新项目数",
+      "reviewLimit": "每日复习限制",
+      "reviewLimitDescription": "每日最多复习数（0 = 无限制）",
+      "threshold": "复习阈值",
+      "thresholdDescription": "间隔重复计划的严格程度",
+      "thresholdStrict": "严格",
+      "thresholdModerate": "适中",
+      "thresholdRelaxed": "宽松"
+    },
+    "difficulty": {
+      "title": "难度调整",
+      "easeBonus": "轻松度加成",
+      "easeBonusDescription": "调整间隔增长速度（{{value}}%）",
+      "intervalMultiplier": "间隔乘数",
+      "intervalMultiplierDescription": "按此系数缩放所有间隔",
+      "lapseInterval": "失败新间隔",
+      "lapseIntervalDescription": "失败时，将间隔重置为之前的此百分比"
+    },
+    "options": {
+      "title": "复习选项",
+      "autoplayAudio": "自动播放音频",
+      "autoplayAudioDescription": "卡片显示时自动播放音频",
+      "showReadingHints": "显示读音提示",
+      "readingHintsDescription": "显示假名或拼音提示以辅助发音",
+      "accuracy": "所需准确率",
+      "accuracyDescription": "精通目标准确率（{{value}}%）"
+    },
+    "notifications": {
+      "title": "通知",
+      "reminders": "复习提醒",
+      "remindersDescription": "有复习任务时接收通知",
+      "reminderTime": "提醒时间",
+      "reminderTimeDescription": "每日提醒发送时间",
+      "reminderThreshold": "提醒阈值",
+      "reminderThresholdDescription": "仅当复习数量超过此值时通知"
+    },
+    "actions": {
+      "reset": "重置为默认值",
+      "save": "保存设置",
+      "saved": "已保存！",
+      "backToSettings": "返回设置"
+    }
+  },
+  "languages": {
+    "ja": "日语",
+    "zh": "中文",
+    "ko": "韩语",
+    "es": "西班牙语",
+    "fr": "法语",
+    "hi": "印地语",
+    "it": "意大利语",
+    "pt": "葡萄牙语",
+    "en": "英语"
+  },
+  "lessons": {
+    "view": {
+      "noContent": "无可用内容",
+      "noExercises": "此课程暂无练习。",
+      "previous": "上一项",
+      "next": "下一项",
+      "startExercises": "开始练习",
+      "completeLesson": "完成课程",
+      "topic": "主题",
+      "vocabulary": "词汇",
+      "grammar": "语法",
+      "culturalNote": "文化注释",
+      "exerciseStep": "练习 {current}/{total}",
+      "culturalNotes": "文化注释",
+      "learning": "学习",
+      "practice": "练习",
+      "stop": "停止",
+      "tapToContinueHint": "点击或滑动继续"
+    },
+    "vocabulary": {
+      "examples": "示例"
+    },
+    "grammar": {
+      "examples": "示例",
+      "usageNotes": "用法说明",
+      "hideExplanation": "隐藏解释",
+      "showExplanation": "显示解释",
+      "iUnderstand": "我明白了"
+    },
+    "character": {
+      "strokeOrder": "笔画顺序",
+      "memoryTip": "记忆提示"
+    },
+    "intro": {
+      "minutes": "分钟",
+      "items": "项",
+      "vocabulary": "词汇",
+      "back": "返回",
+      "whatYoullLearn": "你将学习：",
+      "vocabularyWords": "{count} 个词汇",
+      "grammarPoints": "{count} 个语法点",
+      "culturalNotes": "{count} 个文化注释",
+      "startLesson": "开始课程"
+    },
+    "summary": {
+      "levelUp": "升级！",
+      "perfect": "完美！",
+      "lessonComplete": "课程完成！",
+      "correctCount": "正确 {correct}/{total}",
+      "xpTotal": "+{xp} 经验值",
+      "xpBase": "基础：+{xp}",
+      "xpPerfect": "完美：+{xp}",
+      "xpStreak": "连胜：+{xp}",
+      "newLevel": "你已达到 {level} 级",
+      "nextLesson": "下一课",
+      "pathComplete": "路径完成",
+      "backToPath": "返回路径",
+      "upNext": "接下来"
+    }
+  },
+  "exercises": {
+    "correct": "正确！",
+    "common": {
+      "checkAnswer": "检查答案",
+      "answerOptions": "答案选项",
+      "optionLabelWithStatus": "选项 {index}：{option}{status}",
+      "correctAnswerStatus": "，正确答案",
+      "incorrectStatus": "，错误",
+      "quitSession": "退出会话",
+      "quitConfirmTitle": "退出会话？",
+      "quitConfirmMessage": "此会话中的进度将丢失。",
+      "confirmQuit": "退出",
+      "cancel": "取消",
+      "unsupported": "暂不支持此练习类型"
+    },
+    "matching": {
+      "success": "所有配对正确匹配！",
+      "error": "部分匹配错误。请查看高亮显示的配对。",
+      "title": "匹配配对",
+      "leftColumnLabel": "左列 - 选择项目进行匹配",
+      "rightColumnLabel": "右列 - 选择以完成匹配",
+      "leftItemLabel": "{item}{matched}{status}",
+      "matchedStatus": "，已匹配",
+      "correctMatchStatus": "，正确匹配",
+      "incorrectMatchStatus": "，错误匹配",
+      "rightItemLabel": "{item}{matched}{available}",
+      "alreadyMatchedStatus": "，已匹配",
+      "availableToMatchStatus": "，可匹配",
+      "checkMatches": "检查匹配（{count}/{total}）"
+    },
+    "fillBlank": {
+      "correctAnswerIs": "正确答案是："
+    },
+    "translation": {
+      "correctAnswer": "正确翻译：",
+      "translateTo": "翻译成 {language}",
+      "checkTranslation": "检查翻译",
+      "placeholder": "输入你的翻译..."
+    },
+    "typing": {
+      "correctAnswer": "正确答案：",
+      "instruction": "输入翻译",
+      "placeholder": "输入你的答案...",
+      "expectedLength": "预期：{count} 个字符"
+    },
+    "strokeOrder": {
+      "strokesCount": "{count} 画",
+      "strokesProgress": "笔画：{current}/{total}",
+      "feedbackIncorrect": "继续练习！该字符有 {count} 画。",
+      "checkCharacter": "检查字符"
+    },
+    "wordOrder": {
+      "placeholder": "点击单词构建句子"
+    },
+    "listening": {
+      "playing": "播放中...",
+      "playAudio": "播放音频",
+      "playCount": "已播放 {count} {count, plural, one {次} other {次}}",
+      "transcriptShow": "显示转录",
+      "transcriptHide": "隐藏转录"
+    }
+  },
+  "review": {
+    "config": {
+      "title": "复习会话",
+      "selectModules": "选择模块",
+      "numberOfItems": "项目数量",
+      "onlyItemsAvailable": "仅 {count} 个项目可用",
+      "selectedModules": "已选模块：",
+      "itemsToReview": "待复习项目：",
+      "startReview": "开始复习",
+      "noItemsDue": "没有待复习项目。保持得很好！",
+      "due": "{count} 个待复习"
+    },
+    "modules": {
+      "vocabulary": "词汇",
+      "kanji": "汉字",
+      "grammar": "语法"
+    },
+    "progress": {
+      "accuracy": "准确率："
+    },
+    "card": {
+      "showAnswer": "显示答案",
+      "questionRating": "你记得如何？",
+      "rating": {
+        "again": "重来",
+        "hard": "困难",
+        "good": "良好",
+        "easy": "容易",
+        "perfect": "完美",
+        "againDesc": "完全忘记",
+        "hardDesc": "回忆困难",
+        "goodDesc": "努力后正确",
+        "easyDesc": "轻松记住",
+        "perfectDesc": "瞬间回忆"
+      }
+    },
+    "mastery": {
+      "new": "新",
+      "learning": "学习中",
+      "review": "复习中",
+      "mastered": "已掌握"
+    },
+    "stats": {
+      "title": "复习会话",
+      "sessionComplete": "会话完成！",
+      "accuracy": "准确率",
+      "correct": "正确",
+      "incorrect": "错误",
+      "duration": "时长",
+      "moduleBreakdown": "模块细分",
+      "avgTimePerItem": "平均每项目时间：{time}秒",
+      "reviewMore": "复习更多项目",
+      "backToDashboard": "返回仪表板",
+      "performance": {
+        "excellent": "优秀！继续保持！",
+        "good": "做得好！你在进步。",
+        "okay": "不错！继续练习。",
+        "needsWork": "继续努力！熟能生巧。"
+      }
+    }
   }
 }

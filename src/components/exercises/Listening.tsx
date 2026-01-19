@@ -2,6 +2,7 @@
 
 import { useState, useCallback } from 'react';
 import { Text, Button } from '@/components/ui';
+import { useLanguage } from '@/context/LanguageProvider';
 import { IoCheckmark, IoClose, IoVolumeHigh, IoRefresh, IoEye } from 'react-icons/io5';
 import { useTTS } from '@/hooks/useTTS';
 import type { ListeningExercise } from '@/types/exercises';
@@ -13,6 +14,7 @@ interface ListeningProps {
 }
 
 export default function Listening({ exercise, onAnswer }: ListeningProps) {
+  const { t } = useLanguage();
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const [feedback, setFeedback] = useState<'correct' | 'incorrect' | null>(null);
   const [submitted, setSubmitted] = useState(false);
@@ -51,11 +53,11 @@ export default function Listening({ exercise, onAnswer }: ListeningProps) {
           disabled={isPlaying}
           className={styles.playButton}
         >
-          <IoVolumeHigh /> {isPlaying ? 'Playing...' : 'Play Audio'}
+          <IoVolumeHigh /> {isPlaying ? t('exercises.listening.playing') : t('exercises.listening.playAudio')}
         </Button>
         {playCount > 0 && (
           <Text variant="caption" color="muted">
-            Played {playCount} time{playCount !== 1 ? 's' : ''}
+            {t('exercises.listening.playCount', { count: playCount, plural: playCount !== 1 ? 's' : '' })}
           </Text>
         )}
       </div>
@@ -71,12 +73,19 @@ export default function Listening({ exercise, onAnswer }: ListeningProps) {
           const showCorrect = submitted && isCorrect;
           const showIncorrect = submitted && isSelected && !isCorrect;
 
+          const status = showCorrect
+            ? t('exercises.common.correctAnswerStatus')
+            : showIncorrect
+              ? t('exercises.common.incorrectStatus')
+              : '';
+
           return (
             <button
               key={index}
               onClick={() => handleSelect(index)}
               disabled={submitted}
               className={`${styles.option} ${isSelected ? styles.selected : ''} ${showCorrect ? styles.correct : ''} ${showIncorrect ? styles.incorrect : ''}`}
+              aria-label={t('exercises.common.optionLabelWithStatus', { index: index + 1, option, status })}
             >
               <span>{option}</span>
               {showCorrect && <IoCheckmark className={styles.icon} />}
@@ -93,7 +102,7 @@ export default function Listening({ exercise, onAnswer }: ListeningProps) {
             size="sm"
             onClick={() => setShowTranscript(!showTranscript)}
           >
-            <IoEye /> {showTranscript ? 'Hide' : 'Show'} Transcript
+            <IoEye /> {showTranscript ? t('exercises.listening.transcriptHide') : t('exercises.listening.transcriptShow')}
           </Button>
           {showTranscript && (
             <div className={styles.transcript}>
@@ -109,7 +118,7 @@ export default function Listening({ exercise, onAnswer }: ListeningProps) {
           disabled={selectedIndex === null}
           fullWidth
         >
-          Check Answer
+          {t('exercises.common.checkAnswer')}
         </Button>
       )}
     </div>

@@ -1,4 +1,75 @@
 {
+  "auth": {
+    "signIn": "Sign In",
+    "signOut": "Sign Out",
+    "user": "User",
+    "loading": "Loading...",
+    "loginDialog": {
+      "title": {
+        "signIn": "Sign In",
+        "createAccount": "Create Account",
+        "continueAnonymously": "Continue Anonymously"
+      },
+      "emailPassword": {
+        "title": "Email & Password",
+        "description": "Sign in with your email and password. Access your account from any device."
+      },
+      "anonymous": {
+        "title": "Continue Anonymously",
+        "description": "Start using the app immediately. Your session is tied to this device only."
+      },
+      "form": {
+        "email": "Email",
+        "password": "Password",
+        "emailPlaceholder": "your@email.com",
+        "passwordPlaceholderNew": "At least 8 characters",
+        "passwordPlaceholderExisting": "Enter your password",
+        "back": "Back",
+        "signUp": "Sign Up",
+        "alreadyHaveAccount": "Already have an account? Sign in",
+        "dontHaveAccount": "Don't have an account? Sign up"
+      },
+      "signingIn": "Signing in...",
+      "errors": {
+        "invalidCredentials": "Invalid email or password. Please check your credentials and try again.",
+        "accountExists": "An account with this email already exists. Try signing in instead.",
+        "invalidEmail": "Please enter a valid email address.",
+        "passwordWeak": "Password must be at least 8 characters long.",
+        "rateLimit": "Too many attempts. Please wait a moment and try again.",
+        "network": "Connection error. Please check your internet and try again.",
+        "generic": "Authentication failed. Please try again."
+      }
+    }
+  },
+  "gamification": {
+    "levelUp": {
+      "title": "Level Up!",
+      "message": "You've reached {tier} level {level}"
+    },
+    "achievements": {
+      "title": "Achievements ({percentage}%)",
+      "unlockedCount": "{unlocked} / {total}",
+      "unlockedLabel": "Achievement Unlocked!",
+      "empty": "No achievements found",
+      "secret": {
+        "name": "???",
+        "description": "Complete this secret achievement to reveal it"
+      },
+      "categories": {
+        "all": "All",
+        "learning": "Learning",
+        "streak": "Streak",
+        "mastery": "Mastery",
+        "explorer": "Explorer",
+        "special": "Special"
+      },
+      "status": {
+        "all": "All",
+        "unlocked": "Unlocked",
+        "locked": "Locked"
+      }
+    }
+  },
   "common": {
     "start": "Start",
     "next": "Next",
@@ -13,20 +84,237 @@
     "correct": "Correct",
     "incorrect": "Incorrect",
     "total": "Total",
-    "streak": "Streak"
+    "streak": "Streak",
+    "continue": "Continue",
+    "changeLanguage": "Change language",
+    "selectLanguage": "Select language",
+    "close": "Close",
+    "listen": "Listen",
+    "stop": "Stop",
+    "show": "Show",
+    "hide": "Hide",
+    "iKnowThis": "I Know This",
+    "tapToContinue": "Tap to continue",
+    "hint": "Hint",
+    "days": {
+      "sun": "Sun",
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat"
+    },
+    "errorBoundary": {
+      "title": "Something went wrong",
+      "message": "An unexpected error occurred. Please try refreshing the page.",
+      "tryAgain": "Try Again"
+    },
+    "play": "Play",
+    "listen": "Listen",
+    "demo": "Demo",
+    "guide": "Guide",
+    "clear": "Clear",
+    "gotIt": "Got it"
+  },
+  "lessons": {
+    "view": {
+      "noContent": "No content available",
+      "noExercises": "No exercises available for this lesson.",
+      "previous": "Previous",
+      "next": "Next",
+      "startExercises": "Start Exercises",
+      "completeLesson": "Complete Lesson",
+      "topic": "Topic",
+      "vocabulary": "Vocabulary",
+      "grammar": "Grammar",
+      "culturalNote": "Cultural Note",
+      "culturalNotes": "Cultural Notes",
+      "exerciseStep": "Exercise {current} of {total}",
+      "learning": "Learning",
+      "practice": "Practice",
+      "stop": "Stop",
+      "tapToContinueHint": "Tap or swipe to continue"
+    },
+    "vocabulary": {
+      "examples": "Examples"
+    },
+    "grammar": {
+      "examples": "Examples",
+      "usageNotes": "Usage Notes",
+      "hideExplanation": "Hide Explanation",
+      "showExplanation": "Show Explanation",
+      "iUnderstand": "I Understand"
+    },
+    "character": {
+      "strokeOrder": "Stroke Order",
+      "memoryTip": "Memory Tip"
+    },
+    "intro": {
+      "minutes": "minutes",
+      "items": "items",
+      "vocabulary": "vocabulary",
+      "back": "Back",
+      "whatYoullLearn": "What you'll learn:",
+      "vocabularyWords": "{count} vocabulary words",
+      "grammarPoints": "{count} grammar points",
+      "culturalNotes": "{count} cultural notes",
+      "startLesson": "Start Lesson"
+    },
+    "summary": {
+      "levelUp": "Level Up!",
+      "perfect": "Perfect!",
+      "lessonComplete": "Lesson Complete!",
+      "correctCount": "{correct} / {total} correct",
+      "xpTotal": "+{xp} XP",
+      "xpBase": "Base: +{xp}",
+      "xpPerfect": "Perfect: +{xp}",
+      "xpStreak": "Streak: +{xp}",
+      "newLevel": "You reached level {level}",
+      "nextLesson": "Next Lesson",
+      "pathComplete": "Path Complete",
+      "backToPath": "Back to Path",
+      "upNext": "Up Next"
+    }
+  },
+  "exercises": {
+    "correct": "Correct!",
+    "common": {
+      "checkAnswer": "Check Answer",
+      "answerOptions": "Answer options",
+      "optionLabelWithStatus": "Option {index}: {option}{status}",
+      "correctAnswerStatus": ", correct answer",
+      "incorrectStatus": ", incorrect",
+      "quitSession": "Quit Session",
+      "quitConfirmTitle": "Quit Session?",
+      "quitConfirmMessage": "Your progress in this session will be lost.",
+      "confirmQuit": "Quit",
+      "cancel": "Cancel",
+      "unsupported": "Exercise type not supported yet"
+    },
+    "matching": {
+      "success": "All pairs matched correctly!",
+      "error": "Some matches were incorrect. Review the highlighted pairs.",
+      "title": "Match the pairs",
+      "leftColumnLabel": "Left column - select an item to match",
+      "rightColumnLabel": "Right column - select to complete match",
+      "leftItemLabel": "{item}{matched}{status}",
+      "matchedStatus": ", matched",
+      "correctMatchStatus": ", correct match",
+      "incorrectMatchStatus": ", incorrect match",
+      "rightItemLabel": "{item}{matched}{available}",
+      "alreadyMatchedStatus": ", already matched",
+      "availableToMatchStatus": ", available to match",
+      "checkMatches": "Check Matches ({count}/{total})"
+    },
+    "fillBlank": {
+      "correctAnswerIs": "The correct answer is:"
+    },
+    "translation": {
+      "correctAnswer": "Correct translation:",
+      "translateTo": "Translate to {language}",
+      "checkTranslation": "Check Translation",
+      "placeholder": "Type your translation..."
+    },
+    "typing": {
+      "correctAnswer": "Correct answer:",
+      "instruction": "Type the translation",
+      "placeholder": "Type your answer...",
+      "expectedLength": "Expected: {count} characters"
+    },
+    "strokeOrder": {
+      "strokesCount": "{count} strokes",
+      "strokesProgress": "Strokes: {current} / {total}",
+      "feedbackIncorrect": "Keep practicing! The character has {count} strokes.",
+      "checkCharacter": "Check Character"
+    },
+    "wordOrder": {
+      "placeholder": "Tap words to build the sentence"
+    },
+    "listening": {
+      "playing": "Playing...",
+      "playAudio": "Play Audio",
+      "playCount": "Played {count} {count, plural, one {time} other {times}}",
+      "transcriptShow": "Show Transcript",
+      "transcriptHide": "Hide Transcript"
+    }
+  },
+  "review": {
+    "config": {
+      "title": "Review Session",
+      "selectModules": "Select Modules",
+      "numberOfItems": "Number of Items",
+      "onlyItemsAvailable": "Only {count} items available",
+      "selectedModules": "Selected modules:",
+      "itemsToReview": "Items to review:",
+      "startReview": "Start Review",
+      "noItemsDue": "No items due for review. Great job keeping up!",
+      "due": "{count} due"
+    },
+    "modules": {
+      "vocabulary": "Vocabulary",
+      "kanji": "Characters",
+      "grammar": "Grammar"
+    },
+    "progress": {
+      "accuracy": "Accuracy:"
+    },
+    "card": {
+      "showAnswer": "Show Answer",
+      "questionRating": "How well did you remember?",
+      "rating": {
+        "again": "Again",
+        "hard": "Hard",
+        "good": "Good",
+        "easy": "Easy",
+        "perfect": "Perfect",
+        "againDesc": "Completely forgot",
+        "hardDesc": "Struggled to remember",
+        "goodDesc": "Correct with effort",
+        "easyDesc": "Remembered easily",
+        "perfectDesc": "Instant recall"
+      }
+    },
+    "mastery": {
+      "new": "New",
+      "learning": "Learning",
+      "review": "Review",
+      "mastered": "Mastered"
+    },
+    "stats": {
+      "title": "Review Session",
+      "sessionComplete": "Session Complete!",
+      "accuracy": "Accuracy",
+      "correct": "Correct",
+      "incorrect": "Incorrect",
+      "duration": "Duration",
+      "moduleBreakdown": "Module Breakdown",
+      "avgTimePerItem": "Average time per item: {time}s",
+      "reviewMore": "Review More Items",
+      "backToDashboard": "Back to Dashboard",
+      "performance": {
+        "excellent": "Excellent work! Keep it up!",
+        "good": "Good job! You're making progress.",
+        "okay": "Not bad! Keep practicing.",
+        "needsWork": "Keep going! Practice makes perfect."
+      }
+    }
   },
   "modules": {
     "alphabet": {
       "title": "Alphabet",
-      "description": "Master Hiragana & Katakana"
+      "title_ko": "Hangul",
+      "description": "Master the writing system"
     },
     "vocabulary": {
       "title": "Vocabulary",
-      "description": "Learn Japanese words"
+      "description": "Learn common words and phrases"
     },
     "kanji": {
-      "title": "Kanji",
-      "description": "Master Chinese characters"
+      "title": "Characters",
+      "title_ja": "Kanji",
+      "title_zh": "Hanzi",
+      "description": "Master reading and writing characters"
     },
     "grammar": {
       "title": "Grammar",
@@ -137,11 +425,184 @@
     "dayStreak": "Day Streak",
     "wordsLearned": "Words Learned",
     "kanjiMastered": "Kanji Mastered",
-    "studyTime": "Study Time (min)"
+    "studyTime": "Study Time (min)",
+    "continueLearning": "Continue Learning",
+    "browsePaths": "Browse Learning Paths",
+    "reviewDashboardStat": "Review Dashboard",
+    "leaderboardStat": "Leaderboard",
+    "settingsStat": "Settings",
+    "hanziMastered": "Hanzi Mastered",
+    "hangulMastered": "Hangul Mastered",
+    "charactersLearned": "Characters Learned",
+    "greetings": {
+      "goodMorning": "Good morning",
+      "goodAfternoon": "Good afternoon",
+      "goodEvening": "Good evening",
+      "goodNight": "Good night"
+    },
+    "notifications": "Notifications",
+    "weeklyProgress": {
+      "thisWeek": "This Week",
+      "fullReport": "Full Report"
+    },
+    "lessons": "Lessons",
+    "xpEarned": "XP Earned",
+    "activeDays": "Active Days",
+    "accuracy": "Accuracy",
+    "pathProgress": {
+      "nextUp": "Next up",
+      "lessonsCount": "{completed} / {total} lessons"
+    },
+    "goalEstimator": {
+      "title": "Goal Estimator",
+      "daysLeft": "days left",
+      "minPerDay": "min/day",
+      "hoursLeft": "hours left",
+      "estimatedCompletion": "Estimated Completion",
+      "toLevel": "to {level}",
+      "learnedItemsInfo": "{learned} / {total} items learned",
+      "milestones": "Milestones",
+      "atMinutesPerDay": "At {count} min/day"
+    },
+    "library": {
+      "title": "Library",
+      "viewAll": "View All"
+    },
+    "activity": {
+      "title": "Activity",
+      "less": "Less",
+      "more": "More",
+      "current": "Current",
+      "best": "Best",
+      "totalHrs": "Total hrs",
+      "dayStreakStatus": "{count} day streak",
+      "minTooltip": "{count} min"
+    },
+    "compass": {
+      "title": "Learning Compass",
+      "nextUp": "Next Up",
+      "reviewsDue": "{count} reviews due",
+      "min": "{count} min"
+    },
+    "heatmap": {
+      "title": "Mastery Heatmap"
+    },
+    "targetLanguage": {
+      "title": "Learning Target",
+      "selectLabel": "Select target language",
+      "levelsAvailable": "{count} levels available"
+    }
   },
   "stats": {
     "correct": "Correct",
     "total": "Total",
     "streak": "streak"
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Customize your learning experience",
+    "leaderboard": {
+      "title": "Leaderboard",
+      "showOnLeaderboard": "Show on Leaderboard",
+      "showOnLeaderboardDescription": "When disabled, your progress won't appear in public rankings",
+      "visible": "Visible",
+      "hidden": "Hidden",
+      "anonymousName": "Your Anonymous Name",
+      "anonymousNameDescription": "This is how you appear on the leaderboard"
+    },
+    "srs": {
+      "title": "Spaced Repetition",
+      "description": "Customize review scheduling and difficulty"
+    },
+    "audio": {
+      "title": "Audio & TTS",
+      "offlineTTS": "Offline TTS (Kokoro)",
+      "offlineTTSDescription": "Download ~{{size}}MB model for offline text-to-speech",
+      "notSupported": "Not supported: {{reason}}",
+      "off": "Off",
+      "on": "On",
+      "desktopNotice": "Kokoro TTS loads automatically on desktop",
+      "readyNotice": "Offline TTS ready - works without internet",
+      "loadError": "Failed to load offline TTS",
+      "voiceSelection": "Voice Selection ({{language}})",
+      "notSupportedWarning": "Kokoro does not support {{language}}. Using browser speech synthesis or pre-generated audio instead.",
+      "noVoicesWarning": "No voices available for {{language}}.",
+      "voiceSelectionNote": "Select a voice for {{language}} text-to-speech. Pre-generated audio is used when available.",
+      "playing": "Playing...",
+      "test": "Test",
+      "voiceDetail": "{{language}} • {{gender}} • Quality: {{quality}}",
+      "priorityTitle": "Audio playback priority:",
+      "priority1": "Pre-generated audio (best quality)",
+      "priority2": "Kokoro TTS ({{status}}, {{support}})",
+      "ifEnabled": "if enabled",
+      "autoLoaded": "auto-loaded",
+      "englishOnly": "English only",
+      "priority3": "Browser speech synthesis (fallback)"
+    },
+    "appearance": {
+      "title": "Appearance",
+      "comingSoon": "Theme settings coming soon"
+    },
+    "backToDashboard": "Back to Dashboard"
+  },
+  "srs": {
+    "title": "SRS Settings",
+    "subtitle": "Customize your spaced repetition experience",
+    "scheduling": {
+      "title": "Review Scheduling",
+      "newItemsLimit": "Daily New Items Limit",
+      "newItemsDescription": "Maximum new items to learn per day",
+      "reviewLimit": "Daily Review Limit",
+      "reviewLimitDescription": "Maximum reviews per day (0 = unlimited)",
+      "threshold": "Review Threshold",
+      "thresholdDescription": "How strict the SRS scheduling is",
+      "thresholdStrict": "Strict",
+      "thresholdModerate": "Moderate",
+      "thresholdRelaxed": "Relaxed"
+    },
+    "difficulty": {
+      "title": "Difficulty Adjustments",
+      "easeBonus": "Ease Bonus",
+      "easeBonusDescription": "Adjust how quickly intervals grow ({{value}}%)",
+      "intervalMultiplier": "Interval Multiplier",
+      "intervalMultiplierDescription": "Scale all intervals by this factor",
+      "lapseInterval": "Lapse New Interval",
+      "lapseIntervalDescription": "When you fail, reset interval to this % of previous"
+    },
+    "options": {
+      "title": "Review Options",
+      "autoplayAudio": "Autoplay Audio",
+      "autoplayAudioDescription": "Automatically play audio when a card is revealed",
+      "showReadingHints": "Show Reading Hints",
+      "readingHintsDescription": "Show furigana or pinyin hints for pronunciations",
+      "accuracy": "Required Accuracy",
+      "accuracyDescription": "Target accuracy for mastery ({{value}}%)"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "reminders": "Review Reminders",
+      "remindersDescription": "Get notified when you have reviews due",
+      "reminderTime": "Reminder Time",
+      "reminderTimeDescription": "When to send daily reminder",
+      "reminderThreshold": "Reminder Threshold",
+      "reminderThresholdDescription": "Only notify when reviews exceed this number"
+    },
+    "actions": {
+      "reset": "Reset to Defaults",
+      "save": "Save Settings",
+      "saved": "Saved!",
+      "backToSettings": "Back to Settings"
+    }
+  },
+  "languages": {
+    "ja": "Japanese",
+    "zh": "Chinese",
+    "ko": "Korean",
+    "es": "Spanish",
+    "fr": "French",
+    "hi": "Hindi",
+    "it": "Italian",
+    "pt": "Portuguese",
+    "en": "English"
   }
 }

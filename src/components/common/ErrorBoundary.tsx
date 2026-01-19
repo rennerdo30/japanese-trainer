@@ -2,6 +2,7 @@
 
 import { Component, ReactNode } from 'react';
 import { IoRefresh, IoWarning } from 'react-icons/io5';
+import { LanguageContext } from '@/context/LanguageProvider';
 
 interface Props {
   children: ReactNode;
@@ -51,26 +52,30 @@ export default class ErrorBoundary extends Component<Props, State> {
       }
 
       return (
-        <div style={styles.container}>
-          <div style={styles.card}>
-            <div style={styles.iconWrapper}>
-              <IoWarning style={styles.icon} />
+        <LanguageContext.Consumer>
+          {({ t }) => (
+            <div style={styles.container}>
+              <div style={styles.card}>
+                <div style={styles.iconWrapper}>
+                  <IoWarning style={styles.icon} />
+                </div>
+                <h2 style={styles.title}>{t('common.errorBoundary.title')}</h2>
+                <p style={styles.message}>
+                  {t('common.errorBoundary.message')}
+                </p>
+                {process.env.NODE_ENV === 'development' && this.state.error && (
+                  <pre style={styles.errorDetails}>
+                    {this.state.error.message}
+                  </pre>
+                )}
+                <button onClick={this.handleReset} style={styles.button}>
+                  <IoRefresh style={styles.buttonIcon} />
+                  {t('common.errorBoundary.tryAgain')}
+                </button>
+              </div>
             </div>
-            <h2 style={styles.title}>Something went wrong</h2>
-            <p style={styles.message}>
-              An unexpected error occurred. Please try refreshing the page.
-            </p>
-            {process.env.NODE_ENV === 'development' && this.state.error && (
-              <pre style={styles.errorDetails}>
-                {this.state.error.message}
-              </pre>
-            )}
-            <button onClick={this.handleReset} style={styles.button}>
-              <IoRefresh style={styles.buttonIcon} />
-              Try Again
-            </button>
-          </div>
-        </div>
+          )}
+        </LanguageContext.Consumer>
       );
     }
 

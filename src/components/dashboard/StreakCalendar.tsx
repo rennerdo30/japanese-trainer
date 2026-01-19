@@ -3,6 +3,7 @@
 import { useMemo } from 'react';
 import { Card, Text } from '@/components/ui';
 import { useProgressContext } from '@/context/ProgressProvider';
+import { useLanguage } from '@/context/LanguageProvider';
 import { IoFlame, IoCalendar } from 'react-icons/io5';
 import styles from './StreakCalendar.module.css';
 
@@ -12,6 +13,7 @@ interface StreakCalendarProps {
 }
 
 export default function StreakCalendar({ className, weeks = 12 }: StreakCalendarProps) {
+  const { t, language } = useLanguage();
   const { summary } = useProgressContext();
 
   // Deterministic hash function for consistent pseudo-random values based on date
@@ -86,7 +88,7 @@ export default function StreakCalendar({ className, weeks = 12 }: StreakCalendar
 
   // Format date for tooltip
   const formatDate = (date: Date) => {
-    return date.toLocaleDateString('en-US', {
+    return date.toLocaleDateString(language === 'ja' ? 'ja-JP' : 'en-US', {
       weekday: 'short',
       month: 'short',
       day: 'numeric',
@@ -103,19 +105,27 @@ export default function StreakCalendar({ className, weeks = 12 }: StreakCalendar
   }, [calendarData]);
 
   // Day labels
-  const dayLabels = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+  const dayLabels = [
+    t('common.days.sun'),
+    t('common.days.mon'),
+    t('common.days.tue'),
+    t('common.days.wed'),
+    t('common.days.thu'),
+    t('common.days.fri'),
+    t('common.days.sat'),
+  ];
 
   return (
     <Card variant="glass" className={`${styles.calendar} ${className || ''}`}>
       <div className={styles.header}>
         <div className={styles.headerTitle}>
           <IoCalendar className={styles.headerIcon} />
-          <Text variant="h3">Activity</Text>
+          <Text variant="h3">{t('dashboard.activity.title')}</Text>
         </div>
         {summary && (
           <div className={styles.streakBadge}>
             <IoFlame className={styles.streakIcon} />
-            <span>{summary.streak} day streak</span>
+            <span>{t('dashboard.activity.dayStreakStatus', { count: summary.streak })}</span>
           </div>
         )}
       </div>
@@ -125,7 +135,7 @@ export default function StreakCalendar({ className, weeks = 12 }: StreakCalendar
         <div className={styles.dayLabels}>
           {dayLabels.map((day, index) => (
             <div
-              key={day}
+              key={index}
               className={styles.dayLabel}
               style={{ visibility: index % 2 === 1 ? 'visible' : 'hidden' }}
             >
@@ -150,7 +160,7 @@ export default function StreakCalendar({ className, weeks = 12 }: StreakCalendar
                     key={dayIndex}
                     className={`${styles.day} ${isToday ? styles.today : ''}`}
                     style={{ backgroundColor: getColor(day.activity) }}
-                    title={`${formatDate(day.date)}: ${day.activity} min`}
+                    title={`${formatDate(day.date)}: ${t('dashboard.activity.minTooltip', { count: day.activity })}`}
                   />
                 );
               })}
@@ -161,7 +171,7 @@ export default function StreakCalendar({ className, weeks = 12 }: StreakCalendar
 
       {/* Legend */}
       <div className={styles.legend}>
-        <Text variant="caption" color="muted">Less</Text>
+        <Text variant="caption" color="muted">{t('dashboard.activity.less')}</Text>
         <div className={styles.legendScale}>
           <div className={styles.legendCell} style={{ backgroundColor: 'var(--bg-secondary)' }} />
           <div className={styles.legendCell} style={{ backgroundColor: 'rgba(74, 157, 124, 0.2)' }} />
@@ -170,7 +180,7 @@ export default function StreakCalendar({ className, weeks = 12 }: StreakCalendar
           <div className={styles.legendCell} style={{ backgroundColor: 'rgba(74, 157, 124, 0.8)' }} />
           <div className={styles.legendCell} style={{ backgroundColor: 'var(--success)' }} />
         </div>
-        <Text variant="caption" color="muted">More</Text>
+        <Text variant="caption" color="muted">{t('dashboard.activity.more')}</Text>
       </div>
 
       {/* Stats */}
@@ -178,15 +188,15 @@ export default function StreakCalendar({ className, weeks = 12 }: StreakCalendar
         <div className={styles.stats}>
           <div className={styles.stat}>
             <Text variant="h3" color="gold">{summary.streak}</Text>
-            <Text variant="label" color="muted">Current</Text>
+            <Text variant="label" color="muted">{t('dashboard.activity.current')}</Text>
           </div>
           <div className={styles.stat}>
             <Text variant="h3" color="gold">{summary.bestStreak}</Text>
-            <Text variant="label" color="muted">Best</Text>
+            <Text variant="label" color="muted">{t('dashboard.activity.best')}</Text>
           </div>
           <div className={styles.stat}>
             <Text variant="h3" color="gold">{Math.round(summary.totalStudyTime / 60)}</Text>
-            <Text variant="label" color="muted">Total hrs</Text>
+            <Text variant="label" color="muted">{t('dashboard.activity.totalHrs')}</Text>
           </div>
         </div>
       )}

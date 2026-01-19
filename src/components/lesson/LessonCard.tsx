@@ -35,6 +35,7 @@ export default function LessonCard({
   audioUrl,
   speakable = false,
 }: LessonCardProps) {
+  const { t } = useLanguage();
   const Icon = TYPE_ICONS[type];
   const color = TYPE_COLORS[type];
   const { speak, stop, isPlaying } = useTTS();
@@ -74,15 +75,15 @@ export default function LessonCard({
             size="sm"
             onClick={handleSpeak}
             className={styles.ttsButton}
-            aria-label={isPlaying ? 'Stop audio' : 'Play audio'}
+            aria-label={isPlaying ? t('common.stop') : t('common.listen')}
           >
             {isPlaying ? (
               <>
-                <IoStop /> Stop
+                <IoStop /> {t('lessons.view.stop')}
               </>
             ) : (
               <>
-                <IoVolumeHigh /> Listen
+                <IoVolumeHigh /> {t('common.listen')}
               </>
             )}
           </Button>
@@ -91,7 +92,7 @@ export default function LessonCard({
 
       <div className={styles.footer}>
         <Text variant="caption" color="muted">
-          Tap or swipe to continue
+          {t('lessons.view.tapToContinueHint')}
         </Text>
       </div>
     </div>

@@ -13,12 +13,41 @@
     "incorrect": "오답",
     "total": "총",
     "streak": "연속",
-    "stop": "버해"
+    "stop": "버해",
+    "continue": "계속",
+    "changeLanguage": "언어 변경",
+    "selectLanguage": "언어 선택",
+    "close": "닫기",
+    "listen": "듣기",
+    "show": "표시",
+    "hide": "숨기기",
+    "iKnowThis": "이건 알아요",
+    "tapToContinue": "탭하여 계속",
+    "hint": "힌트",
+    "demo": "데모",
+    "guide": "가이드",
+    "clear": "지우기",
+    "gotIt": "알겠습니다",
+    "days": {
+      "sun": "일",
+      "mon": "월",
+      "tue": "화",
+      "wed": "수",
+      "thu": "목",
+      "fri": "금",
+      "sat": "토"
+    },
+    "errorBoundary": {
+      "title": "문제가 발생했습니다",
+      "message": "예기치 않은 오류가 발생했습니다. 페이지를 새로고침해 보세요.",
+      "tryAgain": "다시 시도"
+    }
   },
   "modules": {
     "alphabet": {
       "title": "알파벳",
-      "description": "히라가나와 가타카나 마스터"
+      "description": "히라가나와 가타카나 마스터",
+      "title_ko": "한글"
     },
     "vocabulary": {
       "title": "어휘",
@@ -26,7 +55,9 @@
     },
     "kanji": {
       "title": "한자",
-      "description": "한자 마스터"
+      "description": "한자 마스터",
+      "title_ja": "한자",
+      "title_zh": "한자"
     },
     "grammar": {
       "title": "문법",
@@ -88,8 +119,8 @@
     "typeReading": "읽기 입력...",
     "showInfo": "정보 보기",
     "noKanji": "사용 가능한 한자가 없습니다.",
-    "onyomi": "音読み",
-    "kunyomi": "訓読み",
+    "onyomi": "음독",
+    "kunyomi": "훈독",
     "pinyin": "병음",
     "filters": {
       "n5": "JLPT N5",
@@ -137,11 +168,446 @@
     "dayStreak": "연속 일수",
     "wordsLearned": "학습한 단어",
     "kanjiMastered": "마스터한 한자",
-    "studyTime": "학습 시간 (분)"
+    "studyTime": "학습 시간 (분)",
+    "continueLearning": "학습 계속하기",
+    "browsePaths": "학습 경로 둘러보기",
+    "reviewDashboardStat": "복습 대시보드",
+    "leaderboardStat": "리더보드",
+    "settingsStat": "설정",
+    "hanziMastered": "한자 숙련",
+    "hangulMastered": "한글 숙련",
+    "charactersLearned": "학습한 문자",
+    "weeklyProgress": {
+      "thisWeek": "이번 주",
+      "fullReport": "전체 보고서"
+    },
+    "lessons": "레슨",
+    "xpEarned": "획득한 XP",
+    "activeDays": "활동 일수",
+    "accuracy": "정확도",
+    "targetLanguage": {
+      "title": "학습 목표",
+      "selectLabel": "목표 언어 선택",
+      "levelsAvailable": "{count}개 레벨 사용 가능"
+    },
+    "pathProgress": {
+      "nextUp": "다음 단계",
+      "lessonsCount": "{completed} / {total} 레슨"
+    },
+    "goalEstimator": {
+      "title": "목표 예측기",
+      "daysLeft": "일 남음",
+      "minPerDay": "분/일",
+      "hoursLeft": "시간 남음",
+      "estimatedCompletion": "예상 완료일",
+      "toLevel": "{level}까지",
+      "learnedItemsInfo": "{learned} / {total} 항목 학습됨",
+      "milestones": "마일스톤",
+      "atMinutesPerDay": "{count} 분/일 기준"
+    },
+    "library": {
+      "viewAll": "모두 보기",
+      "title": "라이브러리"
+    },
+    "activity": {
+      "title": "활동",
+      "less": "적음",
+      "more": "많음",
+      "current": "현재",
+      "best": "최고",
+      "totalHrs": "총 시간",
+      "dayStreakStatus": "{count}일 연속",
+      "minTooltip": "{count} 분"
+    },
+    "compass": {
+      "title": "학습 나침반",
+      "nextUp": "다음 단계",
+      "reviewsDue": "{count}개 복습 예정",
+      "min": "{count} 분",
+      "modules": {
+        "alphabet": "Alphabet",
+        "vocabulary": "Vocabulary",
+        "kanji": "Characters",
+        "grammar": "Grammar",
+        "reading": "Reading",
+        "listening": "Listening"
+      }
+    },
+    "heatmap": {
+      "title": "숙련도 히트맵"
+    },
+    "greetings": {
+      "goodMorning": "좋은 아침입니다",
+      "goodAfternoon": "좋은 오후입니다",
+      "goodEvening": "좋은 저녁입니다",
+      "goodNight": "안녕히 주무세요"
+    },
+    "notifications": "알림"
   },
   "stats": {
     "correct": "정답",
     "total": "총",
     "streak": "연속"
+  },
+  "auth": {
+    "signIn": "로그인",
+    "signOut": "로그아웃",
+    "user": "사용자",
+    "loading": "로딩 중...",
+    "loginDialog": {
+      "title": {
+        "signIn": "로그인",
+        "createAccount": "계정 만들기",
+        "continueAnonymously": "익명으로 계속"
+      },
+      "emailPassword": {
+        "title": "이메일 및 비밀번호",
+        "description": "이메일과 비밀번호로 로그인하세요. 모든 기기에서 계정에 접근할 수 있습니다."
+      },
+      "anonymous": {
+        "title": "익명으로 계속",
+        "description": "앱을 즉시 사용하세요. 세션은 이 기기에만 연결됩니다."
+      },
+      "form": {
+        "email": "이메일",
+        "password": "비밀번호",
+        "emailPlaceholder": "your@email.com",
+        "passwordPlaceholderNew": "최소 8자 이상",
+        "passwordPlaceholderExisting": "비밀번호를 입력하세요",
+        "back": "뒤로",
+        "signUp": "가입하기",
+        "alreadyHaveAccount": "이미 계정이 있으신가요? 로그인",
+        "dontHaveAccount": "계정이 없으신가요? 가입하기"
+      },
+      "signingIn": "로그인 중...",
+      "errors": {
+        "invalidCredentials": "이메일 또는 비밀번호가 잘못되었습니다. 자격 증명을 확인하고 다시 시도하세요.",
+        "accountExists": "이 이메일로 이미 계정이 존재합니다. 로그인을 시도해 보세요.",
+        "invalidEmail": "유효한 이메일 주소를 입력하세요.",
+        "passwordWeak": "비밀번호는 최소 8자 이상이어야 합니다.",
+        "rateLimit": "시도 횟수가 너무 많습니다. 잠시 기다린 후 다시 시도하세요.",
+        "network": "연결 오류입니다. 인터넷 연결을 확인하고 다시 시도하세요.",
+        "generic": "인증에 실패했습니다. 다시 시도하세요."
+      }
+    }
+  },
+  "gamification": {
+    "levelUp": {
+      "title": "레벨 업!",
+      "message": "{tier} 레벨 {level}에 도달했습니다"
+    },
+    "achievements": {
+      "title": "업적 ({percentage}%)",
+      "unlockedCount": "{unlocked} / {total}",
+      "unlockedLabel": "업적 달성!",
+      "empty": "업적이 없습니다",
+      "secret": {
+        "name": "???",
+        "description": "이 비밀 업적을 완료하여 공개하세요"
+      },
+      "categories": {
+        "all": "전체",
+        "learning": "학습",
+        "streak": "연속",
+        "mastery": "숙달",
+        "explorer": "탐험가",
+        "special": "특별"
+      },
+      "status": {
+        "all": "전체",
+        "unlocked": "달성됨",
+        "locked": "잠김"
+      }
+    }
+  },
+  "settings": {
+    "title": "설정",
+    "subtitle": "학습 경험을 맞춤 설정하세요",
+    "leaderboard": {
+      "title": "리더보드",
+      "showOnLeaderboard": "리더보드에 표시",
+      "showOnLeaderboardDescription": "비활성화하면 진행 상황이 공개 순위에 표시되지 않습니다",
+      "visible": "표시됨",
+      "hidden": "숨김",
+      "anonymousName": "익명 이름",
+      "anonymousNameDescription": "리더보드에 표시되는 이름입니다"
+    },
+    "srs": {
+      "title": "간격 반복",
+      "description": "복습 일정과 난이도를 맞춤 설정하세요"
+    },
+    "audio": {
+      "title": "오디오 & TTS",
+      "offlineTTS": "오프라인 TTS (Kokoro)",
+      "offlineTTSDescription": "오프라인 텍스트 음성 변환을 위해 ~{{size}}MB 모델 다운로드",
+      "notSupported": "지원되지 않음: {{reason}}",
+      "off": "끔",
+      "on": "켬",
+      "desktopNotice": "Kokoro TTS는 데스크톱에서 자동으로 로드됩니다",
+      "readyNotice": "오프라인 TTS 준비됨 - 인터넷 없이 작동",
+      "loadError": "오프라인 TTS 로드 실패",
+      "voiceSelection": "음성 선택 ({{language}})",
+      "notSupportedWarning": "Kokoro는 {{language}}을(를) 지원하지 않습니다. 브라우저 음성 합성 또는 사전 생성된 오디오를 대신 사용합니다.",
+      "noVoicesWarning": "{{language}}에 사용 가능한 음성이 없습니다.",
+      "voiceSelectionNote": "{{language}} 텍스트 음성 변환을 위한 음성을 선택하세요. 사전 생성된 오디오가 사용 가능할 때 사용됩니다.",
+      "playing": "재생 중...",
+      "test": "테스트",
+      "voiceDetail": "{{language}} • {{gender}} • 품질: {{quality}}",
+      "priorityTitle": "오디오 재생 우선순위:",
+      "priority1": "사전 생성된 오디오 (최고 품질)",
+      "priority2": "Kokoro TTS ({{status}}, {{support}})",
+      "ifEnabled": "활성화된 경우",
+      "autoLoaded": "자동 로드됨",
+      "englishOnly": "영어만",
+      "priority3": "브라우저 음성 합성 (대체)"
+    },
+    "appearance": {
+      "title": "외관",
+      "comingSoon": "테마 설정이 곧 제공됩니다"
+    },
+    "backToDashboard": "대시보드로 돌아가기"
+  },
+  "srs": {
+    "title": "SRS 설정",
+    "subtitle": "간격 반복 경험을 맞춤 설정하세요",
+    "scheduling": {
+      "title": "복습 일정",
+      "newItemsLimit": "일일 신규 항목 제한",
+      "newItemsDescription": "하루에 학습할 최대 신규 항목 수",
+      "reviewLimit": "일일 복습 제한",
+      "reviewLimitDescription": "하루 최대 복습 수 (0 = 무제한)",
+      "threshold": "복습 임계값",
+      "thresholdDescription": "SRS 일정의 엄격함 정도",
+      "thresholdStrict": "엄격함",
+      "thresholdModerate": "보통",
+      "thresholdRelaxed": "느슨함"
+    },
+    "difficulty": {
+      "title": "난이도 조정",
+      "easeBonus": "쉬움 보너스",
+      "easeBonusDescription": "간격 증가 속도를 조정합니다 ({{value}}%)",
+      "intervalMultiplier": "간격 배수",
+      "intervalMultiplierDescription": "모든 간격을 이 요소로 조정합니다",
+      "lapseInterval": "실패 시 새 간격",
+      "lapseIntervalDescription": "실패 시 이전 간격의 이 %로 간격을 재설정합니다"
+    },
+    "options": {
+      "title": "복습 옵션",
+      "autoplayAudio": "오디오 자동 재생",
+      "autoplayAudioDescription": "카드가 공개될 때 자동으로 오디오를 재생합니다",
+      "showReadingHints": "읽기 힌트 표시",
+      "readingHintsDescription": "발음에 대한 후리가나 또는 병음 힌트를 표시합니다",
+      "accuracy": "필요 정확도",
+      "accuracyDescription": "숙달을 위한 목표 정확도 ({{value}}%)"
+    },
+    "notifications": {
+      "title": "알림",
+      "reminders": "복습 알림",
+      "remindersDescription": "복습이 예정되었을 때 알림을 받습니다",
+      "reminderTime": "알림 시간",
+      "reminderTimeDescription": "일일 알림 전송 시기",
+      "reminderThreshold": "알림 임계값",
+      "reminderThresholdDescription": "복습 수가 이 숫자를 초과할 때만 알림"
+    },
+    "actions": {
+      "reset": "기본값으로 재설정",
+      "save": "설정 저장",
+      "saved": "저장됨!",
+      "backToSettings": "설정으로 돌아가기"
+    }
+  },
+  "languages": {
+    "ja": "일본어",
+    "zh": "중국어",
+    "ko": "한국어",
+    "es": "스페인어",
+    "fr": "프랑스어",
+    "hi": "힌디어",
+    "it": "이탈리아어",
+    "pt": "포르투갈어",
+    "en": "영어"
+  },
+  "lessons": {
+    "view": {
+      "noContent": "사용 가능한 콘텐츠 없음",
+      "noExercises": "이 레슨에 사용 가능한 연습 문제가 없습니다.",
+      "previous": "이전",
+      "next": "다음",
+      "startExercises": "연습 시작",
+      "completeLesson": "레슨 완료",
+      "topic": "주제",
+      "vocabulary": "어휘",
+      "grammar": "문법",
+      "culturalNote": "문화 노트",
+      "exerciseStep": "연습 {current}/{total}",
+      "culturalNotes": "문화 노트",
+      "learning": "학습",
+      "practice": "연습",
+      "stop": "중지",
+      "tapToContinueHint": "탭하거나 스와이프하여 계속"
+    },
+    "vocabulary": {
+      "examples": "예시"
+    },
+    "grammar": {
+      "examples": "예시",
+      "usageNotes": "사용법 노트",
+      "hideExplanation": "설명 숨기기",
+      "showExplanation": "설명 보기",
+      "iUnderstand": "이해했습니다"
+    },
+    "character": {
+      "strokeOrder": "획순",
+      "memoryTip": "기억 팁"
+    },
+    "intro": {
+      "minutes": "분",
+      "items": "항목",
+      "vocabulary": "어휘",
+      "back": "뒤로",
+      "whatYoullLearn": "학습 내용:",
+      "vocabularyWords": "어휘 {count}개",
+      "grammarPoints": "문법 {count}개",
+      "culturalNotes": "문화 노트 {count}개",
+      "startLesson": "레슨 시작"
+    },
+    "summary": {
+      "levelUp": "레벨 업!",
+      "perfect": "완벽!",
+      "lessonComplete": "레슨 완료!",
+      "correctCount": "{correct}/{total} 정답",
+      "xpTotal": "+{xp} XP",
+      "xpBase": "기본: +{xp}",
+      "xpPerfect": "완벽: +{xp}",
+      "xpStreak": "연속: +{xp}",
+      "newLevel": "레벨 {level} 달성",
+      "nextLesson": "다음 레슨",
+      "pathComplete": "경로 완료",
+      "backToPath": "경로로 돌아가기",
+      "upNext": "다음 예정"
+    }
+  },
+  "exercises": {
+    "correct": "정답!",
+    "common": {
+      "checkAnswer": "답 확인",
+      "answerOptions": "답안 옵션",
+      "optionLabelWithStatus": "옵션 {index}: {option}{status}",
+      "correctAnswerStatus": ", 정답",
+      "incorrectStatus": ", 오답",
+      "quitSession": "세션 종료",
+      "quitConfirmTitle": "세션을 종료하시겠습니까?",
+      "quitConfirmMessage": "이 세션의 진행 상황이 손실됩니다.",
+      "confirmQuit": "종료",
+      "cancel": "취소",
+      "unsupported": "아직 지원되지 않는 연습 유형"
+    },
+    "matching": {
+      "success": "모든 쌍이 정확히 일치했습니다!",
+      "error": "일부 일치가 잘못되었습니다. 강조된 쌍을 검토하세요.",
+      "title": "쌍 맞추기",
+      "leftColumnLabel": "왼쪽 열 - 일치시킬 항목 선택",
+      "rightColumnLabel": "오른쪽 열 - 일치 완료를 위해 선택",
+      "leftItemLabel": "{item}{matched}{status}",
+      "matchedStatus": ", 일치됨",
+      "correctMatchStatus": ", 정확한 일치",
+      "incorrectMatchStatus": ", 잘못된 일치",
+      "rightItemLabel": "{item}{matched}{available}",
+      "alreadyMatchedStatus": ", 이미 일치됨",
+      "availableToMatchStatus": ", 일치 가능",
+      "checkMatches": "일치 확인 ({count}/{total})"
+    },
+    "fillBlank": {
+      "correctAnswerIs": "정답:"
+    },
+    "translation": {
+      "correctAnswer": "정확한 번역:",
+      "translateTo": "{language}(으)로 번역",
+      "checkTranslation": "번역 확인",
+      "placeholder": "번역을 입력하세요..."
+    },
+    "typing": {
+      "correctAnswer": "정답:",
+      "instruction": "번역 입력",
+      "placeholder": "답을 입력하세요...",
+      "expectedLength": "예상: {count}자"
+    },
+    "strokeOrder": {
+      "strokesCount": "{count}획",
+      "strokesProgress": "획: {current}/{total}",
+      "feedbackIncorrect": "계속 연습하세요! 이 글자는 {count}획입니다.",
+      "checkCharacter": "문자 확인"
+    },
+    "wordOrder": {
+      "placeholder": "단어를 탭하여 문장 만들기"
+    },
+    "listening": {
+      "playing": "재생 중...",
+      "playAudio": "오디오 재생",
+      "playCount": "{count}회 재생됨",
+      "transcriptShow": "대본 보기",
+      "transcriptHide": "대본 숨기기"
+    }
+  },
+  "review": {
+    "config": {
+      "title": "복습 세션",
+      "selectModules": "모듈 선택",
+      "numberOfItems": "항목 수",
+      "onlyItemsAvailable": "사용 가능한 항목: {count}개",
+      "selectedModules": "선택된 모듈:",
+      "itemsToReview": "복습할 항목:",
+      "startReview": "복습 시작",
+      "noItemsDue": "복습할 항목이 없습니다. 잘 따라오고 있어요!",
+      "due": "{count}개 예정"
+    },
+    "modules": {
+      "vocabulary": "어휘",
+      "kanji": "문자",
+      "grammar": "문법"
+    },
+    "progress": {
+      "accuracy": "정확도:"
+    },
+    "card": {
+      "showAnswer": "답 보기",
+      "questionRating": "기억 정도는 어땠나요?",
+      "rating": {
+        "again": "다시",
+        "hard": "어려움",
+        "good": "좋음",
+        "easy": "쉬움",
+        "perfect": "완벽함",
+        "againDesc": "완전히 잊음",
+        "hardDesc": "기억하기 어려움",
+        "goodDesc": "노력하여 맞춤",
+        "easyDesc": "쉽게 기억함",
+        "perfectDesc": "즉시 기억함"
+      }
+    },
+    "mastery": {
+      "new": "새로운",
+      "learning": "학습 중",
+      "review": "복습",
+      "mastered": "숙달됨"
+    },
+    "stats": {
+      "title": "복습 세션",
+      "sessionComplete": "세션 완료!",
+      "accuracy": "정확도",
+      "correct": "정답",
+      "incorrect": "오답",
+      "duration": "소요 시간",
+      "moduleBreakdown": "모듈별 분석",
+      "avgTimePerItem": "항목당 평균 시간: {time}초",
+      "reviewMore": "더 많은 항목 복습",
+      "backToDashboard": "대시보드로 돌아가기",
+      "performance": {
+        "excellent": "훌륭해요! 계속 이렇게 해요!",
+        "good": "잘했어요! 진전이 있어요.",
+        "okay": "나쁘지 않아요! 계속 연습하세요.",
+        "needsWork": "계속하세요! 연습이 완벽을 만듭니다."
+      }
+    }
   }
 }

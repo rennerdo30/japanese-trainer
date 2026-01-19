@@ -75,19 +75,21 @@ export default function LibraryQuickAccess({
   availableModules,
   moduleCounts,
 }: LibraryQuickAccessProps) {
+  const { t } = useLanguage();
   const modules = availableModules
     .filter((m) => MODULE_CONFIG[m])
     .map((m) => ({
       ...MODULE_CONFIG[m],
+      name: t(`modules.${m}.title`), // Localize module names
       itemCount: moduleCounts?.[m],
     }));
 
   return (
     <Card variant="glass" className={styles.container}>
       <div className={styles.header}>
-        <Text variant="h3" className={styles.headerTitle}>Library</Text>
+        <Text variant="h3" className={styles.headerTitle}>{t('dashboard.library.title')}</Text>
         <Link href="/library" className={styles.viewAll}>
-          <Text variant="caption" color="muted">View All</Text>
+          <Text variant="caption" color="muted">{t('dashboard.library.viewAll')}</Text>
         </Link>
       </div>
 

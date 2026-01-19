@@ -2,6 +2,7 @@
 
 import { useState, useCallback, useRef, useEffect } from 'react';
 import { Text, Button } from '@/components/ui';
+import { useLanguage } from '@/context/LanguageProvider';
 import { IoCheckmark, IoClose, IoVolumeHigh, IoHelpCircle } from 'react-icons/io5';
 import { useTTS } from '@/hooks/useTTS';
 import type { TypingExercise } from '@/types/exercises';
@@ -13,6 +14,7 @@ interface TypingProps {
 }
 
 export default function Typing({ exercise, onAnswer }: TypingProps) {
+  const { t } = useLanguage();
   const [userInput, setUserInput] = useState('');
   const [feedback, setFeedback] = useState<'correct' | 'incorrect' | null>(null);
   const [submitted, setSubmitted] = useState(false);
@@ -75,7 +77,7 @@ export default function Typing({ exercise, onAnswer }: TypingProps) {
     <div className={styles.container}>
       <div className={styles.promptSection}>
         <Text variant="caption" color="muted" className={styles.instruction}>
-          Type the translation
+          {t('exercises.typing.instruction')}
         </Text>
         <Text variant="h2" className={styles.prompt}>
           {exercise.prompt}
@@ -83,12 +85,12 @@ export default function Typing({ exercise, onAnswer }: TypingProps) {
         <div className={styles.promptActions}>
           {(exercise.audioUrl || exercise.correctAnswer) && (
             <Button variant="ghost" size="sm" onClick={handlePlayAudio}>
-              <IoVolumeHigh /> Listen
+              <IoVolumeHigh /> {t('common.listen')}
             </Button>
           )}
           {exercise.hint && (
             <Button variant="ghost" size="sm" onClick={handleShowHint}>
-              <IoHelpCircle /> Hint
+              <IoHelpCircle /> {t('common.hint')}
             </Button>
           )}
         </div>
@@ -108,7 +110,7 @@ export default function Typing({ exercise, onAnswer }: TypingProps) {
             value={userInput}
             onChange={(e) => setUserInput(e.target.value)}
             onKeyDown={handleKeyDown}
-            placeholder="Type your answer..."
+            placeholder={t('exercises.typing.placeholder')}
             className={`${styles.input} ${feedback ? styles[feedback] : ''}`}
             disabled={submitted}
             autoComplete="off"
@@ -130,7 +132,7 @@ export default function Typing({ exercise, onAnswer }: TypingProps) {
         </div>
 
         <Text variant="caption" color="muted" className={styles.expectedLength}>
-          Expected: {exercise.correctAnswer.length} characters
+          {t('exercises.typing.expectedLength', { count: exercise.correctAnswer.length })}
         </Text>
       </div>
 
@@ -139,13 +141,13 @@ export default function Typing({ exercise, onAnswer }: TypingProps) {
           {feedback === 'correct' ? (
             <>
               <IoCheckmark className={styles.feedbackIcon} />
-              <Text>Correct!</Text>
+              <Text>{t('exercises.correct')}</Text>
             </>
           ) : (
             <>
               <IoClose className={styles.feedbackIcon} />
               <div className={styles.feedbackContent}>
-                <Text>Correct answer:</Text>
+                <Text>{t('exercises.typing.correctAnswer')}</Text>
                 <Text color="gold" className={styles.correctAnswer}>
                   {exercise.correctAnswer}
                 </Text>
@@ -161,7 +163,7 @@ export default function Typing({ exercise, onAnswer }: TypingProps) {
           disabled={!userInput.trim()}
           fullWidth
         >
-          Check Answer
+          {t('exercises.common.checkAnswer')}
         </Button>
       )}
     </div>

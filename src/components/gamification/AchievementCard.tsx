@@ -2,6 +2,7 @@
 
 import { useMemo } from 'react';
 import { Card, Text } from '@/components/ui';
+import { useLanguage } from '@/context/LanguageProvider';
 import {
   IoRocket,
   IoSchool,
@@ -72,6 +73,7 @@ export default function AchievementCard({
   unlockedAt,
   compact = false,
 }: AchievementCardProps) {
+  const { t } = useLanguage();
   const IconComponent = ICON_MAP[achievement.icon] || IoTrophy;
   const rarityColor = RARITY_COLORS[achievement.rarity];
 
@@ -104,7 +106,7 @@ export default function AchievementCard({
         </div>
         <div className={styles.compactInfo}>
           <Text variant="label" className={styles.compactName}>
-            {isSecret ? '???' : achievement.name}
+            {isSecret ? t('gamification.achievements.secret.name') : achievement.name}
           </Text>
         </div>
       </div>
@@ -134,10 +136,10 @@ export default function AchievementCard({
 
       <div className={styles.content}>
         <Text variant="h3" className={styles.name}>
-          {isSecret ? '???' : achievement.name}
+          {isSecret ? t('gamification.achievements.secret.name') : achievement.name}
         </Text>
         <Text variant="body" color="muted" className={styles.description}>
-          {isSecret ? 'Complete this secret achievement to reveal it' : achievement.description}
+          {isSecret ? t('gamification.achievements.secret.description') : achievement.description}
         </Text>
 
         {!unlocked && progress !== undefined && progress > 0 && (

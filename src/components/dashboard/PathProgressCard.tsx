@@ -45,7 +45,7 @@ export default function PathProgressCard({
         </div>
         <div className={styles.progressInfo}>
           <Text variant="caption" color="muted">
-            {lessonsCompleted} / {lessonsTotal} lessons
+            {t('dashboard.pathProgress.lessonsCount', { completed: lessonsCompleted, total: lessonsTotal })}
           </Text>
           <Text variant="label" className={styles.progressPercent}>
             {progress}%
@@ -54,7 +54,7 @@ export default function PathProgressCard({
       </div>
 
       <div className={styles.currentLesson}>
-        <Text variant="caption" color="muted">Next up</Text>
+        <Text variant="caption" color="muted">{t('dashboard.pathProgress.nextUp')}</Text>
         <Text variant="body" className={styles.lessonTitle}>
           {currentLesson}
         </Text>
@@ -62,7 +62,7 @@ export default function PathProgressCard({
 
       <Link href={`/paths/${pathId}`} className={styles.link}>
         <Button variant="primary" className={styles.continueButton}>
-          Continue Learning <IoChevronForward />
+          {t('dashboard.continueLearning')} <IoChevronForward />
         </Button>
       </Link>
     </Card>

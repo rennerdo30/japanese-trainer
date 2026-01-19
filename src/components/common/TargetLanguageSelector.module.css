@@ -63,6 +63,7 @@
     opacity: 0;
     transform: translateY(-8px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -141,7 +142,8 @@
   }
 
   .dropdown {
-    right: -1rem;
+    left: 0;
+    right: auto;
     min-width: 180px;
   }
 }

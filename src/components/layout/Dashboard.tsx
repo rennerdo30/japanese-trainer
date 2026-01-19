@@ -90,27 +90,26 @@ const MODULE_NAMES: Record<string, Record<string, { title: string; description: 
 };
 
 const getModuleName = (moduleId: string, lang: string, t: (key: string) => string) => {
-    const langSpecific = MODULE_NAMES[lang]?.[moduleId];
-    if (langSpecific) {
-        return langSpecific;
-    }
-    // Fall back to translation system
-    return {
-        title: t(`modules.${moduleId}.title`),
-        description: t(`modules.${moduleId}.description`)
-    };
+    // Check for language-specific titles in translation system
+    const specificTitleKey = moduleId === 'kanji' && lang === 'ja' ? `modules.kanji.title_ja` :
+        moduleId === 'kanji' && lang === 'zh' ? `modules.kanji.title_zh` :
+            moduleId === 'alphabet' && lang === 'ko' ? `modules.alphabet.title_ko` : null;
+
+    const title = specificTitleKey ? t(specificTitleKey) : t(`modules.${moduleId}.title`);
+    const description = t(`modules.${moduleId}.description`);
+
+    return { title, description };
 };
 
 // Language-specific stat labels
-const STAT_LABELS: Record<string, Record<string, string>> = {
-    ja: { characters: 'Kanji Mastered' },
-    zh: { characters: 'Hanzi Mastered' },
-    ko: { characters: 'Hangul Mastered' },
-    default: { characters: 'Characters Learned' },
-};
-
-const getStatLabel = (statKey: string, lang: string): string => {
-    return STAT_LABELS[lang]?.[statKey] || STAT_LABELS.default[statKey] || statKey;
+const getStatLabel = (statKey: string, lang: string, t: (key: string) => string): string => {
+    if (statKey === 'characters') {
+        if (lang === 'ja') return t('dashboard.kanjiMastered');
+        if (lang === 'zh') return t('dashboard.hanziMastered');
+        if (lang === 'ko') return t('dashboard.hangulMastered');
+        return t('dashboard.charactersLearned');
+    }
+    return t(`dashboard.${statKey}`) || statKey;
 };
 
 const ALL_MODULES: Module[] = [
@@ -197,53 +196,53 @@ function Dashboard() {
             <header className={styles.header}>
                 <div className={styles.headerContent}>
                     <div>
-  
-  
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" role="img" aria-label="Murmura wordmark">
-  <defs>
-    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1a1a2e"/>
-      <stop offset="100%" stop-color="#0f0f1a"/>
-    </linearGradient>
-    <linearGradient id="ringGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#c41e3a"/>
-      <stop offset="50%" stop-color="#d4a574"/>
-      <stop offset="100%" stop-color="#c41e3a"/>
-    </linearGradient>
-  </defs>
 
-  <g transform="translate(80,110)">
-    <circle r="70" fill="url(#bgGradient)" stroke="url(#ringGradient)" stroke-width="4"/>
-    <text x="0" y="0"
-          text-anchor="middle"
-          dominant-baseline="central"
-          font-size="68"
-          font-weight="700"
-          fill="#f5f0e8"
-          font-family="'Noto Sans JP','Hiragino Sans','Yu Gothic',system-ui,sans-serif">学</text>
-  </g>
 
-  <g transform="translate(190,0)">
-    <text x="0" y="118"
-          font-size="120"
-          font-weight="700"
-          fill="#f5f0e8"
-          letter-spacing="1.2"
-          font-family="'Playfair Display','Libre Baskerville','Georgia',serif">Murmura</text>
+                        <svg className={styles.wordmark} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" role="img" aria-label={t('dashboard.title')}>
+                            <defs>
+                                <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stopColor="#1a1a2e" />
+                                    <stop offset="100%" stopColor="#0f0f1a" />
+                                </linearGradient>
+                                <linearGradient id="ringGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stopColor="#c41e3a" />
+                                    <stop offset="50%" stopColor="#d4a574" />
+                                    <stop offset="100%" stopColor="#c41e3a" />
+                                </linearGradient>
+                            </defs>
 
-    <g transform="translate(12,145)" fill="none" stroke="#d4a574" stroke-linecap="round" opacity="0.40">
-      <path d="M0 0 C45 -24, 95 -24, 140 0 S235 24, 280 0" stroke-width="4"/>
-      <path d="M0 18 C45 -6, 95 -6, 140 18 S235 42, 280 18" stroke-width="3" opacity="0.6"/>
-    </g>
+                            <g transform="translate(80,110)">
+                                <circle r="70" fill="url(#bgGradient)" stroke="url(#ringGradient)" strokeWidth="4" />
+                                <text x="0" y="0"
+                                    textAnchor="middle"
+                                    dominantBaseline="central"
+                                    fontSize="68"
+                                    fontWeight="700"
+                                    fill="#f5f0e8"
+                                    fontFamily="'Noto Sans JP','Hiragino Sans','Yu Gothic',system-ui,sans-serif">学</text>
+                            </g>
 
-    <text x="12" y="196"
-          font-size="30"
-          fill="#d4a574"
-          opacity="0.85"
-          letter-spacing="2.2"
-          font-family="system-ui,-apple-system,'Segoe UI',Roboto,'Fira Sans',sans-serif">From whispers to fluency</text>
-  </g>
-</svg>
+                            <g transform="translate(190,0)">
+                                <text x="0" y="118"
+                                    fontSize="120"
+                                    fontWeight="700"
+                                    fill="#f5f0e8"
+                                    letterSpacing="1.2"
+                                    fontFamily="'Playfair Display','Libre Baskerville','Georgia',serif">{t('dashboard.title')}</text>
+
+                                <g transform="translate(12,145)" fill="none" stroke="#d4a574" strokeLinecap="round" opacity="0.40">
+                                    <path d="M0 0 C45 -24, 95 -24, 140 0 S235 24, 280 0" strokeWidth="4" />
+                                    <path d="M0 18 C45 -6, 95 -6, 140 18 S235 42, 280 18" strokeWidth="3" opacity="0.6" />
+                                </g>
+
+                                <text x="12" y="196"
+                                    fontSize="30"
+                                    fill="#d4a574"
+                                    opacity="0.85"
+                                    letterSpacing="2.2"
+                                    fontFamily="system-ui,-apple-system,'Segoe UI',Roboto,'Fira Sans',sans-serif">{t('dashboard.subtitle')}</text>
+                            </g>
+                        </svg>
 
 
 
@@ -261,13 +260,13 @@ function Dashboard() {
                 <Card variant="glass" hover className={`${styles.continueLessonCard} fadeInUp`}>
                     <div className={styles.continueLessonContent}>
                         <div className={styles.continueLessonInfo}>
-                            <Text variant="label" color="muted">Continue Learning</Text>
+                            <Text variant="label" color="muted">{t('dashboard.continueLearning')}</Text>
                             <Text variant="h2">{currentLesson.title}</Text>
                             <Text variant="body" color="secondary">{currentLesson.description}</Text>
                         </div>
                         <Link href={`/paths/${getPathIdForLanguage(targetLanguage)}/${currentLesson.id}`}>
                             <Button className={styles.continueLessonButton}>
-                                <IoPlay /> Continue
+                                <IoPlay /> {t('common.continue')}
                             </Button>
                         </Link>
                     </div>
@@ -311,7 +310,7 @@ function Dashboard() {
                         {summary.totalKanji || 0}
                     </Text>
                     <Text variant="label" color="muted" className={styles.statLabel}>
-                        {getStatLabel('characters', targetLanguage)}
+                        {getStatLabel('characters', targetLanguage, t)}
                     </Text>
                 </Card>
                 <Card variant="glass" hover className={`${styles.statCard} fadeInUp stagger-4`}>
@@ -329,22 +328,22 @@ function Dashboard() {
             <div className={styles.quickActions}>
                 <Link href="/paths">
                     <Button variant="ghost" className={styles.quickActionButton}>
-                        <IoMap /> Browse Learning Paths
+                        <IoMap /> {t('dashboard.browsePaths')}
                     </Button>
                 </Link>
                 <Link href="/review">
                     <Button variant="ghost" className={styles.quickActionButton}>
-                        <IoRefresh /> Review Dashboard
+                        <IoRefresh /> {t('dashboard.reviewDashboardStat')}
                     </Button>
                 </Link>
                 <Link href="/leaderboard">
                     <Button variant="ghost" className={styles.quickActionButton}>
-                        <IoTrophy /> Leaderboard
+                        <IoTrophy /> {t('dashboard.leaderboardStat')}
                     </Button>
                 </Link>
                 <Link href="/settings">
                     <Button variant="ghost" className={styles.quickActionButton}>
-                        <IoSettings /> Settings
+                        <IoSettings /> {t('dashboard.settingsStat')}
                     </Button>
                 </Link>
             </div>

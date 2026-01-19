@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import { Text, Button } from '@/components/ui';
+import { useLanguage } from '@/context/LanguageProvider';
 import AchievementCard from './AchievementCard';
 import type { Achievement, AchievementCategory, AchievementRarity } from '@/types/gamification';
 import styles from './AchievementGrid.module.css';
@@ -28,6 +29,7 @@ export default function AchievementGrid({
   showFilters = true,
   compact = false,
 }: AchievementGridProps) {
+  const { t } = useLanguage();
   const [categoryFilter, setCategoryFilter] = useState<FilterCategory>('all');
   const [statusFilter, setStatusFilter] = useState<FilterStatus>('all');
 
@@ -93,12 +95,12 @@ export default function AchievementGrid({
   }, [achievements, userAchievements]);
 
   const categories: { value: FilterCategory; label: string }[] = [
-    { value: 'all', label: 'All' },
-    { value: 'learning', label: 'Learning' },
-    { value: 'streak', label: 'Streak' },
-    { value: 'mastery', label: 'Mastery' },
-    { value: 'explorer', label: 'Explorer' },
-    { value: 'special', label: 'Special' },
+    { value: 'all', label: t('gamification.achievements.categories.all') },
+    { value: 'learning', label: t('gamification.achievements.categories.learning') },
+    { value: 'streak', label: t('gamification.achievements.categories.streak') },
+    { value: 'mastery', label: t('gamification.achievements.categories.mastery') },
+    { value: 'explorer', label: t('gamification.achievements.categories.explorer') },
+    { value: 'special', label: t('gamification.achievements.categories.special') },
   ];
 
   return (
@@ -107,10 +109,10 @@ export default function AchievementGrid({
         <div className={styles.header}>
           <div className={styles.stats}>
             <Text variant="h3">
-              {stats.unlocked} / {stats.total}
+              {t('gamification.achievements.unlockedCount', { unlocked: stats.unlocked, total: stats.total })}
             </Text>
             <Text variant="caption" color="muted">
-              Achievements ({stats.percentage}%)
+              {t('gamification.achievements.title', { percentage: stats.percentage })}
             </Text>
           </div>
 
@@ -135,21 +137,21 @@ export default function AchievementGrid({
                 size="sm"
                 onClick={() => setStatusFilter('all')}
               >
-                All
+                {t('gamification.achievements.status.all')}
               </Button>
               <Button
                 variant={statusFilter === 'unlocked' ? 'secondary' : 'ghost'}
                 size="sm"
                 onClick={() => setStatusFilter('unlocked')}
               >
-                Unlocked
+                {t('gamification.achievements.status.unlocked')}
               </Button>
               <Button
                 variant={statusFilter === 'locked' ? 'secondary' : 'ghost'}
                 size="sm"
                 onClick={() => setStatusFilter('locked')}
               >
-                Locked
+                {t('gamification.achievements.status.locked')}
               </Button>
             </div>
           </div>
@@ -158,7 +160,7 @@ export default function AchievementGrid({
 
       {sortedAchievements.length === 0 ? (
         <div className={styles.empty}>
-          <Text color="muted">No achievements found</Text>
+          <Text color="muted">{t('gamification.achievements.empty')}</Text>
         </div>
       ) : (
         <div className={compact ? styles.compactGrid : styles.grid}>

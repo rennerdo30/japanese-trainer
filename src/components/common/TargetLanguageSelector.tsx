@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { Text } from '@/components/ui';
+import { useLanguage } from '@/context/LanguageProvider';
 import { useTargetLanguage } from '@/hooks/useTargetLanguage';
 import { getLanguageConfig, LanguageCode } from '@/lib/language';
 import { IoGlobe, IoChevronDown, IoCheckmark } from 'react-icons/io5';
@@ -12,6 +13,7 @@ interface TargetLanguageSelectorProps {
 }
 
 export default function TargetLanguageSelector({ className }: TargetLanguageSelectorProps) {
+  const { t } = useLanguage();
   const {
     targetLanguage,
     languageConfig,
@@ -120,7 +122,7 @@ export default function TargetLanguageSelector({ className }: TargetLanguageSele
           setIsOpen(!isOpen);
           if (!isOpen) setFocusedIndex(0);
         }}
-        aria-label="Select target language"
+        aria-label={t('dashboard.targetLanguage.selectLabel')}
         aria-expanded={isOpen}
         aria-haspopup="listbox"
       >
@@ -135,11 +137,11 @@ export default function TargetLanguageSelector({ className }: TargetLanguageSele
         <div
           className={styles.dropdown}
           role="listbox"
-          aria-label="Select target language"
+          aria-label={t('dashboard.targetLanguage.selectLabel')}
           aria-activedescendant={focusedIndex >= 0 ? `target-lang-option-${availableLanguages[focusedIndex]}` : undefined}
         >
           <Text variant="label" color="muted" className={styles.dropdownTitle}>
-            Learning Target
+            {t('dashboard.targetLanguage.title')}
           </Text>
           <div className={styles.options}>
             {availableLanguages.map((langCode, index) => {
@@ -170,7 +172,7 @@ export default function TargetLanguageSelector({ className }: TargetLanguageSele
           </div>
           <div className={styles.dropdownFooter}>
             <Text variant="caption" color="muted">
-              {currentConfig?.levels.length || 0} levels available
+              {t('dashboard.targetLanguage.levelsAvailable', { count: currentConfig?.levels.length || 0 })}
             </Text>
           </div>
         </div>

@@ -158,17 +158,24 @@ export default function Matching({ exercise, onAnswer }: MatchingProps) {
   return (
     <div className={styles.container}>
       <Text variant="h3" className={styles.instruction}>
-        Match the pairs
+        {t('exercises.matching.title')}
       </Text>
 
-      <div className={styles.matchArea} role="application" aria-label="Match the pairs exercise">
-        <div className={styles.column} role="listbox" aria-label="Left column - select an item to match">
+      <div className={styles.matchArea} role="application" aria-label={t('exercises.matching.title')}>
+        <div className={styles.column} role="listbox" aria-label={t('exercises.matching.leftColumnLabel')}>
           {exercise.pairs.map((pair, index) => {
             const match = getMatchForLeft(index);
             const isSelected = selectedLeft === index;
             const isMatched = !!match;
             const isCorrect = submitted && match && match.rightIndex === index;
             const isIncorrect = submitted && match && match.rightIndex !== index;
+
+            const matched = isMatched ? t('exercises.matching.matchedStatus') : '';
+            const status = isCorrect
+              ? t('exercises.matching.correctMatchStatus')
+              : isIncorrect
+                ? t('exercises.matching.incorrectMatchStatus')
+                : '';
 
             return (
               <button
@@ -180,7 +187,7 @@ export default function Matching({ exercise, onAnswer }: MatchingProps) {
                 className={`${styles.item} ${isSelected ? styles.selected : ''} ${isMatched ? styles.matched : ''} ${isCorrect ? styles.correct : ''} ${isIncorrect ? styles.incorrect : ''}`}
                 role="option"
                 aria-selected={isSelected}
-                aria-label={`${pair.left}${isMatched ? `, matched` : ''}${isCorrect ? ', correct match' : ''}${isIncorrect ? ', incorrect match' : ''}`}
+                aria-label={t('exercises.matching.leftItemLabel', { item: pair.left, matched, status })}
                 type="button"
               >
                 <span>{pair.left}</span>
@@ -197,12 +204,15 @@ export default function Matching({ exercise, onAnswer }: MatchingProps) {
           ))}
         </div>
 
-        <div className={styles.column} role="listbox" aria-label="Right column - select to complete match">
+        <div className={styles.column} role="listbox" aria-label={t('exercises.matching.rightColumnLabel')}>
           {shuffledRight.map((originalIndex, shuffledIndex) => {
             const pair = exercise.pairs[originalIndex];
             const match = getMatchForRight(originalIndex);
             const isMatched = !!match;
             const isAvailable = selectedLeft !== null && !isMatched;
+
+            const matched = isMatched ? t('exercises.matching.alreadyMatchedStatus') : '';
+            const available = isAvailable ? t('exercises.matching.availableToMatchStatus') : '';
 
             return (
               <button
@@ -215,7 +225,7 @@ export default function Matching({ exercise, onAnswer }: MatchingProps) {
                 role="option"
                 aria-selected={false}
                 aria-disabled={isMatched || selectedLeft === null}
-                aria-label={`${pair.right}${isMatched ? ', already matched' : ''}${isAvailable ? ', available to match' : ''}`}
+                aria-label={t('exercises.matching.rightItemLabel', { item: pair.right, matched, available })}
                 type="button"
               >
                 <span>{pair.right}</span>
@@ -228,9 +238,9 @@ export default function Matching({ exercise, onAnswer }: MatchingProps) {
       {feedback && (
         <div className={`${styles.feedback} ${styles[feedback]}`}>
           {feedback === 'correct' ? (
-            <Text>All pairs matched correctly!</Text>
+            <Text>{t('exercises.matching.success')}</Text>
           ) : (
-            <Text>Some matches were incorrect. Review the highlighted pairs.</Text>
+            <Text>{t('exercises.matching.error')}</Text>
           )}
         </div>
       )}
@@ -241,7 +251,7 @@ export default function Matching({ exercise, onAnswer }: MatchingProps) {
           disabled={matches.length !== exercise.pairs.length}
           fullWidth
         >
-          Check Matches ({matches.length}/{exercise.pairs.length})
+          {t('exercises.matching.checkMatches', { count: matches.length, total: exercise.pairs.length })}
         </Button>
       )}
     </div>

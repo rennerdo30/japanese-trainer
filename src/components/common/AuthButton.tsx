@@ -3,12 +3,14 @@
 import { useState } from 'react';
 import { useQuery } from 'convex/react';
 import { useAuthActions } from '@convex-dev/auth/react';
+import { useLanguage } from '@/context/LanguageProvider';
 import { api } from '../../../convex/_generated/api';
 import LoginDialog from './LoginDialog';
 import styles from './AuthButton.module.css';
 
 export default function AuthButton() {
     const convexUrl = process.env.NEXT_PUBLIC_CONVEX_URL;
+    const { t } = useLanguage();
 
     if (!convexUrl) {
         return null;
@@ -21,7 +23,7 @@ export default function AuthButton() {
     if (currentUser === undefined) {
         return (
             <button className={`${styles.button} glass`} disabled>
-                Loading...
+                {t('auth.loading')}
             </button>
         );
     }
@@ -30,13 +32,13 @@ export default function AuthButton() {
         return (
             <div className={styles.userInfo}>
                 <span className={styles.userName}>
-                    {currentUser.name || currentUser.email || 'User'}
+                    {currentUser.name || currentUser.email || t('auth.user')}
                 </span>
                 <button
                     className={`${styles.button} ${styles.signOut}`}
                     onClick={() => signOut()}
                 >
-                    Sign Out
+                    {t('auth.signOut')}
                 </button>
             </div>
         );
@@ -48,7 +50,7 @@ export default function AuthButton() {
                 className={`${styles.button} ${styles.primary}`}
                 onClick={() => setShowLoginDialog(true)}
             >
-                Sign In
+                {t('auth.signIn')}
             </button>
             <LoginDialog
                 isOpen={showLoginDialog}

@@ -3,7 +3,7 @@
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import { LanguageContextValue, ContextProviderProps } from '@/types/context';
 
-const LanguageContext = createContext<LanguageContextValue | null>(null);
+export const LanguageContext = createContext<LanguageContextValue | null>(null);
 
 const SUPPORTED_LANGUAGES = [
     { code: 'en', name: 'English', flag: '🇺🇸' },
@@ -49,11 +49,11 @@ export function LanguageProvider({ children }: ContextProviderProps) {
                 const nav = navigator as Navigator & { userLanguage?: string };
                 const browserLang = navigator.language || nav.userLanguage || '';
                 const langCode = browserLang.split('-')[0];
-                
+
                 // Try to find exact match first
                 const exactMatch = SUPPORTED_LANGUAGES.find(l => l.code === browserLang);
                 if (exactMatch) return exactMatch.code;
-                
+
                 // Try to find language code match
                 const langMatch = SUPPORTED_LANGUAGES.find(l => l.code.startsWith(langCode));
                 if (langMatch) return langMatch.code;
@@ -115,7 +115,7 @@ export function LanguageProvider({ children }: ContextProviderProps) {
 
         // Replace parameters if any
         if (typeof value === 'string' && Object.keys(params).length > 0) {
-            return value.replace(/\{\{(\w+)\}\}/g, (match, paramKey) => {
+            return value.replace(/\{{1,2}(\w+)\}{1,2}/g, (match, paramKey) => {
                 return params[paramKey] !== undefined ? String(params[paramKey]) : match;
             });
         }

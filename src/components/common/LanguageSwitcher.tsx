@@ -6,7 +6,7 @@ import { useLanguage } from '@/context/LanguageProvider';
 import styles from './LanguageSwitcher.module.css';
 
 export default function LanguageSwitcher() {
-    const { language, changeLanguage, supportedLanguages } = useLanguage();
+    const { t, language, changeLanguage, supportedLanguages } = useLanguage();
     const [isOpen, setIsOpen] = useState(false);
     const [focusedIndex, setFocusedIndex] = useState(-1);
     const dropdownRef = useRef<HTMLDivElement>(null);
@@ -110,7 +110,7 @@ export default function LanguageSwitcher() {
                     setIsOpen(!isOpen);
                     if (!isOpen) setFocusedIndex(0);
                 }}
-                aria-label="Change language"
+                aria-label={t('common.changeLanguage')}
                 aria-expanded={isOpen}
                 aria-haspopup="listbox"
             >
@@ -122,7 +122,7 @@ export default function LanguageSwitcher() {
                 <div
                     className={styles.dropdown}
                     role="listbox"
-                    aria-label="Select language"
+                    aria-label={t('common.selectLanguage')}
                     aria-activedescendant={focusedIndex >= 0 ? `lang-option-${supportedLanguages[focusedIndex].code}` : undefined}
                 >
                     {supportedLanguages.map((lang, index) => (

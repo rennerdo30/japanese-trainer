@@ -7,7 +7,9 @@ import Matching from './Matching';
 import WordOrder from './WordOrder';
 import Listening from './Listening';
 import Translation from './Translation';
+import StrokeOrder from './StrokeOrder';
 import { Text } from '@/components/ui';
+import { useLanguage } from '@/context/LanguageProvider';
 import styles from './ExerciseContainer.module.css';
 
 interface ExerciseContainerProps {
@@ -16,6 +18,8 @@ interface ExerciseContainerProps {
 }
 
 export default function ExerciseContainer({ exercise, onAnswer }: ExerciseContainerProps) {
+  const { t } = useLanguage();
+
   const renderExercise = () => {
     switch (exercise.type) {
       case 'multiple_choice':
@@ -30,11 +34,13 @@ export default function ExerciseContainer({ exercise, onAnswer }: ExerciseContai
         return <Listening exercise={exercise} onAnswer={onAnswer} />;
       case 'translation':
         return <Translation exercise={exercise} onAnswer={onAnswer} />;
+      case 'stroke_order':
+        return <StrokeOrder exercise={exercise} onAnswer={onAnswer} />;
       default:
         return (
           <div className={styles.unsupported}>
             <Text color="muted">
-              Exercise type not supported yet
+              {t('exercises.common.unsupported')}
             </Text>
           </div>
         );

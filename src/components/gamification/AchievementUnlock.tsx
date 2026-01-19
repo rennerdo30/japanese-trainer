@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { Text, Button } from '@/components/ui';
+import { useLanguage } from '@/context/LanguageProvider';
 import {
   IoRocket,
   IoSchool,
@@ -70,6 +71,7 @@ export default function AchievementUnlock({
   autoClose = true,
   autoCloseDelay = 5000,
 }: AchievementUnlockProps) {
+  const { t } = useLanguage();
   const [isVisible, setIsVisible] = useState(false);
   const [isExiting, setIsExiting] = useState(false);
 
@@ -111,7 +113,7 @@ export default function AchievementUnlock({
         onClick={(e) => e.stopPropagation()}
         style={{ '--rarity-color': rarityColor } as React.CSSProperties}
       >
-        <button className={styles.closeButton} onClick={handleClose} aria-label="Close">
+        <button className={styles.closeButton} onClick={handleClose} aria-label={t('common.close')}>
           <IoClose />
         </button>
 
@@ -132,7 +134,7 @@ export default function AchievementUnlock({
 
         <div className={styles.content}>
           <Text variant="label" color="muted" className={styles.label}>
-            Achievement Unlocked!
+            {t('gamification.achievements.unlockedLabel')}
           </Text>
 
           <div className={styles.iconWrapper}>
@@ -162,7 +164,7 @@ export default function AchievementUnlock({
         </div>
 
         <Button onClick={handleClose} className={styles.continueButton}>
-          Continue
+          {t('common.continue')}
         </Button>
       </div>
     </div>

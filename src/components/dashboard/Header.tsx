@@ -110,7 +110,7 @@ export default function Header({
           <button
             className={styles.notificationButton}
             onClick={onNotificationsClick}
-            aria-label="Notifications"
+            aria-label={t('dashboard.notifications')}
           >
             <IoNotifications className={styles.notificationIcon} />
           </button>
@@ -120,12 +120,12 @@ export default function Header({
   );
 }
 
-function getGreeting(): string {
+function getGreeting(t: (key: string) => string): string {
   const hour = new Date().getHours();
 
-  if (hour < 5) return 'Good night';
-  if (hour < 12) return 'Good morning';
-  if (hour < 17) return 'Good afternoon';
-  if (hour < 21) return 'Good evening';
-  return 'Good night';
+  if (hour < 5) return t('dashboard.greetings.goodNight');
+  if (hour < 12) return t('dashboard.greetings.goodMorning');
+  if (hour < 17) return t('dashboard.greetings.goodAfternoon');
+  if (hour < 21) return t('dashboard.greetings.goodEvening');
+  return t('dashboard.greetings.goodNight');
 }

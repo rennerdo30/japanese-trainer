@@ -95,7 +95,7 @@ export default function LessonView({
         .map(vocabWord => {
           const item = vocabularyData.find(
             v => v.word?.toLowerCase() === vocabWord.toLowerCase() ||
-                 v.reading?.toLowerCase() === vocabWord.toLowerCase()
+              v.reading?.toLowerCase() === vocabWord.toLowerCase()
           );
           return item?.audioUrl;
         })
@@ -183,11 +183,11 @@ export default function LessonView({
           {currentCard ? (
             <LessonCard
               type={currentCard.type}
-              title={currentCard.title}
+              title={t(currentCard.titleKey)}
               content={currentCard.content}
             />
           ) : (
-            <Text color="muted">No content available</Text>
+            <Text color="muted">{t('lessons.view.noContent')}</Text>
           )}
         </Card>
 
@@ -197,7 +197,7 @@ export default function LessonView({
             onClick={handlePrevCard}
             disabled={currentCardIndex === 0}
           >
-            <IoArrowBack /> Previous
+            <IoArrowBack /> {t('lessons.view.previous')}
           </Button>
 
           <Text variant="caption" color="muted">
@@ -207,11 +207,11 @@ export default function LessonView({
           <Button onClick={handleNextCard}>
             {currentCardIndex === totalLearningCards - 1 ? (
               <>
-                Start Exercises <IoCheckmark />
+                {t('lessons.view.startExercises')} <IoCheckmark />
               </>
             ) : (
               <>
-                Next <IoArrowForward />
+                {t('lessons.view.next')} <IoArrowForward />
               </>
             )}
           </Button>
@@ -228,9 +228,9 @@ export default function LessonView({
       return (
         <div className={styles.lessonContainer}>
           <Card variant="glass" className={styles.cardContainer}>
-            <Text>No exercises available for this lesson.</Text>
+            <Text>{t('lessons.view.noExercises')}</Text>
             <Button onClick={() => onCompleteExercises(0, 0)}>
-              Complete Lesson
+              {t('lessons.view.completeLesson')}
             </Button>
           </Card>
         </div>

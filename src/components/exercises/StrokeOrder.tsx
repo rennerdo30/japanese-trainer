@@ -275,7 +275,7 @@ export default function StrokeOrder({ exercise, onAnswer }: StrokeOrderProps) {
           {exercise.character}
         </Text>
         <Text variant="caption" color="muted">
-          {exercise.strokeCount} strokes
+          {t('exercises.strokeOrder.strokesCount', { count: exercise.strokeCount })}
         </Text>
         {exercise.mnemonic && (
           <Text variant="body" color="muted" className={styles.mnemonic}>
@@ -286,16 +286,16 @@ export default function StrokeOrder({ exercise, onAnswer }: StrokeOrderProps) {
 
       <div className={styles.controls}>
         <Button variant="ghost" size="sm" onClick={handlePlayAudio}>
-          <IoVolumeHigh /> Listen
+          <IoVolumeHigh /> {t('common.listen')}
         </Button>
         <Button variant="ghost" size="sm" onClick={handleShowAnimation}>
-          <IoPlay /> Demo
+          <IoPlay /> {t('common.demo')}
         </Button>
         <Button variant="ghost" size="sm" onClick={() => setShowGuide(!showGuide)}>
-          {showGuide ? <IoEyeOff /> : <IoEye />} Guide
+          {showGuide ? <IoEyeOff /> : <IoEye />} {t('common.guide')}
         </Button>
         <Button variant="ghost" size="sm" onClick={handleClear} disabled={submitted}>
-          <IoRefresh /> Clear
+          <IoRefresh /> {t('common.clear')}
         </Button>
       </div>
 
@@ -312,10 +312,11 @@ export default function StrokeOrder({ exercise, onAnswer }: StrokeOrderProps) {
           onTouchStart={handleStart}
           onTouchMove={handleMove}
           onTouchEnd={handleEnd}
+          onContextMenu={(e) => e.preventDefault()}
         />
         <div className={styles.strokeCounter}>
           <Text variant="caption">
-            Strokes: {currentStroke} / {exercise.strokeCount}
+            {t('exercises.strokeOrder.strokesProgress', { current: currentStroke, total: exercise.strokeCount })}
           </Text>
         </div>
       </div>
@@ -325,12 +326,12 @@ export default function StrokeOrder({ exercise, onAnswer }: StrokeOrderProps) {
           {feedback === 'correct' ? (
             <>
               <IoCheckmark className={styles.feedbackIcon} />
-              <Text>Correct!</Text>
+              <Text>{t('exercises.correct')}</Text>
             </>
           ) : (
             <>
               <IoClose className={styles.feedbackIcon} />
-              <Text>Keep practicing! The character has {exercise.strokeCount} strokes.</Text>
+              <Text>{t('exercises.strokeOrder.feedbackIncorrect', { count: exercise.strokeCount })}</Text>
             </>
           )}
         </div>
@@ -342,7 +343,7 @@ export default function StrokeOrder({ exercise, onAnswer }: StrokeOrderProps) {
           disabled={userStrokes.length === 0}
           fullWidth
         >
-          Check Character
+          {t('exercises.strokeOrder.checkCharacter')}
         </Button>
       )}
     </div>

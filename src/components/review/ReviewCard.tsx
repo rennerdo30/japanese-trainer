@@ -2,6 +2,7 @@
 
 import { useCallback } from 'react';
 import { Card, Text, Button, Animated } from '@/components/ui';
+import { useLanguage } from '@/context/LanguageProvider';
 import { ReviewItem } from '@/lib/reviewQueue';
 import { useTTS } from '@/hooks/useTTS';
 import { IoVolumeHigh, IoBook, IoSchool, IoDocumentText } from 'react-icons/io5';
@@ -20,28 +21,23 @@ const moduleIcons = {
   grammar: IoDocumentText,
 };
 
-const moduleLabels = {
-  vocabulary: 'Vocabulary',
-  kanji: 'Kanji',
-  grammar: 'Grammar',
-};
-
-const qualityButtons = [
-  { quality: 0, label: 'Again', color: 'danger', description: 'Completely forgot' },
-  { quality: 2, label: 'Hard', color: 'warning', description: 'Struggled to remember' },
-  { quality: 3, label: 'Good', color: 'primary', description: 'Correct with effort' },
-  { quality: 4, label: 'Easy', color: 'success', description: 'Remembered easily' },
-  { quality: 5, label: 'Perfect', color: 'success', description: 'Instant recall' },
-];
-
 export default function ReviewCard({
   item,
   showAnswer,
   onShowAnswer,
   onRate,
 }: ReviewCardProps) {
+  const { t } = useLanguage();
   const { speak } = useTTS();
   const ModuleIcon = moduleIcons[item.module];
+
+  const qualityButtons = [
+    { quality: 0, label: t('review.card.rating.again'), color: 'danger', description: t('review.card.rating.againDesc') },
+    { quality: 2, label: t('review.card.rating.hard'), color: 'warning', description: t('review.card.rating.hardDesc') },
+    { quality: 3, label: t('review.card.rating.good'), color: 'primary', description: t('review.card.rating.goodDesc') },
+    { quality: 4, label: t('review.card.rating.easy'), color: 'success', description: t('review.card.rating.easyDesc') },
+    { quality: 5, label: t('review.card.rating.perfect'), color: 'success', description: t('review.card.rating.perfectDesc') },
+  ];
 
   const handlePlayAudio = useCallback(() => {
     if (item.data?.front) {
@@ -49,12 +45,22 @@ export default function ReviewCard({
     }
   }, [item, speak]);
 
+  const getMasteryLabel = (status: string) => {
+    switch (status) {
+      case 'new': return t('review.mastery.new');
+      case 'learning': return t('review.mastery.learning');
+      case 'review': return t('review.mastery.review');
+      case 'mastered': return t('review.mastery.mastered');
+      default: return status.charAt(0).toUpperCase() + status.slice(1);
+    }
+  };
+
   return (
     <Card variant="glass" className={styles.reviewCard}>
       {/* Module badge */}
       <div className={styles.moduleBadge}>
         <ModuleIcon className={styles.moduleIcon} />
-        <span>{moduleLabels[item.module]}</span>
+        <span>{t(`review.modules.${item.module === 'kanji' ? 'kanji' : item.module}`)}</span>
       </div>
 
       {/* Front of card */}
@@ -71,7 +77,7 @@ export default function ReviewCard({
               onClick={handlePlayAudio}
               className={styles.audioButton}
             >
-              <IoVolumeHigh /> Play
+              <IoVolumeHigh /> {t('common.play')}
             </Button>
           )}
         </div>
@@ -81,7 +87,7 @@ export default function ReviewCard({
       {!showAnswer ? (
         <div className={styles.showAnswerSection}>
           <Button onClick={onShowAnswer} size="lg" fullWidth>
-            Show Answer
+            {t('review.card.showAnswer')}
           </Button>
         </div>
       ) : (
@@ -101,7 +107,7 @@ export default function ReviewCard({
 
             <div className={styles.ratingSection}>
               <Text variant="label" color="muted" className={styles.ratingLabel}>
-                How well did you remember?
+                {t('review.card.questionRating')}
               </Text>
 
               <div className={styles.ratingButtons}>
@@ -125,7 +131,7 @@ export default function ReviewCard({
       <div className={styles.masteryIndicator}>
         <span className={`${styles.masteryDot} ${styles[item.masteryStatus]}`} />
         <Text variant="label" color="muted">
-          {item.masteryStatus.charAt(0).toUpperCase() + item.masteryStatus.slice(1)}
+          {getMasteryLabel(item.masteryStatus)}
         </Text>
       </div>
     </Card>

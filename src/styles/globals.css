@@ -27,21 +27,11 @@
   --bg-primary: #0f0f1a;
   --bg-secondary: #1a1a2e;
   --bg-card: #16162a;
-  --bg-glass: rgba(22, 22, 42, 0.7);
-  --text-primary: #f5f0e8;
-  --text-secondary: #a8a4b8;
-  --text-muted: #7a7a96; /* WCAG AA compliant: 4.8:1 contrast ratio on #0f0f1a */
-  --accent-primary: #c41e3a;
-  --accent-secondary: #d4a574;
-  --accent-red: #c41e3a;
-  --accent-red-glow: rgba(196, 30, 58, 0.3);
-  --accent-red-light: #ff99aa;
-  --accent-gold: #d4a574;
-  --accent-gold-dim: rgba(212, 165, 116, 0.15);
-  --success: #4a9d7c;
-  --success-glow: rgba(74, 157, 124, 0.3);
-  --border-subtle: rgba(255, 255, 255, 0.06);
-  --glass-border: rgba(255, 255, 255, 0.12);
+  --surface-elevated: #1e1e36;
+  --surface-glass: rgba(30, 30, 54, 0.8);
+  --bg-glass: rgba(22, 22, 42, 0.6);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --shadow-deep: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
   --shadow-deep: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
 
   /* Typography */
@@ -247,7 +237,8 @@ body::before {
 /* Mobile-First Responsive Utilities */
 @media (max-width: 480px) {
   html {
-    font-size: 15px; /* Slightly smaller base font for tiny screens */
+    font-size: 15px;
+    /* Slightly smaller base font for tiny screens */
   }
 
   h1 {
@@ -279,6 +270,7 @@ body::before {
 
 /* Small phones (320px-375px) specific adjustments */
 @media (max-width: 375px) {
+
   /* Further reduce padding for ultra-small screens */
   .card,
   .module-card {
@@ -300,6 +292,7 @@ body::before {
 
 /* Landscape orientation on phones */
 @media (max-height: 500px) and (orientation: landscape) {
+
   /* Reduce vertical spacing in landscape */
   .section {
     padding-top: 1rem;
@@ -309,6 +302,7 @@ body::before {
 
 /* Reduced Motion Support - Accessibility */
 @media (prefers-reduced-motion: reduce) {
+
   *,
   *::before,
   *::after {

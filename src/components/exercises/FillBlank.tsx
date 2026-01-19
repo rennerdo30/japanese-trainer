@@ -2,6 +2,7 @@
 
 import { useState, useCallback } from 'react';
 import { Text, Button } from '@/components/ui';
+import { useLanguage } from '@/context/LanguageProvider';
 import { IoCheckmark, IoClose, IoHelpCircle } from 'react-icons/io5';
 import type { FillBlankExercise } from '@/types/exercises';
 import styles from './FillBlank.module.css';
@@ -12,6 +13,7 @@ interface FillBlankProps {
 }
 
 export default function FillBlank({ exercise, onAnswer }: FillBlankProps) {
+  const { t } = useLanguage();
   const [userInput, setUserInput] = useState('');
   const [showHint, setShowHint] = useState(false);
   const [feedback, setFeedback] = useState<'correct' | 'incorrect' | null>(null);
@@ -76,13 +78,13 @@ export default function FillBlank({ exercise, onAnswer }: FillBlankProps) {
           {feedback === 'correct' ? (
             <>
               <IoCheckmark className={styles.feedbackIcon} />
-              <Text variant="body">Correct!</Text>
+              <Text variant="body">{t('exercises.correct')}</Text>
             </>
           ) : (
             <>
               <IoClose className={styles.feedbackIcon} />
               <Text variant="body">
-                The correct answer is: <strong>{exercise.correctAnswer}</strong>
+                {t('exercises.fillBlank.correctAnswerIs')} <strong>{exercise.correctAnswer}</strong>
               </Text>
             </>
           )}
@@ -98,7 +100,7 @@ export default function FillBlank({ exercise, onAnswer }: FillBlankProps) {
               onClick={() => setShowHint(!showHint)}
               className={styles.hintButton}
             >
-              <IoHelpCircle /> {showHint ? 'Hide Hint' : 'Show Hint'}
+              <IoHelpCircle /> {showHint ? `${t('common.hide')} ${t('common.hint')}` : `${t('common.show')} ${t('common.hint')}`}
             </Button>
           )}
 
@@ -107,7 +109,7 @@ export default function FillBlank({ exercise, onAnswer }: FillBlankProps) {
             disabled={!userInput.trim()}
             className={styles.submitButton}
           >
-            Check Answer
+            {t('exercises.common.checkAnswer')}
           </Button>
         </div>
       )}
@@ -115,7 +117,7 @@ export default function FillBlank({ exercise, onAnswer }: FillBlankProps) {
       {showHint && exercise.hint && !submitted && (
         <div className={styles.hint}>
           <Text variant="caption" color="muted">
-            Hint: {exercise.hint}
+            {t('common.hint')}: {exercise.hint}
           </Text>
         </div>
       )}

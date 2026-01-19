@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { IoSparkles } from 'react-icons/io5';
+import { useLanguage } from '@/context/LanguageProvider';
 import styles from './XPGain.module.css';
 
 interface XPGainProps {
@@ -17,6 +18,7 @@ export default function XPGain({
   position = 'center',
   size = 'md',
 }: XPGainProps) {
+  const { t } = useLanguage();
   const [isVisible, setIsVisible] = useState(false);
   const [isExiting, setIsExiting] = useState(false);
 
@@ -54,7 +56,7 @@ export default function XPGain({
       <div className={styles.badge}>
         <IoSparkles className={styles.icon} />
         <span className={styles.amount}>+{amount}</span>
-        <span className={styles.label}>XP</span>
+        <span className={styles.label}>{t('dashboard.xpEarned').replace(' XP', '')}</span>
       </div>
 
       {/* Particle effects */}

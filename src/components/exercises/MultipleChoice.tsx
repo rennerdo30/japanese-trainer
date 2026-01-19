@@ -2,6 +2,7 @@
 
 import { useState, useCallback, useRef, KeyboardEvent } from 'react';
 import { Text, Button } from '@/components/ui';
+import { useLanguage } from '@/context/LanguageProvider';
 import { IoCheckmark, IoClose, IoVolumeHigh } from 'react-icons/io5';
 import { useTTS } from '@/hooks/useTTS';
 import type { MultipleChoiceExercise } from '@/types/exercises';
@@ -13,6 +14,7 @@ interface MultipleChoiceProps {
 }
 
 export default function MultipleChoice({ exercise, onAnswer }: MultipleChoiceProps) {
+  const { t } = useLanguage();
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const [feedback, setFeedback] = useState<'correct' | 'incorrect' | null>(null);
   const [submitted, setSubmitted] = useState(false);
@@ -82,7 +84,7 @@ export default function MultipleChoice({ exercise, onAnswer }: MultipleChoicePro
         <Text variant="h3">{exercise.question}</Text>
         {exercise.questionAudio && (
           <Button variant="ghost" size="sm" onClick={handlePlayAudio}>
-            <IoVolumeHigh /> Play
+            <IoVolumeHigh /> {t('common.play')}
           </Button>
         )}
       </div>
@@ -90,13 +92,19 @@ export default function MultipleChoice({ exercise, onAnswer }: MultipleChoicePro
       <div
         className={styles.options}
         role="radiogroup"
-        aria-label="Answer options"
+        aria-label={t('exercises.common.answerOptions')}
       >
         {exercise.options.map((option, index) => {
           const isSelected = selectedIndex === index;
           const isCorrect = index === exercise.correctIndex;
           const showCorrect = submitted && isCorrect;
           const showIncorrect = submitted && isSelected && !isCorrect;
+
+          const status = showCorrect
+            ? t('exercises.common.correctAnswerStatus')
+            : showIncorrect
+              ? t('exercises.common.incorrectStatus')
+              : '';
 
           return (
             <button
@@ -108,7 +116,7 @@ export default function MultipleChoice({ exercise, onAnswer }: MultipleChoicePro
               className={`${styles.option} ${isSelected ? styles.selected : ''} ${showCorrect ? styles.correct : ''} ${showIncorrect ? styles.incorrect : ''}`}
               role="radio"
               aria-checked={isSelected}
-              aria-label={`Option ${index + 1}: ${option}${showCorrect ? ', correct answer' : ''}${showIncorrect ? ', incorrect' : ''}`}
+              aria-label={t('exercises.common.optionLabelWithStatus', { index: index + 1, option, status })}
               type="button"
             >
               <span className={styles.optionLabel}>{option}</span>
@@ -134,7 +142,7 @@ export default function MultipleChoice({ exercise, onAnswer }: MultipleChoicePro
           className={styles.submitButton}
           fullWidth
         >
-          Check Answer
+          {t('exercises.common.checkAnswer')}
         </Button>
       )}
     </div>

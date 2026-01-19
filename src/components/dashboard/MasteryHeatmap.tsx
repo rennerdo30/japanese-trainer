@@ -6,6 +6,7 @@ import { Card, Text } from '@/components/ui';
 import { useRecommendations } from '@/hooks/useRecommendations';
 import { useProgressContext } from '@/context/ProgressProvider';
 import { useTargetLanguage } from '@/hooks/useTargetLanguage';
+import { useLanguage } from '@/context/LanguageProvider';
 import { IoGrid } from 'react-icons/io5';
 import styles from './MasteryHeatmap.module.css';
 
@@ -23,6 +24,7 @@ const MODULE_LABELS: Record<string, string> = {
 };
 
 export default function MasteryHeatmap({ className }: MasteryHeatmapProps) {
+  const { t } = useLanguage();
   const { stats, isLoading } = useRecommendations();
   const { getModuleProgress } = useProgressContext();
   const { availableModules, levels, targetLanguage } = useTargetLanguage();
@@ -66,7 +68,7 @@ export default function MasteryHeatmap({ className }: MasteryHeatmapProps) {
     return (
       <Card variant="glass" className={`${styles.heatmap} ${className || ''}`}>
         <div className={styles.loading}>
-          <Text color="muted">Loading...</Text>
+          <Text color="muted">{t('common.loading')}</Text>
         </div>
       </Card>
     );
@@ -76,7 +78,7 @@ export default function MasteryHeatmap({ className }: MasteryHeatmapProps) {
     <Card variant="glass" className={`${styles.heatmap} ${className || ''}`}>
       <div className={styles.header}>
         <IoGrid className={styles.headerIcon} />
-        <Text variant="h3">Mastery Heatmap</Text>
+        <Text variant="h3">{t('dashboard.heatmap.title')}</Text>
       </div>
 
       <div className={styles.grid} style={{ gridTemplateColumns: `auto repeat(${levelIds.length}, 1fr)` }}>
@@ -92,7 +94,7 @@ export default function MasteryHeatmap({ className }: MasteryHeatmapProps) {
         {availableModules.map((module) => (
           <Fragment key={module}>
             <div className={styles.moduleLabel}>
-              {MODULE_LABELS[module] || module}
+              {t(`modules.${module}.title`)}
             </div>
             {levelIds.map((level) => {
               const progress = heatmapData[module]?.[level] || 0;
@@ -102,7 +104,7 @@ export default function MasteryHeatmap({ className }: MasteryHeatmapProps) {
                   href={`/${module}`}
                   className={styles.cell}
                   style={{ backgroundColor: getColor(progress) }}
-                  title={`${MODULE_LABELS[module] || module} ${level}: ${progress}%`}
+                  title={`${t(`modules.${module}.title`)} ${level}: ${progress}%`}
                 >
                   {progress > 0 && (
                     <span className={styles.cellValue}>{progress}</span>
@@ -116,7 +118,7 @@ export default function MasteryHeatmap({ className }: MasteryHeatmapProps) {
 
       {/* Legend */}
       <div className={styles.legend}>
-        <Text variant="caption" color="muted">Less</Text>
+        <Text variant="caption" color="muted">{t('dashboard.activity.less')}</Text>
         <div className={styles.legendScale}>
           <div className={styles.legendCell} style={{ backgroundColor: 'var(--bg-secondary)' }} />
           <div className={styles.legendCell} style={{ backgroundColor: 'rgba(212, 165, 116, 0.2)' }} />
@@ -125,7 +127,7 @@ export default function MasteryHeatmap({ className }: MasteryHeatmapProps) {
           <div className={styles.legendCell} style={{ backgroundColor: 'rgba(212, 165, 116, 0.8)' }} />
           <div className={styles.legendCell} style={{ backgroundColor: 'var(--accent-gold)' }} />
         </div>
-        <Text variant="caption" color="muted">More</Text>
+        <Text variant="caption" color="muted">{t('dashboard.activity.more')}</Text>
       </div>
     </Card>
   );

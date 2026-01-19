@@ -13,12 +13,41 @@
     "incorrect": "Incorrecto",
     "total": "Total",
     "streak": "Racha",
-    "stop": "Detener"
+    "stop": "Detener",
+    "continue": "Continuar",
+    "changeLanguage": "Cambiar idioma",
+    "selectLanguage": "Seleccionar idioma",
+    "close": "Cerrar",
+    "listen": "Escuchar",
+    "show": "Mostrar",
+    "hide": "Ocultar",
+    "iKnowThis": "Ya lo sé",
+    "tapToContinue": "Toca para continuar",
+    "hint": "Pista",
+    "demo": "Demostración",
+    "guide": "Guía",
+    "clear": "Borrar",
+    "gotIt": "Entendido",
+    "days": {
+      "sun": "Dom",
+      "mon": "Lun",
+      "tue": "Mar",
+      "wed": "Mié",
+      "thu": "Jue",
+      "fri": "Vie",
+      "sat": "Sáb"
+    },
+    "errorBoundary": {
+      "title": "Algo salió mal",
+      "message": "Ocurrió un error inesperado. Por favor, intenta actualizar la página.",
+      "tryAgain": "Intentar de nuevo"
+    }
   },
   "modules": {
     "alphabet": {
       "title": "Alfabeto",
-      "description": "Domina Hiragana y Katakana"
+      "description": "Domina Hiragana y Katakana",
+      "title_ko": "Hangul"
     },
     "vocabulary": {
       "title": "Vocabulario",
@@ -26,7 +55,9 @@
     },
     "kanji": {
       "title": "Kanji",
-      "description": "Domina los caracteres chinos"
+      "description": "Domina los caracteres chinos",
+      "title_ja": "Kanji",
+      "title_zh": "Hanzi"
     },
     "grammar": {
       "title": "Gramática",
@@ -137,11 +168,446 @@
     "dayStreak": "Racha Diaria",
     "wordsLearned": "Palabras Aprendidas",
     "kanjiMastered": "Kanji Dominados",
-    "studyTime": "Tiempo de Estudio (min)"
+    "studyTime": "Tiempo de Estudio (min)",
+    "continueLearning": "Continuar aprendiendo",
+    "browsePaths": "Explorar rutas de aprendizaje",
+    "reviewDashboardStat": "Panel de revisión",
+    "leaderboardStat": "Tabla de clasificación",
+    "settingsStat": "Configuración",
+    "hanziMastered": "Hanzi dominados",
+    "hangulMastered": "Hangul dominados",
+    "charactersLearned": "Caracteres aprendidos",
+    "weeklyProgress": {
+      "thisWeek": "Esta semana",
+      "fullReport": "Informe completo"
+    },
+    "lessons": "Lecciones",
+    "xpEarned": "XP ganados",
+    "activeDays": "Días activos",
+    "accuracy": "Precisión",
+    "targetLanguage": {
+      "title": "Objetivo de aprendizaje",
+      "selectLabel": "Seleccionar idioma objetivo",
+      "levelsAvailable": "{count} niveles disponibles"
+    },
+    "pathProgress": {
+      "nextUp": "Próximo",
+      "lessonsCount": "{completed} / {total} lecciones"
+    },
+    "goalEstimator": {
+      "title": "Estimador de objetivos",
+      "daysLeft": "días restantes",
+      "minPerDay": "min/día",
+      "hoursLeft": "horas restantes",
+      "estimatedCompletion": "Finalización estimada",
+      "toLevel": "hasta {level}",
+      "learnedItemsInfo": "{learned} / {total} elementos aprendidos",
+      "milestones": "Hitos",
+      "atMinutesPerDay": "A {count} min/día"
+    },
+    "library": {
+      "viewAll": "Ver todo",
+      "title": "Biblioteca"
+    },
+    "activity": {
+      "title": "Actividad",
+      "less": "Menos",
+      "more": "Más",
+      "current": "Actual",
+      "best": "Mejor",
+      "totalHrs": "Total horas",
+      "dayStreakStatus": "Racha de {count} días",
+      "minTooltip": "{count} min"
+    },
+    "compass": {
+      "title": "Brújula de aprendizaje",
+      "nextUp": "Próximo",
+      "reviewsDue": "{count} revisiones pendientes",
+      "min": "{count} min",
+      "modules": {
+        "alphabet": "Alphabet",
+        "vocabulary": "Vocabulary",
+        "kanji": "Characters",
+        "grammar": "Grammar",
+        "reading": "Reading",
+        "listening": "Listening"
+      }
+    },
+    "heatmap": {
+      "title": "Mapa de calor de dominio"
+    },
+    "greetings": {
+      "goodMorning": "Buenos días",
+      "goodAfternoon": "Buenas tardes",
+      "goodEvening": "Buenas noches",
+      "goodNight": "Buenas noches"
+    },
+    "notifications": "Notificaciones"
   },
   "stats": {
     "correct": "Correcto",
     "total": "Total",
     "streak": "racha"
+  },
+  "auth": {
+    "signIn": "Iniciar sesión",
+    "signOut": "Cerrar sesión",
+    "user": "Usuario",
+    "loading": "Cargando...",
+    "loginDialog": {
+      "title": {
+        "signIn": "Iniciar sesión",
+        "createAccount": "Crear cuenta",
+        "continueAnonymously": "Continuar anónimamente"
+      },
+      "emailPassword": {
+        "title": "Correo electrónico y contraseña",
+        "description": "Inicia sesión con tu correo electrónico y contraseña. Accede a tu cuenta desde cualquier dispositivo."
+      },
+      "anonymous": {
+        "title": "Continuar anónimamente",
+        "description": "Empieza a usar la aplicación inmediatamente. Tu sesión está vinculada solo a este dispositivo."
+      },
+      "form": {
+        "email": "Correo electrónico",
+        "password": "Contraseña",
+        "emailPlaceholder": "tu@email.com",
+        "passwordPlaceholderNew": "Al menos 8 caracteres",
+        "passwordPlaceholderExisting": "Ingresa tu contraseña",
+        "back": "Atrás",
+        "signUp": "Registrarse",
+        "alreadyHaveAccount": "¿Ya tienes una cuenta? Inicia sesión",
+        "dontHaveAccount": "¿No tienes una cuenta? Regístrate"
+      },
+      "signingIn": "Iniciando sesión...",
+      "errors": {
+        "invalidCredentials": "Correo electrónico o contraseña inválidos. Por favor, verifica tus credenciales e inténtalo de nuevo.",
+        "accountExists": "Ya existe una cuenta con este correo electrónico. Intenta iniciar sesión en su lugar.",
+        "invalidEmail": "Por favor, ingresa una dirección de correo electrónico válida.",
+        "passwordWeak": "La contraseña debe tener al menos 8 caracteres.",
+        "rateLimit": "Demasiados intentos. Por favor, espera un momento e inténtalo de nuevo.",
+        "network": "Error de conexión. Por favor, verifica tu internet e inténtalo de nuevo.",
+        "generic": "Autenticación fallida. Por favor, inténtalo de nuevo."
+      }
+    }
+  },
+  "gamification": {
+    "levelUp": {
+      "title": "¡Subiste de nivel!",
+      "message": "Has alcanzado el nivel {level} de {tier}"
+    },
+    "achievements": {
+      "title": "Logros ({percentage}%)",
+      "unlockedCount": "{unlocked} / {total}",
+      "unlockedLabel": "¡Logro desbloqueado!",
+      "empty": "No se encontraron logros",
+      "secret": {
+        "name": "???",
+        "description": "Completa este logro secreto para revelarlo"
+      },
+      "categories": {
+        "all": "Todos",
+        "learning": "Aprendizaje",
+        "streak": "Racha",
+        "mastery": "Dominio",
+        "explorer": "Explorador",
+        "special": "Especial"
+      },
+      "status": {
+        "all": "Todos",
+        "unlocked": "Desbloqueados",
+        "locked": "Bloqueados"
+      }
+    }
+  },
+  "settings": {
+    "title": "Configuración",
+    "subtitle": "Personaliza tu experiencia de aprendizaje",
+    "leaderboard": {
+      "title": "Tabla de clasificación",
+      "showOnLeaderboard": "Mostrar en la tabla de clasificación",
+      "showOnLeaderboardDescription": "Cuando está desactivado, tu progreso no aparecerá en las clasificaciones públicas",
+      "visible": "Visible",
+      "hidden": "Oculto",
+      "anonymousName": "Tu nombre anónimo",
+      "anonymousNameDescription": "Así es como apareces en la tabla de clasificación"
+    },
+    "srs": {
+      "title": "Repetición espaciada",
+      "description": "Personaliza la programación de repasos y la dificultad"
+    },
+    "audio": {
+      "title": "Audio y TTS",
+      "offlineTTS": "TTS sin conexión (Kokoro)",
+      "offlineTTSDescription": "Descarga el modelo de ~{{size}}MB para texto a voz sin conexión",
+      "notSupported": "No compatible: {{reason}}",
+      "off": "Desactivado",
+      "on": "Activado",
+      "desktopNotice": "Kokoro TTS se carga automáticamente en escritorio",
+      "readyNotice": "TTS sin conexión listo - funciona sin internet",
+      "loadError": "Error al cargar TTS sin conexión",
+      "voiceSelection": "Selección de voz ({{language}})",
+      "notSupportedWarning": "Kokoro no es compatible con {{language}}. Se usa síntesis de voz del navegador o audio pregenerado en su lugar.",
+      "noVoicesWarning": "No hay voces disponibles para {{language}}.",
+      "voiceSelectionNote": "Selecciona una voz para texto a voz en {{language}}. Se usa audio pregenerado cuando está disponible.",
+      "playing": "Reproduciendo...",
+      "test": "Probar",
+      "voiceDetail": "{{language}} • {{gender}} • Calidad: {{quality}}",
+      "priorityTitle": "Prioridad de reproducción de audio:",
+      "priority1": "Audio pregenerado (mejor calidad)",
+      "priority2": "Kokoro TTS ({{status}}, {{support}})",
+      "ifEnabled": "si está activado",
+      "autoLoaded": "cargado automáticamente",
+      "englishOnly": "Solo inglés",
+      "priority3": "Síntesis de voz del navegador (alternativa)"
+    },
+    "appearance": {
+      "title": "Apariencia",
+      "comingSoon": "Configuración de temas próximamente"
+    },
+    "backToDashboard": "Volver al panel"
+  },
+  "srs": {
+    "title": "Configuración de SRS",
+    "subtitle": "Personaliza tu experiencia de repetición espaciada",
+    "scheduling": {
+      "title": "Programación de repasos",
+      "newItemsLimit": "Límite diario de elementos nuevos",
+      "newItemsDescription": "Máximo de elementos nuevos para aprender por día",
+      "reviewLimit": "Límite diario de repasos",
+      "reviewLimitDescription": "Máximo de repasos por día (0 = ilimitado)",
+      "threshold": "Umbral de repaso",
+      "thresholdDescription": "Qué tan estricta es la programación del SRS",
+      "thresholdStrict": "Estricto",
+      "thresholdModerate": "Moderado",
+      "thresholdRelaxed": "Relajado"
+    },
+    "difficulty": {
+      "title": "Ajustes de dificultad",
+      "easeBonus": "Bonificación de facilidad",
+      "easeBonusDescription": "Ajusta qué tan rápido crecen los intervalos ({{value}}%)",
+      "intervalMultiplier": "Multiplicador de intervalo",
+      "intervalMultiplierDescription": "Escala todos los intervalos por este factor",
+      "lapseInterval": "Nuevo intervalo por fallo",
+      "lapseIntervalDescription": "Cuando fallas, restablece el intervalo a este % del anterior"
+    },
+    "options": {
+      "title": "Opciones de repaso",
+      "autoplayAudio": "Reproducción automática de audio",
+      "autoplayAudioDescription": "Reproducir audio automáticamente cuando se revele una tarjeta",
+      "showReadingHints": "Mostrar pistas de lectura",
+      "readingHintsDescription": "Mostrar pistas de furigana o pinyin para pronunciaciones",
+      "accuracy": "Precisión requerida",
+      "accuracyDescription": "Precisión objetivo para dominio ({{value}}%)"
+    },
+    "notifications": {
+      "title": "Notificaciones",
+      "reminders": "Recordatorios de repaso",
+      "remindersDescription": "Recibir notificaciones cuando haya repasos pendientes",
+      "reminderTime": "Hora del recordatorio",
+      "reminderTimeDescription": "Cuándo enviar el recordatorio diario",
+      "reminderThreshold": "Umbral de recordatorio",
+      "reminderThresholdDescription": "Notificar solo cuando los repasos superen este número"
+    },
+    "actions": {
+      "reset": "Restablecer valores predeterminados",
+      "save": "Guardar configuración",
+      "saved": "¡Guardado!",
+      "backToSettings": "Volver a configuración"
+    }
+  },
+  "languages": {
+    "ja": "Japonés",
+    "zh": "Chino",
+    "ko": "Coreano",
+    "es": "Español",
+    "fr": "Francés",
+    "hi": "Hindi",
+    "it": "Italiano",
+    "pt": "Portugués",
+    "en": "Inglés"
+  },
+  "lessons": {
+    "view": {
+      "noContent": "No hay contenido disponible",
+      "noExercises": "No hay ejercicios disponibles para esta lección.",
+      "previous": "Anterior",
+      "next": "Siguiente",
+      "startExercises": "Comenzar ejercicios",
+      "completeLesson": "Completar lección",
+      "topic": "Tema",
+      "vocabulary": "Vocabulario",
+      "grammar": "Gramática",
+      "culturalNote": "Nota cultural",
+      "exerciseStep": "Ejercicio {current} de {total}",
+      "culturalNotes": "Notas culturales",
+      "learning": "Aprendizaje",
+      "practice": "Práctica",
+      "stop": "Detener",
+      "tapToContinueHint": "Toca o desliza para continuar"
+    },
+    "vocabulary": {
+      "examples": "Ejemplos"
+    },
+    "grammar": {
+      "examples": "Ejemplos",
+      "usageNotes": "Notas de uso",
+      "hideExplanation": "Ocultar explicación",
+      "showExplanation": "Mostrar explicación",
+      "iUnderstand": "Entiendo"
+    },
+    "character": {
+      "strokeOrder": "Orden de trazos",
+      "memoryTip": "Consejo de memoria"
+    },
+    "intro": {
+      "minutes": "minutos",
+      "items": "elementos",
+      "vocabulary": "vocabulario",
+      "back": "Atrás",
+      "whatYoullLearn": "Lo que aprenderás:",
+      "vocabularyWords": "{count} palabras de vocabulario",
+      "grammarPoints": "{count} puntos de gramática",
+      "culturalNotes": "{count} notas culturales",
+      "startLesson": "Comenzar lección"
+    },
+    "summary": {
+      "levelUp": "¡Subiste de nivel!",
+      "perfect": "¡Perfecto!",
+      "lessonComplete": "¡Lección completada!",
+      "correctCount": "{correct} / {total} correctas",
+      "xpTotal": "+{xp} XP",
+      "xpBase": "Base: +{xp}",
+      "xpPerfect": "Perfecto: +{xp}",
+      "xpStreak": "Racha: +{xp}",
+      "newLevel": "Alcanzaste el nivel {level}",
+      "nextLesson": "Siguiente lección",
+      "pathComplete": "Ruta completada",
+      "backToPath": "Volver a la ruta",
+      "upNext": "Próximamente"
+    }
+  },
+  "exercises": {
+    "correct": "¡Correcto!",
+    "common": {
+      "checkAnswer": "Verificar respuesta",
+      "answerOptions": "Opciones de respuesta",
+      "optionLabelWithStatus": "Opción {index}: {option}{status}",
+      "correctAnswerStatus": ", respuesta correcta",
+      "incorrectStatus": ", incorrecta",
+      "quitSession": "Salir de la sesión",
+      "quitConfirmTitle": "¿Salir de la sesión?",
+      "quitConfirmMessage": "Tu progreso en esta sesión se perderá.",
+      "confirmQuit": "Salir",
+      "cancel": "Cancelar",
+      "unsupported": "Tipo de ejercicio aún no compatible"
+    },
+    "matching": {
+      "success": "¡Todos los pares emparejados correctamente!",
+      "error": "Algunos emparejamientos fueron incorrectos. Revisa los pares resaltados.",
+      "title": "Empareja los pares",
+      "leftColumnLabel": "Columna izquierda - selecciona un elemento para emparejar",
+      "rightColumnLabel": "Columna derecha - selecciona para completar el emparejamiento",
+      "leftItemLabel": "{item}{matched}{status}",
+      "matchedStatus": ", emparejado",
+      "correctMatchStatus": ", emparejamiento correcto",
+      "incorrectMatchStatus": ", emparejamiento incorrecto",
+      "rightItemLabel": "{item}{matched}{available}",
+      "alreadyMatchedStatus": ", ya emparejado",
+      "availableToMatchStatus": ", disponible para emparejar",
+      "checkMatches": "Verificar emparejamientos ({count}/{total})"
+    },
+    "fillBlank": {
+      "correctAnswerIs": "La respuesta correcta es:"
+    },
+    "translation": {
+      "correctAnswer": "Traducción correcta:",
+      "translateTo": "Traducir a {language}",
+      "checkTranslation": "Verificar traducción",
+      "placeholder": "Escribe tu traducción..."
+    },
+    "typing": {
+      "correctAnswer": "Respuesta correcta:",
+      "instruction": "Escribe la traducción",
+      "placeholder": "Escribe tu respuesta...",
+      "expectedLength": "Esperado: {count} caracteres"
+    },
+    "strokeOrder": {
+      "strokesCount": "{count} trazos",
+      "strokesProgress": "Trazos: {current} / {total}",
+      "feedbackIncorrect": "¡Sigue practicando! El carácter tiene {count} trazos.",
+      "checkCharacter": "Verificar carácter"
+    },
+    "wordOrder": {
+      "placeholder": "Toca palabras para construir la oración"
+    },
+    "listening": {
+      "playing": "Reproduciendo...",
+      "playAudio": "Reproducir audio",
+      "playCount": "Reproducido {count} {count, plural, one {vez} other {veces}}",
+      "transcriptShow": "Mostrar transcripción",
+      "transcriptHide": "Ocultar transcripción"
+    }
+  },
+  "review": {
+    "config": {
+      "title": "Sesión de repaso",
+      "selectModules": "Seleccionar módulos",
+      "numberOfItems": "Número de elementos",
+      "onlyItemsAvailable": "Solo {count} elementos disponibles",
+      "selectedModules": "Módulos seleccionados:",
+      "itemsToReview": "Elementos para repasar:",
+      "startReview": "Iniciar repaso",
+      "noItemsDue": "No hay elementos pendientes de repaso. ¡Buen trabajo manteniéndote al día!",
+      "due": "{count} pendientes"
+    },
+    "modules": {
+      "vocabulary": "Vocabulario",
+      "kanji": "Caracteres",
+      "grammar": "Gramática"
+    },
+    "progress": {
+      "accuracy": "Precisión:"
+    },
+    "card": {
+      "showAnswer": "Mostrar respuesta",
+      "questionRating": "¿Qué tan bien lo recordaste?",
+      "rating": {
+        "again": "De nuevo",
+        "hard": "Difícil",
+        "good": "Bien",
+        "easy": "Fácil",
+        "perfect": "Perfecto",
+        "againDesc": "Olvidado por completo",
+        "hardDesc": "Costó recordar",
+        "goodDesc": "Correcto con esfuerzo",
+        "easyDesc": "Recordado fácilmente",
+        "perfectDesc": "Recuerdo instantáneo"
+      }
+    },
+    "mastery": {
+      "new": "Nuevo",
+      "learning": "Aprendiendo",
+      "review": "Repaso",
+      "mastered": "Dominado"
+    },
+    "stats": {
+      "title": "Sesión de repaso",
+      "sessionComplete": "¡Sesión completada!",
+      "accuracy": "Precisión",
+      "correct": "Correcto",
+      "incorrect": "Incorrecto",
+      "duration": "Duración",
+      "moduleBreakdown": "Desglose por módulo",
+      "avgTimePerItem": "Tiempo promedio por elemento: {time}s",
+      "reviewMore": "Repasar más elementos",
+      "backToDashboard": "Volver al panel",
+      "performance": {
+        "excellent": "¡Excelente trabajo! ¡Sigue así!",
+        "good": "¡Buen trabajo! Estás progresando.",
+        "okay": "¡No está mal! Sigue practicando.",
+        "needsWork": "¡Sigue adelante! La práctica hace al maestro."
+      }
+    }
   }
 }

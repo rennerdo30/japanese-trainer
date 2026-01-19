@@ -1,6 +1,7 @@
 'use client';
 
 import { Card, Text, Button } from '@/components/ui';
+import { useLanguage } from '@/context/LanguageProvider';
 import type { CurriculumLesson } from '@/types/curriculum';
 import {
   IoCheckmarkCircle,
@@ -41,6 +42,7 @@ export default function LessonSummary({
   onNextLesson,
   onBackToPath,
 }: LessonSummaryProps) {
+  const { t } = useLanguage();
   const isPerfect = result.score === 100;
 
   return (
@@ -51,7 +53,7 @@ export default function LessonSummary({
           {isPerfect ? <IoTrophy /> : <IoCheckmarkCircle />}
         </div>
         <Text variant="h1" color="gold" className={styles.title}>
-          {isPerfect ? 'Perfect!' : 'Lesson Complete!'}
+          {isPerfect ? t('lessons.summary.perfect') : t('lessons.summary.lessonComplete')}
         </Text>
         <Text color="muted" className={styles.subtitle}>
           {lesson.title}
@@ -68,33 +70,33 @@ export default function LessonSummary({
             </Text>
           </div>
           <Text variant="caption" color="muted">
-            {result.correctAnswers} / {result.totalQuestions} correct
+            {t('lessons.summary.correctCount', { correct: result.correctAnswers, total: result.totalQuestions })}
           </Text>
         </div>
 
         {/* XP Breakdown */}
         <div className={styles.xpSection}>
           <Text variant="h2" color="gold" className={styles.xpTotal}>
-            +{result.xpEarned} XP
+            {t('lessons.summary.xpTotal', { xp: result.xpEarned })}
           </Text>
 
           <div className={styles.xpBreakdown}>
             <div className={styles.xpItem}>
               <IoStar className={styles.xpIcon} />
-              <Text variant="caption">Base: +{result.xpBreakdown.base}</Text>
+              <Text variant="caption">{t('lessons.summary.xpBase', { xp: result.xpBreakdown.base })}</Text>
             </div>
 
             {result.xpBreakdown.perfect > 0 && (
               <div className={styles.xpItem}>
                 <IoTrophy className={styles.xpIcon} />
-                <Text variant="caption">Perfect: +{result.xpBreakdown.perfect}</Text>
+                <Text variant="caption">{t('lessons.summary.xpPerfect', { xp: result.xpBreakdown.perfect })}</Text>
               </div>
             )}
 
             {result.xpBreakdown.streak > 0 && (
               <div className={styles.xpItem}>
                 <IoFlame className={styles.xpIcon} />
-                <Text variant="caption">Streak: +{result.xpBreakdown.streak}</Text>
+                <Text variant="caption">{t('lessons.summary.xpStreak', { xp: result.xpBreakdown.streak })}</Text>
               </div>
             )}
           </div>
@@ -105,9 +107,9 @@ export default function LessonSummary({
           <div className={styles.levelUpBanner}>
             <IoTrophy className={styles.levelUpIcon} />
             <div className={styles.levelUpContent}>
-              <Text variant="h3">Level Up!</Text>
+              <Text variant="h3">{t('lessons.summary.levelUp')}</Text>
               <Text variant="caption" color="muted">
-                You reached level {result.newLevel}
+                {t('lessons.summary.newLevel', { level: result.newLevel })}
               </Text>
             </div>
           </div>
@@ -118,16 +120,16 @@ export default function LessonSummary({
       <div className={styles.actions}>
         {nextLesson ? (
           <Button onClick={onNextLesson} size="lg" className={styles.primaryButton}>
-            Next Lesson <IoArrowForward />
+            {t('lessons.summary.nextLesson')} <IoArrowForward />
           </Button>
         ) : (
           <Button onClick={onBackToPath} size="lg" className={styles.primaryButton}>
-            Path Complete <IoTrophy />
+            {t('lessons.summary.pathComplete')} <IoTrophy />
           </Button>
         )}
 
         <Button variant="ghost" onClick={onBackToPath}>
-          <IoHome /> Back to Path
+          <IoHome /> {t('lessons.summary.backToPath')}
         </Button>
       </div>
 
@@ -135,7 +137,7 @@ export default function LessonSummary({
       {nextLesson && (
         <Card variant="outlined" className={styles.nextLessonPreview}>
           <Text variant="label" color="muted">
-            Up Next
+            {t('lessons.summary.upNext')}
           </Text>
           <Text variant="h3">{nextLesson.title}</Text>
           <Text variant="caption" color="muted">

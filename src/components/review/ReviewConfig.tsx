@@ -26,10 +26,10 @@ const moduleOptions: Array<{
   label: string;
   icon: typeof IoBook;
 }> = [
-  { value: 'vocabulary', label: 'Vocabulary', icon: IoBook },
-  { value: 'kanji', label: 'Characters', icon: IoSchool },
-  { value: 'grammar', label: 'Grammar', icon: IoDocumentText },
-];
+    { value: 'vocabulary', label: 'Vocabulary', icon: IoBook },
+    { value: 'kanji', label: 'Characters', icon: IoSchool },
+    { value: 'grammar', label: 'Grammar', icon: IoDocumentText },
+  ];
 
 const itemCountOptions = [5, 10, 20, 50];
 
@@ -71,12 +71,12 @@ export default function ReviewConfig({
     <Card variant="glass" className={styles.container}>
       <div className={styles.header}>
         <IoSettings className={styles.headerIcon} />
-        <Text variant="h2">Review Session</Text>
+        <Text variant="h2">{t('review.config.title')}</Text>
       </div>
 
       <div className={styles.section}>
         <Text variant="label" color="muted" className={styles.sectionLabel}>
-          Select Modules
+          {t('review.config.selectModules')}
         </Text>
         <div className={styles.moduleGrid}>
           {moduleOptions.map((option) => {
@@ -95,7 +95,7 @@ export default function ReviewConfig({
                 <ModuleIcon className={styles.moduleIcon} />
                 <span className={styles.moduleLabel}>{option.label}</span>
                 <span className={styles.moduleCount}>
-                  {count} due
+                  {t('review.config.due', { count })}
                 </span>
               </button>
             );
@@ -105,7 +105,7 @@ export default function ReviewConfig({
 
       <div className={styles.section}>
         <Text variant="label" color="muted" className={styles.sectionLabel}>
-          Number of Items
+          {t('review.config.numberOfItems')}
         </Text>
         <div className={styles.countOptions}>
           {itemCountOptions.map((count) => (
@@ -121,18 +121,18 @@ export default function ReviewConfig({
         </div>
         {availableItems < itemCount && availableItems > 0 && (
           <Text variant="caption" color="muted" className={styles.availableNote}>
-            Only {availableItems} items available
+            {t('review.config.onlyItemsAvailable', { count: availableItems })}
           </Text>
         )}
       </div>
 
       <div className={styles.summary}>
         <div className={styles.summaryRow}>
-          <Text color="muted">Selected modules:</Text>
+          <Text color="muted">{t('review.config.selectedModules')}</Text>
           <Text>{selectedModules.length}</Text>
         </div>
         <div className={styles.summaryRow}>
-          <Text color="muted">Items to review:</Text>
+          <Text color="muted">{t('review.config.itemsToReview')}</Text>
           <Text color="gold">{effectiveItemCount}</Text>
         </div>
       </div>
@@ -144,12 +144,12 @@ export default function ReviewConfig({
         disabled={effectiveItemCount === 0}
         className={styles.startButton}
       >
-        <IoPlay /> Start Review
+        <IoPlay /> {t('review.config.startReview')}
       </Button>
 
       {dueItems.total === 0 && (
         <Text color="muted" className={styles.noItemsMessage}>
-          No items due for review. Great job keeping up!
+          {t('review.config.noItemsDue')}
         </Text>
       )}
     </Card>

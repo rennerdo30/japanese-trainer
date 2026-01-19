@@ -17,6 +17,7 @@ export default function QuickStats({
   studyTimeMinutes,
   lessonsCompleted,
 }: QuickStatsProps) {
+  const { t } = useLanguage();
   const formatTime = (minutes: number) => {
     if (minutes < 60) return `${minutes}m`;
     const hours = Math.floor(minutes / 60);
@@ -28,25 +29,25 @@ export default function QuickStats({
     {
       icon: IoFlame,
       value: streak,
-      label: 'Day Streak',
+      label: t('dashboard.dayStreak'),
       color: 'var(--accent-orange, #FFA500)',
     },
     {
       icon: IoLanguage,
       value: wordsLearned,
-      label: 'Words Learned',
+      label: t('dashboard.wordsLearned'),
       color: 'var(--accent-blue, #4A90D9)',
     },
     {
       icon: IoTime,
       value: formatTime(studyTimeMinutes),
-      label: 'Study Time',
+      label: t('dashboard.studyTime'),
       color: 'var(--accent-green, #4ADE80)',
     },
     {
       icon: IoBook,
       value: lessonsCompleted,
-      label: 'Lessons',
+      label: t('dashboard.lessons'),
       color: 'var(--accent-purple, #A855F7)',
     },
   ];

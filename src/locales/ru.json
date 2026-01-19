@@ -13,12 +13,41 @@
     "incorrect": "Неправильно",
     "total": "Всего",
     "streak": "Серия",
-    "stop": "Стопирь"
+    "stop": "Стопирь",
+    "continue": "Продолжить",
+    "changeLanguage": "Сменить язык",
+    "selectLanguage": "Выбрать язык",
+    "close": "Закрыть",
+    "listen": "Слушать",
+    "show": "Показать",
+    "hide": "Скрыть",
+    "iKnowThis": "Я знаю это",
+    "tapToContinue": "Нажмите, чтобы продолжить",
+    "hint": "Подсказка",
+    "demo": "Демо",
+    "guide": "Руководство",
+    "clear": "Очистить",
+    "gotIt": "Понятно",
+    "days": {
+      "sun": "Вс",
+      "mon": "Пн",
+      "tue": "Вт",
+      "wed": "Ср",
+      "thu": "Чт",
+      "fri": "Пт",
+      "sat": "Сб"
+    },
+    "errorBoundary": {
+      "title": "Что-то пошло не так",
+      "message": "Произошла непредвиденная ошибка. Попробуйте обновить страницу.",
+      "tryAgain": "Попробовать снова"
+    }
   },
   "modules": {
     "alphabet": {
       "title": "Алфавит",
-      "description": "Освойте Хирагану и Катакану"
+      "description": "Освойте Хирагану и Катакану",
+      "title_ko": "Хангыль"
     },
     "vocabulary": {
       "title": "Словарь",
@@ -26,7 +55,9 @@
     },
     "kanji": {
       "title": "Кандзи",
-      "description": "Освойте китайские иероглифы"
+      "description": "Освойте китайские иероглифы",
+      "title_ja": "Кандзи",
+      "title_zh": "Ханьцзы"
     },
     "grammar": {
       "title": "Грамматика",
@@ -137,11 +168,446 @@
     "dayStreak": "Ежедневная Серия",
     "wordsLearned": "Изученные Слова",
     "kanjiMastered": "Освоенные Кандзи",
-    "studyTime": "Время Обучения (мин)"
+    "studyTime": "Время Обучения (мин)",
+    "continueLearning": "Продолжить обучение",
+    "browsePaths": "Обзор учебных путей",
+    "reviewDashboardStat": "Панель обзора",
+    "leaderboardStat": "Таблица лидеров",
+    "settingsStat": "Настройки",
+    "hanziMastered": "Освоено ханьцзы",
+    "hangulMastered": "Освоено хангыль",
+    "charactersLearned": "Изучено символов",
+    "weeklyProgress": {
+      "thisWeek": "На этой неделе",
+      "fullReport": "Полный отчет"
+    },
+    "lessons": "Уроки",
+    "xpEarned": "Заработано XP",
+    "activeDays": "Активные дни",
+    "accuracy": "Точность",
+    "targetLanguage": {
+      "title": "Цель обучения",
+      "selectLabel": "Выберите целевой язык",
+      "levelsAvailable": "Доступно {count} уровней"
+    },
+    "pathProgress": {
+      "nextUp": "Далее",
+      "lessonsCount": "{completed} / {total} уроков"
+    },
+    "goalEstimator": {
+      "title": "Оценка цели",
+      "daysLeft": "дней осталось",
+      "minPerDay": "мин/день",
+      "hoursLeft": "часов осталось",
+      "estimatedCompletion": "Предполагаемое завершение",
+      "toLevel": "до уровня {level}",
+      "learnedItemsInfo": "{learned} / {total} элементов изучено",
+      "milestones": "Вехи",
+      "atMinutesPerDay": "При {count} мин/день"
+    },
+    "library": {
+      "viewAll": "Посмотреть все",
+      "title": "Библиотека"
+    },
+    "activity": {
+      "title": "Активность",
+      "less": "Меньше",
+      "more": "Больше",
+      "current": "Текущее",
+      "best": "Лучшее",
+      "totalHrs": "Всего часов",
+      "dayStreakStatus": "Серия {count} дней",
+      "minTooltip": "{count} мин"
+    },
+    "compass": {
+      "title": "Компас обучения",
+      "nextUp": "Далее",
+      "reviewsDue": "{count} повторений к выполнению",
+      "min": "{count} мин",
+      "modules": {
+        "alphabet": "Alphabet",
+        "vocabulary": "Vocabulary",
+        "kanji": "Characters",
+        "grammar": "Grammar",
+        "reading": "Reading",
+        "listening": "Listening"
+      }
+    },
+    "heatmap": {
+      "title": "Тепловая карта освоения"
+    },
+    "greetings": {
+      "goodMorning": "Доброе утро",
+      "goodAfternoon": "Добрый день",
+      "goodEvening": "Добрый вечер",
+      "goodNight": "Доброй ночи"
+    },
+    "notifications": "Уведомления"
   },
   "stats": {
     "correct": "Правильно",
     "total": "Всего",
     "streak": "серия"
+  },
+  "auth": {
+    "signIn": "Войти",
+    "signOut": "Выйти",
+    "user": "Пользователь",
+    "loading": "Загрузка...",
+    "loginDialog": {
+      "title": {
+        "signIn": "Войти",
+        "createAccount": "Создать аккаунт",
+        "continueAnonymously": "Продолжить анонимно"
+      },
+      "emailPassword": {
+        "title": "Электронная почта и пароль",
+        "description": "Войдите с помощью электронной почты и пароля. Доступ к аккаунту с любого устройства."
+      },
+      "anonymous": {
+        "title": "Продолжить анонимно",
+        "description": "Начните использовать приложение сразу. Ваша сессия привязана только к этому устройству."
+      },
+      "form": {
+        "email": "Электронная почта",
+        "password": "Пароль",
+        "emailPlaceholder": "ваш@email.com",
+        "passwordPlaceholderNew": "Не менее 8 символов",
+        "passwordPlaceholderExisting": "Введите пароль",
+        "back": "Назад",
+        "signUp": "Зарегистрироваться",
+        "alreadyHaveAccount": "Уже есть аккаунт? Войти",
+        "dontHaveAccount": "Нет аккаунта? Зарегистрироваться"
+      },
+      "signingIn": "Вход...",
+      "errors": {
+        "invalidCredentials": "Неверная почта или пароль. Проверьте данные и попробуйте снова.",
+        "accountExists": "Аккаунт с этой почтой уже существует. Попробуйте войти.",
+        "invalidEmail": "Введите корректный адрес электронной почты.",
+        "passwordWeak": "Пароль должен быть не менее 8 символов.",
+        "rateLimit": "Слишком много попыток. Подождите и попробуйте снова.",
+        "network": "Ошибка соединения. Проверьте интернет и попробуйте снова.",
+        "generic": "Ошибка аутентификации. Попробуйте снова."
+      }
+    }
+  },
+  "gamification": {
+    "levelUp": {
+      "title": "Повышение уровня!",
+      "message": "Вы достигли {tier} уровня {level}"
+    },
+    "achievements": {
+      "title": "Достижения ({percentage}%)",
+      "unlockedCount": "{unlocked} / {total}",
+      "unlockedLabel": "Достижение разблокировано!",
+      "empty": "Достижений не найдено",
+      "secret": {
+        "name": "???",
+        "description": "Выполните это секретное достижение, чтобы раскрыть его"
+      },
+      "categories": {
+        "all": "Все",
+        "learning": "Обучение",
+        "streak": "Стрик",
+        "mastery": "Мастерство",
+        "explorer": "Исследователь",
+        "special": "Особые"
+      },
+      "status": {
+        "all": "Все",
+        "unlocked": "Разблокировано",
+        "locked": "Заблокировано"
+      }
+    }
+  },
+  "settings": {
+    "title": "Настройки",
+    "subtitle": "Настройте свой опыт обучения",
+    "leaderboard": {
+      "title": "Таблица лидеров",
+      "showOnLeaderboard": "Показывать в таблице лидеров",
+      "showOnLeaderboardDescription": "При отключении ваш прогресс не будет отображаться в публичных рейтингах",
+      "visible": "Видимый",
+      "hidden": "Скрытый",
+      "anonymousName": "Ваше анонимное имя",
+      "anonymousNameDescription": "Так вы будете отображаться в таблице лидеров"
+    },
+    "srs": {
+      "title": "Интервальное повторение",
+      "description": "Настройте расписание повторений и сложность"
+    },
+    "audio": {
+      "title": "Аудио и TTS",
+      "offlineTTS": "Офлайн TTS (Kokoro)",
+      "offlineTTSDescription": "Скачайте модель ~{{size}}МБ для офлайн преобразования текста в речь",
+      "notSupported": "Не поддерживается: {{reason}}",
+      "off": "Выкл",
+      "on": "Вкл",
+      "desktopNotice": "Kokoro TTS загружается автоматически на компьютере",
+      "readyNotice": "Офлайн TTS готов — работает без интернета",
+      "loadError": "Не удалось загрузить офлайн TTS",
+      "voiceSelection": "Выбор голоса ({{language}})",
+      "notSupportedWarning": "Kokoro не поддерживает {{language}}. Используется синтез речи браузера или предварительно сгенерированное аудио.",
+      "noVoicesWarning": "Нет доступных голосов для {{language}}.",
+      "voiceSelectionNote": "Выберите голос для преобразования текста в речь на {{language}}. Используется предварительно сгенерированное аудио, если доступно.",
+      "playing": "Воспроизведение...",
+      "test": "Тест",
+      "voiceDetail": "{{language}} • {{gender}} • Качество: {{quality}}",
+      "priorityTitle": "Приоритет воспроизведения аудио:",
+      "priority1": "Предварительно сгенерированное аудио (лучшее качество)",
+      "priority2": "Kokoro TTS ({{status}}, {{support}})",
+      "ifEnabled": "если включено",
+      "autoLoaded": "автозагрузка",
+      "englishOnly": "Только английский",
+      "priority3": "Синтез речи браузера (резервный)"
+    },
+    "appearance": {
+      "title": "Внешний вид",
+      "comingSoon": "Настройки темы скоро"
+    },
+    "backToDashboard": "Назад в панель управления"
+  },
+  "srs": {
+    "title": "Настройки SRS",
+    "subtitle": "Настройте свой опыт интервального повторения",
+    "scheduling": {
+      "title": "Расписание повторений",
+      "newItemsLimit": "Лимит новых элементов в день",
+      "newItemsDescription": "Максимум новых элементов для изучения в день",
+      "reviewLimit": "Лимит повторений в день",
+      "reviewLimitDescription": "Максимум повторений в день (0 = без ограничений)",
+      "threshold": "Порог повторений",
+      "thresholdDescription": "Насколько строгое расписание SRS",
+      "thresholdStrict": "Строгое",
+      "thresholdModerate": "Умеренное",
+      "thresholdRelaxed": "Свободное"
+    },
+    "difficulty": {
+      "title": "Корректировки сложности",
+      "easeBonus": "Бонус лёгкости",
+      "easeBonusDescription": "Настройте скорость роста интервалов ({{value}}%)",
+      "intervalMultiplier": "Множитель интервала",
+      "intervalMultiplierDescription": "Масштабируйте все интервалы этим коэффициентом",
+      "lapseInterval": "Новый интервал при ошибке",
+      "lapseIntervalDescription": "При ошибке сбросить интервал до этого % от предыдущего"
+    },
+    "options": {
+      "title": "Опции повторений",
+      "autoplayAudio": "Автовоспроизведение аудио",
+      "autoplayAudioDescription": "Автоматически воспроизводить аудио при открытии карточки",
+      "showReadingHints": "Показывать подсказки чтения",
+      "readingHintsDescription": "Показывать фуригану или пиньинь для произношения",
+      "accuracy": "Требуемая точность",
+      "accuracyDescription": "Целевая точность для мастерства ({{value}}%)"
+    },
+    "notifications": {
+      "title": "Уведомления",
+      "reminders": "Напоминания о повторениях",
+      "remindersDescription": "Получать уведомления, когда есть повторения",
+      "reminderTime": "Время напоминания",
+      "reminderTimeDescription": "Когда отправлять ежедневное напоминание",
+      "reminderThreshold": "Порог напоминания",
+      "reminderThresholdDescription": "Уведомлять только при превышении этого количества повторений"
+    },
+    "actions": {
+      "reset": "Сбросить настройки",
+      "save": "Сохранить настройки",
+      "saved": "Сохранено!",
+      "backToSettings": "Назад к настройкам"
+    }
+  },
+  "languages": {
+    "ja": "Японский",
+    "zh": "Китайский",
+    "ko": "Корейский",
+    "es": "Испанский",
+    "fr": "Французский",
+    "hi": "Хинди",
+    "it": "Итальянский",
+    "pt": "Португальский",
+    "en": "Английский"
+  },
+  "lessons": {
+    "view": {
+      "noContent": "Контент недоступен",
+      "noExercises": "Для этого урока нет упражнений.",
+      "previous": "Назад",
+      "next": "Далее",
+      "startExercises": "Начать упражнения",
+      "completeLesson": "Завершить урок",
+      "topic": "Тема",
+      "vocabulary": "Словарь",
+      "grammar": "Грамматика",
+      "culturalNote": "Культурная заметка",
+      "exerciseStep": "Упражнение {current} из {total}",
+      "culturalNotes": "Культурные заметки",
+      "learning": "Обучение",
+      "practice": "Практика",
+      "stop": "Остановить",
+      "tapToContinueHint": "Нажмите или проведите, чтобы продолжить"
+    },
+    "vocabulary": {
+      "examples": "Примеры"
+    },
+    "grammar": {
+      "examples": "Примеры",
+      "usageNotes": "Примечания по использованию",
+      "hideExplanation": "Скрыть объяснение",
+      "showExplanation": "Показать объяснение",
+      "iUnderstand": "Я понимаю"
+    },
+    "character": {
+      "strokeOrder": "Порядок черт",
+      "memoryTip": "Совет по запоминанию"
+    },
+    "intro": {
+      "minutes": "минут",
+      "items": "элементов",
+      "vocabulary": "словарь",
+      "back": "Назад",
+      "whatYoullLearn": "Что вы изучите:",
+      "vocabularyWords": "{count} слов",
+      "grammarPoints": "{count} грамматических пунктов",
+      "culturalNotes": "{count} культурных заметок",
+      "startLesson": "Начать урок"
+    },
+    "summary": {
+      "levelUp": "Повышение уровня!",
+      "perfect": "Идеально!",
+      "lessonComplete": "Урок завершён!",
+      "correctCount": "{correct} / {total} верно",
+      "xpTotal": "+{xp} опыта",
+      "xpBase": "Базовый: +{xp}",
+      "xpPerfect": "Идеально: +{xp}",
+      "xpStreak": "Серия: +{xp}",
+      "newLevel": "Вы достигли уровня {level}",
+      "nextLesson": "Следующий урок",
+      "pathComplete": "Путь завершён",
+      "backToPath": "Назад к пути",
+      "upNext": "Далее"
+    }
+  },
+  "exercises": {
+    "correct": "Верно!",
+    "common": {
+      "checkAnswer": "Проверить ответ",
+      "answerOptions": "Варианты ответов",
+      "optionLabelWithStatus": "Вариант {index}: {option}{status}",
+      "correctAnswerStatus": ", верный ответ",
+      "incorrectStatus": ", неверно",
+      "quitSession": "Завершить сессию",
+      "quitConfirmTitle": "Завершить сессию?",
+      "quitConfirmMessage": "Ваш прогресс в этой сессии будет потерян.",
+      "confirmQuit": "Завершить",
+      "cancel": "Отмена",
+      "unsupported": "Тип упражнения пока не поддерживается"
+    },
+    "matching": {
+      "success": "Все пары сопоставлены верно!",
+      "error": "Некоторые сопоставления неверны. Проверьте выделенные пары.",
+      "title": "Сопоставьте пары",
+      "leftColumnLabel": "Левый столбец — выберите элемент для сопоставления",
+      "rightColumnLabel": "Правый столбец — выберите для завершения сопоставления",
+      "leftItemLabel": "{item}{matched}{status}",
+      "matchedStatus": ", сопоставлено",
+      "correctMatchStatus": ", верное сопоставление",
+      "incorrectMatchStatus": ", неверное сопоставление",
+      "rightItemLabel": "{item}{matched}{available}",
+      "alreadyMatchedStatus": ", уже сопоставлено",
+      "availableToMatchStatus": ", доступно для сопоставления",
+      "checkMatches": "Проверить сопоставления ({count}/{total})"
+    },
+    "fillBlank": {
+      "correctAnswerIs": "Верный ответ:"
+    },
+    "translation": {
+      "correctAnswer": "Верный перевод:",
+      "translateTo": "Переведите на {language}",
+      "checkTranslation": "Проверить перевод",
+      "placeholder": "Введите ваш перевод..."
+    },
+    "typing": {
+      "correctAnswer": "Верный ответ:",
+      "instruction": "Введите перевод",
+      "placeholder": "Введите ваш ответ...",
+      "expectedLength": "Ожидается: {count} символов"
+    },
+    "strokeOrder": {
+      "strokesCount": "{count} черт",
+      "strokesProgress": "Черты: {current} / {total}",
+      "feedbackIncorrect": "Продолжайте практиковаться! У символа {count} черт.",
+      "checkCharacter": "Проверить символ"
+    },
+    "wordOrder": {
+      "placeholder": "Нажмите слова, чтобы составить предложение"
+    },
+    "listening": {
+      "playing": "Воспроизведение...",
+      "playAudio": "Воспроизвести аудио",
+      "playCount": "Воспроизведено {count} {count, plural, one {раз} other {раз}}",
+      "transcriptShow": "Показать транскрипт",
+      "transcriptHide": "Скрыть транскрипт"
+    }
+  },
+  "review": {
+    "config": {
+      "title": "Сессия повторения",
+      "selectModules": "Выбрать модули",
+      "numberOfItems": "Количество элементов",
+      "onlyItemsAvailable": "Доступно только {count} элементов",
+      "selectedModules": "Выбранные модули:",
+      "itemsToReview": "Элементы для повторения:",
+      "startReview": "Начать повторение",
+      "noItemsDue": "Нет элементов для повторения. Отличная работа!",
+      "due": "{count} к повторению"
+    },
+    "modules": {
+      "vocabulary": "Словарный запас",
+      "kanji": "Символы",
+      "grammar": "Грамматика"
+    },
+    "progress": {
+      "accuracy": "Точность:"
+    },
+    "card": {
+      "showAnswer": "Показать ответ",
+      "questionRating": "Насколько хорошо вы запомнили?",
+      "rating": {
+        "again": "Снова",
+        "hard": "Сложно",
+        "good": "Хорошо",
+        "easy": "Легко",
+        "perfect": "Идеально",
+        "againDesc": "Полностью забыл",
+        "hardDesc": "С трудом вспомнил",
+        "goodDesc": "Правильно с усилием",
+        "easyDesc": "Вспомнил легко",
+        "perfectDesc": "Мгновенное вспоминание"
+      }
+    },
+    "mastery": {
+      "new": "Новый",
+      "learning": "Изучение",
+      "review": "Повторение",
+      "mastered": "Освоено"
+    },
+    "stats": {
+      "title": "Сессия повторения",
+      "sessionComplete": "Сессия завершена!",
+      "accuracy": "Точность",
+      "correct": "Правильно",
+      "incorrect": "Неправильно",
+      "duration": "Длительность",
+      "moduleBreakdown": "Разбивка по модулям",
+      "avgTimePerItem": "Среднее время на элемент: {time}с",
+      "reviewMore": "Повторить больше элементов",
+      "backToDashboard": "Вернуться на панель",
+      "performance": {
+        "excellent": "Отличная работа! Продолжайте в том же духе!",
+        "good": "Хорошая работа! Вы прогрессируете.",
+        "okay": "Неплохо! Продолжайте практиковаться.",
+        "needsWork": "Продолжайте! Практика делает мастера."
+      }
+    }
   }
 }

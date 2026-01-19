@@ -201,7 +201,7 @@ export default function SettingsPage() {
 
   const modelSize = getKokoroModelSize();
   const selectedVoiceInfo = KOKORO_VOICES.find((v) => v.id === selectedVoice);
-  const languageName = LANGUAGE_NAMES[targetLanguage] || targetLanguage;
+  const languageName = t(`languages.${targetLanguage}`);
 
   return (
     <Container variant="centered">
@@ -211,11 +211,11 @@ export default function SettingsPage() {
         <div className={styles.pageHeader}>
           <IoSettings className={styles.headerIcon} />
           <Text variant="h1" color="gold" className={styles.pageTitle}>
-            Settings
+            {t('settings.title')}
           </Text>
         </div>
         <Text color="muted" align="center" className={styles.pageSubtitle}>
-          Customize your learning experience
+          {t('settings.subtitle')}
         </Text>
       </Animated>
 
@@ -223,22 +223,22 @@ export default function SettingsPage() {
       <Card variant="glass" className={styles.settingsSection}>
         <div className={styles.sectionHeader}>
           <IoTrophy className={styles.sectionIcon} />
-          <Text variant="h3">Leaderboard</Text>
+          <Text variant="h3">{t('settings.leaderboard.title')}</Text>
         </div>
 
         <div className={styles.settingRow}>
           <div className={styles.settingInfo}>
-            <Text className={styles.settingLabel}>Show on Leaderboard</Text>
+            <Text className={styles.settingLabel}>{t('settings.leaderboard.showOnLeaderboard')}</Text>
             <Text variant="label" color="muted">
-              When disabled, your progress won't appear in public rankings
+              {t('settings.leaderboard.showOnLeaderboardDescription')}
             </Text>
           </div>
           <div className={styles.settingControl}>
             {leaderboardVisible !== undefined && (
               <Toggle
                 options={[
-                  { id: 'visible', label: 'Visible' },
-                  { id: 'hidden', label: 'Hidden' },
+                  { id: 'visible', label: t('settings.leaderboard.visible') },
+                  { id: 'hidden', label: t('settings.leaderboard.hidden') },
                 ]}
                 value={leaderboardVisible ? 'visible' : 'hidden'}
                 onChange={(value) => handleVisibilityToggle(value === 'visible')}
@@ -251,9 +251,9 @@ export default function SettingsPage() {
         {myXPData?.anonymousName && (
           <div className={styles.settingRow}>
             <div className={styles.settingInfo}>
-              <Text className={styles.settingLabel}>Your Anonymous Name</Text>
+              <Text className={styles.settingLabel}>{t('settings.leaderboard.anonymousName')}</Text>
               <Text variant="label" color="muted">
-                This is how you appear on the leaderboard
+                {t('settings.leaderboard.anonymousNameDescription')}
               </Text>
             </div>
             <div className={styles.settingControl}>
@@ -272,9 +272,9 @@ export default function SettingsPage() {
             <div className={styles.linkLeft}>
               <IoTime className={styles.sectionIcon} />
               <div>
-                <Text variant="h3">Spaced Repetition</Text>
+                <Text variant="h3">{t('settings.srs.title')}</Text>
                 <Text variant="label" color="muted">
-                  Customize review scheduling and difficulty
+                  {t('settings.srs.description')}
                 </Text>
               </div>
             </div>
@@ -287,7 +287,7 @@ export default function SettingsPage() {
       <Card variant="glass" className={styles.settingsSection}>
         <div className={styles.sectionHeader}>
           <IoVolumeHigh className={styles.sectionIcon} />
-          <Text variant="h3">Audio & TTS</Text>
+          <Text variant="h3">{t('settings.audio.title')}</Text>
         </div>
 
         {/* Kokoro TTS Enable/Disable (mobile only shows toggle) */}
@@ -296,14 +296,14 @@ export default function SettingsPage() {
             <div className={styles.settingInfo}>
               <div className={styles.settingLabelRow}>
                 <IoCloudOffline className={styles.settingLabelIcon} />
-                <Text className={styles.settingLabel}>Offline TTS (Kokoro)</Text>
+                <Text className={styles.settingLabel}>{t('settings.audio.offlineTTS')}</Text>
               </div>
               <Text variant="label" color="muted">
-                Download ~{modelSize}MB model for offline text-to-speech
+                {t('settings.audio.offlineTTSDescription', { size: modelSize })}
               </Text>
               {!kokoroSupported && kokoroSupported !== null && (
                 <Text variant="label" color="error" className={styles.warningText}>
-                  Not supported: {kokoroSupportReason}
+                  {t('settings.audio.notSupported', { reason: kokoroSupportReason })}
                 </Text>
               )}
             </div>
@@ -311,8 +311,8 @@ export default function SettingsPage() {
               {kokoroSupported && (
                 <Toggle
                   options={[
-                    { id: 'disabled', label: 'Off' },
-                    { id: 'enabled', label: 'On' },
+                    { id: 'disabled', label: t('settings.audio.off') },
+                    { id: 'enabled', label: t('settings.audio.on') },
                   ]}
                   value={kokoroStatus === 'ready' ? 'enabled' : 'disabled'}
                   onChange={handleKokoroToggle}
@@ -329,7 +329,7 @@ export default function SettingsPage() {
           <div className={styles.statusSection}>
             <IoCheckmarkCircle className={styles.successIcon} />
             <Text variant="label" color="success">
-              Kokoro TTS loads automatically on desktop
+              {t('settings.audio.desktopNotice')}
             </Text>
           </div>
         )}
@@ -358,7 +358,7 @@ export default function SettingsPage() {
           <div className={styles.statusSection}>
             <IoCheckmarkCircle className={styles.successIcon} />
             <Text variant="label" color="success">
-              Offline TTS ready - works without internet
+              {t('settings.audio.readyNotice')}
             </Text>
           </div>
         )}
@@ -368,7 +368,7 @@ export default function SettingsPage() {
           <div className={styles.statusSection}>
             <IoCloseCircle className={styles.errorIcon} />
             <Text variant="label" color="error">
-              {kokoroMessage || 'Failed to load offline TTS'}
+              {kokoroMessage || t('settings.audio.loadError')}
             </Text>
           </div>
         )}
@@ -378,7 +378,7 @@ export default function SettingsPage() {
           <>
             <div className={styles.voiceSelectionHeader}>
               <IoMic className={styles.settingLabelIcon} />
-              <Text className={styles.settingLabel}>Voice Selection ({languageName})</Text>
+              <Text className={styles.settingLabel}>{t('settings.audio.voiceSelection', { language: languageName })}</Text>
             </div>
 
             {/* Show warning if language not supported by Kokoro */}
@@ -386,20 +386,20 @@ export default function SettingsPage() {
               <div className={styles.statusSection}>
                 <IoWarning className={styles.warningIcon} />
                 <Text variant="label" color="muted" className={styles.warningText}>
-                  Kokoro does not support {languageName}. Using browser speech synthesis or pre-generated audio instead.
+                  {t('settings.audio.notSupportedWarning', { language: languageName })}
                 </Text>
               </div>
             ) : availableVoices.length === 0 ? (
               <div className={styles.statusSection}>
                 <IoWarning className={styles.warningIcon} />
                 <Text variant="label" color="muted" className={styles.warningText}>
-                  No voices available for {languageName}.
+                  {t('settings.audio.noVoicesWarning', { language: languageName })}
                 </Text>
               </div>
             ) : (
               <>
                 <Text variant="label" color="muted" className={styles.voiceSelectionNote}>
-                  Select a voice for {languageName} text-to-speech. Pre-generated audio is used when available.
+                  {t('settings.audio.voiceSelectionNote', { language: languageName })}
                 </Text>
 
                 {/* Voice Selector */}
@@ -436,7 +436,7 @@ export default function SettingsPage() {
                     className={styles.testVoiceButton}
                   >
                     <IoPlay />
-                    {isTestingVoice ? 'Playing...' : 'Test'}
+                    {isTestingVoice ? t('settings.audio.playing') : t('settings.audio.test')}
                   </Button>
                 </div>
 
@@ -444,7 +444,11 @@ export default function SettingsPage() {
                 {selectedVoiceInfo && (
                   <div className={styles.voiceInfo}>
                     <Text variant="label" color="muted">
-                      {selectedVoiceInfo.languageLabel} • {selectedVoiceInfo.gender} • Quality: {selectedVoiceInfo.quality}
+                      {t('settings.audio.voiceDetail', {
+                        language: selectedVoiceInfo.languageLabel,
+                        gender: selectedVoiceInfo.gender,
+                        quality: selectedVoiceInfo.quality
+                      })}
                     </Text>
                   </div>
                 )}
@@ -456,12 +460,17 @@ export default function SettingsPage() {
         {/* TTS Tiers Explanation */}
         <div className={styles.ttsInfo}>
           <Text variant="label" color="muted" className={styles.ttsInfoTitle}>
-            Audio playback priority:
+            {t('settings.audio.priorityTitle')}
           </Text>
           <ol className={styles.ttsTierList}>
-            <li>Pre-generated audio (best quality)</li>
-            <li>Kokoro TTS ({isMobile ? 'if enabled' : 'auto-loaded'}, {languageSupported ? languageName : 'English only'})</li>
-            <li>Browser speech synthesis (fallback)</li>
+            <li>{t('settings.audio.priority1')}</li>
+            <li>
+              {t('settings.audio.priority2', {
+                status: isMobile ? t('settings.audio.ifEnabled') : t('settings.audio.autoLoaded'),
+                support: languageSupported ? languageName : t('settings.audio.englishOnly')
+              })}
+            </li>
+            <li>{t('settings.audio.priority3')}</li>
           </ol>
         </div>
       </Card>
@@ -469,17 +478,20 @@ export default function SettingsPage() {
       <Card variant="glass" className={styles.settingsSection}>
         <div className={styles.sectionHeader}>
           <IoColorPalette className={styles.sectionIcon} />
-          <Text variant="h3">Appearance</Text>
+          <Text variant="h3">{t('settings.appearance.title')}</Text>
         </div>
         <div className={styles.comingSoon}>
-          <Text color="muted">Theme settings coming soon</Text>
+          <Text color="muted">{t('settings.appearance.comingSoon')}</Text>
         </div>
       </Card>
 
       {/* Back Button */}
       <Button variant="ghost" onClick={() => router.push('/')} className={styles.backButton}>
-        Back to Dashboard
+        {t('settings.backToDashboard')}
       </Button>
     </Container>
+  );
+}
+    </Container >
   );
 }

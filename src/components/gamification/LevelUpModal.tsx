@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import { Card, Text, Button } from '@/components/ui';
 import { IoStar, IoClose, IoSparkles } from 'react-icons/io5';
+import { useLanguage } from '@/context/LanguageProvider';
 import { getLevelDisplayName, getLevelTierColor } from '@/lib/xp';
 import styles from './LevelUpModal.module.css';
 
@@ -19,6 +20,7 @@ export default function LevelUpModal({
   isOpen,
   onClose,
 }: LevelUpModalProps) {
+  const { t } = useLanguage();
   const [showAnimation, setShowAnimation] = useState(false);
 
   useEffect(() => {
@@ -38,7 +40,7 @@ export default function LevelUpModal({
     <div className={styles.overlay} onClick={onClose}>
       <div className={styles.modalContainer} onClick={(e) => e.stopPropagation()}>
         {/* Close button */}
-        <button className={styles.closeButton} onClick={onClose}>
+        <button className={styles.closeButton} onClick={onClose} aria-label={t('common.close')}>
           <IoClose />
         </button>
 
@@ -72,15 +74,15 @@ export default function LevelUpModal({
 
           {/* Message */}
           <div className={styles.message}>
-            <Text variant="h2" color="gold">Level Up!</Text>
+            <Text variant="h2" color="gold">{t('gamification.levelUp.title')}</Text>
             <Text color="muted">
-              You&apos;ve reached {tierName} level {newLevel}
+              {t('gamification.levelUp.message', { tier: tierName, level: newLevel })}
             </Text>
           </div>
 
           {/* Continue button */}
           <Button onClick={onClose} className={styles.continueButton}>
-            Continue
+            {t('common.continue')}
           </Button>
         </Card>
       </div>

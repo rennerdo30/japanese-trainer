@@ -11,6 +11,12 @@
   animation: fadeInDown 0.6s ease-out;
 }
 
+@media (max-width: 480px) {
+  .header {
+    margin-bottom: 2rem;
+  }
+}
+
 .headerContent {
   display: flex;
   justify-content: space-between;
@@ -40,12 +46,26 @@
   font-family: 'Crimson Pro', serif;
 }
 
+.wordmark {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  max-height: 100px;
+  /* Constrain height for density */
+}
+
 .statsOverview {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   gap: 1.5rem;
   margin-bottom: 3rem;
   animation: fadeInUp 0.6s ease-out 0.1s both;
+}
+
+@media (max-width: 480px) {
+  .statsOverview {
+    margin-bottom: 2rem;
+  }
 }
 
 .statCard {
@@ -74,7 +94,7 @@
   animation: fadeInUp 0.6s ease-out 0.2s both;
 }
 
-.modulesGrid > a {
+.modulesGrid>a {
   display: flex;
   width: 100%;
 }
@@ -217,6 +237,13 @@
   }
 }
 
+@media (max-width: 480px) {
+  .gamificationSection {
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+  }
+}
+
 .backgroundKanji {
   position: absolute;
   top: 50%;
@@ -308,7 +335,7 @@
   min-width: 200px;
 }
 
-.continueLessonInfo > *:not(:last-child) {
+.continueLessonInfo>*:not(:last-child) {
   margin-bottom: 0.25rem;
 }
 

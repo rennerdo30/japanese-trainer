@@ -59,7 +59,7 @@ export default function GoalEstimator({ className }: GoalEstimatorProps) {
 
   // Format date
   const formatDate = (date: Date) => {
-    return date.toLocaleDateString('en-US', {
+    return date.toLocaleDateString(language === 'ja' ? 'ja-JP' : 'en-US', { // Updated to use language
       month: 'short',
       day: 'numeric',
       year: 'numeric',
@@ -70,7 +70,7 @@ export default function GoalEstimator({ className }: GoalEstimatorProps) {
     <Card variant="glass" className={`${styles.estimator} ${className || ''}`}>
       <div className={styles.header}>
         <IoFlag className={styles.headerIcon} />
-        <Text variant="h3">Goal Estimator</Text>
+        <Text variant="h3">{t('dashboard.goalEstimator.title')}</Text>
       </div>
 
       {/* Goal Selector */}
@@ -102,7 +102,7 @@ export default function GoalEstimator({ className }: GoalEstimatorProps) {
         </svg>
         <div className={styles.progressContent}>
           <Text variant="h2" color="gold">{Math.round(estimate.currentProgress)}%</Text>
-          <Text variant="caption" color="muted">to {selectedGoal.level}</Text>
+          <Text variant="caption" color="muted">{t('dashboard.goalEstimator.toLevel', { level: selectedGoal.level })}</Text>
         </div>
       </div>
 
@@ -112,38 +112,38 @@ export default function GoalEstimator({ className }: GoalEstimatorProps) {
           <IoTime className={styles.statIcon} />
           <div className={styles.statContent}>
             <Text variant="h3">{estimate.daysNeeded}</Text>
-            <Text variant="label" color="muted">days left</Text>
+            <Text variant="label" color="muted">{t('dashboard.goalEstimator.daysLeft')}</Text>
           </div>
         </div>
         <div className={styles.stat}>
           <IoTrendingUp className={styles.statIcon} />
           <div className={styles.statContent}>
             <Text variant="h3">{estimate.dailyMinutes}</Text>
-            <Text variant="label" color="muted">min/day</Text>
+            <Text variant="label" color="muted">{t('dashboard.goalEstimator.minPerDay')}</Text>
           </div>
         </div>
         <div className={styles.stat}>
           <IoFlag className={styles.statIcon} />
           <div className={styles.statContent}>
             <Text variant="h3">{estimate.remainingHours}</Text>
-            <Text variant="label" color="muted">hours left</Text>
+            <Text variant="label" color="muted">{t('dashboard.goalEstimator.hoursLeft')}</Text>
           </div>
         </div>
       </div>
 
       {/* Estimated Completion */}
       <div className={styles.completion}>
-        <Text variant="label" color="muted">Estimated Completion</Text>
+        <Text variant="label" color="muted">{t('dashboard.goalEstimator.estimatedCompletion')}</Text>
         <Text variant="h3" color="gold">{formatDate(estimate.completionDate)}</Text>
         <Text variant="caption" color="muted">
-          At {estimate.dailyMinutes} min/day
+          {t('dashboard.goalEstimator.atMinutesPerDay', { count: estimate.dailyMinutes })}
         </Text>
       </div>
 
       {/* Milestones */}
       <div className={styles.milestones}>
         <Text variant="label" color="muted" className={styles.milestonesLabel}>
-          Milestones
+          {t('dashboard.goalEstimator.milestones')}
         </Text>
         <div className={styles.milestoneList}>
           {estimate.milestones.map((milestone) => (
@@ -171,7 +171,7 @@ export default function GoalEstimator({ className }: GoalEstimatorProps) {
           />
         </div>
         <Text variant="caption" color="muted">
-          {estimate.learnedItems} / {estimate.totalItems} items learned
+          {t('dashboard.goalEstimator.learnedItemsInfo', { learned: estimate.learnedItems, total: estimate.totalItems })}
         </Text>
       </div>
     </Card>

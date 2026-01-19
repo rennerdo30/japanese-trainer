@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Card, Text, Button } from '@/components/ui';
 import { useRecommendations } from '@/hooks/useRecommendations';
 import { useTargetLanguage } from '@/hooks/useTargetLanguage';
+import { useLanguage } from '@/context/LanguageProvider';
 import { IoCompass, IoPlay, IoTime, IoSparkles } from 'react-icons/io5';
 import styles from './LearningCompass.module.css';
 import type { ModuleName } from '@/lib/prerequisites';
@@ -14,6 +15,7 @@ interface LearningCompassProps {
 }
 
 export default function LearningCompass({ className }: LearningCompassProps) {
+  const { t } = useLanguage();
   const { stats, topRecommendation, reviewQueue, isLoading } = useRecommendations();
   const { isModuleEnabled, targetLanguage } = useTargetLanguage();
 
@@ -23,12 +25,12 @@ export default function LearningCompass({ className }: LearningCompassProps) {
 
     // All possible modules with display names
     const allModules: Array<{ name: string; key: ModuleName }> = [
-      { name: 'Alphabet', key: 'alphabet' },
-      { name: 'Vocab', key: 'vocabulary' },
-      { name: 'Kanji', key: 'kanji' },
-      { name: 'Grammar', key: 'grammar' },
-      { name: 'Reading', key: 'reading' },
-      { name: 'Listening', key: 'listening' },
+      { name: t('modules.alphabet.title'), key: 'alphabet' },
+      { name: t('modules.vocabulary.title'), key: 'vocabulary' },
+      { name: t('modules.kanji.title'), key: 'kanji' },
+      { name: t('modules.grammar.title'), key: 'grammar' },
+      { name: t('modules.reading.title'), key: 'reading' },
+      { name: t('modules.listening.title'), key: 'listening' },
     ];
 
     // Filter to only enabled modules for current target language
@@ -150,19 +152,19 @@ export default function LearningCompass({ className }: LearningCompassProps) {
         <div className={styles.nextAction}>
           <div className={styles.nextActionHeader}>
             <IoSparkles className={styles.nextActionIcon} />
-            <Text variant="label" color="muted">Next Up</Text>
+            <Text variant="label" color="muted">{t('dashboard.compass.nextUp')}</Text>
           </div>
           <Text variant="body" className={styles.nextActionTitle}>
             {topRecommendation.title}
           </Text>
           {topRecommendation.estimatedMinutes && (
             <Text variant="caption" color="muted" className={styles.nextActionTime}>
-              <IoTime /> {topRecommendation.estimatedMinutes} min
+              <IoTime /> {t('dashboard.compass.min', { count: topRecommendation.estimatedMinutes })}
             </Text>
           )}
           <Link href={topRecommendation.action.target}>
             <Button size="sm" className={styles.nextActionButton}>
-              <IoPlay /> Start
+              <IoPlay /> {t('common.start')}
             </Button>
           </Link>
         </div>
@@ -172,7 +174,7 @@ export default function LearningCompass({ className }: LearningCompassProps) {
       {reviewQueue && reviewQueue.total > 0 && (
         <Link href="/review" className={styles.reviewAlert}>
           <IoTime className={styles.reviewAlertIcon} />
-          <span>{reviewQueue.total} reviews due</span>
+          <span>{t('dashboard.compass.reviewsDue', { count: reviewQueue.total })}</span>
         </Link>
       )}
     </Card>
