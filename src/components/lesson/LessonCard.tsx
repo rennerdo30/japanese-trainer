@@ -4,6 +4,7 @@ import { useCallback } from 'react';
 import { Text, Button } from '@/components/ui';
 import { IoBook, IoLanguage, IoSchool, IoGlobe, IoVolumeHigh, IoStop } from 'react-icons/io5';
 import { useTTS } from '@/hooks/useTTS';
+import { useLanguage } from '@/context/LanguageProvider';
 import styles from './LessonCard.module.css';
 
 interface LessonCardProps {

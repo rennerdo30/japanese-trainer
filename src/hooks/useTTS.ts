@@ -11,6 +11,10 @@ import {
   checkKokoroSupport,
   isKokoroSupportedLanguage,
 } from '@/lib/kokoroTTS';
+import {
+  isEdgeTTSSupported,
+  generateEdgeTTSAudio,
+} from '@/lib/edgeTTS';
 import { isMobileDevice } from '@/lib/mobileDetection';
 
 interface TTSOptions {
@@ -24,10 +28,11 @@ interface TTSOptions {
 /**
  * TTS tier definitions for fallback chain
  * Tier 1: Pre-generated ElevenLabs audio (best quality, instant)
- * Tier 2: Kokoro browser TTS (good quality, English only, if model loaded)
- * Tier 3: Web Speech API (variable quality, always available)
+ * Tier 2: Edge TTS (high quality, all languages including Japanese/Korean/Chinese)
+ * Tier 3: Kokoro browser TTS (English only, if model loaded)
+ * Tier 4: Web Speech API (variable quality, always available)
  */
-type TTSTier = 'pregenerated' | 'kokoro' | 'webspeech';
+type TTSTier = 'pregenerated' | 'edge' | 'kokoro' | 'webspeech';
 
 // Global audio preload cache (shared across hook instances)
 const audioPreloadCache = new Map<string, HTMLAudioElement>();
@@ -280,38 +285,92 @@ export function useTTS() {
         // Cancel existing speech to prevent queueing weirdness
         window.speechSynthesis.cancel();
 
+        // Debug available voices
+        const availableVoices = window.speechSynthesis.getVoices();
+        console.log(`Available voices: ${availableVoices.length}`,
+          availableVoices.map(v => `${v.name} (${v.lang})`).filter(n => n.includes('JP') || n.includes('ja') || n.includes('JA'))
+        );
+
         const utterance = new SpeechSynthesisUtterance(text);
-        utterance.lang = options.lang || defaultLang;
-        utterance.volume = options.volume ?? 0.5;
+        // Map basic language codes to full locales if needed
+        let speechLang = options.lang || defaultLang;
+        if (speechLang === 'ja') speechLang = 'ja-JP';
+        else if (speechLang === 'ko') speechLang = 'ko-KR';
+        else if (speechLang === 'zh') speechLang = 'zh-CN';
+
+        utterance.lang = speechLang;
+        utterance.volume = options.volume ?? 1.0;
         utterance.rate = options.rate ?? 0.9;
         utterance.pitch = options.pitch ?? 1;
 
+        // VERBOSE DEBUGGING
+        const allVoices = window.speechSynthesis.getVoices();
+        const matchingVoices = allVoices.filter(v => v.lang.includes(speechLang) || v.lang.includes(defaultLang));
+
+        console.group('TTS Debug: speakWithWebSpeech');
+        console.log('Text:', text);
+        console.log('Requested Lang:', speechLang);
+        console.log('All Voices Count:', allVoices.length);
+        console.log('Matching Voices:', matchingVoices.map(v => `${v.name} (${v.lang})`));
+
+        // Explicitly set voice if we find a good match for the language
+        // Prioritize local system voices (Samantha, Kyoko, Daniel) over network voices (Google)
+        // Network voices often fail silently if connection is flaky or quota exceeded
+        const preferredVoice = matchingVoices.find(v => v.name.includes('Kyoko'))
+          || matchingVoices.find(v => v.name.includes('Samantha') && speechLang.includes('en'))
+          || matchingVoices.find(v => v.name.includes('Daniel') && speechLang.includes('en'))
+          || matchingVoices.find(v => !v.name.includes('Google') && v.lang === speechLang)
+          || matchingVoices.find(v => v.name.includes('Google') && v.lang === speechLang)
+          || matchingVoices[0];
+
+        if (preferredVoice) {
+          console.log('Force setting voice to:', preferredVoice.name);
+          utterance.voice = preferredVoice;
+        } else {
+          console.warn('No matching voice found for lang:', speechLang);
+        }
+        console.groupEnd();
+
+        utterance.onstart = () => {
+          console.log('TTS Event: onstart');
+        };
+
         utterance.onend = () => {
+          console.log('TTS Event: onend');
           utteranceRef.current = null;
           resolve();
         };
 
         utterance.onerror = (event) => {
+          console.error('TTS Event: onerror', event);
           utteranceRef.current = null;
-
-          // Specific handling for "canceled" or "interrupted" error
-          // This often happens when we call cancel() or start a new speech, 
-          // effectively it's not a "failure" of the system, just this specific utterance.
           if (event.error === 'canceled' || event.error === 'interrupted') {
-            // We resolve immediately because it was intentionally stopped.
-            // Or we could reject with a specific error code if we want the caller to know.
-            // In the context of a fallback chain, if it was canceled, we probably don't want to fallback further?
-            // Actually, if it was canceled, it means the USER stopped it or a new one started.
-            // So resolving is probably safest to stop the chain.
-            console.log('Web Speech canceled');
             resolve();
           } else {
             reject(new Error(`Web Speech error: ${event.error}`));
           }
         };
 
+        // Explicitly resume (fixes Chrome "stuck" state)
+        if (window.speechSynthesis.paused) {
+          console.log('Resume paused synthesis');
+          window.speechSynthesis.resume();
+        }
+
         utteranceRef.current = utterance;
+
+        // WORKAROUND: Attach to window to prevent Garbage Collection (common Chrome bug)
+        // @ts-ignore
+        window.activeUtterance = utterance;
+
         window.speechSynthesis.speak(utterance);
+
+        // Log status after speak call
+        console.log('Speech status:', {
+          pending: window.speechSynthesis.pending,
+          speaking: window.speechSynthesis.speaking,
+          paused: window.speechSynthesis.paused
+        });
       });
     },
     []
@@ -326,6 +385,8 @@ export function useTTS() {
       volume: number,
       rate: number
     ): Promise<TTSTier> => {
+      console.log(`[TTS] executeTTSFallback called. Text: "${text}", Lang: ${lang}, AudioUrl: ${options.audioUrl ? 'YES' : 'NO'}`);
+
       // Tier 1: Pre-generated ElevenLabs audio
       if (options.audioUrl) {
         try {
@@ -336,17 +397,34 @@ export function useTTS() {
         }
       }
 
-      // Tier 2: Kokoro (if model loaded and supported)
-      if (isKokoroLoaded() && isKokoroSupportedLanguage(lang)) {
+      // Tier 2: Edge TTS (Microsoft neural voices - high priority for all languages)
+      if (isEdgeTTSSupported(lang)) {
+        try {
+          console.log(`[TTS] Trying Edge TTS for ${lang}`);
+          const blobUrl = await generateEdgeTTSAudio(text, lang);
+          await playBlobUrl(blobUrl, volume, rate);
+          return 'edge';
+        } catch (e) {
+          console.warn('Edge TTS failed, falling back', e);
+          // Fall through to Kokoro
+        }
+      }
+
+      // Tier 3: Kokoro (if model loaded and supported - backup for Edge)
+      const kokoroLoaded = isKokoroLoaded();
+      const kokoroSupported = isKokoroSupportedLanguage(lang);
+
+      if (kokoroLoaded && kokoroSupported) {
         try {
           // Check cache first
           if (kokoroCache.has(text)) {
+            console.log('Using cached Kokoro audio');
             await playBlobUrl(kokoroCache.get(text)!, volume, rate);
             return 'kokoro';
           }
 
-          // Generate and cache
-          const blobUrl = await generateKokoroAudio(text);
+          // Generate and cache - pass lang for correct voice selection
+          const blobUrl = await generateKokoroAudio(text, undefined, lang);
           kokoroCache.set(text, blobUrl);
           trimCache();
 
@@ -355,11 +433,12 @@ export function useTTS() {
           return 'kokoro';
         } catch (e) {
           console.warn('Kokoro generation failed, falling back', e);
-          // Fall through to next tier
+          // Fall through to Web Speech
         }
       }
 
-      // Tier 3: Web Speech API
+      // Tier 4: Web Speech API (final fallback)
+      console.log('Falling back to Web Speech API. Lang:', lang);
       await speakWithWebSpeech(text, { ...options, volume }, lang);
       return 'webspeech';
     },

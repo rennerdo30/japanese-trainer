@@ -2,6 +2,7 @@
 
 import { useState, useCallback, useMemo, useRef, KeyboardEvent } from 'react';
 import { Text, Button } from '@/components/ui';
+import { useLanguage } from '@/context/LanguageProvider';
 import { IoCheckmark, IoClose, IoShuffle } from 'react-icons/io5';
 import type { MatchingExercise } from '@/types/exercises';
 import styles from './Matching.module.css';
@@ -17,6 +18,7 @@ interface MatchedPair {
 }
 
 export default function Matching({ exercise, onAnswer }: MatchingProps) {
+  const { t } = useLanguage();
   const [selectedLeft, setSelectedLeft] = useState<number | null>(null);
   const [matches, setMatches] = useState<MatchedPair[]>([]);
   const [feedback, setFeedback] = useState<'correct' | 'incorrect' | null>(null);

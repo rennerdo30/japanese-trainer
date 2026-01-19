@@ -16,6 +16,7 @@
   "dependencies": {
     "@convex-dev/auth": "^0.0.90",
     "convex": "^1.31.4",
+    "edge-tts-universal": "^1.3.3",
     "jszip": "^3.10.1",
     "kokoro-js": "^1.2.1",
     "next": "16.1.1",

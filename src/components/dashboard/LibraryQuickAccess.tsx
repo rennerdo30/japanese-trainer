@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { Text, Card } from '@/components/ui';
+import { useLanguage } from '@/context/LanguageProvider';
 import {
   IoText,
   IoLanguage,

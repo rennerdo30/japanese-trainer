@@ -2,6 +2,7 @@
 
 import { useState, useCallback } from 'react';
 import { Card, Text, Button } from '@/components/ui';
+import { useLanguage } from '@/context/LanguageProvider';
 import { IoBook, IoSchool, IoDocumentText, IoPlay, IoSettings } from 'react-icons/io5';
 import styles from './ReviewConfig.module.css';
 
@@ -38,6 +39,7 @@ export default function ReviewConfig({
   onStart,
   maxItems = 50,
 }: ReviewConfigProps) {
+  const { t } = useLanguage();
   const [selectedModules, setSelectedModules] = useState<ReviewModuleType[]>(['vocabulary', 'kanji', 'grammar']);
   const [itemCount, setItemCount] = useState(20);
 

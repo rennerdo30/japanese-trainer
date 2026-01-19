@@ -1,6 +1,7 @@
 'use client';
 
 import { Text } from '@/components/ui';
+import { useLanguage } from '@/context/LanguageProvider';
 import { IoCheckmarkCircle, IoCloseCircle } from 'react-icons/io5';
 import styles from './ReviewProgress.module.css';
 
@@ -17,6 +18,7 @@ export default function ReviewProgress({
   correct,
   incorrect,
 }: ReviewProgressProps) {
+  const { t } = useLanguage();
   const progressPercent = ((current - 1) / total) * 100;
   const accuracy = correct + incorrect > 0 ? (correct / (correct + incorrect)) * 100 : 0;
 

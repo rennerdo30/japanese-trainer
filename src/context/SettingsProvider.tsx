@@ -6,7 +6,7 @@ import { SettingsContextValue, ContextProviderProps, Settings } from '@/types/co
 const SettingsContext = createContext<SettingsContextValue | null>(null);
 
 const DEFAULT_SETTINGS: Settings = {
-    theme: 'dark',
+    themeOverride: 'auto',
     soundEnabled: true,
     ttsEnabled: true,
     ttsRate: 0.9,

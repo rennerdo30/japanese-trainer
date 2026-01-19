@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { Text, Button, Card } from '@/components/ui';
+import { useLanguage } from '@/context/LanguageProvider';
 import { IoRocket, IoChevronForward } from 'react-icons/io5';
 import styles from './PathProgressCard.module.css';
 
@@ -24,6 +25,7 @@ export default function PathProgressCard({
   lessonsCompleted,
   lessonsTotal,
 }: PathProgressCardProps) {
+  const { t } = useLanguage();
   return (
     <Card variant="glass" className={styles.card}>
       <div className={styles.header}>

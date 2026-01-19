@@ -3,6 +3,7 @@
 import { useState, useCallback, useRef, useEffect } from 'react';
 import { Text, Button } from '@/components/ui';
 import { IoCheckmark, IoClose, IoRefresh, IoVolumeHigh, IoPlay, IoEye, IoEyeOff } from 'react-icons/io5';
+import { useLanguage } from '@/context/LanguageProvider';
 import { useTTS } from '@/hooks/useTTS';
 import type { StrokeOrderExercise } from '@/types/exercises';
 import styles from './StrokeOrder.module.css';
@@ -22,6 +23,7 @@ interface Stroke {
 }
 
 export default function StrokeOrder({ exercise, onAnswer }: StrokeOrderProps) {
+  const { t } = useLanguage();
   const [currentStroke, setCurrentStroke] = useState(0);
   const [userStrokes, setUserStrokes] = useState<Stroke[]>([]);
   const [isDrawing, setIsDrawing] = useState(false);

@@ -109,7 +109,7 @@ export default function LessonSummary({
             <div className={styles.levelUpContent}>
               <Text variant="h3">{t('lessons.summary.levelUp')}</Text>
               <Text variant="caption" color="muted">
-                {t('lessons.summary.newLevel', { level: result.newLevel })}
+                {t('lessons.summary.newLevel', { level: result.newLevel ?? 0 })}
               </Text>
             </div>
           </div>

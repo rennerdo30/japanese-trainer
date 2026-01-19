@@ -15,8 +15,10 @@ export interface LanguageContextValue {
     }>;
 }
 
+export type ThemeOverride = 'auto' | 'ja' | 'es' | 'de' | 'en' | 'it' | 'ko' | 'zh';
+
 export interface Settings {
-    theme: string;
+    themeOverride: ThemeOverride;
     soundEnabled: boolean;
     ttsEnabled: boolean;
     ttsRate: number;

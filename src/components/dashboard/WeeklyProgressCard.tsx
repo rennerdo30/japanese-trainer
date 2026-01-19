@@ -109,7 +109,7 @@ export default function WeeklyProgressCard({
               {accuracy}%
             </Text>
           </div>
-          <div className={accuracyTrack}>
+          <div className={styles.accuracyTrack}>
             <div
               className={styles.accuracyFill}
               style={{ width: `${accuracy}%` }}

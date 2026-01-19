@@ -75,7 +75,7 @@ const normalizeJapaneseCharacter = (char: any): Character => ({
     romaji: char.romanization || char.romaji || '',
     hiragana: char.char || char.hiragana || '',
     type: char.type,
-    audioUrl: char.audioUrl,
+    audioUrl: char.audioUrl || char.audio_url,
     group: char.group,
     order: char.order,
     name: char.name,
@@ -354,16 +354,37 @@ export default function AlphabetPage() {
         });
     }, [getAvailableCharacters, currentChar, isMobile, generateMultipleChoice]);
 
+    // Helper to determine best text/lang for TTS
+    // Edge TTS now handles Japanese natively with high-quality Nanami voice
+    const playCharacterAudio = useCallback(async (char: LessonCharacter) => {
+        const hasAudioUrl = !!char.audioUrl;
+
+        // LessonCharacter already has the display character string
+        const displayChar = char.character;
+
+        console.log(`Playing audio: ${char.romaji}`, { hasAudioUrl, displayChar, targetLanguage });
+
+        await speakAndWait(displayChar, {
+            audioUrl: char.audioUrl,
+            lang: targetLanguage
+        });
+    }, [speakAndWait, targetLanguage]);
+
     const handleTimeout = useCallback(async () => {
         if (isProcessing || !currentChar) return;
         setIsProcessing(true);
         setInputState('error');
         setTotal(prev => prev + 1);
         setStreak(0);
-        await speakAndWait(getDisplayCharacter(currentChar), { audioUrl: currentChar.audioUrl });
+
+        const lessonChar = toLessonCharacter(currentChar);
+        if (lessonChar) {
+            await playCharacterAudio(lessonChar);
+        }
+
         nextCharacter();
         setIsProcessing(false);
-    }, [isProcessing, currentChar, speakAndWait, getDisplayCharacter, nextCharacter]);
+    }, [isProcessing, currentChar, playCharacterAudio, nextCharacter, toLessonCharacter]);
 
     const { timeLeft, start, reset } = useTimer(TIME_PER_CHARACTER, handleTimeout);
 
@@ -379,21 +400,25 @@ export default function AlphabetPage() {
         setStreak(prev => prev + 1);
 
         // Calculate new values from ref (current values) for updateStats
-        const newCorrect = statsRef.current.correct + 1;
-        const newTotal = statsRef.current.total + 1;
-        const newStreak = statsRef.current.streak + 1;
-        const newBestStreak = Math.max(statsRef.current.bestStreak, newStreak);
+        const newCorrect = (statsRef.current.correct || 0) + 1;
+        const newTotal = (statsRef.current.total || 0) + 1;
+        const newStreak = (statsRef.current.streak || 0) + 1;
+        const newBestStreak = Math.max(statsRef.current.bestStreak || 0, newStreak);
 
         // Update ref immediately
         statsRef.current = { correct: newCorrect, total: newTotal, streak: newStreak, bestStreak: newBestStreak };
 
-        await speakAndWait(getDisplayCharacter(currentChar), { audioUrl: currentChar.audioUrl });
+        const lessonChar = toLessonCharacter(currentChar);
+        if (lessonChar) {
+            await playCharacterAudio(lessonChar);
+        }
+
         updateStats('alphabet', { correct: newCorrect, total: newTotal, streak: newStreak, bestStreak: newBestStreak });
         nextCharacter();
         reset();
         start();
         setIsProcessing(false);
-    }, [currentChar, speakAndWait, getDisplayCharacter, updateStats, nextCharacter, reset, start]);
+    }, [currentChar, playCharacterAudio, updateStats, nextCharacter, reset, start, toLessonCharacter]);
 
     const handleIncorrect = useCallback(async () => {
         if (!currentChar) return;
@@ -405,25 +430,42 @@ export default function AlphabetPage() {
         setStreak(0);
 
         // Calculate new values from ref (current values) for updateStats
-        const newTotal = statsRef.current.total + 1;
+        const newTotal = (statsRef.current.total || 0) + 1;
 
         // Update ref immediately
         statsRef.current = { ...statsRef.current, total: newTotal, streak: 0 };
 
-        await speakAndWait(getDisplayCharacter(currentChar), { audioUrl: currentChar.audioUrl });
+        const lessonChar = toLessonCharacter(currentChar);
+        if (lessonChar) {
+            await playCharacterAudio(lessonChar);
+        }
+
         updateStats('alphabet', { correct: statsRef.current.correct, total: newTotal, streak: 0, bestStreak: statsRef.current.bestStreak });
         nextCharacter();
         reset();
         start();
         setIsProcessing(false);
-    }, [currentChar, speakAndWait, getDisplayCharacter, updateStats, nextCharacter, reset, start]);
+    }, [currentChar, playCharacterAudio, updateStats, nextCharacter, reset, start, toLessonCharacter]);
 
     const checkInput = useCallback((value: string) => {
         if (isProcessing || !currentChar) return;
-        if (value.toLowerCase().trim() === currentChar.romaji.toLowerCase()) {
+        const input = value.toLowerCase();
+
+        // Check against romaji (exact match)
+        if (input === currentChar.romaji.toLowerCase()) {
+            setIsProcessing(true);
+            setInputState('success');
             handleCorrect();
+        } else {
+            // Only mark incorrect if they hit different key length or enter?
+            // For now, let's keep it simple: strict match or wait?
+            // Usually typing games wait for full match.
+            // But if we want instant fail:
+            if (input.length >= currentChar.romaji.length && input !== currentChar.romaji.toLowerCase()) {
+                handleIncorrect();
+            }
         }
-    }, [isProcessing, currentChar, handleCorrect]);
+    }, [isProcessing, currentChar, handleCorrect, handleIncorrect]);
 
     const handleMultipleChoice = useCallback((selected: string, index: number) => {
         if (isProcessing || !currentChar) return;
@@ -441,9 +483,12 @@ export default function AlphabetPage() {
     const handlePlayAudio = useCallback(async () => {
         if (!currentLessonChar) return;
         setIsPlayingAudio(true);
-        await speakAndWait(getDisplayCharacter(currentLessonChar), { audioUrl: currentLessonChar.audioUrl });
+        const lessonChar = toLessonCharacter(currentLessonChar);
+        if (lessonChar) {
+            await playCharacterAudio(lessonChar);
+        }
         setIsPlayingAudio(false);
-    }, [currentLessonChar, speakAndWait, getDisplayCharacter]);
+    }, [currentLessonChar, playCharacterAudio, toLessonCharacter]);
 
     const handleMarkLearned = useCallback(() => {
         if (!currentLessonChar) return;

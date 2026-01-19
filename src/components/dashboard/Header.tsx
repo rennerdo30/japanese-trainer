@@ -1,6 +1,7 @@
 'use client';
 
 import { Text } from '@/components/ui';
+import { useLanguage } from '@/context/LanguageProvider';
 import { IoFlame, IoStar, IoNotifications, IoPerson } from 'react-icons/io5';
 import { getLevelTierColor } from '@/lib/xp';
 import { getStreakColorClass } from '@/lib/streak';
@@ -24,6 +25,7 @@ export default function Header({
   onProfileClick,
   onNotificationsClick,
 }: HeaderProps) {
+  const { t } = useLanguage();
   const currentStreak = streak?.currentStreak ?? 0;
   const currentLevel = level?.level ?? 1;
   const levelProgress = level
@@ -46,7 +48,7 @@ export default function Header({
         )}
         <div className={styles.greeting}>
           <Text variant="h3" className={styles.greetingText}>
-            {getGreeting()}
+            {getGreeting(t)}
             {userName && <span className={styles.userName}>, {userName}</span>}
           </Text>
         </div>

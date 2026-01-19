@@ -546,24 +546,35 @@ export function getVoicesByLanguage(
 export function targetLanguageToKokoroLanguage(
   targetLang: string
 ): KokoroLanguage | null {
+  const normalizedLang = targetLang.toLowerCase();
   const mapping: Record<string, KokoroLanguage> = {
     'ja': 'ja',
+    'ja-jp': 'ja',
     'zh': 'zh',
+    'zh-cn': 'zh',
     'es': 'es',
+    'es-es': 'es',
     'fr': 'fr',
+    'fr-fr': 'fr',
     'hi': 'hi',
     'it': 'it',
+    'it-it': 'it',
     'pt': 'pt',
+    'pt-br': 'pt',
     'en': 'en-us', // Default English to American
+    'en-us': 'en-us',
+    'en-gb': 'en-gb',
   };
-  return mapping[targetLang] ?? null;
+  return mapping[normalizedLang] ?? null;
 }
 
 // Check if Kokoro supports a given target language
 export function isKokoroSupportedLanguage(targetLang: string): boolean {
+  // Normalize input (lowercase, handle ja-JP etc)
+  const normalizedLang = targetLang.toLowerCase();
   // Korean is NOT supported by Kokoro
-  if (targetLang === 'ko') return false;
-  return targetLanguageToKokoroLanguage(targetLang) !== null;
+  if (normalizedLang === 'ko' || normalizedLang === 'ko-kr') return false;
+  return targetLanguageToKokoroLanguage(normalizedLang) !== null;
 }
 
 // Get default voice for a target language
@@ -812,16 +823,30 @@ export function unloadKokoroModel(): void {
 /**
  * Generate audio blob URL using the Kokoro model
  * Does NOT play the audio, just returns the URL
+ * @param text Text to speak
+ * @param voice Optional specific voice to use
+ * @param lang Optional language code to auto-select appropriate voice
  */
 export async function generateKokoroAudio(
   text: string,
-  voice?: KokoroVoice
+  voice?: KokoroVoice,
+  lang?: string
 ): Promise<string> {
   if (!ttsInstance) {
     throw new Error('Kokoro model not loaded. Call loadKokoroModel() first.');
   }
 
-  const selectedVoice = voice ?? getSavedVoice();
+  // Determine the voice: explicit voice > language-specific default > saved preference
+  let selectedVoice: KokoroVoice;
+  if (voice) {
+    selectedVoice = voice;
+  } else if (lang) {
+    // Get the appropriate voice for this language
+    selectedVoice = getDefaultVoiceForLanguage(lang);
+    console.log(`[Kokoro] Auto-selected voice for ${lang}: ${selectedVoice}`);
+  } else {
+    selectedVoice = getSavedVoice();
+  }
 
   // Generate audio using kokoro-js
   // Cast options to bypass kokoro-js types which don't include all supported voices

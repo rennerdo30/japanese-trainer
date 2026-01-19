@@ -16,6 +16,8 @@ import styles from './LessonView.module.css';
 
 type LessonPhase = 'intro' | 'learning' | 'exercises';
 
+import { useLanguage } from '@/context/LanguageProvider';
+
 interface LessonViewProps {
   lesson: CurriculumLesson;
   lessonInfo: LessonContext | null;
@@ -28,8 +30,9 @@ interface LessonViewProps {
 
 interface LearningCard {
   type: 'topic' | 'vocabulary' | 'grammar' | 'cultural';
-  title: string;
+  titleKey: string;
   content: string;
+  audioUrl?: string;
 }
 
 export default function LessonView({
@@ -45,34 +48,47 @@ export default function LessonView({
   const [exerciseAnswers, setExerciseAnswers] = useState<boolean[]>([]);
   const { preloadBatch } = useTTS();
   const { targetLanguage } = useTargetLanguage();
+  const { t } = useLanguage();
+
+  // Get vocabulary data to find audio URLs
+  const vocabularyData = getVocabularyData(targetLanguage);
 
   // Generate learning cards from lesson content
   const learningCards: LearningCard[] = [
     // Topics
     ...lesson.content.topics.map((topic) => ({
       type: 'topic' as const,
-      title: 'Topic',
+      titleKey: 'lessons.card.topic',
       content: topic,
     })),
     // Vocabulary focus
-    ...lesson.content.vocab_focus.map((vocab) => ({
-      type: 'vocabulary' as const,
-      title: 'Vocabulary',
-      content: vocab,
-    })),
+    ...lesson.content.vocab_focus.map((vocab) => {
+      // Find audio URL for vocabulary item
+      const item = vocabularyData.find(
+        v => v.word?.toLowerCase() === vocab.toLowerCase() ||
+          v.reading?.toLowerCase() === vocab.toLowerCase()
+      );
+      return {
+        type: 'vocabulary' as const,
+        titleKey: 'lessons.card.vocabulary',
+        content: vocab,
+        audioUrl: item?.audioUrl
+      };
+    }),
     // Grammar focus
     ...(lesson.content.grammar_focus || []).map((grammar) => ({
       type: 'grammar' as const,
-      title: 'Grammar',
+      titleKey: 'lessons.card.grammar',
       content: grammar,
     })),
     // Cultural notes
     ...(lesson.content.cultural_notes || []).map((note) => ({
       type: 'cultural' as const,
-      title: 'Cultural Note',
+      titleKey: 'lessons.card.cultural',
       content: note,
     })),
   ];
+
 
   // Preload audio for vocabulary items in this lesson (non-blocking)
   // Runs after initial render to avoid blocking
@@ -185,6 +201,7 @@ export default function LessonView({
               type={currentCard.type}
               title={t(currentCard.titleKey)}
               content={currentCard.content}
+              audioUrl={currentCard.audioUrl}
             />
           ) : (
             <Text color="muted">{t('lessons.view.noContent')}</Text>

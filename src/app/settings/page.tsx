@@ -26,6 +26,14 @@ import {
   type KokoroVoice,
 } from '@/lib/kokoroTTS';
 import {
+  isEdgeTTSSupported,
+  getEdgeVoicesForLanguage,
+  getSelectedEdgeVoice,
+  saveEdgeVoice,
+  speakWithEdgeTTS,
+  type EdgeVoiceInfo,
+} from '@/lib/edgeTTS';
+import {
   IoSettings,
   IoTrophy,
   IoTime,
@@ -100,6 +108,25 @@ export default function SettingsPage() {
     const male = availableVoices.filter((v) => v.gender === 'Male');
     return { female, male };
   }, [availableVoices]);
+
+  // Edge TTS state
+  const [edgeVoice, setEdgeVoice] = useState<string>('');
+  const [isTestingEdgeVoice, setIsTestingEdgeVoice] = useState(false);
+  const edgeTTSAvailable = useMemo(() => isEdgeTTSSupported(targetLanguage), [targetLanguage]);
+  const edgeVoices = useMemo(() => getEdgeVoicesForLanguage(targetLanguage), [targetLanguage]);
+  const edgeVoicesByGender = useMemo(() => {
+    const female = edgeVoices.filter((v) => v.gender === 'Female');
+    const male = edgeVoices.filter((v) => v.gender === 'Male');
+    return { female, male };
+  }, [edgeVoices]);
+
+  // Load saved Edge TTS voice on mount
+  useEffect(() => {
+    if (edgeTTSAvailable) {
+      const saved = getSelectedEdgeVoice(targetLanguage);
+      setEdgeVoice(saved);
+    }
+  }, [targetLanguage, edgeTTSAvailable]);
 
   // Check Kokoro support and initial status on mount
   useEffect(() => {
@@ -198,6 +225,26 @@ export default function SettingsPage() {
       setIsTestingVoice(false);
     }
   }, [selectedVoice, isTestingVoice, targetLanguage]);
+
+  // Edge TTS handlers
+  const handleEdgeVoiceChange = useCallback((voiceId: string) => {
+    setEdgeVoice(voiceId);
+    saveEdgeVoice(targetLanguage, voiceId);
+  }, [targetLanguage]);
+
+  const handleTestEdgeVoice = useCallback(async () => {
+    if (!edgeTTSAvailable || isTestingEdgeVoice || !edgeVoice) return;
+
+    setIsTestingEdgeVoice(true);
+    try {
+      const testText = TEST_PHRASES[targetLanguage] || TEST_PHRASES.en;
+      await speakWithEdgeTTS(testText, targetLanguage, 0.8);
+    } catch (error) {
+      console.error('Edge TTS test failed:', error);
+    } finally {
+      setIsTestingEdgeVoice(false);
+    }
+  }, [edgeVoice, isTestingEdgeVoice, targetLanguage, edgeTTSAvailable]);
 
   const modelSize = getKokoroModelSize();
   const selectedVoiceInfo = KOKORO_VOICES.find((v) => v.id === selectedVoice);
@@ -457,6 +504,58 @@ export default function SettingsPage() {
           </>
         )}
 
+        {/* Edge TTS Voice Selection (Microsoft Neural Voices) */}
+        {edgeTTSAvailable && edgeVoices.length > 0 && (
+          <>
+            <div className={styles.voiceSelectionHeader} style={{ marginTop: '1.5rem' }}>
+              <IoVolumeHigh className={styles.settingLabelIcon} />
+              <Text className={styles.settingLabel}>
+                Edge TTS Voice ({languageName})
+              </Text>
+            </div>
+            <Text variant="label" color="muted" className={styles.voiceSelectionNote}>
+              Microsoft neural voice for {languageName} - high-quality cloud TTS fallback
+            </Text>
+
+            <div className={styles.voiceSelector}>
+              <select
+                className={styles.voiceSelect}
+                value={edgeVoice}
+                onChange={(e) => handleEdgeVoiceChange(e.target.value)}
+              >
+                {edgeVoicesByGender.female.length > 0 && (
+                  <optgroup label="Female">
+                    {edgeVoicesByGender.female.map((voice) => (
+                      <option key={voice.id} value={voice.id}>
+                        {voice.name}
+                      </option>
+                    ))}
+                  </optgroup>
+                )}
+                {edgeVoicesByGender.male.length > 0 && (
+                  <optgroup label="Male">
+                    {edgeVoicesByGender.male.map((voice) => (
+                      <option key={voice.id} value={voice.id}>
+                        {voice.name}
+                      </option>
+                    ))}
+                  </optgroup>
+                )}
+              </select>
+
+              <Button
+                variant="secondary"
+                onClick={handleTestEdgeVoice}
+                disabled={isTestingEdgeVoice || !edgeVoice}
+                className={styles.testVoiceButton}
+              >
+                <IoPlay />
+                {isTestingEdgeVoice ? t('settings.audio.playing') : t('settings.audio.test')}
+              </Button>
+            </div>
+          </>
+        )}
+
         {/* TTS Tiers Explanation */}
         <div className={styles.ttsInfo}>
           <Text variant="label" color="muted" className={styles.ttsInfoTitle}>
@@ -464,6 +563,7 @@ export default function SettingsPage() {
           </Text>
           <ol className={styles.ttsTierList}>
             <li>{t('settings.audio.priority1')}</li>
+            <li>Edge TTS (Microsoft neural voices for {languageName})</li>
             <li>
               {t('settings.audio.priority2', {
                 status: isMobile ? t('settings.audio.ifEnabled') : t('settings.audio.autoLoaded'),
@@ -490,8 +590,5 @@ export default function SettingsPage() {
         {t('settings.backToDashboard')}
       </Button>
     </Container>
-  );
-}
-    </Container >
   );
 }

@@ -1,6 +1,7 @@
 'use client';
 
 import { Text, Card } from '@/components/ui';
+import { useLanguage } from '@/context/LanguageProvider';
 import { IoFlame, IoBook, IoTime, IoLanguage } from 'react-icons/io5';
 import styles from './QuickStats.module.css';
 

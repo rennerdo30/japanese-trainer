@@ -53,28 +53,31 @@ export default class ErrorBoundary extends Component<Props, State> {
 
       return (
         <LanguageContext.Consumer>
-          {({ t }) => (
-            <div style={styles.container}>
-              <div style={styles.card}>
-                <div style={styles.iconWrapper}>
-                  <IoWarning style={styles.icon} />
+          {(context) => {
+            const t = context?.t || ((key: string) => key);
+            return (
+              <div style={styles.container}>
+                <div style={styles.card}>
+                  <div style={styles.iconWrapper}>
+                    <IoWarning style={styles.icon} />
+                  </div>
+                  <h2 style={styles.title}>{t('common.errorBoundary.title')}</h2>
+                  <p style={styles.message}>
+                    {t('common.errorBoundary.message')}
+                  </p>
+                  {process.env.NODE_ENV === 'development' && this.state.error && (
+                    <pre style={styles.errorDetails}>
+                      {this.state.error.message}
+                    </pre>
+                  )}
+                  <button onClick={this.handleReset} style={styles.button}>
+                    <IoRefresh style={styles.buttonIcon} />
+                    {t('common.errorBoundary.tryAgain')}
+                  </button>
                 </div>
-                <h2 style={styles.title}>{t('common.errorBoundary.title')}</h2>
-                <p style={styles.message}>
-                  {t('common.errorBoundary.message')}
-                </p>
-                {process.env.NODE_ENV === 'development' && this.state.error && (
-                  <pre style={styles.errorDetails}>
-                    {this.state.error.message}
-                  </pre>
-                )}
-                <button onClick={this.handleReset} style={styles.button}>
-                  <IoRefresh style={styles.buttonIcon} />
-                  {t('common.errorBoundary.tryAgain')}
-                </button>
               </div>
-            </div>
-          )}
+            );
+          }}
         </LanguageContext.Consumer>
       );
     }

@@ -288,7 +288,7 @@ export default function PathDetailContent() {
 
               return (
                 <div
-                  key={milestone.id}
+                  key={`${milestone.id}-${index}`}
                   className={`${styles.milestone} ${styles[status]}`}
                 >
                   <div className={styles.milestoneConnector}>

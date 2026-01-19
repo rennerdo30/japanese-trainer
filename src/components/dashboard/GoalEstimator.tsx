@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import { Card, Text, Button } from '@/components/ui';
+import { useLanguage } from '@/context/LanguageProvider';
 import { useRecommendations } from '@/hooks/useRecommendations';
 import { IoFlag, IoTime, IoTrendingUp, IoCheckmarkCircle } from 'react-icons/io5';
 import styles from './GoalEstimator.module.css';
@@ -19,6 +20,7 @@ const GOALS = [
 ];
 
 export default function GoalEstimator({ className }: GoalEstimatorProps) {
+  const { t, language } = useLanguage();
   const { jlptProgress, stats, adaptiveRecommendations } = useRecommendations();
   const [selectedGoal, setSelectedGoal] = useState(GOALS[0]);
 
