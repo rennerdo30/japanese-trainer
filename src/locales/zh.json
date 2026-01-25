@@ -119,8 +119,8 @@
     "typeReading": "输入读音...",
     "showInfo": "显示信息",
     "noKanji": "没有可用汉字。",
-    "onyomi": "音読み",
-    "kunyomi": "訓読み",
+    "onyomi": "音读",
+    "kunyomi": "训读",
     "pinyin": "拼音",
     "filters": {
       "n5": "JLPT N5",
@@ -249,6 +249,25 @@
     "total": "总计",
     "streak": "连胜"
   },
+  "library": {
+    "filters": {
+      "title": "筛选",
+      "status": "状态",
+      "srsStatus": "SRS状态",
+      "level": "级别",
+      "lesson": "课程",
+      "all": "全部",
+      "learned": "已学习",
+      "notLearned": "未学习",
+      "allLevels": "所有级别",
+      "allLessons": "所有课程"
+    },
+    "search": {
+      "placeholder": "搜索...",
+      "clear": "清除搜索",
+      "results": "{count}个结果"
+    }
+  },
   "auth": {
     "signIn": "登录",
     "signOut": "退出登录",
@@ -271,7 +290,7 @@
       "form": {
         "email": "邮箱",
         "password": "密码",
-        "emailPlaceholder": "your@email.com",
+        "emailPlaceholder": "your @email.com",
         "passwordPlaceholderNew": "至少8个字符",
         "passwordPlaceholderExisting": "输入密码",
         "back": "返回",
@@ -296,6 +315,35 @@
       "title": "升级！",
       "message": "您已达到{level}级{tier}"
     },
+    "dailyGoal": {
+      "title": "每日目标",
+      "complete": "目标完成！",
+      "types": {
+        "xp": "获得经验值",
+        "lessons": "完成课程",
+        "time": "学习时间"
+      }
+    },
+    "streak": {
+      "dayStreak": "连续{count}天",
+      "best": "最佳：{count}天"
+    },
+    "xp": {
+      "today": "今日 {xp} XP",
+      "totalXP": "总计 {xp} XP",
+      "progressToLevel": "升至{level}级的进度",
+      "toNextLevel": "距离下一级还需 {xp} XP"
+    },
+    "weeklyReport": {
+      "title": "周报",
+      "studyTime": "学习时间",
+      "lessons": "课程",
+      "activeDays": "活跃天数",
+      "xpEarned": "获得的XP",
+      "newWords": "新词汇",
+      "accuracy": "准确率",
+      "highlights": "亮点"
+    },
     "achievements": {
       "title": "成就（{percentage}%）",
       "unlockedCount": "{unlocked} / {total}",
@@ -317,6 +365,12 @@
         "all": "全部",
         "unlocked": "已解锁",
         "locked": "已锁定"
+      },
+      "rarity": {
+        "common": "普通",
+        "rare": "稀有",
+        "epic": "史诗",
+        "legendary": "传奇"
       }
     }
   },
@@ -363,7 +417,23 @@
     },
     "appearance": {
       "title": "外观",
-      "comingSoon": "主题设置即将推出"
+      "comingSoon": "主题设置即将推出",
+      "subtitle": "自定义界面外观",
+      "globalTheme": "全局主题覆盖",
+      "themeDescription": "将此主题应用于所有语言（覆盖单语言设置）",
+      "languageOverrides": "单语言主题",
+      "languageOverridesDescription": "为每种语言独立自定义外观",
+      "customColors": "高级颜色自定义",
+      "customColorsDescription": "直接覆盖 CSS 颜色变量以实现最大程度的个性化",
+      "resetColors": "重置颜色",
+      "colors": {
+        "bgPrimary": "背景（主要）",
+        "bgSecondary": "表面（次要）",
+        "textPrimary": "主要文本颜色",
+        "accentPrimary": "强调色",
+        "accentGold": "强调金"
+      },
+      "auto": "跟随语言（默认）"
     },
     "backToDashboard": "返回仪表板"
   },
@@ -428,6 +498,14 @@
     "en": "英语"
   },
   "lessons": {
+    "card": {
+      "topic": "主题",
+      "vocabulary": "词汇",
+      "grammar": "语法",
+      "cultural": "文化注释",
+      "example": "示例",
+      "formation": "构成"
+    },
     "view": {
       "noContent": "无可用内容",
       "noExercises": "此课程暂无练习。",

@@ -3,6 +3,7 @@
 import { useMemo } from 'react';
 import { Card, Text } from '@/components/ui';
 import { IoFlame, IoCheckmarkCircle, IoTrophy, IoTime } from 'react-icons/io5';
+import { useLanguage } from '@/context/LanguageProvider';
 import type { DailyGoal, StreakData } from '@/types/gamification';
 import styles from './DailyGoalCard.module.css';
 
@@ -19,6 +20,7 @@ export default function DailyGoalCard({
   todayXP,
   compact = false,
 }: DailyGoalCardProps) {
+  const { t } = useLanguage();
   const progress = useMemo(() => {
     if (!dailyGoal) return 0;
     if (dailyGoal.target === 0) return 100;
@@ -97,10 +99,10 @@ export default function DailyGoalCard({
       {/* Goal Info */}
       <div className={styles.goalInfo}>
         <Text variant="h3">
-          {isComplete ? 'Goal Complete!' : 'Daily Goal'}
+          {isComplete ? t('gamification.dailyGoal.complete') : t('gamification.dailyGoal.title')}
         </Text>
         <Text variant="caption" color="muted">
-          {getGoalLabel(dailyGoal?.type ?? 'xp')}
+          {t(`gamification.dailyGoal.types.${dailyGoal?.type ?? 'xp'}`)}
         </Text>
       </div>
 
@@ -109,13 +111,13 @@ export default function DailyGoalCard({
         <div className={styles.streakRow}>
           <IoFlame className={`${styles.flameIcon} ${streak?.currentStreak ? styles.active : ''}`} />
           <Text variant="body">
-            {streak?.currentStreak ?? 0} day streak
+            {t('gamification.streak.dayStreak', { count: streak?.currentStreak ?? 0 })}
           </Text>
         </div>
 
         {(streak?.longestStreak ?? 0) > 0 && (
           <Text variant="caption" color="muted">
-            Best: {streak?.longestStreak} days
+            {t('gamification.streak.best', { count: streak?.longestStreak ?? 0 })}
           </Text>
         )}
       </div>
@@ -123,21 +125,8 @@ export default function DailyGoalCard({
       {/* Today's XP */}
       <div className={styles.todayXP}>
         <IoTrophy className={styles.trophyIcon} />
-        <Text variant="body">{todayXP} XP today</Text>
+        <Text variant="body">{t('gamification.xp.today', { xp: todayXP })}</Text>
       </div>
     </Card>
   );
-}
-
-function getGoalLabel(type: 'xp' | 'lessons' | 'time'): string {
-  switch (type) {
-    case 'xp':
-      return 'Earn XP';
-    case 'lessons':
-      return 'Complete lessons';
-    case 'time':
-      return 'Study time';
-    default:
-      return '';
-  }
 }

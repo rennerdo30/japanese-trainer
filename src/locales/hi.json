@@ -249,6 +249,25 @@
     "total": "कुल",
     "streak": "श्रृंखला"
   },
+  "library": {
+    "filters": {
+      "title": "फ़िल्टर",
+      "status": "स्थिति",
+      "srsStatus": "SRS स्थिति",
+      "level": "स्तर",
+      "lesson": "पाठ",
+      "all": "सभी",
+      "learned": "सीखा हुआ",
+      "notLearned": "नहीं सीखा",
+      "allLevels": "सभी स्तर",
+      "allLessons": "सभी पाठ"
+    },
+    "search": {
+      "placeholder": "खोजें...",
+      "clear": "खोज साफ़ करें",
+      "results": "{count} परिणाम"
+    }
+  },
   "auth": {
     "signIn": "साइन इन करें",
     "signOut": "साइन आउट करें",
@@ -296,6 +315,35 @@
       "title": "स्तर ऊपर!",
       "message": "आपने {tier} स्तर {level} तक पहुँच गए हैं"
     },
+    "dailyGoal": {
+      "title": "दैनिक लक्ष्य",
+      "complete": "लक्ष्य पूरा!",
+      "types": {
+        "xp": "XP कमाएं",
+        "lessons": "पाठ पूरा करें",
+        "time": "अध्ययन समय"
+      }
+    },
+    "streak": {
+      "dayStreak": "{count} दिन की श्रृंखला",
+      "best": "सर्वश्रेष्ठ: {count} दिन"
+    },
+    "xp": {
+      "today": "आज {xp} XP",
+      "totalXP": "कुल {xp} XP",
+      "progressToLevel": "स्तर {level} की प्रगति",
+      "toNextLevel": "अगले स्तर के लिए {xp} XP"
+    },
+    "weeklyReport": {
+      "title": "साप्ताहिक रिपोर्ट",
+      "studyTime": "अध्ययन समय",
+      "lessons": "पाठ",
+      "activeDays": "सक्रिय दिन",
+      "xpEarned": "अर्जित XP",
+      "newWords": "नए शब्द",
+      "accuracy": "सटीकता",
+      "highlights": "मुख्य बिंदु"
+    },
     "achievements": {
       "title": "उपलब्धियाँ ({percentage}%)",
       "unlockedCount": "{unlocked} / {total}",
@@ -317,6 +365,12 @@
         "all": "सभी",
         "unlocked": "अनलॉक",
         "locked": "लॉक"
+      },
+      "rarity": {
+        "common": "सामान्य",
+        "rare": "दुर्लभ",
+        "epic": "महाकाव्य",
+        "legendary": "किंवदंती"
       }
     }
   },
@@ -363,7 +417,23 @@
     },
     "appearance": {
       "title": "दिखावट",
-      "comingSoon": "थीम सेटिंग्स जल्द ही आ रही हैं"
+      "comingSoon": "थीम सेटिंग्स जल्द ही आ रही हैं",
+      "subtitle": "लुक और फील को कस्टमाइज़ करें",
+      "globalTheme": "ग्लोबल थीम ओवरराइड",
+      "themeDescription": "यह थीम सभी भाषाओं पर लागू होती है (प्रति-भाषा सेटिंग्स को ओवरराइड करती है)",
+      "languageOverrides": "प्रति-भाषा थीम्स",
+      "languageOverridesDescription": "प्रत्येक भाषा के लिए दिखावट को स्वतंत्र रूप से कस्टमाइज़ करें",
+      "customColors": "उन्नत रंग कस्टमाइज़ेशन",
+      "customColorsDescription": "अधिकतम निजीकरण के लिए CSS रंग वेरिएबल्स को सीधे ओवरराइड करें",
+      "resetColors": "रंग रीसेट करें",
+      "colors": {
+        "bgPrimary": "बैकग्राउंड (मुख्य)",
+        "bgSecondary": "सतह (माध्यमिक)",
+        "textPrimary": "मुख्य टेक्स्ट का रंग",
+        "accentPrimary": "एक्सेंट रंग",
+        "accentGold": "एक्सेंट गोल्ड"
+      },
+      "auto": "भाषा के अनुसार (डिफ़ॉल्ट)"
     },
     "backToDashboard": "डैशबोर्ड पर वापस"
   },
@@ -428,6 +498,14 @@
     "en": "अंग्रेज़ी"
   },
   "lessons": {
+    "card": {
+      "topic": "विषय",
+      "vocabulary": "शब्दावली",
+      "grammar": "व्याकरण",
+      "cultural": "सांस्कृतिक नोट",
+      "example": "उदाहरण",
+      "formation": "निर्माण"
+    },
     "view": {
       "noContent": "कोई सामग्री उपलब्ध नहीं है",
       "noExercises": "इस पाठ के लिए कोई अभ्यास उपलब्ध नहीं है।",

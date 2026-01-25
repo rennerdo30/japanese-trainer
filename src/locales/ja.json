@@ -249,6 +249,25 @@
     "total": "合計",
     "streak": "連続"
   },
+  "library": {
+    "filters": {
+      "title": "フィルター",
+      "status": "ステータス",
+      "srsStatus": "SRSステータス",
+      "level": "レベル",
+      "lesson": "レッスン",
+      "all": "すべて",
+      "learned": "学習済み",
+      "notLearned": "未学習",
+      "allLevels": "すべてのレベル",
+      "allLessons": "すべてのレッスン"
+    },
+    "search": {
+      "placeholder": "検索...",
+      "clear": "検索をクリア",
+      "results": "{count}件の結果"
+    }
+  },
   "auth": {
     "signIn": "サインイン",
     "signOut": "サインアウト",
@@ -296,6 +315,35 @@
       "title": "レベルアップ！",
       "message": "{tier}レベル{level}に到達しました"
     },
+    "dailyGoal": {
+      "title": "今日の目標",
+      "complete": "目標達成！",
+      "types": {
+        "xp": "XPを獲得",
+        "lessons": "レッスンを完了",
+        "time": "学習時間"
+      }
+    },
+    "streak": {
+      "dayStreak": "{count}日連続",
+      "best": "最高: {count}日"
+    },
+    "xp": {
+      "today": "今日 {xp} XP",
+      "totalXP": "合計 {xp} XP",
+      "progressToLevel": "レベル{level}への進捗",
+      "toNextLevel": "次のレベルまで {xp} XP"
+    },
+    "weeklyReport": {
+      "title": "週間レポート",
+      "studyTime": "学習時間",
+      "lessons": "レッスン",
+      "activeDays": "アクティブ日数",
+      "xpEarned": "獲得XP",
+      "newWords": "新しい単語",
+      "accuracy": "正確さ",
+      "highlights": "ハイライト"
+    },
     "achievements": {
       "title": "実績（{percentage}%）",
       "unlockedCount": "{unlocked} / {total}",
@@ -317,6 +365,12 @@
         "all": "すべて",
         "unlocked": "解除済み",
         "locked": "ロック中"
+      },
+      "rarity": {
+        "common": "コモン",
+        "rare": "レア",
+        "epic": "エピック",
+        "legendary": "レジェンダリー"
       }
     }
   },
@@ -363,7 +417,23 @@
     },
     "appearance": {
       "title": "外観",
-      "comingSoon": "テーマ設定近日公開"
+      "comingSoon": "テーマ設定近日公開",
+      "subtitle": "外観と雰囲気のカスタマイズ",
+      "globalTheme": "グローバルテーマの上書き",
+      "themeDescription": "すべての言語にこのテーマを適用します（言語ごとの設定を上書きします）",
+      "languageOverrides": "言語ごとのテーマ設定",
+      "languageOverridesDescription": "言語ごとに外観を個別にカスタマイズします",
+      "customColors": "高度なカラーカスタマイズ",
+      "customColorsDescription": "CSSのカラー変数を直接上書きして、最大限のパーソナライズを可能にします",
+      "resetColors": "色をリセット",
+      "colors": {
+        "bgPrimary": "背景色（プライマリ）",
+        "bgSecondary": "サーフェス（セカンダリ）",
+        "textPrimary": "メインテキストの色",
+        "accentPrimary": "アクセントカラー",
+        "accentGold": "アクセントゴールド"
+      },
+      "auto": "言語設定に従う（デフォルト）"
     },
     "backToDashboard": "ダッシュボードに戻る"
   },
@@ -428,6 +498,14 @@
     "en": "英語"
   },
   "lessons": {
+    "card": {
+      "topic": "トピック",
+      "vocabulary": "語彙",
+      "grammar": "文法",
+      "cultural": "文化メモ",
+      "example": "例文",
+      "formation": "形成"
+    },
     "view": {
       "noContent": "利用可能なコンテンツがありません",
       "noExercises": "このレッスンには利用可能な練習問題がありません。",
@@ -454,7 +532,8 @@
       "usageNotes": "使用上の注意",
       "hideExplanation": "説明を隠す",
       "showExplanation": "説明を表示",
-      "iUnderstand": "理解しました"
+      "iUnderstand": "理解しました",
+      "formation": "形成"
     },
     "character": {
       "strokeOrder": "筆順",

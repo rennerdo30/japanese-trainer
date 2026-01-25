@@ -2,6 +2,7 @@
 
 import { useMemo } from 'react';
 import { Card, Text } from '@/components/ui';
+import { useLanguage } from '@/context/LanguageProvider';
 import {
   IoTime,
   IoBook,
@@ -48,6 +49,8 @@ export default function WeeklyReportCard({
   highlights,
   compact = false,
 }: WeeklyReportCardProps) {
+  const { t } = useLanguage();
+
   // Format dates
   const dateRange = useMemo(() => {
     const start = new Date(weekStart);
@@ -111,7 +114,7 @@ export default function WeeklyReportCard({
       <div className={styles.header}>
         <div className={styles.dateContainer}>
           <IoCalendar className={styles.calendarIcon} />
-          <Text variant="h3">Weekly Report</Text>
+          <Text variant="h3">{t('gamification.weeklyReport.title')}</Text>
         </div>
         <Text variant="caption" color="muted">{dateRange}</Text>
       </div>
@@ -123,7 +126,7 @@ export default function WeeklyReportCard({
           </div>
           <div className={styles.statContent}>
             <Text variant="h3" className={styles.statValue}>{formattedStudyTime}</Text>
-            <Text variant="caption" color="muted">Study Time</Text>
+            <Text variant="caption" color="muted">{t('gamification.weeklyReport.studyTime')}</Text>
             {comparison && renderChange(comparison.studyTimeChange)}
           </div>
         </div>
@@ -134,7 +137,7 @@ export default function WeeklyReportCard({
           </div>
           <div className={styles.statContent}>
             <Text variant="h3" className={styles.statValue}>{stats.lessonsCompleted}</Text>
-            <Text variant="caption" color="muted">Lessons</Text>
+            <Text variant="caption" color="muted">{t('gamification.weeklyReport.lessons')}</Text>
             {comparison && renderChange(comparison.lessonsChange)}
           </div>
         </div>
@@ -145,7 +148,7 @@ export default function WeeklyReportCard({
           </div>
           <div className={styles.statContent}>
             <Text variant="h3" className={styles.statValue}>{stats.streakDays}/7</Text>
-            <Text variant="caption" color="muted">Active Days</Text>
+            <Text variant="caption" color="muted">{t('gamification.weeklyReport.activeDays')}</Text>
           </div>
         </div>
 
@@ -155,7 +158,7 @@ export default function WeeklyReportCard({
           </div>
           <div className={styles.statContent}>
             <Text variant="h3" className={styles.statValue}>{stats.xpEarned}</Text>
-            <Text variant="caption" color="muted">XP Earned</Text>
+            <Text variant="caption" color="muted">{t('gamification.weeklyReport.xpEarned')}</Text>
           </div>
         </div>
 
@@ -165,7 +168,7 @@ export default function WeeklyReportCard({
           </div>
           <div className={styles.statContent}>
             <Text variant="h3" className={styles.statValue}>{stats.newWordsLearned}</Text>
-            <Text variant="caption" color="muted">New Words</Text>
+            <Text variant="caption" color="muted">{t('gamification.weeklyReport.newWords')}</Text>
           </div>
         </div>
 
@@ -174,7 +177,7 @@ export default function WeeklyReportCard({
             <Text variant="body" className={styles.accuracyText}>{stats.accuracy}%</Text>
           </div>
           <div className={styles.statContent}>
-            <Text variant="caption" color="muted">Accuracy</Text>
+            <Text variant="caption" color="muted">{t('gamification.weeklyReport.accuracy')}</Text>
             {comparison && renderChange(comparison.accuracyChange)}
           </div>
         </div>
@@ -182,7 +185,7 @@ export default function WeeklyReportCard({
 
       {highlights && highlights.length > 0 && (
         <div className={styles.highlights}>
-          <Text variant="label" color="muted">Highlights</Text>
+          <Text variant="label" color="muted">{t('gamification.weeklyReport.highlights')}</Text>
           <ul className={styles.highlightList}>
             {highlights.map((highlight, index) => (
               <li key={index} className={styles.highlightItem}>

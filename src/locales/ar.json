@@ -249,6 +249,25 @@
     "total": "الإجمالي",
     "streak": "سلسلة"
   },
+  "library": {
+    "filters": {
+      "title": "الفلاتر",
+      "status": "الحالة",
+      "srsStatus": "حالة SRS",
+      "level": "المستوى",
+      "lesson": "الدرس",
+      "all": "الكل",
+      "learned": "تم تعلمه",
+      "notLearned": "لم يتم تعلمه",
+      "allLevels": "جميع المستويات",
+      "allLessons": "جميع الدروس"
+    },
+    "search": {
+      "placeholder": "بحث...",
+      "clear": "مسح البحث",
+      "results": "{count} نتيجة"
+    }
+  },
   "auth": {
     "signIn": "تسجيل الدخول",
     "signOut": "تسجيل الخروج",
@@ -271,7 +290,7 @@
       "form": {
         "email": "البريد الإلكتروني",
         "password": "كلمة المرور",
-        "emailPlaceholder": "your@email.com",
+        "emailPlaceholder": "your @email.com",
         "passwordPlaceholderNew": "8 أحرف على الأقل",
         "passwordPlaceholderExisting": "أدخل كلمة المرور",
         "back": "رجوع",
@@ -296,6 +315,35 @@
       "title": "ارتقِ مستوى!",
       "message": "لقد وصلت إلى المستوى {level} من الفئة {tier}"
     },
+    "dailyGoal": {
+      "title": "الهدف اليومي",
+      "complete": "تم تحقيق الهدف!",
+      "types": {
+        "xp": "كسب XP",
+        "lessons": "إكمال الدروس",
+        "time": "وقت الدراسة"
+      }
+    },
+    "streak": {
+      "dayStreak": "سلسلة {count} يوم",
+      "best": "الأفضل: {count} يوم"
+    },
+    "xp": {
+      "today": "{xp} XP اليوم",
+      "totalXP": "{xp} XP إجمالي",
+      "progressToLevel": "التقدم نحو المستوى {level}",
+      "toNextLevel": "{xp} XP للمستوى التالي"
+    },
+    "weeklyReport": {
+      "title": "التقرير الأسبوعي",
+      "studyTime": "وقت الدراسة",
+      "lessons": "الدروس",
+      "activeDays": "الأيام النشطة",
+      "xpEarned": "XP المكتسب",
+      "newWords": "كلمات جديدة",
+      "accuracy": "الدقة",
+      "highlights": "أبرز النقاط"
+    },
     "achievements": {
       "title": "الإنجازات ({percentage}%)",
       "unlockedCount": "{unlocked} / {total}",
@@ -317,6 +365,12 @@
         "all": "الكل",
         "unlocked": "مفتوح",
         "locked": "مقفل"
+      },
+      "rarity": {
+        "common": "شائع",
+        "rare": "نادر",
+        "epic": "ملحمي",
+        "legendary": "أسطوري"
       }
     }
   },
@@ -363,7 +417,23 @@
     },
     "appearance": {
       "title": "المظهر",
-      "comingSoon": "إعدادات السمة قريباً"
+      "comingSoon": "إعدادات السمة قريباً",
+      "subtitle": "تخصيص المظهر والتجربة",
+      "globalTheme": "تجاوز المظهر العام",
+      "themeDescription": "تطبيق هذا المظهر على جميع اللغات (يتجاوز إعدادات كل لغة)",
+      "languageOverrides": "مظاهر مخصصة لكل لغة",
+      "languageOverridesDescription": "تخصيص المظهر لكل لغة بشكل مستقل",
+      "customColors": "تخصيص الألوان المتقدم",
+      "customColorsDescription": "تجاوز متغيرات ألوان CSS مباشرة للحصول على تخصيص أوسع",
+      "resetColors": "إعادة تعيين الألوان",
+      "colors": {
+        "bgPrimary": "الخلفية (أساسي)",
+        "bgSecondary": "السطح (ثانوي)",
+        "textPrimary": "لون النص الأساسي",
+        "accentPrimary": "لون التمييز",
+        "accentGold": "اللون الذهبي للتمييز"
+      },
+      "auto": "حسب اللغة (افتراضي)"
     },
     "backToDashboard": "العودة إلى لوحة التحكم"
   },
@@ -428,6 +498,14 @@
     "en": "الإنجليزية"
   },
   "lessons": {
+    "card": {
+      "topic": "الموضوع",
+      "vocabulary": "المفردات",
+      "grammar": "القواعد",
+      "cultural": "ملاحظة ثقافية",
+      "example": "مثال",
+      "formation": "التكوين"
+    },
     "view": {
       "noContent": "لا يوجد محتوى متاح",
       "noExercises": "لا توجد تمارين متاحة لهذا الدرس.",

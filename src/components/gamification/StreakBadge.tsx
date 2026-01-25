@@ -2,6 +2,7 @@
 
 import { Text } from '@/components/ui';
 import { IoFlame } from 'react-icons/io5';
+import { useLanguage } from '@/context/LanguageProvider';
 import { getStreakDisplayText, getStreakColorClass, getStreakMessage } from '@/lib/streak';
 import type { StreakData } from '@/types/gamification';
 import styles from './StreakBadge.module.css';
@@ -17,6 +18,7 @@ export default function StreakBadge({
   showMessage = false,
   size = 'md',
 }: StreakBadgeProps) {
+  const { t } = useLanguage();
   const currentStreak = streak?.currentStreak ?? 0;
   const isActive = currentStreak > 0;
   const colorClass = getStreakColorClass(currentStreak);
@@ -41,7 +43,7 @@ export default function StreakBadge({
 
           {(streak?.longestStreak ?? 0) > currentStreak && (
             <Text variant="caption" color="muted" className={styles.best}>
-              Best: {streak?.longestStreak} days
+              {t('gamification.streak.best', { count: streak?.longestStreak ?? 0 })}
             </Text>
           )}
         </div>

@@ -129,7 +129,7 @@ export default function AchievementCard({
         </div>
         <div className={styles.rarityBadge}>
           <Text variant="caption" className={styles.rarityText}>
-            {achievement.rarity}
+            {t(`gamification.achievements.rarity.${achievement.rarity}`)}
           </Text>
         </div>
       </div>

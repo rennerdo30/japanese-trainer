@@ -46,6 +46,35 @@
       "title": "Level Up!",
       "message": "You've reached {tier} level {level}"
     },
+    "dailyGoal": {
+      "title": "Daily Goal",
+      "complete": "Goal Complete!",
+      "types": {
+        "xp": "Earn XP",
+        "lessons": "Complete lessons",
+        "time": "Study time"
+      }
+    },
+    "streak": {
+      "dayStreak": "{count} day streak",
+      "best": "Best: {count} days"
+    },
+    "xp": {
+      "today": "{xp} XP today",
+      "totalXP": "{xp} total XP",
+      "progressToLevel": "Progress to Level {level}",
+      "toNextLevel": "{xp} XP to next level"
+    },
+    "weeklyReport": {
+      "title": "Weekly Report",
+      "studyTime": "Study Time",
+      "lessons": "Lessons",
+      "activeDays": "Active Days",
+      "xpEarned": "XP Earned",
+      "newWords": "New Words",
+      "accuracy": "Accuracy",
+      "highlights": "Highlights"
+    },
     "achievements": {
       "title": "Achievements ({percentage}%)",
       "unlockedCount": "{unlocked} / {total}",
@@ -67,6 +96,12 @@
         "all": "All",
         "unlocked": "Unlocked",
         "locked": "Locked"
+      },
+      "rarity": {
+        "common": "Common",
+        "rare": "Rare",
+        "epic": "Epic",
+        "legendary": "Legendary"
       }
     }
   },
@@ -90,7 +125,6 @@
     "selectLanguage": "Select language",
     "close": "Close",
     "listen": "Listen",
-    "stop": "Stop",
     "show": "Show",
     "hide": "Hide",
     "iKnowThis": "I Know This",
@@ -110,14 +144,20 @@
       "message": "An unexpected error occurred. Please try refreshing the page.",
       "tryAgain": "Try Again"
     },
-    "play": "Play",
-    "listen": "Listen",
     "demo": "Demo",
     "guide": "Guide",
     "clear": "Clear",
     "gotIt": "Got it"
   },
   "lessons": {
+    "card": {
+      "topic": "Topic",
+      "vocabulary": "Vocabulary",
+      "grammar": "Grammar",
+      "cultural": "Cultural Note",
+      "example": "Example",
+      "formation": "Formation"
+    },
     "view": {
       "noContent": "No content available",
       "noExercises": "No exercises available for this lesson.",
@@ -144,7 +184,8 @@
       "usageNotes": "Usage Notes",
       "hideExplanation": "Hide Explanation",
       "showExplanation": "Show Explanation",
-      "iUnderstand": "I Understand"
+      "iUnderstand": "I Understand",
+      "formation": "Formation"
     },
     "character": {
       "strokeOrder": "Stroke Order",
@@ -359,7 +400,10 @@
     "characterOf": "Character {current} of {total}",
     "lessonComplete": "Lesson Complete!",
     "nextLesson": "Next Lesson",
-    "selectLesson": "Select Lesson"
+    "selectLesson": "Select Lesson",
+    "previousCharacter": "Previous character",
+    "nextCharacter": "Next character",
+    "characterName": "Name"
   },
   "vocabulary": {
     "practiceMode": "Practice Mode",
@@ -491,6 +535,25 @@
       "title": "Learning Target",
       "selectLabel": "Select target language",
       "levelsAvailable": "{count} levels available"
+    }
+  },
+  "library": {
+    "filters": {
+      "title": "Filters",
+      "status": "Status",
+      "srsStatus": "SRS Status",
+      "level": "Level",
+      "lesson": "Lesson",
+      "all": "All",
+      "learned": "Learned",
+      "notLearned": "Not Learned",
+      "allLevels": "All Levels",
+      "allLessons": "All Lessons"
+    },
+    "search": {
+      "placeholder": "Search...",
+      "clear": "Clear search",
+      "results": "{count} results"
     }
   },
   "stats": {

@@ -249,6 +249,25 @@
     "total": "Всего",
     "streak": "серия"
   },
+  "library": {
+    "filters": {
+      "title": "Фильтры",
+      "status": "Статус",
+      "srsStatus": "Статус SRS",
+      "level": "Уровень",
+      "lesson": "Урок",
+      "all": "Все",
+      "learned": "Изучено",
+      "notLearned": "Не изучено",
+      "allLevels": "Все уровни",
+      "allLessons": "Все уроки"
+    },
+    "search": {
+      "placeholder": "Поиск...",
+      "clear": "Очистить поиск",
+      "results": "{count} результатов"
+    }
+  },
   "auth": {
     "signIn": "Войти",
     "signOut": "Выйти",
@@ -296,6 +315,35 @@
       "title": "Повышение уровня!",
       "message": "Вы достигли {tier} уровня {level}"
     },
+    "dailyGoal": {
+      "title": "Дневная цель",
+      "complete": "Цель достигнута!",
+      "types": {
+        "xp": "Заработать XP",
+        "lessons": "Завершить уроки",
+        "time": "Время обучения"
+      }
+    },
+    "streak": {
+      "dayStreak": "Серия {count} дней",
+      "best": "Лучший: {count} дней"
+    },
+    "xp": {
+      "today": "{xp} XP сегодня",
+      "totalXP": "{xp} XP всего",
+      "progressToLevel": "Прогресс к уровню {level}",
+      "toNextLevel": "{xp} XP до следующего уровня"
+    },
+    "weeklyReport": {
+      "title": "Недельный отчет",
+      "studyTime": "Время обучения",
+      "lessons": "Уроки",
+      "activeDays": "Активные дни",
+      "xpEarned": "Заработано XP",
+      "newWords": "Новые слова",
+      "accuracy": "Точность",
+      "highlights": "Главное"
+    },
     "achievements": {
       "title": "Достижения ({percentage}%)",
       "unlockedCount": "{unlocked} / {total}",
@@ -317,6 +365,12 @@
         "all": "Все",
         "unlocked": "Разблокировано",
         "locked": "Заблокировано"
+      },
+      "rarity": {
+        "common": "Обычный",
+        "rare": "Редкий",
+        "epic": "Эпический",
+        "legendary": "Легендарный"
       }
     }
   },
@@ -363,7 +417,23 @@
     },
     "appearance": {
       "title": "Внешний вид",
-      "comingSoon": "Настройки темы скоро"
+      "comingSoon": "Настройки темы скоро",
+      "subtitle": "Настройте внешний вид",
+      "globalTheme": "Переопределение глобальной темы",
+      "themeDescription": "Применяет эту тему для всех языков (перекрывает настройки для отдельных языков)",
+      "languageOverrides": "Темы для отдельных языков",
+      "languageOverridesDescription": "Настройте внешний вид для каждого языка индивидуально",
+      "customColors": "Расширенная настройка цветов",
+      "customColorsDescription": "Напрямую переопределяйте переменные цветов CSS для максимальной персонализации",
+      "resetColors": "Сбросить цвета",
+      "colors": {
+        "bgPrimary": "Фон (основной)",
+        "bgSecondary": "Поверхность (вторичный)",
+        "textPrimary": "Основной цвет текста",
+        "accentPrimary": "Акцентный цвет",
+        "accentGold": "Золотой акцент"
+      },
+      "auto": "Как в языке (по умолчанию)"
     },
     "backToDashboard": "Назад в панель управления"
   },
@@ -428,6 +498,14 @@
     "en": "Английский"
   },
   "lessons": {
+    "card": {
+      "topic": "Тема",
+      "vocabulary": "Словарь",
+      "grammar": "Грамматика",
+      "cultural": "Культурная заметка",
+      "example": "Пример",
+      "formation": "Образование"
+    },
     "view": {
       "noContent": "Контент недоступен",
       "noExercises": "Для этого урока нет упражнений.",

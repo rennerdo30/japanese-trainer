@@ -2,6 +2,7 @@
 
 import { useState, useCallback, useEffect } from 'react';
 import { IoSearch, IoClose } from 'react-icons/io5';
+import { useLanguage } from '@/context/LanguageProvider';
 import styles from './LibrarySearch.module.css';
 
 interface LibrarySearchProps {
@@ -12,12 +13,14 @@ interface LibrarySearchProps {
 }
 
 export default function LibrarySearch({
-  placeholder = 'Search...',
+  placeholder,
   onSearch,
   debounceMs = 300,
   resultCount,
 }: LibrarySearchProps) {
+  const { t } = useLanguage();
   const [query, setQuery] = useState('');
+  const searchPlaceholder = placeholder ?? t('library.search.placeholder');
 
   // Debounce search
   useEffect(() => {
@@ -41,16 +44,16 @@ export default function LibrarySearch({
           type="text"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder={placeholder}
+          placeholder={searchPlaceholder}
           className={styles.input}
-          aria-label={placeholder}
+          aria-label={searchPlaceholder}
           role="searchbox"
         />
         {query && (
           <button
             onClick={handleClear}
             className={styles.clearButton}
-            aria-label="Clear search"
+            aria-label={t('library.search.clear')}
           >
             <IoClose />
           </button>
@@ -58,7 +61,7 @@ export default function LibrarySearch({
       </div>
       {query && resultCount !== undefined && (
         <span className={styles.resultCount}>
-          {resultCount} result{resultCount !== 1 ? 's' : ''}
+          {t('library.search.results', { count: resultCount })}
         </span>
       )}
     </div>

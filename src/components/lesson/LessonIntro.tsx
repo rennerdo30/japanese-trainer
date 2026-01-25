@@ -13,6 +13,21 @@ interface LessonIntroProps {
   onBack: () => void;
 }
 
+// Filter out generic topics like "Learn X vocabulary items" since we show counts separately
+function filterGenericTopics(topics: string[]): string[] {
+  const genericPatterns = [
+    /learn\s*\d+\s*vocabulary/i,
+    /master\s*\d+\s*grammar/i,
+    /\d+\s*vocabulary\s*(items?|words?)/i,
+    /\d+\s*grammar\s*(points?|patterns?)/i,
+    /vocabulary\s*items?:\s*\d+/i,
+    /grammar\s*points?:\s*\d+/i,
+  ];
+  return topics.filter(topic =>
+    !genericPatterns.some(pattern => pattern.test(topic))
+  );
+}
+
 export default function LessonIntro({
   lesson,
   lessonInfo,
@@ -20,7 +35,9 @@ export default function LessonIntro({
   onBack,
 }: LessonIntroProps) {
   const { t } = useLanguage();
-  const topicsCount = lesson.content.topics.length;
+  // Filter out generic count-based topics - we show those as translated counts below
+  const meaningfulTopics = filterGenericTopics(lesson.content.topics);
+  const topicsCount = meaningfulTopics.length;
   const vocabCount = lesson.content.vocab_focus.length;
   const grammarCount = lesson.content.grammar_focus?.length || 0;
   const culturalCount = lesson.content.cultural_notes?.length || 0;
@@ -92,7 +109,7 @@ export default function LessonIntro({
           </Text>
 
           <div className={styles.previewItems}>
-            {lesson.content.topics.map((topic, index) => (
+            {meaningfulTopics.map((topic, index) => (
               <div key={`topic-${index}`} className={styles.previewItem}>
                 <span className={styles.bullet} />
                 <Text variant="body">{topic}</Text>

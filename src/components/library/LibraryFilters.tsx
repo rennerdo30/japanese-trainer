@@ -1,6 +1,7 @@
 'use client';
 
 import { Text, Button } from '@/components/ui';
+import { useLanguage } from '@/context/LanguageProvider';
 import styles from './LibraryFilters.module.css';
 
 export type FilterStatus = 'all' | 'learned' | 'unlearned';
@@ -19,18 +20,20 @@ interface LibraryFiltersProps {
   onLessonChange?: (lessonId: string | undefined) => void;
 }
 
-const STATUS_OPTIONS: Array<{ value: FilterStatus; label: string }> = [
-  { value: 'all', label: 'All' },
-  { value: 'learned', label: 'Learned' },
-  { value: 'unlearned', label: 'Not Learned' },
+// Keys for status options - labels will be looked up via t()
+const STATUS_OPTIONS: Array<{ value: FilterStatus; labelKey: string }> = [
+  { value: 'all', labelKey: 'library.filters.all' },
+  { value: 'learned', labelKey: 'library.filters.learned' },
+  { value: 'unlearned', labelKey: 'library.filters.notLearned' },
 ];
 
-const SRS_OPTIONS: Array<{ value: SrsFilter; label: string }> = [
-  { value: 'all', label: 'All' },
-  { value: 'new', label: 'New' },
-  { value: 'learning', label: 'Learning' },
-  { value: 'review', label: 'Review' },
-  { value: 'mastered', label: 'Mastered' },
+// Keys for SRS options - labels will be looked up via t()
+const SRS_OPTIONS: Array<{ value: SrsFilter; labelKey: string }> = [
+  { value: 'all', labelKey: 'library.filters.all' },
+  { value: 'new', labelKey: 'review.mastery.new' },
+  { value: 'learning', labelKey: 'review.mastery.learning' },
+  { value: 'review', labelKey: 'review.mastery.review' },
+  { value: 'mastered', labelKey: 'review.mastery.mastered' },
 ];
 
 export default function LibraryFilters({
@@ -45,11 +48,13 @@ export default function LibraryFilters({
   selectedLesson,
   onLessonChange,
 }: LibraryFiltersProps) {
+  const { t } = useLanguage();
+
   return (
-    <div className={styles.container} role="group" aria-label="Filters">
+    <div className={styles.container} role="group" aria-label={t('library.filters.title')}>
       <div className={styles.filterGroup}>
         <Text variant="caption" color="muted" className={styles.label} id="status-filter-label">
-          Status
+          {t('library.filters.status')}
         </Text>
         <div className={styles.toggleGroup} role="group" aria-labelledby="status-filter-label">
           {STATUS_OPTIONS.map((option) => (
@@ -60,7 +65,7 @@ export default function LibraryFilters({
               aria-pressed={statusFilter === option.value}
               type="button"
             >
-              {option.label}
+              {t(option.labelKey)}
             </button>
           ))}
         </div>
@@ -69,7 +74,7 @@ export default function LibraryFilters({
       {onSrsChange && srsFilter !== undefined && (
         <div className={styles.filterGroup}>
           <Text variant="caption" color="muted" className={styles.label} id="srs-filter-label">
-            SRS Status
+            {t('library.filters.srsStatus')}
           </Text>
           <div className={styles.toggleGroup} role="group" aria-labelledby="srs-filter-label">
             {SRS_OPTIONS.map((option) => (
@@ -80,7 +85,7 @@ export default function LibraryFilters({
                 aria-pressed={srsFilter === option.value}
                 type="button"
               >
-                {option.label}
+                {t(option.labelKey)}
               </button>
             ))}
           </div>
@@ -91,7 +96,7 @@ export default function LibraryFilters({
         <div className={styles.filterGroup}>
           <label htmlFor="level-select">
             <Text variant="caption" color="muted" className={styles.label}>
-              Level
+              {t('library.filters.level')}
             </Text>
           </label>
           <select
@@ -100,7 +105,7 @@ export default function LibraryFilters({
             onChange={(e) => onLevelChange(e.target.value || undefined)}
             className={styles.select}
           >
-            <option value="">All Levels</option>
+            <option value="">{t('library.filters.allLevels')}</option>
             {levels.map((level) => (
               <option key={level} value={level}>
                 {level}
@@ -114,7 +119,7 @@ export default function LibraryFilters({
         <div className={styles.filterGroup}>
           <label htmlFor="lesson-select">
             <Text variant="caption" color="muted" className={styles.label}>
-              Lesson
+              {t('library.filters.lesson')}
             </Text>
           </label>
           <select
@@ -123,7 +128,7 @@ export default function LibraryFilters({
             onChange={(e) => onLessonChange(e.target.value || undefined)}
             className={styles.select}
           >
-            <option value="">All Lessons</option>
+            <option value="">{t('library.filters.allLessons')}</option>
             {lessons.map((lesson) => (
               <option key={lesson.id} value={lesson.id}>
                 {lesson.title}

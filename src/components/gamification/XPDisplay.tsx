@@ -2,6 +2,7 @@
 
 import { Card, Text } from '@/components/ui';
 import { IoStar, IoTrendingUp } from 'react-icons/io5';
+import { useLanguage } from '@/context/LanguageProvider';
 import { getLevelDisplayName, getLevelTierColor } from '@/lib/xp';
 import type { UserLevel } from '@/types/gamification';
 import styles from './XPDisplay.module.css';
@@ -17,6 +18,8 @@ export default function XPDisplay({
   showProgress = true,
   compact = false,
 }: XPDisplayProps) {
+  const { t } = useLanguage();
+
   if (!level) {
     return null;
   }
@@ -55,7 +58,7 @@ export default function XPDisplay({
         <div className={styles.levelInfo}>
           <Text variant="h3">{tierName}</Text>
           <Text variant="caption" color="muted">
-            {level.totalXP.toLocaleString()} total XP
+            {t('gamification.xp.totalXP', { xp: level.totalXP.toLocaleString() })}
           </Text>
         </div>
       </div>
@@ -65,7 +68,7 @@ export default function XPDisplay({
         <div className={styles.progressSection}>
           <div className={styles.progressHeader}>
             <Text variant="caption" color="muted">
-              Progress to Level {level.level + 1}
+              {t('gamification.xp.progressToLevel', { level: level.level + 1 })}
             </Text>
             <Text variant="caption">
               {level.currentXP} / {level.xpToNextLevel} XP
@@ -82,7 +85,7 @@ export default function XPDisplay({
           <div className={styles.xpNeeded}>
             <IoTrendingUp className={styles.trendIcon} />
             <Text variant="caption" color="muted">
-              {level.xpToNextLevel - level.currentXP} XP to next level
+              {t('gamification.xp.toNextLevel', { xp: level.xpToNextLevel - level.currentXP })}
             </Text>
           </div>
         </div>

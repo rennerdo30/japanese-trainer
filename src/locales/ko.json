@@ -249,6 +249,25 @@
     "total": "총",
     "streak": "연속"
   },
+  "library": {
+    "filters": {
+      "title": "필터",
+      "status": "상태",
+      "srsStatus": "SRS 상태",
+      "level": "레벨",
+      "lesson": "레슨",
+      "all": "전체",
+      "learned": "학습 완료",
+      "notLearned": "미학습",
+      "allLevels": "모든 레벨",
+      "allLessons": "모든 레슨"
+    },
+    "search": {
+      "placeholder": "검색...",
+      "clear": "검색 지우기",
+      "results": "{count}개 결과"
+    }
+  },
   "auth": {
     "signIn": "로그인",
     "signOut": "로그아웃",
@@ -296,6 +315,35 @@
       "title": "레벨 업!",
       "message": "{tier} 레벨 {level}에 도달했습니다"
     },
+    "dailyGoal": {
+      "title": "오늘의 목표",
+      "complete": "목표 달성!",
+      "types": {
+        "xp": "XP 획득",
+        "lessons": "레슨 완료",
+        "time": "학습 시간"
+      }
+    },
+    "streak": {
+      "dayStreak": "{count}일 연속",
+      "best": "최고: {count}일"
+    },
+    "xp": {
+      "today": "오늘 {xp} XP",
+      "totalXP": "총 {xp} XP",
+      "progressToLevel": "레벨 {level}까지 진행",
+      "toNextLevel": "다음 레벨까지 {xp} XP"
+    },
+    "weeklyReport": {
+      "title": "주간 보고서",
+      "studyTime": "학습 시간",
+      "lessons": "레슨",
+      "activeDays": "활동 일수",
+      "xpEarned": "획득 XP",
+      "newWords": "새 단어",
+      "accuracy": "정확도",
+      "highlights": "하이라이트"
+    },
     "achievements": {
       "title": "업적 ({percentage}%)",
       "unlockedCount": "{unlocked} / {total}",
@@ -317,6 +365,12 @@
         "all": "전체",
         "unlocked": "달성됨",
         "locked": "잠김"
+      },
+      "rarity": {
+        "common": "일반",
+        "rare": "희귀",
+        "epic": "영웅",
+        "legendary": "전설"
       }
     }
   },
@@ -363,7 +417,23 @@
     },
     "appearance": {
       "title": "외관",
-      "comingSoon": "테마 설정이 곧 제공됩니다"
+      "comingSoon": "테마 설정이 곧 제공됩니다",
+      "subtitle": "화면 모양 및 스타일 설정",
+      "globalTheme": "전체 테마 적용",
+      "themeDescription": "이 테마를 모든 언어에 적용합니다 (언어별 설정 무시)",
+      "languageOverrides": "언어별 테마",
+      "languageOverridesDescription": "각 언어의 화면 스타일을 개별적으로 설정합니다",
+      "customColors": "고급 색상 사용자 지정",
+      "customColorsDescription": "CSS 색상 변수를 직접 수정하여 최대한 개인화합니다",
+      "resetColors": "색상 초기화",
+      "colors": {
+        "bgPrimary": "배경 (기본)",
+        "bgSecondary": "표면 (보조)",
+        "textPrimary": "기본 텍스트 색상",
+        "accentPrimary": "강조 색상",
+        "accentGold": "강조 골드"
+      },
+      "auto": "언어 설정 따름 (기본값)"
     },
     "backToDashboard": "대시보드로 돌아가기"
   },
@@ -428,6 +498,14 @@
     "en": "영어"
   },
   "lessons": {
+    "card": {
+      "topic": "주제",
+      "vocabulary": "어휘",
+      "grammar": "문법",
+      "cultural": "문화 노트",
+      "example": "예시",
+      "formation": "형성"
+    },
     "view": {
       "noContent": "사용 가능한 콘텐츠 없음",
       "noExercises": "이 레슨에 사용 가능한 연습 문제가 없습니다.",

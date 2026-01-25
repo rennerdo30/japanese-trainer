@@ -249,6 +249,25 @@
     "total": "Total",
     "streak": "série"
   },
+  "library": {
+    "filters": {
+      "title": "Filtres",
+      "status": "Statut",
+      "srsStatus": "Statut SRS",
+      "level": "Niveau",
+      "lesson": "Leçon",
+      "all": "Tous",
+      "learned": "Appris",
+      "notLearned": "Non appris",
+      "allLevels": "Tous les niveaux",
+      "allLessons": "Toutes les leçons"
+    },
+    "search": {
+      "placeholder": "Rechercher...",
+      "clear": "Effacer la recherche",
+      "results": "{count} résultats"
+    }
+  },
   "auth": {
     "signIn": "Se connecter",
     "signOut": "Se déconnecter",
@@ -296,6 +315,35 @@
       "title": "Niveau supérieur !",
       "message": "Vous avez atteint le niveau {level} de {tier}"
     },
+    "dailyGoal": {
+      "title": "Objectif quotidien",
+      "complete": "Objectif atteint !",
+      "types": {
+        "xp": "Gagner des XP",
+        "lessons": "Terminer des leçons",
+        "time": "Temps d'étude"
+      }
+    },
+    "streak": {
+      "dayStreak": "Série de {count} jours",
+      "best": "Meilleur : {count} jours"
+    },
+    "xp": {
+      "today": "{xp} XP aujourd'hui",
+      "totalXP": "{xp} XP total",
+      "progressToLevel": "Progression vers le niveau {level}",
+      "toNextLevel": "{xp} XP pour le prochain niveau"
+    },
+    "weeklyReport": {
+      "title": "Rapport hebdomadaire",
+      "studyTime": "Temps d'étude",
+      "lessons": "Leçons",
+      "activeDays": "Jours actifs",
+      "xpEarned": "XP gagnés",
+      "newWords": "Nouveaux mots",
+      "accuracy": "Précision",
+      "highlights": "Points forts"
+    },
     "achievements": {
       "title": "Succès ({percentage}%)",
       "unlockedCount": "{unlocked} / {total}",
@@ -317,6 +365,12 @@
         "all": "Tous",
         "unlocked": "Débloqués",
         "locked": "Verrouillés"
+      },
+      "rarity": {
+        "common": "Commun",
+        "rare": "Rare",
+        "epic": "Épique",
+        "legendary": "Légendaire"
       }
     }
   },
@@ -363,7 +417,23 @@
     },
     "appearance": {
       "title": "Apparence",
-      "comingSoon": "Paramètres de thème à venir"
+      "comingSoon": "Paramètres de thème à venir",
+      "subtitle": "Personnalisez l'apparence",
+      "globalTheme": "Surcharge du thème global",
+      "themeDescription": "Applique ce thème à toutes les langues (remplace les paramètres par langue)",
+      "languageOverrides": "Thèmes par langue",
+      "languageOverridesDescription": "Personnalisez l'apparence pour chaque langue indépendamment",
+      "customColors": "Personnalisation avancée des couleurs",
+      "customColorsDescription": "Modifiez directement les variables de couleur CSS pour une personnalisation maximale",
+      "resetColors": "Réinitialiser les couleurs",
+      "colors": {
+        "bgPrimary": "Arrière-plan (Primaire)",
+        "bgSecondary": "Surface (Secondaire)",
+        "textPrimary": "Couleur du texte principal",
+        "accentPrimary": "Couleur d'accentuation",
+        "accentGold": "Accent Or"
+      },
+      "auto": "Suivre la langue (Par défaut)"
     },
     "backToDashboard": "Retour au tableau de bord"
   },
@@ -428,6 +498,14 @@
     "en": "Anglais"
   },
   "lessons": {
+    "card": {
+      "topic": "Sujet",
+      "vocabulary": "Vocabulaire",
+      "grammar": "Grammaire",
+      "cultural": "Note Culturelle",
+      "example": "Exemple",
+      "formation": "Formation"
+    },
     "view": {
       "noContent": "Aucun contenu disponible",
       "noExercises": "Aucun exercice disponible pour cette leçon.",
