@@ -42,7 +42,14 @@ export default function VocabularyPage() {
     const [activeTab, setActiveTab] = useState<TabType>('myCards');
 
     // Helper to get the display meaning for a vocabulary item
+    // Uses content_translations for localized meanings, falls back to meanings array or default meaning
     const getDisplayMeaning = useCallback((word: VocabularyItem): string => {
+        // First try content_translations.meaning (has localized translations like {"ja": "...", "es": "..."})
+        const translatedMeanings = (word.content_translations as { meaning?: Record<string, string> })?.meaning;
+        if (translatedMeanings) {
+            return getMeaning(translatedMeanings, word.meaning);
+        }
+        // Fall back to meanings array (English only)
         return getMeaning(word.meanings, word.meaning);
     }, [getMeaning]);
 
@@ -143,12 +150,12 @@ export default function VocabularyPage() {
     const tabs = useMemo(() => [
         {
             id: 'myCards' as TabType,
-            label: 'My Cards',
+            label: t('vocabulary.tabs.myCards'),
             badge: myVocabularyItems.length > 0 ? myVocabularyItems.length : undefined
         },
         {
             id: 'all' as TabType,
-            label: 'All Vocabulary',
+            label: t('vocabulary.tabs.allVocabulary'),
             badge: vocabulary.length
         },
     ], [myVocabularyItems.length, vocabulary.length]);
@@ -322,7 +329,7 @@ export default function VocabularyPage() {
             <div className={styles.filterSection}>
                 <Input
                     type="text"
-                    placeholder="Search vocabulary..."
+                    placeholder={t('vocabulary.searchPlaceholder')}
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                     className={styles.searchInput}
@@ -364,12 +371,12 @@ export default function VocabularyPage() {
                             <div className={styles.vocabActions}>
                                 {isLearned ? (
                                     <span className={styles.learnedBadge}>
-                                        <FiCheck size={12} /> Learned
+                                        <FiCheck size={12} /> {t('vocabulary.actions.learned')}
                                     </span>
                                 ) : (
                                     <Link href="/paths">
                                         <Button variant="ghost" size="sm">
-                                            <FiBook size={14} /> Learn in Lessons
+                                            <FiBook size={14} /> {t('vocabulary.actions.learnInLessons')}
                                         </Button>
                                     </Link>
                                 )}
@@ -389,8 +396,8 @@ export default function VocabularyPage() {
             {filteredVocabulary.length === 0 && (
                 <div className={styles.emptyState}>
                     <FiList className={styles.emptyIcon} />
-                    <Text variant="h3">No vocabulary found</Text>
-                    <Text color="muted">Try adjusting your search or filters</Text>
+                    <Text variant="h3">{t('vocabulary.empty.searchEmpty')}</Text>
+                    <Text color="muted">{t('vocabulary.empty.searchHint')}</Text>
                 </div>
             )}
         </>
@@ -403,11 +410,11 @@ export default function VocabularyPage() {
             return (
                 <div className={styles.emptyState}>
                     <FiBook className={styles.emptyIcon} />
-                    <Text variant="h3">No vocabulary cards yet</Text>
-                    <Text color="muted">Complete lessons to add vocabulary to your deck</Text>
+                    <Text variant="h3">{t('vocabulary.empty.title')}</Text>
+                    <Text color="muted">{t('vocabulary.empty.desc')}</Text>
                     <Link href="/paths">
                         <Button variant="primary" className="mt-4">
-                            Go to Lessons
+                            {t('vocabulary.empty.goToLessons')}
                         </Button>
                     </Link>
                 </div>
@@ -419,7 +426,7 @@ export default function VocabularyPage() {
             return (
                 <div className={styles.emptyState}>
                     <Text variant="h3">{t('vocabulary.noWords')}</Text>
-                    <Text color="muted">Adjust your level filters or complete more lessons</Text>
+                    <Text color="muted">{t('vocabulary.empty.unlock')}</Text>
                 </div>
             );
         }
@@ -527,11 +534,11 @@ export default function VocabularyPage() {
 
                     {/* Page Header */}
                     <div className={styles.pageHeader}>
-                        <Text variant="h1">Vocabulary</Text>
+                        <Text variant="h1">{t('modules.vocabulary.title')}</Text>
                         {dueCount > 0 && (
                             <Button variant="primary" size="sm" className={styles.reviewButton}>
                                 <FiClock />
-                                Review
+                                {t('grammar.actions.review')}
                                 <span className={styles.reviewCount}>{dueCount}</span>
                             </Button>
                         )}
@@ -544,17 +551,17 @@ export default function VocabularyPage() {
                                 <span className={styles.statValue}>
                                     {(learnedStats.byType as Record<string, number>)?.vocabulary || myVocabularyItems.length}
                                 </span>
-                                <span className={styles.statLabel}>Words Learned</span>
+                                <span className={styles.statLabel}>{t('vocabulary.stats.wordsLearned')}</span>
                             </div>
                             <div className={styles.statCard}>
                                 <span className={styles.statValue}>{dueCount}</span>
-                                <span className={styles.statLabel}>Due for Review</span>
+                                <span className={styles.statLabel}>{t('vocabulary.stats.dueForReview')}</span>
                             </div>
                             <div className={styles.statCard}>
                                 <span className={styles.statValue}>
                                     {total > 0 ? Math.round((correct / total) * 100) : 0}%
                                 </span>
-                                <span className={styles.statLabel}>Accuracy</span>
+                                <span className={styles.statLabel}>{t('vocabulary.stats.accuracy')}</span>
                             </div>
                         </div>
                     )}

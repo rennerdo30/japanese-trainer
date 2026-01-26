@@ -24,12 +24,12 @@ interface ReviewConfigProps {
 
 const moduleOptions: Array<{
   value: ReviewModuleType;
-  label: string;
+  labelKey: string;
   icon: typeof IoBook;
 }> = [
-    { value: 'vocabulary', label: 'Vocabulary', icon: IoBook },
-    { value: 'kanji', label: 'Characters', icon: IoSchool },
-    { value: 'grammar', label: 'Grammar', icon: IoDocumentText },
+    { value: 'vocabulary', labelKey: 'review.modules.vocabulary', icon: IoBook },
+    { value: 'kanji', labelKey: 'review.modules.kanji', icon: IoSchool },
+    { value: 'grammar', labelKey: 'review.modules.grammar', icon: IoDocumentText },
   ];
 
 const itemCountOptions = [5, 10, 20, 50];
@@ -95,7 +95,7 @@ export default function ReviewConfig({
                 className={`${styles.moduleButton} ${isSelected ? styles.selected : ''} ${isDisabled ? styles.disabled : ''}`}
               >
                 <ModuleIcon className={styles.moduleIcon} />
-                <span className={styles.moduleLabel}>{option.label}</span>
+                <span className={styles.moduleLabel}>{t(option.labelKey)}</span>
                 <span className={styles.moduleCount}>
                   {t('review.config.due', { count })}
                 </span>

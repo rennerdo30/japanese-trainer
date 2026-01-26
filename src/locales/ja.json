@@ -18,12 +18,18 @@
     "changeLanguage": "言語を変更",
     "selectLanguage": "言語を選択",
     "close": "閉じる",
+    "expand": "展開",
+    "collapse": "折りたたむ",
+    "minimize": "最小化",
     "listen": "聞く",
     "show": "表示",
     "hide": "非表示",
     "iKnowThis": "これは知っている",
     "tapToContinue": "タップして続ける",
     "hint": "ヒント",
+    "cancel": "キャンセル",
+    "confirm": "確認",
+    "unknown": "不明",
     "demo": "デモ",
     "guide": "ガイド",
     "clear": "クリア",
@@ -102,7 +108,10 @@
     "characterOf": "{total}文字中{current}文字目",
     "lessonComplete": "レッスン完了！",
     "nextLesson": "次のレッスン",
-    "selectLesson": "レッスンを選択"
+    "selectLesson": "レッスンを選択",
+    "previousCharacter": "前の文字",
+    "nextCharacter": "次の文字",
+    "characterName": "名前"
   },
   "vocabulary": {
     "practiceMode": "練習モード",
@@ -110,7 +119,29 @@
     "noWords": "利用可能な単語がありません。",
     "typeWord": "日本語の単語を入力...",
     "showHint": "ヒントを表示",
-    "hintShown": "ヒント表示中"
+    "hintShown": "ヒント表示中",
+    "tabs": {
+      "myCards": "マイカード",
+      "allVocabulary": "全単語"
+    },
+    "stats": {
+      "wordsLearned": "学習済み単語",
+      "dueForReview": "復習期限",
+      "accuracy": "正答率"
+    },
+    "empty": {
+      "title": "単語カードがまだありません",
+      "desc": "レッスンを完了して単語をデッキに追加しましょう",
+      "goToLessons": "レッスンへ",
+      "unlock": "レベルフィルターを調整するか、さらにレッスンを完了してください",
+      "searchEmpty": "単語が見つかりません",
+      "searchHint": "検索やフィルターを調整してみてください"
+    },
+    "actions": {
+      "learnInLessons": "レッスンで学習",
+      "learned": "学習済み"
+    },
+    "searchPlaceholder": "単語を検索..."
   },
   "kanji": {
     "practiceMeaning": "意味",
@@ -140,7 +171,30 @@
     "checkAnswer": "答えを確認",
     "practice": "練習",
     "noGrammar": "利用可能な文法がありません。",
-    "noExercises": "この文法ポイントには利用可能な練習がありません。"
+    "noExercises": "この文法ポイントには利用可能な練習がありません。",
+    "tabs": {
+      "myGrammar": "マイ文法",
+      "allGrammar": "全文法"
+    },
+    "stats": {
+      "pointsLearned": "学習済みポイント",
+      "mastered": "マスター済み",
+      "accuracy": "正答率"
+    },
+    "empty": {
+      "title": "文法カードがまだありません",
+      "desc": "レッスンを完了して文法をデッキに追加しましょう",
+      "goToLessons": "レッスンへ",
+      "unlock": "文法練習をアンロックするには、さらにレッスンを完了してください",
+      "searchEmpty": "文法が見つかりません",
+      "searchHint": "検索やフィルターを調整してみてください"
+    },
+    "actions": {
+      "review": "復習",
+      "learnInLessons": "レッスンで学習",
+      "learned": "学習済み"
+    },
+    "searchPlaceholder": "文法を検索..."
   },
   "reading": {
     "showFurigana": "ふりがな",
@@ -151,7 +205,26 @@
     "vocabulary": "語彙",
     "comprehensionQuestions": "理解問題",
     "textsRead": "読んだテキスト",
-    "noReadings": "利用可能な読解がありません。"
+    "noReadings": "利用可能な読解がありません。",
+    "tabs": {
+      "myReadings": "マイリーディング",
+      "allReadings": "全リーディング"
+    },
+    "empty": {
+      "title": "リーディングがまだありません",
+      "desc": "レッスンを完了してリーディングをコレクションに追加しましょう",
+      "browse": "全リーディングを閲覧",
+      "filterEmpty": "現在のフィルターに一致するリーディングがありません。",
+      "searchEmpty": "リーディングが見つかりません",
+      "searchHint": "検索やフィルターを調整してみてください"
+    },
+    "stats": {
+      "learned": "学習済み",
+      "total": "全リーディング数",
+      "comprehension": "理解度"
+    },
+    "searchPlaceholder": "リーディングを検索...",
+    "viewLesson": "レッスンを表示"
   },
   "listening": {
     "playAudio": "音声を再生",
@@ -203,7 +276,13 @@
       "toLevel": "{level}まで",
       "learnedItemsInfo": "{learned} / {total} 項目学習済み",
       "milestones": "マイルストーン",
-      "atMinutesPerDay": "{count} 分/日で"
+      "atMinutesPerDay": "{count} 分/日で",
+      "milestoneNames": {
+        "beginner": "初級",
+        "intermediate": "中級",
+        "advanced": "上級",
+        "master": "マスター"
+      }
     },
     "library": {
       "viewAll": "すべて表示",
@@ -250,6 +329,7 @@
     "streak": "連続"
   },
   "library": {
+    "browseDescription": "すべての学習教材を閲覧・復習",
     "filters": {
       "title": "フィルター",
       "status": "ステータス",
@@ -267,6 +347,24 @@
       "clear": "検索をクリア",
       "results": "{count}件の結果"
     }
+  },
+  "learningCompanion": {
+    "title": "学習コンパニオン",
+    "open": "学習コンパニオンを開く",
+    "overall": "全体",
+    "streak": "連続",
+    "reviews": "レビュー",
+    "learned": "学習済み",
+    "overdueReviews": "期限切れのレビュー！",
+    "reviewsDue": "レビュー予定",
+    "reviewCount": "{count}項目 · 約{minutes}分",
+    "nextUp": "次へ",
+    "suggestions": "提案",
+    "currentGoal": "現在の目標",
+    "percentComplete": "{percent}%完了",
+    "insight": "インサイト",
+    "browsePaths": "パスを閲覧",
+    "reviewNow": "今すぐレビュー"
   },
   "auth": {
     "signIn": "サインイン",
@@ -318,15 +416,43 @@
     "dailyGoal": {
       "title": "今日の目標",
       "complete": "目標達成！",
+      "setTitle": "デイリー目標を設定",
+      "setDescription": "毎日の学習量を選んでください",
+      "current": "現在",
+      "confirmChange": "デイリー目標を{target} XPに変更しますか？",
       "types": {
         "xp": "XPを獲得",
         "lessons": "レッスンを完了",
         "time": "学習時間"
+      },
+      "levels": {
+        "casual": "カジュアル",
+        "regular": "レギュラー",
+        "serious": "シリアス",
+        "intense": "インテンス"
+      },
+      "descriptions": {
+        "casual": "1日50 XP",
+        "regular": "1日100 XP",
+        "serious": "1日200 XP",
+        "intense": "1日300 XP"
       }
     },
     "streak": {
       "dayStreak": "{count}日連続",
-      "best": "最高: {count}日"
+      "best": "最高: {count}日",
+      "noStreak": "連続記録なし",
+      "oneDay": "1日",
+      "days": "{count}日",
+      "messages": {
+        "startToday": "今日から連続記録を始めましょう！",
+        "greatStart": "素晴らしいスタート！この調子で頑張って！",
+        "buildingMomentum": "勢いがついてきました！",
+        "onFire": "絶好調です！",
+        "incredibleDedication": "素晴らしい継続力です！",
+        "legend": "あなたは伝説です！",
+        "unstoppable": "止まらない！"
+      }
     },
     "xp": {
       "today": "今日 {xp} XP",
@@ -413,7 +539,10 @@
       "ifEnabled": "有効の場合",
       "autoLoaded": "自動読み込み",
       "englishOnly": "英語のみ",
-      "priority3": "ブラウザ音声合成（フォールバック）"
+      "priority3": "ブラウザ音声合成（フォールバック）",
+      "loading": "Kokoro TTSを読み込み中...",
+      "edgeTitle": "Edge TTS音声 ({language})",
+      "edgeDesc": "{language}用Microsoftニューラル音声 - 高品質クラウドTTSフォールバック"
     },
     "appearance": {
       "title": "外観",
@@ -498,6 +627,12 @@
     "en": "英語"
   },
   "lessons": {
+    "loading": "レッスンを読み込み中...",
+    "notFound": "レッスンが見つかりません",
+    "notFoundDescription": "レッスン「{lessonId}」が見つかりませんでした。",
+    "backToPath": "パスに戻る",
+    "locked": "レッスンがロックされています",
+    "lockedDescription": "このレッスンをアンロックするには、前のレッスンを完了してください。",
     "card": {
       "topic": "トピック",
       "vocabulary": "語彙",
@@ -523,6 +658,9 @@
       "practice": "練習",
       "stop": "停止",
       "tapToContinueHint": "タップまたはスワイプで続行"
+    },
+    "exercise": {
+      "completeExercise": "練習問題を完了してください"
     },
     "vocabulary": {
       "examples": "例文"
@@ -629,6 +767,21 @@
     }
   },
   "review": {
+    "loading": "レビューを読み込み中...",
+    "title": "レビューダッシュボード",
+    "itemsDue": "{count}件期限",
+    "endSessionEarly": "セッションを早期終了",
+    "urgency": {
+      "overdue": "期限切れ",
+      "dueToday": "今日期限",
+      "upcoming": "今後",
+      "allClear": "完了"
+    },
+    "moduleSelection": "モジュール選択",
+    "toggleModule": "{module}モジュールを切り替え、{count}個期限",
+    "estimatedTime": "推定時間: {minutes}分 ({items}項目)",
+    "startSession": "レビューセッションを開始",
+    "noReviewsDue": "レビュー予定なし",
     "config": {
       "title": "復習セッション",
       "selectModules": "モジュールを選択",
@@ -688,5 +841,110 @@
         "needsWork": "続けましょう！練習が完璧を生みます。"
       }
     }
+  },
+  "leaderboard": {
+    "title": "リーダーボード",
+    "subtitle": "世界中の学習者と競争しよう",
+    "generating": "生成中...",
+    "youBadge": "あなた",
+    "periods": {
+      "daily": "今日",
+      "weekly": "今週",
+      "allTime": "全期間"
+    },
+    "stats": {
+      "title": "あなたの統計",
+      "studyTime": "学習時間",
+      "accuracy": "正答率",
+      "streaks": "連続記録",
+      "mastery": "マスタリー",
+      "total": "合計",
+      "rank": "あなたのランク",
+      "participants": "{count}人の学習者中",
+      "position": "あなたの順位"
+    },
+    "empty": {
+      "daily": "今日はまだ誰も学習していません。最初になりましょう！",
+      "weekly": "今週はまだ活動がありません。学習を始めましょう！",
+      "allTime": "リーダーボードにまだ学習者がいません。",
+      "loading": "リーダーボードを読み込み中...",
+      "noEntries": "まだエントリーがありません"
+    },
+    "badges": {
+      "you": "あなた"
+    },
+    "global": "グローバル"
+  },
+  "paths": {
+    "loading": "パスを読み込み中...",
+    "title": "学習パス",
+    "subtitle": "マスターへの道を選んでください",
+    "filters": "フィルター",
+    "filterType": "タイプ",
+    "filterDifficulty": "難易度",
+    "types": {
+      "all": "すべて",
+      "linear": "JLPTパス",
+      "topic": "トピック"
+    },
+    "difficulty": {
+      "all": "すべて",
+      "beginner": "初級",
+      "intermediate": "中級",
+      "advanced": "上級"
+    },
+    "personalizedPath": "パーソナライズドパス",
+    "aiRecommendations": "AIレコメンデーション",
+    "tailoredToYou": "あなたの学習スタイルに合わせて",
+    "minPerDay": "分/日",
+    "newPerWeek": "新規/週",
+    "pace": "ペース",
+    "focusAreas": "集中エリア",
+    "startLearning": "学習を開始",
+    "structuredPaths": "構造化パス",
+    "enrolled": "登録済み",
+    "topicTracks": "トピックトラック",
+    "percentComplete": "{percent}%完了",
+    "requires": "必要: {item}",
+    "noPathsYet": "学習パスはまだありません",
+    "noPathsDescription": "この言語の学習パスは近日公開予定です。管理パネルでカリキュラムを生成して構造化された学習パスを作成してください。",
+    "noMatchingPaths": "フィルターに一致するパスがありません",
+    "clearFilters": "フィルターをクリア"
+  },
+  "contentGuard": {
+    "comingSoon": "近日公開",
+    "notAvailable": "{language}のこのモジュールのコンテンツはまだ利用できません。",
+    "availableFor": "このモジュールは現在以下の言語で利用可能です：{languages}。さらに追加中です！",
+    "noLanguages": "まだ言語がありません"
+  },
+  "pathDetail": {
+    "loading": "パスを読み込み中...",
+    "notFound": "パスが見つかりません",
+    "notFoundDescription": "お探しの学習パスは存在しないか、まだ生成されていません。",
+    "backToPaths": "パス一覧へ戻る",
+    "estimated": "推定時間",
+    "complete": "完了",
+    "milestones": "マイルストーン",
+    "items": "項目",
+    "prerequisitesRequired": "前提条件が必要です",
+    "completeFirst": "先に完了してください",
+    "continueLearning": "学習を続ける",
+    "unenroll": "登録解除",
+    "startPath": "パスを開始",
+    "locked": "ロック中",
+    "milestonesDescription": "各マイルストーンを完了してパスを進めましょう",
+    "startLesson": "レッスンを開始",
+    "reviewProgress": "進捗を確認",
+    "unlockMessage": "前のレッスンを完了してアンロック",
+    "completed": "完了済み",
+    "whatYoullLearn": "学習内容",
+    "practicalItemsFor": "{name}の実践項目",
+    "topics": "トピック"
+  },
+  "recommendations": {
+    "encouragement": "順調です！もっとチャレンジしてもいいですよ。",
+    "takingSlow": "基礎をしっかり固めるためにゆっくり進めています。",
+    "manyReviewsDue": "復習が溜まっています。新しい項目を追加する前に復習を終わらせることをお勧めします。",
+    "focusOn": "今週は{module}に集中しましょう - {reason}。"
   }
 }

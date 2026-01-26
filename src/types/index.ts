@@ -15,10 +15,15 @@ export type KoreanCharacterType = 'consonant' | 'vowel' | 'double_consonant' | '
 export type CharacterType = JapaneseCharacterType | KoreanCharacterType;
 
 export interface Character {
-  romaji: string;
-  hiragana: string;
+  id?: string | number;
+  romaji: string;         // Required - romanization of the character
+  romanization?: string;  // Admin export field name (alias)
+  hiragana?: string;
+  char?: string;          // Admin export field name (use as fallback)
+  character?: string;     // Korean field name
   type: CharacterType;
   audioUrl?: string;
+  audio_url?: string;     // Legacy snake_case support
   // Learn mode extensions
   group?: string;
   order?: number;
@@ -28,12 +33,19 @@ export interface Character {
     es?: string;
     [key: string]: string | undefined;
   };
+  // Additional fields from admin export
+  meaning?: string;
+  meanings?: string[];
+  language_id?: number;
 }
 
 // Extended character type for Korean with native field name
 export interface KoreanCharacter {
-  romaji: string;
-  character: string;
+  id?: string | number;
+  romaji: string;         // Required - romanization of the character
+  romanization?: string;  // Admin export field name (alias)
+  character?: string;
+  char?: string;          // Admin export field name (use as fallback)
   type: KoreanCharacterType;
   name?: string;
   group?: string;
@@ -44,6 +56,10 @@ export interface KoreanCharacter {
     [key: string]: string | undefined;
   };
   audioUrl?: string;
+  audio_url?: string;     // Legacy snake_case support
+  meaning?: string;
+  meanings?: string[];
+  language_id?: number;
 }
 
 // Lesson structure for alphabet learning
@@ -86,46 +102,79 @@ export interface VocabularyItem {
   reading: string;
   meaning: string; // Legacy: kept for backward compatibility, use meanings instead
   meanings?: Record<string, string | string[]>; // Language code -> meaning translation (string or array)
-  romaji: string;
+  romaji?: string;
   jlpt?: string;
   level?: string; // Generic level field for non-Japanese languages (CEFR, TOPIK, HSK, etc.)
+  framework?: string;
+  part_of_speech?: string;
+  tags?: string[];
+  examples?: Array<{
+    sentence: string;
+    translation: string;
+    romaji?: string;
+  }>;
   audioUrl?: string;
+  audio_url?: string; // Legacy snake_case support
+  language_id?: number;
+  content_translations?: Record<string, unknown>;
   [key: string]: unknown; // Allow additional properties for type checking
 }
 
 export interface KanjiItem {
   id: string;
-  kanji: string;
+  kanji: string;       // For Japanese kanji (required for backwards compat)
+  char?: string;       // Raw character from admin export (alias)
+  hanzi?: string;      // For Chinese characters (alias)
+  character?: string;  // For Korean hangul (alias)
   meaning: string; // Legacy: kept for backward compatibility, use meanings instead
-  meanings?: Record<string, string>; // Language code -> meaning translation
-  onyomi: string[];
-  kunyomi: string[];
+  meanings?: Record<string, string> | string[]; // Language code -> meaning translation or array
+  onyomi: string[];    // Japanese on-reading (required for backwards compat)
+  kunyomi: string[];   // Japanese kun-reading (required for backwards compat)
+  pinyin?: string;     // Chinese romanization
+  romanization?: string;
+  romaji?: string;     // Alias for romanization
   strokes?: number;
   jlpt?: string;
+  hsk?: string;        // Chinese HSK level
+  level?: string;      // Generic level field
   radicals?: string[];
   audioUrl?: string;
+  audio_url?: string;  // Legacy snake_case support
+  type?: string;       // Character type (kanji, hiragana, katakana, hangul, etc.)
   examples?: Array<{
     word: string;
     reading: string;
     meaning: string; // Legacy
     meanings?: Record<string, string>; // Language code -> meaning translation
+    pinyin?: string;
     audioUrl?: string;
   }>;
+  language_id?: number;
+  script_id?: number;
 }
 
 export interface GrammarItem {
   id: string;
   title: string;
   titleTranslations?: Record<string, string>; // Language code -> title translation
+  rule?: string;
   explanation: string; // Legacy: English explanation
   explanations?: Record<string, string>; // Language code -> explanation translation
+  patterns?: string[];
   examples: Array<{
-    japanese: string;
+    japanese?: string;
+    korean?: string;
+    chinese?: string;
+    spanish?: string;
+    german?: string;
+    italian?: string;
     english: string; // Legacy
     translations?: Record<string, string>; // Language code -> translation
     audioUrl?: string;
+    [key: string]: unknown; // Allow language-specific fields
   }>;
   exercises?: Array<{
+    type?: string;
     question: string;
     questionTranslations?: Record<string, string>; // Language code -> question translation
     options: string[];
@@ -133,21 +182,32 @@ export interface GrammarItem {
     correct: number;
   }>;
   jlpt?: string;
+  level?: string;
+  framework?: string;
+  audioUrl?: string;
+  audio_url?: string;
+  language_id?: number;
+  content_translations?: Record<string, unknown>;
 }
 
 export interface ReadingItem {
-  id: string;
+  id: string | number;
   title: string;
   titleTranslations?: Record<string, string>; // Language code -> title translation
   text: string;
+  translation?: string;
   level: string;
+  framework?: string;
   audioUrl?: string;
+  audio_url?: string; // Legacy snake_case support
   vocabulary?: Array<{
     word: string;
     reading: string;
     meaning: string; // Legacy
     meanings?: Record<string, string>; // Language code -> meaning translation
   }>;
+  vocabulary_ids?: number[];
+  grammar_ids?: number[];
   questions?: Array<{
     question: string;
     questionTranslations?: Record<string, string>; // Language code -> question translation
@@ -155,15 +215,32 @@ export interface ReadingItem {
     optionTranslations?: Record<string, string[]>; // Language code -> options translations
     correct: number;
   }>;
+  language_id?: number;
+  content_translations?: Record<string, unknown>;
 }
 
 export interface ListeningExercise {
-  id: string;
+  id: string | number;
   title: string;
   level: string;
+  framework?: string;
+  type?: 'dialogue' | 'monologue' | 'announcement' | 'interview' | 'news';
   text: string;
-  transcript: string;
+  transcript?: string;
+  translation?: string;
   audioUrl?: string;
+  audio_url?: string; // Legacy snake_case support
+  duration_seconds?: number;
+  questions?: Array<{
+    question: string;
+    options: string[];
+    correct: number;
+    explanation?: string;
+  }>;
+  vocabulary_ids?: number[];
+  grammar_ids?: number[];
+  language_id?: number;
+  lesson_id?: number;
 }
 
 export interface ModuleStats {

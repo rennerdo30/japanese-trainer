@@ -206,7 +206,7 @@ export default function AlphabetPage() {
                     // For Japanese, apply strict Hiragana filter
                     if (targetLanguage === 'ja') {
                         normalized = normalized.filter((c: Character) =>
-                            /[\u3040-\u309F]/.test(c.hiragana)
+                            c.hiragana && /[\u3040-\u309F]/.test(c.hiragana)
                         );
                     }
 
@@ -267,12 +267,14 @@ export default function AlphabetPage() {
 
     const getDisplayCharacter = useCallback((char: Character | null): string => {
         if (!char) return '';
+        // Get the character display value, with fallbacks
+        const displayChar = char.hiragana || char.char || char.character || char.romaji;
         // Only apply hiragana/katakana conversion for Japanese
         if (targetLanguage === 'ja') {
-            return useHiragana ? char.hiragana : toKatakana(char.hiragana);
+            return useHiragana ? displayChar : toKatakana(displayChar);
         }
         // For other languages, just return the character as-is
-        return char.hiragana;
+        return displayChar;
     }, [useHiragana, targetLanguage]);
 
     // Convert Character to LessonCharacter for the CharacterLesson component
@@ -684,6 +686,7 @@ export default function AlphabetPage() {
                     markLearnedLabel={t('learnMode.markLearned') || 'Mark as Learned'}
                     learnedLabel={t('learnMode.alreadyLearned') || 'Already Learned'}
                     mnemonicLabel={t('learnMode.mnemonic') || 'Memory Tip'}
+                    nameLabel={t('learnMode.characterName') || 'Name'} 
                 />
             </>
         );

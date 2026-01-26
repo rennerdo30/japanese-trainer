@@ -36,10 +36,10 @@ export default function GoalEstimator({ className }: GoalEstimatorProps) {
 
     // Calculate milestones
     const milestones = [
-      { percent: 25, name: 'Beginner', reached: currentProgress >= 25 },
-      { percent: 50, name: 'Intermediate', reached: currentProgress >= 50 },
-      { percent: 75, name: 'Advanced', reached: currentProgress >= 75 },
-      { percent: 100, name: 'Master', reached: currentProgress >= 100 },
+      { percent: 25, nameKey: 'beginner', reached: currentProgress >= 25 },
+      { percent: 50, nameKey: 'intermediate', reached: currentProgress >= 50 },
+      { percent: 75, nameKey: 'advanced', reached: currentProgress >= 75 },
+      { percent: 100, nameKey: 'master', reached: currentProgress >= 100 },
     ];
 
     // Estimate dates
@@ -156,7 +156,7 @@ export default function GoalEstimator({ className }: GoalEstimatorProps) {
               <div className={styles.milestoneIcon}>
                 {milestone.reached ? <IoCheckmarkCircle /> : <span>{milestone.percent}%</span>}
               </div>
-              <span className={styles.milestoneName}>{milestone.name}</span>
+              <span className={styles.milestoneName}>{t(`dashboard.goalEstimator.milestoneNames.${milestone.nameKey}`)}</span>
             </div>
           ))}
         </div>

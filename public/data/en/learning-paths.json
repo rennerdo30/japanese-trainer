@@ -4,17 +4,29 @@
       "id": "en-a1",
       "type": "linear",
       "name": "A1 Breakthrough",
-      "description": "Complete A1 course with 6 units",
+      "nameTranslations": {
+        "ja": "A1 入門レベル"
+      },
+      "description": "Complete A1 course with 12 units",
+      "descriptionTranslations": {
+        "ja": "A1レベル完全習得コース"
+      },
       "icon": "graduation",
       "language": "en",
-      "estimatedHours": 13,
+      "estimatedHours": 26,
       "difficulty": "beginner",
       "milestones": [
         {
           "id": "a1-unit-1",
           "level": "A1",
           "name": "Greetings and Introductions",
+          "nameTranslations": {
+            "ja": "挨拶と自己紹介"
+          },
           "description": "After completing this unit, students will be able to greet others, introduce themselves and others, use personal pronouns and the verb 'to be' in simple sentences, and ask and answer basic questions about names and identities in everyday contexts.",
+          "descriptionTranslations": {
+            "ja": "このユニットを修了すると、学習者は他者への挨拶、自己紹介や他者の紹介ができるようになります。また、人称代名詞や動詞「be」を簡単な文で使用し、日常的な場面で名前や身分に関する基本的な質問をしたり答えたりできるようになります。"
+          },
           "module": "lessons",
           "requirement": {
             "type": "complete-all"
@@ -31,7 +43,13 @@
           "id": "a1-unit-1",
           "level": "A1",
           "name": "Self and Family",
+          "nameTranslations": {
+            "ja": "自分と家族"
+          },
           "description": "After completing this unit, students will be able to introduce themselves and family members, use possessive adjectives to describe relationships, ask and answer simple questions about family, describe people with basic adjectives, and form simple sentences with 'to be' in present tense.",
+          "descriptionTranslations": {
+            "ja": "このユニットを修了すると、学習者は自己紹介や家族の紹介ができるようになります。所有形容詞を使って関係性を説明し、家族に関する簡単な質問をしたり答えたりできます。基本的な形容詞で人を描写し、現在形の「be」動詞を用いた簡単な文を作成できるようになります。"
+          },
           "module": "lessons",
           "requirement": {
             "type": "complete-all"
@@ -49,7 +67,13 @@
           "id": "a1-unit-1",
           "level": "A1",
           "name": "Home and Living",
+          "nameTranslations": {
+            "ja": "家と住まい"
+          },
           "description": "After completing this unit, students will be able to name common rooms and furniture in a home, use prepositions to describe object locations, apply articles correctly, form regular plurals, and construct simple sentences to describe their living spaces.",
+          "descriptionTranslations": {
+            "ja": "このユニットを修了すると、学習者は家の中の一般的な部屋や家具の名前を言えるようになります。前置詞を使って物の位置を説明し、冠詞を正しく使用し、規則的な複数形を作成し、自分たちの居住空間を説明する簡単な文を構成できるようになります。"
+          },
           "module": "lessons",
           "requirement": {
             "type": "complete-all"
@@ -67,7 +91,13 @@
           "id": "a1-unit-1",
           "level": "A1",
           "name": "Daily Routine",
+          "nameTranslations": {
+            "ja": "日課"
+          },
           "description": "After completing this unit, students will be able to describe basic daily routines using present tense verbs, personal pronouns, time expressions, and simple questions. They can talk about their own activities and those of others, use negation and possessive adjectives, and sequence events in a routine context.",
+          "descriptionTranslations": {
+            "ja": "このユニットを修了すると、学習者は現在形の動詞、人称代名詞、時間表現、簡単な質問を使って基本的な日課を説明できるようになります。自分自身や他者の活動について話し、否定形や所有形容詞を使用し、日課の文脈で出来事を順序立てて説明できるようになります。"
+          },
           "module": "lessons",
           "requirement": {
             "type": "complete-all"
@@ -86,7 +116,13 @@
           "id": "a1-unit-1",
           "level": "A1",
           "name": "Food and Drink",
+          "nameTranslations": {
+            "ja": "食べ物と飲み物"
+          },
           "description": "After completing this unit, students will be able to name common food and drink items, use 'have' and 'like' to talk about preferences, ask and answer simple questions about food, use 'some' and 'any' in basic contexts, and make simple orders in places like cafés.",
+          "descriptionTranslations": {
+            "ja": "このユニットを修了すると、学習者は一般的な食べ物や飲み物の名前を言えるようになります。「have」や「like」を使って好みについて話し、食べ物に関する簡単な質問をしたり答えたりできます。基本的な文脈で「some」と「any」を使用し、カフェなどの場所で簡単な注文ができるようになります。"
+          },
           "module": "lessons",
           "requirement": {
             "type": "complete-all"
@@ -104,7 +140,13 @@
           "id": "a1-unit-1",
           "level": "A1",
           "name": "Shopping Basics",
+          "nameTranslations": {
+            "ja": "買い物の基礎"
+          },
           "description": "After completing this unit, students will be able to identify common shopping places and items, use numbers 1-20 to state prices, ask 'how much' questions, use basic prepositions and pronouns, and engage in simple transaction dialogues for buying items in everyday contexts.",
+          "descriptionTranslations": {
+            "ja": "このユニットを修了すると、学習者は一般的な買い物場所や商品を識別できるようになります。1から20の数字を使って価格を述べ、「いくらですか」という質問をしたり、基本的な前置詞や代名詞を使用したりできます。日常的な場面での商品購入に関する簡単な取引対話に参加できるようになります。"
+          },
           "module": "lessons",
           "requirement": {
             "type": "complete-all"
@@ -116,6 +158,148 @@
             "a1-u1-l3",
             "a1-u1-l4",
             "a1-u1-l5"
+          ]
+        },
+        {
+          "id": "a1-unit-1",
+          "level": "A1",
+          "name": "Greetings and Introductions",
+          "nameTranslations": {
+            "ja": "挨拶と自己紹介"
+          },
+          "description": "After completing this unit, students will be able to greet others, introduce themselves and others, and ask and answer basic questions about names and origins in simple English conversations.",
+          "descriptionTranslations": {
+            "ja": "このユニットを修了すると、学習者は他者への挨拶、自己紹介や他者の紹介ができるようになります。また、簡単な英語の会話で名前や出身地に関する基本的な質問をしたり答えたりできるようになります。"
+          },
+          "module": "lessons",
+          "requirement": {
+            "type": "complete-all"
+          },
+          "estimatedHours": 2,
+          "lessons": [
+            "a1-u1-l1",
+            "a1-u1-l2",
+            "a1-u1-l3",
+            "a1-u1-l4"
+          ]
+        },
+        {
+          "id": "a1-unit-2",
+          "level": "A1",
+          "name": "Self and Family",
+          "nameTranslations": {
+            "ja": "自分と家族"
+          },
+          "description": "After completing this unit, students will be able to introduce and describe family members using basic vocabulary, possessive adjectives, numbers, and simple descriptive sentences. They can ask and answer questions about family size and relationships in everyday conversations.",
+          "descriptionTranslations": {
+            "ja": "このユニットを修了すると、学習者は基本的な語彙、所有形容詞、数字、簡単な描写文を使って家族を紹介・描写できるようになります。日常会話で家族の人数や関係性について質問したり答えたりできるようになります。"
+          },
+          "module": "lessons",
+          "requirement": {
+            "type": "complete-all"
+          },
+          "estimatedHours": 2.7,
+          "lessons": [
+            "a1-u2-l1",
+            "a1-u2-l2",
+            "a1-u2-l3",
+            "a1-u2-l4",
+            "a1-u2-l5"
+          ]
+        },
+        {
+          "id": "a1-unit-3",
+          "level": "A1",
+          "name": "Home and Living",
+          "nameTranslations": {
+            "ja": "家と住まい"
+          },
+          "description": "After completing this unit, students will be able to describe basic rooms and furniture in a home, use prepositions to talk about location, form plural nouns, and ask and answer simple questions about home life, building confidence in everyday communication.",
+          "descriptionTranslations": {
+            "ja": "このユニットを修了すると、学習者は家の中の基本的な部屋や家具を説明できるようになります。前置詞を使って位置について話し、複数形の名詞を作成し、家庭生活に関する簡単な質問をしたり答えたりできるようになり、日常的なコミュニケーションに自信を持てるようになります。"
+          },
+          "module": "lessons",
+          "requirement": {
+            "type": "complete-all"
+          },
+          "estimatedHours": 2.2,
+          "lessons": [
+            "a1-u3-l1",
+            "a1-u3-l2",
+            "a1-u3-l3",
+            "a1-u3-l4",
+            "a1-u3-l5"
+          ]
+        },
+        {
+          "id": "a1-unit-4",
+          "level": "A1",
+          "name": "Daily Routine and Activities",
+          "nameTranslations": {
+            "ja": "日課と活動"
+          },
+          "description": "After completing this unit, students will be able to describe their daily and weekly routines using simple present tense, ask and answer questions about schedules and activities, understand written descriptions of routines, and write a short paragraph about their own daily life.",
+          "descriptionTranslations": {
+            "ja": "このユニットを修了すると、学習者は現在形を使って自分自身の日課や週間のルーティンを説明できるようになります。スケジュールや活動について質問したり答えたりし、ルーティンの書かれた説明を理解し、自分自身の日常生活について短い段落を書けるようになります。"
+          },
+          "module": "lessons",
+          "requirement": {
+            "type": "complete-all"
+          },
+          "estimatedHours": 2.2,
+          "lessons": [
+            "a1-u4-l1",
+            "a1-u4-l2",
+            "a1-u4-l3",
+            "a1-u4-l4",
+            "a1-u4-l5"
+          ]
+        },
+        {
+          "id": "a1-unit-5",
+          "level": "A1",
+          "name": "Food and Drink",
+          "nameTranslations": {
+            "ja": "食べ物と飲み物"
+          },
+          "description": "After completing this unit, students will be able to identify common food and drink items, make simple requests in shops or cafés, discuss food preferences, and order meals in a restaurant using basic English phrases and grammar.",
+          "descriptionTranslations": {
+            "ja": "このユニットを修了すると、学習者は一般的な食べ物と飲み物の名前を識別し、店やカフェで簡単な注文ができるようになります。また、食べ物の好みについて話し合い、基本的な英語のフレーズと文法を使ってレストランで食事を注文することができるようになります。"
+          },
+          "module": "lessons",
+          "requirement": {
+            "type": "complete-all"
+          },
+          "estimatedHours": 1.7,
+          "lessons": [
+            "a1-u5-l1",
+            "a1-u5-l2",
+            "a1-u5-l3",
+            "a1-u5-l4"
+          ]
+        },
+        {
+          "id": "a1-unit-6",
+          "level": "A1",
+          "name": "Review and Consolidation",
+          "nameTranslations": {
+            "ja": "復習と定着"
+          },
+          "description": "After completing this unit, students will be able to confidently use vocabulary and grammar from Units 1-5 to introduce themselves and others, ask and answer simple questions about personal details, daily routines, and preferences, and interact in basic conversations in familiar contexts.",
+          "descriptionTranslations": {
+            "ja": "このユニットを修了すると、学習者はユニット1〜5で学んだ語彙と文法を自信を持って使いこなせるようになります。自己紹介や他者の紹介、個人情報や日常のルーティン、好みについての簡単な質問と回答ができ、身近な状況での基本的な会話に参加できるようになります。"
+          },
+          "module": "lessons",
+          "requirement": {
+            "type": "complete-all"
+          },
+          "estimatedHours": 2.4,
+          "lessons": [
+            "a1-u6-l1",
+            "a1-u6-l2",
+            "a1-u6-l3",
+            "a1-u6-l4",
+            "a1-u6-l5"
           ]
         }
       ]

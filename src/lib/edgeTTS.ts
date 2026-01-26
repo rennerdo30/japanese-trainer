@@ -2,10 +2,15 @@
  * Edge TTS Integration
  * Uses Microsoft Edge's Read Aloud API for high-quality TTS
  * Supports Japanese, Chinese, Korean, and many other languages
- * 
+ *
  * This is used as a fallback when:
  * 1. Pre-generated audio is not available
  * 2. Kokoro doesn't support the language (e.g., Japanese voices not in ONNX model)
+ *
+ * Voice configuration:
+ * - Hardcoded defaults are provided for common languages
+ * - Dynamic voices can be added via registerDynamicVoices()
+ * - Language config API can provide additional voice mappings
  */
 
 // Voice metadata
@@ -18,8 +23,30 @@ export interface EdgeVoiceInfo {
     isDefault?: boolean;  // Default voice for this language
 }
 
-// All available Edge TTS voices organized by language
-export const EDGE_VOICES: Record<string, EdgeVoiceInfo[]> = {
+// Dynamic voice registry for runtime additions
+const dynamicVoices: Record<string, EdgeVoiceInfo[]> = {};
+
+/**
+ * Register additional voices dynamically (e.g., from API config)
+ * These will be merged with the default voices
+ */
+export function registerDynamicVoices(lang: string, voices: EdgeVoiceInfo[]): void {
+    dynamicVoices[lang] = voices;
+}
+
+/**
+ * Clear dynamic voices for a language
+ */
+export function clearDynamicVoices(lang?: string): void {
+    if (lang) {
+        delete dynamicVoices[lang];
+    } else {
+        Object.keys(dynamicVoices).forEach(key => delete dynamicVoices[key]);
+    }
+}
+
+// Default Edge TTS voices organized by language (fallback)
+const DEFAULT_EDGE_VOICES: Record<string, EdgeVoiceInfo[]> = {
     // Japanese
     ja: [
         { id: 'ja-JP-NanamiNeural', name: 'Nanami', language: 'ja', locale: 'ja-JP', gender: 'Female', isDefault: true },
@@ -185,6 +212,31 @@ export const EDGE_VOICES: Record<string, EdgeVoiceInfo[]> = {
     ],
 };
 
+// Export for backwards compatibility
+export const EDGE_VOICES = DEFAULT_EDGE_VOICES;
+
+/**
+ * Get all voices for a language (default + dynamic)
+ * Dynamic voices take precedence if they exist
+ */
+function getAllVoicesForLanguage(lang: string): EdgeVoiceInfo[] {
+    const baseLang = normalizeLanguage(lang);
+    // Dynamic voices override defaults if present
+    if (dynamicVoices[baseLang] && dynamicVoices[baseLang].length > 0) {
+        return dynamicVoices[baseLang];
+    }
+    return DEFAULT_EDGE_VOICES[baseLang] || [];
+}
+
+/**
+ * Get all supported languages (default + dynamic)
+ */
+function getAllSupportedLanguages(): string[] {
+    const defaultLangs = Object.keys(DEFAULT_EDGE_VOICES);
+    const dynamicLangs = Object.keys(dynamicVoices);
+    return [...new Set([...defaultLangs, ...dynamicLangs])];
+}
+
 // Normalize language code to base language (e.g., "ja-JP" -> "ja")
 function normalizeLanguage(lang: string): string {
     const baseLang = lang.toLowerCase().split('-')[0];
@@ -222,8 +274,8 @@ export function getAllSavedEdgeVoices(): Record<string, string> {
     const saved = getSavedEdgeVoices();
     const result: Record<string, string> = {};
 
-    // For each supported language, get saved or default
-    for (const lang of Object.keys(EDGE_VOICES)) {
+    // For each supported language (default + dynamic), get saved or default
+    for (const lang of getAllSupportedLanguages()) {
         result[lang] = saved[lang] || getDefaultEdgeVoice(lang);
     }
 
@@ -237,8 +289,9 @@ const DEFAULT_WORKER_URL = 'https://edge-tts-proxy.rennerdev.workers.dev';
 export function isEdgeTTSSupported(lang: string): boolean {
     const baseLang = normalizeLanguage(lang);
 
-    // Check if language is supported
-    if (!(baseLang in EDGE_VOICES)) return false;
+    // Check if language is supported (default or dynamic)
+    const voices = getAllVoicesForLanguage(baseLang);
+    if (voices.length === 0) return false;
 
     // In browser environment, check if Worker URL is available (env var or default)
     if (typeof window !== 'undefined') {
@@ -252,7 +305,7 @@ export function isEdgeTTSSupported(lang: string): boolean {
 // Get default voice for a language
 export function getDefaultEdgeVoice(lang: string): string {
     const baseLang = normalizeLanguage(lang);
-    const voices = EDGE_VOICES[baseLang];
+    const voices = getAllVoicesForLanguage(baseLang);
     if (!voices || voices.length === 0) return '';
 
     const defaultVoice = voices.find(v => v.isDefault);
@@ -266,7 +319,7 @@ export function getSelectedEdgeVoice(lang: string): string {
 
     if (saved[baseLang]) {
         // Validate that the saved voice still exists
-        const voices = EDGE_VOICES[baseLang] || [];
+        const voices = getAllVoicesForLanguage(baseLang);
         if (voices.some(v => v.id === saved[baseLang])) {
             return saved[baseLang];
         }
@@ -275,15 +328,17 @@ export function getSelectedEdgeVoice(lang: string): string {
     return getDefaultEdgeVoice(baseLang);
 }
 
-// Get all voices for a language
+// Get all voices for a language (public API)
 export function getEdgeVoicesForLanguage(lang: string): EdgeVoiceInfo[] {
     const baseLang = normalizeLanguage(lang);
-    return EDGE_VOICES[baseLang] || [];
+    return getAllVoicesForLanguage(baseLang);
 }
 
 // Get voice info by ID
 export function getEdgeVoiceInfo(voiceId: string): EdgeVoiceInfo | undefined {
-    for (const voices of Object.values(EDGE_VOICES)) {
+    // Check all languages (default + dynamic)
+    for (const lang of getAllSupportedLanguages()) {
+        const voices = getAllVoicesForLanguage(lang);
         const voice = voices.find(v => v.id === voiceId);
         if (voice) return voice;
     }
@@ -292,7 +347,7 @@ export function getEdgeVoiceInfo(voiceId: string): EdgeVoiceInfo | undefined {
 
 // List all supported languages
 export function listEdgeTTSLanguages(): string[] {
-    return Object.keys(EDGE_VOICES);
+    return getAllSupportedLanguages();
 }
 
 // Cache for generated audio blobs

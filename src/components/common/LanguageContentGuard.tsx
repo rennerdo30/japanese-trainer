@@ -50,18 +50,18 @@ export default function LanguageContentGuard({
             <IoConstruct />
           </div>
           <Text variant="h2" align="center" style={{ marginBottom: '1rem' }}>
-            Coming Soon
+            {t('contentGuard.comingSoon')}
           </Text>
           <Text variant="body" color="secondary" align="center" style={{ marginBottom: '0.5rem' }}>
-            {languageConfig?.name || targetLanguage.toUpperCase()} content for this module is not yet available.
+            {t('contentGuard.notAvailable', { language: languageConfig?.name || targetLanguage.toUpperCase() })}
           </Text>
           <Text variant="caption" color="muted" align="center" style={{ marginBottom: '2rem' }}>
-            This module is currently available for: {availableLanguages.length > 0 ? availableLanguages.map(l => l.toUpperCase()).join(', ') : 'No languages yet'}. We&apos;re working on adding more!
+            {t('contentGuard.availableFor', { languages: availableLanguages.length > 0 ? availableLanguages.map(l => l.toUpperCase()).join(', ') : t('contentGuard.noLanguages') })}
           </Text>
           <Link href="/">
             <Button variant="primary">
               <IoArrowBack style={{ marginRight: '0.5rem' }} />
-              Back to Dashboard
+              {t('common.dashboard')}
             </Button>
           </Link>
         </Card>

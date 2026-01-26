@@ -1,14 +1,17 @@
 /**
  * Language Configuration System
  * Provides a language-agnostic abstraction layer for multi-language support
+ *
+ * This module provides static functions that work with the static config for SSR.
+ * For dynamic config in client components, use the LanguageConfigProvider context.
  */
 
 import languageConfigs from '@/data/language-configs.json';
 
-// Type definitions
-export type LanguageCode = 'ja' | 'es' | 'ko' | 'zh' | 'de' | 'en' | 'it';
-export type LevelFramework = 'JLPT' | 'CEFR' | 'TOPIK' | 'HSK' | 'custom';
-export type ScriptType = 'alphabet' | 'syllabary' | 'logographic' | 'romanization';
+// Type definitions - LanguageCode is now dynamic (string) instead of a fixed union
+export type LanguageCode = string;
+export type LevelFramework = 'JLPT' | 'CEFR' | 'TOPIK' | 'HSK' | 'custom' | string;
+export type ScriptType = 'alphabet' | 'syllabary' | 'logographic' | 'romanization' | string;
 export type ModuleName = 'alphabet' | 'vocabulary' | 'kanji' | 'grammar' | 'reading' | 'listening';
 
 export interface LanguageLevel {
@@ -48,6 +51,12 @@ export interface LanguageConfig {
   scripts: LanguageScript[];
   ttsVoices: TTSVoices;
   dataPath: string;
+  display?: {
+    icon?: string;
+    flagEmoji?: string;
+    backgroundDecoration?: string;
+    themeColors?: Record<string, string>;
+  };
 }
 
 export interface LanguageConfigsData {
@@ -56,8 +65,9 @@ export interface LanguageConfigsData {
   availableLanguages: LanguageCode[];
 }
 
-// Type assertion for the imported JSON
-const configs = languageConfigs as LanguageConfigsData;
+// Static config for SSR and initial render
+// For dynamic config, use LanguageConfigProvider context
+const configs = languageConfigs as unknown as LanguageConfigsData;
 
 /**
  * Get the configuration for a specific language

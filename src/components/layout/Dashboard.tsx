@@ -7,6 +7,7 @@ import { useLanguage } from '@/context/LanguageProvider';
 import { useTargetLanguage } from '@/hooks/useTargetLanguage';
 import { useGamification } from '@/hooks/useGamification';
 import { useCurriculum } from '@/hooks/useCurriculum';
+import { useContentTranslation } from '@/hooks/useContentTranslation';
 import { ModuleName } from '@/lib/language';
 import ProgressBar from '@/components/common/ProgressBar';
 import LanguageSwitcher from '@/components/common/LanguageSwitcher';
@@ -75,20 +76,6 @@ const BACKGROUND_DECORATIONS: Record<string, string> = {
 
 const getBackgroundDecoration = (lang: string) => BACKGROUND_DECORATIONS[lang] || BACKGROUND_DECORATIONS.ja;
 
-// Language-specific module names and descriptions
-const MODULE_NAMES: Record<string, Record<string, { title: string; description: string }>> = {
-    ja: {
-        alphabet: { title: 'Alphabet', description: 'Master Hiragana & Katakana' },
-        kanji: { title: 'Kanji', description: 'Learn Japanese characters' },
-    },
-    ko: {
-        alphabet: { title: 'Hangul', description: 'Master Korean alphabet' },
-    },
-    zh: {
-        kanji: { title: 'Hanzi', description: 'Learn Chinese characters' },
-    },
-};
-
 const getModuleName = (moduleId: string, lang: string, t: (key: string) => string) => {
     // Check for language-specific titles in translation system
     const specificTitleKey = moduleId === 'kanji' && lang === 'ja' ? `modules.kanji.title_ja` :
@@ -124,6 +111,7 @@ const ALL_MODULES: Module[] = [
 function Dashboard() {
     const { summary, getModuleProgress, refresh, initialized } = useProgressContext();
     const { t } = useLanguage();
+    const { getText } = useContentTranslation();
     const { targetLanguage, isModuleEnabled } = useTargetLanguage();
     const { level, streak, dailyGoal, todayXP, isLoading: gamificationLoading } = useGamification();
     const { lessons, lessonProgress, getLessonStatus } = useCurriculum();
@@ -261,8 +249,8 @@ function Dashboard() {
                     <div className={styles.continueLessonContent}>
                         <div className={styles.continueLessonInfo}>
                             <Text variant="label" color="muted">{t('dashboard.continueLearning')}</Text>
-                            <Text variant="h2">{currentLesson.title}</Text>
-                            <Text variant="body" color="secondary">{currentLesson.description}</Text>
+                            <Text variant="h2">{getText(currentLesson.titleTranslations, currentLesson.title)}</Text>
+                            <Text variant="body" color="secondary">{getText(currentLesson.descriptionTranslations, currentLesson.description)}</Text>
                         </div>
                         <Link href={`/paths/${getPathIdForLanguage(targetLanguage)}/${currentLesson.id}`}>
                             <Button className={styles.continueLessonButton}>

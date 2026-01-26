@@ -31,6 +31,7 @@
       }
     ],
     "level": "TOPIK1",
+    "topik": "TOPIK1",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -74,6 +75,7 @@
       }
     ],
     "level": "TOPIK1",
+    "topik": "TOPIK1",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -115,6 +117,7 @@
       }
     ],
     "level": "TOPIK1",
+    "topik": "TOPIK1",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -158,6 +161,7 @@
       }
     ],
     "level": "TOPIK1",
+    "topik": "TOPIK1",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -200,6 +204,7 @@
       }
     ],
     "level": "TOPIK1",
+    "topik": "TOPIK1",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -237,6 +242,7 @@
       }
     ],
     "level": "TOPIK1",
+    "topik": "TOPIK1",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -275,6 +281,7 @@
       }
     ],
     "level": "TOPIK1",
+    "topik": "TOPIK1",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -313,6 +320,7 @@
       }
     ],
     "level": "TOPIK1",
+    "topik": "TOPIK1",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -351,6 +359,7 @@
       }
     ],
     "level": "TOPIK1",
+    "topik": "TOPIK1",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -393,6 +402,7 @@
       }
     ],
     "level": "TOPIK1",
+    "topik": "TOPIK1",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -435,6 +445,7 @@
       }
     ],
     "level": "TOPIK2",
+    "topik": "TOPIK2",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -477,6 +488,7 @@
       }
     ],
     "level": "TOPIK2",
+    "topik": "TOPIK2",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -519,6 +531,7 @@
       }
     ],
     "level": "TOPIK2",
+    "topik": "TOPIK2",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -561,6 +574,7 @@
       }
     ],
     "level": "TOPIK2",
+    "topik": "TOPIK2",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -603,6 +617,7 @@
       }
     ],
     "level": "TOPIK2",
+    "topik": "TOPIK2",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -645,6 +660,7 @@
       }
     ],
     "level": "TOPIK2",
+    "topik": "TOPIK2",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -687,6 +703,7 @@
       }
     ],
     "level": "TOPIK2",
+    "topik": "TOPIK2",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -728,6 +745,7 @@
       }
     ],
     "level": "TOPIK2",
+    "topik": "TOPIK2",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -771,6 +789,7 @@
       }
     ],
     "level": "TOPIK2",
+    "topik": "TOPIK2",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -812,6 +831,7 @@
       }
     ],
     "level": "TOPIK2",
+    "topik": "TOPIK2",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -855,6 +875,7 @@
       }
     ],
     "level": "TOPIK3",
+    "topik": "TOPIK3",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -897,6 +918,7 @@
       }
     ],
     "level": "TOPIK3",
+    "topik": "TOPIK3",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -938,6 +960,7 @@
       }
     ],
     "level": "TOPIK3",
+    "topik": "TOPIK3",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -979,6 +1002,7 @@
       }
     ],
     "level": "TOPIK3",
+    "topik": "TOPIK3",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -1021,6 +1045,7 @@
       }
     ],
     "level": "TOPIK4",
+    "topik": "TOPIK4",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -1063,6 +1088,7 @@
       }
     ],
     "level": "TOPIK4",
+    "topik": "TOPIK4",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -1104,6 +1130,7 @@
       }
     ],
     "level": "TOPIK4",
+    "topik": "TOPIK4",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -1145,6 +1172,7 @@
       }
     ],
     "level": "TOPIK4",
+    "topik": "TOPIK4",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -1188,6 +1216,7 @@
       }
     ],
     "level": "TOPIK5",
+    "topik": "TOPIK5",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -1230,6 +1259,7 @@
       }
     ],
     "level": "TOPIK5",
+    "topik": "TOPIK5",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -1272,6 +1302,7 @@
       }
     ],
     "level": "TOPIK5",
+    "topik": "TOPIK5",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -1314,6 +1345,7 @@
       }
     ],
     "level": "TOPIK5",
+    "topik": "TOPIK5",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -1356,6 +1388,7 @@
       }
     ],
     "level": "TOPIK6",
+    "topik": "TOPIK6",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -1398,6 +1431,7 @@
       }
     ],
     "level": "TOPIK6",
+    "topik": "TOPIK6",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -1436,6 +1470,7 @@
       }
     ],
     "level": "TOPIK6",
+    "topik": "TOPIK6",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,
@@ -1478,6 +1513,7 @@
       }
     ],
     "level": "TOPIK6",
+    "topik": "TOPIK6",
     "framework": null,
     "audioUrl": null,
     "language_id": 3,

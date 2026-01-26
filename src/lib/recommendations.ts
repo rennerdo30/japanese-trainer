@@ -86,6 +86,7 @@ export interface PathProgress {
   pathId: string;
   pathType: 'linear' | 'topic' | 'adaptive';
   name: string;
+  nameTranslations?: Record<string, string>;  // UI language translations
   currentMilestoneIndex: number;
   totalMilestones: number;
   completedMilestones: number;
@@ -299,6 +300,7 @@ export function getLinearPathProgress(
     pathId,
     pathType: 'linear',
     name: linearPath.name,
+    nameTranslations: (linearPath as { nameTranslations?: Record<string, string> }).nameTranslations,
     currentMilestoneIndex,
     totalMilestones: milestones.length,
     completedMilestones,
@@ -648,8 +650,8 @@ export function getNextRecommendedAction(
 export function getAllPathsWithProgress(
   userProgress: UserProgress,
   targetLanguage?: string
-): Array<PathProgress & { description: string; difficulty: string; tags?: string[] }> {
-  const paths: Array<PathProgress & { description: string; difficulty: string; tags?: string[] }> = [];
+): Array<PathProgress & { description: string; descriptionTranslations?: Record<string, string>; difficulty: string; tags?: string[] }> {
+  const paths: Array<PathProgress & { description: string; descriptionTranslations?: Record<string, string>; difficulty: string; tags?: string[] }> = [];
 
   for (const pathId of getPathsData().pathOrder) {
     const pathData = getPathsData().paths[pathId];
@@ -666,7 +668,9 @@ export function getAllPathsWithProgress(
       if (progress) {
         paths.push({
           ...progress,
+          nameTranslations: (pathData as { nameTranslations?: Record<string, string> }).nameTranslations,
           description: pathData.description,
+          descriptionTranslations: (pathData as { descriptionTranslations?: Record<string, string> }).descriptionTranslations,
           difficulty: 'beginner-to-advanced',
         });
       }
@@ -676,7 +680,9 @@ export function getAllPathsWithProgress(
       if (progress) {
         paths.push({
           ...progress,
+          nameTranslations: (topicPath as { nameTranslations?: Record<string, string> }).nameTranslations,
           description: topicPath.description,
+          descriptionTranslations: (topicPath as { descriptionTranslations?: Record<string, string> }).descriptionTranslations,
           difficulty: topicPath.difficulty,
           tags: topicPath.tags,
         });

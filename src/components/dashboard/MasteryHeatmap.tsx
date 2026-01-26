@@ -14,15 +14,6 @@ interface MasteryHeatmapProps {
   className?: string;
 }
 
-const MODULE_LABELS: Record<string, string> = {
-  alphabet: 'Alphabet',
-  vocabulary: 'Vocab',
-  kanji: 'Kanji',
-  grammar: 'Grammar',
-  reading: 'Reading',
-  listening: 'Listening',
-};
-
 export default function MasteryHeatmap({ className }: MasteryHeatmapProps) {
   const { t } = useLanguage();
   const { stats, isLoading } = useRecommendations();

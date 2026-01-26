@@ -1,9 +1,10 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import PathDetailContent from './PathDetailContent';
+import languageConfigs from '@/data/language-configs.json';
 
-// Allowed language codes
-const LANGUAGES = ['ja', 'ko', 'zh', 'es', 'de', 'en', 'it', 'fr', 'pt', 'hi', 'ar', 'ru'];
+// Use dynamic config instead of hardcoded list
+const LANGUAGES = languageConfigs.availableLanguages;
 
 interface LegacyPath {
   path: {

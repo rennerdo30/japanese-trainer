@@ -6,6 +6,7 @@ import Navigation from '@/components/common/Navigation';
 import { Container, Card, Text, Button, Animated } from '@/components/ui';
 import { useCurriculum } from '@/hooks/useCurriculum';
 import { useGamification } from '@/hooks/useGamification';
+import { useLanguage } from '@/context/LanguageProvider';
 import { calculateLessonXP } from '@/lib/xp';
 import LessonView from '@/components/lesson/LessonView';
 import LessonSummary from '@/components/lesson/LessonSummary';
@@ -47,6 +48,7 @@ export default function LessonContent() {
   } = useCurriculum();
 
   const { streak, awardXP } = useGamification();
+  const { t } = useLanguage();
 
   const [phase, setPhase] = useState<LessonPhase>('loading');
   const [lessonResult, setLessonResult] = useState<LessonResult | null>(null);
@@ -151,7 +153,7 @@ export default function LessonContent() {
         <Navigation />
         <Card variant="glass" className={styles.loadingCard}>
           <div className={styles.loader} />
-          <Text color="muted">Loading lesson...</Text>
+          <Text color="muted">{t('lessons.loading')}</Text>
         </Card>
       </Container>
     );
@@ -164,12 +166,12 @@ export default function LessonContent() {
         <Navigation />
         <Card variant="glass" className={styles.errorCard}>
           <IoWarning className={styles.errorIcon} />
-          <Text variant="h2">Lesson Not Found</Text>
+          <Text variant="h2">{t('lessons.notFound')}</Text>
           <Text color="muted">
-            {curriculumError || `The lesson "${lessonId}" could not be found.`}
+            {curriculumError || t('lessons.notFoundDescription', { lessonId })}
           </Text>
           <Button variant="ghost" onClick={handleBackToPath}>
-            <IoArrowBack /> Back to Path
+            <IoArrowBack /> {t('lessons.backToPath')}
           </Button>
         </Card>
       </Container>
@@ -183,12 +185,12 @@ export default function LessonContent() {
         <Navigation />
         <Card variant="glass" className={styles.lockedCard}>
           <IoWarning className={styles.lockedIcon} />
-          <Text variant="h2">Lesson Locked</Text>
+          <Text variant="h2">{t('lessons.locked')}</Text>
           <Text color="muted">
-            Complete the previous lessons to unlock this one.
+            {t('lessons.lockedDescription')}
           </Text>
           <Button variant="ghost" onClick={handleBackToPath}>
-            <IoArrowBack /> Back to Path
+            <IoArrowBack /> {t('lessons.backToPath')}
           </Button>
         </Card>
       </Container>

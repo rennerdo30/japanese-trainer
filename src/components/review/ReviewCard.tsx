@@ -95,7 +95,7 @@ export default function ReviewCard({
           <div className={styles.cardBack}>
             <div className={styles.answerSection}>
               <Text variant="h2" color="gold" className={styles.backText}>
-                {item.data?.back || 'Unknown'}
+                {item.data?.back || t('common.unknown')}
               </Text>
 
               {item.data?.reading && (

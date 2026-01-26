@@ -13,6 +13,7 @@ import type {
   LessonContext,
   FlattenedLesson,
 } from '@/types/curriculum';
+import { isLanguageAvailable } from './language';
 
 // Cache for loaded curricula
 const curriculumCache = new Map<string, Curriculum | null>();
@@ -24,47 +25,141 @@ const lessonsCache = new Map<string, CurriculumLesson[]>();
 const curriculumLoadingPromises = new Map<string, Promise<Curriculum | null>>();
 const lessonsLoadingPromises = new Map<string, Promise<CurriculumLesson[]>>();
 
-// Allowed language codes whitelist to prevent path traversal attacks
-const ALLOWED_LANGUAGE_CODES = ['ja', 'ko', 'zh', 'es', 'de', 'en', 'it', 'fr', 'pt', 'hi', 'ar', 'ru'] as const;
+// Cache for content unavailability (prevents repeated 404s)
+const contentUnavailableCache = new Set<string>();
+
+// AI-generated lesson vocabulary item format
+interface AILessonVocabItem {
+  word: string;
+  reading?: string;
+  romaji?: string;
+  meaning: string;
+  partOfSpeech?: string;
+  usageNote?: string;
+  level?: string;
+}
+
+// AI-generated lesson grammar item format
+interface AILessonGrammarItem {
+  pattern: string;
+  meaning: string;
+  formation?: string;
+  usageNotes?: string;
+  level?: string;
+}
+
+// AI-generated lesson example sentence format
+interface AILessonExampleSentence {
+  target: string;
+  reading?: string;
+  translation: string;
+  vocabUsed: string[];
+  grammarUsed: string[];
+}
+
+// AI-generated exercise format
+interface AILessonExercise {
+  id: string;
+  type: string;
+  question: string;
+  options?: string[];
+  correctIndex?: number;
+  correctAnswer?: string;
+  sentence?: string;
+  blankPosition?: number;
+}
 
 // AI-generated lesson format (from ai-lessons.json)
+// Supports both legacy string[] and new object[] formats
 interface AILesson {
   id: number;
   slug: string;
   name: string;
+  nameTranslations?: Record<string, string>;  // UI language translations
   type?: string;
   content: {
     description?: string;
+    descriptionTranslations?: Record<string, string>;  // UI language translations
     objectives?: string[];
-    vocabulary?: string[];
-    grammar?: string[];
+    objectivesTranslations?: Array<Record<string, string>>;  // Per-objective translations
+    vocabulary?: (string | AILessonVocabItem)[];
+    grammar?: (string | AILessonGrammarItem)[];
+    exampleSentences?: AILessonExampleSentence[];
   };
+  exercises?: AILessonExercise[];
   prerequisite_slug?: string;
   estimated_minutes?: number;
 }
 
 /**
  * Transform AI-generated lesson format to CurriculumLesson format
+ * Preserves both legacy string[] and new object[] formats for vocab/grammar
  */
 function transformAILesson(aiLesson: AILesson): CurriculumLesson {
+  // Pass through vocabulary and grammar as-is to preserve object format
+  // The LessonContent type supports both string[] and object[] via union types
+  const vocabFocus = aiLesson.content?.vocabulary || [];
+  const grammarFocus = aiLesson.content?.grammar || [];
+  const exampleSentences = aiLesson.content?.exampleSentences;
+
+  // Transform exercises to the frontend Exercise type
+  const exercises = aiLesson.exercises?.map((ex) => {
+    // Map exercise types
+    if (ex.type === 'multiple_choice' && ex.options && ex.correctIndex !== undefined) {
+      return {
+        id: ex.id,
+        type: 'multiple_choice' as const,
+        question: ex.question,
+        options: ex.options,
+        correctIndex: ex.correctIndex,
+      };
+    } else if (ex.type === 'fill_blank' && ex.correctAnswer) {
+      return {
+        id: ex.id,
+        type: 'fill_blank' as const,
+        sentence: ex.sentence || ex.question,
+        blankPosition: ex.blankPosition || 0,
+        correctAnswer: ex.correctAnswer,
+      };
+    }
+    // Default to multiple choice format
+    return {
+      id: ex.id,
+      type: 'multiple_choice' as const,
+      question: ex.question,
+      options: ex.options || [],
+      correctIndex: ex.correctIndex || 0,
+    };
+  });
+
   return {
     id: aiLesson.slug,
     title: aiLesson.name,
+    titleTranslations: aiLesson.nameTranslations,
     description: aiLesson.content?.description || '',
+    descriptionTranslations: aiLesson.content?.descriptionTranslations,
     content: {
       topics: aiLesson.content?.objectives || [],
-      vocab_focus: aiLesson.content?.vocabulary || [],
-      grammar_focus: aiLesson.content?.grammar || [],
+      topicTranslations: aiLesson.content?.objectivesTranslations,
+      vocab_focus: vocabFocus as CurriculumLesson['content']['vocab_focus'],
+      grammar_focus: grammarFocus as CurriculumLesson['content']['grammar_focus'],
+      exampleSentences: exampleSentences as CurriculumLesson['content']['exampleSentences'],
     },
+    exercises,
     estimatedMinutes: aiLesson.estimated_minutes,
   };
 }
 
 /**
- * Validate that a language code is in the allowed whitelist
+ * Validate that a language code is in the allowed list
+ * Uses dynamic config instead of hardcoded whitelist
  */
 function isValidLanguageCode(langCode: string): boolean {
-  return ALLOWED_LANGUAGE_CODES.includes(langCode as typeof ALLOWED_LANGUAGE_CODES[number]);
+  // Basic validation to prevent path traversal
+  if (!langCode || langCode.includes('/') || langCode.includes('..')) {
+    return false;
+  }
+  return isLanguageAvailable(langCode);
 }
 
 // Legacy path curriculum structure (from existing curriculum.json)
@@ -256,19 +351,27 @@ export async function loadLessons(langCode: string): Promise<CurriculumLesson[]>
       console.warn(`Failed to load legacy lessons for ${langCode}:`, error);
     }
 
-    try {
-      // Try to load AI-generated lessons
-      const aiResponse = await fetch(`/data/${langCode}/ai-lessons.json`);
-      if (aiResponse.ok) {
-        const aiLessons = await aiResponse.json() as AILesson[];
-        if (Array.isArray(aiLessons)) {
-          // Transform AI lessons to CurriculumLesson format
-          const transformedLessons = aiLessons.map(transformAILesson);
-          allLessons.push(...transformedLessons);
+    // Only try to load AI lessons if not already cached as unavailable
+    const aiLessonsCacheKey = `ai-lessons-${langCode}`;
+    if (!contentUnavailableCache.has(aiLessonsCacheKey)) {
+      try {
+        // Try to load AI-generated lessons
+        const aiResponse = await fetch(`/data/${langCode}/ai-lessons.json`);
+        if (aiResponse.ok) {
+          const aiLessons = await aiResponse.json() as AILesson[];
+          if (Array.isArray(aiLessons)) {
+            // Transform AI lessons to CurriculumLesson format
+            const transformedLessons = aiLessons.map(transformAILesson);
+            allLessons.push(...transformedLessons);
+          }
+        } else {
+          // Cache the 404 to prevent repeated requests
+          contentUnavailableCache.add(aiLessonsCacheKey);
         }
+      } catch (error) {
+        // Cache failure to prevent repeated requests
+        contentUnavailableCache.add(aiLessonsCacheKey);
       }
-    } catch (error) {
-      console.warn(`Failed to load AI lessons for ${langCode}:`, error);
     }
 
     lessonsCache.set(langCode, allLessons);

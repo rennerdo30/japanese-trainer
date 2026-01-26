@@ -28,6 +28,7 @@ interface CharacterLessonProps {
     markLearnedLabel: string;
     learnedLabel: string;
     mnemonicLabel: string;
+    nameLabel?: string;
 }
 
 export default function CharacterLesson({
@@ -42,6 +43,7 @@ export default function CharacterLesson({
     markLearnedLabel,
     learnedLabel,
     mnemonicLabel,
+    nameLabel = 'Name',
 }: CharacterLessonProps) {
     const [isAnimating, setIsAnimating] = useState(false);
 
@@ -74,7 +76,7 @@ export default function CharacterLesson({
             <div className={styles.infoSection}>
                 {character.name && (
                     <div className={styles.infoRow}>
-                        <span className={styles.infoLabel}>Name:</span>
+                        <span className={styles.infoLabel}>{nameLabel}:</span>
                         <span className={styles.infoValue}>{character.name}</span>
                     </div>
                 )}

@@ -2,6 +2,7 @@
 
 import { Card, Text, Button } from '@/components/ui';
 import { useLanguage } from '@/context/LanguageProvider';
+import { useContentTranslation } from '@/hooks/useContentTranslation';
 import type { CurriculumLesson, LessonContext } from '@/types/curriculum';
 import { IoPlay, IoArrowBack, IoTime, IoBook, IoLanguage } from 'react-icons/io5';
 import styles from './LessonIntro.module.css';
@@ -35,6 +36,12 @@ export default function LessonIntro({
   onBack,
 }: LessonIntroProps) {
   const { t } = useLanguage();
+  const { getText } = useContentTranslation();
+
+  // Get translated title and description
+  const displayTitle = getText(lesson.titleTranslations, lesson.title);
+  const displayDescription = getText(lesson.descriptionTranslations, lesson.description);
+
   // Filter out generic count-based topics - we show those as translated counts below
   const meaningfulTopics = filterGenericTopics(lesson.content.topics);
   const topicsCount = meaningfulTopics.length;
@@ -64,10 +71,10 @@ export default function LessonIntro({
       <Card variant="glass" className={styles.mainCard}>
         <div className={styles.titleSection}>
           <Text variant="h1" color="gold" className={styles.title}>
-            {lesson.title}
+            {displayTitle}
           </Text>
           <Text color="muted" className={styles.description}>
-            {lesson.description}
+            {displayDescription}
           </Text>
         </div>
 
@@ -109,12 +116,16 @@ export default function LessonIntro({
           </Text>
 
           <div className={styles.previewItems}>
-            {meaningfulTopics.map((topic, index) => (
-              <div key={`topic-${index}`} className={styles.previewItem}>
-                <span className={styles.bullet} />
-                <Text variant="body">{topic}</Text>
-              </div>
-            ))}
+            {meaningfulTopics.map((topic, index) => {
+              const topicTranslation = lesson.content.topicTranslations?.[index];
+              const displayTopic = topicTranslation ? getText(topicTranslation, topic) : topic;
+              return (
+                <div key={`topic-${index}`} className={styles.previewItem}>
+                  <span className={styles.bullet} />
+                  <Text variant="body">{displayTopic}</Text>
+                </div>
+              );
+            })}
 
             {vocabCount > 0 && (
               <div className={styles.previewItem}>

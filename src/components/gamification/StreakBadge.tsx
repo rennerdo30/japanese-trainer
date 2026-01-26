@@ -35,10 +35,10 @@ export default function StreakBadge({
       {showMessage && (
         <div className={styles.info}>
           <Text variant="body" className={styles.displayText}>
-            {getStreakDisplayText(currentStreak)}
+            {getStreakDisplayText(currentStreak, t)}
           </Text>
           <Text variant="caption" color="muted" className={styles.message}>
-            {getStreakMessage(currentStreak)}
+            {getStreakMessage(currentStreak, t)}
           </Text>
 
           {(streak?.longestStreak ?? 0) > currentStreak && (

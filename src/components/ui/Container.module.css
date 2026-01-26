@@ -8,7 +8,7 @@
 }
 
 .centered {
-  min-height: 100vh;
+  min-height: 100vh; min-height: 100dvh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,7 +18,7 @@
 }
 
 .dashboard {
-  min-height: 100vh;
+  min-height: 100vh; min-height: 100dvh;
   padding: 2rem;
   max-width: 1200px;
   margin: 0 auto;

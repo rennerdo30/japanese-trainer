@@ -112,16 +112,52 @@ export function getDaysToNextMilestone(currentStreak: number): number {
 /**
  * Get streak display text
  */
-export function getStreakDisplayText(streak: number): string {
+/**
+ * Get streak display text key for translation
+ * Returns a key that should be passed to t() function
+ */
+export function getStreakDisplayTextKey(streak: number): string {
+  if (streak === 0) return 'streak.noStreak';
+  if (streak === 1) return 'streak.oneDay';
+  return 'streak.days';
+}
+
+/**
+ * Get streak display text (legacy - use getStreakDisplayTextKey with t() instead)
+ */
+export function getStreakDisplayText(streak: number, t?: (key: string, params?: Record<string, string | number>) => string): string {
+  if (t) {
+    if (streak === 0) return t('gamification.streak.noStreak');
+    if (streak === 1) return t('gamification.streak.oneDay');
+    return t('gamification.streak.days', { count: streak });
+  }
+  // Fallback for legacy code
   if (streak === 0) return 'No streak';
   if (streak === 1) return '1 day';
   return `${streak} days`;
 }
 
 /**
- * Get streak encouragement message
+ * Get streak encouragement message key for translation
  */
-export function getStreakMessage(streak: number): string {
+export function getStreakMessageKey(streak: number): string {
+  if (streak === 0) return 'gamification.streak.messages.startToday';
+  if (streak === 1) return 'gamification.streak.messages.greatStart';
+  if (streak < 7) return 'gamification.streak.messages.buildingMomentum';
+  if (streak < 30) return 'gamification.streak.messages.onFire';
+  if (streak < 90) return 'gamification.streak.messages.incredibleDedication';
+  if (streak < 365) return 'gamification.streak.messages.legend';
+  return 'gamification.streak.messages.unstoppable';
+}
+
+/**
+ * Get streak encouragement message (legacy - use getStreakMessageKey with t() instead)
+ */
+export function getStreakMessage(streak: number, t?: (key: string) => string): string {
+  if (t) {
+    return t(getStreakMessageKey(streak));
+  }
+  // Fallback for legacy code
   if (streak === 0) return 'Start your streak today!';
   if (streak === 1) return 'Great start! Keep it going!';
   if (streak < 7) return 'Building momentum!';

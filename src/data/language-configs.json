@@ -1,5 +1,326 @@
 {
   "languages": {
+    "zh": {
+      "code": "zh",
+      "name": "Chinese (Mandarin)",
+      "nativeName": "中文",
+      "modules": {
+        "alphabet": true,
+        "vocabulary": true,
+        "kanji": true,
+        "grammar": true,
+        "reading": true,
+        "listening": true
+      },
+      "levels": [
+        {
+          "id": "HSK1",
+          "name": "HSK HSK1",
+          "framework": "HSK",
+          "order": 1,
+          "description": "Beginner"
+        },
+        {
+          "id": "HSK2",
+          "name": "HSK HSK2",
+          "framework": "HSK",
+          "order": 2,
+          "description": "Elementary"
+        },
+        {
+          "id": "HSK3",
+          "name": "HSK HSK3",
+          "framework": "HSK",
+          "order": 3,
+          "description": "Intermediate"
+        },
+        {
+          "id": "HSK4",
+          "name": "HSK HSK4",
+          "framework": "HSK",
+          "order": 4,
+          "description": "Upper-Intermediate"
+        },
+        {
+          "id": "HSK5",
+          "name": "HSK HSK5",
+          "framework": "HSK",
+          "order": 5,
+          "description": "Advanced"
+        },
+        {
+          "id": "HSK6",
+          "name": "HSK HSK6",
+          "framework": "HSK",
+          "order": 6,
+          "description": "Mastery"
+        }
+      ],
+      "scripts": [
+        {
+          "name": "Hanzi",
+          "type": "logographic",
+          "required": true
+        },
+        {
+          "name": "Pinyin",
+          "type": "romanization",
+          "required": false
+        }
+      ],
+      "ttsVoices": {
+        "webSpeech": "zh-CN",
+        "elevenlabs": "21m00Tcm4TlvDq8ikWAM"
+      },
+      "dataPath": "/data/zh",
+      "display": {
+        "icon": "字",
+        "flagEmoji": "🇨🇳",
+        "backgroundDecoration": "学",
+        "themeColors": {
+          "primary": "#DE2910",
+          "secondary": "#FFDE00",
+          "accent": "#8B0000"
+        }
+      }
+    },
+    "en": {
+      "code": "en",
+      "name": "English",
+      "nativeName": "English",
+      "modules": {
+        "alphabet": true,
+        "vocabulary": true,
+        "kanji": false,
+        "grammar": true,
+        "reading": true,
+        "listening": true
+      },
+      "levels": [
+        {
+          "id": "A1",
+          "name": "CEFR A1",
+          "framework": "CEFR",
+          "order": 1,
+          "description": "Breakthrough"
+        },
+        {
+          "id": "A2",
+          "name": "CEFR A2",
+          "framework": "CEFR",
+          "order": 2,
+          "description": "Waystage"
+        },
+        {
+          "id": "B1",
+          "name": "CEFR B1",
+          "framework": "CEFR",
+          "order": 3,
+          "description": "Threshold"
+        },
+        {
+          "id": "B2",
+          "name": "CEFR B2",
+          "framework": "CEFR",
+          "order": 4,
+          "description": "Vantage"
+        },
+        {
+          "id": "C1",
+          "name": "CEFR C1",
+          "framework": "CEFR",
+          "order": 5,
+          "description": "Effective Operational Proficiency"
+        },
+        {
+          "id": "C2",
+          "name": "CEFR C2",
+          "framework": "CEFR",
+          "order": 6,
+          "description": "Mastery"
+        }
+      ],
+      "scripts": [
+        {
+          "name": "Latin",
+          "type": "alphabet",
+          "required": true
+        }
+      ],
+      "ttsVoices": {
+        "webSpeech": "en-US",
+        "elevenlabs": "21m00Tcm4TlvDq8ikWAM"
+      },
+      "dataPath": "/data/en",
+      "display": {
+        "icon": "A",
+        "flagEmoji": "🇬🇧",
+        "backgroundDecoration": null,
+        "themeColors": {
+          "primary": "#012169",
+          "secondary": "#C8102E",
+          "accent": "#FFFFFF"
+        }
+      }
+    },
+    "de": {
+      "code": "de",
+      "name": "German",
+      "nativeName": "Deutsch",
+      "modules": {
+        "alphabet": true,
+        "vocabulary": true,
+        "kanji": false,
+        "grammar": true,
+        "reading": true,
+        "listening": true
+      },
+      "levels": [
+        {
+          "id": "A1",
+          "name": "CEFR A1",
+          "framework": "CEFR",
+          "order": 1,
+          "description": "Breakthrough"
+        },
+        {
+          "id": "A2",
+          "name": "CEFR A2",
+          "framework": "CEFR",
+          "order": 2,
+          "description": "Waystage"
+        },
+        {
+          "id": "B1",
+          "name": "CEFR B1",
+          "framework": "CEFR",
+          "order": 3,
+          "description": "Threshold"
+        },
+        {
+          "id": "B2",
+          "name": "CEFR B2",
+          "framework": "CEFR",
+          "order": 4,
+          "description": "Vantage"
+        },
+        {
+          "id": "C1",
+          "name": "CEFR C1",
+          "framework": "CEFR",
+          "order": 5,
+          "description": "Effective Operational Proficiency"
+        },
+        {
+          "id": "C2",
+          "name": "CEFR C2",
+          "framework": "CEFR",
+          "order": 6,
+          "description": "Mastery"
+        }
+      ],
+      "scripts": [
+        {
+          "name": "Latin",
+          "type": "alphabet",
+          "required": true
+        }
+      ],
+      "ttsVoices": {
+        "webSpeech": "de-DE",
+        "elevenlabs": "21m00Tcm4TlvDq8ikWAM"
+      },
+      "dataPath": "/data/de",
+      "display": {
+        "icon": "A",
+        "flagEmoji": "🇩🇪",
+        "backgroundDecoration": null,
+        "themeColors": {
+          "primary": "#000000",
+          "secondary": "#DD0000",
+          "accent": "#FFCC00"
+        }
+      }
+    },
+    "it": {
+      "code": "it",
+      "name": "Italian",
+      "nativeName": "Italiano",
+      "modules": {
+        "alphabet": true,
+        "vocabulary": true,
+        "kanji": false,
+        "grammar": true,
+        "reading": true,
+        "listening": true
+      },
+      "levels": [
+        {
+          "id": "A1",
+          "name": "CEFR A1",
+          "framework": "CEFR",
+          "order": 1,
+          "description": "Breakthrough"
+        },
+        {
+          "id": "A2",
+          "name": "CEFR A2",
+          "framework": "CEFR",
+          "order": 2,
+          "description": "Waystage"
+        },
+        {
+          "id": "B1",
+          "name": "CEFR B1",
+          "framework": "CEFR",
+          "order": 3,
+          "description": "Threshold"
+        },
+        {
+          "id": "B2",
+          "name": "CEFR B2",
+          "framework": "CEFR",
+          "order": 4,
+          "description": "Vantage"
+        },
+        {
+          "id": "C1",
+          "name": "CEFR C1",
+          "framework": "CEFR",
+          "order": 5,
+          "description": "Effective Operational Proficiency"
+        },
+        {
+          "id": "C2",
+          "name": "CEFR C2",
+          "framework": "CEFR",
+          "order": 6,
+          "description": "Mastery"
+        }
+      ],
+      "scripts": [
+        {
+          "name": "Latin",
+          "type": "alphabet",
+          "required": true
+        }
+      ],
+      "ttsVoices": {
+        "webSpeech": "it-IT",
+        "elevenlabs": "21m00Tcm4TlvDq8ikWAM"
+      },
+      "dataPath": "/data/it",
+      "display": {
+        "icon": "A",
+        "flagEmoji": "🇮🇹",
+        "backgroundDecoration": null,
+        "themeColors": {
+          "primary": "#009246",
+          "secondary": "#CE2B37",
+          "accent": "#FFFFFF"
+        }
+      }
+    },
     "ja": {
       "code": "ja",
       "name": "Japanese",
@@ -13,50 +334,74 @@
         "listening": true
       },
       "levels": [
-        { "id": "N5", "name": "JLPT N5", "framework": "JLPT", "order": 1, "description": "Beginner" },
-        { "id": "N4", "name": "JLPT N4", "framework": "JLPT", "order": 2, "description": "Elementary" },
-        { "id": "N3", "name": "JLPT N3", "framework": "JLPT", "order": 3, "description": "Intermediate" },
-        { "id": "N2", "name": "JLPT N2", "framework": "JLPT", "order": 4, "description": "Upper-Intermediate" },
-        { "id": "N1", "name": "JLPT N1", "framework": "JLPT", "order": 5, "description": "Advanced" }
+        {
+          "id": "N5",
+          "name": "JLPT N5",
+          "framework": "JLPT",
+          "order": 1,
+          "description": "Elementary"
+        },
+        {
+          "id": "N4",
+          "name": "JLPT N4",
+          "framework": "JLPT",
+          "order": 2,
+          "description": "Elementary-Intermediate"
+        },
+        {
+          "id": "N3",
+          "name": "JLPT N3",
+          "framework": "JLPT",
+          "order": 3,
+          "description": "Intermediate"
+        },
+        {
+          "id": "N2",
+          "name": "JLPT N2",
+          "framework": "JLPT",
+          "order": 4,
+          "description": "Upper-Intermediate"
+        },
+        {
+          "id": "N1",
+          "name": "JLPT N1",
+          "framework": "JLPT",
+          "order": 5,
+          "description": "Advanced"
+        }
       ],
       "scripts": [
-        { "name": "Hiragana", "type": "syllabary", "required": true },
-        { "name": "Katakana", "type": "syllabary", "required": true },
-        { "name": "Kanji", "type": "logographic", "required": false }
+        {
+          "name": "Hiragana",
+          "type": "syllabary",
+          "required": true
+        },
+        {
+          "name": "Katakana",
+          "type": "syllabary",
+          "required": true
+        },
+        {
+          "name": "Kanji",
+          "type": "logographic",
+          "required": false
+        }
       ],
       "ttsVoices": {
-        "elevenlabs": "GR4dBIFsYe57TxyrHKXz",
-        "webSpeech": "ja-JP"
+        "webSpeech": "ja-JP",
+        "elevenlabs": "21m00Tcm4TlvDq8ikWAM"
       },
-      "dataPath": "/data/ja"
-    },
-    "es": {
-      "code": "es",
-      "name": "Spanish",
-      "nativeName": "Español",
-      "modules": {
-        "alphabet": false,
-        "vocabulary": true,
-        "kanji": false,
-        "grammar": true,
-        "reading": true,
-        "listening": true
-      },
-      "levels": [
-        { "id": "A1", "name": "CEFR A1", "framework": "CEFR", "order": 1, "description": "Beginner" },
-        { "id": "A2", "name": "CEFR A2", "framework": "CEFR", "order": 2, "description": "Elementary" },
-        { "id": "B1", "name": "CEFR B1", "framework": "CEFR", "order": 3, "description": "Intermediate" },
-        { "id": "B2", "name": "CEFR B2", "framework": "CEFR", "order": 4, "description": "Upper-Intermediate" },
-        { "id": "C1", "name": "CEFR C1", "framework": "CEFR", "order": 5, "description": "Advanced" },
-        { "id": "C2", "name": "CEFR C2", "framework": "CEFR", "order": 6, "description": "Proficiency" }
-      ],
-      "scripts": [
-        { "name": "Latin", "type": "alphabet", "required": false }
-      ],
-      "ttsVoices": {
-        "webSpeech": "es-ES"
-      },
-      "dataPath": "/data/es"
+      "dataPath": "/data/ja",
+      "display": {
+        "icon": "あ",
+        "flagEmoji": "🇯🇵",
+        "backgroundDecoration": "学",
+        "themeColors": {
+          "primary": "#C41E3A",
+          "secondary": "#D4AF37",
+          "accent": "#2D5016"
+        }
+      }
     },
     "ko": {
       "code": "ko",
@@ -65,141 +410,166 @@
       "modules": {
         "alphabet": true,
         "vocabulary": true,
-        "kanji": false,
-        "grammar": true,
-        "reading": false,
-        "listening": true
-      },
-      "levels": [
-        { "id": "TOPIK1", "name": "TOPIK I Level 1", "framework": "TOPIK", "order": 1, "description": "Beginner" },
-        { "id": "TOPIK2", "name": "TOPIK I Level 2", "framework": "TOPIK", "order": 2, "description": "Elementary" },
-        { "id": "TOPIK3", "name": "TOPIK II Level 3", "framework": "TOPIK", "order": 3, "description": "Intermediate" },
-        { "id": "TOPIK4", "name": "TOPIK II Level 4", "framework": "TOPIK", "order": 4, "description": "Upper-Intermediate" },
-        { "id": "TOPIK5", "name": "TOPIK II Level 5", "framework": "TOPIK", "order": 5, "description": "Advanced" },
-        { "id": "TOPIK6", "name": "TOPIK II Level 6", "framework": "TOPIK", "order": 6, "description": "Proficiency" }
-      ],
-      "scripts": [
-        { "name": "Hangul", "type": "alphabet", "required": true }
-      ],
-      "ttsVoices": {
-        "webSpeech": "ko-KR"
-      },
-      "dataPath": "/data/ko"
-    },
-    "zh": {
-      "code": "zh",
-      "name": "Chinese (Mandarin)",
-      "nativeName": "中文",
-      "modules": {
-        "alphabet": false,
-        "vocabulary": true,
         "kanji": true,
         "grammar": true,
-        "reading": false,
+        "reading": true,
         "listening": true
       },
       "levels": [
-        { "id": "HSK1", "name": "HSK 1", "framework": "HSK", "order": 1, "description": "Beginner" },
-        { "id": "HSK2", "name": "HSK 2", "framework": "HSK", "order": 2, "description": "Elementary" },
-        { "id": "HSK3", "name": "HSK 3", "framework": "HSK", "order": 3, "description": "Intermediate" },
-        { "id": "HSK4", "name": "HSK 4", "framework": "HSK", "order": 4, "description": "Upper-Intermediate" },
-        { "id": "HSK5", "name": "HSK 5", "framework": "HSK", "order": 5, "description": "Advanced" },
-        { "id": "HSK6", "name": "HSK 6", "framework": "HSK", "order": 6, "description": "Proficiency" }
+        {
+          "id": "TOPIK1",
+          "name": "TOPIK TOPIK1",
+          "framework": "TOPIK",
+          "order": 1,
+          "description": "Beginner Level 1"
+        },
+        {
+          "id": "TOPIK2",
+          "name": "TOPIK TOPIK2",
+          "framework": "TOPIK",
+          "order": 2,
+          "description": "Beginner Level 2"
+        },
+        {
+          "id": "TOPIK3",
+          "name": "TOPIK TOPIK3",
+          "framework": "TOPIK",
+          "order": 3,
+          "description": "Intermediate Level 3"
+        },
+        {
+          "id": "TOPIK4",
+          "name": "TOPIK TOPIK4",
+          "framework": "TOPIK",
+          "order": 4,
+          "description": "Intermediate Level 4"
+        },
+        {
+          "id": "TOPIK5",
+          "name": "TOPIK TOPIK5",
+          "framework": "TOPIK",
+          "order": 5,
+          "description": "Advanced Level 5"
+        },
+        {
+          "id": "TOPIK6",
+          "name": "TOPIK TOPIK6",
+          "framework": "TOPIK",
+          "order": 6,
+          "description": "Advanced Level 6"
+        }
       ],
       "scripts": [
-        { "name": "Hanzi (Simplified)", "type": "logographic", "required": true },
-        { "name": "Pinyin", "type": "romanization", "required": false }
+        {
+          "name": "Hangul",
+          "type": "alphabet",
+          "required": true
+        }
       ],
       "ttsVoices": {
-        "webSpeech": "zh-CN"
+        "webSpeech": "ko-KR",
+        "elevenlabs": "21m00Tcm4TlvDq8ikWAM"
       },
-      "dataPath": "/data/zh"
+      "dataPath": "/data/ko",
+      "display": {
+        "icon": "한",
+        "flagEmoji": "🇰🇷",
+        "backgroundDecoration": "학",
+        "themeColors": {
+          "primary": "#003478",
+          "secondary": "#C60C30",
+          "accent": "#FFFFFF"
+        }
+      }
     },
-    "de": {
-      "code": "de",
-      "name": "German",
-      "nativeName": "Deutsch",
+    "es": {
+      "code": "es",
+      "name": "Spanish",
+      "nativeName": "Español",
       "modules": {
-        "alphabet": false,
+        "alphabet": true,
         "vocabulary": true,
         "kanji": false,
         "grammar": true,
-        "reading": false,
+        "reading": true,
         "listening": true
       },
       "levels": [
-        { "id": "A1", "name": "CEFR A1", "framework": "CEFR", "order": 1, "description": "Beginner" },
-        { "id": "A2", "name": "CEFR A2", "framework": "CEFR", "order": 2, "description": "Elementary" },
-        { "id": "B1", "name": "CEFR B1", "framework": "CEFR", "order": 3, "description": "Intermediate" },
-        { "id": "B2", "name": "CEFR B2", "framework": "CEFR", "order": 4, "description": "Upper-Intermediate" },
-        { "id": "C1", "name": "CEFR C1", "framework": "CEFR", "order": 5, "description": "Advanced" },
-        { "id": "C2", "name": "CEFR C2", "framework": "CEFR", "order": 6, "description": "Proficiency" }
+        {
+          "id": "A1",
+          "name": "CEFR A1",
+          "framework": "CEFR",
+          "order": 1,
+          "description": "Breakthrough"
+        },
+        {
+          "id": "A2",
+          "name": "CEFR A2",
+          "framework": "CEFR",
+          "order": 2,
+          "description": "Waystage"
+        },
+        {
+          "id": "B1",
+          "name": "CEFR B1",
+          "framework": "CEFR",
+          "order": 3,
+          "description": "Threshold"
+        },
+        {
+          "id": "B2",
+          "name": "CEFR B2",
+          "framework": "CEFR",
+          "order": 4,
+          "description": "Vantage"
+        },
+        {
+          "id": "C1",
+          "name": "CEFR C1",
+          "framework": "CEFR",
+          "order": 5,
+          "description": "Effective Operational Proficiency"
+        },
+        {
+          "id": "C2",
+          "name": "CEFR C2",
+          "framework": "CEFR",
+          "order": 6,
+          "description": "Mastery"
+        }
       ],
       "scripts": [
-        { "name": "Latin", "type": "alphabet", "required": false }
+        {
+          "name": "Latin",
+          "type": "alphabet",
+          "required": true
+        }
       ],
       "ttsVoices": {
-        "webSpeech": "de-DE"
+        "webSpeech": "es-ES",
+        "elevenlabs": "21m00Tcm4TlvDq8ikWAM"
       },
-      "dataPath": "/data/de"
-    },
-    "en": {
-      "code": "en",
-      "name": "English",
-      "nativeName": "English",
-      "modules": {
-        "alphabet": false,
-        "vocabulary": true,
-        "kanji": false,
-        "grammar": true,
-        "reading": false,
-        "listening": true
-      },
-      "levels": [
-        { "id": "A1", "name": "CEFR A1", "framework": "CEFR", "order": 1, "description": "Beginner" },
-        { "id": "A2", "name": "CEFR A2", "framework": "CEFR", "order": 2, "description": "Elementary" },
-        { "id": "B1", "name": "CEFR B1", "framework": "CEFR", "order": 3, "description": "Intermediate" },
-        { "id": "B2", "name": "CEFR B2", "framework": "CEFR", "order": 4, "description": "Upper-Intermediate" },
-        { "id": "C1", "name": "CEFR C1", "framework": "CEFR", "order": 5, "description": "Advanced" },
-        { "id": "C2", "name": "CEFR C2", "framework": "CEFR", "order": 6, "description": "Proficiency" }
-      ],
-      "scripts": [
-        { "name": "Latin", "type": "alphabet", "required": false }
-      ],
-      "ttsVoices": {
-        "webSpeech": "en-US"
-      },
-      "dataPath": "/data/en"
-    },
-    "it": {
-      "code": "it",
-      "name": "Italian",
-      "nativeName": "Italiano",
-      "modules": {
-        "alphabet": false,
-        "vocabulary": true,
-        "kanji": false,
-        "grammar": true,
-        "reading": false,
-        "listening": true
-      },
-      "levels": [
-        { "id": "A1", "name": "CEFR A1", "framework": "CEFR", "order": 1, "description": "Beginner" },
-        { "id": "A2", "name": "CEFR A2", "framework": "CEFR", "order": 2, "description": "Elementary" },
-        { "id": "B1", "name": "CEFR B1", "framework": "CEFR", "order": 3, "description": "Intermediate" },
-        { "id": "B2", "name": "CEFR B2", "framework": "CEFR", "order": 4, "description": "Upper-Intermediate" },
-        { "id": "C1", "name": "CEFR C1", "framework": "CEFR", "order": 5, "description": "Advanced" },
-        { "id": "C2", "name": "CEFR C2", "framework": "CEFR", "order": 6, "description": "Proficiency" }
-      ],
-      "scripts": [
-        { "name": "Latin", "type": "alphabet", "required": false }
-      ],
-      "ttsVoices": {
-        "webSpeech": "it-IT"
-      },
-      "dataPath": "/data/it"
+      "dataPath": "/data/es",
+      "display": {
+        "icon": "A",
+        "flagEmoji": "🇪🇸",
+        "backgroundDecoration": null,
+        "themeColors": {
+          "primary": "#AA151B",
+          "secondary": "#F1BF00",
+          "accent": "#FFFFFF"
+        }
+      }
     }
   },
   "defaultLanguage": "ja",
-  "availableLanguages": ["ja", "es", "de", "en", "it", "ko", "zh"]
+  "availableLanguages": [
+    "zh",
+    "en",
+    "de",
+    "it",
+    "ja",
+    "ko",
+    "es"
+  ]
 }

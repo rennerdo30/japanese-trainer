@@ -298,7 +298,7 @@ export default function ReviewPage() {
     return (
       <Container variant="centered">
         <Navigation />
-        <Text>Loading reviews...</Text>
+        <Text>{t('review.loading')}</Text>
       </Container>
     );
   }
@@ -311,57 +311,57 @@ export default function ReviewPage() {
 
         <Animated animation="fadeInDown">
           <Text variant="h1" color="gold" className={styles.pageTitle}>
-            Review Dashboard
+            {t('review.title')}
           </Text>
         </Animated>
 
         <Card variant="glass" className={styles.queueSummary}>
           <div className={styles.queueHeader}>
             <Text variant="h2">
-              {queue?.total || 0} Items Due
+              {t('review.itemsDue', { count: queue?.total || 0 })}
             </Text>
             <div className={`${styles.urgencyBadge} ${styles[queue?.urgency || 'none']}`}>
-              {queue?.urgency === 'overdue' && 'Overdue'}
-              {queue?.urgency === 'due' && 'Due Today'}
-              {queue?.urgency === 'upcoming' && 'Upcoming'}
-              {queue?.urgency === 'none' && 'All Clear'}
+              {queue?.urgency === 'overdue' && t('review.urgency.overdue')}
+              {queue?.urgency === 'due' && t('review.urgency.dueToday')}
+              {queue?.urgency === 'upcoming' && t('review.urgency.upcoming')}
+              {queue?.urgency === 'none' && t('review.urgency.allClear')}
             </div>
           </div>
 
-          <div className={styles.moduleBreakdown} role="group" aria-label="Module selection">
+          <div className={styles.moduleBreakdown} role="group" aria-label={t('review.moduleSelection')}>
             <button
               className={`${styles.moduleChip} ${selectedModules.includes('vocabulary') ? styles.active : ''}`}
               onClick={() => toggleModule('vocabulary')}
               aria-pressed={selectedModules.includes('vocabulary')}
-              aria-label={`Toggle vocabulary module, ${queue?.byModule.vocabulary || 0} items due`}
+              aria-label={t('review.toggleModule', { module: t('review.modules.vocabulary'), count: queue?.byModule.vocabulary || 0 })}
             >
               <IoBook className={styles.moduleIcon} aria-hidden="true" />
-              <span>Vocabulary: {queue?.byModule.vocabulary || 0}</span>
+              <span>{t('review.modules.vocabulary')}: {queue?.byModule.vocabulary || 0}</span>
             </button>
             <button
               className={`${styles.moduleChip} ${selectedModules.includes('kanji') ? styles.active : ''}`}
               onClick={() => toggleModule('kanji')}
               aria-pressed={selectedModules.includes('kanji')}
-              aria-label={`Toggle kanji module, ${queue?.byModule.kanji || 0} items due`}
+              aria-label={t('review.toggleModule', { module: t('review.modules.kanji'), count: queue?.byModule.kanji || 0 })}
             >
               <IoSchool className={styles.moduleIcon} aria-hidden="true" />
-              <span>Kanji: {queue?.byModule.kanji || 0}</span>
+              <span>{t('review.modules.kanji')}: {queue?.byModule.kanji || 0}</span>
             </button>
             <button
               className={`${styles.moduleChip} ${selectedModules.includes('grammar') ? styles.active : ''}`}
               onClick={() => toggleModule('grammar')}
               aria-pressed={selectedModules.includes('grammar')}
-              aria-label={`Toggle grammar module, ${queue?.byModule.grammar || 0} items due`}
+              aria-label={t('review.toggleModule', { module: t('review.modules.grammar'), count: queue?.byModule.grammar || 0 })}
             >
               <IoDocumentText className={styles.moduleIcon} aria-hidden="true" />
-              <span>Grammar: {queue?.byModule.grammar || 0}</span>
+              <span>{t('review.modules.grammar')}: {queue?.byModule.grammar || 0}</span>
             </button>
           </div>
 
           <div className={styles.estimatedTime}>
             <IoTime className={styles.timeIcon} />
             <Text>
-              Estimated time: {filteredQueueStats.estimatedMinutes} min ({filteredQueueStats.total} items)
+              {t('review.estimatedTime', { minutes: filteredQueueStats.estimatedMinutes, items: filteredQueueStats.total })}
             </Text>
           </div>
 
@@ -372,12 +372,12 @@ export default function ReviewPage() {
             size="lg"
             className={styles.startButton}
           >
-            {filteredQueueStats.total > 0 ? 'Start Review Session' : 'No Reviews Due'}
+            {filteredQueueStats.total > 0 ? t('review.startSession') : t('review.noReviewsDue')}
           </Button>
         </Card>
 
         <Button variant="ghost" onClick={handleBackToDashboard} className={styles.backButton}>
-          Back to Dashboard
+          {t('review.stats.backToDashboard')}
         </Button>
       </Container>
     );
@@ -410,7 +410,7 @@ export default function ReviewPage() {
               setMode('complete');
             }}
           >
-            End Session Early
+            {t('review.endSessionEarly')}
           </Button>
         </div>
       </Container>

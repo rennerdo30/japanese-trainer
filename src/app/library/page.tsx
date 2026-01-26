@@ -4,6 +4,7 @@ import { useMemo } from 'react';
 import Link from 'next/link';
 import { Text, Card } from '@/components/ui';
 import { useTargetLanguage } from '@/hooks/useTargetLanguage';
+import { useLanguage } from '@/context/LanguageProvider';
 import {
   IoText,
   IoLanguage,
@@ -27,6 +28,7 @@ interface ModuleInfo {
 
 export default function LibraryPage() {
   const { targetLanguage, levels } = useTargetLanguage();
+  const { t } = useLanguage();
 
   const modules = useMemo((): ModuleInfo[] => {
     // Determine which modules are available based on language
@@ -34,11 +36,20 @@ export default function LibraryPage() {
     const hasKanji = ['ja'].includes(targetLanguage);
     const hasHanzi = ['zh'].includes(targetLanguage);
 
+    // Get language-specific module title key suffix
+    const getModuleTitle = (moduleId: string): string => {
+      const langKey = `modules.${moduleId}.title_${targetLanguage}`;
+      const defaultKey = `modules.${moduleId}.title`;
+      const langTitle = t(langKey);
+      // If language-specific title exists (not the key itself), use it
+      return langTitle !== langKey ? langTitle : t(defaultKey);
+    };
+
     return [
       {
         id: 'alphabet',
-        name: hasAlphabet ? (targetLanguage === 'ja' ? 'Hiragana & Katakana' : 'Hangul') : 'Alphabet',
-        description: 'Learn the writing system',
+        name: hasAlphabet ? getModuleTitle('alphabet') : t('modules.alphabet.title'),
+        description: t('modules.alphabet.description'),
         icon: IoText,
         href: '/alphabet',
         color: 'var(--gold, #FFD700)',
@@ -46,8 +57,8 @@ export default function LibraryPage() {
       },
       {
         id: 'vocabulary',
-        name: 'Vocabulary',
-        description: 'Essential words and phrases',
+        name: t('modules.vocabulary.title'),
+        description: t('modules.vocabulary.description'),
         icon: IoLanguage,
         href: '/vocabulary',
         color: 'var(--accent-blue, #4A90D9)',
@@ -55,8 +66,8 @@ export default function LibraryPage() {
       },
       {
         id: 'kanji',
-        name: hasHanzi ? 'Hanzi' : 'Kanji',
-        description: hasHanzi ? 'Chinese characters' : 'Japanese characters',
+        name: getModuleTitle('kanji'),
+        description: t('modules.kanji.description'),
         icon: IoDocumentText,
         href: '/kanji',
         color: 'var(--accent-red, #EF4444)',
@@ -64,8 +75,8 @@ export default function LibraryPage() {
       },
       {
         id: 'grammar',
-        name: 'Grammar',
-        description: 'Sentence patterns and structures',
+        name: t('modules.grammar.title'),
+        description: t('modules.grammar.description'),
         icon: IoSchool,
         href: '/grammar',
         color: 'var(--accent-green, #4ADE80)',
@@ -73,8 +84,8 @@ export default function LibraryPage() {
       },
       {
         id: 'reading',
-        name: 'Reading',
-        description: 'Practice reading comprehension',
+        name: t('modules.reading.title'),
+        description: t('modules.reading.description'),
         icon: IoBook,
         href: '/reading',
         color: 'var(--accent-purple, #A855F7)',
@@ -82,24 +93,24 @@ export default function LibraryPage() {
       },
       {
         id: 'listening',
-        name: 'Listening',
-        description: 'Improve listening skills',
+        name: t('modules.listening.title'),
+        description: t('modules.listening.description'),
         icon: IoHeadset,
         href: '/listening',
         color: 'var(--accent-orange, #FFA500)',
         available: true,
       },
     ];
-  }, [targetLanguage]);
+  }, [targetLanguage, t]);
 
   const availableModules = modules.filter((m) => m.available);
 
   return (
     <div className={styles.container}>
       <header className={styles.header}>
-        <Text variant="h1">Library</Text>
+        <Text variant="h1">{t('dashboard.library.title')}</Text>
         <Text variant="body" color="muted">
-          Browse and review all learning materials
+          {t('library.browseDescription')}
         </Text>
       </header>
 
@@ -132,7 +143,7 @@ export default function LibraryPage() {
 
       {levels && levels.length > 0 && (
         <section className={styles.levelsSection}>
-          <Text variant="h3">Levels</Text>
+          <Text variant="h3">{t('library.filters.level')}</Text>
           <div className={styles.levelsTags}>
             {levels.map((level) => (
               <span key={String(level)} className={styles.levelTag}>

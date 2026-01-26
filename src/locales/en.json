@@ -49,15 +49,43 @@
     "dailyGoal": {
       "title": "Daily Goal",
       "complete": "Goal Complete!",
+      "setTitle": "Set Your Daily Goal",
+      "setDescription": "Choose how much you want to learn each day",
+      "current": "Current",
+      "confirmChange": "Change your daily goal to {target} XP?",
       "types": {
         "xp": "Earn XP",
         "lessons": "Complete lessons",
         "time": "Study time"
+      },
+      "levels": {
+        "casual": "Casual",
+        "regular": "Regular",
+        "serious": "Serious",
+        "intense": "Intense"
+      },
+      "descriptions": {
+        "casual": "50 XP per day",
+        "regular": "100 XP per day",
+        "serious": "200 XP per day",
+        "intense": "300 XP per day"
       }
     },
     "streak": {
       "dayStreak": "{count} day streak",
-      "best": "Best: {count} days"
+      "best": "Best: {count} days",
+      "noStreak": "No streak",
+      "oneDay": "1 day",
+      "days": "{count} days",
+      "messages": {
+        "startToday": "Start your streak today!",
+        "greatStart": "Great start! Keep it going!",
+        "buildingMomentum": "Building momentum!",
+        "onFire": "You're on fire!",
+        "incredibleDedication": "Incredible dedication!",
+        "legend": "You're a legend!",
+        "unstoppable": "Unstoppable!"
+      }
     },
     "xp": {
       "today": "{xp} XP today",
@@ -124,12 +152,18 @@
     "changeLanguage": "Change language",
     "selectLanguage": "Select language",
     "close": "Close",
+    "expand": "Expand",
+    "collapse": "Collapse",
+    "minimize": "Minimize",
     "listen": "Listen",
     "show": "Show",
     "hide": "Hide",
     "iKnowThis": "I Know This",
     "tapToContinue": "Tap to continue",
     "hint": "Hint",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "unknown": "Unknown",
     "days": {
       "sun": "Sun",
       "mon": "Mon",
@@ -150,6 +184,12 @@
     "gotIt": "Got it"
   },
   "lessons": {
+    "loading": "Loading lesson...",
+    "notFound": "Lesson Not Found",
+    "notFoundDescription": "The lesson \"{lessonId}\" could not be found.",
+    "backToPath": "Back to Path",
+    "locked": "Lesson Locked",
+    "lockedDescription": "Complete the previous lessons to unlock this one.",
     "card": {
       "topic": "Topic",
       "vocabulary": "Vocabulary",
@@ -175,6 +215,9 @@
       "practice": "Practice",
       "stop": "Stop",
       "tapToContinueHint": "Tap or swipe to continue"
+    },
+    "exercise": {
+      "completeExercise": "Complete the exercise"
     },
     "vocabulary": {
       "examples": "Examples"
@@ -281,6 +324,21 @@
     }
   },
   "review": {
+    "loading": "Loading reviews...",
+    "title": "Review Dashboard",
+    "itemsDue": "{count} Items Due",
+    "endSessionEarly": "End Session Early",
+    "urgency": {
+      "overdue": "Overdue",
+      "dueToday": "Due Today",
+      "upcoming": "Upcoming",
+      "allClear": "All Clear"
+    },
+    "moduleSelection": "Module selection",
+    "toggleModule": "Toggle {module} module, {count} items due",
+    "estimatedTime": "Estimated time: {minutes} min ({items} items)",
+    "startSession": "Start Review Session",
+    "noReviewsDue": "No Reviews Due",
     "config": {
       "title": "Review Session",
       "selectModules": "Select Modules",
@@ -411,7 +469,29 @@
     "typeWord": "Type the Japanese word...",
     "noWords": "No words available.",
     "showHint": "Show Hint",
-    "hintShown": "Hint Shown"
+    "hintShown": "Hint Shown",
+    "tabs": {
+      "myCards": "My Cards",
+      "allVocabulary": "All Vocabulary"
+    },
+    "stats": {
+      "wordsLearned": "Words Learned",
+      "dueForReview": "Due for Review",
+      "accuracy": "Accuracy"
+    },
+    "empty": {
+      "title": "No vocabulary cards yet",
+      "desc": "Complete lessons to add vocabulary to your deck",
+      "goToLessons": "Go to Lessons",
+      "unlock": "Adjust your level filters or complete more lessons",
+      "searchEmpty": "No vocabulary found",
+      "searchHint": "Try adjusting your search or filters"
+    },
+    "actions": {
+      "learnInLessons": "Learn in Lessons",
+      "learned": "Learned"
+    },
+    "searchPlaceholder": "Search vocabulary..."
   },
   "kanji": {
     "practiceMeaning": "Meaning",
@@ -441,7 +521,30 @@
     "checkAnswer": "Check Answer",
     "practice": "Practice",
     "noGrammar": "No grammar available.",
-    "noExercises": "No exercises available for this grammar point."
+    "noExercises": "No exercises available for this grammar point.",
+    "tabs": {
+      "myGrammar": "My Grammar",
+      "allGrammar": "All Grammar"
+    },
+    "stats": {
+      "pointsLearned": "Points Learned",
+      "mastered": "Mastered",
+      "accuracy": "Accuracy"
+    },
+    "empty": {
+      "title": "No grammar cards yet",
+      "desc": "Complete lessons to add grammar to your deck",
+      "goToLessons": "Go to Lessons",
+      "unlock": "Complete more lessons to unlock grammar practice",
+      "searchEmpty": "No grammar found",
+      "searchHint": "Try adjusting your search or filters"
+    },
+    "actions": {
+      "review": "Review",
+      "learnInLessons": "Learn in Lessons",
+      "learned": "Learned"
+    },
+    "searchPlaceholder": "Search grammar..."
   },
   "reading": {
     "showFurigana": "Furigana",
@@ -452,7 +555,26 @@
     "vocabulary": "Vocabulary",
     "comprehensionQuestions": "Comprehension Questions",
     "textsRead": "Texts Read",
-    "noReadings": "No readings available."
+    "noReadings": "No readings available.",
+    "tabs": {
+      "myReadings": "My Readings",
+      "allReadings": "All Readings"
+    },
+    "empty": {
+      "title": "No readings yet",
+      "desc": "Complete lessons to add readings to your collection",
+      "browse": "Browse All Readings",
+      "filterEmpty": "No readings match current filters.",
+      "searchEmpty": "No readings found",
+      "searchHint": "Try adjusting your search or filters"
+    },
+    "stats": {
+      "learned": "Learned",
+      "total": "Total Readings",
+      "comprehension": "Comprehension"
+    },
+    "searchPlaceholder": "Search readings...",
+    "viewLesson": "View Lesson"
   },
   "listening": {
     "playAudio": "Play Audio",
@@ -506,7 +628,13 @@
       "toLevel": "to {level}",
       "learnedItemsInfo": "{learned} / {total} items learned",
       "milestones": "Milestones",
-      "atMinutesPerDay": "At {count} min/day"
+      "atMinutesPerDay": "At {count} min/day",
+      "milestoneNames": {
+        "beginner": "Beginner",
+        "intermediate": "Intermediate",
+        "advanced": "Advanced",
+        "master": "Master"
+      }
     },
     "library": {
       "title": "Library",
@@ -538,6 +666,7 @@
     }
   },
   "library": {
+    "browseDescription": "Browse and review all learning materials",
     "filters": {
       "title": "Filters",
       "status": "Status",
@@ -555,6 +684,24 @@
       "clear": "Clear search",
       "results": "{count} results"
     }
+  },
+  "learningCompanion": {
+    "title": "Learning Companion",
+    "open": "Open Learning Companion",
+    "overall": "Overall",
+    "streak": "Streak",
+    "reviews": "Reviews",
+    "learned": "Learned",
+    "overdueReviews": "Overdue Reviews!",
+    "reviewsDue": "Reviews Due",
+    "reviewCount": "{count} items · ~{minutes} min",
+    "nextUp": "Next Up",
+    "suggestions": "Suggestions",
+    "currentGoal": "Current Goal",
+    "percentComplete": "{percent}% complete",
+    "insight": "Insight",
+    "browsePaths": "Browse Paths",
+    "reviewNow": "Review Now"
   },
   "stats": {
     "correct": "Correct",
@@ -600,7 +747,10 @@
       "ifEnabled": "if enabled",
       "autoLoaded": "auto-loaded",
       "englishOnly": "English only",
-      "priority3": "Browser speech synthesis (fallback)"
+      "priority3": "Browser speech synthesis (fallback)",
+      "loading": "Loading Kokoro TTS...",
+      "edgeTitle": "Edge TTS Voice ({language})",
+      "edgeDesc": "Microsoft neural voice for {language} - high-quality cloud TTS fallback"
     },
     "appearance": {
       "title": "Appearance",
@@ -682,5 +832,110 @@
     "it": "Italian",
     "pt": "Portuguese",
     "en": "English"
+  },
+  "leaderboard": {
+    "title": "Leaderboard",
+    "subtitle": "Compete with learners worldwide",
+    "generating": "Generating...",
+    "youBadge": "You",
+    "periods": {
+      "daily": "Today",
+      "weekly": "This Week",
+      "allTime": "All Time"
+    },
+    "stats": {
+      "title": "Your Stats",
+      "studyTime": "Study Time",
+      "accuracy": "Accuracy",
+      "streaks": "Streaks",
+      "mastery": "Mastery",
+      "total": "Total",
+      "rank": "Your Rank",
+      "participants": "of {count} learners",
+      "position": "Your Position"
+    },
+    "empty": {
+      "daily": "No one has studied today yet. Be the first!",
+      "weekly": "No activity this week yet. Start learning!",
+      "allTime": "No learners on the leaderboard yet.",
+      "loading": "Loading leaderboard...",
+      "noEntries": "No entries yet"
+    },
+    "badges": {
+      "you": "You"
+    },
+    "global": "Global"
+  },
+  "paths": {
+    "loading": "Loading paths...",
+    "title": "Learning Paths",
+    "subtitle": "Choose your journey to mastery",
+    "filters": "Filters",
+    "filterType": "Type",
+    "filterDifficulty": "Difficulty",
+    "types": {
+      "all": "All",
+      "linear": "JLPT Path",
+      "topic": "Topics"
+    },
+    "difficulty": {
+      "all": "All",
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "personalizedPath": "Personalized Path",
+    "aiRecommendations": "AI Recommendations",
+    "tailoredToYou": "Tailored to your learning style",
+    "minPerDay": "min/day",
+    "newPerWeek": "new/week",
+    "pace": "Pace",
+    "focusAreas": "Focus Areas",
+    "startLearning": "Start Learning",
+    "structuredPaths": "Structured Paths",
+    "enrolled": "Enrolled",
+    "topicTracks": "Topic Tracks",
+    "percentComplete": "{percent}% complete",
+    "requires": "Requires: {item}",
+    "noPathsYet": "No Learning Paths Yet",
+    "noPathsDescription": "Learning paths for this language are coming soon. Generate curriculum in the admin panel to create structured learning paths.",
+    "noMatchingPaths": "No paths match your filters",
+    "clearFilters": "Clear Filters"
+  },
+  "contentGuard": {
+    "comingSoon": "Coming Soon",
+    "notAvailable": "{language} content for this module is not yet available.",
+    "availableFor": "This module is currently available for: {languages}. We're working on adding more!",
+    "noLanguages": "No languages yet"
+  },
+  "pathDetail": {
+    "loading": "Loading path...",
+    "notFound": "Path Not Found",
+    "notFoundDescription": "The learning path you're looking for doesn't exist or hasn't been generated yet.",
+    "backToPaths": "Back to Paths",
+    "estimated": "Estimated",
+    "complete": "Complete",
+    "milestones": "Milestones",
+    "items": "Items",
+    "prerequisitesRequired": "Prerequisites Required",
+    "completeFirst": "Complete first",
+    "continueLearning": "Continue Learning",
+    "unenroll": "Unenroll",
+    "startPath": "Start Path",
+    "locked": "Locked",
+    "milestonesDescription": "Complete each milestone to progress through the path",
+    "startLesson": "Start Lesson",
+    "reviewProgress": "Review Progress",
+    "unlockMessage": "Complete previous lessons to unlock",
+    "completed": "Completed",
+    "whatYoullLearn": "What You'll Learn",
+    "practicalItemsFor": "Practical items for {name}",
+    "topics": "Topics"
+  },
+  "recommendations": {
+    "encouragement": "You're doing great! Feel free to push harder.",
+    "takingSlow": "Taking it slow to build stronger foundations.",
+    "manyReviewsDue": "You have many reviews due - consider clearing your review queue before adding new items.",
+    "focusOn": "Focus on {module} this week - {reason}."
   }
 }

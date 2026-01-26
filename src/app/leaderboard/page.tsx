@@ -52,23 +52,23 @@ interface XPBreakdown {
   };
 }
 
-const LANGUAGES = [
-  { code: '', name: 'Global' },
-  ...languageConfigs.availableLanguages.map(code => ({
-    code,
-    name: languageConfigs.languages[code as keyof typeof languageConfigs.languages]?.name || code,
-  })),
-];
-
-const PERIODS: { id: TimePeriod; label: string }[] = [
-  { id: 'daily', label: 'Today' },
-  { id: 'weekly', label: 'This Week' },
-  { id: 'allTime', label: 'All Time' },
-];
-
 export default function LeaderboardPage() {
   const { t } = useLanguage();
   const { targetLanguage } = useTargetLanguage();
+  
+  const periods: { id: TimePeriod; label: string }[] = useMemo(() => [
+    { id: 'daily', label: t('leaderboard.periods.daily') },
+    { id: 'weekly', label: t('leaderboard.periods.weekly') },
+    { id: 'allTime', label: t('leaderboard.periods.allTime') },
+  ], [t]);
+  
+  const languages = useMemo(() => [
+    { code: '', name: t('leaderboard.global') || 'Global' },
+    ...languageConfigs.availableLanguages.map(code => ({
+      code,
+      name: (languageConfigs.languages as Record<string, { name?: string }>)[code]?.name || code,
+    })),
+  ], [t]);
 
   const [period, setPeriod] = useState<TimePeriod>('allTime');
   const [languageFilter, setLanguageFilter] = useState<string>('');
@@ -112,8 +112,8 @@ export default function LeaderboardPage() {
 
   // Get selected language name
   const selectedLanguageName = useMemo(() => {
-    if (!languageFilter) return 'Global';
-    return LANGUAGES.find(l => l.code === languageFilter)?.name || 'Global';
+    if (!languageFilter) return t('leaderboard.global') || (t('leaderboard.global') || 'Global');
+    return languages.find(l => l.code === languageFilter)?.name || 'Global';
   }, [languageFilter]);
 
   const isLoading = leaderboardData === undefined;
@@ -126,17 +126,17 @@ export default function LeaderboardPage() {
         <div className={styles.pageHeader}>
           <IoTrophy className={styles.headerIcon} />
           <Text variant="h1" color="gold" className={styles.pageTitle}>
-            Leaderboard
+            {t('leaderboard.title')}
           </Text>
         </div>
         <Text color="muted" align="center" className={styles.pageSubtitle}>
-          Compete with learners worldwide
+          {t('leaderboard.subtitle')}
         </Text>
       </Animated>
 
       {/* Time Period Tabs */}
       <div className={styles.periodTabs}>
-        {PERIODS.map(({ id, label }) => (
+        {periods.map(({ id, label }) => (
           <button
             key={id}
             className={`${styles.periodTab} ${period === id ? styles.active : ''}`}
@@ -160,7 +160,7 @@ export default function LeaderboardPage() {
           </button>
           {showLanguageDropdown && (
             <div className={styles.languageDropdown}>
-              {LANGUAGES.map(({ code, name }) => (
+              {languages.map(({ code, name }) => (
                 <button
                   key={code}
                   className={`${styles.languageOption} ${languageFilter === code ? styles.selected : ''}`}
@@ -184,7 +184,7 @@ export default function LeaderboardPage() {
             className={styles.visibilityButton}
           >
             {visibility ? <IoEye /> : <IoEyeOff />}
-            {visibility ? 'Visible' : 'Hidden'}
+            {visibility ? t('settings.leaderboard.visible') : t('settings.leaderboard.hidden')}
           </Button>
         )}
       </div>
@@ -194,39 +194,39 @@ export default function LeaderboardPage() {
         <Card variant="glass" className={styles.myStatsCard}>
           <div className={styles.myStatsHeader}>
             <IoSparkles className={styles.myStatsIcon} />
-            <Text variant="h3">Your Stats</Text>
+            <Text variant="h3">{t('leaderboard.stats.title')}</Text>
             <Text color="gold" className={styles.anonymousName}>
-              {myXPData.anonymousName || 'Generating...'}
+              {myXPData.anonymousName || t('leaderboard.generating')}
             </Text>
           </div>
           <div className={styles.xpBreakdown}>
             <div className={styles.xpRow}>
-              <span className={styles.xpLabel}>Study Time</span>
+              <span className={styles.xpLabel}>{t('leaderboard.stats.studyTime')}</span>
               <span className={styles.xpValue}>{formatXP(myXPData.breakdown.studyTime ?? 0)} XP</span>
             </div>
             <div className={styles.xpRow}>
-              <span className={styles.xpLabel}>Accuracy</span>
+              <span className={styles.xpLabel}>{t('leaderboard.stats.accuracy')}</span>
               <span className={styles.xpValue}>{formatXP(myXPData.breakdown.accuracy ?? 0)} XP</span>
             </div>
             <div className={styles.xpRow}>
-              <span className={styles.xpLabel}>Streaks</span>
+              <span className={styles.xpLabel}>{t('leaderboard.stats.streaks')}</span>
               <span className={styles.xpValue}>{formatXP(myXPData.breakdown.streaks ?? 0)} XP</span>
             </div>
             <div className={styles.xpRow}>
-              <span className={styles.xpLabel}>Mastery</span>
+              <span className={styles.xpLabel}>{t('leaderboard.stats.mastery')}</span>
               <span className={styles.xpValue}>{formatXP(myXPData.breakdown.mastery ?? 0)} XP</span>
             </div>
             <div className={`${styles.xpRow} ${styles.xpTotal}`}>
-              <span className={styles.xpLabel}>Total</span>
+              <span className={styles.xpLabel}>{t('leaderboard.stats.total')}</span>
               <span className={styles.xpTotalValue}>{formatXP(myXPData.total)} XP</span>
             </div>
           </div>
           {leaderboardData?.currentUserRank && (
             <div className={styles.myRank}>
-              <Text variant="label" color="muted">Your Rank</Text>
+              <Text variant="label" color="muted">{t('leaderboard.stats.rank')}</Text>
               <Text variant="h2" color="gold">#{leaderboardData.currentUserRank.rank}</Text>
               <Text variant="caption" color="muted">
-                of {leaderboardData.totalParticipants} learners
+                {t('leaderboard.stats.participants', { count: leaderboardData.totalParticipants })}
               </Text>
             </div>
           )}
@@ -237,16 +237,16 @@ export default function LeaderboardPage() {
       <Card variant="glass" className={styles.leaderboardCard}>
         {isLoading ? (
           <div className={styles.loading}>
-            <Text color="muted">Loading leaderboard...</Text>
+            <Text color="muted">{t('leaderboard.empty.loading')}</Text>
           </div>
         ) : leaderboardData?.entries.length === 0 ? (
           <div className={styles.emptyState}>
             <IoTrophy className={styles.emptyIcon} />
-            <Text variant="h3" color="muted">No entries yet</Text>
+            <Text variant="h3" color="muted">{t('leaderboard.empty.noEntries')}</Text>
             <Text color="muted">
-              {period === 'daily' ? "No one has studied today yet. Be the first!" :
-               period === 'weekly' ? "No activity this week yet. Start learning!" :
-               "No learners on the leaderboard yet."}
+              {period === 'daily' ? t('leaderboard.empty.daily') :
+               period === 'weekly' ? t('leaderboard.empty.weekly') :
+               t('leaderboard.empty.allTime')}
             </Text>
           </div>
         ) : (
@@ -261,7 +261,7 @@ export default function LeaderboardPage() {
                 </div>
                 <div className={styles.nameCell}>
                   <span className={styles.playerName}>{entry.anonymousName}</span>
-                  {entry.isCurrentUser && <span className={styles.youBadge}>You</span>}
+                  {entry.isCurrentUser && <span className={styles.youBadge}>{t('leaderboard.badges.you')}</span>}
                 </div>
                 <div className={styles.streakCell}>
                   <IoFlame className={styles.streakIcon} />
@@ -281,14 +281,14 @@ export default function LeaderboardPage() {
       {leaderboardData?.currentUserRank &&
        !leaderboardData.entries.find(e => e.isCurrentUser) && (
         <Card variant="glass" className={styles.currentUserOutside}>
-          <Text variant="caption" color="muted">Your Position</Text>
+          <Text variant="caption" color="muted">{t('leaderboard.stats.position')}</Text>
           <div className={`${styles.leaderboardRow} ${styles.currentUser}`}>
             <div className={styles.rankCell}>
               <span className={styles.rankNumber}>#{leaderboardData.currentUserRank.rank}</span>
             </div>
             <div className={styles.nameCell}>
               <span className={styles.playerName}>{leaderboardData.currentUserRank.anonymousName}</span>
-              <span className={styles.youBadge}>You</span>
+              <span className={styles.youBadge}>{t('leaderboard.badges.you')}</span>
             </div>
             <div className={styles.streakCell}>
               <IoFlame className={styles.streakIcon} />
@@ -304,7 +304,7 @@ export default function LeaderboardPage() {
 
       {/* Back Button */}
       <Button variant="ghost" onClick={() => window.history.back()} className={styles.backButton}>
-        Back to Dashboard
+        {t('settings.backToDashboard')}
       </Button>
     </Container>
   );

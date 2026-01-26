@@ -27,7 +27,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_78623eaefcda.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HS1"
   },
   {
     "id": 721,
@@ -57,7 +58,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_7941da94db2a.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 847,
@@ -82,7 +84,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_7941da94db2a.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 930,
@@ -107,7 +110,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_7941da94db2a.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 956,
@@ -126,7 +130,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_7941da94db2a.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 853,
@@ -151,7 +156,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_aad6914f8f4e.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 895,
@@ -170,7 +176,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_aad6914f8f4e.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 936,
@@ -189,7 +196,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_aad6914f8f4e.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 723,
@@ -214,7 +222,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_e662ff59a0da.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 849,
@@ -239,7 +248,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_e662ff59a0da.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 909,
@@ -264,7 +274,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_e662ff59a0da.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 932,
@@ -283,7 +294,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_e662ff59a0da.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 950,
@@ -308,7 +320,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_e662ff59a0da.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 958,
@@ -327,7 +340,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_e662ff59a0da.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 810,
@@ -357,7 +371,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_b4f0388f1ee9.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 813,
@@ -382,7 +397,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_b4f0388f1ee9.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 858,
@@ -407,7 +423,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_e2eb289cc375.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 902,
@@ -432,7 +449,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_e2eb289cc375.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 754,
@@ -457,7 +475,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_9eba1ab69790.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 802,
@@ -487,7 +506,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_9eba1ab69790.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 876,
@@ -517,7 +537,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_9eba1ab69790.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 843,
@@ -542,7 +563,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_be672ad54806.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 873,
@@ -567,7 +589,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_80cdce8e2eb8.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 724,
@@ -602,7 +625,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_930882bb0a8c.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 769,
@@ -627,7 +651,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_930882bb0a8c.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 779,
@@ -657,7 +682,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_930882bb0a8c.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 906,
@@ -682,7 +708,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_930882bb0a8c.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 915,
@@ -701,7 +728,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_930882bb0a8c.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 831,
@@ -731,7 +759,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_c13dceabcb14.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 855,
@@ -756,7 +785,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_9b4851f85d53.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 897,
@@ -781,7 +811,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_9b4851f85d53.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 938,
@@ -800,7 +831,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_9b4851f85d53.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 783,
@@ -835,7 +867,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_8be34d50fdd6.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 722,
@@ -854,7 +887,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_2d8be272c9e7.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 848,
@@ -879,7 +913,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_2d8be272c9e7.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 931,
@@ -898,7 +933,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_2d8be272c9e7.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 957,
@@ -917,7 +953,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_2d8be272c9e7.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 851,
@@ -942,7 +979,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_1fcc29d077c0.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 893,
@@ -967,7 +1005,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_1fcc29d077c0.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 911,
@@ -992,7 +1031,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_1fcc29d077c0.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 934,
@@ -1011,7 +1051,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_1fcc29d077c0.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 952,
@@ -1036,7 +1077,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_1fcc29d077c0.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 170,
@@ -1060,7 +1102,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_465afe3c1185.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 892,
@@ -1105,7 +1148,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_465afe3c1185.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 752,
@@ -1124,7 +1168,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_736ccbe56037.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 776,
@@ -1149,7 +1194,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_736ccbe56037.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 798,
@@ -1168,7 +1214,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_736ccbe56037.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 889,
@@ -1193,7 +1240,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_736ccbe56037.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 941,
@@ -1223,7 +1271,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_736ccbe56037.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 171,
@@ -1247,7 +1296,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_800dfdd90200.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 703,
@@ -1272,7 +1322,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_800dfdd90200.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 880,
@@ -1297,7 +1348,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_800dfdd90200.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 900,
@@ -1327,7 +1379,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_800dfdd90200.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 696,
@@ -1352,7 +1405,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_5fe86c60debb.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 835,
@@ -1382,7 +1436,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_5fe86c60debb.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 837,
@@ -1407,7 +1462,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_d0a33aaeb397.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 695,
@@ -1426,7 +1482,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_df1fd9101108.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 884,
@@ -1445,7 +1502,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_df1fd9101108.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 184,
@@ -1469,7 +1527,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_7eca689f0d33.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 691,
@@ -1494,7 +1553,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_7eca689f0d33.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 881,
@@ -1529,7 +1589,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_7eca689f0d33.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 946,
@@ -1554,7 +1615,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_7eca689f0d33.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 730,
@@ -1579,7 +1641,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_86194baed33a.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 762,
@@ -1609,7 +1672,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_4f11098f3444.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 785,
@@ -1634,7 +1698,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_c16655df815c.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 868,
@@ -1659,7 +1724,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_c8b87810d39a.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 918,
@@ -1684,7 +1750,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_c8b87810d39a.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 854,
@@ -1709,7 +1776,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_edf1acd5c657.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 896,
@@ -1728,7 +1796,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_edf1acd5c657.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 937,
@@ -1747,7 +1816,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_edf1acd5c657.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 742,
@@ -1772,7 +1842,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_b24186f7c7c4.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 739,
@@ -1797,7 +1868,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_41716f87c375.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 749,
@@ -1822,7 +1894,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_249bdde95549.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 852,
@@ -1847,7 +1920,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_61b453523d86.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 894,
@@ -1866,7 +1940,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_61b453523d86.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 935,
@@ -1885,7 +1960,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_61b453523d86.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 693,
@@ -1910,7 +1986,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_8e5c0a1e4670.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 882,
@@ -1940,7 +2017,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_8e5c0a1e4670.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 908,
@@ -1965,7 +2043,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_8e5c0a1e4670.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 947,
@@ -1990,7 +2069,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_8e5c0a1e4670.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 163,
@@ -2014,7 +2094,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_4d7dc6c5f886.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 732,
@@ -2033,7 +2114,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_74eaee9656d2.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 766,
@@ -2063,7 +2145,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_28fef849a654.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 808,
@@ -2088,7 +2171,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_28fef849a654.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 942,
@@ -2118,7 +2202,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_28fef849a654.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 953,
@@ -2137,7 +2222,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_28fef849a654.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 867,
@@ -2162,7 +2248,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_b30156031219.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 912,
@@ -2187,7 +2274,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_ace28ebb3343.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 805,
@@ -2212,7 +2300,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_daf783c8cdf9.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 748,
@@ -2237,7 +2326,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_071bd02a3624.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 856,
@@ -2262,7 +2352,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_181245720b77.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 898,
@@ -2287,7 +2378,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_181245720b77.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 939,
@@ -2312,7 +2404,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_181245720b77.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 806,
@@ -2337,7 +2430,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_2475dea6e829.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 157,
@@ -2361,7 +2455,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_dfb9366c910b.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 706,
@@ -2386,7 +2481,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_dfb9366c910b.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 923,
@@ -2411,7 +2507,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_b25d78653337.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 890,
@@ -2441,7 +2538,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_27ead3ff934e.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 155,
@@ -2465,7 +2563,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_a52b77dfc6b7.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 707,
@@ -2490,7 +2589,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_a52b77dfc6b7.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 777,
@@ -2520,7 +2620,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_a52b77dfc6b7.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 864,
@@ -2550,7 +2651,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_a52b77dfc6b7.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 812,
@@ -2575,7 +2677,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_b08e357dca05.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 690,
@@ -2605,7 +2708,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_0068330a1096.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 178,
@@ -2629,7 +2733,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_689fad203a16.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 888,
@@ -2654,7 +2759,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_689fad203a16.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 928,
@@ -2679,7 +2785,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_689fad203a16.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 701,
@@ -2714,7 +2821,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_2988084a7495.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 797,
@@ -2754,7 +2862,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_2988084a7495.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 871,
@@ -2779,7 +2888,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_2988084a7495.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 887,
@@ -2809,7 +2919,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_2988084a7495.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 944,
@@ -2834,7 +2945,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_2988084a7495.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 160,
@@ -2858,7 +2970,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_8cbe1c93ad66.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 750,
@@ -2898,7 +3011,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_65ac5a7b1552.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 834,
@@ -2923,7 +3037,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_65ac5a7b1552.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 870,
@@ -2953,7 +3068,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_65ac5a7b1552.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 945,
@@ -2978,7 +3094,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_65ac5a7b1552.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 954,
@@ -2997,7 +3114,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_65ac5a7b1552.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 899,
@@ -3022,7 +3140,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_1603b069c2ac.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 774,
@@ -3052,7 +3171,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_a761914f9760.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 820,
@@ -3077,7 +3197,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_39af35e7b7d1.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 833,
@@ -3102,7 +3223,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_e0bcc1fa08b6.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 751,
@@ -3127,7 +3249,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_f5189dc57436.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 790,
@@ -3152,7 +3275,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_f303c10a9ffd.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 156,
@@ -3176,7 +3300,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_57df27116d40.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 778,
@@ -3201,7 +3326,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_57df27116d40.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 800,
@@ -3241,7 +3367,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_57df27116d40.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 878,
@@ -3266,7 +3393,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_57df27116d40.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 850,
@@ -3291,7 +3419,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_21716cf31107.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 910,
@@ -3310,7 +3439,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_21716cf31107.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 933,
@@ -3329,7 +3459,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_21716cf31107.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 951,
@@ -3348,7 +3479,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_21716cf31107.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 959,
@@ -3367,7 +3499,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_21716cf31107.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 689,
@@ -3392,7 +3525,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_7b894d7a03dc.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 814,
@@ -3417,7 +3551,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_7b894d7a03dc.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 179,
@@ -3441,7 +3576,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_62f8ae5410fd.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 700,
@@ -3471,7 +3607,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_241d47a3ee97.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 786,
@@ -3506,7 +3643,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_241d47a3ee97.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 743,
@@ -3531,7 +3669,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_9266202469b6.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 746,
@@ -3561,7 +3700,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_0169bebf684e.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 177,
@@ -3585,7 +3725,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_7b1568e67999.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 782,
@@ -3610,7 +3751,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_57af3610b143.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 175,
@@ -3634,7 +3776,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_ab18e30c0dc4.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 710,
@@ -3659,7 +3802,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_ab18e30c0dc4.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 727,
@@ -3678,7 +3822,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_ab18e30c0dc4.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 828,
@@ -3703,7 +3848,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_ab18e30c0dc4.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 763,
@@ -3733,7 +3879,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_b62d330b5ae5.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 761,
@@ -3763,7 +3910,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_2144381adea9.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 697,
@@ -3788,7 +3936,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_92f3ca76d560.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 836,
@@ -3813,7 +3962,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_92f3ca76d560.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 838,
@@ -3838,7 +3988,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_fef71ccb551a.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 174,
@@ -3862,7 +4013,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_ac2c8f13c6e6.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 709,
@@ -3892,7 +4044,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_ac2c8f13c6e6.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 830,
@@ -3922,7 +4075,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_ac2c8f13c6e6.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 885,
@@ -3947,7 +4101,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_ac2c8f13c6e6.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 725,
@@ -3972,7 +4127,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_a78e4f228bed.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 726,
@@ -3991,7 +4147,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_d88ae0ebbb7b.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 714,
@@ -4016,7 +4173,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_e6c7ee60031d.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 819,
@@ -4041,7 +4199,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_e6c7ee60031d.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 917,
@@ -4060,7 +4219,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_e6c7ee60031d.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 823,
@@ -4090,7 +4250,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_1c097b12de69.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 869,
@@ -4109,7 +4270,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_2d35b9189710.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 919,
@@ -4134,7 +4296,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_2d35b9189710.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 821,
@@ -4153,7 +4316,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_033e1fb01ca6.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 183,
@@ -4177,7 +4341,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_4ef520d6cd20.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 736,
@@ -4202,7 +4367,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_4ef520d6cd20.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 768,
@@ -4232,7 +4398,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_4ef520d6cd20.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 866,
@@ -4267,7 +4434,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_4ef520d6cd20.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 166,
@@ -4291,7 +4459,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_413b738061f6.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 738,
@@ -4321,7 +4490,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_413b738061f6.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 872,
@@ -4346,7 +4516,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_35d9969dfa48.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 922,
@@ -4371,7 +4542,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_35d9969dfa48.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 167,
@@ -4395,7 +4567,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_a6cdd2a00bc8.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 737,
@@ -4425,7 +4598,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_a6cdd2a00bc8.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 824,
@@ -4455,7 +4629,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_a6cdd2a00bc8.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 845,
@@ -4480,7 +4655,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_cd51c8c91eab.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 176,
@@ -4504,7 +4680,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_391b8fa9c747.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 711,
@@ -4529,7 +4706,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_391b8fa9c747.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 728,
@@ -4548,7 +4726,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_391b8fa9c747.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 829,
@@ -4573,7 +4752,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_391b8fa9c747.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 940,
@@ -4603,7 +4783,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_2854fa1c124c.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 943,
@@ -4633,7 +4814,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_2854fa1c124c.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 180,
@@ -4657,7 +4839,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_9a018b21ab11.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 735,
@@ -4682,7 +4865,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_9a018b21ab11.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 767,
@@ -4717,7 +4901,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_9a018b21ab11.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 799,
@@ -4747,7 +4932,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_9a018b21ab11.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 720,
@@ -4772,7 +4958,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_92e3a830ae9a.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 929,
@@ -4802,7 +4989,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_a01a9963238d.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 822,
@@ -4827,7 +5015,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_427034659a1b.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 713,
@@ -4867,7 +5056,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_5e360de1b1eb.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 694,
@@ -4902,7 +5092,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_168152545317.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 883,
@@ -4927,7 +5118,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_168152545317.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 920,
@@ -4967,7 +5159,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_168152545317.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 905,
@@ -4992,7 +5185,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_3e8ecac2d977.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 914,
@@ -5017,7 +5211,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_3e8ecac2d977.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 857,
@@ -5042,7 +5237,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_c8c0ba481d74.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 901,
@@ -5061,7 +5257,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_c8c0ba481d74.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 182,
@@ -5085,7 +5282,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_b6d9780b0dce.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 172,
@@ -5109,7 +5307,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_8bcbd77d1fd9.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 704,
@@ -5134,7 +5333,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_8bcbd77d1fd9.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 794,
@@ -5159,7 +5359,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_5ce438210f58.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 796,
@@ -5178,7 +5379,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_711d996d8763.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 795,
@@ -5197,7 +5399,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_34e5216bc310.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 861,
@@ -5216,7 +5419,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_450ea3af464f.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 862,
@@ -5235,7 +5439,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_1ae72f6826c2.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 860,
@@ -5254,7 +5459,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_3df6af796b60.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 863,
@@ -5273,7 +5479,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_2ff46ae69724.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 173,
@@ -5297,7 +5504,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_2f8d6f1584b7.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 698,
@@ -5327,7 +5535,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_0a60ac8f02cc.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 803,
@@ -5352,7 +5561,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_0a60ac8f02cc.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 886,
@@ -5387,7 +5597,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_0a60ac8f02cc.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 921,
@@ -5422,7 +5633,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_0a60ac8f02cc.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 859,
@@ -5447,7 +5659,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_a80cc5027a1d.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 699,
@@ -5472,7 +5685,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_cc4ad2fd27e2.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 825,
@@ -5522,7 +5736,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_cc4ad2fd27e2.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 926,
@@ -5552,7 +5767,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_cc4ad2fd27e2.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 759,
@@ -5577,7 +5793,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_f5d46e15d068.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 165,
@@ -5601,7 +5818,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_9d53230a9593.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 840,
@@ -5636,7 +5854,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_9d53230a9593.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 904,
@@ -5666,7 +5885,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_a4fb8425cd19.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 913,
@@ -5696,7 +5916,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_a4fb8425cd19.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 158,
@@ -5720,7 +5941,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_f7b0a3bd20fd.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 780,
@@ -5750,7 +5972,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_86296f5a974e.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 757,
@@ -5780,7 +6003,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_78623eaefcda.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 168,
@@ -5804,7 +6028,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_eab619fba24a.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 772,
@@ -5823,7 +6048,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_eab619fba24a.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 702,
@@ -5853,7 +6079,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_3672c6af9724.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 877,
@@ -5883,7 +6110,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_3672c6af9724.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 846,
@@ -5908,7 +6136,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_ac85b3780c3c.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 793,
@@ -5933,7 +6162,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_be604f8b7ec5.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 804,
@@ -5988,7 +6218,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_be604f8b7ec5.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 731,
@@ -6023,7 +6254,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_2044c2739790.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 758,
@@ -6053,7 +6285,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_e8d2a3a2d3cc.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 816,
@@ -6078,7 +6311,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_e8d2a3a2d3cc.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 164,
@@ -6102,7 +6336,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_8f743c2c688f.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 760,
@@ -6132,7 +6367,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_e571dca2d01f.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 715,
@@ -6157,7 +6393,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_0d00c80f61a7.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 818,
@@ -6182,7 +6419,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_0d00c80f61a7.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 916,
@@ -6207,7 +6445,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_0d00c80f61a7.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 705,
@@ -6232,7 +6471,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_505ccfb0e8b6.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 807,
@@ -6267,7 +6507,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_505ccfb0e8b6.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 781,
@@ -6292,7 +6533,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_0c88bfc874af.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 756,
@@ -6317,7 +6559,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_3a2f904027d7.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 712,
@@ -6357,7 +6600,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_01d7aa494b07.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 764,
@@ -6417,7 +6661,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_01d7aa494b07.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 839,
@@ -6452,7 +6697,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_01d7aa494b07.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 874,
@@ -6471,7 +6717,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_01d7aa494b07.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 903,
@@ -6496,7 +6743,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_01d7aa494b07.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 927,
@@ -6526,7 +6774,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_01d7aa494b07.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 159,
@@ -6550,7 +6799,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_9302446f9b75.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 708,
@@ -6575,7 +6825,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_9302446f9b75.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 755,
@@ -6600,7 +6851,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_9302446f9b75.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 865,
@@ -6630,7 +6882,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_0e7c928c5497.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 734,
@@ -6655,7 +6908,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_60cffce1f686.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 815,
@@ -6680,7 +6934,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_60cffce1f686.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 879,
@@ -6705,7 +6960,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_60cffce1f686.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 827,
@@ -6730,7 +6986,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_839cef9717bc.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 875,
@@ -6749,7 +7006,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_f421b64b879a.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 925,
@@ -6774,7 +7032,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_f421b64b879a.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 718,
@@ -6804,7 +7063,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_7671debae7b1.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 770,
@@ -6829,7 +7089,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_edfec00f071f.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 719,
@@ -6859,7 +7120,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_1ce039c95392.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 832,
@@ -6884,7 +7146,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_1efc978309b2.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 841,
@@ -6914,7 +7177,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_295af37e0588.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 716,
@@ -6939,7 +7203,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_7746fb87c607.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 744,
@@ -6964,7 +7229,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_b73c6e34a130.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 891,
@@ -6989,7 +7255,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_a6bb21be9f9d.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 775,
@@ -7014,7 +7281,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_e6803e21b9c6.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 773,
@@ -7039,7 +7307,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_a001ed1cf190.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 801,
@@ -7079,7 +7348,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_a001ed1cf190.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 784,
@@ -7119,7 +7389,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_5438c873f9d2.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 792,
@@ -7149,7 +7420,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_5438c873f9d2.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 161,
@@ -7173,7 +7445,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_ddc9d3d10db6.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 791,
@@ -7198,7 +7471,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_d1a34a5779d4.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 844,
@@ -7228,7 +7502,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_d1a34a5779d4.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 949,
@@ -7247,7 +7522,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_d1a34a5779d4.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 162,
@@ -7271,7 +7547,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_75769d1ac812.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 753,
@@ -7296,7 +7573,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_cfbafdf1d6de.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 765,
@@ -7326,7 +7604,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_cfbafdf1d6de.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 692,
@@ -7351,7 +7630,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_a34490b593cd.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 842,
@@ -7376,7 +7656,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_a34490b593cd.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 907,
@@ -7401,7 +7682,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_a34490b593cd.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 948,
@@ -7426,7 +7708,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_a34490b593cd.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 729,
@@ -7451,7 +7734,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_0a0f0a1307c5.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 745,
@@ -7476,7 +7760,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_a31570691640.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 733,
@@ -7501,7 +7786,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_59b19552d695.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 809,
@@ -7531,7 +7817,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_59b19552d695.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 811,
@@ -7556,7 +7843,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_59b19552d695.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 740,
@@ -7581,7 +7869,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_faeff5efd32c.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 741,
@@ -7600,7 +7889,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_7fce128995c5.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 787,
@@ -7625,7 +7915,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_535ca5a5d8a9.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 788,
@@ -7650,7 +7941,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_a793c356f12e.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 181,
@@ -7674,7 +7966,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_d23513f09bc6.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 717,
@@ -7699,7 +7992,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_5dc99f6efe53.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 924,
@@ -7724,7 +8018,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_d0160f65bbc6.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 955,
@@ -7743,7 +8038,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_777fda6c519c.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 771,
@@ -7762,7 +8058,8 @@
     "examples": [],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_814b1c8d80e3.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 169,
@@ -7786,7 +8083,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_094f7310ef02.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 789,
@@ -7811,7 +8109,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_860a6ded2d2d.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 747,
@@ -7836,7 +8135,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_53f4a0ec1605.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 826,
@@ -7861,7 +8161,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_4296d7d293c9.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK1"
   },
   {
     "id": 188,
@@ -7885,7 +8186,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_fbc026c9fb55.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK3"
   },
   {
     "id": 190,
@@ -7909,7 +8211,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_243dc73e8af1.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK3"
   },
   {
     "id": 192,
@@ -7933,7 +8236,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_e131ab6cdb5a.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK3"
   },
   {
     "id": 194,
@@ -7957,7 +8261,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_fdbc77bd19b9.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK3"
   },
   {
     "id": 193,
@@ -7981,7 +8286,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_28b42306a040.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK3"
   },
   {
     "id": 185,
@@ -8005,7 +8311,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_c78c9120ac8e.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK3"
   },
   {
     "id": 189,
@@ -8029,7 +8336,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_29c0a66c1a53.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK3"
   },
   {
     "id": 187,
@@ -8053,7 +8361,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_0ebbd85f6891.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK3"
   },
   {
     "id": 191,
@@ -8077,7 +8386,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_fa405f596543.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK3"
   },
   {
     "id": 186,
@@ -8101,7 +8411,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_32a8e000e928.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK3"
   },
   {
     "id": 197,
@@ -8125,7 +8436,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_72fdcacfd91b.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK4"
   },
   {
     "id": 201,
@@ -8149,7 +8461,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_16f6a2664026.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK4"
   },
   {
     "id": 203,
@@ -8173,7 +8486,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_f16b17608555.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK4"
   },
   {
     "id": 198,
@@ -8197,7 +8511,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_f5dc10e438e3.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK4"
   },
   {
     "id": 202,
@@ -8222,7 +8537,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_aef5b45396d8.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK4"
   },
   {
     "id": 199,
@@ -8246,7 +8562,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_3256142c2215.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK4"
   },
   {
     "id": 196,
@@ -8270,7 +8587,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_b59c9e0fa69a.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK4"
   },
   {
     "id": 195,
@@ -8294,7 +8612,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_b8c3fb16d366.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK4"
   },
   {
     "id": 200,
@@ -8318,7 +8637,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_6a721e34e4f6.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK4"
   },
   {
     "id": 204,
@@ -8342,7 +8662,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_0b1054d7bbe2.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK4"
   },
   {
     "id": 205,
@@ -8366,7 +8687,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_abc965fc6a21.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK5"
   },
   {
     "id": 211,
@@ -8390,7 +8712,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_98b5e9e27806.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK5"
   },
   {
     "id": 207,
@@ -8414,7 +8737,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_419df05e44b6.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK5"
   },
   {
     "id": 208,
@@ -8438,7 +8762,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_d8f114358b86.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK5"
   },
   {
     "id": 214,
@@ -8462,7 +8787,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_462e4d6edbb9.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK5"
   },
   {
     "id": 212,
@@ -8486,7 +8812,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_c61a4e7d9765.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK5"
   },
   {
     "id": 209,
@@ -8510,7 +8837,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_a0ea9d7aa8a8.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK5"
   },
   {
     "id": 210,
@@ -8534,7 +8862,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_6a3d3577e26c.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK5"
   },
   {
     "id": 213,
@@ -8558,7 +8887,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_7173206cca26.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK5"
   },
   {
     "id": 206,
@@ -8582,7 +8912,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_c34cf12bb977.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK5"
   },
   {
     "id": 221,
@@ -8606,7 +8937,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_fa9a0864b36e.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK6"
   },
   {
     "id": 216,
@@ -8630,7 +8962,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_4528ab1676aa.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK6"
   },
   {
     "id": 218,
@@ -8655,7 +8988,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_278913938893.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK6"
   },
   {
     "id": 215,
@@ -8679,7 +9013,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_1486ef3c58ba.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK6"
   },
   {
     "id": 219,
@@ -8703,7 +9038,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_160a3bc55a5c.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK6"
   },
   {
     "id": 220,
@@ -8727,7 +9063,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_c4fb00fb5ed5.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK6"
   },
   {
     "id": 222,
@@ -8752,7 +9089,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_7da037c0eb6e.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK6"
   },
   {
     "id": 223,
@@ -8776,7 +9114,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_9c44705e5891.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK6"
   },
   {
     "id": 217,
@@ -8800,7 +9139,8 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_d8a8a6faa19f.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK6"
   },
   {
     "id": 224,
@@ -8824,14 +9164,15 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_185025ab15e5.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "HSK6"
   },
   {
     "id": 989,
     "word": "环境",
     "meaning": "environment",
     "meanings": {
-      "en": [
+      "zh": [
         "environment",
         "surroundings",
         "setting"
@@ -8861,14 +9202,15 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_fa405f596543.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "advanced"
   },
   {
     "id": 984,
     "word": "买",
     "meaning": "to buy",
     "meanings": {
-      "en": [
+      "zh": [
         "to buy",
         "to purchase"
       ]
@@ -8897,14 +9239,15 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_8be34d50fdd6.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "beginner"
   },
   {
     "id": 966,
     "word": "你好",
     "meaning": "hello",
     "meanings": {
-      "en": [
+      "zh": [
         "hello",
         "hi",
         "greetings"
@@ -8934,14 +9277,15 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_7eca689f0d33.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "beginner"
   },
   {
     "id": 976,
     "word": "你好",
     "meaning": "hello",
     "meanings": {
-      "en": [
+      "zh": [
         "hello",
         "hi"
       ]
@@ -8970,14 +9314,15 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_7eca689f0d33.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "beginner"
   },
   {
     "id": 986,
     "word": "你好",
     "meaning": "hello",
     "meanings": {
-      "en": [
+      "zh": [
         "hello",
         "hi",
         "greetings"
@@ -9007,14 +9352,15 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_7eca689f0d33.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "beginner"
   },
   {
     "id": 968,
     "word": "吃",
     "meaning": "to eat",
     "meanings": {
-      "en": [
+      "zh": [
         "to eat",
         "to consume",
         "to have a meal"
@@ -9044,14 +9390,15 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_a52b77dfc6b7.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "beginner"
   },
   {
     "id": 978,
     "word": "吃",
     "meaning": "to eat",
     "meanings": {
-      "en": [
+      "zh": [
         "to eat",
         "to consume"
       ]
@@ -9080,14 +9427,15 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_a52b77dfc6b7.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "beginner"
   },
   {
     "id": 988,
     "word": "吃",
     "meaning": "to eat",
     "meanings": {
-      "en": [
+      "zh": [
         "to eat",
         "to consume"
       ]
@@ -9116,14 +9464,15 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_a52b77dfc6b7.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "beginner"
   },
   {
     "id": 960,
     "word": "学习",
     "meaning": "to study",
     "meanings": {
-      "en": [
+      "zh": [
         "to study",
         "to learn",
         "learning"
@@ -9153,14 +9502,15 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_4ef520d6cd20.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "beginner"
   },
   {
     "id": 969,
     "word": "学校",
     "meaning": "school",
     "meanings": {
-      "en": [
+      "zh": [
         "school",
         "educational institution"
       ]
@@ -9189,14 +9539,15 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_413b738061f6.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "beginner"
   },
   {
     "id": 979,
     "word": "学校",
     "meaning": "school",
     "meanings": {
-      "en": [
+      "zh": [
         "school",
         "educational institution"
       ]
@@ -9225,14 +9576,15 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_413b738061f6.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "beginner"
   },
   {
     "id": 985,
     "word": "家",
     "meaning": "home",
     "meanings": {
-      "en": [
+      "zh": [
         "home",
         "house",
         "family"
@@ -9262,14 +9614,15 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_a6cdd2a00bc8.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "beginner"
   },
   {
     "id": 961,
     "word": "朋友",
     "meaning": "friend",
     "meanings": {
-      "en": [
+      "zh": [
         "friend",
         "buddy",
         "pal"
@@ -9299,14 +9652,15 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_9d53230a9593.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "beginner"
   },
   {
     "id": 970,
     "word": "朋友",
     "meaning": "friend",
     "meanings": {
-      "en": [
+      "zh": [
         "friend",
         "buddy",
         "companion"
@@ -9336,14 +9690,15 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_9d53230a9593.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "beginner"
   },
   {
     "id": 980,
     "word": "朋友",
     "meaning": "friend",
     "meanings": {
-      "en": [
+      "zh": [
         "friend",
         "buddy"
       ]
@@ -9372,14 +9727,15 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_9d53230a9593.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "beginner"
   },
   {
     "id": 967,
     "word": "水",
     "meaning": "water",
     "meanings": {
-      "en": [
+      "zh": [
         "water",
         "liquid"
       ]
@@ -9408,14 +9764,15 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_eab619fba24a.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "beginner"
   },
   {
     "id": 977,
     "word": "水",
     "meaning": "water",
     "meanings": {
-      "en": [
+      "zh": [
         "water"
       ]
     },
@@ -9443,14 +9800,15 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_eab619fba24a.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "beginner"
   },
   {
     "id": 987,
     "word": "水",
     "meaning": "water",
     "meanings": {
-      "en": [
+      "zh": [
         "water",
         "liquid"
       ]
@@ -9479,14 +9837,15 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_eab619fba24a.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "beginner"
   },
   {
     "id": 965,
     "word": "医院",
     "meaning": "hospital",
     "meanings": {
-      "en": [
+      "zh": [
         "hospital",
         "medical center"
       ]
@@ -9515,14 +9874,15 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_071bd02a3624.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "intermediate"
   },
   {
     "id": 962,
     "word": "工作",
     "meaning": "work",
     "meanings": {
-      "en": [
+      "zh": [
         "work",
         "job",
         "to work"
@@ -9552,14 +9912,15 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_9a018b21ab11.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "intermediate"
   },
   {
     "id": 971,
     "word": "工作",
     "meaning": "work",
     "meanings": {
-      "en": [
+      "zh": [
         "work",
         "job",
         "to work"
@@ -9589,14 +9950,15 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_9a018b21ab11.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "intermediate"
   },
   {
     "id": 981,
     "word": "工作",
     "meaning": "work",
     "meanings": {
-      "en": [
+      "zh": [
         "work",
         "job",
         "to work"
@@ -9626,14 +9988,15 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_9a018b21ab11.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "intermediate"
   },
   {
     "id": 974,
     "word": "帮助",
     "meaning": "to help",
     "meanings": {
-      "en": [
+      "zh": [
         "to help",
         "to assist",
         "help",
@@ -9664,14 +10027,15 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_92e3a830ae9a.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "intermediate"
   },
   {
     "id": 963,
     "word": "时间",
     "meaning": "time",
     "meanings": {
-      "en": [
+      "zh": [
         "time",
         "duration",
         "period"
@@ -9701,14 +10065,15 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_19fcb9eb2594.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "intermediate"
   },
   {
     "id": 973,
     "word": "时间",
     "meaning": "time",
     "meanings": {
-      "en": [
+      "zh": [
         "time",
         "period",
         "duration"
@@ -9738,14 +10103,15 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_19fcb9eb2594.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "intermediate"
   },
   {
     "id": 983,
     "word": "时间",
     "meaning": "time",
     "meanings": {
-      "en": [
+      "zh": [
         "time",
         "period"
       ]
@@ -9774,14 +10140,15 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_19fcb9eb2594.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "intermediate"
   },
   {
     "id": 964,
     "word": "漂亮",
     "meaning": "beautiful",
     "meanings": {
-      "en": [
+      "zh": [
         "beautiful",
         "pretty",
         "attractive"
@@ -9811,14 +10178,15 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_f4361d2cfe95.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "intermediate"
   },
   {
     "id": 972,
     "word": "漂亮",
     "meaning": "beautiful",
     "meanings": {
-      "en": [
+      "zh": [
         "beautiful",
         "pretty",
         "attractive"
@@ -9848,14 +10216,15 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_f4361d2cfe95.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "intermediate"
   },
   {
     "id": 982,
     "word": "漂亮",
     "meaning": "beautiful",
     "meanings": {
-      "en": [
+      "zh": [
         "beautiful",
         "pretty",
         "handsome"
@@ -9885,14 +10254,15 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_f4361d2cfe95.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "intermediate"
   },
   {
     "id": 975,
     "word": "重要",
     "meaning": "important",
     "meanings": {
-      "en": [
+      "zh": [
         "important",
         "significant",
         "crucial"
@@ -9922,6 +10292,7 @@
     ],
     "audioUrl": "/audio/zh/vocabulary/vocabulary_fc7e3846bc34.mp3",
     "language_id": 4,
-    "content_translations": null
+    "content_translations": null,
+    "hsk": "intermediate"
   }
 ]

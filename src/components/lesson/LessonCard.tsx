@@ -2,17 +2,22 @@
 
 import { useCallback } from 'react';
 import { Text, Button } from '@/components/ui';
-import { IoBook, IoLanguage, IoSchool, IoGlobe, IoVolumeHigh, IoStop } from 'react-icons/io5';
+import { IoBook, IoLanguage, IoSchool, IoGlobe, IoVolumeHigh, IoStop, IoText } from 'react-icons/io5';
 import { useTTS } from '@/hooks/useTTS';
 import { useLanguage } from '@/context/LanguageProvider';
 import styles from './LessonCard.module.css';
 
 interface LessonCardProps {
-  type: 'topic' | 'vocabulary' | 'grammar' | 'cultural';
+  type: 'topic' | 'vocabulary' | 'grammar' | 'cultural' | 'example';
   title: string;
   content: string;
+  meaning?: string;
   audioUrl?: string;
   speakable?: boolean;
+  usageNote?: string;
+  formation?: string;
+  reading?: string;
+  translation?: string;
 }
 
 const TYPE_ICONS = {
@@ -20,6 +25,7 @@ const TYPE_ICONS = {
   vocabulary: IoLanguage,
   grammar: IoSchool,
   cultural: IoGlobe,
+  example: IoText,
 };
 
 const TYPE_COLORS = {
@@ -27,14 +33,20 @@ const TYPE_COLORS = {
   vocabulary: 'var(--accent-blue, #4A90D9)',
   grammar: 'var(--accent-green, #4ADE80)',
   cultural: 'var(--accent-purple, #A855F7)',
+  example: 'var(--accent-cyan, #22D3EE)',
 };
 
 export default function LessonCard({
   type,
   title,
   content,
+  meaning,
   audioUrl,
   speakable = false,
+  usageNote,
+  formation,
+  reading,
+  translation,
 }: LessonCardProps) {
   const { t } = useLanguage();
   const Icon = TYPE_ICONS[type];
@@ -42,7 +54,7 @@ export default function LessonCard({
   const { speak, stop, isPlaying } = useTTS();
 
   // Check if this card type should be speakable by default
-  const shouldShowTTS = speakable || type === 'vocabulary';
+  const shouldShowTTS = speakable || type === 'vocabulary' || type === 'example';
 
   const handleSpeak = useCallback(() => {
     if (isPlaying) {
@@ -67,6 +79,40 @@ export default function LessonCard({
         <Text variant="h2" className={styles.mainContent}>
           {content}
         </Text>
+        {meaning && (
+          <Text variant="body" color="muted" className={styles.meaning}>
+            {meaning}
+          </Text>
+        )}
+        {/* Reading (for examples) */}
+        {reading && (
+          <Text variant="body" color="muted" className={styles.reading}>
+            {reading}
+          </Text>
+        )}
+        {/* Translation (for examples) */}
+        {translation && (
+          <Text variant="body" className={styles.translation}>
+            {translation}
+          </Text>
+        )}
+        {/* Formation (for grammar) */}
+        {formation && type === 'grammar' && (
+          <div className={styles.formation}>
+            <Text variant="label" color="muted">{t('lessons.card.formation')}</Text>
+            <Text variant="body" className={styles.formationText}>
+              {formation}
+            </Text>
+          </div>
+        )}
+        {/* Usage Note (for vocab and grammar) */}
+        {usageNote && (
+          <div className={styles.usageNote}>
+            <Text variant="caption" color="muted">
+              {usageNote}
+            </Text>
+          </div>
+        )}
       </div>
 
       {shouldShowTTS && (

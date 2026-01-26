@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import { ProgressProvider } from '@/context/ProgressProvider'
 import { SettingsProvider } from '@/context/SettingsProvider'
 import { LanguageProvider } from '@/context/LanguageProvider'
+import { LanguageConfigProvider } from '@/context/LanguageConfigProvider'
 import { TargetLanguageProvider } from '@/context/TargetLanguageProvider'
 import { Providers } from '@/components/providers'
 import ClientLayout from '@/components/layout/ClientLayout'
@@ -43,17 +44,19 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <html lang="en">
       <body>
         <Providers>
-          <SettingsProvider>
-            <LanguageProvider>
-              <TargetLanguageProvider>
-                <ProgressProvider>
-                  <ClientLayout>
-                    {children}
-                  </ClientLayout>
-                </ProgressProvider>
-              </TargetLanguageProvider>
-            </LanguageProvider>
-          </SettingsProvider>
+          <LanguageConfigProvider>
+            <SettingsProvider>
+              <LanguageProvider>
+                <TargetLanguageProvider>
+                  <ProgressProvider>
+                    <ClientLayout>
+                      {children}
+                    </ClientLayout>
+                  </ProgressProvider>
+                </TargetLanguageProvider>
+              </LanguageProvider>
+            </SettingsProvider>
+          </LanguageConfigProvider>
         </Providers>
       </body>
     </html>

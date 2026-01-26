@@ -44,7 +44,7 @@ interface UseRecommendationsReturn {
   reviewQueue: ReviewQueue | null;
 
   // Path progress
-  paths: Array<PathProgress & { description: string; difficulty: string; tags?: string[] }>;
+  paths: Array<PathProgress & { description: string; descriptionTranslations?: Record<string, string>; difficulty: string; tags?: string[] }>;
   jlptProgress: PathProgress | null;
   hasPathsData: boolean;
 
@@ -79,7 +79,7 @@ export function useRecommendations(): UseRecommendationsReturn {
   const [recommendations, setRecommendations] = useState<Recommendation[]>([]);
   const [stats, setStats] = useState<LearningStats | null>(null);
   const [reviewQueue, setReviewQueue] = useState<ReviewQueue | null>(null);
-  const [paths, setPaths] = useState<Array<PathProgress & { description: string; difficulty: string; tags?: string[] }>>([]);
+  const [paths, setPaths] = useState<Array<PathProgress & { description: string; descriptionTranslations?: Record<string, string>; difficulty: string; tags?: string[] }>>([]);
   const [jlptProgress, setJlptProgress] = useState<PathProgress | null>(null);
   const [adaptiveRecommendations, setAdaptiveRecommendations] = useState<AdaptivePathRecommendation | null>(null);
   const [isLoading, setIsLoading] = useState(true);

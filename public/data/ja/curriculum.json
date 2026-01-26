@@ -8,7 +8,8 @@
       "type": "topic",
       "estimated_hours": 10,
       "difficulty": "intermediate",
-      "language_id": 1
+      "language_id": 1,
+      "content_translations": null
     },
     "milestones": []
   },
@@ -21,7 +22,8 @@
       "type": "topic",
       "estimated_hours": 12,
       "difficulty": "intermediate",
-      "language_id": 1
+      "language_id": 1,
+      "content_translations": null
     },
     "milestones": []
   },
@@ -34,7 +36,8 @@
       "type": "topic",
       "estimated_hours": 8,
       "difficulty": "beginner",
-      "language_id": 1
+      "language_id": 1,
+      "content_translations": null
     },
     "milestones": []
   },
@@ -47,7 +50,8 @@
       "type": "linear",
       "estimated_hours": 400,
       "difficulty": "beginner-to-advanced",
-      "language_id": 1
+      "language_id": 1,
+      "content_translations": null
     },
     "milestones": [
       {
@@ -62,7 +66,8 @@
           "value": 70
         },
         "estimated_hours": 80,
-        "path_id": 1
+        "path_id": 1,
+        "content_translations": null
       },
       {
         "id": 14,
@@ -76,7 +81,8 @@
           "value": 70
         },
         "estimated_hours": 70,
-        "path_id": 1
+        "path_id": 1,
+        "content_translations": null
       },
       {
         "id": 11,
@@ -90,7 +96,8 @@
           "value": 70
         },
         "estimated_hours": 60,
-        "path_id": 1
+        "path_id": 1,
+        "content_translations": null
       },
       {
         "id": 12,
@@ -104,7 +111,8 @@
           "value": 70
         },
         "estimated_hours": 50,
-        "path_id": 1
+        "path_id": 1,
+        "content_translations": null
       },
       {
         "id": 10,
@@ -118,7 +126,8 @@
           "value": 70
         },
         "estimated_hours": 40,
-        "path_id": 1
+        "path_id": 1,
+        "content_translations": null
       },
       {
         "id": 9,
@@ -132,7 +141,8 @@
           "value": 70
         },
         "estimated_hours": 40,
-        "path_id": 1
+        "path_id": 1,
+        "content_translations": null
       },
       {
         "id": 8,
@@ -145,7 +155,8 @@
           "type": "complete-all"
         },
         "estimated_hours": 20,
-        "path_id": 1
+        "path_id": 1,
+        "content_translations": null
       },
       {
         "id": 7,
@@ -159,7 +170,8 @@
           "value": 70
         },
         "estimated_hours": 25,
-        "path_id": 1
+        "path_id": 1,
+        "content_translations": null
       },
       {
         "id": 6,
@@ -173,7 +185,8 @@
           "value": 70
         },
         "estimated_hours": 30,
-        "path_id": 1
+        "path_id": 1,
+        "content_translations": null
       },
       {
         "id": 1,
@@ -186,7 +199,8 @@
           "type": "complete-all"
         },
         "estimated_hours": 10,
-        "path_id": 1
+        "path_id": 1,
+        "content_translations": null
       },
       {
         "id": 4,
@@ -199,7 +213,8 @@
           "type": "complete-all"
         },
         "estimated_hours": 15,
-        "path_id": 1
+        "path_id": 1,
+        "content_translations": null
       },
       {
         "id": 3,
@@ -213,7 +228,8 @@
           "value": 70
         },
         "estimated_hours": 15,
-        "path_id": 1
+        "path_id": 1,
+        "content_translations": null
       },
       {
         "id": 5,
@@ -226,7 +242,8 @@
           "type": "complete-all"
         },
         "estimated_hours": 10,
-        "path_id": 1
+        "path_id": 1,
+        "content_translations": null
       },
       {
         "id": 2,
@@ -240,7 +257,8 @@
           "value": 70
         },
         "estimated_hours": 20,
-        "path_id": 1
+        "path_id": 1,
+        "content_translations": null
       }
     ]
   },
@@ -253,7 +271,8 @@
       "type": "topic",
       "estimated_hours": 4,
       "difficulty": "beginner",
-      "language_id": 1
+      "language_id": 1,
+      "content_translations": null
     },
     "milestones": []
   },
@@ -266,7 +285,8 @@
       "type": "topic",
       "estimated_hours": 6,
       "difficulty": "beginner",
-      "language_id": 1
+      "language_id": 1,
+      "content_translations": null
     },
     "milestones": []
   }

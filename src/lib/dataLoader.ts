@@ -4,23 +4,27 @@
  * This module provides HTTP fetch-based loading from public/data/.
  * To add a new language:
  * 1. Create the data files in public/data/{lang}/
- * 2. Add the language to language-configs.json
+ * 2. Add the language to language-configs.json (or database)
  *
  * No other code changes should be needed!
  */
 
-import { VocabularyItem } from '@/types';
+import { VocabularyItem, GrammarItem } from '@/types';
+import { getAvailableLanguages, isLanguageAvailable, getDefaultLanguage } from './language';
 
-// Valid language codes for vocabulary data
-const VALID_LANGUAGE_CODES = ['ja', 'ko', 'zh', 'es', 'de', 'en', 'it', 'fr', 'pt', 'ar', 'ru', 'hi'] as const;
-type LanguageCode = typeof VALID_LANGUAGE_CODES[number];
-
-function isValidLanguageCode(code: string): code is LanguageCode {
-  return VALID_LANGUAGE_CODES.includes(code as LanguageCode);
+// Dynamic language validation using config
+// Falls back to checking if language is in available languages list
+function isValidLanguageCode(code: string): boolean {
+  return isLanguageAvailable(code);
 }
 
-// Languages that have vocabulary data available in public/data/
-const LANGUAGES_WITH_VOCABULARY = ['ja', 'ko', 'zh', 'es', 'de', 'en', 'it'] as const;
+// Get default language for fallback
+function getFallbackLanguage(): string {
+  return getDefaultLanguage();
+}
+
+// Track which languages have vocabulary data loaded successfully
+const languagesWithVocabulary = new Set<string>();
 
 // Cache for loaded vocabulary data
 const vocabularyCache = new Map<string, VocabularyItem[]>();
@@ -68,10 +72,12 @@ const extractVocabulary = (data: unknown): VocabularyItem[] => {
  * Uses request deduplication to prevent concurrent duplicate requests.
  */
 export async function loadVocabularyData(lang: string): Promise<VocabularyItem[]> {
-  // Validate language code
+  const fallbackLang = getFallbackLanguage();
+
+  // Validate language code - use dynamic validation
   if (!isValidLanguageCode(lang)) {
-    console.warn(`Unknown language code: ${lang}, falling back to 'ja'`);
-    lang = 'ja';
+    console.warn(`Unknown language code: ${lang}, falling back to '${fallbackLang}'`);
+    lang = fallbackLang;
   }
 
   // Return cached data if available
@@ -84,12 +90,6 @@ export async function loadVocabularyData(lang: string): Promise<VocabularyItem[]
     return loadingPromises.get(lang)!;
   }
 
-  // Check if language has vocabulary data
-  if (!LANGUAGES_WITH_VOCABULARY.includes(lang as typeof LANGUAGES_WITH_VOCABULARY[number])) {
-    console.warn(`No vocabulary data for language: ${lang}, falling back to 'ja'`);
-    return loadVocabularyData('ja');
-  }
-
   // Create loading promise - fetch from public/data/
   const loadPromise = (async () => {
     try {
@@ -100,12 +100,14 @@ export async function loadVocabularyData(lang: string): Promise<VocabularyItem[]
       const data = await response.json();
       const vocabulary = extractVocabulary(data);
       vocabularyCache.set(lang, vocabulary);
+      // Track that this language has vocabulary data
+      languagesWithVocabulary.add(lang);
       return vocabulary;
     } catch (error) {
       console.error(`Failed to load vocabulary for ${lang}:`, error);
-      // Fall back to Japanese if available
-      if (lang !== 'ja' && vocabularyCache.has('ja')) {
-        return vocabularyCache.get('ja')!;
+      // Fall back to default language if available
+      if (lang !== fallbackLang && vocabularyCache.has(fallbackLang)) {
+        return vocabularyCache.get(fallbackLang)!;
       }
       return [];
     } finally {
@@ -148,16 +150,25 @@ export function isVocabularyLoaded(lang: string): boolean {
 
 /**
  * Check if vocabulary data exists for a language
+ * Returns true if we've successfully loaded vocabulary for this language before,
+ * or if it's in the available languages list (optimistic check)
  */
 export function hasVocabularyData(lang: string): boolean {
-  return LANGUAGES_WITH_VOCABULARY.includes(lang as typeof LANGUAGES_WITH_VOCABULARY[number]);
+  // Check if we've already loaded data for this language
+  if (languagesWithVocabulary.has(lang)) {
+    return true;
+  }
+  // Optimistically return true for available languages
+  // The actual check happens during loading
+  return isValidLanguageCode(lang);
 }
 
 /**
  * Get all available languages for vocabulary
+ * Returns dynamically configured languages
  */
 export function getVocabularyLanguages(): string[] {
-  return [...LANGUAGES_WITH_VOCABULARY];
+  return getAvailableLanguages();
 }
 
 /**
@@ -205,6 +216,137 @@ export function filterVocabularyByLevels(
  */
 export function clearVocabularyCache(): void {
   vocabularyCache.clear();
+}
+
+// ============================================================================
+// GRAMMAR DATA LOADING
+// ============================================================================
+
+// Cache for loaded grammar data
+const grammarCache = new Map<string, GrammarItem[]>();
+
+// Loading state to prevent duplicate requests
+const grammarLoadingPromises = new Map<string, Promise<GrammarItem[]>>();
+
+// Normalize a single grammar item to handle format differences
+const normalizeGrammarItem = (item: Record<string, unknown>): GrammarItem => {
+  // Handle audioUrl vs audio_url
+  const audioUrl = (item.audioUrl as string | undefined) || (item.audio_url as string | undefined);
+
+  return {
+    ...(item as unknown as GrammarItem),
+    audioUrl,
+  } as GrammarItem;
+};
+
+// Helper to extract grammar array from different JSON structures
+const extractGrammar = (data: unknown): GrammarItem[] => {
+  let items: Array<Record<string, unknown>> = [];
+
+  if (Array.isArray(data)) {
+    items = data as Array<Record<string, unknown>>;
+  } else if (data && typeof data === 'object' && 'grammar' in data) {
+    items = (data as { grammar: Array<Record<string, unknown>> }).grammar;
+  }
+
+  // Normalize each item to handle format differences
+  return items.map(normalizeGrammarItem);
+};
+
+/**
+ * Load grammar data asynchronously for a specific language.
+ * Fetches from public/data/{lang}/grammar.json via HTTP.
+ * Results are cached to avoid repeated loading.
+ */
+export async function loadGrammarData(lang: string): Promise<GrammarItem[]> {
+  const fallbackLang = getFallbackLanguage();
+
+  // Validate language code
+  if (!isValidLanguageCode(lang)) {
+    console.warn(`Unknown language code: ${lang}, falling back to '${fallbackLang}'`);
+    lang = fallbackLang;
+  }
+
+  // Return cached data if available
+  if (grammarCache.has(lang)) {
+    return grammarCache.get(lang)!;
+  }
+
+  // Check if already loading - deduplicate concurrent requests
+  if (grammarLoadingPromises.has(lang)) {
+    return grammarLoadingPromises.get(lang)!;
+  }
+
+  // Create loading promise - fetch from public/data/
+  const loadPromise = (async () => {
+    try {
+      const response = await fetch(`/data/${lang}/grammar.json`);
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}`);
+      }
+      const data = await response.json();
+      const grammar = extractGrammar(data);
+      grammarCache.set(lang, grammar);
+      return grammar;
+    } catch (error) {
+      console.error(`Failed to load grammar for ${lang}:`, error);
+      // Fall back to default language if available
+      if (lang !== fallbackLang && grammarCache.has(fallbackLang)) {
+        return grammarCache.get(fallbackLang)!;
+      }
+      return [];
+    } finally {
+      grammarLoadingPromises.delete(lang);
+    }
+  })();
+
+  grammarLoadingPromises.set(lang, loadPromise);
+  return loadPromise;
+}
+
+/**
+ * Get grammar data synchronously from cache.
+ * Returns empty array if not loaded yet.
+ * Use loadGrammarData() to ensure data is loaded first.
+ */
+export function getGrammarData(lang: string): GrammarItem[] {
+  // Check cache first
+  if (grammarCache.has(lang)) {
+    return grammarCache.get(lang)!;
+  }
+
+  // Trigger async load for future use
+  loadGrammarData(lang).catch(() => {
+    // Error already logged in loadGrammarData
+  });
+
+  // Return empty array synchronously - data will be available on next render
+  return [];
+}
+
+/**
+ * Check if grammar data is loaded for a language
+ */
+export function isGrammarLoaded(lang: string): boolean {
+  return grammarCache.has(lang);
+}
+
+/**
+ * Preload grammar data for a language (doesn't block)
+ */
+export function preloadGrammarData(lang: string): void {
+  if (!grammarCache.has(lang) && !grammarLoadingPromises.has(lang)) {
+    loadGrammarData(lang).catch(() => {
+      // Error already logged in loadGrammarData
+    });
+  }
+}
+
+/**
+ * Clear grammar cache
+ */
+export function clearGrammarCache(): void {
+  grammarCache.clear();
 }
 
 // ============================================================================
@@ -268,9 +410,10 @@ const curriculumLoadingPromises = new Map<string, Promise<CurriculumPath[]>>();
  * Fetches from public/data/{lang}/lessons.json via HTTP.
  */
 export async function loadLessonsData(lang: string): Promise<LessonData[]> {
+  const fallbackLang = getFallbackLanguage();
   if (!isValidLanguageCode(lang)) {
-    console.warn(`Unknown language code: ${lang}, falling back to 'ja'`);
-    lang = 'ja';
+    console.warn(`Unknown language code: ${lang}, falling back to '${fallbackLang}'`);
+    lang = fallbackLang;
   }
 
   if (lessonsCache.has(lang)) {
@@ -308,9 +451,10 @@ export async function loadLessonsData(lang: string): Promise<LessonData[]> {
  * Fetches from public/data/{lang}/curriculum.json via HTTP.
  */
 export async function loadCurriculumData(lang: string): Promise<CurriculumPath[]> {
+  const fallbackLang = getFallbackLanguage();
   if (!isValidLanguageCode(lang)) {
-    console.warn(`Unknown language code: ${lang}, falling back to 'ja'`);
-    lang = 'ja';
+    console.warn(`Unknown language code: ${lang}, falling back to '${fallbackLang}'`);
+    lang = fallbackLang;
   }
 
   if (curriculumCache.has(lang)) {
@@ -412,6 +556,7 @@ export function preloadLessonsData(lang: string): void {
  */
 export function clearAllCaches(): void {
   vocabularyCache.clear();
+  grammarCache.clear();
   lessonsCache.clear();
   curriculumCache.clear();
   learningPathsCache.clear();
@@ -425,7 +570,9 @@ export interface LearningPathMilestone {
   id: string;
   level: string;
   name: string;
+  nameTranslations?: Record<string, string>;  // UI language translations
   description: string;
+  descriptionTranslations?: Record<string, string>;  // UI language translations
   module: string;
   requirement: {
     type: 'complete-all' | 'master-percentage';
@@ -439,7 +586,9 @@ export interface LearningPath {
   id: string;
   type: 'linear' | 'topic';
   name: string;
+  nameTranslations?: Record<string, string>;  // UI language translations
   description: string;
+  descriptionTranslations?: Record<string, string>;  // UI language translations
   icon: string;
   language: string;
   estimatedHours: number;
@@ -464,15 +613,26 @@ export interface LearningPathsData {
 const learningPathsCache = new Map<string, LearningPathsData>();
 const learningPathsLoadingPromises = new Map<string, Promise<LearningPathsData | null>>();
 
+// Cache for content availability (prevents repeated 404s)
+const contentUnavailableCache = new Set<string>();
+
 /**
  * Load learning paths data for a specific language.
  * Fetches from public/data/{lang}/learning-paths.json via HTTP.
  * This is the AI-generated curriculum data.
  */
 export async function loadLearningPathsData(lang: string): Promise<LearningPathsData | null> {
+  const fallbackLang = getFallbackLanguage();
   if (!isValidLanguageCode(lang)) {
-    console.warn(`Unknown language code: ${lang}, falling back to 'ja'`);
-    lang = 'ja';
+    console.warn(`Unknown language code: ${lang}, falling back to '${fallbackLang}'`);
+    lang = fallbackLang;
+  }
+
+  const cacheKey = `learning-paths-${lang}`;
+
+  // Check negative cache first to prevent repeated 404s
+  if (contentUnavailableCache.has(cacheKey)) {
+    return null;
   }
 
   if (learningPathsCache.has(lang)) {
@@ -487,8 +647,8 @@ export async function loadLearningPathsData(lang: string): Promise<LearningPaths
     try {
       const response = await fetch(`/data/${lang}/learning-paths.json`);
       if (!response.ok) {
-        // No AI-generated paths for this language yet
-        console.log(`No learning paths data for ${lang} (HTTP ${response.status})`);
+        // No AI-generated paths for this language yet - cache the negative result
+        contentUnavailableCache.add(cacheKey);
         return null;
       }
       const data = await response.json();
@@ -500,9 +660,11 @@ export async function loadLearningPathsData(lang: string): Promise<LearningPaths
       }
 
       console.warn(`Invalid learning paths format for ${lang}`);
+      contentUnavailableCache.add(cacheKey);
       return null;
     } catch (error) {
       console.log(`Failed to load learning paths for ${lang}:`, error);
+      contentUnavailableCache.add(cacheKey);
       return null;
     } finally {
       learningPathsLoadingPromises.delete(lang);

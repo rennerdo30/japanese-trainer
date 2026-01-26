@@ -7,7 +7,8 @@ import LessonCard from './LessonCard';
 import LessonProgressBar from './LessonProgress';
 import { FillBlank } from '@/components/exercises';
 import { useTTS } from '@/hooks/useTTS';
-import { getVocabularyData } from '@/lib/dataLoader';
+import { useContentTranslation } from '@/hooks/useContentTranslation';
+import { getVocabularyData, getGrammarData } from '@/lib/dataLoader';
 import { useTargetLanguage } from '@/hooks/useTargetLanguage';
 import type { CurriculumLesson, LessonContext } from '@/types/curriculum';
 import type { FillBlankExercise } from '@/types/exercises';
@@ -29,10 +30,15 @@ interface LessonViewProps {
 }
 
 interface LearningCard {
-  type: 'topic' | 'vocabulary' | 'grammar' | 'cultural';
+  type: 'topic' | 'vocabulary' | 'grammar' | 'cultural' | 'example';
   titleKey: string;
   content: string;
+  meaning?: string;
   audioUrl?: string;
+  usageNote?: string;
+  formation?: string;
+  reading?: string;
+  translation?: string;
 }
 
 export default function LessonView({
@@ -49,9 +55,31 @@ export default function LessonView({
   const { preloadBatch } = useTTS();
   const { targetLanguage } = useTargetLanguage();
   const { t } = useLanguage();
+  const { getMeaning, getText } = useContentTranslation();
 
-  // Get vocabulary data to find audio URLs
+  // Get vocabulary data to find audio URLs and meanings
   const vocabularyData = getVocabularyData(targetLanguage);
+  // Get grammar data to find explanations/meanings
+  const grammarData = getGrammarData(targetLanguage);
+
+  // Helper to get translated meaning from vocabulary item (checks content_translations)
+  const getVocabMeaning = (item: typeof vocabularyData[0] | undefined): string | undefined => {
+    if (!item) return undefined;
+    const translatedMeanings = (item.content_translations as { meaning?: Record<string, string> })?.meaning;
+    if (translatedMeanings) {
+      return getMeaning(translatedMeanings, item.meaning);
+    }
+    return item.meaning;
+  };
+
+  // Helper to get translated explanation from grammar item (checks explanations field)
+  const getGrammarExplanation = (item: typeof grammarData[0] | undefined): string | undefined => {
+    if (!item) return undefined;
+    if (item.explanations) {
+      return getText(item.explanations as Record<string, string>, item.explanation);
+    }
+    return item.explanation;
+  };
 
   // Generate learning cards from lesson content
   const learningCards: LearningCard[] = [
@@ -61,31 +89,72 @@ export default function LessonView({
       titleKey: 'lessons.card.topic',
       content: topic,
     })),
-    // Vocabulary focus
+    // Vocabulary focus - handle both string[] and object[] formats
     ...lesson.content.vocab_focus.map((vocab) => {
-      // Find audio URL for vocabulary item
+      // Check if vocab is an object with meaning (new format) or string (legacy)
+      const isObject = typeof vocab === 'object' && vocab !== null;
+      const word = isObject ? vocab.word : vocab;
+      const meaning = isObject ? vocab.meaning : undefined;
+      const usageNote = isObject ? vocab.usageNote : undefined;
+
+      // Find vocabulary item in data (for audio URL and translated meanings)
       const item = vocabularyData.find(
-        v => v.word?.toLowerCase() === vocab.toLowerCase() ||
-          v.reading?.toLowerCase() === vocab.toLowerCase()
+        v => v.word?.toLowerCase() === word.toLowerCase() ||
+          v.reading?.toLowerCase() === word.toLowerCase()
       );
+
+      // Prefer translated meaning from vocabulary data, fallback to lesson's English meaning
+      const displayMeaning = getVocabMeaning(item) || meaning;
+
       return {
         type: 'vocabulary' as const,
         titleKey: 'lessons.card.vocabulary',
-        content: vocab,
-        audioUrl: item?.audioUrl
+        content: word,
+        meaning: displayMeaning,
+        audioUrl: item?.audioUrl,
+        usageNote,
       };
     }),
-    // Grammar focus
-    ...(lesson.content.grammar_focus || []).map((grammar) => ({
-      type: 'grammar' as const,
-      titleKey: 'lessons.card.grammar',
-      content: grammar,
-    })),
+    // Grammar focus - handle both string[] and object[] formats
+    ...(lesson.content.grammar_focus || []).map((grammar) => {
+      // Check if grammar is an object with meaning (new format) or string (legacy)
+      const isObject = typeof grammar === 'object' && grammar !== null;
+      const pattern = isObject ? grammar.pattern : grammar;
+      const meaning = isObject ? grammar.meaning : undefined;
+      const formation = isObject ? grammar.formation : undefined;
+      const usageNotes = isObject ? grammar.usageNotes : undefined;
+
+      // Look up grammar in grammarData for translated explanations
+      const grammarItem = grammarData.find(
+        g => g.title?.toLowerCase() === pattern.toLowerCase() ||
+          g.patterns?.some(p => p.toLowerCase() === pattern.toLowerCase())
+      );
+
+      // Prefer translated explanation from grammar data, fallback to lesson's English meaning
+      const displayMeaning = getGrammarExplanation(grammarItem) || meaning;
+
+      return {
+        type: 'grammar' as const,
+        titleKey: 'lessons.card.grammar',
+        content: pattern,
+        meaning: displayMeaning,
+        formation,
+        usageNote: usageNotes,
+      };
+    }),
     // Cultural notes
     ...(lesson.content.cultural_notes || []).map((note) => ({
       type: 'cultural' as const,
       titleKey: 'lessons.card.cultural',
       content: note,
+    })),
+    // Example sentences
+    ...(lesson.content.exampleSentences || []).map((example) => ({
+      type: 'example' as const,
+      titleKey: 'lessons.card.example',
+      content: example.target,
+      reading: example.reading,
+      translation: example.translation,
     })),
   ];
 
@@ -106,8 +175,13 @@ export default function LessonView({
         return;
       }
 
-      // Match vocabulary strings to vocabulary items and get their audio URLs
-      const audioUrls = lesson.content.vocab_focus
+      // Match vocabulary to items and get their audio URLs
+      // Handle both string[] and object[] formats
+      const vocabWords = lesson.content.vocab_focus.map(vocab =>
+        typeof vocab === 'object' && vocab !== null ? vocab.word : vocab
+      );
+
+      const audioUrls = vocabWords
         .map(vocabWord => {
           const item = vocabularyData.find(
             v => v.word?.toLowerCase() === vocabWord.toLowerCase() ||
@@ -117,8 +191,8 @@ export default function LessonView({
         })
         .filter((url): url is string => !!url);
 
-      if (audioUrls.length > 0 || (lesson.content.vocab_focus && lesson.content.vocab_focus.length > 0)) {
-        preloadBatch(audioUrls, lesson.content.vocab_focus, targetLanguage);
+      if (audioUrls.length > 0 || vocabWords.length > 0) {
+        preloadBatch(audioUrls, vocabWords, targetLanguage);
       }
     };
 
@@ -201,7 +275,12 @@ export default function LessonView({
               type={currentCard.type}
               title={t(currentCard.titleKey)}
               content={currentCard.content}
+              meaning={currentCard.meaning}
               audioUrl={currentCard.audioUrl}
+              usageNote={currentCard.usageNote}
+              formation={currentCard.formation}
+              reading={currentCard.reading}
+              translation={currentCard.translation}
             />
           ) : (
             <Text color="muted">{t('lessons.view.noContent')}</Text>
@@ -278,7 +357,7 @@ export default function LessonView({
           return (
             <div className={styles.exerciseCard}>
               <Text variant="h3" className={styles.question}>
-                {mcExercise.question || 'Complete the exercise'}
+                {mcExercise.question || t('lessons.exercise.completeExercise')}
               </Text>
 
               <div className={styles.options}>
@@ -314,7 +393,7 @@ export default function LessonView({
 
         <div className={styles.navigation}>
           <Text variant="caption" color="muted">
-            Exercise {currentCardIndex + 1} of {totalExerciseCards}
+            {t('lessons.view.exerciseStep', { current: currentCardIndex + 1, total: totalExerciseCards })}
           </Text>
         </div>
       </div>

@@ -2,10 +2,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
   text-align: center;
-  min-height: 300px;
-  justify-content: center;
+  width: 100%;
+  padding: 1rem 0;
 }
 
 .header {
@@ -35,23 +35,74 @@
 }
 
 .content {
-  flex: 1;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
+  gap: 0.75rem;
+  width: 100%;
+  max-width: 100%;
+  overflow-wrap: break-word;
 }
 
 .mainContent {
   font-size: 1.5rem;
+  line-height: 1.4;
+  word-break: break-word;
+  max-width: 100%;
+}
+
+.meaning {
+  font-size: 1.1rem;
+  line-height: 1.4;
+  opacity: 0.85;
+  max-width: 100%;
+}
+
+.reading {
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+.translation {
+  font-size: 1.1rem;
+  font-style: italic;
+  margin-top: 0.25rem;
+}
+
+.formation {
+  text-align: left;
+  padding: 0.75rem 1rem;
+  background: rgba(74, 222, 128, 0.1);
+  border-radius: 8px;
+  border-left: 3px solid var(--accent-green, #4ADE80);
+  width: 100%;
+}
+
+.formationText {
+  font-family: monospace;
+  font-size: 0.95rem;
+  margin-top: 0.25rem;
+  white-space: pre-wrap;
   line-height: 1.5;
-  max-width: 400px;
+}
+
+.usageNote {
+  text-align: left;
+  padding: 0.75rem 1rem;
+  background: rgba(255, 215, 0, 0.08);
+  border-radius: 8px;
+  border-left: 3px solid var(--gold, #FFD700);
+  width: 100%;
+  font-style: italic;
+  line-height: 1.5;
 }
 
 .ttsControls {
   display: flex;
   justify-content: center;
-  margin-top: 0.5rem;
+  margin-top: 0.25rem;
 }
 
 .ttsButton {
@@ -69,15 +120,30 @@
 
 .footer {
   opacity: 0.5;
+  margin-top: auto;
 }
 
 @media (max-width: 480px) {
   .card {
-    min-height: 250px;
-    gap: 1.5rem;
+    gap: 0.75rem;
+    padding: 0.5rem 0;
   }
 
   .mainContent {
     font-size: 1.25rem;
+  }
+
+  .meaning,
+  .translation {
+    font-size: 1rem;
+  }
+
+  .formation,
+  .usageNote {
+    padding: 0.6rem 0.8rem;
+  }
+
+  .formationText {
+    font-size: 0.85rem;
   }
 }

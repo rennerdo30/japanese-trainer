@@ -9,6 +9,7 @@ import { useRecommendations } from '@/hooks/useRecommendations';
 import { usePathProgress } from '@/hooks/usePathProgress';
 import { useLanguage } from '@/context/LanguageProvider';
 import { useTargetLanguage } from '@/hooks/useTargetLanguage';
+import { useContentTranslation } from '@/hooks/useContentTranslation';
 import { loadLearningPathsData, LearningPathsData, LearningPath } from '@/lib/dataLoader';
 import {
   IoArrowBack,
@@ -51,7 +52,9 @@ interface PathMilestone {
   id: string;
   level: string;
   name: string;
+  nameTranslations?: Record<string, string>;
   description: string;
+  descriptionTranslations?: Record<string, string>;
   module: string;
   requirement: {
     type: string;
@@ -65,12 +68,15 @@ interface TopicTrack {
   id: string;
   type: 'topic';
   name: string;
+  nameTranslations?: Record<string, string>;
   description: string;
+  descriptionTranslations?: Record<string, string>;
   icon: string;
   language: string;
   estimatedHours: number;
   difficulty: string;
   tags?: string[];
+  tagsTranslations?: Record<string, string[]>;
   prerequisites?: string[];
   items: {
     vocabulary?: string[];
@@ -84,7 +90,9 @@ interface LinearPath {
   id: string;
   type: 'linear';
   name: string;
+  nameTranslations?: Record<string, string>;
   description: string;
+  descriptionTranslations?: Record<string, string>;
   milestones: PathMilestone[];
   estimatedHours: number;
 }
@@ -96,6 +104,7 @@ export default function PathDetailContent() {
 
   const { t } = useLanguage();
   const { targetLanguage } = useTargetLanguage();
+  const { getText } = useContentTranslation();
   const { getPathProgress, isLoading: recsLoading } = useRecommendations();
   const { isEnrolled, enrollInPath, unenrollFromPath, checkPrerequisites } = usePathProgress();
 
@@ -131,7 +140,7 @@ export default function PathDetailContent() {
       <Container variant="centered">
         <Navigation />
         <Card variant="glass" className={styles.notFound}>
-          <Text variant="body" color="muted">Loading path...</Text>
+          <Text variant="body" color="muted">{t('pathDetail.loading')}</Text>
         </Card>
       </Container>
     );
@@ -142,10 +151,10 @@ export default function PathDetailContent() {
       <Container variant="centered">
         <Navigation />
         <Card variant="glass" className={styles.notFound}>
-          <Text variant="h2">Path Not Found</Text>
-          <Text color="muted">The learning path you&apos;re looking for doesn&apos;t exist or hasn&apos;t been generated yet.</Text>
+          <Text variant="h2">{t('pathDetail.notFound')}</Text>
+          <Text color="muted">{t('pathDetail.notFoundDescription')}</Text>
           <Button variant="ghost" onClick={() => router.push('/paths')}>
-            <IoArrowBack /> Back to Paths
+            <IoArrowBack /> {t('pathDetail.backToPaths')}
           </Button>
         </Card>
       </Container>
@@ -191,10 +200,10 @@ export default function PathDetailContent() {
           </div>
           <div className={styles.headerContent}>
             <Text variant="h1" color="gold" className={styles.pathTitle}>
-              {pathData.name}
+              {getText(pathData.nameTranslations, pathData.name)}
             </Text>
             <Text color="muted" className={styles.pathDescription}>
-              {pathData.description}
+              {getText(pathData.descriptionTranslations, pathData.description)}
             </Text>
           </div>
         </div>
@@ -206,14 +215,14 @@ export default function PathDetailContent() {
           <IoTime className={styles.statIcon} />
           <div className={styles.statContent}>
             <Text variant="h3">{pathData.estimatedHours || 0}h</Text>
-            <Text variant="label" color="muted">Estimated</Text>
+            <Text variant="label" color="muted">{t('pathDetail.estimated')}</Text>
           </div>
         </div>
         <div className={styles.stat}>
           <IoTrendingUp className={styles.statIcon} />
           <div className={styles.statContent}>
             <Text variant="h3">{progress?.percentComplete || 0}%</Text>
-            <Text variant="label" color="muted">Complete</Text>
+            <Text variant="label" color="muted">{t('pathDetail.complete')}</Text>
           </div>
         </div>
         {isLinear && linearPath && (
@@ -221,7 +230,7 @@ export default function PathDetailContent() {
             <IoCheckmarkCircle className={styles.statIcon} />
             <div className={styles.statContent}>
               <Text variant="h3">{progress?.completedMilestones || 0}/{linearPath.milestones.length}</Text>
-              <Text variant="label" color="muted">Milestones</Text>
+              <Text variant="label" color="muted">{t('pathDetail.milestones')}</Text>
             </div>
           </div>
         )}
@@ -230,7 +239,7 @@ export default function PathDetailContent() {
             <IoBook className={styles.statIcon} />
             <div className={styles.statContent}>
               <Text variant="h3">{totalItems}</Text>
-              <Text variant="label" color="muted">Items</Text>
+              <Text variant="label" color="muted">{t('pathDetail.items')}</Text>
             </div>
           </div>
         )}
@@ -242,9 +251,9 @@ export default function PathDetailContent() {
           <Card variant="outlined" className={styles.prereqWarning}>
             <IoLockClosed className={styles.prereqIcon} />
             <div>
-              <Text variant="body">Prerequisites Required</Text>
+              <Text variant="body">{t('pathDetail.prerequisitesRequired')}</Text>
               <Text variant="caption" color="muted">
-                Complete first: {prereqs.missing.join(', ')}
+                {t('pathDetail.completeFirst')}: {prereqs.missing.join(', ')}
               </Text>
             </div>
           </Card>
@@ -253,10 +262,10 @@ export default function PathDetailContent() {
         {enrolled ? (
           <div className={styles.enrolledActions}>
             <Button onClick={() => router.push('/review')}>
-              <IoPlay /> Continue Learning
+              <IoPlay /> {t('pathDetail.continueLearning')}
             </Button>
             <Button variant="ghost" onClick={() => unenrollFromPath(pathId)}>
-              Unenroll
+              {t('pathDetail.unenroll')}
             </Button>
           </div>
         ) : (
@@ -264,7 +273,7 @@ export default function PathDetailContent() {
             onClick={() => enrollInPath(pathId)}
             disabled={!prereqs.met}
           >
-            <IoPlay /> {prereqs.met ? 'Start Path' : 'Locked'}
+            <IoPlay /> {prereqs.met ? t('pathDetail.startPath') : t('pathDetail.locked')}
           </Button>
         )}
       </div>
@@ -273,9 +282,9 @@ export default function PathDetailContent() {
       {isLinear && linearPath && (
         <section className={styles.section}>
           <div className={styles.sectionHeader}>
-            <Text variant="h2">Milestones</Text>
+            <Text variant="h2">{t('pathDetail.milestones')}</Text>
             <Text color="muted">
-              Complete each milestone to progress through the path
+              {t('pathDetail.milestonesDescription')}
             </Text>
           </div>
 
@@ -319,10 +328,10 @@ export default function PathDetailContent() {
                       </div>
                     </div>
                     <Text variant="h3" className={styles.milestoneName}>
-                      {milestone.name}
+                      {getText(milestone.nameTranslations, milestone.name)}
                     </Text>
                     <Text variant="body" color="muted" className={styles.milestoneDescription}>
-                      {milestone.description}
+                      {getText(milestone.descriptionTranslations, milestone.description)}
                     </Text>
 
                     {status === 'current' && (
@@ -336,12 +345,12 @@ export default function PathDetailContent() {
                         <div className={styles.milestoneActions}>
                           <Link href={`/paths/${pathId}/${milestone.lessons?.[0] || milestone.id}`}>
                             <Button size="sm">
-                              <IoPlay /> Start Lesson
+                              <IoPlay /> {t('pathDetail.startLesson')}
                             </Button>
                           </Link>
                           <Link href="/review">
                             <Button size="sm" variant="ghost">
-                              Review Progress
+                              {t('pathDetail.reviewProgress')}
                             </Button>
                           </Link>
                         </div>
@@ -350,13 +359,13 @@ export default function PathDetailContent() {
 
                     {status === 'locked' && (
                       <div className={styles.lockedMessage}>
-                        <IoLockClosed /> Complete previous lessons to unlock
+                        <IoLockClosed /> {t('pathDetail.unlockMessage')}
                       </div>
                     )}
 
                     {status === 'completed' && (
                       <div className={styles.completedBadge}>
-                        <IoCheckmarkCircle /> Completed
+                        <IoCheckmarkCircle /> {t('pathDetail.completed')}
                       </div>
                     )}
                   </Card>
@@ -371,9 +380,9 @@ export default function PathDetailContent() {
       {!isLinear && topicTrack && (
         <section className={styles.section}>
           <div className={styles.sectionHeader}>
-            <Text variant="h2">What You&apos;ll Learn</Text>
+            <Text variant="h2">{t('pathDetail.whatYoullLearn')}</Text>
             <Text color="muted">
-              Practical items for {topicTrack.name.toLowerCase()}
+              {t('pathDetail.practicalItemsFor', { name: getText(topicTrack.nameTranslations, topicTrack.name).toLowerCase() })}
             </Text>
           </div>
 
@@ -386,7 +395,7 @@ export default function PathDetailContent() {
                   </div>
                   <div className={styles.categoryContent}>
                     <Text variant="h3">{itemCounts.vocabulary}</Text>
-                    <Text variant="label" color="muted">Vocabulary</Text>
+                    <Text variant="label" color="muted">{t('modules.vocabulary.title')}</Text>
                   </div>
                 </Card>
               </Link>
@@ -400,7 +409,7 @@ export default function PathDetailContent() {
                   </div>
                   <div className={styles.categoryContent}>
                     <Text variant="h3">{itemCounts.grammar}</Text>
-                    <Text variant="label" color="muted">Grammar</Text>
+                    <Text variant="label" color="muted">{t('modules.grammar.title')}</Text>
                   </div>
                 </Card>
               </Link>
@@ -414,7 +423,7 @@ export default function PathDetailContent() {
                   </div>
                   <div className={styles.categoryContent}>
                     <Text variant="h3">{itemCounts.reading}</Text>
-                    <Text variant="label" color="muted">Reading</Text>
+                    <Text variant="label" color="muted">{t('modules.reading.title')}</Text>
                   </div>
                 </Card>
               </Link>
@@ -428,7 +437,7 @@ export default function PathDetailContent() {
                   </div>
                   <div className={styles.categoryContent}>
                     <Text variant="h3">{itemCounts.kanji}</Text>
-                    <Text variant="label" color="muted">Kanji</Text>
+                    <Text variant="label" color="muted">{t('modules.kanji.title')}</Text>
                   </div>
                 </Card>
               </Link>
@@ -438,7 +447,7 @@ export default function PathDetailContent() {
           {/* Tags */}
           {topicTrack.tags && topicTrack.tags.length > 0 && (
             <div className={styles.tags}>
-              <Text variant="label" color="muted">Topics:</Text>
+              <Text variant="label" color="muted">{t('pathDetail.topics')}:</Text>
               <div className={styles.tagList}>
                 {topicTrack.tags.map((tag) => (
                   <span key={tag} className={styles.tag}>{tag}</span>
@@ -452,7 +461,7 @@ export default function PathDetailContent() {
       {/* Back Link */}
       <div className={styles.backLink}>
         <Button variant="ghost" onClick={() => router.push('/paths')}>
-          <IoArrowBack /> Back to Paths
+          <IoArrowBack /> {t('pathDetail.backToPaths')}
         </Button>
       </div>
     </Container>

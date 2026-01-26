@@ -62,7 +62,7 @@ export default function LearningCompass({ className }: LearningCompassProps) {
       <Card variant="glass" className={`${styles.compass} ${className || ''}`}>
         <div className={styles.loading}>
           <IoCompass className={styles.loadingIcon} />
-          <Text color="muted">Loading...</Text>
+          <Text color="muted">{t('common.loading')}</Text>
         </div>
       </Card>
     );
@@ -72,7 +72,7 @@ export default function LearningCompass({ className }: LearningCompassProps) {
     <Card variant="glass" className={`${styles.compass} ${className || ''}`}>
       <div className={styles.header}>
         <IoCompass className={styles.headerIcon} />
-        <Text variant="h3">Learning Compass</Text>
+        <Text variant="h3">{t('dashboard.compass.title')}</Text>
       </div>
 
       <div className={styles.content}>

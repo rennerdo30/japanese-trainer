@@ -152,7 +152,7 @@ export default function SettingsPage() {
     // On desktop, auto-load Kokoro if not already loaded
     if (!isMobile && support.supported && !isKokoroLoaded() && !isKokoroLoading()) {
       setKokoroStatus('loading');
-      setKokoroMessage('Loading Kokoro TTS...');
+      setKokoroMessage(t('settings.audio.loading'));
 
       loadKokoroModel((progress) => {
         setKokoroProgress(progress.progress);
@@ -164,7 +164,7 @@ export default function SettingsPage() {
         }
       }).catch((error) => {
         setKokoroStatus('error');
-        setKokoroMessage(error instanceof Error ? error.message : 'Failed to load');
+        setKokoroMessage(error instanceof Error ? error.message : t('settings.audio.loadError'));
       });
     }
 
@@ -535,13 +535,9 @@ export default function SettingsPage() {
           <>
             <div className={styles.voiceSelectionHeader} style={{ marginTop: '1.5rem' }}>
               <IoVolumeHigh className={styles.settingLabelIcon} />
-              <Text className={styles.settingLabel}>
-                Edge TTS Voice ({languageName})
-              </Text>
+              <Text className={styles.settingLabel}>{t('settings.audio.edgeTitle', { language: languageName })}</Text>
             </div>
-            <Text variant="label" color="muted" className={styles.voiceSelectionNote}>
-              Microsoft neural voice for {languageName} - high-quality cloud TTS fallback
-            </Text>
+            <Text variant="label" color="muted" className={styles.voiceSelectionNote}>{t('settings.audio.edgeDesc', { language: languageName })}</Text>
 
             <div className={styles.voiceSelector}>
               <select

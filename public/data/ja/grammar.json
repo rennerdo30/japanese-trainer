@@ -27,6 +27,9 @@
       {
         "type": "fill-blank",
         "question": "___に伴って変化が起きた",
+        "questionTranslations": {
+          "de": "___ im Zusammenhang mit Veränderungen stattfand"
+        },
         "options": [
           "改革",
           "改革は",
@@ -96,6 +99,9 @@
       {
         "type": "fill-blank",
         "question": "___を踏まえて決定する",
+        "questionTranslations": {
+          "de": "___ basierend auf Entscheidungen treffen"
+        },
         "options": [
           "データ",
           "データは",
@@ -195,6 +201,9 @@
       {
         "type": "fill-blank",
         "question": "___に応じて対応する",
+        "questionTranslations": {
+          "de": "___ nach Veränderungen reagieren"
+        },
         "options": [
           "状況",
           "状況は",
@@ -264,6 +273,9 @@
       {
         "type": "fill-blank",
         "question": "___に限って雨が降った",
+        "questionTranslations": {
+          "de": "___ nur regnete"
+        },
         "options": [
           "今日",
           "今日は",
@@ -363,6 +375,9 @@
       {
         "type": "fill-blank",
         "question": "彼は___はずだ",
+        "questionTranslations": {
+          "de": "Er ___ sollte kommen."
+        },
         "options": [
           "来る",
           "来た",
@@ -432,6 +447,9 @@
       {
         "type": "fill-blank",
         "question": "だから___わけだ",
+        "questionTranslations": {
+          "de": "Deshalb ___ müde."
+        },
         "options": [
           "疲れる",
           "疲れた",
@@ -531,6 +549,9 @@
       {
         "type": "fill-blank",
         "question": "明日は___かもしれない",
+        "questionTranslations": {
+          "de": "Morgen ___ regnen könnte."
+        },
         "options": [
           "雨",
           "雨が",
@@ -600,6 +621,9 @@
       {
         "type": "fill-blank",
         "question": "この料理を___みてください",
+        "questionTranslations": {
+          "de": "Dieses Gericht ___ probieren."
+        },
         "options": [
           "食べる",
           "食べて",
@@ -699,6 +723,9 @@
       {
         "type": "fill-blank",
         "question": "私___学生です。",
+        "questionTranslations": {
+          "de": "Ich ___ Student bin."
+        },
         "options": [
           "は",
           "が",
@@ -769,6 +796,9 @@
       {
         "type": "fill-blank",
         "question": "本を読___ください",
+        "questionTranslations": {
+          "de": "Buch ___ lesen."
+        },
         "options": [
           "む",
           "んで",
@@ -838,6 +868,9 @@
       {
         "type": "fill-blank",
         "question": "私は___です。",
+        "questionTranslations": {
+          "de": "Ich bin ___."
+        },
         "options": [
           "学生",
           "本",
@@ -907,6 +940,9 @@
       {
         "type": "fill-blank",
         "question": "学校___行く",
+        "questionTranslations": {
+          "de": "Zur Schule ___ gehen."
+        },
         "options": [
           "は",
           "に",
@@ -976,6 +1012,9 @@
       {
         "type": "fill-blank",
         "question": "本___読む",
+        "questionTranslations": {
+          "de": "Ein Buch ___ lesen."
+        },
         "options": [
           "は",
           "が",

@@ -180,12 +180,12 @@ export default function GrammarPage() {
     const tabs = useMemo(() => [
         {
             id: 'myCards' as TabType,
-            label: 'My Grammar',
+            label: t('grammar.tabs.myGrammar'),
             badge: myGrammarItems.length > 0 ? myGrammarItems.length : undefined
         },
         {
             id: 'all' as TabType,
-            label: 'All Grammar',
+            label: t('grammar.tabs.allGrammar'),
             badge: grammarPoints.length
         },
     ], [myGrammarItems.length, grammarPoints.length]);
@@ -256,7 +256,7 @@ export default function GrammarPage() {
             <div className={styles.filterSection}>
                 <Input
                     type="text"
-                    placeholder="Search grammar..."
+                    placeholder={t('grammar.searchPlaceholder')}
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                     className={styles.searchInput}
@@ -283,7 +283,7 @@ export default function GrammarPage() {
                             className={`${styles.grammarBrowseCard} ${isLearned ? styles.learned : ''}`}
                         >
                             <div className={styles.grammarHeader}>
-                                <div className={styles.grammarPointTitle}>{grammar.title}</div>
+                                <div className={styles.grammarPointTitle}>{getText(grammar.titleTranslations, grammar.title)}</div>
                                 <span className={styles.grammarLevel}>
                                     {grammar.jlpt || 'N/A'}
                                 </span>
@@ -294,12 +294,12 @@ export default function GrammarPage() {
                             <div className={styles.grammarActions}>
                                 {isLearned ? (
                                     <span className={styles.learnedBadge}>
-                                        <FiCheck size={12} /> Learned
+                                        <FiCheck size={12} /> {t('grammar.actions.learned')}
                                     </span>
                                 ) : (
                                     <Link href="/paths">
                                         <Button variant="ghost" size="sm">
-                                            <FiBook size={14} /> Learn in Lessons
+                                            <FiBook size={14} /> {t('grammar.actions.learnInLessons')}
                                         </Button>
                                     </Link>
                                 )}
@@ -312,8 +312,8 @@ export default function GrammarPage() {
             {filteredGrammar.length === 0 && (
                 <div className={styles.emptyState}>
                     <FiList className={styles.emptyIcon} />
-                    <Text variant="h3">No grammar found</Text>
-                    <Text color="muted">Try adjusting your search or filters</Text>
+                    <Text variant="h3">{t('grammar.empty.searchEmpty')}</Text>
+                    <Text color="muted">{t('grammar.empty.searchHint')}</Text>
                 </div>
             )}
         </>
@@ -326,11 +326,11 @@ export default function GrammarPage() {
             return (
                 <div className={styles.emptyState}>
                     <FiBook className={styles.emptyIcon} />
-                    <Text variant="h3">No grammar cards yet</Text>
-                    <Text color="muted">Complete lessons to add grammar to your deck</Text>
+                    <Text variant="h3">{t('grammar.empty.title')}</Text>
+                    <Text color="muted">{t('grammar.empty.desc')}</Text>
                     <Link href="/paths">
                         <Button variant="primary" className="mt-4">
-                            Go to Lessons
+                            {t('grammar.empty.goToLessons')}
                         </Button>
                     </Link>
                 </div>
@@ -341,7 +341,7 @@ export default function GrammarPage() {
             return (
                 <div className={styles.emptyState}>
                     <Text variant="h3">{t('grammar.noGrammar')}</Text>
-                    <Text color="muted">Complete more lessons to unlock grammar practice</Text>
+                    <Text color="muted">{t('grammar.empty.unlock')}</Text>
                 </div>
             );
         }
@@ -369,7 +369,7 @@ export default function GrammarPage() {
 
                 <Card className={styles.grammarCard} variant="glass">
                     <Text variant="h2" color="gold" className={styles.grammarTitle}>
-                        {currentGrammar.title}
+                        {getText(currentGrammar.titleTranslations, currentGrammar.title)}
                     </Text>
                     <div className={styles.explanationSection}>
                         <Text className={styles.explanationText}>
@@ -440,11 +440,11 @@ export default function GrammarPage() {
 
                     {/* Page Header */}
                     <div className={styles.pageHeader}>
-                        <Text variant="h1">Grammar</Text>
+                        <Text variant="h1">{t('modules.grammar.title')}</Text>
                         {dueCount > 0 && (
                             <Button variant="primary" size="sm" className={styles.reviewButton}>
                                 <FiClock />
-                                Review
+                                {t('grammar.actions.review')}
                                 <span className={styles.reviewCount}>{dueCount}</span>
                             </Button>
                         )}
@@ -457,17 +457,17 @@ export default function GrammarPage() {
                                 <span className={styles.statValue}>
                                     {(learnedStats.byType as Record<string, number>)?.grammar || myGrammarItems.length}
                                 </span>
-                                <span className={styles.statLabel}>Points Learned</span>
+                                <span className={styles.statLabel}>{t('grammar.stats.pointsLearned')}</span>
                             </div>
                             <div className={styles.statCard}>
                                 <span className={styles.statValue}>{stats.pointsMastered}</span>
-                                <span className={styles.statLabel}>Mastered</span>
+                                <span className={styles.statLabel}>{t('grammar.stats.mastered')}</span>
                             </div>
                             <div className={styles.statCard}>
                                 <span className={styles.statValue}>
                                     {stats.total > 0 ? Math.round((stats.correct / stats.total) * 100) : 0}%
                                 </span>
-                                <span className={styles.statLabel}>Accuracy</span>
+                                <span className={styles.statLabel}>{t('grammar.stats.accuracy')}</span>
                             </div>
                         </div>
                     )}

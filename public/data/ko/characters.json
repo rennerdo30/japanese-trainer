@@ -2,6 +2,7 @@
   {
     "id": 2086,
     "char": "ㄱ",
+    "character": "ㄱ",
     "meaning": "Looks like a gun pointing to the right, making a 'g' sound when fired.",
     "meanings": [
       "g/k sound",
@@ -10,8 +11,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "g/k",
+    "romaji": "g/k",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 2,
     "radicals": [
@@ -35,6 +38,7 @@
     "content_translations": null,
     "group": "consonants",
     "order": 1,
+    "name": "g/k",
     "mnemonic": {
       "en": "Looks like a gun pointing to the right, making a 'g' sound when fired."
     }
@@ -42,6 +46,7 @@
   {
     "id": 2080,
     "char": "ㄲ",
+    "character": "ㄲ",
     "meaning": "Picture two keys (ㄱ) stacked, like double keys, making a tight 'kk' sound when turned together.",
     "meanings": [
       "kk sound (tense)"
@@ -49,8 +54,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "kk",
+    "romaji": "kk",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 2,
     "radicals": [
@@ -75,6 +82,7 @@
     "content_translations": null,
     "group": "consonants",
     "order": 15,
+    "name": "kk",
     "mnemonic": {
       "en": "Picture two keys (ㄱ) stacked, like double keys, making a tight 'kk' sound when turned together."
     }
@@ -82,6 +90,7 @@
   {
     "id": 2087,
     "char": "ㄴ",
+    "character": "ㄴ",
     "meaning": "Resembles a nose in profile, making the 'n' sound as in 'nose'.",
     "meanings": [
       "n sound",
@@ -90,8 +99,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "n",
+    "romaji": "n",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 2,
     "radicals": [
@@ -115,6 +126,7 @@
     "content_translations": null,
     "group": "consonants",
     "order": 2,
+    "name": "n",
     "mnemonic": {
       "en": "Resembles a nose in profile, making the 'n' sound as in 'nose'."
     }
@@ -122,6 +134,7 @@
   {
     "id": 2088,
     "char": "ㄷ",
+    "character": "ㄷ",
     "meaning": "Looks like a door with a handle, opening with a 'd' sound.",
     "meanings": [
       "d/t sound",
@@ -130,8 +143,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "d/t",
+    "romaji": "d/t",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 3,
     "radicals": [
@@ -155,6 +170,7 @@
     "content_translations": null,
     "group": "consonants",
     "order": 3,
+    "name": "d/t",
     "mnemonic": {
       "en": "Looks like a door with a handle, opening with a 'd' sound."
     }
@@ -162,6 +178,7 @@
   {
     "id": 2081,
     "char": "ㄸ",
+    "character": "ㄸ",
     "meaning": "Imagine two doors (ㄷ) side by side, like double doors, making a firm 'tt' sound when slammed shut.",
     "meanings": [
       "tt sound (tense)"
@@ -169,8 +186,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "tt",
+    "romaji": "tt",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 2,
     "radicals": [
@@ -195,6 +214,7 @@
     "content_translations": null,
     "group": "consonants",
     "order": 16,
+    "name": "tt",
     "mnemonic": {
       "en": "Imagine two doors (ㄷ) side by side, like double doors, making a firm 'tt' sound when slammed shut."
     }
@@ -202,6 +222,7 @@
   {
     "id": 2089,
     "char": "ㄹ",
+    "character": "ㄹ",
     "meaning": "Shaped like a rolling wave, representing the rolling 'r' sound.",
     "meanings": [
       "r/l sound",
@@ -210,8 +231,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "r/l",
+    "romaji": "r/l",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 3,
     "radicals": [
@@ -235,6 +258,7 @@
     "content_translations": null,
     "group": "consonants",
     "order": 4,
+    "name": "r/l",
     "mnemonic": {
       "en": "Shaped like a rolling wave, representing the rolling 'r' sound."
     }
@@ -242,6 +266,7 @@
   {
     "id": 2090,
     "char": "ㅁ",
+    "character": "ㅁ",
     "meaning": "Looks like a mouth, making the 'm' sound as in 'mouth'.",
     "meanings": [
       "m sound",
@@ -250,8 +275,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "m",
+    "romaji": "m",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 4,
     "radicals": [
@@ -275,6 +302,7 @@
     "content_translations": null,
     "group": "consonants",
     "order": 5,
+    "name": "m",
     "mnemonic": {
       "en": "Looks like a mouth, making the 'm' sound as in 'mouth'."
     }
@@ -282,6 +310,7 @@
   {
     "id": 2091,
     "char": "ㅂ",
+    "character": "ㅂ",
     "meaning": "Resembles a box with a lid, opening with a 'b' sound.",
     "meanings": [
       "b/p sound",
@@ -290,8 +319,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "b/p",
+    "romaji": "b/p",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 4,
     "radicals": [
@@ -315,6 +346,7 @@
     "content_translations": null,
     "group": "consonants",
     "order": 6,
+    "name": "b/p",
     "mnemonic": {
       "en": "Resembles a box with a lid, opening with a 'b' sound."
     }
@@ -322,6 +354,7 @@
   {
     "id": 2082,
     "char": "ㅃ",
+    "character": "ㅃ",
     "meaning": "Think of two bowls (ㅂ) stacked, like double bowls, making a popping 'pp' sound when clapped together.",
     "meanings": [
       "pp sound (tense)"
@@ -329,8 +362,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "pp",
+    "romaji": "pp",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 2,
     "radicals": [
@@ -355,6 +390,7 @@
     "content_translations": null,
     "group": "consonants",
     "order": 17,
+    "name": "pp",
     "mnemonic": {
       "en": "Think of two bowls (ㅂ) stacked, like double bowls, making a popping 'pp' sound when clapped together."
     }
@@ -362,6 +398,7 @@
   {
     "id": 2092,
     "char": "ㅅ",
+    "character": "ㅅ",
     "meaning": "Looks like a snake, hissing with an 's' sound.",
     "meanings": [
       "s sound",
@@ -370,8 +407,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "s",
+    "romaji": "s",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 2,
     "radicals": [
@@ -395,6 +434,7 @@
     "content_translations": null,
     "group": "consonants",
     "order": 7,
+    "name": "s",
     "mnemonic": {
       "en": "Looks like a snake, hissing with an 's' sound."
     }
@@ -402,6 +442,7 @@
   {
     "id": 2083,
     "char": "ㅆ",
+    "character": "ㅆ",
     "meaning": "Picture two teeth (ㅅ) side by side, like sharp teeth, making a hissing 'ss' sound when biting.",
     "meanings": [
       "ss sound (tense)"
@@ -409,8 +450,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "ss",
+    "romaji": "ss",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 2,
     "radicals": [
@@ -435,6 +478,7 @@
     "content_translations": null,
     "group": "consonants",
     "order": 18,
+    "name": "ss",
     "mnemonic": {
       "en": "Picture two teeth (ㅅ) side by side, like sharp teeth, making a hissing 'ss' sound when biting."
     }
@@ -442,6 +486,7 @@
   {
     "id": 2093,
     "char": "ㅇ",
+    "character": "ㅇ",
     "meaning": "Shaped like a circle or zero, representing silence or the 'ng' sound at the end of syllables.",
     "meanings": [
       "silent/ng sound",
@@ -450,8 +495,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "silent/ng",
+    "romaji": "silent/ng",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 1,
     "radicals": [
@@ -475,6 +522,7 @@
     "content_translations": null,
     "group": "consonants",
     "order": 8,
+    "name": "silent/ng",
     "mnemonic": {
       "en": "Shaped like a circle or zero, representing silence or the 'ng' sound at the end of syllables."
     }
@@ -482,6 +530,7 @@
   {
     "id": 2094,
     "char": "ㅈ",
+    "character": "ㅈ",
     "meaning": "Looks like a jar with a lid, making a 'j' sound when opened.",
     "meanings": [
       "j sound",
@@ -490,8 +539,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "j",
+    "romaji": "j",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 3,
     "radicals": [
@@ -515,6 +566,7 @@
     "content_translations": null,
     "group": "consonants",
     "order": 9,
+    "name": "j",
     "mnemonic": {
       "en": "Looks like a jar with a lid, making a 'j' sound when opened."
     }
@@ -522,6 +574,7 @@
   {
     "id": 2084,
     "char": "ㅉ",
+    "character": "ㅉ",
     "meaning": "Imagine two zigzags (ㅈ) stacked, like double zigzags, making a buzzing 'jj' sound when rubbed together.",
     "meanings": [
       "jj sound (tense)"
@@ -529,8 +582,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "jj",
+    "romaji": "jj",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 2,
     "radicals": [
@@ -555,6 +610,7 @@
     "content_translations": null,
     "group": "consonants",
     "order": 19,
+    "name": "jj",
     "mnemonic": {
       "en": "Imagine two zigzags (ㅈ) stacked, like double zigzags, making a buzzing 'jj' sound when rubbed together."
     }
@@ -562,6 +618,7 @@
   {
     "id": 2095,
     "char": "ㅊ",
+    "character": "ㅊ",
     "meaning": "Resembles a chimney puffing out smoke, making a 'ch' sound.",
     "meanings": [
       "ch sound",
@@ -570,8 +627,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "ch",
+    "romaji": "ch",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 4,
     "radicals": [
@@ -595,6 +654,7 @@
     "content_translations": null,
     "group": "consonants",
     "order": 10,
+    "name": "ch",
     "mnemonic": {
       "en": "Resembles a chimney puffing out smoke, making a 'ch' sound."
     }
@@ -602,6 +662,7 @@
   {
     "id": 2076,
     "char": "ㅋ",
+    "character": "ㅋ",
     "meaning": "Imagine a key (ㄱ) with a horizontal line (ㅡ) on top, like a key with a flat head, making a sharp 'k' sound when turned.",
     "meanings": [
       "k sound (aspirated)"
@@ -609,8 +670,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "k",
+    "romaji": "k",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 3,
     "radicals": [
@@ -635,6 +698,7 @@
     "content_translations": null,
     "group": "consonants",
     "order": 11,
+    "name": "k",
     "mnemonic": {
       "en": "Imagine a key (ㄱ) with a horizontal line (ㅡ) on top, like a key with a flat head, making a sharp 'k' sound when turned."
     }
@@ -642,6 +706,7 @@
   {
     "id": 2077,
     "char": "ㅌ",
+    "character": "ㅌ",
     "meaning": "Picture a door (ㄷ) with a horizontal line (ㅡ) on top, like a door with a flat lintel, making a strong 't' sound when knocked.",
     "meanings": [
       "t sound (aspirated)"
@@ -649,8 +714,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "t",
+    "romaji": "t",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 4,
     "radicals": [
@@ -675,6 +742,7 @@
     "content_translations": null,
     "group": "consonants",
     "order": 12,
+    "name": "t",
     "mnemonic": {
       "en": "Picture a door (ㄷ) with a horizontal line (ㅡ) on top, like a door with a flat lintel, making a strong 't' sound when knocked."
     }
@@ -682,6 +750,7 @@
   {
     "id": 2078,
     "char": "ㅍ",
+    "character": "ㅍ",
     "meaning": "Think of a bowl (ㅂ) with a horizontal line (ㅡ) on top, like a bowl with a flat rim, making a puffing 'p' sound when blown on.",
     "meanings": [
       "p sound (aspirated)"
@@ -689,8 +758,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "p",
+    "romaji": "p",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 4,
     "radicals": [
@@ -715,6 +786,7 @@
     "content_translations": null,
     "group": "consonants",
     "order": 13,
+    "name": "p",
     "mnemonic": {
       "en": "Think of a bowl (ㅂ) with a horizontal line (ㅡ) on top, like a bowl with a flat rim, making a puffing 'p' sound when blown on."
     }
@@ -722,6 +794,7 @@
   {
     "id": 2079,
     "char": "ㅎ",
+    "character": "ㅎ",
     "meaning": "Imagine a circle (ㅇ) with a horizontal line (ㅡ) on top, like a hat on a head, making a soft 'h' sound when exhaled.",
     "meanings": [
       "h sound"
@@ -729,8 +802,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "h",
+    "romaji": "h",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 3,
     "radicals": [
@@ -755,6 +830,7 @@
     "content_translations": null,
     "group": "consonants",
     "order": 14,
+    "name": "h",
     "mnemonic": {
       "en": "Imagine a circle (ㅇ) with a horizontal line (ㅡ) on top, like a hat on a head, making a soft 'h' sound when exhaled."
     }
@@ -762,6 +838,7 @@
   {
     "id": 2085,
     "char": "ㅏ",
+    "character": "ㅏ",
     "meaning": "Picture a vertical line (ㅣ) with a horizontal line (ㅡ) on the right, like a person (ㅣ) with an arm (ㅡ) raised, making an 'ah' sound of surprise.",
     "meanings": [
       "a sound"
@@ -769,8 +846,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "a",
+    "romaji": "a",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 2,
     "radicals": [
@@ -795,6 +874,7 @@
     "content_translations": null,
     "group": "vowels",
     "order": 20,
+    "name": "a",
     "mnemonic": {
       "en": "Picture a vertical line (ㅣ) with a horizontal line (ㅡ) on the right, like a person (ㅣ) with an arm (ㅡ) raised, making an 'ah' sound of surprise."
     }
@@ -802,6 +882,7 @@
   {
     "id": 2096,
     "char": "ㅐ",
+    "character": "ㅐ",
     "meaning": "Imagine a person with arms wide open (ㅏ) and a straight line (ㅣ) for a body, shouting 'ae!' in surprise.",
     "meanings": [
       "ae (vowel sound)"
@@ -809,8 +890,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "ae",
+    "romaji": "ae",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 2,
     "radicals": [
@@ -840,6 +923,7 @@
     "content_translations": null,
     "group": "vowels",
     "order": 21,
+    "name": "ae",
     "mnemonic": {
       "en": "Imagine a person with arms wide open (ㅏ) and a straight line (ㅣ) for a body, shouting 'ae!' in surprise."
     }
@@ -847,6 +931,7 @@
   {
     "id": 2097,
     "char": "ㅑ",
+    "character": "ㅑ",
     "meaning": "Picture a person (ㅏ) with a dot (·) on their head, saying 'ya!' as they point upward.",
     "meanings": [
       "ya (vowel sound)"
@@ -854,8 +939,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "ya",
+    "romaji": "ya",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 2,
     "radicals": [
@@ -885,6 +972,7 @@
     "content_translations": null,
     "group": "vowels",
     "order": 22,
+    "name": "ya",
     "mnemonic": {
       "en": "Picture a person (ㅏ) with a dot (·) on their head, saying 'ya!' as they point upward."
     }
@@ -892,6 +980,7 @@
   {
     "id": 2098,
     "char": "ㅒ",
+    "character": "ㅒ",
     "meaning": "Think of a person with arms open and a dot (ㅑ) combined with a straight line (ㅣ), yelling 'yae!' in excitement.",
     "meanings": [
       "yae (vowel sound)"
@@ -899,8 +988,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "yae",
+    "romaji": "yae",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 3,
     "radicals": [
@@ -930,6 +1021,7 @@
     "content_translations": null,
     "group": "vowels",
     "order": 23,
+    "name": "yae",
     "mnemonic": {
       "en": "Think of a person with arms open and a dot (ㅑ) combined with a straight line (ㅣ), yelling 'yae!' in excitement."
     }
@@ -937,6 +1029,7 @@
   {
     "id": 2099,
     "char": "ㅓ",
+    "character": "ㅓ",
     "meaning": "Visualize a person (ㅏ) turned to the left, saying 'eo!' as if confused or looking back.",
     "meanings": [
       "eo (vowel sound)"
@@ -944,8 +1037,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "eo",
+    "romaji": "eo",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 2,
     "radicals": [
@@ -974,6 +1069,7 @@
     "content_translations": null,
     "group": "vowels",
     "order": 24,
+    "name": "eo",
     "mnemonic": {
       "en": "Visualize a person (ㅏ) turned to the left, saying 'eo!' as if confused or looking back."
     }
@@ -981,6 +1077,7 @@
   {
     "id": 2100,
     "char": "ㅔ",
+    "character": "ㅔ",
     "meaning": "Imagine a person turned left (ㅓ) with a straight line (ㅣ), saying 'e!' in a short, sharp tone.",
     "meanings": [
       "e (vowel sound)"
@@ -988,8 +1085,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "e",
+    "romaji": "e",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 2,
     "radicals": [
@@ -1019,6 +1118,7 @@
     "content_translations": null,
     "group": "vowels",
     "order": 25,
+    "name": "e",
     "mnemonic": {
       "en": "Imagine a person turned left (ㅓ) with a straight line (ㅣ), saying 'e!' in a short, sharp tone."
     }
@@ -1026,6 +1126,7 @@
   {
     "id": 2101,
     "char": "ㅕ",
+    "character": "ㅕ",
     "meaning": "Picture a person turned left (ㅓ) with a dot (·) on their head, saying 'yeo!' while gesturing.",
     "meanings": [
       "yeo (vowel sound)"
@@ -1033,8 +1134,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "yeo",
+    "romaji": "yeo",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 2,
     "radicals": [
@@ -1064,6 +1167,7 @@
     "content_translations": null,
     "group": "vowels",
     "order": 26,
+    "name": "yeo",
     "mnemonic": {
       "en": "Picture a person turned left (ㅓ) with a dot (·) on their head, saying 'yeo!' while gesturing."
     }
@@ -1071,6 +1175,7 @@
   {
     "id": 2102,
     "char": "ㅖ",
+    "character": "ㅖ",
     "meaning": "Think of a person turned left with a dot (ㅕ) combined with a straight line (ㅣ), exclaiming 'ye!' in agreement.",
     "meanings": [
       "ye (vowel sound)"
@@ -1078,8 +1183,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "ye",
+    "romaji": "ye",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 3,
     "radicals": [
@@ -1109,6 +1216,7 @@
     "content_translations": null,
     "group": "vowels",
     "order": 27,
+    "name": "ye",
     "mnemonic": {
       "en": "Think of a person turned left with a dot (ㅕ) combined with a straight line (ㅣ), exclaiming 'ye!' in agreement."
     }
@@ -1116,6 +1224,7 @@
   {
     "id": 2103,
     "char": "ㅗ",
+    "character": "ㅗ",
     "meaning": "Visualize a person (ㅏ) with arms raised high, shouting 'o!' in surprise or joy.",
     "meanings": [
       "o (vowel sound)"
@@ -1123,8 +1232,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "o",
+    "romaji": "o",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 2,
     "radicals": [
@@ -1153,6 +1264,7 @@
     "content_translations": null,
     "group": "vowels",
     "order": 28,
+    "name": "o",
     "mnemonic": {
       "en": "Visualize a person (ㅏ) with arms raised high, shouting 'o!' in surprise or joy."
     }
@@ -1160,6 +1272,7 @@
   {
     "id": 2104,
     "char": "ㅘ",
+    "character": "ㅘ",
     "meaning": "Imagine a person with arms high (ㅗ) meeting another with arms open (ㅏ), together saying 'wa!' in wonder.",
     "meanings": [
       "wa (vowel sound)"
@@ -1167,8 +1280,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "wa",
+    "romaji": "wa",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 3,
     "radicals": [
@@ -1198,6 +1313,7 @@
     "content_translations": null,
     "group": "vowels",
     "order": 29,
+    "name": "wa",
     "mnemonic": {
       "en": "Imagine a person with arms high (ㅗ) meeting another with arms open (ㅏ), together saying 'wa!' in wonder."
     }
@@ -1205,6 +1321,7 @@
   {
     "id": 2105,
     "char": "ㅙ",
+    "character": "ㅙ",
     "meaning": "Think of a person with arms high (ㅗ) combined with an open-armed line (ㅐ), crying 'wae!' meaning 'why'.",
     "meanings": [
       "wae (vowel sound)"
@@ -1212,8 +1329,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "wae",
+    "romaji": "wae",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 4,
     "radicals": [
@@ -1243,6 +1362,7 @@
     "content_translations": null,
     "group": "vowels",
     "order": 30,
+    "name": "wae",
     "mnemonic": {
       "en": "Think of a person with arms high (ㅗ) combined with an open-armed line (ㅐ), crying 'wae!' meaning 'why'."
     }
@@ -1250,6 +1370,7 @@
   {
     "id": 2106,
     "char": "ㅚ",
+    "character": "ㅚ",
     "meaning": "A wide mouth (ㅗ) with a vertical line (ㅣ) inside, like a surprised face saying 'oe'.",
     "meanings": [
       "vowel"
@@ -1257,8 +1378,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "oe",
+    "romaji": "oe",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 2,
     "radicals": [
@@ -1283,6 +1406,7 @@
     "content_translations": null,
     "group": "vowels",
     "order": 31,
+    "name": "oe",
     "mnemonic": {
       "en": "A wide mouth (ㅗ) with a vertical line (ㅣ) inside, like a surprised face saying 'oe'."
     }
@@ -1290,6 +1414,7 @@
   {
     "id": 2107,
     "char": "ㅛ",
+    "character": "ㅛ",
     "meaning": "A wide mouth (ㅗ) with a vertical line (ㅣ) on top, like a person yelling 'yo!' with arms raised.",
     "meanings": [
       "vowel"
@@ -1297,8 +1422,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "yo",
+    "romaji": "yo",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 2,
     "radicals": [
@@ -1323,6 +1450,7 @@
     "content_translations": null,
     "group": "vowels",
     "order": 32,
+    "name": "yo",
     "mnemonic": {
       "en": "A wide mouth (ㅗ) with a vertical line (ㅣ) on top, like a person yelling 'yo!' with arms raised."
     }
@@ -1330,6 +1458,7 @@
   {
     "id": 2108,
     "char": "ㅜ",
+    "character": "ㅜ",
     "meaning": "A horizontal line (ㅡ) with a vertical line (ㅣ) below, like a sad face with a tear dropping down, saying 'u'.",
     "meanings": [
       "vowel"
@@ -1337,8 +1466,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "u",
+    "romaji": "u",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 2,
     "radicals": [
@@ -1363,6 +1494,7 @@
     "content_translations": null,
     "group": "vowels",
     "order": 33,
+    "name": "u",
     "mnemonic": {
       "en": "A horizontal line (ㅡ) with a vertical line (ㅣ) below, like a sad face with a tear dropping down, saying 'u'."
     }
@@ -1370,6 +1502,7 @@
   {
     "id": 2109,
     "char": "ㅝ",
+    "character": "ㅝ",
     "meaning": "A sad face (ㅜ) with an extra line (ㅓ) added, like a person saying 'wo' with a surprised expression.",
     "meanings": [
       "vowel"
@@ -1377,8 +1510,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "wo",
+    "romaji": "wo",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 3,
     "radicals": [
@@ -1403,6 +1538,7 @@
     "content_translations": null,
     "group": "vowels",
     "order": 34,
+    "name": "wo",
     "mnemonic": {
       "en": "A sad face (ㅜ) with an extra line (ㅓ) added, like a person saying 'wo' with a surprised expression."
     }
@@ -1410,6 +1546,7 @@
   {
     "id": 2110,
     "char": "ㅞ",
+    "character": "ㅞ",
     "meaning": "A sad face (ㅜ) with a vertical line (ㅔ) added, like a person saying 'we' with a questioning look.",
     "meanings": [
       "vowel"
@@ -1417,8 +1554,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "we",
+    "romaji": "we",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 3,
     "radicals": [
@@ -1443,6 +1582,7 @@
     "content_translations": null,
     "group": "vowels",
     "order": 35,
+    "name": "we",
     "mnemonic": {
       "en": "A sad face (ㅜ) with a vertical line (ㅔ) added, like a person saying 'we' with a questioning look."
     }
@@ -1450,6 +1590,7 @@
   {
     "id": 2111,
     "char": "ㅟ",
+    "character": "ㅟ",
     "meaning": "A sad face (ㅜ) with a vertical line (ㅣ) inside, like a person saying 'wi' with a surprised expression.",
     "meanings": [
       "vowel"
@@ -1457,8 +1598,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "wi",
+    "romaji": "wi",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 3,
     "radicals": [
@@ -1483,6 +1626,7 @@
     "content_translations": null,
     "group": "vowels",
     "order": 36,
+    "name": "wi",
     "mnemonic": {
       "en": "A sad face (ㅜ) with a vertical line (ㅣ) inside, like a person saying 'wi' with a surprised expression."
     }
@@ -1490,6 +1634,7 @@
   {
     "id": 2112,
     "char": "ㅠ",
+    "character": "ㅠ",
     "meaning": "A horizontal line (ㅡ) with two vertical lines (ㅣ) below, like a person saying 'yu' with arms raised.",
     "meanings": [
       "vowel"
@@ -1497,8 +1642,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "yu",
+    "romaji": "yu",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 2,
     "radicals": [
@@ -1523,6 +1670,7 @@
     "content_translations": null,
     "group": "vowels",
     "order": 37,
+    "name": "yu",
     "mnemonic": {
       "en": "A horizontal line (ㅡ) with two vertical lines (ㅣ) below, like a person saying 'yu' with arms raised."
     }
@@ -1530,6 +1678,7 @@
   {
     "id": 2113,
     "char": "ㅡ",
+    "character": "ㅡ",
     "meaning": "A straight horizontal line, like a flat surface or a neutral mouth saying 'eu'.",
     "meanings": [
       "vowel"
@@ -1537,8 +1686,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "eu",
+    "romaji": "eu",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 1,
     "radicals": [],
@@ -1560,6 +1711,7 @@
     "content_translations": null,
     "group": "vowels",
     "order": 38,
+    "name": "eu",
     "mnemonic": {
       "en": "A straight horizontal line, like a flat surface or a neutral mouth saying 'eu'."
     }
@@ -1567,6 +1719,7 @@
   {
     "id": 2114,
     "char": "ㅢ",
+    "character": "ㅢ",
     "meaning": "A horizontal line (ㅡ) with a vertical line (ㅣ) attached, like a person saying 'ui' with a questioning tone.",
     "meanings": [
       "vowel"
@@ -1574,8 +1727,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "ui",
+    "romaji": "ui",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 2,
     "radicals": [
@@ -1600,6 +1755,7 @@
     "content_translations": null,
     "group": "vowels",
     "order": 39,
+    "name": "ui",
     "mnemonic": {
       "en": "A horizontal line (ㅡ) with a vertical line (ㅣ) attached, like a person saying 'ui' with a questioning tone."
     }
@@ -1607,6 +1763,7 @@
   {
     "id": 2115,
     "char": "ㅣ",
+    "character": "ㅣ",
     "meaning": "A straight vertical line, like a standing person or a simple sound saying 'i'.",
     "meanings": [
       "vowel"
@@ -1614,8 +1771,10 @@
     "onyomi": [],
     "kunyomi": [],
     "romanization": "i",
+    "romaji": "i",
     "type": "alphabet",
     "level": "appropriate",
+    "topik": "appropriate",
     "framework": null,
     "strokes": 1,
     "radicals": [],
@@ -1637,6 +1796,7 @@
     "content_translations": null,
     "group": "vowels",
     "order": 40,
+    "name": "i",
     "mnemonic": {
       "en": "A straight vertical line, like a standing person or a simple sound saying 'i'."
     }

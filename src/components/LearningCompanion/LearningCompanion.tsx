@@ -64,7 +64,7 @@ export default function LearningCompanion({
       <button
         className={styles.minimizedButton}
         onClick={() => setIsMinimized(false)}
-        aria-label="Open Learning Companion"
+        aria-label={t('learningCompanion.open')}
       >
         <IoCompass />
         {reviewQueue && reviewQueue.total > 0 && (
@@ -114,20 +114,20 @@ export default function LearningCompanion({
       <div className={styles.header}>
         <div className={styles.headerTitle}>
           <IoCompass className={styles.compassIcon} />
-          <Text variant="h3">Learning Companion</Text>
+          <Text variant="h3">{t('learningCompanion.title')}</Text>
         </div>
         <div className={styles.headerActions}>
           <button
             className={styles.toggleButton}
             onClick={() => setIsExpanded(!isExpanded)}
-            aria-label={isExpanded ? 'Collapse' : 'Expand'}
+            aria-label={isExpanded ? t('common.collapse') : t('common.expand')}
           >
             {isExpanded ? <IoChevronUp /> : <IoChevronDown />}
           </button>
           <button
             className={styles.closeButton}
             onClick={() => setIsMinimized(true)}
-            aria-label="Minimize"
+            aria-label={t('common.minimize')}
           >
             <IoClose />
           </button>
@@ -155,7 +155,7 @@ export default function LearningCompanion({
         </svg>
         <div className={styles.ringContent}>
           <Text variant="h2" color="gold">{jlptProgress?.percentComplete || 0}%</Text>
-          <Text variant="label" color="muted">Overall</Text>
+          <Text variant="label" color="muted">{t('learningCompanion.overall')}</Text>
         </div>
       </div>
 
@@ -164,17 +164,17 @@ export default function LearningCompanion({
         <div className={styles.quickStat}>
           <IoFlame className={styles.quickStatIcon} style={{ color: streakInfo?.isActive ? 'var(--accent-gold)' : 'var(--text-muted)' }} />
           <div className={styles.quickStatValue}>{stats?.studyStreak || 0}</div>
-          <div className={styles.quickStatLabel}>Streak</div>
+          <div className={styles.quickStatLabel}>{t('learningCompanion.streak')}</div>
         </div>
         <div className={styles.quickStat}>
           <IoTime className={styles.quickStatIcon} style={{ color: getUrgencyColor(reviewQueue?.urgency) }} />
           <div className={styles.quickStatValue}>{reviewQueue?.total || 0}</div>
-          <div className={styles.quickStatLabel}>Reviews</div>
+          <div className={styles.quickStatLabel}>{t('learningCompanion.reviews')}</div>
         </div>
         <div className={styles.quickStat}>
           <IoBookOutline className={styles.quickStatIcon} />
           <div className={styles.quickStatValue}>{stats?.totalItemsLearned || 0}</div>
-          <div className={styles.quickStatLabel}>Learned</div>
+          <div className={styles.quickStatLabel}>{t('learningCompanion.learned')}</div>
         </div>
       </div>
 
@@ -189,10 +189,10 @@ export default function LearningCompanion({
           </div>
           <div className={styles.reviewAlertContent}>
             <Text variant="label" className={styles.reviewAlertTitle}>
-              {reviewQueue.urgency === 'overdue' ? 'Overdue Reviews!' : 'Reviews Due'}
+              {reviewQueue.urgency === 'overdue' ? t('learningCompanion.overdueReviews') : t('learningCompanion.reviewsDue')}
             </Text>
             <Text variant="caption" color="muted">
-              {reviewQueue.total} items · ~{reviewQueue.estimatedMinutes} min
+              {t('learningCompanion.reviewCount', { count: reviewQueue.total, minutes: reviewQueue.estimatedMinutes })}
             </Text>
           </div>
           <IoPlay className={styles.reviewAlertPlay} />
@@ -206,7 +206,7 @@ export default function LearningCompanion({
           {topRecommendation && (
             <div className={styles.section}>
               <Text variant="label" color="muted" className={styles.sectionTitle}>
-                <IoSparkles /> Next Up
+                <IoSparkles /> {t('learningCompanion.nextUp')}
               </Text>
               <Link href={topRecommendation.action.target} className={styles.recommendationCard}>
                 <div className={styles.recommendationIcon}>
@@ -228,7 +228,7 @@ export default function LearningCompanion({
           {recommendations.length > 1 && (
             <div className={styles.section}>
               <Text variant="label" color="muted" className={styles.sectionTitle}>
-                Suggestions
+                {t('learningCompanion.suggestions')}
               </Text>
               <div className={styles.suggestionsList}>
                 {recommendations.slice(1, 4).map((rec) => (
@@ -251,7 +251,7 @@ export default function LearningCompanion({
           {jlptProgress && jlptProgress.currentMilestone && (
             <div className={styles.section}>
               <Text variant="label" color="muted" className={styles.sectionTitle}>
-                <IoTrendingUp /> Current Goal
+                <IoTrendingUp /> {t('learningCompanion.currentGoal')}
               </Text>
               <div className={styles.milestoneCard}>
                 <Text variant="body">{jlptProgress.currentMilestone.name}</Text>
@@ -262,7 +262,7 @@ export default function LearningCompanion({
                   />
                 </div>
                 <Text variant="caption" color="muted">
-                  {Math.round(jlptProgress.currentMilestone.progress)}% complete
+                  {t('learningCompanion.percentComplete', { percent: Math.round(jlptProgress.currentMilestone.progress) })}
                 </Text>
               </div>
             </div>
@@ -272,7 +272,7 @@ export default function LearningCompanion({
           {adaptiveRecommendations && (
             <div className={styles.section}>
               <Text variant="label" color="muted" className={styles.sectionTitle}>
-                <IoCompass /> Insight
+                <IoCompass /> {t('learningCompanion.insight')}
               </Text>
               <Card variant="default" className={styles.insightCard}>
                 <Text variant="caption">{adaptiveRecommendations.rationale}</Text>
@@ -285,10 +285,10 @@ export default function LearningCompanion({
       {/* Footer Actions */}
       <div className={styles.footer}>
         <Link href="/paths" className={styles.footerLink}>
-          Browse Paths
+          {t('learningCompanion.browsePaths')}
         </Link>
         <Link href="/review" className={styles.footerLink}>
-          Review Now
+          {t('learningCompanion.reviewNow')}
         </Link>
       </div>
     </aside>

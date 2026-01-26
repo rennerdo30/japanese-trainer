@@ -1,6 +1,7 @@
 'use client'
 
 import { IoChevronBack, IoChevronForward } from 'react-icons/io5';
+import { useLanguage } from '@/context/LanguageProvider';
 import styles from './LessonProgress.module.css';
 
 interface LessonProgressProps {
@@ -28,6 +29,7 @@ export default function LessonProgress({
     progressLabel,
     learnedLabel,
 }: LessonProgressProps) {
+    const { t } = useLanguage();
     const progressPercentage = totalCount > 0 ? (learnedCount / totalCount) * 100 : 0;
 
     return (
@@ -61,7 +63,7 @@ export default function LessonProgress({
                     className={styles.navButton}
                     onClick={onPrevious}
                     disabled={!hasPrevious}
-                    aria-label="Previous character"
+                    aria-label={t('learnMode.previousCharacter') || "Previous character"}
                 >
                     <IoChevronBack />
                 </button>
@@ -87,7 +89,7 @@ export default function LessonProgress({
                     className={styles.navButton}
                     onClick={onNext}
                     disabled={!hasNext}
-                    aria-label="Next character"
+                    aria-label={t('learnMode.nextCharacter') || "Next character"}
                 >
                     <IoChevronForward />
                 </button>

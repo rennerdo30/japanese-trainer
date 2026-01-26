@@ -2,6 +2,8 @@
  * TargetLanguageProvider
  * Provides global state for the target language being learned
  * All components consuming useTargetLanguage will re-render when language changes
+ *
+ * Now integrates with LanguageConfigProvider for dynamic configuration.
  */
 
 'use client';
@@ -12,17 +14,18 @@ import {
   LanguageConfig,
   LanguageLevel,
   ModuleName,
-  getLanguageConfig,
-  getDefaultLanguage,
-  getAvailableLanguages,
-  isModuleAvailable,
-  getAvailableModules,
-  getLanguageLevels,
-  getLanguageDataPath,
-  requiresScriptLearning,
-  getTTSVoices,
-  isLanguageAvailable,
+  getLanguageConfig as getStaticLanguageConfig,
+  getDefaultLanguage as getStaticDefaultLanguage,
+  getAvailableLanguages as getStaticAvailableLanguages,
+  isModuleAvailable as staticIsModuleAvailable,
+  getAvailableModules as staticGetAvailableModules,
+  getLanguageLevels as staticGetLanguageLevels,
+  getLanguageDataPath as staticGetLanguageDataPath,
+  requiresScriptLearning as staticRequiresScriptLearning,
+  getTTSVoices as staticGetTTSVoices,
+  isLanguageAvailable as staticIsLanguageAvailable,
 } from '@/lib/language';
+import { useLanguageConfigs } from './LanguageConfigProvider';
 import { useSettings } from './SettingsProvider';
 
 const TARGET_LANGUAGE_KEY = 'murmura_target_language';
@@ -59,7 +62,69 @@ interface TargetLanguageProviderProps {
 
 export function TargetLanguageProvider({ children }: TargetLanguageProviderProps) {
   const { settings } = useSettings();
-  const [targetLanguage, setTargetLanguageState] = useState<LanguageCode>(getDefaultLanguage());
+  const { configs: dynamicConfigs, isLoading: configsLoading } = useLanguageConfigs();
+
+  // Helper functions that use dynamic config with fallback to static
+  const getLanguageConfig = useCallback((code: LanguageCode): LanguageConfig | null => {
+    return dynamicConfigs.languages[code] || getStaticLanguageConfig(code);
+  }, [dynamicConfigs.languages]);
+
+  const getDefaultLanguage = useCallback((): LanguageCode => {
+    return dynamicConfigs.defaultLanguage || getStaticDefaultLanguage();
+  }, [dynamicConfigs.defaultLanguage]);
+
+  const getAvailableLanguages = useCallback((): LanguageCode[] => {
+    return dynamicConfigs.availableLanguages.length > 0
+      ? dynamicConfigs.availableLanguages
+      : getStaticAvailableLanguages();
+  }, [dynamicConfigs.availableLanguages]);
+
+  const isLanguageAvailable = useCallback((code: string): boolean => {
+    return dynamicConfigs.availableLanguages.includes(code) || staticIsLanguageAvailable(code);
+  }, [dynamicConfigs.availableLanguages]);
+
+  const isModuleAvailable = useCallback((languageCode: LanguageCode, module: ModuleName): boolean => {
+    const config = getLanguageConfig(languageCode);
+    if (config) return config.modules[module];
+    return staticIsModuleAvailable(languageCode, module);
+  }, [getLanguageConfig]);
+
+  const getAvailableModules = useCallback((languageCode: LanguageCode): ModuleName[] => {
+    const config = getLanguageConfig(languageCode);
+    if (config) {
+      const modules: ModuleName[] = [];
+      (Object.entries(config.modules) as [ModuleName, boolean][]).forEach(([module, available]) => {
+        if (available) modules.push(module);
+      });
+      return modules;
+    }
+    return staticGetAvailableModules(languageCode);
+  }, [getLanguageConfig]);
+
+  const getLanguageLevels = useCallback((languageCode: LanguageCode): LanguageLevel[] => {
+    const config = getLanguageConfig(languageCode);
+    return config?.levels || staticGetLanguageLevels(languageCode);
+  }, [getLanguageConfig]);
+
+  const getLanguageDataPath = useCallback((languageCode: LanguageCode): string => {
+    const config = getLanguageConfig(languageCode);
+    return config?.dataPath || staticGetLanguageDataPath(languageCode);
+  }, [getLanguageConfig]);
+
+  const requiresScriptLearning = useCallback((languageCode: LanguageCode): boolean => {
+    const config = getLanguageConfig(languageCode);
+    if (config) {
+      return config.scripts.some(script => script.required);
+    }
+    return staticRequiresScriptLearning(languageCode);
+  }, [getLanguageConfig]);
+
+  const getTTSVoices = useCallback((languageCode: LanguageCode) => {
+    const config = getLanguageConfig(languageCode);
+    return config?.ttsVoices || staticGetTTSVoices(languageCode);
+  }, [getLanguageConfig]);
+
+  const [targetLanguage, setTargetLanguageState] = useState<LanguageCode>(getStaticDefaultLanguage());
   const [isLoading, setIsLoading] = useState(true);
 
   // Load saved language from localStorage on mount
@@ -128,21 +193,21 @@ export function TargetLanguageProvider({ children }: TargetLanguageProviderProps
     } catch (error) {
       console.error('Failed to save target language to localStorage:', error);
     }
-  }, []);
+  }, [isLanguageAvailable]);
 
   // Memoized configuration
-  const languageConfig = useMemo(() => getLanguageConfig(targetLanguage), [targetLanguage]);
-  const availableLanguages = useMemo(() => getAvailableLanguages(), []);
-  const availableModules = useMemo(() => getAvailableModules(targetLanguage), [targetLanguage]);
-  const levels = useMemo(() => getLanguageLevels(targetLanguage), [targetLanguage]);
-  const dataPath = useMemo(() => getLanguageDataPath(targetLanguage), [targetLanguage]);
-  const needsScriptLearning = useMemo(() => requiresScriptLearning(targetLanguage), [targetLanguage]);
-  const ttsVoices = useMemo(() => getTTSVoices(targetLanguage), [targetLanguage]);
+  const languageConfig = useMemo(() => getLanguageConfig(targetLanguage), [targetLanguage, getLanguageConfig]);
+  const availableLanguages = useMemo(() => getAvailableLanguages(), [getAvailableLanguages]);
+  const availableModules = useMemo(() => getAvailableModules(targetLanguage), [targetLanguage, getAvailableModules]);
+  const levels = useMemo(() => getLanguageLevels(targetLanguage), [targetLanguage, getLanguageLevels]);
+  const dataPath = useMemo(() => getLanguageDataPath(targetLanguage), [targetLanguage, getLanguageDataPath]);
+  const needsScriptLearning = useMemo(() => requiresScriptLearning(targetLanguage), [targetLanguage, requiresScriptLearning]);
+  const ttsVoices = useMemo(() => getTTSVoices(targetLanguage), [targetLanguage, getTTSVoices]);
 
   // Check if a specific module is enabled for current language
   const isModuleEnabled = useCallback(
     (module: ModuleName) => isModuleAvailable(targetLanguage, module),
-    [targetLanguage]
+    [targetLanguage, isModuleAvailable]
   );
 
   // Get the appropriate TTS voice (prefer web speech for simplicity)

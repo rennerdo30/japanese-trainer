@@ -84,7 +84,7 @@ export default function ReadingPage() {
 
     // Get my readings (learned ones)
     const myReadingItems = useMemo(() => {
-        return readings.filter(r => learnedReadingIds.has(r.id));
+        return readings.filter(r => learnedReadingIds.has(String(r.id)));
     }, [readings, learnedReadingIds]);
 
     // Filter readings based on selected level filters (for practice mode)
@@ -126,12 +126,12 @@ export default function ReadingPage() {
     const tabs = useMemo(() => [
         {
             id: 'myCards' as TabType,
-            label: 'My Readings',
+            label: t('reading.tabs.myReadings'),
             badge: myReadingItems.length > 0 ? myReadingItems.length : undefined
         },
         {
             id: 'all' as TabType,
-            label: 'All Readings',
+            label: t('reading.tabs.allReadings'),
             badge: readings.length
         },
     ], [myReadingItems.length, readings.length]);
@@ -288,12 +288,10 @@ export default function ReadingPage() {
             return (
                 <div className={styles.emptyState}>
                     <FiBookOpen className={styles.emptyIcon} />
-                    <Text variant="h3" style={{ marginBottom: '0.5rem' }}>No readings yet</Text>
-                    <Text color="muted" style={{ marginBottom: '1rem' }}>
-                        Complete lessons to add readings to your collection
-                    </Text>
+                    <Text variant="h3" style={{ marginBottom: '0.5rem' }}>{t('reading.empty.title')}</Text>
+                    <Text color="muted" style={{ marginBottom: '1rem' }}>{t('reading.empty.desc')}</Text>
                     <Button variant="primary" onClick={() => setActiveTab('all')}>
-                        Browse All Readings
+                        {t('reading.empty.browse')}
                     </Button>
                 </div>
             );
@@ -302,7 +300,7 @@ export default function ReadingPage() {
         if (!currentReading) {
             return (
                 <div className={styles.emptyState}>
-                    <Text>No readings match current filters.</Text>
+                    <Text>{t('reading.empty.filterEmpty')}</Text>
                 </div>
             );
         }
@@ -417,15 +415,15 @@ export default function ReadingPage() {
                 <div className={styles.statsRow}>
                     <div className={styles.statCard}>
                         <span className={styles.statValue}>{byTypeStats?.reading || 0}</span>
-                        <span className={styles.statLabel}>Learned</span>
+                        <span className={styles.statLabel}>{t('reading.stats.learned')}</span>
                     </div>
                     <div className={styles.statCard}>
                         <span className={styles.statValue}>{readings.length}</span>
-                        <span className={styles.statLabel}>Total Readings</span>
+                        <span className={styles.statLabel}>{t('reading.stats.total')}</span>
                     </div>
                     <div className={styles.statCard}>
                         <span className={styles.statValue}>{stats.comprehensionScore}%</span>
-                        <span className={styles.statLabel}>Comprehension</span>
+                        <span className={styles.statLabel}>{t('reading.stats.comprehension')}</span>
                     </div>
                 </div>
 
@@ -433,7 +431,7 @@ export default function ReadingPage() {
                 <div className={styles.filterSection}>
                     <Input
                         type="text"
-                        placeholder="Search readings..."
+                        placeholder={t('reading.searchPlaceholder')}
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
                         className={styles.searchInput}
@@ -452,7 +450,7 @@ export default function ReadingPage() {
                 {/* Browse grid */}
                 <div className={styles.browseGrid}>
                     {browseItems.map((reading) => {
-                        const isLearned = learnedReadingIds.has(reading.id);
+                        const isLearned = learnedReadingIds.has(String(reading.id));
                         return (
                             <div
                                 key={reading.id}
@@ -476,7 +474,7 @@ export default function ReadingPage() {
                                         </span>
                                     ) : (
                                         <Button variant="ghost" size="sm">
-                                            View Lesson
+                                            {t('reading.viewLesson')}
                                         </Button>
                                     )}
                                 </div>
@@ -488,8 +486,8 @@ export default function ReadingPage() {
                 {browseItems.length === 0 && (
                     <div className={styles.emptyState}>
                         <FiSearch className={styles.emptyIcon} />
-                        <Text variant="h3">No readings found</Text>
-                        <Text color="muted">Try adjusting your search or filters</Text>
+                        <Text variant="h3">{t('reading.empty.searchEmpty')}</Text>
+                        <Text color="muted">{t('reading.empty.searchHint')}</Text>
                     </div>
                 )}
             </>

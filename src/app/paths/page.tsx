@@ -7,6 +7,7 @@ import { Container, Card, Text, Button, Animated } from '@/components/ui';
 import { useRecommendations } from '@/hooks/useRecommendations';
 import { usePathProgress } from '@/hooks/usePathProgress';
 import { useLanguage } from '@/context/LanguageProvider';
+import { useContentTranslation } from '@/hooks/useContentTranslation';
 import {
   IoRocket,
   IoSchool,
@@ -25,6 +26,25 @@ import {
 } from 'react-icons/io5';
 import styles from './paths.module.css';
 
+// Translate known rationale phrases to localized versions
+function translateRationale(rationale: string, t: (key: string) => string): string {
+  if (!rationale) return '';
+
+  // Map of English phrases to translation keys
+  const translations: Record<string, string> = {
+    "You're doing great! Feel free to push harder.": t('recommendations.encouragement'),
+    "Taking it slow to build stronger foundations.": t('recommendations.takingSlow'),
+    "You have many reviews due - consider clearing your review queue before adding new items.": t('recommendations.manyReviewsDue'),
+  };
+
+  let result = rationale;
+  for (const [english, translated] of Object.entries(translations)) {
+    result = result.replace(english, translated);
+  }
+
+  return result;
+}
+
 type PathType = 'all' | 'linear' | 'topic' | 'adaptive';
 type DifficultyFilter = 'all' | 'beginner' | 'intermediate' | 'advanced';
 
@@ -39,6 +59,7 @@ const PATH_ICONS: Record<string, React.ReactNode> = {
 
 export default function PathsPage() {
   const { t } = useLanguage();
+  const { getText } = useContentTranslation();
   const { paths, adaptiveRecommendations, isLoading, hasPathsData } = useRecommendations();
   const { isEnrolled, enrollInPath, checkPrerequisites } = usePathProgress();
 
@@ -82,7 +103,7 @@ export default function PathsPage() {
     return (
       <Container variant="centered">
         <Navigation />
-        <Text variant="body" color="muted">Loading paths...</Text>
+        <Text variant="body" color="muted">{t('paths.loading')}</Text>
       </Container>
     );
   }
@@ -93,10 +114,10 @@ export default function PathsPage() {
 
       <Animated animation="fadeInDown">
         <Text variant="h1" color="gold" align="center" className={styles.pageTitle}>
-          Learning Paths
+          {t('paths.title')}
         </Text>
         <Text color="muted" align="center" className={styles.pageSubtitle}>
-          Choose your journey to Japanese mastery
+          {t('paths.subtitle')}
         </Text>
       </Animated>
 
@@ -107,13 +128,13 @@ export default function PathsPage() {
           onClick={() => setShowFilters(!showFilters)}
           className={styles.filterToggle}
         >
-          <IoFilter /> Filters
+          <IoFilter /> {t('paths.filters')}
         </Button>
 
         {showFilters && (
           <Animated animation="fadeInDown" className={styles.filterOptions}>
             <div className={styles.filterGroup}>
-              <Text variant="label" color="muted">Type</Text>
+              <Text variant="label" color="muted">{t('paths.filterType')}</Text>
               <div className={styles.filterButtons}>
                 {(['all', 'linear', 'topic'] as PathType[]).map((type) => (
                   <button
@@ -121,13 +142,13 @@ export default function PathsPage() {
                     className={`${styles.filterButton} ${typeFilter === type ? styles.active : ''}`}
                     onClick={() => setTypeFilter(type)}
                   >
-                    {type === 'all' ? 'All' : type === 'linear' ? 'JLPT Path' : 'Topics'}
+                    {t(`paths.types.${type}`)}
                   </button>
                 ))}
               </div>
             </div>
             <div className={styles.filterGroup}>
-              <Text variant="label" color="muted">Difficulty</Text>
+              <Text variant="label" color="muted">{t('paths.filterDifficulty')}</Text>
               <div className={styles.filterButtons}>
                 {(['all', 'beginner', 'intermediate', 'advanced'] as DifficultyFilter[]).map((diff) => (
                   <button
@@ -135,7 +156,7 @@ export default function PathsPage() {
                     className={`${styles.filterButton} ${difficultyFilter === diff ? styles.active : ''}`}
                     onClick={() => setDifficultyFilter(diff)}
                   >
-                    {diff.charAt(0).toUpperCase() + diff.slice(1)}
+                    {t(`paths.difficulty.${diff}`)}
                   </button>
                 ))}
               </div>
@@ -149,7 +170,7 @@ export default function PathsPage() {
         <section className={styles.section}>
           <div className={styles.sectionHeader}>
             <IoSparkles className={styles.sectionIcon} />
-            <Text variant="h2">Your Personalized Path</Text>
+            <Text variant="h2">{t('paths.personalizedPath')}</Text>
           </div>
           <Card variant="glass" className={styles.adaptiveCard}>
             <div className={styles.adaptiveHeader}>
@@ -157,33 +178,33 @@ export default function PathsPage() {
                 <IoRocket />
               </div>
               <div className={styles.adaptiveInfo}>
-                <Text variant="h3">AI-Powered Recommendations</Text>
+                <Text variant="h3">{t('paths.aiRecommendations')}</Text>
                 <Text variant="body" color="muted">
-                  Tailored to your learning patterns and goals
+                  {t('paths.tailoredToYou')}
                 </Text>
               </div>
             </div>
             <div className={styles.adaptiveContent}>
               <Text variant="body" className={styles.adaptiveRationale}>
-                {adaptiveRecommendations.rationale}
+                {translateRationale(adaptiveRecommendations.rationale, t)}
               </Text>
               <div className={styles.adaptiveStats}>
                 <div className={styles.adaptiveStat}>
                   <Text variant="h3" color="gold">{adaptiveRecommendations.dailyGoalMinutes}</Text>
-                  <Text variant="label" color="muted">min/day</Text>
+                  <Text variant="label" color="muted">{t('paths.minPerDay')}</Text>
                 </div>
                 <div className={styles.adaptiveStat}>
                   <Text variant="h3" color="gold">{adaptiveRecommendations.weeklyGoal.newItems}</Text>
-                  <Text variant="label" color="muted">new/week</Text>
+                  <Text variant="label" color="muted">{t('paths.newPerWeek')}</Text>
                 </div>
                 <div className={styles.adaptiveStat}>
                   <Text variant="h3" color="gold">{adaptiveRecommendations.suggestedPace}</Text>
-                  <Text variant="label" color="muted">pace</Text>
+                  <Text variant="label" color="muted">{t('paths.pace')}</Text>
                 </div>
               </div>
               {adaptiveRecommendations.focusAreas.length > 0 && (
                 <div className={styles.focusAreas}>
-                  <Text variant="label" color="muted">Focus Areas:</Text>
+                  <Text variant="label" color="muted">{t('paths.focusAreas')}</Text>
                   <div className={styles.focusTags}>
                     {adaptiveRecommendations.focusAreas.slice(0, 3).map((area, idx) => (
                       <span key={idx} className={styles.focusTag}>
@@ -196,7 +217,7 @@ export default function PathsPage() {
             </div>
             <Link href="/review" className={styles.adaptiveAction}>
               <Button>
-                <IoPlay /> Start Learning
+                <IoPlay /> {t('paths.startLearning')}
               </Button>
             </Link>
           </Card>
@@ -208,7 +229,7 @@ export default function PathsPage() {
         <section className={styles.section}>
           <div className={styles.sectionHeader}>
             <IoSchool className={styles.sectionIcon} />
-            <Text variant="h2">Structured Paths</Text>
+            <Text variant="h2">{t('paths.structuredPaths')}</Text>
           </div>
           <div className={styles.pathsGrid}>
             {linearPaths.map((path) => {
@@ -220,9 +241,9 @@ export default function PathsPage() {
                       {PATH_ICONS[path.pathId] || <IoSchool />}
                     </div>
                     <div className={styles.pathContent}>
-                      <Text variant="h3">{path.name}</Text>
+                      <Text variant="h3">{getText((path as { nameTranslations?: Record<string, string> }).nameTranslations, path.name)}</Text>
                       <Text variant="body" color="muted" className={styles.pathDescription}>
-                        {path.description}
+                        {getText((path as { descriptionTranslations?: Record<string, string> }).descriptionTranslations, path.description)}
                       </Text>
                       <div className={styles.pathProgress}>
                         <div
@@ -241,7 +262,7 @@ export default function PathsPage() {
                     </div>
                     {enrolled && (
                       <div className={styles.enrolledBadge}>
-                        <IoCheckmarkCircle /> Enrolled
+                        <IoCheckmarkCircle /> {t('paths.enrolled')}
                       </div>
                     )}
                   </Card>
@@ -257,7 +278,7 @@ export default function PathsPage() {
         <section className={styles.section}>
           <div className={styles.sectionHeader}>
             <IoRocket className={styles.sectionIcon} />
-            <Text variant="h2">Topic Tracks</Text>
+            <Text variant="h2">{t('paths.topicTracks')}</Text>
           </div>
           <div className={styles.topicGrid}>
             {topicPaths.map((path) => {
@@ -282,9 +303,9 @@ export default function PathsPage() {
                         </div>
                       )}
                     </div>
-                    <Text variant="h3" className={styles.topicTitle}>{path.name}</Text>
+                    <Text variant="h3" className={styles.topicTitle}>{getText((path as { nameTranslations?: Record<string, string> }).nameTranslations, path.name)}</Text>
                     <Text variant="caption" color="muted" className={styles.topicDescription}>
-                      {path.description}
+                      {getText((path as { descriptionTranslations?: Record<string, string> }).descriptionTranslations, path.description)}
                     </Text>
                     <div className={styles.topicProgress}>
                       <div
@@ -310,13 +331,13 @@ export default function PathsPage() {
                     {enrolled && !isLocked && (
                       <div className={styles.topicProgress}>
                         <Text variant="caption" color="gold">
-                          {path.percentComplete}% complete
+                          {t('paths.percentComplete', { percent: path.percentComplete })}
                         </Text>
                       </div>
                     )}
                     {isLocked && prereqs.missing.length > 0 && (
                       <Text variant="caption" color="muted" className={styles.prereqText}>
-                        Requires: {prereqs.missing[0]}
+                        {t('paths.requires', { item: prereqs.missing[0] })}
                       </Text>
                     )}
                   </Card>
@@ -331,9 +352,9 @@ export default function PathsPage() {
       {!hasPathsData && !isLoading && (
         <Card variant="glass" className={styles.emptyState}>
           <IoSparkles style={{ fontSize: '3rem', color: 'var(--accent-gold)', marginBottom: '1rem' }} />
-          <Text variant="h3" color="muted">No Learning Paths Yet</Text>
+          <Text variant="h3" color="muted">{t('paths.noPathsYet')}</Text>
           <Text variant="body" color="muted" style={{ marginTop: '0.5rem', maxWidth: '400px', textAlign: 'center' }}>
-            Learning paths for this language are coming soon. Generate curriculum in the admin panel to create structured learning paths.
+            {t('paths.noPathsDescription')}
           </Text>
         </Card>
       )}
@@ -341,12 +362,12 @@ export default function PathsPage() {
       {/* Empty State - No matches */}
       {hasPathsData && filteredPaths.length === 0 && (
         <Card variant="glass" className={styles.emptyState}>
-          <Text variant="h3" color="muted">No paths match your filters</Text>
+          <Text variant="h3" color="muted">{t('paths.noMatchingPaths')}</Text>
           <Button variant="ghost" onClick={() => {
             setTypeFilter('all');
             setDifficultyFilter('all');
           }}>
-            Clear Filters
+            {t('paths.clearFilters')}
           </Button>
         </Card>
       )}
@@ -354,7 +375,7 @@ export default function PathsPage() {
       {/* Back to Dashboard */}
       <div className={styles.backLink}>
         <Button variant="ghost" onClick={() => window.history.back()}>
-          Back to Dashboard
+          {t('common.back')}
         </Button>
       </div>
     </Container>
