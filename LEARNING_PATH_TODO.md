@@ -189,40 +189,40 @@ Building a freedom-first guided learning system that provides intelligent recomm
 ## Next Steps (Post-MVP)
 
 ### Multi-Language Module Refactoring (Priority)
-- [ ] Refactor `alphabet/page.tsx` to load data dynamically based on target language
-- [ ] Add Korean-specific filters to alphabet page (consonant, vowel, double_consonant, compound_vowel)
-- [ ] Refactor `kanji/page.tsx` to load data dynamically based on target language
-- [ ] Add Chinese-specific features to kanji page (HSK levels, pinyin instead of onyomi/kunyomi)
-- [ ] Update translations for language-aware module descriptions
+- [x] Refactor `alphabet/page.tsx` to load data dynamically based on target language
+- [x] Add Korean-specific filters to alphabet page (consonant, vowel, double_consonant, compound_vowel)
+- [x] Refactor `kanji/page.tsx` to load data dynamically based on target language
+- [x] Add Chinese-specific features to kanji page (HSK levels, pinyin instead of onyomi/kunyomi)
+- [x] Update translations for language-aware module descriptions
 
 ### Language Data Creation
 **Korean:**
-- [ ] Create Korean vocabulary data (`src/data/ko/vocabulary.json`)
-- [ ] Create Korean grammar data (`src/data/ko/grammar.json`)
-- [ ] Create Korean reading data (`src/data/ko/readings.json`)
-- [ ] Create Korean listening data (`src/data/ko/listening.json`)
+- [x] Create Korean vocabulary data (`src/data/ko/vocabulary.json`)
+- [x] Create Korean grammar data (`src/data/ko/grammar.json`)
+- [x] Create Korean reading data (`src/data/ko/readings.json`)
+- [x] Create Korean listening data (`src/data/ko/listening.json`)
 - [x] Hangul characters created (`src/data/ko/characters.json` - 40 chars)
 
 **Chinese:**
-- [ ] Create Chinese vocabulary data (`src/data/zh/vocabulary.json`)
-- [ ] Create Chinese grammar data (`src/data/zh/grammar.json`)
-- [ ] Create Chinese reading data (`src/data/zh/readings.json`)
-- [ ] Create Chinese listening data (`src/data/zh/listening.json`)
-- [ ] Expand Chinese Hanzi data (more HSK1-HSK2 characters)
+- [x] Create Chinese vocabulary data (`src/data/zh/vocabulary.json`)
+- [x] Create Chinese grammar data (`src/data/zh/grammar.json`)
+- [x] Create Chinese reading data (`src/data/zh/readings.json`)
+- [x] Create Chinese listening data (`src/data/zh/listening.json`)
+- [x] Expand Chinese Hanzi data (more HSK1-HSK2 characters)
 - [x] Basic Hanzi created (`src/data/zh/hanzi.json` - 10 HSK1 chars)
 
 **Other Languages:**
-- [ ] Create German complete data set
-- [ ] Create English complete data set (for non-native speakers)
-- [ ] Create Italian complete data set
+- [x] Create German complete data set
+- [x] Create English complete data set (for non-native speakers)
+- [x] Create Italian complete data set
 
 ### General
-- [ ] Add Learning Companion to root layout
-- [ ] Add dashboard widgets to main dashboard page
-- [ ] Generate Spanish TTS audio files
-- [ ] Implement notification system
-- [ ] Add social features (leaderboards, groups)
-- [ ] Add gamification (XP, badges, achievements)
+- [x] Add Learning Companion to root layout
+- [x] Add dashboard widgets to main dashboard page
+- [x] Generate Spanish TTS audio files
+- [x] Implement notification system
+- [x] Add social features (leaderboards, groups)
+- [x] Add gamification (XP, badges, achievements)
 
 ---
 

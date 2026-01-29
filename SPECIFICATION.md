@@ -1237,15 +1237,15 @@ All themes MUST maintain:
 
 ### Testing Checklist Per Theme
 
-- [ ] All text readable at minimum contrast ratios
-- [ ] Buttons and interactive elements clearly visible
-- [ ] Success/error states distinguishable
-- [ ] Theme persists across page navigation
-- [ ] Smooth transition when switching languages
-- [ ] Background decoration renders correctly
-- [ ] Fonts load without FOUT (flash of unstyled text)
-- [ ] Mobile responsive at all breakpoints
-- [ ] Dark mode consistency maintained
+- [x] All text readable at minimum contrast ratios
+- [x] Buttons and interactive elements clearly visible
+- [x] Success/error states distinguishable
+- [x] Theme persists across page navigation
+- [x] Smooth transition when switching languages
+- [x] Background decoration renders correctly
+- [x] Fonts load without FOUT (flash of unstyled text)
+- [x] Mobile responsive at all breakpoints
+- [x] Dark mode consistency maintained
 
 ---
 

@@ -354,15 +354,15 @@ export interface PathProgress {
 ```
 
 **Checklist - 1.1 Types:**
-- [ ] Create `src/types/curriculum.ts` with all interfaces
-- [ ] Create `src/types/exercises.ts` for exercise-specific types
-- [ ] Create `src/types/gamification.ts` for XP/streak/achievement types
-- [ ] Update `src/types/index.ts` to export new types
-- [ ] Add `lessonId` field to existing `VocabularyItem` interface
-- [ ] Add `lessonId` field to existing `GrammarItem` interface
-- [ ] Add `lessonId` field to existing `KanjiItem` interface
-- [ ] Add `lessonId` field to existing `ReadingItem` interface
-- [ ] Run `npx tsc --noEmit` to verify no type errors
+- [x] Create `src/types/curriculum.ts` with all interfaces
+- [x] Create `src/types/exercises.ts` for exercise-specific types
+- [x] Create `src/types/gamification.ts` for XP/streak/achievement types
+- [x] Update `src/types/index.ts` to export new types
+- [x] Add `lessonId` field to existing `VocabularyItem` interface
+- [x] Add `lessonId` field to existing `GrammarItem` interface
+- [x] Add `lessonId` field to existing `KanjiItem` interface
+- [x] Add `lessonId` field to existing `ReadingItem` interface
+- [x] Run `npx tsc --noEmit` to verify no type errors
 
 ---
 
@@ -539,11 +539,11 @@ export interface Challenge {
 ```
 
 **Checklist - 1.2 Gamification Types:**
-- [ ] Create `src/types/gamification.ts` with all interfaces
-- [ ] Define XP constants in config file
-- [ ] Define all achievements with requirements
-- [ ] Add achievements JSON data file
-- [ ] Export types from `src/types/index.ts`
+- [x] Create `src/types/gamification.ts` with all interfaces
+- [x] Define XP constants in config file
+- [x] Define all achievements with requirements
+- [x] Add achievements JSON data file
+- [x] Export types from `src/types/index.ts`
 
 ---
 
@@ -635,18 +635,18 @@ export interface Challenge {
 ```
 
 **Checklist - 1.3 Curriculum Data:**
-- [ ] Create `src/data/ja/curriculum.json` with full N5 curriculum
-- [ ] Create `src/data/ko/curriculum.json` for Korean
-- [ ] Create `src/data/zh/curriculum.json` for Chinese
-- [ ] Create `src/data/es/curriculum.json` for Spanish
-- [ ] Create `src/data/de/curriculum.json` for German
-- [ ] Create `src/data/en/curriculum.json` for English
-- [ ] Create `src/data/it/curriculum.json` for Italian
-- [ ] Update existing `vocabulary.json` files to add `lessonId` field
-- [ ] Update existing `grammar.json` files to add `lessonId` field
-- [ ] Update existing `kanji.json` / `hanzi.json` to add `lessonId` field
-- [ ] Create validation script for curriculum JSON structure
-- [ ] Run validation on all curriculum files
+- [x] Create `src/data/ja/curriculum.json` with full N5 curriculum
+- [x] Create `src/data/ko/curriculum.json` for Korean
+- [x] Create `src/data/zh/curriculum.json` for Chinese
+- [x] Create `src/data/es/curriculum.json` for Spanish
+- [x] Create `src/data/de/curriculum.json` for German
+- [x] Create `src/data/en/curriculum.json` for English
+- [x] Create `src/data/it/curriculum.json` for Italian
+- [x] Update existing `vocabulary.json` files to add `lessonId` field
+- [x] Update existing `grammar.json` files to add `lessonId` field
+- [x] Update existing `kanji.json` / `hanzi.json` to add `lessonId` field
+- [x] Create validation script for curriculum JSON structure
+- [x] Run validation on all curriculum files
 
 ---
 
@@ -816,14 +816,14 @@ reviewQueue: defineTable({
 ```
 
 **Checklist - 1.4 Schema Updates:**
-- [ ] Add `pathProgress` table to schema
-- [ ] Add `gamification` table to schema
-- [ ] Add `weeklyReports` table to schema
-- [ ] Add `lessonSessions` table to schema
-- [ ] Add `reviewQueue` table to schema
-- [ ] Create indexes for efficient queries
-- [ ] Run `npx convex dev` to deploy schema
-- [ ] Verify all tables created in Convex dashboard
+- [x] Add `pathProgress` table to schema
+- [x] Add `gamification` table to schema
+- [x] Add `weeklyReports` table to schema
+- [x] Add `lessonSessions` table to schema
+- [x] Add `reviewQueue` table to schema
+- [x] Create indexes for efficient queries
+- [x] Run `npx convex dev` to deploy schema
+- [x] Verify all tables created in Convex dashboard
 
 ---
 
@@ -881,14 +881,14 @@ export const bulkUpdateReviews = mutation({...});
 ```
 
 **Checklist - 1.5 Convex Functions:**
-- [ ] Create `convex/pathProgress.js` with all queries/mutations
-- [ ] Create `convex/gamification.js` with all queries/mutations
-- [ ] Create `convex/reviewQueue.js` with all queries/mutations
-- [ ] Create `convex/weeklyReports.js` for report generation
-- [ ] Create `convex/lessonSessions.js` for session tracking
-- [ ] Add proper validators for all arguments
-- [ ] Add authentication checks to all functions
-- [ ] Test all endpoints in Convex dashboard
+- [x] Create `convex/pathProgress.js` with all queries/mutations
+- [x] Create `convex/gamification.js` with all queries/mutations
+- [x] Create `convex/reviewQueue.js` with all queries/mutations
+- [x] Create `convex/weeklyReports.js` for report generation
+- [x] Create `convex/lessonSessions.js` for session tracking
+- [x] Add proper validators for all arguments
+- [x] Add authentication checks to all functions
+- [x] Test all endpoints in Convex dashboard
 
 ---
 
@@ -927,33 +927,33 @@ export function useReviewQueue() {
 ```
 
 **Checklist - 1.6 Hooks:**
-- [ ] Create `src/hooks/useCurriculum.ts`
-- [ ] Create `src/hooks/useLessonProgress.ts`
-- [ ] Create `src/hooks/useGamification.ts`
-- [ ] Create `src/hooks/useReviewQueue.ts`
-- [ ] Create `src/hooks/useWeeklyReport.ts`
-- [ ] Create `src/hooks/useAchievements.ts`
-- [ ] Update `src/hooks/index.ts` to export new hooks
-- [ ] Add proper TypeScript types to all hooks
-- [ ] Add error handling and loading states
-- [ ] Test hooks in isolation
+- [x] Create `src/hooks/useCurriculum.ts`
+- [x] Create `src/hooks/useLessonProgress.ts`
+- [x] Create `src/hooks/useGamification.ts`
+- [x] Create `src/hooks/useReviewQueue.ts`
+- [x] Create `src/hooks/useWeeklyReport.ts`
+- [x] Create `src/hooks/useAchievements.ts`
+- [x] Update `src/hooks/index.ts` to export new hooks
+- [x] Add proper TypeScript types to all hooks
+- [x] Add error handling and loading states
+- [x] Test hooks in isolation
 
 ---
 
 ### 1.7 Update Existing Data Files
 
 **Checklist - 1.7 Data Migration:**
-- [ ] Add `lessonId` field to all items in `ja/vocabulary.json`
-- [ ] Add `lessonId` field to all items in `ja/grammar.json`
-- [ ] Add `lessonId` field to all items in `ja/kanji.json`
-- [ ] Repeat for Korean data files
-- [ ] Repeat for Chinese data files
-- [ ] Repeat for Spanish data files
-- [ ] Repeat for German data files
-- [ ] Repeat for English data files
-- [ ] Repeat for Italian data files
-- [ ] Create script to validate lessonId references
-- [ ] Run validation script on all data files
+- [x] Add `lessonId` field to all items in `ja/vocabulary.json`
+- [x] Add `lessonId` field to all items in `ja/grammar.json`
+- [x] Add `lessonId` field to all items in `ja/kanji.json`
+- [x] Repeat for Korean data files
+- [x] Repeat for Chinese data files
+- [x] Repeat for Spanish data files
+- [x] Repeat for German data files
+- [x] Repeat for English data files
+- [x] Repeat for Italian data files
+- [x] Create script to validate lessonId references
+- [x] Run validation script on all data files
 
 ---
 
@@ -969,14 +969,14 @@ Path selection/overview page showing:
 - Path selection UI
 
 **Checklist - 2.1.1 Paths Page:**
-- [ ] Create `src/app/paths/page.tsx`
-- [ ] Create `src/app/paths/paths.module.css`
-- [ ] Implement path cards with progress indicators
-- [ ] Add enrollment flow
-- [ ] Add language-specific path filtering
-- [ ] Wrap in ErrorBoundary and LanguageContentGuard
-- [ ] Add accessibility (keyboard nav, focus states)
-- [ ] Test on mobile (320px minimum)
+- [x] Create `src/app/paths/page.tsx`
+- [x] Create `src/app/paths/paths.module.css`
+- [x] Implement path cards with progress indicators
+- [x] Add enrollment flow
+- [x] Add language-specific path filtering
+- [x] Wrap in ErrorBoundary and LanguageContentGuard
+- [x] Add accessibility (keyboard nav, focus states)
+- [x] Test on mobile (320px minimum)
 
 **File:** `src/app/paths/[pathId]/page.tsx` (NEW)
 
@@ -987,13 +987,13 @@ Path detail page showing:
 - Unit test access
 
 **Checklist - 2.1.2 Path Detail Page:**
-- [ ] Create `src/app/paths/[pathId]/page.tsx`
-- [ ] Create dynamic route handling
-- [ ] Implement unit accordion/list
-- [ ] Show lesson cards per unit
-- [ ] Add "Continue Learning" button
-- [ ] Add unit test integration
-- [ ] Handle locked/unlocked states visually
+- [x] Create `src/app/paths/[pathId]/page.tsx`
+- [x] Create dynamic route handling
+- [x] Implement unit accordion/list
+- [x] Show lesson cards per unit
+- [x] Add "Continue Learning" button
+- [x] Add unit test integration
+- [x] Handle locked/unlocked states visually
 
 **File:** `src/app/paths/[pathId]/[lessonId]/page.tsx` (NEW)
 
@@ -1004,16 +1004,16 @@ The core lesson experience page:
 - Summary screen
 
 **Checklist - 2.1.3 Lesson Page:**
-- [ ] Create `src/app/paths/[pathId]/[lessonId]/page.tsx`
-- [ ] Implement lesson flow state machine
-- [ ] Create introduction screen component
-- [ ] Create content card components
-- [ ] Integrate exercise components
-- [ ] Create summary screen component
-- [ ] Add progress bar
-- [ ] Add pause/exit functionality
-- [ ] Handle lesson completion
-- [ ] Award XP on completion
+- [x] Create `src/app/paths/[pathId]/[lessonId]/page.tsx`
+- [x] Implement lesson flow state machine
+- [x] Create introduction screen component
+- [x] Create content card components
+- [x] Integrate exercise components
+- [x] Create summary screen component
+- [x] Add progress bar
+- [x] Add pause/exit functionality
+- [x] Handle lesson completion
+- [x] Award XP on completion
 
 ---
 
@@ -1035,13 +1035,13 @@ interface LessonViewProps {
 ```
 
 **Checklist - 2.2.1 LessonView:**
-- [ ] Create `src/components/lesson/LessonView.tsx`
-- [ ] Create `src/components/lesson/LessonView.module.css`
-- [ ] Implement flow state machine (intro/content/exercises/summary)
-- [ ] Add progress persistence (save on each step)
-- [ ] Add exit confirmation modal
-- [ ] Handle pause functionality
-- [ ] Add animations between steps
+- [x] Create `src/components/lesson/LessonView.tsx`
+- [x] Create `src/components/lesson/LessonView.module.css`
+- [x] Implement flow state machine (intro/content/exercises/summary)
+- [x] Add progress persistence (save on each step)
+- [x] Add exit confirmation modal
+- [x] Handle pause functionality
+- [x] Add animations between steps
 
 **File:** `src/components/lesson/LessonIntro.tsx` (NEW)
 
@@ -1052,11 +1052,11 @@ Introduction screen showing:
 - Start button
 
 **Checklist - 2.2.2 LessonIntro:**
-- [ ] Create `src/components/lesson/LessonIntro.tsx`
-- [ ] Display lesson metadata
-- [ ] Show learning objectives
-- [ ] Add "Start Lesson" button
-- [ ] Add animations (fade in)
+- [x] Create `src/components/lesson/LessonIntro.tsx`
+- [x] Display lesson metadata
+- [x] Show learning objectives
+- [x] Add "Start Lesson" button
+- [x] Add animations (fade in)
 
 **File:** `src/components/lesson/LessonCard.tsx` (NEW)
 
@@ -1074,13 +1074,13 @@ interface LessonCardProps {
 ```
 
 **Checklist - 2.2.3 LessonCard:**
-- [ ] Create `src/components/lesson/LessonCard.tsx`
-- [ ] Create variant for character content
-- [ ] Create variant for vocabulary content
-- [ ] Create variant for grammar content
-- [ ] Add TTS integration
-- [ ] Add "I know this" skip option
-- [ ] Add swipe gestures for mobile
+- [x] Create `src/components/lesson/LessonCard.tsx`
+- [x] Create variant for character content
+- [x] Create variant for vocabulary content
+- [x] Create variant for grammar content
+- [x] Add TTS integration
+- [x] Add "I know this" skip option
+- [x] Add swipe gestures for mobile
 
 **File:** `src/components/lesson/LessonSummary.tsx` (NEW)
 
@@ -1091,12 +1091,12 @@ Summary screen showing:
 - Next lesson preview
 
 **Checklist - 2.2.4 LessonSummary:**
-- [ ] Create `src/components/lesson/LessonSummary.tsx`
-- [ ] Display lesson results
-- [ ] Show XP animation
-- [ ] Show items learned list
-- [ ] Add "Continue" and "Review" buttons
-- [ ] Add share functionality (optional)
+- [x] Create `src/components/lesson/LessonSummary.tsx`
+- [x] Display lesson results
+- [x] Show XP animation
+- [x] Show items learned list
+- [x] Add "Continue" and "Review" buttons
+- [x] Add share functionality (optional)
 
 **File:** `src/components/lesson/LessonProgress.tsx` (NEW)
 
@@ -1106,18 +1106,18 @@ Progress indicator showing:
 - Time elapsed (optional)
 
 **Checklist - 2.2.5 LessonProgress:**
-- [ ] Create `src/components/lesson/LessonProgress.tsx`
-- [ ] Implement progress bar
-- [ ] Show section labels
-- [ ] Add animation on progress update
+- [x] Create `src/components/lesson/LessonProgress.tsx`
+- [x] Implement progress bar
+- [x] Show section labels
+- [x] Add animation on progress update
 
 **File:** `src/components/lesson/index.ts` (NEW)
 
 Barrel export for all lesson components.
 
 **Checklist - 2.2.6 Index:**
-- [ ] Create `src/components/lesson/index.ts`
-- [ ] Export all lesson components
+- [x] Create `src/components/lesson/index.ts`
+- [x] Export all lesson components
 
 ---
 
@@ -1133,12 +1133,12 @@ Character learning card with:
 - Mnemonic/memory tip
 
 **Checklist - 2.3.1 CharacterLesson:**
-- [ ] Create or enhance `src/components/lesson/CharacterLesson.tsx`
-- [ ] Add stroke order SVG animation
-- [ ] Add drawing practice canvas (optional)
-- [ ] Integrate with useTTS hook
-- [ ] Add mnemonic display
-- [ ] Handle both hiragana and kanji
+- [x] Create or enhance `src/components/lesson/CharacterLesson.tsx`
+- [x] Add stroke order SVG animation
+- [x] Add drawing practice canvas (optional)
+- [x] Integrate with useTTS hook
+- [x] Add mnemonic display
+- [x] Handle both hiragana and kanji
 
 **File:** `src/components/lesson/VocabularyLesson.tsx` (NEW)
 
@@ -1150,12 +1150,12 @@ Vocabulary learning card with:
 - TTS button
 
 **Checklist - 2.3.2 VocabularyLesson:**
-- [ ] Create `src/components/lesson/VocabularyLesson.tsx`
-- [ ] Display word with reading
-- [ ] Show meaning with UI language translation
-- [ ] Display example sentences
-- [ ] Add TTS for word and examples
-- [ ] Add context/usage notes
+- [x] Create `src/components/lesson/VocabularyLesson.tsx`
+- [x] Display word with reading
+- [x] Show meaning with UI language translation
+- [x] Display example sentences
+- [x] Add TTS for word and examples
+- [x] Add context/usage notes
 
 **File:** `src/components/lesson/GrammarLesson.tsx` (NEW)
 
@@ -1166,12 +1166,12 @@ Grammar learning card with:
 - Usage notes
 
 **Checklist - 2.3.3 GrammarLesson:**
-- [ ] Create `src/components/lesson/GrammarLesson.tsx`
-- [ ] Display grammar title
-- [ ] Show explanation with translations
-- [ ] Display example sentences
-- [ ] Add TTS for examples
-- [ ] Add "See more" for extended examples
+- [x] Create `src/components/lesson/GrammarLesson.tsx`
+- [x] Display grammar title
+- [x] Show explanation with translations
+- [x] Display example sentences
+- [x] Add TTS for examples
+- [x] Add "See more" for extended examples
 
 ---
 
@@ -1183,14 +1183,14 @@ INTRO → CONTENT_1 → CONTENT_2 → ... → EXERCISE_1 → EXERCISE_2 → ... 
 ```
 
 **Checklist - 2.4 Lesson Flow:**
-- [ ] Implement lesson state machine
-- [ ] Handle forward navigation
-- [ ] Handle back navigation (if allowed)
-- [ ] Persist state to localStorage
-- [ ] Resume from saved state
-- [ ] Handle exit mid-lesson
-- [ ] Calculate and save results
-- [ ] Trigger XP award on completion
+- [x] Implement lesson state machine
+- [x] Handle forward navigation
+- [x] Handle back navigation (if allowed)
+- [x] Persist state to localStorage
+- [x] Resume from saved state
+- [x] Handle exit mid-lesson
+- [x] Calculate and save results
+- [x] Trigger XP award on completion
 
 ---
 
@@ -1220,13 +1220,13 @@ export function calculateLevelFromXP(totalXP: number): UserLevel {...}
 ```
 
 **Checklist - 3.1 XP System:**
-- [ ] Create `src/lib/xp.ts` with XP calculation functions
-- [ ] Define XP_CONFIG constants
-- [ ] Implement `calculateLessonXP()`
-- [ ] Implement `calculateReviewXP()`
-- [ ] Implement `calculateLevelFromXP()`
-- [ ] Create XP breakdown function
-- [ ] Add XP history tracking
+- [x] Create `src/lib/xp.ts` with XP calculation functions
+- [x] Define XP_CONFIG constants
+- [x] Implement `calculateLessonXP()`
+- [x] Implement `calculateReviewXP()`
+- [x] Implement `calculateLevelFromXP()`
+- [x] Create XP breakdown function
+- [x] Add XP history tracking
 
 ---
 
@@ -1244,12 +1244,12 @@ export function useStreakFreeze(streakData: StreakData): StreakData {...}
 ```
 
 **Checklist - 3.2 Streak System:**
-- [ ] Create `src/lib/streak.ts`
-- [ ] Implement streak check logic
-- [ ] Implement streak freeze logic
-- [ ] Handle timezone considerations
-- [ ] Add streak recovery window (12-hour grace period)
-- [ ] Integrate with daily goal completion
+- [x] Create `src/lib/streak.ts`
+- [x] Implement streak check logic
+- [x] Implement streak freeze logic
+- [x] Handle timezone considerations
+- [x] Add streak recovery window (12-hour grace period)
+- [x] Integrate with daily goal completion
 
 ---
 
@@ -1263,11 +1263,11 @@ Daily goal configuration UI:
 - Confirmation on change
 
 **Checklist - 3.3.1 DailyGoalSelector:**
-- [ ] Create `src/components/gamification/DailyGoalSelector.tsx`
-- [ ] Display goal options as cards
-- [ ] Show current selection
-- [ ] Add change confirmation
-- [ ] Persist to settings
+- [x] Create `src/components/gamification/DailyGoalSelector.tsx`
+- [x] Display goal options as cards
+- [x] Show current selection
+- [x] Add change confirmation
+- [x] Persist to settings
 
 **File:** `src/components/gamification/DailyGoalProgress.tsx` (NEW)
 
@@ -1277,11 +1277,11 @@ Daily goal progress display:
 - Celebration on completion
 
 **Checklist - 3.3.2 DailyGoalProgress:**
-- [ ] Create `src/components/gamification/DailyGoalProgress.tsx`
-- [ ] Display circular progress
-- [ ] Show minutes/lessons completed
-- [ ] Add completion animation
-- [ ] Add celebration effect
+- [x] Create `src/components/gamification/DailyGoalProgress.tsx`
+- [x] Display circular progress
+- [x] Show minutes/lessons completed
+- [x] Add completion animation
+- [x] Add celebration effect
 
 ---
 
@@ -1320,15 +1320,15 @@ Achievement definitions:
 ```
 
 **Checklist - 3.4.1 Achievement Data:**
-- [ ] Create `src/data/achievements.json`
-- [ ] Define streak achievements (3, 7, 14, 30, 60, 100, 365 days)
-- [ ] Define lesson achievements (1, 10, 50, 100, 500 lessons)
-- [ ] Define vocabulary achievements (10, 50, 100, 500, 1000 words)
-- [ ] Define kanji achievements (10, 50, 100, 500 kanji)
-- [ ] Define review achievements (100, 500, 1000, 5000 reviews)
-- [ ] Define time achievements (1hr, 10hr, 50hr, 100hr)
-- [ ] Define milestone achievements (complete N5, complete path, etc.)
-- [ ] Define special achievements (first lesson, perfect score, etc.)
+- [x] Create `src/data/achievements.json`
+- [x] Define streak achievements (3, 7, 14, 30, 60, 100, 365 days)
+- [x] Define lesson achievements (1, 10, 50, 100, 500 lessons)
+- [x] Define vocabulary achievements (10, 50, 100, 500, 1000 words)
+- [x] Define kanji achievements (10, 50, 100, 500 kanji)
+- [x] Define review achievements (100, 500, 1000, 5000 reviews)
+- [x] Define time achievements (1hr, 10hr, 50hr, 100hr)
+- [x] Define milestone achievements (complete N5, complete path, etc.)
+- [x] Define special achievements (first lesson, perfect score, etc.)
 
 **File:** `src/components/gamification/AchievementCard.tsx` (NEW)
 
@@ -1340,12 +1340,12 @@ Achievement display card:
 - Rarity indicator
 
 **Checklist - 3.4.2 AchievementCard:**
-- [ ] Create `src/components/gamification/AchievementCard.tsx`
-- [ ] Display achievement icon
-- [ ] Show title and description
-- [ ] Display XP reward
-- [ ] Show locked/unlocked state
-- [ ] Add rarity color coding
+- [x] Create `src/components/gamification/AchievementCard.tsx`
+- [x] Display achievement icon
+- [x] Show title and description
+- [x] Display XP reward
+- [x] Show locked/unlocked state
+- [x] Add rarity color coding
 
 **File:** `src/components/gamification/AchievementUnlock.tsx` (NEW)
 
@@ -1355,12 +1355,12 @@ Achievement unlock celebration:
 - XP award display
 
 **Checklist - 3.4.3 AchievementUnlock:**
-- [ ] Create `src/components/gamification/AchievementUnlock.tsx`
-- [ ] Create celebration animation
-- [ ] Display achievement details
-- [ ] Show XP earned
-- [ ] Add share button (optional)
-- [ ] Auto-dismiss after delay
+- [x] Create `src/components/gamification/AchievementUnlock.tsx`
+- [x] Create celebration animation
+- [x] Display achievement details
+- [x] Show XP earned
+- [x] Add share button (optional)
+- [x] Auto-dismiss after delay
 
 **File:** `src/components/gamification/AchievementGrid.tsx` (NEW)
 
@@ -1370,11 +1370,11 @@ Achievement gallery:
 - Progress indicators
 
 **Checklist - 3.4.4 AchievementGrid:**
-- [ ] Create `src/components/gamification/AchievementGrid.tsx`
-- [ ] Display achievements by category
-- [ ] Add filter tabs
-- [ ] Show progress for incomplete achievements
-- [ ] Handle empty states
+- [x] Create `src/components/gamification/AchievementGrid.tsx`
+- [x] Display achievements by category
+- [x] Add filter tabs
+- [x] Show progress for incomplete achievements
+- [x] Handle empty states
 
 ---
 
@@ -1388,11 +1388,11 @@ XP and level progress bar:
 - Recent XP gains
 
 **Checklist - 3.5.1 XPBar:**
-- [ ] Create `src/components/gamification/XPBar.tsx`
-- [ ] Display current level
-- [ ] Show XP progress bar
-- [ ] Add animation on XP gain
-- [ ] Show level title
+- [x] Create `src/components/gamification/XPBar.tsx`
+- [x] Display current level
+- [x] Show XP progress bar
+- [x] Add animation on XP gain
+- [x] Show level title
 
 **File:** `src/components/gamification/XPGain.tsx` (NEW)
 
@@ -1401,10 +1401,10 @@ Floating XP gain indicator:
 - Floats up and fades
 
 **Checklist - 3.5.2 XPGain:**
-- [ ] Create `src/components/gamification/XPGain.tsx`
-- [ ] Implement floating animation
-- [ ] Support multiple simultaneous gains
-- [ ] Add sound effect (optional)
+- [x] Create `src/components/gamification/XPGain.tsx`
+- [x] Implement floating animation
+- [x] Support multiple simultaneous gains
+- [x] Add sound effect (optional)
 
 **File:** `src/components/gamification/LevelUpCelebration.tsx` (NEW)
 
@@ -1414,11 +1414,11 @@ Level up celebration:
 - New level display
 
 **Checklist - 3.5.3 LevelUpCelebration:**
-- [ ] Create `src/components/gamification/LevelUpCelebration.tsx`
-- [ ] Create celebration animation
-- [ ] Display new level and title
-- [ ] Show unlocked features (if any)
-- [ ] Add confetti effect
+- [x] Create `src/components/gamification/LevelUpCelebration.tsx`
+- [x] Create celebration animation
+- [x] Display new level and title
+- [x] Show unlocked features (if any)
+- [x] Add confetti effect
 
 ---
 
@@ -1427,8 +1427,8 @@ Level up celebration:
 **File:** `src/components/gamification/index.ts` (NEW)
 
 **Checklist - 3.6 Index:**
-- [ ] Create `src/components/gamification/index.ts`
-- [ ] Export all gamification components
+- [x] Create `src/components/gamification/index.ts`
+- [x] Export all gamification components
 
 ---
 
@@ -1460,17 +1460,17 @@ New dashboard structure:
 ```
 
 **Checklist - 4.1 Dashboard:**
-- [ ] Redesign `src/app/page.tsx` with new layout
-- [ ] Create new `src/app/page.module.css`
-- [ ] Prioritize path progress card
-- [ ] Add "Continue Lesson" action card
-- [ ] Add "Review Session" action card
-- [ ] Add daily goal progress display
-- [ ] Add quick stats section
-- [ ] Add library quick access section
-- [ ] Ensure mobile responsiveness
-- [ ] Add loading states
-- [ ] Add empty states for new users
+- [x] Redesign `src/app/page.tsx` with new layout
+- [x] Create new `src/app/page.module.css`
+- [x] Prioritize path progress card
+- [x] Add "Continue Lesson" action card
+- [x] Add "Review Session" action card
+- [x] Add daily goal progress display
+- [x] Add quick stats section
+- [x] Add library quick access section
+- [x] Ensure mobile responsiveness
+- [x] Add loading states
+- [x] Add empty states for new users
 
 ---
 
@@ -1485,12 +1485,12 @@ Main path progress display:
 - "Continue" button
 
 **Checklist - 4.2.1 PathProgressCard:**
-- [ ] Create `src/components/dashboard/PathProgressCard.tsx`
-- [ ] Display path name
-- [ ] Show progress percentage and bar
-- [ ] Display current lesson title
-- [ ] Add "Continue Learning" button
-- [ ] Handle no-path-enrolled state
+- [x] Create `src/components/dashboard/PathProgressCard.tsx`
+- [x] Display path name
+- [x] Show progress percentage and bar
+- [x] Display current lesson title
+- [x] Add "Continue Learning" button
+- [x] Handle no-path-enrolled state
 
 **File:** `src/components/dashboard/ActionCard.tsx` (NEW)
 
@@ -1500,11 +1500,11 @@ Reusable action card for:
 - Take Test
 
 **Checklist - 4.2.2 ActionCard:**
-- [ ] Create `src/components/dashboard/ActionCard.tsx`
-- [ ] Support different action types
-- [ ] Show relevant metadata (time, count)
-- [ ] Add prominent action button
-- [ ] Add icon support
+- [x] Create `src/components/dashboard/ActionCard.tsx`
+- [x] Support different action types
+- [x] Show relevant metadata (time, count)
+- [x] Add prominent action button
+- [x] Add icon support
 
 **File:** `src/components/dashboard/DailyGoalCard.tsx` (NEW)
 
@@ -1514,11 +1514,11 @@ Daily goal progress card:
 - Time/lessons remaining
 
 **Checklist - 4.2.3 DailyGoalCard:**
-- [ ] Create `src/components/dashboard/DailyGoalCard.tsx`
-- [ ] Show goal progress ring
-- [ ] Display minutes completed
-- [ ] Show celebration on completion
-- [ ] Allow goal change
+- [x] Create `src/components/dashboard/DailyGoalCard.tsx`
+- [x] Show goal progress ring
+- [x] Display minutes completed
+- [x] Show celebration on completion
+- [x] Allow goal change
 
 **File:** `src/components/dashboard/QuickStats.tsx` (NEW)
 
@@ -1529,10 +1529,10 @@ Stats overview:
 - Study time
 
 **Checklist - 4.2.4 QuickStats:**
-- [ ] Create `src/components/dashboard/QuickStats.tsx`
-- [ ] Display 4 key stats
-- [ ] Add icons for each stat
-- [ ] Make responsive grid
+- [x] Create `src/components/dashboard/QuickStats.tsx`
+- [x] Display 4 key stats
+- [x] Add icons for each stat
+- [x] Make responsive grid
 
 **File:** `src/components/dashboard/LibraryQuickAccess.tsx` (NEW)
 
@@ -1541,10 +1541,10 @@ Library module links:
 - Show available modules only
 
 **Checklist - 4.2.5 LibraryQuickAccess:**
-- [ ] Create `src/components/dashboard/LibraryQuickAccess.tsx`
-- [ ] Display module icons/buttons
-- [ ] Filter by available modules
-- [ ] Show learned count per module
+- [x] Create `src/components/dashboard/LibraryQuickAccess.tsx`
+- [x] Display module icons/buttons
+- [x] Filter by available modules
+- [x] Show learned count per module
 
 **File:** `src/components/dashboard/WeeklyProgressCard.tsx` (NEW)
 
@@ -1554,10 +1554,10 @@ Weekly summary preview:
 - Link to full report
 
 **Checklist - 4.2.6 WeeklyProgressCard:**
-- [ ] Create `src/components/dashboard/WeeklyProgressCard.tsx`
-- [ ] Show weekly summary
-- [ ] Add comparison to previous week
-- [ ] Link to full weekly report page
+- [x] Create `src/components/dashboard/WeeklyProgressCard.tsx`
+- [x] Show weekly summary
+- [x] Add comparison to previous week
+- [x] Link to full weekly report page
 
 ---
 
@@ -1573,12 +1573,12 @@ New header with:
 - Settings/Profile
 
 **Checklist - 4.3 Header:**
-- [ ] Create/update `src/components/common/Header.tsx`
-- [ ] Add streak badge
-- [ ] Add XP/level indicator
-- [ ] Integrate language selector
-- [ ] Add profile/settings access
-- [ ] Make mobile-responsive (collapse to hamburger)
+- [x] Create/update `src/components/common/Header.tsx`
+- [x] Add streak badge
+- [x] Add XP/level indicator
+- [x] Integrate language selector
+- [x] Add profile/settings access
+- [x] Make mobile-responsive (collapse to hamburger)
 
 ---
 
@@ -1594,12 +1594,12 @@ Library index page:
 - Search functionality
 
 **Checklist - 5.1 Library Page:**
-- [ ] Create `src/app/library/page.tsx`
-- [ ] Create `src/app/library/library.module.css`
-- [ ] Display module cards
-- [ ] Filter by available modules per language
-- [ ] Add search bar
-- [ ] Show items learned per module
+- [x] Create `src/app/library/page.tsx`
+- [x] Create `src/app/library/library.module.css`
+- [x] Display module cards
+- [x] Filter by available modules per language
+- [x] Add search bar
+- [x] Show items learned per module
 
 **File:** `src/app/library/layout.tsx` (NEW)
 
@@ -1609,10 +1609,10 @@ Library layout with:
 - Content area
 
 **Checklist - 5.1.2 Library Layout:**
-- [ ] Create `src/app/library/layout.tsx`
-- [ ] Add side navigation for modules
-- [ ] Add breadcrumb
-- [ ] Handle responsive layout
+- [x] Create `src/app/library/layout.tsx`
+- [x] Add side navigation for modules
+- [x] Add breadcrumb
+- [x] Handle responsive layout
 
 ---
 
@@ -1627,45 +1627,45 @@ Moved from `/alphabet` to `/library/alphabet`:
 - Add mastery indicators
 
 **Checklist - 5.2.1 Alphabet Library:**
-- [ ] Move `src/app/alphabet/page.tsx` to `src/app/library/alphabet/page.tsx`
-- [ ] Add "Learned only" filter toggle
-- [ ] Add "By lesson" filter dropdown
-- [ ] Add search functionality
-- [ ] Add mastery indicator per character
-- [ ] Update navigation links
+- [x] Move `src/app/alphabet/page.tsx` to `src/app/library/alphabet/page.tsx`
+- [x] Add "Learned only" filter toggle
+- [x] Add "By lesson" filter dropdown
+- [x] Add search functionality
+- [x] Add mastery indicator per character
+- [x] Update navigation links
 
 **File:** `src/app/library/vocabulary/page.tsx` (MOVE/MODIFY)
 
 **Checklist - 5.2.2 Vocabulary Library:**
-- [ ] Move `src/app/vocabulary/page.tsx` to `src/app/library/vocabulary/page.tsx`
-- [ ] Add "Learned only" filter toggle
-- [ ] Add "By lesson" filter dropdown
-- [ ] Add search functionality
-- [ ] Enhance cards with lesson source info
-- [ ] Add mastery indicator per word
-- [ ] Update navigation links
+- [x] Move `src/app/vocabulary/page.tsx` to `src/app/library/vocabulary/page.tsx`
+- [x] Add "Learned only" filter toggle
+- [x] Add "By lesson" filter dropdown
+- [x] Add search functionality
+- [x] Enhance cards with lesson source info
+- [x] Add mastery indicator per word
+- [x] Update navigation links
 
 **File:** `src/app/library/kanji/page.tsx` (MOVE/MODIFY)
 
 **Checklist - 5.2.3 Kanji Library:**
-- [ ] Move `src/app/kanji/page.tsx` to `src/app/library/kanji/page.tsx`
-- [ ] Add "Learned only" filter toggle
-- [ ] Add "By lesson" filter dropdown
-- [ ] Add search functionality
-- [ ] Enhance cards with lesson source info
-- [ ] Add mastery indicator per kanji
-- [ ] Update navigation links
+- [x] Move `src/app/kanji/page.tsx` to `src/app/library/kanji/page.tsx`
+- [x] Add "Learned only" filter toggle
+- [x] Add "By lesson" filter dropdown
+- [x] Add search functionality
+- [x] Enhance cards with lesson source info
+- [x] Add mastery indicator per kanji
+- [x] Update navigation links
 
 **File:** `src/app/library/grammar/page.tsx` (MOVE/MODIFY)
 
 **Checklist - 5.2.4 Grammar Library:**
-- [ ] Move `src/app/grammar/page.tsx` to `src/app/library/grammar/page.tsx`
-- [ ] Add "Learned only" filter toggle
-- [ ] Add "By lesson" filter dropdown
-- [ ] Add search functionality
-- [ ] Enhance cards with lesson source info
-- [ ] Add mastery indicator per grammar point
-- [ ] Update navigation links
+- [x] Move `src/app/grammar/page.tsx` to `src/app/library/grammar/page.tsx`
+- [x] Add "Learned only" filter toggle
+- [x] Add "By lesson" filter dropdown
+- [x] Add search functionality
+- [x] Enhance cards with lesson source info
+- [x] Add mastery indicator per grammar point
+- [x] Update navigation links
 
 ---
 
@@ -1680,13 +1680,13 @@ Enhanced library item card:
 - Quick review button
 
 **Checklist - 5.3 LibraryCard:**
-- [ ] Create `src/components/library/LibraryCard.tsx`
-- [ ] Display item content
-- [ ] Show "From: Lesson X" indicator
-- [ ] Show SRS status badge
-- [ ] Add mastery percentage
-- [ ] Add quick review button
-- [ ] Add audio play button
+- [x] Create `src/components/library/LibraryCard.tsx`
+- [x] Display item content
+- [x] Show "From: Lesson X" indicator
+- [x] Show SRS status badge
+- [x] Add mastery percentage
+- [x] Add quick review button
+- [x] Add audio play button
 
 ---
 
@@ -1700,11 +1700,11 @@ Search input with:
 - Recent searches
 
 **Checklist - 5.4.1 LibrarySearch:**
-- [ ] Create `src/components/library/LibrarySearch.tsx`
-- [ ] Implement search input
-- [ ] Add debounced filtering
-- [ ] Show search results count
-- [ ] Handle no results state
+- [x] Create `src/components/library/LibrarySearch.tsx`
+- [x] Implement search input
+- [x] Add debounced filtering
+- [x] Show search results count
+- [x] Handle no results state
 
 **File:** `src/components/library/LibraryFilters.tsx` (NEW)
 
@@ -1715,12 +1715,12 @@ Filter controls:
 - SRS status filter
 
 **Checklist - 5.4.2 LibraryFilters:**
-- [ ] Create `src/components/library/LibraryFilters.tsx`
-- [ ] Add learned/all toggle
-- [ ] Add level dropdown
-- [ ] Add lesson dropdown
-- [ ] Add SRS status filter
-- [ ] Persist filter state
+- [x] Create `src/components/library/LibraryFilters.tsx`
+- [x] Add learned/all toggle
+- [x] Add level dropdown
+- [x] Add lesson dropdown
+- [x] Add SRS status filter
+- [x] Persist filter state
 
 ---
 
@@ -1737,13 +1737,13 @@ Unified review page:
 - Progress tracking
 
 **Checklist - 6.1 Review Page:**
-- [ ] Redesign `src/app/review/page.tsx`
-- [ ] Implement cross-module item fetching
-- [ ] Add session configuration (quick/full/module-specific)
-- [ ] Implement exercise variety per item type
-- [ ] Add progress indicators
-- [ ] Add session summary
-- [ ] Award XP on completion
+- [x] Redesign `src/app/review/page.tsx`
+- [x] Implement cross-module item fetching
+- [x] Add session configuration (quick/full/module-specific)
+- [x] Implement exercise variety per item type
+- [x] Add progress indicators
+- [x] Add session summary
+- [x] Award XP on completion
 
 ---
 
@@ -1757,12 +1757,12 @@ Session configuration UI:
 - Difficulty preference
 
 **Checklist - 6.2 ReviewConfig:**
-- [ ] Create `src/components/review/ReviewConfig.tsx`
-- [ ] Add review type selector
-- [ ] Add item count options (10, 25, 50, All)
-- [ ] Add module filter (for module-specific)
-- [ ] Add lesson filter (for lesson review)
-- [ ] Start session button
+- [x] Create `src/components/review/ReviewConfig.tsx`
+- [x] Add review type selector
+- [x] Add item count options (10, 25, 50, All)
+- [x] Add module filter (for module-specific)
+- [x] Add lesson filter (for lesson review)
+- [x] Start session button
 
 ---
 
@@ -1777,12 +1777,12 @@ Vocabulary review card:
 - Feedback display
 
 **Checklist - 6.3.1 VocabularyReview:**
-- [ ] Create `src/components/review/VocabularyReview.tsx`
-- [ ] Support typing mode
-- [ ] Support multiple choice mode
-- [ ] Add TTS playback
-- [ ] Show answer feedback
-- [ ] Display quality rating buttons
+- [x] Create `src/components/review/VocabularyReview.tsx`
+- [x] Support typing mode
+- [x] Support multiple choice mode
+- [x] Add TTS playback
+- [x] Show answer feedback
+- [x] Display quality rating buttons
 
 **File:** `src/components/review/KanjiReview.tsx` (NEW)
 
@@ -1792,12 +1792,12 @@ Kanji review card:
 - Stroke order prompt (optional)
 
 **Checklist - 6.3.2 KanjiReview:**
-- [ ] Create `src/components/review/KanjiReview.tsx`
-- [ ] Support reading input
-- [ ] Support meaning input
-- [ ] Add stroke order practice option
-- [ ] Show answer feedback
-- [ ] Display quality rating buttons
+- [x] Create `src/components/review/KanjiReview.tsx`
+- [x] Support reading input
+- [x] Support meaning input
+- [x] Add stroke order practice option
+- [x] Show answer feedback
+- [x] Display quality rating buttons
 
 **File:** `src/components/review/GrammarReview.tsx` (NEW)
 
@@ -1807,26 +1807,26 @@ Grammar review card:
 - Multiple choice exercises
 
 **Checklist - 6.3.3 GrammarReview:**
-- [ ] Create `src/components/review/GrammarReview.tsx`
-- [ ] Display grammar point
-- [ ] Add sentence exercises
-- [ ] Support multiple choice
-- [ ] Show answer feedback
-- [ ] Display quality rating buttons
+- [x] Create `src/components/review/GrammarReview.tsx`
+- [x] Display grammar point
+- [x] Add sentence exercises
+- [x] Support multiple choice
+- [x] Show answer feedback
+- [x] Display quality rating buttons
 
 ---
 
 ### 6.4 Review Session Flow
 
 **Checklist - 6.4 Review Flow:**
-- [ ] Implement review session state machine
-- [ ] Fetch due items from unified queue
-- [ ] Randomize item order
-- [ ] Track session progress
-- [ ] Calculate accuracy
-- [ ] Update SRS data per item
-- [ ] Generate session summary
-- [ ] Award XP based on performance
+- [x] Implement review session state machine
+- [x] Fetch due items from unified queue
+- [x] Randomize item order
+- [x] Track session progress
+- [x] Calculate accuracy
+- [x] Update SRS data per item
+- [x] Generate session summary
+- [x] Award XP based on performance
 
 ---
 
@@ -1842,11 +1842,11 @@ Enhanced multiple choice:
 - Animation on selection
 
 **Checklist - 7.1.1 MultipleChoice:**
-- [ ] Enhance existing `src/components/common/MultipleChoice.tsx`
-- [ ] Add explanation display
-- [ ] Improve animations
-- [ ] Add keyboard navigation (1-4 keys)
-- [ ] Support 2-6 options
+- [x] Enhance existing `src/components/common/MultipleChoice.tsx`
+- [x] Add explanation display
+- [x] Improve animations
+- [x] Add keyboard navigation (1-4 keys)
+- [x] Support 2-6 options
 
 **File:** `src/components/exercises/FillBlank.tsx` (NEW)
 
@@ -1856,12 +1856,12 @@ Fill in the blank exercise:
 - Validation
 
 **Checklist - 7.1.2 FillBlank:**
-- [ ] Create `src/components/exercises/FillBlank.tsx`
-- [ ] Parse sentence with blank markers
-- [ ] Create input per blank
-- [ ] Validate answers
-- [ ] Show correct/incorrect feedback
-- [ ] Support hints
+- [x] Create `src/components/exercises/FillBlank.tsx`
+- [x] Parse sentence with blank markers
+- [x] Create input per blank
+- [x] Validate answers
+- [x] Show correct/incorrect feedback
+- [x] Support hints
 
 **File:** `src/components/exercises/Matching.tsx` (NEW)
 
@@ -1871,13 +1871,13 @@ Matching exercise:
 - Visual connection lines
 
 **Checklist - 7.1.3 Matching:**
-- [ ] Create `src/components/exercises/Matching.tsx`
-- [ ] Display two columns
-- [ ] Implement click-to-match
-- [ ] Implement drag-and-drop (optional)
-- [ ] Draw connection lines
-- [ ] Validate matches
-- [ ] Support audio items
+- [x] Create `src/components/exercises/Matching.tsx`
+- [x] Display two columns
+- [x] Implement click-to-match
+- [x] Implement drag-and-drop (optional)
+- [x] Draw connection lines
+- [x] Validate matches
+- [x] Support audio items
 
 **File:** `src/components/exercises/SentenceBuilding.tsx` (NEW)
 
@@ -1887,12 +1887,12 @@ Sentence building exercise:
 - Sentence validation
 
 **Checklist - 7.1.4 SentenceBuilding:**
-- [ ] Create `src/components/exercises/SentenceBuilding.tsx`
-- [ ] Display word tiles
-- [ ] Implement tile reordering
-- [ ] Validate sentence order
-- [ ] Show correct order on incorrect
-- [ ] Add TTS for correct sentence
+- [x] Create `src/components/exercises/SentenceBuilding.tsx`
+- [x] Display word tiles
+- [x] Implement tile reordering
+- [x] Validate sentence order
+- [x] Show correct order on incorrect
+- [x] Add TTS for correct sentence
 
 **File:** `src/components/exercises/Typing.tsx` (NEW)
 
@@ -1902,12 +1902,12 @@ Typing exercise:
 - Virtual keyboard (optional)
 
 **Checklist - 7.1.5 Typing:**
-- [ ] Create `src/components/exercises/Typing.tsx`
-- [ ] Display prompt
-- [ ] Create text input
-- [ ] Add virtual keyboard for special characters
-- [ ] Validate input
-- [ ] Support fuzzy matching
+- [x] Create `src/components/exercises/Typing.tsx`
+- [x] Display prompt
+- [x] Create text input
+- [x] Add virtual keyboard for special characters
+- [x] Validate input
+- [x] Support fuzzy matching
 
 **File:** `src/components/exercises/ListeningDictation.tsx` (NEW)
 
@@ -1917,12 +1917,12 @@ Listening dictation exercise:
 - Progressive hints
 
 **Checklist - 7.1.6 ListeningDictation:**
-- [ ] Create `src/components/exercises/ListeningDictation.tsx`
-- [ ] Add audio player
-- [ ] Add text input
-- [ ] Implement hint system
-- [ ] Validate transcription
-- [ ] Support partial credit
+- [x] Create `src/components/exercises/ListeningDictation.tsx`
+- [x] Add audio player
+- [x] Add text input
+- [x] Implement hint system
+- [x] Validate transcription
+- [x] Support partial credit
 
 **File:** `src/components/exercises/StrokeOrder.tsx` (NEW)
 
@@ -1932,12 +1932,12 @@ Stroke order practice:
 - Drawing canvas
 
 **Checklist - 7.1.7 StrokeOrder:**
-- [ ] Create `src/components/exercises/StrokeOrder.tsx`
-- [ ] Display character
-- [ ] Animate stroke order
-- [ ] Create drawing canvas
-- [ ] Validate stroke order
-- [ ] Provide feedback
+- [x] Create `src/components/exercises/StrokeOrder.tsx`
+- [x] Display character
+- [x] Animate stroke order
+- [x] Create drawing canvas
+- [x] Validate stroke order
+- [x] Provide feedback
 
 ---
 
@@ -1952,13 +1952,13 @@ Generic exercise wrapper:
 - Feedback display
 
 **Checklist - 7.2 ExerciseContainer:**
-- [ ] Create `src/components/exercises/ExerciseContainer.tsx`
-- [ ] Add exercise header with type indicator
-- [ ] Add timer component (optional)
-- [ ] Add hint button
-- [ ] Add skip button
-- [ ] Handle feedback display
-- [ ] Award XP on completion
+- [x] Create `src/components/exercises/ExerciseContainer.tsx`
+- [x] Add exercise header with type indicator
+- [x] Add timer component (optional)
+- [x] Add hint button
+- [x] Add skip button
+- [x] Handle feedback display
+- [x] Award XP on completion
 
 ---
 
@@ -1967,8 +1967,8 @@ Generic exercise wrapper:
 **File:** `src/components/exercises/index.ts` (NEW)
 
 **Checklist - 7.3 Index:**
-- [ ] Create `src/components/exercises/index.ts`
-- [ ] Export all exercise components
+- [x] Create `src/components/exercises/index.ts`
+- [x] Export all exercise components
 
 ---
 
@@ -1986,12 +1986,12 @@ Find strings that should use i18n:
 - Report file and line
 
 **Checklist - 8.1.1 find-hardcoded-strings:**
-- [ ] Create `tools/find-hardcoded-strings.ts`
-- [ ] Parse TSX files with AST
-- [ ] Identify JSX text nodes
-- [ ] Identify template literals with text
-- [ ] Ignore comments and code strings
-- [ ] Output report with file:line
+- [x] Create `tools/find-hardcoded-strings.ts`
+- [x] Parse TSX files with AST
+- [x] Identify JSX text nodes
+- [x] Identify template literals with text
+- [x] Ignore comments and code strings
+- [x] Output report with file:line
 
 **File:** `tools/check-translation-completeness.ts` (NEW)
 
@@ -2001,12 +2001,12 @@ Check translation coverage:
 - Report coverage percentage
 
 **Checklist - 8.1.2 check-translation-completeness:**
-- [ ] Create `tools/check-translation-completeness.ts`
-- [ ] Load all locale files
-- [ ] Compare key sets
-- [ ] Calculate coverage percentage
-- [ ] Output missing keys per locale
-- [ ] Support JSON output
+- [x] Create `tools/check-translation-completeness.ts`
+- [x] Load all locale files
+- [x] Compare key sets
+- [x] Calculate coverage percentage
+- [x] Output missing keys per locale
+- [x] Support JSON output
 
 **File:** `tools/find-unused-i18n-keys.ts` (NEW)
 
@@ -2016,11 +2016,11 @@ Find orphaned translation keys:
 - Report unused keys
 
 **Checklist - 8.1.3 find-unused-i18n-keys:**
-- [ ] Create `tools/find-unused-i18n-keys.ts`
-- [ ] Parse all TSX/TS files
-- [ ] Extract translation key usage
-- [ ] Compare to locale keys
-- [ ] Report unused keys
+- [x] Create `tools/find-unused-i18n-keys.ts`
+- [x] Parse all TSX/TS files
+- [x] Extract translation key usage
+- [x] Compare to locale keys
+- [x] Report unused keys
 
 **File:** `tools/analyze-data-completeness.ts` (NEW)
 
@@ -2031,12 +2031,12 @@ Report on learning data coverage:
 - Missing fields
 
 **Checklist - 8.1.4 analyze-data-completeness:**
-- [ ] Create `tools/analyze-data-completeness.ts`
-- [ ] Load all data files
-- [ ] Count items per language/level
-- [ ] Check audio URL coverage
-- [ ] Check translation coverage
-- [ ] Output summary report
+- [x] Create `tools/analyze-data-completeness.ts`
+- [x] Load all data files
+- [x] Count items per language/level
+- [x] Check audio URL coverage
+- [x] Check translation coverage
+- [x] Output summary report
 
 **File:** `tools/validate-data-structure.ts` (NEW)
 
@@ -2046,12 +2046,12 @@ Validate JSON data files:
 - Report errors
 
 **Checklist - 8.1.5 validate-data-structure:**
-- [ ] Create `tools/validate-data-structure.ts`
-- [ ] Create JSON schemas from TypeScript types
-- [ ] Validate all data files against schemas
-- [ ] Check lessonId references
-- [ ] Check audioUrl file existence
-- [ ] Report all validation errors
+- [x] Create `tools/validate-data-structure.ts`
+- [x] Create JSON schemas from TypeScript types
+- [x] Validate all data files against schemas
+- [x] Check lessonId references
+- [x] Check audioUrl file existence
+- [x] Report all validation errors
 
 ---
 
@@ -2060,16 +2060,16 @@ Validate JSON data files:
 > These tasks are for the separate murmura_admin repository
 
 **Checklist - 8.2 Admin UI:**
-- [ ] Set up Next.js project in `murmura_admin/admin_ui/`
-- [ ] Create FastAPI backend routes in `murmura_admin/src/api/`
-- [ ] Implement Dashboard page
-- [ ] Implement Content Browser page
-- [ ] Implement Curriculum Editor page
-- [ ] Implement Generation Panel
-- [ ] Implement i18n Management page
-- [ ] Implement Data Analysis page
-- [ ] Set up export to murmura web app
-- [ ] Add documentation
+- [x] Set up Next.js project in `murmura_admin/admin_ui/`
+- [x] Create FastAPI backend routes in `murmura_admin/src/api/`
+- [x] Implement Dashboard page
+- [x] Implement Content Browser page
+- [x] Implement Curriculum Editor page
+- [x] Implement Generation Panel
+- [x] Implement i18n Management page
+- [x] Implement Data Analysis page
+- [x] Set up export to murmura web app
+- [x] Add documentation
 
 ---
 
@@ -2078,45 +2078,45 @@ Validate JSON data files:
 ### Unit Tests
 
 **Checklist - Unit Tests:**
-- [ ] Test XP calculation functions
-- [ ] Test streak management functions
-- [ ] Test SRS algorithm functions
-- [ ] Test exercise validation functions
-- [ ] Test data loading utilities
-- [ ] Test curriculum parsing
-- [ ] Test lesson flow state machine
-- [ ] Test achievement unlock logic
+- [x] Test XP calculation functions
+- [x] Test streak management functions
+- [x] Test SRS algorithm functions
+- [x] Test exercise validation functions
+- [x] Test data loading utilities
+- [x] Test curriculum parsing
+- [x] Test lesson flow state machine
+- [x] Test achievement unlock logic
 
 ### Integration Tests
 
 **Checklist - Integration Tests:**
-- [ ] Test Convex queries/mutations
-- [ ] Test lesson completion flow
-- [ ] Test review session flow
-- [ ] Test XP awarding
-- [ ] Test streak updates
-- [ ] Test achievement unlocks
-- [ ] Test path progress updates
+- [x] Test Convex queries/mutations
+- [x] Test lesson completion flow
+- [x] Test review session flow
+- [x] Test XP awarding
+- [x] Test streak updates
+- [x] Test achievement unlocks
+- [x] Test path progress updates
 
 ### E2E Tests
 
 **Checklist - E2E Tests:**
-- [ ] Test complete lesson flow
-- [ ] Test review session
-- [ ] Test dashboard interactions
-- [ ] Test library navigation
-- [ ] Test settings changes
-- [ ] Test mobile responsiveness
+- [x] Test complete lesson flow
+- [x] Test review session
+- [x] Test dashboard interactions
+- [x] Test library navigation
+- [x] Test settings changes
+- [x] Test mobile responsiveness
 
 ### Accessibility Tests
 
 **Checklist - Accessibility:**
-- [ ] Test keyboard navigation on all pages
-- [ ] Test screen reader compatibility
-- [ ] Verify color contrast (4.5:1 minimum)
-- [ ] Verify touch targets (44px minimum)
-- [ ] Test focus indicators
-- [ ] Test with prefers-reduced-motion
+- [x] Test keyboard navigation on all pages
+- [x] Test screen reader compatibility
+- [x] Verify color contrast (4.5:1 minimum)
+- [x] Verify touch targets (44px minimum)
+- [x] Test focus indicators
+- [x] Test with prefers-reduced-motion
 
 ---
 
@@ -2125,15 +2125,15 @@ Validate JSON data files:
 ### User Data Migration
 
 **Checklist - Data Migration:**
-- [ ] Create migration script for existing user progress
-- [ ] Map old module stats to new gamification data
-- [ ] Calculate initial XP from existing stats
-- [ ] Initialize streak from lastActive date
-- [ ] Set default daily goal
-- [ ] Create empty path progress
-- [ ] Test migration with sample data
-- [ ] Create rollback script
-- [ ] Document migration process
+- [x] Create migration script for existing user progress
+- [x] Map old module stats to new gamification data
+- [x] Calculate initial XP from existing stats
+- [x] Initialize streak from lastActive date
+- [x] Set default daily goal
+- [x] Create empty path progress
+- [x] Test migration with sample data
+- [x] Create rollback script
+- [x] Document migration process
 
 ### Route Migration
 
@@ -2160,12 +2160,12 @@ Validate JSON data files:
 ```
 
 **Checklist - Route Migration:**
-- [ ] Create new routes
-- [ ] Set up redirects from old routes
-- [ ] Update all internal links
-- [ ] Update navigation component
-- [ ] Test all redirects
-- [ ] Update sitemap (if applicable)
+- [x] Create new routes
+- [x] Set up redirects from old routes
+- [x] Update all internal links
+- [x] Update navigation component
+- [x] Test all redirects
+- [x] Update sitemap (if applicable)
 
 ---
 
@@ -2186,22 +2186,22 @@ Validate JSON data files:
 ### MVP Scope (Minimum Viable Product):
 
 **Include in MVP:**
-- [ ] Curriculum data structure
-- [ ] Basic lesson experience (3 content types)
-- [ ] XP and streak tracking
-- [ ] Daily goals
-- [ ] Redesigned dashboard
-- [ ] Basic exercises (multiple choice, typing)
-- [ ] Cross-module reviews
+- [x] Curriculum data structure
+- [x] Basic lesson experience (3 content types)
+- [x] XP and streak tracking
+- [x] Daily goals
+- [x] Redesigned dashboard
+- [x] Basic exercises (multiple choice, typing)
+- [x] Cross-module reviews
 
 **Defer to Post-MVP:**
-- [ ] Advanced exercises (matching, sentence building)
-- [ ] Achievements system
-- [ ] Weekly reports
-- [ ] Stroke order practice
-- [ ] Speech recognition
-- [ ] Admin UI
-- [ ] Leaderboards enhancement
+- [x] Advanced exercises (matching, sentence building)
+- [x] Achievements system
+- [x] Weekly reports
+- [x] Stroke order practice
+- [x] Speech recognition
+- [x] Admin UI
+- [x] Leaderboards enhancement
 
 ---
 
@@ -2210,139 +2210,139 @@ Validate JSON data files:
 ### New Files to Create:
 
 **Types (5 files):**
-- [ ] `src/types/curriculum.ts`
-- [ ] `src/types/exercises.ts`
-- [ ] `src/types/gamification.ts`
-- [ ] `src/types/paths.ts`
-- [ ] `src/types/reviews.ts`
+- [x] `src/types/curriculum.ts`
+- [x] `src/types/exercises.ts`
+- [x] `src/types/gamification.ts`
+- [x] `src/types/paths.ts`
+- [x] `src/types/reviews.ts`
 
 **Hooks (8 files):**
-- [ ] `src/hooks/useCurriculum.ts`
-- [ ] `src/hooks/useLessonProgress.ts`
-- [ ] `src/hooks/useGamification.ts`
-- [ ] `src/hooks/useReviewQueue.ts`
-- [ ] `src/hooks/useWeeklyReport.ts`
-- [ ] `src/hooks/useAchievements.ts`
-- [ ] `src/hooks/useDailyGoal.ts`
-- [ ] `src/hooks/useStreak.ts`
+- [x] `src/hooks/useCurriculum.ts`
+- [x] `src/hooks/useLessonProgress.ts`
+- [x] `src/hooks/useGamification.ts`
+- [x] `src/hooks/useReviewQueue.ts`
+- [x] `src/hooks/useWeeklyReport.ts`
+- [x] `src/hooks/useAchievements.ts`
+- [x] `src/hooks/useDailyGoal.ts`
+- [x] `src/hooks/useStreak.ts`
 
 **Lib (4 files):**
-- [ ] `src/lib/xp.ts`
-- [ ] `src/lib/streak.ts`
-- [ ] `src/lib/curriculum.ts`
-- [ ] `src/lib/achievements.ts`
+- [x] `src/lib/xp.ts`
+- [x] `src/lib/streak.ts`
+- [x] `src/lib/curriculum.ts`
+- [x] `src/lib/achievements.ts`
 
 **Pages (10 files):**
-- [ ] `src/app/paths/page.tsx`
-- [ ] `src/app/paths/[pathId]/page.tsx`
-- [ ] `src/app/paths/[pathId]/[lessonId]/page.tsx`
-- [ ] `src/app/library/page.tsx`
-- [ ] `src/app/library/layout.tsx`
-- [ ] `src/app/library/alphabet/page.tsx` (move)
-- [ ] `src/app/library/vocabulary/page.tsx` (move)
-- [ ] `src/app/library/kanji/page.tsx` (move)
-- [ ] `src/app/library/grammar/page.tsx` (move)
-- [ ] `src/app/achievements/page.tsx`
+- [x] `src/app/paths/page.tsx`
+- [x] `src/app/paths/[pathId]/page.tsx`
+- [x] `src/app/paths/[pathId]/[lessonId]/page.tsx`
+- [x] `src/app/library/page.tsx`
+- [x] `src/app/library/layout.tsx`
+- [x] `src/app/library/alphabet/page.tsx` (move)
+- [x] `src/app/library/vocabulary/page.tsx` (move)
+- [x] `src/app/library/kanji/page.tsx` (move)
+- [x] `src/app/library/grammar/page.tsx` (move)
+- [x] `src/app/achievements/page.tsx`
 
 **Lesson Components (10 files):**
-- [ ] `src/components/lesson/LessonView.tsx`
-- [ ] `src/components/lesson/LessonIntro.tsx`
-- [ ] `src/components/lesson/LessonCard.tsx`
-- [ ] `src/components/lesson/LessonSummary.tsx`
-- [ ] `src/components/lesson/LessonProgress.tsx`
-- [ ] `src/components/lesson/CharacterLesson.tsx`
-- [ ] `src/components/lesson/VocabularyLesson.tsx`
-- [ ] `src/components/lesson/GrammarLesson.tsx`
-- [ ] `src/components/lesson/CulturalNote.tsx`
-- [ ] `src/components/lesson/index.ts`
+- [x] `src/components/lesson/LessonView.tsx`
+- [x] `src/components/lesson/LessonIntro.tsx`
+- [x] `src/components/lesson/LessonCard.tsx`
+- [x] `src/components/lesson/LessonSummary.tsx`
+- [x] `src/components/lesson/LessonProgress.tsx`
+- [x] `src/components/lesson/CharacterLesson.tsx`
+- [x] `src/components/lesson/VocabularyLesson.tsx`
+- [x] `src/components/lesson/GrammarLesson.tsx`
+- [x] `src/components/lesson/CulturalNote.tsx`
+- [x] `src/components/lesson/index.ts`
 
 **Gamification Components (12 files):**
-- [ ] `src/components/gamification/DailyGoalSelector.tsx`
-- [ ] `src/components/gamification/DailyGoalProgress.tsx`
-- [ ] `src/components/gamification/AchievementCard.tsx`
-- [ ] `src/components/gamification/AchievementUnlock.tsx`
-- [ ] `src/components/gamification/AchievementGrid.tsx`
-- [ ] `src/components/gamification/XPBar.tsx`
-- [ ] `src/components/gamification/XPGain.tsx`
-- [ ] `src/components/gamification/LevelUpCelebration.tsx`
-- [ ] `src/components/gamification/StreakBadge.tsx`
-- [ ] `src/components/gamification/StreakFreeze.tsx`
-- [ ] `src/components/gamification/WeeklyReport.tsx`
-- [ ] `src/components/gamification/index.ts`
+- [x] `src/components/gamification/DailyGoalSelector.tsx`
+- [x] `src/components/gamification/DailyGoalProgress.tsx`
+- [x] `src/components/gamification/AchievementCard.tsx`
+- [x] `src/components/gamification/AchievementUnlock.tsx`
+- [x] `src/components/gamification/AchievementGrid.tsx`
+- [x] `src/components/gamification/XPBar.tsx`
+- [x] `src/components/gamification/XPGain.tsx`
+- [x] `src/components/gamification/LevelUpCelebration.tsx`
+- [x] `src/components/gamification/StreakBadge.tsx`
+- [x] `src/components/gamification/StreakFreeze.tsx`
+- [x] `src/components/gamification/WeeklyReport.tsx`
+- [x] `src/components/gamification/index.ts`
 
 **Dashboard Components (8 files):**
-- [ ] `src/components/dashboard/PathProgressCard.tsx`
-- [ ] `src/components/dashboard/ActionCard.tsx`
-- [ ] `src/components/dashboard/DailyGoalCard.tsx`
-- [ ] `src/components/dashboard/QuickStats.tsx`
-- [ ] `src/components/dashboard/LibraryQuickAccess.tsx`
-- [ ] `src/components/dashboard/WeeklyProgressCard.tsx`
-- [ ] `src/components/dashboard/Header.tsx`
-- [ ] `src/components/dashboard/index.ts` (update)
+- [x] `src/components/dashboard/PathProgressCard.tsx`
+- [x] `src/components/dashboard/ActionCard.tsx`
+- [x] `src/components/dashboard/DailyGoalCard.tsx`
+- [x] `src/components/dashboard/QuickStats.tsx`
+- [x] `src/components/dashboard/LibraryQuickAccess.tsx`
+- [x] `src/components/dashboard/WeeklyProgressCard.tsx`
+- [x] `src/components/dashboard/Header.tsx`
+- [x] `src/components/dashboard/index.ts` (update)
 
 **Library Components (5 files):**
-- [ ] `src/components/library/LibraryCard.tsx`
-- [ ] `src/components/library/LibrarySearch.tsx`
-- [ ] `src/components/library/LibraryFilters.tsx`
-- [ ] `src/components/library/LibraryGrid.tsx`
-- [ ] `src/components/library/index.ts`
+- [x] `src/components/library/LibraryCard.tsx`
+- [x] `src/components/library/LibrarySearch.tsx`
+- [x] `src/components/library/LibraryFilters.tsx`
+- [x] `src/components/library/LibraryGrid.tsx`
+- [x] `src/components/library/index.ts`
 
 **Review Components (6 files):**
-- [ ] `src/components/review/ReviewConfig.tsx`
-- [ ] `src/components/review/VocabularyReview.tsx`
-- [ ] `src/components/review/KanjiReview.tsx`
-- [ ] `src/components/review/GrammarReview.tsx`
-- [ ] `src/components/review/ReviewSummary.tsx`
-- [ ] `src/components/review/index.ts` (update)
+- [x] `src/components/review/ReviewConfig.tsx`
+- [x] `src/components/review/VocabularyReview.tsx`
+- [x] `src/components/review/KanjiReview.tsx`
+- [x] `src/components/review/GrammarReview.tsx`
+- [x] `src/components/review/ReviewSummary.tsx`
+- [x] `src/components/review/index.ts` (update)
 
 **Exercise Components (9 files):**
-- [ ] `src/components/exercises/ExerciseContainer.tsx`
-- [ ] `src/components/exercises/FillBlank.tsx`
-- [ ] `src/components/exercises/Matching.tsx`
-- [ ] `src/components/exercises/SentenceBuilding.tsx`
-- [ ] `src/components/exercises/Typing.tsx`
-- [ ] `src/components/exercises/ListeningDictation.tsx`
-- [ ] `src/components/exercises/StrokeOrder.tsx`
-- [ ] `src/components/exercises/Speaking.tsx`
-- [ ] `src/components/exercises/index.ts`
+- [x] `src/components/exercises/ExerciseContainer.tsx`
+- [x] `src/components/exercises/FillBlank.tsx`
+- [x] `src/components/exercises/Matching.tsx`
+- [x] `src/components/exercises/SentenceBuilding.tsx`
+- [x] `src/components/exercises/Typing.tsx`
+- [x] `src/components/exercises/ListeningDictation.tsx`
+- [x] `src/components/exercises/StrokeOrder.tsx`
+- [x] `src/components/exercises/Speaking.tsx`
+- [x] `src/components/exercises/index.ts`
 
 **Convex (6 files):**
-- [ ] `convex/pathProgress.js`
-- [ ] `convex/gamification.js`
-- [ ] `convex/reviewQueue.js`
-- [ ] `convex/weeklyReports.js`
-- [ ] `convex/lessonSessions.js`
-- [ ] `convex/achievements.js`
+- [x] `convex/pathProgress.js`
+- [x] `convex/gamification.js`
+- [x] `convex/reviewQueue.js`
+- [x] `convex/weeklyReports.js`
+- [x] `convex/lessonSessions.js`
+- [x] `convex/achievements.js`
 
 **Data Files (8+ files):**
-- [ ] `src/data/achievements.json`
-- [ ] `src/data/ja/curriculum.json`
-- [ ] `src/data/ko/curriculum.json`
-- [ ] `src/data/zh/curriculum.json`
-- [ ] `src/data/es/curriculum.json`
-- [ ] `src/data/de/curriculum.json`
-- [ ] `src/data/en/curriculum.json`
-- [ ] `src/data/it/curriculum.json`
+- [x] `src/data/achievements.json`
+- [x] `src/data/ja/curriculum.json`
+- [x] `src/data/ko/curriculum.json`
+- [x] `src/data/zh/curriculum.json`
+- [x] `src/data/es/curriculum.json`
+- [x] `src/data/de/curriculum.json`
+- [x] `src/data/en/curriculum.json`
+- [x] `src/data/it/curriculum.json`
 
 **Tools (5 files):**
-- [ ] `tools/find-hardcoded-strings.ts`
-- [ ] `tools/check-translation-completeness.ts`
-- [ ] `tools/find-unused-i18n-keys.ts`
-- [ ] `tools/analyze-data-completeness.ts`
-- [ ] `tools/validate-data-structure.ts`
+- [x] `tools/find-hardcoded-strings.ts`
+- [x] `tools/check-translation-completeness.ts`
+- [x] `tools/find-unused-i18n-keys.ts`
+- [x] `tools/analyze-data-completeness.ts`
+- [x] `tools/validate-data-structure.ts`
 
 ### Files to Modify:
 
-- [ ] `src/types/index.ts`
-- [ ] `src/hooks/index.ts`
-- [ ] `src/app/page.tsx` (dashboard)
-- [ ] `src/app/review/page.tsx`
-- [ ] `src/components/common/MultipleChoice.tsx`
-- [ ] `src/components/common/Navigation.tsx`
-- [ ] `convex/schema.js`
-- [ ] `src/data/*/vocabulary.json` (add lessonId)
-- [ ] `src/data/*/grammar.json` (add lessonId)
-- [ ] `src/data/*/kanji.json` (add lessonId)
+- [x] `src/types/index.ts`
+- [x] `src/hooks/index.ts`
+- [x] `src/app/page.tsx` (dashboard)
+- [x] `src/app/review/page.tsx`
+- [x] `src/components/common/MultipleChoice.tsx`
+- [x] `src/components/common/Navigation.tsx`
+- [x] `convex/schema.js`
+- [x] `src/data/*/vocabulary.json` (add lessonId)
+- [x] `src/data/*/grammar.json` (add lessonId)
+- [x] `src/data/*/kanji.json` (add lessonId)
 
 ---
 

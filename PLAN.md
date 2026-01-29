@@ -487,53 +487,53 @@ Based on research and competitive analysis, features are prioritized by impact:
 ### Implementation Phases
 
 #### Phase 1: Data Model & Infrastructure
-- [ ] Add `lessonId` field to existing data files
-- [ ] Create curriculum JSON structure for each language
-- [ ] Update TypeScript types in `src/types/`
-- [ ] Create `useCurriculum` hook for curriculum data
-- [ ] Update progress model in Convex schema
-- [ ] Add gamification schema (XP, streak, achievements)
+- [x] Add `lessonId` field to existing data files
+- [x] Create curriculum JSON structure for each language
+- [x] Update TypeScript types in `src/types/`
+- [x] Create `useCurriculum` hook for curriculum data
+- [x] Update progress model in Convex schema
+- [x] Add gamification schema (XP, streak, achievements)
 
 #### Phase 2: Lesson Experience
-- [ ] Create `/paths/[pathId]/[lessonId]/page.tsx`
-- [ ] Build `LessonView` component with card stack UI
-- [ ] Implement lesson flow: intro → content → practice → summary
-- [ ] Add lesson completion and SRS scheduling
-- [ ] Create lesson progress persistence
-- [ ] Implement exercise types (multiple choice, fill-in-blank, matching, sentence building)
+- [x] Create `/paths/[pathId]/[lessonId]/page.tsx`
+- [x] Build `LessonView` component with card stack UI
+- [x] Implement lesson flow: intro → content → practice → summary
+- [x] Add lesson completion and SRS scheduling
+- [x] Create lesson progress persistence
+- [x] Implement exercise types (multiple choice, fill-in-blank, matching, sentence building)
 
 #### Phase 3: Gamification System
-- [ ] Implement streak tracking with Streak Freeze option
-- [ ] Create XP/Points system
-- [ ] Add user levels with progression
-- [ ] Build daily goals selector (5/10/15/20 min)
-- [ ] Create achievement/badge system
-- [ ] Add XP animations and level-up celebrations
+- [x] Implement streak tracking with Streak Freeze option
+- [x] Create XP/Points system
+- [x] Add user levels with progression
+- [x] Build daily goals selector (5/10/15/20 min)
+- [x] Create achievement/badge system
+- [x] Add XP animations and level-up celebrations
 
 #### Phase 4: Dashboard Redesign
-- [ ] Redesign Dashboard layout (path-focused)
-- [ ] Add "Continue Lesson" card
-- [ ] Add "Review Session" card with due count
-- [ ] Create path progress visualization
-- [ ] Add streak/XP display bar
-- [ ] Add "Library" quick access section
-- [ ] Add weekly progress summary
+- [x] Redesign Dashboard layout (path-focused)
+- [x] Add "Continue Lesson" card
+- [x] Add "Review Session" card with due count
+- [x] Create path progress visualization
+- [x] Add streak/XP display bar
+- [x] Add "Library" quick access section
+- [x] Add weekly progress summary
 
 #### Phase 5: Library Transformation
-- [ ] Rename module pages to Library
-- [ ] Add "By Lesson" filter
-- [ ] Add "Learned only" filter
-- [ ] Enhance cards with lesson source info
-- [ ] Add mastery indicators
-- [ ] Add search functionality
+- [x] Rename module pages to Library
+- [x] Add "By Lesson" filter
+- [x] Add "Learned only" filter
+- [x] Enhance cards with lesson source info
+- [x] Add mastery indicators
+- [x] Add search functionality
 
 #### Phase 6: Cross-Module Reviews
-- [ ] Unify review logic across modules
-- [ ] Create mixed review session with exercise variety
-- [ ] Add module filter for focused review
-- [ ] Add lesson review option
-- [ ] Update SRS to work with lesson context
-- [ ] Implement instant feedback with explanations
+- [x] Unify review logic across modules
+- [x] Create mixed review session with exercise variety
+- [x] Add module filter for focused review
+- [x] Add lesson review option
+- [x] Update SRS to work with lesson context
+- [x] Implement instant feedback with explanations
 
 ---
 
@@ -635,24 +635,24 @@ Since this is local-only (no authentication needed):
 ### Implementation Plan
 
 #### Phase A: FastAPI Backend (1-2 days)
-- [ ] Create `src/api/` with FastAPI routes
-- [ ] CRUD endpoints for all data types
-- [ ] Curriculum endpoints
-- [ ] Generation trigger endpoints
-- [ ] Export endpoints
+- [x] Create `src/api/` with FastAPI routes
+- [x] CRUD endpoints for all data types
+- [x] Curriculum endpoints
+- [x] Generation trigger endpoints
+- [x] Export endpoints
 
 #### Phase B: Next.js Frontend (2-3 days)
-- [ ] Create `admin_ui/` Next.js project
-- [ ] Dashboard page with stats
-- [ ] Content browser with DataTable
-- [ ] Curriculum tree view
-- [ ] i18n management (from murmura implementation)
-- [ ] Data analysis (from murmura implementation)
+- [x] Create `admin_ui/` Next.js project
+- [x] Dashboard page with stats
+- [x] Content browser with DataTable
+- [x] Curriculum tree view
+- [x] i18n management (from murmura implementation)
+- [x] Data analysis (from murmura implementation)
 
 #### Phase C: Integration (1 day)
-- [ ] Export to murmura_web integration
-- [ ] Validation scripts
-- [ ] Documentation
+- [x] Export to murmura_web integration
+- [x] Validation scripts
+- [x] Documentation
 
 ---
 
