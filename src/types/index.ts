@@ -153,6 +153,32 @@ export interface KanjiItem {
   script_id?: number;
 }
 
+// Common mistake interface for enhanced grammar
+export interface CommonMistake {
+  mistake: string;
+  correction: string;
+  explanation: string;
+}
+
+// Error correction interface for enhanced grammar
+export interface ErrorCorrection {
+  wrong: string;
+  correct: string;
+  explanation: string;
+}
+
+// Formality level type
+export type FormalityLevel = 'casual' | 'polite' | 'formal' | 'humble' | 'any';
+
+// Cognitive level for exercises
+export type CognitiveLevel = 'recognition' | 'supported' | 'guided' | 'independent';
+
+// Skill focus for exercises
+export type SkillFocus = 'reading' | 'writing' | 'listening' | 'speaking' | 'grammar';
+
+// Exercise difficulty
+export type ExerciseDifficulty = 'easy' | 'medium' | 'hard';
+
 export interface GrammarItem {
   id: string;
   title: string;
@@ -171,6 +197,9 @@ export interface GrammarItem {
     english: string; // Legacy
     translations?: Record<string, string>; // Language code -> translation
     audioUrl?: string;
+    reading?: string;
+    register?: 'casual' | 'polite' | 'formal';
+    isIncorrect?: boolean;
     [key: string]: unknown; // Allow language-specific fields
   }>;
   exercises?: Array<{
@@ -180,6 +209,13 @@ export interface GrammarItem {
     options: string[];
     optionTranslations?: Record<string, string[]>; // Language code -> options translations
     correct: number;
+    answer?: string;
+    explanation?: string;
+    // Enhanced exercise fields
+    wrongAnswerExplanations?: Record<string, string>;
+    cognitiveLevel?: CognitiveLevel;
+    skillFocus?: SkillFocus;
+    difficulty?: ExerciseDifficulty;
   }>;
   jlpt?: string;
   level?: string;
@@ -188,6 +224,17 @@ export interface GrammarItem {
   audio_url?: string;
   language_id?: number;
   content_translations?: Record<string, unknown>;
+  // Enhanced grammar fields
+  formation?: string;
+  formalityLevel?: FormalityLevel;
+  pragmaticNotes?: string;
+  commonMistakes?: CommonMistake[];
+  errorCorrections?: ErrorCorrection[];
+  negativeForm?: string;
+  questionForm?: string;
+  conjugationTable?: Record<string, string>;
+  prerequisiteGrammar?: string[];
+  relatedGrammar?: string[];
 }
 
 export interface ReadingItem {

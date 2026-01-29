@@ -18,6 +18,16 @@ interface LessonCardProps {
   formation?: string;
   reading?: string;
   translation?: string;
+  partOfSpeech?: string;
+  level?: string;
+  /** For recycled items - shows "Review" badge */
+  isReview?: boolean;
+  /** For recycled items - which lesson it was first introduced */
+  reviewSource?: string;
+  /** Exposure count for spaced repetition tracking */
+  exposureCount?: number;
+  /** Formality level for grammar cards */
+  formalityLevel?: 'casual' | 'polite' | 'formal' | 'humble' | 'any';
 }
 
 const TYPE_ICONS = {
@@ -47,6 +57,12 @@ export default function LessonCard({
   formation,
   reading,
   translation,
+  partOfSpeech,
+  level,
+  isReview = false,
+  reviewSource,
+  exposureCount,
+  formalityLevel,
 }: LessonCardProps) {
   const { t } = useLanguage();
   const Icon = TYPE_ICONS[type];
@@ -83,6 +99,53 @@ export default function LessonCard({
           <Text variant="body" color="muted" className={styles.meaning}>
             {meaning}
           </Text>
+        )}
+        {/* Part of Speech, Level, Review, and Formality badges */}
+        {(partOfSpeech || level || isReview || formalityLevel || exposureCount) && (
+          <div className={styles.badges} role="group" aria-label="Word metadata">
+            {isReview && (
+              <span
+                className={styles.reviewBadge}
+                aria-label={reviewSource ? `Review from: ${reviewSource}` : 'Review item'}
+                title={reviewSource ? `First learned in: ${reviewSource}` : 'Review item'}
+              >
+                Review
+              </span>
+            )}
+            {exposureCount !== undefined && exposureCount > 0 && (
+              <span
+                className={styles.exposureBadge}
+                aria-label={`Seen ${exposureCount} times`}
+                title={`You've encountered this ${exposureCount} time${exposureCount > 1 ? 's' : ''}`}
+              >
+                {exposureCount}x
+              </span>
+            )}
+            {formalityLevel && formalityLevel !== 'any' && (
+              <span
+                className={`${styles.formalityBadge} ${styles[`formality${formalityLevel.charAt(0).toUpperCase() + formalityLevel.slice(1)}`]}`}
+                aria-label={`Formality level: ${formalityLevel}`}
+              >
+                {formalityLevel}
+              </span>
+            )}
+            {partOfSpeech && (
+              <span
+                className={styles.partOfSpeechBadge}
+                aria-label={`Part of speech: ${partOfSpeech}`}
+              >
+                {partOfSpeech}
+              </span>
+            )}
+            {level && (
+              <span
+                className={styles.levelBadge}
+                aria-label={`Level: ${level}`}
+              >
+                {level}
+              </span>
+            )}
+          </div>
         )}
         {/* Reading (for examples) */}
         {reading && (

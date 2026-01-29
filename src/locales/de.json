@@ -41,7 +41,13 @@
       "title": "Etwas ist schiefgelaufen",
       "message": "Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie, die Seite zu aktualisieren.",
       "tryAgain": "Erneut versuchen"
-    }
+    },
+    "expand": "Erweitern",
+    "collapse": "Einklappen",
+    "minimize": "Minimieren",
+    "cancel": "Abbrechen",
+    "confirm": "Bestätigen",
+    "unknown": "Unbekannt"
   },
   "modules": {
     "alphabet": {
@@ -102,7 +108,10 @@
     "characterOf": "Zeichen {current} von {total}",
     "lessonComplete": "Lektion abgeschlossen!",
     "nextLesson": "Nächste Lektion",
-    "selectLesson": "Lektion auswählen"
+    "selectLesson": "Lektion auswählen",
+    "previousCharacter": "Vorheriges Zeichen",
+    "nextCharacter": "Nächstes Zeichen",
+    "characterName": "Name"
   },
   "vocabulary": {
     "practiceMode": "Übungsmodus",
@@ -110,7 +119,29 @@
     "typeWord": "Japanisches Wort eingeben...",
     "noWords": "Keine Wörter verfügbar.",
     "showHint": "Hinweis anzeigen",
-    "hintShown": "Hinweis angezeigt"
+    "hintShown": "Hinweis angezeigt",
+    "tabs": {
+      "myCards": "Meine Karten",
+      "allVocabulary": "Gesamter Wortschatz"
+    },
+    "stats": {
+      "wordsLearned": "Gelernte Wörter",
+      "dueForReview": "Zur Wiederholung fällig",
+      "accuracy": "Genauigkeit"
+    },
+    "empty": {
+      "title": "Noch keine Vokabelkarten",
+      "desc": "Schließe Lektionen ab, um Vokabeln hinzuzufügen",
+      "goToLessons": "Zu den Lektionen",
+      "unlock": "Passe deine Filter an oder schließe mehr Lektionen ab",
+      "searchEmpty": "Keine Vokabeln gefunden",
+      "searchHint": "Versuche, deine Suche oder Filter anzupassen"
+    },
+    "actions": {
+      "learnInLessons": "In Lektionen lernen",
+      "learned": "Gelernt"
+    },
+    "searchPlaceholder": "Vokabeln suchen..."
   },
   "kanji": {
     "practiceMeaning": "Bedeutung",
@@ -119,8 +150,8 @@
     "typeReading": "Lesung eingeben...",
     "showInfo": "Info anzeigen",
     "noKanji": "Keine Kanji verfügbar.",
-    "onyomi": "音読み",
-    "kunyomi": "訓読み",
+    "onyomi": "Onyomi",
+    "kunyomi": "Kunyomi",
     "pinyin": "Pinyin",
     "filters": {
       "n5": "JLPT N5",
@@ -140,7 +171,30 @@
     "checkAnswer": "Antwort Prüfen",
     "practice": "Üben",
     "noGrammar": "Keine Grammatik verfügbar.",
-    "noExercises": "Keine Übungen für diesen Grammatikpunkt verfügbar."
+    "noExercises": "Keine Übungen für diesen Grammatikpunkt verfügbar.",
+    "tabs": {
+      "myGrammar": "Meine Grammatik",
+      "allGrammar": "Gesamte Grammatik"
+    },
+    "stats": {
+      "pointsLearned": "Gelernte Punkte",
+      "mastered": "Gemeistert",
+      "accuracy": "Genauigkeit"
+    },
+    "empty": {
+      "title": "Noch keine Grammatikkarten",
+      "desc": "Schließe Lektionen ab, um Grammatik hinzuzufügen",
+      "goToLessons": "Zu den Lektionen",
+      "unlock": "Schließe mehr Lektionen ab, um Grammatikübungen freizuschalten",
+      "searchEmpty": "Keine Grammatik gefunden",
+      "searchHint": "Versuche, deine Suche oder Filter anzupassen"
+    },
+    "actions": {
+      "review": "Wiederholen",
+      "learnInLessons": "In Lektionen lernen",
+      "learned": "Gelernt"
+    },
+    "searchPlaceholder": "Grammatik suchen..."
   },
   "reading": {
     "showFurigana": "Furigana Anzeigen",
@@ -151,7 +205,26 @@
     "vocabulary": "Vokabular",
     "comprehensionQuestions": "Verständnisfragen",
     "textsRead": "Gelesene Texte",
-    "noReadings": "Keine Texte verfügbar."
+    "noReadings": "Keine Texte verfügbar.",
+    "tabs": {
+      "myReadings": "Meine Lesetexte",
+      "allReadings": "Alle Lesetexte"
+    },
+    "empty": {
+      "title": "Noch keine Lesetexte",
+      "desc": "Schließe Lektionen ab, um Lesetexte hinzuzufügen",
+      "browse": "Alle Lesetexte durchsuchen",
+      "filterEmpty": "Keine Lesetexte entsprechen den aktuellen Filtern.",
+      "searchEmpty": "Keine Lesetexte gefunden",
+      "searchHint": "Versuche, deine Suche oder Filter anzupassen"
+    },
+    "stats": {
+      "learned": "Gelernt",
+      "total": "Gesamte Lesetexte",
+      "comprehension": "Verständnis"
+    },
+    "searchPlaceholder": "Lesetexte suchen...",
+    "viewLesson": "Lektion ansehen"
   },
   "listening": {
     "playAudio": "Audio Abspielen",
@@ -203,7 +276,13 @@
       "toLevel": "bis Stufe {level}",
       "learnedItemsInfo": "{learned} / {total} Elemente gelernt",
       "milestones": "Meilensteine",
-      "atMinutesPerDay": "Bei {count} Min./Tag"
+      "atMinutesPerDay": "Bei {count} Min./Tag",
+      "milestoneNames": {
+        "beginner": "Anfänger",
+        "intermediate": "Mittelstufe",
+        "advanced": "Fortgeschritten",
+        "master": "Meister"
+      }
     },
     "library": {
       "viewAll": "Alle anzeigen",
@@ -266,7 +345,8 @@
       "placeholder": "Suchen...",
       "clear": "Suche löschen",
       "results": "{count} Ergebnisse"
-    }
+    },
+    "browseDescription": "Durchsuche und wiederhole alle Lernmaterialien"
   },
   "auth": {
     "signIn": "Anmelden",
@@ -322,11 +402,39 @@
         "xp": "XP verdienen",
         "lessons": "Lektionen abschließen",
         "time": "Lernzeit"
+      },
+      "setTitle": "Tagesziel festlegen",
+      "setDescription": "Wähle, wie viel du täglich lernen möchtest",
+      "current": "Aktuell",
+      "confirmChange": "Dein Tagesziel auf {target} XP ändern?",
+      "levels": {
+        "casual": "Entspannt",
+        "regular": "Normal",
+        "serious": "Ernsthaft",
+        "intense": "Intensiv"
+      },
+      "descriptions": {
+        "casual": "50 XP pro Tag",
+        "regular": "100 XP pro Tag",
+        "serious": "200 XP pro Tag",
+        "intense": "300 XP pro Tag"
       }
     },
     "streak": {
       "dayStreak": "{count} Tage Serie",
-      "best": "Bestleistung: {count} Tage"
+      "best": "Bestleistung: {count} Tage",
+      "noStreak": "Kein Streak",
+      "oneDay": "1 Tag",
+      "days": "{count} Tage",
+      "messages": {
+        "startToday": "Starte deinen Streak heute!",
+        "greatStart": "Super Start! Mach weiter so!",
+        "buildingMomentum": "Du kommst in Fahrt!",
+        "onFire": "Du hast einen Lauf!",
+        "incredibleDedication": "Unglaublicher Einsatz!",
+        "legend": "Du bist eine Legende!",
+        "unstoppable": "Nicht zu stoppen!"
+      }
     },
     "xp": {
       "today": "{xp} XP heute",
@@ -342,7 +450,7 @@
       "xpEarned": "Verdiente XP",
       "newWords": "Neue Wörter",
       "accuracy": "Genauigkeit",
-      "highlights": "Highlights"
+      "highlights": "Höhepunkte"
     },
     "achievements": {
       "title": "Errungenschaften ({percentage}%)",
@@ -387,7 +495,7 @@
       "anonymousNameDescription": "So erscheinen Sie auf der Bestenliste"
     },
     "srs": {
-      "title": "Spaced Repetition",
+      "title": "Verteilte Wiederholung",
       "description": "Passen Sie die Wiederholungsplanung und Schwierigkeit an"
     },
     "audio": {
@@ -405,7 +513,7 @@
       "noVoicesWarning": "Keine Stimmen für {{language}} verfügbar.",
       "voiceSelectionNote": "Wählen Sie eine Stimme für {{language}} Text-zu-Sprache. Vorab generierte Audio wird verwendet, wenn verfügbar.",
       "playing": "Spielt...",
-      "test": "Test",
+      "test": "Testen",
       "voiceDetail": "{{language}} • {{gender}} • Qualität: {{quality}}",
       "priorityTitle": "Audio-Wiedergabepriorität:",
       "priority1": "Vorab generierte Audio (beste Qualität)",
@@ -413,7 +521,10 @@
       "ifEnabled": "falls aktiviert",
       "autoLoaded": "automatisch geladen",
       "englishOnly": "Nur Englisch",
-      "priority3": "Browser-Sprachsynthese (Fallback)"
+      "priority3": "Browser-Sprachsynthese (Fallback)",
+      "loading": "Lade Kokoro TTS...",
+      "edgeTitle": "Edge TTS Stimme ({language})",
+      "edgeDesc": "Microsoft neurale Stimme für {language} - hochwertige Cloud-TTS-Alternative"
     },
     "appearance": {
       "title": "Erscheinungsbild",
@@ -532,7 +643,8 @@
       "usageNotes": "Verwendungshinweise",
       "hideExplanation": "Erklärung ausblenden",
       "showExplanation": "Erklärung anzeigen",
-      "iUnderstand": "Ich verstehe"
+      "iUnderstand": "Ich verstehe",
+      "formation": "Bildung"
     },
     "character": {
       "strokeOrder": "Strichreihenfolge",
@@ -563,6 +675,15 @@
       "pathComplete": "Pfad abgeschlossen",
       "backToPath": "Zurück zum Pfad",
       "upNext": "Als Nächstes"
+    },
+    "loading": "Lektion wird geladen...",
+    "notFound": "Lektion nicht gefunden",
+    "notFoundDescription": "Die Lektion \"{lessonId}\" konnte nicht gefunden werden.",
+    "backToPath": "Zurück zum Pfad",
+    "locked": "Lektion gesperrt",
+    "lockedDescription": "Schließe die vorherigen Lektionen ab, um diese freizuschalten.",
+    "exercise": {
+      "completeExercise": "Übung abschließen"
     }
   },
   "exercises": {
@@ -686,6 +807,146 @@
         "okay": "Nicht schlecht! Üben Sie weiter.",
         "needsWork": "Weitermachen! Übung macht den Meister."
       }
-    }
+    },
+    "loading": "Wiederholungen werden geladen...",
+    "title": "Wiederholungs-Dashboard",
+    "itemsDue": "{count} Elemente fällig",
+    "endSessionEarly": "Sitzung vorzeitig beenden",
+    "urgency": {
+      "overdue": "Überfällig",
+      "dueToday": "Heute fällig",
+      "upcoming": "Demnächst",
+      "allClear": "Alles erledigt"
+    },
+    "moduleSelection": "Modulauswahl",
+    "toggleModule": "Modul {module} umschalten, {count} Elemente fällig",
+    "estimatedTime": "Geschätzte Zeit: {minutes} Min. ({items} Elemente)",
+    "startSession": "Wiederholung starten",
+    "noReviewsDue": "Keine Wiederholungen fällig"
+  },
+  "learningCompanion": {
+    "title": "Lernbegleiter",
+    "open": "Lernbegleiter öffnen",
+    "overall": "Gesamt",
+    "streak": "Serie",
+    "reviews": "Wiederholungen",
+    "learned": "Gelernt",
+    "overdueReviews": "Überfällige Wiederholungen!",
+    "reviewsDue": "Fällige Wiederholungen",
+    "reviewCount": "{count} Elemente · ~{minutes} Min.",
+    "nextUp": "Als Nächstes",
+    "suggestions": "Vorschläge",
+    "currentGoal": "Aktuelles Ziel",
+    "percentComplete": "{percent}% abgeschlossen",
+    "insight": "Einblick",
+    "browsePaths": "Pfade durchsuchen",
+    "reviewNow": "Jetzt wiederholen"
+  },
+  "leaderboard": {
+    "title": "Bestenliste",
+    "subtitle": "Miss dich mit Lernenden weltweit",
+    "generating": "Wird erstellt...",
+    "youBadge": "Du",
+    "periods": {
+      "daily": "Heute",
+      "weekly": "Diese Woche",
+      "allTime": "Gesamt"
+    },
+    "stats": {
+      "title": "Deine Statistiken",
+      "studyTime": "Lernzeit",
+      "accuracy": "Genauigkeit",
+      "streaks": "Serien",
+      "mastery": "Meisterschaft",
+      "total": "Gesamt",
+      "rank": "Dein Rang",
+      "participants": "von {count} Lernenden",
+      "position": "Deine Position"
+    },
+    "empty": {
+      "daily": "Noch hat heute niemand gelernt. Sei der Erste!",
+      "weekly": "Noch keine Aktivität diese Woche. Fang an zu lernen!",
+      "allTime": "Noch keine Lernenden auf der Bestenliste.",
+      "loading": "Lade Bestenliste...",
+      "noEntries": "Noch keine Einträge"
+    },
+    "badges": {
+      "you": "Du"
+    },
+    "global": "Global"
+  },
+  "paths": {
+    "loading": "Lade Pfade...",
+    "title": "Lernpfade",
+    "subtitle": "Wähle deinen Weg zur Meisterschaft",
+    "filters": "Filter",
+    "filterType": "Typ",
+    "filterDifficulty": "Schwierigkeit",
+    "types": {
+      "all": "Alle",
+      "linear": "JLPT Pfad",
+      "topic": "Themen"
+    },
+    "difficulty": {
+      "all": "Alle",
+      "beginner": "Anfänger",
+      "intermediate": "Mittelstufe",
+      "advanced": "Fortgeschritten"
+    },
+    "personalizedPath": "Personalisierter Pfad",
+    "aiRecommendations": "KI-Empfehlungen",
+    "tailoredToYou": "Auf deinen Lernstil zugeschnitten",
+    "minPerDay": "Min/Tag",
+    "newPerWeek": "neu/Woche",
+    "pace": "Tempo",
+    "focusAreas": "Schwerpunkte",
+    "startLearning": "Lernen starten",
+    "structuredPaths": "Strukturierte Pfade",
+    "enrolled": "Eingeschrieben",
+    "topicTracks": "Themenpfade",
+    "percentComplete": "{percent}% abgeschlossen",
+    "requires": "Erfordert: {item}",
+    "noPathsYet": "Noch keine Lernpfade",
+    "noPathsDescription": "Lernpfade für diese Sprache kommen bald. Generiere den Lehrplan im Admin-Panel, um strukturierte Lernpfade zu erstellen.",
+    "noMatchingPaths": "Keine Pfade entsprechen deinen Filtern",
+    "clearFilters": "Filter zurücksetzen",
+    "hours": "geschätzt {count}h"
+  },
+  "contentGuard": {
+    "comingSoon": "Demnächst",
+    "notAvailable": "Inhalte für {language} sind in diesem Modul noch nicht verfügbar.",
+    "availableFor": "Dieses Modul ist derzeit verfügbar für: {languages}. Wir arbeiten daran, weitere hinzuzufügen!",
+    "noLanguages": "Noch keine Sprachen"
+  },
+  "pathDetail": {
+    "loading": "Lade Pfad...",
+    "notFound": "Pfad nicht gefunden",
+    "notFoundDescription": "Der gesuchte Lernpfad existiert nicht oder wurde noch nicht generiert.",
+    "backToPaths": "Zurück zu den Pfaden",
+    "estimated": "Geschätzt",
+    "hoursValue": "{count}h",
+    "complete": "Abgeschlossen",
+    "milestones": "Meilensteine",
+    "items": "Elemente",
+    "prerequisitesRequired": "Voraussetzungen erforderlich",
+    "completeFirst": "Zuerst abschließen",
+    "continueLearning": "Weiterlernen",
+    "unenroll": "Abmelden",
+    "startPath": "Pfad beginnen",
+    "locked": "Gesperrt",
+    "milestonesDescription": "Schließe jeden Meilenstein ab, um im Pfad voranzukommen",
+    "startLesson": "Lektion starten",
+    "reviewProgress": "Fortschritt überprüfen",
+    "unlockMessage": "Schließe vorherige Lektionen ab, um freizuschalten",
+    "completed": "Abgeschlossen",
+    "whatYoullLearn": "Was du lernen wirst",
+    "practicalItemsFor": "Praktische Elemente für {name}",
+    "topics": "Themen"
+  },
+  "recommendations": {
+    "encouragement": "Du machst das großartig! Zögere nicht, dich mehr zu fordern.",
+    "takingSlow": "Gehe es langsam an, um stärkere Grundlagen zu schaffen.",
+    "manyReviewsDue": "Viele Wiederholungen fällig - überlege, deine Warteschlange abzuarbeiten, bevor du Neues hinzufügst.",
+    "focusOn": "Konzentriere dich diese Woche auf {module} - {reason}."
   }
 }

@@ -909,7 +909,8 @@
     "noPathsYet": "学習パスはまだありません",
     "noPathsDescription": "この言語の学習パスは近日公開予定です。管理パネルでカリキュラムを生成して構造化された学習パスを作成してください。",
     "noMatchingPaths": "フィルターに一致するパスがありません",
-    "clearFilters": "フィルターをクリア"
+    "clearFilters": "フィルターをクリア",
+    "hours": "推定{count}時間"
   },
   "contentGuard": {
     "comingSoon": "近日公開",
@@ -923,6 +924,7 @@
     "notFoundDescription": "お探しの学習パスは存在しないか、まだ生成されていません。",
     "backToPaths": "パス一覧へ戻る",
     "estimated": "推定時間",
+    "hoursValue": "{count}時間",
     "complete": "完了",
     "milestones": "マイルストーン",
     "items": "項目",

@@ -41,7 +41,13 @@
       "title": "حدث خطأ ما",
       "message": "حدث خطأ غير متوقع. يرجى محاولة تحديث الصفحة.",
       "tryAgain": "حاول مرة أخرى"
-    }
+    },
+    "expand": "توسيع",
+    "collapse": "طي",
+    "minimize": "تصغير",
+    "cancel": "إلغاء",
+    "confirm": "تأكيد",
+    "unknown": "غير معروف"
   },
   "modules": {
     "alphabet": {
@@ -102,7 +108,10 @@
     "characterOf": "الحرف {current} من {total}",
     "lessonComplete": "اكتمل الدرس!",
     "nextLesson": "الدرس التالي",
-    "selectLesson": "اختر درساً"
+    "selectLesson": "اختر درساً",
+    "previousCharacter": "الحرف السابق",
+    "nextCharacter": "الحرف التالي",
+    "characterName": "الاسم"
   },
   "vocabulary": {
     "practiceMode": "وضع الممارسة",
@@ -110,7 +119,29 @@
     "typeWord": "اكتب الكلمة اليابانية...",
     "noWords": "لا توجد كلمات متاحة.",
     "showHint": "إظهار التلميح",
-    "hintShown": "التلميح معروض"
+    "hintShown": "التلميح معروض",
+    "tabs": {
+      "myCards": "بطاقاتي",
+      "allVocabulary": "كل المفردات"
+    },
+    "stats": {
+      "wordsLearned": "الكلمات المتعلمة",
+      "dueForReview": "مستحق للمراجعة",
+      "accuracy": "الدقة"
+    },
+    "empty": {
+      "title": "لا توجد بطاقات مفردات بعد",
+      "desc": "أكمل الدروس لإضافة مفردات إلى مجموعتك",
+      "goToLessons": "الذهاب إلى الدروس",
+      "unlock": "اضبط فلاتر المستوى أو أكمل المزيد من الدروس",
+      "searchEmpty": "لم يتم العثور على مفردات",
+      "searchHint": "حاول تعديل البحث أو الفلاتر"
+    },
+    "actions": {
+      "learnInLessons": "تعلم في الدروس",
+      "learned": "تم تعلمها"
+    },
+    "searchPlaceholder": "البحث عن المفردات..."
   },
   "kanji": {
     "practiceMeaning": "المعنى",
@@ -140,7 +171,30 @@
     "checkAnswer": "تحقق من الإجابة",
     "practice": "ممارسة",
     "noGrammar": "لا توجد قواعد متاحة.",
-    "noExercises": "لا توجد تمارين متاحة لهذه النقطة النحوية."
+    "noExercises": "لا توجد تمارين متاحة لهذه النقطة النحوية.",
+    "tabs": {
+      "myGrammar": "قواعدي",
+      "allGrammar": "كل القواعد"
+    },
+    "stats": {
+      "pointsLearned": "النقاط المتعلمة",
+      "mastered": "تم إتقانها",
+      "accuracy": "الدقة"
+    },
+    "empty": {
+      "title": "لا توجد بطاقات قواعد بعد",
+      "desc": "أكمل الدروس لإضافة قواعد إلى مجموعتك",
+      "goToLessons": "الذهاب إلى الدروس",
+      "unlock": "أكمل المزيد من الدروس لفتح ممارسة القواعد",
+      "searchEmpty": "لم يتم العثور على قواعد",
+      "searchHint": "حاول تعديل البحث أو الفلاتر"
+    },
+    "actions": {
+      "review": "مراجعة",
+      "learnInLessons": "تعلم في الدروس",
+      "learned": "تم تعلمها"
+    },
+    "searchPlaceholder": "البحث عن القواعد..."
   },
   "reading": {
     "showFurigana": "إظهار الفوريغانا",
@@ -151,7 +205,26 @@
     "vocabulary": "المفردات",
     "comprehensionQuestions": "أسئلة الفهم",
     "textsRead": "النصوص المقروءة",
-    "noReadings": "لا توجد نصوص متاحة."
+    "noReadings": "لا توجد نصوص متاحة.",
+    "tabs": {
+      "myReadings": "قراءاتي",
+      "allReadings": "كل القراءات"
+    },
+    "empty": {
+      "title": "لا توجد قراءات بعد",
+      "desc": "أكمل الدروس لإضافة قراءات إلى مجموعتك",
+      "browse": "تصفح كل القراءات",
+      "filterEmpty": "لا توجد قراءات تطابق الفلاتر الحالية.",
+      "searchEmpty": "لم يتم العثور على قراءات",
+      "searchHint": "حاول تعديل البحث أو الفلاتر"
+    },
+    "stats": {
+      "learned": "تم تعلمها",
+      "total": "إجمالي القراءات",
+      "comprehension": "الاستيعاب"
+    },
+    "searchPlaceholder": "البحث عن القراءات...",
+    "viewLesson": "عرض الدرس"
   },
   "listening": {
     "playAudio": "تشغيل الصوت",
@@ -203,7 +276,13 @@
       "toLevel": "إلى المستوى {level}",
       "learnedItemsInfo": "{learned} / {total} عناصر متعلمة",
       "milestones": "معالم",
-      "atMinutesPerDay": "عند {count} دقيقة/يوم"
+      "atMinutesPerDay": "عند {count} دقيقة/يوم",
+      "milestoneNames": {
+        "beginner": "مبتدئ",
+        "intermediate": "متوسط",
+        "advanced": "متقدم",
+        "master": "متقن"
+      }
     },
     "library": {
       "viewAll": "عرض الكل",
@@ -266,7 +345,8 @@
       "placeholder": "بحث...",
       "clear": "مسح البحث",
       "results": "{count} نتيجة"
-    }
+    },
+    "browseDescription": "تصفح ومراجعة جميع المواد التعليمية"
   },
   "auth": {
     "signIn": "تسجيل الدخول",
@@ -322,11 +402,39 @@
         "xp": "كسب XP",
         "lessons": "إكمال الدروس",
         "time": "وقت الدراسة"
+      },
+      "setTitle": "حدد هدفك اليومي",
+      "setDescription": "اختر مقدار ما تريد تعلمه كل يوم",
+      "current": "الحالي",
+      "confirmChange": "هل تريد تغيير هدفك اليومي إلى {target} نقطة خبرة؟",
+      "levels": {
+        "casual": "عادي",
+        "regular": "منتظم",
+        "serious": "جدي",
+        "intense": "مكثف"
+      },
+      "descriptions": {
+        "casual": "50 نقطة خبرة يومياً",
+        "regular": "100 نقطة خبرة يومياً",
+        "serious": "200 نقطة خبرة يومياً",
+        "intense": "300 نقطة خبرة يومياً"
       }
     },
     "streak": {
       "dayStreak": "سلسلة {count} يوم",
-      "best": "الأفضل: {count} يوم"
+      "best": "الأفضل: {count} يوم",
+      "noStreak": "لا توجد سلسلة",
+      "oneDay": "يوم واحد",
+      "days": "{count} أيام",
+      "messages": {
+        "startToday": "ابدأ سلسلتك اليوم!",
+        "greatStart": "بداية رائعة! استمر!",
+        "buildingMomentum": "بناء الزخم!",
+        "onFire": "أنت متألق!",
+        "incredibleDedication": "تفانٍ مذهل!",
+        "legend": "أنت أسطورة!",
+        "unstoppable": "لا يمكن إيقافك!"
+      }
     },
     "xp": {
       "today": "{xp} XP اليوم",
@@ -413,7 +521,10 @@
       "ifEnabled": "إذا تم التمكين",
       "autoLoaded": "تم التحميل تلقائياً",
       "englishOnly": "الإنجليزية فقط",
-      "priority3": "توليف الكلام في المتصفح (احتياطي)"
+      "priority3": "توليف الكلام في المتصفح (احتياطي)",
+      "loading": "جاري تحميل Kokoro TTS...",
+      "edgeTitle": "صوت Edge TTS ({language})",
+      "edgeDesc": "صوت Microsoft العصبي للغة {language} - خيار احتياطي سحابي عالي الجودة لتحويل النص إلى كلام"
     },
     "appearance": {
       "title": "المظهر",
@@ -532,7 +643,8 @@
       "usageNotes": "ملاحظات الاستخدام",
       "hideExplanation": "إخفاء الشرح",
       "showExplanation": "عرض الشرح",
-      "iUnderstand": "أفهم"
+      "iUnderstand": "أفهم",
+      "formation": "التكوين"
     },
     "character": {
       "strokeOrder": "ترتيب الخطوط",
@@ -563,6 +675,15 @@
       "pathComplete": "اكتمل المسار",
       "backToPath": "العودة إلى المسار",
       "upNext": "التالي"
+    },
+    "loading": "جاري تحميل الدرس...",
+    "notFound": "الدرس غير موجود",
+    "notFoundDescription": "تعذر العثور على الدرس \"{lessonId}\".",
+    "backToPath": "العودة إلى المسار",
+    "locked": "الدرس مغلق",
+    "lockedDescription": "أكمل الدروس السابقة لفتح هذا الدرس.",
+    "exercise": {
+      "completeExercise": "أكمل التمرين"
     }
   },
   "exercises": {
@@ -686,6 +807,146 @@
         "okay": "ليس سيئًا! استمر في الممارسة.",
         "needsWork": "استمر! الممارسة تؤدي إلى الإتقان."
       }
-    }
+    },
+    "loading": "جاري تحميل المراجعات...",
+    "title": "لوحة المراجعة",
+    "itemsDue": "{count} عناصر مستحقة",
+    "endSessionEarly": "إنهاء الجلسة مبكراً",
+    "urgency": {
+      "overdue": "متأخر",
+      "dueToday": "مستحق اليوم",
+      "upcoming": "قادم",
+      "allClear": "كل شيء جاهز"
+    },
+    "moduleSelection": "اختيار الوحدة",
+    "toggleModule": "تبديل وحدة {module}، {count} عناصر مستحقة",
+    "estimatedTime": "الوقت المقدر: {minutes} دقيقة ({items} عناصر)",
+    "startSession": "بدء جلسة المراجعة",
+    "noReviewsDue": "لا توجد مراجعات مستحقة"
+  },
+  "learningCompanion": {
+    "title": "رفيق التعلم",
+    "open": "فتح رفيق التعلم",
+    "overall": "الإجمالي",
+    "streak": "سلسلة",
+    "reviews": "مراجعات",
+    "learned": "تم تعلمها",
+    "overdueReviews": "مراجعات متأخرة!",
+    "reviewsDue": "مراجعات مستحقة",
+    "reviewCount": "{count} عناصر · ~{minutes} دقيقة",
+    "nextUp": "التالي",
+    "suggestions": "اقتراحات",
+    "currentGoal": "الهدف الحالي",
+    "percentComplete": "{percent}% مكتمل",
+    "insight": "رؤية",
+    "browsePaths": "تصفح المسارات",
+    "reviewNow": "راجع الآن"
+  },
+  "leaderboard": {
+    "title": "لوحة المتصدرين",
+    "subtitle": "نافس المتعلمين حول العالم",
+    "generating": "جاري الإنشاء...",
+    "youBadge": "أنت",
+    "periods": {
+      "daily": "اليوم",
+      "weekly": "هذا الأسبوع",
+      "allTime": "كل الأوقات"
+    },
+    "stats": {
+      "title": "إحصائياتك",
+      "studyTime": "وقت الدراسة",
+      "accuracy": "الدقة",
+      "streaks": "سلاسل",
+      "mastery": "الإتقان",
+      "total": "المجموع",
+      "rank": "رتبتك",
+      "participants": "من أصل {count} متعلم",
+      "position": "مركزك"
+    },
+    "empty": {
+      "daily": "لم يدرس أحد اليوم بعد. كن الأول!",
+      "weekly": "لا يوجد نشاط هذا الأسبوع بعد. ابدأ التعلم!",
+      "allTime": "لا يوجد متعلمون في لوحة المتصدرين بعد.",
+      "loading": "جاري تحميل لوحة المتصدرين...",
+      "noEntries": "لا توجد مشاركات بعد"
+    },
+    "badges": {
+      "you": "أنت"
+    },
+    "global": "عالمي"
+  },
+  "paths": {
+    "loading": "جاري تحميل المسارات...",
+    "title": "مسارات التعلم",
+    "subtitle": "اختر رحلتك نحو الإتقان",
+    "filters": "تصفية",
+    "filterType": "النوع",
+    "filterDifficulty": "الصعوبة",
+    "types": {
+      "all": "الكل",
+      "linear": "مسار JLPT",
+      "topic": "مواضيع"
+    },
+    "difficulty": {
+      "all": "الكل",
+      "beginner": "مبتدئ",
+      "intermediate": "متوسط",
+      "advanced": "متقدم"
+    },
+    "personalizedPath": "مسار مخصص",
+    "aiRecommendations": "توصيات الذكاء الاصطناعي",
+    "tailoredToYou": "مفصل حسب أسلوب تعلمك",
+    "minPerDay": "دقيقة/يوم",
+    "newPerWeek": "جديد/أسبوع",
+    "pace": "الوتيرة",
+    "focusAreas": "مجالات التركيز",
+    "startLearning": "ابدأ التعلم",
+    "structuredPaths": "مسارات منظمة",
+    "enrolled": "مسجل",
+    "topicTracks": "مسارات المواضيع",
+    "percentComplete": "{percent}% مكتمل",
+    "requires": "يتطلب: {item}",
+    "noPathsYet": "لا توجد مسارات تعلم بعد",
+    "noPathsDescription": "مسارات التعلم لهذه اللغة ستأتي قريباً. قم بإنشاء المنهج في لوحة الإدارة لإنشاء مسارات تعلم منظمة.",
+    "noMatchingPaths": "لا توجد مسارات تطابق خيارات التصفية",
+    "clearFilters": "مسح التصفية",
+    "hours": "{count} ساعة تقريباً"
+  },
+  "contentGuard": {
+    "comingSoon": "قريباً",
+    "notAvailable": "محتوى {language} لهذه الوحدة غير متوفر بعد.",
+    "availableFor": "هذه الوحدة متاحة حالياً لـ: {languages}. نحن نعمل على إضافة المزيد!",
+    "noLanguages": "لا توجد لغات بعد"
+  },
+  "pathDetail": {
+    "loading": "جاري تحميل المسار...",
+    "notFound": "المسار غير موجود",
+    "notFoundDescription": "مسار التعلم الذي تبحث عنه غير موجود أو لم يتم إنشاؤه بعد.",
+    "backToPaths": "العودة للمسارات",
+    "estimated": "مقدر",
+    "hoursValue": "{count} ساعة",
+    "complete": "مكتمل",
+    "milestones": "محطات",
+    "items": "عناصر",
+    "prerequisitesRequired": "المتطلبات الأساسية مطلوبة",
+    "completeFirst": "أكمل أولاً",
+    "continueLearning": "تابع التعلم",
+    "unenroll": "إلغاء التسجيل",
+    "startPath": "ابدأ المسار",
+    "locked": "مغلق",
+    "milestonesDescription": "أكمل كل محطة للتقدم في المسار",
+    "startLesson": "ابدأ الدرس",
+    "reviewProgress": "راجع التقدم",
+    "unlockMessage": "أكمل الدروس السابقة لفتح القفل",
+    "completed": "مكتمل",
+    "whatYoullLearn": "ماذا ستتعلم",
+    "practicalItemsFor": "عناصر عملية لـ {name}",
+    "topics": "المواضيع"
+  },
+  "recommendations": {
+    "encouragement": "أنت تبلي بلاءً حسناً! لا تتردد في بذل جهد أكبر.",
+    "takingSlow": "التمهل لبناء أسس أقوى.",
+    "manyReviewsDue": "لديك الكثير من المراجعات المستحقة - فكر في إنهاء قائمة المراجعة قبل إضافة عناصر جديدة.",
+    "focusOn": "ركز على {module} هذا الأسبوع - {reason}."
   }
 }

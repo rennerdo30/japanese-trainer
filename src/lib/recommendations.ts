@@ -91,6 +91,7 @@ export interface PathProgress {
   totalMilestones: number;
   completedMilestones: number;
   percentComplete: number;
+  estimatedHours?: number;  // Total estimated hours for the path
   currentMilestone?: {
     id: string;
     name: string;
@@ -389,6 +390,7 @@ export function getTopicTrackProgress(
     totalMilestones: totalItems,
     completedMilestones: learnedItems,
     percentComplete,
+    estimatedHours: topicTrack.estimatedHours,
   };
 }
 
@@ -664,14 +666,21 @@ export function getAllPathsWithProgress(
     }
 
     if (pathData.type === 'linear') {
+      const linearPath = pathData as LinearPath;
       const progress = getLinearPathProgress(pathId, userProgress);
       if (progress) {
+        // Calculate total estimated hours from milestones
+        const totalEstimatedHours = linearPath.milestones?.reduce(
+          (sum, m) => sum + (m.estimatedHours || 0),
+          0
+        );
         paths.push({
           ...progress,
           nameTranslations: (pathData as { nameTranslations?: Record<string, string> }).nameTranslations,
           description: pathData.description,
           descriptionTranslations: (pathData as { descriptionTranslations?: Record<string, string> }).descriptionTranslations,
           difficulty: 'beginner-to-advanced',
+          estimatedHours: totalEstimatedHours || undefined,
         });
       }
     } else if (pathData.type === 'topic') {
@@ -685,6 +694,7 @@ export function getAllPathsWithProgress(
           descriptionTranslations: (topicPath as { descriptionTranslations?: Record<string, string> }).descriptionTranslations,
           difficulty: topicPath.difficulty,
           tags: topicPath.tags,
+          estimatedHours: topicPath.estimatedHours,
         });
       }
     }

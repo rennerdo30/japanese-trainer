@@ -1,0 +1,264 @@
+.container {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.celebration {
+  text-align: center;
+}
+
+.celebrationIcon {
+  font-size: 4rem;
+  margin-bottom: 0.5rem;
+}
+
+.celebration h1 {
+  font-size: 1.75rem;
+  color: var(--text-primary, #fff);
+  margin: 0 0 0.25rem;
+}
+
+.celebration p {
+  color: var(--text-secondary, #888);
+  margin: 0;
+}
+
+/* Score Card */
+.scoreCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 16px;
+}
+
+.scoreCircle {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.scoreInner {
+  width: 110px;
+  height: 110px;
+  background: var(--background, #0a0a0a);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scoreNumber {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--text-primary, #fff);
+}
+
+.scorePercent {
+  font-size: 1rem;
+  color: var(--text-secondary, #888);
+  margin-left: 2px;
+}
+
+.scoreLabel {
+  font-size: 0.875rem;
+  color: var(--text-secondary, #888);
+}
+
+/* Section Scores */
+.sectionScores {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 16px;
+  padding: 1.5rem;
+}
+
+.sectionScores h3 {
+  margin: 0 0 1rem;
+  font-size: 1rem;
+  color: var(--text-primary, #fff);
+}
+
+.skillBars {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.skillBar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+}
+
+.skillInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skillName {
+  font-size: 0.875rem;
+  color: var(--text-primary, #fff);
+}
+
+.skillScore {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-secondary, #888);
+}
+
+.barContainer {
+  height: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.barFill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.5s ease;
+}
+
+/* Recommendation Card */
+.recommendationCard {
+  background: rgba(255, 255, 255, 0.03);
+  border: 2px solid;
+  border-radius: 16px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.recommendationHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.recommendationIcon {
+  font-size: 1.5rem;
+}
+
+.recommendationHeader h3 {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--text-primary, #fff);
+}
+
+.levelBadge {
+  padding: 0.75rem 1.5rem;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.levelDescription {
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--text-secondary, #888);
+  line-height: 1.5;
+}
+
+/* Actions */
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.startButton {
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, var(--accent-blue, #4A90D9), var(--accent-purple, #A855F7));
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 20px rgba(74, 144, 217, 0.3);
+}
+
+.startButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(74, 144, 217, 0.4);
+}
+
+.retakeButton {
+  padding: 0.75rem 1.5rem;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  color: var(--text-secondary, #888);
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.retakeButton:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-primary, #fff);
+}
+
+/* Tips */
+.tips {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+  padding: 1.25rem;
+}
+
+.tips h4 {
+  margin: 0 0 0.75rem;
+  font-size: 0.875rem;
+  color: var(--text-primary, #fff);
+}
+
+.tips ul {
+  margin: 0;
+  padding-left: 1.25rem;
+  color: var(--text-secondary, #888);
+}
+
+.tips li {
+  font-size: 0.8125rem;
+  margin-bottom: 0.375rem;
+  line-height: 1.4;
+}
+
+.tips li:last-child {
+  margin-bottom: 0;
+}
+
+/* Mobile responsive */
+@media (max-width: 480px) {
+  .celebration h1 {
+    font-size: 1.5rem;
+  }
+
+  .scoreCircle {
+    width: 120px;
+    height: 120px;
+  }
+
+  .scoreInner {
+    width: 94px;
+    height: 94px;
+  }
+
+  .scoreNumber {
+    font-size: 2rem;
+  }
+}

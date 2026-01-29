@@ -41,7 +41,13 @@
       "title": "문제가 발생했습니다",
       "message": "예기치 않은 오류가 발생했습니다. 페이지를 새로고침해 보세요.",
       "tryAgain": "다시 시도"
-    }
+    },
+    "expand": "펼치기",
+    "collapse": "접기",
+    "minimize": "최소화",
+    "cancel": "취소",
+    "confirm": "확인",
+    "unknown": "알 수 없음"
   },
   "modules": {
     "alphabet": {
@@ -102,7 +108,10 @@
     "characterOf": "{total}자 중 {current}자",
     "lessonComplete": "레슨 완료!",
     "nextLesson": "다음 레슨",
-    "selectLesson": "레슨 선택"
+    "selectLesson": "레슨 선택",
+    "previousCharacter": "이전 문자",
+    "nextCharacter": "다음 문자",
+    "characterName": "이름"
   },
   "vocabulary": {
     "practiceMode": "연습 모드",
@@ -110,7 +119,29 @@
     "typeWord": "일본어 단어 입력...",
     "noWords": "사용 가능한 단어가 없습니다.",
     "showHint": "힌트 보기",
-    "hintShown": "힌트 표시됨"
+    "hintShown": "힌트 표시됨",
+    "tabs": {
+      "myCards": "내 카드",
+      "allVocabulary": "전체 단어"
+    },
+    "stats": {
+      "wordsLearned": "학습한 단어",
+      "dueForReview": "복습 대기",
+      "accuracy": "정확도"
+    },
+    "empty": {
+      "title": "아직 단어 카드가 없습니다",
+      "desc": "레슨을 완료하여 덱에 단어를 추가하세요",
+      "goToLessons": "레슨으로 이동",
+      "unlock": "레벨 필터를 조정하거나 더 많은 레슨을 완료하세요",
+      "searchEmpty": "단어를 찾을 수 없음",
+      "searchHint": "검색어나 필터를 조정해 보세요"
+    },
+    "actions": {
+      "learnInLessons": "레슨에서 학습하기",
+      "learned": "학습 완료"
+    },
+    "searchPlaceholder": "단어 검색..."
   },
   "kanji": {
     "practiceMeaning": "의미",
@@ -140,7 +171,30 @@
     "checkAnswer": "답 확인",
     "practice": "연습",
     "noGrammar": "사용 가능한 문법이 없습니다.",
-    "noExercises": "이 문법 포인트에 사용 가능한 연습이 없습니다."
+    "noExercises": "이 문법 포인트에 사용 가능한 연습이 없습니다.",
+    "tabs": {
+      "myGrammar": "내 문법",
+      "allGrammar": "전체 문법"
+    },
+    "stats": {
+      "pointsLearned": "학습한 포인트",
+      "mastered": "마스터함",
+      "accuracy": "정확도"
+    },
+    "empty": {
+      "title": "아직 문법 카드가 없습니다",
+      "desc": "레슨을 완료하여 덱에 문법을 추가하세요",
+      "goToLessons": "레슨으로 이동",
+      "unlock": "문법 연습을 잠금 해제하려면 더 많은 레슨을 완료하세요",
+      "searchEmpty": "문법을 찾을 수 없음",
+      "searchHint": "검색어나 필터를 조정해 보세요"
+    },
+    "actions": {
+      "review": "복습",
+      "learnInLessons": "레슨에서 학습하기",
+      "learned": "학습 완료"
+    },
+    "searchPlaceholder": "문법 검색..."
   },
   "reading": {
     "showFurigana": "후리가나 표시",
@@ -151,7 +205,26 @@
     "vocabulary": "어휘",
     "comprehensionQuestions": "이해 문제",
     "textsRead": "읽은 텍스트",
-    "noReadings": "사용 가능한 읽기 자료가 없습니다."
+    "noReadings": "사용 가능한 읽기 자료가 없습니다.",
+    "tabs": {
+      "myReadings": "내 읽기 자료",
+      "allReadings": "전체 읽기 자료"
+    },
+    "empty": {
+      "title": "아직 읽기 자료가 없습니다",
+      "desc": "레슨을 완료하여 컬렉션에 읽기 자료를 추가하세요",
+      "browse": "전체 읽기 자료 둘러보기",
+      "filterEmpty": "현재 필터와 일치하는 읽기 자료가 없습니다.",
+      "searchEmpty": "읽기 자료를 찾을 수 없음",
+      "searchHint": "검색어나 필터를 조정해 보세요"
+    },
+    "stats": {
+      "learned": "학습 완료",
+      "total": "총 읽기 자료",
+      "comprehension": "이해도"
+    },
+    "searchPlaceholder": "읽기 자료 검색...",
+    "viewLesson": "레슨 보기"
   },
   "listening": {
     "playAudio": "오디오 재생",
@@ -163,7 +236,7 @@
     "noExercises": "사용 가능한 연습이 없습니다."
   },
   "dashboard": {
-    "title": "Murmura",
+    "title": "무르무라",
     "subtitle": "속삭임에서 유창함으로",
     "dayStreak": "연속 일수",
     "wordsLearned": "학습한 단어",
@@ -203,7 +276,13 @@
       "toLevel": "{level}까지",
       "learnedItemsInfo": "{learned} / {total} 항목 학습됨",
       "milestones": "마일스톤",
-      "atMinutesPerDay": "{count} 분/일 기준"
+      "atMinutesPerDay": "{count} 분/일 기준",
+      "milestoneNames": {
+        "beginner": "초급",
+        "intermediate": "중급",
+        "advanced": "고급",
+        "master": "마스터"
+      }
     },
     "library": {
       "viewAll": "모두 보기",
@@ -266,7 +345,8 @@
       "placeholder": "검색...",
       "clear": "검색 지우기",
       "results": "{count}개 결과"
-    }
+    },
+    "browseDescription": "모든 학습 자료 둘러보기 및 복습"
   },
   "auth": {
     "signIn": "로그인",
@@ -322,11 +402,39 @@
         "xp": "XP 획득",
         "lessons": "레슨 완료",
         "time": "학습 시간"
+      },
+      "setTitle": "일일 목표 설정",
+      "setDescription": "매일 학습할 양을 선택하세요",
+      "current": "현재",
+      "confirmChange": "일일 목표를 {target} XP로 변경하시겠습니까?",
+      "levels": {
+        "casual": "가볍게",
+        "regular": "보통",
+        "serious": "진지하게",
+        "intense": "열정적으로"
+      },
+      "descriptions": {
+        "casual": "하루 50 XP",
+        "regular": "하루 100 XP",
+        "serious": "하루 200 XP",
+        "intense": "하루 300 XP"
       }
     },
     "streak": {
       "dayStreak": "{count}일 연속",
-      "best": "최고: {count}일"
+      "best": "최고: {count}일",
+      "noStreak": "연속 기록 없음",
+      "oneDay": "1일",
+      "days": "{count}일",
+      "messages": {
+        "startToday": "오늘 연속 학습을 시작하세요!",
+        "greatStart": "좋은 시작입니다! 계속하세요!",
+        "buildingMomentum": "탄력이 붙고 있어요!",
+        "onFire": "불타오르고 있어요!",
+        "incredibleDedication": "대단한 열정입니다!",
+        "legend": "전설이시군요!",
+        "unstoppable": "멈출 수 없어요!"
+      }
     },
     "xp": {
       "today": "오늘 {xp} XP",
@@ -409,11 +517,14 @@
       "voiceDetail": "{{language}} • {{gender}} • 품질: {{quality}}",
       "priorityTitle": "오디오 재생 우선순위:",
       "priority1": "사전 생성된 오디오 (최고 품질)",
-      "priority2": "Kokoro TTS ({{status}}, {{support}})",
+      "priority2": "Kokoro TTS ({status}, {support})",
       "ifEnabled": "활성화된 경우",
       "autoLoaded": "자동 로드됨",
       "englishOnly": "영어만",
-      "priority3": "브라우저 음성 합성 (대체)"
+      "priority3": "브라우저 음성 합성 (대체)",
+      "loading": "Kokoro TTS 로딩 중...",
+      "edgeTitle": "Edge TTS 음성 ({language})",
+      "edgeDesc": "{language}용 Microsoft Neural Voice - 고품질 클라우드 TTS 대체"
     },
     "appearance": {
       "title": "외관",
@@ -532,7 +643,8 @@
       "usageNotes": "사용법 노트",
       "hideExplanation": "설명 숨기기",
       "showExplanation": "설명 보기",
-      "iUnderstand": "이해했습니다"
+      "iUnderstand": "이해했습니다",
+      "formation": "형태"
     },
     "character": {
       "strokeOrder": "획순",
@@ -563,6 +675,15 @@
       "pathComplete": "경로 완료",
       "backToPath": "경로로 돌아가기",
       "upNext": "다음 예정"
+    },
+    "loading": "레슨 로딩 중...",
+    "notFound": "레슨을 찾을 수 없음",
+    "notFoundDescription": "\"{lessonId}\" 레슨을 찾을 수 없습니다.",
+    "backToPath": "학습 경로로 돌아가기",
+    "locked": "잠긴 레슨",
+    "lockedDescription": "이 레슨을 잠금 해제하려면 이전 레슨을 완료하세요.",
+    "exercise": {
+      "completeExercise": "연습 문제 완료"
     }
   },
   "exercises": {
@@ -686,6 +807,146 @@
         "okay": "나쁘지 않아요! 계속 연습하세요.",
         "needsWork": "계속하세요! 연습이 완벽을 만듭니다."
       }
-    }
+    },
+    "loading": "복습 로딩 중...",
+    "title": "복습 대시보드",
+    "itemsDue": "복습 항목 {count}개",
+    "endSessionEarly": "세션 조기 종료",
+    "urgency": {
+      "overdue": "기한 경과",
+      "dueToday": "오늘 마감",
+      "upcoming": "예정",
+      "allClear": "모두 완료"
+    },
+    "moduleSelection": "모듈 선택",
+    "toggleModule": "{module} 모듈 토글, {count}개 항목 대기",
+    "estimatedTime": "예상 시간: {minutes}분 ({items}개 항목)",
+    "startSession": "복습 세션 시작",
+    "noReviewsDue": "복습할 내용 없음"
+  },
+  "learningCompanion": {
+    "title": "학습 도우미",
+    "open": "학습 도우미 열기",
+    "overall": "전체",
+    "streak": "연속 학습",
+    "reviews": "복습",
+    "learned": "학습 완료",
+    "overdueReviews": "기한 지난 복습!",
+    "reviewsDue": "복습 예정",
+    "reviewCount": "{count}개 항목 · 약 {minutes}분",
+    "nextUp": "다음 순서",
+    "suggestions": "제안",
+    "currentGoal": "현재 목표",
+    "percentComplete": "{percent}% 완료",
+    "insight": "인사이트",
+    "browsePaths": "학습 경로 탐색",
+    "reviewNow": "지금 복습하기"
+  },
+  "leaderboard": {
+    "title": "순위표",
+    "subtitle": "전 세계 학습자들과 경쟁하세요",
+    "generating": "생성 중...",
+    "youBadge": "나",
+    "periods": {
+      "daily": "오늘",
+      "weekly": "이번 주",
+      "allTime": "전체 기간"
+    },
+    "stats": {
+      "title": "내 통계",
+      "studyTime": "학습 시간",
+      "accuracy": "정확도",
+      "streaks": "연속 학습",
+      "mastery": "숙련도",
+      "total": "합계",
+      "rank": "내 순위",
+      "participants": "학습자 {count}명 중",
+      "position": "내 위치"
+    },
+    "empty": {
+      "daily": "아직 오늘의 학습자가 없습니다. 첫 번째가 되어보세요!",
+      "weekly": "이번 주 활동이 없습니다. 학습을 시작하세요!",
+      "allTime": "순위표에 아직 학습자가 없습니다.",
+      "loading": "순위표 로딩 중...",
+      "noEntries": "기록 없음"
+    },
+    "badges": {
+      "you": "나"
+    },
+    "global": "글로벌"
+  },
+  "paths": {
+    "loading": "경로 로딩 중...",
+    "title": "학습 경로",
+    "subtitle": "마스터를 향한 여정을 선택하세요",
+    "filters": "필터",
+    "filterType": "유형",
+    "filterDifficulty": "난이도",
+    "types": {
+      "all": "전체",
+      "linear": "JLPT 경로",
+      "topic": "주제"
+    },
+    "difficulty": {
+      "all": "전체",
+      "beginner": "초급",
+      "intermediate": "중급",
+      "advanced": "고급"
+    },
+    "personalizedPath": "맞춤형 경로",
+    "aiRecommendations": "AI 추천",
+    "tailoredToYou": "학습 스타일에 맞춤",
+    "minPerDay": "분/일",
+    "newPerWeek": "주당 신규",
+    "pace": "속도",
+    "focusAreas": "집중 영역",
+    "startLearning": "학습 시작",
+    "structuredPaths": "체계적인 경로",
+    "enrolled": "등록됨",
+    "topicTracks": "주제별 트랙",
+    "percentComplete": "{percent}% 완료",
+    "requires": "필요 조건: {item}",
+    "noPathsYet": "학습 경로 없음",
+    "noPathsDescription": "이 언어에 대한 학습 경로가 곧 제공될 예정입니다. 관리자 패널에서 커리큘럼을 생성하여 체계적인 학습 경로를 만드세요.",
+    "noMatchingPaths": "필터와 일치하는 경로가 없습니다",
+    "clearFilters": "필터 초기화",
+    "hours": "예상 {count}시간"
+  },
+  "contentGuard": {
+    "comingSoon": "곧 출시",
+    "notAvailable": "이 모듈의 {language} 콘텐츠는 아직 이용할 수 없습니다.",
+    "availableFor": "이 모듈은 현재 {languages}에서 이용 가능합니다. 더 많은 언어를 추가하기 위해 노력 중입니다!",
+    "noLanguages": "아직 지원 언어 없음"
+  },
+  "pathDetail": {
+    "loading": "경로 로딩 중...",
+    "notFound": "경로를 찾을 수 없음",
+    "notFoundDescription": "찾으시는 학습 경로가 존재하지 않거나 아직 생성되지 않았습니다.",
+    "backToPaths": "경로 목록으로 돌아가기",
+    "estimated": "예상 소요",
+    "hoursValue": "{count}시간",
+    "complete": "완료",
+    "milestones": "마일스톤",
+    "items": "항목",
+    "prerequisitesRequired": "선행 조건 필요",
+    "completeFirst": "먼저 완료하세요",
+    "continueLearning": "학습 계속하기",
+    "unenroll": "등록 취소",
+    "startPath": "경로 시작",
+    "locked": "잠김",
+    "milestonesDescription": "각 마일스톤을 완료하여 경로를 진행하세요",
+    "startLesson": "레슨 시작",
+    "reviewProgress": "진행 상황 검토",
+    "unlockMessage": "잠금 해제하려면 이전 레슨을 완료하세요",
+    "completed": "완료됨",
+    "whatYoullLearn": "학습 내용",
+    "practicalItemsFor": "{name}을(를) 위한 실용적인 항목",
+    "topics": "주제"
+  },
+  "recommendations": {
+    "encouragement": "잘하고 계십니다! 더 도전해 보셔도 좋습니다.",
+    "takingSlow": "기초를 다지기 위해 천천히 진행 중입니다.",
+    "manyReviewsDue": "복습할 내용이 많습니다 - 새로운 항목을 추가하기 전에 복습을 먼저 완료하는 것을 권장합니다.",
+    "focusOn": "이번 주는 {module}에 집중하세요 - {reason}."
   }
 }

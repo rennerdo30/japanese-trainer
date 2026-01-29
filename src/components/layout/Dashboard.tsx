@@ -314,6 +314,11 @@ function Dashboard() {
 
             {/* Quick Actions */}
             <div className={styles.quickActions}>
+                <Link href="/assessment/placement">
+                    <Button variant="ghost" className={styles.quickActionButton}>
+                        <PiExam /> {t('dashboard.placementTest')}
+                    </Button>
+                </Link>
                 <Link href="/paths">
                     <Button variant="ghost" className={styles.quickActionButton}>
                         <IoMap /> {t('dashboard.browsePaths')}
@@ -322,6 +327,11 @@ function Dashboard() {
                 <Link href="/review">
                     <Button variant="ghost" className={styles.quickActionButton}>
                         <IoRefresh /> {t('dashboard.reviewDashboardStat')}
+                    </Button>
+                </Link>
+                <Link href="/pronunciation">
+                    <Button variant="ghost" className={styles.quickActionButton}>
+                        <IoHeadset /> {t('dashboard.pronunciation')}
                     </Button>
                 </Link>
                 <Link href="/leaderboard">

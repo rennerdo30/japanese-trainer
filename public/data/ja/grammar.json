@@ -69,7 +69,17 @@
           }
         }
       ]
-    }
+    },
+    "formation": null,
+    "formalityLevel": null,
+    "pragmaticNotes": null,
+    "commonMistakes": null,
+    "errorCorrections": null,
+    "negativeForm": null,
+    "questionForm": null,
+    "conjugationTable": null,
+    "prerequisiteGrammar": null,
+    "relatedGrammar": null
   },
   {
     "id": 12,
@@ -141,7 +151,17 @@
           }
         }
       ]
-    }
+    },
+    "formation": null,
+    "formalityLevel": null,
+    "pragmaticNotes": null,
+    "commonMistakes": null,
+    "errorCorrections": null,
+    "negativeForm": null,
+    "questionForm": null,
+    "conjugationTable": null,
+    "prerequisiteGrammar": null,
+    "relatedGrammar": null
   },
   {
     "id": 198,
@@ -171,7 +191,17 @@
       },
       "examples": [],
       "exercises": []
-    }
+    },
+    "formation": null,
+    "formalityLevel": null,
+    "pragmaticNotes": null,
+    "commonMistakes": null,
+    "errorCorrections": null,
+    "negativeForm": null,
+    "questionForm": null,
+    "conjugationTable": null,
+    "prerequisiteGrammar": null,
+    "relatedGrammar": null
   },
   {
     "id": 11,
@@ -243,7 +273,17 @@
           }
         }
       ]
-    }
+    },
+    "formation": null,
+    "formalityLevel": null,
+    "pragmaticNotes": null,
+    "commonMistakes": null,
+    "errorCorrections": null,
+    "negativeForm": null,
+    "questionForm": null,
+    "conjugationTable": null,
+    "prerequisiteGrammar": null,
+    "relatedGrammar": null
   },
   {
     "id": 10,
@@ -315,7 +355,17 @@
           }
         }
       ]
-    }
+    },
+    "formation": null,
+    "formalityLevel": null,
+    "pragmaticNotes": null,
+    "commonMistakes": null,
+    "errorCorrections": null,
+    "negativeForm": null,
+    "questionForm": null,
+    "conjugationTable": null,
+    "prerequisiteGrammar": null,
+    "relatedGrammar": null
   },
   {
     "id": 197,
@@ -345,7 +395,17 @@
       },
       "examples": [],
       "exercises": []
-    }
+    },
+    "formation": null,
+    "formalityLevel": null,
+    "pragmaticNotes": null,
+    "commonMistakes": null,
+    "errorCorrections": null,
+    "negativeForm": null,
+    "questionForm": null,
+    "conjugationTable": null,
+    "prerequisiteGrammar": null,
+    "relatedGrammar": null
   },
   {
     "id": 8,
@@ -417,7 +477,17 @@
           }
         }
       ]
-    }
+    },
+    "formation": null,
+    "formalityLevel": null,
+    "pragmaticNotes": null,
+    "commonMistakes": null,
+    "errorCorrections": null,
+    "negativeForm": null,
+    "questionForm": null,
+    "conjugationTable": null,
+    "prerequisiteGrammar": null,
+    "relatedGrammar": null
   },
   {
     "id": 9,
@@ -489,7 +559,17 @@
           }
         }
       ]
-    }
+    },
+    "formation": null,
+    "formalityLevel": null,
+    "pragmaticNotes": null,
+    "commonMistakes": null,
+    "errorCorrections": null,
+    "negativeForm": null,
+    "questionForm": null,
+    "conjugationTable": null,
+    "prerequisiteGrammar": null,
+    "relatedGrammar": null
   },
   {
     "id": 196,
@@ -519,7 +599,17 @@
       },
       "examples": [],
       "exercises": []
-    }
+    },
+    "formation": null,
+    "formalityLevel": null,
+    "pragmaticNotes": null,
+    "commonMistakes": null,
+    "errorCorrections": null,
+    "negativeForm": null,
+    "questionForm": null,
+    "conjugationTable": null,
+    "prerequisiteGrammar": null,
+    "relatedGrammar": null
   },
   {
     "id": 7,
@@ -591,7 +681,17 @@
           }
         }
       ]
-    }
+    },
+    "formation": null,
+    "formalityLevel": null,
+    "pragmaticNotes": null,
+    "commonMistakes": null,
+    "errorCorrections": null,
+    "negativeForm": null,
+    "questionForm": null,
+    "conjugationTable": null,
+    "prerequisiteGrammar": null,
+    "relatedGrammar": null
   },
   {
     "id": 6,
@@ -663,7 +763,17 @@
           }
         }
       ]
-    }
+    },
+    "formation": null,
+    "formalityLevel": null,
+    "pragmaticNotes": null,
+    "commonMistakes": null,
+    "errorCorrections": null,
+    "negativeForm": null,
+    "questionForm": null,
+    "conjugationTable": null,
+    "prerequisiteGrammar": null,
+    "relatedGrammar": null
   },
   {
     "id": 195,
@@ -693,7 +803,17 @@
       },
       "examples": [],
       "exercises": []
-    }
+    },
+    "formation": null,
+    "formalityLevel": null,
+    "pragmaticNotes": null,
+    "commonMistakes": null,
+    "errorCorrections": null,
+    "negativeForm": null,
+    "questionForm": null,
+    "conjugationTable": null,
+    "prerequisiteGrammar": null,
+    "relatedGrammar": null
   },
   {
     "id": 2,
@@ -765,7 +885,17 @@
           }
         }
       ]
-    }
+    },
+    "formation": null,
+    "formalityLevel": null,
+    "pragmaticNotes": null,
+    "commonMistakes": null,
+    "errorCorrections": null,
+    "negativeForm": null,
+    "questionForm": null,
+    "conjugationTable": null,
+    "prerequisiteGrammar": null,
+    "relatedGrammar": null
   },
   {
     "id": 5,
@@ -838,7 +968,17 @@
           }
         }
       ]
-    }
+    },
+    "formation": null,
+    "formalityLevel": null,
+    "pragmaticNotes": null,
+    "commonMistakes": null,
+    "errorCorrections": null,
+    "negativeForm": null,
+    "questionForm": null,
+    "conjugationTable": null,
+    "prerequisiteGrammar": null,
+    "relatedGrammar": null
   },
   {
     "id": 1,
@@ -910,7 +1050,17 @@
           }
         }
       ]
-    }
+    },
+    "formation": null,
+    "formalityLevel": null,
+    "pragmaticNotes": null,
+    "commonMistakes": null,
+    "errorCorrections": null,
+    "negativeForm": null,
+    "questionForm": null,
+    "conjugationTable": null,
+    "prerequisiteGrammar": null,
+    "relatedGrammar": null
   },
   {
     "id": 4,
@@ -982,7 +1132,17 @@
           }
         }
       ]
-    }
+    },
+    "formation": null,
+    "formalityLevel": null,
+    "pragmaticNotes": null,
+    "commonMistakes": null,
+    "errorCorrections": null,
+    "negativeForm": null,
+    "questionForm": null,
+    "conjugationTable": null,
+    "prerequisiteGrammar": null,
+    "relatedGrammar": null
   },
   {
     "id": 3,
@@ -1054,7 +1214,17 @@
           }
         }
       ]
-    }
+    },
+    "formation": null,
+    "formalityLevel": null,
+    "pragmaticNotes": null,
+    "commonMistakes": null,
+    "errorCorrections": null,
+    "negativeForm": null,
+    "questionForm": null,
+    "conjugationTable": null,
+    "prerequisiteGrammar": null,
+    "relatedGrammar": null
   },
   {
     "id": 193,
@@ -1084,7 +1254,17 @@
       },
       "examples": [],
       "exercises": []
-    }
+    },
+    "formation": null,
+    "formalityLevel": null,
+    "pragmaticNotes": null,
+    "commonMistakes": null,
+    "errorCorrections": null,
+    "negativeForm": null,
+    "questionForm": null,
+    "conjugationTable": null,
+    "prerequisiteGrammar": null,
+    "relatedGrammar": null
   },
   {
     "id": 194,
@@ -1114,6 +1294,16 @@
       },
       "examples": [],
       "exercises": []
-    }
+    },
+    "formation": null,
+    "formalityLevel": null,
+    "pragmaticNotes": null,
+    "commonMistakes": null,
+    "errorCorrections": null,
+    "negativeForm": null,
+    "questionForm": null,
+    "conjugationTable": null,
+    "prerequisiteGrammar": null,
+    "relatedGrammar": null
   }
 ]

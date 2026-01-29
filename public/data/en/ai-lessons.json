@@ -849,22 +849,22 @@
         "type": "multiple_choice",
         "question": "What does \"apple\" mean?",
         "options": [
-          "A food made from the curds of milk, often used in sandwiches or as a topping.",
-          "An oval object laid by birds, especially chickens, used as food, often cooked.",
-          "The liquid extracted from fruits or vegetables, often consumed as a beverage.",
-          "A common round fruit with red, green, or yellow skin and white flesh, often eaten raw or used in cooking."
+          "A food made from flour, water, and yeast, baked and often sliced for eating.",
+          "A common round fruit with red, green, or yellow skin and white flesh, often eaten raw or used in cooking.",
+          "A long curved fruit with yellow skin and soft sweet flesh, typically eaten as a snack.",
+          "An oval object laid by birds, especially chickens, used as food, often cooked."
         ],
-        "correctIndex": 3
+        "correctIndex": 1
       },
       {
         "id": "a1-u1-l1-vocab-2",
         "type": "multiple_choice",
         "question": "What does \"banana\" mean?",
         "options": [
-          "A red or yellow fruit often used as a vegetable in cooking, with juicy flesh and seeds.",
           "A common round fruit with red, green, or yellow skin and white flesh, often eaten raw or used in cooking.",
+          "An oval object laid by birds, especially chickens, used as food, often cooked.",
           "A long curved fruit with yellow skin and soft sweet flesh, typically eaten as a snack.",
-          "A food made from flour, water, and yeast, baked and often sliced for eating."
+          "A red or yellow fruit often used as a vegetable in cooking, with juicy flesh and seeds."
         ],
         "correctIndex": 2
       },
@@ -873,36 +873,36 @@
         "type": "multiple_choice",
         "question": "What does \"carrot\" mean?",
         "options": [
-          "A long orange root vegetable, often eaten raw in salads or cooked in dishes.",
-          "A red or yellow fruit often used as a vegetable in cooking, with juicy flesh and seeds.",
+          "A clear liquid without color, taste, or smell, essential for drinking and cooking.",
           "A white liquid produced by animals like cows, used as a drink or in cooking.",
-          "A long curved fruit with yellow skin and soft sweet flesh, typically eaten as a snack."
+          "A long orange root vegetable, often eaten raw in salads or cooked in dishes.",
+          "An oval object laid by birds, especially chickens, used as food, often cooked."
         ],
-        "correctIndex": 0
+        "correctIndex": 2
       },
       {
         "id": "a1-u1-l1-vocab-4",
         "type": "multiple_choice",
         "question": "What does \"tomato\" mean?",
         "options": [
-          "An oval object laid by birds, especially chickens, used as food, often cooked.",
-          "A red or yellow fruit often used as a vegetable in cooking, with juicy flesh and seeds.",
+          "A common round fruit with red, green, or yellow skin and white flesh, often eaten raw or used in cooking.",
+          "A long curved fruit with yellow skin and soft sweet flesh, typically eaten as a snack.",
           "A long orange root vegetable, often eaten raw in salads or cooked in dishes.",
-          "A clear liquid without color, taste, or smell, essential for drinking and cooking."
+          "A red or yellow fruit often used as a vegetable in cooking, with juicy flesh and seeds."
         ],
-        "correctIndex": 1
+        "correctIndex": 3
       },
       {
         "id": "a1-u1-l1-vocab-5",
         "type": "multiple_choice",
         "question": "What does \"water\" mean?",
         "options": [
-          "A clear liquid without color, taste, or smell, essential for drinking and cooking.",
-          "An oval object laid by birds, especially chickens, used as food, often cooked.",
+          "A long orange root vegetable, often eaten raw in salads or cooked in dishes.",
           "The liquid extracted from fruits or vegetables, often consumed as a beverage.",
-          "A food made from the curds of milk, often used in sandwiches or as a topping."
+          "A red or yellow fruit often used as a vegetable in cooking, with juicy flesh and seeds.",
+          "A clear liquid without color, taste, or smell, essential for drinking and cooking."
         ],
-        "correctIndex": 0
+        "correctIndex": 3
       },
       {
         "id": "a1-u1-l1-fill-6",
@@ -1429,34 +1429,34 @@
         "type": "multiple_choice",
         "question": "What does \"hello\" mean?",
         "options": [
-          "A greeting used when meeting someone or starting a conversation. It is neutral and can be used in formal and informal situations.",
-          "A personal pronoun referring to a male person or animal previously mentioned or known. Used as the subject.",
           "A personal pronoun referring to a female person or animal previously mentioned or known. Used as the subject.",
-          "A personal pronoun referring to the speaker or writer. Used as the subject of a sentence to talk about oneself."
+          "A greeting used when meeting someone or starting a conversation. It is neutral and can be used in formal and informal situations.",
+          "An informal way to say goodbye, commonly used in casual conversations with people you know well.",
+          "A personal pronoun referring to the person or people being spoken to. Can be singular or plural."
         ],
-        "correctIndex": 0
+        "correctIndex": 1
       },
       {
         "id": "a1-u1-l1-vocab-2",
         "type": "multiple_choice",
         "question": "What does \"hi\" mean?",
         "options": [
-          "A personal pronoun referring to the speaker or writer. Used as the subject of a sentence to talk about oneself.",
-          "The first person singular form of the verb 'be', used with 'I' to describe states, identities, or locations.",
+          "A personal pronoun referring to a female person or animal previously mentioned or known. Used as the subject.",
+          "An informal greeting, similar to 'hello' but more casual. Used with friends, family, or in relaxed settings.",
           "The third person singular form of the verb 'be', used with 'he', 'she', 'it', or singular nouns to describe states, identities, or locations.",
-          "An informal greeting, similar to 'hello' but more casual. Used with friends, family, or in relaxed settings."
+          "A farewell used when leaving someone or ending a conversation. It is polite and can be used in most situations."
         ],
-        "correctIndex": 3
+        "correctIndex": 1
       },
       {
         "id": "a1-u1-l1-vocab-3",
         "type": "multiple_choice",
         "question": "What does \"goodbye\" mean?",
         "options": [
-          "A personal pronoun referring to the speaker or writer. Used as the subject of a sentence to talk about oneself.",
+          "A personal pronoun referring to a female person or animal previously mentioned or known. Used as the subject.",
           "A farewell used when leaving someone or ending a conversation. It is polite and can be used in most situations.",
-          "A personal pronoun referring to the person or people being spoken to. Can be singular or plural.",
-          "The first person singular form of the verb 'be', used with 'I' to describe states, identities, or locations."
+          "A greeting used when meeting someone or starting a conversation. It is neutral and can be used in formal and informal situations.",
+          "An informal way to say goodbye, commonly used in casual conversations with people you know well."
         ],
         "correctIndex": 1
       },
@@ -1465,24 +1465,24 @@
         "type": "multiple_choice",
         "question": "What does \"bye\" mean?",
         "options": [
-          "A personal pronoun referring to a female person or animal previously mentioned or known. Used as the subject.",
+          "The first person singular form of the verb 'be', used with 'I' to describe states, identities, or locations.",
+          "A greeting used when meeting someone or starting a conversation. It is neutral and can be used in formal and informal situations.",
           "An informal way to say goodbye, commonly used in casual conversations with people you know well.",
-          "A personal pronoun referring to the speaker or writer. Used as the subject of a sentence to talk about oneself.",
-          "The first person singular form of the verb 'be', used with 'I' to describe states, identities, or locations."
+          "An informal greeting, similar to 'hello' but more casual. Used with friends, family, or in relaxed settings."
         ],
-        "correctIndex": 1
+        "correctIndex": 2
       },
       {
         "id": "a1-u1-l1-vocab-5",
         "type": "multiple_choice",
         "question": "What does \"I\" mean?",
         "options": [
-          "A personal pronoun referring to the speaker or writer. Used as the subject of a sentence to talk about oneself.",
+          "The first person singular form of the verb 'be', used with 'I' to describe states, identities, or locations.",
           "The third person singular form of the verb 'be', used with 'he', 'she', 'it', or singular nouns to describe states, identities, or locations.",
-          "A farewell used when leaving someone or ending a conversation. It is polite and can be used in most situations.",
-          "An informal greeting, similar to 'hello' but more casual. Used with friends, family, or in relaxed settings."
+          "A personal pronoun referring to the speaker or writer. Used as the subject of a sentence to talk about oneself.",
+          "A personal pronoun referring to the person or people being spoken to. Can be singular or plural."
         ],
-        "correctIndex": 0
+        "correctIndex": 2
       },
       {
         "id": "a1-u1-l1-fill-6",
@@ -2088,58 +2088,58 @@
         "type": "multiple_choice",
         "question": "What does \"home\" mean?",
         "options": [
-          "A piece of furniture for one person to sit on, typically with a back and four legs.",
-          "A room in a house for general daily use, such as relaxing, watching TV, or entertaining guests; often has sofas and chairs.",
-          "A part of a house or building with its own walls, floor, and ceiling; used for a specific purpose like sleeping or eating.",
-          "The place where someone lives, often with family; can refer to a house, apartment, or other dwelling. It implies a personal, comfortable space."
+          "A room for sleeping, usually containing a bed; a private space in a home.",
+          "A building where people live, typically one family; refers to the physical structure.",
+          "The place where someone lives, often with family; can refer to a house, apartment, or other dwelling. It implies a personal, comfortable space.",
+          "A part of a house or building with its own walls, floor, and ceiling; used for a specific purpose like sleeping or eating."
         ],
-        "correctIndex": 3
+        "correctIndex": 2
       },
       {
         "id": "a1-u1-l1-vocab-2",
         "type": "multiple_choice",
         "question": "What does \"house\" mean?",
         "options": [
+          "A room in a house for general daily use, such as relaxing, watching TV, or entertaining guests; often has sofas and chairs.",
           "A building where people live, typically one family; refers to the physical structure.",
           "A room for sleeping, usually containing a bed; a private space in a home.",
-          "A piece of furniture with a flat top and one or more legs, used for eating, working, or placing things on.",
-          "A piece of furniture for sleeping on, usually with a mattress and covers."
+          "A part of a house or building with its own walls, floor, and ceiling; used for a specific purpose like sleeping or eating."
         ],
-        "correctIndex": 0
+        "correctIndex": 1
       },
       {
         "id": "a1-u1-l1-vocab-3",
         "type": "multiple_choice",
         "question": "What does \"room\" mean?",
         "options": [
-          "A room for sleeping, usually containing a bed; a private space in a home.",
-          "The place where someone lives, often with family; can refer to a house, apartment, or other dwelling. It implies a personal, comfortable space.",
-          "A piece of furniture for one person to sit on, typically with a back and four legs.",
-          "A part of a house or building with its own walls, floor, and ceiling; used for a specific purpose like sleeping or eating."
+          "A part of a house or building with its own walls, floor, and ceiling; used for a specific purpose like sleeping or eating.",
+          "A piece of furniture with a flat top and one or more legs, used for eating, working, or placing things on.",
+          "A piece of furniture for sleeping on, usually with a mattress and covers.",
+          "A building where people live, typically one family; refers to the physical structure."
         ],
-        "correctIndex": 3
+        "correctIndex": 0
       },
       {
         "id": "a1-u1-l1-vocab-4",
         "type": "multiple_choice",
         "question": "What does \"bedroom\" mean?",
         "options": [
-          "A room for sleeping, usually containing a bed; a private space in a home.",
-          "A room where food is prepared and cooked; often contains appliances like a stove and refrigerator.",
           "The place where someone lives, often with family; can refer to a house, apartment, or other dwelling. It implies a personal, comfortable space.",
-          "A building where people live, typically one family; refers to the physical structure."
+          "A room in a house for general daily use, such as relaxing, watching TV, or entertaining guests; often has sofas and chairs.",
+          "A room for sleeping, usually containing a bed; a private space in a home.",
+          "A room where food is prepared and cooked; often contains appliances like a stove and refrigerator."
         ],
-        "correctIndex": 0
+        "correctIndex": 2
       },
       {
         "id": "a1-u1-l1-vocab-5",
         "type": "multiple_choice",
         "question": "What does \"kitchen\" mean?",
         "options": [
-          "A piece of furniture for sleeping on, usually with a mattress and covers.",
+          "A room with a toilet and sink, and often a bath or shower; used for personal hygiene.",
           "A room where food is prepared and cooked; often contains appliances like a stove and refrigerator.",
-          "The place where someone lives, often with family; can refer to a house, apartment, or other dwelling. It implies a personal, comfortable space.",
-          "A piece of furniture with a flat top and one or more legs, used for eating, working, or placing things on."
+          "A room in a house for general daily use, such as relaxing, watching TV, or entertaining guests; often has sofas and chairs.",
+          "A piece of furniture for sleeping on, usually with a mattress and covers."
         ],
         "correctIndex": 1
       },
@@ -2655,60 +2655,60 @@
         "type": "multiple_choice",
         "question": "What does \"family\" mean?",
         "options": [
+          "A female sibling; used to describe a family member who shares one or both parents.",
+          "A group of people related by blood, marriage, or adoption, such as parents, children, and siblings; used in contexts like introductions or describing relationships.",
           "A female parent; formal term for mom, used in introductions or formal contexts.",
-          "A male sibling; used to describe a family member who shares one or both parents.",
-          "Possessive adjective indicating ownership or relation to the person being spoken to; used before nouns to show something belongs to 'you'.",
-          "A group of people related by blood, marriage, or adoption, such as parents, children, and siblings; used in contexts like introductions or describing relationships."
+          "A male sibling; used to describe a family member who shares one or both parents."
         ],
-        "correctIndex": 3
+        "correctIndex": 1
       },
       {
         "id": "a1-u1-l1-vocab-2",
         "type": "multiple_choice",
         "question": "What does \"mother\" mean?",
         "options": [
-          "A female parent; formal term for mom, used in introductions or formal contexts.",
+          "A group of people related by blood, marriage, or adoption, such as parents, children, and siblings; used in contexts like introductions or describing relationships.",
           "A male sibling; used to describe a family member who shares one or both parents.",
-          "Possessive adjective indicating ownership or relation to the speaker; used before nouns to show something belongs to 'I'.",
-          "A group of people related by blood, marriage, or adoption, such as parents, children, and siblings; used in contexts like introductions or describing relationships."
+          "A female parent; formal term for mom, used in introductions or formal contexts.",
+          "Possessive adjective indicating ownership or relation to the person being spoken to; used before nouns to show something belongs to 'you'."
         ],
-        "correctIndex": 0
+        "correctIndex": 2
       },
       {
         "id": "a1-u1-l1-vocab-3",
         "type": "multiple_choice",
         "question": "What does \"father\" mean?",
         "options": [
-          "A female parent; formal term for mom, used in introductions or formal contexts.",
           "A male sibling; used to describe a family member who shares one or both parents.",
           "A male parent; formal term for dad, used in introductions or formal contexts.",
-          "Possessive adjective indicating ownership or relation to the speaker; used before nouns to show something belongs to 'I'."
+          "A group of people related by blood, marriage, or adoption, such as parents, children, and siblings; used in contexts like introductions or describing relationships.",
+          "A female parent; formal term for mom, used in introductions or formal contexts."
         ],
-        "correctIndex": 2
+        "correctIndex": 1
       },
       {
         "id": "a1-u1-l1-vocab-4",
         "type": "multiple_choice",
         "question": "What does \"sister\" mean?",
         "options": [
-          "A female parent; formal term for mom, used in introductions or formal contexts.",
-          "A group of people related by blood, marriage, or adoption, such as parents, children, and siblings; used in contexts like introductions or describing relationships.",
           "A female sibling; used to describe a family member who shares one or both parents.",
-          "A male parent; formal term for dad, used in introductions or formal contexts."
+          "Possessive adjective indicating ownership or relation to the person being spoken to; used before nouns to show something belongs to 'you'.",
+          "A female parent; formal term for mom, used in introductions or formal contexts.",
+          "Possessive adjective indicating ownership or relation to the speaker; used before nouns to show something belongs to 'I'."
         ],
-        "correctIndex": 2
+        "correctIndex": 0
       },
       {
         "id": "a1-u1-l1-vocab-5",
         "type": "multiple_choice",
         "question": "What does \"brother\" mean?",
         "options": [
-          "A female parent; formal term for mom, used in introductions or formal contexts.",
-          "A male parent; formal term for dad, used in introductions or formal contexts.",
           "A male sibling; used to describe a family member who shares one or both parents.",
-          "A group of people related by blood, marriage, or adoption, such as parents, children, and siblings; used in contexts like introductions or describing relationships."
+          "A female sibling; used to describe a family member who shares one or both parents.",
+          "A group of people related by blood, marriage, or adoption, such as parents, children, and siblings; used in contexts like introductions or describing relationships.",
+          "Possessive adjective indicating ownership or relation to the person being spoken to; used before nouns to show something belongs to 'you'."
         ],
-        "correctIndex": 2
+        "correctIndex": 0
       },
       {
         "id": "a1-u1-l1-fill-6",
@@ -3810,60 +3810,60 @@
         "type": "multiple_choice",
         "question": "What does \"shop\" mean?",
         "options": [
-          "A hot or cold drink made from leaves, often with flavors like black or green. It's common in many cultures for relaxation.",
+          "A hot or cold drink made from dark beans, often drunk in the morning or during breaks. It can be black or with milk.",
+          "A common food made from small white or brown grains, often eaten with meals in many cultures.",
           "A place where you can buy things like food, clothes, or other items. In this lesson, it refers to a food shop or supermarket.",
-          "A polite word used when making a request or asking for something, to show good manners.",
-          "A small restaurant where you can buy drinks like coffee or tea, and sometimes simple food like sandwiches or cakes."
+          "A hot or cold drink made from leaves, often with flavors like black or green. It's common in many cultures for relaxation."
         ],
-        "correctIndex": 1
+        "correctIndex": 2
       },
       {
         "id": "a1-u1-l2-vocab-2",
         "type": "multiple_choice",
         "question": "What does \"café\" mean?",
         "options": [
-          "A place where you can buy things like food, clothes, or other items. In this lesson, it refers to a food shop or supermarket.",
+          "A small restaurant where you can buy drinks like coffee or tea, and sometimes simple food like sandwiches or cakes.",
+          "A polite phrase used to express gratitude after receiving something or help.",
           "A hot or cold drink made from dark beans, often drunk in the morning or during breaks. It can be black or with milk.",
-          "A common food made from small white or brown grains, often eaten with meals in many cultures.",
-          "A small restaurant where you can buy drinks like coffee or tea, and sometimes simple food like sandwiches or cakes."
+          "A type of meat from a bird, often cooked and eaten in meals. It can be served in pieces or whole."
         ],
-        "correctIndex": 3
+        "correctIndex": 0
       },
       {
         "id": "a1-u1-l2-vocab-3",
         "type": "multiple_choice",
         "question": "What does \"rice\" mean?",
         "options": [
-          "A common food made from small white or brown grains, often eaten with meals in many cultures.",
           "A hot or cold drink made from dark beans, often drunk in the morning or during breaks. It can be black or with milk.",
-          "A small restaurant where you can buy drinks like coffee or tea, and sometimes simple food like sandwiches or cakes.",
-          "A polite word used when making a request or asking for something, to show good manners."
+          "A common food made from small white or brown grains, often eaten with meals in many cultures.",
+          "A polite word used when making a request or asking for something, to show good manners.",
+          "A polite phrase used to express gratitude after receiving something or help."
         ],
-        "correctIndex": 0
+        "correctIndex": 1
       },
       {
         "id": "a1-u1-l2-vocab-4",
         "type": "multiple_choice",
         "question": "What does \"chicken\" mean?",
         "options": [
-          "A small restaurant where you can buy drinks like coffee or tea, and sometimes simple food like sandwiches or cakes.",
-          "A polite word used when making a request or asking for something, to show good manners.",
           "A type of meat from a bird, often cooked and eaten in meals. It can be served in pieces or whole.",
+          "A hot or cold drink made from leaves, often with flavors like black or green. It's common in many cultures for relaxation.",
+          "A small restaurant where you can buy drinks like coffee or tea, and sometimes simple food like sandwiches or cakes.",
           "A common food made from small white or brown grains, often eaten with meals in many cultures."
         ],
-        "correctIndex": 2
+        "correctIndex": 0
       },
       {
         "id": "a1-u1-l2-vocab-5",
         "type": "multiple_choice",
         "question": "What does \"coffee\" mean?",
         "options": [
-          "A place where you can buy things like food, clothes, or other items. In this lesson, it refers to a food shop or supermarket.",
-          "A hot or cold drink made from dark beans, often drunk in the morning or during breaks. It can be black or with milk.",
           "A small restaurant where you can buy drinks like coffee or tea, and sometimes simple food like sandwiches or cakes.",
-          "A type of meat from a bird, often cooked and eaten in meals. It can be served in pieces or whole."
+          "A polite word used when making a request or asking for something, to show good manners.",
+          "A hot or cold drink made from dark beans, often drunk in the morning or during breaks. It can be black or with milk.",
+          "A place where you can buy things like food, clothes, or other items. In this lesson, it refers to a food shop or supermarket."
         ],
-        "correctIndex": 1
+        "correctIndex": 2
       },
       {
         "id": "a1-u1-l2-fill-6",
@@ -4361,9 +4361,9 @@
         "question": "What does \"name\" mean?",
         "options": [
           "A word or set of words by which a person, animal, place, or thing is known, addressed, or referred to. In introductions, it identifies someone.",
-          "A greeting used when meeting someone or starting a conversation. Can be formal or informal.",
-          "A farewell used when leaving someone or ending a conversation. Can be formal or informal.",
-          "Second person pronoun referring to the person being spoken to. Used as the subject or object of a sentence."
+          "A possessive adjective indicating that something belongs to or is associated with the person being spoken to. Used before a noun to show ownership or relation.",
+          "First person singular pronoun referring to the speaker. Used as the subject of a sentence.",
+          "A possessive adjective indicating that something belongs to or is associated with the speaker. Used before a noun to show ownership or relation."
         ],
         "correctIndex": 0
       },
@@ -4372,46 +4372,46 @@
         "type": "multiple_choice",
         "question": "What does \"my\" mean?",
         "options": [
-          "A question word used to ask for information specifying something, such as identity, type, or description. In this lesson, used to inquire about names.",
           "A possessive adjective indicating that something belongs to or is associated with the speaker. Used before a noun to show ownership or relation.",
-          "First person singular pronoun referring to the speaker. Used as the subject of a sentence.",
-          "Third person singular present form of the verb 'be', used to describe identity, state, or existence. In this lesson, used in statements and questions with 'he', 'she', 'it', or singular nouns."
+          "A question word used to ask for information specifying something, such as identity, type, or description. In this lesson, used to inquire about names.",
+          "A word or set of words by which a person, animal, place, or thing is known, addressed, or referred to. In introductions, it identifies someone.",
+          "First person singular pronoun referring to the speaker. Used as the subject of a sentence."
         ],
-        "correctIndex": 1
+        "correctIndex": 0
       },
       {
         "id": "a1-u1-l2-vocab-3",
         "type": "multiple_choice",
         "question": "What does \"your\" mean?",
         "options": [
+          "A possessive adjective indicating that something belongs to or is associated with the person being spoken to. Used before a noun to show ownership or relation.",
           "A word or set of words by which a person, animal, place, or thing is known, addressed, or referred to. In introductions, it identifies someone.",
-          "Second person pronoun referring to the person being spoken to. Used as the subject or object of a sentence.",
           "A possessive adjective indicating that something belongs to or is associated with the speaker. Used before a noun to show ownership or relation.",
-          "A possessive adjective indicating that something belongs to or is associated with the person being spoken to. Used before a noun to show ownership or relation."
+          "Third person singular present form of the verb 'be', used to describe identity, state, or existence. In this lesson, used in statements and questions with 'he', 'she', 'it', or singular nouns."
         ],
-        "correctIndex": 3
+        "correctIndex": 0
       },
       {
         "id": "a1-u1-l2-vocab-4",
         "type": "multiple_choice",
         "question": "What does \"what\" mean?",
         "options": [
+          "Third person singular present form of the verb 'be', used to describe identity, state, or existence. In this lesson, used in statements and questions with 'he', 'she', 'it', or singular nouns.",
           "A question word used to ask for information specifying something, such as identity, type, or description. In this lesson, used to inquire about names.",
-          "A farewell used when leaving someone or ending a conversation. Can be formal or informal.",
-          "Second person pronoun referring to the person being spoken to. Used as the subject or object of a sentence.",
-          "A possessive adjective indicating that something belongs to or is associated with the person being spoken to. Used before a noun to show ownership or relation."
+          "A word or set of words by which a person, animal, place, or thing is known, addressed, or referred to. In introductions, it identifies someone.",
+          "A greeting used when meeting someone or starting a conversation. Can be formal or informal."
         ],
-        "correctIndex": 0
+        "correctIndex": 1
       },
       {
         "id": "a1-u1-l2-vocab-5",
         "type": "multiple_choice",
         "question": "What does \"is\" mean?",
         "options": [
-          "First person singular pronoun referring to the speaker. Used as the subject of a sentence.",
-          "A farewell used when leaving someone or ending a conversation. Can be formal or informal.",
+          "A question word used to ask for information specifying something, such as identity, type, or description. In this lesson, used to inquire about names.",
+          "A possessive adjective indicating that something belongs to or is associated with the speaker. Used before a noun to show ownership or relation.",
           "Third person singular present form of the verb 'be', used to describe identity, state, or existence. In this lesson, used in statements and questions with 'he', 'she', 'it', or singular nouns.",
-          "A question word used to ask for information specifying something, such as identity, type, or description. In this lesson, used to inquire about names."
+          "A possessive adjective indicating that something belongs to or is associated with the person being spoken to. Used before a noun to show ownership or relation."
         ],
         "correctIndex": 2
       },
@@ -4956,43 +4956,31 @@
         "type": "multiple_choice",
         "question": "What does \"where\" mean?",
         "options": [
-          "Preposition indicating that something is below or beneath something else, often with direct contact or close proximity.",
-          "Preposition indicating that something is inside or within a space, container, or area. It shows location within boundaries.",
           "Preposition indicating that something is touching the surface of something else, or is positioned above and supported by it.",
-          "Question word used to ask about the location or position of something or someone. It is used to inquire about place."
+          "Verb meaning to discover or locate something after searching, or to identify where something is.",
+          "Question word used to ask about the location or position of something or someone. It is used to inquire about place.",
+          "Preposition indicating that something is inside or within a space, container, or area. It shows location within boundaries."
         ],
-        "correctIndex": 3
+        "correctIndex": 2
       },
       {
         "id": "a1-u1-l2-vocab-2",
         "type": "multiple_choice",
         "question": "What does \"in\" mean?",
         "options": [
-          "Verb meaning to discover or locate something after searching, or to identify where something is.",
-          "Question word used to ask about the location or position of something or someone. It is used to inquire about place.",
+          "Prepositional phrase meaning beside or adjacent to something, indicating close proximity without touching.",
+          "Preposition indicating that something is inside or within a space, container, or area. It shows location within boundaries.",
           "A noun referring to a particular place or position where something is situated.",
-          "Preposition indicating that something is inside or within a space, container, or area. It shows location within boundaries."
+          "Question word used to ask about the location or position of something or someone. It is used to inquire about place."
         ],
-        "correctIndex": 3
+        "correctIndex": 1
       },
       {
         "id": "a1-u1-l2-vocab-3",
         "type": "multiple_choice",
         "question": "What does \"on\" mean?",
         "options": [
-          "Question word used to ask about the location or position of something or someone. It is used to inquire about place.",
           "Preposition indicating that something is touching the surface of something else, or is positioned above and supported by it.",
-          "Preposition indicating that something is below or beneath something else, often with direct contact or close proximity.",
-          "A noun referring to a particular place or position where something is situated."
-        ],
-        "correctIndex": 1
-      },
-      {
-        "id": "a1-u1-l2-vocab-4",
-        "type": "multiple_choice",
-        "question": "What does \"at\" mean?",
-        "options": [
-          "Preposition indicating a specific point or location, often used for addresses, events, or general positions.",
           "Preposition indicating that something is below or beneath something else, often with direct contact or close proximity.",
           "A noun referring to a particular place or position where something is situated.",
           "Verb meaning to discover or locate something after searching, or to identify where something is."
@@ -5000,14 +4988,26 @@
         "correctIndex": 0
       },
       {
+        "id": "a1-u1-l2-vocab-4",
+        "type": "multiple_choice",
+        "question": "What does \"at\" mean?",
+        "options": [
+          "Preposition indicating that something is inside or within a space, container, or area. It shows location within boundaries.",
+          "Preposition indicating that something is touching the surface of something else, or is positioned above and supported by it.",
+          "Question word used to ask about the location or position of something or someone. It is used to inquire about place.",
+          "Preposition indicating a specific point or location, often used for addresses, events, or general positions."
+        ],
+        "correctIndex": 3
+      },
+      {
         "id": "a1-u1-l2-vocab-5",
         "type": "multiple_choice",
         "question": "What does \"under\" mean?",
         "options": [
           "Preposition indicating that something is below or beneath something else, often with direct contact or close proximity.",
-          "Verb meaning to discover or locate something after searching, or to identify where something is.",
-          "Preposition indicating that something is touching the surface of something else, or is positioned above and supported by it.",
-          "Question word used to ask about the location or position of something or someone. It is used to inquire about place."
+          "A noun referring to a particular place or position where something is situated.",
+          "Preposition indicating that something is inside or within a space, container, or area. It shows location within boundaries.",
+          "Preposition indicating that something is touching the surface of something else, or is positioned above and supported by it."
         ],
         "correctIndex": 0
       },
@@ -5575,10 +5575,10 @@
         "type": "multiple_choice",
         "question": "What does \"his\" mean?",
         "options": [
-          "Possessive adjective used to show something belongs to a female person (she). It comes before a noun. Example: her mother (the mother of a woman/girl).",
-          "Possessive adjective used to show something belongs to a male person (he). It comes before a noun. Example: his father (the father of a man/boy).",
           "The mother of your father or mother. Often called 'grandma' informally. Example: My grandmother is from Japan.",
-          "The father of your father or mother. Often called 'grandpa' informally. Example: His grandfather is American."
+          "Possessive adjective used to show something belongs to a male person (he). It comes before a noun. Example: his father (the father of a man/boy).",
+          "The father of your father or mother. Often called 'grandpa' informally. Example: His grandfather is American.",
+          "A male parent. Example: Your father is Japanese."
         ],
         "correctIndex": 1
       },
@@ -5587,48 +5587,48 @@
         "type": "multiple_choice",
         "question": "What does \"her\" mean?",
         "options": [
+          "Possessive adjective used to show something belongs to a female person (she). It comes before a noun. Example: her mother (the mother of a woman/girl).",
+          "The father of your father or mother. Often called 'grandpa' informally. Example: His grandfather is American.",
           "A female sibling. Example: I have one sister.",
-          "Possessive adjective used to show something belongs to a male person (he). It comes before a noun. Example: his father (the father of a man/boy).",
-          "Possessive adjective for the speaker (I). Example: My name is Anna.",
-          "Possessive adjective used to show something belongs to a female person (she). It comes before a noun. Example: her mother (the mother of a woman/girl)."
+          "First person singular pronoun (the speaker). Example: I am from Mexico."
         ],
-        "correctIndex": 3
+        "correctIndex": 0
       },
       {
         "id": "a1-u1-l2-vocab-3",
         "type": "multiple_choice",
         "question": "What does \"grandmother\" mean?",
         "options": [
-          "The mother of your father or mother. Often called 'grandma' informally. Example: My grandmother is from Japan.",
-          "Possessive adjective for the listener (you). Example: What is your nationality?",
           "A female sibling. Example: I have one sister.",
-          "A male sibling. Example: You have two brothers."
+          "Possessive adjective used to show something belongs to a female person (she). It comes before a noun. Example: her mother (the mother of a woman/girl).",
+          "The mother of your father or mother. Often called 'grandma' informally. Example: My grandmother is from Japan.",
+          "First person singular pronoun (the speaker). Example: I am from Mexico."
         ],
-        "correctIndex": 0
+        "correctIndex": 2
       },
       {
         "id": "a1-u1-l2-vocab-4",
         "type": "multiple_choice",
         "question": "What does \"grandfather\" mean?",
         "options": [
+          "Possessive adjective used to show something belongs to a female person (she). It comes before a noun. Example: her mother (the mother of a woman/girl).",
+          "Second person pronoun (the listener). Example: Where are you from?",
           "The father of your father or mother. Often called 'grandpa' informally. Example: His grandfather is American.",
-          "A male parent. Example: Your father is Japanese.",
-          "A female parent. Example: My mother is from China.",
           "Question word for location or origin. Example: Where is your family from?"
         ],
-        "correctIndex": 0
+        "correctIndex": 2
       },
       {
         "id": "a1-u1-l2-vocab-5",
         "type": "multiple_choice",
         "question": "What does \"family\" mean?",
         "options": [
-          "Possessive adjective used to show something belongs to a male person (he). It comes before a noun. Example: his father (the father of a man/boy).",
-          "A group of people related by blood or marriage, such as parents, children, and grandparents. Example: Her family is nice.",
+          "The mother of your father or mother. Often called 'grandma' informally. Example: My grandmother is from Japan.",
+          "A male sibling. Example: You have two brothers.",
           "The father of your father or mother. Often called 'grandpa' informally. Example: His grandfather is American.",
-          "A female parent. Example: My mother is from China."
+          "A group of people related by blood or marriage, such as parents, children, and grandparents. Example: Her family is nice."
         ],
-        "correctIndex": 1
+        "correctIndex": 3
       },
       {
         "id": "a1-u1-l2-fill-6",
@@ -6872,22 +6872,22 @@
         "type": "multiple_choice",
         "question": "What does \"like\" mean?",
         "options": [
-          "A type of food made from flour and water, often in shapes like spaghetti or macaroni, typically cooked and served with sauce.",
           "To have a positive feeling toward something; used to express preference or enjoyment. In this lesson, it is used in questions and answers about food preferences.",
-          "An affirmative response; used to agree or confirm something. In this context, it answers 'Do you like' questions positively.",
-          "Having a very pleasant taste; used to describe food that tastes very good."
+          "A piece of furniture for sleeping on, typically with a mattress and covers.",
+          "A piece of furniture with a flat top and legs, used for eating, working, or other activities.",
+          "A long, comfortable seat with a back and arms, for two or more people to sit on."
         ],
-        "correctIndex": 1
+        "correctIndex": 0
       },
       {
         "id": "a1-u1-l3-vocab-2",
         "type": "multiple_choice",
         "question": "What does \"yes\" mean?",
         "options": [
-          "A long, comfortable seat with a back and arms, for two or more people to sit on.",
+          "To have a positive feeling toward something; used to express preference or enjoyment. In this lesson, it is used in questions and answers about food preferences.",
           "An affirmative response; used to agree or confirm something. In this context, it answers 'Do you like' questions positively.",
-          "Having a very pleasant taste; used to describe food that tastes very good.",
-          "A type of food made from flour and water, often in shapes like spaghetti or macaroni, typically cooked and served with sauce."
+          "A type of food made from flour and water, often in shapes like spaghetti or macaroni, typically cooked and served with sauce.",
+          "Having a very pleasant taste; used to describe food that tastes very good."
         ],
         "correctIndex": 1
       },
@@ -6896,31 +6896,31 @@
         "type": "multiple_choice",
         "question": "What does \"no\" mean?",
         "options": [
-          "Having a very pleasant taste; used to describe food that tastes very good.",
           "A negative response; used to disagree or deny something. In this context, it answers 'Do you like' questions negatively.",
-          "A long, comfortable seat with a back and arms, for two or more people to sit on.",
+          "Having a very pleasant taste; used to describe food that tastes very good.",
+          "An affirmative response; used to agree or confirm something. In this context, it answers 'Do you like' questions positively.",
           "A piece of furniture for sleeping on, typically with a mattress and covers."
         ],
-        "correctIndex": 1
+        "correctIndex": 0
       },
       {
         "id": "a1-u1-l3-vocab-4",
         "type": "multiple_choice",
         "question": "What does \"pasta\" mean?",
         "options": [
+          "A piece of furniture with a flat top and legs, used for eating, working, or other activities.",
           "A type of food made from flour and water, often in shapes like spaghetti or macaroni, typically cooked and served with sauce.",
-          "Having a very pleasant taste; used to describe food that tastes very good.",
-          "A piece of furniture for sleeping on, typically with a mattress and covers.",
-          "A negative response; used to disagree or deny something. In this context, it answers 'Do you like' questions negatively."
+          "To have a positive feeling toward something; used to express preference or enjoyment. In this lesson, it is used in questions and answers about food preferences.",
+          "A piece of furniture for sleeping on, typically with a mattress and covers."
         ],
-        "correctIndex": 0
+        "correctIndex": 1
       },
       {
         "id": "a1-u1-l3-vocab-5",
         "type": "multiple_choice",
         "question": "What does \"delicious\" mean?",
         "options": [
-          "To have a positive feeling toward something; used to express preference or enjoyment. In this lesson, it is used in questions and answers about food preferences.",
+          "An affirmative response; used to agree or confirm something. In this context, it answers 'Do you like' questions positively.",
           "Having a very pleasant taste; used to describe food that tastes very good.",
           "A type of food made from flour and water, often in shapes like spaghetti or macaroni, typically cooked and served with sauce.",
           "A piece of furniture for sleeping on, typically with a mattress and covers."
@@ -7425,31 +7425,7 @@
         "type": "multiple_choice",
         "question": "What does \"where\" mean?",
         "options": [
-          "A reply or response to a question. In this lesson, used in the context of responding to questions about origin.",
-          "A nation with its own government, occupying a particular territory. Used to specify origin in broad terms.",
           "Question word used to ask about location or origin. In this lesson, it is used to ask about a person's country or city.",
-          "The status of belonging to a particular nation, often indicated by an adjective (e.g., American, Japanese)."
-        ],
-        "correctIndex": 2
-      },
-      {
-        "id": "a1-u1-l3-vocab-2",
-        "type": "multiple_choice",
-        "question": "What does \"from\" mean?",
-        "options": [
-          "A reply or response to a question. In this lesson, used in the context of responding to questions about origin.",
-          "Adjective describing someone or something from Japan. Also used as a noun for a person from Japan.",
-          "Adjective describing someone or something from the United States. Also used as a noun for a person from the U.S.",
-          "Preposition indicating origin or source. Used with 'be' to show where someone or something originates."
-        ],
-        "correctIndex": 3
-      },
-      {
-        "id": "a1-u1-l3-vocab-3",
-        "type": "multiple_choice",
-        "question": "What does \"country\" mean?",
-        "options": [
-          "A nation with its own government, occupying a particular territory. Used to specify origin in broad terms.",
           "The status of belonging to a particular nation, often indicated by an adjective (e.g., American, Japanese).",
           "Preposition indicating origin or source. Used with 'be' to show where someone or something originates.",
           "Adjective describing someone or something from Japan. Also used as a noun for a person from Japan."
@@ -7457,28 +7433,52 @@
         "correctIndex": 0
       },
       {
+        "id": "a1-u1-l3-vocab-2",
+        "type": "multiple_choice",
+        "question": "What does \"from\" mean?",
+        "options": [
+          "Preposition indicating origin or source. Used with 'be' to show where someone or something originates.",
+          "Question word used to ask about location or origin. In this lesson, it is used to ask about a person's country or city.",
+          "Adjective describing someone or something from the United States. Also used as a noun for a person from the U.S.",
+          "A nation with its own government, occupying a particular territory. Used to specify origin in broad terms."
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "a1-u1-l3-vocab-3",
+        "type": "multiple_choice",
+        "question": "What does \"country\" mean?",
+        "options": [
+          "A reply or response to a question. In this lesson, used in the context of responding to questions about origin.",
+          "A nation with its own government, occupying a particular territory. Used to specify origin in broad terms.",
+          "Question word used to ask about location or origin. In this lesson, it is used to ask about a person's country or city.",
+          "Adjective describing someone or something from the United States. Also used as a noun for a person from the U.S."
+        ],
+        "correctIndex": 1
+      },
+      {
         "id": "a1-u1-l3-vocab-4",
         "type": "multiple_choice",
         "question": "What does \"nationality\" mean?",
         "options": [
-          "Question word used to ask about location or origin. In this lesson, it is used to ask about a person's country or city.",
-          "The status of belonging to a particular nation, often indicated by an adjective (e.g., American, Japanese).",
           "Preposition indicating origin or source. Used with 'be' to show where someone or something originates.",
-          "Adjective describing someone or something from the United States. Also used as a noun for a person from the U.S."
+          "A reply or response to a question. In this lesson, used in the context of responding to questions about origin.",
+          "Adjective describing someone or something from Japan. Also used as a noun for a person from Japan.",
+          "The status of belonging to a particular nation, often indicated by an adjective (e.g., American, Japanese)."
         ],
-        "correctIndex": 1
+        "correctIndex": 3
       },
       {
         "id": "a1-u1-l3-vocab-5",
         "type": "multiple_choice",
         "question": "What does \"American\" mean?",
         "options": [
+          "Adjective describing someone or something from Japan. Also used as a noun for a person from Japan.",
+          "The status of belonging to a particular nation, often indicated by an adjective (e.g., American, Japanese).",
           "Adjective describing someone or something from the United States. Also used as a noun for a person from the U.S.",
-          "A reply or response to a question. In this lesson, used in the context of responding to questions about origin.",
-          "Preposition indicating origin or source. Used with 'be' to show where someone or something originates.",
-          "Question word used to ask about location or origin. In this lesson, it is used to ask about a person's country or city."
+          "A nation with its own government, occupying a particular territory. Used to specify origin in broad terms."
         ],
-        "correctIndex": 0
+        "correctIndex": 2
       },
       {
         "id": "a1-u1-l3-fill-6",
@@ -7989,8 +7989,8 @@
         "options": [
           "A piece of furniture for one person to sit on, typically with a back and four legs.",
           "The number 3, used to indicate quantity.",
-          "A set of written or printed pages bound together, used for reading.",
-          "Plural form of 'window', meaning multiple openings in walls or doors."
+          "A piece of furniture with a flat top and one or more legs, used for eating, writing, or working.",
+          "A piece of furniture for sleeping on, typically with a mattress and frame."
         ],
         "correctIndex": 0
       },
@@ -7999,48 +7999,48 @@
         "type": "multiple_choice",
         "question": "What does \"table\" mean?",
         "options": [
-          "Plural form of 'book', meaning multiple sets of written or printed pages.",
-          "The number 2, used to indicate quantity.",
-          "Plural form of 'window', meaning multiple openings in walls or doors.",
-          "A piece of furniture with a flat top and one or more legs, used for eating, writing, or working."
+          "A piece of furniture for one person to sit on, typically with a back and four legs.",
+          "A piece of furniture with a flat top and one or more legs, used for eating, writing, or working.",
+          "A piece of furniture for sleeping on, typically with a mattress and frame.",
+          "A long, comfortable seat with a back and arms, for two or more people to sit on."
         ],
-        "correctIndex": 3
+        "correctIndex": 1
       },
       {
         "id": "a1-u1-l3-vocab-3",
         "type": "multiple_choice",
         "question": "What does \"bed\" mean?",
         "options": [
+          "A device that produces light, typically with a bulb and shade, used for illumination.",
           "An opening in a wall or door, usually with glass, that lets in light and air.",
-          "Plural form of 'book', meaning multiple sets of written or printed pages.",
-          "A small container with a handle, used for drinking liquids like tea or coffee.",
-          "A piece of furniture for sleeping on, typically with a mattress and frame."
+          "A piece of furniture for sleeping on, typically with a mattress and frame.",
+          "A set of written or printed pages bound together, used for reading."
         ],
-        "correctIndex": 3
+        "correctIndex": 2
       },
       {
         "id": "a1-u1-l3-vocab-4",
         "type": "multiple_choice",
         "question": "What does \"sofa\" mean?",
         "options": [
-          "A piece of furniture for sleeping on, typically with a mattress and frame.",
-          "A piece of furniture with a flat top and one or more legs, used for eating, writing, or working.",
-          "The number 2, used to indicate quantity.",
-          "A long, comfortable seat with a back and arms, for two or more people to sit on."
+          "A long, comfortable seat with a back and arms, for two or more people to sit on.",
+          "An opening in a wall or door, usually with glass, that lets in light and air.",
+          "Plural form of 'window', meaning multiple openings in walls or doors.",
+          "A set of written or printed pages bound together, used for reading."
         ],
-        "correctIndex": 3
+        "correctIndex": 0
       },
       {
         "id": "a1-u1-l3-vocab-5",
         "type": "multiple_choice",
         "question": "What does \"lamp\" mean?",
         "options": [
+          "A piece of furniture for one person to sit on, typically with a back and four legs.",
           "A device that produces light, typically with a bulb and shade, used for illumination.",
-          "Plural form of 'cup', meaning multiple drinking containers.",
-          "A small container with a handle, used for drinking liquids like tea or coffee.",
-          "A set of written or printed pages bound together, used for reading."
+          "An opening in a wall or door, usually with glass, that lets in light and air.",
+          "Plural form of 'cup', meaning multiple drinking containers."
         ],
-        "correctIndex": 0
+        "correctIndex": 1
       },
       {
         "id": "a1-u1-l3-fill-6",
@@ -8692,24 +8692,24 @@
         "type": "multiple_choice",
         "question": "What does \"how many\" mean?",
         "options": [
+          "The number 20. Used with plural nouns.",
           "Used to ask about quantity or number of countable things. Always followed by a plural noun.",
-          "The number 5. Used with plural nouns.",
-          "The number 3. Used with plural nouns.",
-          "The number 6. Used with plural nouns."
+          "The number 6. Used with plural nouns.",
+          "The number 13. Used with plural nouns."
         ],
-        "correctIndex": 0
+        "correctIndex": 1
       },
       {
         "id": "a1-u1-l3-vocab-2",
         "type": "multiple_choice",
         "question": "What does \"people\" mean?",
         "options": [
-          "The number 15. Used with plural nouns.",
-          "The number 10. Used with plural nouns.",
-          "The number 20. Used with plural nouns.",
-          "Plural of 'person'. Refers to more than one human being. Used as a plural noun even though it doesn't end in -s."
+          "Plural of 'person'. Refers to more than one human being. Used as a plural noun even though it doesn't end in -s.",
+          "The number 8. Used with plural nouns.",
+          "The number 4. Used with plural nouns.",
+          "The number 12. Used with plural nouns."
         ],
-        "correctIndex": 3
+        "correctIndex": 0
       },
       {
         "id": "a1-u1-l3-vocab-3",
@@ -8717,9 +8717,9 @@
         "question": "What does \"one\" mean?",
         "options": [
           "The number 1. Also used to mean 'a single person or thing'.",
-          "Plural of 'person'. Refers to more than one human being. Used as a plural noun even though it doesn't end in -s.",
-          "The number 3. Used with plural nouns.",
-          "The number 18. Used with plural nouns."
+          "The number 11. Used with plural nouns.",
+          "The number 15. Used with plural nouns.",
+          "The number 14. Used with plural nouns."
         ],
         "correctIndex": 0
       },
@@ -8728,24 +8728,24 @@
         "type": "multiple_choice",
         "question": "What does \"two\" mean?",
         "options": [
-          "The number 7. Used with plural nouns.",
-          "The number 1. Also used to mean 'a single person or thing'.",
-          "The number 18. Used with plural nouns.",
-          "The number 2. Used with plural nouns."
+          "The number 2. Used with plural nouns.",
+          "The number 9. Used with plural nouns.",
+          "The number 12. Used with plural nouns.",
+          "The number 7. Used with plural nouns."
         ],
-        "correctIndex": 3
+        "correctIndex": 0
       },
       {
         "id": "a1-u1-l3-vocab-5",
         "type": "multiple_choice",
         "question": "What does \"three\" mean?",
         "options": [
-          "Used to ask about quantity or number of countable things. Always followed by a plural noun.",
-          "The number 9. Used with plural nouns.",
-          "The number 12. Used with plural nouns.",
-          "The number 3. Used with plural nouns."
+          "The number 13. Used with plural nouns.",
+          "The number 1. Also used to mean 'a single person or thing'.",
+          "The number 3. Used with plural nouns.",
+          "The number 15. Used with plural nouns."
         ],
-        "correctIndex": 3
+        "correctIndex": 2
       },
       {
         "id": "a1-u1-l3-fill-6",
@@ -9839,45 +9839,45 @@
         "type": "multiple_choice",
         "question": "What does \"menu\" mean?",
         "options": [
-          "A hot liquid food with vegetables, meat, or rice in it. You eat it with a spoon.",
           "A list of food and drinks available in a restaurant or café. You look at it to decide what to order.",
-          "A cold dish with vegetables like lettuce, tomato, and carrot. Sometimes it has chicken or cheese.",
-          "Food with bread, meat, cheese, or vegetables inside. You can eat it with your hands."
+          "A piece of paper that shows how much money you need to pay for your food and drinks in a restaurant.",
+          "Food with bread, meat, cheese, or vegetables inside. You can eat it with your hands.",
+          "A cold, sweet food made from milk or cream. It is often in a cone or a bowl."
         ],
-        "correctIndex": 1
+        "correctIndex": 0
       },
       {
         "id": "a1-u1-l4-vocab-2",
         "type": "multiple_choice",
         "question": "What does \"order\" mean?",
         "options": [
-          "A person who works in a restaurant and brings food to your table. For a woman, you can say 'waitress'.",
           "Food with bread, meat, cheese, or vegetables inside. You can eat it with your hands.",
           "To ask for food or drinks in a restaurant. It can also be a noun meaning the food you asked for.",
-          "A list of food and drinks available in a restaurant or café. You look at it to decide what to order."
+          "A cold, sweet food made from milk or cream. It is often in a cone or a bowl.",
+          "A cold dish with vegetables like lettuce, tomato, and carrot. Sometimes it has chicken or cheese."
         ],
-        "correctIndex": 2
+        "correctIndex": 1
       },
       {
         "id": "a1-u1-l4-vocab-3",
         "type": "multiple_choice",
         "question": "What does \"waiter\" mean?",
         "options": [
-          "Food with bread, meat, cheese, or vegetables inside. You can eat it with your hands.",
-          "A piece of paper that shows how much money you need to pay for your food and drinks in a restaurant.",
-          "A cold, sweet food made from milk or cream. It is often in a cone or a bowl.",
-          "A person who works in a restaurant and brings food to your table. For a woman, you can say 'waitress'."
+          "A hot liquid food with vegetables, meat, or rice in it. You eat it with a spoon.",
+          "Used in questions and negative sentences with uncountable or plural nouns to mean 'some' or 'a quantity of'.",
+          "A person who works in a restaurant and brings food to your table. For a woman, you can say 'waitress'.",
+          "A list of food and drinks available in a restaurant or café. You look at it to decide what to order."
         ],
-        "correctIndex": 3
+        "correctIndex": 2
       },
       {
         "id": "a1-u1-l4-vocab-4",
         "type": "multiple_choice",
         "question": "What does \"bill\" mean?",
         "options": [
-          "A list of food and drinks available in a restaurant or café. You look at it to decide what to order.",
-          "To ask for food or drinks in a restaurant. It can also be a noun meaning the food you asked for.",
           "Food with bread, meat, cheese, or vegetables inside. You can eat it with your hands.",
+          "A cold, sweet food made from milk or cream. It is often in a cone or a bowl.",
+          "A person who works in a restaurant and brings food to your table. For a woman, you can say 'waitress'.",
           "A piece of paper that shows how much money you need to pay for your food and drinks in a restaurant."
         ],
         "correctIndex": 3
@@ -9887,10 +9887,10 @@
         "type": "multiple_choice",
         "question": "What does \"sandwich\" mean?",
         "options": [
-          "A sweet food made from flour, sugar, and eggs. You often eat it for dessert.",
-          "A hot liquid food with vegetables, meat, or rice in it. You eat it with a spoon.",
+          "A cold, sweet food made from milk or cream. It is often in a cone or a bowl.",
+          "A person who works in a restaurant and brings food to your table. For a woman, you can say 'waitress'.",
           "Food with bread, meat, cheese, or vegetables inside. You can eat it with your hands.",
-          "To ask for food or drinks in a restaurant. It can also be a noun meaning the food you asked for."
+          "A piece of paper that shows how much money you need to pay for your food and drinks in a restaurant."
         ],
         "correctIndex": 2
       },
@@ -10340,22 +10340,22 @@
         "type": "multiple_choice",
         "question": "What does \"meet\" mean?",
         "options": [
-          "A preposition used to indicate direction, purpose, or part of an infinitive verb form. In 'nice to meet you', it introduces the infinitive 'meet'.",
-          "To look again at something previously learned; to practice or recall information. In this lesson, it refers to revisiting vocabulary and grammar.",
           "To come into the presence of someone for the first time or again; to be introduced to someone. Used in social contexts like greetings and introductions.",
+          "A conjunction used to connect words, phrases, or clauses. In conversations, it links ideas or questions together.",
+          "To look again at something previously learned; to practice or recall information. In this lesson, it refers to revisiting vocabulary and grammar.",
           "Pleasant, agreeable, or good. In greetings, it expresses politeness and friendliness."
         ],
-        "correctIndex": 2
+        "correctIndex": 0
       },
       {
         "id": "a1-u1-l4-vocab-2",
         "type": "multiple_choice",
         "question": "What does \"nice\" mean?",
         "options": [
-          "A conjunction used to connect words, phrases, or clauses. In conversations, it links ideas or questions together.",
-          "To come into the presence of someone for the first time or again; to be introduced to someone. Used in social contexts like greetings and introductions.",
+          "Also or as well; used to add agreement or similarity. In responses, it shows mutual feeling.",
+          "A preposition used to indicate direction, purpose, or part of an infinitive verb form. In 'nice to meet you', it introduces the infinitive 'meet'.",
           "Pleasant, agreeable, or good. In greetings, it expresses politeness and friendliness.",
-          "A preposition used to indicate direction, purpose, or part of an infinitive verb form. In 'nice to meet you', it introduces the infinitive 'meet'."
+          "To look again at something previously learned; to practice or recall information. In this lesson, it refers to revisiting vocabulary and grammar."
         ],
         "correctIndex": 2
       },
@@ -10364,24 +10364,24 @@
         "type": "multiple_choice",
         "question": "What does \"to\" mean?",
         "options": [
-          "Pleasant, agreeable, or good. In greetings, it expresses politeness and friendliness.",
           "To look again at something previously learned; to practice or recall information. In this lesson, it refers to revisiting vocabulary and grammar.",
-          "A preposition used to indicate direction, purpose, or part of an infinitive verb form. In 'nice to meet you', it introduces the infinitive 'meet'.",
-          "To come into the presence of someone for the first time or again; to be introduced to someone. Used in social contexts like greetings and introductions."
+          "Also or as well; used to add agreement or similarity. In responses, it shows mutual feeling.",
+          "A talk between two or more people, especially an informal one. Focuses on exchanging information or social interaction.",
+          "A preposition used to indicate direction, purpose, or part of an infinitive verb form. In 'nice to meet you', it introduces the infinitive 'meet'."
         ],
-        "correctIndex": 2
+        "correctIndex": 3
       },
       {
         "id": "a1-u1-l4-vocab-4",
         "type": "multiple_choice",
         "question": "What does \"and\" mean?",
         "options": [
-          "Also or as well; used to add agreement or similarity. In responses, it shows mutual feeling.",
           "A conjunction used to connect words, phrases, or clauses. In conversations, it links ideas or questions together.",
           "To come into the presence of someone for the first time or again; to be introduced to someone. Used in social contexts like greetings and introductions.",
-          "To look again at something previously learned; to practice or recall information. In this lesson, it refers to revisiting vocabulary and grammar."
+          "Pleasant, agreeable, or good. In greetings, it expresses politeness and friendliness.",
+          "A talk between two or more people, especially an informal one. Focuses on exchanging information or social interaction."
         ],
-        "correctIndex": 1
+        "correctIndex": 0
       },
       {
         "id": "a1-u1-l4-vocab-5",
@@ -10389,8 +10389,8 @@
         "question": "What does \"too\" mean?",
         "options": [
           "Also or as well; used to add agreement or similarity. In responses, it shows mutual feeling.",
-          "A talk between two or more people, especially an informal one. Focuses on exchanging information or social interaction.",
           "Pleasant, agreeable, or good. In greetings, it expresses politeness and friendliness.",
+          "To look again at something previously learned; to practice or recall information. In this lesson, it refers to revisiting vocabulary and grammar.",
           "To come into the presence of someone for the first time or again; to be introduced to someone. Used in social contexts like greetings and introductions."
         ],
         "correctIndex": 0
@@ -10913,36 +10913,36 @@
         "type": "multiple_choice",
         "question": "What does \"have\" mean?",
         "options": [
-          "To look at something, especially television or a show, for a period of time. Example: 'They watch TV in the living room.'",
-          "To consume food. Example: 'I eat breakfast in the kitchen.'",
+          "The early part of the day, from sunrise to noon. Example: 'In the morning, I eat breakfast.'",
           "To possess or own something; also used for daily activities like meals or routines. Example: 'I have a book.' or 'We have dinner at 7 PM.'",
+          "To look at and understand written words, such as in a book or magazine. Example: 'He reads a book in the living room.'",
           "The period of time at the end of the day, from late afternoon to night. Example: 'In the evening, we watch TV.'"
         ],
-        "correctIndex": 2
+        "correctIndex": 1
       },
       {
         "id": "a1-u1-l4-vocab-2",
         "type": "multiple_choice",
         "question": "What does \"eat\" mean?",
         "options": [
-          "To look at and understand written words, such as in a book or magazine. Example: 'He reads a book in the living room.'",
           "To consume food. Example: 'I eat breakfast in the kitchen.'",
-          "To look at something, especially television or a show, for a period of time. Example: 'They watch TV in the living room.'",
-          "The early part of the day, from sunrise to noon. Example: 'In the morning, I eat breakfast.'"
+          "The period of darkness between sunset and sunrise. Example: 'At night, I sleep.'",
+          "The main meal of the day, often eaten in the evening. Example: 'We have dinner at 7 PM.'",
+          "The period of time at the end of the day, from late afternoon to night. Example: 'In the evening, we watch TV.'"
         ],
-        "correctIndex": 1
+        "correctIndex": 0
       },
       {
         "id": "a1-u1-l4-vocab-3",
         "type": "multiple_choice",
         "question": "What does \"sleep\" mean?",
         "options": [
-          "To possess or own something; also used for daily activities like meals or routines. Example: 'I have a book.' or 'We have dinner at 7 PM.'",
+          "The period of darkness between sunset and sunrise. Example: 'At night, I sleep.'",
+          "The first meal of the day, eaten in the morning. Example: 'I eat breakfast at 8 AM.'",
           "To rest in a state of unconsciousness, typically at night. Example: 'She sleeps in her bedroom.'",
-          "To consume food. Example: 'I eat breakfast in the kitchen.'",
-          "The main meal of the day, often eaten in the evening. Example: 'We have dinner at 7 PM.'"
+          "To look at and understand written words, such as in a book or magazine. Example: 'He reads a book in the living room.'"
         ],
-        "correctIndex": 1
+        "correctIndex": 2
       },
       {
         "id": "a1-u1-l4-vocab-4",
@@ -10950,9 +10950,9 @@
         "question": "What does \"watch\" mean?",
         "options": [
           "To look at something, especially television or a show, for a period of time. Example: 'They watch TV in the living room.'",
-          "The period of time at the end of the day, from late afternoon to night. Example: 'In the evening, we watch TV.'",
-          "To possess or own something; also used for daily activities like meals or routines. Example: 'I have a book.' or 'We have dinner at 7 PM.'",
-          "To rest in a state of unconsciousness, typically at night. Example: 'She sleeps in her bedroom.'"
+          "To look at and understand written words, such as in a book or magazine. Example: 'He reads a book in the living room.'",
+          "The main meal of the day, often eaten in the evening. Example: 'We have dinner at 7 PM.'",
+          "The period of darkness between sunset and sunrise. Example: 'At night, I sleep.'"
         ],
         "correctIndex": 0
       },
@@ -10961,10 +10961,10 @@
         "type": "multiple_choice",
         "question": "What does \"read\" mean?",
         "options": [
-          "The main meal of the day, often eaten in the evening. Example: 'We have dinner at 7 PM.'",
+          "To look at something, especially television or a show, for a period of time. Example: 'They watch TV in the living room.'",
           "The period of darkness between sunset and sunrise. Example: 'At night, I sleep.'",
           "To look at and understand written words, such as in a book or magazine. Example: 'He reads a book in the living room.'",
-          "To look at something, especially television or a show, for a period of time. Example: 'They watch TV in the living room.'"
+          "To possess or own something; also used for daily activities like meals or routines. Example: 'I have a book.' or 'We have dinner at 7 PM.'"
         ],
         "correctIndex": 2
       },
@@ -11426,46 +11426,46 @@
         "type": "multiple_choice",
         "question": "What does \"tall\" mean?",
         "options": [
-          "Belonging to or associated with a female person or animal previously mentioned. A possessive adjective.",
-          "Having a less than average height; used to describe people or objects. For people, it indicates physical stature.",
-          "Having lived for only a short time; not old. Used to describe people, especially children or teenagers.",
-          "Having a greater than average height; used to describe people or objects. For people, it indicates physical stature."
+          "Pleasant, kind, or friendly. Used to describe people's personality or behavior.",
+          "Having a greater than average height; used to describe people or objects. For people, it indicates physical stature.",
+          "Belonging to or associated with the person or people being addressed. A possessive adjective.",
+          "Having a less than average height; used to describe people or objects. For people, it indicates physical stature."
         ],
-        "correctIndex": 3
+        "correctIndex": 1
       },
       {
         "id": "a1-u1-l4-vocab-2",
         "type": "multiple_choice",
         "question": "What does \"short\" mean?",
         "options": [
-          "Having a less than average height; used to describe people or objects. For people, it indicates physical stature.",
-          "Having lived for a long time; not young. Used to describe people, especially adults or elderly individuals.",
-          "Belonging to or associated with a female person or animal previously mentioned. A possessive adjective.",
-          "Pleasant, kind, or friendly. Used to describe people's personality or behavior."
+          "Having a greater than average height; used to describe people or objects. For people, it indicates physical stature.",
+          "Pleasant, kind, or friendly. Used to describe people's personality or behavior.",
+          "Having lived for only a short time; not old. Used to describe people, especially children or teenagers.",
+          "Having a less than average height; used to describe people or objects. For people, it indicates physical stature."
         ],
-        "correctIndex": 0
+        "correctIndex": 3
       },
       {
         "id": "a1-u1-l4-vocab-3",
         "type": "multiple_choice",
         "question": "What does \"young\" mean?",
         "options": [
-          "Belonging to or associated with a female person or animal previously mentioned. A possessive adjective.",
-          "Having lived for only a short time; not old. Used to describe people, especially children or teenagers.",
+          "Belonging to or associated with the person or people being addressed. A possessive adjective.",
+          "Pleasant, kind, or friendly. Used to describe people's personality or behavior.",
           "Having a greater than average height; used to describe people or objects. For people, it indicates physical stature.",
-          "Belonging to or associated with the person or people being addressed. A possessive adjective."
+          "Having lived for only a short time; not old. Used to describe people, especially children or teenagers."
         ],
-        "correctIndex": 1
+        "correctIndex": 3
       },
       {
         "id": "a1-u1-l4-vocab-4",
         "type": "multiple_choice",
         "question": "What does \"old\" mean?",
         "options": [
-          "Belonging to or associated with the person or people being addressed. A possessive adjective.",
-          "Belonging to or associated with a female person or animal previously mentioned. A possessive adjective.",
+          "Pleasant, kind, or friendly. Used to describe people's personality or behavior.",
+          "Having a less than average height; used to describe people or objects. For people, it indicates physical stature.",
           "Having lived for a long time; not young. Used to describe people, especially adults or elderly individuals.",
-          "Having a greater than average height; used to describe people or objects. For people, it indicates physical stature."
+          "Belonging to or associated with the person or people being addressed. A possessive adjective."
         ],
         "correctIndex": 2
       },
@@ -11474,12 +11474,12 @@
         "type": "multiple_choice",
         "question": "What does \"nice\" mean?",
         "options": [
-          "Pleasant, kind, or friendly. Used to describe people's personality or behavior.",
+          "Having lived for only a short time; not old. Used to describe people, especially children or teenagers.",
           "Belonging to or associated with a female person or animal previously mentioned. A possessive adjective.",
-          "Having a greater than average height; used to describe people or objects. For people, it indicates physical stature.",
-          "Having a less than average height; used to describe people or objects. For people, it indicates physical stature."
+          "Having lived for a long time; not young. Used to describe people, especially adults or elderly individuals.",
+          "Pleasant, kind, or friendly. Used to describe people's personality or behavior."
         ],
-        "correctIndex": 0
+        "correctIndex": 3
       },
       {
         "id": "a1-u1-l4-fill-6",
@@ -12819,60 +12819,60 @@
         "type": "multiple_choice",
         "question": "What does \"dream\" mean?",
         "options": [
-          "A color like the sky or sea on a clear day; used to describe objects, rooms, or homes.",
           "An idea or hope for something you want very much in the future; often used with 'home' to describe an ideal living place.",
+          "A part of a house or building with its own walls, floor, and ceiling, like a bedroom or living room.",
           "Pleasant, good, or attractive; used to describe people, places, or things in a positive way.",
-          "A building where people live, often with multiple rooms; similar to 'home' but more specific to the building."
+          "A color like the sky or sea on a clear day; used to describe objects, rooms, or homes."
         ],
-        "correctIndex": 1
+        "correctIndex": 0
       },
       {
         "id": "a1-u1-l5-vocab-2",
         "type": "multiple_choice",
         "question": "What does \"big\" mean?",
         "options": [
+          "Little in size or amount; opposite of big. Used to describe homes, rooms, or objects.",
+          "Large in size or amount; opposite of small. Used to describe homes, rooms, or objects.",
           "A color like the sky or sea on a clear day; used to describe objects, rooms, or homes.",
-          "A color like grass or leaves; used to describe objects, gardens, or homes.",
-          "Pleasant, good, or attractive; used to describe people, places, or things in a positive way.",
-          "Large in size or amount; opposite of small. Used to describe homes, rooms, or objects."
+          "Pleasant, good, or attractive; used to describe people, places, or things in a positive way."
         ],
-        "correctIndex": 3
+        "correctIndex": 1
       },
       {
         "id": "a1-u1-l5-vocab-3",
         "type": "multiple_choice",
         "question": "What does \"small\" mean?",
         "options": [
-          "A building where people live, often with multiple rooms; similar to 'home' but more specific to the building.",
-          "Large in size or amount; opposite of small. Used to describe homes, rooms, or objects.",
           "Little in size or amount; opposite of big. Used to describe homes, rooms, or objects.",
-          "An idea or hope for something you want very much in the future; often used with 'home' to describe an ideal living place."
+          "An idea or hope for something you want very much in the future; often used with 'home' to describe an ideal living place.",
+          "Pleasant, good, or attractive; used to describe people, places, or things in a positive way.",
+          "A color like grass or leaves; used to describe objects, gardens, or homes."
         ],
-        "correctIndex": 2
+        "correctIndex": 0
       },
       {
         "id": "a1-u1-l5-vocab-4",
         "type": "multiple_choice",
         "question": "What does \"nice\" mean?",
         "options": [
-          "A part of a house or building with its own walls, floor, and ceiling, like a bedroom or living room.",
           "A color like grass or leaves; used to describe objects, gardens, or homes.",
-          "Pleasant, good, or attractive; used to describe people, places, or things in a positive way.",
-          "An idea or hope for something you want very much in the future; often used with 'home' to describe an ideal living place."
+          "An idea or hope for something you want very much in the future; often used with 'home' to describe an ideal living place.",
+          "A part of a house or building with its own walls, floor, and ceiling, like a bedroom or living room.",
+          "Pleasant, good, or attractive; used to describe people, places, or things in a positive way."
         ],
-        "correctIndex": 2
+        "correctIndex": 3
       },
       {
         "id": "a1-u1-l5-vocab-5",
         "type": "multiple_choice",
         "question": "What does \"blue\" mean?",
         "options": [
+          "Large in size or amount; opposite of small. Used to describe homes, rooms, or objects.",
+          "A part of a house or building with its own walls, floor, and ceiling, like a bedroom or living room.",
           "A color like the sky or sea on a clear day; used to describe objects, rooms, or homes.",
-          "Pleasant, good, or attractive; used to describe people, places, or things in a positive way.",
-          "A building where people live, often with multiple rooms; similar to 'home' but more specific to the building.",
-          "A color like grass or leaves; used to describe objects, gardens, or homes."
+          "An idea or hope for something you want very much in the future; often used with 'home' to describe an ideal living place."
         ],
-        "correctIndex": 0
+        "correctIndex": 2
       },
       {
         "id": "a1-u1-l5-fill-6",
@@ -13357,24 +13357,24 @@
         "type": "multiple_choice",
         "question": "What does \"family\" mean?",
         "options": [
-          "An informal talk between two or more people, exchanging ideas or information; in this context, about family topics. Used to practice speaking and listening skills.",
           "To form letters or words on a surface with a pen, pencil, or keyboard; in this lesson, to produce 3-4 sentences about one's family.",
-          "A group of people related by blood, marriage, or adoption, living together or not; includes parents, children, siblings, etc. In this lesson, used to refer to one's own family unit in conversation.",
-          "To discuss or mention a topic in speech; a phrasal verb meaning to have a conversation regarding something, such as family."
+          "To discuss or mention a topic in speech; a phrasal verb meaning to have a conversation regarding something, such as family.",
+          "To give a detailed account or representation of something in words; here, used for writing sentences about family members using adjectives.",
+          "A group of people related by blood, marriage, or adoption, living together or not; includes parents, children, siblings, etc. In this lesson, used to refer to one's own family unit in conversation."
         ],
-        "correctIndex": 2
+        "correctIndex": 3
       },
       {
         "id": "a1-u1-l5-vocab-2",
         "type": "multiple_choice",
         "question": "What does \"conversation\" mean?",
         "options": [
-          "A group of people related by blood, marriage, or adoption, living together or not; includes parents, children, siblings, etc. In this lesson, used to refer to one's own family unit in conversation.",
-          "To give a detailed account or representation of something in words; here, used for writing sentences about family members using adjectives.",
+          "To discuss or mention a topic in speech; a phrasal verb meaning to have a conversation regarding something, such as family.",
           "An informal talk between two or more people, exchanging ideas or information; in this context, about family topics. Used to practice speaking and listening skills.",
-          "To discuss or mention a topic in speech; a phrasal verb meaning to have a conversation regarding something, such as family."
+          "A group of people related by blood, marriage, or adoption, living together or not; includes parents, children, siblings, etc. In this lesson, used to refer to one's own family unit in conversation.",
+          "To give a detailed account or representation of something in words; here, used for writing sentences about family members using adjectives."
         ],
-        "correctIndex": 2
+        "correctIndex": 1
       },
       {
         "id": "a1-u1-l5-vocab-3",
@@ -13383,22 +13383,22 @@
         "options": [
           "A group of people related by blood, marriage, or adoption, living together or not; includes parents, children, siblings, etc. In this lesson, used to refer to one's own family unit in conversation.",
           "To form letters or words on a surface with a pen, pencil, or keyboard; in this lesson, to produce 3-4 sentences about one's family.",
-          "An informal talk between two or more people, exchanging ideas or information; in this context, about family topics. Used to practice speaking and listening skills.",
-          "To discuss or mention a topic in speech; a phrasal verb meaning to have a conversation regarding something, such as family."
+          "To discuss or mention a topic in speech; a phrasal verb meaning to have a conversation regarding something, such as family.",
+          "An informal talk between two or more people, exchanging ideas or information; in this context, about family topics. Used to practice speaking and listening skills."
         ],
-        "correctIndex": 3
+        "correctIndex": 2
       },
       {
         "id": "a1-u1-l5-vocab-4",
         "type": "multiple_choice",
         "question": "What does \"describe\" mean?",
         "options": [
-          "A group of people related by blood, marriage, or adoption, living together or not; includes parents, children, siblings, etc. In this lesson, used to refer to one's own family unit in conversation.",
-          "To form letters or words on a surface with a pen, pencil, or keyboard; in this lesson, to produce 3-4 sentences about one's family.",
           "An informal talk between two or more people, exchanging ideas or information; in this context, about family topics. Used to practice speaking and listening skills.",
-          "To give a detailed account or representation of something in words; here, used for writing sentences about family members using adjectives."
+          "To give a detailed account or representation of something in words; here, used for writing sentences about family members using adjectives.",
+          "To form letters or words on a surface with a pen, pencil, or keyboard; in this lesson, to produce 3-4 sentences about one's family.",
+          "To discuss or mention a topic in speech; a phrasal verb meaning to have a conversation regarding something, such as family."
         ],
-        "correctIndex": 3
+        "correctIndex": 1
       },
       {
         "id": "a1-u1-l5-vocab-5",
@@ -13406,11 +13406,11 @@
         "question": "What does \"write\" mean?",
         "options": [
           "To give a detailed account or representation of something in words; here, used for writing sentences about family members using adjectives.",
-          "To form letters or words on a surface with a pen, pencil, or keyboard; in this lesson, to produce 3-4 sentences about one's family.",
+          "An informal talk between two or more people, exchanging ideas or information; in this context, about family topics. Used to practice speaking and listening skills.",
           "A group of people related by blood, marriage, or adoption, living together or not; includes parents, children, siblings, etc. In this lesson, used to refer to one's own family unit in conversation.",
-          "An informal talk between two or more people, exchanging ideas or information; in this context, about family topics. Used to practice speaking and listening skills."
+          "To form letters or words on a surface with a pen, pencil, or keyboard; in this lesson, to produce 3-4 sentences about one's family."
         ],
-        "correctIndex": 1
+        "correctIndex": 3
       },
       {
         "id": "a1-u1-l5-fill-6",
@@ -14138,57 +14138,57 @@
         "question": "What does \"wake up\" mean?",
         "options": [
           "To put on clothes; a morning routine activity after waking up.",
-          "To stop sleeping and become conscious; the first activity of the day. Used for daily morning routine.",
           "To have the first meal of the day; a morning activity. Builds on 'eat' from previous lessons.",
-          "To return to one's house or residence; an afternoon or evening activity."
+          "To stop sleeping and become conscious; the first activity of the day. Used for daily morning routine.",
+          "To look at television programs; an evening leisure activity. Builds on 'watch' from previous lessons."
         ],
-        "correctIndex": 1
+        "correctIndex": 2
       },
       {
         "id": "a1-u4-l1-vocab-2",
         "type": "multiple_choice",
         "question": "What does \"get dressed\" mean?",
         "options": [
-          "To put on clothes; a morning routine activity after waking up.",
-          "To return to one's house or residence; an afternoon or evening activity.",
           "To stop sleeping and become conscious; the first activity of the day. Used for daily morning routine.",
-          "To lie down in bed to sleep; the final activity of the day."
+          "To have the first meal of the day; a morning activity. Builds on 'eat' from previous lessons.",
+          "To lie down in bed to sleep; the final activity of the day.",
+          "To put on clothes; a morning routine activity after waking up."
         ],
-        "correctIndex": 0
+        "correctIndex": 3
       },
       {
         "id": "a1-u4-l1-vocab-3",
         "type": "multiple_choice",
         "question": "What does \"eat breakfast\" mean?",
         "options": [
-          "To have the first meal of the day; a morning activity. Builds on 'eat' from previous lessons.",
           "To put on clothes; a morning routine activity after waking up.",
-          "To stop sleeping and become conscious; the first activity of the day. Used for daily morning routine.",
-          "To look at television programs; an evening leisure activity. Builds on 'watch' from previous lessons."
+          "To travel to an educational institution; a daily activity for students.",
+          "To have the first meal of the day; a morning activity. Builds on 'eat' from previous lessons.",
+          "To lie down in bed to sleep; the final activity of the day."
         ],
-        "correctIndex": 0
+        "correctIndex": 2
       },
       {
         "id": "a1-u4-l1-vocab-4",
         "type": "multiple_choice",
         "question": "What does \"go to work\" mean?",
         "options": [
-          "To put on clothes; a morning routine activity after waking up.",
-          "To travel to an educational institution; a daily activity for students.",
           "To travel to one's job or workplace; a daily activity for employed people.",
-          "To return to one's house or residence; an afternoon or evening activity."
+          "To return to one's house or residence; an afternoon or evening activity.",
+          "To lie down in bed to sleep; the final activity of the day.",
+          "To travel to an educational institution; a daily activity for students."
         ],
-        "correctIndex": 2
+        "correctIndex": 0
       },
       {
         "id": "a1-u4-l1-vocab-5",
         "type": "multiple_choice",
         "question": "What does \"go to school\" mean?",
         "options": [
-          "To stop sleeping and become conscious; the first activity of the day. Used for daily morning routine.",
+          "To lie down in bed to sleep; the final activity of the day.",
           "To travel to an educational institution; a daily activity for students.",
-          "To put on clothes; a morning routine activity after waking up.",
-          "To return to one's house or residence; an afternoon or evening activity."
+          "To look at television programs; an evening leisure activity. Builds on 'watch' from previous lessons.",
+          "To stop sleeping and become conscious; the first activity of the day. Used for daily morning routine."
         ],
         "correctIndex": 1
       },
@@ -14389,60 +14389,60 @@
         "type": "multiple_choice",
         "question": "What does \"o'clock\" mean?",
         "options": [
-          "Used to indicate exact hours on a clock, e.g., 3:00 is 'three o'clock'. It's a contraction of 'of the clock' and is used only for full hours.",
-          "During the nighttime, typically from evening until morning. Used as a time expression to specify when an activity happens, e.g., 'I sleep at night'.",
+          "Indicates 30 minutes past the hour, e.g., 3:30 is 'half past three'. In some regions, 'half three' means 3:30, but here we use 'half past' for clarity.",
           "Indicates 15 minutes past the hour, e.g., 3:15 is 'quarter past three'. 'Quarter' means one-fourth of an hour.",
-          "Indicates 30 minutes past the hour, e.g., 3:30 is 'half past three'. In some regions, 'half three' means 3:30, but here we use 'half past' for clarity."
+          "Indicates 15 minutes before the next hour, e.g., 2:45 is 'quarter to three'. It means there is a quarter of an hour left until the next hour.",
+          "Used to indicate exact hours on a clock, e.g., 3:00 is 'three o'clock'. It's a contraction of 'of the clock' and is used only for full hours."
         ],
-        "correctIndex": 0
+        "correctIndex": 3
       },
       {
         "id": "a1-u4-l2-vocab-2",
         "type": "multiple_choice",
         "question": "What does \"half past\" mean?",
         "options": [
+          "Used to indicate exact hours on a clock, e.g., 3:00 is 'three o'clock'. It's a contraction of 'of the clock' and is used only for full hours.",
           "Indicates 30 minutes past the hour, e.g., 3:30 is 'half past three'. In some regions, 'half three' means 3:30, but here we use 'half past' for clarity.",
-          "During the nighttime, typically from evening until morning. Used as a time expression to specify when an activity happens, e.g., 'I sleep at night'.",
-          "Indicates 15 minutes before the next hour, e.g., 2:45 is 'quarter to three'. It means there is a quarter of an hour left until the next hour.",
-          "Indicates 15 minutes past the hour, e.g., 3:15 is 'quarter past three'. 'Quarter' means one-fourth of an hour."
+          "Indicates 15 minutes past the hour, e.g., 3:15 is 'quarter past three'. 'Quarter' means one-fourth of an hour.",
+          "During the nighttime, typically from evening until morning. Used as a time expression to specify when an activity happens, e.g., 'I sleep at night'."
         ],
-        "correctIndex": 0
+        "correctIndex": 1
       },
       {
         "id": "a1-u4-l2-vocab-3",
         "type": "multiple_choice",
         "question": "What does \"quarter past\" mean?",
         "options": [
-          "Used to indicate exact hours on a clock, e.g., 3:00 is 'three o'clock'. It's a contraction of 'of the clock' and is used only for full hours.",
+          "Indicates 15 minutes before the next hour, e.g., 2:45 is 'quarter to three'. It means there is a quarter of an hour left until the next hour.",
           "During the nighttime, typically from evening until morning. Used as a time expression to specify when an activity happens, e.g., 'I sleep at night'.",
-          "Indicates 15 minutes past the hour, e.g., 3:15 is 'quarter past three'. 'Quarter' means one-fourth of an hour.",
-          "Indicates 30 minutes past the hour, e.g., 3:30 is 'half past three'. In some regions, 'half three' means 3:30, but here we use 'half past' for clarity."
+          "Indicates 30 minutes past the hour, e.g., 3:30 is 'half past three'. In some regions, 'half three' means 3:30, but here we use 'half past' for clarity.",
+          "Indicates 15 minutes past the hour, e.g., 3:15 is 'quarter past three'. 'Quarter' means one-fourth of an hour."
         ],
-        "correctIndex": 2
+        "correctIndex": 3
       },
       {
         "id": "a1-u4-l2-vocab-4",
         "type": "multiple_choice",
         "question": "What does \"quarter to\" mean?",
         "options": [
+          "During the nighttime, typically from evening until morning. Used as a time expression to specify when an activity happens, e.g., 'I sleep at night'.",
+          "Indicates 30 minutes past the hour, e.g., 3:30 is 'half past three'. In some regions, 'half three' means 3:30, but here we use 'half past' for clarity.",
           "Indicates 15 minutes before the next hour, e.g., 2:45 is 'quarter to three'. It means there is a quarter of an hour left until the next hour.",
-          "Used to indicate exact hours on a clock, e.g., 3:00 is 'three o'clock'. It's a contraction of 'of the clock' and is used only for full hours.",
-          "Indicates 15 minutes past the hour, e.g., 3:15 is 'quarter past three'. 'Quarter' means one-fourth of an hour.",
-          "During the nighttime, typically from evening until morning. Used as a time expression to specify when an activity happens, e.g., 'I sleep at night'."
+          "Used to indicate exact hours on a clock, e.g., 3:00 is 'three o'clock'. It's a contraction of 'of the clock' and is used only for full hours."
         ],
-        "correctIndex": 0
+        "correctIndex": 2
       },
       {
         "id": "a1-u4-l2-vocab-5",
         "type": "multiple_choice",
         "question": "What does \"at night\" mean?",
         "options": [
-          "During the nighttime, typically from evening until morning. Used as a time expression to specify when an activity happens, e.g., 'I sleep at night'.",
-          "Indicates 15 minutes before the next hour, e.g., 2:45 is 'quarter to three'. It means there is a quarter of an hour left until the next hour.",
+          "Used to indicate exact hours on a clock, e.g., 3:00 is 'three o'clock'. It's a contraction of 'of the clock' and is used only for full hours.",
           "Indicates 30 minutes past the hour, e.g., 3:30 is 'half past three'. In some regions, 'half three' means 3:30, but here we use 'half past' for clarity.",
-          "Indicates 15 minutes past the hour, e.g., 3:15 is 'quarter past three'. 'Quarter' means one-fourth of an hour."
+          "Indicates 15 minutes before the next hour, e.g., 2:45 is 'quarter to three'. It means there is a quarter of an hour left until the next hour.",
+          "During the nighttime, typically from evening until morning. Used as a time expression to specify when an activity happens, e.g., 'I sleep at night'."
         ],
-        "correctIndex": 0
+        "correctIndex": 3
       },
       {
         "id": "a1-u4-l2-fill-6",
@@ -14656,60 +14656,60 @@
         "type": "multiple_choice",
         "question": "What does \"read\" mean?",
         "options": [
-          "To spend time learning about a subject, often by reading, writing, or practicing. Typically done at school, university, or at home for homework.",
-          "To make something free from dirt, marks, or mess, such as by washing, wiping, or tidying. Often done at home or work.",
           "To look at and understand written words, such as in a book, newspaper, or on a screen. Often done for information or enjoyment.",
-          "To do physical activities to stay healthy and strong, such as running, swimming, or going to the gym. Can also refer to mental practice."
+          "To prepare food by heating it, such as by boiling, frying, or baking. Often done in a kitchen for meals.",
+          "To spend time learning about a subject, often by reading, writing, or practicing. Typically done at school, university, or at home for homework.",
+          "To make something free from dirt, marks, or mess, such as by washing, wiping, or tidying. Often done at home or work."
         ],
-        "correctIndex": 2
+        "correctIndex": 0
       },
       {
         "id": "a1-u4-l3-vocab-2",
         "type": "multiple_choice",
         "question": "What does \"study\" mean?",
         "options": [
+          "To do physical activities to stay healthy and strong, such as running, swimming, or going to the gym. Can also refer to mental practice.",
           "To look at and understand written words, such as in a book, newspaper, or on a screen. Often done for information or enjoyment.",
-          "To prepare food by heating it, such as by boiling, frying, or baking. Often done in a kitchen for meals.",
-          "To spend time learning about a subject, often by reading, writing, or practicing. Typically done at school, university, or at home for homework.",
-          "To make something free from dirt, marks, or mess, such as by washing, wiping, or tidying. Often done at home or work."
+          "To make something free from dirt, marks, or mess, such as by washing, wiping, or tidying. Often done at home or work.",
+          "To spend time learning about a subject, often by reading, writing, or practicing. Typically done at school, university, or at home for homework."
         ],
-        "correctIndex": 2
+        "correctIndex": 3
       },
       {
         "id": "a1-u4-l3-vocab-3",
         "type": "multiple_choice",
         "question": "What does \"exercise\" mean?",
         "options": [
-          "To do physical activities to stay healthy and strong, such as running, swimming, or going to the gym. Can also refer to mental practice.",
+          "To spend time learning about a subject, often by reading, writing, or practicing. Typically done at school, university, or at home for homework.",
+          "To look at and understand written words, such as in a book, newspaper, or on a screen. Often done for information or enjoyment.",
           "To make something free from dirt, marks, or mess, such as by washing, wiping, or tidying. Often done at home or work.",
-          "To prepare food by heating it, such as by boiling, frying, or baking. Often done in a kitchen for meals.",
-          "To look at and understand written words, such as in a book, newspaper, or on a screen. Often done for information or enjoyment."
+          "To do physical activities to stay healthy and strong, such as running, swimming, or going to the gym. Can also refer to mental practice."
         ],
-        "correctIndex": 0
+        "correctIndex": 3
       },
       {
         "id": "a1-u4-l3-vocab-4",
         "type": "multiple_choice",
         "question": "What does \"cook\" mean?",
         "options": [
-          "To make something free from dirt, marks, or mess, such as by washing, wiping, or tidying. Often done at home or work.",
-          "To spend time learning about a subject, often by reading, writing, or practicing. Typically done at school, university, or at home for homework.",
           "To look at and understand written words, such as in a book, newspaper, or on a screen. Often done for information or enjoyment.",
-          "To prepare food by heating it, such as by boiling, frying, or baking. Often done in a kitchen for meals."
+          "To prepare food by heating it, such as by boiling, frying, or baking. Often done in a kitchen for meals.",
+          "To make something free from dirt, marks, or mess, such as by washing, wiping, or tidying. Often done at home or work.",
+          "To spend time learning about a subject, often by reading, writing, or practicing. Typically done at school, university, or at home for homework."
         ],
-        "correctIndex": 3
+        "correctIndex": 1
       },
       {
         "id": "a1-u4-l3-vocab-5",
         "type": "multiple_choice",
         "question": "What does \"clean\" mean?",
         "options": [
-          "To make something free from dirt, marks, or mess, such as by washing, wiping, or tidying. Often done at home or work.",
-          "To prepare food by heating it, such as by boiling, frying, or baking. Often done in a kitchen for meals.",
           "To look at and understand written words, such as in a book, newspaper, or on a screen. Often done for information or enjoyment.",
+          "To make something free from dirt, marks, or mess, such as by washing, wiping, or tidying. Often done at home or work.",
+          "To spend time learning about a subject, often by reading, writing, or practicing. Typically done at school, university, or at home for homework.",
           "To do physical activities to stay healthy and strong, such as running, swimming, or going to the gym. Can also refer to mental practice."
         ],
-        "correctIndex": 0
+        "correctIndex": 1
       },
       {
         "id": "a1-u4-l3-fill-6",
@@ -14937,60 +14937,60 @@
         "type": "multiple_choice",
         "question": "What does \"on Monday\" mean?",
         "options": [
-          "To arrange to see and spend time with friends socially.",
-          "The period from Friday evening to Sunday night, typically for rest or leisure activities.",
+          "Used to specify an activity happening on the third day of the workweek.",
+          "Used to specify an activity happening on the first day of the workweek; note 'on' is used with days of the week.",
           "Used to specify an activity happening on the second day of the workweek.",
-          "Used to specify an activity happening on the first day of the workweek; note 'on' is used with days of the week."
+          "The activity of buying goods from stores; can be for groceries, clothes, etc."
         ],
-        "correctIndex": 3
+        "correctIndex": 1
       },
       {
         "id": "a1-u4-l4-vocab-2",
         "type": "multiple_choice",
         "question": "What does \"on Tuesday\" mean?",
         "options": [
-          "To rest and become calm, often after work or stress.",
-          "To arrange to see and spend time with friends socially.",
+          "Used to specify an activity happening on the first day of the workweek; note 'on' is used with days of the week.",
           "Used to specify an activity happening on the second day of the workweek.",
-          "Used to specify an activity happening on the first day of the workweek; note 'on' is used with days of the week."
+          "Used to specify an activity happening on the fifth day of the workweek.",
+          "Used to specify an activity happening on the third day of the workweek."
         ],
-        "correctIndex": 2
+        "correctIndex": 1
       },
       {
         "id": "a1-u4-l4-vocab-3",
         "type": "multiple_choice",
         "question": "What does \"on Wednesday\" mean?",
         "options": [
-          "Used to specify an activity happening on the second day of the workweek.",
-          "Used to specify an activity happening on the first day of the workweek; note 'on' is used with days of the week.",
-          "The period from Friday evening to Sunday night, typically for rest or leisure activities.",
-          "Used to specify an activity happening on the third day of the workweek."
+          "Used to specify an activity happening on the fifth day of the workweek.",
+          "Used to specify an activity happening on the third day of the workweek.",
+          "To rest and become calm, often after work or stress.",
+          "Used to specify an activity happening on the first day of the workweek; note 'on' is used with days of the week."
         ],
-        "correctIndex": 3
+        "correctIndex": 1
       },
       {
         "id": "a1-u4-l4-vocab-4",
         "type": "multiple_choice",
         "question": "What does \"on Thursday\" mean?",
         "options": [
-          "Used to specify an activity happening on the fourth day of the workweek.",
           "The activity of buying goods from stores; can be for groceries, clothes, etc.",
-          "Used to specify an activity happening on the third day of the workweek.",
-          "Used to specify an activity happening on the first day of the workweek; note 'on' is used with days of the week."
+          "Used to specify an activity happening on the first day of the workweek; note 'on' is used with days of the week.",
+          "Used to specify an activity happening on the second day of the workweek.",
+          "Used to specify an activity happening on the fourth day of the workweek."
         ],
-        "correctIndex": 0
+        "correctIndex": 3
       },
       {
         "id": "a1-u4-l4-vocab-5",
         "type": "multiple_choice",
         "question": "What does \"on Friday\" mean?",
         "options": [
+          "To arrange to see and spend time with friends socially.",
           "Used to specify an activity happening on the fifth day of the workweek.",
           "Used to specify an activity happening on the second day of the workweek.",
-          "Used to specify an activity happening on the fourth day of the workweek.",
-          "Used to specify an activity happening on the first day of the workweek; note 'on' is used with days of the week."
+          "Used to specify an activity happening on the third day of the workweek."
         ],
-        "correctIndex": 0
+        "correctIndex": 1
       },
       {
         "id": "a1-u4-l4-fill-6",
@@ -15163,60 +15163,60 @@
         "type": "multiple_choice",
         "question": "What does \"start\" mean?",
         "options": [
-          "Following in time or order; used to sequence events in a routine, e.g., 'After breakfast, I go to work.'",
           "To complete or end an activity; used in routines to show when an action stops, e.g., 'I finish school at 3 o'clock.'",
           "To begin an activity or process; often used with daily routines to indicate the beginning of an action, e.g., 'I start work at 9 o'clock.'",
-          "Used to indicate the next step in a sequence; helps connect actions in a routine, e.g., 'I wake up, then I eat breakfast.'"
+          "Earlier in time or order; used to sequence events in a routine, e.g., 'Before bed, I watch TV.'",
+          "Following in time or order; used to sequence events in a routine, e.g., 'After breakfast, I go to work.'"
         ],
-        "correctIndex": 2
+        "correctIndex": 1
       },
       {
         "id": "a1-u4-l5-vocab-2",
         "type": "multiple_choice",
         "question": "What does \"finish\" mean?",
         "options": [
-          "Following in time or order; used to sequence events in a routine, e.g., 'After breakfast, I go to work.'",
-          "Used to indicate the next step in a sequence; helps connect actions in a routine, e.g., 'I wake up, then I eat breakfast.'",
           "To complete or end an activity; used in routines to show when an action stops, e.g., 'I finish school at 3 o'clock.'",
-          "To begin an activity or process; often used with daily routines to indicate the beginning of an action, e.g., 'I start work at 9 o'clock.'"
+          "Earlier in time or order; used to sequence events in a routine, e.g., 'Before bed, I watch TV.'",
+          "Following in time or order; used to sequence events in a routine, e.g., 'After breakfast, I go to work.'",
+          "Used to indicate the next step in a sequence; helps connect actions in a routine, e.g., 'I wake up, then I eat breakfast.'"
         ],
-        "correctIndex": 2
+        "correctIndex": 0
       },
       {
         "id": "a1-u4-l5-vocab-3",
         "type": "multiple_choice",
         "question": "What does \"after\" mean?",
         "options": [
-          "Used to indicate the next step in a sequence; helps connect actions in a routine, e.g., 'I wake up, then I eat breakfast.'",
           "Earlier in time or order; used to sequence events in a routine, e.g., 'Before bed, I watch TV.'",
-          "Following in time or order; used to sequence events in a routine, e.g., 'After breakfast, I go to work.'",
-          "To complete or end an activity; used in routines to show when an action stops, e.g., 'I finish school at 3 o'clock.'"
+          "To begin an activity or process; often used with daily routines to indicate the beginning of an action, e.g., 'I start work at 9 o'clock.'",
+          "To complete or end an activity; used in routines to show when an action stops, e.g., 'I finish school at 3 o'clock.'",
+          "Following in time or order; used to sequence events in a routine, e.g., 'After breakfast, I go to work.'"
         ],
-        "correctIndex": 2
+        "correctIndex": 3
       },
       {
         "id": "a1-u4-l5-vocab-4",
         "type": "multiple_choice",
         "question": "What does \"before\" mean?",
         "options": [
-          "Following in time or order; used to sequence events in a routine, e.g., 'After breakfast, I go to work.'",
-          "To begin an activity or process; often used with daily routines to indicate the beginning of an action, e.g., 'I start work at 9 o'clock.'",
+          "Used to indicate the next step in a sequence; helps connect actions in a routine, e.g., 'I wake up, then I eat breakfast.'",
           "Earlier in time or order; used to sequence events in a routine, e.g., 'Before bed, I watch TV.'",
-          "Used to indicate the next step in a sequence; helps connect actions in a routine, e.g., 'I wake up, then I eat breakfast.'"
+          "To complete or end an activity; used in routines to show when an action stops, e.g., 'I finish school at 3 o'clock.'",
+          "Following in time or order; used to sequence events in a routine, e.g., 'After breakfast, I go to work.'"
         ],
-        "correctIndex": 2
+        "correctIndex": 1
       },
       {
         "id": "a1-u4-l5-vocab-5",
         "type": "multiple_choice",
         "question": "What does \"then\" mean?",
         "options": [
+          "Earlier in time or order; used to sequence events in a routine, e.g., 'Before bed, I watch TV.'",
           "To complete or end an activity; used in routines to show when an action stops, e.g., 'I finish school at 3 o'clock.'",
           "To begin an activity or process; often used with daily routines to indicate the beginning of an action, e.g., 'I start work at 9 o'clock.'",
-          "Used to indicate the next step in a sequence; helps connect actions in a routine, e.g., 'I wake up, then I eat breakfast.'",
-          "Earlier in time or order; used to sequence events in a routine, e.g., 'Before bed, I watch TV.'"
+          "Used to indicate the next step in a sequence; helps connect actions in a routine, e.g., 'I wake up, then I eat breakfast.'"
         ],
-        "correctIndex": 2
+        "correctIndex": 3
       },
       {
         "id": "a1-u4-l5-fill-6",
@@ -15383,22 +15383,22 @@
         "type": "multiple_choice",
         "question": "What does \"review\" mean?",
         "options": [
-          "To look at or study something again to remember or understand it better; often used in educational contexts to go over past material.",
-          "The process of making something stronger or more solid by combining or reinforcing it; in learning, it means practicing to remember and use knowledge better.",
+          "Involving communication or action between people or things; in learning, it means activities where students participate actively.",
           "An activity or task designed to practice or test a skill, such as in language learning; can refer to physical or mental practice.",
-          "A repeated or regular way in which something happens or is done; in grammar, it refers to the structure of sentences or phrases."
+          "The process of making something stronger or more solid by combining or reinforcing it; in learning, it means practicing to remember and use knowledge better.",
+          "To look at or study something again to remember or understand it better; often used in educational contexts to go over past material."
         ],
-        "correctIndex": 0
+        "correctIndex": 3
       },
       {
         "id": "a1-u6-l1-vocab-2",
         "type": "multiple_choice",
         "question": "What does \"consolidation\" mean?",
         "options": [
-          "Involving communication or action between people or things; in learning, it means activities where students participate actively.",
-          "The process of making something stronger or more solid by combining or reinforcing it; in learning, it means practicing to remember and use knowledge better.",
           "An activity or task designed to practice or test a skill, such as in language learning; can refer to physical or mental practice.",
-          "A repeated or regular way in which something happens or is done; in grammar, it refers to the structure of sentences or phrases."
+          "The process of making something stronger or more solid by combining or reinforcing it; in learning, it means practicing to remember and use knowledge better.",
+          "Involving communication or action between people or things; in learning, it means activities where students participate actively.",
+          "To look at or study something again to remember or understand it better; often used in educational contexts to go over past material."
         ],
         "correctIndex": 1
       },
@@ -15407,33 +15407,33 @@
         "type": "multiple_choice",
         "question": "What does \"exercise\" mean?",
         "options": [
-          "An activity or task designed to practice or test a skill, such as in language learning; can refer to physical or mental practice.",
-          "To look at or study something again to remember or understand it better; often used in educational contexts to go over past material.",
           "The process of making something stronger or more solid by combining or reinforcing it; in learning, it means practicing to remember and use knowledge better.",
-          "Involving communication or action between people or things; in learning, it means activities where students participate actively."
+          "An activity or task designed to practice or test a skill, such as in language learning; can refer to physical or mental practice.",
+          "A repeated or regular way in which something happens or is done; in grammar, it refers to the structure of sentences or phrases.",
+          "To look at or study something again to remember or understand it better; often used in educational contexts to go over past material."
         ],
-        "correctIndex": 0
+        "correctIndex": 1
       },
       {
         "id": "a1-u6-l1-vocab-4",
         "type": "multiple_choice",
         "question": "What does \"pattern\" mean?",
         "options": [
+          "To look at or study something again to remember or understand it better; often used in educational contexts to go over past material.",
+          "The process of making something stronger or more solid by combining or reinforcing it; in learning, it means practicing to remember and use knowledge better.",
           "An activity or task designed to practice or test a skill, such as in language learning; can refer to physical or mental practice.",
-          "Involving communication or action between people or things; in learning, it means activities where students participate actively.",
-          "A repeated or regular way in which something happens or is done; in grammar, it refers to the structure of sentences or phrases.",
-          "The process of making something stronger or more solid by combining or reinforcing it; in learning, it means practicing to remember and use knowledge better."
+          "A repeated or regular way in which something happens or is done; in grammar, it refers to the structure of sentences or phrases."
         ],
-        "correctIndex": 2
+        "correctIndex": 3
       },
       {
         "id": "a1-u6-l1-vocab-5",
         "type": "multiple_choice",
         "question": "What does \"interactive\" mean?",
         "options": [
-          "An activity or task designed to practice or test a skill, such as in language learning; can refer to physical or mental practice.",
-          "The process of making something stronger or more solid by combining or reinforcing it; in learning, it means practicing to remember and use knowledge better.",
           "A repeated or regular way in which something happens or is done; in grammar, it refers to the structure of sentences or phrases.",
+          "The process of making something stronger or more solid by combining or reinforcing it; in learning, it means practicing to remember and use knowledge better.",
+          "To look at or study something again to remember or understand it better; often used in educational contexts to go over past material.",
           "Involving communication or action between people or things; in learning, it means activities where students participate actively."
         ],
         "correctIndex": 3
@@ -15685,22 +15685,22 @@
         "type": "multiple_choice",
         "question": "What does \"listen\" mean?",
         "options": [
-          "To pay attention to sounds or speech, especially to understand or respond; used in contexts like following instructions or enjoying music.",
-          "A conversation between two or more people, often used in learning contexts to practice speaking and listening skills.",
+          "A piece of furniture with a flat top and legs, used for eating, working, or other activities.",
           "To grasp the meaning of something, such as words, instructions, or concepts; key for comprehension in listening and reading.",
-          "A described situation or set of circumstances, often used in exercises to practice language in context."
+          "A described situation or set of circumstances, often used in exercises to practice language in context.",
+          "To pay attention to sounds or speech, especially to understand or respond; used in contexts like following instructions or enjoying music."
         ],
-        "correctIndex": 0
+        "correctIndex": 3
       },
       {
         "id": "a1-u6-l2-vocab-2",
         "type": "multiple_choice",
         "question": "What does \"dialogue\" mean?",
         "options": [
-          "To look at something attentively, such as TV or a movie; used in leisure activities.",
+          "To pay attention to sounds or speech, especially to understand or respond; used in contexts like following instructions or enjoying music.",
           "A conversation between two or more people, often used in learning contexts to practice speaking and listening skills.",
-          "A described situation or set of circumstances, often used in exercises to practice language in context.",
-          "To pay attention to sounds or speech, especially to understand or respond; used in contexts like following instructions or enjoying music."
+          "A piece of furniture with a flat top and legs, used for eating, working, or other activities.",
+          "To rest in a state of unconsciousness; part of daily routine vocabulary."
         ],
         "correctIndex": 1
       },
@@ -15710,21 +15710,21 @@
         "question": "What does \"role-play\" mean?",
         "options": [
           "To rest in a state of unconsciousness; part of daily routine vocabulary.",
-          "A conversation between two or more people, often used in learning contexts to practice speaking and listening skills.",
-          "To pay attention to sounds or speech, especially to understand or respond; used in contexts like following instructions or enjoying music.",
-          "An activity where people act out specific roles or scenarios to practice language in a simulated real-world context."
+          "An activity where people act out specific roles or scenarios to practice language in a simulated real-world context.",
+          "A piece of furniture with a flat top and legs, used for eating, working, or other activities.",
+          "To grasp the meaning of something, such as words, instructions, or concepts; key for comprehension in listening and reading."
         ],
-        "correctIndex": 3
+        "correctIndex": 1
       },
       {
         "id": "a1-u6-l2-vocab-4",
         "type": "multiple_choice",
         "question": "What does \"scenario\" mean?",
         "options": [
-          "To consume food; a basic verb for daily routines and food topics.",
+          "A conversation between two or more people, often used in learning contexts to practice speaking and listening skills.",
           "A described situation or set of circumstances, often used in exercises to practice language in context.",
-          "An activity where people act out specific roles or scenarios to practice language in a simulated real-world context.",
-          "To rest in a state of unconsciousness; part of daily routine vocabulary."
+          "To pay attention to sounds or speech, especially to understand or respond; used in contexts like following instructions or enjoying music.",
+          "To look at something attentively, such as TV or a movie; used in leisure activities."
         ],
         "correctIndex": 1
       },
@@ -15733,9 +15733,9 @@
         "type": "multiple_choice",
         "question": "What does \"understand\" mean?",
         "options": [
-          "To pay attention to sounds or speech, especially to understand or respond; used in contexts like following instructions or enjoying music.",
-          "To look at something attentively, such as TV or a movie; used in leisure activities.",
-          "A conversation between two or more people, often used in learning contexts to practice speaking and listening skills.",
+          "A described situation or set of circumstances, often used in exercises to practice language in context.",
+          "To consume food; a basic verb for daily routines and food topics.",
+          "A piece of furniture with a flat top and legs, used for eating, working, or other activities.",
           "To grasp the meaning of something, such as words, instructions, or concepts; key for comprehension in listening and reading."
         ],
         "correctIndex": 3
@@ -15958,10 +15958,10 @@
         "type": "multiple_choice",
         "question": "What does \"home\" mean?",
         "options": [
+          "The first meal of the day, typically eaten in the morning; common foods include cereal, toast, eggs, or fruit.",
           "A part of a building enclosed by walls, floor, and ceiling, such as a bedroom, living room, or kitchen; used to describe specific areas within a home.",
-          "The early part of the day, from sunrise to noon; often associated with waking up and starting daily activities.",
           "The place where someone lives, such as a house or apartment; often used to refer to one's personal living space and family environment.",
-          "The period of time at the end of the day, typically from late afternoon to night; often associated with dinner and relaxation."
+          "The period of darkness between sunset and sunrise; often associated with sleeping or nighttime activities."
         ],
         "correctIndex": 2
       },
@@ -15970,22 +15970,22 @@
         "type": "multiple_choice",
         "question": "What does \"room\" mean?",
         "options": [
-          "The place where someone lives, such as a house or apartment; often used to refer to one's personal living space and family environment.",
-          "The period of time at the end of the day, typically from late afternoon to night; often associated with dinner and relaxation.",
-          "A part of a building enclosed by walls, floor, and ceiling, such as a bedroom, living room, or kitchen; used to describe specific areas within a home.",
-          "The first meal of the day, typically eaten in the morning; common foods include cereal, toast, eggs, or fruit."
+          "The period of darkness between sunset and sunrise; often associated with sleeping or nighttime activities.",
+          "To enjoy or have a positive feeling toward something or someone; used to express preferences.",
+          "The first meal of the day, typically eaten in the morning; common foods include cereal, toast, eggs, or fruit.",
+          "A part of a building enclosed by walls, floor, and ceiling, such as a bedroom, living room, or kitchen; used to describe specific areas within a home."
         ],
-        "correctIndex": 2
+        "correctIndex": 3
       },
       {
         "id": "a1-u6-l3-vocab-3",
         "type": "multiple_choice",
         "question": "What does \"breakfast\" mean?",
         "options": [
+          "The early part of the day, from sunrise to noon; often associated with waking up and starting daily activities.",
           "The period of darkness between sunset and sunrise; often associated with sleeping or nighttime activities.",
-          "The period of time at the end of the day, typically from late afternoon to night; often associated with dinner and relaxation.",
           "The first meal of the day, typically eaten in the morning; common foods include cereal, toast, eggs, or fruit.",
-          "The early part of the day, from sunrise to noon; often associated with waking up and starting daily activities."
+          "The period of time at the end of the day, typically from late afternoon to night; often associated with dinner and relaxation."
         ],
         "correctIndex": 2
       },
@@ -15994,22 +15994,22 @@
         "type": "multiple_choice",
         "question": "What does \"like\" mean?",
         "options": [
-          "To enjoy or have a positive feeling toward something or someone; used to express preferences.",
-          "The period of darkness between sunset and sunrise; often associated with sleeping or nighttime activities.",
+          "A part of a building enclosed by walls, floor, and ceiling, such as a bedroom, living room, or kitchen; used to describe specific areas within a home.",
           "The early part of the day, from sunrise to noon; often associated with waking up and starting daily activities.",
-          "The place where someone lives, such as a house or apartment; often used to refer to one's personal living space and family environment."
+          "To enjoy or have a positive feeling toward something or someone; used to express preferences.",
+          "The period of time at the end of the day, typically from late afternoon to night; often associated with dinner and relaxation."
         ],
-        "correctIndex": 0
+        "correctIndex": 2
       },
       {
         "id": "a1-u6-l3-vocab-5",
         "type": "multiple_choice",
         "question": "What does \"morning\" mean?",
         "options": [
-          "The first meal of the day, typically eaten in the morning; common foods include cereal, toast, eggs, or fruit.",
+          "A part of a building enclosed by walls, floor, and ceiling, such as a bedroom, living room, or kitchen; used to describe specific areas within a home.",
           "The early part of the day, from sunrise to noon; often associated with waking up and starting daily activities.",
           "The place where someone lives, such as a house or apartment; often used to refer to one's personal living space and family environment.",
-          "A part of a building enclosed by walls, floor, and ceiling, such as a bedroom, living room, or kitchen; used to describe specific areas within a home."
+          "The period of darkness between sunset and sunrise; often associated with sleeping or nighttime activities."
         ],
         "correctIndex": 1
       },
@@ -16175,48 +16175,48 @@
         "type": "multiple_choice",
         "question": "What does \"conversation\" mean?",
         "options": [
+          "A mistake, especially in language use, such as incorrect grammar, spelling, or pronunciation; important for learning and improving accuracy.",
           "To make or become better, such as in language skills like accuracy or fluency; involves learning from errors and practice.",
           "A talk between two or more people, often informal, where ideas or information are exchanged; used in social or daily contexts like chatting with friends or family.",
-          "To do an activity repeatedly to improve skill, such as speaking or writing in English; involves exercises and repetition.",
-          "A mistake, especially in language use, such as incorrect grammar, spelling, or pronunciation; important for learning and improving accuracy."
+          "To fix or make right a mistake, such as in language; can be used as a verb (to correct errors) or adjective (a correct answer)."
         ],
-        "correctIndex": 1
+        "correctIndex": 2
       },
       {
         "id": "a1-u6-l4-vocab-2",
         "type": "multiple_choice",
         "question": "What does \"error\" mean?",
         "options": [
-          "A mistake, especially in language use, such as incorrect grammar, spelling, or pronunciation; important for learning and improving accuracy.",
+          "To do an activity repeatedly to improve skill, such as speaking or writing in English; involves exercises and repetition.",
           "To make or become better, such as in language skills like accuracy or fluency; involves learning from errors and practice.",
-          "A talk between two or more people, often informal, where ideas or information are exchanged; used in social or daily contexts like chatting with friends or family.",
-          "To fix or make right a mistake, such as in language; can be used as a verb (to correct errors) or adjective (a correct answer)."
+          "To fix or make right a mistake, such as in language; can be used as a verb (to correct errors) or adjective (a correct answer).",
+          "A mistake, especially in language use, such as incorrect grammar, spelling, or pronunciation; important for learning and improving accuracy."
         ],
-        "correctIndex": 0
+        "correctIndex": 3
       },
       {
         "id": "a1-u6-l4-vocab-3",
         "type": "multiple_choice",
         "question": "What does \"correct\" mean?",
         "options": [
-          "To fix or make right a mistake, such as in language; can be used as a verb (to correct errors) or adjective (a correct answer).",
           "A mistake, especially in language use, such as incorrect grammar, spelling, or pronunciation; important for learning and improving accuracy.",
           "A talk between two or more people, often informal, where ideas or information are exchanged; used in social or daily contexts like chatting with friends or family.",
-          "To make or become better, such as in language skills like accuracy or fluency; involves learning from errors and practice."
+          "To make or become better, such as in language skills like accuracy or fluency; involves learning from errors and practice.",
+          "To fix or make right a mistake, such as in language; can be used as a verb (to correct errors) or adjective (a correct answer)."
         ],
-        "correctIndex": 0
+        "correctIndex": 3
       },
       {
         "id": "a1-u6-l4-vocab-4",
         "type": "multiple_choice",
         "question": "What does \"practice\" mean?",
         "options": [
-          "A talk between two or more people, often informal, where ideas or information are exchanged; used in social or daily contexts like chatting with friends or family.",
           "To fix or make right a mistake, such as in language; can be used as a verb (to correct errors) or adjective (a correct answer).",
-          "To make or become better, such as in language skills like accuracy or fluency; involves learning from errors and practice.",
-          "To do an activity repeatedly to improve skill, such as speaking or writing in English; involves exercises and repetition."
+          "A talk between two or more people, often informal, where ideas or information are exchanged; used in social or daily contexts like chatting with friends or family.",
+          "To do an activity repeatedly to improve skill, such as speaking or writing in English; involves exercises and repetition.",
+          "A mistake, especially in language use, such as incorrect grammar, spelling, or pronunciation; important for learning and improving accuracy."
         ],
-        "correctIndex": 3
+        "correctIndex": 2
       },
       {
         "id": "a1-u6-l4-vocab-5",
@@ -16225,8 +16225,8 @@
         "options": [
           "To do an activity repeatedly to improve skill, such as speaking or writing in English; involves exercises and repetition.",
           "To make or become better, such as in language skills like accuracy or fluency; involves learning from errors and practice.",
-          "A mistake, especially in language use, such as incorrect grammar, spelling, or pronunciation; important for learning and improving accuracy.",
-          "A talk between two or more people, often informal, where ideas or information are exchanged; used in social or daily contexts like chatting with friends or family."
+          "A talk between two or more people, often informal, where ideas or information are exchanged; used in social or daily contexts like chatting with friends or family.",
+          "To fix or make right a mistake, such as in language; can be used as a verb (to correct errors) or adjective (a correct answer)."
         ],
         "correctIndex": 1
       },
@@ -16375,33 +16375,33 @@
         "type": "multiple_choice",
         "question": "What does \"assessment\" mean?",
         "options": [
+          "To combine multiple elements or skills into a unified whole, such as mixing listening, speaking, reading, and writing in a task.",
           "Relating to actual situations or experiences outside of learning environments, emphasizing practical application.",
-          "A detailed evaluation or test to measure knowledge or skills, often used in educational contexts to check progress.",
-          "To combine multiple elements or skills into a unified whole, such as mixing listening, speaking, reading, and writing in a task."
+          "A detailed evaluation or test to measure knowledge or skills, often used in educational contexts to check progress."
         ],
-        "correctIndex": 1
+        "correctIndex": 2
       },
       {
         "id": "a1-u6-l5-vocab-2",
         "type": "multiple_choice",
         "question": "What does \"real-world\" mean?",
         "options": [
+          "A detailed evaluation or test to measure knowledge or skills, often used in educational contexts to check progress.",
           "To combine multiple elements or skills into a unified whole, such as mixing listening, speaking, reading, and writing in a task.",
-          "Relating to actual situations or experiences outside of learning environments, emphasizing practical application.",
-          "A detailed evaluation or test to measure knowledge or skills, often used in educational contexts to check progress."
+          "Relating to actual situations or experiences outside of learning environments, emphasizing practical application."
         ],
-        "correctIndex": 1
+        "correctIndex": 2
       },
       {
         "id": "a1-u6-l5-vocab-3",
         "type": "multiple_choice",
         "question": "What does \"integrate\" mean?",
         "options": [
-          "Relating to actual situations or experiences outside of learning environments, emphasizing practical application.",
           "A detailed evaluation or test to measure knowledge or skills, often used in educational contexts to check progress.",
-          "To combine multiple elements or skills into a unified whole, such as mixing listening, speaking, reading, and writing in a task."
+          "To combine multiple elements or skills into a unified whole, such as mixing listening, speaking, reading, and writing in a task.",
+          "Relating to actual situations or experiences outside of learning environments, emphasizing practical application."
         ],
-        "correctIndex": 2
+        "correctIndex": 1
       },
       {
         "id": "a1-u6-l5-fill-4",

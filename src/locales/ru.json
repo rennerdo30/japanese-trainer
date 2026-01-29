@@ -41,7 +41,13 @@
       "title": "Что-то пошло не так",
       "message": "Произошла непредвиденная ошибка. Попробуйте обновить страницу.",
       "tryAgain": "Попробовать снова"
-    }
+    },
+    "expand": "Развернуть",
+    "collapse": "Свернуть",
+    "minimize": "Свернуть",
+    "cancel": "Отмена",
+    "confirm": "Подтвердить",
+    "unknown": "Неизвестно"
   },
   "modules": {
     "alphabet": {
@@ -102,7 +108,10 @@
     "characterOf": "Символ {current} из {total}",
     "lessonComplete": "Урок завершён!",
     "nextLesson": "Следующий урок",
-    "selectLesson": "Выбрать урок"
+    "selectLesson": "Выбрать урок",
+    "previousCharacter": "Предыдущий символ",
+    "nextCharacter": "Следующий символ",
+    "characterName": "Название"
   },
   "vocabulary": {
     "practiceMode": "Режим Практики",
@@ -110,7 +119,29 @@
     "typeWord": "Введите японское слово...",
     "noWords": "Нет доступных слов.",
     "showHint": "Показать подсказку",
-    "hintShown": "Подсказка показана"
+    "hintShown": "Подсказка показана",
+    "tabs": {
+      "myCards": "Мои карточки",
+      "allVocabulary": "Весь словарь"
+    },
+    "stats": {
+      "wordsLearned": "Слов выучено",
+      "dueForReview": "К повторению",
+      "accuracy": "Точность"
+    },
+    "empty": {
+      "title": "Карточек пока нет",
+      "desc": "Проходите уроки, чтобы добавлять слова в колоду",
+      "goToLessons": "К урокам",
+      "unlock": "Измените фильтры или пройдите больше уроков",
+      "searchEmpty": "Слова не найдены",
+      "searchHint": "Попробуйте изменить поиск или фильтры"
+    },
+    "actions": {
+      "learnInLessons": "Изучить в уроках",
+      "learned": "Изучено"
+    },
+    "searchPlaceholder": "Поиск слов..."
   },
   "kanji": {
     "practiceMeaning": "Значение",
@@ -140,7 +171,30 @@
     "checkAnswer": "Проверить Ответ",
     "practice": "Практиковать",
     "noGrammar": "Нет доступной грамматики.",
-    "noExercises": "Нет доступных упражнений для этого грамматического пункта."
+    "noExercises": "Нет доступных упражнений для этого грамматического пункта.",
+    "tabs": {
+      "myGrammar": "Моя грамматика",
+      "allGrammar": "Вся грамматика"
+    },
+    "stats": {
+      "pointsLearned": "Изучено тем",
+      "mastered": "Освоено",
+      "accuracy": "Точность"
+    },
+    "empty": {
+      "title": "Грамматики пока нет",
+      "desc": "Проходите уроки, чтобы добавлять грамматику в колоду",
+      "goToLessons": "К урокам",
+      "unlock": "Пройдите уроки, чтобы открыть практику",
+      "searchEmpty": "Грамматика не найдена",
+      "searchHint": "Попробуйте изменить поиск или фильтры"
+    },
+    "actions": {
+      "review": "Повторить",
+      "learnInLessons": "Изучить в уроках",
+      "learned": "Изучено"
+    },
+    "searchPlaceholder": "Поиск грамматики..."
   },
   "reading": {
     "showFurigana": "Показать Фуригану",
@@ -151,7 +205,26 @@
     "vocabulary": "Словарь",
     "comprehensionQuestions": "Вопросы на Понимание",
     "textsRead": "Прочитанные Тексты",
-    "noReadings": "Нет доступных текстов."
+    "noReadings": "Нет доступных текстов.",
+    "tabs": {
+      "myReadings": "Мои тексты",
+      "allReadings": "Все тексты"
+    },
+    "empty": {
+      "title": "Текстов пока нет",
+      "desc": "Проходите уроки, чтобы добавить тексты в коллекцию",
+      "browse": "Все тексты",
+      "filterEmpty": "Нет текстов по данным фильтрам",
+      "searchEmpty": "Тексты не найдены",
+      "searchHint": "Попробуйте изменить поиск или фильтры"
+    },
+    "stats": {
+      "learned": "Изучено",
+      "total": "Всего текстов",
+      "comprehension": "Понимание"
+    },
+    "searchPlaceholder": "Поиск текстов...",
+    "viewLesson": "Смотреть урок"
   },
   "listening": {
     "playAudio": "Воспроизвести Аудио",
@@ -203,7 +276,13 @@
       "toLevel": "до уровня {level}",
       "learnedItemsInfo": "{learned} / {total} элементов изучено",
       "milestones": "Вехи",
-      "atMinutesPerDay": "При {count} мин/день"
+      "atMinutesPerDay": "При {count} мин/день",
+      "milestoneNames": {
+        "beginner": "Начинающий",
+        "intermediate": "Средний",
+        "advanced": "Продвинутый",
+        "master": "Мастер"
+      }
     },
     "library": {
       "viewAll": "Посмотреть все",
@@ -266,7 +345,8 @@
       "placeholder": "Поиск...",
       "clear": "Очистить поиск",
       "results": "{count} результатов"
-    }
+    },
+    "browseDescription": "Обзор и повторение всех учебных материалов"
   },
   "auth": {
     "signIn": "Войти",
@@ -322,11 +402,39 @@
         "xp": "Заработать XP",
         "lessons": "Завершить уроки",
         "time": "Время обучения"
+      },
+      "setTitle": "Установите ежедневную цель",
+      "setDescription": "Выберите, сколько вы хотите изучать каждый день",
+      "current": "Текущая",
+      "confirmChange": "Изменить ежедневную цель на {target} XP?",
+      "levels": {
+        "casual": "Обычный",
+        "regular": "Регулярный",
+        "serious": "Серьезный",
+        "intense": "Интенсивный"
+      },
+      "descriptions": {
+        "casual": "50 XP в день",
+        "regular": "100 XP в день",
+        "serious": "200 XP в день",
+        "intense": "300 XP в день"
       }
     },
     "streak": {
       "dayStreak": "Серия {count} дней",
-      "best": "Лучший: {count} дней"
+      "best": "Лучший: {count} дней",
+      "noStreak": "Нет серии",
+      "oneDay": "1 день",
+      "days": "{count} дней",
+      "messages": {
+        "startToday": "Начни серию сегодня!",
+        "greatStart": "Отличное начало! Продолжай!",
+        "buildingMomentum": "Набираем обороты!",
+        "onFire": "Ты в ударе!",
+        "incredibleDedication": "Потрясающее усердие!",
+        "legend": "Ты легенда!",
+        "unstoppable": "Неудержимый!"
+      }
     },
     "xp": {
       "today": "{xp} XP сегодня",
@@ -413,7 +521,10 @@
       "ifEnabled": "если включено",
       "autoLoaded": "автозагрузка",
       "englishOnly": "Только английский",
-      "priority3": "Синтез речи браузера (резервный)"
+      "priority3": "Синтез речи браузера (резервный)",
+      "loading": "Загрузка Kokoro TTS...",
+      "edgeTitle": "Голос Edge TTS ({language})",
+      "edgeDesc": "Нейронный голос Microsoft для {language} — высококачественный облачный TTS"
     },
     "appearance": {
       "title": "Внешний вид",
@@ -532,7 +643,8 @@
       "usageNotes": "Примечания по использованию",
       "hideExplanation": "Скрыть объяснение",
       "showExplanation": "Показать объяснение",
-      "iUnderstand": "Я понимаю"
+      "iUnderstand": "Я понимаю",
+      "formation": "Образование"
     },
     "character": {
       "strokeOrder": "Порядок черт",
@@ -563,6 +675,15 @@
       "pathComplete": "Путь завершён",
       "backToPath": "Назад к пути",
       "upNext": "Далее"
+    },
+    "loading": "Загрузка урока...",
+    "notFound": "Урок не найден",
+    "notFoundDescription": "Урок «{lessonId}» не найден.",
+    "backToPath": "Назад к обучению",
+    "locked": "Урок заблокирован",
+    "lockedDescription": "Пройдите предыдущие уроки, чтобы разблокировать этот.",
+    "exercise": {
+      "completeExercise": "Выполните упражнение"
     }
   },
   "exercises": {
@@ -686,6 +807,146 @@
         "okay": "Неплохо! Продолжайте практиковаться.",
         "needsWork": "Продолжайте! Практика делает мастера."
       }
-    }
+    },
+    "loading": "Загрузка повторений...",
+    "title": "Панель повторений",
+    "itemsDue": "{count} к повторению",
+    "endSessionEarly": "Завершить досрочно",
+    "urgency": {
+      "overdue": "Просрочено",
+      "dueToday": "На сегодня",
+      "upcoming": "Скоро",
+      "allClear": "Все пройдено"
+    },
+    "moduleSelection": "Выбор модуля",
+    "toggleModule": "Переключить модуль {module}, {count} к повторению",
+    "estimatedTime": "Время: {minutes} мин ({items} эл.)",
+    "startSession": "Начать повторение",
+    "noReviewsDue": "Нет карточек для повторения"
+  },
+  "learningCompanion": {
+    "title": "Учебный компаньон",
+    "open": "Открыть помощник обучения",
+    "overall": "Общий обзор",
+    "streak": "Серия",
+    "reviews": "Повторения",
+    "learned": "Изучено",
+    "overdueReviews": "Повторения просрочены!",
+    "reviewsDue": "Нужно повторить",
+    "reviewCount": "{count} элементов · ~{minutes} мин",
+    "nextUp": "Далее",
+    "suggestions": "Предложения",
+    "currentGoal": "Текущая цель",
+    "percentComplete": "{percent}% завершено",
+    "insight": "Инсайт",
+    "browsePaths": "Обзор путей",
+    "reviewNow": "Повторить сейчас"
+  },
+  "leaderboard": {
+    "title": "Таблица лидеров",
+    "subtitle": "Соревнуйтесь с учениками со всего мира",
+    "generating": "Генерация...",
+    "youBadge": "Вы",
+    "periods": {
+      "daily": "Сегодня",
+      "weekly": "На этой неделе",
+      "allTime": "За всё время"
+    },
+    "stats": {
+      "title": "Ваша статистика",
+      "studyTime": "Время обучения",
+      "accuracy": "Точность",
+      "streaks": "Серии",
+      "mastery": "Мастерство",
+      "total": "Всего",
+      "rank": "Ваш ранг",
+      "participants": "из {count} учеников",
+      "position": "Ваша позиция"
+    },
+    "empty": {
+      "daily": "Сегодня еще никто не занимался. Будьте первым!",
+      "weekly": "На этой неделе пока нет активности. Начните учиться!",
+      "allTime": "В таблице лидеров пока нет учеников.",
+      "loading": "Загрузка таблицы лидеров...",
+      "noEntries": "Записей пока нет"
+    },
+    "badges": {
+      "you": "Вы"
+    },
+    "global": "Глобальный"
+  },
+  "paths": {
+    "loading": "Загрузка путей...",
+    "title": "Пути обучения",
+    "subtitle": "Выберите свой путь к мастерству",
+    "filters": "Фильтры",
+    "filterType": "Тип",
+    "filterDifficulty": "Сложность",
+    "types": {
+      "all": "Все",
+      "linear": "Путь JLPT",
+      "topic": "Темы"
+    },
+    "difficulty": {
+      "all": "Все",
+      "beginner": "Начинающий",
+      "intermediate": "Средний",
+      "advanced": "Продвинутый"
+    },
+    "personalizedPath": "Персональный путь",
+    "aiRecommendations": "Рекомендации ИИ",
+    "tailoredToYou": "Адаптировано под ваш стиль обучения",
+    "minPerDay": "мин/день",
+    "newPerWeek": "новых/неделя",
+    "pace": "Темп",
+    "focusAreas": "Области внимания",
+    "startLearning": "Начать обучение",
+    "structuredPaths": "Структурированные пути",
+    "enrolled": "Вы записаны",
+    "topicTracks": "Тематические треки",
+    "percentComplete": "{percent}% завершено",
+    "requires": "Требуется: {item}",
+    "noPathsYet": "Путей обучения пока нет",
+    "noPathsDescription": "Пути обучения для этого языка скоро появятся. Сгенерируйте учебную программу в панели администратора, чтобы создать структурированные пути обучения.",
+    "noMatchingPaths": "Нет путей, соответствующих вашим фильтрам",
+    "clearFilters": "Сбросить фильтры",
+    "hours": "примерно {count}ч"
+  },
+  "contentGuard": {
+    "comingSoon": "Скоро",
+    "notAvailable": "Контент на языке {language} для этого модуля пока недоступен.",
+    "availableFor": "Этот модуль сейчас доступен для: {languages}. Мы работаем над добавлением новых!",
+    "noLanguages": "Языков пока нет"
+  },
+  "pathDetail": {
+    "loading": "Загрузка пути...",
+    "notFound": "Путь не найден",
+    "notFoundDescription": "Путь обучения, который вы ищете, не существует или еще не был сгенерирован.",
+    "backToPaths": "Назад к путям",
+    "estimated": "Ориентировочно",
+    "hoursValue": "{count}ч",
+    "complete": "Завершить",
+    "milestones": "Этапы",
+    "items": "Элементы",
+    "prerequisitesRequired": "Требуются предварительные условия",
+    "completeFirst": "Сначала завершите",
+    "continueLearning": "Продолжить обучение",
+    "unenroll": "Отписаться",
+    "startPath": "Начать путь",
+    "locked": "Заблокировано",
+    "milestonesDescription": "Проходите каждый этап, чтобы продвигаться по пути",
+    "startLesson": "Начать урок",
+    "reviewProgress": "Прогресс повторений",
+    "unlockMessage": "Завершите предыдущие уроки, чтобы разблокировать",
+    "completed": "Завершено",
+    "whatYoullLearn": "Чему вы научитесь",
+    "practicalItemsFor": "Практические задания для {name}",
+    "topics": "Темы"
+  },
+  "recommendations": {
+    "encouragement": "У вас отлично получается! Не стесняйтесь прикладывать больше усилий.",
+    "takingSlow": "Двигаемся не спеша, чтобы заложить прочный фундамент.",
+    "manyReviewsDue": "У вас много повторений — стоит разобрать очередь, прежде чем добавлять новые элементы.",
+    "focusOn": "На этой неделе уделите внимание {module} — {reason}."
   }
 }

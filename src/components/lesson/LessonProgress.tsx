@@ -7,7 +7,7 @@ import styles from './LessonProgress.module.css';
 interface LessonProgressProps {
   current: number;
   total: number;
-  phase: 'learning' | 'exercises';
+  phase: 'learning' | 'pronunciation' | 'exercises';
 }
 
 export default function LessonProgressBar({
@@ -22,7 +22,11 @@ export default function LessonProgressBar({
     <div className={styles.container}>
       <div className={styles.header}>
         <Text variant="label" color="muted" className={styles.phaseLabel}>
-          {phase === 'learning' ? t('lessons.view.learning') : t('lessons.view.practice')}
+          {phase === 'learning'
+            ? t('lessons.view.learning')
+            : phase === 'pronunciation'
+              ? t('lessons.view.pronunciation')
+              : t('lessons.view.practice')}
         </Text>
         <Text variant="caption" color="muted">
           {current} / {total}

@@ -900,7 +900,8 @@
     "noPathsYet": "No Learning Paths Yet",
     "noPathsDescription": "Learning paths for this language are coming soon. Generate curriculum in the admin panel to create structured learning paths.",
     "noMatchingPaths": "No paths match your filters",
-    "clearFilters": "Clear Filters"
+    "clearFilters": "Clear Filters",
+    "hours": "{count}h estimated"
   },
   "contentGuard": {
     "comingSoon": "Coming Soon",
@@ -914,6 +915,7 @@
     "notFoundDescription": "The learning path you're looking for doesn't exist or hasn't been generated yet.",
     "backToPaths": "Back to Paths",
     "estimated": "Estimated",
+    "hoursValue": "{count}h",
     "complete": "Complete",
     "milestones": "Milestones",
     "items": "Items",

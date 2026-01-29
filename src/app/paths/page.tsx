@@ -258,6 +258,11 @@ export default function PathsPage() {
                         <span className={styles.pathStat}>
                           <IoCheckmarkCircle /> {path.completedMilestones}/{path.totalMilestones}
                         </span>
+                        {path.estimatedHours && (
+                          <span className={styles.estimatedHours} aria-label={t('paths.hours', { count: Math.round(path.estimatedHours) })}>
+                            <IoTime /> {Math.round(path.estimatedHours)}h
+                          </span>
+                        )}
                       </div>
                     </div>
                     {enrolled && (
@@ -320,6 +325,11 @@ export default function PathsPage() {
                       >
                         {path.difficulty}
                       </span>
+                      {path.estimatedHours && (
+                        <span className={styles.estimatedHours} aria-label={t('paths.hours', { count: Math.round(path.estimatedHours) })}>
+                          <IoTime /> {Math.round(path.estimatedHours)}h
+                        </span>
+                      )}
                       {path.tags && path.tags.length > 0 && (
                         <div className={styles.topicTags}>
                           {path.tags.slice(0, 2).map((tag) => (

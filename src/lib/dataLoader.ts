@@ -10,6 +10,8 @@
  */
 
 import { VocabularyItem, GrammarItem } from '@/types';
+import { Assessment } from '@/types/assessment';
+import { PronunciationDrill } from '@/types/pronunciation';
 import { getAvailableLanguages, isLanguageAvailable, getDefaultLanguage } from './language';
 
 // Dynamic language validation using config
@@ -560,6 +562,8 @@ export function clearAllCaches(): void {
   lessonsCache.clear();
   curriculumCache.clear();
   learningPathsCache.clear();
+  assessmentsCache.clear();
+  pronunciationCache.clear();
 }
 
 // ============================================================================
@@ -688,6 +692,223 @@ export function isLearningPathsLoaded(lang: string): boolean {
 export function preloadLearningPathsData(lang: string): void {
   if (!learningPathsCache.has(lang) && !learningPathsLoadingPromises.has(lang)) {
     loadLearningPathsData(lang).catch(() => {
+      // Error already logged
+    });
+  }
+}
+
+// ============================================================================
+// ASSESSMENT DATA LOADING
+// ============================================================================
+
+// Cache for assessment data
+const assessmentsCache = new Map<string, Assessment[]>();
+const assessmentsLoadingPromises = new Map<string, Promise<Assessment[]>>();
+
+/**
+ * Load assessments data for a specific language.
+ * Fetches from public/data/{lang}/assessments.json via HTTP.
+ */
+export async function loadAssessmentsData(lang: string): Promise<Assessment[]> {
+  const fallbackLang = getFallbackLanguage();
+  if (!isValidLanguageCode(lang)) {
+    console.warn(`Unknown language code: ${lang}, falling back to '${fallbackLang}'`);
+    lang = fallbackLang;
+  }
+
+  if (assessmentsCache.has(lang)) {
+    return assessmentsCache.get(lang)!;
+  }
+
+  if (assessmentsLoadingPromises.has(lang)) {
+    return assessmentsLoadingPromises.get(lang)!;
+  }
+
+  const loadPromise = (async () => {
+    try {
+      const response = await fetch(`/data/${lang}/assessments.json`);
+      if (!response.ok) {
+        // No assessments for this language yet
+        return [];
+      }
+      const data = await response.json();
+      const assessments = Array.isArray(data) ? data : (data.assessments || []);
+      assessmentsCache.set(lang, assessments);
+      return assessments;
+    } catch (error) {
+      console.log(`Failed to load assessments for ${lang}:`, error);
+      return [];
+    } finally {
+      assessmentsLoadingPromises.delete(lang);
+    }
+  })();
+
+  assessmentsLoadingPromises.set(lang, loadPromise);
+  return loadPromise;
+}
+
+/**
+ * Get a specific assessment by ID.
+ */
+export async function getAssessmentById(lang: string, assessmentId: string): Promise<Assessment | null> {
+  const assessments = await loadAssessmentsData(lang);
+  return assessments.find(a => a.id === assessmentId) || null;
+}
+
+/**
+ * Get placement test for a language.
+ */
+export async function getPlacementTest(lang: string): Promise<Assessment | null> {
+  const assessments = await loadAssessmentsData(lang);
+  return assessments.find(a => a.type === 'placement') || null;
+}
+
+/**
+ * Get checkpoint assessments for a specific level.
+ */
+export async function getCheckpointAssessments(lang: string, level?: string): Promise<Assessment[]> {
+  const assessments = await loadAssessmentsData(lang);
+  const checkpoints = assessments.filter(a => a.type === 'checkpoint');
+  if (level) {
+    return checkpoints.filter(a => a.targetLevel === level);
+  }
+  return checkpoints;
+}
+
+/**
+ * Get mastery tests for a specific level.
+ */
+export async function getMasteryTests(lang: string, level?: string): Promise<Assessment[]> {
+  const assessments = await loadAssessmentsData(lang);
+  const masteryTests = assessments.filter(a => a.type === 'mastery');
+  if (level) {
+    return masteryTests.filter(a => a.targetLevel === level);
+  }
+  return masteryTests;
+}
+
+/**
+ * Check if assessments are loaded for a language.
+ */
+export function isAssessmentsLoaded(lang: string): boolean {
+  return assessmentsCache.has(lang);
+}
+
+/**
+ * Preload assessments data for a language.
+ */
+export function preloadAssessmentsData(lang: string): void {
+  if (!assessmentsCache.has(lang) && !assessmentsLoadingPromises.has(lang)) {
+    loadAssessmentsData(lang).catch(() => {
+      // Error already logged
+    });
+  }
+}
+
+// ============================================================================
+// PRONUNCIATION DATA LOADING
+// ============================================================================
+
+// Cache for pronunciation data
+const pronunciationCache = new Map<string, PronunciationDrill[]>();
+const pronunciationLoadingPromises = new Map<string, Promise<PronunciationDrill[]>>();
+
+/**
+ * Load pronunciation drills for a specific language.
+ * Fetches from public/data/{lang}/pronunciation.json via HTTP.
+ */
+export async function loadPronunciationData(lang: string): Promise<PronunciationDrill[]> {
+  const fallbackLang = getFallbackLanguage();
+  if (!isValidLanguageCode(lang)) {
+    console.warn(`Unknown language code: ${lang}, falling back to '${fallbackLang}'`);
+    lang = fallbackLang;
+  }
+
+  if (pronunciationCache.has(lang)) {
+    return pronunciationCache.get(lang)!;
+  }
+
+  if (pronunciationLoadingPromises.has(lang)) {
+    return pronunciationLoadingPromises.get(lang)!;
+  }
+
+  const loadPromise = (async () => {
+    try {
+      const response = await fetch(`/data/${lang}/pronunciation.json`);
+      if (!response.ok) {
+        // No pronunciation drills for this language yet
+        return [];
+      }
+      const data = await response.json();
+      const drills = Array.isArray(data) ? data : (data.drills || []);
+      pronunciationCache.set(lang, drills);
+      return drills;
+    } catch (error) {
+      console.log(`Failed to load pronunciation drills for ${lang}:`, error);
+      return [];
+    } finally {
+      pronunciationLoadingPromises.delete(lang);
+    }
+  })();
+
+  pronunciationLoadingPromises.set(lang, loadPromise);
+  return loadPromise;
+}
+
+/**
+ * Get pronunciation drill by ID.
+ */
+export async function getPronunciationDrillById(lang: string, drillId: string): Promise<PronunciationDrill | null> {
+  const drills = await loadPronunciationData(lang);
+  return drills.find(d => d.id === drillId) || null;
+}
+
+/**
+ * Get pronunciation drills by type.
+ */
+export async function getPronunciationDrillsByType(
+  lang: string,
+  type: PronunciationDrill['type']
+): Promise<PronunciationDrill[]> {
+  const drills = await loadPronunciationData(lang);
+  return drills.filter(d => d.type === type);
+}
+
+/**
+ * Get pronunciation drills by level.
+ */
+export async function getPronunciationDrillsByLevel(
+  lang: string,
+  level: string
+): Promise<PronunciationDrill[]> {
+  const drills = await loadPronunciationData(lang);
+  return drills.filter(d => d.level === level);
+}
+
+/**
+ * Get pronunciation drills by difficulty.
+ */
+export async function getPronunciationDrillsByDifficulty(
+  lang: string,
+  difficulty: PronunciationDrill['difficulty']
+): Promise<PronunciationDrill[]> {
+  const drills = await loadPronunciationData(lang);
+  return drills.filter(d => d.difficulty === difficulty);
+}
+
+/**
+ * Check if pronunciation data is loaded for a language.
+ */
+export function isPronunciationLoaded(lang: string): boolean {
+  return pronunciationCache.has(lang);
+}
+
+/**
+ * Preload pronunciation data for a language.
+ */
+export function preloadPronunciationData(lang: string): void {
+  if (!pronunciationCache.has(lang) && !pronunciationLoadingPromises.has(lang)) {
+    loadPronunciationData(lang).catch(() => {
       // Error already logged
     });
   }

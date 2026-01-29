@@ -89,7 +89,12 @@ export default function VocabularyLesson({
 
       <div className={`${styles.meaningSection} ${showMeaning ? styles.visible : styles.hidden}`}>
         {partOfSpeech && (
-          <Text variant="caption" color="muted" className={styles.partOfSpeech}>
+          <Text
+            variant="caption"
+            color="muted"
+            className={styles.partOfSpeech}
+            aria-label={`Part of speech: ${partOfSpeech}`}
+          >
             {partOfSpeech}
           </Text>
         )}

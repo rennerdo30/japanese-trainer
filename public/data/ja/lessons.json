@@ -20,7 +20,9 @@
     "grammar_ids": null,
     "character_ids": null,
     "reading_ids": null,
-    "listening_ids": null
+    "listening_ids": null,
+    "recycling_requirements": null,
+    "interleaving_metadata": null
   },
   {
     "id": 13,
@@ -41,7 +43,9 @@
     "grammar_ids": null,
     "character_ids": null,
     "reading_ids": null,
-    "listening_ids": null
+    "listening_ids": null,
+    "recycling_requirements": null,
+    "interleaving_metadata": null
   },
   {
     "id": 11,
@@ -64,7 +68,9 @@
     "grammar_ids": null,
     "character_ids": null,
     "reading_ids": null,
-    "listening_ids": null
+    "listening_ids": null,
+    "recycling_requirements": null,
+    "interleaving_metadata": null
   },
   {
     "id": 12,
@@ -87,7 +93,9 @@
     "grammar_ids": null,
     "character_ids": null,
     "reading_ids": null,
-    "listening_ids": null
+    "listening_ids": null,
+    "recycling_requirements": null,
+    "interleaving_metadata": null
   },
   {
     "id": 6,
@@ -110,7 +118,9 @@
     "grammar_ids": null,
     "character_ids": null,
     "reading_ids": null,
-    "listening_ids": null
+    "listening_ids": null,
+    "recycling_requirements": null,
+    "interleaving_metadata": null
   },
   {
     "id": 15,
@@ -133,7 +143,9 @@
     "grammar_ids": null,
     "character_ids": null,
     "reading_ids": null,
-    "listening_ids": null
+    "listening_ids": null,
+    "recycling_requirements": null,
+    "interleaving_metadata": null
   },
   {
     "id": 2,
@@ -156,7 +168,9 @@
     "grammar_ids": null,
     "character_ids": null,
     "reading_ids": null,
-    "listening_ids": null
+    "listening_ids": null,
+    "recycling_requirements": null,
+    "interleaving_metadata": null
   },
   {
     "id": 7,
@@ -179,7 +193,9 @@
     "grammar_ids": null,
     "character_ids": null,
     "reading_ids": null,
-    "listening_ids": null
+    "listening_ids": null,
+    "recycling_requirements": null,
+    "interleaving_metadata": null
   },
   {
     "id": 5,
@@ -202,7 +218,9 @@
     "grammar_ids": null,
     "character_ids": null,
     "reading_ids": null,
-    "listening_ids": null
+    "listening_ids": null,
+    "recycling_requirements": null,
+    "interleaving_metadata": null
   },
   {
     "id": 9,
@@ -225,7 +243,9 @@
     "grammar_ids": null,
     "character_ids": null,
     "reading_ids": null,
-    "listening_ids": null
+    "listening_ids": null,
+    "recycling_requirements": null,
+    "interleaving_metadata": null
   },
   {
     "id": 3,
@@ -248,7 +268,9 @@
     "grammar_ids": null,
     "character_ids": null,
     "reading_ids": null,
-    "listening_ids": null
+    "listening_ids": null,
+    "recycling_requirements": null,
+    "interleaving_metadata": null
   },
   {
     "id": 4,
@@ -271,7 +293,9 @@
     "grammar_ids": null,
     "character_ids": null,
     "reading_ids": null,
-    "listening_ids": null
+    "listening_ids": null,
+    "recycling_requirements": null,
+    "interleaving_metadata": null
   },
   {
     "id": 1,
@@ -294,7 +318,9 @@
     "grammar_ids": null,
     "character_ids": null,
     "reading_ids": null,
-    "listening_ids": null
+    "listening_ids": null,
+    "recycling_requirements": null,
+    "interleaving_metadata": null
   },
   {
     "id": 10,
@@ -315,7 +341,9 @@
     "grammar_ids": null,
     "character_ids": null,
     "reading_ids": null,
-    "listening_ids": null
+    "listening_ids": null,
+    "recycling_requirements": null,
+    "interleaving_metadata": null
   },
   {
     "id": 8,
@@ -336,7 +364,9 @@
     "grammar_ids": null,
     "character_ids": null,
     "reading_ids": null,
-    "listening_ids": null
+    "listening_ids": null,
+    "recycling_requirements": null,
+    "interleaving_metadata": null
   },
   {
     "id": 18,
@@ -357,7 +387,9 @@
     "grammar_ids": null,
     "character_ids": null,
     "reading_ids": null,
-    "listening_ids": null
+    "listening_ids": null,
+    "recycling_requirements": null,
+    "interleaving_metadata": null
   },
   {
     "id": 20,
@@ -378,7 +410,9 @@
     "grammar_ids": null,
     "character_ids": null,
     "reading_ids": null,
-    "listening_ids": null
+    "listening_ids": null,
+    "recycling_requirements": null,
+    "interleaving_metadata": null
   },
   {
     "id": 16,
@@ -399,7 +433,9 @@
     "grammar_ids": null,
     "character_ids": null,
     "reading_ids": null,
-    "listening_ids": null
+    "listening_ids": null,
+    "recycling_requirements": null,
+    "interleaving_metadata": null
   },
   {
     "id": 21,
@@ -420,7 +456,9 @@
     "grammar_ids": null,
     "character_ids": null,
     "reading_ids": null,
-    "listening_ids": null
+    "listening_ids": null,
+    "recycling_requirements": null,
+    "interleaving_metadata": null
   },
   {
     "id": 19,
@@ -441,7 +479,9 @@
     "grammar_ids": null,
     "character_ids": null,
     "reading_ids": null,
-    "listening_ids": null
+    "listening_ids": null,
+    "recycling_requirements": null,
+    "interleaving_metadata": null
   },
   {
     "id": 22,
@@ -462,7 +502,9 @@
     "grammar_ids": null,
     "character_ids": null,
     "reading_ids": null,
-    "listening_ids": null
+    "listening_ids": null,
+    "recycling_requirements": null,
+    "interleaving_metadata": null
   },
   {
     "id": 17,
@@ -483,7 +525,9 @@
     "grammar_ids": null,
     "character_ids": null,
     "reading_ids": null,
-    "listening_ids": null
+    "listening_ids": null,
+    "recycling_requirements": null,
+    "interleaving_metadata": null
   },
   {
     "id": 23,
@@ -513,6 +557,8 @@
     "grammar_ids": null,
     "character_ids": null,
     "reading_ids": null,
-    "listening_ids": null
+    "listening_ids": null,
+    "recycling_requirements": null,
+    "interleaving_metadata": null
   }
 ]

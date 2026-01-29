@@ -1,0 +1,203 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  background: var(--background, #0a0a0a);
+}
+
+.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  min-height: 50vh;
+}
+
+.spinner {
+  width: 48px;
+  height: 48px;
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  border-top-color: var(--accent-blue, #4A90D9);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.loading p {
+  color: var(--text-secondary, #888);
+  font-size: 0.875rem;
+}
+
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.error h2 {
+  color: var(--danger, #ef4444);
+}
+
+.error button {
+  padding: 0.75rem 1.5rem;
+  background: var(--accent-blue, #4A90D9);
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Intro Phase */
+.intro {
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  text-align: center;
+}
+
+.introIcon {
+  font-size: 4rem;
+  margin-bottom: 0.5rem;
+}
+
+.intro h1 {
+  font-size: 2rem;
+  color: var(--text-primary, #fff);
+  margin: 0;
+}
+
+.introText {
+  font-size: 1.125rem;
+  color: var(--text-secondary, #888);
+  margin: 0;
+  max-width: 400px;
+}
+
+.infoCards {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.infoCard {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  min-width: 160px;
+}
+
+.infoIcon {
+  font-size: 1.5rem;
+}
+
+.infoCard div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.infoCard strong {
+  color: var(--text-primary, #fff);
+  font-size: 0.875rem;
+}
+
+.infoCard span {
+  color: var(--text-tertiary, #666);
+  font-size: 0.75rem;
+}
+
+.instructions {
+  width: 100%;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+  text-align: left;
+}
+
+.instructions h3 {
+  margin: 0 0 1rem;
+  color: var(--text-primary, #fff);
+  font-size: 1rem;
+}
+
+.instructions ol {
+  margin: 0;
+  padding-left: 1.25rem;
+  color: var(--text-secondary, #888);
+}
+
+.instructions li {
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.instructions li:last-child {
+  margin-bottom: 0;
+}
+
+.startButton {
+  padding: 1rem 2.5rem;
+  background: linear-gradient(135deg, var(--accent-blue, #4A90D9), var(--accent-purple, #A855F7));
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 20px rgba(74, 144, 217, 0.3);
+}
+
+.startButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(74, 144, 217, 0.4);
+}
+
+.skipButton {
+  padding: 0.75rem 1.5rem;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  color: var(--text-secondary, #888);
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.skipButton:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-primary, #fff);
+}
+
+/* Mobile responsive */
+@media (max-width: 480px) {
+  .intro h1 {
+    font-size: 1.5rem;
+  }
+
+  .infoCards {
+    flex-direction: column;
+  }
+
+  .infoCard {
+    width: 100%;
+  }
+}

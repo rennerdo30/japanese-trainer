@@ -9,7 +9,9 @@ import type { MultipleChoiceExercise } from '@/types/exercises';
 import styles from './MultipleChoice.module.css';
 
 interface MultipleChoiceProps {
-  exercise: MultipleChoiceExercise;
+  exercise: MultipleChoiceExercise & {
+    wrongAnswerExplanations?: Record<string, string>;
+  };
   onAnswer: (isCorrect: boolean) => void;
 }
 
@@ -127,11 +129,23 @@ export default function MultipleChoice({ exercise, onAnswer }: MultipleChoicePro
         })}
       </div>
 
-      {feedback && exercise.explanation && (
+      {feedback && (
         <div className={styles.explanation}>
-          <Text variant="caption" color="muted">
-            {exercise.explanation}
-          </Text>
+          {/* Show wrong answer explanation if incorrect */}
+          {feedback === 'incorrect' && selectedIndex !== null && exercise.wrongAnswerExplanations && (
+            <div className={styles.wrongExplanation}>
+              <Text variant="caption" className={styles.wrongText}>
+                {exercise.wrongAnswerExplanations[String(selectedIndex)] ||
+                  t('exercises.common.incorrectTryAgain')}
+              </Text>
+            </div>
+          )}
+          {/* Show correct explanation */}
+          {exercise.explanation && (
+            <Text variant="caption" color="muted">
+              {exercise.explanation}
+            </Text>
+          )}
         </div>
       )}
 

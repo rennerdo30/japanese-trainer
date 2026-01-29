@@ -41,7 +41,13 @@
       "title": "कुछ गलत हो गया",
       "message": "एक अप्रत्याशित त्रुटि हुई। कृपया पृष्ठ को ताज़ा करने का प्रयास करें।",
       "tryAgain": "फिर से प्रयास करें"
-    }
+    },
+    "expand": "विस्तार करें",
+    "collapse": "छोटा करें",
+    "minimize": "न्यूनतम करें",
+    "cancel": "रद्द करें",
+    "confirm": "पुष्टि करें",
+    "unknown": "अज्ञात"
   },
   "modules": {
     "alphabet": {
@@ -102,7 +108,10 @@
     "characterOf": "{total} में से {current} वर्ण",
     "lessonComplete": "पाठ पूरा!",
     "nextLesson": "अगला पाठ",
-    "selectLesson": "पाठ चुनें"
+    "selectLesson": "पाठ चुनें",
+    "previousCharacter": "पिछला अक्षर",
+    "nextCharacter": "अगला अक्षर",
+    "characterName": "नाम"
   },
   "vocabulary": {
     "practiceMode": "अभ्यास मोड",
@@ -110,7 +119,29 @@
     "typeWord": "जापानी शब्द टाइप करें...",
     "noWords": "कोई शब्द उपलब्ध नहीं है।",
     "showHint": "संकेत दिखाएं",
-    "hintShown": "संकेत दिखाया गया"
+    "hintShown": "संकेत दिखाया गया",
+    "tabs": {
+      "myCards": "मेरे कार्ड",
+      "allVocabulary": "संपूर्ण शब्दावली"
+    },
+    "stats": {
+      "wordsLearned": "सीखे गए शब्द",
+      "dueForReview": "समीक्षा के लिए देय",
+      "accuracy": "सटीकता"
+    },
+    "empty": {
+      "title": "अभी तक कोई शब्दावली कार्ड नहीं है",
+      "desc": "अपने डेक में शब्दावली जोड़ने के लिए पाठ पूरे करें",
+      "goToLessons": "पाठ पर जाएं",
+      "unlock": "अपने स्तर के फ़िल्टर को समायोजित करें या अधिक पाठ पूरे करें",
+      "searchEmpty": "कोई शब्दावली नहीं मिली",
+      "searchHint": "अपनी खोज या फ़िल्टर को समायोजित करने का प्रयास करें"
+    },
+    "actions": {
+      "learnInLessons": "पाठ में सीखें",
+      "learned": "सीखा गया"
+    },
+    "searchPlaceholder": "शब्दावली खोजें..."
   },
   "kanji": {
     "practiceMeaning": "अर्थ",
@@ -140,7 +171,30 @@
     "checkAnswer": "उत्तर जांचें",
     "practice": "अभ्यास",
     "noGrammar": "कोई व्याकरण उपलब्ध नहीं है।",
-    "noExercises": "इस व्याकरण बिंदु के लिए कोई अभ्यास उपलब्ध नहीं है।"
+    "noExercises": "इस व्याकरण बिंदु के लिए कोई अभ्यास उपलब्ध नहीं है।",
+    "tabs": {
+      "myGrammar": "मेरा व्याकरण",
+      "allGrammar": "संपूर्ण व्याकरण"
+    },
+    "stats": {
+      "pointsLearned": "सीखे गए बिंदु",
+      "mastered": "महारत हासिल की",
+      "accuracy": "सटीकता"
+    },
+    "empty": {
+      "title": "अभी तक कोई व्याकरण कार्ड नहीं है",
+      "desc": "अपने डेक में व्याकरण जोड़ने के लिए पाठ पूरे करें",
+      "goToLessons": "पाठ पर जाएं",
+      "unlock": "व्याकरण अभ्यास अनलॉक करने के लिए और पाठ पूरे करें",
+      "searchEmpty": "कोई व्याकरण नहीं मिला",
+      "searchHint": "अपनी खोज या फ़िल्टर को समायोजित करने का प्रयास करें"
+    },
+    "actions": {
+      "review": "समीक्षा करें",
+      "learnInLessons": "पाठ में सीखें",
+      "learned": "सीखा गया"
+    },
+    "searchPlaceholder": "व्याकरण खोजें..."
   },
   "reading": {
     "showFurigana": "फुरिगाना दिखाएं",
@@ -151,7 +205,26 @@
     "vocabulary": "शब्दावली",
     "comprehensionQuestions": "समझ के प्रश्न",
     "textsRead": "पढ़े गए पाठ",
-    "noReadings": "कोई पाठ उपलब्ध नहीं है।"
+    "noReadings": "कोई पाठ उपलब्ध नहीं है।",
+    "tabs": {
+      "myReadings": "मेरे पठन",
+      "allReadings": "संपूर्ण पठन"
+    },
+    "empty": {
+      "title": "अभी तक कोई पठन सामग्री नहीं है",
+      "desc": "अपने संग्रह में पठन सामग्री जोड़ने के लिए पाठ पूरे करें",
+      "browse": "सभी पठन सामग्री ब्राउज़ करें",
+      "filterEmpty": "मौजूदा फ़िल्टर से कोई पठन सामग्री मेल नहीं खाती।",
+      "searchEmpty": "कोई पठन सामग्री नहीं मिली",
+      "searchHint": "अपनी खोज या फ़िल्टर को समायोजित करने का प्रयास करें"
+    },
+    "stats": {
+      "learned": "सीखा गया",
+      "total": "कुल पठन",
+      "comprehension": "समझ"
+    },
+    "searchPlaceholder": "पठन सामग्री खोजें...",
+    "viewLesson": "पाठ देखें"
   },
   "listening": {
     "playAudio": "ऑडियो चलाएं",
@@ -203,7 +276,13 @@
       "toLevel": "{level} तक",
       "learnedItemsInfo": "{learned} / {total} आइटम सीखे गए",
       "milestones": "मील के पत्थर",
-      "atMinutesPerDay": "{count} मिनट/दिन पर"
+      "atMinutesPerDay": "{count} मिनट/दिन पर",
+      "milestoneNames": {
+        "beginner": "शुरुआती",
+        "intermediate": "मध्यवर्ती",
+        "advanced": "उन्नत",
+        "master": "विशेषज्ञ"
+      }
     },
     "library": {
       "viewAll": "सभी देखें",
@@ -266,7 +345,8 @@
       "placeholder": "खोजें...",
       "clear": "खोज साफ़ करें",
       "results": "{count} परिणाम"
-    }
+    },
+    "browseDescription": "सभी शिक्षण सामग्रियों को ब्राउज़ और समीक्षा करें"
   },
   "auth": {
     "signIn": "साइन इन करें",
@@ -322,11 +402,39 @@
         "xp": "XP कमाएं",
         "lessons": "पाठ पूरा करें",
         "time": "अध्ययन समय"
+      },
+      "setTitle": "अपना दैनिक लक्ष्य निर्धारित करें",
+      "setDescription": "चुनें कि आप प्रत्येक दिन कितना सीखना चाहते हैं",
+      "current": "वर्तमान",
+      "confirmChange": "अपना दैनिक लक्ष्य बदलकर {target} XP करें?",
+      "levels": {
+        "casual": "कैज़ुअल",
+        "regular": "नियमित",
+        "serious": "गंभीर",
+        "intense": "तीव्र"
+      },
+      "descriptions": {
+        "casual": "50 XP प्रति दिन",
+        "regular": "100 XP प्रति दिन",
+        "serious": "200 XP प्रति दिन",
+        "intense": "300 XP प्रति दिन"
       }
     },
     "streak": {
       "dayStreak": "{count} दिन की श्रृंखला",
-      "best": "सर्वश्रेष्ठ: {count} दिन"
+      "best": "सर्वश्रेष्ठ: {count} दिन",
+      "noStreak": "कोई स्ट्रैक नहीं",
+      "oneDay": "1 दिन",
+      "days": "{count} दिन",
+      "messages": {
+        "startToday": "आज ही अपनी स्ट्रैक शुरू करें!",
+        "greatStart": "शानदार शुरुआत! इसे जारी रखें!",
+        "buildingMomentum": "रफ़्तार बन रही है!",
+        "onFire": "आप कमाल कर रहे हैं!",
+        "incredibleDedication": "अतुलनीय समर्पण!",
+        "legend": "आप लाजवाब हैं!",
+        "unstoppable": "अजेय!"
+      }
     },
     "xp": {
       "today": "आज {xp} XP",
@@ -413,7 +521,10 @@
       "ifEnabled": "यदि सक्षम",
       "autoLoaded": "स्वचालित रूप से लोड",
       "englishOnly": "केवल अंग्रेज़ी",
-      "priority3": "ब्राउज़र स्पीच सिंथेसिस (फ़ॉलबैक)"
+      "priority3": "ब्राउज़र स्पीच सिंथेसिस (फ़ॉलबैक)",
+      "loading": "Kokoro TTS लोड हो रहा है...",
+      "edgeTitle": "Edge TTS आवाज़ ({language})",
+      "edgeDesc": "{language} के लिए Microsoft न्यूरल आवाज़ - उच्च गुणवत्ता वाला क्लाउड TTS बैकअप"
     },
     "appearance": {
       "title": "दिखावट",
@@ -532,7 +643,8 @@
       "usageNotes": "उपयोग नोट्स",
       "hideExplanation": "स्पष्टीकरण छिपाएं",
       "showExplanation": "स्पष्टीकरण दिखाएं",
-      "iUnderstand": "मैं समझ गया"
+      "iUnderstand": "मैं समझ गया",
+      "formation": "गठन"
     },
     "character": {
       "strokeOrder": "स्ट्रोक क्रम",
@@ -563,6 +675,15 @@
       "pathComplete": "पथ पूरा",
       "backToPath": "पथ पर वापस जाएं",
       "upNext": "आगे क्या है"
+    },
+    "loading": "पाठ लोड हो रहा है...",
+    "notFound": "पाठ नहीं मिला",
+    "notFoundDescription": "पाठ \"{lessonId}\" नहीं मिल सका।",
+    "backToPath": "पथ पर वापस जाएं",
+    "locked": "पाठ लॉक है",
+    "lockedDescription": "इसे अनलॉक करने के लिए पिछले पाठ पूरे करें।",
+    "exercise": {
+      "completeExercise": "अभ्यास पूरा करें"
     }
   },
   "exercises": {
@@ -686,6 +807,146 @@
         "okay": "बुरा नहीं! अभ्यास जारी रखें।",
         "needsWork": "जारी रखें! अभ्यास परिपूर्ण बनाता है।"
       }
-    }
+    },
+    "loading": "समीक्षाएँ लोड हो रही हैं...",
+    "title": "समीक्षा डैशबोर्ड",
+    "itemsDue": "{count} आइटम शेष",
+    "endSessionEarly": "सत्र जल्दी समाप्त करें",
+    "urgency": {
+      "overdue": "विलंबित",
+      "dueToday": "आज देय",
+      "upcoming": "आने वाला",
+      "allClear": "सब साफ़"
+    },
+    "moduleSelection": "मॉड्यूल चयन",
+    "toggleModule": "{module} मॉड्यूल टॉगल करें, {count} आइटम शेष",
+    "estimatedTime": "अनुमानित समय: {minutes} मिनट ({items} आइटम)",
+    "startSession": "समीक्षा सत्र शुरू करें",
+    "noReviewsDue": "कोई समीक्षा देय नहीं"
+  },
+  "learningCompanion": {
+    "title": "लर्निंग कंपैनियन",
+    "open": "Learning Companion खोलें",
+    "overall": "कुल मिलाकर",
+    "streak": "स्ट्रीक",
+    "reviews": "रिव्यू",
+    "learned": "सीखा",
+    "overdueReviews": "बकाया रिव्यू!",
+    "reviewsDue": "रिव्यू बाकी",
+    "reviewCount": "{count} आइटम · ~{minutes} मिनट",
+    "nextUp": "अगला",
+    "suggestions": "सुझाव",
+    "currentGoal": "वर्तमान लक्ष्य",
+    "percentComplete": "{percent}% पूर्ण",
+    "insight": "इन्साइट",
+    "browsePaths": "पाथ ब्राउज़ करें",
+    "reviewNow": "अभी रिव्यू करें"
+  },
+  "leaderboard": {
+    "title": "लीडरबोर्ड",
+    "subtitle": "दुनिया भर के शिक्षार्थियों के साथ प्रतिस्पर्धा करें",
+    "generating": "जेनरेट हो रहा है...",
+    "youBadge": "आप",
+    "periods": {
+      "daily": "आज",
+      "weekly": "इस सप्ताह",
+      "allTime": "अब तक"
+    },
+    "stats": {
+      "title": "आपके आँकड़े",
+      "studyTime": "अध्ययन समय",
+      "accuracy": "सटीकता",
+      "streaks": "स्ट्रीक्स",
+      "mastery": "महारत",
+      "total": "कुल",
+      "rank": "आपकी रैंक",
+      "participants": "{count} शिक्षार्थियों में से",
+      "position": "आपकी स्थिति"
+    },
+    "empty": {
+      "daily": "आज अभी तक किसी ने अध्ययन नहीं किया है। पहले बनें!",
+      "weekly": "इस सप्ताह अभी तक कोई गतिविधि नहीं। सीखना शुरू करें!",
+      "allTime": "लीडरबोर्ड पर अभी तक कोई शिक्षार्थी नहीं है।",
+      "loading": "लीडरबोर्ड लोड हो रहा है...",
+      "noEntries": "अभी कोई प्रविष्टि नहीं"
+    },
+    "badges": {
+      "you": "आप"
+    },
+    "global": "ग्लोबल"
+  },
+  "paths": {
+    "loading": "पाथ लोड हो रहे हैं...",
+    "title": "लर्निंग पाथ",
+    "subtitle": "महारत हासिल करने के लिए अपनी यात्रा चुनें",
+    "filters": "फ़िल्टर",
+    "filterType": "प्रकार",
+    "filterDifficulty": "कठिनाई",
+    "types": {
+      "all": "सभी",
+      "linear": "JLPT पाथ",
+      "topic": "विषय"
+    },
+    "difficulty": {
+      "all": "सभी",
+      "beginner": "शुरुआती",
+      "intermediate": "मध्यम",
+      "advanced": "उन्नत"
+    },
+    "personalizedPath": "व्यक्तिगत पाथ",
+    "aiRecommendations": "AI सिफारिशें",
+    "tailoredToYou": "आपकी सीखने की शैली के अनुरूप",
+    "minPerDay": "मिनट/दिन",
+    "newPerWeek": "नया/सप्ताह",
+    "pace": "गति",
+    "focusAreas": "फोकस क्षेत्र",
+    "startLearning": "सीखना शुरू करें",
+    "structuredPaths": "संरचित पाथ",
+    "enrolled": "नामांकित",
+    "topicTracks": "विषय ट्रैक",
+    "percentComplete": "{percent}% पूर्ण",
+    "requires": "आवश्यकता है: {item}",
+    "noPathsYet": "अभी कोई लर्निंग पाथ नहीं",
+    "noPathsDescription": "इस भाषा के लिए लर्निंग पाथ जल्द ही आ रहे हैं। संरचित लर्निंग पाथ बनाने के लिए एडमिन पैनल में पाठ्यक्रम जेनरेट करें।",
+    "noMatchingPaths": "आपकी फ़िल्टर से कोई पाथ मेल नहीं खाता",
+    "clearFilters": "फ़िल्टर साफ़ करें",
+    "hours": "अनुमानित {count} घंटे"
+  },
+  "contentGuard": {
+    "comingSoon": "जल्द आ रहा है",
+    "notAvailable": "इस मॉड्यूल के लिए {language} सामग्री अभी उपलब्ध नहीं है।",
+    "availableFor": "यह मॉड्यूल वर्तमान में {languages} के लिए उपलब्ध है। हम और जोड़ने पर काम कर रहे हैं!",
+    "noLanguages": "अभी कोई भाषा नहीं"
+  },
+  "pathDetail": {
+    "loading": "पाथ लोड हो रहा है...",
+    "notFound": "पाथ नहीं मिला",
+    "notFoundDescription": "जिस लर्निंग पाथ को आप ढूंढ रहे हैं वह मौजूद नहीं है या अभी तक जेनरेट नहीं किया गया है।",
+    "backToPaths": "वापस पाथ पर जाएं",
+    "estimated": "अनुमानित",
+    "hoursValue": "{count} घंटे",
+    "complete": "पूर्ण",
+    "milestones": "माइलस्टोन",
+    "items": "आइटम",
+    "prerequisitesRequired": "पूर्वापेक्षाएँ आवश्यक",
+    "completeFirst": "पहले पूरा करें",
+    "continueLearning": "सीखना जारी रखें",
+    "unenroll": "नामांकन रद्द करें",
+    "startPath": "पाथ शुरू करें",
+    "locked": "लॉक है",
+    "milestonesDescription": "पाथ में आगे बढ़ने के लिए प्रत्येक माइलस्टोन को पूरा करें",
+    "startLesson": "पाठ शुरू करें",
+    "reviewProgress": "प्रगति की समीक्षा करें",
+    "unlockMessage": "अनलॉक करने के लिए पिछले पाठ पूरे करें",
+    "completed": "पूरा किया",
+    "whatYoullLearn": "आप क्या सीखेंगे",
+    "practicalItemsFor": "{name} के लिए व्यावहारिक आइटम",
+    "topics": "विषय"
+  },
+  "recommendations": {
+    "encouragement": "आप बहुत अच्छा कर रहे हैं! बेझिझक और मेहनत करें।",
+    "takingSlow": "मजबूत नींव बनाने के लिए धीरे-धीरे आगे बढ़ रहे हैं।",
+    "manyReviewsDue": "आपके पास कई रिव्यू बाकी हैं - नई सामग्री जोड़ने से पहले अपनी रिव्यू कतार खाली करने पर विचार करें।",
+    "focusOn": "इस सप्ताह {module} पर ध्यान दें - {reason}।"
   }
 }

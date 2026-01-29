@@ -1,8 +1,11 @@
 export { default as ExerciseContainer } from './ExerciseContainer';
 export { default as FillBlank } from './FillBlank';
 export { default as Listening } from './Listening';
+export { default as ListenRepeat } from './ListenRepeat';
 export { default as Matching } from './Matching';
+export { default as MinimalPair } from './MinimalPair';
 export { default as MultipleChoice } from './MultipleChoice';
+export { default as Shadowing } from './Shadowing';
 export { default as StrokeOrder } from './StrokeOrder';
 export { default as Translation } from './Translation';
 export { default as Typing } from './Typing';

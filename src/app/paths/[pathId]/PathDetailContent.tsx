@@ -214,7 +214,7 @@ export default function PathDetailContent() {
         <div className={styles.stat}>
           <IoTime className={styles.statIcon} />
           <div className={styles.statContent}>
-            <Text variant="h3">{pathData.estimatedHours || 0}h</Text>
+            <Text variant="h3">{t('pathDetail.hoursValue', { count: Math.round(pathData.estimatedHours || 0) })}</Text>
             <Text variant="label" color="muted">{t('pathDetail.estimated')}</Text>
           </div>
         </div>
@@ -323,7 +323,7 @@ export default function PathDetailContent() {
                       <div className={styles.milestoneMeta}>
                         <span className={styles.milestoneLevel}>{milestone.level}</span>
                         <span className={styles.milestoneTime}>
-                          <IoTime /> {milestone.estimatedHours}h
+                          <IoTime /> {Math.round(milestone.estimatedHours)}h
                         </span>
                       </div>
                     </div>

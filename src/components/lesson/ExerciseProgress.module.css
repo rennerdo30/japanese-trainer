@@ -1,0 +1,196 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+}
+
+.progressBarContainer {
+  height: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.progressBar {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent-blue, #4A90D9), var(--accent-green, #4ADE80));
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.progressInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.progressText {
+  font-size: 0.875rem;
+  color: var(--text-primary, #fff);
+  font-weight: 500;
+}
+
+.accuracyText {
+  font-size: 0.75rem;
+  color: var(--text-secondary, #888);
+}
+
+.detailedProgress {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.levelIndicator {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.levelLabel {
+  font-size: 0.75rem;
+  color: var(--text-tertiary, #666);
+}
+
+.levelBadge {
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.levelBadge.recognition {
+  background: rgba(59, 130, 246, 0.2);
+  color: #60a5fa;
+}
+
+.levelBadge.supported {
+  background: rgba(34, 197, 94, 0.2);
+  color: #4ade80;
+}
+
+.levelBadge.guided {
+  background: rgba(234, 179, 8, 0.2);
+  color: #facc15;
+}
+
+.levelBadge.independent {
+  background: rgba(168, 85, 247, 0.2);
+  color: #a855f7;
+}
+
+.levelDescription {
+  font-size: 0.75rem;
+  color: var(--text-tertiary, #666);
+  font-style: italic;
+}
+
+.skillIndicator {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.skillIcon {
+  font-size: 1rem;
+}
+
+.skillLabel {
+  font-size: 0.75rem;
+  color: var(--text-secondary, #888);
+}
+
+.cognitiveProgress {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  margin-top: 0.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.cognitiveStep {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  flex: 1;
+  position: relative;
+}
+
+.cognitiveStep:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: 50%;
+  width: 100%;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.1);
+  z-index: 0;
+}
+
+.cognitiveStep.completed:not(:last-child)::after {
+  background: var(--accent-green, #4ADE80);
+}
+
+.stepDot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  z-index: 1;
+  transition: all 0.2s ease;
+}
+
+.cognitiveStep.active .stepDot {
+  background: var(--accent-blue, #4A90D9);
+  border-color: var(--accent-blue, #4A90D9);
+  box-shadow: 0 0 8px rgba(74, 144, 217, 0.5);
+}
+
+.cognitiveStep.completed .stepDot {
+  background: var(--accent-green, #4ADE80);
+  border-color: var(--accent-green, #4ADE80);
+}
+
+.stepLabel {
+  font-size: 0.625rem;
+  color: var(--text-tertiary, #666);
+  text-align: center;
+}
+
+.cognitiveStep.active .stepLabel {
+  color: var(--text-primary, #fff);
+  font-weight: 500;
+}
+
+.cognitiveStep.completed .stepLabel {
+  color: var(--accent-green, #4ADE80);
+}
+
+/* Mobile responsive */
+@media (max-width: 480px) {
+  .detailedProgress {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+
+  .levelDescription {
+    display: none;
+  }
+
+  .cognitiveProgress {
+    gap: 0.25rem;
+  }
+
+  .stepLabel {
+    font-size: 0.5rem;
+  }
+}

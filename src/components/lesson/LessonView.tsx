@@ -5,17 +5,18 @@ import { Card, Text, Button } from '@/components/ui';
 import LessonIntro from './LessonIntro';
 import LessonCard from './LessonCard';
 import LessonProgressBar from './LessonProgress';
-import { FillBlank } from '@/components/exercises';
+import { FillBlank, Shadowing, MinimalPair, ListenRepeat } from '@/components/exercises';
 import { useTTS } from '@/hooks/useTTS';
 import { useContentTranslation } from '@/hooks/useContentTranslation';
 import { getVocabularyData, getGrammarData } from '@/lib/dataLoader';
 import { useTargetLanguage } from '@/hooks/useTargetLanguage';
-import type { CurriculumLesson, LessonContext } from '@/types/curriculum';
+import type { CurriculumLesson, LessonContext, LessonVocabItem, LessonGrammarItem } from '@/types/curriculum';
 import type { FillBlankExercise } from '@/types/exercises';
-import { IoArrowBack, IoArrowForward, IoCheckmark } from 'react-icons/io5';
+import type { PronunciationDrill, ShadowingContent, MinimalPairContent, ListenRepeatContent } from '@/types/pronunciation';
+import { IoArrowBack, IoArrowForward, IoCheckmark, IoMic } from 'react-icons/io5';
 import styles from './LessonView.module.css';
 
-type LessonPhase = 'intro' | 'learning' | 'exercises';
+type LessonPhase = 'intro' | 'learning' | 'pronunciation' | 'exercises';
 
 import { useLanguage } from '@/context/LanguageProvider';
 
@@ -25,6 +26,7 @@ interface LessonViewProps {
   phase: string;
   onStart: () => void;
   onCompleteLearning: () => void;
+  onCompletePronunciation?: () => void;
   onCompleteExercises: (correct: number, total: number) => void;
   onBack: () => void;
 }
@@ -39,6 +41,8 @@ interface LearningCard {
   formation?: string;
   reading?: string;
   translation?: string;
+  partOfSpeech?: string;
+  level?: string;
 }
 
 export default function LessonView({
@@ -47,11 +51,13 @@ export default function LessonView({
   phase,
   onStart,
   onCompleteLearning,
+  onCompletePronunciation,
   onCompleteExercises,
   onBack,
 }: LessonViewProps) {
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
   const [exerciseAnswers, setExerciseAnswers] = useState<boolean[]>([]);
+  const [currentPronunciationIndex, setCurrentPronunciationIndex] = useState(0);
   const { preloadBatch } = useTTS();
   const { targetLanguage } = useTargetLanguage();
   const { t } = useLanguage();
@@ -93,9 +99,10 @@ export default function LessonView({
     ...lesson.content.vocab_focus.map((vocab) => {
       // Check if vocab is an object with meaning (new format) or string (legacy)
       const isObject = typeof vocab === 'object' && vocab !== null;
-      const word = isObject ? vocab.word : vocab;
-      const meaning = isObject ? vocab.meaning : undefined;
-      const usageNote = isObject ? vocab.usageNote : undefined;
+      const vocabItem = isObject ? vocab as LessonVocabItem : null;
+      const word = vocabItem ? vocabItem.word : (vocab as string);
+      const meaning = vocabItem?.meaning;
+      const usageNote = vocabItem?.usageNote;
 
       // Find vocabulary item in data (for audio URL and translated meanings)
       const item = vocabularyData.find(
@@ -113,16 +120,19 @@ export default function LessonView({
         meaning: displayMeaning,
         audioUrl: item?.audioUrl,
         usageNote,
+        partOfSpeech: vocabItem?.partOfSpeech ?? item?.part_of_speech,
+        level: vocabItem?.level ?? item?.level,
       };
     }),
     // Grammar focus - handle both string[] and object[] formats
     ...(lesson.content.grammar_focus || []).map((grammar) => {
       // Check if grammar is an object with meaning (new format) or string (legacy)
       const isObject = typeof grammar === 'object' && grammar !== null;
-      const pattern = isObject ? grammar.pattern : grammar;
-      const meaning = isObject ? grammar.meaning : undefined;
-      const formation = isObject ? grammar.formation : undefined;
-      const usageNotes = isObject ? grammar.usageNotes : undefined;
+      const grammarObj = isObject ? grammar as LessonGrammarItem : null;
+      const pattern = grammarObj ? grammarObj.pattern : (grammar as string);
+      const meaning = grammarObj?.meaning;
+      const formation = grammarObj?.formation;
+      const usageNotes = grammarObj?.usageNotes;
 
       // Look up grammar in grammarData for translated explanations
       const grammarItem = grammarData.find(
@@ -140,6 +150,7 @@ export default function LessonView({
         meaning: displayMeaning,
         formation,
         usageNote: usageNotes,
+        level: grammarObj?.level ?? grammarItem?.level,
       };
     }),
     // Cultural notes
@@ -281,6 +292,8 @@ export default function LessonView({
               formation={currentCard.formation}
               reading={currentCard.reading}
               translation={currentCard.translation}
+              partOfSpeech={currentCard.partOfSpeech}
+              level={currentCard.level}
             />
           ) : (
             <Text color="muted">{t('lessons.view.noContent')}</Text>
@@ -311,6 +324,115 @@ export default function LessonView({
               </>
             )}
           </Button>
+        </div>
+      </div>
+    );
+  }
+
+  // Render pronunciation phase
+  if (phase === 'pronunciation') {
+    // Get pronunciation drills from lesson content (if available)
+    const pronunciationDrills: PronunciationDrill[] = (lesson as unknown as { pronunciationDrills?: PronunciationDrill[] }).pronunciationDrills || [];
+    const currentDrill = pronunciationDrills[currentPronunciationIndex];
+
+    const handlePronunciationComplete = () => {
+      if (currentPronunciationIndex < pronunciationDrills.length - 1) {
+        setCurrentPronunciationIndex(currentPronunciationIndex + 1);
+      } else {
+        setCurrentPronunciationIndex(0);
+        onCompletePronunciation?.();
+      }
+    };
+
+    const handleSkipPronunciation = () => {
+      onCompletePronunciation?.();
+    };
+
+    if (!currentDrill || pronunciationDrills.length === 0) {
+      // No pronunciation drills, skip to exercises
+      return (
+        <div className={styles.lessonContainer}>
+          <Card variant="glass" className={styles.cardContainer}>
+            <div className={styles.noPronunciationSection}>
+              <IoMic size={48} className={styles.pronunciationIcon} />
+              <Text variant="h3">{t('lessons.pronunciation.noDrills')}</Text>
+              <Text color="muted">{t('lessons.pronunciation.noDrillsDesc')}</Text>
+              <Button onClick={handleSkipPronunciation}>
+                {t('lessons.pronunciation.continueToExercises')} <IoArrowForward />
+              </Button>
+            </div>
+          </Card>
+        </div>
+      );
+    }
+
+    // Render pronunciation drill based on type
+    const renderPronunciationDrill = () => {
+      switch (currentDrill.type) {
+        case 'shadowing':
+          const shadowingContent = currentDrill.content as ShadowingContent;
+          return (
+            <Shadowing
+              content={shadowingContent}
+              onComplete={handlePronunciationComplete}
+            />
+          );
+        case 'minimal_pair':
+          const minimalPairContent = currentDrill.content as MinimalPairContent;
+          return (
+            <MinimalPair
+              pairs={minimalPairContent.pairs}
+              onComplete={handlePronunciationComplete}
+            />
+          );
+        case 'listen_repeat':
+          const listenRepeatContent = currentDrill.content as ListenRepeatContent;
+          return (
+            <ListenRepeat
+              phrases={listenRepeatContent.phrases}
+              repeatCount={listenRepeatContent.repeatCount}
+              onComplete={handlePronunciationComplete}
+            />
+          );
+        default:
+          return (
+            <Text color="muted">
+              {t('lessons.pronunciation.unknownDrillType')}
+            </Text>
+          );
+      }
+    };
+
+    return (
+      <div className={styles.lessonContainer}>
+        <LessonProgressBar
+          current={currentPronunciationIndex + 1}
+          total={pronunciationDrills.length}
+          phase="pronunciation"
+        />
+
+        <Card variant="glass" className={styles.cardContainer}>
+          <div className={styles.pronunciationHeader}>
+            <IoMic className={styles.pronunciationIcon} />
+            <Text variant="h3">{currentDrill.title}</Text>
+            {currentDrill.description && (
+              <Text variant="body" color="muted">{currentDrill.description}</Text>
+            )}
+          </div>
+          {renderPronunciationDrill()}
+        </Card>
+
+        <div className={styles.navigation}>
+          <Button
+            variant="ghost"
+            onClick={handleSkipPronunciation}
+          >
+            {t('lessons.pronunciation.skip')}
+          </Button>
+
+          <Text variant="caption" color="muted">
+            {currentPronunciationIndex + 1} / {pronunciationDrills.length}
+          </Text>
         </div>
       </div>
     );

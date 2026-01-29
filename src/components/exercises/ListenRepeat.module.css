@@ -1,0 +1,259 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem;
+  min-height: 350px;
+}
+
+.progressContainer {
+  position: relative;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progressBar {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent-green, #4ADE80), var(--accent-blue, #4A90D9));
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.progressText {
+  position: absolute;
+  right: 0;
+  top: 12px;
+  font-size: 0.75rem;
+  color: var(--text-secondary, #888);
+}
+
+.repeatCounter {
+  text-align: center;
+  font-size: 0.875rem;
+  color: var(--text-secondary, #888);
+  padding: 0.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+}
+
+.phraseDisplay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  padding: 2rem 1rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+}
+
+.readyState,
+.playingState,
+.countdownState,
+.repeatState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.instruction {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--text-secondary, #888);
+}
+
+.playButton {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--accent-green, #4ADE80), var(--accent-blue, #4A90D9));
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 20px rgba(74, 222, 128, 0.3);
+}
+
+.playButton:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 24px rgba(74, 222, 128, 0.4);
+}
+
+.audioIcon {
+  font-size: 3rem;
+  animation: pulse 1s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.1); opacity: 0.8; }
+}
+
+.countdownNumber {
+  font-size: 4rem;
+  font-weight: bold;
+  color: var(--accent-blue, #4A90D9);
+  animation: countdown 1s ease-in-out infinite;
+}
+
+@keyframes countdown {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+.micIcon {
+  font-size: 3rem;
+  color: var(--accent-green, #4ADE80);
+  animation: micPulse 0.5s ease-in-out infinite;
+}
+
+@keyframes micPulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.phraseText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.targetText {
+  font-size: 1.5rem;
+  color: var(--text-primary, #fff);
+  font-weight: 500;
+}
+
+.reading {
+  font-size: 1rem;
+  color: var(--text-secondary, #888);
+}
+
+.translation {
+  font-size: 0.875rem;
+  color: var(--text-tertiary, #666);
+  font-style: italic;
+}
+
+.repeatControls {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.replayButton,
+.doneButton {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.replayButton {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text-primary, #fff);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.replayButton:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.doneButton {
+  background: var(--accent-green, #4ADE80);
+  color: #000;
+}
+
+.doneButton:hover {
+  background: #22c55e;
+  transform: translateY(-2px);
+}
+
+.toggleText {
+  align-self: center;
+  padding: 0.5rem 1rem;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  color: var(--text-secondary, #888);
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.toggleText:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-primary, #fff);
+}
+
+.earlyText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.75rem 1rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+}
+
+.complete {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.completeIcon {
+  font-size: 4rem;
+}
+
+.complete h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: var(--text-primary, #fff);
+}
+
+.complete p {
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--text-secondary, #888);
+}
+
+.restartButton {
+  padding: 0.75rem 1.5rem;
+  background: var(--accent-blue, #4A90D9);
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.restartButton:hover {
+  background: #3a7fc9;
+  transform: translateY(-2px);
+}

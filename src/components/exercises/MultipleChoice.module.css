@@ -78,6 +78,21 @@
   background: rgba(255, 255, 255, 0.03);
   border-radius: 8px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.wrongExplanation {
+  padding: 0.75rem;
+  background: rgba(239, 68, 68, 0.1);
+  border-left: 3px solid var(--danger, #ef4444);
+  border-radius: 4px;
+  text-align: left;
+}
+
+.wrongText {
+  color: var(--danger, #ef4444);
 }
 
 .submitButton {

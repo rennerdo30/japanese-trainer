@@ -1,0 +1,251 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding: 1rem;
+}
+
+.progressContainer {
+  position: relative;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progressBar {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent-blue, #4A90D9), var(--accent-green, #4ADE80));
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.progressText {
+  position: absolute;
+  right: 0;
+  top: 12px;
+  font-size: 0.75rem;
+  color: var(--text-secondary, #888);
+}
+
+.scoreDisplay {
+  text-align: center;
+  font-size: 0.875rem;
+  color: var(--text-secondary, #888);
+  padding: 0.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+}
+
+.distinction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.75rem;
+  background: rgba(139, 92, 246, 0.1);
+  border-radius: 8px;
+  border-left: 3px solid var(--accent-purple, #A855F7);
+}
+
+.distinctionLabel {
+  font-size: 0.75rem;
+  color: var(--text-secondary, #888);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.distinctionText {
+  font-size: 0.875rem;
+  color: var(--text-primary, #fff);
+  text-align: center;
+}
+
+.wordOptions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.wordButton {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1.5rem 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.wordButton:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+.wordButton:disabled {
+  cursor: default;
+}
+
+.wordButton.correct {
+  background: rgba(34, 197, 94, 0.15);
+  border-color: var(--success, #22c55e);
+}
+
+.wordButton.incorrect {
+  background: rgba(239, 68, 68, 0.15);
+  border-color: var(--danger, #ef4444);
+}
+
+.wordText {
+  font-size: 1.5rem;
+  color: var(--text-primary, #fff);
+  font-weight: 500;
+}
+
+.wordMeaning {
+  font-size: 0.875rem;
+  color: var(--text-secondary, #888);
+}
+
+.correctIndicator {
+  font-size: 0.75rem;
+  color: var(--success, #22c55e);
+  margin-top: 0.5rem;
+}
+
+.vsIndicator {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-tertiary, #666);
+  padding: 0.5rem;
+}
+
+.instructions {
+  text-align: center;
+  min-height: 50px;
+}
+
+.instructions p {
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--text-secondary, #888);
+}
+
+.guessPrompt {
+  color: var(--gold, #FFD700) !important;
+  font-weight: 500;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+.result {
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.resultCorrect {
+  background: rgba(34, 197, 94, 0.2);
+  color: var(--success, #22c55e);
+}
+
+.resultIncorrect {
+  background: rgba(239, 68, 68, 0.2);
+  color: var(--danger, #ef4444);
+}
+
+.explanation {
+  padding: 0.75rem 1rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+  font-size: 0.875rem;
+  color: var(--text-secondary, #888);
+  text-align: center;
+}
+
+.nextButton {
+  align-self: center;
+  padding: 0.75rem 2rem;
+  background: var(--accent-blue, #4A90D9);
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.nextButton:hover {
+  background: #3a7fc9;
+  transform: translateY(-2px);
+}
+
+.complete {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.completeIcon {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.completeIcon.good {
+  background: linear-gradient(135deg, #22c55e, #4ade80);
+}
+
+.completeIcon.needsPractice {
+  background: linear-gradient(135deg, #f59e0b, #fbbf24);
+}
+
+.complete h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: var(--text-primary, #fff);
+}
+
+.scoreText {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--text-secondary, #888);
+}
+
+.restartButton {
+  padding: 0.75rem 1.5rem;
+  background: var(--accent-blue, #4A90D9);
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.restartButton:hover {
+  background: #3a7fc9;
+  transform: translateY(-2px);
+}

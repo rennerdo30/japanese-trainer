@@ -17,6 +17,8 @@ html[data-theme="ko"] {
   --accent-red-light: #ff8ab0;
   --accent-gold: #d4b896;
   --accent-gold-dim: rgba(212, 184, 150, 0.15);
+  --accent-blue-text: #E8F4FF;
+  --accent-purple-text: #F0E6FF;
   --success: #5fb3a1;
   --success-glow: rgba(95, 179, 161, 0.3);
   --border-subtle: rgba(95, 179, 161, 0.1);

@@ -10,10 +10,22 @@ export type ExerciseType =
   | 'typing'
   | 'stroke_order';
 
+// Cognitive level for exercises (Bloom's taxonomy adapted)
+export type CognitiveLevel = 'recognition' | 'supported' | 'guided' | 'independent';
+
+// Skill focus for exercises
+export type SkillFocus = 'reading' | 'writing' | 'listening' | 'speaking' | 'grammar';
+
 export interface BaseExercise {
   id: string;
   type: ExerciseType;
   difficulty?: 'easy' | 'medium' | 'hard';
+  // Enhanced exercise fields
+  cognitiveLevel?: CognitiveLevel;
+  skillFocus?: SkillFocus;
+  explanation?: string;
+  wrongAnswerExplanations?: Record<string, string>;
+  hint?: string;
 }
 
 export interface MultipleChoiceExercise extends BaseExercise {
